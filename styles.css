@@ -25,6 +25,15 @@ body {
 h1, h2, h3, p { margin-top: 0; }
 .lead, .hint, .summary-copy, .disclaimer { color: var(--muted); }
 .search-card { padding: 20px 24px; margin-bottom: 20px; }
+.reports-card { margin-bottom: 20px; }
+.reports-head { display: flex; justify-content: space-between; align-items: start; gap: 16px; margin-bottom: 16px; }
+.reports-updated { color: var(--muted); font-size: 14px; }
+.reports-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.report-item {
+  text-align: left; background: var(--panel-2); border: 1px solid var(--border); border-radius: 14px;
+  padding: 14px; display: grid; gap: 6px; color: var(--text);
+}
+.report-item span { color: var(--muted); font-size: 14px; }
 .search-form label { display: block; margin-bottom: 10px; font-weight: 700; }
 .search-row { display: flex; gap: 12px; }
 input {
