@@ -2,6 +2,8 @@ const app = document.querySelector('#app');
 const form = document.querySelector('#symbol-form');
 const input = document.querySelector('#symbol-input');
 const template = document.querySelector('#result-template');
+const reportsList = document.querySelector('#reports-list');
+const reportsUpdated = document.querySelector('#reports-updated');
 
 const signalClass = {
   BUY: 'signal-buy',
@@ -17,6 +19,32 @@ function scoreToMeter(score) {
   return `${Math.max(0, Math.min(100, ((score + 1) / 2) * 100))}%`;
 }
 
+function formatDate(date) {
+  return new Date(date).toLocaleString('pl-PL');
+}
+
+function renderReportsIndex(indexData) {
+  reportsUpdated.textContent = `Ostatni fetch listy: ${formatDate(indexData.generatedAt)}`;
+  reportsList.innerHTML = '';
+
+  indexData.reports.forEach((report) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'report-item';
+    button.innerHTML = `
+      <strong>${report.symbol}</strong>
+      <span>${report.companyName || report.symbol}</span>
+      <span>Sygnał: ${report.signal}</span>
+      <span>Fetch: ${formatDate(report.updatedAt)}</span>
+    `;
+    button.addEventListener('click', () => {
+      input.value = report.symbol;
+      loadStock(report.symbol);
+    });
+    reportsList.appendChild(button);
+  });
+}
+
 function renderStock(data) {
   const node = template.content.cloneNode(true);
   const signal = data.analysis.signal;
@@ -30,7 +58,7 @@ function renderStock(data) {
   node.querySelector('.score').textContent = data.analysis.score.toFixed(2);
   node.querySelector('.confidence').textContent = `${Math.round(data.analysis.confidence * 100)}%`;
   node.querySelector('.comment-count').textContent = String(data.analysis.commentCount);
-  node.querySelector('.updated-at').textContent = new Date(data.updatedAt).toLocaleString('pl-PL');
+  node.querySelector('.updated-at').textContent = formatDate(data.report?.fetchedAt || data.updatedAt);
   node.querySelector('.quote-link').href = data.quoteUrl;
   node.querySelector('.forum-link').href = data.forumUrl;
 
@@ -50,7 +78,7 @@ function renderStock(data) {
         <strong>${comment.author || 'Anonim'}</strong>
         <span class="tag ${comment.sentimentLabel.toLowerCase()}">${comment.sentimentLabel}</span>
       </div>
-      <p>${comment.excerpt}</p>
+      <p>${comment.body}</p>
       <div class="comment-header">
         <span>${comment.threadTitle}</span>
         <a href="${comment.url}" target="_blank" rel="noreferrer">Źródło</a>
@@ -60,6 +88,17 @@ function renderStock(data) {
 
   app.innerHTML = '';
   app.appendChild(node);
+}
+
+async function loadReportsIndex() {
+  try {
+    const response = await fetch('./data/index.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error('index');
+    const data = await response.json();
+    renderReportsIndex(data);
+  } catch {
+    reportsUpdated.textContent = 'Nie udało się wczytać listy raportów.';
+  }
 }
 
 async function loadStock(symbol) {
@@ -89,3 +128,4 @@ form.addEventListener('submit', (event) => {
 });
 
 loadStock('EUVIC');
+loadReportsIndex();
