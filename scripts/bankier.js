@@ -31,6 +31,16 @@ function normalizeText(input) {
   return decodeHtml(stripTags(input)).replace(/\s+/g, ' ').trim();
 }
 
+function normalizeCommentHtml(input) {
+  return decodeHtml(input)
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/p>/gi, '\n\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
 async function fetchText(url) {
   const response = await fetch(url, {
     headers: { 'user-agent': 'Mozilla/5.0 BankierStreetBets/0.1' }
@@ -60,16 +70,28 @@ function extractMobilePostLinks(forumHtml) {
 }
 
 function extractThreadTitle(html) {
-  return normalizeText(html.match(/<title>(.*?)<\/title>/is)?.[1] || 'Wątek Bankier');
+  return normalizeText(
+    html.match(/<td class="threadTitle">[\s\S]*?<a[^>]*>([\s\S]*?)<\/a>[\s\S]*?<\/td>/i)?.[1]
+      || html.match(/<title>(.*?)<\/title>/is)?.[1]
+      || 'Wątek Bankier'
+  );
 }
 
-function extractParagraphs(html) {
-  const text = normalizeText(html);
-  const sentences = text
-    .split(/(?<=[\.!?])\s+/)
-    .map((item) => item.trim())
-    .filter((item) => item.length > 40);
-  return sentences.slice(0, 4);
+function extractPosts(html, fallbackUrl, fallbackTitle) {
+  const blocks = [...html.matchAll(/<span class="author name">([\s\S]*?)<\/span>[\s\S]*?<div class="p">([\s\S]*?)<\/div>/gi)];
+
+  return blocks.map((match, index) => {
+    const authorRaw = normalizeText(match[1]);
+    const body = normalizeCommentHtml(match[2]);
+    const author = authorRaw.replace(/^Autor:\s*/i, '').replace(/^~/, '').trim() || 'Anonim';
+    return {
+      id: `${fallbackUrl}#post-${index + 1}`,
+      author,
+      body,
+      threadTitle: fallbackTitle,
+      url: fallbackUrl
+    };
+  }).filter((post) => post.body.length > 30);
 }
 
 function sentimentScore(text) {
@@ -87,7 +109,7 @@ function sentimentScore(text) {
 function keywordStats(comments) {
   const counts = new Map();
   for (const comment of comments) {
-    for (const token of comment.excerpt.toLowerCase().match(/[a-ząćęłńóśźż]{4,}/gi) || []) {
+    for (const token of comment.body.toLowerCase().match(/[a-ząćęłńóśźż]{4,}/gi) || []) {
       if (STOPWORDS.has(token)) continue;
       counts.set(token, (counts.get(token) || 0) + 1);
     }
@@ -105,7 +127,7 @@ function aggregate(comments) {
   const confidence = Math.min(0.95, 0.35 + comments.length * 0.08 + Math.abs(score) * 0.4);
   const topKeywords = keywordStats(comments);
   const bias = score > 0.15 ? 'umiarkowanie pozytywne' : score < -0.15 ? 'umiarkowanie negatywne' : 'mieszane';
-  const summary = `Ostatnie zebrane wpisy są ${bias}; sygnał wynika z heurystyki słów kluczowych i proporcji komentarzy dodatnich do ujemnych.`;
+  const summary = `Ostatnie zebrane komentarze są ${bias}; sygnał wynika z pełnej treści wpisów, słów kluczowych i proporcji komentarzy dodatnich do ujemnych.`;
   return { signal, score, confidence, commentCount: comments.length, summary, topKeywords };
 }
 
@@ -125,13 +147,15 @@ async function collectStock(symbol) {
     try {
       const html = await fetchText(url);
       const threadTitle = extractThreadTitle(html);
-      for (const excerpt of extractParagraphs(html).slice(0, 2)) {
-        const sentiment = sentimentScore(excerpt);
+      for (const post of extractPosts(html, url, threadTitle).slice(0, 3)) {
+        const predictionText = `${post.threadTitle}. ${post.body}`;
+        const sentiment = sentimentScore(predictionText);
         comments.push({
-          author: 'bankier-user',
-          threadTitle,
-          url,
-          excerpt,
+          id: post.id,
+          author: post.author,
+          threadTitle: post.threadTitle,
+          url: post.url,
+          body: post.body,
           sentimentScore: sentiment.score,
           sentimentLabel: sentiment.label
         });
@@ -141,7 +165,9 @@ async function collectStock(symbol) {
     }
   }
 
-  const uniqueComments = comments.filter((item, index, array) => array.findIndex((other) => other.excerpt === item.excerpt) === index).slice(0, 12);
+  const uniqueComments = comments
+    .filter((item, index, array) => array.findIndex((other) => other.body === item.body) === index)
+    .slice(0, 12);
   const analysis = aggregate(uniqueComments);
   return {
     symbol,
@@ -149,6 +175,11 @@ async function collectStock(symbol) {
     quoteUrl,
     forumUrl,
     updatedAt: new Date().toISOString(),
+    report: {
+      available: true,
+      source: 'Bankier.pl forum',
+      fetchedAt: new Date().toISOString()
+    },
     analysis,
     comments: uniqueComments
   };
