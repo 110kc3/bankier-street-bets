@@ -1,6 +1,7 @@
 const app = document.querySelector('#app');
 const form = document.querySelector('#symbol-form');
 const input = document.querySelector('#symbol-input');
+const commentLimitInput = document.querySelector('#comment-limit-input');
 const template = document.querySelector('#result-template');
 const reportsList = document.querySelector('#reports-list');
 const reportsUpdated = document.querySelector('#reports-updated');
@@ -35,10 +36,12 @@ function renderReportsIndex(indexData) {
       <strong>${report.symbol}</strong>
       <span>${report.companyName || report.symbol}</span>
       <span>Sygnał: ${report.signal}</span>
+      <span>Limit komentarzy: ${report.commentLimit || 5}</span>
       <span>Fetch: ${formatDate(report.updatedAt)}</span>
     `;
     button.addEventListener('click', () => {
       input.value = report.symbol;
+      commentLimitInput.value = report.commentLimit || 5;
       loadStock(report.symbol);
     });
     reportsList.appendChild(button);
@@ -46,6 +49,8 @@ function renderReportsIndex(indexData) {
 }
 
 function renderStock(data) {
+  const requestedLimit = Math.max(1, Number(commentLimitInput.value) || 5);
+  const visibleComments = data.comments.slice(0, requestedLimit);
   const node = template.content.cloneNode(true);
   const signal = data.analysis.signal;
   node.querySelector('.symbol').textContent = data.symbol;
@@ -57,7 +62,8 @@ function renderStock(data) {
   node.querySelector('.summary-copy').textContent = data.analysis.summary;
   node.querySelector('.score').textContent = data.analysis.score.toFixed(2);
   node.querySelector('.confidence').textContent = `${Math.round(data.analysis.confidence * 100)}%`;
-  node.querySelector('.comment-count').textContent = String(data.analysis.commentCount);
+  node.querySelector('.comment-count').textContent = String(visibleComments.length);
+  node.querySelector('.comment-limit').textContent = `${visibleComments.length} / ${data.report?.commentLimit || data.analysis.commentCount}`;
   node.querySelector('.updated-at').textContent = formatDate(data.report?.fetchedAt || data.updatedAt);
   node.querySelector('.quote-link').href = data.quoteUrl;
   node.querySelector('.forum-link').href = data.forumUrl;
@@ -70,7 +76,7 @@ function renderStock(data) {
   });
 
   const comments = node.querySelector('.comments');
-  data.comments.forEach((comment) => {
+  visibleComments.forEach((comment) => {
     const article = document.createElement('article');
     article.className = 'comment';
     article.innerHTML = `
@@ -78,6 +84,7 @@ function renderStock(data) {
         <strong>${comment.author || 'Anonim'}</strong>
         <span class="tag ${comment.sentimentLabel.toLowerCase()}">${comment.sentimentLabel}</span>
       </div>
+      <div class="comment-meta">Data: ${comment.postedAt ? formatDate(comment.postedAt) : 'brak'}</div>
       <p>${comment.body}</p>
       <div class="comment-header">
         <span>${comment.threadTitle}</span>
