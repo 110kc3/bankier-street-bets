@@ -12,6 +12,7 @@ const NEGATIVE_WORDS = [
 ];
 
 const STOPWORDS = new Set(['oraz', 'ktory', 'który', 'spolka', 'spółka', 'forum', 'bankier', 'jest', 'dla', 'sie', 'się', 'czy']);
+const DEFAULT_COMMENT_LIMIT = 5;
 
 function stripTags(input) {
   return input.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ');
@@ -78,15 +79,17 @@ function extractThreadTitle(html) {
 }
 
 function extractPosts(html, fallbackUrl, fallbackTitle) {
-  const blocks = [...html.matchAll(/<span class="author name">([\s\S]*?)<\/span>[\s\S]*?<div class="p">([\s\S]*?)<\/div>/gi)];
+  const blocks = [...html.matchAll(/<span class="author name">([\s\S]*?)<\/span>[\s\S]*?<time class="entry-date"[^>]*datetime="([^"]+)"[^>]*>[\s\S]*?<\/time>[\s\S]*?<div class="p">([\s\S]*?)<\/div>/gi)];
 
   return blocks.map((match, index) => {
     const authorRaw = normalizeText(match[1]);
-    const body = normalizeCommentHtml(match[2]);
+    const postedAt = normalizeText(match[2]);
+    const body = normalizeCommentHtml(match[3]);
     const author = authorRaw.replace(/^Autor:\s*/i, '').replace(/^~/, '').trim() || 'Anonim';
     return {
       id: `${fallbackUrl}#post-${index + 1}`,
       author,
+      postedAt,
       body,
       threadTitle: fallbackTitle,
       url: fallbackUrl
@@ -131,7 +134,8 @@ function aggregate(comments) {
   return { signal, score, confidence, commentCount: comments.length, summary, topKeywords };
 }
 
-async function collectStock(symbol) {
+async function collectStock(symbol, options = {}) {
+  const commentLimit = Math.max(1, Number(options.commentLimit) || DEFAULT_COMMENT_LIMIT);
   const quoteUrl = `https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=${symbol}`;
   const quoteHtml = await fetchText(quoteUrl);
   const companyName = normalizeText(quoteHtml.match(/<title>(.*?)\(/i)?.[1] || symbol);
@@ -153,6 +157,7 @@ async function collectStock(symbol) {
         comments.push({
           id: post.id,
           author: post.author,
+          postedAt: post.postedAt,
           threadTitle: post.threadTitle,
           url: post.url,
           body: post.body,
@@ -167,7 +172,8 @@ async function collectStock(symbol) {
 
   const uniqueComments = comments
     .filter((item, index, array) => array.findIndex((other) => other.body === item.body) === index)
-    .slice(0, 12);
+    .sort((a, b) => new Date(b.postedAt || 0).getTime() - new Date(a.postedAt || 0).getTime())
+    .slice(0, commentLimit);
   const analysis = aggregate(uniqueComments);
   return {
     symbol,
@@ -178,7 +184,8 @@ async function collectStock(symbol) {
     report: {
       available: true,
       source: 'Bankier.pl forum',
-      fetchedAt: new Date().toISOString()
+      fetchedAt: new Date().toISOString(),
+      commentLimit
     },
     analysis,
     comments: uniqueComments
