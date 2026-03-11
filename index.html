@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bankier Street Bets</title>
+    <meta
+      name="description"
+      content="Prosty bet maker dla polskich akcji oparty o komentarze z forum Bankier.pl"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <p class="eyebrow">Bankier Street Bets</p>
+        <h1>Buy / Hold / Sell dla GPW z komentarzy Bankier.pl</h1>
+        <p class="lead">
+          Wpisz ticker spółki, np. <strong>EUVIC</strong>, aby zobaczyć ostatnie zebrane
+          komentarze, scoring sentymentu i prosty sygnał inwestycyjny.
+        </p>
+      </header>
+
+      <section class="search-card">
+        <form id="symbol-form" class="search-form">
+          <label for="symbol-input">Kod spółki</label>
+          <div class="search-row">
+            <input id="symbol-input" name="symbol" placeholder="EUVIC" maxlength="12" />
+            <button type="submit">Analizuj</button>
+          </div>
+        </form>
+        <p class="hint">
+          Dane są generowane statycznie przez GitHub Actions i publikowane na GitHub Pages.
+        </p>
+      </section>
+
+      <main id="app" class="results-shell">
+        <section class="empty-state card">
+          <h2>Gotowe do analizy</h2>
+          <p>Wpisz symbol, aby wczytać ostatni zapisany snapshot danych.</p>
+        </section>
+      </main>
+    </div>
+
+    <template id="result-template">
+      <section class="result-grid">
+        <article class="card summary-card">
+          <div class="summary-head">
+            <div>
+              <p class="eyebrow symbol"></p>
+              <h2 class="company-name"></h2>
+            </div>
+            <div class="signal-pill"></div>
+          </div>
+          <div class="meter-wrap">
+            <div class="meter-track"><div class="meter-fill"></div></div>
+            <div class="meter-labels">
+              <span>Sell</span>
+              <span>Hold</span>
+              <span>Buy</span>
+            </div>
+          </div>
+          <div class="summary-copy"></div>
+          <dl class="meta-grid">
+            <div><dt>Score</dt><dd class="score"></dd></div>
+            <div><dt>Pewność</dt><dd class="confidence"></dd></div>
+            <div><dt>Komentarze</dt><dd class="comment-count"></dd></div>
+            <div><dt>Aktualizacja</dt><dd class="updated-at"></dd></div>
+          </dl>
+          <div class="links">
+            <a class="quote-link" target="_blank" rel="noreferrer">Profil spółki</a>
+            <a class="forum-link" target="_blank" rel="noreferrer">Forum spółki</a>
+          </div>
+        </article>
+
+        <article class="card keywords-card">
+          <h3>Dominujące słowa i wątki</h3>
+          <ul class="keywords"></ul>
+          <p class="disclaimer">
+            To heurystyka oparta o słowa kluczowe, nie porada inwestycyjna.
+          </p>
+        </article>
+
+        <article class="card comments-card">
+          <h3>Ostatnie komentarze</h3>
+          <div class="comments"></div>
+        </article>
+      </section>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+  </html>
