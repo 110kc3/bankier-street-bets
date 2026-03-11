@@ -26,11 +26,12 @@
           <label for="symbol-input">Kod spółki</label>
           <div class="search-row">
             <input id="symbol-input" name="symbol" placeholder="EUVIC" maxlength="12" />
+            <input id="comment-limit-input" name="commentLimit" type="number" min="1" max="20" value="5" />
             <button type="submit">Analizuj</button>
           </div>
         </form>
         <p class="hint">
-          Dane są generowane statycznie przez GitHub Actions i publikowane na GitHub Pages.
+          Domyślnie analizowanych jest 5 najnowszych komentarzy. Możesz zmienić ten limit przy odświeżaniu danych.
         </p>
       </section>
 
@@ -76,6 +77,7 @@
             <div><dt>Score</dt><dd class="score"></dd></div>
             <div><dt>Pewność</dt><dd class="confidence"></dd></div>
             <div><dt>Komentarze</dt><dd class="comment-count"></dd></div>
+            <div><dt>Limit</dt><dd class="comment-limit"></dd></div>
             <div><dt>Aktualizacja</dt><dd class="updated-at"></dd></div>
           </dl>
           <div class="links">
