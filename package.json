@@ -1,0 +1,11 @@
+{
+  "name": "bankier-street-bets",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "refresh": "node scripts/refresh-all.js",
+    "refresh:one": "node scripts/refresh-stock.js",
+    "serve": "python -m http.server 4173"
+  }
+}
