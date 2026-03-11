@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "refresh": "node scripts/refresh-all.js",
+    "refresh": "node scripts/refresh-all.js 5",
     "refresh:one": "node scripts/refresh-stock.js",
     "serve": "python -m http.server 4173"
   }
