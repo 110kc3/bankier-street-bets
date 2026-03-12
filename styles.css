@@ -28,7 +28,27 @@ h1, h2, h3, p { margin-top: 0; }
 .reports-card { margin-bottom: 20px; }
 .reports-head { display: flex; justify-content: space-between; align-items: start; gap: 16px; margin-bottom: 16px; }
 .reports-updated { color: var(--muted); font-size: 14px; }
-.reports-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.reports-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  max-height: 460px;
+  overflow: auto;
+  padding-right: 6px;
+}
+
+.reports-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.reports-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+
+.reports-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
 .report-item {
   text-align: left; background: var(--panel-2); border: 1px solid var(--border); border-radius: 14px;
   padding: 14px; display: grid; gap: 6px; color: var(--text);
@@ -40,7 +60,6 @@ input {
   flex: 1; background: #091426; color: var(--text); border: 1px solid var(--border);
   border-radius: 14px; padding: 14px 16px; font-size: 16px; text-transform: uppercase;
 }
-#comment-limit-input { flex: 0 0 120px; }
 .comment-meta { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
 button {
   border: 0; border-radius: 14px; padding: 14px 18px; font-weight: 700; cursor: pointer;
@@ -58,7 +77,7 @@ button {
 .meter-fill { height: 100%; background: rgba(255,255,255,0.55); width: 50%; mix-blend-mode: screen; }
 .meter-wrap { margin: 20px 0; }
 .meter-labels { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; margin-top: 6px; }
-.meta-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+.meta-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
 .meta-grid div, .comment { background: var(--panel-2); border-radius: 14px; padding: 14px; }
 dt { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
 dd { margin: 0; font-weight: 700; }
@@ -77,5 +96,4 @@ a { color: #9fc2ff; }
 @media (max-width: 800px) {
   .search-row, .summary-head { flex-direction: column; }
   .meta-grid { grid-template-columns: repeat(2, 1fr); }
-  #comment-limit-input { flex: 1 1 auto; }
 }
