@@ -12,6 +12,14 @@ on:
         required: false
         default: '5'
         type: string
+      stock_preset:
+        description: 'Refresh configured symbols or a top-20 preset'
+        required: false
+        default: 'configured'
+        type: choice
+        options:
+          - configured
+          - top20
   schedule:
     - cron: '15 */6 * * *'
 
@@ -24,6 +32,7 @@ jobs:
     env:
       STOCK_SYMBOL: ${{ github.event.inputs.symbol }}
       COMMENT_LIMIT: ${{ github.event.inputs.comment_limit || '5' }}
+      STOCK_PRESET: ${{ github.event.inputs.stock_preset || 'configured' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -34,7 +43,7 @@ jobs:
           if [ -n "$STOCK_SYMBOL" ]; then
             npm run refresh:one -- "$STOCK_SYMBOL" "$COMMENT_LIMIT"
           else
-            npm run refresh -- "$COMMENT_LIMIT"
+            node scripts/refresh-all.js "$COMMENT_LIMIT" "$STOCK_PRESET"
           fi
       - name: Commit refreshed data
         run: |
