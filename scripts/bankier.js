@@ -3,12 +3,16 @@ import path from 'node:path';
 
 const POSITIVE_WORDS = [
   'wzrost', 'rosnie', 'rośnie', 'zysk', 'wyniki', 'mocny', 'mocne', 'dobry', 'dobra', 'kupuje', 'kupuję',
-  'kontrakt', 'strategia', 'gpw', 'rozwój', 'potencjał', 'premium'
+  'akumulacja', 'atrakcyjny', 'byczy', 'kontrakt', 'lepiej', 'lider', 'odbicie', 'okazja', 'optymistycznie',
+  'perspektywy', 'polecam', 'potencjał', 'premium', 'przebicie', 'rakieta', 'rozwój', 'silny', 'stabilny',
+  'strategia', 'sukces', 'super', 'trend-wzrostowy', 'umocnienie', 'warto', 'wybicie', 'zaniżona', 'zawyżone?'
 ];
 
 const NEGATIVE_WORDS = [
   'spadek', 'spada', 'strata', 'slaby', 'słaby', 'slabe', 'słabe', 'sprzedaj', 'ryzyko', 'zadłużenie',
-  'dlug', 'dług', 'problem', 'zagrozenie', 'zagrożenie', 'zmienność'
+  'besse', 'bessa', 'dołek', 'dramat', 'fatalny', 'korekta', 'minus', 'niepokojące', 'obsuniecie', 'obsunięcie',
+  'odradzam', 'panika', 'podaz', 'podaż', 'problem', 'przecena', 'rozwodnienie', 'slabnie', 'słabnie', 'spadkowy',
+  'sprzedaż', 'topnieje', 'uwaga', 'wyprzedaz', 'wyprzedaż', 'zagrozenie', 'zagrożenie', 'załamanie', 'zmienność'
 ];
 
 const STOPWORDS = new Set(['oraz', 'ktory', 'który', 'spolka', 'spółka', 'forum', 'bankier', 'jest', 'dla', 'sie', 'się', 'czy']);
@@ -42,6 +46,16 @@ function normalizeCommentHtml(input) {
     .trim();
 }
 
+function slugify(input) {
+  return String(input || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 120);
+}
+
 async function fetchText(url) {
   const response = await fetch(url, {
     headers: { 'user-agent': 'Mozilla/5.0 BankierStreetBets/0.1' }
@@ -58,43 +72,40 @@ function makeForumUrl(symbol, quoteHtml) {
   return `https://m.bankier.pl/forum/spolka/${symbol.toUpperCase()}`;
 }
 
+function extractForumMeta(forumHtml) {
+  const match = forumHtml.match(/<div id="forumThreads"[^>]*data-forum-id="([^"]*)"[^>]*data-instrument-type="([^"]*)"[^>]*data-far-id="([^"]*)"/i);
+  if (!match) return null;
+  return {
+    forumId: match[1],
+    instrumentType: match[2],
+    farId: match[3]
+  };
+}
+
 function extractCanonicalForumUrl(forumHtml, fallback) {
   return forumHtml.match(/<link rel="canonical" href="([^"]+)"/i)?.[1] || fallback;
 }
 
-function extractThreadLinks(forumHtml) {
-  return [...new Set([...forumHtml.matchAll(/href="(\/forum\/temat_[^"]+?\.html)"/gi)].map((m) => `https://www.bankier.pl${m[1]}`))];
+async function fetchJson(url) {
+  return JSON.parse(await fetchText(url));
 }
 
-function extractMobilePostLinks(forumHtml) {
-  return [...new Set([...forumHtml.matchAll(/href="(\/forum\/post\/\d+)"/gi)].map((m) => `https://m.bankier.pl${m[1]}`))];
+function buildThreadUrl(thread) {
+  const slug = slugify(thread.subject || 'watek-bankier');
+  return `https://www.bankier.pl/forum/temat_${slug},${thread.post_id}.html`;
 }
 
-function extractThreadTitle(html) {
-  return normalizeText(
-    html.match(/<td class="threadTitle">[\s\S]*?<a[^>]*>([\s\S]*?)<\/a>[\s\S]*?<\/td>/i)?.[1]
-      || html.match(/<title>(.*?)<\/title>/is)?.[1]
-      || 'Wątek Bankier'
-  );
-}
-
-function extractPosts(html, fallbackUrl, fallbackTitle) {
-  const blocks = [...html.matchAll(/<span class="author name">([\s\S]*?)<\/span>[\s\S]*?<time class="entry-date"[^>]*datetime="([^"]+)"[^>]*>[\s\S]*?<\/time>[\s\S]*?<div class="p">([\s\S]*?)<\/div>/gi)];
-
-  return blocks.map((match, index) => {
-    const authorRaw = normalizeText(match[1]);
-    const postedAt = normalizeText(match[2]);
-    const body = normalizeCommentHtml(match[3]);
-    const author = authorRaw.replace(/^Autor:\s*/i, '').replace(/^~/, '').trim() || 'Anonim';
-    return {
-      id: `${fallbackUrl}#post-${index + 1}`,
-      author,
-      postedAt,
-      body,
-      threadTitle: fallbackTitle,
-      url: fallbackUrl
-    };
-  }).filter((post) => post.body.length > 30);
+function mapThreadPost(post, thread) {
+  const author = normalizeText(post.login || '').replace(/^~/, '').trim() || 'Anonim';
+  const body = normalizeCommentHtml(post.body || '');
+  return {
+    id: String(post.id || `${thread.thread_id}-${post.date}`),
+    author,
+    postedAt: normalizeText(post.date || thread.last_dt || ''),
+    body,
+    threadTitle: normalizeText(post.subject || thread.subject || 'Wątek Bankier'),
+    url: buildThreadUrl(thread)
+  };
 }
 
 function sentimentScore(text) {
@@ -142,16 +153,34 @@ async function collectStock(symbol, options = {}) {
   const mobileForumUrl = makeForumUrl(symbol, quoteHtml);
   const forumHtml = await fetchText(mobileForumUrl);
   const forumUrl = extractCanonicalForumUrl(forumHtml, mobileForumUrl);
-  const threadLinks = extractThreadLinks(forumHtml);
-  const mobilePostLinks = extractMobilePostLinks(forumHtml);
-  const seeds = [...threadLinks, ...mobilePostLinks].slice(0, 8);
+  const forumMeta = extractForumMeta(forumHtml);
+
+  if (!forumMeta?.forumId) {
+    throw new Error(`Could not extract forum metadata for ${symbol}`);
+  }
+
+  const threadsUrl = new URL('https://m.bankier.pl/json/get_threads');
+  threadsUrl.searchParams.set('page', '1');
+  threadsUrl.searchParams.set('limit', String(Math.max(commentLimit * 3, 10)));
+  threadsUrl.searchParams.set('forum_id', forumMeta.forumId);
+  if (forumMeta.instrumentType) threadsUrl.searchParams.set('instrument_type', forumMeta.instrumentType);
+  if (forumMeta.farId) threadsUrl.searchParams.set('far_id', forumMeta.farId);
+
+  const threadsResponse = await fetchJson(threadsUrl.toString());
+  const threads = Array.isArray(threadsResponse?.threads) ? threadsResponse.threads : [];
 
   const comments = [];
-  for (const url of seeds) {
+  for (const thread of threads) {
     try {
-      const html = await fetchText(url);
-      const threadTitle = extractThreadTitle(html);
-      for (const post of extractPosts(html, url, threadTitle).slice(0, 3)) {
+      const threadUrl = new URL('https://m.bankier.pl/json/get_thread');
+      threadUrl.searchParams.set('thread_id', String(thread.thread_id));
+      threadUrl.searchParams.set('offset', '0');
+      threadUrl.searchParams.set('limit', String(Math.max(3, Math.min(Number(thread.quantity) || 3, commentLimit))));
+      threadUrl.searchParams.set('order', 'desc');
+      const threadResponse = await fetchJson(threadUrl.toString());
+      const posts = Array.isArray(threadResponse?.list) ? threadResponse.list : [];
+
+      for (const post of posts.map((item) => mapThreadPost(item, thread)).filter((item) => item.body.length > 20)) {
         const predictionText = `${post.threadTitle}. ${post.body}`;
         const sentiment = sentimentScore(predictionText);
         comments.push({
@@ -168,6 +197,7 @@ async function collectStock(symbol, options = {}) {
     } catch {
       // ignore single thread failure
     }
+    if (comments.length >= commentLimit * 2) break;
   }
 
   const uniqueComments = comments
