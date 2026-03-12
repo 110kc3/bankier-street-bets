@@ -12,6 +12,15 @@ const signalClass = {
   SELL: 'signal-sell'
 };
 
+function escapeHtml(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 function setMessage(title, message, error = false) {
   app.innerHTML = `<section class="card ${error ? 'error' : ''}"><h2>${title}</h2><p>${message}</p></section>`;
 }
@@ -21,7 +30,8 @@ function scoreToMeter(score) {
 }
 
 function formatDate(date) {
-  return new Date(date).toLocaleString('pl-PL');
+  const parsed = new Date(String(date).replace(' ', 'T'));
+  return Number.isNaN(parsed.getTime()) ? 'brak daty' : parsed.toLocaleString('pl-PL');
 }
 
 function renderReportsIndex(indexData) {
@@ -49,10 +59,16 @@ function renderReportsIndex(indexData) {
 }
 
 function renderStock(data) {
+  if (!data || !data.analysis) {
+    setMessage('Brak analizy', 'Plik danych istnieje, ale nie zawiera poprawnej analizy.', true);
+    return;
+  }
+
   const requestedLimit = Math.max(1, Number(commentLimitInput.value) || 5);
-  const visibleComments = data.comments.slice(0, requestedLimit);
+  const allComments = Array.isArray(data.comments) ? data.comments : [];
+  const visibleComments = allComments.slice(0, requestedLimit);
   const node = template.content.cloneNode(true);
-  const signal = data.analysis.signal;
+  const signal = data.analysis.signal || 'HOLD';
   node.querySelector('.symbol').textContent = data.symbol;
   node.querySelector('.company-name').textContent = data.companyName || data.symbol;
   const pill = node.querySelector('.signal-pill');
@@ -74,21 +90,32 @@ function renderStock(data) {
     li.textContent = `${item.word} (${item.count})`;
     keywords.appendChild(li);
   });
+  if (!keywords.children.length) {
+    const li = document.createElement('li');
+    li.textContent = 'Brak dominujących słów dla tego zestawu komentarzy.';
+    keywords.appendChild(li);
+  }
 
   const comments = node.querySelector('.comments');
+  if (!visibleComments.length) {
+    const empty = document.createElement('p');
+    empty.textContent = 'Brak zapisanych komentarzy dla tego symbolu.';
+    comments.appendChild(empty);
+  }
+
   visibleComments.forEach((comment) => {
     const article = document.createElement('article');
     article.className = 'comment';
     article.innerHTML = `
       <div class="comment-header">
-        <strong>${comment.author || 'Anonim'}</strong>
-        <span class="tag ${comment.sentimentLabel.toLowerCase()}">${comment.sentimentLabel}</span>
+        <strong>${escapeHtml(comment.author || 'Anonim')}</strong>
+        <span class="tag ${String(comment.sentimentLabel || 'Neutral').toLowerCase()}">${escapeHtml(comment.sentimentLabel || 'Neutral')}</span>
       </div>
       <div class="comment-meta">Data: ${comment.postedAt ? formatDate(comment.postedAt) : 'brak'}</div>
-      <p>${comment.body}</p>
+      <p>${escapeHtml(comment.body || '')}</p>
       <div class="comment-header">
-        <span>${comment.threadTitle}</span>
-        <a href="${comment.url}" target="_blank" rel="noreferrer">Źródło</a>
+        <span>${escapeHtml(comment.threadTitle || 'Wątek Bankier')}</span>
+        <a href="${escapeHtml(comment.url || '#')}" target="_blank" rel="noreferrer">Źródło</a>
       </div>`;
     comments.appendChild(article);
   });
