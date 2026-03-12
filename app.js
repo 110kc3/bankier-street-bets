@@ -122,6 +122,12 @@ function renderStock(data) {
 
   app.innerHTML = '';
   app.appendChild(node);
+
+  // UX: when selecting a report from the list, the results are rendered below it.
+  // Auto-scroll so users immediately see the analysis.
+  requestAnimationFrame(() => {
+    app.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
 }
 
 async function loadReportsIndex() {
