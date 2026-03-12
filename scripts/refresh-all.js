@@ -1,7 +1,15 @@
 import fs from 'node:fs/promises';
 import { collectStock, writeStockFile } from './bankier.js';
 
-const symbols = JSON.parse(await fs.readFile('config/stocks.json', 'utf8'));
+const TOP20_SYMBOLS = [
+  'PKNORLEN', 'PKOBP', 'PEKAO', 'PZU', 'DINOPL', 'ALLEGRO', 'KGHM', 'LPP', 'CDPROJEKT', 'MBANK',
+  'SANTANDER', 'KRUK', 'CCC', 'CYFRPLSAT', 'BUDIMEX', 'ORANGEPL', 'JSW', 'TAURONPE', 'PGE', 'PLAY'
+];
+
+const preset = String(process.argv[3] || process.env.STOCK_PRESET || 'configured').trim().toLowerCase();
+const symbols = preset === 'top20'
+  ? TOP20_SYMBOLS
+  : JSON.parse(await fs.readFile('config/stocks.json', 'utf8'));
 const reports = [];
 const commentLimit = Number(process.argv[2] || process.env.COMMENT_LIMIT || 5);
 
@@ -27,5 +35,6 @@ for (const rawSymbol of symbols) {
 
 await fs.writeFile('data/index.json', JSON.stringify({
   generatedAt: new Date().toISOString(),
+  preset,
   reports
 }, null, 2) + '\n');
