@@ -25,6 +25,12 @@ test('index.json: struktura i brak usuniętych tickerów', () => {
   }
 });
 
+test('config/stocks.json <-> data/stocks spójne (cron nie zgubi spółek)', async () => {
+  const cfg = JSON.parse(await fs.readFile('config/stocks.json', 'utf8')).map(String);
+  const onDisk = stockFiles.map((f) => f.replace('.json', ''));
+  assert.deepEqual([...cfg].sort(), [...onDisk].sort());
+});
+
 test('index.json <-> data/stocks spójne 1:1', () => {
   const inIndex = new Set(index.reports.map((r) => r.symbol));
   const onDisk = new Set(stockFiles.map((f) => f.replace('.json', '')));
