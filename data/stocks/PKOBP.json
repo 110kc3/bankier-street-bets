@@ -3,32 +3,92 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-06-10T10:47:18.092Z",
+  "updatedAt": "2026-06-10T12:02:35.748Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-10T10:47:18.092Z",
-    "windowDays": 7,
+    "fetchedAt": "2026-06-10T12:02:35.748Z",
+    "windowDays": 30,
     "requestedDays": 7,
-    "windowExtended": false,
-    "threadsScanned": 5,
-    "commentLimit": 7
+    "windowExtended": true,
+    "threadsScanned": 19,
+    "commentLimit": 40
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.136,
-    "confidence": 0.39,
-    "commentCount": 7,
+    "score": 0.062,
+    "confidence": 0.59,
+    "commentCount": 40,
     "breakdown": {
-      "positive": 2,
-      "negative": 1,
-      "neutral": 4
+      "positive": 10,
+      "negative": 8,
+      "neutral": 22
     },
     "trend": [
       {
-        "date": "2026-06-03",
+        "date": "2026-05-12",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-05-14",
+        "score": 0,
+        "count": 3
+      },
+      {
+        "date": "2026-05-15",
+        "score": 0,
+        "count": 3
+      },
+      {
+        "date": "2026-05-20",
+        "score": 0.583,
+        "count": 1
+      },
+      {
+        "date": "2026-05-22",
+        "score": -0.322,
+        "count": 1
+      },
+      {
+        "date": "2026-05-24",
+        "score": 0,
+        "count": 1
+      },
+      {
+        "date": "2026-05-25",
+        "score": -0.931,
+        "count": 1
+      },
+      {
+        "date": "2026-05-26",
+        "score": 0,
+        "count": 1
+      },
+      {
+        "date": "2026-05-28",
+        "score": 0,
+        "count": 5
+      },
+      {
+        "date": "2026-05-29",
+        "score": 0.516,
+        "count": 4
+      },
+      {
+        "date": "2026-06-01",
+        "score": -0.156,
+        "count": 9
+      },
+      {
+        "date": "2026-06-02",
+        "score": 0.161,
+        "count": 2
+      },
+      {
+        "date": "2026-06-03",
+        "score": 0.291,
+        "count": 2
       },
       {
         "date": "2026-06-04",
@@ -56,9 +116,45 @@
         "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 7 komentarzy z ostatnich 7 dni: nastroje pozytywne (2 pozytywnych, 1 negatywnych, 4 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 40 komentarzy z ostatnich 30 dni: nastroje mieszane (10 pozytywnych, 8 negatywnych, 22 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "pkobp",
+        "count": 3
+      },
+      {
+        "word": "bankach",
+        "count": 3
+      },
+      {
+        "word": "zarobek",
+        "count": 3
+      },
+      {
+        "word": "zyski",
+        "count": 3
+      },
+      {
+        "word": "wiecej",
+        "count": 3
+      },
+      {
+        "word": "bankow",
+        "count": 3
+      },
+      {
+        "word": "walor",
+        "count": 3
+      },
+      {
+        "word": "luka",
+        "count": 3
+      },
+      {
+        "word": "kazdy",
+        "count": 2
+      },
       {
         "word": "warszawa",
         "count": 2
@@ -160,6 +256,468 @@
       "votes": {
         "up": 0,
         "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74682857",
+      "author": "MIKE",
+      "postedAt": "2026-06-03 09:50",
+      "threadTitle": "Koniec korekty i powrót do wzrostu przed dywidendą",
+      "url": "https://www.bankier.pl/forum/temat_koniec-korekty-i-powrot-do-wzrostu-przed-dywidenda,74682857.html",
+      "body": "Uważam że korekta będzie się konczyć w tym tygodniu i kurs wróci na poziom 105+Jeśli przebije opór przy 110 jest szansa na 120 pod koniec czerwca.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74671475",
+      "author": "Mistrz_giełdy",
+      "postedAt": "2026-06-02 12:05",
+      "threadTitle": "Re: cena/zysk",
+      "url": "https://www.bankier.pl/forum/temat_cena-zysk,74629617.html",
+      "body": "Co za bzdury. Nic się nie zmienia na tym forum.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74671419",
+      "author": "Mistrz_giełdy",
+      "postedAt": "2026-06-02 12:02",
+      "threadTitle": "Re: Jeszcze można uciekać za 100.",
+      "url": "https://www.bankier.pl/forum/temat_jeszcze-mozna-uciekac-za-100,74618199.html",
+      "body": "No o już nie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74662175",
+      "author": "Elf",
+      "postedAt": "2026-06-01 17:33",
+      "threadTitle": "Re: GWAŁTOWNY SPADEK ZYSKÓW JEST JEDNAK DOPIERO PRZED NAMI.",
+      "url": "https://www.bankier.pl/forum/temat_gwaltowny-spadek-zyskow-jest-jednak-dopiero-przed-nami,74211971.html",
+      "body": "Dystrybucja od 4 miesięcy...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74661411",
+      "author": "bob",
+      "postedAt": "2026-06-01 16:47",
+      "threadTitle": "Re: GWAŁTOWNY SPADEK ZYSKÓW JEST JEDNAK DOPIERO PRZED NAMI.",
+      "url": "https://www.bankier.pl/forum/temat_gwaltowny-spadek-zyskow-jest-jednak-dopiero-przed-nami,74211971.html",
+      "body": "ale sie tu troli bez akcji namnozylo",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74660443",
+      "author": "Mistrz_giełdy",
+      "postedAt": "2026-06-01 15:43",
+      "threadTitle": "Re: Luka domknięta ewakuacja",
+      "url": "https://www.bankier.pl/forum/temat_luka-domknieta-ewakuacja,74455237.html",
+      "body": "Tak się zastanawiam jakim trzeba być lamusem żeby pisać takie bzdury. No cóż. Jak się jest lamusem i udaje się ruch na forum to tak to właśnie wygląda.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74660389",
+      "author": "Mistrz_giełdy",
+      "postedAt": "2026-06-01 15:40",
+      "threadTitle": "Re: Jeszcze można uciekać za 100.",
+      "url": "https://www.bankier.pl/forum/temat_jeszcze-mozna-uciekac-za-100,74618199.html",
+      "body": "Nie to nie. Po co zarabiać Jak można stracić?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74660371",
+      "author": "Mistrz_giełdy",
+      "postedAt": "2026-06-01 15:38",
+      "threadTitle": "Re: Ciągle można sprzedać powyżej 100.",
+      "url": "https://www.bankier.pl/forum/temat_ciagle-mozna-sprzedac-powyzej-100,74653555.html",
+      "body": "Czas się jakby kończy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74656063",
+      "author": "Mistrz_giełdy",
+      "postedAt": "2026-06-01 11:16",
+      "threadTitle": "Re: Pytanie do tęgich głów",
+      "url": "https://www.bankier.pl/forum/temat_pytanie-do-tegich-glow,74639177.html",
+      "body": "Transakcje umówione między podmiotami",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74655559",
+      "author": "MIKE",
+      "postedAt": "2026-06-01 10:51",
+      "threadTitle": "Re: GWAŁTOWNY SPADEK ZYSKÓW JEST JEDNAK DOPIERO PRZED NAMI.",
+      "url": "https://www.bankier.pl/forum/temat_gwaltowny-spadek-zyskow-jest-jednak-dopiero-przed-nami,74211971.html",
+      "body": "To tylko zwykła korekta, nie ma żadnych podstaw do paniki.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74653555",
+      "author": "MistrzGiełdy",
+      "postedAt": "2026-06-01 09:19",
+      "threadTitle": "Ciągle można sprzedać powyżej 100.",
+      "url": "https://www.bankier.pl/forum/temat_ciagle-mozna-sprzedac-powyzej-100,74653555.html",
+      "body": "Ale jeszcze chwilę.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74652277",
+      "author": "Valuś",
+      "postedAt": "2026-06-01 06:49",
+      "threadTitle": "Re: GWAŁTOWNY SPADEK ZYSKÓW JEST JEDNAK DOPIERO PRZED NAMI.",
+      "url": "https://www.bankier.pl/forum/temat_gwaltowny-spadek-zyskow-jest-jednak-dopiero-przed-nami,74211971.html",
+      "body": "Wyrak TSUE jeszcze dowalił bankom.Gigantyczne straty przez kredyty .....",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74639301",
+      "author": "King85",
+      "postedAt": "2026-05-29 20:27",
+      "threadTitle": "Re: Pytanie do tęgich głów",
+      "url": "https://www.bankier.pl/forum/temat_pytanie-do-tegich-glow,74639177.html",
+      "body": "Koniec wojny, wejście zagranicznego kapitału na grubo i wzrosty od poniedziałku",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74639177",
+      "author": "Tommy",
+      "postedAt": "2026-05-29 20:11",
+      "threadTitle": "Pytanie do tęgich głów",
+      "url": "https://www.bankier.pl/forum/temat_pytanie-do-tegich-glow,74639177.html",
+      "body": "Co mogą oznaczać tak duże obroty na fix od co najmniej dwóch dni ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74632033",
+      "author": "cognac",
+      "postedAt": "2026-05-29 11:31",
+      "threadTitle": "Re: cena/zysk",
+      "url": "https://www.bankier.pl/forum/temat_cena-zysk,74629617.html",
+      "body": "> Banki są już bardzo drogie. Kto kupuje pkobp po 105 zł i dla kogo. . zyski bedą spadac w kolejnych latch 28%. a jesli podatek 30% zostanie utrzymany to więcej. Nie ma marginesu na zarobek na bankach . Zatem kto i po co kupuje bardzo drogie akcje banków. Nie kupowac być może fundusze nasadzająWydaje mi sie, że banki zwykle znajdują sposoby na utrzymanie zysków a w Polsce banki sa szczególnie bezpiecznymi instytucjami, poprzez istniejące przepisy i zabezpieczenia. Byc może nie bedzie już kolosalnych zysków na cenach akcji, ale inwestorzy są bezpieczni, a tego szukaja fundusze i 'grubasy'... Jak mówię, wydaje mi się, bo przyszłości nikt nie jest w stanie przewidzieć",
+      "votes": {
+        "up": 3,
+        "down": 2
+      },
+      "sentimentScore": 0.981,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74629617",
+      "author": "ekspert",
+      "postedAt": "2026-05-29 09:34",
+      "threadTitle": "cena/zysk",
+      "url": "https://www.bankier.pl/forum/temat_cena-zysk,74629617.html",
+      "body": "Banki są już bardzo drogie. Kto kupuje pkobp po 105 zł i dla kogo. . zyski bedą spadac w kolejnych latch 28%. a jesli podatek 30% zostanie utrzymany to więcej. Nie ma marginesu na zarobek na bankach . Zatem kto i po co kupuje bardzo drogie akcje banków. Nie kupowac być może fundusze nasadzają",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74622379",
+      "author": "cognac",
+      "postedAt": "2026-05-28 17:55",
+      "threadTitle": "Re: Nie jest źle",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle,74525429.html",
+      "body": "Owszem, wszystko zależy od opłacalnosci, kosztów itd.Tu ciekawa jest ostatnia transakcja na dzisiejszej sesji...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74620157",
+      "author": "franklin",
+      "postedAt": "2026-05-28 15:16",
+      "threadTitle": "Re: Spadek kursu PKO BP",
+      "url": "https://www.bankier.pl/forum/temat_spadek-kursu-pko-bp,74615421.html",
+      "body": "Spółka zarabia rekorodwe pieniądze do tego na horyzoncie dywidenda.Oprocz tego wzrost stop w związku z przedłużającym się konfliktem jeszcze bardziej nakręci zyski nie mówiąc już że problem kredytów frankowych jest na wymarciu co dodatkowo napędzi zyski.Obudź się synuś.Spółka idzie na 110-120 w terminie roku.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74618227",
+      "author": "Mistrz_giełdy",
+      "postedAt": "2026-05-28 13:01",
+      "threadTitle": "Re: Nie jest źle",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle,74525429.html",
+      "body": "Każdy walor jest na kółeczka",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74618199",
+      "author": "Mistrz_giełdy",
+      "postedAt": "2026-05-28 13:00",
+      "threadTitle": "Jeszcze można uciekać za 100.",
+      "url": "https://www.bankier.pl/forum/temat_jeszcze-mozna-uciekac-za-100,74618199.html",
+      "body": "Za chwilę będzie 9 z przodu",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74615421",
+      "author": "sss",
+      "postedAt": "2026-05-28 10:06",
+      "threadTitle": "Spadek kursu PKO BP",
+      "url": "https://www.bankier.pl/forum/temat_spadek-kursu-pko-bp,74615421.html",
+      "body": "Zaczynają się spadki PKO BP a jest z czego spadaćNapompowali balonik a jak go przebiją to kto odbierze papier??60 zł może być bardzo szybko na PKO",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74598397",
+      "author": "Joe",
+      "postedAt": "2026-05-26 21:21",
+      "threadTitle": "Re: wyciągneli na małych obrotach",
+      "url": "https://www.bankier.pl/forum/temat_wyciagneli-na-malych-obrotach,74582367.html",
+      "body": "O dzisiejszych obrotach i zamknięciu na minusie się nie wypowiesz ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74582367",
+      "author": "sss",
+      "postedAt": "2026-05-25 12:35",
+      "threadTitle": "wyciągneli na małych obrotach",
+      "url": "https://www.bankier.pl/forum/temat_wyciagneli-na-malych-obrotach,74582367.html",
+      "body": "Może polecieć w dół i zamknąć się nawet na czerwonoCiekawe czy obroty potwierdzą słabość wybicia i czy kurs się osunie",
+      "votes": {
+        "up": 6,
+        "down": 3
+      },
+      "sentimentScore": -0.931,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74573499",
+      "author": "Se",
+      "postedAt": "2026-05-24 10:54",
+      "threadTitle": "Orgr ladny sie rysuje na pko cel 85 zł",
+      "url": "https://www.bankier.pl/forum/temat_orgr-ladny-sie-rysuje-na-pko-cel-85-zl,74573499.html",
+      "body": "Org cel 85 zł",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74561193",
+      "author": "Marcin",
+      "postedAt": "2026-05-22 18:40",
+      "threadTitle": "Re: Nie jest źle",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle,74525429.html",
+      "body": "Poniżej stuwy było pewne że walor dąży do 100 zł. Teraz jak przebił 100, to powoli lecimy na 120. Jednak licząc docelowo latami, to wycena tutaj nie ma końca.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74525429",
+      "author": "cognac",
+      "postedAt": "2026-05-20 14:12",
+      "threadTitle": "Nie jest źle",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle,74525429.html",
+      "body": "To nie jest walor na kółeczka, tylko na stabilny wzrost.Jest jeszcze sporo miejsca.",
+      "votes": {
+        "up": 5,
+        "down": 3
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74471543",
+      "author": "szakal",
+      "postedAt": "2026-05-15 10:33",
+      "threadTitle": "wczoraj 2,5 mld zysku a dzisiaj gniot to praktycznie wszystko oddał",
+      "url": "https://www.bankier.pl/forum/temat_wczoraj-2-5-mld-zysku-a-dzisiaj-gniot-to-praktycznie-wszystko-oddal,74471543.html",
+      "body": "szulernia i nic więcej.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74470707",
+      "author": "INFOpewne",
+      "postedAt": "2026-05-15 10:03",
+      "threadTitle": "Re: ■ GIGANTYCZNE STRATY BANKÓW KREDYTOBIORCY IDĄ DO SĄDÓW ■",
+      "url": "https://www.bankier.pl/forum/temat_gigantyczne-straty-bankow-kredytobiorcy-ida-do-sadow,74269745.html",
+      "body": "Po dywidendach kurs banków spadnie o minimum 40%.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74470667",
+      "author": "INFOpewne",
+      "postedAt": "2026-05-15 10:02",
+      "threadTitle": "Re: Sankcja kredytu darmowego —instr odzyskania pieniędzy od banku w 202",
+      "url": "https://www.bankier.pl/forum/temat_sankcja-kredytu-darmowego-instr-odzyskania-pieniedzy-od-banku-w-2026-r,74264931.html",
+      "body": "Kredyty frankowe się jeszcze ciągną. Kredyty złotówkowe dadzą bankom popalić.",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74461445",
+      "author": "Jaś",
+      "postedAt": "2026-05-14 17:34",
+      "threadTitle": "Re: Luka domknięta ewakuacja",
+      "url": "https://www.bankier.pl/forum/temat_luka-domknieta-ewakuacja,74455237.html",
+      "body": "Jaka luka? 120 na choryzoncie",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74455237",
+      "author": "Se",
+      "postedAt": "2026-05-14 12:24",
+      "threadTitle": "Luka domknięta ewakuacja",
+      "url": "https://www.bankier.pl/forum/temat_luka-domknieta-ewakuacja,74455237.html",
+      "body": "Luka domknięta ewakuacja z pko",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74454671",
+      "author": "upsik",
+      "postedAt": "2026-05-14 11:58",
+      "threadTitle": "Domykamy i spadamy",
+      "url": "https://www.bankier.pl/forum/temat_domykamy-i-spadamy,74454671.html",
+      "body": "maluteńka luka przy 99 zamknięta, też można zamykać solidne wyrwy przy 91 i 85.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74423329",
+      "author": "lol",
+      "postedAt": "2026-05-12 11:51",
+      "threadTitle": "Teraz zamiast Banków to Informatyka",
+      "url": "https://www.bankier.pl/forum/temat_teraz-zamiast-bankow-to-informatyka,74423329.html",
+      "body": "Kto siedzi w zamówieniach publicznych, ten wie!!!",
+      "votes": {
+        "up": 1,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

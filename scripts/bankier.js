@@ -88,8 +88,8 @@ const STOPWORDS = new Set([
 
 const DEFAULT_DAYS = 7;
 const DEFAULT_MAX_COMMENTS = 200;
-const MIN_COMMENTS_FALLBACK = 5;
-const FALLBACK_WINDOW_DAYS = 30;
+const DEFAULT_MIN_COMMENTS = 30;
+const FALLBACK_WINDOWS = [30, 90, 365]; // escalation ladder for quiet forums
 const MAX_THREAD_PAGES = 6;
 const THREADS_PER_PAGE = 30;
 const POSTS_PER_THREAD = 40;
@@ -264,6 +264,8 @@ function trendDirection(trend) {
 
 function aggregate(comments, windowDays) {
   const now = Date.now();
+  // adapt recency half-life to the window so old-but-only comments still count
+  const halfLifeDays = Math.max(3, windowDays / 4);
   let weightedSum = 0;
   let weightTotal = 0;
   const breakdown = { positive: 0, negative: 0, neutral: 0 };
@@ -272,7 +274,7 @@ function aggregate(comments, windowDays) {
     breakdown[comment.sentimentLabel.toLowerCase()] += 1;
     const date = parsePostDate(comment.postedAt);
     const ageDays = date ? Math.max(0, (now - date.getTime()) / 86400000) : windowDays;
-    const recencyWeight = Math.pow(0.5, ageDays / 3); // half-life 3 days
+    const recencyWeight = Math.pow(0.5, ageDays / halfLifeDays);
     const netVotes = (comment.votes?.up || 0) - (comment.votes?.down || 0);
     const voteWeight = Math.max(0.25, Math.min(2.5, 1 + netVotes * 0.1)); // community agreement
     const weight = recencyWeight * voteWeight;
@@ -461,6 +463,7 @@ async function collectComments(forumMeta, cutoff, maxComments) {
 async function collectStock(symbol, options = {}) {
   const requestedDays = Math.max(1, Number(options.days) || DEFAULT_DAYS);
   const maxComments = Math.max(10, Number(options.maxComments) || DEFAULT_MAX_COMMENTS);
+  const minComments = Math.min(maxComments, Math.max(1, Number(options.minComments) || DEFAULT_MIN_COMMENTS));
 
   const quoteUrl = `https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=${symbol}`;
   const quoteHtml = await fetchText(quoteUrl);
@@ -474,17 +477,17 @@ async function collectStock(symbol, options = {}) {
     throw new Error(`Could not extract forum metadata for ${symbol}`);
   }
 
+  // quiet forum fallback: escalate the window until minComments is reached
+  const windows = [requestedDays, ...FALLBACK_WINDOWS.filter((d) => d > requestedDays)];
   let windowDays = requestedDays;
-  let { threads, comments: uniqueComments } = await collectComments(
-    forumMeta, Date.now() - windowDays * 86400000, maxComments
-  );
-
-  // quiet forum fallback: widen the window so there is always something to analyse
-  if (uniqueComments.length < MIN_COMMENTS_FALLBACK && requestedDays < FALLBACK_WINDOW_DAYS) {
-    windowDays = FALLBACK_WINDOW_DAYS;
+  let threads = [];
+  let uniqueComments = [];
+  for (const candidate of windows) {
+    windowDays = candidate;
     ({ threads, comments: uniqueComments } = await collectComments(
       forumMeta, Date.now() - windowDays * 86400000, maxComments
     ));
+    if (uniqueComments.length >= minComments) break;
   }
 
   const analysis = aggregate(uniqueComments, windowDays);

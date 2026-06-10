@@ -13,12 +13,14 @@ const symbols = preset === 'top20'
   : JSON.parse(await fs.readFile('config/stocks.json', 'utf8'));
 const reports = [];
 const days = Number(process.argv[2] || process.env.WINDOW_DAYS || 7);
+const minComments = Number(process.env.MIN_COMMENTS || 30);
+const maxComments = Number(process.env.MAX_COMMENTS || 200);
 
 for (const rawSymbol of symbols) {
   const symbol = String(rawSymbol).trim().toUpperCase();
   if (!symbol) continue;
   try {
-    const stock = await collectStock(symbol, { days });
+    const stock = await collectStock(symbol, { days, minComments, maxComments });
     await writeStockFile(stock);
     reports.push({
       symbol: stock.symbol,
