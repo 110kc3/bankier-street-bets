@@ -216,3 +216,19 @@ test('responsywność/markup: media query 860px i prefers-reduced-motion w CSS',
   assert.ok(/max-width:\s*860px/.test(css), 'brak breakpointu 860px');
   assert.ok(/prefers-reduced-motion/.test(css), 'brak prefers-reduced-motion');
 });
+
+test('marquee PILNE: animowany track z dwiema identycznymi taśmami (płynna pętla)', async () => {
+  const css = await fs.readFile('styles.css', 'utf8');
+  // animacja na tracku, pętla -50%, nigdy nie zatrzymana na sztywno
+  assert.ok(/\.pilne-track\s*\{[^}]*animation:\s*pilne-scroll/.test(css), 'brak animacji na .pilne-track');
+  assert.ok(/translateX\(-50%\)/.test(css), 'pętla powinna przesuwać o -50% szerokości tracku');
+  assert.ok(!/animation:\s*none/.test(css), 'marquee nie może być wyłączany (ma zwalniać, nie stawać)');
+  // struktura DOM: track owija obie taśmy
+  const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [makeReport('XXX')] };
+  const { document } = await boot({ indexData, stocks: { XXX: makeStock('XXX') } });
+  const track = document.querySelector('.pilne-track');
+  assert.ok(track, 'brak .pilne-track w HTML');
+  const tapes = track.querySelectorAll('.pilne-inner');
+  assert.equal(tapes.length, 2, 'track musi zawierać dokładnie 2 taśmy');
+  assert.equal(tapes[0].textContent, tapes[1].textContent, 'taśmy muszą być identyczne dla płynnej pętli');
+});

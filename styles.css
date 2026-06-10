@@ -34,12 +34,19 @@ body::after {
   position: sticky; top: 0; z-index: 50;
   background: var(--red); color: #fff;
   overflow: hidden; white-space: nowrap;
-  padding: 8px 0; display: flex;
+  padding: 8px 0;
   font-family: 'Anton', sans-serif; font-size: 16px; letter-spacing: 0.12em;
 }
-.pilne-inner { display: inline-block; animation: pilne-scroll 40s linear infinite; padding-right: 60px; flex-shrink: 0; }
-@keyframes pilne-scroll { from { transform: translateX(0); } to { transform: translateX(-100%); } }
-@media (prefers-reduced-motion: reduce) { .pilne-inner { animation: none; } }
+.pilne-track {
+  display: flex; width: max-content;
+  animation: pilne-scroll 40s linear infinite;
+  will-change: transform;
+}
+.pilne:hover .pilne-track { animation-play-state: paused; }
+.pilne-inner { flex-shrink: 0; padding-right: 60px; }
+@keyframes pilne-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+/* dostępność: wolniej zamiast stopu — pasek ma się zawsze przesuwać */
+@media (prefers-reduced-motion: reduce) { .pilne-track { animation-duration: 120s; } }
 
 .page { width: min(1160px, calc(100% - 32px)); margin: 0 auto; padding-bottom: 26px; }
 
