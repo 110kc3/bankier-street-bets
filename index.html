@@ -26,12 +26,13 @@
           <label for="symbol-input">Kod spółki</label>
           <div class="search-row">
             <input id="symbol-input" name="symbol" placeholder="EUVIC" maxlength="12" />
-            <input id="comment-limit-input" name="commentLimit" type="number" min="1" max="20" value="5" />
+            <input id="comment-limit-input" name="commentLimit" type="number" min="1" max="200" value="15" />
             <button type="submit">Analizuj</button>
           </div>
         </form>
         <p class="hint">
-          Domyślnie analizowanych jest 5 najnowszych komentarzy. Możesz zmienić ten limit przy odświeżaniu danych.
+          Sygnał liczony jest ze wszystkich komentarzy z okna czasowego (domyślnie 7 dni).
+          Liczba obok określa tylko, ile najnowszych komentarzy wyświetlić poniżej.
         </p>
       </section>
 
@@ -77,7 +78,9 @@
             <div><dt>Score</dt><dd class="score"></dd></div>
             <div><dt>Pewność</dt><dd class="confidence"></dd></div>
             <div><dt>Komentarze</dt><dd class="comment-count"></dd></div>
-            <div><dt>Limit</dt><dd class="comment-limit"></dd></div>
+            <div><dt>+ / − / 0</dt><dd class="breakdown"></dd></div>
+            <div><dt>Trend</dt><dd class="trend-direction"></dd></div>
+            <div><dt>Okno</dt><dd class="comment-limit"></dd></div>
             <div><dt>Aktualizacja</dt><dd class="updated-at"></dd></div>
           </dl>
           <div class="links">
@@ -87,6 +90,8 @@
         </article>
 
         <article class="card keywords-card">
+          <h3>Trend dzienny sentymentu</h3>
+          <ul class="daily-trend"></ul>
           <h3>Dominujące słowa i wątki</h3>
           <ul class="keywords"></ul>
           <p class="disclaimer">

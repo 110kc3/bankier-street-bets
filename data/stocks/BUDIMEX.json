@@ -3,104 +3,230 @@
   "companyName": "Budimex SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=BUDIMEX",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_budimex-sa,6,21,33.html",
-  "updatedAt": "2026-03-12T11:24:22.098Z",
+  "updatedAt": "2026-06-10T10:47:05.047Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-03-12T11:24:22.098Z",
-    "commentLimit": 5
+    "fetchedAt": "2026-06-10T10:47:05.047Z",
+    "windowDays": 30,
+    "requestedDays": 7,
+    "windowExtended": true,
+    "threadsScanned": 2,
+    "commentLimit": 11
   },
   "analysis": {
-    "signal": "HOLD",
-    "score": 0.05,
-    "confidence": 0.77,
-    "commentCount": 5,
-    "summary": "Ostatnie zebrane komentarze są mieszane; sygnał wynika z pełnej treści wpisów, słów kluczowych i proporcji komentarzy dodatnich do ujemnych.",
+    "signal": "BUY",
+    "score": 0.331,
+    "confidence": 0.49,
+    "commentCount": 11,
+    "breakdown": {
+      "positive": 11,
+      "negative": 0,
+      "neutral": 0
+    },
+    "trend": [
+      {
+        "date": "2026-05-11",
+        "score": 0.322,
+        "count": 1
+      },
+      {
+        "date": "2026-05-13",
+        "score": 0.374,
+        "count": 5
+      },
+      {
+        "date": "2026-05-14",
+        "score": 0.583,
+        "count": 1
+      },
+      {
+        "date": "2026-05-15",
+        "score": 0.453,
+        "count": 2
+      },
+      {
+        "date": "2026-05-18",
+        "score": 0.322,
+        "count": 1
+      },
+      {
+        "date": "2026-06-02",
+        "score": 0.322,
+        "count": 1
+      }
+    ],
+    "trendDirection": "stable",
+    "summary": "Analiza 11 komentarzy z ostatnich 30 dni: nastroje pozytywne (11 pozytywnych, 0 negatywnych, 0 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "przychody",
+        "word": "trzeba",
         "count": 2
       },
       {
-        "word": "skromne",
+        "word": "dywidendy",
         "count": 2
       },
       {
-        "word": "kurs",
+        "word": "kursie",
         "count": 2
-      },
-      {
-        "word": "akcji",
-        "count": 2
-      },
-      {
-        "word": "wiecej",
-        "count": 2
-      },
-      {
-        "word": "taki",
-        "count": 1
-      },
-      {
-        "word": "asbis",
-        "count": 1
-      },
-      {
-        "word": "przychód",
-        "count": 1
       }
     ]
   },
   "comments": [
     {
-      "id": "73808101",
-      "author": "PanAndrzej",
-      "postedAt": "2026-03-12 11:16",
-      "threadTitle": "Re: Lecimy na 1000 zl",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-1000-zl,73404433.html",
-      "body": "Przychody skromne jak na taki kurs Mam Asbis przychód 13,3 mld złotych...Liczba akcji podobna chociaż nawet mniejsza od Budimexu Kurs 42 zł a nie 700 złC/z 10 a nie 32 jak tutaj Balon i tyle",
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73805907",
-      "author": "LOL",
-      "postedAt": "2026-03-12 09:22",
-      "threadTitle": "Re: Lecimy na 1000 zl",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-1000-zl,73404433.html",
-      "body": "CZ 32 to juz wiecej niz srednia w USADo tego. To wiecej niz np Microsoft. Zeby Budimex jeszcze rosl szybciej ale to MS mial 18% wzrostu w ostatnim kwartale :D",
-      "sentimentScore": 0.25,
+      "id": "74675535",
+      "author": "Qwerty",
+      "postedAt": "2026-06-02 16:12",
+      "threadTitle": "Re: góra?",
+      "url": "https://www.bankier.pl/forum/temat_gora,74436325.html",
+      "body": "Ruszy to kiedyś ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     },
     {
-      "id": "73798429",
-      "author": "PanAndrzej",
-      "postedAt": "2026-03-11 17:18",
-      "threadTitle": "Re: Lecimy na 1000 zl",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-1000-zl,73404433.html",
-      "body": "No i poleciał poniżej 700 zł I kto miał rację i dlaczego znów ja?",
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
+      "id": "74497885",
+      "author": "konrado24",
+      "postedAt": "2026-05-18 10:54",
+      "threadTitle": "Re: góra?",
+      "url": "https://www.bankier.pl/forum/temat_gora,74436325.html",
+      "body": "wrecz przeciwnie - trzeba w odpowiednim momencie kupic… moim zdaniem do dywidendy nie bedzie nic ciekawego na kursie a licze na spadki…",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
     },
     {
-      "id": "73750195",
-      "author": "Szymek",
-      "postedAt": "2026-03-07 15:06",
-      "threadTitle": "Re: Ukriana i koniec wojny. Koniec marzec-czerwiec",
-      "url": "https://www.bankier.pl/forum/temat_ukriana-i-koniec-wojny-koniec-marzec-czerwiec,73438079.html",
-      "body": "Dyskusja trwa pod tym linkiem https://d iscord.gg/NyGvQs5NN",
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
+      "id": "74477039",
+      "author": "bolo",
+      "postedAt": "2026-05-15 15:05",
+      "threadTitle": "Re: góra?",
+      "url": "https://www.bankier.pl/forum/temat_gora,74436325.html",
+      "body": "to trzeba wiać",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
     },
     {
-      "id": "73742011",
-      "author": "PanAndrzej",
-      "postedAt": "2026-03-06 13:55",
-      "threadTitle": "Re: Lecimy na 1000 zl",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-1000-zl,73404433.html",
-      "body": "Hahahaha Przychody skromne C/Z 32 i chcesz miec 1000 zł?To wtedy c/z będzie ponad 55 czyli więcej niż średnia na giełdzie amerykańskiej Dziś widzisz na ile lecisz...stratą dzienna na jednej akcji 50 zł...kto grał Shorta z biedaka stał się milionerem",
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
+      "id": "74476715",
+      "author": "yankes",
+      "postedAt": "2026-05-15 14:48",
+      "threadTitle": "Re: Budimex Nieruchomości (Spravia) łączy siły z Rank Progress.",
+      "url": "https://www.bankier.pl/forum/temat_budimex-nieruchomosci-spravia-laczy-sily-z-rank-progress,74411559.html",
+      "body": "od jakiegoś czasu rośnie maxcom ,jak na razie bez powodu ,możliwe że wrócą do dywidendy przy tym kursie to było by jakieś 17 procków....",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74450831",
+      "author": "zen",
+      "postedAt": "2026-05-14 09:11",
+      "threadTitle": "Re: góra?",
+      "url": "https://www.bankier.pl/forum/temat_gora,74436325.html",
+      "body": "Niektórzy analitycy widzą kurs nawet na poziomie 895,65 PLN w perspektywie 12 miesięcy!",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74441291",
+      "author": "Zenek",
+      "postedAt": "2026-05-13 15:22",
+      "threadTitle": "Re: góra?",
+      "url": "https://www.bankier.pl/forum/temat_gora,74436325.html",
+      "body": "Fundusz szarpnął ponad 10 tysięcy akcji i ruszyło",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74441239",
+      "author": "Zenek",
+      "postedAt": "2026-05-13 15:19",
+      "threadTitle": "Re: góra?",
+      "url": "https://www.bankier.pl/forum/temat_gora,74436325.html",
+      "body": "Jeszcze urośnie ddo deeidendy",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74438565",
+      "author": "Qwerty3",
+      "postedAt": "2026-05-13 12:41",
+      "threadTitle": "Re: góra?",
+      "url": "https://www.bankier.pl/forum/temat_gora,74436325.html",
+      "body": "Tak powoli biorą co taniej przed dywidenda....",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74437007",
+      "author": "ZEN",
+      "postedAt": "2026-05-13 10:59",
+      "threadTitle": "Re: góra?",
+      "url": "https://www.bankier.pl/forum/temat_gora,74436325.html",
+      "body": "próba wyrwania akcji przed dewidendą",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74436325",
+      "author": "ZEN",
+      "postedAt": "2026-05-13 10:19",
+      "threadTitle": "góra?",
+      "url": "https://www.bankier.pl/forum/temat_gora,74436325.html",
+      "body": "nowy kontrak Budimeksu w Berlinie (most Mühlendamm) wartym 267 mln zł",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74411559",
+      "author": "ObserwatorR",
+      "postedAt": "2026-05-11 13:50",
+      "threadTitle": "Budimex Nieruchomości (Spravia) łączy siły z Rank Progress.",
+      "url": "https://www.bankier.pl/forum/temat_budimex-nieruchomosci-spravia-laczy-sily-z-rank-progress,74411559.html",
+      "body": "Warto spojrzeć na Rank Progress...https://uokik.gov.pl/bip/spravia-sp-z-oo-oraz-rank-progress-sa",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
     }
   ]
 }

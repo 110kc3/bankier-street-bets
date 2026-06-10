@@ -42,16 +42,16 @@ function renderReportsIndex(indexData) {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'report-item';
+    const trendArrow = { improving: '↗', deteriorating: '↘', stable: '→' }[report.trendDirection] || '';
     button.innerHTML = `
       <strong>${report.symbol}</strong>
       <span>${report.companyName || report.symbol}</span>
-      <span>Sygnał: ${report.signal}</span>
-      <span>Limit komentarzy: ${report.commentLimit || 5}</span>
+      <span>Sygnał: ${report.signal} ${trendArrow}</span>
+      <span>Komentarze: ${report.commentCount ?? '–'} (${report.windowDays || 7} dni)</span>
       <span>Fetch: ${formatDate(report.updatedAt)}</span>
     `;
     button.addEventListener('click', () => {
       input.value = report.symbol;
-      commentLimitInput.value = report.commentLimit || 5;
       loadStock(report.symbol);
     });
     reportsList.appendChild(button);
@@ -64,7 +64,7 @@ function renderStock(data) {
     return;
   }
 
-  const requestedLimit = Math.max(1, Number(commentLimitInput.value) || 5);
+  const requestedLimit = Math.max(1, Number(commentLimitInput.value) || 15);
   const allComments = Array.isArray(data.comments) ? data.comments : [];
   const visibleComments = allComments.slice(0, requestedLimit);
   const node = template.content.cloneNode(true);
@@ -78,11 +78,30 @@ function renderStock(data) {
   node.querySelector('.summary-copy').textContent = data.analysis.summary;
   node.querySelector('.score').textContent = data.analysis.score.toFixed(2);
   node.querySelector('.confidence').textContent = `${Math.round(data.analysis.confidence * 100)}%`;
-  node.querySelector('.comment-count').textContent = String(visibleComments.length);
-  node.querySelector('.comment-limit').textContent = `${visibleComments.length} / ${data.report?.commentLimit || data.analysis.commentCount}`;
+  node.querySelector('.comment-count').textContent = `${visibleComments.length} / ${data.analysis.commentCount}`;
+  const breakdown = data.analysis.breakdown;
+  node.querySelector('.breakdown').textContent = breakdown
+    ? `${breakdown.positive} / ${breakdown.negative} / ${breakdown.neutral}`
+    : '–';
+  const trendLabels = { improving: '↗ poprawia się', deteriorating: '↘ pogarsza się', stable: '→ stabilny' };
+  node.querySelector('.trend-direction').textContent = trendLabels[data.analysis.trendDirection] || '–';
+  node.querySelector('.comment-limit').textContent = `${data.report?.windowDays || 7} dni`;
   node.querySelector('.updated-at').textContent = formatDate(data.report?.fetchedAt || data.updatedAt);
   node.querySelector('.quote-link').href = data.quoteUrl;
   node.querySelector('.forum-link').href = data.forumUrl;
+
+  const trendList = node.querySelector('.daily-trend');
+  (data.analysis.trend || []).forEach((day) => {
+    const li = document.createElement('li');
+    const tone = day.score > 0.12 ? 'positive' : day.score < -0.12 ? 'negative' : 'neutral';
+    li.innerHTML = `<span class="tag ${tone}">${day.score > 0 ? '+' : ''}${day.score.toFixed(2)}</span> ${escapeHtml(day.date)} · ${day.count} kom.`;
+    trendList.appendChild(li);
+  });
+  if (!trendList.children.length) {
+    const li = document.createElement('li');
+    li.textContent = 'Brak danych dziennych.';
+    trendList.appendChild(li);
+  }
 
   const keywords = node.querySelector('.keywords');
   (data.analysis.topKeywords || []).forEach((item) => {
@@ -111,7 +130,7 @@ function renderStock(data) {
         <strong>${escapeHtml(comment.author || 'Anonim')}</strong>
         <span class="tag ${String(comment.sentimentLabel || 'Neutral').toLowerCase()}">${escapeHtml(comment.sentimentLabel || 'Neutral')}</span>
       </div>
-      <div class="comment-meta">Data: ${comment.postedAt ? formatDate(comment.postedAt) : 'brak'}</div>
+      <div class="comment-meta">Data: ${comment.postedAt ? formatDate(comment.postedAt) : 'brak'}${comment.votes ? ` · głosy: +${comment.votes.up} / −${comment.votes.down}` : ''}</div>
       <p>${escapeHtml(comment.body || '')}</p>
       <div class="comment-header">
         <span>${escapeHtml(comment.threadTitle || 'Wątek Bankier')}</span>

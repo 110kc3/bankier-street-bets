@@ -3,102 +3,146 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-03-12T11:24:10.245Z",
+  "updatedAt": "2026-06-10T10:47:15.352Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-03-12T11:24:10.245Z",
-    "commentLimit": 5
+    "fetchedAt": "2026-06-10T10:47:15.352Z",
+    "windowDays": 7,
+    "requestedDays": 7,
+    "windowExtended": false,
+    "threadsScanned": 3,
+    "commentLimit": 6
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.05,
-    "confidence": 0.77,
-    "commentCount": 5,
-    "summary": "Ostatnie zebrane komentarze są mieszane; sygnał wynika z pełnej treści wpisów, słów kluczowych i proporcji komentarzy dodatnich do ujemnych.",
+    "score": 0.039,
+    "confidence": 0.35,
+    "commentCount": 6,
+    "breakdown": {
+      "positive": 1,
+      "negative": 1,
+      "neutral": 4
+    },
+    "trend": [
+      {
+        "date": "2026-06-08",
+        "score": 0.052,
+        "count": 5
+      },
+      {
+        "date": "2026-06-09",
+        "score": 0,
+        "count": 1
+      }
+    ],
+    "trendDirection": "stable",
+    "summary": "Analiza 6 komentarzy z ostatnich 7 dni: nastroje mieszane (1 pozytywnych, 1 negatywnych, 4 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "gdzie",
+        "word": "perun",
         "count": 2
       },
       {
-        "word": "rekomenacja",
+        "word": "myslisz",
         "count": 2
       },
       {
-        "word": "dnia",
-        "count": 1
+        "word": "wynik",
+        "count": 2
       },
       {
-        "word": "godz",
-        "count": 1
+        "word": "netto",
+        "count": 2
       },
       {
-        "word": "jasiu",
-        "count": 1
-      },
-      {
-        "word": "napisał",
-        "count": 1
-      },
-      {
-        "word": "jego",
-        "count": 1
-      },
-      {
-        "word": "głowie",
-        "count": 1
+        "word": "przodu",
+        "count": 2
       }
     ]
   },
   "comments": [
     {
-      "id": "73805999",
-      "author": "halutka",
-      "postedAt": "2026-03-12 09:25",
-      "threadTitle": "Re: Nowa rekomendacja 28 370 !?",
-      "url": "https://www.bankier.pl/forum/temat_nowa-rekomendacja-28-370,73790363.html",
-      "body": "Dnia 2026-03-11 o godz. 09:47 ~JAsiu napisał(a):> a gdzie ta rekomenacja??w jego głowie i snach :))",
+      "id": "74735493",
+      "author": "Microman",
+      "postedAt": "2026-06-09 11:10",
+      "threadTitle": "Re: czy 19k do lipca osiągnie ?",
+      "url": "https://www.bankier.pl/forum/temat_czy-26k-do-czerwca-osiagnie,74257419.html",
+      "body": "Perun, wątpisz, bo myślisz, że będzie jedynka czy trójka?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "73803193",
-      "author": "Jan",
-      "postedAt": "2026-03-12 02:19",
-      "threadTitle": "Ogromne problemy firm odzieżowych z przesyłkami z Indii i Bangladeszu.",
-      "url": "https://www.bankier.pl/forum/temat_ogromne-problemy-firm-odziezowych-z-przesy-kami-z-indii-i-bangladeszu,73803193.html",
-      "body": "Odnosnie komunikatu od Reutersa , czy zarząd mógłby wypowiedzieć się na temat logistyki na chwilę obecną i czy też maja problemy z lotami?",
-      "sentimentScore": -0.25,
+      "id": "74725309",
+      "author": "Kurator",
+      "postedAt": "2026-06-08 13:57",
+      "threadTitle": "Re: wskaźnik C/Z",
+      "url": "https://www.bankier.pl/forum/temat_wskaznik-c-z,74635631.html",
+      "body": "Tak. Masz rację że w ostatnich keartałach zarząd lpp zadbał o komunikację z biurami maklerskimi i bankami w zakresie komunikacji i konsensusu nie były zawyżane z kapelusza. Mnie się wydaje że bardzo dobra marżowość kolekcji wiosennej wpłynie na wynik netto. Zatem do czwartku.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74724801",
+      "author": "alan",
+      "postedAt": "2026-06-08 13:18",
+      "threadTitle": "Re: wskaźnik C/Z",
+      "url": "https://www.bankier.pl/forum/temat_wskaznik-c-z,74635631.html",
+      "body": "Myślę że prognoza zysku netto na 2026 r 3 mld zl jest realna.Ostatnie prognozy biur maklerskich z maja 2026 r , które widziałem to :BDM 2,8 mld złBOŚ 2,9 mld zł Tendencja biur jest taka że zaniżają wyniki a po raportach korygują w górę .11.06.26 r raport za I kw podaje LPP .Prognoza BDM za ten okres to 406 mln zł .zysku netto.Ciekawe jaki będzie wynik ?Tak patrząc na notowanie to mimo wszystko to LPP dziwnie slabo się zachowuje .Może sytuacja zmieni się po raporcie .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74724441",
+      "author": "Kurator",
+      "postedAt": "2026-06-08 12:52",
+      "threadTitle": "Re: Jest grubo",
+      "url": "https://www.bankier.pl/forum/temat_jest-grubo,74680561.html",
+      "body": "Kilka dni temu pisałes na tym forum że LPP należy się 3 z przodu. Chyba nawet dodałes że należy się jak psu buda. A teraz naganiasz na spadki. Dla tych kilku stówek? Perun? No co ty?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     },
     {
-      "id": "73791257",
-      "author": "kriss",
-      "postedAt": "2026-03-11 09:52",
-      "threadTitle": "Nowa rekomendacja 30 876 PLN !",
-      "url": "https://www.bankier.pl/forum/temat_nowa-rekomendacja-30-876-pln,73791257.html",
-      "body": "Poprawiam błąd, właściwa reko 30 876 PLN",
+      "id": "74721255",
+      "author": "Perun",
+      "postedAt": "2026-06-08 09:23",
+      "threadTitle": "Re: Jest grubo",
+      "url": "https://www.bankier.pl/forum/temat_jest-grubo,74680561.html",
+      "body": "Ha ha ha naprawdę myślisz że dam poradę a Ty polecisz do KNF z tym wpisem ?Turlaj ołówek.",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "73791117",
-      "author": "JAsiu",
-      "postedAt": "2026-03-11 09:47",
-      "threadTitle": "Re: Nowa rekomendacja 28 370 !?",
-      "url": "https://www.bankier.pl/forum/temat_nowa-rekomendacja-28-370,73790363.html",
-      "body": "a gdzie ta rekomenacja??",
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73790363",
-      "author": "kriss",
-      "postedAt": "2026-03-11 09:10",
-      "threadTitle": "Nowa rekomendacja 28 370 !?",
-      "url": "https://www.bankier.pl/forum/temat_nowa-rekomendacja-28-370,73790363.html",
-      "body": "nowa rekomendacja 30 876 PLN !",
+      "id": "74721209",
+      "author": "Perun",
+      "postedAt": "2026-06-08 09:20",
+      "threadTitle": "Re: czy 19k do lipca osiągnie ?",
+      "url": "https://www.bankier.pl/forum/temat_czy-26k-do-czerwca-osiagnie,74257419.html",
+      "body": "Czy do lipca utrzyma 2 z przodu ?Wątpię.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     }

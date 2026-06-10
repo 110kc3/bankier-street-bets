@@ -1,22 +1,103 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const POSITIVE_WORDS = [
-  'wzrost', 'rosnie', 'rośnie', 'zysk', 'wyniki', 'mocny', 'mocne', 'dobry', 'dobra', 'kupuje', 'kupuję',
-  'akumulacja', 'atrakcyjny', 'byczy', 'kontrakt', 'lepiej', 'lider', 'odbicie', 'okazja', 'optymistycznie',
-  'perspektywy', 'polecam', 'potencjał', 'premium', 'przebicie', 'rakieta', 'rozwój', 'silny', 'stabilny',
-  'strategia', 'sukces', 'super', 'trend-wzrostowy', 'umocnienie', 'warto', 'wybicie', 'zaniżona', 'zawyżone?'
+// ---------------------------------------------------------------------------
+// Sentiment lexicon
+// Stems are stored WITHOUT Polish diacritics; tokens are de-accented before
+// matching, so one stem covers all inflections and sloppy spelling:
+// 'spad' -> spadek, spada, spadnie, spadł/spadl, spadki, spadków...
+// Weight: 1 = mild signal, 2 = strong signal.
+// ---------------------------------------------------------------------------
+
+const POSITIVE_STEMS = [
+  // buying / accumulation
+  ['kupuj', 2], ['kupie', 2], ['kupil', 2], ['kupno', 2], ['kupow', 2],
+  ['dokupuj', 2], ['dokupil', 2], ['dokupie', 2], ['akumul', 2], ['dobieram', 2],
+  ['long', 2], ['wchodze', 1],
+  // price action up
+  ['wzrost', 1], ['wzrosn', 1], ['wzrasta', 1], ['rosnie', 1], ['rosna', 1],
+  ['urosl', 1], ['odbicie', 1], ['odbija', 1], ['odbije', 1],
+  ['wybicie', 2], ['wybija', 2], ['wybije', 2], ['przebicie', 1], ['przebija', 1],
+  ['wystrzel', 2], ['odpali', 2], ['rakiet', 2], ['hoss', 2], ['bycz', 2],
+  ['wzrostow', 2], ['zielon', 1], ['rekord', 1], ['szczyt', 1],
+  // valuation / quality
+  ['niedowartosciowan', 2], ['niedoszacowan', 2], ['zanizon', 1], ['okazj', 1],
+  ['tanio', 1], ['potencjal', 1], ['perspektyw', 1], ['atrakcyjn', 1],
+  ['mocn', 1], ['siln', 1], ['solidn', 1], ['stabiln', 1], ['bezpieczn', 1],
+  ['swietn', 2], ['rewelac', 2], ['super', 1], ['sukces', 1], ['lider', 1],
+  ['poprawa', 1], ['poprawi', 1], ['lepsz', 1], ['lepiej', 1], ['optymi', 1],
+  ['zysk', 1], ['zyskown', 2], ['dywidend', 1], ['umocni', 1], ['warto', 1],
+  ['polecam', 2], ['trzymam', 1]
 ];
 
-const NEGATIVE_WORDS = [
-  'spadek', 'spada', 'strata', 'slaby', 'słaby', 'slabe', 'słabe', 'sprzedaj', 'ryzyko', 'zadłużenie',
-  'besse', 'bessa', 'dołek', 'dramat', 'fatalny', 'korekta', 'minus', 'niepokojące', 'obsuniecie', 'obsunięcie',
-  'odradzam', 'panika', 'podaz', 'podaż', 'problem', 'przecena', 'rozwodnienie', 'slabnie', 'słabnie', 'spadkowy',
-  'sprzedaż', 'topnieje', 'uwaga', 'wyprzedaz', 'wyprzedaż', 'zagrozenie', 'zagrożenie', 'załamanie', 'zmienność'
+const NEGATIVE_STEMS = [
+  // selling / exit
+  ['sprzedaj', 2], ['sprzedal', 1], ['sprzedam', 1], ['wyprzeda', 2],
+  ['short', 2], ['uciekaj', 2], ['uciekl', 1], ['odradzam', 2],
+  ['omijaj', 2], ['omijac', 2], ['unikaj', 2],
+  // price action down
+  ['spad', 1], ['zjazd', 1], ['zjedzie', 1], ['zjechal', 1], ['runie', 2],
+  ['runal', 2], ['nurku', 2], ['tonie', 2], ['topnie', 2], ['leci', 1],
+  ['osuwa', 1], ['obsuni', 1], ['oslabi', 1], ['czerwon', 1], ['spadkow', 2],
+  ['korekt', 1], ['przecen', 1], ['dolek', 1], ['dolk', 1],
+  // crash / fear
+  ['bess', 2], ['krach', 2], ['zalaman', 2], ['panik', 2], ['kapitulac', 2],
+  ['dramat', 2], ['fataln', 2], ['tragiczn', 2], ['tragedi', 2], ['katastrof', 2],
+  ['bankrut', 2], ['bankructw', 2], ['upadlosc', 2], ['plajt', 2],
+  // valuation / quality
+  ['przewartosciowan', 2], ['zawyzon', 1], ['drogo', 1], ['slab', 1],
+  ['strat', 1], ['straci', 1], ['ryzyk', 1], ['ryzykown', 1], ['problem', 1],
+  ['klopot', 1], ['zagrozen', 1], ['niepokoj', 1], ['zadluz', 1],
+  ['rozwodni', 2], ['gorsz', 1], ['gorzej', 1], ['pesymi', 1],
+  // slang / disgust (very common on Bankier forum)
+  ['syf', 2], ['szrot', 2], ['smiec', 2], ['gowno', 2], ['guwno', 2],
+  ['badziew', 2], ['przekret', 2], ['oszust', 2], ['oszuk', 2], ['manipulac', 1],
+  ['scam', 2], ['lipa', 1], ['kicha', 1]
 ];
 
-const STOPWORDS = new Set(['oraz', 'ktory', 'który', 'spolka', 'spółka', 'forum', 'bankier', 'jest', 'dla', 'sie', 'się', 'czy']);
-const DEFAULT_COMMENT_LIMIT = 5;
+// exact-token matches (too short / too ambiguous for prefix matching)
+const POSITIVE_EXACT = new Map([['moon', 2], ['gora', 1], ['gore', 1]]);
+const NEGATIVE_EXACT = new Map([['dno', 2], ['kupa', 1], ['dol', 1], ['lol', 0]]);
+
+// multi-word phrases, matched on de-accented full text
+const PHRASES = [
+  ['do gory', 2], ['na polnoc', 2], ['to the moon', 2], ['na zielono', 1],
+  ['bije rekordy', 2], ['pelna chata', 1], ['grube wzrosty', 2],
+  ['na poludnie', -2], ['w dol', -1], ['na czerwono', -1], ['leci na leb', -2],
+  ['wali sie', -2], ['idzie na dno', -2], ['z daleka od', -2], ['na dnie', -1]
+];
+
+const EMOJI = [
+  ['🚀', 2], ['📈', 1], ['💪', 1], ['🟢', 1], ['🔥', 1],
+  ['📉', -1], ['🔻', -1], ['💩', -2], ['🤡', -1], ['☠', -2], ['🔴', -1]
+];
+
+// flips the sign of a sentiment word when found within 2 preceding tokens
+const NEGATORS = new Set(['nie', 'bez', 'brak', 'zero', 'wcale', 'zaden', 'zadna', 'zadne', 'zadnych', 'koniec']);
+
+const STOPWORDS = new Set([
+  'oraz', 'ktory', 'ktora', 'ktore', 'ktorzy', 'spolka', 'spolki', 'spolke',
+  'forum', 'bankier', 'jest', 'jako', 'tego', 'taki', 'takie', 'tylko',
+  'jeszcze', 'bardzo', 'moze', 'mozna', 'bedzie', 'beda', 'byly', 'byla',
+  'bylo', 'mamy', 'macie', 'sobie', 'siebie', 'przez', 'przed', 'tutaj',
+  'teraz', 'wiec', 'czyli', 'gdzie', 'kiedy', 'jesli', 'jezeli', 'nawet',
+  'temat', 'watek', 'akcje', 'akcji', 'kurs', 'kursu', 'gielda', 'gieldy',
+  'napisal', 'napisala', 'godz', 'dnia', 'chyba', 'jednak', 'wlasnie', 'potem',
+  'powinno', 'przeciez', 'zaraz', 'dzisiaj', 'jutro', 'wczoraj', 'czego', 'czym'
+]);
+
+const DEFAULT_DAYS = 7;
+const DEFAULT_MAX_COMMENTS = 200;
+const MIN_COMMENTS_FALLBACK = 5;
+const FALLBACK_WINDOW_DAYS = 30;
+const MAX_THREAD_PAGES = 6;
+const THREADS_PER_PAGE = 30;
+const POSTS_PER_THREAD = 40;
+const REQUEST_DELAY_MS = 150;
+
+// ---------------------------------------------------------------------------
+// HTML / text helpers
+// ---------------------------------------------------------------------------
 
 function stripTags(input) {
   return input.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ');
@@ -46,24 +127,213 @@ function normalizeCommentHtml(input) {
     .trim();
 }
 
-function slugify(input) {
-  return String(input || '')
+// Bankier replies embed the quoted post inline as:
+// "Dnia 2026-06-09 o godz. 16:01 ~Lis napisal(a):> quoted text..."
+// Strip the header and '>' markers so they don't pollute sentiment/keywords.
+function stripQuoteHeaders(body) {
+  return body
+    .replace(/dnia \d{4}-\d{2}-\d{2} o godz\. \d{1,2}:\d{2}\s*~?[^\n:]{0,40}napisa\u0142\(a\):/gi, ' ')
+    .replace(/^>\s?/gm, ' ')
+    .replace(/:>\s?/g, ': ')
+    .replace(/[ \t]{2,}/g, ' ')
+    .trim();
+}
+
+function deaccent(input) {
+  return String(input)
     .toLowerCase()
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
+    .replace(/ł/g, 'l');
+}
+
+function slugify(input) {
+  return deaccent(input || '')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '')
     .slice(0, 120);
 }
 
+function parsePostDate(value) {
+  const parsed = new Date(String(value || '').replace(' ', 'T'));
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+// ---------------------------------------------------------------------------
+// Sentiment
+// ---------------------------------------------------------------------------
+
+function matchStem(token) {
+  if (POSITIVE_EXACT.has(token)) return POSITIVE_EXACT.get(token);
+  if (NEGATIVE_EXACT.has(token)) return -NEGATIVE_EXACT.get(token);
+  for (const [stem, weight] of POSITIVE_STEMS) if (token.startsWith(stem)) return weight;
+  for (const [stem, weight] of NEGATIVE_STEMS) if (token.startsWith(stem)) return -weight;
+  return 0;
+}
+
+function sentimentScore(text) {
+  const plain = deaccent(text);
+  const tokens = plain.match(/[a-z0-9]+/g) || [];
+  let sum = 0;
+  let hits = 0;
+  let positiveHits = 0;
+  let negativeHits = 0;
+
+  for (let i = 0; i < tokens.length; i += 1) {
+    let weight = matchStem(tokens[i]);
+    if (!weight) continue;
+    const negated = (i > 0 && NEGATORS.has(tokens[i - 1])) || (i > 1 && NEGATORS.has(tokens[i - 2]));
+    if (negated) weight = -weight;
+    sum += weight;
+    hits += 1;
+    if (weight > 0) positiveHits += 1;
+    else negativeHits += 1;
+  }
+
+  for (const [phrase, weight] of PHRASES) {
+    if (plain.includes(phrase)) {
+      sum += weight;
+      hits += 1;
+      if (weight > 0) positiveHits += 1;
+      else negativeHits += 1;
+    }
+  }
+
+  for (const [emoji, weight] of EMOJI) {
+    if (text.includes(emoji)) {
+      sum += weight;
+      hits += 1;
+      if (weight > 0) positiveHits += 1;
+      else negativeHits += 1;
+    }
+  }
+
+  const score = Math.max(-1, Math.min(1, Math.tanh(sum / 3)));
+  const label = score > 0.12 ? 'Positive' : score < -0.12 ? 'Negative' : 'Neutral';
+  return { score, label, positiveHits, negativeHits, hits };
+}
+
+// ---------------------------------------------------------------------------
+// Aggregation
+// ---------------------------------------------------------------------------
+
+function keywordStats(comments) {
+  const counts = new Map();
+  for (const comment of comments) {
+    const seen = new Set();
+    for (const token of deaccent(comment.body).match(/[a-z]{4,}/g) || []) {
+      if (STOPWORDS.has(token) || seen.has(token)) continue;
+      seen.add(token); // count each word once per comment, not per repetition
+      counts.set(token, (counts.get(token) || 0) + 1);
+    }
+  }
+  return [...counts.entries()]
+    .filter(([, count]) => count > 1)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([word, count]) => ({ word, count }));
+}
+
+function dailyTrend(comments) {
+  const buckets = new Map();
+  for (const comment of comments) {
+    const date = parsePostDate(comment.postedAt);
+    if (!date) continue;
+    const key = date.toISOString().slice(0, 10);
+    const bucket = buckets.get(key) || { date: key, sum: 0, count: 0 };
+    bucket.sum += comment.sentimentScore;
+    bucket.count += 1;
+    buckets.set(key, bucket);
+  }
+  return [...buckets.values()]
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .map((bucket) => ({
+      date: bucket.date,
+      score: Number((bucket.sum / bucket.count).toFixed(3)),
+      count: bucket.count
+    }));
+}
+
+function trendDirection(trend) {
+  if (trend.length < 2) return 'stable';
+  const half = Math.floor(trend.length / 2);
+  const avg = (slice) => slice.reduce((sum, day) => sum + day.score, 0) / slice.length;
+  const delta = avg(trend.slice(half)) - avg(trend.slice(0, half));
+  return delta > 0.1 ? 'improving' : delta < -0.1 ? 'deteriorating' : 'stable';
+}
+
+function aggregate(comments, windowDays) {
+  const now = Date.now();
+  let weightedSum = 0;
+  let weightTotal = 0;
+  const breakdown = { positive: 0, negative: 0, neutral: 0 };
+
+  for (const comment of comments) {
+    breakdown[comment.sentimentLabel.toLowerCase()] += 1;
+    const date = parsePostDate(comment.postedAt);
+    const ageDays = date ? Math.max(0, (now - date.getTime()) / 86400000) : windowDays;
+    const recencyWeight = Math.pow(0.5, ageDays / 3); // half-life 3 days
+    const netVotes = (comment.votes?.up || 0) - (comment.votes?.down || 0);
+    const voteWeight = Math.max(0.25, Math.min(2.5, 1 + netVotes * 0.1)); // community agreement
+    const weight = recencyWeight * voteWeight;
+    weightedSum += comment.sentimentScore * weight;
+    weightTotal += weight;
+  }
+
+  const score = weightTotal ? weightedSum / weightTotal : 0;
+  const signal = score > 0.15 ? 'BUY' : score < -0.15 ? 'SELL' : 'HOLD';
+  const confidence = Math.min(0.95, 0.3 + Math.min(comments.length, 60) / 60 * 0.4 + Math.abs(score) * 0.35);
+  const trend = dailyTrend(comments);
+  const direction = trendDirection(trend);
+  const directionLabel = { improving: 'poprawia się', deteriorating: 'pogarsza się', stable: 'jest stabilny' }[direction];
+  const bias = score > 0.1 ? 'pozytywne' : score < -0.1 ? 'negatywne' : 'mieszane';
+  const summary = `Analiza ${comments.length} komentarzy z ostatnich ${windowDays} dni: nastroje ${bias} ` +
+    `(${breakdown.positive} pozytywnych, ${breakdown.negative} negatywnych, ${breakdown.neutral} neutralnych), ` +
+    `sentyment dzień do dnia ${directionLabel}. Wagi: świeżość komentarza i głosy społeczności (+/-).`;
+
+  return {
+    signal,
+    score: Number(score.toFixed(3)),
+    confidence: Number(confidence.toFixed(2)),
+    commentCount: comments.length,
+    breakdown,
+    trend,
+    trendDirection: direction,
+    summary,
+    topKeywords: keywordStats(comments)
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Fetching
+// ---------------------------------------------------------------------------
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function fetchText(url) {
   const response = await fetch(url, {
-    headers: { 'user-agent': 'Mozilla/5.0 BankierStreetBets/0.1' }
+    headers: { 'user-agent': 'Mozilla/5.0 BankierStreetBets/0.2' }
   });
   if (!response.ok) {
     throw new Error(`Fetch failed for ${url}: ${response.status}`);
   }
   return await response.text();
+}
+
+async function fetchJson(url, attempts = 3) {
+  let lastError;
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    try {
+      const text = await fetchText(url);
+      return JSON.parse(text); // endpoint sometimes returns an HTML error page
+    } catch (error) {
+      lastError = error;
+      await sleep(400 * (attempt + 1));
+    }
+  }
+  throw lastError;
 }
 
 function makeForumUrl(symbol, quoteHtml) {
@@ -75,19 +345,11 @@ function makeForumUrl(symbol, quoteHtml) {
 function extractForumMeta(forumHtml) {
   const match = forumHtml.match(/<div id="forumThreads"[^>]*data-forum-id="([^"]*)"[^>]*data-instrument-type="([^"]*)"[^>]*data-far-id="([^"]*)"/i);
   if (!match) return null;
-  return {
-    forumId: match[1],
-    instrumentType: match[2],
-    farId: match[3]
-  };
+  return { forumId: match[1], instrumentType: match[2], farId: match[3] };
 }
 
 function extractCanonicalForumUrl(forumHtml, fallback) {
   return forumHtml.match(/<link rel="canonical" href="([^"]+)"/i)?.[1] || fallback;
-}
-
-async function fetchJson(url) {
-  return JSON.parse(await fetchText(url));
 }
 
 function buildThreadUrl(thread) {
@@ -97,56 +359,109 @@ function buildThreadUrl(thread) {
 
 function mapThreadPost(post, thread) {
   const author = normalizeText(post.login || '').replace(/^~/, '').trim() || 'Anonim';
-  const body = normalizeCommentHtml(post.body || '');
   return {
     id: String(post.id || `${thread.thread_id}-${post.date}`),
     author,
     postedAt: normalizeText(post.date || thread.last_dt || ''),
-    body,
+    body: stripQuoteHeaders(normalizeCommentHtml(post.body || '')),
     threadTitle: normalizeText(post.subject || thread.subject || 'Wątek Bankier'),
-    url: buildThreadUrl(thread)
+    url: buildThreadUrl(thread),
+    votes: {
+      up: Number(post.up) || 0,
+      down: Number(post.down) || 0
+    }
   };
 }
 
-function sentimentScore(text) {
-  const source = text.toLowerCase();
-  let positive = 0;
-  let negative = 0;
-  for (const word of POSITIVE_WORDS) if (source.includes(word)) positive += 1;
-  for (const word of NEGATIVE_WORDS) if (source.includes(word)) negative += 1;
-  const raw = positive - negative;
-  const score = Math.max(-1, Math.min(1, raw / 4));
-  const label = score > 0.2 ? 'Positive' : score < -0.2 ? 'Negative' : 'Neutral';
-  return { score, label, positiveHits: positive, negativeHits: negative };
-}
+async function fetchThreadsInWindow(forumMeta, cutoff) {
+  const threads = [];
+  for (let page = 1; page <= MAX_THREAD_PAGES; page += 1) {
+    const threadsUrl = new URL('https://m.bankier.pl/json/get_threads');
+    threadsUrl.searchParams.set('page', String(page));
+    threadsUrl.searchParams.set('limit', String(THREADS_PER_PAGE));
+    threadsUrl.searchParams.set('forum_id', forumMeta.forumId);
+    if (forumMeta.instrumentType) threadsUrl.searchParams.set('instrument_type', forumMeta.instrumentType);
+    if (forumMeta.farId) threadsUrl.searchParams.set('far_id', forumMeta.farId);
 
-function keywordStats(comments) {
-  const counts = new Map();
-  for (const comment of comments) {
-    for (const token of comment.body.toLowerCase().match(/[a-ząćęłńóśźż]{4,}/gi) || []) {
-      if (STOPWORDS.has(token)) continue;
-      counts.set(token, (counts.get(token) || 0) + 1);
-    }
+    const response = await fetchJson(threadsUrl.toString());
+    const pageThreads = Array.isArray(response?.threads) ? response.threads : [];
+    if (!pageThreads.length) break;
+
+    const fresh = pageThreads.filter((thread) => {
+      const lastActivity = parsePostDate(thread.last_dt);
+      return lastActivity && lastActivity.getTime() >= cutoff;
+    });
+    threads.push(...fresh);
+
+    // threads are ordered by last activity; once a whole page is stale, stop
+    if (fresh.length < pageThreads.length) break;
+    await sleep(REQUEST_DELAY_MS);
   }
-  return [...counts.entries()]
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 8)
-    .map(([word, count]) => ({ word, count }));
+  return threads;
 }
 
-function aggregate(comments) {
-  const total = comments.reduce((sum, item) => sum + item.sentimentScore, 0);
-  const score = comments.length ? total / comments.length : 0;
-  const signal = score > 0.25 ? 'BUY' : score < -0.25 ? 'SELL' : 'HOLD';
-  const confidence = Math.min(0.95, 0.35 + comments.length * 0.08 + Math.abs(score) * 0.4);
-  const topKeywords = keywordStats(comments);
-  const bias = score > 0.15 ? 'umiarkowanie pozytywne' : score < -0.15 ? 'umiarkowanie negatywne' : 'mieszane';
-  const summary = `Ostatnie zebrane komentarze są ${bias}; sygnał wynika z pełnej treści wpisów, słów kluczowych i proporcji komentarzy dodatnich do ujemnych.`;
-  return { signal, score, confidence, commentCount: comments.length, summary, topKeywords };
+async function fetchThreadComments(thread, cutoff) {
+  const limit = Math.min(Number(thread.quantity) || 1, POSTS_PER_THREAD);
+  const threadUrl = new URL('https://m.bankier.pl/json/get_thread');
+  threadUrl.searchParams.set('thread_id', String(thread.thread_id));
+  threadUrl.searchParams.set('offset', '0');
+  threadUrl.searchParams.set('limit', String(limit));
+  threadUrl.searchParams.set('order', 'desc');
+
+  const response = await fetchJson(threadUrl.toString());
+  const posts = Array.isArray(response?.list) ? response.list : [];
+
+  return posts
+    .map((post) => mapThreadPost(post, thread))
+    .filter((post) => {
+      if (post.body.length < 5) return false;
+      const date = parsePostDate(post.postedAt);
+      return date && date.getTime() >= cutoff;
+    });
+}
+
+// ---------------------------------------------------------------------------
+// Main entry
+// ---------------------------------------------------------------------------
+
+async function collectComments(forumMeta, cutoff, maxComments) {
+  const threads = await fetchThreadsInWindow(forumMeta, cutoff);
+  const comments = [];
+
+  for (const thread of threads) {
+    try {
+      for (const post of await fetchThreadComments(thread, cutoff)) {
+        const sentiment = sentimentScore(`${post.threadTitle}. ${post.body}`);
+        comments.push({
+          id: post.id,
+          author: post.author,
+          postedAt: post.postedAt,
+          threadTitle: post.threadTitle,
+          url: post.url,
+          body: post.body,
+          votes: post.votes,
+          sentimentScore: Number(sentiment.score.toFixed(3)),
+          sentimentLabel: sentiment.label
+        });
+      }
+    } catch {
+      // ignore single thread failure
+    }
+    if (comments.length >= maxComments) break;
+    await sleep(REQUEST_DELAY_MS);
+  }
+
+  const uniqueComments = [...new Map(comments.map((item) => [item.id, item])).values()]
+    .sort((a, b) => (parsePostDate(b.postedAt)?.getTime() || 0) - (parsePostDate(a.postedAt)?.getTime() || 0))
+    .slice(0, maxComments);
+
+  return { threads, comments: uniqueComments };
 }
 
 async function collectStock(symbol, options = {}) {
-  const commentLimit = Math.max(1, Number(options.commentLimit) || DEFAULT_COMMENT_LIMIT);
+  const requestedDays = Math.max(1, Number(options.days) || DEFAULT_DAYS);
+  const maxComments = Math.max(10, Number(options.maxComments) || DEFAULT_MAX_COMMENTS);
+
   const quoteUrl = `https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=${symbol}`;
   const quoteHtml = await fetchText(quoteUrl);
   const companyName = normalizeText(quoteHtml.match(/<title>(.*?)\(/i)?.[1] || symbol);
@@ -159,52 +474,21 @@ async function collectStock(symbol, options = {}) {
     throw new Error(`Could not extract forum metadata for ${symbol}`);
   }
 
-  const threadsUrl = new URL('https://m.bankier.pl/json/get_threads');
-  threadsUrl.searchParams.set('page', '1');
-  threadsUrl.searchParams.set('limit', String(Math.max(commentLimit * 3, 10)));
-  threadsUrl.searchParams.set('forum_id', forumMeta.forumId);
-  if (forumMeta.instrumentType) threadsUrl.searchParams.set('instrument_type', forumMeta.instrumentType);
-  if (forumMeta.farId) threadsUrl.searchParams.set('far_id', forumMeta.farId);
+  let windowDays = requestedDays;
+  let { threads, comments: uniqueComments } = await collectComments(
+    forumMeta, Date.now() - windowDays * 86400000, maxComments
+  );
 
-  const threadsResponse = await fetchJson(threadsUrl.toString());
-  const threads = Array.isArray(threadsResponse?.threads) ? threadsResponse.threads : [];
-
-  const comments = [];
-  for (const thread of threads) {
-    try {
-      const threadUrl = new URL('https://m.bankier.pl/json/get_thread');
-      threadUrl.searchParams.set('thread_id', String(thread.thread_id));
-      threadUrl.searchParams.set('offset', '0');
-      threadUrl.searchParams.set('limit', String(Math.max(3, Math.min(Number(thread.quantity) || 3, commentLimit))));
-      threadUrl.searchParams.set('order', 'desc');
-      const threadResponse = await fetchJson(threadUrl.toString());
-      const posts = Array.isArray(threadResponse?.list) ? threadResponse.list : [];
-
-      for (const post of posts.map((item) => mapThreadPost(item, thread)).filter((item) => item.body.length > 20)) {
-        const predictionText = `${post.threadTitle}. ${post.body}`;
-        const sentiment = sentimentScore(predictionText);
-        comments.push({
-          id: post.id,
-          author: post.author,
-          postedAt: post.postedAt,
-          threadTitle: post.threadTitle,
-          url: post.url,
-          body: post.body,
-          sentimentScore: sentiment.score,
-          sentimentLabel: sentiment.label
-        });
-      }
-    } catch {
-      // ignore single thread failure
-    }
-    if (comments.length >= commentLimit * 2) break;
+  // quiet forum fallback: widen the window so there is always something to analyse
+  if (uniqueComments.length < MIN_COMMENTS_FALLBACK && requestedDays < FALLBACK_WINDOW_DAYS) {
+    windowDays = FALLBACK_WINDOW_DAYS;
+    ({ threads, comments: uniqueComments } = await collectComments(
+      forumMeta, Date.now() - windowDays * 86400000, maxComments
+    ));
   }
 
-  const uniqueComments = comments
-    .filter((item, index, array) => array.findIndex((other) => other.body === item.body) === index)
-    .sort((a, b) => new Date(b.postedAt || 0).getTime() - new Date(a.postedAt || 0).getTime())
-    .slice(0, commentLimit);
-  const analysis = aggregate(uniqueComments);
+  const analysis = aggregate(uniqueComments, windowDays);
+
   return {
     symbol,
     companyName,
@@ -215,7 +499,11 @@ async function collectStock(symbol, options = {}) {
       available: true,
       source: 'Bankier.pl forum',
       fetchedAt: new Date().toISOString(),
-      commentLimit
+      windowDays,
+      requestedDays,
+      windowExtended: windowDays !== requestedDays,
+      threadsScanned: threads.length,
+      commentLimit: uniqueComments.length // kept for backwards compatibility
     },
     analysis,
     comments: uniqueComments
@@ -228,4 +516,4 @@ async function writeStockFile(stock) {
   await fs.writeFile(target, JSON.stringify(stock, null, 2) + '\n');
 }
 
-export { collectStock, writeStockFile };
+export { collectStock, writeStockFile, sentimentScore };

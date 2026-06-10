@@ -7,10 +7,10 @@ on:
         description: 'Optional stock symbol, e.g. EUVIC'
         required: false
         type: string
-      comment_limit:
-        description: 'How many latest comments to save'
+      window_days:
+        description: 'How many days back to collect comments'
         required: false
-        default: '5'
+        default: '7'
         type: string
       stock_preset:
         description: 'Refresh configured symbols or a top-20 preset'
@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       STOCK_SYMBOL: ${{ github.event.inputs.symbol }}
-      COMMENT_LIMIT: ${{ github.event.inputs.comment_limit || '5' }}
+      WINDOW_DAYS: ${{ github.event.inputs.window_days || '7' }}
       STOCK_PRESET: ${{ github.event.inputs.stock_preset || 'configured' }}
     steps:
       - uses: actions/checkout@v4
@@ -41,9 +41,9 @@ jobs:
       - name: Refresh selected symbol or all configured symbols
         run: |
           if [ -n "$STOCK_SYMBOL" ]; then
-            npm run refresh:one -- "$STOCK_SYMBOL" "$COMMENT_LIMIT"
+            npm run refresh:one -- "$STOCK_SYMBOL" "$WINDOW_DAYS"
           else
-            node scripts/refresh-all.js "$COMMENT_LIMIT" "$STOCK_PRESET"
+            node scripts/refresh-all.js "$WINDOW_DAYS" "$STOCK_PRESET"
           fi
       - name: Commit refreshed data
         run: |

@@ -7,7 +7,10 @@ Prosty MVP bet makera dla polskich akcji. Aplikacja publikuje statyczną stronę
 - użytkownik wpisuje symbol, np. `EUVIC`
 - frontend ładuje gotowy plik `data/stocks/EUVIC.json`
 - plik JSON jest odświeżany przez GitHub Actions skryptem Node.js
-- skrypt pobiera stronę spółki, próbuje odnaleźć forum Bankier, zbiera kilka wątków/postów i liczy prosty sentyment
+- skrypt zbiera **wszystkie komentarze z forum Bankier z ostatnich N dni** (domyślnie 7, do 200 komentarzy), paginując listę wątków i pobierając pełną treść postów wraz z głosami społeczności (+/−)
+- sentyment liczony jest heurystycznie: leksykon polskich rdzeni słów (odmiany i brak ogonków nie przeszkadzają), obsługa negacji („nie kupuj"), frazy wielowyrazowe, emoji oraz slang forumowy
+- sygnał Buy/Hold/Sell to średnia ważona: świeższe komentarze i komentarze z dodatnim saldem głosów ważą więcej
+- wynik zawiera też dzienny trend sentymentu, rozbicie pozytywne/negatywne/neutralne i słowa kluczowe
 
 ## Ograniczenia MVP
 
@@ -25,10 +28,10 @@ Potem otwórz `http://localhost:4173`.
 
 ## Odświeżenie danych lokalnie
 
-Jedna spółka:
+Jedna spółka (drugi argument = ile dni wstecz, domyślnie 7):
 
 ```bash
-npm run refresh:one -- EUVIC
+npm run refresh:one -- EUVIC 7
 ```
 
 Wszystkie spółki z `config/stocks.json`:

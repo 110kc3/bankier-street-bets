@@ -3,53 +3,42 @@
   "companyName": "Euvic SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=EUVIC",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_euvic-sa,6,21,10000001220.html",
-  "updatedAt": "2026-06-10T04:49:05.576Z",
+  "updatedAt": "2026-06-10T10:47:14.197Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-10T04:49:05.576Z",
-    "commentLimit": 5
+    "fetchedAt": "2026-06-10T10:47:14.197Z",
+    "windowDays": 30,
+    "requestedDays": 7,
+    "windowExtended": true,
+    "threadsScanned": 3,
+    "commentLimit": 2
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.15,
-    "confidence": 0.81,
-    "commentCount": 5,
-    "summary": "Ostatnie zebrane komentarze są mieszane; sygnał wynika z pełnej treści wpisów, słów kluczowych i proporcji komentarzy dodatnich do ujemnych.",
-    "topKeywords": [
+    "score": 0.005,
+    "confidence": 0.31,
+    "commentCount": 2,
+    "breakdown": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    "trend": [
       {
-        "word": "akcji",
-        "count": 2
+        "date": "2026-05-13",
+        "score": 0.583,
+        "count": 1
       },
       {
-        "word": "ruszy",
-        "count": 2
-      },
-      {
-        "word": "wzrosty",
-        "count": 2
-      },
-      {
-        "word": "żeby",
-        "count": 2
-      },
-      {
-        "word": "emisje",
-        "count": 2
-      },
-      {
-        "word": "było",
-        "count": 2
-      },
-      {
-        "word": "rynek",
-        "count": 2
-      },
-      {
-        "word": "może",
+        "date": "2026-06-03",
+        "score": 0,
         "count": 1
       }
-    ]
+    ],
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 2 komentarzy z ostatnich 30 dni: nastroje mieszane (1 pozytywnych, 0 negatywnych, 1 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "topKeywords": []
   },
   "comments": [
     {
@@ -57,8 +46,12 @@
       "author": "lol",
       "postedAt": "2026-06-03 21:55",
       "threadTitle": "Po co Euvic nabył akcje Proacta",
-      "url": "https://www.bankier.pl/forum/temat_po-co-euvic-naby-akcje-proacta,74692333.html",
+      "url": "https://www.bankier.pl/forum/temat_po-co-euvic-nabyl-akcje-proacta,74692333.html",
       "body": "Może ktoś coś wie więcej, po co im 10% akcji Proacta?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
@@ -69,38 +62,12 @@
       "threadTitle": "Re: Solidne info poprosimy - nowa strategia / przejscie na GPW",
       "url": "https://www.bankier.pl/forum/temat_solidne-info-poprosimy-nowa-strategia-przejscie-na-gpw,73737639.html",
       "body": "DziękujęCiekaw jestem czy coś ruszy Kilka rzeczy mnie tu jednak martwi jeśli chodzi o dalsze wzrosty:- niski FF - tu nie ma zbyt wielu akcjonariuszy i nie ma też za bardzo co kupić, żeby pograć (mam na myśli większe ilości akcji)- planowane emisje konsolidacyjne - raczej będzie kurs trzymany w ryzach pod te emisje, żeby nie było za drogo- no i rynek IT sam w sobie nie przyciąga aktualnieAle potencjał jest i myślę, że po emisji dla prezesa dobrze było trochę ożywić ruch i wpłynąć na wzrosty :-)",
-      "sentimentScore": 0.75,
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74378495",
-      "author": "Pasza",
-      "postedAt": "2026-05-07 15:16",
-      "threadTitle": "Kapiszon so far",
-      "url": "https://www.bankier.pl/forum/temat_kapiszon-so-far,74378495.html",
-      "body": "jak w temacie ciekawe czy po wynikach sie cos ruszy bo poki co to suabo (a komus marzyl sie \"spektakularny debiut\")",
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74323483",
-      "author": "norton",
-      "postedAt": "2026-04-30 22:51",
-      "threadTitle": "yarrl - perła Euvic",
-      "url": "https://www.bankier.pl/forum/temat_yarrl-per-a-euvic,74323483.html",
-      "body": "Rynek główny i solidny biznes.",
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74275503",
-      "author": "ludwik",
-      "postedAt": "2026-04-27 09:13",
-      "threadTitle": "Re: Proacta !!!",
-      "url": "https://www.bankier.pl/forum/temat_proacta,74258299.html",
-      "body": "tam już + 70 a euvic ma pakiet 10 %",
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
