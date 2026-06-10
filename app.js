@@ -1,3 +1,7 @@
+/* GIEŁDOWY EXPRESS — app.js
+   Ten sam kontrakt danych co oryginał: ./data/index.json + ./data/stocks/SYMBOL.json
+   Zmieniona wyłącznie warstwa prezentacji (tryb tabloid). */
+
 const app = document.querySelector('#app');
 const form = document.querySelector('#symbol-form');
 const input = document.querySelector('#symbol-input');
@@ -5,12 +9,68 @@ const commentLimitInput = document.querySelector('#comment-limit-input');
 const template = document.querySelector('#result-template');
 const reportsList = document.querySelector('#reports-list');
 const reportsUpdated = document.querySelector('#reports-updated');
+const pilneTape = document.querySelector('#pilne-tape');
+const pilneTape2 = document.querySelector('#pilne-tape-2');
+const mastheadDate = document.querySelector('#masthead-date');
+const mastheadNaklad = document.querySelector('#masthead-naklad');
 
-const signalClass = {
-  BUY: 'signal-buy',
-  HOLD: 'signal-hold',
-  SELL: 'signal-sell'
+/* ── Redakcyjne słowniki ─────────────────────────────── */
+
+const SIGNALS = {
+  BUY: {
+    cls: 'sig-buy',
+    stamp: 'KUPUJ',
+    kicker: 'EUFORIA NA PARKIECIE',
+    headline: (name) => `${name}: <em class="green">GRUBE WORY WCHODZĄ!!!</em> FORUM JUŻ LICZY ZYSKI`,
+    subhead: (score, conf) =>
+      `Sentyment wystrzelił do ${fmtScore(score)} (pewność: ${conf}%). Forum Bankier.pl jednogłośnie melduje hossę. Redakcja przypomina, że forum meldowało ją też przed każdą bessą.`
+  },
+  HOLD: {
+    cls: 'sig-hold',
+    stamp: 'TRZYMAJ',
+    kicker: 'NUDA STULECIA',
+    headline: (name) => `${name}: <em class="hold">NIKT NIC NIE WIE!!!</em> FORUM PODZIELONE JAK ZAWSZE`,
+    subhead: (score, conf) =>
+      `Sentyment utknął na ${fmtScore(score)} (pewność: ${conf}%). Połowa forum widzi dno, druga połowa księżyc. Obie połowy są tego pewne.`
+  },
+  SELL: {
+    cls: 'sig-sell',
+    stamp: 'SPRZEDAWAJ',
+    kicker: 'SZOK NA PARKIECIE',
+    headline: (name) => `${name}: <em>WSZYSCY SPRZEDAJĄ!!!</em> FORUM ZGODNE PIERWSZY RAZ W HISTORII`,
+    subhead: (score, conf) =>
+      `Sentyment runął do ${fmtScore(score)} (pewność: ${conf}%). Eksperci z forum ostrzegali od trzech lat — w końcu trafili. Redakcja dotarła do wstrząsających komentarzy.`
+  }
 };
+
+const TITLES = ['prof. dr hab.', 'doc.', 'mgr inż.', 'dr (internetu)', 'lic.', 'inż.', 'red. nacz.', 'st. analityk'];
+const DEPARTMENTS = [
+  'Instytut Badań nad Dnem',
+  'Katedra Łapania Spadających Noży',
+  'Wyższa Szkoła Trzymania Akcji im. Nadziei',
+  'Samodzielna Pracownia Uśredniania w Dół',
+  'Zakład Analizy Pofaktycznej',
+  'Katedra Hopium Stosowanego',
+  'Instytut Wykresów i Linii Trendu',
+  'Biuro Prognoz Długoterminowo Błędnych',
+  'Wydział Diamentowych Rączek',
+  'Obserwatorium Grubych Worów'
+];
+const AVATARS = ['👨‍🏫', '👵', '🧔', '👴', '🕵️', '👨‍💼', '🧑‍🌾', '👨‍🔧', '🧙', '👨‍⚕️'];
+const VERDICTS = {
+  positive: ['KUPUJE (NIESTETY)', 'WIDZI KSIĘŻYC', 'ALL-IN (ŻONA NIE WIE)', 'DOKUPUJE NA GÓRCE'],
+  negative: ['SPRZEDAWAJ (OD 3 LAT)', 'WIDZI DNO (POD DNEM)', 'UCIEKA Z TONĄCEGO', 'PANIKUJE PROFESJONALNIE'],
+  neutral: ['NIE WIE (JAK MY WSZYSCY)', 'TRZYMA (FIZYCZNIE)', 'OBSERWUJE (Z DALEKA)', 'PYTA DLA KOLEGI']
+};
+const TREND_LABELS = [
+  { min: 0.3, labels: ['euforia w wątku', 'szampan w komentarzach', 'księżyc widoczny gołym okiem'] },
+  { min: 0.12, labels: ['hopium dostarczone', '„teraz to już na pewno"', 'ktoś wspomniał dywidendę'] },
+  { min: -0.12, labels: ['nikt nic nie wie', 'cisza w wątku (zła cisza)', 'spór o makro, jak co tydzień'] },
+  { min: -0.3, labels: ['łapanie spadającego noża', 'nerwowe odświeżanie wykresu', '„to tylko korekta"'] },
+  { min: -Infinity, labels: ['płacz zbiorowy', 'panika pełnoetatowa', 'wątek przeszedł na modlitwę'] }
+];
+
+/* ── Pomocnicze ──────────────────────────────────────── */
 
 function escapeHtml(value) {
   return String(value ?? '')
@@ -21,12 +81,19 @@ function escapeHtml(value) {
     .replace(/'/g, '&#39;');
 }
 
-function setMessage(title, message, error = false) {
-  app.innerHTML = `<section class="card ${error ? 'error' : ''}"><h2>${title}</h2><p>${message}</p></section>`;
+function hashStr(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i += 1) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+  return h;
 }
 
-function scoreToMeter(score) {
-  return `${Math.max(0, Math.min(100, ((score + 1) / 2) * 100))}%`;
+function pick(arr, seed) {
+  return arr[seed % arr.length];
+}
+
+function fmtScore(score) {
+  const n = Number(score) || 0;
+  return (n > 0 ? '+' : n < 0 ? '−' : '') + Math.abs(n).toFixed(2);
 }
 
 function formatDate(date) {
@@ -34,119 +101,212 @@ function formatDate(date) {
   return Number.isNaN(parsed.getTime()) ? 'brak daty' : parsed.toLocaleString('pl-PL');
 }
 
+function trendLabel(score, seed) {
+  const bucket = TREND_LABELS.find((b) => score >= b.min) || TREND_LABELS[TREND_LABELS.length - 1];
+  return pick(bucket.labels, seed);
+}
+
+function signalConf(signal) {
+  return SIGNALS[signal] || SIGNALS.HOLD;
+}
+
+function setMessage(title, message, error = false) {
+  app.innerHTML = `<section class="paper-box ${error ? 'error-box' : 'loading-box'}">` +
+    `<h2>${escapeHtml(title)}</h2><p>${escapeHtml(message)}</p></section>`;
+}
+
+function scrollToApp() {
+  const y = app.getBoundingClientRect().top + window.scrollY - 60;
+  window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+}
+
+/* ── Pasek PILNE!!! ──────────────────────────────────── */
+
+function renderPilne(reports) {
+  const arrows = { improving: '▲', deteriorating: '▼', stable: '■' };
+  const bits = reports.map((r) => {
+    const conf = signalConf(r.signal);
+    return `${r.symbol}: ${conf.stamp} ${arrows[r.trendDirection] || ''}`;
+  });
+  const jokes = [
+    'GRAŻYNA SPRZEDAŁA WSZYSTKO I KUPIŁA DZIAŁKĘ',
+    'ANALITYK Z FORUM: „MÓWIŁEM”',
+    'SEJM ZDZIWIONY, RYNEK BARDZIEJ',
+    'DRUKARNIA PRACUJE NA TRZY ZMIANY'
+  ];
+  const tape = 'PILNE!!! ★ ' + bits.concat(jokes).join(' ★ ') + ' ★ ';
+  pilneTape.textContent = tape;
+  pilneTape2.textContent = tape;
+}
+
+/* ── Kiosk ───────────────────────────────────────────── */
+
 function renderReportsIndex(indexData) {
-  reportsUpdated.textContent = `Ostatni fetch listy: ${formatDate(indexData.generatedAt)}`;
+  reportsUpdated.textContent = `ostatnia dostawa do kiosku: ${formatDate(indexData.generatedAt)}`;
   reportsList.innerHTML = '';
 
   indexData.reports.forEach((report) => {
+    const conf = signalConf(report.signal);
+    const arrow = { improving: '▲', deteriorating: '▼', stable: '■' }[report.trendDirection] || '';
     const button = document.createElement('button');
     button.type = 'button';
-    button.className = 'report-item';
-    const trendArrow = { improving: '↗', deteriorating: '↘', stable: '→' }[report.trendDirection] || '';
+    button.className = 'kiosk-item';
     button.innerHTML = `
-      <strong>${report.symbol}</strong>
-      <span>${report.companyName || report.symbol}</span>
-      <span>Sygnał: ${report.signal} ${trendArrow}</span>
-      <span>Komentarze: ${report.commentCount ?? '–'} (${report.windowDays || 7} dni)</span>
-      <span>Fetch: ${formatDate(report.updatedAt)}</span>
+      <span class="kiosk-symbol"><span>${escapeHtml(report.symbol)}</span><span class="kiosk-signal ${conf.cls}">${conf.stamp} ${arrow}</span></span>
+      <span class="kiosk-name">${escapeHtml(report.companyName || report.symbol)}</span>
+      <span class="kiosk-meta">${report.commentCount ?? '–'} kom. / ${report.windowDays || 7} dni · ${formatDate(report.updatedAt)}</span>
     `;
     button.addEventListener('click', () => {
       input.value = report.symbol;
-      loadStock(report.symbol);
+      loadStock(report.symbol, { scroll: true });
     });
     reportsList.appendChild(button);
   });
+
+  renderPilne(indexData.reports);
 }
 
-function renderStock(data) {
+/* ── Wydanie (analiza spółki) ────────────────────────── */
+
+function renderExpert(comment, index) {
+  const seed = hashStr(comment.author || `anonim-${index}`);
+  const sentiment = String(comment.sentimentLabel || 'Neutral').toLowerCase();
+  const verdictPool = VERDICTS[sentiment] || VERDICTS.neutral;
+  const verdictCls = sentiment === 'positive' ? 'sig-buy' : sentiment === 'negative' ? 'sig-sell' : '';
+
+  const article = document.createElement('article');
+  article.className = 'expert';
+  article.innerHTML = `
+    <div class="avatar">${pick(AVATARS, seed)}</div>
+    <div>
+      <div class="expert-name">${pick(TITLES, seed >> 3)} ~${escapeHtml(comment.author || 'anonim')}</div>
+      <div class="expert-title">${pick(DEPARTMENTS, seed >> 5)}</div>
+      <p class="expert-quote">„${escapeHtml(comment.body || '(ekspert milczy wymownie)')}”</p>
+      <div class="verdict ${verdictCls}">WERDYKT: ${pick(verdictPool, seed >> 7)}</div>
+      <div class="expert-meta">
+        ${comment.postedAt ? formatDate(comment.postedAt) : 'data nieznana'}
+        ${comment.votes ? ` · głosy czytelników: +${comment.votes.up} / −${comment.votes.down}` : ''}
+        · <a href="${escapeHtml(comment.url || '#')}" target="_blank" rel="noreferrer">${escapeHtml(comment.threadTitle || 'wątek na forum')}</a>
+      </div>
+    </div>
+  `;
+  return article;
+}
+
+function renderStock(data, options = {}) {
   if (!data || !data.analysis) {
-    setMessage('Brak analizy', 'Plik danych istnieje, ale nie zawiera poprawnej analizy.', true);
+    setMessage('AWARIA DRUKARNI!!!', 'Plik danych istnieje, ale nie zawiera poprawnej analizy. Zecer został zwolniony.', true);
     return;
   }
 
-  const requestedLimit = Math.max(1, Number(commentLimitInput.value) || 15);
+  const analysis = data.analysis;
+  const signal = analysis.signal || 'HOLD';
+  const conf = signalConf(signal);
+  const confidencePct = Math.round((analysis.confidence || 0) * 100);
+  const name = data.companyName || data.symbol;
+
+  const requestedLimit = Math.max(1, Number(commentLimitInput.value) || 8);
   const allComments = Array.isArray(data.comments) ? data.comments : [];
   const visibleComments = allComments.slice(0, requestedLimit);
+
   const node = template.content.cloneNode(true);
-  const signal = data.analysis.signal || 'HOLD';
-  node.querySelector('.symbol').textContent = data.symbol;
-  node.querySelector('.company-name').textContent = data.companyName || data.symbol;
-  const pill = node.querySelector('.signal-pill');
-  pill.textContent = signal;
-  pill.classList.add(signalClass[signal] || 'signal-hold');
-  node.querySelector('.meter-fill').style.width = scoreToMeter(data.analysis.score);
-  node.querySelector('.summary-copy').textContent = data.analysis.summary;
-  node.querySelector('.score').textContent = data.analysis.score.toFixed(2);
-  node.querySelector('.confidence').textContent = `${Math.round(data.analysis.confidence * 100)}%`;
-  node.querySelector('.comment-count').textContent = `${visibleComments.length} / ${data.analysis.commentCount}`;
-  const breakdown = data.analysis.breakdown;
-  node.querySelector('.breakdown').textContent = breakdown
-    ? `${breakdown.positive} / ${breakdown.negative} / ${breakdown.neutral}`
-    : '–';
-  const trendLabels = { improving: '↗ poprawia się', deteriorating: '↘ pogarsza się', stable: '→ stabilny' };
-  node.querySelector('.trend-direction').textContent = trendLabels[data.analysis.trendDirection] || '–';
-  node.querySelector('.comment-limit').textContent = `${data.report?.windowDays || 7} dni`;
-  node.querySelector('.updated-at').textContent = formatDate(data.report?.fetchedAt || data.updatedAt);
-  node.querySelector('.quote-link').href = data.quoteUrl;
-  node.querySelector('.forum-link').href = data.forumUrl;
 
-  const trendList = node.querySelector('.daily-trend');
-  (data.analysis.trend || []).forEach((day) => {
-    const li = document.createElement('li');
-    const tone = day.score > 0.12 ? 'positive' : day.score < -0.12 ? 'negative' : 'neutral';
-    li.innerHTML = `<span class="tag ${tone}">${day.score > 0 ? '+' : ''}${day.score.toFixed(2)}</span> ${escapeHtml(day.date)} · ${day.count} kom.`;
-    trendList.appendChild(li);
-  });
-  if (!trendList.children.length) {
-    const li = document.createElement('li');
-    li.textContent = 'Brak danych dziennych.';
-    trendList.appendChild(li);
-  }
+  /* nagłówek */
+  node.querySelector('.kicker').textContent = conf.kicker;
+  node.querySelector('.headline').innerHTML = conf.headline(escapeHtml(name));
+  node.querySelector('.subhead').textContent = conf.subhead(analysis.score, confidencePct);
+  const stamp = node.querySelector('.stamp');
+  stamp.classList.add(conf.cls);
+  stamp.querySelector('.stamp-word').textContent = conf.stamp;
 
-  const keywords = node.querySelector('.keywords');
-  (data.analysis.topKeywords || []).forEach((item) => {
-    const li = document.createElement('li');
-    li.textContent = `${item.word} (${item.count})`;
-    keywords.appendChild(li);
-  });
-  if (!keywords.children.length) {
-    const li = document.createElement('li');
-    li.textContent = 'Brak dominujących słów dla tego zestawu komentarzy.';
-    keywords.appendChild(li);
-  }
+  /* barometr */
+  const pct = Math.max(2, Math.min(98, ((Number(analysis.score) + 1) / 2) * 100));
+  node.querySelector('.barometr-needle').style.left = `${pct}%`;
 
-  const comments = node.querySelector('.comments');
+  /* statystyki */
+  const scoreEl = node.querySelector('.score');
+  scoreEl.textContent = fmtScore(analysis.score);
+  if (analysis.score < -0.05) scoreEl.classList.add('neg');
+  if (analysis.score > 0.05) scoreEl.classList.add('pos');
+  node.querySelector('.confidence').textContent = `${confidencePct}%`;
+  node.querySelector('.comment-count').textContent = analysis.commentCount ?? '–';
+  const b = analysis.breakdown;
+  const breakdownEl = node.querySelector('.breakdown');
+  breakdownEl.textContent = b ? `${b.positive}/${b.negative}/${b.neutral}` : '–';
+  if (b && b.negative > b.positive) breakdownEl.classList.add('neg');
+
+  /* eksperci */
+  const experts = node.querySelector('.experts');
   if (!visibleComments.length) {
     const empty = document.createElement('p');
-    empty.textContent = 'Brak zapisanych komentarzy dla tego symbolu.';
-    comments.appendChild(empty);
+    empty.className = 'expert-title';
+    empty.textContent = 'Wszyscy eksperci odmówili komentarza. To się zdarza pierwszy raz.';
+    experts.appendChild(empty);
+  }
+  visibleComments.forEach((comment, i) => experts.appendChild(renderExpert(comment, i)));
+
+  /* z ostatniej chwili (trend dzienny) */
+  const trendRows = node.querySelector('.trend-rows');
+  (analysis.trend || []).slice(-10).forEach((day) => {
+    const row = document.createElement('div');
+    row.className = 'trend-row';
+    const cls = day.score > 0.05 ? 'pos' : day.score < -0.05 ? 'neg' : '';
+    const dayLabel = String(day.date).slice(5).split('-').reverse().join('.');
+    row.innerHTML = `<span>${escapeHtml(dayLabel)} — ${escapeHtml(trendLabel(day.score, hashStr(day.date)))} (${day.count} kom.)</span><b class="${cls}">${fmtScore(day.score)}</b>`;
+    trendRows.appendChild(row);
+  });
+  if (!trendRows.children.length) {
+    trendRows.innerHTML = '<div class="trend-row"><span>Brak danych dziennych. Podejrzanie spokojnie.</span></div>';
   }
 
-  visibleComments.forEach((comment) => {
-    const article = document.createElement('article');
-    article.className = 'comment';
-    article.innerHTML = `
-      <div class="comment-header">
-        <strong>${escapeHtml(comment.author || 'Anonim')}</strong>
-        <span class="tag ${String(comment.sentimentLabel || 'Neutral').toLowerCase()}">${escapeHtml(comment.sentimentLabel || 'Neutral')}</span>
-      </div>
-      <div class="comment-meta">Data: ${comment.postedAt ? formatDate(comment.postedAt) : 'brak'}${comment.votes ? ` · głosy: +${comment.votes.up} / −${comment.votes.down}` : ''}</div>
-      <p>${escapeHtml(comment.body || '')}</p>
-      <div class="comment-header">
-        <span>${escapeHtml(comment.threadTitle || 'Wątek Bankier')}</span>
-        <a href="${escapeHtml(comment.url || '#')}" target="_blank" rel="noreferrer">Źródło</a>
-      </div>`;
-    comments.appendChild(article);
+  /* słowa tygodnia */
+  const keywords = node.querySelector('.keywords');
+  (analysis.topKeywords || []).forEach((item) => {
+    const span = document.createElement('span');
+    span.className = 'keyword';
+    span.innerHTML = `${escapeHtml(item.word)} <b>(${item.count})</b>`;
+    keywords.appendChild(span);
   });
+  if (!keywords.children.length) {
+    keywords.innerHTML = '<span class="keyword">forum wyjątkowo bez słów</span>';
+  }
+
+  /* ogłoszenia */
+  node.querySelector('.quote-link').href = data.quoteUrl || '#';
+  node.querySelector('.forum-link').href = data.forumUrl || '#';
+  node.querySelector('.updated-at').textContent =
+    `Skład wydania: ${formatDate(data.report?.fetchedAt || data.updatedAt)} · okno: ${data.report?.windowDays || 7} dni`;
+
+  /* nakład w winiecie */
+  mastheadNaklad.textContent = `Nakład: ${analysis.commentCount ?? '?'} komentarzy / ${data.report?.windowDays || 7} dni`;
 
   app.innerHTML = '';
   app.appendChild(node);
 
-  // UX: when selecting a report from the list, the results are rendered below it.
-  // Auto-scroll so users immediately see the analysis.
-  requestAnimationFrame(() => {
-    app.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  });
+  if (options.scroll) requestAnimationFrame(scrollToApp);
+}
+
+/* ── Ładowanie danych ────────────────────────────────── */
+
+async function loadStock(symbol, options = {}) {
+  const normalized = String(symbol || '').trim().toUpperCase();
+  if (!normalized) {
+    setMessage('PUSTA STRONA!!!', 'Wpisz kod spółki, np. JSW. Bez tego drukujemy same przecinki.', true);
+    return;
+  }
+  setMessage('MASZYNY DRUKUJĄ…', `Skład wydania specjalnego dla ${normalized}.`);
+  try {
+    const response = await fetch(`./data/stocks/${normalized}.json`, { cache: 'no-store' });
+    if (!response.ok) throw new Error('not-found');
+    const data = await response.json();
+    renderStock(data, options);
+  } catch {
+    setMessage(
+      'WYDANIE ZAGINĘŁO W DRUKARNI!!!',
+      `Nie znaleziono pliku danych dla ${normalized}. Dodaj ticker do config/stocks.json i uruchom workflow refresh — zecer czeka.`,
+      true
+    );
+  }
 }
 
 async function loadReportsIndex() {
@@ -155,36 +315,31 @@ async function loadReportsIndex() {
     if (!response.ok) throw new Error('index');
     const data = await response.json();
     renderReportsIndex(data);
-  } catch {
-    reportsUpdated.textContent = 'Nie udało się wczytać listy raportów.';
-  }
-}
 
-async function loadStock(symbol) {
-  const normalized = symbol.trim().toUpperCase();
-  if (!normalized) {
-    setMessage('Brak symbolu', 'Wpisz kod spółki, np. EUVIC.', true);
-    return;
-  }
-  setMessage('Ładowanie…', `Pobieram snapshot dla ${normalized}.`);
-  try {
-    const response = await fetch(`./data/stocks/${normalized}.json`, { cache: 'no-store' });
-    if (!response.ok) throw new Error('not-found');
-    const data = await response.json();
-    renderStock(data);
+    /* wydanie otwierające: najbardziej dramatyczna spółka dnia */
+    const reports = data.reports || [];
+    if (reports.length) {
+      const drama = [...reports].sort(
+        (a, b) => Math.abs(b.score || 0) - Math.abs(a.score || 0) || (b.commentCount || 0) - (a.commentCount || 0)
+      )[0];
+      input.value = drama.symbol;
+      loadStock(drama.symbol);
+    } else {
+      setMessage('KIOSK PUSTY', 'Brak raportów w data/index.json. Uruchom workflow refresh.', true);
+    }
   } catch {
-    setMessage(
-      'Brak danych',
-      `Nie znaleziono wygenerowanego pliku dla ${normalized}. Dodaj ticker do config/stocks.json i uruchom workflow refresh.`,
-      true
-    );
+    reportsUpdated.textContent = 'Kiosk zamknięty — nie udało się wczytać listy raportów.';
+    setMessage('KIOSK ZAMKNIĘTY', 'Nie udało się wczytać data/index.json. Sprawdź, czy workflow refresh wygenerował dane.', true);
   }
 }
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  loadStock(input.value);
+  loadStock(input.value, { scroll: true });
 });
 
-loadStock('EUVIC');
+/* winieta: data wydania */
+mastheadDate.textContent =
+  'Wydanie paniczne · ' + new Date().toLocaleDateString('pl-PL', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+
 loadReportsIndex();

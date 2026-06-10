@@ -1,99 +1,196 @@
+/* GIEŁDOWY EXPRESS — tabloidowy skin dla Bankier Street Bets */
+
 :root {
-  color-scheme: dark;
-  --bg: #07111f;
-  --panel: #101b2d;
-  --panel-2: #15243c;
-  --text: #ebf1ff;
-  --muted: #9db0d0;
-  --buy: #1ecb81;
-  --hold: #ffbf47;
-  --sell: #ff5f6d;
-  --border: rgba(255, 255, 255, 0.08);
+  --paper: #f4efe3;
+  --paper-2: #efe8d6;
+  --paper-card: #fffdf6;
+  --ink: #17120c;
+  --ink-soft: #5c5142;
+  --ink-mid: #3d3526;
+  --red: #d6131a;
+  --yellow: #ffe000;
+  --green: #1f9e4b;
+  --hold: #a07400;
+  --rule: #c9bfa8;
 }
 
 * { box-sizing: border-box; }
+
 body {
   margin: 0;
-  font-family: Inter, Segoe UI, Arial, sans-serif;
-  background: linear-gradient(180deg, #07111f 0%, #0d1730 100%);
-  color: var(--text);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  position: relative;
 }
-.page { width: min(1100px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 56px; }
-.hero, .search-card, .card { background: rgba(16, 27, 45, 0.88); border: 1px solid var(--border); border-radius: 20px; }
-.hero { padding: 32px; margin-bottom: 20px; }
-.eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: #78a6ff; font-size: 12px; margin: 0 0 10px; }
-h1, h2, h3, p { margin-top: 0; }
-.lead, .hint, .summary-copy, .disclaimer { color: var(--muted); }
-.search-card { padding: 20px 24px; margin-bottom: 20px; }
-.reports-card { margin-bottom: 20px; }
-.reports-head { display: flex; justify-content: space-between; align-items: start; gap: 16px; margin-bottom: 16px; }
-.reports-updated { color: var(--muted); font-size: 14px; }
-.reports-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 12px;
-  max-height: 460px;
-  overflow: auto;
-  padding-right: 6px;
+body::after {
+  content: "";
+  position: fixed; inset: 0; pointer-events: none; z-index: 99;
+  background: repeating-linear-gradient(0deg, rgba(23, 18, 12, 0.025) 0 2px, transparent 2px 4px);
 }
 
-.reports-list::-webkit-scrollbar {
-  width: 10px;
+/* ── PILNE!!! ─────────────────────────────────────────── */
+.pilne {
+  position: sticky; top: 0; z-index: 50;
+  background: var(--red); color: #fff;
+  overflow: hidden; white-space: nowrap;
+  padding: 8px 0; display: flex;
+  font-family: 'Anton', sans-serif; font-size: 16px; letter-spacing: 0.12em;
 }
+.pilne-inner { display: inline-block; animation: pilne-scroll 40s linear infinite; padding-right: 60px; flex-shrink: 0; }
+@keyframes pilne-scroll { from { transform: translateX(0); } to { transform: translateX(-100%); } }
+@media (prefers-reduced-motion: reduce) { .pilne-inner { animation: none; } }
 
-.reports-list::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.12);
-  border-radius: 999px;
-}
+.page { width: min(1160px, calc(100% - 32px)); margin: 0 auto; padding-bottom: 26px; }
 
-.reports-list::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-.report-item {
-  text-align: left; background: var(--panel-2); border: 1px solid var(--border); border-radius: 14px;
-  padding: 14px; display: grid; gap: 6px; color: var(--text);
-}
-.report-item span { color: var(--muted); font-size: 14px; }
-.search-form label { display: block; margin-bottom: 10px; font-weight: 700; }
-.search-row { display: flex; gap: 12px; }
-input {
-  flex: 1; background: #091426; color: var(--text); border: 1px solid var(--border);
-  border-radius: 14px; padding: 14px 16px; font-size: 16px; text-transform: uppercase;
-}
-.comment-meta { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
-button {
-  border: 0; border-radius: 14px; padding: 14px 18px; font-weight: 700; cursor: pointer;
-  background: linear-gradient(135deg, #4e8cff, #7c56ff); color: white;
-}
-.results-shell { min-height: 280px; }
-.card { padding: 24px; }
-.result-grid { display: grid; gap: 20px; }
-.summary-head { display: flex; justify-content: space-between; gap: 16px; align-items: start; }
-.signal-pill { padding: 10px 14px; border-radius: 999px; font-weight: 800; }
-.signal-buy { background: rgba(30, 203, 129, 0.18); color: var(--buy); }
-.signal-hold { background: rgba(255, 191, 71, 0.18); color: var(--hold); }
-.signal-sell { background: rgba(255, 95, 109, 0.18); color: var(--sell); }
-.meter-track { height: 12px; background: linear-gradient(90deg, var(--sell), var(--hold), var(--buy)); border-radius: 999px; overflow: hidden; }
-.meter-fill { height: 100%; background: rgba(255,255,255,0.55); width: 50%; mix-blend-mode: screen; }
-.meter-wrap { margin: 20px 0; }
-.meter-labels { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; margin-top: 6px; }
-.meta-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
-.meta-grid div, .comment { background: var(--panel-2); border-radius: 14px; padding: 14px; }
-dt { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
-dd { margin: 0; font-weight: 700; }
-.links { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
-a { color: #9fc2ff; }
-.keywords { list-style: none; padding: 0; margin: 0; display: flex; gap: 10px; flex-wrap: wrap; }
-.keywords li { background: #0a1630; padding: 10px 12px; border-radius: 999px; border: 1px solid var(--border); }
-.comments { display: grid; gap: 12px; }
-.comment-header { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; margin-bottom: 8px; }
-.tag { border-radius: 999px; padding: 4px 10px; font-size: 12px; font-weight: 700; }
-.tag.positive { background: rgba(30, 203, 129, 0.18); color: var(--buy); }
-.tag.neutral { background: rgba(255, 191, 71, 0.18); color: var(--hold); }
-.tag.negative { background: rgba(255, 95, 109, 0.18); color: var(--sell); }
-.error { border-color: rgba(255,95,109,.5); }
+/* ── Masthead ─────────────────────────────────────────── */
+.masthead { text-align: center; padding: 24px 10px 12px; border-bottom: 4px double var(--ink); }
+.masthead h1 { margin: 0; font-family: 'Anton', sans-serif; font-size: clamp(42px, 7vw, 68px); letter-spacing: 0.04em; line-height: 1; }
+.masthead h1 span { color: var(--red); }
+.masthead-meta { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: 12.5px; font-style: italic; color: var(--ink-soft); margin-top: 10px; }
 
-@media (max-width: 800px) {
-  .search-row, .summary-head { flex-direction: column; }
-  .meta-grid { grid-template-columns: repeat(2, 1fr); }
+/* ── Zamów analizę ────────────────────────────────────── */
+.zamow { border-bottom: 2px solid var(--ink); padding: 14px 0 12px; }
+.zamow-form { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.zamow-label { font-family: 'Anton', sans-serif; font-size: 17px; letter-spacing: 0.08em; }
+.zamow-form input {
+  background: var(--paper-card); border: 2px solid var(--ink); border-radius: 0;
+  font-family: Georgia, serif; font-size: 16px; color: var(--ink);
+  padding: 9px 12px; text-transform: uppercase; box-shadow: 3px 3px 0 var(--ink);
+}
+#symbol-input { flex: 1; min-width: 140px; }
+#comment-limit-input { width: 76px; }
+.zamow-form button {
+  border: 2px solid var(--ink); border-radius: 0; cursor: pointer;
+  background: var(--red); color: #fff; font-family: 'Anton', sans-serif;
+  font-size: 16px; letter-spacing: 0.1em; padding: 9px 20px;
+  box-shadow: 3px 3px 0 var(--ink); transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.zamow-form button:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--ink); }
+.zamow-form button:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+.zamow-hint { font-size: 12.5px; font-style: italic; color: var(--ink-soft); margin: 10px 0 0; }
+
+/* ── Kiosk ────────────────────────────────────────────── */
+.kiosk { padding: 16px 0 18px; border-bottom: 2px solid var(--ink); }
+.section-head {
+  font-family: 'Anton', sans-serif; font-size: 17px; letter-spacing: 0.1em; text-transform: uppercase;
+  border-bottom: 3px solid var(--ink); padding-bottom: 5px; margin-bottom: 12px;
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+}
+.section-head small { font-family: Georgia, serif; font-style: italic; font-size: 12px; letter-spacing: 0; text-transform: none; color: var(--ink-soft); font-weight: 400; }
+.kiosk-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 14px; }
+.kiosk-item {
+  text-align: left; cursor: pointer; font-family: Georgia, serif;
+  border: 2px solid var(--ink); background: var(--paper-card); box-shadow: 4px 4px 0 var(--ink);
+  padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; color: var(--ink);
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.kiosk-item:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--ink); }
+.kiosk-item:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+.kiosk-symbol { font-family: 'Anton', sans-serif; font-size: 21px; letter-spacing: 0.03em; display: flex; justify-content: space-between; align-items: baseline; }
+.kiosk-signal { font-family: 'Anton', sans-serif; font-size: 13px; letter-spacing: 0.06em; }
+.kiosk-signal.sig-buy { color: var(--green); }
+.kiosk-signal.sig-hold { color: var(--hold); }
+.kiosk-signal.sig-sell { color: var(--red); }
+.kiosk-name { font-size: 12px; font-style: italic; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.kiosk-meta { font-size: 11.5px; color: var(--ink-soft); border-top: 1px dotted var(--rule); padding-top: 4px; margin-top: 2px; }
+
+/* ── Wydanie (wynik) ──────────────────────────────────── */
+.results-shell { min-height: 320px; }
+.headline-wrap { padding: 22px 0 16px; border-bottom: 2px solid var(--ink); position: relative; }
+.kicker {
+  display: inline-block; background: var(--yellow); font-family: 'Anton', sans-serif;
+  font-size: 14px; letter-spacing: 0.14em; padding: 4px 12px; transform: rotate(-1.2deg); margin-bottom: 12px;
+}
+.headline { margin: 0; font-family: 'Anton', sans-serif; font-size: clamp(34px, 5vw, 56px); line-height: 1.04; text-transform: uppercase; max-width: 21ch; }
+.headline em { font-style: normal; color: var(--red); }
+.headline em.green { color: var(--green); }
+.headline em.hold { color: var(--hold); }
+.subhead { font-size: 17px; font-style: italic; color: var(--ink-mid); margin: 12px 0 0; max-width: 70ch; }
+.stamp {
+  position: absolute; right: 12px; top: 30px; transform: rotate(9deg);
+  border: 6px solid var(--red); color: var(--red); font-family: 'Anton', sans-serif;
+  font-size: clamp(26px, 3.4vw, 42px); letter-spacing: 0.08em; padding: 10px 22px 8px; border-radius: 8px;
+  text-transform: uppercase; opacity: 0.9; background: rgba(244, 239, 227, 0.65);
+  box-shadow: 0 0 0 2px rgba(214, 19, 26, 0.25) inset; line-height: 1; text-align: center;
+}
+.stamp small { display: block; font-size: 12px; letter-spacing: 0.22em; margin-top: 4px; }
+.stamp.sig-buy { border-color: var(--green); color: var(--green); box-shadow: 0 0 0 2px rgba(31, 158, 75, 0.25) inset; }
+.stamp.sig-hold { border-color: var(--hold); color: var(--hold); box-shadow: 0 0 0 2px rgba(160, 116, 0, 0.25) inset; }
+
+.wydanie-body { display: grid; grid-template-columns: 1.5fr 1fr; }
+.wydanie-main { padding: 18px 24px 18px 0; border-right: 2px solid var(--ink); display: flex; flex-direction: column; gap: 16px; }
+.wydanie-side { padding: 18px 0 18px 22px; display: flex; flex-direction: column; gap: 16px; background: linear-gradient(90deg, var(--paper-2), var(--paper-2)); }
+
+/* Barometr */
+.barometr { border: 2px solid var(--ink); background: var(--paper-card); padding: 18px 20px 14px; box-shadow: 5px 5px 0 var(--ink); }
+.barometr-track {
+  height: 26px; border: 2px solid var(--ink); position: relative;
+  background: linear-gradient(90deg, var(--red) 0%, var(--red) 33%, var(--yellow) 33%, var(--yellow) 66%, var(--green) 66%, var(--green) 100%);
+}
+.barometr-needle { position: absolute; top: -12px; bottom: -12px; left: 50%; width: 5px; background: var(--ink); transition: left 0.6s cubic-bezier(0.22, 1.4, 0.36, 1); }
+.barometr-needle::after { content: "▼"; position: absolute; top: -17px; left: 50%; transform: translateX(-50%); font-size: 17px; }
+.barometr-labels { display: flex; justify-content: space-between; font-family: 'Anton', sans-serif; font-size: 13px; letter-spacing: 0.1em; margin-top: 10px; }
+.barometr-labels span:first-child { color: var(--red); }
+.barometr-labels span:last-child { color: var(--green); }
+
+/* Statystyki */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0; }
+.stat { border: 2px solid var(--ink); background: var(--paper-card); text-align: center; padding: 10px 6px 8px; box-shadow: 4px 4px 0 var(--ink); }
+.stat dt { font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-soft); margin: 0 0 4px; }
+.stat dd { margin: 0; font-family: 'Anton', sans-serif; font-size: 25px; }
+.stat dd.neg { color: var(--red); }
+.stat dd.pos { color: var(--green); }
+
+/* Eksperci */
+.experts { display: flex; flex-direction: column; gap: 14px; }
+.expert { border-bottom: 1px solid var(--rule); padding-bottom: 14px; display: grid; grid-template-columns: 56px 1fr; gap: 12px; }
+.expert:last-child { border-bottom: 0; padding-bottom: 0; }
+.avatar { width: 56px; height: 56px; border: 2px solid var(--ink); background: #e7dfc9; display: grid; place-items: center; font-size: 28px; filter: grayscale(0.3); }
+.expert-name { font-family: 'Anton', sans-serif; font-size: 15px; letter-spacing: 0.03em; }
+.expert-title { font-size: 12px; font-style: italic; color: var(--ink-soft); margin-bottom: 5px; }
+.expert-quote { margin: 0; font-size: 14.5px; line-height: 1.5; overflow-wrap: anywhere; }
+.expert-meta { font-size: 11.5px; color: var(--ink-soft); margin-top: 6px; font-style: italic; }
+.expert-meta a { color: var(--ink-soft); }
+.verdict { font-family: 'Anton', sans-serif; font-size: 12px; letter-spacing: 0.1em; margin-top: 5px; text-transform: uppercase; color: var(--hold); }
+.verdict.sig-sell { color: var(--red); }
+.verdict.sig-buy { color: var(--green); }
+
+/* Boczki */
+.paper-box { border: 2px solid var(--ink); background: var(--paper-card); box-shadow: 5px 5px 0 var(--ink); padding: 14px 16px; }
+.box-head { font-family: 'Anton', sans-serif; font-size: 15px; letter-spacing: 0.1em; text-transform: uppercase; border-bottom: 2px solid var(--ink); padding-bottom: 5px; margin-bottom: 10px; }
+.box-head.inv { background: var(--ink); color: var(--yellow); margin: -14px -16px 10px; padding: 8px 16px; border-bottom: 0; }
+.trend-row { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 13.5px; padding: 5px 0; border-bottom: 1px dotted var(--rule); }
+.trend-row:last-child { border-bottom: 0; }
+.trend-row b { font-family: 'Anton', sans-serif; font-size: 14px; white-space: nowrap; }
+.trend-row .neg { color: var(--red); }
+.trend-row .pos { color: var(--green); }
+.keywords { display: flex; flex-wrap: wrap; gap: 8px; }
+.keyword { border: 1px solid var(--ink); background: var(--paper-2); padding: 4px 10px; font-size: 13px; }
+.keyword b { font-family: 'Anton', sans-serif; font-weight: 400; }
+.ogloszenia { display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; }
+.ogloszenia a { color: var(--ink); }
+.ogloszenia .updated-at { font-size: 11.5px; font-style: italic; color: var(--ink-soft); border-top: 1px dotted var(--rule); padding-top: 7px; }
+.horoskop { font-size: 13.5px; line-height: 1.55; font-style: italic; margin: 0; }
+.horoskop b { font-style: normal; }
+.kupon { background: var(--yellow); border: 3px dashed var(--ink); padding: 12px 14px; text-align: center; transform: rotate(-0.8deg); }
+.kupon-big { font-family: 'Anton', sans-serif; font-size: 21px; line-height: 1.15; }
+.kupon-small { font-size: 11.5px; font-style: italic; margin-top: 5px; }
+
+/* Stany ─ loading / błąd */
+.loading-box, .error-box { margin-top: 18px; }
+.error-box { border-color: var(--red); box-shadow: 5px 5px 0 var(--red); }
+.error-box h2 { font-family: 'Anton', sans-serif; color: var(--red); margin: 0 0 8px; letter-spacing: 0.04em; }
+.loading-box h2 { font-family: 'Anton', sans-serif; margin: 0 0 8px; letter-spacing: 0.04em; }
+.loading-box p, .error-box p { margin: 0; font-style: italic; color: var(--ink-mid); }
+
+/* Stopka */
+.stopka { border-top: 3px double var(--ink); margin-top: 22px; padding: 10px 0; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 11.5px; font-style: italic; color: var(--ink-soft); }
+
+@media (max-width: 860px) {
+  .wydanie-body { grid-template-columns: 1fr; }
+  .wydanie-main { border-right: 0; padding-right: 0; }
+  .wydanie-side { padding-left: 0; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stamp { position: static; display: inline-block; margin-top: 14px; transform: rotate(-3deg); }
 }

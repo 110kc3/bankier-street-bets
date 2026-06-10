@@ -1,9 +1,10 @@
 import fs from 'node:fs/promises';
 import { collectStock, writeStockFile } from './bankier.js';
 
+// CCC -> MODIVO, PLAY -> delisted (removed); SANTANDER -> ERSTEPL (renamed)
 const TOP20_SYMBOLS = [
   'PKNORLEN', 'PKOBP', 'PEKAO', 'PZU', 'DINOPL', 'ALLEGRO', 'KGHM', 'LPP', 'CDPROJEKT', 'MBANK',
-  'SANTANDER', 'KRUK', 'CCC', 'CYFRPLSAT', 'BUDIMEX', 'ORANGEPL', 'JSW', 'TAURONPE', 'PGE', 'PLAY'
+  'ERSTEPL', 'KRUK', 'CYFRPLSAT', 'BUDIMEX', 'ORANGEPL', 'JSW', 'TAURONPE', 'PGE'
 ];
 
 const preset = String(process.argv[3] || process.env.STOCK_PRESET || 'configured').trim().toLowerCase();

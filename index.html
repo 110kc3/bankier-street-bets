@@ -3,109 +3,131 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bankier Street Bets</title>
+    <title>Giełdowy Express — Bankier Street Bets</title>
     <meta
       name="description"
-      content="Prosty bet maker dla polskich akcji oparty o komentarze z forum Bankier.pl"
+      content="Tabloid giełdowy: sygnały Buy/Hold/Sell dla GPW z komentarzy forum Bankier.pl. To nie jest porada inwestycyjna. To nie jest nawet gazeta."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div class="pilne" aria-hidden="true">
+      <div id="pilne-tape" class="pilne-inner">PILNE!!! ★ ŁADUJEMY NAJŚWIEŻSZĄ PANIKĘ… ★ </div>
+      <div id="pilne-tape-2" class="pilne-inner">PILNE!!! ★ ŁADUJEMY NAJŚWIEŻSZĄ PANIKĘ… ★ </div>
+    </div>
+
     <div class="page">
-      <header class="hero">
-        <p class="eyebrow">Bankier Street Bets</p>
-        <h1>Buy / Hold / Sell dla GPW z komentarzy Bankier.pl</h1>
-        <p class="lead">
-          Wpisz ticker spółki, np. <strong>EUVIC</strong>, aby zobaczyć ostatnie zebrane
-          komentarze, scoring sentymentu i prosty sygnał inwestycyjny.
-        </p>
+      <header class="masthead">
+        <h1>GIEŁDOWY <span>EXPRESS</span></h1>
+        <div class="masthead-meta">
+          <span id="masthead-date">Wydanie paniczne</span>
+          <span id="masthead-price">Cena: 2,50 zł (albo dwie akcje czegokolwiek)</span>
+          <span id="masthead-naklad">Nakład: liczymy…</span>
+        </div>
       </header>
 
-      <section class="search-card">
-        <form id="symbol-form" class="search-form">
-          <label for="symbol-input">Kod spółki</label>
-          <div class="search-row">
-            <input id="symbol-input" name="symbol" placeholder="EUVIC" maxlength="12" />
-            <input id="comment-limit-input" name="commentLimit" type="number" min="1" max="200" value="15" />
-            <button type="submit">Analizuj</button>
-          </div>
+      <section class="zamow">
+        <form id="symbol-form" class="zamow-form">
+          <div class="zamow-label">ZAMÓW ANALIZĘ:</div>
+          <input id="symbol-input" name="symbol" placeholder="np. JSW" maxlength="12" autocomplete="off" />
+          <input id="comment-limit-input" name="commentLimit" type="number" min="1" max="200" value="8" title="Ilu ekspertów wydrukować" />
+          <button type="submit">DO DRUKU!</button>
         </form>
-        <p class="hint">
-          Sygnał liczony jest ze wszystkich komentarzy z okna czasowego (domyślnie 7 dni).
-          Liczba obok określa tylko, ile najnowszych komentarzy wyświetlić poniżej.
+        <p class="zamow-hint">
+          Sygnał liczony ze wszystkich komentarzy z okna czasowego. Liczba obok mówi tylko,
+          ilu „ekspertów" zacytujemy poniżej. Redakcja nie odpowiada za skutki czytania.
         </p>
       </section>
 
-      <section class="card reports-card">
-        <div class="reports-head">
-          <div>
-            <p class="eyebrow">Dostępne raporty</p>
-            <h2>Lista wygenerowanych analiz</h2>
-          </div>
-          <div id="reports-updated" class="reports-updated">Ładowanie listy…</div>
+      <section class="kiosk">
+        <div class="section-head">
+          <span>KIOSK — WSZYSTKIE WYDANIA</span>
+          <small id="reports-updated">Ładowanie listy…</small>
         </div>
-        <div id="reports-list" class="reports-list"></div>
+        <div id="reports-list" class="kiosk-grid"></div>
       </section>
 
-      <main id="app" class="results-shell">
-        <section class="empty-state card">
-          <h2>Gotowe do analizy</h2>
-          <p>Wpisz symbol, aby wczytać ostatni zapisany snapshot danych.</p>
+      <main id="app" class="results-shell" data-screen-label="Analiza spółki">
+        <section class="paper-box loading-box">
+          <h2>Drukujemy pierwsze wydanie…</h2>
+          <p>Maszyny drukarskie się rozgrzewają. Wybieramy najbardziej dramatyczną spółkę dnia.</p>
         </section>
       </main>
+
+      <footer class="stopka">
+        <span>Redakcja nie ponosi odpowiedzialności za nic, a już szczególnie za to. <b>To nie jest porada inwestycyjna.</b></span>
+        <span>Źródło: forum Bankier.pl · heurystyka, nie nauka</span>
+      </footer>
     </div>
 
     <template id="result-template">
-      <section class="result-grid">
-        <article class="card summary-card">
-          <div class="summary-head">
-            <div>
-              <p class="eyebrow symbol"></p>
-              <h2 class="company-name"></h2>
-            </div>
-            <div class="signal-pill"></div>
-          </div>
-          <div class="meter-wrap">
-            <div class="meter-track"><div class="meter-fill"></div></div>
-            <div class="meter-labels">
-              <span>Sell</span>
-              <span>Hold</span>
-              <span>Buy</span>
-            </div>
-          </div>
-          <div class="summary-copy"></div>
-          <dl class="meta-grid">
-            <div><dt>Score</dt><dd class="score"></dd></div>
-            <div><dt>Pewność</dt><dd class="confidence"></dd></div>
-            <div><dt>Komentarze</dt><dd class="comment-count"></dd></div>
-            <div><dt>+ / − / 0</dt><dd class="breakdown"></dd></div>
-            <div><dt>Trend</dt><dd class="trend-direction"></dd></div>
-            <div><dt>Okno</dt><dd class="comment-limit"></dd></div>
-            <div><dt>Aktualizacja</dt><dd class="updated-at"></dd></div>
-          </dl>
-          <div class="links">
-            <a class="quote-link" target="_blank" rel="noreferrer">Profil spółki</a>
-            <a class="forum-link" target="_blank" rel="noreferrer">Forum spółki</a>
-          </div>
-        </article>
+      <section class="wydanie">
+        <div class="headline-wrap">
+          <div class="kicker"></div>
+          <h2 class="headline"></h2>
+          <p class="subhead"></p>
+          <div class="stamp"><span class="stamp-word"></span><small>★ SYGNAŁ DNIA ★</small></div>
+        </div>
 
-        <article class="card keywords-card">
-          <h3>Trend dzienny sentymentu</h3>
-          <ul class="daily-trend"></ul>
-          <h3>Dominujące słowa i wątki</h3>
-          <ul class="keywords"></ul>
-          <p class="disclaimer">
-            To heurystyka oparta o słowa kluczowe, nie porada inwestycyjna.
-          </p>
-        </article>
+        <div class="wydanie-body">
+          <div class="wydanie-main">
+            <div class="section-head"><span>BAROMETR PANIKI</span><small>pomiar: heurystyka, nie nauka</small></div>
+            <section class="barometr">
+              <div class="barometr-track"><div class="barometr-needle"></div></div>
+              <div class="barometr-labels"><span>SPRZEDAWAJ!!!</span><span>TRZYMAJ</span><span>KUPUJ</span></div>
+            </section>
 
-        <article class="card comments-card">
-          <h3>Ostatnie komentarze</h3>
-          <div class="comments"></div>
-        </article>
+            <dl class="stats">
+              <div class="stat"><dt>Score</dt><dd class="score"></dd></div>
+              <div class="stat"><dt>Pewność</dt><dd class="confidence"></dd></div>
+              <div class="stat"><dt>Komentarze</dt><dd class="comment-count"></dd></div>
+              <div class="stat"><dt>+ / − / 0</dt><dd class="breakdown"></dd></div>
+            </dl>
+
+            <div class="section-head"><span>EKSPERCI KOMENTUJĄ</span><small>tytuły naukowe nadane przez redakcję</small></div>
+            <section class="experts"></section>
+          </div>
+
+          <aside class="wydanie-side">
+            <section class="paper-box">
+              <div class="box-head inv">Z OSTATNIEJ CHWILI</div>
+              <div class="trend-rows"></div>
+            </section>
+
+            <section class="paper-box">
+              <div class="box-head">SŁOWA TYGODNIA</div>
+              <div class="keywords"></div>
+            </section>
+
+            <section class="paper-box">
+              <div class="box-head">OGŁOSZENIA DROBNE</div>
+              <div class="ogloszenia">
+                <a class="quote-link" target="_blank" rel="noreferrer">→ Profil spółki na Bankier.pl</a>
+                <a class="forum-link" target="_blank" rel="noreferrer">→ Wątek na forum (wejdź na własne ryzyko)</a>
+                <span class="updated-at"></span>
+              </div>
+            </section>
+
+            <section class="paper-box">
+              <div class="box-head">HOROSKOP GIEŁDOWY</div>
+              <p class="horoskop">
+                <b>♉ Byki:</b> Merkury w retrogradacji, twój portfel też. Unikaj dźwigni i rozmów o finansach przy obiedzie.<br /><br />
+                <b>♐ Niedźwiedzie:</b> Gwiazdy mówią „shortuj", ale gwiazdy nie płacą depozytu zabezpieczającego.
+              </p>
+            </section>
+
+            <section class="kupon">
+              <div class="kupon-big">KUPON: −50% NA KOPIUM</div>
+              <div class="kupon-small">ważny do odwołania hossy · nie łączy się z rozumem</div>
+            </section>
+          </aside>
+        </div>
       </section>
     </template>
 
-    <script type="module" src="./app.js"></script>
+    <script src="./app.js"></script>
   </body>
-  </html>
+</html>
