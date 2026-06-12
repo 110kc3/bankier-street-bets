@@ -124,6 +124,7 @@ body::after {
 .stamp small { display: block; font-size: 12px; letter-spacing: 0.22em; margin-top: 4px; }
 .stamp.sig-buy { border-color: var(--green); color: var(--green); box-shadow: 0 0 0 2px rgba(31, 158, 75, 0.25) inset; }
 .stamp.sig-hold { border-color: var(--hold); color: var(--hold); box-shadow: 0 0 0 2px rgba(160, 116, 0, 0.25) inset; }
+.stamp.sig-sell { border-color: var(--red); color: var(--red); box-shadow: 0 0 0 2px rgba(214, 19, 26, 0.25) inset; }
 
 .wydanie-body { display: grid; grid-template-columns: 1.5fr 1fr; }
 .wydanie-main { padding: 18px 24px 18px 0; border-right: 2px solid var(--ink); display: flex; flex-direction: column; gap: 16px; }

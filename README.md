@@ -7,7 +7,7 @@ Prosty MVP bet makera dla polskich akcji. Aplikacja publikuje statyczną stronę
 - użytkownik wpisuje symbol, np. `EUVIC`
 - frontend ładuje gotowy plik `data/stocks/EUVIC.json`
 - plik JSON jest odświeżany przez GitHub Actions skryptem Node.js
-- skrypt zbiera **wszystkie komentarze z forum Bankier z ostatnich N dni** (domyślnie 7, do 200 komentarzy), paginując listę wątków i pobierając pełną treść postów wraz z głosami społeczności (+/−)
+- skrypt zbiera **wszystkie komentarze z forum Bankier z ostatnich N dni** (domyślnie 7, do 200 komentarzy łącznie i do 200 postów na wątek), paginując listę wątków i posty w wątkach oraz pobierając pełną treść postów wraz z głosami społeczności (+/−)
 - ciche fora automatycznie rozszerzają okno (7 → 30 → 90 → 365 dni), aż uzbiera się minimum komentarzy (domyślnie 30; sterowane przez `MIN_COMMENTS` / `MAX_COMMENTS` lub argumenty CLI)
 - sentyment liczony jest heurystycznie: leksykon polskich rdzeni słów (odmiany i brak ogonków nie przeszkadzają), obsługa negacji („nie kupuj"), frazy wielowyrazowe, emoji oraz slang forumowy
 - sygnał Buy/Hold/Sell to średnia ważona: świeższe komentarze i komentarze z dodatnim saldem głosów ważą więcej

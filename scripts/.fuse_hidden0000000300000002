@@ -144,7 +144,7 @@ function deaccent(input) {
   return String(input)
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[̀-ͯ]/g, '')
     .replace(/ł/g, 'l');
 }
 

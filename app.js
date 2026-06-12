@@ -294,7 +294,13 @@ async function loadStock(symbol, options = {}) {
     setMessage('PUSTA STRONA!!!', 'Wpisz kod spółki, np. JSW. Bez tego drukujemy same przecinki.', true);
     return;
   }
+  // whitelist — ticker lands in a fetch() path, so no dots/slashes allowed
+  if (!/^[A-Z0-9-]{1,12}$/.test(normalized)) {
+    setMessage('KRZYWY TICKER!!!', `„${normalized}" nie wygląda jak kod spółki. Dozwolone: litery, cyfry i myślnik.`, true);
+    return;
+  }
   setMessage('MASZYNY DRUKUJĄ…', `Skład wydania specjalnego dla ${normalized}.`);
+
   try {
     const response = await fetch(`./data/stocks/${normalized}.json`, { cache: 'no-store' });
     if (!response.ok) throw new Error('not-found');

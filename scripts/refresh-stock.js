@@ -1,4 +1,4 @@
-import { collectStock, writeStockFile } from './bankier.js';
+import { collectStock, writeStockFile, rebuildIndexFile } from './bankier.js';
 
 const symbol = (process.argv[2] || process.env.STOCK_SYMBOL || '').trim().toUpperCase();
 const days = Number(process.argv[3] || process.env.WINDOW_DAYS || 7);
@@ -12,4 +12,5 @@ if (!symbol) {
 
 const stock = await collectStock(symbol, { days, minComments, maxComments });
 await writeStockFile(stock);
+await rebuildIndexFile(); // keep the kiosk index in sync with single-symbol refreshes
 console.log(`Saved data/stocks/${symbol}.json (${stock.analysis.commentCount} comments, ${stock.analysis.signal}, window ${stock.report.windowDays}d)`);
