@@ -41,6 +41,48 @@ Wszystkie spółki z `config/stocks.json`:
 npm run refresh
 ```
 
+Albo gotowy preset top-20 GPW (bez `config/stocks.json`):
+
+```bash
+node scripts/refresh-all.js 7 top20
+```
+
+### Zmienne środowiskowe
+
+Skrypty czytają też konfigurację ze zmiennych (przydatne w CI):
+
+| Zmienna | Domyślnie | Znaczenie |
+| --- | --- | --- |
+| `WINDOW_DAYS` | `7` | ile dni wstecz zbierać komentarze |
+| `MIN_COMMENTS` | `30` | minimum komentarzy; poniżej okno rośnie 7 → 30 → 90 → 365 dni |
+| `MAX_COMMENTS` | `200` | maksimum zapisanych komentarzy na spółkę |
+| `STOCK_PRESET` | `configured` | `configured` (z `config/stocks.json`) albo `top20` |
+| `STOCK_SYMBOL` | – | odśwież tylko jeden symbol |
+
+## Testy i lint
+
+```bash
+npm test     # testy jednostkowe (kolektor, sentyment, kontrakt danych, frontend w jsdom)
+npm run lint # ESLint
+```
+
+`tests/data-contract.test.js` waliduje wygenerowane pliki `data/` i jest uruchamiany w
+workflow `refresh-data.yml` **przed** commitem — popsuty scrape nie trafi na produkcję.
+Workflow `test.yml` uruchamia lint + pełne testy na każdym PR-ze.
+
+## Jak działa scraping (i co go psuje)
+
+Kolektor (`scripts/bankier.js`) korzysta z nieoficjalnych endpointów mobilnego Bankiera:
+
+- `…/profile/quote.html?symbol=SYMBOL` — nazwa spółki i kanoniczny adres forum,
+- `m.bankier.pl/forum/spolka/SYMBOL` — `data-forum-id` / `data-far-id` (metadane forum),
+- `m.bankier.pl/json/get_threads` — lista wątków (paginowana),
+- `m.bankier.pl/json/get_thread` — posty w wątku wraz z głosami (+/−).
+
+Każdy fetch ma limit czasu (`REQUEST_TIMEOUT_MS`) i ponawia próby z backoffem.
+Jeśli Bankier zmieni markup lub te endpointy, parser trzeba zaktualizować —
+test kontraktu danych wyłapie wtedy puste/uszkodzone wyniki w CI.
+
 ## GitHub Pages
 
 1. Utwórz repozytorium GitHub i wypchnij ten kod na branch `main`.
@@ -61,3 +103,7 @@ Edytuj `config/stocks.json`, np.:
 ```
 
 Następnie uruchom workflow refresh albo lokalne `npm run refresh`.
+
+## Licencja
+
+MIT — zobacz [`LICENSE`](LICENSE).

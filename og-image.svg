@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4ecd8"/>
+  <rect width="1200" height="630" fill="none" stroke="#1a1a1a" stroke-width="10"/>
+
+  <!-- top breaking bar -->
+  <rect x="0" y="0" width="1200" height="70" fill="#c0282d"/>
+  <text x="600" y="50" text-anchor="middle" font-family="Arial Black, Arial, sans-serif"
+        font-size="34" font-weight="900" fill="#fff" letter-spacing="3">PILNE!!! ★ HOSSA ALBO PANIKA ★ NIKT NIE WIE</text>
+
+  <!-- masthead -->
+  <text x="600" y="210" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="120" font-weight="900" fill="#1a1a1a" letter-spacing="2">GIEŁDOWY</text>
+  <text x="600" y="320" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="120" font-weight="900" fill="#c0282d" letter-spacing="2">EXPRESS</text>
+
+  <line x1="80" y1="360" x2="1120" y2="360" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- signal stamps -->
+  <g font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="44">
+    <rect x="140" y="410" width="260" height="90" fill="#1b7a3a" transform="rotate(-4 270 455)"/>
+    <text x="270" y="470" text-anchor="middle" fill="#fff" transform="rotate(-4 270 455)">KUPUJ</text>
+
+    <rect x="470" y="410" width="260" height="90" fill="#b8860b" transform="rotate(2 600 455)"/>
+    <text x="600" y="470" text-anchor="middle" fill="#fff" transform="rotate(2 600 455)">TRZYMAJ</text>
+
+    <rect x="800" y="410" width="280" height="90" fill="#c0282d" transform="rotate(-3 940 455)"/>
+    <text x="940" y="470" text-anchor="middle" fill="#fff" transform="rotate(-3 940 455)">SPRZEDAWAJ</text>
+  </g>
+
+  <!-- subhead -->
+  <text x="600" y="560" text-anchor="middle" font-family="Georgia, serif"
+        font-size="30" font-style="italic" fill="#333">Sygnały Buy/Hold/Sell dla GPW z forum Bankier.pl</text>
+  <text x="600" y="600" text-anchor="middle" font-family="Georgia, serif"
+        font-size="22" fill="#777">To nie jest porada inwestycyjna. To nie jest nawet gazeta.</text>
+</svg>
