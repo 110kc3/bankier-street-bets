@@ -59,6 +59,12 @@ const NEGATIVE_STEMS = [
 const POSITIVE_EXACT = new Map([['moon', 2], ['gora', 1], ['gore', 1]]);
 const NEGATIVE_EXACT = new Map([['dno', 2], ['kupa', 1], ['dol', 1]]);
 
+// Tokens that collide with a stem prefix but carry no sentiment, so prefix
+// matching would score them wrongly. These are MORE specific than the stem
+// they shadow and win over it: 'strateg*' (strategy) shadows 'strat' (loss),
+// 'wartosc*' (value, neutral noun) shadows 'warto' (it's worth it).
+const NEUTRAL_PREFIXES = ['strateg', 'wartosc'];
+
 // multi-word phrases, matched on de-accented full text
 const PHRASES = [
   ['do gory', 2], ['na polnoc', 2], ['to the moon', 2], ['na zielono', 1],
@@ -95,6 +101,8 @@ const THREADS_PER_PAGE = 30;
 const POSTS_PER_PAGE = 40;
 const MAX_POSTS_PER_THREAD = 200;
 const REQUEST_DELAY_MS = 150;
+const REQUEST_TIMEOUT_MS = 15000; // abort a hung connection so one stall can't freeze the whole run
+const THREAD_CONCURRENCY = 4; // threads fetched in parallel; each still paginates with its own delay
 
 // ---------------------------------------------------------------------------
 // HTML / text helpers
@@ -192,6 +200,7 @@ function parsePostDate(value) {
 function matchStem(token) {
   if (POSITIVE_EXACT.has(token)) return POSITIVE_EXACT.get(token);
   if (NEGATIVE_EXACT.has(token)) return -NEGATIVE_EXACT.get(token);
+  for (const prefix of NEUTRAL_PREFIXES) if (token.startsWith(prefix)) return 0;
   for (const [stem, weight] of POSITIVE_STEMS) if (token.startsWith(stem)) return weight;
   for (const [stem, weight] of NEGATIVE_STEMS) if (token.startsWith(stem)) return -weight;
   return 0;
@@ -341,27 +350,44 @@ function sleep(ms) {
 }
 
 async function fetchText(url) {
-  const response = await fetch(url, {
-    headers: { 'user-agent': 'Mozilla/5.0 BankierStreetBets/0.2' }
-  });
-  if (!response.ok) {
-    throw new Error(`Fetch failed for ${url}: ${response.status}`);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  try {
+    const response = await fetch(url, {
+      headers: { 'user-agent': 'Mozilla/5.0 BankierStreetBets/0.2' },
+      signal: controller.signal
+    });
+    if (!response.ok) {
+      throw new Error(`Fetch failed for ${url}: ${response.status}`);
+    }
+    return await response.text();
+  } finally {
+    clearTimeout(timer);
   }
-  return await response.text();
 }
 
-async function fetchJson(url, attempts = 3) {
+// Retry any fetch a few times with backoff. parse() lets callers validate the
+// body (e.g. JSON.parse) and treat a bad body as a retryable failure — the
+// Bankier endpoints sometimes answer with an HTML error page.
+async function fetchWithRetry(url, { attempts = 3, parse = (text) => text } = {}) {
   let lastError;
   for (let attempt = 0; attempt < attempts; attempt += 1) {
     try {
-      const text = await fetchText(url);
-      return JSON.parse(text); // endpoint sometimes returns an HTML error page
+      return parse(await fetchText(url));
     } catch (error) {
       lastError = error;
       await sleep(400 * (attempt + 1));
     }
   }
   throw lastError;
+}
+
+function fetchTextRetry(url, attempts = 3) {
+  return fetchWithRetry(url, { attempts });
+}
+
+function fetchJson(url, attempts = 3) {
+  return fetchWithRetry(url, { attempts, parse: JSON.parse });
 }
 
 function makeForumUrl(symbol, quoteHtml) {
@@ -466,28 +492,39 @@ async function fetchThreadComments(thread, cutoff) {
 // Main entry
 // ---------------------------------------------------------------------------
 
+function postToComment(post) {
+  const sentiment = sentimentScore(`${post.threadTitle}. ${post.body}`);
+  return {
+    id: post.id,
+    author: post.author,
+    postedAt: post.postedAt,
+    threadTitle: post.threadTitle,
+    url: post.url,
+    body: post.body,
+    votes: post.votes,
+    sentimentScore: Number(sentiment.score.toFixed(3)),
+    sentimentLabel: sentiment.label
+  };
+}
+
 async function collectComments(forumMeta, cutoff, maxComments) {
   const threads = await fetchThreadsInWindow(forumMeta, cutoff);
   const comments = [];
 
-  for (const thread of threads) {
-    try {
-      for (const post of await fetchThreadComments(thread, cutoff)) {
-        const sentiment = sentimentScore(`${post.threadTitle}. ${post.body}`);
-        comments.push({
-          id: post.id,
-          author: post.author,
-          postedAt: post.postedAt,
-          threadTitle: post.threadTitle,
-          url: post.url,
-          body: post.body,
-          votes: post.votes,
-          sentimentScore: Number(sentiment.score.toFixed(3)),
-          sentimentLabel: sentiment.label
-        });
+  // Fetch threads in small parallel batches: ~4x faster than fully serial,
+  // while each thread still paginates with its own REQUEST_DELAY_MS so we
+  // don't hammer the endpoint. Stop launching batches once maxComments is hit.
+  for (let i = 0; i < threads.length; i += THREAD_CONCURRENCY) {
+    const batch = threads.slice(i, i + THREAD_CONCURRENCY);
+    const results = await Promise.all(batch.map(async (thread) => {
+      try {
+        return await fetchThreadComments(thread, cutoff);
+      } catch {
+        return []; // ignore single thread failure
       }
-    } catch {
-      // ignore single thread failure
+    }));
+    for (const posts of results) {
+      for (const post of posts) comments.push(postToComment(post));
     }
     if (comments.length >= maxComments) break;
     await sleep(REQUEST_DELAY_MS);
@@ -506,10 +543,10 @@ async function collectStock(symbol, options = {}) {
   const minComments = Math.min(maxComments, Math.max(1, Number(options.minComments) || DEFAULT_MIN_COMMENTS));
 
   const quoteUrl = `https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=${symbol}`;
-  const quoteHtml = await fetchText(quoteUrl);
+  const quoteHtml = await fetchTextRetry(quoteUrl);
   const companyName = normalizeText(quoteHtml.match(/<title>(.*?)\(/i)?.[1] || symbol);
   const mobileForumUrl = makeForumUrl(symbol, quoteHtml);
-  const forumHtml = await fetchText(mobileForumUrl);
+  const forumHtml = await fetchTextRetry(mobileForumUrl);
   const forumUrl = extractCanonicalForumUrl(forumHtml, mobileForumUrl);
   const forumMeta = extractForumMeta(forumHtml);
 
@@ -579,8 +616,13 @@ async function rebuildIndexFile(extra = {}) {
   const files = (await fs.readdir(dir)).filter((file) => file.endsWith('.json')).sort();
   const reports = [];
   for (const file of files) {
-    const stock = JSON.parse(await fs.readFile(path.join(dir, file), 'utf8'));
-    reports.push(stockToReport(stock));
+    try {
+      const stock = JSON.parse(await fs.readFile(path.join(dir, file), 'utf8'));
+      reports.push(stockToReport(stock));
+    } catch (error) {
+      // one corrupt/half-written stock file must not nuke the whole index
+      console.error(`Skipping ${file} in index rebuild: ${error.message}`);
+    }
   }
   await fs.writeFile('data/index.json', JSON.stringify({
     generatedAt: new Date().toISOString(),

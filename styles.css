@@ -142,6 +142,21 @@ body::after {
 .barometr-labels span:first-child { color: var(--red); }
 .barometr-labels span:last-child { color: var(--green); }
 
+/* Krzywa nastrojów (sparkline) */
+.sparkline { border: 2px solid var(--ink); background: var(--paper-card); padding: 10px 12px; box-shadow: 4px 4px 0 var(--ink); }
+.sparkline .spark { display: block; width: 100%; height: auto; }
+.spark-zero { stroke: var(--ink-soft); stroke-width: 1; stroke-dasharray: 3 3; opacity: 0.6; }
+.spark-line { stroke: var(--ink); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.spark-dots circle { fill: var(--ink-soft); }
+.spark-pos .spark-line { stroke: var(--green); }
+.spark-neg .spark-line { stroke: var(--red); }
+.spark-pos .spark-dots circle:last-child { fill: var(--green); }
+.spark-neg .spark-dots circle:last-child { fill: var(--red); }
+.sparkline-empty { margin: 0; font-family: Georgia, serif; font-style: italic; font-size: 13px; color: var(--ink-soft); }
+
+/* Znacznik nieaktualnego wydania (cron nie zdążył odświeżyć danych) */
+.stale { color: var(--red); font-weight: 700; font-style: normal; }
+
 /* Statystyki */
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0; }
 .stat { border: 2px solid var(--ink); background: var(--paper-card); text-align: center; padding: 10px 6px 8px; box-shadow: 4px 4px 0 var(--ink); }

@@ -20,7 +20,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      # Publish only the static site, not scripts/tests/config/node_modules.
+      - name: Stage site
+        run: |
+          mkdir -p _site
+          cp index.html app.js styles.css og-image.svg _site/
+          cp -r data _site/data
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - uses: actions/deploy-pages@v4

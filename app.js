@@ -9,6 +9,7 @@ const commentLimitInput = document.querySelector('#comment-limit-input');
 const template = document.querySelector('#result-template');
 const reportsList = document.querySelector('#reports-list');
 const reportsUpdated = document.querySelector('#reports-updated');
+const tickerList = document.querySelector('#ticker-list');
 const pilneTape = document.querySelector('#pilne-tape');
 const pilneTape2 = document.querySelector('#pilne-tape-2');
 const mastheadDate = document.querySelector('#masthead-date');
@@ -101,6 +102,19 @@ function formatDate(date) {
   return Number.isNaN(parsed.getTime()) ? 'brak daty' : parsed.toLocaleString('pl-PL');
 }
 
+// Dane odświeża cron co 6 h; powyżej tego progu (≈2 nieudane przebiegi) wydanie
+// jest "nieaktualne" — drukarnia strajkuje.
+const STALE_HOURS = 14;
+
+function hoursSince(date) {
+  const t = new Date(String(date).replace(' ', 'T')).getTime();
+  return Number.isNaN(t) ? Infinity : (Date.now() - t) / 3600000;
+}
+
+function isStale(date) {
+  return hoursSince(date) > STALE_HOURS;
+}
+
 function trendLabel(score, seed) {
   const bucket = TREND_LABELS.find((b) => score >= b.min) || TREND_LABELS[TREND_LABELS.length - 1];
   return pick(bucket.labels, seed);
@@ -108,6 +122,35 @@ function trendLabel(score, seed) {
 
 function signalConf(signal) {
   return SIGNALS[signal] || SIGNALS.HOLD;
+}
+
+/* Inline SVG sparkline z dziennego trendu sentymentu (dane liczbowe, więc
+   bezpieczne dla innerHTML). Czarny tusz na gazecie, ostatni punkt kolorowany. */
+function buildSparkline(trend) {
+  const days = (Array.isArray(trend) ? trend : []).filter((d) => Number.isFinite(Number(d?.score)));
+  if (!days.length) return '<p class="sparkline-empty">Brak danych dziennych — wykres na urlopie.</p>';
+
+  const W = 320;
+  const H = 64;
+  const padX = 6;
+  const padY = 8;
+  const span = Math.max(1, days.length - 1);
+  const x = (i) => padX + (i / span) * (W - 2 * padX);
+  const y = (score) => {
+    const clamped = Math.max(-1, Math.min(1, Number(score)));
+    return H / 2 - clamped * (H / 2 - padY);
+  };
+
+  const pts = days.map((d, i) => `${x(i).toFixed(1)},${y(d.score).toFixed(1)}`).join(' ');
+  const dots = days.map((d, i) => `<circle cx="${x(i).toFixed(1)}" cy="${y(d.score).toFixed(1)}" r="2.2" />`).join('');
+  const last = days[days.length - 1].score;
+  const cls = last > 0.05 ? 'pos' : last < -0.05 ? 'neg' : 'flat';
+
+  return `<svg viewBox="0 0 ${W} ${H}" class="spark spark-${cls}" role="img" aria-label="Krzywa sentymentu dzień po dniu">` +
+    `<line x1="${padX}" y1="${H / 2}" x2="${W - padX}" y2="${H / 2}" class="spark-zero" />` +
+    (days.length > 1 ? `<polyline points="${pts}" class="spark-line" fill="none" />` : '') +
+    `<g class="spark-dots">${dots}</g>` +
+    `</svg>`;
 }
 
 function setMessage(title, message, error = false) {
@@ -142,8 +185,23 @@ function renderPilne(reports) {
 /* ── Kiosk ───────────────────────────────────────────── */
 
 function renderReportsIndex(indexData) {
-  reportsUpdated.textContent = `ostatnia dostawa do kiosku: ${formatDate(indexData.generatedAt)}`;
+  const stale = isStale(indexData.generatedAt);
+  reportsUpdated.classList.toggle('stale', stale);
+  reportsUpdated.textContent =
+    (stale ? '⚠ WYDANIE NIEAKTUALNE — DRUKARNIA STRAJKUJE · ' : '') +
+    `ostatnia dostawa do kiosku: ${formatDate(indexData.generatedAt)}`;
   reportsList.innerHTML = '';
+
+  // podpowiedzi tickerów dla pola "ZAMÓW ANALIZĘ"
+  if (tickerList) {
+    tickerList.innerHTML = '';
+    indexData.reports.forEach((report) => {
+      const option = document.createElement('option');
+      option.value = report.symbol;
+      option.label = report.companyName || report.symbol;
+      tickerList.appendChild(option);
+    });
+  }
 
   indexData.reports.forEach((report) => {
     const conf = signalConf(report.signal);
@@ -223,6 +281,9 @@ function renderStock(data, options = {}) {
   const pct = Math.max(2, Math.min(98, ((Number(analysis.score) + 1) / 2) * 100));
   node.querySelector('.barometr-needle').style.left = `${pct}%`;
 
+  /* krzywa nastrojów (sparkline) */
+  node.querySelector('.sparkline').innerHTML = buildSparkline(analysis.trend);
+
   /* statystyki */
   const scoreEl = node.querySelector('.score');
   scoreEl.textContent = fmtScore(analysis.score);
@@ -274,8 +335,12 @@ function renderStock(data, options = {}) {
   /* ogłoszenia */
   node.querySelector('.quote-link').href = data.quoteUrl || '#';
   node.querySelector('.forum-link').href = data.forumUrl || '#';
-  node.querySelector('.updated-at').textContent =
-    `Skład wydania: ${formatDate(data.report?.fetchedAt || data.updatedAt)} · okno: ${data.report?.windowDays || 7} dni`;
+  const composedAt = data.report?.fetchedAt || data.updatedAt;
+  const updatedEl = node.querySelector('.updated-at');
+  updatedEl.classList.toggle('stale', isStale(composedAt));
+  updatedEl.textContent =
+    `Skład wydania: ${formatDate(composedAt)} · okno: ${data.report?.windowDays || 7} dni` +
+    (isStale(composedAt) ? ' · ⚠ wydanie nieaktualne' : '');
 
   /* nakład w winiecie */
   mastheadNaklad.textContent = `Nakład: ${analysis.commentCount ?? '?'} komentarzy / ${data.report?.windowDays || 7} dni`;
@@ -287,6 +352,28 @@ function renderStock(data, options = {}) {
 }
 
 /* ── Ładowanie danych ────────────────────────────────── */
+
+// Odbicie aktualnej spółki w URL (?symbol=JSW), żeby dało się ją linkować.
+function syncUrl(symbol, replace) {
+  try {
+    const url = new URL(window.location.href);
+    if (url.searchParams.get('symbol') === symbol) return;
+    url.searchParams.set('symbol', symbol);
+    const state = { symbol };
+    if (replace) window.history.replaceState(state, '', url);
+    else window.history.pushState(state, '', url);
+  } catch {
+    /* history niedostępne — pomiń, to tylko ułatwienie */
+  }
+}
+
+function urlSymbol() {
+  try {
+    return (new URLSearchParams(window.location.search).get('symbol') || '').trim().toUpperCase();
+  } catch {
+    return '';
+  }
+}
 
 async function loadStock(symbol, options = {}) {
   const normalized = String(symbol || '').trim().toUpperCase();
@@ -306,6 +393,7 @@ async function loadStock(symbol, options = {}) {
     if (!response.ok) throw new Error('not-found');
     const data = await response.json();
     renderStock(data, options);
+    if (!options.skipUrl) syncUrl(normalized, options.replaceUrl === true);
   } catch {
     setMessage(
       'WYDANIE ZAGINĘŁO W DRUKARNI!!!',
@@ -322,14 +410,15 @@ async function loadReportsIndex() {
     const data = await response.json();
     renderReportsIndex(data);
 
-    /* wydanie otwierające: najbardziej dramatyczna spółka dnia */
+    /* wydanie otwierające: deep-link z ?symbol= albo najbardziej dramatyczna spółka dnia */
     const reports = data.reports || [];
     if (reports.length) {
       const drama = [...reports].sort(
         (a, b) => Math.abs(b.score || 0) - Math.abs(a.score || 0) || (b.commentCount || 0) - (a.commentCount || 0)
       )[0];
-      input.value = drama.symbol;
-      loadStock(drama.symbol);
+      const target = urlSymbol() || drama.symbol;
+      input.value = target;
+      loadStock(target, { replaceUrl: true });
     } else {
       setMessage('KIOSK PUSTY', 'Brak raportów w data/index.json. Uruchom workflow refresh.', true);
     }
@@ -342,6 +431,15 @@ async function loadReportsIndex() {
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   loadStock(input.value, { scroll: true });
+});
+
+/* przyciski wstecz/dalej przeglądarki przełączają wydanie bez kolejnego wpisu w historii */
+window.addEventListener('popstate', () => {
+  const symbol = urlSymbol();
+  if (symbol) {
+    input.value = symbol;
+    loadStock(symbol, { skipUrl: true });
+  }
 });
 
 /* winieta: data wydania */

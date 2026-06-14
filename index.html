@@ -8,6 +8,28 @@
       name="description"
       content="Tabloid giełdowy: sygnały Buy/Hold/Sell dla GPW z komentarzy forum Bankier.pl. To nie jest porada inwestycyjna. To nie jest nawet gazeta."
     />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B0%3C/text%3E%3C/svg%3E"
+    />
+
+    <!-- Social sharing (Open Graph + Twitter) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Giełdowy Express — Bankier Street Bets" />
+    <meta
+      property="og:description"
+      content="Tabloid giełdowy: sygnały KUPUJ/TRZYMAJ/SPRZEDAWAJ dla GPW z forum Bankier.pl. To nie jest porada inwestycyjna. To nie jest nawet gazeta."
+    />
+    <meta property="og:image" content="./og-image.svg" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Giełdowy Express — Bankier Street Bets" />
+    <meta
+      name="twitter:description"
+      content="Sygnały KUPUJ/TRZYMAJ/SPRZEDAWAJ dla GPW z forum Bankier.pl. Heurystyka, nie nauka."
+    />
+    <meta name="twitter:image" content="./og-image.svg" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
@@ -34,7 +56,8 @@
       <section class="zamow">
         <form id="symbol-form" class="zamow-form">
           <div class="zamow-label">ZAMÓW ANALIZĘ:</div>
-          <input id="symbol-input" name="symbol" placeholder="np. JSW" maxlength="12" autocomplete="off" />
+          <input id="symbol-input" name="symbol" placeholder="np. JSW" maxlength="12" autocomplete="off" list="ticker-list" />
+          <datalist id="ticker-list"></datalist>
           <input id="comment-limit-input" name="commentLimit" type="number" min="1" max="200" value="8" title="Ilu ekspertów wydrukować" />
           <button type="submit">DO DRUKU!</button>
         </form>
@@ -81,6 +104,9 @@
               <div class="barometr-track"><div class="barometr-needle"></div></div>
               <div class="barometr-labels"><span>SPRZEDAWAJ!!!</span><span>TRZYMAJ</span><span>KUPUJ</span></div>
             </section>
+
+            <div class="section-head"><span>KRZYWA NASTROJÓW</span><small>sentyment dzień po dniu</small></div>
+            <section class="sparkline"></section>
 
             <dl class="stats">
               <div class="stat"><dt>Score</dt><dd class="score"></dd></div>

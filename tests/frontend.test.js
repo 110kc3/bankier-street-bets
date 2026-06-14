@@ -46,9 +46,9 @@ function makeStock(symbol, over = {}) {
 
 const flush = () => new Promise((r) => setTimeout(r, 5));
 
-async function boot({ indexData, stocks = {}, failIndex = false } = {}) {
+async function boot({ indexData, stocks = {}, failIndex = false, url = 'http://localhost/' } = {}) {
   const dom = new JSDOM(html.replace(/<script[^>]*src="\.\/app\.js"[^>]*><\/script>/, ''), {
-    url: 'http://localhost/', runScripts: 'outside-only', pretendToBeVisual: true
+    url, runScripts: 'outside-only', pretendToBeVisual: true
   });
   const { window } = dom;
   const fetched = [];
@@ -209,6 +209,64 @@ test('winieta: żywa data wydania i nakład po załadowaniu spółki', async () 
   const { document } = await boot({ indexData, stocks: { XXX: makeStock('XXX') } });
   assert.match(document.querySelector('#masthead-date').textContent, /Wydanie paniczne · .+\d{4}/);
   assert.equal(document.querySelector('#masthead-naklad').textContent, 'Nakład: 2 komentarzy / 7 dni');
+});
+
+test('sparkline: SVG z polyline i kropką na każdy dzień trendu', async () => {
+  const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [makeReport('XXX')] };
+  const { document } = await boot({ indexData, stocks: { XXX: makeStock('XXX') } });
+  const svg = document.querySelector('.sparkline .spark');
+  assert.ok(svg, 'brak SVG sparkline');
+  assert.ok(svg.querySelector('polyline.spark-line'), 'brak linii trendu');
+  assert.equal(svg.querySelectorAll('.spark-dots circle').length, 2, 'kropka na każdy dzień');
+});
+
+test('sparkline: pusty trend => komunikat zastępczy', async () => {
+  const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [makeReport('XXX')] };
+  const stock = makeStock('XXX', { analysis: { ...makeStock('X').analysis, trend: [] } });
+  const { document } = await boot({ indexData, stocks: { XXX: stock } });
+  assert.ok(document.querySelector('.sparkline .sparkline-empty'), 'brak komunikatu o pustym trendzie');
+});
+
+test('datalist: po jednej opcji na ticker z indeksu', async () => {
+  const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [
+    makeReport('AAA', { companyName: 'Alfa SA' }), makeReport('BBB', { companyName: 'Beta SA' })
+  ] };
+  const { document } = await boot({ indexData, stocks: { AAA: makeStock('AAA') } });
+  const options = document.querySelectorAll('#ticker-list option');
+  assert.equal(options.length, 2);
+  assert.equal(options[0].value, 'AAA');
+  assert.equal(options[0].label, 'Alfa SA');
+});
+
+test('deep-link: ?symbol= ładuje wskazaną spółkę zamiast najbardziej dramatycznej', async () => {
+  const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [
+    makeReport('DRAMA', { score: -0.9, signal: 'SELL' }),
+    makeReport('BBB', { score: 0.1 })
+  ] };
+  const { document, fetched } = await boot({
+    indexData, stocks: { BBB: makeStock('BBB') }, url: 'http://localhost/?symbol=BBB'
+  });
+  assert.ok(fetched.some((u) => u.includes('stocks/BBB.json')), 'powinno załadować BBB z URL');
+  assert.ok(!fetched.some((u) => u.includes('stocks/DRAMA.json')), 'nie powinno ładować DRAMA');
+  assert.equal(document.querySelector('#symbol-input').value, 'BBB');
+});
+
+test('staleness: stare dane => znacznik NIEAKTUALNE na pasku kiosku', async () => {
+  const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [makeReport('XXX')] };
+  const { document } = await boot({ indexData, stocks: { XXX: makeStock('XXX') } });
+  const updated = document.querySelector('#reports-updated');
+  assert.ok(updated.classList.contains('stale'));
+  assert.ok(updated.textContent.includes('NIEAKTUALNE'));
+});
+
+test('staleness: świeże dane => brak znacznika nieaktualności', async () => {
+  const fresh = new Date().toISOString();
+  const indexData = { generatedAt: fresh, reports: [makeReport('XXX')] };
+  const stock = makeStock('XXX', { report: { fetchedAt: fresh, windowDays: 7 } });
+  const { document } = await boot({ indexData, stocks: { XXX: stock } });
+  const updated = document.querySelector('#reports-updated');
+  assert.ok(!updated.classList.contains('stale'));
+  assert.ok(!updated.textContent.includes('NIEAKTUALNE'));
 });
 
 test('responsywność/markup: media query 860px i prefers-reduced-motion w CSS', async () => {
