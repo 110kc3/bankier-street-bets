@@ -3,57 +3,31 @@
   "companyName": "Budimex SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=BUDIMEX",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_budimex-sa,6,21,33.html",
-  "updatedAt": "2026-06-10T12:02:11.061Z",
+  "updatedAt": "2026-06-15T17:27:07.603Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-10T12:02:11.061Z",
+    "fetchedAt": "2026-06-15T17:27:07.603Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 24,
-    "commentLimit": 79
+    "threadsScanned": 16
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.196,
-    "confidence": 0.77,
-    "commentCount": 79,
+    "score": 0.18,
+    "confidence": 0.64,
+    "commentCount": 42,
     "breakdown": {
-      "positive": 32,
-      "negative": 15,
-      "neutral": 32
+      "positive": 21,
+      "negative": 5,
+      "neutral": 16
     },
     "trend": [
       {
-        "date": "2026-03-12",
-        "score": -0.302,
-        "count": 3
-      },
-      {
-        "date": "2026-03-13",
-        "score": 0.069,
-        "count": 17
-      },
-      {
-        "date": "2026-03-14",
-        "score": -0.49,
-        "count": 2
-      },
-      {
-        "date": "2026-03-15",
-        "score": 0,
-        "count": 1
-      },
-      {
-        "date": "2026-03-16",
-        "score": 0.152,
-        "count": 4
-      },
-      {
         "date": "2026-03-17",
         "score": 0,
-        "count": 13
+        "count": 1
       },
       {
         "date": "2026-03-18",
@@ -189,54 +163,87 @@
         "date": "2026-06-02",
         "score": 0.322,
         "count": 1
+      },
+      {
+        "date": "2026-06-11",
+        "score": -0.161,
+        "count": 2
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 79 komentarzy z ostatnich 90 dni: nastroje pozytywne (32 pozytywnych, 15 negatywnych, 32 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 42 komentarzy z ostatnich 90 dni: nastroje pozytywne (21 pozytywnych, 5 negatywnych, 16 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "budimex",
-        "count": 10
+        "count": 6
       },
       {
         "word": "przy",
-        "count": 8
-      },
-      {
-        "word": "trzeba",
-        "count": 5
-      },
-      {
-        "word": "firma",
-        "count": 5
-      },
-      {
-        "word": "ponizej",
-        "count": 5
-      },
-      {
-        "word": "rynku",
         "count": 4
       },
       {
-        "word": "przetargow",
-        "count": 4
+        "word": "dywidendy",
+        "count": 3
+      },
+      {
+        "word": "polska",
+        "count": 3
       },
       {
         "word": "mirbud",
-        "count": 4
+        "count": 3
       },
       {
-        "word": "budowlana",
-        "count": 4
+        "word": "trzeba",
+        "count": 2
       },
       {
-        "word": "bardziej",
-        "count": 4
+        "word": "kupic",
+        "count": 2
+      },
+      {
+        "word": "kursie",
+        "count": 2
+      },
+      {
+        "word": "mozliwe",
+        "count": 2
+      },
+      {
+        "word": "wszystko",
+        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "74767433",
+      "author": "Qwerty",
+      "postedAt": "2026-06-11 16:04",
+      "threadTitle": "Re: spadek",
+      "url": "https://www.bankier.pl/forum/temat_spadek,74766501.html",
+      "body": "Żeby więcej zarobił ten co teraz kupi i sprzeda na wzrostach...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74766501",
+      "author": "Ania",
+      "postedAt": "2026-06-11 15:03",
+      "threadTitle": "spadek",
+      "url": "https://www.bankier.pl/forum/temat_spadek,74766501.html",
+      "body": "Dlaczego te akcje spadają? To jest bardzo mocna spółka.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "74675535",
       "author": "Qwerty",
@@ -796,552 +803,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73865621",
-      "author": "Paweł",
-      "postedAt": "2026-03-17 15:56",
-      "threadTitle": "Re: Unibep bierze Rail Baltica! Budimex odrzucony.",
-      "url": "https://www.bankier.pl/forum/temat_unibep-bierze-rail-baltica-budimex-odrzucony,73854729.html",
-      "body": "Chyba Torpol i Mirbud.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73863561",
-      "author": "XXX",
-      "postedAt": "2026-03-17 14:08",
-      "threadTitle": "Re: Dziwne",
-      "url": "https://www.bankier.pl/forum/temat_dziwne,73838117.html",
-      "body": "Powiem ci jak to wyglada technicznie. 700 padło trend wzrostowy złamany. Formacja podwójnego szczytu. Jesli chcesz wejsc pod dlugi termin nie ma co tu szukać na razie. Jesli robimy korekte duże ABC i teraz robimy fale C to możliwe jest przebicie i spadek nawet ponizej 400 zlotych. Niby spolka przyszlosciowa ale rynek juz dawno wycenil kontrakty. Wskazniki c/z i c/wk zbyt duże. Jeśli ceny energii i materiałów skocza nagle to moze spasc nawet do najmocniejszego wsparcia ponizej 300zl.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73863171",
-      "author": "Halinka",
-      "postedAt": "2026-03-17 13:45",
-      "threadTitle": "Przetarg na Rail Baltica",
-      "url": "https://www.bankier.pl/forum/temat_przetarg-na-rail-baltica,73863171.html",
-      "body": "Budimex odwoła się do sądu i oferty będą rozpatrywane od nowa.",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73863005",
-      "author": "Ryszard",
-      "postedAt": "2026-03-17 13:35",
-      "threadTitle": "Re: Dziwne",
-      "url": "https://www.bankier.pl/forum/temat_dziwne,73838117.html",
-      "body": "Kiedy kupować. Jak myślicie",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73860325",
-      "author": "kpka",
-      "postedAt": "2026-03-17 10:45",
-      "threadTitle": "Dziś potwierdzenie podwójnego szczytu. Uciekać",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "Radze bo zasięg spadków poniżej 400. Ludzie podpierać zarobki na Bananowej GPW SL!!!!! Ileż można tłumaczyć jest tu paru, którzy to powtarzają a ludzie ciągle to samo!",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73859587",
-      "author": "XXX",
-      "postedAt": "2026-03-17 10:00",
-      "threadTitle": "Re: To sie zaczyna smieszne robic",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "Podwojny szczyt na wykresie potwierdzony. Z taka dynamika w ciagu kilku miesiecy wybijamy poprzednie dolki na 460 i leci na 360. W najgorszym wypadku ponizej 300 na mocniejsze wsparcie. C/Z nadmuchane i kreca afery trzymać się z daleka od spadajacego noża.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "73859389",
-      "author": "Andrzej",
-      "postedAt": "2026-03-17 09:53",
-      "threadTitle": "Kiedy 5 z przodu?Może prof wiatr odpowie?",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-5-z-przodu-moze-prof-wiatr-odpowie,73859389.html",
-      "body": "Krzysiu pączusiu przecież już 2 lata temu miało być tutaj 1000 zł i więcej A Asbis miał nigdy nie być powyżej 14 złTeraz Asbis co kilka dni nowe ATH a BUDIMEX zaraz 5** zł",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73859357",
-      "author": "ZnanyAnalityk",
-      "postedAt": "2026-03-17 09:52",
-      "threadTitle": "Zmowa cenowa zakończyła erę Budimexu. Teraz czas na Unibep i ZUE.",
-      "url": "https://www.bankier.pl/forum/temat_zmowa-cenowa-zakonczyla-ere-budimexu-teraz-czas-na-unibep-i-zue,73859357.html",
-      "body": "Pozdrawiam kumatych....Unibep i ZUE!!",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73859289",
-      "author": "dr",
-      "postedAt": "2026-03-17 09:49",
-      "threadTitle": "Re: Co z tymi ich przetargami ? Dlaczego przegrywają ?",
-      "url": "https://www.bankier.pl/forum/temat_co-z-tymi-ich-przetargami-dlaczego-przegrywaja,73858585.html",
-      "body": "To jest dość proste - kurs był pompowany pod spekulację . Teraz jeszcze doszły nie uczciwe i cwaniackie ruchy wobec konkurencji i branża oraz decydenci zdenerwowali się bo nic nam nie idzie - same opóźnienia . Tortem trzeba się dzielić a nie grupą prawników doprowadzać inne spółki do pracy za miskę ryżu a wielka ( zagraniczna ) firma zniszczy nasz rynek - to nie ten kontynent .",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "73858789",
-      "author": "XXX",
-      "postedAt": "2026-03-17 09:24",
-      "threadTitle": "Re: Co z tymi ich przetargami ? Dlaczego przegrywają ?",
-      "url": "https://www.bankier.pl/forum/temat_co-z-tymi-ich-przetargami-dlaczego-przegrywaja,73858585.html",
-      "body": "Tak pierwszy pakiet akcji mozna brać przy 360 myślę. Wtedy się bedzie opylać.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73858585",
-      "author": "Jan",
-      "postedAt": "2026-03-17 09:15",
-      "threadTitle": "Co z tymi ich przetargami ? Dlaczego przegrywają ?",
-      "url": "https://www.bankier.pl/forum/temat_co-z-tymi-ich-przetargami-dlaczego-przegrywaja,73858585.html",
-      "body": "To nie jest dobre .",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73857299",
-      "author": "misia",
-      "postedAt": "2026-03-17 07:26",
-      "threadTitle": "Re: To sie zaczyna smieszne robic",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "Po wecie prezydenta kasa nie pójdzie na infrastrukturę",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73854809",
-      "author": "moja",
-      "postedAt": "2026-03-16 21:09",
-      "threadTitle": "Re: To sie zaczyna smieszne robic",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "> Coś mi się zdaje, że manewr z wygraniem przetargu na trzy odcinki przyłącza wiatraków z farmy na Bałtyku może mieć bardziej dalekosiężne skutki niż przedstawiał to prezes. Jeśli rzeczywiście wyrugują Budimeks z przetargów to perspektywy są marne. Wprawdzie dalej uważam, że to najbardziej ogarnięta na rynku polskim firma budowlana, ale zasad przestrzegać trzeba. W świetle ostatniego lakonicznego raportu, spadki mają niestety podstawy i to dość mocne. Pada przetarg za przetargiem. Nie chcę być złym prorokiem ale coś mi się zdaje, że czystka na najwyższych stołkach w firmie, niewykluczona.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73854729",
-      "author": "ZnanyAnalityk",
-      "postedAt": "2026-03-16 20:57",
-      "threadTitle": "Unibep bierze Rail Baltica! Budimex odrzucony.",
-      "url": "https://www.bankier.pl/forum/temat_unibep-bierze-rail-baltica-budimex-odrzucony,73854729.html",
-      "body": "Ale jazda!!!",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73850751",
-      "author": "PanAndrzej",
-      "postedAt": "2026-03-16 15:13",
-      "threadTitle": "Re: Trzeba być nie douczonym zeby nie kupowac Budimex po 800 zl.",
-      "url": "https://www.bankier.pl/forum/temat_trzeba-byc-nie-douczonym-zeby-nie-kupowac-budimex-po-800-zl,66444039.html",
-      "body": "Taka mała przypominajka",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "73843979",
-      "author": "PanAndrzej",
-      "postedAt": "2026-03-16 04:41",
-      "threadTitle": "Re: Dziwne",
-      "url": "https://www.bankier.pl/forum/temat_dziwne,73838117.html",
-      "body": "Czemu nie pytasz w jaki sposób kurs poszedł tak wysoko?Komu zależało na tym Czemu przy C/Z 36 kurs miałby iść do góry?Kupiłeś na górce ... podziękuj tym co Cię ubrali w drogie akcje",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73839595",
-      "author": "ZnanyAnalityk",
-      "postedAt": "2026-03-15 07:31",
-      "threadTitle": "Re: Backlog ZUE przekroczył dzis 5.5mld zl.",
-      "url": "https://www.bankier.pl/forum/temat_backlog-zue-przekroczyl-dzis-5-5mld-zl,73822793.html",
-      "body": "Na ZUE będzie można zarobić 500%",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73838117",
-      "author": "dw",
-      "postedAt": "2026-03-14 18:39",
-      "threadTitle": "Dziwne",
-      "url": "https://www.bankier.pl/forum/temat_dziwne,73838117.html",
-      "body": "Najpierw ktoś przy cenie 724 zł sprzedaje tysiące akcji . Potem pojawia się zalecenie SPRZEDAJ bo za dużo urosło Pytam czy najlepsza spółka budowlana ma nie rosnąć bo inne gorsze nie rosną ?CZy chodzi o to ,że ten co sprzedał akcje po 724 zł chce odkupić po 600,zł Co z innymi co w popłochu sprzedawali akcje ? Tak się dzieje jeśli nie ma finansowej odpowiedzialności za swoje słowa - panowie analitycy giełdowi",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": -0.981,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "73834043",
-      "author": "kazar",
-      "postedAt": "2026-03-14 06:49",
-      "threadTitle": "Re: To sie zaczyna smieszne robic",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "Po wecie prezydenta Karola Nawrockiego (SAFE) 8 mld zł nie będzie w puli na wykorzystanie... Może podto był ciągnięty też kurs Budimexu?Program #SAFE to inicjatywa, która w Polsce – oprócz głównego celu militarnego – obejmuje również inwestycje infrastrukturalne, w tym budowę i modernizację dróg oraz linii kolejowych, mających znaczenie obronne. Program koncentruje się na zapewnieniu mobilności wojsk i sprzętu.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73832837",
-      "author": "Alfons",
-      "postedAt": "2026-03-13 23:05",
-      "threadTitle": "Re: Poniżej 600 nie spadnie",
-      "url": "https://www.bankier.pl/forum/temat_ponizej-600-nie-spadnie,73828103.html",
-      "body": "Siemka ale tu spokojnie na tej spółce. Na innych moich spółka pełno troli i wulgarnych postów.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73831147",
-      "author": "J24",
-      "postedAt": "2026-03-13 19:29",
-      "threadTitle": "Re: Poniżej 600 nie spadnie",
-      "url": "https://www.bankier.pl/forum/temat_ponizej-600-nie-spadnie,73828103.html",
-      "body": "500 byłoby super.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73830085",
-      "author": "alan",
-      "postedAt": "2026-03-13 17:50",
-      "threadTitle": "Re: Patrząc na to co się dzieje można zacząć kupować poniżej 600",
-      "url": "https://www.bankier.pl/forum/temat_patrzac-na-to-co-sie-dzieje-mozna-zaczac-kupowac-ponizej-600,73827219.html",
-      "body": "Patrząc na to co się dzieje można zacząć kupować poniżej 600 Autor: ~Józef [176.113.194.*] 2026-03-13 14:26Nie wczesniej .To kiedy spadnie poniżej 600 zł ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73829023",
-      "author": "dr",
-      "postedAt": "2026-03-13 16:28",
-      "threadTitle": "Re: Patrząc na to co się dzieje można zacząć kupować poniżej 600",
-      "url": "https://www.bankier.pl/forum/temat_patrzac-na-to-co-sie-dzieje-mozna-zaczac-kupowac-ponizej-600,73827219.html",
-      "body": "Kolego jak złamie 600 to wtedy trzymaj się jak najdalej od tego papiera .",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73828103",
-      "author": "alan",
-      "postedAt": "2026-03-13 15:29",
-      "threadTitle": "Poniżej 600 nie spadnie",
-      "url": "https://www.bankier.pl/forum/temat_ponizej-600-nie-spadnie,73828103.html",
-      "body": "To w takim razie po ile brać ?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73827911",
-      "author": "moja",
-      "postedAt": "2026-03-13 15:14",
-      "threadTitle": "Re: To sie zaczyna smieszne robic",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "Coś mi się zdaje, że manewr z wygraniem przetargu na trzy odcinki przyłącza wiatraków z farmy na Bałtyku może mieć bardziej dalekosiężne skutki niż przedstawiał to prezes. Jeśli rzeczywiście wyrugują Budimeks z przetargów to perspektywy są marne. Wprawdzie dalej uważam, że to najbardziej ogarnięta na rynku polskim firma budowlana, ale zasad przestrzegać trzeba. W świetle ostatniego lakonicznego raportu, spadki mają niestety podstawy i to dość mocne.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73827397",
-      "author": "Gustaw",
-      "postedAt": "2026-03-13 14:38",
-      "threadTitle": "Re: To sie zaczyna smieszne robic",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "Nie wiadomo gdzie to się zatrzyma , leci jak kamień w wodę . Zamiast dobrego ESPI wiadomość o unieważnieniu oferty Budimexu . Źle to zaczyna wyglądać .",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "73827219",
-      "author": "Józef",
-      "postedAt": "2026-03-13 14:26",
-      "threadTitle": "Patrząc na to co się dzieje można zacząć kupować poniżej 600",
-      "url": "https://www.bankier.pl/forum/temat_patrzac-na-to-co-sie-dzieje-mozna-zaczac-kupowac-ponizej-600,73827219.html",
-      "body": "Nie wczesniej .",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "73826871",
-      "author": "daro_1",
-      "postedAt": "2026-03-13 13:59",
-      "threadTitle": "Re: Lecimy na 1000 zl",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-1000-zl,73404433.html",
-      "body": "jak widać dodałeś jedno zero za dużo",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "73825243",
-      "author": "PanAndrzej",
-      "postedAt": "2026-03-13 12:23",
-      "threadTitle": "Re: Lecimy na 1000 zl",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-1000-zl,73404433.html",
-      "body": "Nie tylko balona mam w gaciach ale coś znacznie twardszego i słodszego Zobacz sobie kurs i jakie są przychody C/Z w budowlance o połowę niższa niż na Budimexie Kupiłeś drogo nie masz co płakać jak kurs leci Ten dethil pisał że będzie 1000 zł a już spadło o 140 zł i niedługo zobaczymy 5 z przodu co będzie bardziej odpowiednim kursem",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "73824745",
-      "author": "PanAndrzej",
-      "postedAt": "2026-03-13 11:57",
-      "threadTitle": "Re: Lecimy na 1000 zl",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-1000-zl,73404433.html",
-      "body": "Zysku tyle co w pysku Porównaj sobie c/z w budowlance a na Budimex",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73823687",
-      "author": "wars",
-      "postedAt": "2026-03-13 11:04",
-      "threadTitle": "Re: To sie zaczyna smieszne robic",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "spółka zachowuje się jakby miała byc niewypłacalna . Śmiech i tyle leci jak kamień dzień w dzień -3% bez podstaw. Dobre perspektywy backlog stabilna pozycja a zachowanie jak spółki śmieciowej.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "73822793",
-      "author": "technik_at",
-      "postedAt": "2026-03-13 10:17",
-      "threadTitle": "Backlog ZUE przekroczył dzis 5.5mld zl.",
-      "url": "https://www.bankier.pl/forum/temat_backlog-zue-przekroczyl-dzis-5-5mld-zl,73822793.html",
-      "body": "A kapitalizacja 280 mln.100 razy mniej niz Budimex",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73821171",
-      "author": "info",
-      "postedAt": "2026-03-13 09:17",
-      "threadTitle": "Re: To sie zaczyna smieszne robic",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "wywalanka bez przyczyny",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73821007",
-      "author": "info",
-      "postedAt": "2026-03-13 09:10",
-      "threadTitle": "Re: To sie zaczyna smieszne robic",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "wywalanka na całego, totalnie bez przyczyny",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73820901",
-      "author": "Xee",
-      "postedAt": "2026-03-13 09:04",
-      "threadTitle": "To sie zaczyna smieszne robic",
-      "url": "https://www.bankier.pl/forum/temat_to-sie-zaczyna-smieszne-robic,73820901.html",
-      "body": "Całe pół roku wymazane zostanie w kilka dni xddd",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73820157",
-      "author": "alan",
-      "postedAt": "2026-03-13 08:13",
-      "threadTitle": "Re: Lecimy na 1000 zl",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-1000-zl,73404433.html",
-      "body": "C/Z wg danych za 2025 r = 21,6a wg prognoz na 2026 r = 18",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "73812479",
-      "author": "konrado24",
-      "postedAt": "2026-03-12 15:44",
-      "threadTitle": "Re: Lecimy na 1000 zl",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-1000-zl,73404433.html",
-      "body": "to teraz napisz cos o zyskach… balon to masz w gaciach…",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "73812369",
-      "author": "wars",
-      "postedAt": "2026-03-12 15:39",
-      "threadTitle": "Re: Skąd aż takie spadki ?",
-      "url": "https://www.bankier.pl/forum/temat_skad-az-takie-spadki,73812083.html",
-      "body": "Wygląda to Żle . były spor wzrosty i korekta jak najbardziej była wskazana i zdrowa ale skala spadków i jej wygląd dziń w dzień prawie po 3-4 % to już zaczyna wyglądać żle. Obroty nędzne co też pokazuje że nie ma zainteresowania . Cały czas mamy krótkie pozycje na spółce i były one ewidentnie stratne dla otwierających więc teraz bez problemu przy takich obrotach spokojnie mogą pogonić kurs oby nie chcieli wrócić na 520zeta czyli do podstawy.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "73812083",
-      "author": "info",
-      "postedAt": "2026-03-12 15:25",
-      "threadTitle": "Skąd aż takie spadki ?",
-      "url": "https://www.bankier.pl/forum/temat_skad-az-takie-spadki,73812083.html",
-      "body": "pytam",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
