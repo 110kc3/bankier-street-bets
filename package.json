@@ -8,7 +8,7 @@
     "refresh:one": "node scripts/refresh-stock.js",
     "serve": "python -m http.server 4173",
     "lint": "eslint .",
-    "test": "node --test --test-reporter=dot \"tests/*.test.js\""
+    "test": "node --test --test-reporter=dot tests/*.test.js"
   },
   "devDependencies": {
     "eslint": "^9.39.4",
