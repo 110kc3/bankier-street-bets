@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-06-17T20:31:32.991Z",
+  "updatedAt": "2026-06-18T05:02:51.128Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-17T20:31:32.991Z",
+    "fetchedAt": "2026-06-18T05:02:51.128Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.109,
+    "score": 0.105,
     "confidence": 0.74,
-    "commentCount": 92,
+    "commentCount": 94,
     "breakdown": {
       "positive": 37,
       "negative": 14,
-      "neutral": 41
+      "neutral": 43
     },
     "trend": [
       {
@@ -46,12 +46,17 @@
       },
       {
         "date": "2026-06-17",
-        "score": 0.435,
-        "count": 2
+        "score": 0.29,
+        "count": 3
+      },
+      {
+        "date": "2026-06-18",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 92 komentarzy z ostatnich 7 dni: nastroje pozytywne (37 pozytywnych, 14 negatywnych, 41 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 94 komentarzy z ostatnich 7 dni: nastroje pozytywne (37 pozytywnych, 14 negatywnych, 43 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wynikach",
@@ -96,6 +101,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "74833813",
+      "author": "Szymonek",
+      "postedAt": "2026-06-18 00:02",
+      "threadTitle": "Re: Czy po jędzach pójdzie?",
+      "url": "https://www.bankier.pl/forum/temat_czy-po-jedzach-pojdzie,74817745.html",
+      "body": "Rynek lubi historie OZE, a Energy S.A. zaczyna dostarczać pod to konkretne komunikaty. Zlecenia i insiderzy na plus. Nie rekomendacja.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74833669",
+      "author": "Brysi",
+      "postedAt": "2026-06-17 23:44",
+      "threadTitle": "Re: spójrzcie na obrotym ktoś to cały czas zbiera",
+      "url": "https://www.bankier.pl/forum/temat_spojrzcie-na-obrotym-ktos-to-caly-czas-zbiera,74797281.html",
+      "body": "Spółka Energy S.A. wygląda coraz ciekawiej. PV, projekty farm, zlecenia i aktywność insiderów po stronie kupna. Obserwuję temat. Nie rekomendacja.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "74829983",
       "author": "Kurator",
@@ -189,7 +222,7 @@
       "body": "Bo jeśli tak, może to być rajd.",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
