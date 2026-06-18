@@ -3,11 +3,11 @@
   "companyName": "CD Projekt SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-sa,6,21,353.html",
-  "updatedAt": "2026-06-18T15:53:14.801Z",
+  "updatedAt": "2026-06-18T20:39:07.941Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-18T15:53:14.801Z",
+    "fetchedAt": "2026-06-18T20:39:07.941Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,82 +15,419 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.03,
-    "confidence": 0.71,
+    "score": 0.058,
+    "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 37,
-      "negative": 27,
-      "neutral": 136
+      "positive": 40,
+      "negative": 26,
+      "neutral": 134
     },
     "trend": [
       {
-        "date": "2026-06-15",
+        "date": "2026-06-12",
         "score": 0,
-        "count": 1
+        "count": 3
+      },
+      {
+        "date": "2026-06-13",
+        "score": 0,
+        "count": 4
+      },
+      {
+        "date": "2026-06-14",
+        "score": 0,
+        "count": 2
+      },
+      {
+        "date": "2026-06-15",
+        "score": -0.054,
+        "count": 6
       },
       {
         "date": "2026-06-16",
-        "score": 0.043,
-        "count": 53
+        "score": 0.049,
+        "count": 22
       },
       {
         "date": "2026-06-17",
-        "score": 0.012,
-        "count": 91
+        "score": 0.013,
+        "count": 85
       },
       {
         "date": "2026-06-18",
-        "score": 0.044,
-        "count": 55
+        "score": 0.09,
+        "count": 78
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (37 pozytywnych, 27 negatywnych, 136 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (40 pozytywnych, 26 negatywnych, 134 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "mnie",
+        "word": "https",
         "count": 10
       },
       {
-        "word": "masz",
+        "word": "mnie",
         "count": 9
       },
       {
-        "word": "hehe",
+        "word": "gier",
         "count": 8
       },
       {
-        "word": "przy",
+        "word": "projekt",
+        "count": 8
+      },
+      {
+        "word": "wiedzmin",
         "count": 7
       },
       {
-        "word": "https",
+        "word": "jestem",
         "count": 7
+      },
+      {
+        "word": "masz",
+        "count": 6
       },
       {
         "word": "dalej",
         "count": 6
       },
       {
+        "word": "zeby",
+        "count": 6
+      },
+      {
         "word": "zobaczymy",
-        "count": 6
-      },
-      {
-        "word": "dopiero",
-        "count": 6
-      },
-      {
-        "word": "jestem",
-        "count": 6
-      },
-      {
-        "word": "premiera",
         "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "74849661",
+      "author": "DevNull",
+      "postedAt": "2026-06-18 22:19",
+      "threadTitle": "Re: ❤️ Redzi w czołówce najbardziej zyskownych spółek gamingowych świa",
+      "url": "https://www.bankier.pl/forum/temat_redzi-w-czolowce-najbardziej-zyskownych-spolek-gamingowych-swiata,74849365.html",
+      "body": "Oj naganku, warto bardzo mocno doprecyzować te 60% \"rentowności\" netto CD Projektu bo to nie jest żadna marża po pełnych kosztach produkcji nowych gier :)To jest TYLKO I WYŁACZNIE wynik księgowy według przyjętego modelu rozliczania produkcji. CDPR nie wrzuca większości kosztów nowych gier od razu w rachunek wyników. Koszty produkcji przed premierą są kapitalizowane, czyli trafiają na bilans jako te tzw. \"nakłady na prace rozwojowe/expenditure on development projects\" a nie jako bieżący koszt obniżający zysk w danym kwartale czy roku, dlatego to tak świetnie wygląda. Dokładnie to masz wprost opisane w sprawozdaniu finansowym CD Projektu - wystarczy ściągnąć i przeczytać.W raporcie skonsolidowanym za 2025, Nota 10 - koszty produkcji gier poniesione przed rozpoczęciem sprzedaży są ujmowane jako \"Expenditure on development projects in progress\". Po premierze gra jest przenoszona do zakończonych projektów i dopiero wtedy amortyzowana.Cytowanie 60% marży bez tego kontekstu jest mylące.W Q1 2026 masz:– 191,1 mln PLN przychodów– 97,1 mln PLN EBIT– 106,2 mln PLN zysku nettoALE - masz też 179.8 mln PLN nowych, wewnętrznie wytworzonych aktywów w projektach deweloperskich + amortyzacja zakończonych projektów 10.3 mln PLN.97,1 mln PLN EBIT+ 10,3 mln PLN amortyzacji projektów– 179,8 mln PLN kapitalizowanych kosztów produkcji= ok. -72 mln PLN.Ostatni kwartał masz na minusie, a nie \"60% marży\". Przestań ściemniać.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.981,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74849497",
+      "author": "nagan",
+      "postedAt": "2026-06-18 22:07",
+      "threadTitle": "Dlaczego gra nazywa się wiedźmin,jak bohaterka ma być kolorowa niunia?",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-gra-nazywa-sie-wiedzmin-jak-bohaterka-ma-byc-kolorowa-niunia,74848309.html",
+      "body": "> Nie rozumiem fenomenu. To sprzeczne ze sobą no i bez sensu.Drogi niuniuOdrzucanie faktu, że Ciri nosi miano wiedźminki, wynika najczęściej z puryzmu „growego”, braku znajomości materiału źródłowego lub zwykłego mądrowania się „czcicieli fallusa\". Andrzej Sapkowski wielokrotnie nazywał Ciri wiedźminką, a sam proces jej szkolenia stanowi jeden z fundamentów całej sagi. Przynajmniej połowa książek jest o Ciri a cała saga ma nazwę Wiedźmin..Główne źródła takiego oporu w fandomie to:Przywiązanie do definicji z gier: W grach wiedźmin kojarzy się z mutacjami, takimi jak Próba Traw. Ciri nigdy nie przeszła pełnych fizycznych przemian, co dla części graczy jest argumentem, że \"nie jest prawdziwą wiedźminką\".Błędna interpretacja kanonu: Fani często opierają swoją wiedzę wyłącznie na grach od studia CD Projekt, ignorując wypowiedzi samego pisarza. Sam Sapkowski odniósł się do kwestii mutacji i jasno stwierdził, że dorosłe kobiety mogą je przejść.Toksyczna postawa części fandomu: Część odbiorców odrzuca kobiece postaci w rolach głównych wojowników, traktując to jako przejaw współczesnych zmian w popkulturze, mimo że w twórczości Sapkowskiego motyw ten istnieje od lat dziewięćdziesiątych.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74849463",
+      "author": "ANALITIC",
+      "postedAt": "2026-06-18 22:04",
+      "threadTitle": "Re: NAGONIE WRACAJ....",
+      "url": "https://www.bankier.pl/forum/temat_nagonie-wracaj,74842399.html",
+      "body": "dolar się szybko umacnia a to bardzo dobrze dla Redów aż dziw że dalej na czerwono, sytuacja może zmienić się już jutro wraz z wygasaniem kontraktów",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74849417",
+      "author": "Marek",
+      "postedAt": "2026-06-18 21:59",
+      "threadTitle": "Re: ❤️ Redzi w czołówce najbardziej zyskownych spółek gamingowych świata",
+      "url": "https://www.bankier.pl/forum/temat_redzi-w-czolowce-najbardziej-zyskownych-spolek-gamingowych-swiata,74849365.html",
+      "body": "Brawo ty! Czyli jutro 215 zł nieuchronne…",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74849365",
+      "author": "nagan",
+      "postedAt": "2026-06-18 21:55",
+      "threadTitle": "❤️ Redzi w czołówce najbardziej zyskownych spółek gamingowych świata❗️",
+      "url": "https://www.bankier.pl/forum/temat_redzi-w-czolowce-najbardziej-zyskownych-spolek-gamingowych-swiata,74849365.html",
+      "body": "Nawet dzisiaj kilka lat po premierze - Cyberpunk 2077 znajduje się w TOP10 najlepiej sprzedających się gier na Steam!Zapewne nie wiecie, że w całym 2025 roku rentowność netto Grupy CD Projekt z działalności kontynuowanej wyniosła aż 60,1%!??Takie wskaźniki stawiają polskiego producenta w bardzo ścisłej globalnej czołówce - najbardziej zyskownych spółek w branży gier wideo - gdzie marże są znacznie.. ale to znacznie niższe.Tak szokujący na tle branży sukces, wynika z kilku czynników biznesowych:Przede wszystkim siła samych IP \"tytułów wiecznie żywych\" – duży popyt i stabilna, wysokomarżowa sprzedaż katalogowa (\"back catalogue\") gier Cyberpunk 2077 oraz Wiedźmin 3: Dziki Gon.Partnerstwa abonamentowe – włączenie kluczowych gier do usług subskrypcyjnych (jak Xbox Game Pass), co generuje lukratywne przychody przy niskich kosztach dystrybucji.Wysokie zyski przy stosunkowo niskich bieżących kosztach operacyjnych (przy jednoczesnym kierowaniu nakładów na produkcje w fazie rozwoju takie jak Wiedźmin 4)",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74849115",
+      "author": "Zdzisław",
+      "postedAt": "2026-06-18 21:33",
+      "threadTitle": "Re: Dlaczego gra nazywa się wiedźmin,jak bohaterka ma być kolorowa niuni",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-gra-nazywa-sie-wiedzmin-jak-bohaterka-ma-byc-kolorowa-niunia,74848309.html",
+      "body": "Bo ona jest tak naprawde chłopakiem i jak w czasie gry ściongnie stringii to sie to wszystko wyjaśni!!!!!!!!!!",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74849057",
+      "author": "bessa",
+      "postedAt": "2026-06-18 21:28",
+      "threadTitle": "Re: NAGONIE WRACAJ....",
+      "url": "https://www.bankier.pl/forum/temat_nagonie-wracaj,74842399.html",
+      "body": "Z drugiej strony jeśli spadki potrwają jeszcze z rok to na te piwko nie wszystkich będzie stać.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74848965",
+      "author": "Pkc",
+      "postedAt": "2026-06-18 21:23",
+      "threadTitle": "Re: Czy jutro uda sie kupić za 215-218?",
+      "url": "https://www.bankier.pl/forum/temat_czy-jutro-uda-sie-kupic-za-215-218,74847021.html",
+      "body": "O jakiej spółce mówisz ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74848915",
+      "author": "Pkc",
+      "postedAt": "2026-06-18 21:20",
+      "threadTitle": "Re: Czy jutro uda sie kupić za 215-218?",
+      "url": "https://www.bankier.pl/forum/temat_czy-jutro-uda-sie-kupic-za-215-218,74847021.html",
+      "body": "Ale słabo się cenisz",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74848815",
+      "author": "Cdr",
+      "postedAt": "2026-06-18 21:14",
+      "threadTitle": "Re: Czy jutro uda sie kupić za 215-218?",
+      "url": "https://www.bankier.pl/forum/temat_czy-jutro-uda-sie-kupic-za-215-218,74847021.html",
+      "body": "Szczerze to rzeczywiście tak jest , może jeszcze straszak być. Techniczne może spadać, ale moim zdaniem konsolidacja sie zmieniła na 220 - 300 . Fundamentalnie jesteśmy na kursie rok temu i rok do przodu z produkcją gry. Wybicie konsolidacji mocno trend by odwracałało , wiec po co psuć bazę pod wyjście góra z konsolidacji przed premierami .",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74848309",
+      "author": "Ogr",
+      "postedAt": "2026-06-18 20:28",
+      "threadTitle": "Dlaczego gra nazywa się wiedźmin,jak bohaterka ma być kolorowa niunia?",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-gra-nazywa-sie-wiedzmin-jak-bohaterka-ma-byc-kolorowa-niunia,74848309.html",
+      "body": "Nie rozumiem fenomenu. To sprzeczne ze sobą no i bez sensu.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74848061",
+      "author": "Phealot",
+      "postedAt": "2026-06-18 20:09",
+      "threadTitle": "Re: GTA - start PreOrder 25 czerwca!!!",
+      "url": "https://www.bankier.pl/forum/temat_gta-start-preorder-25-czerwca,74847727.html",
+      "body": "Bardzo liczę na to że cena GTA 6 będzie wynosiła więcej niż zakłada rynek czyli 80usd. Jeśli będzie wynosiła choćby 85usd, a 90usd to już w ogóle to modele wyceny CDR też się zmienią i będzie up. Zmieniłby się standard cenowy gier AAAA. Z drugiej strony niższa cena gta 6 to więcej kupionych konsol, więc zwiększona podaż przyszłych graczy.GTA 6 to gra dla której specjalnie kupuje się konsole a nie jak większości gry kupuje się do konsoli.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74848001",
+      "author": "Phealot",
+      "postedAt": "2026-06-18 20:04",
+      "threadTitle": "Re: GTA - start PreOrder 25 czerwca!!!",
+      "url": "https://www.bankier.pl/forum/temat_gta-start-preorder-25-czerwca,74847727.html",
+      "body": "Info pojawiło się o 16:20 czasu polskiego i niestety jakoś specjalnie nie wpłynęło na cenę CDR...",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74847945",
+      "author": "samuraj_84",
+      "postedAt": "2026-06-18 19:59",
+      "threadTitle": "Re: Czy jutro uda sie kupić za 215-218?",
+      "url": "https://www.bankier.pl/forum/temat_czy-jutro-uda-sie-kupic-za-215-218,74847021.html",
+      "body": "220 broni się już od kilku sesji więc mam takie wrażenie, że skoro większość widzi 200 zł i niżej to tam nie spadnie, przecież na tych poziomach ulica zapakuje się po same kule a grubasom nie o to chodzi żeby ulica im akcje podbierała i zarabiała, więc możliwe że trochę się jeszcze pokisi na obecnych poziomach i odpali w górę w losowym momencie bez żadnego powodu, ostatnie 3 rajdy na 285-295 też takie były.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74847727",
+      "author": "manny",
+      "postedAt": "2026-06-18 19:45",
+      "threadTitle": "GTA - start PreOrder 25 czerwca!!!",
+      "url": "https://www.bankier.pl/forum/temat_gta-start-preorder-25-czerwca,74847727.html",
+      "body": "wraca dobry sentyment dla branży!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74847179",
+      "author": "rusałka",
+      "postedAt": "2026-06-18 19:05",
+      "threadTitle": "Re: Czy jutro uda sie kupić za 215-218?",
+      "url": "https://www.bankier.pl/forum/temat_czy-jutro-uda-sie-kupic-za-215-218,74847021.html",
+      "body": "Dzisiaj wyjątkowo w czwartek były 3W i okazja mogła być dzisiaj",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74847067",
+      "author": "Edward",
+      "postedAt": "2026-06-18 18:55",
+      "threadTitle": "Re: Czy jutro uda sie kupić za 215-218?",
+      "url": "https://www.bankier.pl/forum/temat_czy-jutro-uda-sie-kupic-za-215-218,74847021.html",
+      "body": "Zapomnij",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74847061",
+      "author": "Edward",
+      "postedAt": "2026-06-18 18:55",
+      "threadTitle": "Re: Najgorsi na WIG20 czy na GPW ?",
+      "url": "https://www.bankier.pl/forum/temat_najgorsi-na-wig20-czy-na-gpw,74817875.html",
+      "body": "Co cię to interesuje",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74847055",
+      "author": "Edward",
+      "postedAt": "2026-06-18 18:54",
+      "threadTitle": "Re: Szorty mocne",
+      "url": "https://www.bankier.pl/forum/temat_szorty-mocne,74843939.html",
+      "body": "Trzymaj nie sprzedawaj",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74847021",
+      "author": "L08",
+      "postedAt": "2026-06-18 18:51",
+      "threadTitle": "Czy jutro uda sie kupić za 215-218?",
+      "url": "https://www.bankier.pl/forum/temat_czy-jutro-uda-sie-kupic-za-215-218,74847021.html",
+      "body": "Jak myślicie",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74846987",
+      "author": "Dolar",
+      "postedAt": "2026-06-18 18:48",
+      "threadTitle": "Re: Tylko spokój Was uratuje- im o to chodzi ....",
+      "url": "https://www.bankier.pl/forum/temat_tylko-spokoj-was-uratuje-im-o-to-chodzi,74817613.html",
+      "body": "Czekać Cierpliwość",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74846971",
+      "author": "Dolar",
+      "postedAt": "2026-06-18 18:47",
+      "threadTitle": "Re: Tylko spokój Was uratuje- im o to chodzi ....",
+      "url": "https://www.bankier.pl/forum/temat_tylko-spokoj-was-uratuje-im-o-to-chodzi,74817613.html",
+      "body": "Jest gud",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74846283",
+      "author": "zielony_guzik",
+      "postedAt": "2026-06-18 17:59",
+      "threadTitle": "Re: Szorty mocne",
+      "url": "https://www.bankier.pl/forum/temat_szorty-mocne,74843939.html",
+      "body": "W 2024 kupowałem po 104 nawet po spadkach z ostatniego tygodnia to ponad 100%",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "74845495",
       "author": "mabmab",
@@ -99,7 +436,7 @@
       "url": "https://www.bankier.pl/forum/temat_3-69mln,74842495.html",
       "body": "Jedyna szansa ze szorty znajda inna ciekawa spolke do szortowania. Podobna sytuacja na Dino. Tez czekam na 3W",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -113,7 +450,7 @@
       "url": "https://www.bankier.pl/forum/temat_3-69mln,74842495.html",
       "body": "Już w przyszłym tygodniu może być nawet 3,8mln i dlatego warto kupić bo jest tanio i jest paliwo shorta i parę innych, a zegar tyka.",
       "votes": {
-        "up": 0,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0,
@@ -141,7 +478,7 @@
       "url": "https://www.bankier.pl/forum/temat_3-69mln,74842495.html",
       "body": "Zobaczymy po rozliczeniu obecnej serii kontraktów w piątek. Od poniedziałku nie będzie już tego obciążenia",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
@@ -155,7 +492,7 @@
       "url": "https://www.bankier.pl/forum/temat_nagonie-wracaj,74842399.html",
       "body": "Przecież wiadomo że chcą utrzymać nisko żeby rozliczyć kontrakty nisko w piątek. Dopiero później będzie widać ruch na północ zakładam",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -183,7 +520,7 @@
       "url": "https://www.bankier.pl/forum/temat_ostatnio-pewne-som-smierc-podatki-i-na-redach-spadki,74844293.html",
       "body": "I trochę jestem tym zdziwiony że najpotenżniejszom spułkę na giełdzie tak zdołowali.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -226,7 +563,7 @@
       "body": "O matko... i co jeszcze? Ta spolka to czysta propaganda i ideologia naja nawet juz swojego kaplana czyli nagana ktory nagle zamilkl. Nagan do tablicy",
       "votes": {
         "up": 1,
-        "down": 2
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -239,8 +576,8 @@
       "url": "https://www.bankier.pl/forum/temat_szorty-mocne,74843939.html",
       "body": "Robią tu co chcą fakt że spółka sama pomaga puste obietnice bez pokrycia od dwóch lat kiszenie",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 2,
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -253,7 +590,7 @@
       "url": "https://www.bankier.pl/forum/temat_3-69mln,74842495.html",
       "body": "Nie masz pojęcia o czym piszesz. Kluczowe parametry skupu (z raportu bieżącego nr 14/2025 z 5 września 2025):Liczba akcji: do 87 914 akcji własnych (100% uprawnień z pierwszego etapu programu motywacyjnego A).Maksymalna kwota: 39,561 mln zł.Przedział cenowy (cena nabycia jednej akcji):Minimalna: 1,00 zł.Maksymalna: 450,00 zł.Skup realizowany przez Trigon DM na GPW, w okresie od 8 do 30 września 2025 (lub wcześniej, jeśli limit został wyczerpany). cdprojekt.comRealizacja skupu:Skup zakończył się szybko — już 12 września 2025 spółka nabyła pełne 87 914 akcji po średniej ważonej cenie 254,84 zł za akcję. pap-mediaroom.plPodsumowując: Dozwolony przedział cenowy był bardzo szeroki (1–450 zł), co jest standardem w takich uchwałach (daje elastyczność i zgodność z regulacjami MAR). Rzeczywiste zakupy odbyły się po cenie rynkowej w okolicach ~255 zł/szt. (znacznie poniżej górnej granicy).",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -268,7 +605,7 @@
       "body": "skup akcji własnych po cenie 15zl (taka cena średnia wychodzi z ostatnich 20 lat)",
       "votes": {
         "up": 2,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -295,7 +632,7 @@
       "url": "https://www.bankier.pl/forum/temat_nagonie-wracaj,74842399.html",
       "body": "Mocne spadki to dopiero będą jak zleci poniżej 200.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 2
       },
       "sentimentScore": 0,
@@ -309,7 +646,7 @@
       "url": "https://www.bankier.pl/forum/temat_3-69mln,74842495.html",
       "body": "Niedługo ogłoszenie skupu akcji własnych. W sierpniu Gamescom i dużo informacji o Wiedźminie. W tym roku jeszcze niezapowiedziane projekty. Popyt od szort bardzo się przyda.",
       "votes": {
-        "up": 9,
+        "up": 12,
         "down": 2
       },
       "sentimentScore": 0,
@@ -324,7 +661,7 @@
       "body": "Jak widać ulica jest bogata w akcję i wysypuje bo potrzebują hajsu na zlot akcjonariuszy do Egiptu",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -358,20 +695,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "74842495",
-      "author": "RaV",
-      "postedAt": "2026-06-18 14:42",
-      "threadTitle": "3,69mln",
-      "url": "https://www.bankier.pl/forum/temat_3-69mln,74842495.html",
-      "body": "Non stop wrzucają w rynek",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74842489",
       "author": "bessa",
       "postedAt": "2026-06-18 14:42",
@@ -379,11 +702,25 @@
       "url": "https://www.bankier.pl/forum/temat_nagonie-wracaj,74842399.html",
       "body": "Ostrzegałem- rekordowa aktywność nagona na forum to mocne spadki",
       "votes": {
-        "up": 6,
+        "up": 9,
         "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74842495",
+      "author": "RaV",
+      "postedAt": "2026-06-18 14:42",
+      "threadTitle": "3,69mln",
+      "url": "https://www.bankier.pl/forum/temat_3-69mln,74842495.html",
+      "body": "Non stop wrzucają w rynek",
+      "votes": {
+        "up": 9,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "74842399",
@@ -393,8 +730,8 @@
       "url": "https://www.bankier.pl/forum/temat_nagonie-wracaj,74842399.html",
       "body": "I WYPIJ PIWO KTÓRE NAWARZYŁEŚ !!!",
       "votes": {
-        "up": 5,
-        "down": 4
+        "up": 6,
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -408,7 +745,7 @@
       "body": "Przed premierą wzrośnie o 100%, z 150 na 300 (które było 2 miesiące temu).",
       "votes": {
         "up": 3,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -449,7 +786,7 @@
       "url": "https://www.bankier.pl/forum/temat_docelowo-cena-wraca-do-poziomow-z-w3-bo-tej-gry-dotyczy-dlc,74841679.html",
       "body": "najpierw złamiecie 78 potem przepaśc",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -477,7 +814,7 @@
       "url": "https://www.bankier.pl/forum/temat_i-co-oni-moga,74838425.html",
       "body": "Zobaczymy przed premierą w4 jak będziesz śpiewał. Kong nie straci.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -492,7 +829,7 @@
       "body": "No tak, kurs się zwalił z 295 na 220 ale ubrani krzyczą, że nic się nie stało hahahah. Przy 200 też będą takie posty",
       "votes": {
         "up": 3,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -589,7 +926,7 @@
       "url": "https://www.bankier.pl/forum/temat_i-co-oni-moga,74838425.html",
       "body": "Te biedne szorty się tu dwoją i troją. Produkują ile sie da gownotreści. I co? I jajco w sumie kozaki w necie i wiadomo co w świecie.",
       "votes": {
-        "up": 11,
+        "up": 12,
         "down": 2
       },
       "sentimentScore": -0.583,
@@ -855,7 +1192,7 @@
       "url": "https://www.bankier.pl/forum/temat_najgorsi-na-wig20-czy-na-gpw,74817875.html",
       "body": "Nie przesadzaj, jest Dino i gwiazda RYVU",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -897,7 +1234,7 @@
       "url": "https://www.bankier.pl/forum/temat_i-co-pokazali-cos,74831571.html",
       "body": "Tak. Że miesiąc dumy LGBTQ+++ jest dla nich bardzo ważny. Jest na X.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": 0,
@@ -911,7 +1248,7 @@
       "url": "https://www.bankier.pl/forum/temat_najgorsi-na-wig20-czy-na-gpw,74817875.html",
       "body": "I co związku z tym co napisałeś, jakieś wnioski wycągnęłeś ?",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -925,7 +1262,7 @@
       "url": "https://www.bankier.pl/forum/temat_najgorsi-na-wig20-czy-na-gpw,74817875.html",
       "body": "Przecież to widać.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -1149,7 +1486,7 @@
       "url": "https://www.bankier.pl/forum/temat_16-vi-redzi-pokaza-w-chicago-nowe-ujecia-z-wiedzmin-4-na-unreal-fest,74742113.html",
       "body": "Było demo przemysłowe? Piszcie, bo nie mam internetu i nie mogę sprawdzić.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1996,20 +2333,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "74821807",
-      "author": "Zdzisław",
-      "postedAt": "2026-06-17 07:51",
-      "threadTitle": "Ja mam na ścianie tenczowom flagem!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_ja-mam-na-scianie-tenczowom-flagem,74821807.html",
-      "body": "Miałem kiedyś na takim kiju przed barakiem ale opiekunka kazała mi jom zdjońć i teraz mam na ścianie nad materacem!!!!!!!!!",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74821631",
       "author": "Marek",
       "postedAt": "2026-06-17 07:32",
@@ -2036,20 +2359,6 @@
       },
       "sentimentScore": -0.99,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74821379",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-06-17 06:38",
-      "threadTitle": "Fajnie by było jak by w Wiedźminem 4 Geralt miał chłopaka",
-      "url": "https://www.bankier.pl/forum/temat_fajnie-by-bylo-jak-by-w-wiedzminem-4-geralt-mial-chlopaka,74821379.html",
-      "body": "Wtedy by duża społeczność LGBTQ dołonczyła do rozgrywki i mieli byśmy wyszczał. Redzi wiedzom co robiom. Młodzi lubiom teraz te tenczowe flagi.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "74821323",
@@ -2080,62 +2389,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74821279",
-      "author": "Pzdr",
-      "postedAt": "2026-06-17 06:07",
-      "threadTitle": "Re: Rockstar Też lubi lgbt i nie macie z tym problemu",
-      "url": "https://www.bankier.pl/forum/temat_rockstar-tez-lubi-lgbt-i-nie-macie-z-tym-problemu,74821251.html",
-      "body": "Ani razu promocja tej ideologii w gamingu nie skończyła się dobrze ale dalej jakiś .tyn pomyślał że to świetny pomysł wkurzyć większość swoich klientów.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74821251",
-      "author": "Bolek",
-      "postedAt": "2026-06-17 06:00",
-      "threadTitle": "Rockstar Też lubi lgbt i nie macie z tym problemu",
-      "url": "https://www.bankier.pl/forum/temat_rockstar-tez-lubi-lgbt-i-nie-macie-z-tym-problemu,74821251.html",
-      "body": "Biedne małe ludki nie porównują Rockstar do Ubisoft tylko atakują polski Cdprojekt.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74820993",
-      "author": "głos",
-      "postedAt": "2026-06-17 00:42",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Wciąż krążycie wokół uniwersalnego sedna, trafiacie w tarczę, aż dziw, że nikt nie zgarną dychy. I nie chodzi tylko o CDR. OK. Milknę. Wielu się ucieszy, szczególnie Ci życzeniowi. Powodzenia, Inwestorzy. Pieniądz lubi ciszę.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74820963",
-      "author": "McFly",
-      "postedAt": "2026-06-17 00:29",
-      "threadTitle": "Wszystko w temacie",
-      "url": "https://www.bankier.pl/forum/temat_wszystko-w-temacie,74820963.html",
-      "body": "Proszę puścić od 17:06 minuty",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74820739",
       "author": "gangbang",
       "postedAt": "2026-06-16 23:31",
@@ -2144,20 +2397,6 @@
       "body": "no czyli jednak coś pokazali hehe jutro - 10% xd",
       "votes": {
         "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74820743",
-      "author": "Leon",
-      "postedAt": "2026-06-16 23:31",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Chyba raportów nie czytałeś. Pokaż mi na gpw drugą taką spółkę, która operuje na 60 procentowej marży. Szkoda, że polscy i zagraniczni inwestorzy nie potrafią docenić tak wybitnej spółki i takie cyrki się tu odstawiają.",
-      "votes": {
-        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2206,34 +2445,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74820703",
-      "author": "gangbang",
-      "postedAt": "2026-06-16 23:24",
-      "threadTitle": "Re: I co pokazali coś ?",
-      "url": "https://www.bankier.pl/forum/temat_i-co-pokazali-cos,74820503.html",
-      "body": "to dobrze że dziś nie kupiłem xd",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74820671",
-      "author": "Gracz",
-      "postedAt": "2026-06-16 23:20",
-      "threadTitle": "Re: I co pokazali coś ?",
-      "url": "https://www.bankier.pl/forum/temat_i-co-pokazali-cos,74820503.html",
-      "body": "Tak. Tęczę. Z X/Twittera. Z dzisiaj.\"For several years, we've partnered with Kampania Przeciw Homofobii (Campaign Against Homophobia) to support grassroots LGBTQ+ initiatives across Poland. We're also proud that CD PROJEKT RED was recently included in the sixth edition of the Diversity IN Check list, organized by Forum Odpowiedzialnego Biznesu (Responsible Business Forum). And, as in previous years, REDs joined the Warsaw Pride parade.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74820631",
       "author": "Gracz",
       "postedAt": "2026-06-16 23:15",
@@ -2262,34 +2473,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74819221",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 20:36",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Jak kupiłeś dzisiaj to ok. Dla mnie dobra cena jest i dzisiaj. Do 2030r. akcje będą po 1000 PLN",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74819133",
-      "author": "Marek",
-      "postedAt": "2026-06-16 20:26",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "W którym miejscu biadolę? Poza tym skąd wiesz że nie mam też akcji innych spółek? Parę się znajdzie…",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74819065",
       "author": "Dolar",
       "postedAt": "2026-06-16 20:19",
@@ -2304,194 +2487,12 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74819051",
-      "author": "Edward",
-      "postedAt": "2026-06-16 20:17",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "to po co tu siedzisz i biadolisz kup se co innego",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74818977",
-      "author": "Marek",
-      "postedAt": "2026-06-16 20:07",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Przecież się nie martwię tylko pytam. Ja przyznam szczerze kupiłem dopiero dzisiaj bo liczyłem że to koniec tych spadków. Lecz chyba za dużo tu shortow. Kupiłem na longa przynajmniej do emerytury. Taki fundusz emerytalny..",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74818925",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 20:01",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Co tu się zastanawiać,proste ,że trzymają ,ale już ich czas kończy się. Przynajmniej rok przed premierą W4 będziemy śmigać up up yo. Niedługo będzie odkup. OFE,TFi i grubasy będą zabierać spadziom akcje,a oni tego nie lubią hehe",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74818875",
-      "author": "Mocarz",
-      "postedAt": "2026-06-16 19:57",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Każdy inwestor ma swoje plany. Zobaczcie jak sztucznie jest zaniżany kurs przez shorty . Tu trzeba się zastanowić czy fundusze nie trzymają kursu na sznurku i ustawionych automatów na odkup przy dużej ilości papieru i przesłaniu z wora do worka kurs będzie się zachowywał jak się zachowuje ta technika jest przez fundusze na tym papierze robiona o premiery cyberpunk.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74818873",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 19:57",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Dla mnie trolle spadziowe są bardzo dobrym wskaźnikiem, niedługo śmigamy na FIBO 0.61 I 0.78",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74818861",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 19:56",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Ale to jest mile jak oni się martwią itp. lubię ich hehe",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74818835",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 19:54",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Dokładnie M84ck to stary wyjadacz jak ja , jesteśmy weteranami na CDR i spokojnie będziemy też przy 1000 PLN/akcję",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74818805",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 19:52",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Nie spieszy mi się. Od 4 PLN kiedyś dużo zarobiłem i mam dużo wolnej kaski,przeszedłem na wcześniejszą emeryturę",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74818779",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 19:51",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Hehe mój TP to 460 lub przed premierą W4,po premierze odkupię. A u Ciebie jaka średnią?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74818777",
-      "author": "(usunięty)",
-      "postedAt": "2026-06-16 19:51",
-      "threadTitle": "(wiadomość usunięta przez moderatora)",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "(wiadomość usunięta przez moderatora)",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74818747",
-      "author": "Marek",
-      "postedAt": "2026-06-16 19:46",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "A dlaczego do tej pory nie sprzedałeś powiedzmy nawet po 250 bez problemu można było. Byłbyś i tak zarobiony i byś taniej odkupił..",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74818727",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 19:45",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Kiedyś kupowalem RESDow po 4 PLN przed premierą W2 to były piękne czasy hhhmmm",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74818713",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 19:44",
-      "threadTitle": "Re: Przecież ta firma to fenomen branży./PIOTR",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "A co tak się zainteresowałeś z CIA jesteś ? Hehe Jaka masz średnią ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74818645",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 19:38",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Pisałem mało ,ale jak pisałem to o średnich SMA jako nick : GOSC",
+      "id": "74818987",
+      "author": "Pkc",
+      "postedAt": "2026-06-16 20:08",
+      "threadTitle": "Re: Czy ta spółka nadaje się na NC",
+      "url": "https://www.bankier.pl/forum/temat_czy-ta-spolka-nadaje-sie-na-nc,74784721.html",
+      "body": "Mistrzostwo",
       "votes": {
         "up": 0,
         "down": 0
@@ -2512,34 +2513,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74818431",
-      "author": "Marek",
-      "postedAt": "2026-06-16 19:17",
-      "threadTitle": "Re: Przecież ta firma to fenomen branży./PIOTR",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "To po co tu siedzisz skoro nie masz akcji?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74818411",
-      "author": "Marek",
-      "postedAt": "2026-06-16 19:15",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Piotr przepraszam sprawdziłem nicka i wpisy i jakoś cię przy 100 zł nie widzę…zamieniłeś nicka IP ? Tylko szczerze bez nawijki…",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "74818385",
@@ -2577,11 +2550,25 @@
       "url": "https://www.bankier.pl/forum/temat_najgorsi-na-wig20-czy-na-gpw,74817875.html",
       "body": "Tak jakoś to wychodzi",
       "votes": {
-        "up": 4,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74817863",
+      "author": "Pkc",
+      "postedAt": "2026-06-16 18:15",
+      "threadTitle": "Re: Czy ta spółka nadaje się na NC",
+      "url": "https://www.bankier.pl/forum/temat_czy-ta-spolka-nadaje-sie-na-nc,74784721.html",
+      "body": "Ale to dno",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
     },
     {
       "id": "74817837",
@@ -2619,7 +2606,7 @@
       "url": "https://www.bankier.pl/forum/temat_tylko-spokoj-was-uratuje-im-o-to-chodzi,74817613.html",
       "body": "aby Was drobniaków tak tu wymęczyć jazdą w górę jazdą w dół na pojedynczych sesjach.Uważam że do dnia zamykania kontraktów nie ruszą znacząco w górę.Cierpliwość jest tu potrzebna",
       "votes": {
-        "up": 5,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2668,20 +2655,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "74817243",
-      "author": "mabmab",
-      "postedAt": "2026-06-16 17:16",
-      "threadTitle": "Re: Przecież ta firma to fenomen branży./PIOTR",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "u ciebie to zawsze oni winni... dno taki argument. Na Dino tez takie argumenty zwolennikow podlewania chwastow.... dedykuje: Brak ciecia strat przypomina scinanie kwitnących kwiatow i podlewanie chwastow. No i ktoz to ukul taka maksyme inwestora? Prawda jest taka,że nikt nie wierzy zarządowi CD P - niedotrzymane obietnice ,brak komunikacji z graczami i inwestorami wsk C/Z itp itd",
-      "votes": {
-        "up": 3,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "74817193",
       "author": "PIOTR",
       "postedAt": "2026-06-16 17:14",
@@ -2694,34 +2667,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74817105",
-      "author": "głos",
-      "postedAt": "2026-06-16 17:07",
-      "threadTitle": "Re: Przecież ta firma to fenomen branży.",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Jesteś bliżej prawdy, niż myślisz, choć wciąż umysł masz zamglony.",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74817083",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 17:05",
-      "threadTitle": "Re: Przecież ta firma to fenomen branży.",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Na kurs wpływają beznapletkowcy",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "74816859",
@@ -2752,138 +2697,208 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74816821",
-      "author": "głos",
-      "postedAt": "2026-06-16 16:45",
-      "threadTitle": "Re: Przecież ta firma to fenomen branży.",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Spokojnie, firma ma solidne fundamenty i renomę ale... papier stoi, a w zasadzie od dłuższego czasu oscyluje. Żadna AT poparta myśleniem życzeniowym tego nie zmieni, bo nie wzory, słupki i wykresy decydują o kursie waloru. Kto zrozumie, co rzeczywiście ma na to wpływ, będzie bliżej prawdy, ale to zawsze pozostanie grą, nie 100% pewnikiem. No, ludziska, co w sposób znaczący wpływa na kurs akcji? Nie piszcie o fundamentach, bo zbyt wiele jest przykładów, które tego nie potwierdzają.",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74816605",
-      "author": "Mariusz",
-      "postedAt": "2026-06-16 16:32",
-      "threadTitle": "Re: Przecież ta firma to fenomen branży.",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Tobie się coś pomyliło w głowie. Przed kilkoma wielkimi produkcjami i jedna jest a ukończeniu CDP ma całkiem niezłe dochody ze starych produkcji, a ty piszesz że bankrut?Mają nową siedzibę, zatrudniają ogromną liczbę pracowników i mają na to pieniądze ze starych produkcji, a premiery nowych gier będą jedna za drugą i ta kasa będzie naprawdę duża.",
-      "votes": {
-        "up": 9,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74816597",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 16:31",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Wiem że się martwisz , lubię cię bardzo ,calus",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74816501",
-      "author": "głos",
-      "postedAt": "2026-06-16 16:27",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Nie piszę tego w trosce o twoje finanse, tylko dla przypomnienia tej prawdy tym, którym ona umyka. Swoją drogą, niedawno pisałeś o zakupie po 4 zł i wartości 1000 zł. Mógłbym ci sprzedać pakiet za 700, jeszcze zrobisz",
-      "votes": {
-        "up": 1,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74816401",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 16:20",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Dziękuję,że martwią się o moje akcje. Oddam dopiero po 460 przed premierą W4 A rolne grudniu, 17 miesiecy.",
-      "votes": {
-        "up": 7,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74816331",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 16:16",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Dziękuję,że martwisz się o moje akcje ,jesteś do rany przyłoż ,buziaczek",
-      "votes": {
-        "up": 6,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74816293",
-      "author": "głos",
-      "postedAt": "2026-06-16 16:14",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Piotrusiu, z czego? Jeżeli masz papier, który poszedł w górę, ale którego nie spieniężyłeś, wciąż masz tylko papier, nie zysk. To podstawowe prawo obrotu akcjami, które wielu umyka, o którym być może specjalnie nie chcesz wspominać.",
-      "votes": {
-        "up": 3,
-        "down": 9
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74816071",
-      "author": "PIOTR",
-      "postedAt": "2026-06-16 15:56",
-      "threadTitle": "Re: Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Ja mam po 100 i jestem zadowolony",
-      "votes": {
-        "up": 9,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74816013",
-      "author": "DC",
-      "postedAt": "2026-06-16 15:53",
-      "threadTitle": "Przecież ta firma to bakrut",
-      "url": "https://www.bankier.pl/forum/temat_przeciez-ta-firma-to-bakrut,74816013.html",
-      "body": "Zachowania kursu dowodem wręcz książkowym od szczytu -20%. Kiszenie kolejne dwa lata",
-      "votes": {
-        "up": 7,
-        "down": 15
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "74806949",
       "author": "głos",
       "postedAt": "2026-06-15 22:23",
       "threadTitle": "Re: +0,7% cholercia pociąg mi uciekł :/",
       "url": "https://www.bankier.pl/forum/temat_0-7-cholercia-pociag-mi-uciekl,74804113.html",
       "body": "XD Rozbawiłeś mnie. Chyba jednak bardziej warto będzie wsiadać dopiero w biegu, na razie przetaczanie wagonów.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74804215",
+      "author": "hiklo",
+      "postedAt": "2026-06-15 18:14",
+      "threadTitle": "Krótka pamięć :-)",
+      "url": "https://www.bankier.pl/forum/temat_jakby-powiedziec-zebyscie-zrozumieli-roznice-miedzy-produktem-a,74802621.html",
+      "body": "Ponawiam pytaniem, bo się wijesz jak piskorz :-)Pamiętasz jeszcze płatny cyniczny nagan-iaczu jak firma świadomie sprzedawała pół bubla a brała pieniądze jak za pełnowartościowy produkt :-)?Dlaczego mnie jako klienta nabitego w \"arcydzieło gamingu\" nazywasz trolem i hejterem :-)?Kupiłem grę która wbrew obietnicom i zapowiedziom niestety okazała się pół bublem:-) Każdego niezadowolonego klienta nazywasz oszustem, złodziejem, niszczycielem polskiego dorobku artystycznego?Bardzo słaby PR :-)",
+      "votes": {
+        "up": 6,
+        "down": 5
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74804113",
+      "author": "Hmm",
+      "postedAt": "2026-06-15 18:07",
+      "threadTitle": "+0,7% cholercia pociąg mi uciekł :/",
+      "url": "https://www.bankier.pl/forum/temat_0-7-cholercia-pociag-mi-uciekl,74804113.html",
+      "body": "dobrze, że po takich wzrostach na drugi dzień zawsze jest korekta -1,5%",
+      "votes": {
+        "up": 3,
+        "down": 4
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74803327",
+      "author": "Rewizor",
+      "postedAt": "2026-06-15 17:13",
+      "threadTitle": "Re: ❤️ Jakby powiedzieć, żebyście zrozumieli różnicę między produktem a.",
+      "url": "https://www.bankier.pl/forum/temat_jakby-powiedziec-zebyscie-zrozumieli-roznice-miedzy-produktem-a,74802621.html",
+      "body": "I znowu to samo...uzasadniasz rozpasanie szortow na CDP.Sytuacja kropka w kropke jak na Dino",
+      "votes": {
+        "up": 2,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74803159",
+      "author": "lol",
+      "postedAt": "2026-06-15 17:05",
+      "threadTitle": "Re: ❤️ Jakby powiedzieć, żebyście zrozumieli różnicę między produktem a.",
+      "url": "https://www.bankier.pl/forum/temat_jakby-powiedziec-zebyscie-zrozumieli-roznice-miedzy-produktem-a,74802621.html",
+      "body": "Nie wiem, czy w tej sytuacji wydanie gry z serii Wiedźmin zaledwie 13-15 lat po poprzedniej, a nowego Cyberpunka po ponad dekadzie nie będzie jednak niejakim pośpiechem. Jeśli ktoś grał w trzeciego Wiedźmina w wieku 20 lat, to niech już doczeka do czterdziestki. Zagra na przykład ze swoim 20-letnim synem, którego wtedy spłodził. Tak działają prawdziwe koncerny multimedialne.",
+      "votes": {
+        "up": 7,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74802621",
+      "author": "nagan",
+      "postedAt": "2026-06-15 16:35",
+      "threadTitle": "❤️ Jakby powiedzieć, żebyście zrozumieli różnicę między produktem a...❗️",
+      "url": "https://www.bankier.pl/forum/temat_jakby-powiedziec-zebyscie-zrozumieli-roznice-miedzy-produktem-a,74802621.html",
+      "body": "Jakby to powiedzieć, żebyście zrozumieli różnicę między produktem gamingowym korporacji a twórczością Redów..?Fani na świecie wielbią CD Projekt i serię Wiedźmin za wyjątkowe, dojrzałe opowiadanie historii, szacunek do gracza (m.in. brak mikrotransakcji w grach single-player czy DRMów) oraz darmowe dodatki czy tworzenie rozbudowanych światów. Pojawiło się nawet zjawisko \"uzdrawiania\" wynikające z emocjonalnego przywiązania do postaci i uniwersum, które dla wielu stały się odskocznią od problemów oraz formą cyfrowej terapii. https://i.imgur.com/Ry9ef8N.pngGłównym powodem tego niezwykłego uwielbienia dla studia (i świata Wiedźmina) są fundamenty, na których zbudowano markę:Międzynarodowa społeczność wokół Wiedźmina uchodzi za zżytą i empatyczną, ponieważ czerpie wzorce z samego uniwersum, które uczy tolerancji, przyjaźni i ochrony słabszych. Fani chętnie jednoczą się wokół wspólnego dziedzictwa popkulturowego, a także otwarcie wspierają twórców i artystów związanych z marką. Główne filary, które budują ten klimat, to:Wartości płynące z sagi: Opowieści Andrzeja Sapkowskiego oraz gry CD Projekt Red uczą, że rzeczy rzadko są czarno-białe, promując empatię wobec chorych, odmieńców i wykluczonych. Kultura wzajemnego wsparcia: Fora i grupy zrzeszające fanów (np. subreddit r/witcher) słyną z wielkiej empatii, pomocy nowicjuszom, dzielenia się twórczością (cosplay, fanarty) oraz aktywne celebrowania sukcesów polskiego studia na całym świecie.Dla nas dodatkowo to poczucie narodowej dumy: W Polsce (i za granicą jako nasz towar eksportowy) uniwersum łączy pokolenia, co naturalnie stwarza silną więź między odbiorcami i sprzyja przyjaznym dyskusjom.Działanie terapeutyczne gier CD Projektu: Dojrzałe, wielowątkowe historie pomagają graczom przepracować trudne emocje. Produkcje te są chwalone za eksplorację tematów żałoby, odrzucenia i nieuchronności losu itp w bezpiecznym środowisku, co daje antydepresyjne poczucie zrozumienia i wspólnoty doświadczeń.",
+      "votes": {
+        "up": 5,
+        "down": 9
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74793953",
+      "author": "nagan",
+      "postedAt": "2026-06-14 21:49",
+      "threadTitle": "❤️ Pozostały tylko dwa dni do Unreal Fest❗️",
+      "url": "https://www.bankier.pl/forum/temat_16-vi-redzi-pokaza-w-chicago-nowe-ujecia-z-wiedzmin-4-na-unreal-fest,74742113.html",
+      "body": ">https://unrealfest.unrealengine.com/event/46281576-79df-4821-8d6c-01c67e89bbb8/agenda?rt=nM0bKYzvUECquKNIarn5zQ> naganku pokaż mi paluszkiem o której cdredzi mają wystąpienie bo chyba jestem ślepy i jednak ich nie będzie, hmm?Drogi trollu/leniuszku a wystarczy trochę poszperać..xDWg danych pochodzących z Netu - CD Projekt potwierdziło to w podcaście AnswerED luty/marzec 2026. Zatem jakieś aspekty gry będą pokazywana podczas Unreal Fest Chicago 2026 (o godz 16:00 czasu polskiego).Z tego co zrozumialem twórcy Wiedźmina 4 mają się tam znaleźć, jako jeden z partnerów/showcase'ów, ale nie będzie dotyczyło to rozgrywki.. Czyli nie jest to osobny panel dotyczący Wiedźmina..Poszukaj sobie paluszkami na klawiaturze.. jest tego troszkę w Necie.. np:https://www.thegamer.com/the-witcher-4-unreal-fest-trailer/",
+      "votes": {
+        "up": 5,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74792195",
+      "author": "lol",
+      "postedAt": "2026-06-14 16:35",
+      "threadTitle": "Re: ❤️ Ignorancja śmieszy i cieszy⁉️ xDD",
+      "url": "https://www.bankier.pl/forum/temat_16-vi-redzi-pokaza-w-chicago-nowe-ujecia-z-wiedzmin-4-na-unreal-fest,74742113.html",
+      "body": "\"Jak zwykle - niewiedza jest przedmiotem dumy i heheszków\"Zieeeeew. Każdy może sobie sprawdzić w google'u, co znaczy pojęcie \"demo przemysłowe\" i przekonać się, że po prostu nie istnieje. Jesteś klaunem z zerowym pojęciem o czymkolwiek i żywym dowodem na paradoks, że głupi z pomocą AI wychodzi na jeszcze większego głupka.",
+      "votes": {
+        "up": 9,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74788503",
+      "author": "Bart",
+      "postedAt": "2026-06-13 20:36",
+      "threadTitle": "Re: Czy ta spółka nadaje się na NC",
+      "url": "https://www.bankier.pl/forum/temat_czy-ta-spolka-nadaje-sie-na-nc,74784721.html",
+      "body": "Na tym polega pisanie pracy magisterskiej lub doktorskiej zadajesz pytanie i na nie odpowiadasz",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74788055",
+      "author": "Mocarz",
+      "postedAt": "2026-06-13 19:05",
+      "threadTitle": "Re: Czy ta spółka nadaje się na NC",
+      "url": "https://www.bankier.pl/forum/temat_czy-ta-spolka-nadaje-sie-na-nc,74784721.html",
+      "body": "Sam zadałeś pytanie i sam sobie odpowiedziałeś.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74788045",
+      "author": "Pkc",
+      "postedAt": "2026-06-13 19:03",
+      "threadTitle": "Re: Czy ta spółka nadaje się na NC",
+      "url": "https://www.bankier.pl/forum/temat_czy-ta-spolka-nadaje-sie-na-nc,74784721.html",
+      "body": "I utwierdzam w przekonaniu",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74784721",
+      "author": "Pkc",
+      "postedAt": "2026-06-13 07:18",
+      "threadTitle": "Czy ta spółka nadaje się na NC",
+      "url": "https://www.bankier.pl/forum/temat_czy-ta-spolka-nadaje-sie-na-nc,74784721.html",
+      "body": "Tak się zastanawiam.",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74783637",
+      "author": "Hmm",
+      "postedAt": "2026-06-12 21:30",
+      "threadTitle": "Re: ❤️ Pozostały tylko trzy dni do Unreal Fest❗️",
+      "url": "https://www.bankier.pl/forum/temat_16-vi-redzi-pokaza-w-chicago-nowe-ujecia-z-wiedzmin-4-na-unreal-fest,74742113.html",
+      "body": "https://unrealfest.unrealengine.com/event/46281576-79df-4821-8d6c-01c67e89bbb8/agenda?rt=nM0bKYzvUECquKNIarn5zQnaganku pokaż mi paluszkiem o której cdredzi mają wystąpienie bo chyba jestem ślepy i jednak ich nie będzie, hmm?",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74783595",
+      "author": "PIOTR",
+      "postedAt": "2026-06-12 21:24",
+      "threadTitle": "Re: ❤️ Pozostały tylko trzy dni do Unreal Fest❗️",
+      "url": "https://www.bankier.pl/forum/temat_16-vi-redzi-pokaza-w-chicago-nowe-ujecia-z-wiedzmin-4-na-unreal-fest,74742113.html",
+      "body": "Pokazom, nie bojsja",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74783567",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-06-12 21:20",
+      "threadTitle": "Re: ❤️ Pozostały tylko trzy dni do Unreal Fest❗️",
+      "url": "https://www.bankier.pl/forum/temat_16-vi-redzi-pokaza-w-chicago-nowe-ujecia-z-wiedzmin-4-na-unreal-fest,74742113.html",
+      "body": "A jak nie pokażom to co?",
       "votes": {
         "up": 0,
         "down": 1

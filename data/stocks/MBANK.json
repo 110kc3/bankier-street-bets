@@ -3,24 +3,24 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-06-18T15:54:23.291Z",
+  "updatedAt": "2026-06-18T20:40:05.567Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-18T15:54:23.291Z",
+    "fetchedAt": "2026-06-18T20:40:05.567Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 16
+    "threadsScanned": 17
   },
   "analysis": {
-    "signal": "HOLD",
-    "score": -0.121,
-    "confidence": 0.74,
-    "commentCount": 83,
+    "signal": "SELL",
+    "score": -0.158,
+    "confidence": 0.76,
+    "commentCount": 84,
     "breakdown": {
       "positive": 25,
-      "negative": 28,
+      "negative": 29,
       "neutral": 30
     },
     "trend": [
@@ -168,14 +168,27 @@
         "date": "2026-06-16",
         "score": -0.322,
         "count": 1
+      },
+      {
+        "date": "2026-06-18",
+        "score": -0.87,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 83 komentarzy z ostatnich 90 dni: nastroje negatywne (25 pozytywnych, 28 negatywnych, 30 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 84 komentarzy z ostatnich 90 dni: nastroje negatywne (25 pozytywnych, 29 negatywnych, 30 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
         "count": 7
+      },
+      {
+        "word": "mbank",
+        "count": 6
+      },
+      {
+        "word": "roku",
+        "count": 6
       },
       {
         "word": "wyniki",
@@ -194,28 +207,34 @@
         "count": 6
       },
       {
+        "word": "sprawy",
+        "count": 5
+      },
+      {
         "word": "przy",
         "count": 5
       },
       {
         "word": "banku",
         "count": 5
-      },
-      {
-        "word": "roku",
-        "count": 5
-      },
-      {
-        "word": "kwietnia",
-        "count": 5
-      },
-      {
-        "word": "banki",
-        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "74847035",
+      "author": "Tom",
+      "postedAt": "2026-06-18 18:52",
+      "threadTitle": "KNF nałoźył 15 mln kary, ale chyba bardziej zaboli utrata zaufania",
+      "url": "https://www.bankier.pl/forum/temat_knf-nalozyl-15-mln-kary-ale-chyba-bardziej-zaboli-utrata-zaufania,74847035.html",
+      "body": "\"mBank naruszył regulacje dotyczące rzetelnego i profesjonalnego prowadzenia działalności, które odnoszą się do obowiązków związanych z bezpieczeństwem prowadzenia działalności i dbałością o interesy uczestników rynku - klientów\" - napisała KNF.Podano, że mBank dopuścił do współpracy z nieuprawnionymi osobami trzecimi w ramach obsługi klientów. Nie weryfikował zakresu umocowania osób, z którymi kontaktowali się jego pracownicy i którym przekazywali informacje dotyczące klientów, negocjując z nimi warunki transakcji skarbowych klientów.\"We wskazanym okresie mBank nie podejmował działań, aby uregulować zasady współpracy z takimi podmiotami. Doszło do sytuacji, które mogły generować ryzyka, w szczególności ujawniania osobom nieuprawnionym informacji objętych tajemnicą bankową, czy też w związku z ograniczoną możliwością sprawowania kontroli i nadzoru nad działaniami osób, które brały udział w procesie obsługi klientów mBanku\" - napisano w komunikacie.\"Podmioty rynku finansowego, będące instytucjami zaufania publicznego, muszą przestrzegać rygorów w zakresie zasad prowadzenia działalności, w tym należytego wypełniania obowiązków nałożonych przepisami prawa\" - dodano.Bank otrzymał kary m.in. za działanie nierzetelne z uwagi na niekwalifikowanie transakcji zabezpieczających ryzyko walutowe jako instrumentu finansowego w okresie od 1 stycznia 2022 roku do 1 marca 2024 roku, za brak zapewnienia realizacji celu systemu kontroli wewnętrznej w zakresie zgodności działania mBanku z przepisami prawa, w okresie od 1 lutego 2017 roku do 21 października 2018 roku, czy za brak zapewnienia skutecznych mechanizmów kontroli wewnętrznej, w okresie od 22 października 2018 roku do 17 sierpnia 2022 roku.Decyzja KNF nie jest prawomocna. mBank może zwrócić się do Komisji z wnioskiem o ponowne rozpatrzenie sprawy albo wnieść skargę na tę decyzję do Wojewódzkiego Sądu Administracyjnego w Warszawie. (PAP Biznes)",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "74815431",
       "author": "Kasztan",
@@ -238,7 +257,7 @@
       "url": "https://www.bankier.pl/forum/temat_spadek-w20-nawet-na-3200-pkt-ktos-jeszcze,74746665.html",
       "body": "Chyba bijesz pianę, dzisiaj początek tygodnia 3 wiedźm.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -266,7 +285,7 @@
       "url": "https://www.bankier.pl/forum/temat_spadek-w20-nawet-na-3200-pkt-ktos-jeszcze,74746665.html",
       "body": "Czekam tylko żeby dołożyć szorty, niech się ustabilizuje.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -280,7 +299,7 @@
       "url": "https://www.bankier.pl/forum/temat_spadek-w20-nawet-na-3200-pkt-ktos-jeszcze,74746665.html",
       "body": "Fenomen. Pod co rośnie? Gruby robi co chce. W20 jak NC.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -336,7 +355,7 @@
       "url": "https://www.bankier.pl/forum/temat_spadek-w20-nawet-na-3200-pkt-ktos-jeszcze,74746665.html",
       "body": "Otworzyłem na ok. 1150 i zamknąłem na ok. 1200 ze stratą. Od przebicia 1300 znowu wszedłem - drzewa nie rosną do nieba :) Zwłaszcza, że chyba od czerwca schodzą z lock up zeszłoroczne darmowe akcje z systemu motywacyjnego, przy tym kursie warte grube kilkadziesiąt milionów...",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -350,7 +369,7 @@
       "url": "https://www.bankier.pl/forum/temat_spadek-w20-nawet-na-3200-pkt-ktos-jeszcze,74746665.html",
       "body": "Ja jeszcze szortuje",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": -0.322,
