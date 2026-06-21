@@ -3,31 +3,31 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-06-21T05:19:54.699Z",
+  "updatedAt": "2026-06-21T10:07:17.596Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-21T05:19:54.699Z",
+    "fetchedAt": "2026-06-21T10:07:17.596Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 24
+    "threadsScanned": 23
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.073,
-    "confidence": 0.73,
+    "score": 0.064,
+    "confidence": 0.72,
     "commentCount": 109,
     "breakdown": {
-      "positive": 34,
-      "negative": 18,
+      "positive": 33,
+      "negative": 19,
       "neutral": 57
     },
     "trend": [
       {
         "date": "2026-06-14",
-        "score": 0.194,
-        "count": 6
+        "score": 0.117,
+        "count": 5
       },
       {
         "date": "2026-06-15",
@@ -58,14 +58,23 @@
         "date": "2026-06-20",
         "score": 0.103,
         "count": 18
+      },
+      {
+        "date": "2026-06-21",
+        "score": -0.322,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 109 komentarzy z ostatnich 7 dni: nastroje mieszane (34 pozytywnych, 18 negatywnych, 57 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 109 komentarzy z ostatnich 7 dni: nastroje mieszane (33 pozytywnych, 19 negatywnych, 57 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "stop",
         "count": 6
+      },
+      {
+        "word": "przy",
+        "count": 5
       },
       {
         "word": "mnie",
@@ -98,14 +107,24 @@
       {
         "word": "zdaniem",
         "count": 5
-      },
-      {
-        "word": "rynek",
-        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "74868225",
+      "author": "Insurance",
+      "postedAt": "2026-06-21 08:35",
+      "threadTitle": "Re: AXA już ATH czas na PZU",
+      "url": "https://www.bankier.pl/forum/temat_axa-juz-ath-czas-na-pzu,74835887.html",
+      "body": "Właściwie poza brytyjskim Prudential wszystkie firmy ubezpieczeniowe są na ATH przy dużo gorszych wskaźnikach od PZU",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "74867503",
       "author": "Smallpryk",
@@ -1617,20 +1636,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74789509",
-      "author": "Insurance",
-      "postedAt": "2026-06-14 07:55",
-      "threadTitle": "Re: WIG Banki na Historycznych szczytach",
-      "url": "https://www.bankier.pl/forum/temat_wig-banki-na-historycznych-szczytach,74784817.html",
-      "body": "Z samych Dywidend dostaną 1,4 mld z w/w",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }
