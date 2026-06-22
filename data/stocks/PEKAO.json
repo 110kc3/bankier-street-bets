@@ -3,11 +3,11 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-06-21T20:03:42.083Z",
+  "updatedAt": "2026-06-22T05:32:16.232Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-21T20:03:42.083Z",
+    "fetchedAt": "2026-06-22T05:32:16.232Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.205,
-    "confidence": 0.75,
-    "commentCount": 57,
+    "score": 0.201,
+    "confidence": 0.76,
+    "commentCount": 59,
     "breakdown": {
-      "positive": 29,
+      "positive": 30,
       "negative": 10,
-      "neutral": 18
+      "neutral": 19
     },
     "trend": [
       {
@@ -123,10 +123,15 @@
         "date": "2026-06-21",
         "score": 0.322,
         "count": 1
+      },
+      {
+        "date": "2026-06-22",
+        "score": 0.161,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 57 komentarzy z ostatnich 30 dni: nastroje pozytywne (29 pozytywnych, 10 negatywnych, 18 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 59 komentarzy z ostatnich 30 dni: nastroje pozytywne (30 pozytywnych, 10 negatywnych, 19 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dzien",
@@ -149,6 +154,14 @@
         "count": 5
       },
       {
+        "word": "energy",
+        "count": 3
+      },
+      {
+        "word": "rekomendacja",
+        "count": 3
+      },
+      {
         "word": "dywidenda",
         "count": 3
       },
@@ -159,18 +172,38 @@
       {
         "word": "sprzedac",
         "count": 3
-      },
-      {
-        "word": "odciecie",
-        "count": 3
-      },
-      {
-        "word": "bank",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "74874719",
+      "author": "Andrzej",
+      "postedAt": "2026-06-22 03:39",
+      "threadTitle": "Re: Ale pojechali na fixie",
+      "url": "https://www.bankier.pl/forum/temat_ale-pojechali-na-fixie,74768409.html",
+      "body": "Energy S.A. wygląda jak spółka, którą warto mieć na liście obserwacyjnej. Ma OZE, ma newsflow i ma zakupy akcji przez podmioty powiązane. Nie rekomendacja.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74874369",
+      "author": "Waldes",
+      "postedAt": "2026-06-22 02:03",
+      "threadTitle": "Re: Porozumiemnie",
+      "url": "https://www.bankier.pl/forum/temat_porozumiemnie,74794515.html",
+      "body": "Patrzę na Energy S.A. jak na możliwą wczesną historię OZE. Jeszcze mała skala, ale newsflow i zakupy insiderów są warte uwagi. Nie rekomendacja.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "74871963",
       "author": "Jaros33",
