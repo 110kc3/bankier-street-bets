@@ -15,36 +15,79 @@ const pilneTape2 = document.querySelector('#pilne-tape-2');
 const mastheadDate = document.querySelector('#masthead-date');
 const mastheadNaklad = document.querySelector('#masthead-naklad');
 
-/* ── Redakcyjne słowniki ─────────────────────────────── */
+/* ── Redakcyjne słowniki ─────────────────────────────────
+   Każdy sygnał ma PULĘ nagłówków/kickerów/lidów — wybór jest deterministyczny
+   (seed z symbolu+sygnału), więc ta sama spółka czyta się tak samo, ale różne
+   spółki dostają różne brzmienia. Stąd „więcej głupich nagłówków”. */
 
 const SIGNALS = {
   BUY: {
     cls: 'sig-buy',
     stamp: 'KUPUJ',
-    kicker: 'EUFORIA NA PARKIECIE',
-    headline: (name) => `${name}: <em class="green">GRUBE WORY WCHODZĄ!!!</em> FORUM JUŻ LICZY ZYSKI`,
-    subhead: (score, conf) =>
-      `Sentyment wystrzelił do ${fmtScore(score)} (pewność: ${conf}%). Forum Bankier.pl jednogłośnie melduje hossę. Redakcja przypomina, że forum meldowało ją też przed każdą bessą.`
+    kickers: ['EUFORIA NA PARKIECIE', 'HOSSA ROKU', 'SZAŁ ZAKUPÓW', 'PARKIET W EKSTAZIE', 'ZIELONA GORĄCZKA'],
+    headlines: [
+      (name) => `${name}: <em class="green">GRUBE WORY WCHODZĄ!!!</em> FORUM JUŻ LICZY ZYSKI`,
+      (name) => `${name}: <em class="green">RAKIETA ODPALONA!!!</em> FORUM MELDUJE KURS NA KSIĘŻYC`,
+      (name) => `${name}: <em class="green">DIAMENTOWE RĄCZKI GÓRĄ!!!</em> NIKT NIE SPRZEDAJE, WSZYSCY DOKUPUJĄ`,
+      (name) => `${name}: <em class="green">HOSSA STULECIA!!!</em> GRAŻYNA BIERZE KREDYT NA AKCJE`,
+      (name) => `${name}: <em class="green">ZIELONO MI!!!</em> FORUM WIDZI WYŁĄCZNIE ZYSKI`
+    ],
+    subheads: [
+      (score, conf) =>
+        `Sentyment wystrzelił do ${fmtScore(score)} (pewność: ${conf}%). Forum Bankier.pl jednogłośnie melduje hossę. Redakcja przypomina, że forum meldowało ją też przed każdą bessą.`,
+      (score, conf) =>
+        `Nastroje pompują do ${fmtScore(score)} (pewność: ${conf}%). W wątku same rakiety i księżyce. Historia podpowiada, że to zwykle szczyt — ale kto by historii słuchał.`,
+      (score, conf) =>
+        `Optymizm rozlał się po forum: ${fmtScore(score)} (pewność: ${conf}%). Eksperci-amatorzy planują już wakacje za zyski, których jeszcze nie ma.`
+    ]
   },
   HOLD: {
     cls: 'sig-hold',
     stamp: 'TRZYMAJ',
-    kicker: 'NUDA STULECIA',
-    headline: (name) => `${name}: <em class="hold">NIKT NIC NIE WIE!!!</em> FORUM PODZIELONE JAK ZAWSZE`,
-    subhead: (score, conf) =>
-      `Sentyment utknął na ${fmtScore(score)} (pewność: ${conf}%). Połowa forum widzi dno, druga połowa księżyc. Obie połowy są tego pewne.`
+    kickers: ['NUDA STULECIA', 'WIELKIE NIC', 'REMIS BYKÓW I NIEDŹWIEDZI', 'PAT NA PARKIECIE', 'CISZA PRZED CZYMKOLWIEK'],
+    headlines: [
+      (name) => `${name}: <em class="hold">NIKT NIC NIE WIE!!!</em> FORUM PODZIELONE JAK ZAWSZE`,
+      (name) => `${name}: <em class="hold">REMIS!!!</em> POŁOWA WIDZI DNO, POŁOWA KSIĘŻYC`,
+      (name) => `${name}: <em class="hold">WIELKIE NIC!!!</em> KURS STOI, FORUM STOI, REDAKCJA STOI`,
+      (name) => `${name}: <em class="hold">CZEKAMY NA ZNAK!!!</em> NAJLEPIEJ Z NIEBA, BO Z WYKRESU NIE WIDAĆ`,
+      (name) => `${name}: <em class="hold">PAT!!!</em> BYKI I NIEDŹWIEDZIE POSZŁY NA KAWĘ`
+    ],
+    subheads: [
+      (score, conf) =>
+        `Sentyment utknął na ${fmtScore(score)} (pewność: ${conf}%). Połowa forum widzi dno, druga połowa księżyc. Obie połowy są tego pewne.`,
+      (score, conf) =>
+        `Płasko jak nigdy: ${fmtScore(score)} (pewność: ${conf}%). Forum mieli ten sam temat dziesiąty dzień z rzędu. Redakcja ziewa razem z parkietem.`,
+      (score, conf) =>
+        `Ani w górę, ani w dół: ${fmtScore(score)} (pewność: ${conf}%). Byki i niedźwiedzie ogłosiły rozejm do najbliższej świecy.`
+    ]
   },
   SELL: {
     cls: 'sig-sell',
     stamp: 'SPRZEDAWAJ',
-    kicker: 'SZOK NA PARKIECIE',
-    headline: (name) => `${name}: <em>WSZYSCY SPRZEDAJĄ!!!</em> FORUM ZGODNE PIERWSZY RAZ W HISTORII`,
-    subhead: (score, conf) =>
-      `Sentyment runął do ${fmtScore(score)} (pewność: ${conf}%). Eksperci z forum ostrzegali od trzech lat — w końcu trafili. Redakcja dotarła do wstrząsających komentarzy.`
+    kickers: ['SZOK NA PARKIECIE', 'CZERWONA ŁUNA', 'PANIKA W KIOSKU', 'KRWAWA ŚRODA (DOWOLNY DZIEŃ)', 'WYPRZEDAŻ WSZYSTKIEGO'],
+    headlines: [
+      (name) => `${name}: <em>WSZYSCY SPRZEDAJĄ!!!</em> FORUM ZGODNE PIERWSZY RAZ W HISTORII`,
+      (name) => `${name}: <em>KRWAWA ŁAŹNIA!!!</em> EKSPERCI OSTRZEGALI OD 3 LAT, W KOŃCU TRAFILI`,
+      (name) => `${name}: <em>SPADAJĄCY NÓŻ!!!</em> FORUM ŁAPIE GO GOŁYMI RĘKAMI`,
+      (name) => `${name}: <em>PANIKA NA PARKIECIE!!!</em> JANUSZ TNIE STRATY PO TRZECH LATACH`,
+      (name) => `${name}: <em>CZERWONO WSZĘDZIE!!!</em> WĄTEK PRZESZEDŁ NA MODLITWĘ`
+    ],
+    subheads: [
+      (score, conf) =>
+        `Sentyment runął do ${fmtScore(score)} (pewność: ${conf}%). Eksperci z forum ostrzegali od trzech lat — w końcu trafili. Redakcja dotarła do wstrząsających komentarzy.`,
+      (score, conf) =>
+        `Czerwień zalała wątek: ${fmtScore(score)} (pewność: ${conf}%). Spadający nóż łapany gołymi rękami. Opatrunki we własnym zakresie.`,
+      (score, conf) =>
+        `Panika osiągnęła ${fmtScore(score)} (pewność: ${conf}%). Forum dzieli się na tych, co sprzedali, i tych, co jeszcze płaczą. Redakcja współczuje obu.`
+    ]
   }
 };
 
-const TITLES = ['prof. dr hab.', 'doc.', 'mgr inż.', 'dr (internetu)', 'lic.', 'inż.', 'red. nacz.', 'st. analityk'];
+const TITLES = [
+  'prof. dr hab.', 'doc.', 'mgr inż.', 'dr (internetu)', 'lic.', 'inż.', 'red. nacz.', 'st. analityk',
+  'dr h.c. forum', 'magister hossy', 'czeladnik spekulacji', 'baron lewarowy', 'wróżbita giełdowy',
+  'guru z piwnicy', 'ekspert samozwańczy', 'analityk-amator'
+];
 const DEPARTMENTS = [
   'Instytut Badań nad Dnem',
   'Katedra Łapania Spadających Noży',
@@ -55,20 +98,51 @@ const DEPARTMENTS = [
   'Instytut Wykresów i Linii Trendu',
   'Biuro Prognoz Długoterminowo Błędnych',
   'Wydział Diamentowych Rączek',
-  'Obserwatorium Grubych Worów'
+  'Obserwatorium Grubych Worów',
+  'Laboratorium Kopania Dołków',
+  'Katedra Modlitwy Międzysesyjnej',
+  'Instytut Lewarowania Oszczędności Żony',
+  'Pracownia Sprzedawania w Panice',
+  'Wydział Kupowania na Górce',
+  'Zakład Wmawiania Sobie Hossy',
+  'Katedra Teorii Spiskowych GPW',
+  'Instytut Świętego Spokoju (chwilowo zamknięty)'
 ];
-const AVATARS = ['👨‍🏫', '👵', '🧔', '👴', '🕵️', '👨‍💼', '🧑‍🌾', '👨‍🔧', '🧙', '👨‍⚕️'];
+const AVATARS = ['👨‍🏫', '👵', '🧔', '👴', '🕵️', '👨‍💼', '🧑‍🌾', '👨‍🔧', '🧙', '👨‍⚕️', '👨‍🚀', '🧛', '🤠', '👩‍🔬', '🧑‍⚖️', '👨‍🎤', '🦹', '🧓'];
 const VERDICTS = {
-  positive: ['KUPUJE (NIESTETY)', 'WIDZI KSIĘŻYC', 'ALL-IN (ŻONA NIE WIE)', 'DOKUPUJE NA GÓRCE'],
-  negative: ['SPRZEDAWAJ (OD 3 LAT)', 'WIDZI DNO (POD DNEM)', 'UCIEKA Z TONĄCEGO', 'PANIKUJE PROFESJONALNIE'],
-  neutral: ['NIE WIE (JAK MY WSZYSCY)', 'TRZYMA (FIZYCZNIE)', 'OBSERWUJE (Z DALEKA)', 'PYTA DLA KOLEGI']
+  positive: [
+    'KUPUJE (NIESTETY)', 'WIDZI KSIĘŻYC', 'ALL-IN (ŻONA NIE WIE)', 'DOKUPUJE NA GÓRCE',
+    'HODLUJE DO EMERYTURY', 'ŁADUJE OSTATNIĄ KASĘ', 'WIDZI RAKIETĘ', 'BIERZE KREDYT NA AKCJE'
+  ],
+  negative: [
+    'SPRZEDAWAJ (OD 3 LAT)', 'WIDZI DNO (POD DNEM)', 'UCIEKA Z TONĄCEGO', 'PANIKUJE PROFESJONALNIE',
+    'TNIE STRATY (ZA PÓŹNO)', 'PŁACZE W EXCELU', 'SZORTUJE Z ZEMSTY', 'ZAMYKA POZYCJĘ I OKNO'
+  ],
+  neutral: [
+    'NIE WIE (JAK MY WSZYSCY)', 'TRZYMA (FIZYCZNIE)', 'OBSERWUJE (Z DALEKA)', 'PYTA DLA KOLEGI',
+    'CZEKA NA ZNAK Z NIEBA', 'ROBI WYKRES W PAINCIE', 'MEDYTUJE NAD KURSEM', 'PARZY HERBATĘ I WZDYCHA'
+  ]
 };
+/* Redakcyjny dopisek pod każdym „ekspertem” — czyli więcej komentarza do
+   każdego komentarza, jak prosił dział listów. */
+const FOOTNOTES = [
+  'Redakcja nie sprawdzała kwalifikacji eksperta.',
+  'Cytat autoryzowany przez forum, nie przez rozum.',
+  'Stan konta eksperta: ściśle tajny.',
+  'Ekspert nie odpowiada na prywatne wiadomości.',
+  'Powyższe to nie porada. To krzyk duszy.',
+  'Opinia ważna do najbliższej świecy.',
+  'Ekspert był pewny. Jak zawsze.',
+  'Redakcja zachowuje dystans (i stop-loss).',
+  'Wszelkie podobieństwo do analizy jest przypadkowe.',
+  'Ekspert prosi o nieprzysyłanie mu wykresów.'
+];
 const TREND_LABELS = [
-  { min: 0.3, labels: ['euforia w wątku', 'szampan w komentarzach', 'księżyc widoczny gołym okiem'] },
-  { min: 0.12, labels: ['hopium dostarczone', '„teraz to już na pewno"', 'ktoś wspomniał dywidendę'] },
-  { min: -0.12, labels: ['nikt nic nie wie', 'cisza w wątku (zła cisza)', 'spór o makro, jak co tydzień'] },
-  { min: -0.3, labels: ['łapanie spadającego noża', 'nerwowe odświeżanie wykresu', '„to tylko korekta"'] },
-  { min: -Infinity, labels: ['płacz zbiorowy', 'panika pełnoetatowa', 'wątek przeszedł na modlitwę'] }
+  { min: 0.3, labels: ['euforia w wątku', 'szampan w komentarzach', 'księżyc widoczny gołym okiem', 'korki strzelają', 'forum w transie'] },
+  { min: 0.12, labels: ['hopium dostarczone', '„teraz to już na pewno”', 'ktoś wspomniał dywidendę', 'nieśmiały optymizm', 'zielono i grzecznie'] },
+  { min: -0.12, labels: ['nikt nic nie wie', 'cisza w wątku (zła cisza)', 'spór o makro, jak co tydzień', 'mielenie tego samego', 'płasko jak nigdy'] },
+  { min: -0.3, labels: ['łapanie spadającego noża', 'nerwowe odświeżanie wykresu', '„to tylko korekta”', 'pot na klawiaturze', 'szukanie winnych'] },
+  { min: -Infinity, labels: ['płacz zbiorowy', 'panika pełnoetatowa', 'wątek przeszedł na modlitwę', 'kapitulacja i memy', 'żałoba narodowa w wątku'] }
 ];
 
 /* ── Pomocnicze ──────────────────────────────────────── */
@@ -88,8 +162,14 @@ function hashStr(str) {
   return h;
 }
 
+// Deterministyczny wybór z puli. Seed bywa ujemny (np. po >> na dużym haszu)
+// albo NaN — normalizujemy do bezpiecznego indeksu, więc pula NIGDY nie zwróci
+// `undefined` (to był ten „undefined” wyciekający na polską stronę).
 function pick(arr, seed) {
-  return arr[seed % arr.length];
+  if (!Array.isArray(arr) || arr.length === 0) return '';
+  const n = Number(seed);
+  const idx = Number.isFinite(n) ? (((Math.trunc(n) % arr.length) + arr.length) % arr.length) : 0;
+  return arr[idx];
 }
 
 function fmtScore(score) {
@@ -175,7 +255,13 @@ function renderPilne(reports) {
     'GRAŻYNA SPRZEDAŁA WSZYSTKO I KUPIŁA DZIAŁKĘ',
     'ANALITYK Z FORUM: „MÓWIŁEM”',
     'SEJM ZDZIWIONY, RYNEK BARDZIEJ',
-    'DRUKARNIA PRACUJE NA TRZY ZMIANY'
+    'DRUKARNIA PRACUJE NA TRZY ZMIANY',
+    'JANUSZ UŚREDNIA OD 2019 ROKU',
+    'EKSPERT ZAMKNĄŁ POZYCJĘ I LAPTOPA',
+    'KOT REDAKTORA TRAFNIEJSZY OD KONSENSUSU',
+    'BYK I NIEDŹWIEDŹ PODALI SOBIE ŁAPY (WALCZĄ DALEJ)',
+    'PROGNOZA: ZIELONO, POTEM CZERWONO, POTEM PŁACZ',
+    'KONTAKT Z DZIAŁEM PORAD: SYGNAŁ ZAJĘTY'
   ];
   const tape = 'PILNE!!! ★ ' + bits.concat(jokes).join(' ★ ') + ' ★ ';
   pilneTape.textContent = tape;
@@ -237,15 +323,16 @@ function renderExpert(comment, index) {
   article.innerHTML = `
     <div class="avatar">${pick(AVATARS, seed)}</div>
     <div>
-      <div class="expert-name">${pick(TITLES, seed >> 3)} ~${escapeHtml(comment.author || 'anonim')}</div>
-      <div class="expert-title">${pick(DEPARTMENTS, seed >> 5)}</div>
+      <div class="expert-name">${pick(TITLES, seed >>> 3)} ~${escapeHtml(comment.author || 'anonim')}</div>
+      <div class="expert-title">${pick(DEPARTMENTS, seed >>> 5)}</div>
       <p class="expert-quote">„${escapeHtml(comment.body || '(ekspert milczy wymownie)')}”</p>
-      <div class="verdict ${verdictCls}">WERDYKT: ${pick(verdictPool, seed >> 7)}</div>
+      <div class="verdict ${verdictCls}">WERDYKT: ${pick(verdictPool, seed >>> 7)}</div>
       <div class="expert-meta">
         ${comment.postedAt ? formatDate(comment.postedAt) : 'data nieznana'}
-        ${comment.votes ? ` · głosy czytelników: +${comment.votes.up} / −${comment.votes.down}` : ''}
+        ${comment.votes ? ` · głosy czytelników: +${Number(comment.votes.up) || 0} / −${Number(comment.votes.down) || 0}` : ''}
         · <a href="${escapeHtml(comment.url || '#')}" target="_blank" rel="noreferrer">${escapeHtml(comment.threadTitle || 'wątek na forum')}</a>
       </div>
+      <div class="expert-meta expert-footnote">📝 ${escapeHtml(pick(FOOTNOTES, seed >>> 9))}</div>
     </div>
   `;
   return article;
@@ -262,6 +349,9 @@ function renderStock(data, options = {}) {
   const conf = signalConf(signal);
   const confidencePct = Math.round((analysis.confidence || 0) * 100);
   const name = data.companyName || data.symbol;
+  // seed z symbolu+sygnału: ta sama spółka czyta się tak samo, różne spółki
+  // dostają różne nagłówki/kickery/lidy z puli (więcej różnorodności).
+  const editionSeed = hashStr(String(data.symbol || name) + signal);
 
   const requestedLimit = Math.max(1, Number(commentLimitInput.value) || 8);
   const allComments = Array.isArray(data.comments) ? data.comments : [];
@@ -270,9 +360,9 @@ function renderStock(data, options = {}) {
   const node = template.content.cloneNode(true);
 
   /* nagłówek */
-  node.querySelector('.kicker').textContent = conf.kicker;
-  node.querySelector('.headline').innerHTML = conf.headline(escapeHtml(name));
-  node.querySelector('.subhead').textContent = conf.subhead(analysis.score, confidencePct);
+  node.querySelector('.kicker').textContent = pick(conf.kickers, editionSeed);
+  node.querySelector('.headline').innerHTML = pick(conf.headlines, editionSeed >>> 3)(escapeHtml(name));
+  node.querySelector('.subhead').textContent = pick(conf.subheads, editionSeed >>> 6)(analysis.score, confidencePct);
   const stamp = node.querySelector('.stamp');
   stamp.classList.add(conf.cls);
   stamp.querySelector('.stamp-word').textContent = conf.stamp;
@@ -383,7 +473,7 @@ async function loadStock(symbol, options = {}) {
   }
   // whitelist — ticker lands in a fetch() path, so no dots/slashes allowed
   if (!/^[A-Z0-9-]{1,12}$/.test(normalized)) {
-    setMessage('KRZYWY TICKER!!!', `„${normalized}" nie wygląda jak kod spółki. Dozwolone: litery, cyfry i myślnik.`, true);
+    setMessage('KRZYWY TICKER!!!', `„${normalized}” nie wygląda jak kod spółki. Dozwolone: litery, cyfry i myślnik.`, true);
     return;
   }
   setMessage('MASZYNY DRUKUJĄ…', `Skład wydania specjalnego dla ${normalized}.`);

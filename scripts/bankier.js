@@ -27,7 +27,9 @@ const POSITIVE_STEMS = [
   ['swietn', 2], ['rewelac', 2], ['super', 1], ['sukces', 1], ['lider', 1],
   ['poprawa', 1], ['poprawi', 1], ['lepsz', 1], ['lepiej', 1], ['optymi', 1],
   ['zysk', 1], ['zyskown', 2], ['dywidend', 1], ['umocni', 1], ['warto', 1],
-  ['polecam', 2], ['trzymam', 1]
+  ['polecam', 2], ['trzymam', 1],
+  // to-the-moon optimism / forum hopium
+  ['byk', 1], ['ksiezyc', 2], ['kosmos', 2], ['diament', 1], ['fortun', 1]
 ];
 
 const NEGATIVE_STEMS = [
@@ -35,29 +37,42 @@ const NEGATIVE_STEMS = [
   ['sprzedaj', 2], ['sprzedal', 1], ['sprzedam', 1], ['wyprzeda', 2],
   ['short', 2], ['uciekaj', 2], ['uciekl', 1], ['odradzam', 2],
   ['omijaj', 2], ['omijac', 2], ['unikaj', 2],
+  ['wywal', 2], ['pozbyl', 1], ['pozbyc', 1], ['tnij', 1], ['redukuj', 1], ['wyrzuc', 1],
   // price action down
   ['spad', 1], ['zjazd', 1], ['zjedzie', 1], ['zjechal', 1], ['runie', 2],
   ['runal', 2], ['nurku', 2], ['tonie', 2], ['topnie', 2], ['leci', 1],
   ['osuwa', 1], ['obsuni', 1], ['oslabi', 1], ['czerwon', 1], ['spadkow', 2],
   ['korekt', 1], ['przecen', 1], ['dolek', 1], ['dolk', 1],
+  ['tapnie', 2], ['tapnal', 2], ['osun', 1], ['piwnic', 1], ['balon', 1],
   // crash / fear
   ['bess', 2], ['krach', 2], ['zalaman', 2], ['panik', 2], ['kapitulac', 2],
   ['dramat', 2], ['fataln', 2], ['tragiczn', 2], ['tragedi', 2], ['katastrof', 2],
   ['bankrut', 2], ['bankructw', 2], ['upadlosc', 2], ['plajt', 2],
+  ['kryzys', 2], ['recesj', 2], ['masakr', 2], ['pogrom', 2], ['rzez', 1],
+  ['lawina', 1], ['apokalips', 2], ['horror', 2], ['koszmar', 2], ['kleska', 2],
   // valuation / quality
   ['przewartosciowan', 2], ['zawyzon', 1], ['drogo', 1], ['slab', 1],
   ['strat', 1], ['straci', 1], ['ryzyk', 1], ['ryzykown', 1], ['problem', 1],
   ['klopot', 1], ['zagrozen', 1], ['niepokoj', 1], ['zadluz', 1],
   ['rozwodni', 2], ['gorsz', 1], ['gorzej', 1], ['pesymi', 1],
+  ['wtop', 2], ['porazk', 1], ['rozczarow', 1], ['naciag', 2], ['piramid', 2],
+  ['pompowan', 1], ['wydmuszk', 2], ['denn', 1], ['lipn', 1],
+  // company death / decay
+  ['trup', 2], ['gnij', 2], ['gnije', 2], ['zgnil', 2], ['umiera', 2], ['umarl', 2],
+  ['martw', 1], ['zombie', 2], ['zaoran', 2], ['zaoral', 2],
   // slang / disgust (very common on Bankier forum)
-  ['syf', 2], ['szrot', 2], ['smiec', 2], ['gowno', 2], ['guwno', 2],
-  ['badziew', 2], ['przekret', 2], ['oszust', 2], ['oszuk', 2], ['manipulac', 1],
-  ['scam', 2], ['lipa', 1], ['kicha', 1]
+  ['syf', 2], ['szrot', 2], ['zlom', 2], ['smiec', 2], ['gowno', 2], ['guwno', 2],
+  ['badziew', 2], ['chlam', 2], ['szajs', 2], ['przekret', 2], ['oszust', 2], ['oszuk', 2],
+  ['manipulac', 1], ['scam', 2], ['lipa', 1], ['kicha', 1], ['sciem', 2],
+  ['beznadziej', 2], ['zenuj', 2], ['zenad', 2], ['frajer', 1], ['naiwn', 1],
+  ['rzyg', 2], ['fuj', 1],
+  // vulgar (salty forum -- only clearly-negative crash/disgust stems)
+  ['jeb', 2], ['pierdol', 2], ['spierdol', 2], ['chuj', 2]
 ];
 
 // exact-token matches (too short / too ambiguous for prefix matching)
 const POSITIVE_EXACT = new Map([['moon', 2], ['gora', 1], ['gore', 1]]);
-const NEGATIVE_EXACT = new Map([['dno', 2], ['kupa', 1], ['dol', 1]]);
+const NEGATIVE_EXACT = new Map([['dno', 2], ['kupa', 1], ['dol', 1], ['kit', 1], ['cyrk', 1], ['klapa', 1]]);
 
 // Tokens that collide with a stem prefix but carry no sentiment, so prefix
 // matching would score them wrongly. These are MORE specific than the stem
@@ -69,17 +84,21 @@ const NEUTRAL_PREFIXES = ['strateg', 'wartosc'];
 const PHRASES = [
   ['do gory', 2], ['na polnoc', 2], ['to the moon', 2], ['na zielono', 1],
   ['bije rekordy', 2], ['pelna chata', 1], ['grube wzrosty', 2],
+  ['na ksiezyc', 2], ['diamentowe raczki', 2], ['mocno w gore', 2],
   ['na poludnie', -2], ['w dol', -1], ['na czerwono', -1], ['leci na leb', -2],
-  ['wali sie', -2], ['idzie na dno', -2], ['z daleka od', -2], ['na dnie', -1]
+  ['wali sie', -2], ['idzie na dno', -2], ['z daleka od', -2], ['na dnie', -1],
+  ['spadajacy noz', -2], ['lapanie noza', -2], ['martwy kot', -1], ['do zera', -2],
+  ['na minusie', -1], ['pic na wode', -2], ['kasa wyparowala', -2], ['tonacy okret', -2],
+  ['worek bez dna', -2], ['rownia pochyla', -2]
 ];
 
 const EMOJI = [
-  ['🚀', 2], ['📈', 1], ['💪', 1], ['🟢', 1], ['🔥', 1],
-  ['📉', -1], ['🔻', -1], ['💩', -2], ['🤡', -1], ['☠', -2], ['🔴', -1]
+  ['🚀', 2], ['📈', 1], ['💪', 1], ['🟢', 1], ['🔥', 1], ['🐂', 1], ['💎', 1], ['🤑', 2], ['🙌', 1], ['🌙', 1],
+  ['📉', -1], ['🔻', -1], ['💩', -2], ['🤡', -1], ['☠', -2], ['🔴', -1], ['🐻', -1], ['💀', -2], ['😭', -1], ['🤮', -2], ['⚰', -2], ['🆘', -2], ['🪦', -2]
 ];
 
 // flips the sign of a sentiment word when found within 2 preceding tokens
-const NEGATORS = new Set(['nie', 'bez', 'brak', 'zero', 'wcale', 'zaden', 'zadna', 'zadne', 'zadnych', 'koniec']);
+const NEGATORS = new Set(['nie', 'bez', 'brak', 'zero', 'wcale', 'zaden', 'zadna', 'zadne', 'zadnych', 'koniec', 'ani', 'nigdy', 'przestan']);
 
 const STOPWORDS = new Set([
   'oraz', 'ktory', 'ktora', 'ktore', 'ktorzy', 'spolka', 'spolki', 'spolke',
@@ -632,4 +651,22 @@ async function rebuildIndexFile(extra = {}) {
   return reports;
 }
 
-export { collectStock, writeStockFile, sentimentScore, stockToReport, rebuildIndexFile };
+// Re-score an already-collected stock object using the CURRENT lexicon, without
+// re-fetching from Bankier. Recomputes each stored comment's sentiment from its
+// thread title + body (same input postToComment uses), then re-runs the exact
+// aggregation a fresh scrape would. Lets a lexicon change take effect on the
+// committed data/ snapshot immediately, instead of waiting for the next cron.
+function rescoreStock(stock) {
+  const windowDays = Math.max(1, Number(stock.report?.windowDays) || DEFAULT_DAYS);
+  const comments = (Array.isArray(stock.comments) ? stock.comments : []).map((comment) => {
+    const sentiment = sentimentScore(`${comment.threadTitle || ''}. ${comment.body || ''}`);
+    return {
+      ...comment,
+      sentimentScore: Number(sentiment.score.toFixed(3)),
+      sentimentLabel: sentiment.label
+    };
+  });
+  return { ...stock, analysis: aggregate(comments, windowDays), comments };
+}
+
+export { collectStock, writeStockFile, sentimentScore, stockToReport, rebuildIndexFile, rescoreStock };

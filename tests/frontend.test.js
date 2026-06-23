@@ -105,17 +105,27 @@ test('wydanie otwierające: auto-ładuje spółkę z max |score|', async () => {
   assert.equal(document.querySelector('#symbol-input').value, 'DRAMA');
 });
 
-for (const [signal, fragment, cls, stampWord] of [
-  ['SELL', 'WSZYSCY SPRZEDAJĄ!!!', 'sig-sell', 'SPRZEDAWAJ'],
-  ['BUY', 'GRUBE WORY WCHODZĄ!!!', 'sig-buy', 'KUPUJ'],
-  ['HOLD', 'NIKT NIC NIE WIE!!!', 'sig-hold', 'TRZYMAJ']
+// Nagłówki rotują z puli (seed z symbolu+sygnału), więc testujemy własności,
+// nie konkretny tekst: nazwa spółki w nagłówku, krzyk (!!!), brak śmieci JS,
+// kicker/lid niepuste, oraz właściwa pieczątka.
+for (const [signal, cls, stampWord] of [
+  ['SELL', 'sig-sell', 'SPRZEDAWAJ'],
+  ['BUY', 'sig-buy', 'KUPUJ'],
+  ['HOLD', 'sig-hold', 'TRZYMAJ']
 ]) {
   test(`nagłówek i pieczątka dla ${signal}`, async () => {
     const score = signal === 'BUY' ? 0.6 : signal === 'SELL' ? -0.6 : 0;
     const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [makeReport('XXX', { signal, score })] };
     const stock = makeStock('XXX', { analysis: { ...makeStock('X').analysis, signal, score } });
     const { document } = await boot({ indexData, stocks: { XXX: stock } });
-    assert.ok(document.querySelector('.headline').textContent.includes(fragment));
+    const headline = document.querySelector('.headline').textContent;
+    assert.ok(headline.includes('XXX SA'), `nagłówek bez nazwy spółki: ${headline}`);
+    assert.ok(headline.includes('!!!'), `nagłówek nie krzyczy: ${headline}`);
+    assert.ok(!/undefined|null|NaN/.test(headline), `śmieci w nagłówku: ${headline}`);
+    const kicker = document.querySelector('.kicker').textContent;
+    assert.ok(kicker.length > 2 && !/undefined/.test(kicker), `zły kicker: ${kicker}`);
+    const subhead = document.querySelector('.subhead').textContent;
+    assert.ok(!/undefined|NaN/.test(subhead), `śmieci w lidzie: ${subhead}`);
     const stamp = document.querySelector('.stamp');
     assert.ok(stamp.classList.contains(cls));
     assert.equal(stamp.querySelector('.stamp-word').textContent, stampWord);
@@ -289,4 +299,51 @@ test('marquee PILNE: animowany track z dwiema identycznymi taśmami (płynna pę
   const tapes = track.querySelectorAll('.pilne-inner');
   assert.equal(tapes.length, 2, 'track musi zawierać dokładnie 2 taśmy');
   assert.equal(tapes[0].textContent, tapes[1].textContent, 'taśmy muszą być identyczne dla płynnej pętli');
+});
+
+/* ── Regresja: pula redakcyjna nigdy nie drukuje "undefined" ──
+   Wcześniej pick() używał pól >> (ze znakiem) i dla ~24% autorów dawał ujemny
+   indeks => arr[-n] === undefined, które lądowało jako "undefined" na polskiej
+   stronie (tytuł/instytut/werdykt eksperta). 60 różnych autorów wymusza wiele
+   różnych seedów, w tym takie z ustawionym najwyższym bitem hasza. */
+test('regresja: pula redakcyjna nigdy nie drukuje "undefined" (ujemny seed)', async () => {
+  const comments = Array.from({ length: 60 }, (_, i) => ({
+    id: String(i), author: `Inwestor_${i}_x${i * 97 + 13}`, postedAt: '2026-06-10 09:00',
+    threadTitle: 'Watek', url: 'https://www.bankier.pl/forum/t,1.html', body: 'komentarz testowy',
+    votes: { up: i % 5, down: i % 3 }, sentimentScore: 0,
+    sentimentLabel: ['Positive', 'Negative', 'Neutral'][i % 3]
+  }));
+  const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [makeReport('XXX')] };
+  const stock = makeStock('XXX', { comments, analysis: { ...makeStock('X').analysis, commentCount: comments.length } });
+  const { window, document } = await boot({ indexData, stocks: { XXX: stock } });
+  document.querySelector('#comment-limit-input').value = '60';
+  document.querySelector('#symbol-input').value = 'XXX';
+  document.querySelector('#symbol-form').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true }));
+  await flush(); await flush();
+  const experts = [...document.querySelectorAll('.expert')];
+  assert.equal(experts.length, 60, 'powinno wydrukować wszystkich 60 ekspertów');
+  for (const el of experts) {
+    assert.ok(!el.textContent.includes('undefined'), `"undefined" w karcie eksperta: ${el.textContent.slice(0, 90)}`);
+    assert.ok(el.querySelector('.expert-title').textContent.trim().length > 3, 'pusty instytut');
+    assert.match(el.querySelector('.verdict').textContent, /WERDYKT: \S/, 'pusty werdykt');
+  }
+});
+
+test('ekspert: redakcyjny dopisek (footnote) obecny, niepusty i bez śmieci', async () => {
+  const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [makeReport('XXX')] };
+  const { document } = await boot({ indexData, stocks: { XXX: makeStock('XXX') } });
+  const fn = document.querySelector('.expert .expert-footnote');
+  assert.ok(fn, 'brak redakcyjnego dopisku pod ekspertem');
+  assert.ok(fn.textContent.trim().length > 5 && !/undefined/.test(fn.textContent), `zły dopisek: ${fn.textContent}`);
+});
+
+test('nagłówki: różne spółki dostają różne wydania (różnorodność z puli)', async () => {
+  const variants = new Set();
+  for (const sym of ['AAA', 'BBB', 'CCC', 'DDD', 'EEE', 'FFF']) {
+    const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [makeReport(sym, { signal: 'BUY', score: 0.6 })] };
+    const stock = makeStock(sym, { analysis: { ...makeStock('X').analysis, signal: 'BUY', score: 0.6 } });
+    const { document } = await boot({ indexData, stocks: { [sym]: stock } });
+    variants.add(document.querySelector('.headline').innerHTML.replace(new RegExp(sym + ' SA'), 'NAZWA'));
+  }
+  assert.ok(variants.size > 1, 'pula nagłówków BUY powinna dawać więcej niż jeden wariant');
 });

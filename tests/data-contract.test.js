@@ -76,3 +76,31 @@ for (const file of stockFiles) {
     }
   });
 }
+
+// ── Dodatkowa walidacja: zero przecieków JS na polską stronę + spójny breakdown
+// Pola, które generujemy sami (companyName, summary, słowa kluczowe), nie mogą
+// zawierać "undefined"/"NaN"/"null", a rozbicie sentymentu musi się zgadzać z
+// policzonymi etykietami komentarzy (łapie błąd re-scoringu/agregacji).
+const GARBAGE = /\b(undefined|NaN|null)\b/;
+
+for (const file of stockFiles) {
+  test(`data/stocks/${file}: brak śmieci JS i spójny breakdown`, async () => {
+    const stock = JSON.parse(await fs.readFile(`data/stocks/${file}`, 'utf8'));
+
+    assert.ok(typeof stock.companyName === 'string' && stock.companyName.length > 0, 'puste companyName');
+    assert.ok(!GARBAGE.test(stock.companyName), `śmieci JS w companyName: ${stock.companyName}`);
+    assert.ok(typeof stock.analysis.summary === 'string' && stock.analysis.summary.length > 0, 'puste summary');
+    assert.ok(!GARBAGE.test(stock.analysis.summary), `śmieci JS w summary: ${stock.analysis.summary}`);
+
+    const counted = { Positive: 0, Negative: 0, Neutral: 0 };
+    for (const c of stock.comments) counted[c.sentimentLabel] += 1;
+    assert.equal(counted.Positive, stock.analysis.breakdown.positive, 'positive != policzone etykiety');
+    assert.equal(counted.Negative, stock.analysis.breakdown.negative, 'negative != policzone etykiety');
+    assert.equal(counted.Neutral, stock.analysis.breakdown.neutral, 'neutral != policzone etykiety');
+
+    for (const kw of stock.analysis.topKeywords) {
+      assert.ok(kw.word && !GARBAGE.test(kw.word), `śmieciowe słowo kluczowe: ${kw.word}`);
+      assert.equal(typeof kw.count, 'number', 'count słowa nie jest liczbą');
+    }
+  });
+}

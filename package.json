@@ -6,6 +6,7 @@
   "scripts": {
     "refresh": "node scripts/refresh-all.js 7",
     "refresh:one": "node scripts/refresh-stock.js",
+    "rescore": "node scripts/rescore-all.js",
     "serve": "python -m http.server 4173",
     "lint": "eslint .",
     "test": "node --test --test-reporter=dot tests/*.test.js"

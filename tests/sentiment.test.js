@@ -65,3 +65,51 @@ test('score zawsze w zakresie [-1, 1]', () => {
   const r = sentimentScore(spam);
   assert.ok(r.score >= -1 && r.score <= 1, `score ${r.score}`);
 });
+
+// ── Rozszerzony, „solony” leksykon negatywny (forum bywa bardzo salty) ──
+
+test('salty: nowe rdzenie negatywne łapane jako Negative', () => {
+  for (const txt of [
+    'totalna masakra na tym kursie',
+    'kryzys i recesja, idzie bessa',
+    'wtopa zycia, zaorane konto',
+    'spolka to trup i scam',
+    'co za zenada, pierdolnie w dol',
+    'lapanie spadajacego noza',
+    'kurs leci do piwnicy',
+    'balon spekulacyjny zaraz peknie'
+  ]) {
+    const r = sentimentScore(txt);
+    assert.equal(r.label, 'Negative', `${txt} -> ${r.label} (${r.score})`);
+    assert.ok(r.negativeHits > 0, `brak trafień negatywnych: ${txt}`);
+  }
+});
+
+test('false-friend: słowa neutralne/bankowe nie wpadają w negatyw', () => {
+  for (const txt of [
+    'pieniadze w bankach europejskich',
+    'konto w banku',
+    'cyrkulacja gotowki w spolce',
+    'klapki na oczach',
+    'dobra strategia rozwoju',
+    'wartosc ksiegowa spolki'
+  ]) {
+    assert.notEqual(sentimentScore(txt).label, 'Negative', `błędnie ujemne: ${txt}`);
+  }
+});
+
+test('emoji: niedźwiedź i trupia czaszka => Negative', () => {
+  assert.equal(sentimentScore('no i tyle 🐻').label, 'Negative');
+  assert.equal(sentimentScore('rip portfel 💀').label, 'Negative');
+});
+
+test('negacja: "nigdy nie sprzedam" nie jest Negative', () => {
+  const r = sentimentScore('nigdy nie sprzedam, trzymam mocno');
+  assert.notEqual(r.label, 'Negative', `score ${r.score}`);
+});
+
+test('vulgaryzm krachowy liczony jako Negative', () => {
+  const r = sentimentScore('jutro to jebnie i pierdolnie na samo dno');
+  assert.equal(r.label, 'Negative');
+  assert.ok(r.score < 0);
+});
