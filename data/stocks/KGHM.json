@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-06-24T04:36:17.707Z",
+  "updatedAt": "2026-06-24T09:51:54.884Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-24T04:36:17.707Z",
+    "fetchedAt": "2026-06-24T09:51:54.884Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.078,
-    "confidence": 0.73,
-    "commentCount": 165,
+    "score": -0.032,
+    "confidence": 0.71,
+    "commentCount": 167,
     "breakdown": {
-      "positive": 32,
-      "negative": 69,
-      "neutral": 64
+      "positive": 36,
+      "negative": 71,
+      "neutral": 60
     },
     "trend": [
       {
         "date": "2026-06-17",
-        "score": -0.03,
-        "count": 48
+        "score": -0.107,
+        "count": 31
       },
       {
         "date": "2026-06-18",
@@ -53,54 +53,325 @@
         "date": "2026-06-23",
         "score": 0.076,
         "count": 37
+      },
+      {
+        "date": "2026-06-24",
+        "score": 0.159,
+        "count": 19
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 165 komentarzy z ostatnich 7 dni: nastroje mieszane (32 pozytywnych, 69 negatywnych, 64 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 167 komentarzy z ostatnich 7 dni: nastroje mieszane (36 pozytywnych, 71 negatywnych, 60 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "kghm",
+        "word": "srebro",
         "count": 17
       },
       {
-        "word": "srebro",
-        "count": 15
+        "word": "kghm",
+        "count": 16
       },
       {
         "word": "dzis",
+        "count": 11
+      },
+      {
+        "word": "miedzi",
         "count": 10
+      },
+      {
+        "word": "plus",
+        "count": 9
+      },
+      {
+        "word": "miedz",
+        "count": 7
+      },
+      {
+        "word": "koniec",
+        "count": 7
       },
       {
         "word": "rynek",
         "count": 7
       },
       {
-        "word": "plus",
-        "count": 7
-      },
-      {
-        "word": "miedzi",
-        "count": 6
-      },
-      {
-        "word": "miedz",
+        "word": "przy",
         "count": 6
       },
       {
         "word": "musi",
         "count": 6
-      },
-      {
-        "word": "zeby",
-        "count": 6
-      },
-      {
-        "word": "wszystko",
-        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "74905269",
+      "author": "Magellan",
+      "postedAt": "2026-06-24 11:42",
+      "threadTitle": "Re: Praktycznie",
+      "url": "https://www.bankier.pl/forum/temat_praktycznie,74905153.html",
+      "body": "stoje na 338 z Lkąza optymistycznie ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74905153",
+      "author": "Lis",
+      "postedAt": "2026-06-24 11:32",
+      "threadTitle": "Praktycznie",
+      "url": "https://www.bankier.pl/forum/temat_praktycznie,74905153.html",
+      "body": "Srebro nie ma już wsparcia teraz tylko 60$Miedż dalej powiększa spadki Czyżby pierwsze oznaki pękania bańki al",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74904707",
+      "author": "Trzas-wawa",
+      "postedAt": "2026-06-24 11:00",
+      "threadTitle": "Re: Lis",
+      "url": "https://www.bankier.pl/forum/temat_nieproporcjonalne-spadki-kghm-so-wzrostow,74898313.html",
+      "body": "Jakoś mu ostatnio słabo wychodziło wróżenie. Chyba że ściemniał i robił odwrotnie. Jak np. pod koniec ub. tygodniu pisał, że zamyka szorty.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74904503",
+      "author": "Kaso",
+      "postedAt": "2026-06-24 10:47",
+      "threadTitle": "Re: Nieproporcjonalne spadki kghm so wzrostów",
+      "url": "https://www.bankier.pl/forum/temat_nieproporcjonalne-spadki-kghm-so-wzrostow,74898313.html",
+      "body": "Ty tak na poważnie? Kurs KGHM ma być tyle a tyle, bo chwilowo cena miedzi jest taka a nie inna??? Inne czynniki nieważne? Srebro? Inwestycje? Złoża? Koszty? Czysta spekulacja?...Aha, i szukasz logiki w kursie giełdowym?Powodzenia...",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74904097",
+      "author": "Magellan",
+      "postedAt": "2026-06-24 10:22",
+      "threadTitle": "Re: Test Sma",
+      "url": "https://www.bankier.pl/forum/temat_test-sma,74902531.html",
+      "body": "ja to ciągle mówie, że mamy odpływ kapitału, zaraz się pewnie zaczną spadki na wig20dolar mówi prawdę i przed każdą zwałą dolar zwyżkował",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74903479",
+      "author": "boluś",
+      "postedAt": "2026-06-24 09:49",
+      "threadTitle": "Re: Test Sma",
+      "url": "https://www.bankier.pl/forum/temat_test-sma,74902531.html",
+      "body": "Jeszcze się skrowisyn nie nażarł,więc zwala.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74903331",
+      "author": "Lis",
+      "postedAt": "2026-06-24 09:42",
+      "threadTitle": "Re: Test Sma",
+      "url": "https://www.bankier.pl/forum/temat_test-sma,74902531.html",
+      "body": "Dolar dalej się umacnia, może to oznaczać odpływ zagranicy z GPW",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74903299",
+      "author": "Lis",
+      "postedAt": "2026-06-24 09:40",
+      "threadTitle": "Re: Test Sma",
+      "url": "https://www.bankier.pl/forum/temat_test-sma,74902531.html",
+      "body": "Znaczne pogorszenie sytuacji, obraz rynku negatywny",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74902613",
+      "author": "Magellan",
+      "postedAt": "2026-06-24 09:06",
+      "threadTitle": "Re: Test Sma",
+      "url": "https://www.bankier.pl/forum/temat_test-sma,74902531.html",
+      "body": "co przewidujesz",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74902531",
+      "author": "Lis",
+      "postedAt": "2026-06-24 09:02",
+      "threadTitle": "Test Sma",
+      "url": "https://www.bankier.pl/forum/temat_test-sma,74902531.html",
+      "body": "Przydałby się Cena miedzi znacznie spadła a srebro na wsparciu",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74902489",
+      "author": "Magellan",
+      "postedAt": "2026-06-24 08:58",
+      "threadTitle": "Re: Wzrost ceny miedzi",
+      "url": "https://www.bankier.pl/forum/temat_wzrost-ceny-miedzi,74901657.html",
+      "body": "tak tu ładne kółeczka można robićniech to podjedzie pod 390 zł będzie tłuściutko dla Sek",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74902473",
+      "author": "boluś",
+      "postedAt": "2026-06-24 08:57",
+      "threadTitle": "Re: Wzrost ceny miedzi",
+      "url": "https://www.bankier.pl/forum/temat_wzrost-ceny-miedzi,74901657.html",
+      "body": "I tak co drugi dzień > Raz plus, raz minus. Skrowisynki ale dają zarobić.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74902455",
+      "author": "Magellan",
+      "postedAt": "2026-06-24 08:55",
+      "threadTitle": "Re: Wzrost ceny miedzi",
+      "url": "https://www.bankier.pl/forum/temat_wzrost-ceny-miedzi,74901657.html",
+      "body": "chłopie, ja tutaj czekam tylko na tłustą Skęmam w nosie akcje. ewentualnie nie zdążylem wczoraj kupić L-ki po 42 bo byłem w sklepiew nosie mam dywidendy jesteśmy u schyłku hossy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74902445",
+      "author": "Zbik07",
+      "postedAt": "2026-06-24 08:53",
+      "threadTitle": "Re: Wzrost ceny miedzi",
+      "url": "https://www.bankier.pl/forum/temat_wzrost-ceny-miedzi,74901657.html",
+      "body": "Kupujcie drogie akcje pod solidna dywidendę:)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74902389",
+      "author": "Magellan",
+      "postedAt": "2026-06-24 08:50",
+      "threadTitle": "Re: Wzrost ceny miedzi",
+      "url": "https://www.bankier.pl/forum/temat_wzrost-ceny-miedzi,74901657.html",
+      "body": "wiem, ale nie mam pańskiego płaszcza i co mi pan zrobiszz tel avivem nie wygrał nawet donald",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74902347",
+      "author": "Kghm",
+      "postedAt": "2026-06-24 08:48",
+      "threadTitle": "Re: Wzrost ceny miedzi",
+      "url": "https://www.bankier.pl/forum/temat_wzrost-ceny-miedzi,74901657.html",
+      "body": "Wczoraj miedz po 17 spadła o 0.8% dzis jest 0.2% na plus, a kursy teoretyczne otwarcia pokazują 1.5% na plus :o to juz nawet nie jest śmieszne, gdy kurs miedzi spada a to rośnie. Przypomnę przy obecnych cenach miedzi i srebra cena akcji powinna wynosić 300 zl",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74902209",
+      "author": "Magellan",
+      "postedAt": "2026-06-24 08:36",
+      "threadTitle": "Re: Wzrost ceny miedzi",
+      "url": "https://www.bankier.pl/forum/temat_wzrost-ceny-miedzi,74901657.html",
+      "body": "to co, dziś test 340 ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74902097",
+      "author": "YorX",
+      "postedAt": "2026-06-24 08:25",
+      "threadTitle": "Re: Wzrost ceny miedzi",
+      "url": "https://www.bankier.pl/forum/temat_wzrost-ceny-miedzi,74901657.html",
+      "body": "Super. No to gramy pod to...",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74901657",
+      "author": "BERGER",
+      "postedAt": "2026-06-24 07:17",
+      "threadTitle": "Wzrost ceny miedzi",
+      "url": "https://www.bankier.pl/forum/temat_wzrost-ceny-miedzi,74901657.html",
+      "body": "Uważam że już dzisiaj powinien nastąpić koniec korekty spadkowej w notowaniach na miedzi!",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "74900033",
       "author": "Magellan",
@@ -109,7 +380,7 @@
       "url": "https://www.bankier.pl/forum/temat_tapniecie-na-miedzi-dzis-spadki,74835903.html",
       "body": "Widzą widzą Ale tel avivu jeszcze nie ma interesu w 200 zł",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -123,7 +394,7 @@
       "url": "https://www.bankier.pl/forum/temat_tapniecie-na-miedzi-dzis-spadki,74835903.html",
       "body": "Ludzie nie widzą nadal podwójnego szczytu, jesteśmy 100% ponad historycznymi szczytami bez konkretnej korekty do nich, póki 200 nie przetestuje nie widzę powodu się pchać w longi",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -137,7 +408,7 @@
       "url": "https://www.bankier.pl/forum/temat_nieproporcjonalne-spadki-kghm-so-wzrostow,74898313.html",
       "body": "Dokładnie 19 maja przy obecnej ceni miedzi kurs wynosił 319, tylko ze srebro bylo 74. Pejsy trzymają kurs",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 3
       },
       "sentimentScore": 0,
@@ -152,7 +423,7 @@
       "body": "Tak jak pisal Lis jutro moze być 338",
       "votes": {
         "up": 0,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -165,7 +436,7 @@
       "url": "https://www.bankier.pl/forum/temat_nieproporcjonalne-spadki-kghm-so-wzrostow,74898313.html",
       "body": "Tym powinny sie zająć odpowiednie instytucje, bo ktos niech wytłumaczy logicznie. Czemu jak miedz rosnie 1% to kghm od 5 do 7%. Jesli tak jak dzis -3.2% to mamy tylko spadek 4.5 % ? Kto manipuluje kursem ? Obiektywnie patrząc po cenach miedzi i srebra to kurs kghm w tym momencie powinninen byc 300-310",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -179,7 +450,7 @@
       "url": "https://www.bankier.pl/forum/temat_odnosnie-kghm,74897069.html",
       "body": "Zaraz pasożyty wymyśla podatek od nadmiarowych zysków i po temacie",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 3
       },
       "sentimentScore": 0.322,
@@ -193,7 +464,7 @@
       "url": "https://www.bankier.pl/forum/temat_odnosnie-kghm,74897069.html",
       "body": "Nie przy 7mld zysku a za rok może być 8-9 mld",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -250,7 +521,7 @@
       "body": "Jutro srebro powinno zejść do 58-57 Od czwartku 4 dni do gory do poziomu około 100 i następnie spadek",
       "votes": {
         "up": 1,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -390,7 +661,7 @@
       "body": "Czy to dzisiaj do końca dnia należy kupić akcje aby załapać się na dywidendę?",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -614,7 +885,7 @@
       "body": "Miedziucha znowu w dół, kolejny dołek -> kolejna słaba sesja na KGHM się szykuje i coraz mocniej zarysowany będzie podwójny szczyt",
       "votes": {
         "up": 1,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": -0.931,
       "sentimentLabel": "Negative"
@@ -1174,7 +1445,7 @@
       "body": "Dziś kolejne zjazdy, koniec wojny, miedziucha w dół, KGiech też poleci sporo, w długi termin korektę na 200 może odbębnić jak się spojrzy na wykres",
       "votes": {
         "up": 4,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": -0.981,
       "sentimentLabel": "Negative"
@@ -2172,244 +2443,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74824849",
-      "author": "Pikador",
-      "postedAt": "2026-06-17 11:15",
-      "threadTitle": "Re: Kto kupi ode mnie po 400 ?",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupi-ode-mnie-po-400,74824069.html",
-      "body": "Jak rabat to taniej.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74824601",
-      "author": "zaba",
-      "postedAt": "2026-06-17 10:59",
-      "threadTitle": "Re: Kto kupi ode mnie po 400 ?",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupi-ode-mnie-po-400,74824069.html",
-      "body": "mógłbym odkupić ale czekam na zwrot dywidendyi czuje ze będę musiał dużo drożej kupić",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74824587",
-      "author": "Www123",
-      "postedAt": "2026-06-17 10:58",
-      "threadTitle": "Re: Tik-tak, tik-tak :)",
-      "url": "https://www.bankier.pl/forum/temat_w-84-dopiero-za-trzecim-razem-wybija-gora,74780547.html",
-      "body": "I sie zerasz jak na pge, black. Tam cie juz inni chhorym narcyzem nazywaja.",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74824577",
-      "author": "zaba",
-      "postedAt": "2026-06-17 10:58",
-      "threadTitle": "Re: Zaczynam budować pozycję",
-      "url": "https://www.bankier.pl/forum/temat_zaczynam-budowac-pozycje,74823609.html",
-      "body": "460 i okolice 700 kto by uwierzył ???oby nie wyskoczyło za wcześnie czekam na dywidendy",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74824357",
-      "author": "Lis",
-      "postedAt": "2026-06-17 10:43",
-      "threadTitle": "Re: Zaczynam budować pozycję",
-      "url": "https://www.bankier.pl/forum/temat_zaczynam-budowac-pozycje,74823609.html",
-      "body": "Kurna znowu trafione Long ropa short kghm",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74824315",
-      "author": "black944",
-      "postedAt": "2026-06-17 10:40",
-      "threadTitle": "Tik-tak, tik-tak :)",
-      "url": "https://www.bankier.pl/forum/temat_w-84-dopiero-za-trzecim-razem-wybija-gora,74780547.html",
-      "body": "jeszcze troszkę ---- > 396,40 pln",
-      "votes": {
-        "up": 0,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74824069",
-      "author": "Trzas-wawa",
-      "postedAt": "2026-06-17 10:25",
-      "threadTitle": "Kto kupi ode mnie po 400 ?",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupi-ode-mnie-po-400,74824069.html",
-      "body": "W euforii wziąłem pakiet. Dam z rabatem",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74824011",
-      "author": "Trzas-wawa",
-      "postedAt": "2026-06-17 10:22",
-      "threadTitle": "Re: NIC TYLKO BRAĆ PKC NA SZCZYCIE HOSSY.",
-      "url": "https://www.bankier.pl/forum/temat_nic-tylko-brac-pkc-na-szczycie-hossy,74823797.html",
-      "body": "AJ WAJ mówią \"MOCNE KUPUJ\"",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74823797",
-      "author": "gienio",
-      "postedAt": "2026-06-17 10:11",
-      "threadTitle": "NIC TYLKO BRAĆ PKC NA SZCZYCIE HOSSY.",
-      "url": "https://www.bankier.pl/forum/temat_nic-tylko-brac-pkc-na-szczycie-hossy,74823797.html",
-      "body": "TYLKO CO JAK TO SZCZYT SZCZYTÓW ???",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74823609",
-      "author": "Lis",
-      "postedAt": "2026-06-17 09:59",
-      "threadTitle": "Zaczynam budować pozycję",
-      "url": "https://www.bankier.pl/forum/temat_zaczynam-budowac-pozycje,74823609.html",
-      "body": "Chyba wiecie jaką",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74823267",
-      "author": "Lis",
-      "postedAt": "2026-06-17 09:42",
-      "threadTitle": "Re: Zaczynają być piekne",
-      "url": "https://www.bankier.pl/forum/temat_zaczynaja-byc-piekne,74823135.html",
-      "body": "Wiecie co, kusi brać long na ropę niżej niż 70 nie spadnie, a zapasy maleją",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74823227",
-      "author": "Lis",
-      "postedAt": "2026-06-17 09:39",
-      "threadTitle": "Re: Zaczynają być piekne",
-      "url": "https://www.bankier.pl/forum/temat_zaczynaja-byc-piekne,74823135.html",
-      "body": "W styczniu było bardzo czytelne, teraz może tak nie być",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74823135",
-      "author": "Lis",
-      "postedAt": "2026-06-17 09:33",
-      "threadTitle": "Zaczynają być piekne",
-      "url": "https://www.bankier.pl/forum/temat_zaczynaja-byc-piekne,74823135.html",
-      "body": "Poziomy, ale nie jest to momentum",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74823081",
-      "author": "Pikador",
-      "postedAt": "2026-06-17 09:30",
-      "threadTitle": "Re: 13 maj - Srebro 88 $ / miedź 14100$ / KGHM 380 zł",
-      "url": "https://www.bankier.pl/forum/temat_13-maj-srebro-88-miedz-14100-kghm-380-zl,74811013.html",
-      "body": "Ubieranie leszczyków przed piątkiem",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74823007",
-      "author": "Mercadio",
-      "postedAt": "2026-06-17 09:27",
-      "threadTitle": "Re: 13 maj - Srebro 88 $ / miedź 14100$ / KGHM 380 zł",
-      "url": "https://www.bankier.pl/forum/temat_13-maj-srebro-88-miedz-14100-kghm-380-zl,74811013.html",
-      "body": "Dziś - Srebro 70 $ / miedź 13800$ / KGHM 392 zł.Wnioski ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74822617",
-      "author": "boluś",
-      "postedAt": "2026-06-17 09:07",
-      "threadTitle": "Re: short liże rany",
-      "url": "https://www.bankier.pl/forum/temat_short-lize-rany,74822513.html",
-      "body": "Na razie skrowisyny ubierają leszczy, ale to się niebawem skończy. Będzie duży zjazd.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74822513",
-      "author": "ll",
-      "postedAt": "2026-06-17 08:59",
-      "threadTitle": "short liże rany",
-      "url": "https://www.bankier.pl/forum/temat_short-lize-rany,74822513.html",
-      "body": "Cisza na forum",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }

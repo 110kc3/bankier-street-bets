@@ -3,27 +3,82 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-06-24T04:36:20.935Z",
+  "updatedAt": "2026-06-24T09:52:01.127Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-24T04:36:20.935Z",
-    "windowDays": 7,
+    "fetchedAt": "2026-06-24T09:52:01.127Z",
+    "windowDays": 30,
     "requestedDays": 7,
-    "windowExtended": false,
-    "threadsScanned": 5
+    "windowExtended": true,
+    "threadsScanned": 23
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.039,
-    "confidence": 0.51,
-    "commentCount": 30,
+    "score": 0.08,
+    "confidence": 0.73,
+    "commentCount": 200,
     "breakdown": {
-      "positive": 6,
-      "negative": 7,
-      "neutral": 17
+      "positive": 76,
+      "negative": 45,
+      "neutral": 79
     },
     "trend": [
+      {
+        "date": "2026-06-02",
+        "score": 0.061,
+        "count": 34
+      },
+      {
+        "date": "2026-06-03",
+        "score": 0.049,
+        "count": 48
+      },
+      {
+        "date": "2026-06-04",
+        "score": -0.205,
+        "count": 6
+      },
+      {
+        "date": "2026-06-05",
+        "score": 0,
+        "count": 2
+      },
+      {
+        "date": "2026-06-09",
+        "score": -0.205,
+        "count": 11
+      },
+      {
+        "date": "2026-06-10",
+        "score": 0.207,
+        "count": 14
+      },
+      {
+        "date": "2026-06-11",
+        "score": 0.347,
+        "count": 17
+      },
+      {
+        "date": "2026-06-12",
+        "score": 0.226,
+        "count": 4
+      },
+      {
+        "date": "2026-06-14",
+        "score": 0.322,
+        "count": 1
+      },
+      {
+        "date": "2026-06-15",
+        "score": 0.281,
+        "count": 5
+      },
+      {
+        "date": "2026-06-16",
+        "score": 0.16,
+        "count": 27
+      },
       {
         "date": "2026-06-17",
         "score": 0.088,
@@ -53,54 +108,73 @@
         "date": "2026-06-23",
         "score": -0.181,
         "count": 5
-      }
-    ],
-    "trendDirection": "improving",
-    "summary": "Analiza 30 komentarzy z ostatnich 7 dni: nastroje mieszane (6 pozytywnych, 7 negatywnych, 17 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
-    "topKeywords": [
-      {
-        "word": "nowy",
-        "count": 4
       },
       {
+        "date": "2026-06-24",
+        "score": 0,
+        "count": 1
+      }
+    ],
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 30 dni: nastroje mieszane (76 pozytywnych, 45 negatywnych, 79 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "topKeywords": [
+      {
         "word": "masz",
-        "count": 4
+        "count": 20
+      },
+      {
+        "word": "kruka",
+        "count": 15
+      },
+      {
+        "word": "trzy",
+        "count": 13
+      },
+      {
+        "word": "kruk",
+        "count": 12
+      },
+      {
+        "word": "mnie",
+        "count": 9
       },
       {
         "word": "czekam",
-        "count": 3
+        "count": 8
       },
       {
         "word": "czas",
-        "count": 3
+        "count": 8
       },
       {
-        "word": "mozesz",
-        "count": 3
+        "word": "intrum",
+        "count": 8
       },
       {
-        "word": "wiadomosc",
-        "count": 3
+        "word": "polsce",
+        "count": 8
       },
       {
-        "word": "usunieta",
-        "count": 3
-      },
-      {
-        "word": "moderatora",
-        "count": 3
-      },
-      {
-        "word": "leki",
-        "count": 3
-      },
-      {
-        "word": "cierpliwosc",
-        "count": 2
+        "word": "nowy",
+        "count": 8
       }
     ]
   },
   "comments": [
+    {
+      "id": "74904195",
+      "author": "cezjas",
+      "postedAt": "2026-06-24 10:28",
+      "threadTitle": "Re: moja alternatywna rekomendacja to 730zł",
+      "url": "https://www.bankier.pl/forum/temat_moja-alternatywna-rekomendacja-to-730zl,74552661.html",
+      "body": "cierpliwie czekam. 730 jak nic",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "74900319",
       "author": "Alfa",
@@ -137,7 +211,7 @@
       "url": "https://www.bankier.pl/forum/temat_kierunek-polnoc,74884149.html",
       "body": "…a ja czekam na 560, haha kto da więcej.A tak na poważnie to mam czas i cierpliwość a to najważniejsze w inwestycjach i sprawdzimy się w listopadzie, grudniu. Pzdr.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -517,6 +591,2372 @@
       "votes": {
         "up": 4,
         "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74818769",
+      "author": "XD",
+      "postedAt": "2026-06-16 19:50",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Ile masz akcji Kruka i jaki jest cel pisania na tym forum. Nie uciekaj od dyskusji. Chyba że nie wiesz nawet, że można kupić akcje Kruka jak się ma akcje?",
+      "votes": {
+        "up": 3,
+        "down": 2
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74817859",
+      "author": "Alfa",
+      "postedAt": "2026-06-16 18:15",
+      "threadTitle": "Re: Kruk powinien być po ok 700zł",
+      "url": "https://www.bankier.pl/forum/temat_kruk-powinien-byc-po-ok-700zl,73644347.html",
+      "body": "Kiedy skończycie toMęczenie zdechłego kota???? Jeszcze nie uzbieraliście odpowiedniej pozycji żeby ruszyć up, do sierpnia będzie takie kiszenie ogóra?Panowie!!!",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74817551",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 17:44",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Uciekaj przed dyskusja dalej xDPolska ma coraz mniejsze znaczenie dla kruka jest jego bezpiecznym core ale nie drogą do wzrostów biznesu. Chyba że nie wiesz nawet w jakich krajach działa kruk?",
+      "votes": {
+        "up": 1,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74816961",
+      "author": "XD",
+      "postedAt": "2026-06-16 16:55",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Ma. Skoro nie ogarniasz to szkoda z toba dyskutowac. Gdzie pozostale kwestie, o ktore pytalem?",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74816901",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 16:51",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Ale co ma sytuacja w polsce do tego? Mniej niż 50% przychodów jest z Polski. Jak chcesz mogę ci sprawdzić ile",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74816279",
+      "author": "XD",
+      "postedAt": "2026-06-16 16:13",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Btw w przypadku Intrum pytałem o sytuację w Polsce? Umiesz zrozumieć prosty tekst? Czy cię zaprogramowali jak tvzaRublika?",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74816117",
+      "author": "XD",
+      "postedAt": "2026-06-16 16:00",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Za\"tĘ\" nie \"tĄ\". To po primo. Secundo, wyjasnilem, nowa wiewioro, tylko trzeba umiec czytac ze zrozumiem. Tertio, oceniaj po fakcie, nie przed, a Intrum to chyba twoja fobia, co? I na koniec. Ile masz akcji kruka, dlaczego 0, i po co sie tu udzielasz? Pytalem o to? Umiesz odpowiedziec?",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74816069",
+      "author": "XD",
+      "postedAt": "2026-06-16 15:56",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "No wlasnie, lacina, nawet nie ogarniasz, ze napisales z bledem i nie ogarniasz znaczenia, ale czego od sloika z mor doru mozna oczekiwac?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74815717",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 15:29",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Podoba mi się twoja ucieczka od faktu, że kruk płaci za tą samą wartość długu 50% więcej niż w zeszłym roku. Podałem przykład Intrum która kupowała długi za drogo i jest w kiepskiej kondycji finansowej. ( ty twierdzisz że są w świetnej)",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74815675",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 15:26",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Ad personam to nie polskie słowo ale czego ja od ciebie wymagam xD",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74815419",
+      "author": "XD",
+      "postedAt": "2026-06-16 15:08",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Ad personaM doksztalc sie. Odpowiadam no name nickowi, i na co ty liczysz, jak piszesz bzdury? W mor do rze cie tego ucza, wschodni nowy czlowieku? Jestes w Polsce, przez duze P. Szanuj ten kraj. Panial?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74815383",
+      "author": "XD",
+      "postedAt": "2026-06-16 15:06",
+      "threadTitle": "Re: Kruk powinien być po ok 700zł",
+      "url": "https://www.bankier.pl/forum/temat_kruk-powinien-byc-po-ok-700zl,73644347.html",
+      "body": "Ty na kazdej spolce takmyslisz. I zawsze jest odwrotnie. I juz nie mysl. Pisalo ci to wielu. To cie boli",
+      "votes": {
+        "up": 0,
+        "down": 5
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74814929",
+      "author": "takmysle",
+      "postedAt": "2026-06-16 14:33",
+      "threadTitle": "Re: Kruk powinien być po ok 700zł",
+      "url": "https://www.bankier.pl/forum/temat_kruk-powinien-byc-po-ok-700zl,73644347.html",
+      "body": "marzyciele hahahahahaha tu bedzie szczęscie jesli to nie spadnie na 300zł",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74812891",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 12:17",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Ad persona od samego początku, gdzie ja tu liczyłem na normalna rozmowę. Trudno na co liczyłem wchodzac na ten ściek",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74812869",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 12:16",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "No na samej polsce to ta spółka by nie była tyle warta, przecież w cenie masz zagranice dlatego ona jest teraz kluczowa",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74812863",
+      "author": "XD",
+      "postedAt": "2026-06-16 12:16",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Przeczytaj mój tekst ze zrozumieniem. Nawet tego nie jesteś w stanie zrobić.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74812849",
+      "author": "XD",
+      "postedAt": "2026-06-16 12:14",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Napisz nam jak sobie intrum radzi w Polsce, a to jest rynek Kruka. Czekamy, nowy, acz już zmurszały.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74812845",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 12:14",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Chciałeś przykładu. nie chciałeś małego przykładu, podałem duży. No w tej branży głównie o to po ile kupujesz długi i ile z nich odzyskujesz się rozchodzi. Ty póki co nie napisałeś nic.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74812799",
+      "author": "XD",
+      "postedAt": "2026-06-16 12:11",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Nie, wg ciebie bardzo dobry. Poza brakiem meryttoryki typu \"konkurencja poleciała\" i podaniem przykładowej nazwy nic nie wniosłeś do dyskusji. Niestety, odnoszę wrażenie, że jesteś kolejnym frustratem tego forum.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74811603",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 10:58",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Bardzo dobry przykład tylko się odnieść nie potrafisz",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74811589",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 10:57",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Tak radzi sobie świetnie xD aż musi sprzedawać portfele wierzytelności taniej niż kupiło, tak świetnie sobie radzą. Charter 11 w usa też, a sprawą sukcesu musiał zostać wdrożony xD",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0.981,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74811459",
+      "author": "XD",
+      "postedAt": "2026-06-16 10:50",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "No tak, porownujesz intrum, ktory w Polsce ma mega wyniki do globalu, gdxie kruk im do piet nie siega, jeszcze. Poza tym intrum dziala, ma sie dobrze. To tak btw. Znajdz lepszy przyklad. Ten jest slaby. Wylacz AI nowy. Wlacz myslenie.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74810675",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 10:10",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Taki szwedzki kruk tylko większy",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74810495",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 10:03",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Intrum na przykład, oni polecieli na kupowaniu wierzytelności za drogo",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74809479",
+      "author": "XD",
+      "postedAt": "2026-06-16 09:18",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "A co to byla za konkurencja kruka? Komornik jakis, napisz nam nowy?",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74809067",
+      "author": "Nowy",
+      "postedAt": "2026-06-16 08:59",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Generalnie konkurencja od kruka poleciała na tym drogim kupowaniu długów, ale może kruk ma na to lepszy pomysł",
+      "votes": {
+        "up": 1,
+        "down": 4
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74808837",
+      "author": "Alfa",
+      "postedAt": "2026-06-16 08:42",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Skąd ten wiewiór może to wiedzieć skoro czyta bez zrozumienia. Lekceważmy go.",
+      "votes": {
+        "up": 3,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74806471",
+      "author": "XD",
+      "postedAt": "2026-06-15 21:38",
+      "threadTitle": "Re: Kruk powinien być po ok 700zł",
+      "url": "https://www.bankier.pl/forum/temat_kruk-powinien-byc-po-ok-700zl,73644347.html",
+      "body": "man ipulujesz kita. Widac wiesz, co ci grozi. Wiesz, ze 30% jest dla swiezych, lepiej rokujacych sciagalnosc wierzytelnisci, dlatego placa wiecej, bo wiecej sciagna. Mani puluj dalej, a ten, co cie do knfu podal ma kolejny powod. To rob tak dalej, powodzenia",
+      "votes": {
+        "up": 4,
+        "down": 7
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74803471",
+      "author": "Wiewiórka",
+      "postedAt": "2026-06-15 17:21",
+      "threadTitle": "Re: Kruk powinien być po ok 700zł",
+      "url": "https://www.bankier.pl/forum/temat_kruk-powinien-byc-po-ok-700zl,73644347.html",
+      "body": "50%. O tyle wzrósł koszt nabycia nominału długu. Proszę więc nie naganiać na jakieś śmieszne kwoty z kosmosu nie poparte żadnymi merytorycznymi argumentami, bo kolega wynalazca zgłosi do KNF.",
+      "votes": {
+        "up": 5,
+        "down": 8
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74797715",
+      "author": "cezjas",
+      "postedAt": "2026-06-15 10:59",
+      "threadTitle": "Re: Kruk powinien być po ok 700zł",
+      "url": "https://www.bankier.pl/forum/temat_kruk-powinien-byc-po-ok-700zl,73644347.html",
+      "body": "Cierpliwie będę czekał na 700 i wyżej. Może shorty zbytnio nie zbiją kursu ale tera to ruletka",
+      "votes": {
+        "up": 2,
+        "down": 5
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74796069",
+      "author": "XD",
+      "postedAt": "2026-06-15 09:24",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Mnb kupiles kefir? 3 zl na lokacie kolejne dopisane? Zabawne, jak niektorzy poza dooplo nie powinni wychodzic. No, moze lego.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74795691",
+      "author": "XD",
+      "postedAt": "2026-06-15 08:47",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Agresywna polityka Kruka: Firma mogła świadomie podnieść stawki, aby wygrać kluczowe przetargi i utrzymać pozycję lidera.",
+      "votes": {
+        "up": 5,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74792095",
+      "author": "Wiewiórka",
+      "postedAt": "2026-06-14 16:13",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "10 minuta filmu. Nakłady do wartości wierzytelności urosły do 30% z ok 20%. Czyli o 50%.",
+      "votes": {
+        "up": 5,
+        "down": 4
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74784285",
+      "author": "Alfa",
+      "postedAt": "2026-06-12 23:49",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Daj sobie spokój, jakaś wiewiórka bez siurka, przyszły tydzień zamkniemy na 430 ze zwiększonym wolumenem. Gra już zaczyna się pod wyniki 2 i 3Q które będą mocne.",
+      "votes": {
+        "up": 5,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74784267",
+      "author": "Alfa",
+      "postedAt": "2026-06-12 23:45",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Stuku puku a w przyszłym tygodniu 430 na Kruku, hahahaha",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74781089",
+      "author": "Nowy",
+      "postedAt": "2026-06-12 16:45",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Jak Ci wyszło że portfele wierzytelności są dla nich o 50% droższe? Nie pytam sarkastycznie, jestem ciekaw. Wiem że zwiększają nakłady na portfele wierzytelności ale to nie musi oznaczać że kupują ta sama wartość długu drożej",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74775329",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-12 10:25",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Mnb, jak twoje 3 zl dzisiaj? Z bobkiem kefir na spolke sobie kupicie? Gpw to nie lokata. To czas i pieniadze. EOT",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74769477",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-11 18:30",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Wracaj na drzewo wiewiórka. Podobno wprowadzanie w błąd jest karane.sprawdzimy zatem.",
+      "votes": {
+        "up": 8,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74767413",
+      "author": "Wiewiórka",
+      "postedAt": "2026-06-11 16:02",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Stabilnie rosnąca ? Chyba oglądaliśmy 2 różne filmy. Wzrost kosztów portfelu wierzytelność o ponad 50% co oznacza mniejsze marże w przyszłości, do tego nie dowożą planów inwestycyjnych co z kolei oznacza stagnację przychodów w przyszłości. Nic dziwnego że kurs ta rąbnął. Co gorsza koszt nabycia przyszłych portfeli ma być ponoc cały czas b. drogi tj ok 30%.",
+      "votes": {
+        "up": 4,
+        "down": 13
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74766189",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-11 14:42",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Konczac watek, kruk w kwietniu nitowal 496 zl. Uwzgl dywid 16 zl obecnie jest to 413 zl. Zatem spadl 17% w ciagu miesiac, nie 6. Doksztalc sie, konfabulancie mnb.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74766135",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-11 14:37",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Aha, mnb, po odcieciu dywidendy kurs zawsze spada, a roznica jest w podatku. I ty, rzekomo, kupiles po 429, czyli niedawno, wierzac w te spolke i piszesz to:\"...to są fakty po odcięciu dywidendy kruk jeszcze bardziej spadł i jest w trendzie spadkowym w przeciągu 6 miesięcy spadł o ok 20%\". Ty masz mocno nierowno pod kopulka.",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74765799",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-11 14:13",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "38 akcji. To faktycznie wliz na lokate. Po roku bedziesz mial 800 zl. Na 3 dobre obiady w Warszawie bedziesz mial. Inwestycja zycia. Szkoda sie zamartwiac na forum kruk i wierzyc w spolke, na ktora sie narzeka. Ty masz iq deski do prasowania, mnb.",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74765461",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-11 13:50",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Mnb. Po primo, stosuj interpunkcje, bo ciezko zrozumiec, co piszesz. Secundo. 38 akcji po 429, to nie trudno jest wystawic, zeby to udowodnic. Tylko ty nawet tej smiesznej liczby akcji nie masz. Tertio, zacytuj mnie, gdzie napisalem, ze wole miec strate, bo tylko durrń taki jak ty moze taka bzdure napisac. A teraz popros kogos doroslego, zeby napisal ci odpowiedz. Tylko odrobina sensu niech tam bedzie.",
+      "votes": {
+        "up": 7,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74765131",
+      "author": "mnb",
+      "postedAt": "2026-06-11 13:30",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "akcji mam 38 ;) kupione po 429 z otrzymana dywidenda jesli tobie sie tylko wydaje to nie powinienes sie wypowiadac odwolujac sie do twojej wiadomosci tak na koniec roku czy w kolejnych latach cena moze wzrosnac przykladowo o 30,40 czy 50 % rowniez moze tez spasc pamietaj o tym nie kupowalbym tej spolki gdybym rowniez w nia nie wierzyl ale trzeba byc glupcem piszac ze wolisz miec strate niz zysk",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74764565",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-11 12:58",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Bobku, jak ktos kupil akcje po 386 to ile ma dzisiaj na minusie? Napisz nam. Aha, bo tu kazdy kupowal 3 lata temu. To ma sens. Tylko dla ciebie.",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74763457",
+      "author": "Alfa",
+      "postedAt": "2026-06-11 11:53",
+      "threadTitle": "Re: Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Konrado dobrze gada, mocna stabilnie rosnąca spółka, czas wsiadać do pociągu, można większym kapitalem, tutaj nie ma marnych obrotów. Nawet 15% w kwartał będzie dobrym wynikiem na np mln.Dzięki Konrad.",
+      "votes": {
+        "up": 7,
+        "down": 2
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74762737",
+      "author": "Bob",
+      "postedAt": "2026-06-11 11:07",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "A gdzie ja naganiam?",
+      "votes": {
+        "up": 1,
+        "down": 6
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74762429",
+      "author": "Pułtusk",
+      "postedAt": "2026-06-11 10:47",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Wstydu to Ty nie Masz płatny naganiaczu.",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74762375",
+      "author": "Bob",
+      "postedAt": "2026-06-11 10:44",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Trzeba mieć nierówno pod kopułą aby chwalić się ilością akcji , które od 3 lat stoją w miejscu , gdy w tym czasie rogi robią > 100%. Tu się nią ma czym chwalić. To należy się pokajać i palić że wstydu.",
+      "votes": {
+        "up": 2,
+        "down": 6
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74760921",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-11 09:29",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Czekam na info, panie mnb, ile masz skcji i czy wystawiles zlecenie.",
+      "votes": {
+        "up": 7,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74760899",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-11 09:27",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Aha, panie mnb. Strata, gdybys mial ajcje, to bys wiedzial, jest wtedy, jak zrealizujesz zlecenie kupno/sprzedaz. Jezeli inwestujesz, chociaz mam 100% pewnosci, ze nie masz nawet 1 akcji, na mc, dwa, to inwestuj w lokate, ktora ledwo pokryje ci inflacje. Nie masz bladego pojecia o trendach, shortach, wijnach trumpa i perspektywach kruka. Piszesz, co puszesz, bo wydaje ci sie, ze cos wiesz. Wpadnij tu pod koniec roku. Sprawdzimy twoj trend spadkowy.",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74760729",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-11 09:20",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Skoro dalej uwazasz, ze 3 zl na lokacie jest lepsze, to nie odp mi na pytanie. Co tu robisz? Proste pyranie, bez pisania banualuk, ze masz akcje, bo nie masz. Ktos, kto ma akcje wymienia sie info, a nie jest bobem tego forum. I tyle.",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74760597",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-11 09:15",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Mnb, to sprawdzmy twoja prawdomownosc, po ktorej zaczniemy rozmawiac o faktach. Zatem napisz nam ile masz ajcji i wystaw zlecenie po 9999 zl. To czekam, a potem odpowiem na ten twoj post. Samo pisanie na forum o niczym nie swiadczy, a bedac rzekomym akcjonariuszem pisanie, ze 3 zl jest lepsze, swiadczy, ze nie masz zadnej akcji. I tyle mojej dyskusji z toba na te chwile.",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74758893",
+      "author": "Mnb",
+      "postedAt": "2026-06-11 02:46",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Panie wynalazco jak chcesz możesz to sobie nazywać trollem itd ale to są fakty jeśli według ciebie lepiej stracić niż przygarnąć te przysłowiowe 3 zł to ok to są fakty po odcięciu dywidendy kruk jeszcze bardziej spadł i jest w trendzie spadkowym w przeciągu 6 miesięcy spadł o ok 20% całą twoją perspektywę o mnie zmienię jak powiem że sam mam akcje kruka ale faktów nie da się zakłamac",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74756153",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-10 19:16",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Lilu vel biedak, prawdziwy Polak korzysta z tunezyjskiego ip? Wy wschodnie wa lonki siejecie ferment bo to wasza praca, co?",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74755373",
+      "author": "Ds",
+      "postedAt": "2026-06-10 18:09",
+      "threadTitle": "Do zgarnięcia upsite +20%",
+      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
+      "body": "Konrada warto posłuchaćhttps://youtu.be/zIH0a_-yPzg?is=8G6V7RVxigkFu4NZ",
+      "votes": {
+        "up": 6,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74755289",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-10 18:01",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Bobciu, w banku sooldzielczym opowiedza ci bajke i dadza lizaka, bez rejestracji. Potem podasz dane i zalozysz sobie lokate na 100 zl.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74754661",
+      "author": "Bob",
+      "postedAt": "2026-06-10 17:17",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Już do bardziej badziewnego serwisu nie mógł dać wywiadu? Wymuszają rejestrację, szkoda że jeszcze opłat nie pobierają",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74754627",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-10 17:15",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Mega artykul, Alfa. Teraz spokojnie czekamy na uspokojnie rynkow. Bob i mnb dzisiaj mega 3 zl przytulili. Karma do nich wraca. A wystarczylo poczekac do 17 i nie wyszliby na d..ow.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74753811",
+      "author": "Biedak",
+      "postedAt": "2026-06-10 16:27",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Co ty masz to Polaków? Obrzydzany mądrzejszy?",
+      "votes": {
+        "up": 0,
+        "down": 5
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74752461",
+      "author": "Alfa",
+      "postedAt": "2026-06-10 14:57",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "B dobry artykuł, brawo.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74749155",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-10 11:23",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Skoro 3 zl lepiej na lokacie, to co tu r9bicie na forum? Leczycie kompleksy czy typowy trolling? Wyjasnij nam mnb",
+      "votes": {
+        "up": 9,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74748831",
+      "author": "Mnb",
+      "postedAt": "2026-06-10 11:02",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Lepiej 3 zł na plus niż po kilka procent codziennie na minus bo cała giełda jest w spadku od 3 miesiecy",
+      "votes": {
+        "up": 2,
+        "down": 8
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74746243",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-10 08:56",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Chttps://xyz.pl/szef-kruka-w-naszej-branzy-bedziemy-technologicznym-numerem-jeden-na-swiecie-wywiad/",
+      "votes": {
+        "up": 7,
+        "down": 4
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74745939",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-10 08:35",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Aha, bobeczek, zloz aplikacje do Kruka, na doradce specjalnej troski. Oni maja na pewno fundusz pfron dla takich jak ty. Albo stworz konkurencje bobruk i pokaz, co potrafisz.",
+      "votes": {
+        "up": 11,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74745723",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-10 08:14",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "Na pewno ty na lokacie nic nie odczujesz, bobek. Ile ci uroslo na lokacie? 3 zlote? Pochwal sie.",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74745303",
+      "author": "Bob",
+      "postedAt": "2026-06-10 07:07",
+      "threadTitle": "Re: Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "A co to konkretnie zmieni, że będą kupować długi na fundusz x, zamiast na rachunek firmy matki? Jak chcą wydzielić inwestycje to niech stworzą wewnętrznie oddzielny pion / dział inwestycji z własna oddzielna struktura organizacyjna. O USA już słyszę 5 lat.",
+      "votes": {
+        "up": 1,
+        "down": 7
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74744915",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-10 01:17",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Pytasz sam siebie, bidoku? Co pytanie, to wiekszy ubaw z ciebie. Aha, nosze spodnie, pije mleko i slucham Chopina.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74744775",
+      "author": "Alfa",
+      "postedAt": "2026-06-09 23:38",
+      "threadTitle": "Lider windykacji szykuje miliardowy fundusz. W planach 30 mld zł",
+      "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
+      "body": "https://strefabiznesu.pl/lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl/ar/c3p2-28951123",
+      "votes": {
+        "up": 7,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74744015",
+      "author": "Biedak",
+      "postedAt": "2026-06-09 21:42",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Nosisz pejsy czy jesteś z Ukrainy?",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74741017",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-09 17:10",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "No, wystawione na \"bidak ciemniak\".",
+      "votes": {
+        "up": 12,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74739881",
+      "author": "Biedak",
+      "postedAt": "2026-06-09 16:02",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Ty masz orzeczenie o niepełnosprawności?",
+      "votes": {
+        "up": 2,
+        "down": 8
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74739839",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-09 16:00",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Niestety, takie to typy \"polaczkow\".",
+      "votes": {
+        "up": 7,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74738663",
+      "author": "Biedak",
+      "postedAt": "2026-06-09 14:51",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Szkoda że idioci mają dostęp do neta",
+      "votes": {
+        "up": 3,
+        "down": 6
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74737583",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-09 13:42",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Bobe.czku. ty masz lokate na 6% na 600 zl. Czekaj. Z tym co ci na lokacie wyjdzie niedlugo nie kupisz nawet 1 akcji. Wspolczujemy ci.",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74737359",
+      "author": "Alfa",
+      "postedAt": "2026-06-09 13:27",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Stuku puku i kupione akcje Kruku, hahaha",
+      "votes": {
+        "up": 7,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74734887",
+      "author": "Lekarz",
+      "postedAt": "2026-06-09 10:34",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Bob, ty niewiele wiesz, poza % lokat. Skup sie na lokatach. Nikt ci nie zabrania zarabiac 30 zl rocznie. Nawet hoffman.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74734197",
+      "author": "Bob",
+      "postedAt": "2026-06-09 10:02",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Źródło: stooq. A to fundusze poniżej 5% podpisały cyrograf i mają zakaz sypania??? Xdxd . Ostatnio Hofman wysypał prawie 100k sztuk ze swego pakietu 300k sztuk. Free float to prawie 50%.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74734117",
+      "author": "Bob",
+      "postedAt": "2026-06-09 09:57",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Poczekam jednak spokojnie na 350, nie ma co się spieszyć gdy trend spadkowy trwa w najlepsze.",
+      "votes": {
+        "up": 0,
+        "down": 8
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74709713",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-05 21:09",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Bobeczku, a kghm to mocny dxisiaj byl, co? Ale ty masz notowania 2 spolek na demo, to nie ogarniasz.",
+      "votes": {
+        "up": 8,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74708083",
+      "author": "EXpertka",
+      "postedAt": "2026-06-05 17:45",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Chyba nie. Powiedziałabym raczej, ze to typowe zachowanie, gdy spółka trochę rośnie pod dywidendę, a później spada po wypłacie- nic zaskakującego raczej",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74698597",
+      "author": "Maxximm",
+      "postedAt": "2026-06-04 21:35",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Podaj źródło że w wolnym obrocie jest 9 mln akcji, z oficjalnych info 70% jest w rękach funduszy , żenada",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74698353",
+      "author": "Alfa",
+      "postedAt": "2026-06-04 21:01",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Maniek, poziom wsparcia już był, uważaj bo zostaniesz na peronie",
+      "votes": {
+        "up": 7,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74697337",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-04 18:30",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Nastepny domorosly znaFca tego co jest i bedzie. Z fusow ci to wyszlo, czy w wc sie dopatrzyles?",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74695379",
+      "author": "pawelol",
+      "postedAt": "2026-06-04 12:17",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Trend jest spadkowy, korekta wzrostowa może być do 420 nawet, zobaczymy co potem",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74694127",
+      "author": "Alfa",
+      "postedAt": "2026-06-04 09:55",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Tak, dzięki za sprostowanie, zobaczymy w piątek czy zrobili kiwkę i zostawili tych co czekali niżej 380 na zebranie i uważali że 390 to za drogo.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74693029",
+      "author": "Alfa",
+      "postedAt": "2026-06-04 00:12",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Sorry , zgubiłem dzień. Nie pierwszy i nie ostatni raz.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74689875",
+      "author": "Nowy",
+      "postedAt": "2026-06-03 17:23",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Dm PKO BP . Dostałem po zamknięciu sesji xD mam nadzieje ze cena mi w piątek nie odleci",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74689651",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 17:03",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Bobek, juz nie nadajesz, lokatowy nie.dorobie? Kupilbys dzisiaj po 387 i juz mialbys wiecej niz na tej swojej rocznej lokacie. Chociaz za 200 zl nie kupisz 1 akcji kruka. Trzymaj lokate.",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74689571",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 16:57",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Maniek, wsparles sie czy siedzisz i stekasz?",
+      "votes": {
+        "up": 7,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74688055",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 15:15",
+      "threadTitle": "Re: Kruk powinien być po ok 700zł",
+      "url": "https://www.bankier.pl/forum/temat_kruk-powinien-byc-po-ok-700zl,73644347.html",
+      "body": "Kiedyś lulu będzie cię stać na 1 akcje.",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74687583",
+      "author": "Lilu",
+      "postedAt": "2026-06-03 14:43",
+      "threadTitle": "Re: Kruk powinien być po ok 700zł",
+      "url": "https://www.bankier.pl/forum/temat_kruk-powinien-byc-po-ok-700zl,73644347.html",
+      "body": "Kiedyś będzie na pewno",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74687455",
+      "author": "Bob",
+      "postedAt": "2026-06-03 14:34",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Co za bzdury. W kasie jest wg ostatniego raportu 367 mln zł. To nie starczyloby na zakup nawet 1 mln akcji, a w wolnym obrocie jest oko 9 mln sztuk i ciągle są dodrukowywania. Proszę nie siać dezinformacji.",
+      "votes": {
+        "up": 3,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74687353",
+      "author": "Wełniaczek",
+      "postedAt": "2026-06-03 14:26",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Ja już w trade republik dostałem dywidędę. :D",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74686953",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 13:59",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Tobie, elo, nie kupie, to fakt i zdecyduj sie na nick, magicu. Kud - erste wyplacil.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74686921",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 13:57",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Od piatku, alfa, jutro nie ma sesji",
+      "votes": {
+        "up": 4,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74686895",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 13:56",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Od piatku, alfa",
+      "votes": {
+        "up": 4,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74686567",
+      "author": "Elo",
+      "postedAt": "2026-06-03 13:34",
+      "threadTitle": "Re: Popsuli wykres",
+      "url": "https://www.bankier.pl/forum/temat_popsuli-wykres,74686215.html",
+      "body": "Małe czapeczki?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74686531",
+      "author": "Elo",
+      "postedAt": "2026-06-03 13:32",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Przecież nawet nie kupisz za to jednej akcji",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74686027",
+      "author": "Nowy",
+      "postedAt": "2026-06-03 13:01",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Ja DM pko bp, coś czuję że dopiero w piątek dostanę, a szkoda bo cena obecnie przednia.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74685971",
+      "author": "Kud",
+      "postedAt": "2026-06-03 12:58",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "A pochwalisz się w jakim DM?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74685809",
+      "author": "Alfa",
+      "postedAt": "2026-06-03 12:46",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Dziś wpada na konta dywidenda więc rozpoczną się wzmożone zakupy cześć dziś a reszta od jutra. Ostatnie chwile ubijania….",
+      "votes": {
+        "up": 3,
+        "down": 5
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74685443",
+      "author": "wedc",
+      "postedAt": "2026-06-03 12:24",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Skąd te spadki ? może znają wyniki na 2 kwartał które mogą być słabe ? może zmiany w przepisach , które może doprowadzić do bankructwa spółki ? władza tego kraju jest nieprzewidywalna a komuniści z PO czy Lewicy mogą zrobić wszystko na niekorzyść spółek w Polsce, jak podatek CIT różny dla każdej branży czy podatek od nadmiernych zysków ( takie pojęcie tylko rodzić się mogą w umysłach komuchów bo zysk to zysk, raz większy , raz mniejszy itd )",
+      "votes": {
+        "up": 1,
+        "down": 6
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74685313",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 12:14",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Juz mam. Czas na zakupy.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74685301",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 12:13",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "To twoja rekomendacha magic? Dzieki za info. Aga, uwzgl 16 zl netto dywid poziom wsparcia to 384. Tylko magic znasz art 39 ust z 29.07.05?",
+      "votes": {
+        "up": 6,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74685309",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 12:13",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Juz mam.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74685109",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 12:02",
+      "threadTitle": "Re: jedziemy na stracie ale to się zmieni",
+      "url": "https://www.bankier.pl/forum/temat_jedziemy-na-stracie-ale-to-sie-zmieni,74685003.html",
+      "body": "Kupiles po 289? I jestes na stracie? Powaznie? Aha, dywid wlasnie wplynela u mnie.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74685003",
+      "author": "Tony",
+      "postedAt": "2026-06-03 11:56",
+      "threadTitle": "jedziemy na stracie ale to się zmieni",
+      "url": "https://www.bankier.pl/forum/temat_jedziemy-na-stracie-ale-to-sie-zmieni,74685003.html",
+      "body": "ja kupiłem na spadkach i lepszy mam bilans niż bym kupił licząc na dywidende po 424 albo tuż przed nią 431. Prawda jest jedna to papierowa strata póki nie sprzedam na stracie , każdy wie z historii że kruk nie raz już tak miał, będą wyniki za 2 i 3 Q i kurs mam nadzieje zachowa się jak w latach poprzednich. z tego co wiem to kruk zarabia 1,2 mld rocznie , tak? jeżeli się mylę porpawcie mnie, kurs akcji tego nie zmieni , kruk dalej mam nadzieje wypracuje zysk. Czyli chwilowa strata do jesieni powinna zamienić się w czysty zysk. Podjeliście decyduje za siebie czy kupuje czy sprzedaje i po jakim kursie wchodzę czy wychodzę. nie atakujmy jeden drugiego bo chwilowo mamy strate...., to tylko nasza sprawa nie trzeba było kupować czy sprzedawać w danej chwili. Zawsze patrzymy i tak na kurs i to nasze decyzje, forum jest do wymiany swoich opinii albo czasem podtrzymania się na duchu a nie do atakowania innych bo cos nam w nosie siedzi. Ja kupiłem po 289 teraz mogę uśredniać ale czy to zrobię to moja decyzja ... jestem na minusie mimo to i tak liczę na zysk i patrząc na poprzednie lata i dane to zarobie, i nie mam zamiaru sprzedać niżej niż 455. nie wiem ile będe czekał miesiąc , dwa czy dwa lata? wiem jedno na 100 % nie ma tu nikogo kto kupił w 100 % akcji na dołku i sprzedał na górce.Pozdrawiam,",
+      "votes": {
+        "up": 4,
+        "down": 2
+      },
+      "sentimentScore": 0.99,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74684823",
+      "author": "Magic",
+      "postedAt": "2026-06-03 11:44",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Tu nie ma wsparcia, przebije i poleci ponizej 300",
+      "votes": {
+        "up": 3,
+        "down": 7
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74684705",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 11:35",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Podbili do 420 po dywid, rzucili w rynek, a sa ponizej 0,5% i nie musza sie ujawnuac. 10% juz maja. Ciekawe, kiedy przestawia wajche. To jest oszszustwo pod ochrona knf. Polski banan. I tyle.",
+      "votes": {
+        "up": 3,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74684491",
+      "author": "Nowy",
+      "postedAt": "2026-06-03 11:21",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Tu racja, czekam tylko na dywidendę i od razu kupuje",
+      "votes": {
+        "up": 4,
+        "down": 3
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74684433",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 11:16",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Maniek, w tej Iłży to jaki DM dziala? Dla kolegi rolnika pytam.",
+      "votes": {
+        "up": 4,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74684385",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 11:14",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Kogo interesowac miga twoje marzenia poza bobem, manku?",
+      "votes": {
+        "up": 4,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74684365",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 11:13",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Kogo interesuja twoje marzenia, manku?",
+      "votes": {
+        "up": 2,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74684235",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 11:03",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "https://shorty.pl/emitent/kruk/Ciekawe, popatrzcie na short. Ktos tu w uja leci i to mocno.",
+      "votes": {
+        "up": 5,
+        "down": 2
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74684211",
+      "author": "Alfa",
+      "postedAt": "2026-06-03 11:02",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "Ktoś kto gra na krótko, proste. Chce odkupić jak najtaniej aby zwrócić. Niech wpłynie tylko dywidenda to zobaczysz , skończy się sypanie, rynek wszystko wyzbiera.",
+      "votes": {
+        "up": 4,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74684195",
+      "author": "maxximm",
+      "postedAt": "2026-06-03 11:00",
+      "threadTitle": "Re: Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "patrząc na obecną cene, ilość akcji w wolnym obrocie i ilość gotówki którą posiada spóła to może wszystkie akcje z rynku skupić i jeszcze jej gotówki zostanie... nie rozumiem tego , kto to sprzedaje",
+      "votes": {
+        "up": 7,
+        "down": 6
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74684035",
+      "author": "maniek_74",
+      "postedAt": "2026-06-03 10:53",
+      "threadTitle": "Poziom wsparcia 365 i 350",
+      "url": "https://www.bankier.pl/forum/temat_poziom-wsparcia-365-i-350,74684035.html",
+      "body": "nie wiem gdzie wy upatrujecie okazji ale ja uśredniam dopiero przy 365 a mocne wsparcie i znacznie większy pakiet przy 350.",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74683675",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 10:34",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Jeszcze nie ma u mnie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74683317",
+      "author": "Krzysiek",
+      "postedAt": "2026-06-03 10:14",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Na xtb była przed otwarciem",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74683247",
+      "author": "hejczytywiesz",
+      "postedAt": "2026-06-03 10:11",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Xtb było około 8 rano",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74683091",
+      "author": "bob",
+      "postedAt": "2026-06-03 10:03",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "a kuku moj slaby kruku",
+      "votes": {
+        "up": 2,
+        "down": 7
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74683067",
+      "author": "Alfa",
+      "postedAt": "2026-06-03 10:02",
+      "threadTitle": "Re: męczy",
+      "url": "https://www.bankier.pl/forum/temat_meczy,74682273.html",
+      "body": "W garczku….",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74683053",
+      "author": "Alfa",
+      "postedAt": "2026-06-03 10:01",
+      "threadTitle": "Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74683053.html",
+      "body": "Chwalić się kto ma już dywidendę?ERSTE, mBank brak",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74683015",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 09:58",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Trend OD your friend. No, no. Inglish tez level Lelewel, bob:)))",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74682947",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 09:54",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Przestan wciagac kreski. Gdyby nie AI, to jedyne co ci wychodzi, to wlosy.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74682879",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 09:51",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "289, bob, wow!. No, to twoje demo lepsze od tej twojej lokaty na 200 zl jest. Puszki zaniosles juz do skupu?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74682815",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 09:47",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "289, bob, znowu demo ci szwankuje. Zajmij sie lokata. Dasz rade.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74682787",
+      "author": "Bob",
+      "postedAt": "2026-06-03 09:46",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Haha, już malinki po 289, a pisałem nie łapać spadającego noża. Trend od your friend.",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74682785",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 09:46",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "No i 390 puscilo. Gratuluje alfa. Swietne wyczucie! Ciekawe do ilu spuszcza?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74682521",
+      "author": "Bob",
+      "postedAt": "2026-06-03 09:35",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "Z kresek wychodzi mi 378 a jak padnie to 348. A wy jak sądzicie?",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74682529",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 09:35",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Tko 406 nie 396, sorki",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74682507",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 09:34",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "406 tko nie 396, sorki.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74682499",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-03 09:33",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Ciekawe, gdzie sie podzial ten, co bedzie mial klopoty? 398? Hmmm...390 powinno, alfa, wytrzymac, zobaczymy. Dywidenda jeszcze nie splynela. Tko fajne dzisiaj bylo 396. Summit, pelna zgoda. Jakies azoty bankrut 100% odbily. Gpw to czas, a nie trzepanie...w dolki i gorki trafia sie na demo, jak ten trzy po trzy. Pozdrawiam prawdziwych akcjonariuszy.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74682273",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-06-03 09:22",
+      "threadTitle": "męczy",
+      "url": "https://www.bankier.pl/forum/temat_meczy,74682273.html",
+      "body": "I znowu poranny rytuał. Ciut do góry i wywalanie papieru. Kto sprzedaje po 390 akcje które pewnie spokojnie są warte 450 ? Nie rozumiem. Zamiast domknięcia luki dywidendowej (na to w sumie liczyłem) coraz słabiej. Gdzie jest dno ?",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74677799",
+      "author": "Alfa",
+      "postedAt": "2026-06-02 19:03",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Jak to kto, hameryka",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74677775",
+      "author": "Alfa",
+      "postedAt": "2026-06-02 19:02",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Myślę że wyżej niż 450, oni nie zbierają na 15% zysku. Raczej bliżej 480-500.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74677763",
+      "author": "Alfa",
+      "postedAt": "2026-06-02 19:00",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Fakt, dziś owocny dzień, nazbierane malinek po 393, liczę jeszcze na jutro poniżej 390, obroty są więc kilo nie trudno zebrać. Dziękuję i pozdrawiam.",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74677133",
+      "author": "summit",
+      "postedAt": "2026-06-02 18:04",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Tak jak już tu napisano, bardzo silna spółka i okazja jest oczywista ... .",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74675279",
+      "author": "Bob",
+      "postedAt": "2026-06-02 15:58",
+      "threadTitle": "Re: Puku puku i spadki na kruku",
+      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
+      "body": "A co to za mecyje na kursie ? :D chwilę mnie nie ma i takie szopki odstawiają ? To gdzie teraz kolejne wsparcie? Pamiętajcie by nie łapać noża w trendzie spadkowym.",
+      "votes": {
+        "up": 3,
+        "down": 4
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74674795",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 15:24",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Short. Brali po 38x,xx i wala w rynek. Tu robia to co na asseco i innych spolkach, gdzie siedza. Dziwi bierna pistawa polskich fundow i takiego quercusa, ktory pisze o mega okazji, dziwi tez brak reakcji zarzadu kruk. Coz, polski banan.",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74674681",
+      "author": "antyjareczek",
+      "postedAt": "2026-06-02 15:18",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Dokupiłem sporo po średniej ok. 395. Ciągle nie mogę się nadziwić tym cenom jednej z najbardziej stabilnych i niedoszacowanych spółek na WIG20. Kto tak kręci tym kursem?Czy fundamenty naprawdę nie mają znaczenia?",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74674587",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 15:12",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Ile osob kupilo w rekomendowanej cenie 398 przez trzy dzisiaj, jak tej \"super\". Piszcie tutaj. Przyda mi sie.",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74674425",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 15:00",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "I tyle sie znasz, trzy. W trzy kubki zagraj sobie, i czekaj na rizwoj sytuacji z mojej strony. Tez bedziesz mial emocje. Lepsze niz na konfabulowaniu na forum.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74674373",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 14:56",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Dobra cena 398...buhahaha....znafca od platnych analiz, niejaki trzy. Oj, jak ja uwielbiam tych forumowych medrcow :))))",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74673769",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 14:24",
+      "threadTitle": "Re: Cytujemy...",
+      "url": "https://www.bankier.pl/forum/temat_dzis-ciezki-dzien,74666699.html",
+      "body": "Trzy odpowiada ~Wynalazca2026-06-02 13:46IP 37.109.32.*Czyżby wynalazca sprzedałeś na stracie?Uwielbiam jak tacy jak ty sie boja konsekwencji. To lepsze niz patrzenie na kurs. Boicie sie zawsze tak samo. Myslicie, ze internet jest anonimowy. I nie wiecie kto jest po drugiej stronie. Miodzio.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74673597",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 14:10",
+      "threadTitle": "Re: Cytujemy...zestawiamy",
+      "url": "https://www.bankier.pl/forum/temat_dzis-ciezki-dzien,74666699.html",
+      "body": "~Trzy odpowiada ~Bob2026-06-02 10:01IP 37.109.32.*Gruby zbiera od słabych rączek po 400 niech sprzedają kupią ode mnie po 418~Trzy2026-06-01 21:22IP 79.184.242.*Ile jutro spadnie i do ilu? Gdzie podłoga? 380, 370, 360, czy niżej?",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74673573",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 14:09",
+      "threadTitle": "Re: Ja czekam na mocne wzrosty",
+      "url": "https://www.bankier.pl/forum/temat_ja-czekam-na-mocne-wzrosty,74632867.html",
+      "body": "Bob, milczysz? W koncu jestescie kumplami z trzy? Ty juz wiesz?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74673555",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 14:08",
+      "threadTitle": "Re: Cytujemy...",
+      "url": "https://www.bankier.pl/forum/temat_dzis-ciezki-dzien,74666699.html",
+      "body": "Ile masz akcji kruka, trzy, przypomnij nam? I co merytorycznego wnosisz do naszej dyskusji?",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74673519",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 14:06",
+      "threadTitle": "Re: Cytujemy...",
+      "url": "https://www.bankier.pl/forum/temat_dzis-ciezki-dzien,74666699.html",
+      "body": "Trzy, pisz dalej. Czekam. Uwielbiam to.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74673257",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 13:48",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Kiedy klamiesz, trzy? Wczoraj, dzisiaj, non stop? Fajne arxhiwum twoich wpisow mam.",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74673223",
+      "author": "Trzy",
+      "postedAt": "2026-06-02 13:46",
+      "threadTitle": "Re: Cytujemy...",
+      "url": "https://www.bankier.pl/forum/temat_dzis-ciezki-dzien,74666699.html",
+      "body": "Czyżby wynalazca sprzedałeś na stracie? Teraz myślisz że spadnie i odkupisz taniej? Brawo ile w plecy? Czekaj na peronie",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74672841",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 13:19",
+      "threadTitle": "Re: Plan zabetonowany",
+      "url": "https://www.bankier.pl/forum/temat_plan-zabetonowany,74668833.html",
+      "body": "~Trzy2026-06-01 21:22IP 79.184.242.*Ile jutro spadnie i do ilu? Gdzie podłoga? 380, 370, 360, czy niżej?Slusznie, ze sie boisz, trzy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74672721",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 13:13",
+      "threadTitle": "Cytujemy...",
+      "url": "https://www.bankier.pl/forum/temat_dzis-ciezki-dzien,74666699.html",
+      "body": "~Trzy2026-06-01 21:22IP 79.184.242.*Ile jutro spadnie i do ilu? Gdzie podłoga? 380, 370, 360, czy niżej?",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74672713",
+      "author": "Wynalazca",
+      "postedAt": "2026-06-02 13:12",
+      "threadTitle": "Re: Ja czekam na mocne wzrosty",
+      "url": "https://www.bankier.pl/forum/temat_ja-czekam-na-mocne-wzrosty,74632867.html",
+      "body": "Ale wpisow do knf mam od was. Dajesze trzy. Zdziwienie przyjdzie szybko.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74672653",
+      "author": "Trzy",
+      "postedAt": "2026-06-02 13:09",
+      "threadTitle": "Re: Ja czekam na mocne wzrosty",
+      "url": "https://www.bankier.pl/forum/temat_ja-czekam-na-mocne-wzrosty,74632867.html",
+      "body": "Taktyka jemu dzisiaj nie wychodzi, tyle prób a mury stoją. Tylko patrzeć odbica",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74671857",
+      "author": "Bob",
+      "postedAt": "2026-06-02 12:23",
+      "threadTitle": "Re: Ja czekam na mocne wzrosty",
+      "url": "https://www.bankier.pl/forum/temat_ja-czekam-na-mocne-wzrosty,74632867.html",
+      "body": "Zbiera poprzez ukryte zlecenie sprzedaży na 400 zł? Jak można zbierać sprzedając??",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74671209",
+      "author": "Trzy",
+      "postedAt": "2026-06-02 11:50",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Ale ładna zbieranka przez grubego czyści każdego bota przed wystrzałem",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74670319",
+      "author": "Trzy",
+      "postedAt": "2026-06-02 11:01",
+      "threadTitle": "Re: Dorzuciłem",
+      "url": "https://www.bankier.pl/forum/temat_dorzucilem,74661247.html",
+      "body": "Po ile ci wpadło do woreczka? Dziś była dobra cena 397 dołek ale jak ktoś wziął bo 398 to bardzo dobra cena. Gruby zbiera ładuje bombowiec, gruby załaduje i nie sprzeda po 402 tylko po 450 minimum",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74669713",
+      "author": "Trzy",
+      "postedAt": "2026-06-02 10:26",
+      "threadTitle": "Re: Plan zabetonowany",
+      "url": "https://www.bankier.pl/forum/temat_plan-zabetonowany,74668833.html",
+      "body": "To jest giełda i ja to tak widzę. To wychodzi z matematyki. Szkoda że niektórzy na forum traktują wszystkich jak trolli spadziowych, rozumiem kupili umoczyli są na haku i chcieliby odzyskać kasę. Każdy tak chce każdy kto inwestuje. Także wynalazca teraz pewnie nie będziesz mnie krytykował bo pisze o wzrostach? Ja nie piszę dla samego pisania tylko analizuje co widzę oczywiście mogę się mylić bo nie wszystko przyjdziesz na giełdzie. Ale na tą chwilę realia są takie że idziemy do góry i czekamy na wystrzał",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74669637",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-06-02 10:22",
+      "threadTitle": "Re: Plan zabetonowany",
+      "url": "https://www.bankier.pl/forum/temat_plan-zabetonowany,74668833.html",
+      "body": "> Bo słabe rączki oddają, ale zaraz się skończy i ci co oddali zostaną na peronie i będą kupować po 418 lub 428oby",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74669483",
+      "author": "Trzy",
+      "postedAt": "2026-06-02 10:15",
+      "threadTitle": "Re: Plan zabetonowany",
+      "url": "https://www.bankier.pl/forum/temat_plan-zabetonowany,74668833.html",
+      "body": "Bo słabe rączki oddają, ale zaraz się skończy i ci co oddali zostaną na peronie i będą kupować po 418 lub 428",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74669479",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-06-02 10:15",
+      "threadTitle": "Re: Plan zabetonowany",
+      "url": "https://www.bankier.pl/forum/temat_plan-zabetonowany,74668833.html",
+      "body": "ewidentnie w tym momencie ktoś trzyma kurs na 400 zł i sprzedaje z ukrytego",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74669429",
+      "author": "Bob",
+      "postedAt": "2026-06-02 10:12",
+      "threadTitle": "Re: Plan zabetonowany",
+      "url": "https://www.bankier.pl/forum/temat_plan-zabetonowany,74668833.html",
+      "body": "Rynek sprzyja kupującym, wifi mocno zielone , już 12 mln na liczniku a gruby twardo się trzyma i upycha dalej.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74669343",
+      "author": "Bob",
+      "postedAt": "2026-06-02 10:08",
+      "threadTitle": "Re: Plan zabetonowany",
+      "url": "https://www.bankier.pl/forum/temat_plan-zabetonowany,74668833.html",
+      "body": "Mógłby spokojnie sprzedać drożej, ale widocznie ma tak dużo do opuchnięcia że zadawała go niższa cena byle wywalić.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74669313",
+      "author": "Bob",
+      "postedAt": "2026-06-02 10:07",
+      "threadTitle": "Re: Plan zabetonowany",
+      "url": "https://www.bankier.pl/forum/temat_plan-zabetonowany,74668833.html",
+      "body": "Rynek łyka bo jest +2% na wigu ale gruby mocny jest , sam zabetonował kurs. Dystrybucja trwa.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74669171",
+      "author": "Trzy",
+      "postedAt": "2026-06-02 10:01",
+      "threadTitle": "Re: Ja czekam na mocne wzrosty",
+      "url": "https://www.bankier.pl/forum/temat_ja-czekam-na-mocne-wzrosty,74632867.html",
+      "body": "Gruby zbiera od słabych rączek po 400 niech sprzedają kupią ode mnie po 418",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74669175",
+      "author": "Bob",
+      "postedAt": "2026-06-02 10:01",
+      "threadTitle": "Re: Plan zabetonowany",
+      "url": "https://www.bankier.pl/forum/temat_plan-zabetonowany,74668833.html",
+      "body": "... wykres płaski jak ekg wynalazcy po zakupie kruka.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74669165",
+      "author": "Bob",
+      "postedAt": "2026-06-02 10:01",
+      "threadTitle": "Re: Plan zabetonowany",
+      "url": "https://www.bankier.pl/forum/temat_plan-zabetonowany,74668833.html",
+      "body": "Ja tam widzę grubego ukryciaka na s na 400...",
+      "votes": {
+        "up": 0,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
