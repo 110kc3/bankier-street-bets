@@ -3,24 +3,24 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-06-23T20:23:16.170Z",
+  "updatedAt": "2026-06-24T04:36:23.272Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-23T20:23:16.170Z",
+    "fetchedAt": "2026-06-24T04:36:23.272Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
     "threadsScanned": 8
   },
   "analysis": {
-    "signal": "BUY",
-    "score": 0.167,
-    "confidence": 0.59,
-    "commentCount": 34,
+    "signal": "HOLD",
+    "score": 0.118,
+    "confidence": 0.58,
+    "commentCount": 36,
     "breakdown": {
       "positive": 14,
-      "negative": 4,
+      "negative": 6,
       "neutral": 16
     },
     "trend": [
@@ -56,12 +56,17 @@
       },
       {
         "date": "2026-06-23",
-        "score": -0.161,
-        "count": 2
+        "score": -0.302,
+        "count": 3
+      },
+      {
+        "date": "2026-06-24",
+        "score": -0.322,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 34 komentarzy z ostatnich 7 dni: nastroje pozytywne (14 pozytywnych, 4 negatywnych, 16 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 36 komentarzy z ostatnich 7 dni: nastroje pozytywne (14 pozytywnych, 6 negatywnych, 16 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "zysk",
@@ -72,12 +77,12 @@
         "count": 5
       },
       {
-        "word": "cena",
+        "word": "widze",
         "count": 4
       },
       {
-        "word": "widze",
-        "count": 3
+        "word": "cena",
+        "count": 4
       },
       {
         "word": "reko",
@@ -107,6 +112,34 @@
   },
   "comments": [
     {
+      "id": "74901361",
+      "author": "Bebok",
+      "postedAt": "2026-06-24 05:46",
+      "threadTitle": "Re: I po spadkach",
+      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
+      "body": "Proponuję maskę gazową.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74900519",
+      "author": "Magellan",
+      "postedAt": "2026-06-23 22:41",
+      "threadTitle": "Re: I po spadkach",
+      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
+      "body": "nie mów hopzobacz na nasdaqpoza tym, jak widzę jak wig20 jest napompowany to jak zacznie spadać to i LPP się dostanie że ho ho w ogóle mi śmierdzi na giełdzie 2009 rokiem.... ależ to był swąd",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "74900183",
       "author": "Zorro2",
       "postedAt": "2026-06-23 21:54",
@@ -114,7 +147,7 @@
       "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
       "body": "To se już pospadało i teraz będą myśleć",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
