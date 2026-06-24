@@ -3,20 +3,20 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-06-24T09:52:45.076Z",
+  "updatedAt": "2026-06-24T15:09:20.148Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-24T09:52:45.076Z",
+    "fetchedAt": "2026-06-24T15:09:20.148Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 19
+    "threadsScanned": 20
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.119,
-    "confidence": 0.67,
+    "score": 0.07,
+    "confidence": 0.65,
     "commentCount": 49,
     "breakdown": {
       "positive": 16,
@@ -24,11 +24,6 @@
       "neutral": 23
     },
     "trend": [
-      {
-        "date": "2026-05-25",
-        "score": -0.964,
-        "count": 1
-      },
       {
         "date": "2026-05-26",
         "score": -0.322,
@@ -128,10 +123,15 @@
         "date": "2026-06-23",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-06-24",
+        "score": -0.762,
+        "count": 1
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 49 komentarzy z ostatnich 30 dni: nastroje pozytywne (16 pozytywnych, 10 negatywnych, 23 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 49 komentarzy z ostatnich 30 dni: nastroje mieszane (16 pozytywnych, 10 negatywnych, 23 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "bankow",
@@ -176,6 +176,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "74905971",
+      "author": "mefedron12",
+      "postedAt": "2026-06-24 12:23",
+      "threadTitle": "Ale tu będzie zaraz pogrom",
+      "url": "https://www.bankier.pl/forum/temat_ale-tu-bedzie-zaraz-pogrom,74905971.html",
+      "body": "Balonik WIG pęka",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "74893581",
       "author": "rygo",
@@ -846,20 +860,6 @@
         "down": 0
       },
       "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74582367",
-      "author": "sss",
-      "postedAt": "2026-05-25 12:35",
-      "threadTitle": "wyciągneli na małych obrotach",
-      "url": "https://www.bankier.pl/forum/temat_wyciagneli-na-malych-obrotach,74582367.html",
-      "body": "Może polecieć w dół i zamknąć się nawet na czerwonoCiekawe czy obroty potwierdzą słabość wybicia i czy kurs się osunie",
-      "votes": {
-        "up": 6,
-        "down": 3
-      },
-      "sentimentScore": -0.964,
       "sentimentLabel": "Negative"
     }
   ]
