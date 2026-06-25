@@ -3,31 +3,31 @@
   "companyName": "Orlen SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKNORLEN",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_orlen-sa,6,21,201.html",
-  "updatedAt": "2026-06-25T04:35:34.982Z",
+  "updatedAt": "2026-06-25T09:45:32.014Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-25T04:35:34.982Z",
+    "fetchedAt": "2026-06-25T09:45:32.014Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 61
+    "threadsScanned": 60
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.061,
+    "score": 0.063,
     "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 66,
-      "negative": 36,
-      "neutral": 98
+      "positive": 65,
+      "negative": 38,
+      "neutral": 97
     },
     "trend": [
       {
         "date": "2026-06-18",
-        "score": 0.179,
-        "count": 26
+        "score": 0.167,
+        "count": 24
       },
       {
         "date": "2026-06-19",
@@ -56,28 +56,28 @@
       },
       {
         "date": "2026-06-24",
-        "score": 0.025,
-        "count": 79
+        "score": -0.001,
+        "count": 54
       },
       {
         "date": "2026-06-25",
-        "score": -0.389,
-        "count": 3
+        "score": 0.043,
+        "count": 30
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (66 pozytywnych, 36 negatywnych, 98 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (65 pozytywnych, 38 negatywnych, 97 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "ropa",
         "count": 16
       },
       {
-        "word": "przy",
-        "count": 13
+        "word": "dywidendy",
+        "count": 12
       },
       {
-        "word": "dywidendy",
+        "word": "przy",
         "count": 11
       },
       {
@@ -93,31 +93,73 @@
         "count": 8
       },
       {
-        "word": "jestes",
+        "word": "dywidende",
         "count": 8
       },
       {
         "word": "roku",
+        "count": 8
+      },
+      {
+        "word": "mysle",
         "count": 7
       },
       {
-        "word": "ktos",
-        "count": 7
-      },
-      {
-        "word": "trzeba",
-        "count": 7
+        "word": "maja",
+        "count": 6
       }
     ]
   },
   "comments": [
     {
-      "id": "74914191",
-      "author": "Don",
-      "postedAt": "2026-06-25 03:01",
-      "threadTitle": "Re: Jan Rokita. Order.",
-      "url": "https://www.bankier.pl/forum/temat_jan-rokita-order,74913997.html",
-      "body": "potrzebny był ten kubeł zimnej wody, jeszcze nie jest za późno.",
+      "id": "74918037",
+      "author": "Bobas",
+      "postedAt": "2026-06-25 11:42",
+      "threadTitle": "Re: Dziś DYWIDENDA - Dokupia, ?",
+      "url": "https://www.bankier.pl/forum/temat_dzis-dywidenda-dokupia,74914641.html",
+      "body": "Na szczęście bez szaleństw, ale też nie wszyscy mają już kasę na kontach",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74917863",
+      "author": "Obserwator",
+      "postedAt": "2026-06-25 11:31",
+      "threadTitle": "Re: Ceny zlota spadaja....",
+      "url": "https://www.bankier.pl/forum/temat_ceny-zlota-spadaja,74917253.html",
+      "body": "Nie odwracaj kota ogonem. Nawrocki z Glapińskim okłamywali prawicowy elektorat bajkami o SAFE zero procent. Robili to wyłącznie z powodów politycznych. Ale miliony niewykształconych wyborców prawicy uwierzyło w te bzdury.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74917851",
+      "author": "Bobas",
+      "postedAt": "2026-06-25 11:29",
+      "threadTitle": "Re: Ceny zlota spadaja....",
+      "url": "https://www.bankier.pl/forum/temat_ceny-zlota-spadaja,74917253.html",
+      "body": "Na złoto wydaje grubą kasę a dla polskich przedsiębiorstw żałuje. Glapa sknerus do kwdratu",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74917677",
+      "author": "Możesz_też_GW",
+      "postedAt": "2026-06-25 11:18",
+      "threadTitle": "Re: Dziennikarze ? Nie takich juz",
+      "url": "https://www.bankier.pl/forum/temat_dziennikarze-nie-takich-juz,74917007.html",
+      "body": "to sobie oglądaj dalej ruski TVN...i się ciesz.",
       "votes": {
         "up": 0,
         "down": 0
@@ -126,46 +168,368 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74914189",
-      "author": "Don",
-      "postedAt": "2026-06-25 02:56",
-      "threadTitle": "Re: Sławomir Sierakowski o panu prezydencie",
-      "url": "https://www.bankier.pl/forum/temat_slawomir-sierakowski-o-panu-prezydencie,74914095.html",
-      "body": "to jest prawdziwy dramat co ten lewak wygaduje - infantylny sposób postrzegania polityki i mentalność niewolnika w jednym. Chwała Prezydentowi Nawrockiemu za twardą obronę polskich interesów!!! Uwazajmy na ukry bo coraz rzadziej kryja sie z okazywaniem nam swojej wrecz jadowitej nienawisci.",
+      "id": "74917659",
+      "author": "Dewajtis",
+      "postedAt": "2026-06-25 11:17",
+      "threadTitle": "Re: Ceny zlota spadaja....",
+      "url": "https://www.bankier.pl/forum/temat_ceny-zlota-spadaja,74917253.html",
+      "body": "Teraz NBP skupuje złoto.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74917603",
+      "author": "Obserwator",
+      "postedAt": "2026-06-25 11:13",
+      "threadTitle": "Re: Ceny zlota spadaja....",
+      "url": "https://www.bankier.pl/forum/temat_ceny-zlota-spadaja,74917253.html",
+      "body": "Kto ma jakiekolwiek pojęcie o ekonomii i finansach wie, że nie może być SAFE zero procent. Nie jest to możliwe. Glapiński skompromitował się całkowicie, że jako prezes NBP firmował ten skrajnie populistyczny pomysł.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74917563",
+      "author": "czuwaj",
+      "postedAt": "2026-06-25 11:11",
+      "threadTitle": "Re: Zdrowia Wszystkim by nie chodzić do Szpitala płd. Tam nie leczą.",
+      "url": "https://www.bankier.pl/forum/temat_zdrowia-wszystkim-by-nie-chodzic-do-szpitala-pld-tam-nie-lecza,74913639.html",
+      "body": "ja zalecam ziółka bo tam gdzie rządzą kolesie z KO i PSL można wyjechać z SOR nogami do przodu.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74917429",
+      "author": "Orim",
+      "postedAt": "2026-06-25 11:05",
+      "threadTitle": "Re: Zdrowia Wszystkim by nie chodzić do Szpitala płd. Tam nie leczą.",
+      "url": "https://www.bankier.pl/forum/temat_zdrowia-wszystkim-by-nie-chodzic-do-szpitala-pld-tam-nie-lecza,74913639.html",
+      "body": "Ciekawe kto poniesie odpowiedzialnosc za skutki wpisow czuwaja skok czy ann. Przeciez to przypomina najaz Ziobry na transplantologie. To co wyprawia Morawiecki i Czarnek to czysta hipokryzja. Morawiecki przyklepal przepisy ktore dzis skutkuja takim placami. Nikt nie skupia sie na rozwiazaniu problemu a jedynie na uzysku politycznym. Ten chirurg dr Emil nie jest zadnym whistleblower ale pieniaczem. Nie przedstawil zadnych dowodow nie podjal skutecznych dzialan. Teraz sie okazuje ze to co ochrzcili salka VIP jest wydzielonym pomieszczeniem do detoksykacji. Nie korzystam z opieki zdrowotnej piblicznej ani w Polsce ani Hiszpanii poniewaz mam ubezpieczenie wszyte w karty kredytowe oraz polisy na wypadek swiadczen wysokosztowych.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74917387",
+      "author": "Tomek",
+      "postedAt": "2026-06-25 11:03",
+      "threadTitle": "Re: mBank",
+      "url": "https://www.bankier.pl/forum/temat_mbank,74916567.html",
+      "body": "emakler oraz alior IKE już jest",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74917277",
+      "author": "Ator",
+      "postedAt": "2026-06-25 10:56",
+      "threadTitle": "Re: mBank",
+      "url": "https://www.bankier.pl/forum/temat_mbank,74916567.html",
+      "body": "W pekao już jest.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74917253",
+      "author": "Orim",
+      "postedAt": "2026-06-25 10:54",
+      "threadTitle": "Ceny zlota spadaja....",
+      "url": "https://www.bankier.pl/forum/temat_ceny-zlota-spadaja,74917253.html",
+      "body": "A on mowi o rewaluacji cen zlota....Leskiewicz wez sie chlopie do roboty i wytlumacz swojemu pryncypalowi ze w dniu konferencji Glapy i pryncypala cena zlota 4800 usd a wczoraj 4006 usd. To gdzie ta rewaluacja? Gdyby tzw SAFE Glapy zostal wdrozony policzcie sobie koszty pozyskania 100 mld zl....",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74917175",
+      "author": "Iza",
+      "postedAt": "2026-06-25 10:50",
+      "threadTitle": "Re: Dywidenda na kontach",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-na-kontach,74916971.html",
+      "body": "No właśnie się zastanawiam co zrobić. Czy dokupić akcji Orlenu za te pieniądze czy może zainwestować w coś innego.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74917027",
+      "author": "Rewizor",
+      "postedAt": "2026-06-25 10:40",
+      "threadTitle": "Re: mBank",
+      "url": "https://www.bankier.pl/forum/temat_mbank,74916567.html",
+      "body": "Przeciez wyplata 29.06",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74917007",
+      "author": "Rewizor",
+      "postedAt": "2026-06-25 10:39",
+      "threadTitle": "Dziennikarze ? Nie takich juz",
+      "url": "https://www.bankier.pl/forum/temat_dziennikarze-nie-takich-juz,74917007.html",
+      "body": "nie ma. Pozostali pozbawieni etyki lowcy skorek. To co publikuja bez zadnej refleksji na temat lekarzy skonczy sie tragedia. Po czym stwierdza takie nasze prawo tylko oni nie szukaja prawdy ale sensacji. Po czm pisza ze znakami zapytania prawdopodobnie .....zera niw tylko w kanale o tej nazwie",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74916971",
+      "author": "Bronek",
+      "postedAt": "2026-06-25 10:35",
+      "threadTitle": "Dywidenda na kontach",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-na-kontach,74916971.html",
+      "body": "Zaraz pojawi się dywidenda na kontach maklerskich. Ciekawy jestem jaki będzie ruch. Nie sądzę żeby Ci co już sprzedali akcje (po 17.06) teraz reinwestowali kasę z dywidendy, a więc myślę że kurs już się ustabilizował po realizacji zysków. Więc jest to okazja do zakupu. 125zl za akcje Orlenu to jest nadal potencjał do wzrostów 135-150zl to nie jest wygórowana cena za akcje.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.964,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74916831",
+      "author": "kruczek",
+      "postedAt": "2026-06-25 10:28",
+      "threadTitle": "Piszcie",
+      "url": "https://www.bankier.pl/forum/temat_piszcie,74916831.html",
+      "body": "Jaki BANK pierwszy wypłaci dzisiaj dywidendę .Kto dostał już .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74916681",
+      "author": "Ator",
+      "postedAt": "2026-06-25 10:18",
+      "threadTitle": "Re: mBank",
+      "url": "https://www.bankier.pl/forum/temat_mbank,74916567.html",
+      "body": "Pekao jeszcze nie ma.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74916567",
+      "author": "szkapa1980",
+      "postedAt": "2026-06-25 10:09",
+      "threadTitle": "mBank",
+      "url": "https://www.bankier.pl/forum/temat_mbank,74916567.html",
+      "body": "mBank jak zawsze jest ostani w usługach...... w XTB dywidenda już na koncie a Mbank śpi",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74916411",
+      "author": "Makl",
+      "postedAt": "2026-06-25 09:59",
+      "threadTitle": "Re: Dziś DYWIDENDA - Dokupia, ?",
+      "url": "https://www.bankier.pl/forum/temat_dzis-dywidenda-dokupia,74914641.html",
+      "body": "Oj oj,spadło i to koniec. Zbieranie trwa.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74915677",
+      "author": "czuwaj",
+      "postedAt": "2026-06-25 09:20",
+      "threadTitle": "premierka ukrainy mówi uwaga na prowokacje, może niech to zełenskiemu",
+      "url": "https://www.bankier.pl/forum/temat_premierka-ukrainy-mowi-uwaga-na-prowokacje-moze-niech-to-zelenskiemu,74915677.html",
+      "body": "powie.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74915451",
+      "author": "czuwaj",
+      "postedAt": "2026-06-25 09:10",
+      "threadTitle": "tusek jeszcze nic nie wie ale już wudał wyrok na ordynatora Jędrzejewski",
+      "url": "https://www.bankier.pl/forum/temat_tusek-jeszcze-nic-nie-wie-ale-juz-wudal-wyrok-na-ordynatora-jedrzejewski,74915451.html",
+      "body": "ego, sygnalistę ws szpitala południowego i tak zastraszają innych lekarzy, policyjne państwo tuska w akcji.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74915341",
+      "author": "Ann",
+      "postedAt": "2026-06-25 09:03",
+      "threadTitle": "puste serca nas leszczą",
+      "url": "https://www.bankier.pl/forum/temat_puste-serca-nas-leszcza,74915341.html",
+      "body": "po gonimy",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74915259",
+      "author": "mefedron12",
+      "postedAt": "2026-06-25 08:54",
+      "threadTitle": "Re: Witam kochani mam pytanie",
+      "url": "https://www.bankier.pl/forum/temat_witam-kochani-mam-pytanie,74910065.html",
+      "body": "A kto to jest ten Maklerski? Jakiś prezes Orlenu czy co",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74915241",
+      "author": "zibi",
+      "postedAt": "2026-06-25 08:52",
+      "threadTitle": "Re: Witam kochani mam pytanie",
+      "url": "https://www.bankier.pl/forum/temat_witam-kochani-mam-pytanie,74910065.html",
+      "body": "Tak możesz cofnąć transakcję .Jeszcz ci dadzą dywidendę z ubiegłego roku.Najlepiej zgłoś się do biura maklerskiego !!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74915015",
+      "author": "mefedron12",
+      "postedAt": "2026-06-25 08:31",
+      "threadTitle": "Re: Witam kochani mam pytanie",
+      "url": "https://www.bankier.pl/forum/temat_witam-kochani-mam-pytanie,74910065.html",
+      "body": "Wjeżdża ktoś ze mną dzisiaj longiem na rope??",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74914889",
+      "author": "Nowy",
+      "postedAt": "2026-06-25 08:18",
+      "threadTitle": "Re: Witam kochani mam pytanie",
+      "url": "https://www.bankier.pl/forum/temat_witam-kochani-mam-pytanie,74910065.html",
+      "body": "Po prostu chłop przedawkował zażył dużą dawkę",
       "votes": {
         "up": 2,
         "down": 0
       },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "74914095",
-      "author": "Faktt",
-      "postedAt": "2026-06-25 00:38",
-      "threadTitle": "Sławomir Sierakowski o panu prezydencie",
-      "url": "https://www.bankier.pl/forum/temat_slawomir-sierakowski-o-panu-prezydencie,74914095.html",
-      "body": "https://youtube.com/shorts/OX9p6ZS4ZI8?is=3Ks3uSeqMlfwAHKkCiekawa analiza",
+      "id": "74914839",
+      "author": "mefedron12",
+      "postedAt": "2026-06-25 08:13",
+      "threadTitle": "Re: Witam kochani mam pytanie",
+      "url": "https://www.bankier.pl/forum/temat_witam-kochani-mam-pytanie,74910065.html",
+      "body": "Dałem się namówić naganiaczom jak było po 144zl, coś we mnie pękło, psychika nie wytrzymała… sam nie wiem, myślicie że będzie to 200zl o którym pisali? Obiecałem dzieciakom że ich zabiorę nad morze za pieniądze z dewidendy a narazie to tonę w długach",
       "votes": {
         "up": 0,
         "down": 0
       },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "74913997",
-      "author": "Ln",
-      "postedAt": "2026-06-24 23:56",
-      "threadTitle": "Jan Rokita. Order.",
-      "url": "https://www.bankier.pl/forum/temat_jan-rokita-order,74913997.html",
-      "body": "https://youtube.com/shorts/zRXk4Oax2qc?is=suwK9VeC9zQVHERcWarto posłuchać.",
+      "id": "74914781",
+      "author": "Aa",
+      "postedAt": "2026-06-25 08:06",
+      "threadTitle": "Re: Dziś DYWIDENDA - Dokupia, ?",
+      "url": "https://www.bankier.pl/forum/temat_dzis-dywidenda-dokupia,74914641.html",
+      "body": "* spadek wyhamuje",
       "votes": {
-        "up": 0,
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74914765",
+      "author": "Aa",
+      "postedAt": "2026-06-25 08:02",
+      "threadTitle": "Re: Dziś DYWIDENDA - Dokupia, ?",
+      "url": "https://www.bankier.pl/forum/temat_dzis-dywidenda-dokupia,74914641.html",
+      "body": "Ja obstawiam, że pęknie 120 dziś lub jutro. Za wysoko aby dobierać nawet pod dywidendę, a geopolityka nie sprzyja. Docelowo 110-115 pewnie spadek wpychanie bo wyniki powinny być ok...",
+      "votes": {
+        "up": 1,
+        "down": 6
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74914641",
+      "author": "Skok",
+      "postedAt": "2026-06-25 07:35",
+      "threadTitle": "Dziś DYWIDENDA - Dokupia, ?",
+      "url": "https://www.bankier.pl/forum/temat_dzis-dywidenda-dokupia,74914641.html",
+      "body": "Tak myślę +2,3%",
+      "votes": {
+        "up": 2,
         "down": 0
       },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
     },
     {
       "id": "74913985",
@@ -176,7 +540,7 @@
       "body": "https://youtube.com/shorts/zRXk4Oax2qc?is=suwK9VeC9zQVHERcCo sądzicie?",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -189,7 +553,7 @@
       "url": "https://www.bankier.pl/forum/temat_bylem-na-przeswietleniu-teraz-okazalo-sie-ze-nie-mam-nerki,74913929.html",
       "body": "zaznaczę że to był szpital trzaska",
       "votes": {
-        "up": 2,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -203,7 +567,7 @@
       "url": "https://www.bankier.pl/forum/temat_bylem-na-przeswietleniu-teraz-okazalo-sie-ze-nie-mam-nerki,74913929.html",
       "body": "wycięli?",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -231,7 +595,7 @@
       "url": "https://www.bankier.pl/forum/temat_witam-kochani-mam-pytanie,74910065.html",
       "body": "musisz cofnąć zegarek i zrzec się dewidenty, możesz wpłacić na moje konto",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -246,7 +610,7 @@
       "body": "A gdzie leczą??? Generalnie lekarze rodzinni nie maja pojęcia o leczeniu, albo są sparaliżowani przepisami. Walczy się z szarlatanami prawem, ale nic w zamian nie proponują. Generalnie szpitale powiatowe, to umieralnie.",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -280,62 +644,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "74913761",
-      "author": "RudyDoBudy",
-      "postedAt": "2026-06-24 23:07",
-      "threadTitle": "Re: Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "Ryży chyba zrozumiał powagę sytuacji. Jąkał się dziś koszmarnie. I te przerażone oczy.",
-      "votes": {
-        "up": 4,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74913719",
-      "author": "Max",
-      "postedAt": "2026-06-24 22:57",
-      "threadTitle": "Re: OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "Globalne Ocieplenie to nie głupoty. Po prostu to dla ciebie zbyt trudne.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913709",
-      "author": "cruser",
-      "postedAt": "2026-06-24 22:56",
-      "threadTitle": "Re: OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "Heh a tak na marginesie ciekawe, że ten fake news powielany był przez prawicowe, oraz prorosyjskie portale. Ktoś chyba powinien zmienić swoje źródła informacji.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913685",
-      "author": "Max",
-      "postedAt": "2026-06-24 22:52",
-      "threadTitle": "Re: Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "Owszem, płonie, tłuku.",
-      "votes": {
-        "up": 1,
-        "down": 6
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "74913639",
       "author": "Skok",
       "postedAt": "2026-06-24 22:44",
@@ -343,78 +651,8 @@
       "url": "https://www.bankier.pl/forum/temat_zdrowia-wszystkim-by-nie-chodzic-do-szpitala-pld-tam-nie-lecza,74913639.html",
       "body": "Całym rodzinom",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913611",
-      "author": "cruser",
-      "postedAt": "2026-06-24 22:38",
-      "threadTitle": "Re: OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "Nie odpowiadam siewcom fake newsów,.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913557",
-      "author": "Dewajtis",
-      "postedAt": "2026-06-24 22:29",
-      "threadTitle": "Re: OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "Dlaczego \"uczciwego\" dałeś w cudzysłowiu?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913551",
-      "author": "Dewajtis",
-      "postedAt": "2026-06-24 22:28",
-      "threadTitle": "Re: OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "Kto? Zełeński pozwie mnie o zniesławienie? Każdy z nas opiera sie na jakichś źródłach. Ta informacja pojawiła się na wielu portalach:https://www.salon24.pl/newsroom/1509180,zelenski-byl-ostrzegany-przed-konsekwencjami-pie-polske-i-polakowhttps://wolnemedia.net/niech-spier-i-polska-i-polacy-odpowiedzial-zelenski/i kilku innych, które obecnie najprawdopodobniej usunęły te artykuły. Nawet jeśli ktoś dzisiaj twierdzi, że to tylko wymysł jakiegoś przeciwnika politycznego Zełeńskiego, to nie znaczy że takie słowa nigdy nie padły. Jesteś w stanie dać głowę, że nigdy takich słów nie wypowiedział? Swoją drogą zastanawia mnie takie zaangażowanie z twojej strony i twoich forumowych stronników w obronę dobrego imienia ukraińskiego przywódcy, bezczelnie z premedytacją gloryfikującego nazistowską UPA jej nacjonalistycznych przywódców-zbrodniarzy przy jednoczesnych bezpardonowych atakach na Prezydenta RP. Kim jesteście i dla kogo tutaj pracujecie.Zełeński publicznie kilkakrotnie wypowiadał się skandalicznie o Polsce choćby w kontekście tematu eksportu ukraińskiego zboża w ONZ czy po ataku ruskich dronów straszaków we wrześniu ub.r.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913509",
-      "author": "RudyDoBudy",
-      "postedAt": "2026-06-24 22:23",
-      "threadTitle": "Re: Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "Pożar w południowym, bążur już go nie ugasi.",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74913497",
-      "author": "cruser",
-      "postedAt": "2026-06-24 22:21",
-      "threadTitle": "Re: OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "Jak myślicie, kto będzie pełnomocnikiem \"uczciwego\" sygnalisty?",
-      "votes": {
-        "up": 0,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -434,48 +672,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "74913471",
-      "author": "Expert",
-      "postedAt": "2026-06-24 22:17",
-      "threadTitle": "Re: Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "Fajnie.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74913463",
-      "author": "PiSosyf",
-      "postedAt": "2026-06-24 22:16",
-      "threadTitle": "Re: OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "Oni i wstyd?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913429",
-      "author": "Dexter",
-      "postedAt": "2026-06-24 22:11",
-      "threadTitle": "Re: Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "planeta płonie",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "74913401",
       "author": "szejk",
       "postedAt": "2026-06-24 22:09",
@@ -483,36 +679,8 @@
       "url": "https://www.bankier.pl/forum/temat_witam-kochani-mam-pytanie,74910065.html",
       "body": "Mefedron przecież ty szorciarz jesteś no to chyba zadowolony ze zwały.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913351",
-      "author": "Buhahahaha",
-      "postedAt": "2026-06-24 22:02",
-      "threadTitle": "Re: OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "Na razie pisowski donosiciel jest w opałach bo grozi mu proces o znieslawienie .zaniemowil i nie ma żadnych dowodów. Poszukaj afer w swoich majtach stary dziadzie",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913325",
-      "author": "cruser",
-      "postedAt": "2026-06-24 21:59",
-      "threadTitle": "Re: OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "https://www.google.com/amp/s/www.wprost.pl/amp/12364113/kanal-zero-zaliczyl-wpadke-sprostowano-informacje-o-zelenskim.html Do tego się odnieś propagandysto. Cały weekend bombardowałeś forum tym fake newsem. Wstydź się.",
-      "votes": {
-        "up": 0,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -532,20 +700,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "74913105",
-      "author": "Dewajtis",
-      "postedAt": "2026-06-24 21:38",
-      "threadTitle": "Re: OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "Nie zakrzyczysz tymi głupotami afery i kompromitacji uśmiechniętego towarzystwa w Szpitalu Południowym w Warszawie.",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74912683",
       "author": "dziadprzezORLEN",
       "postedAt": "2026-06-24 20:55",
@@ -555,62 +709,6 @@
       "votes": {
         "up": 2,
         "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74912659",
-      "author": "SaharaNadchodzi",
-      "postedAt": "2026-06-24 20:52",
-      "threadTitle": "OZE sroze pisowskie pyty o IQ karalucha",
-      "url": "https://www.bankier.pl/forum/temat_oze-sroze-pisowskie-pyty-o-iq-karalucha,74912659.html",
-      "body": "Boże.... jak wami nie gardzić.",
-      "votes": {
-        "up": 3,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74912571",
-      "author": "Hmmm",
-      "postedAt": "2026-06-24 20:43",
-      "threadTitle": "Re: Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "Dlaczego miałbym zadać to pytanie Chinom, które są światowym liderem inwestycji w OZE, na które przeznaczają setki miliardów dolarów rocznie?",
-      "votes": {
-        "up": 4,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74912505",
-      "author": "Alewasturuchaja",
-      "postedAt": "2026-06-24 20:35",
-      "threadTitle": "Re: Dla tych co nie za prezydentem - czytać",
-      "url": "https://www.bankier.pl/forum/temat_dla-tych-co-nie-za-prezydentem-czytac,74911473.html",
-      "body": "Hehehehe,a odebrał w teatralnym nic nie znaczącym ale szkodliwym gęściej jakiś order? Krytyka tak robienie cyrku z urzędu prezydenta nie.",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74912403",
-      "author": "Alibaba",
-      "postedAt": "2026-06-24 20:24",
-      "threadTitle": "Re: Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "Zadaj to pytanie Chinom I Indiom",
-      "votes": {
-        "up": 5,
-        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -630,20 +728,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "74911661",
-      "author": "Hmmm",
-      "postedAt": "2026-06-24 18:55",
-      "threadTitle": "Re: Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "Czyli jest to globalne ocieplenie czy można sobie kopać do woli paliwa i mówić OZE-sroze?Czy może prawica zorientuje się, że coś jest nie tak jak będzie 50 st zamiast 40?",
-      "votes": {
-        "up": 6,
-        "down": 6
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "74911571",
       "author": "Tom",
       "postedAt": "2026-06-24 18:42",
@@ -656,34 +740,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74911529",
-      "author": "Nadrodze",
-      "postedAt": "2026-06-24 18:35",
-      "threadTitle": "Re: Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "Uważajcie na siebie szczególnie w weekend. Ma być 38° więc radzę nie wychodzić na zewnątrz bez powodu i uzupełniać płyny. Nie ma żartów kochani.",
-      "votes": {
-        "up": 1,
-        "down": 5
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74911473",
-      "author": "Skok",
-      "postedAt": "2026-06-24 18:26",
-      "threadTitle": "Dla tych co nie za prezydentem - czytać",
-      "url": "https://www.bankier.pl/forum/temat_dla-tych-co-nie-za-prezydentem-czytac,74911473.html",
-      "body": ",,Krytyka Ukrainy: Okamura szef czeskiego parlamentu ostro skrytkował władze Ukrainy po tym, jak jedna z ukraińskich jednostek wojskowych otrzymała nazwę „Bohaterów UPA”. W swoich wystąpieniach publicznych sprzeciwia się finansowaniu Ukrainy, dostawom broni oraz wejściu tego kraju do UE i NATO.,,Da się myśleć po ludzku ???",
-      "votes": {
-        "up": 8,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "74911321",
@@ -707,25 +763,11 @@
       "url": "https://www.bankier.pl/forum/temat_witam-kochani-mam-pytanie,74910065.html",
       "body": "Bezsens, czuję się trochę oszukany, wszyscy mówili że warto teraz brać Orlen bo dewidynda i dobra spółka a teraz spada, o co chodzi… po co kazaliście kupować po tej cenie",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74911155",
-      "author": "Hmmm",
-      "postedAt": "2026-06-24 18:01",
-      "threadTitle": "Re: Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "Ale pan Czarnek (ten od OZEna swoim dachu) mówi, że OZE-sroze i trzeba węgiel kopać. Pan Trump też tak mówi.",
-      "votes": {
-        "up": 5,
-        "down": 5
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "74911063",
@@ -749,7 +791,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-tu-tak-czerwono-dzisiaj,74911043.html",
       "body": "Cale gpw praktycznie",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -791,7 +833,7 @@
       "url": "https://www.bankier.pl/forum/temat_witam-kochani-mam-pytanie,74910065.html",
       "body": "Wrzucasz taki absurd, by zrobić zadymę, prawda? Bo na poważnie nie wierzę, że mógłbyś z czym takim wystąpić.Kupiłeś - koniec, kaplica, cofka niemożliwa.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -819,7 +861,7 @@
       "url": "https://www.bankier.pl/forum/temat_witam-kochani-mam-pytanie,74910065.html",
       "body": "Czy da się to jakoś zrobić żeby cofnąć akcje? Kupiłem przed dewidenda po 143zl kurs spadł już 21 złotych, chciałbym cofnąć dewidende razem z akcjami, miał ktoś podobną sytuację?",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -847,7 +889,7 @@
       "url": "https://www.bankier.pl/forum/temat_peroniarze,74909421.html",
       "body": "Jasne , na giełdzie NIE MA? :) jesteś nowicjuszem ?",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -890,7 +932,7 @@
       "body": "Nie ma takiej możliwości",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1115,20 +1157,6 @@
       "votes": {
         "up": 3,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74905863",
-      "author": "JakubWiech",
-      "postedAt": "2026-06-24 12:17",
-      "threadTitle": "Rekord temperatur",
-      "url": "https://www.bankier.pl/forum/temat_rekord-temperatur,74905863.html",
-      "body": "Mili Państwo, a więc tak:We Francji zanotowano dziś najcieplejszy dzień w historii tamtejszych pomiarów.Wiele miejscowości odnotowało temperaturę powyżej 40°C (widać to na poniższej mapie).Oznacza to, że Francja była dziś cieplejsza niż 99% powierzchni Ziemi.Od początku fali upałów (18 czerwca) utonęło tam 40 osób szukających ucieczki od gorąca w wodzie.Służby wciąż zbierają dane o zgonach ze względu na upały, wiadomo już o śmierci dwójki dzieci, które doznały udaru cieplnego w nagrzanym samochodzie.Luwr i wieża Eiffla zamykają się wcześniej ze względu na temperatury, władze zalecają pracę zdalną, mamy też pierwsze ograniczenia generacji elektrowni jądrowych z uwagi na problemy z ich chłodzeniem.Ostrzegano nas przed tym.",
-      "votes": {
-        "up": 12,
-        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1505,7 +1533,7 @@
       "url": "https://www.bankier.pl/forum/temat_papier-pokazuje-sile-jutro-skup-pod-dewidende-w-czwartek,74892837.html",
       "body": "Dokładnie, wystarczy jutro kupić i dostajesz 8zl za akcje plus kolejne 10zl w gratisie za to, że jesteś",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 5
       },
       "sentimentScore": 0,
@@ -2882,34 +2910,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74845261",
-      "author": "Dg72",
-      "postedAt": "2026-06-18 17:03",
-      "threadTitle": "Re: Dziadek wrócił 124.98",
-      "url": "https://www.bankier.pl/forum/temat_dziadek-wrocil-124-98,74843697.html",
-      "body": "No to się dziad pochwalił I super, sporo kasy jesteś na plus Tylko sobie jeszcze policz ile kasy byś był do przodu z dywidendą, odkupieniem i kupnem po odcięciu, z zmniejszeniem zysku do podatku gdybyś posłuchał tej radyDeal będzie jak szybko gwiazdo odkupisz i najlepiej jutro w środę np przy jakimś plusie odkupiszJeśli to prawda to przy tych cenach sprzedaz 148 kupno 139 zyskujesz przy 10000 akcjach 170 tysięcy i 80 zmniejszenia zysku do pit 38Pajacyku",
-      "votes": {
-        "up": 11,
-        "down": 3
-      },
-      "sentimentScore": 0.981,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74845151",
-      "author": "Haha",
-      "postedAt": "2026-06-18 16:57",
-      "threadTitle": "Re: Jest 125 a będzie nieco mniej",
-      "url": "https://www.bankier.pl/forum/temat_jest-125-a-bedzie-nieco-mniej,74843365.html",
-      "body": "Ale żartujesz??? Łapanie spadających noży",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
