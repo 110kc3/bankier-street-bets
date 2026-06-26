@@ -3,32 +3,27 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-06-26T14:49:02.899Z",
+  "updatedAt": "2026-06-26T20:10:18.496Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-26T14:49:02.899Z",
+    "fetchedAt": "2026-06-26T20:10:18.496Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 16
+    "threadsScanned": 15
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.19,
-    "confidence": 0.71,
-    "commentCount": 52,
+    "score": 0.195,
+    "confidence": 0.7,
+    "commentCount": 50,
     "breakdown": {
       "positive": 27,
-      "negative": 9,
+      "negative": 7,
       "neutral": 16
     },
     "trend": [
-      {
-        "date": "2026-05-27",
-        "score": -0.322,
-        "count": 2
-      },
       {
         "date": "2026-05-29",
         "score": 0.87,
@@ -110,8 +105,8 @@
         "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 52 komentarzy z ostatnich 30 dni: nastroje pozytywne (27 pozytywnych, 9 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 50 komentarzy z ostatnich 30 dni: nastroje pozytywne (27 pozytywnych, 7 negatywnych, 16 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dzien",
@@ -150,7 +145,7 @@
         "count": 3
       },
       {
-        "word": "wzrosnac",
+        "word": "ostatni",
         "count": 3
       }
     ]
@@ -855,34 +850,6 @@
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74610693",
-      "author": "qazxsw",
-      "postedAt": "2026-05-27 19:35",
-      "threadTitle": "Re: kiedy bedzie krach",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-bedzie-krach,74586377.html",
-      "body": "a nieruchomosci moga?a samochody mogly wzrosnac o 100%?a chleb o 100%?tylko paliwo ma stac w miejscu i kosztowac tyle co 15 lat temu.....",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74610375",
-      "author": "Hehe",
-      "postedAt": "2026-05-27 19:03",
-      "threadTitle": "Re: kiedy bedzie krach",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-bedzie-krach,74586377.html",
-      "body": "Może to i lepiej",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }

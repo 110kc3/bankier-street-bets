@@ -3,11 +3,11 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-06-26T14:48:03.480Z",
+  "updatedAt": "2026-06-26T20:09:05.292Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-26T14:48:03.480Z",
+    "fetchedAt": "2026-06-26T20:09:05.292Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,77 +15,371 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.007,
+    "score": -0.004,
     "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 49,
-      "negative": 49,
-      "neutral": 102
+      "positive": 55,
+      "negative": 55,
+      "neutral": 90
     },
     "trend": [
       {
         "date": "2026-06-24",
-        "score": -0.062,
-        "count": 37
+        "score": 0.046,
+        "count": 28
       },
       {
         "date": "2026-06-25",
-        "score": 0.072,
-        "count": 99
+        "score": 0.071,
+        "count": 87
       },
       {
         "date": "2026-06-26",
-        "score": -0.103,
-        "count": 64
+        "score": -0.091,
+        "count": 85
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (49 pozytywnych, 49 negatywnych, 102 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (55 pozytywnych, 55 negatywnych, 90 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 16
+        "count": 18
       },
       {
         "word": "mnie",
+        "count": 11
+      },
+      {
+        "word": "zeby",
+        "count": 10
+      },
+      {
+        "word": "mysle",
+        "count": 9
+      },
+      {
+        "word": "roku",
         "count": 9
       },
       {
         "word": "spadki",
-        "count": 8
-      },
-      {
-        "word": "roku",
-        "count": 8
-      },
-      {
-        "word": "zeby",
-        "count": 7
-      },
-      {
-        "word": "mysle",
-        "count": 7
-      },
-      {
-        "word": "ponad",
-        "count": 7
-      },
-      {
-        "word": "jestem",
-        "count": 6
+        "count": 9
       },
       {
         "word": "duzo",
-        "count": 6
+        "count": 8
       },
       {
-        "word": "dzis",
+        "word": "czas",
+        "count": 8
+      },
+      {
+        "word": "ponad",
+        "count": 8
+      },
+      {
+        "word": "trzeba",
         "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "74938463",
+      "author": "mabmab",
+      "postedAt": "2026-06-26 21:28",
+      "threadTitle": "Re: Oj,oj,oj !",
+      "url": "https://www.bankier.pl/forum/temat_oj-oj-oj,74938007.html",
+      "body": "Alcatraz... liczyłem ,że zwalą CD Projekt na 200 zl....do DNP ciągle podchodze z rezerwą niech sie papier określi",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74938167",
+      "author": "Lejs",
+      "postedAt": "2026-06-26 20:35",
+      "threadTitle": "Re: Oj,oj,oj !",
+      "url": "https://www.bankier.pl/forum/temat_oj-oj-oj,74938007.html",
+      "body": "Zamek.29.40 na poniedziałek...",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74938157",
+      "author": "Lejs",
+      "postedAt": "2026-06-26 20:34",
+      "threadTitle": "Re: Oj,oj,oj !",
+      "url": "https://www.bankier.pl/forum/temat_oj-oj-oj,74938007.html",
+      "body": "Pal licho literówkę.Z rańca w pon.trzeba będzie kupować po 28.70 bo to mniemam ostatni,ale to ostatni moment ...",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74938043",
+      "author": "mabmab",
+      "postedAt": "2026-06-26 20:10",
+      "threadTitle": "Re: Oj,oj,oj !",
+      "url": "https://www.bankier.pl/forum/temat_oj-oj-oj,74938007.html",
+      "body": "Lejsiku ... nei idź w ślady Andy ego ortografia rules! nie żuciłem ale rzuciłem bo Andy napisał ciol zamiast ciął.....",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74938037",
+      "author": "Lejs",
+      "postedAt": "2026-06-26 20:08",
+      "threadTitle": "Re: Oj,oj,oj !",
+      "url": "https://www.bankier.pl/forum/temat_oj-oj-oj,74938007.html",
+      "body": "28.60-70 jeszcze z rana zjadą i to może być ostatnia szansa na tani zakup.!!!",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74938007",
+      "author": "Lejs",
+      "postedAt": "2026-06-26 20:03",
+      "threadTitle": "Oj,oj,oj !",
+      "url": "https://www.bankier.pl/forum/temat_oj-oj-oj,74938007.html",
+      "body": "Żucilem jeszcze raz okiem fachowca na sytuację .28.50 bronią jak niepodległości.Chyba trzeba brać w poniedziałek póki jest jeszcze tanio tzn.ponizej 29 PLN.Tylko krowa się nie myli he,he...",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74937755",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-06-26 19:27",
+      "threadTitle": "Re: wywaliłem rano strata180k",
+      "url": "https://www.bankier.pl/forum/temat_wywalilem-rano-strata180k,74930135.html",
+      "body": "Pewnie by mu pożyczyli ale za dużo by juz na nich nie zarobil",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74937699",
+      "author": "Heisenberg",
+      "postedAt": "2026-06-26 19:19",
+      "threadTitle": "Re: wywaliłem rano strata180k",
+      "url": "https://www.bankier.pl/forum/temat_wywalilem-rano-strata180k,74930135.html",
+      "body": "Dostrzegacie to jak Qube gdy zszedł poniżej 5% w Dino (było to bodajże 11-12.06) nie zwiększył już krótkiej pozycji na perełce. Na innych spółkach jak np Allegro, JSW, CRQUANYUM Benefit itd zwiększa szorowanie. Reszty można się domyślić :)))",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74937509",
+      "author": "Magellan",
+      "postedAt": "2026-06-26 18:43",
+      "threadTitle": "Re: wywaliłem rano strata180k",
+      "url": "https://www.bankier.pl/forum/temat_wywalilem-rano-strata180k,74930135.html",
+      "body": "Giełdy poleca ale nie wszystkoZobaczcie żabkęOd 20 zł zaraz się przywita z DinoNa forum cisza pusto żabka sobie hopsa powolutku do góryNie wszystko poleci jednakowo a tu się zgodzę Dino jest sponiewierane mocno Te 35 zł tu będzie spokojnie potem się zobaczy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74937473",
+      "author": "mabmab",
+      "postedAt": "2026-06-26 18:36",
+      "threadTitle": "Re: och te upały.....tumbelele",
+      "url": "https://www.bankier.pl/forum/temat_och-te-upaly,74934337.html",
+      "body": "strasznie 3 macha prędkośc... nawet andy ego przygnała . Nie wiem po co poniewaz nawet nie czytam jego wpisow. Lejsik znowu mądro post factum .... dla mnie startegie wyznacza stara zasada cash is the king whenthe stormy weather is coming .....",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74937353",
+      "author": "Andy",
+      "postedAt": "2026-06-26 18:25",
+      "threadTitle": "Re: och te upały.....",
+      "url": "https://www.bankier.pl/forum/temat_och-te-upaly,74934337.html",
+      "body": "Ty filozofię wiejski z megalomania warszawskiego cwaniaka, a czy tu już cioles straty na PZU, bo jak armagedon po całości na naszej szulerni to nie ma zielonych szczęśliwych wysp.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74937211",
+      "author": "Cma",
+      "postedAt": "2026-06-26 18:07",
+      "threadTitle": "Re: myślę żeby zagrać tu za bañkę",
+      "url": "https://www.bankier.pl/forum/temat_mysle-zeby-zagrac-tu-za-banke,74897683.html",
+      "body": "Qube ma kapitalizacje -> 170 miliardów złotychA firmy, ktore posiadaja akcje Dino, maja kapitalizacje: Vanguard Group -> 48 bilionów złotych BlackRock, Inc -> 660 miliardów zł Goldman Sachs Group -> 1,28 biliona zł Norges Bank -> 8,8 biliona zł Capital Research & Management -> 10,4 biliona zł ....Razem firmy, ktore maja Dino maja kapitalizacje ok 101 bilionów zł czyli 660 razy wiekszy majatek niz Qube.Chcesz tym wszystkim firmom fikac?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74937175",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-06-26 18:02",
+      "threadTitle": "Re: Ponoć emeryt",
+      "url": "https://www.bankier.pl/forum/temat_ponoc-emeryt,74937159.html",
+      "body": "I myślę że już tu wpisów jego czytać nie bedziemy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74937159",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-06-26 18:01",
+      "threadTitle": "Ponoć emeryt",
+      "url": "https://www.bankier.pl/forum/temat_ponoc-emeryt,74937159.html",
+      "body": "J.Wponoć emeryt juz wszystko sprzedał ze stratą więc kółeczek juz robił nie będzie uff jednego mniej",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74937139",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-06-26 17:59",
+      "threadTitle": "Re: Chyba wiem co zrobi Qube?",
+      "url": "https://www.bankier.pl/forum/temat_chyba-wiem-co-zrobi-qube,74933493.html",
+      "body": "Żeby nie kolarze to nawet zbić ceny by mu się nie opłaciło bo gdyby sam zrzucał akcje to kurs przy pierwszym pakiecie już by nurkował bez odkupu nastepny sprzedawał by dużo taniej cały czas winie tu kolarzy na tych małych rowerkach",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74937087",
+      "author": "Ppp",
+      "postedAt": "2026-06-26 17:53",
+      "threadTitle": "Re: Pamiętajcie",
+      "url": "https://www.bankier.pl/forum/temat_pamietajcie,74919021.html",
+      "body": "> Co będziecie biedakami znawcy i analitycy Dino pamiętam Kościszko budował imperium i biedota została z makulaturąW każdym kraju jest sieć sklepów detalicznych w małych miejscowościach. Zwykły detal bez szału, bez reklamy w tv. To nie jest to samo co knajpy Kościuszki Spoźywkę kupują i będą kupować. Jeśli liczba sklepów co roku przyrasta ok. 10%, jeśli utrzymywany jest zysk na kazdym sklepie to sorry batory, ale to dobry biznes. Akcje szorują po dnie za chwilę będzie odbicie. Myślę że do końca roku osiągną 40zl.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.964,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74936951",
+      "author": "Marcin",
+      "postedAt": "2026-06-26 17:40",
+      "threadTitle": "Re: a ja dokupuje sukcesywnie.",
+      "url": "https://www.bankier.pl/forum/temat_a-ja-dokupuje-sukcesywnie,74931479.html",
+      "body": "Robie podobnie. Dokupuje cały czas, nie są to duże kwoty, ale cały czas usredniam. Średnia ponad 41 zl. Czekam na 60 zl.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74936925",
+      "author": "Tumbelele",
+      "postedAt": "2026-06-26 17:39",
+      "threadTitle": "Re: och te upały.....",
+      "url": "https://www.bankier.pl/forum/temat_och-te-upaly,74934337.html",
+      "body": "Ale pędzi ta korekta :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74936933",
+      "author": "Dexter",
+      "postedAt": "2026-06-26 17:39",
+      "threadTitle": "Re: Chyba wiem co zrobi Qube?",
+      "url": "https://www.bankier.pl/forum/temat_chyba-wiem-co-zrobi-qube,74933493.html",
+      "body": "short musi mieć płynność żeby wyjść. wywoła ją przez silny spadek i odpalenie SL. extremalny wolumen, następna duża zielona będzie potwierdzeniem, wajcha przełożona.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74936627",
+      "author": "Misiu",
+      "postedAt": "2026-06-26 17:15",
+      "threadTitle": "Re: Chyba wiem co zrobi Qube?",
+      "url": "https://www.bankier.pl/forum/temat_chyba-wiem-co-zrobi-qube,74933493.html",
+      "body": "Tak. Dużo nad tym myślałem. Chodzi o wolumen. Małym wolumenem można wywołać spadki, a potem odkupić duży wolumen tanio.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74936271",
+      "author": "Cma",
+      "postedAt": "2026-06-26 16:49",
+      "threadTitle": "Re: Chyba wiem co zrobi Qube?",
+      "url": "https://www.bankier.pl/forum/temat_chyba-wiem-co-zrobi-qube,74933493.html",
+      "body": "Czyli mowisz ze Qube, ktory musi odkupic 5 milionow akcji, kupuje drogo i zbija cene sprzedajac tanio, tak?Czyli Qube codziennie specjalnie traci, zeby obnizyc cene akcji?Nie lepiej za 1000 razy mniejsze pieniadze wynajac naganiaczy, ktorzy na wszelkie sposoby beda tworzyc negatywna atmosfere wokol spolki?Ja jestem na forach spolek, ktorych mam akcje, a na tym forum sa ludzie, ktorzy twierdza, ze Dino to bardzo kiepska spolka, ze bedzie spadac, ze strajki itd. Czy zadales sobie pytanie po co wchodza na forum spolki, ktora wogole ich nie interesuje?",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "74936185",
       "author": "Misiu",
@@ -109,7 +403,7 @@
       "body": "ne aptal",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -123,7 +417,7 @@
       "body": "Teraz kurs wchodzi w etap korekty pędzącej (jak na początku maja)3-4 sesje spadku i powrót na 30.5 -31 PLN ...",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -164,7 +458,7 @@
       "url": "https://www.bankier.pl/forum/temat_chyba-wiem-co-zrobi-qube,74933493.html",
       "body": "Przecież marże na żywności już niedługo wzrosną wraz z inflacją. Poza tym Dino otwiera coraz więcej sklepów, więc wygryzie konkurencję. Uważam, że Dino ma wielkie perspektywy. Nie wiem na ile kurs był przewartościowany, bo nie jestem ekspertem.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -179,7 +473,7 @@
       "body": "wplynęły na szorty jak nic ... CD P tonie ,Modivo jeszcze trzyma szyje nad wodą.... DNP bul,bul,bul.... i nikt nie rzuca kół ratunkowych... bo będzie jeszcze bardziej gorąco co rozsierdzi szorty że będzie jescze taniej ,jeszcze taniejLejsiku - SL sa tez na 28 zł i to dużo. Trzyma fason i nie mądrz sie post factum znajdź klimatyzowane pomieszczenie i zapamietaj cash is king .... idą ciężkie czasy na GPW makro fatalnie ,fiskal fatalnie,polityka fatalnie .... nawet zamrożenie wojny Putin- Zełeński nie da bodźca GPW bo Zełeński już wygrywa wojnę dronowa a z nami jest na kosę.....gotóweczko ty moja kochana .",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 3
       },
       "sentimentScore": -0.99,
       "sentimentLabel": "Negative"
@@ -193,7 +487,7 @@
       "body": "Aleś pada i poleci na 25 jak nic",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -207,7 +501,7 @@
       "body": "Wygracie na wzroście dolara. 8 miesięcy 100 procent do gory",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -220,7 +514,7 @@
       "url": "https://www.bankier.pl/forum/temat_chyba-wiem-co-zrobi-qube,74933493.html",
       "body": "Spółka bez perspektyw ….. hahahahaha",
       "votes": {
-        "up": 3,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": -0.322,
@@ -235,7 +529,7 @@
       "body": "Bzdura piramidalna Qube po prostu profesjonalnie sie zachowuje spolka bez perspektyw i to jest przyczyna spadkow. Qube po prostu wykorzystuje okazje. Tak samo jak na CD Projekt ktory dzis jest topiony bez litosci. Bo na to zasluguje nie zdziwie sie jesli dzi zakonczy na 200 zl.",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 5
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -249,7 +543,7 @@
       "body": "Co oni się tak uparli na to, żeby to teraz kupować. Kupcie sobie Microsoft albo Oracle. Dajcie temu dinozaurawi spokój na razie.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -276,8 +570,8 @@
       "url": "https://www.bankier.pl/forum/temat_chyba-wiem-co-zrobi-qube,74933493.html",
       "body": "Bo to, że to dołowanie kursu jest sprawką Qube, to chyba nikt nie ma wątpliwości.",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -304,8 +598,8 @@
       "url": "https://www.bankier.pl/forum/temat_chyba-wiem-co-zrobi-qube,74933493.html",
       "body": "Myślę, że będzie zbijał kurs do wyników. Dlaczego? Bo zawsze mu się to opłaci w obu przypadkach jak poniżej:1. Wyniki słabe (wiadomo, dobre ale konsensus nie spełniony), kurs pójdzie jescze w dół na panice i wtedy poczeka parę dni i sobie odkupi super tanio.2. Wyniki dobre - odkupi natychmiast. Także wg mnie do wyników tego nie ma co tykać. To tak jakby grać przeciwko trendowi.",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 1,
+        "down": 3
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -444,7 +738,7 @@
       "url": "https://www.bankier.pl/forum/temat_wywalilem-rano-strata180k,74930135.html",
       "body": "Spokojnie, ja mam po prawie 40zł. Odbijemy, cierpliwości.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -640,7 +934,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-ja-dokupuje-sukcesywnie,74931479.html",
       "body": "od splitu wykres idzie tylko w dół i w dol. az sie prosi o 70 zl albo wiecej",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
@@ -682,7 +976,7 @@
       "url": "https://www.bankier.pl/forum/temat_cena-ruszy,74931241.html",
       "body": "6lat wisiałem na haku na Orlenie To i tu poczekam",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -794,7 +1088,7 @@
       "url": "https://www.bankier.pl/forum/temat_rebranding,74930355.html",
       "body": "proponuję rembranding z dino na dno. będa oszczędności bo o jedną literę mniej",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -837,7 +1131,7 @@
       "body": "dino kapitał zapasowy, modiwo kapitał zapasowy,jeszcze nabijają naiwniaków na KGHM,Teraz cała giełda w dół, wyszedłem całościowo strata jw.Wrócę tu jak będzie 20 25pln,, Może gdzieś porobię parę kółeczek.Do du---py ten rok, kosy w ogrodzie wypadły z gniazda do oczka i się potopiły,co roku miałem kawki w kominie, w tym puste gniazdo,.DNO MASAKRA",
       "votes": {
         "up": 2,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": -0.999,
       "sentimentLabel": "Negative"
@@ -976,7 +1270,7 @@
       "url": "https://www.bankier.pl/forum/temat_ii-kwartal-ponad-90-sklepow-bedzie,74923847.html",
       "body": "Zgadza się w całym roku ma byc 400 ponad. Zresztą pomyśleć paliwo tańsze też pomaga Dino mniejsze straty będzie dobrze",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -1088,7 +1382,7 @@
       "url": "https://www.bankier.pl/forum/temat_ii-kwartal-ponad-90-sklepow-bedzie,74923847.html",
       "body": "Na początku lipca podadzą ile sklepow otwarli w 2 kwartale myślę ze ponad 90 będzie i od lipca przebijamy 30zl",
       "votes": {
-        "up": 8,
+        "up": 10,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -1578,7 +1872,7 @@
       "url": "https://www.bankier.pl/forum/temat_pamietajcie,74919021.html",
       "body": "> Te stodoły będzie trzeba remontować,to będzie. kosztowneoczywiście, że trzeba remontować, ale nie trzeba płacić czynszu. A BIEDR musi i remontować i płacić czynsz",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1788,7 +2082,7 @@
       "url": "https://www.bankier.pl/forum/temat_pamietajcie,74919021.html",
       "body": "A Ciebie trzeba leczyć",
       "votes": {
-        "up": 8,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1803,7 +2097,7 @@
       "body": "Te stodoły będzie trzeba remontować,to będzie. kosztowne",
       "votes": {
         "up": 1,
-        "down": 11
+        "down": 12
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2075,20 +2369,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "74916543",
-      "author": "Dexter",
-      "postedAt": "2026-06-25 10:08",
-      "threadTitle": "Re: boje się że ci wszyscy wiszący na hakach będą hamulcowymi",
-      "url": "https://www.bankier.pl/forum/temat_boje-sie-ze-ci-wszyscy-wiszacy-na-hakach-beda-hamulcowymi,74914873.html",
-      "body": "no właśnie szacuje że jest dużo dużo więcej makulatury niż 100k",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74916485",
       "author": "Jk",
       "postedAt": "2026-06-25 10:04",
@@ -2115,20 +2395,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74915725",
-      "author": "Eustachy",
-      "postedAt": "2026-06-25 09:23",
-      "threadTitle": "Re: srednia 44 niestety",
-      "url": "https://www.bankier.pl/forum/temat_srednia-44-niestety,74915091.html",
-      "body": "A warte podkreślenia jest to, że Dino robi to za własne pieniądze",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "74915625",
@@ -2170,146 +2436,6 @@
         "down": 0
       },
       "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74915399",
-      "author": "Eustachy",
-      "postedAt": "2026-06-25 09:07",
-      "threadTitle": "Re: srednia 44 niestety",
-      "url": "https://www.bankier.pl/forum/temat_srednia-44-niestety,74915091.html",
-      "body": "W tej chwili zakładam poczekać do wyników za 2026",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74915347",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-06-25 09:04",
-      "threadTitle": "Re: srednia 44 niestety",
-      "url": "https://www.bankier.pl/forum/temat_srednia-44-niestety,74915091.html",
-      "body": "To samo ja mam 40 dobrałem już sporo z poziomu 30 teraz czekam za potwierdzeniem zmiany wajchy i pakuje pod korek",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74915321",
-      "author": "Edek",
-      "postedAt": "2026-06-25 09:01",
-      "threadTitle": "Re: srednia 44 niestety",
-      "url": "https://www.bankier.pl/forum/temat_srednia-44-niestety,74915091.html",
-      "body": "Spokojnie, będzie 40 bardzo szybko, napiszę tylko to:Otwarte sklepy w 2026 - Dino / Biedra / Lidl - 62 / 3 / 10",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74915193",
-      "author": "Eustachy",
-      "postedAt": "2026-06-25 08:47",
-      "threadTitle": "Re: srednia 44 niestety",
-      "url": "https://www.bankier.pl/forum/temat_srednia-44-niestety,74915091.html",
-      "body": "Dokładnie tak się zapowiada, ja dobieram co kilka dni, staram się łapać dołki i uśredniać, teraz mam 39, za szybko wszedłem, ale jestem dobrej myśli na ten rok",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74915171",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-06-25 08:45",
-      "threadTitle": "Re: srednia 44 niestety",
-      "url": "https://www.bankier.pl/forum/temat_srednia-44-niestety,74915091.html",
-      "body": "Tu po wynikach będzie 40+",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74915091",
-      "author": "Miro",
-      "postedAt": "2026-06-25 08:38",
-      "threadTitle": "srednia 44 niestety",
-      "url": "https://www.bankier.pl/forum/temat_srednia-44-niestety,74915091.html",
-      "body": "Czekamy do emerytury, moze odbije za 25 lat",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74915057",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-06-25 08:35",
-      "threadTitle": "Re: boje się że ci wszyscy wiszący na hakach będą hamulcowymi",
-      "url": "https://www.bankier.pl/forum/temat_boje-sie-ze-ci-wszyscy-wiszacy-na-hakach-beda-hamulcowymi,74914873.html",
-      "body": "Tu prawie wszyscy wiszą jedni wyżej inni niżej kolego A cała reszta płatne nagony",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74914941",
-      "author": "Andy",
-      "postedAt": "2026-06-25 08:23",
-      "threadTitle": "No właśnie .. .",
-      "url": "https://www.bankier.pl/forum/temat_boje-sie-ze-ci-wszyscy-wiszacy-na-hakach-beda-hamulcowymi,74914873.html",
-      "body": "Znowu durny wątek założony, dobrze kolego autora wpisy skontrowales",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74914913",
-      "author": "Magellan",
-      "postedAt": "2026-06-25 08:20",
-      "threadTitle": "Re: boje się że ci wszyscy wiszący na hakach będą hamulcowymi",
-      "url": "https://www.bankier.pl/forum/temat_boje-sie-ze-ci-wszyscy-wiszacy-na-hakach-beda-hamulcowymi,74914873.html",
-      "body": "a ile haki mogą mieć akcji.... 100 000 ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74914873",
-      "author": "Dexter",
-      "postedAt": "2026-06-25 08:16",
-      "threadTitle": "boje się że ci wszyscy wiszący na hakach będą hamulcowymi",
-      "url": "https://www.bankier.pl/forum/temat_boje-sie-ze-ci-wszyscy-wiszacy-na-hakach-beda-hamulcowymi,74914873.html",
-      "body": "wzrostów . a nie szort",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     },
     {
@@ -2369,20 +2495,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74913465",
-      "author": "Lejs",
-      "postedAt": "2026-06-24 22:17",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "...tak ,lepiej nic nie mówić.Moja też nie wszystko musi wiedzieć.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "74913419",
       "author": "MZ",
       "postedAt": "2026-06-24 22:11",
@@ -2397,34 +2509,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "74913395",
-      "author": "emeryt",
-      "postedAt": "2026-06-24 22:08",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "żona zaszalała w sklepie ogrodniczym, o o teoretycznej stracie na razie nic nie wie. cicho sza cicho sza.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74913367",
-      "author": "Lejs",
-      "postedAt": "2026-06-24 22:04",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "..na pampersy ugrałeś hi,hi..",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74913353",
       "author": "emeryt",
       "postedAt": "2026-06-24 22:03",
@@ -2434,48 +2518,6 @@
       "votes": {
         "up": 0,
         "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913323",
-      "author": "emeryt",
-      "postedAt": "2026-06-24 21:59",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "droga młodzieży- nie napalajcie się za bardzo ,kurs za mało rozbieżny, i w dodatku idzie w złą stronę(w dół) long jest niebezpieczny, mi udało się ugrać 64gr przy inwestycji prawie ćwierć miliona,tj ok3,5tyś,żenada w porównaniu z teoretyczną stratą ok 200tysi.także bądźcie ostrożni-pozdro.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74913247",
-      "author": "Lejs",
-      "postedAt": "2026-06-24 21:51",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "...jeszcze jutro będzie szansa..",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74913069",
-      "author": "Miras",
-      "postedAt": "2026-06-24 21:34",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "Było 28,50 ale nie wszystkie zlecenia się zrealizowały. Szkoda.",
-      "votes": {
-        "up": 0,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2523,132 +2565,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "74911837",
-      "author": "Lejs",
-      "postedAt": "2026-06-24 19:19",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "Modivo ? Eee tam. Dino po 28,51 x4k. już stoję i nie zmieniam.Aby tylko zeszli...",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74911765",
-      "author": "Lejs",
-      "postedAt": "2026-06-24 19:12",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "Andy to nasza perełka forumowa .Fajny koleś po dobrej szkole..a że czasami wredny ...trzeba wybaczać hi,hi...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74911323",
-      "author": "mabmab",
-      "postedAt": "2026-06-24 18:13",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "No ja z zelazna konsekwencja obserwuje rysuje kreski ale kapitalu nie angazuje. Za to na Modivo po dzisiejszej sesji moze byc bardzo ciekawie....czekam na zejscie < 90 zl i moze zacznie sie 2 falka.... BUX dzis tylko minus 0.15% DAX tez sie wyciagnal CAC40 na plusie.... LC w USA zaczyna na plusie a u nas wieja az milo z parkietu.ciekawe kiedy nasz ulubiony andy wjedzie nieproszony do dyskusji",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74910931",
-      "author": "Lejs",
-      "postedAt": "2026-06-24 17:40",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "28-4-28.5 jutro a wyciągną na 28.8.Piątek +5'/. Widzę to.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74910895",
-      "author": "mabmab",
-      "postedAt": "2026-06-24 17:36",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "A moje kreski mowia ze znowu na koniec sesji kurs zostanie za uszy wyciagniety....na Modivo zaczyna sie robic coraz ciekawiej. A dzis znowu GPW najgorszym parkietem w Europie. I tak to jest gdy sie odda rynek w pacht Amerykancow. Winni co co skandowali Donald Donald",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74910843",
-      "author": "Lejs",
-      "postedAt": "2026-06-24 17:32",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "..a do 28.5 to na pewno jutro zejdzie.Kolejny , dzień zasysania papiera..Jutro to już chyba ostatni ale to ostatni dzień na tanie zakupy.....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74910689",
-      "author": "Lejs",
-      "postedAt": "2026-06-24 17:21",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "Ojojoj...bo podciągnęli...jutro kiszkowanie do 28 PLN",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74910543",
-      "author": "mabmab",
-      "postedAt": "2026-06-24 17:14",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "Lejsiku....nie kompromisuj sie",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74910175",
-      "author": "Lejs",
-      "postedAt": "2026-06-24 16:47",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "...odkupisz zlocisza taniej..",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74910129",
       "author": "Justyna",
       "postedAt": "2026-06-24 16:44",
@@ -2663,32 +2579,18 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74910033",
+      "id": "74910013",
       "author": "emeryt",
-      "postedAt": "2026-06-24 16:39",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "ja wyszedłem z raniutka po 29,24",
+      "postedAt": "2026-06-24 16:38",
+      "threadTitle": "Re: myślę żeby zagrać tu za bañkę",
+      "url": "https://www.bankier.pl/forum/temat_mysle-zeby-zagrac-tu-za-banke,74897683.html",
+      "body": "ja zagrałem za ćwierć bańki, wczoraj kupione po 28,6, dzisiaj sprzedane po 29,24 parę minut po 9tej,zarobek 3,6tyś pln ,żenada.",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 0
       },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74909971",
-      "author": "Lejs",
-      "postedAt": "2026-06-24 16:36",
-      "threadTitle": "Re: Lejs było 28,5 znowu przegapiłeś?",
-      "url": "https://www.bankier.pl/forum/temat_lejs-bylo-28-5-znowu-przegapiles,74909795.html",
-      "body": "Przestawiłem target na 28 PLN !",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
     },
     {
       "id": "74908879",
@@ -2731,6 +2633,20 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74908583",
+      "author": "Dexter",
+      "postedAt": "2026-06-24 15:17",
+      "threadTitle": "Re: myślę żeby zagrać tu za bañkę",
+      "url": "https://www.bankier.pl/forum/temat_mysle-zeby-zagrac-tu-za-banke,74897683.html",
+      "body": "niea sygnału zakupowego lub same fejki.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "74908505",
@@ -2884,6 +2800,90 @@
         "down": 0
       },
       "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74906235",
+      "author": "Misiu",
+      "postedAt": "2026-06-24 12:38",
+      "threadTitle": "Re: Jędrek, gdzie ta twoja rakieta?",
+      "url": "https://www.bankier.pl/forum/temat_jedrek-gdzie-ta-twoja-rakieta,74903145.html",
+      "body": "To oni mnie obrażają. Ja nie zaczynałem.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74906099",
+      "author": "Lejs",
+      "postedAt": "2026-06-24 12:30",
+      "threadTitle": "Re: Jędrek, gdzie ta twoja rakieta?",
+      "url": "https://www.bankier.pl/forum/temat_jedrek-gdzie-ta-twoja-rakieta,74903145.html",
+      "body": "Misiu jesteś okropny...sytuacja niemiła na papierze i jeszcze Ty...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74905999",
+      "author": "Misiu",
+      "postedAt": "2026-06-24 12:25",
+      "threadTitle": "Re: Jędrek, gdzie ta twoja rakieta?",
+      "url": "https://www.bankier.pl/forum/temat_jedrek-gdzie-ta-twoja-rakieta,74903145.html",
+      "body": "Chamski Jędrek i głupi Tadziu. Towarzystwo wzajemnej adoracji. :D",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74905961",
+      "author": "Misiu",
+      "postedAt": "2026-06-24 12:22",
+      "threadTitle": "Re: SPRZEDALAM DINO KUPILAM GENERAL MILL",
+      "url": "https://www.bankier.pl/forum/temat_sprzedalam-dino-kupilam-general-mill,74905765.html",
+      "body": "A dlaczego to kupiłaś? Co przemawia za tą decyzją?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74905819",
+      "author": "Misiu",
+      "postedAt": "2026-06-24 12:15",
+      "threadTitle": "Re: Jędrek, gdzie ta twoja rakieta?",
+      "url": "https://www.bankier.pl/forum/temat_jedrek-gdzie-ta-twoja-rakieta,74903145.html",
+      "body": "Nie ma tym forum większych prymitywów. Na pohybel wam.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74905765",
+      "author": "Justyna",
+      "postedAt": "2026-06-24 12:12",
+      "threadTitle": "SPRZEDALAM DINO KUPILAM GENERAL MILL",
+      "url": "https://www.bankier.pl/forum/temat_sprzedalam-dino-kupilam-general-mill,74905765.html",
+      "body": "Generał mill daje diwidenda 7 procent i dolar idzie na 5 zlotych",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     }
   ]
