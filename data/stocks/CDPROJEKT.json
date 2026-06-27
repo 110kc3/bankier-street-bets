@@ -3,11 +3,11 @@
   "companyName": "CD Projekt SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-sa,6,21,353.html",
-  "updatedAt": "2026-06-27T14:06:12.586Z",
+  "updatedAt": "2026-06-27T19:43:51.350Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-27T14:06:12.586Z",
+    "fetchedAt": "2026-06-27T19:43:51.350Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,65 +15,75 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.07,
+    "score": 0.057,
     "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 68,
-      "negative": 49,
-      "neutral": 83
+      "positive": 65,
+      "negative": 50,
+      "neutral": 85
     },
     "trend": [
       {
+        "date": "2026-06-22",
+        "score": -0.161,
+        "count": 2
+      },
+      {
+        "date": "2026-06-24",
+        "score": 0,
+        "count": 1
+      },
+      {
         "date": "2026-06-25",
-        "score": -0.084,
-        "count": 10
+        "score": -0.04,
+        "count": 13
       },
       {
         "date": "2026-06-26",
-        "score": 0.055,
-        "count": 164
+        "score": 0.072,
+        "count": 137
       },
       {
         "date": "2026-06-27",
-        "score": 0.125,
-        "count": 26
+        "score": 0.014,
+        "count": 47
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (68 pozytywnych, 49 negatywnych, 83 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (65 pozytywnych, 50 negatywnych, 85 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
-        "count": 13
+        "count": 14
+      },
+      {
+        "word": "masz",
+        "count": 12
       },
       {
         "word": "dlatego",
         "count": 12
       },
       {
-        "word": "masz",
+        "word": "nikt",
+        "count": 11
+      },
+      {
+        "word": "nagan",
+        "count": 11
+      },
+      {
+        "word": "projekt",
+        "count": 11
+      },
+      {
+        "word": "mnie",
         "count": 11
       },
       {
         "word": "rynek",
         "count": 11
-      },
-      {
-        "word": "mnie",
-        "count": 10
-      },
-      {
-        "word": "nagan",
-        "count": 10
-      },
-      {
-        "word": "projekt",
-        "count": 10
-      },
-      {
-        "word": "nikt",
-        "count": 10
       },
       {
         "word": "produkcji",
@@ -87,18 +97,284 @@
   },
   "comments": [
     {
-      "id": "74941831",
-      "author": "biedaku",
-      "postedAt": "2026-06-27 15:22",
-      "threadTitle": "Re: jak ktoś kupił 8 lat temu to dziś jest na 0",
-      "url": "https://www.bankier.pl/forum/temat_jak-ktos-kupil-8-lat-temu-to-dzis-jest-na-0,74934175.html",
-      "body": "Ja glabie kupilem po 2,5 zł i po drodze wwszystkie dywidenday. Takich pajaców przerabiałem tu setkach.",
+      "id": "74943381",
+      "author": "Mario",
+      "postedAt": "2026-06-27 21:41",
+      "threadTitle": "Niebezpieczne",
+      "url": "https://www.bankier.pl/forum/temat_tesciowa-tuska-mowi-kupuj,64446395.html",
+      "body": "Skoro plebs prawacki z wioch po podstawówce o IQ kału zacheca do kupna to należy się strzec!",
       "votes": {
         "up": 0,
         "down": 0
       },
-      "sentimentScore": 0.931,
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74943337",
+      "author": "Je",
+      "postedAt": "2026-06-27 21:30",
+      "threadTitle": "Re: Niestety. Wygląda to na początek bessy.",
+      "url": "https://www.bankier.pl/forum/temat_niestety-wyglada-to-na-poczatek-bessy,74660361.html",
+      "body": "To nie wygląda.. To nią jest",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74943287",
+      "author": "olo_Kwach",
+      "postedAt": "2026-06-27 21:20",
+      "threadTitle": "Re: Teściowa Tuska mówi kupuj",
+      "url": "https://www.bankier.pl/forum/temat_tesciowa-tuska-mowi-kupuj,64446395.html",
+      "body": "Kupować trzeba bo wybicie będzie",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.964,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74943155",
+      "author": "ori",
+      "postedAt": "2026-06-27 20:43",
+      "threadTitle": "Re: Ryzyko bessy rośnie, a może się już zaczyna",
+      "url": "https://www.bankier.pl/forum/temat_ryzyko-bessy-rosnie-a-moze-sie-juz-zaczyna,74943023.html",
+      "body": "czas na gaming",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74943105",
+      "author": "SztucznaYntelygencja",
+      "postedAt": "2026-06-27 20:31",
+      "threadTitle": "Re: Edgerunners 2 premiera wrzesień?",
+      "url": "https://www.bankier.pl/forum/temat_edgerunners-2-premiera-wrzesien,74914101.html",
+      "body": "h ttps://x.com/i/status/2070930176393855400 usuń spacje.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74943023",
+      "author": "Zenon",
+      "postedAt": "2026-06-27 20:19",
+      "threadTitle": "Ryzyko bessy rośnie, a może się już zaczyna",
+      "url": "https://www.bankier.pl/forum/temat_ryzyko-bessy-rosnie-a-moze-sie-juz-zaczyna,74943023.html",
+      "body": "Jak myślicie, jak się zachowa kurs CDR?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74942985",
+      "author": "Ącki",
+      "postedAt": "2026-06-27 20:15",
+      "threadTitle": "Re: Cykliczność na kursie",
+      "url": "https://www.bankier.pl/forum/temat_cyklicznosc-na-kursie,74866235.html",
+      "body": "Zaczyna się realizować",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74942923",
+      "author": "Sen",
+      "postedAt": "2026-06-27 20:05",
+      "threadTitle": "Re: Samo CDP robi wiele dla tego kursu co konfa to zjazd",
+      "url": "https://www.bankier.pl/forum/temat_samo-cdp-robi-wiele-dla-tego-kursu-co-konfa-to-zjazd,74939849.html",
+      "body": "Na kolejnej wszystko się wyjaśni.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74942921",
+      "author": "Sen",
+      "postedAt": "2026-06-27 20:03",
+      "threadTitle": "Re: Najgorsza spółka WIG20",
+      "url": "https://www.bankier.pl/forum/temat_najgorsza-spolka-wig20,74923933.html",
+      "body": "Radzę sprawdzić pasy, w przyszłym tygodniu powrót wzrostów...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74942791",
+      "author": "Pkc",
+      "postedAt": "2026-06-27 19:27",
+      "threadTitle": "Re: Najgorsza spółka WIG20",
+      "url": "https://www.bankier.pl/forum/temat_najgorsza-spolka-wig20,74923933.html",
+      "body": "Normalnie rozpacz.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74942783",
+      "author": "Pkc",
+      "postedAt": "2026-06-27 19:26",
+      "threadTitle": "Re: Samo CDP robi wiele dla tego kursu co konfa to zjazd",
+      "url": "https://www.bankier.pl/forum/temat_samo-cdp-robi-wiele-dla-tego-kursu-co-konfa-to-zjazd,74939849.html",
+      "body": "Same domysły i nikt nic nie wie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74942777",
+      "author": "Pkc",
+      "postedAt": "2026-06-27 19:24",
+      "threadTitle": "Tu nikt nic nie wie taka polityka zarzadu",
+      "url": "https://www.bankier.pl/forum/temat_tu-nikt-nic-nie-wie-taka-polityka-zarzadu,74942777.html",
+      "body": "Nawet nie wiadomo jaki jest harmonogram wydawniczy. To co nagan pisze jest totalnym odlotem od realiów.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74942587",
+      "author": "Zenon",
+      "postedAt": "2026-06-27 18:27",
+      "threadTitle": "Re: Sprawdzam Toy Toye i w ten upał jest bardzo rzadkie!!!!",
+      "url": "https://www.bankier.pl/forum/temat_sprawdzam-toy-toye-i-w-ten-upal-jest-bardzo-rzadkie,74941493.html",
+      "body": "Wy chłopaki, przypominacie mi film którego nigdy nie oglądałem, ale którego tytuł wrył mi się w pamięci, czyli \"Głupi i głupszy\", tamto to była fikcja, ale wy przekuwanie ją w rzeczywistość.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74942571",
+      "author": "Zenon",
+      "postedAt": "2026-06-27 18:22",
+      "threadTitle": "Re: Od dzisiaj walczę o kulturę i merytorykę na tym forum",
+      "url": "https://www.bankier.pl/forum/temat_od-dzisiaj-walcze-o-kulture-i-merytoryke-na-tym-forum,74941273.html",
+      "body": "Czyli śnisz na forum?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74942535",
+      "author": "Dziaders",
+      "postedAt": "2026-06-27 18:12",
+      "threadTitle": "Re: Od dzisiaj walczę o kulturę i merytorykę na tym forum",
+      "url": "https://www.bankier.pl/forum/temat_od-dzisiaj-walcze-o-kulture-i-merytoryke-na-tym-forum,74941273.html",
+      "body": "Gdzie umysł zasypia, tam budzi się forum bankiera.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74942395",
+      "author": "lol",
+      "postedAt": "2026-06-27 17:32",
+      "threadTitle": "Re: ❗️❤️ Na czym polega fenomen totalnego niedowartościowania Redów⁉️❓",
+      "url": "https://www.bankier.pl/forum/temat_na-czym-polega-fenomen-totalnego-niedowartosciowania-redow,74937471.html",
+      "body": "@Ggg Na razie Hmm napisał w tym jednym wątku niż ty we wszystkich swoich wpisach na tym forum. Nic nie stoi na przeszkodzie, żebyś popisał się merytoryką. I nie mówiłem ci, co masz robić. Najwyraźniej średnio rozumiesz polski, pewnie stąd problemy z oceną nojego wpisu i merytoryki w ogóle.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74942363",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-06-27 17:21",
+      "threadTitle": "Re: Sprawdzam Toy Toye i w ten upał jest bardzo rzadkie!!!!",
+      "url": "https://www.bankier.pl/forum/temat_sprawdzam-toy-toye-i-w-ten-upal-jest-bardzo-rzadkie,74941493.html",
+      "body": "Jak znajdziesz owsiki to możesz wzionść na ryby jak bendziesz szedł z kolegom nad Swendrnie koło cmentaża.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74942243",
+      "author": "Rewizor",
+      "postedAt": "2026-06-27 16:51",
+      "threadTitle": "Re: lup Nagan❗️ Na tym polega fenomen lania wody przez spekulantów⁉️",
+      "url": "https://www.bankier.pl/forum/temat_na-czym-polega-fenomen-totalnego-niedowartosciowania-redow,74937471.html",
+      "body": "No i nie wytrzymalem...mabmab zdanie po zdaniu merytorycznie uzasadnia swoje tezy. Co robi Nagan? Ucieka sie do chwytu polegajacego na probie skoncentrowaniu uwagi na nicku przekrecajac i czyniac niby osmieszajacym. Bo mamba to jeden z najgrozniejszych wezy..no ale gad. I tak wyglada manipulacja podprogowa. Potem juz znowu nastepuje niby edukatorska narracja w stylu AI. Mitologizowanie CD Projekt jest po prostu szczeniackie i kontrproduktywne. Wobec agresji Nagana proponuje przestac reagowac na jego AIowskie elaboraty. Jutro 29.06 dzien acid test dla zarzadu i jego adwokata Nagana.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74942241",
+      "author": "SztucznaYntelygencja",
+      "postedAt": "2026-06-27 16:50",
+      "threadTitle": "Re: Edgerunners 2 premiera wrzesień?",
+      "url": "https://www.bankier.pl/forum/temat_edgerunners-2-premiera-wrzesien,74914101.html",
+      "body": "Darmowe AI nie jest doradcą inwestycyjnym. Nie podam ci daty dołka, ale moim zdaniem te dwa nadchodzące wydarzenia związane z Edgerunners2 mogą spowodować odbicie. Potem Gamescom to już będzie konkret.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74942081",
+      "author": "Zenon",
+      "postedAt": "2026-06-27 16:13",
+      "threadTitle": "Re: Od dzisiaj walczę o kulturę i merytorykę na tym forum",
+      "url": "https://www.bankier.pl/forum/temat_od-dzisiaj-walcze-o-kulture-i-merytoryke-na-tym-forum,74941273.html",
+      "body": "Mądra decyzja mistrzu! Będę twoim akolitą.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "74941795",
@@ -108,7 +384,7 @@
       "url": "https://www.bankier.pl/forum/temat_praktyka-cwanego-wykorzystywania-lokalnej-glupoty-gieldowej,74938149.html",
       "body": "> czyli cdr nie planowało dodatku na 2026?> czyli jeden z prezesów Michał Nowakowski kłamie?> \"Planowaliśmy wydać Songs of the Past w tym roku. Zdecydowaliśmy jednak, wspólnie z zespołem deweloperskim, że gra ukaże się w 2027 roku, aby osiągnąć jak najlepszy możliwy rezultat z perspektywy konsumenta, co ostatecznie, szczerze mówiąc, jest jedyną rzeczą, która naprawdę się liczy\"> Wiadomo, że nie napiszą produkcja trwa dłużej niż się spodziewaliśmy, dlatego jesteśmy zmuszeniu przełożyć premierę na przyszły rok, musieli ubrać to w ładniejsze słowa.> Natomiast jak widać ty znowu konfabulujesz jak w każdej innej sprawie, masz tego linka z pokazu na unreal fest? bo bym obejrzał chętnie.Łooboszszszeee!?xDDPodstawy logiki się kłaniają drogi hmciu..Piszemy o faktach i wiedzy - w danej rzeczywistości - a nie o cudzych zamiarach, myślach i planach ZWŁASZCZA takich UJAWNIONYCH dopiero POST-FACTUM!!xDDTo że nie dostałeś plaskacza w tym roku - nie oznacza, że ktoś nie może ci go zaproponować w przyszłym - wspominając, że planował realizację tego zabiegu już w tym roku.. xDAle nie masz prawa (nawet po takiej deklaracji) twierdzić, że miałeś oficjalne pogróżki już wcześniej.. Bo chociaż Nieśpielak - półgębkiem sugerował taką możliwość - to nawet ty im aktywnie zaprzeczałeś..xDCzyli OWSZEM.. Planowało - ale nic nie OGŁOSIŁO i ty o tym oficjalnie nie wiedziałeś - stąd dla realiów rynku w tamtym czasie „PRZESUNIĘCIE\" nie istnieje!!Nie istnieje - podobnie jak planowane w ukryciu - limo pod twoim okiem..!!xDDA już poniżanie się przez ciebie - do krytyki mnie osobiście - na podstawie cytowanych przeze mnie plotek medialnych, do których linki nie są objęte embargiem... to przykład żenujących docinków typu: a twój sąsiad dłubie w nosie i dlaczego to jest duda..!xD",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -123,7 +399,7 @@
       "body": "> Kliniczny przypadek Nagan i zarząd CD Projekt. Zasypać słowami i sloganami bez treści a najlepiej kazac AI napisać i wkleić. Teza ,że rynek jest niedojrzały do wyceny CD Projekt jest tak absurdalna ,że szkoda komentarza. Ale to oznacza ,że fundusze szortujące wszak niepolskie i pochodzące z rynkow dojrzałych - brytyjskiego i amerykańskiego - to ignoranci . Ostatni na rynku hotelowym bylo trzęsienie ziemi gdy najwiekszy operator hotelowy zmuszony byl wystawic sie na sprzedaż. Dlaczego o tym piszę? Poniewaz narracja szefostwa byla taka sama jak Nagana i Nowakowskiego - my wiemy lepiej ! I jeszcze jedno o niedojrzalości Nagana świadcze teza jakoby inwestor kierowal sie w swoich decyzjach wpisami na forum. Forum pokazuje jakie są nastroje wśród aktywnych inwestorow indywidualnych ale nikt to szanuje swoje pieniądze nie będzie inwestował na podstawie wpisow choć wielu sie nabrało na pseudo profesjonalne wpisy Nagana oraz pozę osoby ktora ma informacje z wnetrza spolki. Aktualna wycena spolki jest zawyżona najmniej 20% i tam będzie szybko podążac kurs. Ponadto jeśli nie motywuje się zarządu do zwiększania wartości spolki dla akcjonariuszy a jedynie za realizację planów to efekt jest taki jaki jest obecnie. A obecnie alokacja akcji do pracownikow w sytuacji gdy spolka jest bessie to nie motywacja.Drogi trollu - infantylna mambo..Zawsze piszę, że moje - i nie tylko moje wpisy na tym forum - są głosem wołającego na puszczy.. czyli bez znaczenia.. xDDJest tajemnicą poliszynela, że od ca 20 lat Firmę praktycznie prowadził tandem: Michał Nowakowski (CEO – Chief Executive Officer) oraz Adam Badowski (CEO szef studia CD Projekt RED). Tyle że obecnie dostali w ręce pełną decyzyjność i dziś wiadomo, że nie popełniliby błędów poprzedników - bo podobno sprzeciwiali się takim posunięciom. CD Projekt skupia się na solidnym budowaniu długoterminowych fundamentów i wartości własnych marek (IP), ponieważ w branży gier to one generują stabilne przychody przez lata. Na dodatek to one stanowią główną wartość firmy pozwalając nawet na 3-4 krotne przebicie giełdowej wyceny. Krótkoterminowe \"wodotryski\" dla spekulantów i sztuczne pompowanie kursu - niosą ryzyko (nie tylko interwencji KNF) ale utraty zaufania graczy a w efekcie inwestorów - co zniszczyłoby wycenę całej firmy.Takie podejście zarządu wynika z kilku czynników:Zasady \"jakość artystyczna ponad szybkość\": Spółka buduje swoją pozycję na wydawaniu dużych, fabularnych gier RPG, które jako dzieła sztuki sprzedają się przez lata, a nie na taśmowej produkcji gier-usług. Utrzymanie statusu studia premium wymaga czasu i unikania niespełnionych obietnic.Ochrony wizerunku: Branża gier bardzo surowo rozlicza studia z rzucania słów na wiatr. Wypuszczanie niedokończonych produktów lub obietnic bez pokrycia („wodotrysków”) szybko obraca się przeciwko twórcom, uderzając bezpośrednio w wyniki finansowe.Długoterminowych programów motywacyjnych: Zarząd jest rozliczany przez akcjonariuszy z realizacji wieloletnich celów finansowych (np. wypracowania 5 mld zł zysku w latach 2026–2029). To zmusza do myślenia o trwałym rozwoju biznesu (np. tworzeniu nowych gier czy rozwoju własnych światów), zamiast bezsensownego śledzenia dziennego wahania notowań giełdowych.",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -164,7 +440,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprawdzam-toy-toye-i-w-ten-upal-jest-bardzo-rzadkie,74941493.html",
       "body": "Wystarczy pare razy zamieszać i można wpuszczać magnes dymowy do samego dna a w sitach zostaje tylko papier i podpaski i sie łatwo pracuje ale na razie mam tylko jeden telefon i może 30 złotych ale to sie dopiero rozkrenci!!!!!!!",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -192,8 +468,8 @@
       "url": "https://www.bankier.pl/forum/temat_od-dzisiaj-walcze-o-kulture-i-merytoryke-na-tym-forum,74941273.html",
       "body": "Nie ma co ukrywać my maluchy nie jesteśmy dla siebie konkurencją i gramy do jednej bramki, każdy chce zarobić :) jak już wielokrotnie pisałem ja tylko komentuje rzeczywistość, obecnie oczekuje na dobry dla siebie poziom pod kolejne wejście :) widzę perspektywy dla spółki aczkolwiek zostały one oddalone w czasie przez decyzje zarządu dlatego w swoich komentarzach nie pozostaje bezkrytyczny :) również będę piętnował wszelkie głupoty które wypływają z obu obozów jak do tej pory robiłem :) pozdrawiam wszystkich życzę udanego weekendu",
       "votes": {
-        "up": 1,
-        "down": 2
+        "up": 3,
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -221,7 +497,7 @@
       "body": "Ale nie mam Xtb stąd też nie siedzę na forum Xtb i nie wypisuje o ptakach. Moja decyzja bo i moje pieniądze to zakup między 100-150zl cdprojekt i sprzedaż w okolicy premiery. A co mogłoby być? Po co mi takie rozkminy skoro mnie to ani nie wzbogaci ani nie zubożeje? I jeśli uważasz, że mój wpis jest tożsamy z tym co potępiam to może nie jesteś partnerem do dyskusji.",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -248,7 +524,7 @@
       "url": "https://www.bankier.pl/forum/temat_stara-zagrywka-na-cdr,74928449.html",
       "body": "Masz świadomość, że niektórzy kupowali za mniej niż 120 więc zakładając horyzont do w4 co to na dziś zmienia czy jest 200 300 czy 180? Teraz pokaż mi dla porównania czy i jest coś takiego jak wycie akcjonariuszy kiedy rośnie? Bo kiedy spada to jest wysyp ziejących ogniem spółkę (rzekomo nie posądzających akcji)więc po co? Czy ja piszę 10 postów dziennie kiedy rośnie?Teraz taki temat ornitologiczny czemu ma służyć? Mamy tu zgłębiać tajniki życia pelikana? No przecież nikt za darmo w sobotę nie wstanie i nie będąc zaangażowany w spółkę nie pisze na forum bankiera. Przecież to zakrawa o kpinę.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -263,7 +539,7 @@
       "body": "Kliniczny przypadek Nagan i zarząd CD Projekt. Zasypać słowami i sloganami bez treści a najlepiej kazac AI napisać i wkleić. Teza ,że rynek jest niedojrzały do wyceny CD Projekt jest tak absurdalna ,że szkoda komentarza. Ale to oznacza ,że fundusze szortujące wszak niepolskie i pochodzące z rynkow dojrzałych - brytyjskiego i amerykańskiego - to ignoranci . Ostatni na rynku hotelowym bylo trzęsienie ziemi gdy najwiekszy operator hotelowy zmuszony byl wystawic sie na sprzedaż. Dlaczego o tym piszę? Poniewaz narracja szefostwa byla taka sama jak Nagana i Nowakowskiego - my wiemy lepiej ! I jeszcze jedno o niedojrzalości Nagana świadcze teza jakoby inwestor kierowal sie w swoich decyzjach wpisami na forum. Forum pokazuje jakie są nastroje wśród aktywnych inwestorow indywidualnych ale nikt to szanuje swoje pieniądze nie będzie inwestował na podstawie wpisow choć wielu sie nabrało na pseudo profesjonalne wpisy Nagana oraz pozę osoby ktora ma informacje z wnetrza spolki. Aktualna wycena spolki jest zawyżona najmniej 20% i tam będzie szybko podążac kurs. Ponadto jeśli nie motywuje się zarządu do zwiększania wartości spolki dla akcjonariuszy a jedynie za realizację planów to efekt jest taki jaki jest obecnie. A obecnie alokacja akcji do pracownikow w sytuacji gdy spolka jest bessie to nie motywacja.",
       "votes": {
         "up": 4,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -276,7 +552,7 @@
       "url": "https://www.bankier.pl/forum/temat_stara-zagrywka-na-cdr,74928449.html",
       "body": "Dlatego dyżurujesz od rana do wieczora na forum i piszesz na zmianę \"2 zł od wpisu\" albo \"A masz akcje?\".",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -290,11 +566,39 @@
       "url": "https://www.bankier.pl/forum/temat_stara-zagrywka-na-cdr,74928449.html",
       "body": "Na pewno nie zmienia ci stan konta na plus hehehehe, z dnia na dzień niżej. Ale będziesz wył przy 180, będzie wpis za wpisem że \"jesteś spokojny heheheh\"",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74940273",
+      "author": "KUKUNIEK",
+      "postedAt": "2026-06-27 10:20",
+      "threadTitle": "Re: Jestem frajerem,",
+      "url": "https://www.bankier.pl/forum/temat_jestem-frajerem,74937853.html",
+      "body": "> przebiło 220, niebawem kupisz po 214 zł ile zapragnieszSądzę że okolice 200,00 zł będą lepszą okazją do zakupów",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74940241",
+      "author": "KUKUNIEK",
+      "postedAt": "2026-06-27 10:14",
+      "threadTitle": "Re: Jestem frajerem,",
+      "url": "https://www.bankier.pl/forum/temat_jestem-frajerem,74937853.html",
+      "body": "> przebiło 220, niebawem kupisz po 214 zł ile zapragnieszNa spokojnie obejrzałem wykresy indeksów w USA oraz naszego Wig-20 i według mojego rozpoznania do końca zakończenia obecnej fali spadków brakuje kilku sesji handlu i testu wsparcia 3460,00 -3470,00 na Wig-20. Korci mnie aby w Poniedziałek na początku notowań wziąć parę kontraktów na akcje FCDRU26 po stronie SHORT!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
     },
     {
       "id": "74940109",
@@ -388,7 +692,7 @@
       "url": "https://www.bankier.pl/forum/temat_na-czym-polega-fenomen-totalnego-niedowartosciowania-redow,74937471.html",
       "body": "\"często wykorzystujecie każdą okazję – lub celowo kłamiąc wywołujecie zamieszanie – aby wywołać krótkoterminowe wahania cen akcji, co pozwala wam próbować zarabiać na spadkach (tzw shortowanie)\"Niektórzy zapowiadają nawet \"nowe ujęcia z W4 w formie dema przemysłowego\" na Unreal Fest, mimo że spółka dementowała swoją obecność, i odliczają na forum dni do wydarzenia, a później akcje lecą. A o przesunięciu dodatku do W3 informował zarząd.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -444,8 +748,8 @@
       "url": "https://www.bankier.pl/forum/temat_praktyka-cwanego-wykorzystywania-lokalnej-glupoty-gieldowej,74938149.html",
       "body": "i jak myślisz przesunięcie premiery o kilka/kilkanaście miesięcy to dobre info? zwiększy to koszty czy nie zwiększy? przypominam 200 ludzi nad tym dłubie którym trzeba płacić. A premierę reameka wiedźmina 1 to przyspieszy czy opóźni? bo te 200 ludzi ma również nad tym pracować, ale skoro są zakotwiczeni przy dodatku no to chyba jednak opóźni, jak myślisz wyrocznio? to w końcu to dobre info czy nie? mogło mieć wpływ na kurs czy nie?",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 3,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -458,8 +762,8 @@
       "url": "https://www.bankier.pl/forum/temat_praktyka-cwanego-wykorzystywania-lokalnej-glupoty-gieldowej,74938149.html",
       "body": "Piotr Nielubowicz:\"Od kilku kwartałów powtarzamy, że nasz katalog obejmuje niezapowiedziane projekty będące obecnie w zaawansowanej fazie produkcji. Wśród nich jest dodatek tworzony we współpracy z Fool’s Theory. Nasze początkowe plany zakładały premierę Songs of the Past w tym roku, ale ostatecznie zdecydowaliśmy o przesunięciu jej na 2027 rok.\"No ale nagan napisze, że przecież żadnego przesunięcia nie ma.",
       "votes": {
-        "up": 3,
-        "down": 0
+        "up": 4,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -487,7 +791,7 @@
       "body": "czyli cdr nie planowało dodatku na 2026?czyli jeden z prezesów Michał Nowakowski kłamie?\"Planowaliśmy wydać Songs of the Past w tym roku. Zdecydowaliśmy jednak, wspólnie z zespołem deweloperskim, że gra ukaże się w 2027 roku, aby osiągnąć jak najlepszy możliwy rezultat z perspektywy konsumenta, co ostatecznie, szczerze mówiąc, jest jedyną rzeczą, która naprawdę się liczy\"Wiadomo, że nie napiszą produkcja trwa dłużej niż się spodziewaliśmy, dlatego jesteśmy zmuszeniu przełożyć premierę na przyszły rok, musieli ubrać to w ładniejsze słowa.Natomiast jak widać ty znowu konfabulujesz jak w każdej innej sprawie, masz tego linka z pokazu na unreal fest? bo bym obejrzał chętnie.",
       "votes": {
         "up": 4,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -500,7 +804,7 @@
       "url": "https://www.bankier.pl/forum/temat_praktyka-cwanego-wykorzystywania-lokalnej-glupoty-gieldowej,74938149.html",
       "body": "> a ty naganku piękny kawalerze planujesz kiedykolwiek sprzedać akcje? czy wziąłeś ślub ze spółką i będziesz trzymać po wsze czasy?> dobrego inwestora od inwestora odróżnia to, że się dostosowuje gdy krótkoterminowe warunki się zmieniają i można sprzedać po 290 gdy widać oznaki że na tą chwilę to koniec wzrostów i odkupić np. po 200 gdy widać oznaki że to koniec spadków zwiększając pakiet akcji o prawie 50%, rozumiesz takie mechanizmy? i nie pisz że masz taki pakiet akcji że notowania by załamało bo to jest tak płynna spółka że można dziesiątkami tysięcy wachlować. > Waszym problemem jest to że nie potraficie przyjąć krytyki i nie widzicie negatywów, a pierwszą czerwoną lampką była data premiery dodatku na 2027, a drugą wstrzymanie dywidendy - spokojnie można było wyciągnąć wnioski że nie jest tak kolorowo jakbyście chcieli, nawet jak się szczyt przegapiło to wtedy jeszcze po 260 latało można było zareagować, ale po co :)) lepiej pluć jadem :)) Drogi hmciuJuż dawno zarobiłem nieprzyzwoite pieniądze na CD Projekcie (mój - dla większości forumowej gigantyczny pakiet - mam praktycznie „za darmo\") stąd przestało mnie interesować wachlowanie giełdowymi „zarobkami\" tego rzędu.. Tym bardziej, że swoją codzienną pracą zawodową zarabiam podobne kwoty i to bez nerwów z satysfakcją..xDTak na marginesie.. czy ta „czerwona lampka\" jest teraz z tobą w pokoju - oszuście? xDKto z Firmy ZAPOWIEDZIAŁ jakiś dodatek na 2026 rok?I wyjaśnij nam: jak można NIEZAPOWIEDZIANY dodatek PRZESUNĄĆ?? Przecież tygodniami dezawuowaliście „plotkę\" Borysa.. a DLC przedstawiałeś jako fałszywkę?!xDPowtarzam..Faktycznie to kluczowe harmonogramy strategiczne (takie jak prace nad nowymi grami z uniwersum Wiedźmina czy nowym Cyberpunkiem) pozostają nadal w mocy. Zarząd potwierdza, że studio koncentruje się na terminach swoich największych produkcji, a wszelkie mniejsze projekty (w tym treści okołogrowe) stanowią jedynie rozszerzenie portfolio, nie wpływając na rdzeń działalności..",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 3
       },
       "sentimentScore": 0,
@@ -612,7 +916,7 @@
       "url": "https://www.bankier.pl/forum/temat_cdprojekt,74938853.html",
       "body": "bad timing guziczku, dobrze myślisz ale za szybko się powiesiłeś na haczyku :))",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 4
       },
       "sentimentScore": 0,
@@ -626,7 +930,7 @@
       "url": "https://www.bankier.pl/forum/temat_praktyka-cwanego-wykorzystywania-lokalnej-glupoty-gieldowej,74938149.html",
       "body": "a ty naganku piękny kawalerze planujesz kiedykolwiek sprzedać akcje? czy wziąłeś ślub ze spółką i będziesz trzymać po wsze czasy?dobrego inwestora od inwestora odróżnia to, że się dostosowuje gdy krótkoterminowe warunki się zmieniają i można sprzedać po 290 gdy widać oznaki że na tą chwilę to koniec wzrostów i odkupić np. po 200 gdy widać oznaki że to koniec spadków zwiększając pakiet akcji o prawie 50%, rozumiesz takie mechanizmy? i nie pisz że masz taki pakiet akcji że notowania by załamało bo to jest tak płynna spółka że można dziesiątkami tysięcy wachlować. Waszym problemem jest to że nie potraficie przyjąć krytyki i nie widzicie negatywów, a pierwszą czerwoną lampką była data premiery dodatku na 2027, a drugą wstrzymanie dywidendy - spokojnie można było wyciągnąć wnioski że nie jest tak kolorowo jakbyście chcieli, nawet jak się szczyt przegapiło to wtedy jeszcze po 260 latało można było zareagować, ale po co :)) lepiej pluć jadem :))",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 4
       },
       "sentimentScore": 0.322,
@@ -710,8 +1014,8 @@
       "url": "https://www.bankier.pl/forum/temat_praktyka-cwanego-wykorzystywania-lokalnej-glupoty-gieldowej,74938149.html",
       "body": "to jakis dywersant musi być .... coś takiego napisać ale najlepsze w tym jest to,że to blabla AI . Ignorować i banowac",
       "votes": {
-        "up": 2,
-        "down": 6
+        "up": 3,
+        "down": 8
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -738,7 +1042,7 @@
       "url": "https://www.bankier.pl/forum/temat_praktyka-cwanego-wykorzystywania-lokalnej-glupoty-gieldowej,74938149.html",
       "body": "CD Projekt wg nagana.jest jednocześnie najbardziej znaną polską firmą na świecie, słynną z jakości i uwielbianą przez fanów, a jednocześnie nikt nie docenia jej fenomenu i nie kupuje akcji. Takie to zjawisko. Kabaretowe.",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 5
       },
       "sentimentScore": -0.583,
@@ -752,7 +1056,7 @@
       "url": "https://www.bankier.pl/forum/temat_praktyka-cwanego-wykorzystywania-lokalnej-glupoty-gieldowej,74938149.html",
       "body": "odpowiem ci tu tak samo jak w innym wątku bo takie bzdury trzeba piętnowaćmatko bosko giełdowsko czy wy wszyscy jesteście normalni? spada bo mamy niedojrzały rynek? spada bo zagranica wykorzystuje polską mentalność i wycenia cdr jak kopalnie i banki? spada bo nikt nie docenia fenomenu cdr i nie potrafi wycenić ich ip ? większych bzdur to tu dawno nie było............. a może poprostu spada bo się plan wydawniczy posypał i niepokrywa się z wycenami biur maklerskich na ten i przyszły rok? nie wpadło wam do głowy że to takie proste?",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 7
       },
       "sentimentScore": -0.87,
@@ -781,7 +1085,7 @@
       "body": "> \"To zjawisko idealnie pokazuje, dlaczego archaiczny polski WIG20 (jako indeks oparty w większości na tradycyjnych sektorach: banki, surowce, energetyka) nie potrafi właściwie dyskontować wartości aktywów niematerialnych i prawnych, jakimi są np globalne franczyzy w branży rozrywkowej.\"> a ty naganku wiesz że tą perełkę można kupić na całym świecie? i że na gpw największy obrót robi zagranica a nie polski rynek? czyli jednak to zagranica wycenia tą perełeczkę? :):):):))))))Drogi trollu (mam nadzieję, że tylko naiwny?)Zagraniczni inwestorzy chętnie wykorzystują u nas tradycyjne (często księgowe) metody wyceny aktywów niematerialnych głównie jako narzędzie redukcji ryzyka i zabezpieczenia kapitału. Pozwala im to na uzyskanie wyjątkowo zaniżonych wycen konserwatywnych, które chronią ich interesy na rynkach wschodzących, a także ułatwiają wykorzystanie naiwności lokalnego akcjonariatu i analityków.Parafrazując - jest to chyba raczej przykład złodziejskiego wykorzystywania lokalnej „głupoty\" giełdowej?I takie spostrzeżenie trafia w sedno tej rynkowej mechaniki - skupiając jak w soczewce wykorzystywanie infantylności naszych pseudo-inwestorów. To, co z perspektywy naszego rynku może wyglądać na standardową procedurę - dla zagranicznego kapitału jest świadomym i cwaniackim wykorzystywaniem asymetrii informacyjnej i instytucjonalnego konserwatyzmu GPW (oraz głupoty miejscowych spekulantów). xDPodsumowując... Na dojrzałych rynkach w niektórych przypadkach, już dawno nastąpiłby zorganizowany przez świadomy akcjonariat short squeez..Tymczasem zagraniczni inwestorzy nie stosują u nas tych „polskich zabytkowych\" metod dlatego, że uważają je za doskonałe. xDStosują je, bo lokalny rynek „papuasów\" na to POZWALA, tworząc okazje do kupowania nowoczesnych technologii za cenę \"starych fabryk\".xDDD",
       "votes": {
         "up": 7,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -794,7 +1098,7 @@
       "url": "https://www.bankier.pl/forum/temat_praktyka-cwanego-wykorzystywania-lokalnej-glupoty-gieldowej,74938149.html",
       "body": "Stosowanie archaicznych metod wyceny giełdowej przez zachodnich inwestorów, to jest raczej przykład cwanego wykorzystywania lokalnej „głupoty\" giełdowej w wycenie spółek innowacyjnych i gamingowych..Takie spostrzeżenie trafia w sedno - tej rynkowej mechaniki - skupiając jak w soczewce wykorzystywanie infantylności naszych pseudo-inwestorów. To, co z perspektywy naszego rynku może wyglądać na standardową procedurę - dla zagranicznego kapitału jest świadomym wykorzystywaniem asymetrii informacyjnej i instytucjonalnego konserwatyzmu GPW (i głupoty miejscowych spekulantów). xDNa dojrzałych rynkach dawno nastąpiłby zorganizowany przez świadomy akcjonariat short squeez..Wspomniane zjawisko można rozłożyć na kilka, cynicznych wręcz mechanizmów rynkowych...Np. wykorzystanie braku lokalnych analityków-specjalistówMechanizm: Na GPW większość biur maklerskich specjalizuje się w bankach, energetyce i surowcach. Brakuje zespołów potrafiących rzetelnie wyceniać opcje realne czy przyszłe strumienie z patentów.Efekt: Lokalny rynek zaniża wartość spółek bogatych w IP (własność intelektualną), bo ich \"nie rozumie\".Cel: Zagraniczni inwestorzy, posiadający globalne know-how, doskonale widzą te błędy i celowo z nich korzystają.Albo narzucanie własnych reguł w audycieMechanizm: Zagraniczni gracze celowo forsują w negocjacjach tradycyjne wyceny (np. metodą odtworzeniową), argumentując to rzekomym \"standardem bezpieczeństwa\". xDDDEfekt: Polski założyciel lub akcjonariusz mniejszościowy ustępuje, myśląc, że to wymóg \"zachodniego profesjonalizmu\"! xDCel: Jest to czysto psychologiczne i negocjacyjne zbicie ceny.Inny przykład to arbitraż wyceny (Valuation Arbitrage)Mechanizm: Zagraniczny fundusz kupuje polską spółkę technologiczną lub gamingową wycenianą lokalnymi, \"archaicznymi, sztywnymi\" metodami.Efekt: Płaci ułamek kwoty, jaką ta sama spółka musiałaby kosztować na NASDAQ.Cel: Przejęcie tanich aktywów, restrukturyzacja i ewentualny debiut na rynku zachodnim z gigantycznym przebiciem oraz zrobienie w „wuja\" polskich spekulantów.Takie przykłady można mnożyć w nieskończoność.. Chociażby głupawa presja na dywidendę zamiast na wzrost..Mechanizm: Polski akcjonariat (zwłaszcza fundusze emerytalne i inwestycyjne) tradycyjnie preferują spółki dywidendowe z twardym majątkiem.Efekt: Spółki reinwestujące wszystko w IP są przez rynek \"karane\" niższą wyceną.Cel: Zagraniczny kapitał agresywny (np. Private Equity) przejmuje kontrolę nad taką spółką, ściągając ją z giełdy (delisting) po rażąco niskiej cenie.Podsumowując... Na dojrzałych rynkach dawno nastąpiłby zorganizowany przez świadomy akcjonariat short squeez..Tymczasem zagraniczni inwestorzy nie stosują tych „polskich zabytkowych\" metod dlatego, że uważają je za doskonałe. Stosują je, bo lokalny rynek „papuasów\" na to pozwala, tworząc okazje do kupowania nowoczesnych technologii za cenę \"starych fabryk\". xDDD",
       "votes": {
-        "up": 10,
+        "up": 11,
         "down": 7
       },
       "sentimentScore": 0.964,
@@ -907,7 +1211,7 @@
       "body": "> Haha, nadal fantazjujesz o 60% rentowności :)> Realnie to Q126 był na minusie przez koszty produkcji kilku projektów. \"magiczne\" odpisy księgowe nie zmienią sytuacji ujemnego cash flowu. > > Dlatego też zysk idzie na kapitał zapasowy bo spalają gotówkę ~100M PLN na kwartał.> Każdy rok obsuwy W4 to 1 mld złotych do odrobienia. Może zrozumiesz czemu ta spółka spada :)Drogi trolluWygrywasz w konkurencji przechwalania się nieuctwem..!?xDStatystyka uznawana jest za obiektywną, ponieważ opiera się na matematyce i teorii prawdopodobieństwa. Omawiany wskaźnik 60% rentowności - to marża zysku netto. Oblicza się ją poprzez podzielenie skonsolidowanego zysku netto z działalności kontynuowanej (np. 595 mln zł) przez przychody ze sprzedaży (np. 867 mln zł) i pomnożenie przez 100.Praktycznie wszyscy na świecie (nawet amerykańskie spółki z branży gier) korzystają z tych samych międzynarodowych standardów księgowych (US GAAP), więc ich wskaźniki będą liczone w sposób tożsamy. Nie miałyby jednak automatycznie tak samo dobrej rentowności z kilku powodów, które są oczywiste!Dlatego też większość gigantów rynku amerykańskiego (np. Electronic Arts) raportuje marże netto na poziomie 15% - 20%, ponieważ ich przychody są proporcjonalnie pomniejszane przez ogromne wydatki na marketing i dystrybucję nowych premier, licencje sportowe czy akwizycje innych studiów oraz bardzo wysokie w USA koszty pracy i operacyjne, których (dotychczas) unika polski gaming.Zauważ też, że większość udzielanych licencji, kooperacji czy współpracy Redów - opiera się na przeważającym udziale własnym firm zewnętrznych (praktycznie koszty są niemal wyłącznie przez nich pokrywane). Ponieważ to CDR jest „piękną panną na wydaniu\" i „zalotnicy\" chętnie płacą niemal każdą cenę, za uczestniczenie w kreowania pozytywnych emocji przez IP Redów.!",
       "votes": {
         "up": 2,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -948,7 +1252,7 @@
       "url": "https://www.bankier.pl/forum/temat_na-czym-polega-fenomen-totalnego-niedowartosciowania-redow,74937471.html",
       "body": "Spadki to nie jego wina, ale rozumiem, że wpisy na forum strasznie bolą i szukasz obiektu nienawiści. Spółka ma zarząd, może tam poszukaj?",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 7
       },
       "sentimentScore": 0.322,
@@ -1102,7 +1406,7 @@
       "url": "https://www.bankier.pl/forum/temat_na-czym-polega-fenomen-totalnego-niedowartosciowania-redow,74937471.html",
       "body": "Jak wprowadzą w czwartym Wiedźminie \"dedykowany przycisk skoku\", który zapowiadałeś, to wszysyko się zmieni.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 7
       },
       "sentimentScore": 0.583,
@@ -1116,7 +1420,7 @@
       "url": "https://www.bankier.pl/forum/temat_na-czym-polega-fenomen-totalnego-niedowartosciowania-redow,74937471.html",
       "body": ":D:D:Dnagan podasz linka do tego pokazu z unreal fest? chętnie oglądne jeszcze raz te postępy poczynione w produkcji :)",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 8
       },
       "sentimentScore": 0.583,
@@ -1145,7 +1449,7 @@
       "body": "Nawet byle globalne IP - znacznie gorsze w rankingach i sprzedaży od marek CD Projektu - mają na świecie lepsze przebicie.. i to właśnie dotyka sedna problemu z wyceną giełdową Redów w stosunku do realnej wartości ich unikalnego IP. Nasza GPW jest najczęściej ślepa na faktyczną wartość kulturową marek, przez co spółka posiadająca globalne franczyzy jest - w tradycyjnych modelach prowincjonalnej giełdy - drastycznie niedowartościowane!! Oczywiście rozumiem argument dostosowania się do powszechnie panującej głupoty w postaci - praktycznego krótkoterminowo - wykorzystywania tej anomalii..Ponieważ ta ślepota jest skumulowaną ignorancją naszych znerwicowanych pseudo-inwestorów pozwalającą bezkarnie sprzedawać „złoto\" za puszkę browca i je odkupić za podobną „cenę\".. xDAle publiczne jej wspieranie i poważne publikowanie teorii, że „ziemia jest płaska\" to już zjawisko przynajmniej niepokojące.. ze względu na zażenowanie, które zazwyczaj powinno budzić przechwalanie się głupotą..xDStąd nawet podanie miażdżących danych, faktów i ekscytujących wydarzeń - bywa przez giełdowych troglodytów traktowane jak odkrycia Archimedesa przez rzymskiego żołdaka, który go zwyczajnie zarżnął - wbrew rozkazom dowódców - rozumiejących unikalną wartość tego geniusza..!xDDKiedy dochodzi do transakcji na wolnym rynku, który mówi „SPRAWDZAM\" - giganci medialni nie kupują bieżącego EBITDA czy kodu źródłowego gier – kupują natomiast monopol na emocje dziesiątków milionów fanów! Dlatego w praktyce biznesowej, nawet słabsze w rankingach (lub przechodzące kryzys) IP potrafią wygenerować wielokrotnie wyższe przebicie transakcyjne niż wynikałoby to z giełdowego kursu akcji - również na dojrzałych giełdach.Dlaczego zatem nawet \"słabsze\" IP (niż Redów) osiągają potężne mnożniki na wolnym rynku?Gwarancja natychmiastowego zasięgu: Nawet jeśli marka ma w danym momencie słabsze oceny (np. gorsza premiera ostatniej części, spadek ocen w recenzjach), to wciąż posiada miliony tzw. \"uśpionych fanów\". Dla kupującego (np. Disney, Sony, Netflix czy fundusze z Bliskiego Wschodu) reaktywacja znanej marki jest nieprawdopodobnie tańsza i bezpieczniejsza niż budowanie nowej franczyzy od zera.Potencjał transmedialny (Cross-media): Giełda wycenia CD Projekt głównie przez pryzmat: „kiedy wyjdzie nowa gra i ile sztuk się sprzeda”. Wolny rynek patrzy na to zupełnie inaczej. Jeśli dane IP ma potencjał na 3 sezony serialu animowanego, park rozrywki, zabawki, ubrania i grę mobilną (gdzie marże są gigantyczne), to wartość tego IP dla konglomeratu medialnego rośnie o kilkaset procent względem wyceny czysto \"growej\". Wyceny transakcyjne w branży: W historii przejęć widzieliśmy sytuacje, gdzie marki o teoretycznie słabszej pozycji rynkowej, mniejszej liczbie aktywnych graczy czy gorszych ocenach krytyków były przejmowane za astronomiczne kwoty (np. transakcje na poziomie 20x–30x EV/EBITDA), podczas gdy stabilne, ale pozbawione \"magii IP\" studia z trudem osiągają mnożniki rzędu 10x. Jak to zjawisko wygląda w kontekście CD Projektu na wolnym rynku?Bieżąca wycena rynkowa CD Projektu na GPW oscyluje wokół 22–23 miliardów PLN ($5,9–6,0 mld USD). Gdyby ta spółka była wyceniana wyłącznie metodą porównawczą do standardowych przedsiębiorstw z WIG20, premia za kontrolę wyniosłaby zaledwie kilkadziesiąt procent (max 70%). Jednak w scenariuszu realnego, wolnorynkowego przejęcia przez globalnego giganta rozrywkowego: Wiedźmin i Cyberpunk to jedne z zaledwie kilku marek na świecie o tak głębokim lore, rozpoznawalności i zaangażowaniu społeczności i chyba ostatnie, o które dobijają się giganci medialni.Kupujący płaciłby za tzw „efekt rzadkości” – ponieważ na rynku nie ma już wolnych, niezależnych studiów z aż dwoma globalnymi IP w takiej skali.Z tego powodu, przy próbie zakupu tak unikalnego CD Projektu na wolnym rynku, wycena oparta na sile samego IP mogłaby całkowicie oderwać się od giełdowej grawitacji, generując 3 - lub nawet 4-krotne przebicie (w granicach 50–90 miliardów PLN), bez względu na to, ile studio w danym kwartale zaraportowało czystego zysku. Czyli (parafrazując) jedna franczyza Redów jest droższa niż obecna wycena giełdowa całej firmy..!xDTo zjawisko idealnie pokazuje, dlaczego archaiczny polski WIG20 (jako indeks oparty w większości na tradycyjnych sektorach: banki, surowce, energetyka) nie potrafi właściwie dyskontować wartości aktywów niematerialnych i prawnych, jakimi są np globalne franczyzy w branży rozrywkowej.Taka wycena nawet nie musi uwzględniać faktu, że jest to najstabilniejsza oraz najbardziej perspektywiczna i rozwojowa spółka w WIG20!",
       "votes": {
         "up": 12,
-        "down": 10
+        "down": 12
       },
       "sentimentScore": 0.981,
       "sentimentLabel": "Positive"
@@ -1592,7 +1896,7 @@
       "url": "https://www.bankier.pl/forum/temat_jak-ktos-kupil-8-lat-temu-to-dzis-jest-na-0,74934175.html",
       "body": "Świetna długoterminowa inwestycja. Kwiaty dla zarządu!",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.87,
@@ -2019,20 +2323,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "74934185",
-      "author": "Hmm",
-      "postedAt": "2026-06-26 14:23",
-      "threadTitle": "Re: ❤️ Jakby powiedzieć, żebyście zrozumieli... To już wkrótce...❗️",
-      "url": "https://www.bankier.pl/forum/temat_jakby-powiedziec-zebyscie-zrozumieli-roznice-miedzy-produktem-a,74802621.html",
-      "body": "Jest lider naganiaczy, wyszedł z nory pociągnąć dalsze spadki",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74934175",
       "author": "homer",
       "postedAt": "2026-06-26 14:22",
@@ -2047,124 +2337,12 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "74934149",
-      "author": "mabmab",
-      "postedAt": "2026-06-26 14:21",
-      "threadTitle": "Re: ❤️ Jakby powiedzieć... sink!sink! sink!!!❗️Nagan",
-      "url": "https://www.bankier.pl/forum/temat_jakby-powiedziec-zebyscie-zrozumieli-roznice-miedzy-produktem-a,74802621.html",
-      "body": "nie zdziwie sie jeśli zacznie sie Nagan hunting .... no Titanic w wersji CD P: kurs tonie a Nagan gra swoje. Get lost morron ! Buzz off! Ile on bierze za wpisy od N>?",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74934081",
-      "author": "Zdzisław",
-      "postedAt": "2026-06-26 14:17",
-      "threadTitle": "Musimy my longiem trzymać sie razem!!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_musimy-my-longiem-trzymac-sie-razem,74934081.html",
-      "body": "I tak kiedyś będziemy bardzo bogaci a ja kończę z forum do poniedziałku bo będziemy ustawuać pieńć Toy Toi a jest gironco to brndzue rzadkie i sita nie bendom sie zapychać!!!!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74934041",
-      "author": "Hmm",
-      "postedAt": "2026-06-26 14:15",
-      "threadTitle": "290 było ci mało, 280 malo, 270, 260, 250... To patrz jak pęka 200",
-      "url": "https://www.bankier.pl/forum/temat_290-bylo-ci-malo-280-malo-270-260-250-to-patrz-jak-peka-200,74934041.html",
-      "body": "Chytry dwa razy traci",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74934015",
-      "author": "nagan",
-      "postedAt": "2026-06-26 14:13",
-      "threadTitle": "❤️ Jakby powiedzieć, żebyście zrozumieli... To już wkrótce...❗️",
-      "url": "https://www.bankier.pl/forum/temat_jakby-powiedziec-zebyscie-zrozumieli-roznice-miedzy-produktem-a,74802621.html",
-      "body": "To już wkrótce!https://i.imgur.com/QxOyc0r.png",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74933971",
-      "author": "Gtr",
-      "postedAt": "2026-06-26 14:11",
-      "threadTitle": "Re: Pytanie do płatnego cynicznego nagan-iacza?",
-      "url": "https://www.bankier.pl/forum/temat_pytanie-do-platnego-cynicznego-nagan-iacza,74933819.html",
-      "body": "Niestety, Nagana nie zastano w miejscu pracy czyli na forum Bankiera. Właśnie wyjechał na zasłużony urlop po dość uciążliwym roku ciężkiej pracy w naganianiu na CDP-a. Wszelkie wiadomości proszę kierować w postach poniżej. Na wszystkie postara się odpowiedzieć po powrocie.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74933897",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-06-26 14:06",
-      "threadTitle": "Re: Pytanie do płatnego cynicznego nagan-iacza?",
-      "url": "https://www.bankier.pl/forum/temat_pytanie-do-platnego-cynicznego-nagan-iacza,74933819.html",
-      "body": "Niech wrzuci te ujęcia z Chicago!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74933845",
       "author": "AkcjoMariusz",
       "postedAt": "2026-06-26 14:04",
       "threadTitle": "Re: Dzisiaj też fotel lidera spadków przypadnie nam w zaszczyt?",
       "url": "https://www.bankier.pl/forum/temat_dzisiaj-tez-fotel-lidera-spadkow-przypadnie-nam-w-zaszczyt,74928911.html",
       "body": "Codziennie coraz gorsi!!!! To powinno być nasze chasło!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74933819",
-      "author": "ontario",
-      "postedAt": "2026-06-26 14:03",
-      "threadTitle": "Pytanie do płatnego cynicznego nagan-iacza?",
-      "url": "https://www.bankier.pl/forum/temat_pytanie-do-platnego-cynicznego-nagan-iacza,74933819.html",
-      "body": "Czy mógłbyś w końcu wkleić te screeny?No i przypomnieć te wydarzenia prowzrostowe :-)Tak bardzo brakuje nam też informacji o nowych gaciach z CP2077 lub Wiedźminem!",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74933787",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-06-26 14:00",
-      "threadTitle": "Redzi majom nowom tradycje!!!",
-      "url": "https://www.bankier.pl/forum/temat_redzi-majom-nowom-tradycje,74933787.html",
-      "body": "Codziennie som najgorsi na wig20!!!!",
       "votes": {
         "up": 0,
         "down": 0
@@ -2185,34 +2363,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74933717",
-      "author": "Orim",
-      "postedAt": "2026-06-26 13:57",
-      "threadTitle": "200 zl dzis",
-      "url": "https://www.bankier.pl/forum/temat_200-zl-dzis,74933717.html",
-      "body": "Tak jak najbardziej i niech sie stanie. Rating trash",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74933621",
-      "author": "adiiiii",
-      "postedAt": "2026-06-26 13:52",
-      "threadTitle": "Re: Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "Dobrze mieć własne zdanie , dla nie których każda cena to za drogo ale sprzedać do za miliony . Tylko trzeba mieć co , więc kupić i rece pod tyłek , najlepsza strategia .",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "74933581",
@@ -2243,20 +2393,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74933603",
-      "author": "M84ck",
-      "postedAt": "2026-06-26 13:51",
-      "threadTitle": "Re: Shorty miały jednak rację...",
-      "url": "https://www.bankier.pl/forum/temat_shorty-mialy-jednak-racje,74933151.html",
-      "body": "Nie szkodzi , kasy mi nie brakuje rok w tę czy w te nie zrobi żadnej różnicy. Tylko cierpliwi tu zarobią",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "74933575",
       "author": "M84ck",
       "postedAt": "2026-06-26 13:50",
@@ -2285,20 +2421,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74933495",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-06-26 13:46",
-      "threadTitle": "Jeszcze dzisiaj możliwe widły.",
-      "url": "https://www.bankier.pl/forum/temat_jeszcze-dzisiaj-mozliwe-widly,74933495.html",
-      "body": "Ale dolne!!!!!! Do 201 już blisko może widłowy nas uratuje i nie puści poniżej 200",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74933449",
       "author": "RaV",
       "postedAt": "2026-06-26 13:44",
@@ -2320,25 +2442,11 @@
       "url": "https://www.bankier.pl/forum/temat_stara-zagrywka-na-cdr,74928449.html",
       "body": "Ale nerwy... ojojoj.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74933421",
-      "author": "lol",
-      "postedAt": "2026-06-26 13:42",
-      "threadTitle": "Re: Shorty miały jednak rację...",
-      "url": "https://www.bankier.pl/forum/temat_shorty-mialy-jednak-racje,74933151.html",
-      "body": "Nie denerwuj się tak, spokojny człowieku. Czekaj na swoje 350, te lata miną jak z bicza strzelił.",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "74933395",
@@ -2355,62 +2463,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "74933379",
-      "author": "lol",
-      "postedAt": "2026-06-26 13:40",
-      "threadTitle": "Re: Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "\"Nawet w górę że wie da?\"Mycka84 już zaczął piąteczek. Ale widać, że się nie poddaje nasz analityk, nadal naucza maluczkich.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74933265",
-      "author": "Jestgit",
-      "postedAt": "2026-06-26 13:33",
-      "threadTitle": "Re: Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "Mnie te wasze trolowe haki i te i.diotyczne wpisy nie ruszaja. Jak bedzie 320 zloty naliczniku to ty sie bedziesz slinil i pienil a ja patrzyl na zielony kolor mojego rachunku nieudaczniku...",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74933247",
-      "author": "M84ck",
-      "postedAt": "2026-06-26 13:32",
-      "threadTitle": "Re: Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "Wiesz co to uśrednianie? Nawet w górę że wie da?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74933257",
-      "author": "lolek",
-      "postedAt": "2026-06-26 13:32",
-      "threadTitle": "Re: Shorty miały jednak rację...",
-      "url": "https://www.bankier.pl/forum/temat_shorty-mialy-jednak-racje,74933151.html",
-      "body": "Szorty zawsze mają rację ponieważ to one decydują w którym miejscu jest kurs z racji na zasób portfela.",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "74933227",
       "author": "M84ck",
       "postedAt": "2026-06-26 13:31",
@@ -2425,34 +2477,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74933215",
-      "author": "M84ck",
-      "postedAt": "2026-06-26 13:30",
-      "threadTitle": "Re: Shorty miały jednak rację...",
-      "url": "https://www.bankier.pl/forum/temat_shorty-mialy-jednak-racje,74933151.html",
-      "body": "Kolejny , bierz 1zl za wpis i do lololo",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74933151",
-      "author": "Janek",
-      "postedAt": "2026-06-26 13:26",
-      "threadTitle": "Shorty miały jednak rację...",
-      "url": "https://www.bankier.pl/forum/temat_shorty-mialy-jednak-racje,74933151.html",
-      "body": "Niesamowite jak to leci w dół...Na pewno nie buduje to dobrej opinii spółki jako wiarygodnej i stabilnej",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "74933125",
       "author": "Prawda",
       "postedAt": "2026-06-26 13:25",
@@ -2461,49 +2485,7 @@
       "body": "212 pelikany. Po 180 można się zastanowić",
       "votes": {
         "up": 1,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74933067",
-      "author": "Rafał",
-      "postedAt": "2026-06-26 13:21",
-      "threadTitle": "Re: Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "beziesz tak kupował do 100zł ? Ładnie cie powiesili na haku",
-      "votes": {
-        "up": 6,
-        "down": 3
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74932989",
-      "author": "Jestgit",
-      "postedAt": "2026-06-26 13:17",
-      "threadTitle": "Re: Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "I po 211.80. !!",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74932877",
-      "author": "Jestgit",
-      "postedAt": "2026-06-26 13:11",
-      "threadTitle": "Re: Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "Wlasnie wpadl kolejny pakiet po 215",
-      "votes": {
-        "up": 2,
-        "down": 0
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2535,20 +2517,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74932779",
-      "author": "Xyz",
-      "postedAt": "2026-06-26 13:06",
-      "threadTitle": "Re: Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "Ja wziąłem po 216, następny poziom jak da radę to 208",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "74932731",
@@ -2593,20 +2561,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74932589",
-      "author": "Jestgit",
-      "postedAt": "2026-06-26 12:56",
-      "threadTitle": "Re: Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "Ja nie twierdze ze nie moze byc jeszcze nizej. Uwazam ten poziom za dobry do zainwestowani wiec troche kupilem. Jak bedzie nizej to tez dobiore bo nie wszedlem na 100%. Licze jednak na spore odreagowanie kursu na poczatek a potem dalsze wzrosty.Pozdrawiam",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "74932531",
       "author": "Hmm",
       "postedAt": "2026-06-26 12:51",
@@ -2619,34 +2573,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74932195",
-      "author": "KUKUNIEK",
-      "postedAt": "2026-06-26 12:31",
-      "threadTitle": "Re: Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "> 2 pakiety 217,70÷218,0 > > A trole i te 2 bezmozgi niech ujadaja!!!Pospieszyłeś się kolego o kilka godzin, tak mi wychodzi z wykresu na Wig-20, ja wchodzę dopiero na otwarciu w Poniedziałek /29,06,26/, bo sądzę że może być trochę niżej!",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74931957",
-      "author": "Jestgit",
-      "postedAt": "2026-06-26 12:16",
-      "threadTitle": "Kupione",
-      "url": "https://www.bankier.pl/forum/temat_kupione,74931957.html",
-      "body": "2 pakiety 217,70÷218,0 A trole i te 2 bezmozgi niech ujadaja!!!",
-      "votes": {
-        "up": 13,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "74930767",
@@ -2782,7 +2708,7 @@
       "url": "https://www.bankier.pl/forum/temat_edgerunners-2-premiera-wrzesien,74914101.html",
       "body": "Nie mam nic do sztucznej inteligencji, to narzędzie i można go używać mądrze i głupio. Twój post to bełkot nie z uwagi na treść, ale na formę. Czasami wrzucanie słów w obcym języku ma sens, bo brakuje dobrych odpowiedników w języku polskim, pewne słowa z języka angielskiego się zwyczajnie przyjęły, ale ty ich używasz kiedy ma to sens i kiedy nie ma.Chcesz w 2026 roku błysnąć znajomością angielskiego???Stąd aluzja do sztucznej inteligencji, bo błyskotliwa osoba przypuszczam, że by tak nie pisała, natomiast pisał by tak ktoś kto chciałby zrobić wrażenie osoby błyskotliwej.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 3
       },
       "sentimentScore": 0,
@@ -2882,6 +2808,90 @@
       "votes": {
         "up": 4,
         "down": 7
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74917425",
+      "author": "SztucznaYntelygencja",
+      "postedAt": "2026-06-25 11:05",
+      "threadTitle": "Re: Edgerunners 2 premiera wrzesień?",
+      "url": "https://www.bankier.pl/forum/temat_edgerunners-2-premiera-wrzesien,74914101.html",
+      "body": "Yo, choom Rozumiem, że AI Ci się nie podoba i to Twój święty obowiązek to wyszydzić. Spoko, każdy ma swoje trigger words.Tyle że tu nie chodzi o to, kto napisał post (człowiek czy model), tylko o to, czy treść ma sens. A treść to po prostu zabawa analogią hype cycle’u z 2022 do zapowiedzi sequela — klasyczny pattern recognition, który każdy fan Edgerunners może sam zauważyć.Możesz dalej hejtować AI, a i tak wrzucę kolejny post w tym stylu, jak wyjdzie first look 29 czerwca. Night City nie pyta czy lubisz technologię — ono po prostu Cię chromuje dalej.A Ty wolisz czekać na ręcznie pisane memy z 2018 roku czy jedziemy z aktualnym contentem? Twój wybór, legend.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74915691",
+      "author": "Zenon",
+      "postedAt": "2026-06-25 09:21",
+      "threadTitle": "Re: Edgerunners 2 premiera wrzesień?",
+      "url": "https://www.bankier.pl/forum/temat_edgerunners-2-premiera-wrzesien,74914101.html",
+      "body": "Zaiste sztuczna inteligencja, człowiek takiego bełkotu by nie stworzył, chyba że coś pokroju AkcjoMariusza którego podejrzewam o poważny deficyt umysłowy.",
+      "votes": {
+        "up": 3,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74914101",
+      "author": "SztucznaYntelygencja",
+      "postedAt": "2026-06-25 00:46",
+      "threadTitle": "Edgerunners 2 premiera wrzesień?",
+      "url": "https://www.bankier.pl/forum/temat_edgerunners-2-premiera-wrzesien,74914101.html",
+      "body": "W 2022 hype cycle był bardzo czytelny: pierwszy teaser 8 czerwca (Geeked Week), pokaz odcinka na Anime Expo 2 lipca, a full drop 13 września — czyli ok. 2,5–3 miesiące od pierwszych materiałów do premiery. Klasyczny, dobrze wyważony build-up.Teraz pattern się powtarza: first look Edgerunners 2 zapowiedziany na 29 czerwca, a 3 lipca większy panel na Anime Expo. Dokładnie ta sama letnia window jak przy jedynce. Technicznie rzecz biorąc — jeśli Trigger i Netflix trzymają się sprawdzonej strategii „summer hype → fall release”, to wrzesień 2026 wygląda jak najbardziej prawdopodobny target date. Ryzyko slippage niskie, momentum jest bullish, a timing idealnie wpasowuje się w jesienny sezon oglądania.Long na chrom i emocje. Pozycja otwarta, czekam na confirmation volume we wrześniu Ktoś jeszcze gra ten sam setup?",
+      "votes": {
+        "up": 8,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74903777",
+      "author": "Darek",
+      "postedAt": "2026-06-24 10:04",
+      "threadTitle": "Re: Cykliczność na kursie",
+      "url": "https://www.bankier.pl/forum/temat_cyklicznosc-na-kursie,74866235.html",
+      "body": "14 dni ok. A kiedy dołek, od którego będzie odbicie?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74883047",
+      "author": "CHUDY",
+      "postedAt": "2026-06-22 14:50",
+      "threadTitle": "Re: Cykliczność na kursie",
+      "url": "https://www.bankier.pl/forum/temat_cyklicznosc-na-kursie,74866235.html",
+      "body": "też tak to obserwuję od kilkunastu miesięcy i też mam takie przemyślenia. jest tu jakaś cykliczność. mniejsza, większa, ale jest. w tym roku postanowiłem (odważyłem się) pograć trochę spekulacyjnie. Dwa razy ustrzeliłem szczyt ok. 290zł, ładnie też wytypowałem dołek, nie idealnie, ale nieźle. Ostatni dołek nietrafiony ze względu na przełożenie DLC. Wracając do tematu, widać tu cykle, można pod nie grać i niedługo będzie czas wybicia. stay tuned...",
+      "votes": {
+        "up": 5,
+        "down": 3
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74881727",
+      "author": "zielony_guzik",
+      "postedAt": "2026-06-22 13:29",
+      "threadTitle": "Re: Cykliczność na kursie",
+      "url": "https://www.bankier.pl/forum/temat_cyklicznosc-na-kursie,74866235.html",
+      "body": "Ty nie żartowałeś? Napisz coś wiecej bo zainteresowała mnie twoja opinia",
+      "votes": {
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

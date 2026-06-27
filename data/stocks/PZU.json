@@ -3,31 +3,31 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-06-27T14:07:34.902Z",
+  "updatedAt": "2026-06-27T19:45:17.751Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-27T14:07:34.902Z",
+    "fetchedAt": "2026-06-27T19:45:17.751Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 21
+    "threadsScanned": 20
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.096,
+    "score": -0.089,
     "confidence": 0.73,
-    "commentCount": 85,
+    "commentCount": 82,
     "breakdown": {
       "positive": 16,
-      "negative": 34,
+      "negative": 31,
       "neutral": 35
     },
     "trend": [
       {
         "date": "2026-06-20",
-        "score": -0.417,
-        "count": 4
+        "score": 0,
+        "count": 1
       },
       {
         "date": "2026-06-21",
@@ -65,8 +65,8 @@
         "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 85 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 34 negatywnych, 35 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 82 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 31 negatywnych, 35 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "korekta",
@@ -74,10 +74,6 @@
       },
       {
         "word": "trzeba",
-        "count": 5
-      },
-      {
-        "word": "dobrze",
         "count": 5
       },
       {
@@ -93,7 +89,7 @@
         "count": 5
       },
       {
-        "word": "mnie",
+        "word": "dobrze",
         "count": 4
       },
       {
@@ -106,6 +102,10 @@
       },
       {
         "word": "gora",
+        "count": 3
+      },
+      {
+        "word": "troche",
         "count": 3
       }
     ]
@@ -1258,48 +1258,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74867251",
-      "author": "Maszynista",
-      "postedAt": "2026-06-20 21:21",
-      "threadTitle": "Re: Cieśnina znowu zamknięta",
-      "url": "https://www.bankier.pl/forum/temat_ciesnina-znowu-zamknieta,74866091.html",
-      "body": "Starczy już tego symulowania i wali mnie ta cieśnina, zamkną inflacja ruszy więc dobrze dla pzu, otworzą spadną stopy również dobrze dla pzu...czuje, że dzieciaki i day traderzy są na peronie.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74866971",
-      "author": "Andy",
-      "postedAt": "2026-06-20 20:14",
-      "threadTitle": "Re: Cieśnina otwarta",
-      "url": "https://www.bankier.pl/forum/temat_ciesnina-otwarta,74866909.html",
-      "body": "Zależy od jednego szulera w czerwonej czapeczce ,który rozpoczął tą serię newsów i zdaję się sam wpadł w swoje sidła bo inni od niego nauczyli się tego ściemniania szulerstwa i sami też tak pogrywają tymi infami.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74866909",
-      "author": "Lo21",
-      "postedAt": "2026-06-20 20:00",
-      "threadTitle": "Cieśnina otwarta",
-      "url": "https://www.bankier.pl/forum/temat_ciesnina-otwarta,74866909.html",
-      "body": "Do poniedziałku będzie jeszcze dziesiątki newsów od gownodziennikarstwa.Całe GPW zależy od jednego \"fejku\"",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }
