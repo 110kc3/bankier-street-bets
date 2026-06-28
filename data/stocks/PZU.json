@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-06-28T14:16:59.836Z",
+  "updatedAt": "2026-06-28T19:46:38.434Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-28T14:16:59.836Z",
+    "fetchedAt": "2026-06-28T19:46:38.434Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.087,
-    "confidence": 0.73,
-    "commentCount": 77,
+    "score": -0.061,
+    "confidence": 0.72,
+    "commentCount": 76,
     "breakdown": {
       "positive": 15,
       "negative": 28,
-      "neutral": 34
+      "neutral": 33
     },
     "trend": [
-      {
-        "date": "2026-06-21",
-        "score": 0.161,
-        "count": 2
-      },
       {
         "date": "2026-06-22",
         "score": -0.197,
@@ -58,10 +53,15 @@
         "date": "2026-06-27",
         "score": -0.583,
         "count": 1
+      },
+      {
+        "date": "2026-06-28",
+        "score": 0.762,
+        "count": 1
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 77 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 28 negatywnych, 34 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 76 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 28 negatywnych, 33 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "korekta",
@@ -74,6 +74,10 @@
       {
         "word": "dzis",
         "count": 5
+      },
+      {
+        "word": "dywidendy",
+        "count": 4
       },
       {
         "word": "dobrze",
@@ -98,14 +102,24 @@
       {
         "word": "troche",
         "count": 3
-      },
-      {
-        "word": "mnie",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "74946517",
+      "author": "Kazimierz",
+      "postedAt": "2026-06-28 17:07",
+      "threadTitle": "PZU kupuje się pod Emeryturę",
+      "url": "https://www.bankier.pl/forum/temat_pzu-kupuje-sie-pod-emeryture,74946517.html",
+      "body": "Dywidendy dla spokojnego snu.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "74941055",
       "author": "Inwestor85",
@@ -115,7 +129,7 @@
       "body": "w dłuższej części tak może być i 95 za akcje ale dolek tez pewnie zobaczymy (inwestowanie dlugoterminowe ( wiarze się z cierpliwością wszelkie wachania góra i dół to norma. Obecnie może korekta może bessa ,,,, ale w dłuższej perspektywie wzrost + dewidenda )",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -129,7 +143,7 @@
       "body": "Pzu pon.+5% mam nadzieje i lecimy na 80",
       "votes": {
         "up": 0,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -226,7 +240,7 @@
       "url": "https://www.bankier.pl/forum/temat_nic-to-nie-zmieni,74925325.html",
       "body": "Co tu wypisujecie są korekty to normalne i tak do dywid. Bedzie 80 zl spoko",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 3
       },
       "sentimentScore": -0.322,
@@ -1155,34 +1169,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74870647",
-      "author": "Omar",
-      "postedAt": "2026-06-21 16:32",
-      "threadTitle": "Re: Dojdzie do 70?",
-      "url": "https://www.bankier.pl/forum/temat_dojdzie-do-70,74782871.html",
-      "body": "Nie, do 68,90 bardzo możliwe",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74870597",
-      "author": "Insurance",
-      "postedAt": "2026-06-21 16:18",
-      "threadTitle": "Warto przeczytać...",
-      "url": "https://www.bankier.pl/forum/temat_warto-przeczytac,74870597.html",
-      "body": "https://strefabiznesu.pl/pzu-ma-juz-48-miliardow-zlotych-polacy-przestali-wierzyc-w-zus/gh/c3p2-29106739",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
