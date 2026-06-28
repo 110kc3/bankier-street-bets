@@ -3,11 +3,11 @@
   "companyName": "CD Projekt SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-sa,6,21,353.html",
-  "updatedAt": "2026-06-27T19:43:51.350Z",
+  "updatedAt": "2026-06-28T04:49:29.582Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-27T19:43:51.350Z",
+    "fetchedAt": "2026-06-28T04:49:29.582Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,24 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.057,
-    "confidence": 0.72,
+    "score": 0.074,
+    "confidence": 0.73,
     "commentCount": 200,
     "breakdown": {
-      "positive": 65,
-      "negative": 50,
-      "neutral": 85
+      "positive": 66,
+      "negative": 46,
+      "neutral": 88
     },
     "trend": [
       {
+        "date": "2026-06-21",
+        "score": 0,
+        "count": 1
+      },
+      {
         "date": "2026-06-22",
-        "score": -0.161,
-        "count": 2
+        "score": -0.081,
+        "count": 4
       },
       {
         "date": "2026-06-24",
@@ -41,21 +46,21 @@
       },
       {
         "date": "2026-06-26",
-        "score": 0.072,
-        "count": 137
+        "score": 0.09,
+        "count": 132
       },
       {
         "date": "2026-06-27",
-        "score": 0.014,
-        "count": 47
+        "score": 0.033,
+        "count": 49
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (65 pozytywnych, 50 negatywnych, 85 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (66 pozytywnych, 46 negatywnych, 88 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
-        "count": 14
+        "count": 15
       },
       {
         "word": "masz",
@@ -66,10 +71,6 @@
         "count": 12
       },
       {
-        "word": "nikt",
-        "count": 11
-      },
-      {
         "word": "nagan",
         "count": 11
       },
@@ -78,12 +79,16 @@
         "count": 11
       },
       {
-        "word": "mnie",
+        "word": "rynek",
         "count": 11
       },
       {
-        "word": "rynek",
-        "count": 11
+        "word": "nikt",
+        "count": 10
+      },
+      {
+        "word": "mnie",
+        "count": 10
       },
       {
         "word": "produkcji",
@@ -97,6 +102,34 @@
   },
   "comments": [
     {
+      "id": "74943747",
+      "author": "Beb",
+      "postedAt": "2026-06-27 23:58",
+      "threadTitle": "Re: Stara zagrywka na cdr",
+      "url": "https://www.bankier.pl/forum/temat_stara-zagrywka-na-cdr,74928449.html",
+      "body": "Bo to jest w dalszym ciągu spółka ma końca, ogólnie nie ma czynników, mówiący o tym, że ma rosnąć, nawet dywi nam odebrali. 180 jest możliwe - jak na tyle dojdzie do dokupie, jak zejdzie na 150 to też dokupie. W kontekście wiedźmina 4 i cp to gra jeszcze się potoczy...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74943483",
+      "author": "Red",
+      "postedAt": "2026-06-27 22:08",
+      "threadTitle": "Re: Mhm, szczególnie te, które ładowały szorty poniżej 100",
+      "url": "https://www.bankier.pl/forum/temat_pamietajcie-to-bylo-po-68-70-zl-fundusze-sa-zarobione,74934819.html",
+      "body": "obstawiam poniżej 150 zł do końca roku",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "74943381",
       "author": "Mario",
       "postedAt": "2026-06-27 21:41",
@@ -104,8 +137,8 @@
       "url": "https://www.bankier.pl/forum/temat_tesciowa-tuska-mowi-kupuj,64446395.html",
       "body": "Skoro plebs prawacki z wioch po podstawówce o IQ kału zacheca do kupna to należy się strzec!",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -328,7 +361,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprawdzam-toy-toye-i-w-ten-upal-jest-bardzo-rzadkie,74941493.html",
       "body": "Jak znajdziesz owsiki to możesz wzionść na ryby jak bendziesz szedł z kolegom nad Swendrnie koło cmentaża.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -342,7 +375,7 @@
       "url": "https://www.bankier.pl/forum/temat_na-czym-polega-fenomen-totalnego-niedowartosciowania-redow,74937471.html",
       "body": "No i nie wytrzymalem...mabmab zdanie po zdaniu merytorycznie uzasadnia swoje tezy. Co robi Nagan? Ucieka sie do chwytu polegajacego na probie skoncentrowaniu uwagi na nicku przekrecajac i czyniac niby osmieszajacym. Bo mamba to jeden z najgrozniejszych wezy..no ale gad. I tak wyglada manipulacja podprogowa. Potem juz znowu nastepuje niby edukatorska narracja w stylu AI. Mitologizowanie CD Projekt jest po prostu szczeniackie i kontrproduktywne. Wobec agresji Nagana proponuje przestac reagowac na jego AIowskie elaboraty. Jutro 29.06 dzien acid test dla zarzadu i jego adwokata Nagana.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -385,7 +418,7 @@
       "body": "> czyli cdr nie planowało dodatku na 2026?> czyli jeden z prezesów Michał Nowakowski kłamie?> \"Planowaliśmy wydać Songs of the Past w tym roku. Zdecydowaliśmy jednak, wspólnie z zespołem deweloperskim, że gra ukaże się w 2027 roku, aby osiągnąć jak najlepszy możliwy rezultat z perspektywy konsumenta, co ostatecznie, szczerze mówiąc, jest jedyną rzeczą, która naprawdę się liczy\"> Wiadomo, że nie napiszą produkcja trwa dłużej niż się spodziewaliśmy, dlatego jesteśmy zmuszeniu przełożyć premierę na przyszły rok, musieli ubrać to w ładniejsze słowa.> Natomiast jak widać ty znowu konfabulujesz jak w każdej innej sprawie, masz tego linka z pokazu na unreal fest? bo bym obejrzał chętnie.Łooboszszszeee!?xDDPodstawy logiki się kłaniają drogi hmciu..Piszemy o faktach i wiedzy - w danej rzeczywistości - a nie o cudzych zamiarach, myślach i planach ZWŁASZCZA takich UJAWNIONYCH dopiero POST-FACTUM!!xDDTo że nie dostałeś plaskacza w tym roku - nie oznacza, że ktoś nie może ci go zaproponować w przyszłym - wspominając, że planował realizację tego zabiegu już w tym roku.. xDAle nie masz prawa (nawet po takiej deklaracji) twierdzić, że miałeś oficjalne pogróżki już wcześniej.. Bo chociaż Nieśpielak - półgębkiem sugerował taką możliwość - to nawet ty im aktywnie zaprzeczałeś..xDCzyli OWSZEM.. Planowało - ale nic nie OGŁOSIŁO i ty o tym oficjalnie nie wiedziałeś - stąd dla realiów rynku w tamtym czasie „PRZESUNIĘCIE\" nie istnieje!!Nie istnieje - podobnie jak planowane w ukryciu - limo pod twoim okiem..!!xDDA już poniżanie się przez ciebie - do krytyki mnie osobiście - na podstawie cytowanych przeze mnie plotek medialnych, do których linki nie są objęte embargiem... to przykład żenujących docinków typu: a twój sąsiad dłubie w nosie i dlaczego to jest duda..!xD",
       "votes": {
         "up": 4,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -496,7 +529,7 @@
       "url": "https://www.bankier.pl/forum/temat_stara-zagrywka-na-cdr,74928449.html",
       "body": "Ale nie mam Xtb stąd też nie siedzę na forum Xtb i nie wypisuje o ptakach. Moja decyzja bo i moje pieniądze to zakup między 100-150zl cdprojekt i sprzedaż w okolicy premiery. A co mogłoby być? Po co mi takie rozkminy skoro mnie to ani nie wzbogaci ani nie zubożeje? I jeśli uważasz, że mój wpis jest tożsamy z tym co potępiam to może nie jesteś partnerem do dyskusji.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -524,7 +557,7 @@
       "url": "https://www.bankier.pl/forum/temat_stara-zagrywka-na-cdr,74928449.html",
       "body": "Masz świadomość, że niektórzy kupowali za mniej niż 120 więc zakładając horyzont do w4 co to na dziś zmienia czy jest 200 300 czy 180? Teraz pokaż mi dla porównania czy i jest coś takiego jak wycie akcjonariuszy kiedy rośnie? Bo kiedy spada to jest wysyp ziejących ogniem spółkę (rzekomo nie posądzających akcji)więc po co? Czy ja piszę 10 postów dziennie kiedy rośnie?Teraz taki temat ornitologiczny czemu ma służyć? Mamy tu zgłębiać tajniki życia pelikana? No przecież nikt za darmo w sobotę nie wstanie i nie będąc zaangażowany w spółkę nie pisze na forum bankiera. Przecież to zakrawa o kpinę.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -581,7 +614,7 @@
       "body": "> przebiło 220, niebawem kupisz po 214 zł ile zapragnieszSądzę że okolice 200,00 zł będą lepszą okazją do zakupów",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -595,7 +628,7 @@
       "body": "> przebiło 220, niebawem kupisz po 214 zł ile zapragnieszNa spokojnie obejrzałem wykresy indeksów w USA oraz naszego Wig-20 i według mojego rozpoznania do końca zakończenia obecnej fali spadków brakuje kilku sesji handlu i testu wsparcia 3460,00 -3470,00 na Wig-20. Korci mnie aby w Poniedziałek na początku notowań wziąć parę kontraktów na akcje FCDRU26 po stronie SHORT!",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
@@ -1098,8 +1131,8 @@
       "url": "https://www.bankier.pl/forum/temat_praktyka-cwanego-wykorzystywania-lokalnej-glupoty-gieldowej,74938149.html",
       "body": "Stosowanie archaicznych metod wyceny giełdowej przez zachodnich inwestorów, to jest raczej przykład cwanego wykorzystywania lokalnej „głupoty\" giełdowej w wycenie spółek innowacyjnych i gamingowych..Takie spostrzeżenie trafia w sedno - tej rynkowej mechaniki - skupiając jak w soczewce wykorzystywanie infantylności naszych pseudo-inwestorów. To, co z perspektywy naszego rynku może wyglądać na standardową procedurę - dla zagranicznego kapitału jest świadomym wykorzystywaniem asymetrii informacyjnej i instytucjonalnego konserwatyzmu GPW (i głupoty miejscowych spekulantów). xDNa dojrzałych rynkach dawno nastąpiłby zorganizowany przez świadomy akcjonariat short squeez..Wspomniane zjawisko można rozłożyć na kilka, cynicznych wręcz mechanizmów rynkowych...Np. wykorzystanie braku lokalnych analityków-specjalistówMechanizm: Na GPW większość biur maklerskich specjalizuje się w bankach, energetyce i surowcach. Brakuje zespołów potrafiących rzetelnie wyceniać opcje realne czy przyszłe strumienie z patentów.Efekt: Lokalny rynek zaniża wartość spółek bogatych w IP (własność intelektualną), bo ich \"nie rozumie\".Cel: Zagraniczni inwestorzy, posiadający globalne know-how, doskonale widzą te błędy i celowo z nich korzystają.Albo narzucanie własnych reguł w audycieMechanizm: Zagraniczni gracze celowo forsują w negocjacjach tradycyjne wyceny (np. metodą odtworzeniową), argumentując to rzekomym \"standardem bezpieczeństwa\". xDDDEfekt: Polski założyciel lub akcjonariusz mniejszościowy ustępuje, myśląc, że to wymóg \"zachodniego profesjonalizmu\"! xDCel: Jest to czysto psychologiczne i negocjacyjne zbicie ceny.Inny przykład to arbitraż wyceny (Valuation Arbitrage)Mechanizm: Zagraniczny fundusz kupuje polską spółkę technologiczną lub gamingową wycenianą lokalnymi, \"archaicznymi, sztywnymi\" metodami.Efekt: Płaci ułamek kwoty, jaką ta sama spółka musiałaby kosztować na NASDAQ.Cel: Przejęcie tanich aktywów, restrukturyzacja i ewentualny debiut na rynku zachodnim z gigantycznym przebiciem oraz zrobienie w „wuja\" polskich spekulantów.Takie przykłady można mnożyć w nieskończoność.. Chociażby głupawa presja na dywidendę zamiast na wzrost..Mechanizm: Polski akcjonariat (zwłaszcza fundusze emerytalne i inwestycyjne) tradycyjnie preferują spółki dywidendowe z twardym majątkiem.Efekt: Spółki reinwestujące wszystko w IP są przez rynek \"karane\" niższą wyceną.Cel: Zagraniczny kapitał agresywny (np. Private Equity) przejmuje kontrolę nad taką spółką, ściągając ją z giełdy (delisting) po rażąco niskiej cenie.Podsumowując... Na dojrzałych rynkach dawno nastąpiłby zorganizowany przez świadomy akcjonariat short squeez..Tymczasem zagraniczni inwestorzy nie stosują tych „polskich zabytkowych\" metod dlatego, że uważają je za doskonałe. Stosują je, bo lokalny rynek „papuasów\" na to pozwala, tworząc okazje do kupowania nowoczesnych technologii za cenę \"starych fabryk\". xDDD",
       "votes": {
-        "up": 11,
-        "down": 7
+        "up": 12,
+        "down": 8
       },
       "sentimentScore": 0.964,
       "sentimentLabel": "Positive"
@@ -1113,7 +1146,7 @@
       "body": "Heh, okazja to jest zakup nawet do 300zl w perspektywie premiery w4",
       "votes": {
         "up": 3,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1154,7 +1187,7 @@
       "url": "https://www.bankier.pl/forum/temat_tak-zupelnie-na-powaznie,74937929.html",
       "body": "Dywidenda tu wogole nie ma sensu jak w ciągu jednego dnia akcje mogą pójść w górę o 15 20zl czy ( heh też tyle spaść) wiadomo że szorty wykorzystały przesunięcie daty premiery dlc teraz zbijają, a miękkie faje oddają, taka jest prawda kto siedzie na longa do premiery nic dla niego to nie zmienia ale dla panikarzy wiele zmienia, dziś pewnie też sporo wysypane , będzie wiadomo za tydzień w czwartek z Ortexu. Może bujać pewnie z 4mln do zebrania , mam nadzieję że od sierpnia kiedy to pokażą coś więcej o DLC zacznie w końcu coś iść w górę , Pamietaj że szorty na wiosnę przy kursie 290 miały jescze ok 2mln akcji do odkupu więc co im się udało , zbiły na ...215. tu zarobi tylko cierpliwy, niedługo powinien się już zacząć marsz tylko w górę, bo perspektywy tu przepiękne.",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0.931,
@@ -1168,7 +1201,7 @@
       "url": "https://www.bankier.pl/forum/temat_tak-zupelnie-na-powaznie,74937929.html",
       "body": "Firma, ma się dobrze, i będzie zarabiać coraz więcej, nie grozi rozwodnienie papieru, grają fundusze na emocjach.",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -1238,7 +1271,7 @@
       "url": "https://www.bankier.pl/forum/temat_jestem-frajerem,74937853.html",
       "body": "bo bezmyślnie przegapiłem okazję do taniego zakupu przecenionych nadmiernie akcji w przedziale cenowym 212,00 - 214,00 złi pociąg odjechał nadspodziewanie gwałtownie co może wskazywać że spadki jeszcze są przed nami! Okazja do szybkiegokółeczka niestety bezpowrotnie mięła i już.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 4
       },
       "sentimentScore": -0.322,
@@ -1449,7 +1482,7 @@
       "body": "Nawet byle globalne IP - znacznie gorsze w rankingach i sprzedaży od marek CD Projektu - mają na świecie lepsze przebicie.. i to właśnie dotyka sedna problemu z wyceną giełdową Redów w stosunku do realnej wartości ich unikalnego IP. Nasza GPW jest najczęściej ślepa na faktyczną wartość kulturową marek, przez co spółka posiadająca globalne franczyzy jest - w tradycyjnych modelach prowincjonalnej giełdy - drastycznie niedowartościowane!! Oczywiście rozumiem argument dostosowania się do powszechnie panującej głupoty w postaci - praktycznego krótkoterminowo - wykorzystywania tej anomalii..Ponieważ ta ślepota jest skumulowaną ignorancją naszych znerwicowanych pseudo-inwestorów pozwalającą bezkarnie sprzedawać „złoto\" za puszkę browca i je odkupić za podobną „cenę\".. xDAle publiczne jej wspieranie i poważne publikowanie teorii, że „ziemia jest płaska\" to już zjawisko przynajmniej niepokojące.. ze względu na zażenowanie, które zazwyczaj powinno budzić przechwalanie się głupotą..xDStąd nawet podanie miażdżących danych, faktów i ekscytujących wydarzeń - bywa przez giełdowych troglodytów traktowane jak odkrycia Archimedesa przez rzymskiego żołdaka, który go zwyczajnie zarżnął - wbrew rozkazom dowódców - rozumiejących unikalną wartość tego geniusza..!xDDKiedy dochodzi do transakcji na wolnym rynku, który mówi „SPRAWDZAM\" - giganci medialni nie kupują bieżącego EBITDA czy kodu źródłowego gier – kupują natomiast monopol na emocje dziesiątków milionów fanów! Dlatego w praktyce biznesowej, nawet słabsze w rankingach (lub przechodzące kryzys) IP potrafią wygenerować wielokrotnie wyższe przebicie transakcyjne niż wynikałoby to z giełdowego kursu akcji - również na dojrzałych giełdach.Dlaczego zatem nawet \"słabsze\" IP (niż Redów) osiągają potężne mnożniki na wolnym rynku?Gwarancja natychmiastowego zasięgu: Nawet jeśli marka ma w danym momencie słabsze oceny (np. gorsza premiera ostatniej części, spadek ocen w recenzjach), to wciąż posiada miliony tzw. \"uśpionych fanów\". Dla kupującego (np. Disney, Sony, Netflix czy fundusze z Bliskiego Wschodu) reaktywacja znanej marki jest nieprawdopodobnie tańsza i bezpieczniejsza niż budowanie nowej franczyzy od zera.Potencjał transmedialny (Cross-media): Giełda wycenia CD Projekt głównie przez pryzmat: „kiedy wyjdzie nowa gra i ile sztuk się sprzeda”. Wolny rynek patrzy na to zupełnie inaczej. Jeśli dane IP ma potencjał na 3 sezony serialu animowanego, park rozrywki, zabawki, ubrania i grę mobilną (gdzie marże są gigantyczne), to wartość tego IP dla konglomeratu medialnego rośnie o kilkaset procent względem wyceny czysto \"growej\". Wyceny transakcyjne w branży: W historii przejęć widzieliśmy sytuacje, gdzie marki o teoretycznie słabszej pozycji rynkowej, mniejszej liczbie aktywnych graczy czy gorszych ocenach krytyków były przejmowane za astronomiczne kwoty (np. transakcje na poziomie 20x–30x EV/EBITDA), podczas gdy stabilne, ale pozbawione \"magii IP\" studia z trudem osiągają mnożniki rzędu 10x. Jak to zjawisko wygląda w kontekście CD Projektu na wolnym rynku?Bieżąca wycena rynkowa CD Projektu na GPW oscyluje wokół 22–23 miliardów PLN ($5,9–6,0 mld USD). Gdyby ta spółka była wyceniana wyłącznie metodą porównawczą do standardowych przedsiębiorstw z WIG20, premia za kontrolę wyniosłaby zaledwie kilkadziesiąt procent (max 70%). Jednak w scenariuszu realnego, wolnorynkowego przejęcia przez globalnego giganta rozrywkowego: Wiedźmin i Cyberpunk to jedne z zaledwie kilku marek na świecie o tak głębokim lore, rozpoznawalności i zaangażowaniu społeczności i chyba ostatnie, o które dobijają się giganci medialni.Kupujący płaciłby za tzw „efekt rzadkości” – ponieważ na rynku nie ma już wolnych, niezależnych studiów z aż dwoma globalnymi IP w takiej skali.Z tego powodu, przy próbie zakupu tak unikalnego CD Projektu na wolnym rynku, wycena oparta na sile samego IP mogłaby całkowicie oderwać się od giełdowej grawitacji, generując 3 - lub nawet 4-krotne przebicie (w granicach 50–90 miliardów PLN), bez względu na to, ile studio w danym kwartale zaraportowało czystego zysku. Czyli (parafrazując) jedna franczyza Redów jest droższa niż obecna wycena giełdowa całej firmy..!xDTo zjawisko idealnie pokazuje, dlaczego archaiczny polski WIG20 (jako indeks oparty w większości na tradycyjnych sektorach: banki, surowce, energetyka) nie potrafi właściwie dyskontować wartości aktywów niematerialnych i prawnych, jakimi są np globalne franczyzy w branży rozrywkowej.Taka wycena nawet nie musi uwzględniać faktu, że jest to najstabilniejsza oraz najbardziej perspektywiczna i rozwojowa spółka w WIG20!",
       "votes": {
         "up": 12,
-        "down": 12
+        "down": 13
       },
       "sentimentScore": 0.981,
       "sentimentLabel": "Positive"
@@ -1840,7 +1873,7 @@
       "url": "https://www.bankier.pl/forum/temat_pamietajcie-to-bylo-po-68-70-zl-fundusze-sa-zarobione,74934819.html",
       "body": "Zarobiony to ja jestem, a mimo tego czekam spokojnie na ATH przed premierą.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2050,7 +2083,7 @@
       "url": "https://www.bankier.pl/forum/temat_cdr-oml,74935079.html",
       "body": "Wychodzę ze stratą 12%, zrobię na OML 100%, wrócę z większym budżetem na jesień. Chyba jedyny sensowny plan.",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 5
       },
       "sentimentScore": -0.322,
@@ -2190,7 +2223,7 @@
       "url": "https://www.bankier.pl/forum/temat_pamietajcie-to-bylo-po-68-70-zl-fundusze-sa-zarobione,74934819.html",
       "body": "zasięg spadków może być ogromny",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -2211,6 +2244,20 @@
       "sentimentLabel": "Positive"
     },
     {
+      "id": "74934819",
+      "author": "Uważajcie",
+      "postedAt": "2026-06-26 15:04",
+      "threadTitle": "Pamiętajcie to było po 68 -70 zł fundusze są zarobione",
+      "url": "https://www.bankier.pl/forum/temat_pamietajcie-to-bylo-po-68-70-zl-fundusze-sa-zarobione,74934819.html",
+      "body": "300% realizacja zysków",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "74934817",
       "author": "a_i",
       "postedAt": "2026-06-26 15:04",
@@ -2223,20 +2270,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74934819",
-      "author": "Uważajcie",
-      "postedAt": "2026-06-26 15:04",
-      "threadTitle": "Pamiętajcie to było po 68 -70 zł fundusze są zarobione",
-      "url": "https://www.bankier.pl/forum/temat_pamietajcie-to-bylo-po-68-70-zl-fundusze-sa-zarobione,74934819.html",
-      "body": "300% realizacja zysków",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "74934485",
@@ -2253,76 +2286,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "74934473",
-      "author": "PanNerwusik",
-      "postedAt": "2026-06-26 14:39",
-      "threadTitle": "Nabyłem",
-      "url": "https://www.bankier.pl/forum/temat_nabylem,74934473.html",
-      "body": "Droga zakupu za 245...mam lekkie palpitacje serca.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74934363",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-06-26 14:34",
-      "threadTitle": "Re: Papier jest osłabiony z powodu upałuw!!!",
-      "url": "https://www.bankier.pl/forum/temat_papier-jest-oslabiony-z-powodu-upaluw,74934181.html",
-      "body": "Chodźcie na plażę dla golasów koledzy!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74934323",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-06-26 14:33",
-      "threadTitle": "Do końca wakacji lip a możliwe 150 a na koniec wakacji 80",
-      "url": "https://www.bankier.pl/forum/temat_do-konca-wakacji-lip-a-mozliwe-150-a-na-koniec-wakacji-80,74934323.html",
-      "body": "I nie zdziwi mnie to bo zapowiadajom goronce lato. A lato to czas na szorty. I ja może ten papier sprzedam jak spadnie na 210 a odkupię po 80 I bende miał dużo wiencej akcji!!!! Tak się gra w akcje.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74934281",
-      "author": "Podły",
-      "postedAt": "2026-06-26 14:30",
-      "threadTitle": "Inwestuj Obserwuj TRAĆ wystarczy subskrybować aby stracić",
-      "url": "https://www.bankier.pl/forum/temat_inwestuj-obserwuj-trac-wystarczy-subskrybowac-aby-stracic,74934281.html",
-      "body": "Mały l eszczyk w walce z rynkiem kończy jak kazdy bobek bez strategii i doswiadczenia , wyzerowaniem",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74934181",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-06-26 14:23",
-      "threadTitle": "Papier jest osłabiony z powodu upałuw!!!",
-      "url": "https://www.bankier.pl/forum/temat_papier-jest-oslabiony-z-powodu-upaluw,74934181.html",
-      "body": "A ludzie też go nie kupujom bo siedzom nad wodom i na plażach dla golasów i nikt nie ma czasu na głupoty i granie w akcje.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "74934175",
       "author": "homer",
       "postedAt": "2026-06-26 14:22",
@@ -2330,7 +2293,7 @@
       "url": "https://www.bankier.pl/forum/temat_jak-ktos-kupil-8-lat-temu-to-dzis-jest-na-0,74934175.html",
       "body": "idealna spółka 8 lat i ta sama wartość -50% inflacji. Dlatego trzeba aktywnie kupować dołki sprzedawać górki bo trzymać to gwarancja straty",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 4
       },
       "sentimentScore": 0.583,
@@ -2470,7 +2433,7 @@
       "url": "https://www.bankier.pl/forum/temat_stara-zagrywka-na-cdr,74928449.html",
       "body": "2zl bo 2 wpisy",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2892,6 +2855,48 @@
       "votes": {
         "up": 3,
         "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74873953",
+      "author": "Zbigniew",
+      "postedAt": "2026-06-22 00:19",
+      "threadTitle": "Re: Cykliczność na kursie",
+      "url": "https://www.bankier.pl/forum/temat_cyklicznosc-na-kursie,74866235.html",
+      "body": "Nie, tym razem w ciągu 14dni.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74873937",
+      "author": "zielony_guzik",
+      "postedAt": "2026-06-22 00:17",
+      "threadTitle": "Re: Cykliczność na kursie",
+      "url": "https://www.bankier.pl/forum/temat_cyklicznosc-na-kursie,74866235.html",
+      "body": "Spoko.. miłego wieczoru",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74873449",
+      "author": "Dawid",
+      "postedAt": "2026-06-21 22:55",
+      "threadTitle": "Re: Cykliczność na kursie",
+      "url": "https://www.bankier.pl/forum/temat_cyklicznosc-na-kursie,74866235.html",
+      "body": "Cykliczność odpada. Technicznie rzecz biorąc kurs idzie na 150/160zł",
+      "votes": {
+        "up": 1,
+        "down": 17
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
