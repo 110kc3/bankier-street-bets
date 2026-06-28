@@ -3,31 +3,31 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-06-28T04:49:16.382Z",
+  "updatedAt": "2026-06-28T09:32:30.051Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-28T04:49:16.382Z",
+    "fetchedAt": "2026-06-28T09:32:30.051Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 33
+    "threadsScanned": 34
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.054,
-    "confidence": 0.72,
+    "score": 0.039,
+    "confidence": 0.71,
     "commentCount": 121,
     "breakdown": {
-      "positive": 39,
-      "negative": 25,
+      "positive": 38,
+      "negative": 26,
       "neutral": 57
     },
     "trend": [
       {
         "date": "2026-06-21",
-        "score": 0.418,
-        "count": 9
+        "score": 0.43,
+        "count": 8
       },
       {
         "date": "2026-06-22",
@@ -58,10 +58,15 @@
         "date": "2026-06-27",
         "score": 0.453,
         "count": 2
+      },
+      {
+        "date": "2026-06-28",
+        "score": -0.583,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 121 komentarzy z ostatnich 7 dni: nastroje mieszane (39 pozytywnych, 25 negatywnych, 57 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 121 komentarzy z ostatnich 7 dni: nastroje mieszane (38 pozytywnych, 26 negatywnych, 57 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "allegro",
@@ -107,6 +112,20 @@
   },
   "comments": [
     {
+      "id": "74944449",
+      "author": "Jola",
+      "postedAt": "2026-06-28 10:16",
+      "threadTitle": "Tylko spadki.",
+      "url": "https://www.bankier.pl/forum/temat_tylko-spadki,74944449.html",
+      "body": "Nigdy, ale to nigdy nie przekroczy 45. Realnie tylko na dół.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "74942131",
       "author": "JAnick",
       "postedAt": "2026-06-27 16:26",
@@ -129,7 +148,7 @@
       "body": "Rewelacyjny czas nadchodzi.",
       "votes": {
         "up": 2,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -1784,20 +1803,6 @@
         "down": 2
       },
       "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74868593",
-      "author": "Jw",
-      "postedAt": "2026-06-21 10:06",
-      "threadTitle": "Re: Pewnie bym nie wyszedł, ale lepiej brać co na stole bo kto wie…",
-      "url": "https://www.bankier.pl/forum/temat_pewnie-bym-nie-wyszedl-ale-lepiej-brac-co-na-stole-bo-kto-wie,74867197.html",
-      "body": "Cieśnina znów zamknięta ciekawe jak rynki w poniedziałek zareagują ?",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     }
   ]
