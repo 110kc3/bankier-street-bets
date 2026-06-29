@@ -3,23 +3,23 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-06-29T05:00:29.391Z",
+  "updatedAt": "2026-06-29T11:25:15.200Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-29T05:00:29.391Z",
+    "fetchedAt": "2026-06-29T11:25:15.200Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 14
+    "threadsScanned": 15
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.193,
-    "confidence": 0.69,
-    "commentCount": 49,
+    "score": 0.282,
+    "confidence": 0.75,
+    "commentCount": 53,
     "breakdown": {
-      "positive": 26,
+      "positive": 30,
       "negative": 7,
       "neutral": 16
     },
@@ -98,33 +98,42 @@
         "date": "2026-06-19",
         "score": 0.322,
         "count": 1
+      },
+      {
+        "date": "2026-06-29",
+        "score": 0.518,
+        "count": 4
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 49 komentarzy z ostatnich 30 dni: nastroje pozytywne (26 pozytywnych, 7 negatywnych, 16 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 53 komentarzy z ostatnich 30 dni: nastroje pozytywne (30 pozytywnych, 7 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dzien",
         "count": 6
       },
       {
+        "word": "dywidendy",
+        "count": 5
+      },
+      {
+        "word": "dywidende",
+        "count": 5
+      },
+      {
         "word": "dzis",
         "count": 5
+      },
+      {
+        "word": "dywidenda",
+        "count": 4
       },
       {
         "word": "wiecej",
         "count": 4
       },
       {
-        "word": "dywidende",
-        "count": 4
-      },
-      {
-        "word": "dywidendy",
-        "count": 4
-      },
-      {
-        "word": "dywidenda",
+        "word": "pekao",
         "count": 3
       },
       {
@@ -138,14 +147,66 @@
       {
         "word": "bank",
         "count": 3
-      },
-      {
-        "word": "ostatni",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "74951665",
+      "author": "koperytko",
+      "postedAt": "2026-06-29 11:51",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74950525.html",
+      "body": "teoretycznie gdy dywidenda była puszczona dzisiaj rano to po 11 powinna się pojawić na rachunku a u mnie pustka...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74950669",
+      "author": "koperytko",
+      "postedAt": "2026-06-29 10:47",
+      "threadTitle": "Re: Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74950525.html",
+      "body": "Ja jeszcze nie. Niech nawet 2,5 mld wroci na GPW a szczególnie na PEKAO to poprawi sytuacje notowań",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74950525",
+      "author": "Inwestor2022",
+      "postedAt": "2026-06-29 10:37",
+      "threadTitle": "Dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda,74950525.html",
+      "body": "Hej czy dostaliście już może wypłatę dywidendy na rachunek maklerski?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74950225",
+      "author": "koperytko",
+      "postedAt": "2026-06-29 10:15",
+      "threadTitle": "Re: Porozumiemnie",
+      "url": "https://www.bankier.pl/forum/temat_porozumiemnie,74794515.html",
+      "body": "ktos dostał już dywidende na konto ??",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "74863439",
       "author": "Jaro",
@@ -182,7 +243,7 @@
       "url": "https://www.bankier.pl/forum/temat_porozumiemnie,74794515.html",
       "body": "XD, niech się 250zł zrobi najpierw i utrzyma to można pomyśleć o 300zł w niedalekiej przyszłości.",
       "votes": {
-        "up": 4,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": 0,

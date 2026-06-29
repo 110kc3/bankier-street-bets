@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-06-29T05:00:51.310Z",
+  "updatedAt": "2026-06-29T11:25:38.102Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-29T05:00:51.310Z",
+    "fetchedAt": "2026-06-29T11:25:38.102Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.061,
-    "confidence": 0.72,
-    "commentCount": 76,
+    "score": 0.027,
+    "confidence": 0.71,
+    "commentCount": 81,
     "breakdown": {
-      "positive": 15,
+      "positive": 19,
       "negative": 28,
-      "neutral": 33
+      "neutral": 34
     },
     "trend": [
       {
         "date": "2026-06-22",
-        "score": -0.197,
-        "count": 8
+        "score": -0.225,
+        "count": 7
       },
       {
         "date": "2026-06-23",
@@ -58,10 +58,15 @@
         "date": "2026-06-28",
         "score": 0.762,
         "count": 1
+      },
+      {
+        "date": "2026-06-29",
+        "score": 0.389,
+        "count": 6
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 76 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 28 negatywnych, 33 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 81 komentarzy z ostatnich 7 dni: nastroje mieszane (19 pozytywnych, 28 negatywnych, 34 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "korekta",
@@ -74,6 +79,14 @@
       {
         "word": "dzis",
         "count": 5
+      },
+      {
+        "word": "mnie",
+        "count": 4
+      },
+      {
+        "word": "troche",
+        "count": 4
       },
       {
         "word": "dywidendy",
@@ -94,18 +107,94 @@
       {
         "word": "przy",
         "count": 4
-      },
-      {
-        "word": "gora",
-        "count": 3
-      },
-      {
-        "word": "troche",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "74952885",
+      "author": "Kazimierz",
+      "postedAt": "2026-06-29 13:23",
+      "threadTitle": "Re: PZU kupuje się pod Emeryturę",
+      "url": "https://www.bankier.pl/forum/temat_pzu-kupuje-sie-pod-emeryture,74946517.html",
+      "body": "Nie robi dla mnie różnicy kilka procent chyba że grasz intraday i robisz kółka",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74950211",
+      "author": "Rewizor",
+      "postedAt": "2026-06-29 10:14",
+      "threadTitle": "Re: czy tłusty prezes zrobi coś by ta spólka byla wyceniana godnie??",
+      "url": "https://www.bankier.pl/forum/temat_czy-tlusty-prezes-zrobi-cos-by-ta-spolka-byla-wyceniana-godnie,74950181.html",
+      "body": "A mozesz mi odpowiedziec co ma prezes zrobic? Schudnac? Posluchaj rady i nie zasmiecaj forum idz na Orlen",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74950181",
+      "author": "szyszka",
+      "postedAt": "2026-06-29 10:11",
+      "threadTitle": "czy tłusty prezes zrobi coś by ta spólka byla wyceniana godnie??",
+      "url": "https://www.bankier.pl/forum/temat_czy-tlusty-prezes-zrobi-cos-by-ta-spolka-byla-wyceniana-godnie,74950181.html",
+      "body": "Bo narazie na gdakaniu się kończy a wycena to nawet nie 60 mld złotych co na najwieksza firme ubezpieczeniową kraju to jakaś komedia.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74949473",
+      "author": "Łysy",
+      "postedAt": "2026-06-29 09:21",
+      "threadTitle": "Re: PZU kupuje się pod Emeryturę",
+      "url": "https://www.bankier.pl/forum/temat_pzu-kupuje-sie-pod-emeryture,74946517.html",
+      "body": "Może jeszcze będzie niżej ? Poczekam . Buja trochę. Pozdrawiam",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74948711",
+      "author": "Kazimierz",
+      "postedAt": "2026-06-29 07:31",
+      "threadTitle": "Re: PZU kupuje się pod Emeryturę",
+      "url": "https://www.bankier.pl/forum/temat_pzu-kupuje-sie-pod-emeryture,74946517.html",
+      "body": "Będziesz miał \"dodatkową\"",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74948637",
+      "author": "Łysy",
+      "postedAt": "2026-06-29 07:03",
+      "threadTitle": "Re: PZU kupuje się pod Emeryturę",
+      "url": "https://www.bankier.pl/forum/temat_pzu-kupuje-sie-pod-emeryture,74946517.html",
+      "body": "Ja już na emeryturze?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "74946517",
       "author": "Kazimierz",
@@ -114,7 +203,7 @@
       "url": "https://www.bankier.pl/forum/temat_pzu-kupuje-sie-pod-emeryture,74946517.html",
       "body": "Dywidendy dla spokojnego snu.",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -143,7 +232,7 @@
       "body": "Pzu pon.+5% mam nadzieje i lecimy na 80",
       "votes": {
         "up": 1,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -241,7 +330,7 @@
       "body": "Co tu wypisujecie są korekty to normalne i tak do dywid. Bedzie 80 zl spoko",
       "votes": {
         "up": 6,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1155,20 +1244,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74875893",
-      "author": "Młot",
-      "postedAt": "2026-06-22 07:22",
-      "threadTitle": "TV Biznes24 codziennie 8,45 i 16,45",
-      "url": "https://www.bankier.pl/forum/temat_tv-biznes24-codziennie-8-45-i-16-45,74875893.html",
-      "body": "Ogladajcie i piszcie komentarze na YouTube na żywo :⁠-⁠)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
