@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-06-30T10:01:40.429Z",
+  "updatedAt": "2026-06-30T14:44:33.795Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-30T10:01:40.429Z",
+    "fetchedAt": "2026-06-30T14:44:33.795Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.161,
+    "score": -0.17,
     "confidence": 0.76,
-    "commentCount": 83,
+    "commentCount": 78,
     "breakdown": {
-      "positive": 20,
+      "positive": 18,
       "negative": 31,
-      "neutral": 32
+      "neutral": 29
     },
     "trend": [
       {
         "date": "2026-04-01",
-        "score": 0.127,
-        "count": 6
+        "score": -0.322,
+        "count": 1
       },
       {
         "date": "2026-04-02",
@@ -176,7 +176,7 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 83 komentarzy z ostatnich 90 dni: nastroje negatywne (20 pozytywnych, 31 negatywnych, 32 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 78 komentarzy z ostatnich 90 dni: nastroje negatywne (18 pozytywnych, 31 negatywnych, 29 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -195,14 +195,6 @@
         "count": 6
       },
       {
-        "word": "bankow",
-        "count": 6
-      },
-      {
-        "word": "bank",
-        "count": 5
-      },
-      {
         "word": "roku",
         "count": 5
       },
@@ -211,12 +203,20 @@
         "count": 5
       },
       {
-        "word": "przy",
+        "word": "kwietnia",
         "count": 5
       },
       {
-        "word": "kwietnia",
+        "word": "bankow",
         "count": 5
+      },
+      {
+        "word": "banki",
+        "count": 5
+      },
+      {
+        "word": "bank",
+        "count": 4
       }
     ]
   },
@@ -1312,76 +1312,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74038879",
-      "author": "BankM",
-      "postedAt": "2026-04-01 15:43",
-      "threadTitle": "Re: Co jest?",
-      "url": "https://www.bankier.pl/forum/temat_co-jest,74035673.html",
-      "body": "Dotknęło 1150 i założyłem kontrakt na spadki - bo tak sobie obiecałem :) zobaczymy jak na tym wyjdę. Mam nadzieję, że dzisiejsze wzrosty to taki prima-aprilisowy żart.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74038463",
-      "author": "Ania",
-      "postedAt": "2026-04-01 15:19",
-      "threadTitle": "Re: Co jest?",
-      "url": "https://www.bankier.pl/forum/temat_co-jest,74035673.html",
-      "body": "Też mnie to dziwi. Ewidentnie ktoś podbił, może dlatego, że na dywidendzie nic nie będzie.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74036847",
-      "author": "abc",
-      "postedAt": "2026-04-01 13:27",
-      "threadTitle": "Re: Co jest?",
-      "url": "https://www.bankier.pl/forum/temat_co-jest,74035673.html",
-      "body": "Bardzo maly obrot jak na +6% po prostu latwo tutaj robic takie ruchy",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74036229",
-      "author": "Kasztan",
-      "postedAt": "2026-04-01 12:45",
-      "threadTitle": "Re: Co jest?",
-      "url": "https://www.bankier.pl/forum/temat_co-jest,74035673.html",
-      "body": "Będzie pikował na 800 kwestia czasu",
-      "votes": {
-        "up": 6,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74035673",
-      "author": "Pietro",
-      "postedAt": "2026-04-01 12:13",
-      "threadTitle": "Co jest?",
-      "url": "https://www.bankier.pl/forum/temat_co-jest,74035673.html",
-      "body": "Jakim cudem ten bank znowu rośnie najmocniej ze wszystkich. Przy braku dywidendy, przy najwyższej wycenie chyba wśród banków, to jest jakiś fenomen. Kiedy reszta z sektora ledwo wraca pod swoje szczyty to my tu już mamy ATH Xd",
-      "votes": {
-        "up": 9,
-        "down": 1
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
     }
   ]
 }
