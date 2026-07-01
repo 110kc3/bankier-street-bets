@@ -3,32 +3,27 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-07-01T10:15:02.099Z",
+  "updatedAt": "2026-07-01T15:12:30.412Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-01T10:15:02.099Z",
+    "fetchedAt": "2026-07-01T15:12:30.412Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 9
+    "threadsScanned": 8
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.109,
-    "confidence": 0.74,
-    "commentCount": 61,
+    "score": 0.084,
+    "confidence": 0.72,
+    "commentCount": 58,
     "breakdown": {
-      "positive": 22,
-      "negative": 11,
-      "neutral": 28
+      "positive": 19,
+      "negative": 12,
+      "neutral": 27
     },
     "trend": [
-      {
-        "date": "2026-06-24",
-        "score": 0.241,
-        "count": 4
-      },
       {
         "date": "2026-06-25",
         "score": 0,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-07-01",
-        "score": 0.583,
-        "count": 1
+        "score": -0.144,
+        "count": 2
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 61 komentarzy z ostatnich 7 dni: nastroje pozytywne (22 pozytywnych, 11 negatywnych, 28 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 58 komentarzy z ostatnich 7 dni: nastroje mieszane (19 pozytywnych, 12 negatywnych, 27 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruka",
@@ -93,10 +88,6 @@
         "count": 5
       },
       {
-        "word": "wiecej",
-        "count": 5
-      },
-      {
         "word": "cena",
         "count": 5
       },
@@ -107,10 +98,28 @@
       {
         "word": "marze",
         "count": 5
+      },
+      {
+        "word": "tyle",
+        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "74980455",
+      "author": "XD",
+      "postedAt": "2026-07-01 15:14",
+      "threadTitle": "Re: Jak obstawiacie jutro",
+      "url": "https://www.bankier.pl/forum/temat_jak-obstawiacie-jutro,74957603.html",
+      "body": "Zdrowa korekta to normalne. Niedawno, przy 386 bob-ki widzialy tu 350-320. To w czym problem z 420-430? Przy 500 i 600 tez beda wywalac. Grunt to miec akche, a nie dostep do forum bankiera.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "74973265",
       "author": "hahahahah",
@@ -119,8 +128,8 @@
       "url": "https://www.bankier.pl/forum/temat_jak-obstawiacie-jutro,74957603.html",
       "body": "faktycznie nikt nie wywala :-)))))",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 4,
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -133,8 +142,8 @@
       "url": "https://www.bankier.pl/forum/temat_jak-obstawiacie-jutro,74957603.html",
       "body": "Kolego nikt na takiej szmacie po 440 nie będzie wywalać, najwcześniej 520-540 a przy tym popycie obstawiam że w końcu wybijamy z tej konsoli i idziemy na 6 z przodu. Tyle w temacie W20. Pzdr.",
       "votes": {
-        "up": 1,
-        "down": 3
+        "up": 2,
+        "down": 5
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
@@ -147,8 +156,8 @@
       "url": "https://www.bankier.pl/forum/temat_jak-obstawiacie-jutro,74957603.html",
       "body": "Zobaczymy jutro kto ma rację , zadowala cię 4% zysku ?",
       "votes": {
-        "up": 0,
-        "down": 2
+        "up": 1,
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -161,8 +170,8 @@
       "url": "https://www.bankier.pl/forum/temat_jak-obstawiacie-jutro,74957603.html",
       "body": "Jutro realizacja zysków. Wracami do bszy",
       "votes": {
-        "up": 3,
-        "down": 1
+        "up": 4,
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -190,7 +199,7 @@
       "body": "wątek *",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -204,7 +213,7 @@
       "body": "Jakie zaistnieć? Miałem tylko jedną uwagę/pytanie, które z jakiegoś powodu sprawiało że poczułeś sie zagrożony i zaspamowałeś",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -217,7 +226,7 @@
       "url": "https://www.bankier.pl/forum/temat_lider-windykacji-szykuje-miliardowy-fundusz-w-planach-30-mld-zl,74744775.html",
       "body": "Fakt. Mega roznica, sorki. Tak wazna informacja, ze ciezko mi sie pozbierac. Cos przycichles, nowy, z tymi swoimi \"inwestorskimi\" uwagami, co? Jak juz chcialrs zaistniec na forum, to zrob to dobrze nastepnym razem.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -316,7 +325,7 @@
       "body": "Stuku, stuku wiewiora, trzy i bob :)))) malo aktywni cos jestescie.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -847,7 +856,7 @@
       "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
       "body": "Konkurencja na rynku długu rośnie. Czy to oznacza spadek marż dla Kruka? Stuki puku do ilu spadniesz kruku? :D",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 3
       },
       "sentimentScore": -0.583,
@@ -908,62 +917,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74909583",
-      "author": "XD",
-      "postedAt": "2026-06-24 16:16",
-      "threadTitle": "Re: moja alternatywna rekomendacja to 730zł",
-      "url": "https://www.bankier.pl/forum/temat_moja-alternatywna-rekomendacja-to-730zl,74552661.html",
-      "body": "Bdm to dziady. Chca kupic tanio. Dziwne, ze ponizej 400 nie dali",
-      "votes": {
-        "up": 4,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74908341",
-      "author": "Alfa",
-      "postedAt": "2026-06-24 15:00",
-      "threadTitle": "Re: moja alternatywna rekomendacja to 730zł",
-      "url": "https://www.bankier.pl/forum/temat_moja-alternatywna-rekomendacja-to-730zl,74552661.html",
-      "body": "BDM wycenia na 432,70 zł za szersa, chyba chcą nazbierać więcej póki tanio, jak było z Asbis….",
-      "votes": {
-        "up": 4,
-        "down": 4
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74908315",
-      "author": "Alfa",
-      "postedAt": "2026-06-24 14:58",
-      "threadTitle": "Re: kierunek północ",
-      "url": "https://www.bankier.pl/forum/temat_kierunek-polnoc,74884149.html",
-      "body": "BDM konserwatywne reko 432,70 PLN Zobaczymy po wakacjach co powiedzą, będzie jak z Asbis, hihihi….",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74907327",
-      "author": "XD",
-      "postedAt": "2026-06-24 13:49",
-      "threadTitle": "Re: moja alternatywna rekomendacja to 730zł",
-      "url": "https://www.bankier.pl/forum/temat_moja-alternatywna-rekomendacja-to-730zl,74552661.html",
-      "body": "560 powinno byc na poczatek. mocny papier po wyzbieraniu.",
-      "votes": {
-        "up": 3,
-        "down": 3
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
