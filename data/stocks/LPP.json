@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-06-30T20:19:32.218Z",
+  "updatedAt": "2026-07-01T04:54:51.954Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-06-30T20:19:32.218Z",
+    "fetchedAt": "2026-07-01T04:54:51.954Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.107,
-    "confidence": 0.58,
-    "commentCount": 36,
+    "score": -0.091,
+    "confidence": 0.57,
+    "commentCount": 35,
     "breakdown": {
       "positive": 7,
-      "negative": 22,
-      "neutral": 7
+      "negative": 20,
+      "neutral": 8
     },
     "trend": [
       {
-        "date": "2026-06-23",
-        "score": -0.583,
-        "count": 1
-      },
-      {
         "date": "2026-06-24",
-        "score": -0.233,
-        "count": 17
+        "score": -0.227,
+        "count": 16
       },
       {
         "date": "2026-06-25",
@@ -53,17 +48,18 @@
         "date": "2026-06-30",
         "score": -0.059,
         "count": 7
+      },
+      {
+        "date": "2026-07-01",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 36 komentarzy z ostatnich 7 dni: nastroje negatywne (7 pozytywnych, 22 negatywnych, 7 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 35 komentarzy z ostatnich 7 dni: nastroje mieszane (7 pozytywnych, 20 negatywnych, 8 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
-        "count": 4
-      },
-      {
-        "word": "zacznie",
         "count": 4
       },
       {
@@ -75,7 +71,15 @@
         "count": 4
       },
       {
+        "word": "ludzi",
+        "count": 3
+      },
+      {
         "word": "spadki",
+        "count": 3
+      },
+      {
+        "word": "zacznie",
         "count": 3
       },
       {
@@ -93,14 +97,24 @@
       {
         "word": "ponizej",
         "count": 3
-      },
-      {
-        "word": "rozwoju",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "74970563",
+      "author": "XD",
+      "postedAt": "2026-07-01 01:35",
+      "threadTitle": "Re: Ale jajca haha 17XXX do piatku",
+      "url": "https://www.bankier.pl/forum/temat_ale-jajca-haha-17xxx-do-piatku,74910485.html",
+      "body": "Ten wszędzie \"tak myśli\", a wisi na cokumbusie po 8 i nagrania ludzi. Inwestor z grafiką demo.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "74967789",
       "author": "Magellan",
@@ -575,34 +589,6 @@
         "down": 0
       },
       "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74901361",
-      "author": "Bebok",
-      "postedAt": "2026-06-24 05:46",
-      "threadTitle": "Re: I po spadkach",
-      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
-      "body": "Proponuję maskę gazową.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74900519",
-      "author": "Magellan",
-      "postedAt": "2026-06-23 22:41",
-      "threadTitle": "Re: I po spadkach",
-      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
-      "body": "nie mów hopzobacz na nasdaqpoza tym, jak widzę jak wig20 jest napompowany to jak zacznie spadać to i LPP się dostanie że ho ho w ogóle mi śmierdzi na giełdzie 2009 rokiem.... ależ to był swąd",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
     }
   ]
