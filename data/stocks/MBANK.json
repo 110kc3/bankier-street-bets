@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-07-01T04:54:58.437Z",
+  "updatedAt": "2026-07-01T10:15:18.090Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-01T04:54:58.437Z",
+    "fetchedAt": "2026-07-01T10:15:18.090Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.161,
+    "score": -0.167,
     "confidence": 0.76,
-    "commentCount": 78,
+    "commentCount": 75,
     "breakdown": {
       "positive": 18,
-      "negative": 30,
-      "neutral": 30
+      "negative": 29,
+      "neutral": 28
     },
     "trend": [
-      {
-        "date": "2026-04-02",
-        "score": -0.291,
-        "count": 2
-      },
       {
         "date": "2026-04-07",
         "score": 0.762,
@@ -168,15 +163,10 @@
         "date": "2026-06-24",
         "score": 0,
         "count": 1
-      },
-      {
-        "date": "2026-07-01",
-        "score": 0,
-        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 78 komentarzy z ostatnich 90 dni: nastroje negatywne (18 pozytywnych, 30 negatywnych, 30 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 75 komentarzy z ostatnich 90 dni: nastroje negatywne (18 pozytywnych, 29 negatywnych, 28 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -207,34 +197,20 @@
         "count": 5
       },
       {
-        "word": "bankow",
-        "count": 5
-      },
-      {
         "word": "banki",
         "count": 5
       },
       {
         "word": "bank",
         "count": 4
+      },
+      {
+        "word": "brak",
+        "count": 4
       }
     ]
   },
   "comments": [
-    {
-      "id": "74970961",
-      "author": "Cez12",
-      "postedAt": "2026-07-01 03:25",
-      "threadTitle": "Re: KNF nałoźył 15 mln kary, ale chyba bardziej zaboli utrata zaufania",
-      "url": "https://www.bankier.pl/forum/temat_knf-nalozyl-15-mln-kary-ale-chyba-bardziej-zaboli-utrata-zaufania,74847035.html",
-      "body": "Nie przesądzałbym, że Energy S.A. to drugi Columbus, ale wczesne podobieństwa do historii OZE są widoczne. Nie rekomendacja.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
     {
       "id": "74905423",
       "author": "Magellan",
@@ -1284,34 +1260,6 @@
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74046177",
-      "author": "AG",
-      "postedAt": "2026-04-02 10:04",
-      "threadTitle": "Re: Co jest?",
-      "url": "https://www.bankier.pl/forum/temat_co-jest,74035673.html",
-      "body": "Kurs na ATH, podczas gdy reszta sektora wciąż daleko poniżej szczytów — wygląda to jak sztuczne podciąganie wyceny, żeby Commerzbank mógł pokazać „ładniejsze” aktywa przed ewentualnym przejęciem.Zero reakcji na raport NBP, który pokazał spadek zysków banków o 25% r/r za pierwsze dwa miesiące 2026, co samo w sobie powinno ostudzić entuzjazm. Q1 będzie testem — jeśli mBank pokaże podobny spadek jak cały sektor, to utrzymywanie ceny powyżej 1100 może się szybko skończyć.Sam wziąłem shorta ze średnią ok 1120. Oby to był dobry moment.",
-      "votes": {
-        "up": 17,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74044439",
-      "author": "Myslacy",
-      "postedAt": "2026-04-02 07:48",
-      "threadTitle": "Re: Co jest?",
-      "url": "https://www.bankier.pl/forum/temat_co-jest,74035673.html",
-      "body": "Dzisiaj zobaczycie armagedon po wypowiedzi Trumpa.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }

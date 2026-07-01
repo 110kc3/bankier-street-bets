@@ -3,32 +3,27 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-07-01T04:55:13.765Z",
+  "updatedAt": "2026-07-01T10:15:37.715Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-01T04:55:13.765Z",
+    "fetchedAt": "2026-07-01T10:15:37.715Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 16
+    "threadsScanned": 15
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.271,
+    "score": 0.214,
     "confidence": 0.76,
-    "commentCount": 55,
+    "commentCount": 58,
     "breakdown": {
       "positive": 32,
-      "negative": 8,
-      "neutral": 15
+      "negative": 7,
+      "neutral": 19
     },
     "trend": [
-      {
-        "date": "2026-06-01",
-        "score": -0.322,
-        "count": 1
-      },
       {
         "date": "2026-06-02",
         "score": 0.583,
@@ -108,10 +103,15 @@
         "date": "2026-06-30",
         "score": 0,
         "count": 2
+      },
+      {
+        "date": "2026-07-01",
+        "score": 0,
+        "count": 4
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 55 komentarzy z ostatnich 30 dni: nastroje pozytywne (32 pozytywnych, 8 negatywnych, 15 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 58 komentarzy z ostatnich 30 dni: nastroje pozytywne (32 pozytywnych, 7 negatywnych, 19 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidende",
@@ -156,6 +156,62 @@
     ]
   },
   "comments": [
+    {
+      "id": "74976135",
+      "author": "aa",
+      "postedAt": "2026-07-01 11:21",
+      "threadTitle": "Re: eTrader nie chodzi",
+      "url": "https://www.bankier.pl/forum/temat_etrader-nie-chodzi,74257145.html",
+      "body": "to już przegięcie, treraz mamy koleną nadzwyczajna kastę - informatyków.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74975835",
+      "author": "Micha44",
+      "postedAt": "2026-07-01 11:05",
+      "threadTitle": "Re: Porozumiemnie",
+      "url": "https://www.bankier.pl/forum/temat_porozumiemnie,74794515.html",
+      "body": "Energy S.A. może być ciekawą historią OZE na NewConnect. PV, kolejne zlecenia i zakupy akcji przez podmioty powiązane z właścicielem wyglądają interesująco. Nie rekomendacja.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74975817",
+      "author": "aa",
+      "postedAt": "2026-07-01 11:03",
+      "threadTitle": "Re: eTrader nie chodzi",
+      "url": "https://www.bankier.pl/forum/temat_etrader-nie-chodzi,74257145.html",
+      "body": "nawet nie przeproszą",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74974631",
+      "author": "Bartek",
+      "postedAt": "2026-07-01 10:08",
+      "threadTitle": "Re: Porozumiemnie",
+      "url": "https://www.bankier.pl/forum/temat_porozumiemnie,74794515.html",
+      "body": "Przy Energy S.A. najciekawsze jest połączenie newsflow, OZE i zakupów akcji przez osoby/podmioty blisko spółki. Obserwuję. Nie rekomendacja.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "74969571",
       "author": "swPiotr",
@@ -276,7 +332,7 @@
       "url": "https://www.bankier.pl/forum/temat_etrader,74839789.html",
       "body": "znowu padło",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -654,7 +710,7 @@
       "url": "https://www.bankier.pl/forum/temat_etrader-nie-chodzi,74257145.html",
       "body": "Potwierdzam, porażka znów jakaś awaria, cały dzień nie można zalogować się do aplikacji",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -710,7 +766,7 @@
       "url": "https://www.bankier.pl/forum/temat_etrader-nie-chodzi,74257145.html",
       "body": "Nawet do aplikacji banku na tel. nie mogę się zalogować...",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -911,20 +967,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74653117",
-      "author": "Kamil",
-      "postedAt": "2026-06-01 08:55",
-      "threadTitle": "Re: GWAŁTOWNY SPADEK ZYSKÓW JEST JEDNAK DOPIERO PRZED NAMI...",
-      "url": "https://www.bankier.pl/forum/temat_gwaltowny-spadek-zyskow-jest-jednak-dopiero-przed-nami,74203221.html",
-      "body": "Kredyty:frankowe złotówkoweNa nich będą gigantyczne straty banków. To wszystko przed nami.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
