@@ -3,25 +3,25 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-02T14:30:41.334Z",
+  "updatedAt": "2026-07-02T19:53:16.259Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-02T14:30:41.334Z",
+    "fetchedAt": "2026-07-02T19:53:16.259Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
     "threadsScanned": 13
   },
   "analysis": {
-    "signal": "SELL",
-    "score": -0.168,
+    "signal": "HOLD",
+    "score": -0.135,
     "confidence": 0.57,
-    "commentCount": 31,
+    "commentCount": 33,
     "breakdown": {
       "positive": 11,
       "negative": 8,
-      "neutral": 12
+      "neutral": 14
     },
     "trend": [
       {
@@ -118,11 +118,20 @@
         "date": "2026-07-01",
         "score": -0.87,
         "count": 1
+      },
+      {
+        "date": "2026-07-02",
+        "score": 0,
+        "count": 2
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 31 komentarzy z ostatnich 30 dni: nastroje negatywne (11 pozytywnych, 8 negatywnych, 12 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 33 komentarzy z ostatnich 30 dni: nastroje negatywne (11 pozytywnych, 8 negatywnych, 14 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "tyle",
+        "count": 2
+      },
       {
         "word": "https",
         "count": 2
@@ -158,14 +167,38 @@
       {
         "word": "wzrost",
         "count": 2
-      },
-      {
-        "word": "tygodniu",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75001495",
+      "author": "Łukasz",
+      "postedAt": "2026-07-02 18:34",
+      "threadTitle": "Re: 30 zl dobra cena na zakup pkobp",
+      "url": "https://www.bankier.pl/forum/temat_30-zl-dobra-cena-na-zakup-pkobp,74855461.html",
+      "body": "Energy S.A. może przypominać bardzo wczesny etap Columbusa. Jeszcze wcześnie, ale kierunek OZE i aktywność właścicielska są ciekawe. Nie rekomendacja.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75000173",
+      "author": "nieznany",
+      "postedAt": "2026-07-02 17:02",
+      "threadTitle": "Re: 145 to dopiero 0.1 ceny akcji mBank. tak tylko uświadamiam",
+      "url": "https://www.bankier.pl/forum/temat_145-to-dopiero-0-1-ceny-akcji-mbank-tak-tylko-uswiadamiam,74818671.html",
+      "body": "tyle że akcji PKO BP jest 1,25 mld a mBanku jakieś 0,04 mld",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "74978465",
       "author": "Olmo",
