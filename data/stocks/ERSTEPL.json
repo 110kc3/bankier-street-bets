@@ -3,11 +3,11 @@
   "companyName": "Erste Bank Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ERSTEPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_erste-bank-polska-sa,6,21,38.html",
-  "updatedAt": "2026-07-02T09:33:10.397Z",
+  "updatedAt": "2026-07-02T14:29:24.002Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-02T09:33:10.397Z",
+    "fetchedAt": "2026-07-02T14:29:24.002Z",
     "windowDays": 365,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.042,
-    "confidence": 0.63,
-    "commentCount": 48,
+    "score": -0.052,
+    "confidence": 0.62,
+    "commentCount": 45,
     "breakdown": {
-      "positive": 8,
+      "positive": 7,
       "negative": 15,
-      "neutral": 25
+      "neutral": 23
     },
     "trend": [
-      {
-        "date": "2025-07-02",
-        "score": 0.583,
-        "count": 1
-      },
       {
         "date": "2025-07-04",
         "score": -0.87,
@@ -183,23 +178,14 @@
         "date": "2026-06-26",
         "score": 0,
         "count": 1
-      },
-      {
-        "date": "2026-07-02",
-        "score": 0,
-        "count": 2
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 48 komentarzy z ostatnich 365 dni: nastroje mieszane (8 pozytywnych, 15 negatywnych, 25 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 45 komentarzy z ostatnich 365 dni: nastroje mieszane (7 pozytywnych, 15 negatywnych, 23 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wszystko",
         "count": 4
-      },
-      {
-        "word": "rekomendacja",
-        "count": 3
       },
       {
         "word": "black",
@@ -226,44 +212,20 @@
         "count": 3
       },
       {
-        "word": "energy",
+        "word": "inwestorem",
         "count": 2
       },
       {
-        "word": "inwestorem",
+        "word": "innych",
+        "count": 2
+      },
+      {
+        "word": "lata",
         "count": 2
       }
     ]
   },
   "comments": [
-    {
-      "id": "74991769",
-      "author": "Wojswe",
-      "postedAt": "2026-07-02 09:34",
-      "threadTitle": "Re: Co się dzieje ?",
-      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje,72631275.html",
-      "body": "Na Energy S.A. zaczyna być widać regularność komunikatów. To ważne, bo w małych spółkach powtarzalny newsflow bywa początkiem większej historii. Nie rekomendacja.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74988865",
-      "author": "Maksiu",
-      "postedAt": "2026-07-02 03:51",
-      "threadTitle": "Re: dziadostwo nie można sie zalogować do maklera",
-      "url": "https://www.bankier.pl/forum/temat_dziadostwo-nie-mozna-sie-zalogowac-do-maklera,72650241.html",
-      "body": "Energy S.A. nie jest jeszcze Columbusem, ale może być ciekawą historią na bardzo wczesnym etapie. PV, zlecenia, insiderzy. Nie rekomendacja.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
     {
       "id": "74926787",
       "author": "Sww",
@@ -893,20 +855,6 @@
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "71444305",
-      "author": "Tad",
-      "postedAt": "2025-07-02 14:31",
-      "threadTitle": "Re: Kupujemy ?",
-      "url": "https://www.bankier.pl/forum/temat_kupujemy,71156031.html",
-      "body": "za wcześnie",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }
