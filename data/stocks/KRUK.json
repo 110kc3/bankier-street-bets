@@ -3,36 +3,31 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-07-02T19:52:26.344Z",
+  "updatedAt": "2026-07-03T04:08:24.395Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-02T19:52:26.344Z",
+    "fetchedAt": "2026-07-03T04:08:24.395Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 8
+    "threadsScanned": 7
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.085,
-    "confidence": 0.73,
-    "commentCount": 60,
+    "score": 0.067,
+    "confidence": 0.72,
+    "commentCount": 59,
     "breakdown": {
       "positive": 21,
-      "negative": 13,
-      "neutral": 26
+      "negative": 14,
+      "neutral": 24
     },
     "trend": [
       {
-        "date": "2026-06-25",
-        "score": 0,
-        "count": 1
-      },
-      {
         "date": "2026-06-26",
-        "score": -0.045,
-        "count": 16
+        "score": -0.048,
+        "count": 15
       },
       {
         "date": "2026-06-27",
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-07-02",
-        "score": 0.081,
-        "count": 4
+        "score": -0.052,
+        "count": 5
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 60 komentarzy z ostatnich 7 dni: nastroje mieszane (21 pozytywnych, 13 negatywnych, 26 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 59 komentarzy z ostatnich 7 dni: nastroje mieszane (21 pozytywnych, 14 negatywnych, 24 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruka",
@@ -111,6 +106,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75003655",
+      "author": "Kierunek_Południe",
+      "postedAt": "2026-07-02 21:54",
+      "threadTitle": "Re: Kruk - 700 na zawsze?",
+      "url": "https://www.bankier.pl/forum/temat_kruk-400-na-zawsze,74931249.html",
+      "body": "Da się to jakoś shortować na jakimś ETFie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "74998627",
       "author": "cezjas",
@@ -922,34 +931,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74926873",
-      "author": "Alfa",
-      "postedAt": "2026-06-26 01:37",
-      "threadTitle": "Re: moja alternatywna rekomendacja to 730zł",
-      "url": "https://www.bankier.pl/forum/temat_moja-alternatywna-rekomendacja-to-730zl,74552661.html",
-      "body": "560 w 27r ….… a bobka było zebrać, wysuszyć i zaparzyć czai, może by Ci pomógł :))",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74926119",
-      "author": "takmysle",
-      "postedAt": "2026-06-25 22:35",
-      "threadTitle": "Re: Kruk powinien być po ok 700zł",
-      "url": "https://www.bankier.pl/forum/temat_kruk-powinien-byc-po-ok-700zl,73644347.html",
-      "body": "columbusa to tylko tacy jak ty mają hahahahahah",
-      "votes": {
-        "up": 2,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
