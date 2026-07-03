@@ -3,32 +3,27 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-03T14:33:17.330Z",
+  "updatedAt": "2026-07-03T19:51:09.915Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-03T14:33:17.330Z",
+    "fetchedAt": "2026-07-03T19:51:09.915Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 13
+    "threadsScanned": 15
   },
   "analysis": {
-    "signal": "SELL",
-    "score": -0.156,
-    "confidence": 0.56,
-    "commentCount": 31,
+    "signal": "HOLD",
+    "score": -0.091,
+    "confidence": 0.55,
+    "commentCount": 32,
     "breakdown": {
-      "positive": 10,
+      "positive": 11,
       "negative": 8,
       "neutral": 13
     },
     "trend": [
-      {
-        "date": "2026-06-03",
-        "score": 0,
-        "count": 1
-      },
       {
         "date": "2026-06-04",
         "score": 0.322,
@@ -123,11 +118,28 @@
         "date": "2026-07-02",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-07-03",
+        "score": 0.161,
+        "count": 2
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 31 komentarzy z ostatnich 30 dni: nastroje negatywne (10 pozytywnych, 8 negatywnych, 13 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 32 komentarzy z ostatnich 30 dni: nastroje mieszane (11 pozytywnych, 8 negatywnych, 13 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "wzrostu",
+        "count": 2
+      },
+      {
+        "word": "dobry",
+        "count": 2
+      },
+      {
+        "word": "wszystko",
+        "count": 2
+      },
       {
         "word": "tyle",
         "count": 2
@@ -155,22 +167,38 @@
       {
         "word": "mbank",
         "count": 2
-      },
-      {
-        "word": "dopiero",
-        "count": 2
-      },
-      {
-        "word": "lata",
-        "count": 2
-      },
-      {
-        "word": "wzrost",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75018279",
+      "author": "cognac",
+      "postedAt": "2026-07-03 18:19",
+      "threadTitle": "Nie jest źle 3",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle-3,75018279.html",
+      "body": "Wbrew pozorom lipiec może sie okazać niezłym miesiącem wzrostu.Dobry papier, jescze z zapasem na górze.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75017561",
+      "author": "Tk",
+      "postedAt": "2026-07-03 17:21",
+      "threadTitle": "Automaty automaty",
+      "url": "https://www.bankier.pl/forum/temat_automaty-automaty,75017561.html",
+      "body": "Pięknie to rozgrywają. Automat kontroluje wszystko jak narazie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75000173",
       "author": "nieznany",
@@ -590,20 +618,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74691467",
-      "author": "791272878",
-      "postedAt": "2026-06-03 20:19",
-      "threadTitle": "Re: elo mefedron 12",
-      "url": "https://www.bankier.pl/forum/temat_elo-mefedron-12,71195311.html",
-      "body": "Mefa koka buszek dowoz warszawa 791272878",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
