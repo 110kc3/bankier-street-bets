@@ -3,11 +3,11 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-07-04T13:58:09.363Z",
+  "updatedAt": "2026-07-04T19:36:47.979Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-04T13:58:09.363Z",
+    "fetchedAt": "2026-07-04T19:36:47.979Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.102,
-    "confidence": 0.68,
-    "commentCount": 51,
+    "score": 0.097,
+    "confidence": 0.67,
+    "commentCount": 50,
     "breakdown": {
-      "positive": 20,
+      "positive": 19,
       "negative": 9,
       "neutral": 22
     },
     "trend": [
-      {
-        "date": "2026-06-27",
-        "score": 0.583,
-        "count": 1
-      },
       {
         "date": "2026-06-28",
         "score": 0,
@@ -65,12 +60,12 @@
         "count": 3
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 51 komentarzy z ostatnich 7 dni: nastroje pozytywne (20 pozytywnych, 9 negatywnych, 22 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 50 komentarzy z ostatnich 7 dni: nastroje mieszane (19 pozytywnych, 9 negatywnych, 22 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruka",
-        "count": 14
+        "count": 13
       },
       {
         "word": "kruk",
@@ -79,10 +74,6 @@
       {
         "word": "zloto",
         "count": 6
-      },
-      {
-        "word": "etfy",
-        "count": 4
       },
       {
         "word": "wyniki",
@@ -106,6 +97,10 @@
       },
       {
         "word": "przy",
+        "count": 3
+      },
+      {
+        "word": "wywalac",
         "count": 3
       }
     ]
@@ -455,7 +450,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
       "body": "Rekomendacja to jedno a wzrost minimalnej krajowej to mocny wiatr pod skrzydła naszego Kruka!",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -609,7 +604,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
       "body": "Chyba lecimy w kierunku reko 500+. Czego wsxystkim akcjonariuszom zycze.",
       "votes": {
-        "up": 12,
+        "up": 13,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -810,20 +805,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74942595",
-      "author": "Konsultant",
-      "postedAt": "2026-06-27 18:30",
-      "threadTitle": "Re: Kruk - 400 na zawsze?",
-      "url": "https://www.bankier.pl/forum/temat_kruk-400-na-zawsze,74931249.html",
-      "body": "Jeden kupuje Kruka dla biżuterii, drugi wierzy w AT. ETFy - to dla Was droga chłopcy.",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }

@@ -3,56 +3,52 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-07-04T13:57:34.395Z",
+  "updatedAt": "2026-07-04T19:36:21.354Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-04T13:57:34.395Z",
+    "fetchedAt": "2026-07-04T19:36:21.354Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 158
+    "threadsScanned": 161
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.207,
+    "score": -0.202,
     "confidence": 0.77,
     "commentCount": 200,
     "breakdown": {
-      "positive": 34,
+      "positive": 36,
       "negative": 88,
-      "neutral": 78
+      "neutral": 76
     },
     "trend": [
       {
         "date": "2026-07-02",
-        "score": -0.071,
-        "count": 14
+        "score": 0.215,
+        "count": 3
       },
       {
         "date": "2026-07-03",
-        "score": -0.247,
-        "count": 152
+        "score": -0.249,
+        "count": 153
       },
       {
         "date": "2026-07-04",
-        "score": -0.045,
-        "count": 34
+        "score": -0.042,
+        "count": 44
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje negatywne (34 pozytywnych, 88 negatywnych, 78 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje negatywne (36 pozytywnych, 88 negatywnych, 76 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 25
+        "count": 21
       },
       {
         "word": "czas",
-        "count": 9
-      },
-      {
-        "word": "tygodniu",
         "count": 8
       },
       {
@@ -60,19 +56,23 @@
         "count": 8
       },
       {
-        "word": "kupowac",
+        "word": "dzis",
         "count": 8
       },
       {
-        "word": "dzis",
-        "count": 8
+        "word": "tych",
+        "count": 7
       },
       {
         "word": "ponizej",
         "count": 7
       },
       {
-        "word": "maja",
+        "word": "tygodniu",
+        "count": 7
+      },
+      {
+        "word": "kupowac",
         "count": 7
       },
       {
@@ -80,12 +80,166 @@
         "count": 7
       },
       {
-        "word": "rekomendacje",
-        "count": 7
+        "word": "raczej",
+        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75030031",
+      "author": "Nowy",
+      "postedAt": "2026-07-04 21:11",
+      "threadTitle": "Czy warto usredniac",
+      "url": "https://www.bankier.pl/forum/temat_czy-warto-usredniac,75030031.html",
+      "body": "Czy jeszcze poczekać na lepszą cenę",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75029917",
+      "author": "Józef",
+      "postedAt": "2026-07-04 20:34",
+      "threadTitle": "Re: To 23 czy 31 ? - bo różnica jest zasadnicza",
+      "url": "https://www.bankier.pl/forum/temat_to-23-czy-31-bo-roznica-jest-zasadnicza,75029505.html",
+      "body": "Raczej pośrodku czyli okolice 25 zł. Wyniki drugiego kwartału raczej nie będa najlepsze, zrozumiałe ze względu na wpływ świąt wielkanocnych. Od trzeciego kwartału powinno zacząć sie poprawiać. i wraz z tym cena powinna iść do góry. raczej nie wcześniej. No i musza do tego czasu dogadać się ze związkami, wtedy też PIP i prokuratura trochę odpuści.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75029643",
+      "author": "Nocwilka",
+      "postedAt": "2026-07-04 19:45",
+      "threadTitle": "Re: To 23 czy 31 ? - bo różnica jest zasadnicza",
+      "url": "https://www.bankier.pl/forum/temat_to-23-czy-31-bo-roznica-jest-zasadnicza,75029505.html",
+      "body": "Kto robił ta wycenę to raczej nie ekonomista cofną spółkę przed 2020 jaja",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75029505",
+      "author": "Radi",
+      "postedAt": "2026-07-04 19:20",
+      "threadTitle": "To 23 czy 31 ? - bo różnica jest zasadnicza",
+      "url": "https://www.bankier.pl/forum/temat_to-23-czy-31-bo-roznica-jest-zasadnicza,75029505.html",
+      "body": "Mamy dwie reko 23 i 31 , w ktora strone to pójdzie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75029327",
+      "author": "tadeusz-a",
+      "postedAt": "2026-07-04 18:48",
+      "threadTitle": "Re: sprzedałem smiecia. to jest gorsza spółka niz NewConnect",
+      "url": "https://www.bankier.pl/forum/temat_sprzedalem-smiecia-to-jest-gorsza-spolka-niz-newconnect,75013765.html",
+      "body": "Synek i Absolutne Dno - połącz - wychodzi Dno",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.99,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75029305",
+      "author": "Nocwilka",
+      "postedAt": "2026-07-04 18:45",
+      "threadTitle": "Re: sprzedałem smiecia. to jest gorsza spółka niz NewConnect",
+      "url": "https://www.bankier.pl/forum/temat_sprzedalem-smiecia-to-jest-gorsza-spolka-niz-newconnect,75013765.html",
+      "body": "Będziesz żałował ale to twoja decyzja",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75029209",
+      "author": "Dno",
+      "postedAt": "2026-07-04 18:28",
+      "threadTitle": "Re: sprzedałem smiecia. to jest gorsza spółka niz NewConnect",
+      "url": "https://www.bankier.pl/forum/temat_sprzedalem-smiecia-to-jest-gorsza-spolka-niz-newconnect,75013765.html",
+      "body": "Zgoda",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75029053",
+      "author": "tadeusz-a",
+      "postedAt": "2026-07-04 18:00",
+      "threadTitle": "Re: Barclays też...się uwziął na \"polskie\" Dino????",
+      "url": "https://www.bankier.pl/forum/temat_barclays-tez-sie-uwzial-na-polskie-dino,75025025.html",
+      "body": "godoj ma rację",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75028937",
+      "author": "Misiu",
+      "postedAt": "2026-07-04 17:45",
+      "threadTitle": "Jeszcze będzie przepięknie, jeszcze będzie normalnie...",
+      "url": "https://www.bankier.pl/forum/temat_jeszcze-bedzie-przepieknie-jeszcze-bedzie-normalnie,75028937.html",
+      "body": "Teraz celowo dołują spółkę. Ale prawda się obroni. Po wymikach będzie zmiana trendu.",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75028881",
+      "author": "ToblaKai",
+      "postedAt": "2026-07-04 17:35",
+      "threadTitle": "Re: Barclays też...się uwziął na \"polskie\" Dino????",
+      "url": "https://www.bankier.pl/forum/temat_barclays-tez-sie-uwzial-na-polskie-dino,75025025.html",
+      "body": ",@~GodojChciałbym mieć tyle optymizmu.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75028471",
+      "author": "Godoj",
+      "postedAt": "2026-07-04 16:34",
+      "threadTitle": "Re: Barclays też...się uwziął na \"polskie\" Dino????",
+      "url": "https://www.bankier.pl/forum/temat_barclays-tez-sie-uwzial-na-polskie-dino,75025025.html",
+      "body": "@~ToblaKaiZagrożenia i zawirowania geopolityczne ciągną się od wielu lat, a rynkom jakoś to nie przeszkadza. Nawet te \"pęknięcie bańki\" (jakiejkolwiek) nie jest tak do końca przesądzone z powodu bezprecedensowego nadmiaru pieniądza na rynku. Pieniędzy, zarówno tych nadrukowanych, wpuszczonych przez \"luzowania ilościowe\", ale również napęczniałych w funduszach celowych (różne rezerwy demograficzne, czy inne w stylu norweskiego \"zyski z ropy\") jest taka masa, że naturalne cykle inwestycyjne uległy zaburzeniu...Nawet po ataku na Iran, rynki tylko lekko się ugięły i poszły na nowe maksy. Nawet polska giełda, która przez lata była pierwsza do spadków, ostatnia do wzrostów tkwi pod 3700 (WIG20) i bardziej się szykuje na nowe maksy niż na głębszy spadek...",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75027113",
       "author": "marek",
@@ -108,8 +262,8 @@
       "url": "https://www.bankier.pl/forum/temat_panie-biernacki-zrob-pan-wezwanie,75020529.html",
       "body": "https://www.wiadomoscihandlowe.pl/najwieksze-sieci-handlowe/dino/dino-otworzylo-w-pol-roku-wiecej-sklepow-niz-biedronka-planuje-przez-caly-2026-rok-2536263ja caly czas usredniam, teraz juz ponizej 29, w poniedzialek mam nadzieje ze jeszcze spadnie. To bedzie drugi orlen z konca 2024:d",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 1,
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -122,7 +276,7 @@
       "url": "https://www.bankier.pl/forum/temat_barclays-tez-sie-uwzial-na-polskie-dino,75025025.html",
       "body": "Niestety w połowie maja wachania między 28 a 35 na tyg wykr. 28 nie obronione. Jeśli nic konkretnego zarząd nie powie albo się nie wydarzy to tylko korekta i osuwanie może nasz czekać a nie odwrócenie…",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -150,7 +304,7 @@
       "url": "https://www.bankier.pl/forum/temat_to-byl-ostatni-spadek-dino,75019357.html",
       "body": "co racja to racja!",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 2
       },
       "sentimentScore": -0.322,
@@ -220,7 +374,7 @@
       "url": "https://www.bankier.pl/forum/temat_barclays-tez-sie-uwzial-na-polskie-dino,75025025.html",
       "body": "Rekomendacja Barclays pojawiła się w mediach około godziny 16. I właśnie po godz.16 DINO zaczęło odrabiać straty. Dla przypomnienia : Barclays obniżył cenę akcji z 35 zł do 31 zł. Uważam ,że wszyscy gracze w nadchodzącym tygodniu zanotują zyski na akcjach tej spółki. Po wzroście cen paliw , inflacja w lipcu znowu przekroczy 3%, i może to dotyczyć \"spożywki \", która w czerwcu zanotowała spadek o 0,7%. Głowa do góry, od poniedziałku zarabiamy.",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 2
       },
       "sentimentScore": 0.322,
@@ -249,7 +403,7 @@
       "body": "Niestety Dino może i polskie ale na półkach ze słodyczami mnóstwo ukraińskich łakoci :(",
       "votes": {
         "up": 1,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -262,8 +416,8 @@
       "url": "https://www.bankier.pl/forum/temat_barclays-tez-sie-uwzial-na-polskie-dino,75025025.html",
       "body": "Ileż tu zachwytow nad pręzną ekspansją .... a tu Barclays tnie ze względu na zbyt wolną ekspansję. Też sie uwziął aby zniszczyć polskiego dinozaura? Ogarnijcie sie skoro Biernacki jest daleki od tego. Pamiętacie to powiedzenie - jeśli zona mowi jesteś pijany może nie byc obiektywna ale jeśli następne osoby mówią to samo to jesteś. Analitycy z renomowanych banków mówią ogranijcie sie a na tym forum efektu brak. Biernacki żyje w jakiejś bańce i nawet to,że traci każdego dnia nie powoduje u niego refleksji. Jedynym w tej chwili sposobem obrony jego wartości w akcjach DNP jest wezwanie . Ale nie liczcie na to. Skoro są 2 negatywne reko od duzych graczy to w przyszlym tygodniu pjawi sie 3 tym razem krajowa mocno tnąca wycene - stawiam na 20 zl .",
       "votes": {
-        "up": 2,
-        "down": 2
+        "up": 3,
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -281,20 +435,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75024913",
-      "author": "tadeusz-a",
-      "postedAt": "2026-07-04 10:47",
-      "threadTitle": "Re: Dno",
-      "url": "https://www.bankier.pl/forum/temat_dno,75024387.html",
-      "body": "> Informuje że po całym tygodniu latryna się przelewa. Dobrze że sprzedałem dziada po 29 hehejednego jełopy mniej",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75024899",
@@ -836,7 +976,7 @@
       "url": "https://www.bankier.pl/forum/temat_barclays-o-dino,75019385.html",
       "body": "Barclays wprawdzie obniżył cenę docelową dla DINO, ale z 35 do 31 zł za akcjęTe akcje dziś są mega tanie. Tu wkrótce powinno być co najmniej 29 zł , i takiej ceny spodziewam się w nadchodzącym tygodniu.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 6
       },
       "sentimentScore": 0,
@@ -850,8 +990,8 @@
       "url": "https://www.bankier.pl/forum/temat_to-byl-ostatni-spadek-dino,75019357.html",
       "body": "W tym tygodniu,jestem tego pewny",
       "votes": {
-        "up": 6,
-        "down": 6
+        "up": 7,
+        "down": 7
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -2012,7 +2152,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprzedalem-smiecia-to-jest-gorsza-spolka-niz-newconnect,75013765.html",
       "body": "Tez czekam na 23 zl. Ale ostroznie bede na tych poziomach obserwowal. Tutaj jest przestrzen na spadki i ponizej 23 zl.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.931,
@@ -2026,10 +2166,24 @@
       "url": "https://www.bankier.pl/forum/temat_sprzedalem-smiecia-to-jest-gorsza-spolka-niz-newconnect,75013765.html",
       "body": "Teraz to wszyscy będą czekać to szybko nie odbije",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.931,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75014517",
+      "author": "Pol",
+      "postedAt": "2026-07-03 14:31",
+      "threadTitle": "Widly",
+      "url": "https://www.bankier.pl/forum/temat_widly,75014517.html",
+      "body": "Moze jeszcze dzisiaj ,to zachowuje się jak jakis bankrut ,jaja robią sobie z Biernackiego",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
     },
     {
@@ -2040,7 +2194,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprzedalem-smiecia-to-jest-gorsza-spolka-niz-newconnect,75013765.html",
       "body": "Jeszcze jak przebije 27 do ja czekam z kupnem do 23",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.87,
@@ -2055,7 +2209,7 @@
       "body": "Czyli warto kupic jak bedzie ponizej 20 zl?",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -2111,7 +2265,7 @@
       "body": "Patrz i obserwuj. Jak kupisz na czas to zarobisz z 10 zł na kursie Ale nie dziś i nie jutro",
       "votes": {
         "up": 3,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
@@ -2131,6 +2285,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "75013765",
+      "author": "Sunek",
+      "postedAt": "2026-07-03 13:40",
+      "threadTitle": "sprzedałem smiecia. to jest gorsza spółka niz NewConnect",
+      "url": "https://www.bankier.pl/forum/temat_sprzedalem-smiecia-to-jest-gorsza-spolka-niz-newconnect,75013765.html",
+      "body": "strata 45k. to jest jakis koszmar. ci co tu rekomendację piszą, zaniżają kurs te szorty powinni siedzieć.",
+      "votes": {
+        "up": 9,
+        "down": 1
+      },
+      "sentimentScore": -0.981,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75013771",
       "author": "Jutek",
       "postedAt": "2026-07-03 13:40",
@@ -2143,20 +2311,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75013765",
-      "author": "Sunek",
-      "postedAt": "2026-07-03 13:40",
-      "threadTitle": "sprzedałem smiecia. to jest gorsza spółka niz NewConnect",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem-smiecia-to-jest-gorsza-spolka-niz-newconnect,75013765.html",
-      "body": "strata 45k. to jest jakis koszmar. ci co tu rekomendację piszą, zaniżają kurs te szorty powinni siedzieć.",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": -0.981,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75013697",
@@ -2731,160 +2885,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74998841",
-      "author": "Prawda",
-      "postedAt": "2026-07-02 15:56",
-      "threadTitle": "Re: Dino na dnie wyceny? Czas na potężny Short Squeeze i efekt skali!",
-      "url": "https://www.bankier.pl/forum/temat_dino-na-dnie-wyceny-czas-na-potezny-short-squeeze-i-efekt-skali,74994157.html",
-      "body": "Kilka lat temu Dino było o połowę mniejsze, kapitału miało mniej, ale akcje były znacznie droższe. Teraz biznes urósł do potęgi, skumulował wagon gotówki, więc... cena leci w dół. Logiczne, prawda?Dlatego zróbcie dobry uczynek, dajcie zarobić Morgan Stanley oraz ich kolegom i sprzedajcie im te akcje na samym dnie! No już, ułatwcie im życie, przecież oni bardzo chętnie od Was te papiery odkupią za bezcen. A jak kurs wzrośnie o 200% i poleci do nieba, te same fundusze z wielką troską wydadzą oficjalne rekomendacje „KUPUJ” z kosmiczną ceną docelową, żeby z uśmiechem na ustach odsprzedać Wam je z powrotem na samej górce. No klasyk!",
-      "votes": {
-        "up": 25,
-        "down": 2
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74998681",
-      "author": "Prawda",
-      "postedAt": "2026-07-02 15:49",
-      "threadTitle": "Re: Dino na dnie wyceny? Czas na potężny Short Squeeze i efekt skali!",
-      "url": "https://www.bankier.pl/forum/temat_dino-na-dnie-wyceny-czas-na-potezny-short-squeeze-i-efekt-skali,74994157.html",
-      "body": "Zawsze możecie sprzedać funduszom, a one czekająJak kurs wzrośnie o 200% to wtedy będzie rekomendacja kupujDlatego dajcie zarobić Morgan Stanley i ich kolegom i sprzedajcie akcjejak Dino urośnie za jakiś czas o 200% to wtedy wam sprzedadzą i będą rekomendacje kupuj",
-      "votes": {
-        "up": 17,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74998209",
-      "author": "Tomek",
-      "postedAt": "2026-07-02 15:25",
-      "threadTitle": "Re: Dzis Morgan Stanley obnizyl rekomendacje do 23,4zl",
-      "url": "https://www.bankier.pl/forum/temat_dzis-morgan-stanley-obnizyl-rekomendacje-do-23-4zl,74996703.html",
-      "body": "Jak do tylu dojdzie to potrajam pozycje",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74997555",
-      "author": "Mario",
-      "postedAt": "2026-07-02 14:52",
-      "threadTitle": "Re: Dzis Morgan Stanley obnizyl rekomendacje do 23,4zl",
-      "url": "https://www.bankier.pl/forum/temat_dzis-morgan-stanley-obnizyl-rekomendacje-do-23-4zl,74996703.html",
-      "body": "Dino, z 38zl na 23,4zl.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74997399",
-      "author": "Cma",
-      "postedAt": "2026-07-02 14:45",
-      "threadTitle": "Re: Dzis Morgan Stanley obnizyl rekomendacje do 23,4zl",
-      "url": "https://www.bankier.pl/forum/temat_dzis-morgan-stanley-obnizyl-rekomendacje-do-23-4zl,74996703.html",
-      "body": "Nie moge znalesc, moze to rekomendacje dla jakiejs innej spolki a nie dla Dino?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74997111",
-      "author": "MZ",
-      "postedAt": "2026-07-02 14:32",
-      "threadTitle": "Re: Dino na dnie wyceny? Czas na potężny Short Squeeze i efekt skali!",
-      "url": "https://www.bankier.pl/forum/temat_dino-na-dnie-wyceny-czas-na-potezny-short-squeeze-i-efekt-skali,74994157.html",
-      "body": "Rece pod tylek i czekac",
-      "votes": {
-        "up": 8,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74997143",
-      "author": "Mario",
-      "postedAt": "2026-07-02 14:32",
-      "threadTitle": "Re: Dzis Morgan Stanley obnizyl rekomendacje do 23,4zl",
-      "url": "https://www.bankier.pl/forum/temat_dzis-morgan-stanley-obnizyl-rekomendacje-do-23-4zl,74996703.html",
-      "body": "Puls Biznesu",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74996897",
-      "author": "Cma",
-      "postedAt": "2026-07-02 14:21",
-      "threadTitle": "Re: Dzis Morgan Stanley obnizyl rekomendacje do 23,4zl",
-      "url": "https://www.bankier.pl/forum/temat_dzis-morgan-stanley-obnizyl-rekomendacje-do-23-4zl,74996703.html",
-      "body": "Wydaje mi sie, ze to jest klamstwo?Mozesz podac zrodlo?",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74996851",
-      "author": "tadeusz-a",
-      "postedAt": "2026-07-02 14:17",
-      "threadTitle": "Re: Dzis Morgan Stanley obnizyl rekomendacje do 23,4zl",
-      "url": "https://www.bankier.pl/forum/temat_dzis-morgan-stanley-obnizyl-rekomendacje-do-23-4zl,74996703.html",
-      "body": "jak zawsze marysia i bulwa mają rację, będzie 16,50 zeta",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74996803",
-      "author": "Bolo",
-      "postedAt": "2026-07-02 14:15",
-      "threadTitle": "Re: Dzis Morgan Stanley obnizyl rekomendacje do 23,4zl",
-      "url": "https://www.bankier.pl/forum/temat_dzis-morgan-stanley-obnizyl-rekomendacje-do-23-4zl,74996703.html",
-      "body": "Czyli trzeba kupować",
-      "votes": {
-        "up": 17,
-        "down": 4
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74996753",
-      "author": "Buba",
-      "postedAt": "2026-07-02 14:12",
-      "threadTitle": "Re: Dzis Morgan Stanley obnizyl rekomendacje do 23,4zl",
-      "url": "https://www.bankier.pl/forum/temat_dzis-morgan-stanley-obnizyl-rekomendacje-do-23-4zl,74996703.html",
-      "body": "Sprzedaje to w tej chwili…",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }
