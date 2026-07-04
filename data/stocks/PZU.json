@@ -3,32 +3,27 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-07-04T08:51:30.090Z",
+  "updatedAt": "2026-07-04T13:59:02.487Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-04T08:51:30.090Z",
+    "fetchedAt": "2026-07-04T13:59:02.487Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 15
+    "threadsScanned": 14
   },
   "analysis": {
-    "signal": "HOLD",
-    "score": 0.146,
-    "confidence": 0.72,
-    "commentCount": 55,
+    "signal": "BUY",
+    "score": 0.152,
+    "confidence": 0.73,
+    "commentCount": 56,
     "breakdown": {
-      "positive": 23,
-      "negative": 5,
-      "neutral": 27
+      "positive": 24,
+      "negative": 4,
+      "neutral": 28
     },
     "trend": [
-      {
-        "date": "2026-06-27",
-        "score": -0.583,
-        "count": 1
-      },
       {
         "date": "2026-06-28",
         "score": 0.762,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-07-04",
-        "score": 0.322,
-        "count": 1
+        "score": 0.215,
+        "count": 3
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 55 komentarzy z ostatnich 7 dni: nastroje pozytywne (23 pozytywnych, 5 negatywnych, 27 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 56 komentarzy z ostatnich 7 dni: nastroje pozytywne (24 pozytywnych, 4 negatywnych, 28 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
@@ -85,10 +80,6 @@
         "count": 3
       },
       {
-        "word": "pewnie",
-        "count": 3
-      },
-      {
         "word": "podwyzki",
         "count": 3
       },
@@ -101,6 +92,10 @@
         "count": 3
       },
       {
+        "word": "info",
+        "count": 2
+      },
+      {
         "word": "https",
         "count": 2
       },
@@ -111,6 +106,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75027029",
+      "author": "Insurance",
+      "postedAt": "2026-07-04 13:49",
+      "threadTitle": "Re: PZU dyskontuje uwolnienie kapitału...",
+      "url": "https://www.bankier.pl/forum/temat_pzu-dyskontuje-uwolnienie-kapitalu,75023637.html",
+      "body": "W tym przypadku nie ma potrzeby aprobaty Alf Wonsa:⁠-⁠)",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75026367",
+      "author": "Rewizor",
+      "postedAt": "2026-07-04 12:51",
+      "threadTitle": "Re: PZU dyskontuje uwolnienie kapitału...",
+      "url": "https://www.bankier.pl/forum/temat_pzu-dyskontuje-uwolnienie-kapitalu,75023637.html",
+      "body": "Super info tylko zgadzam sie z mabmab wszysto co wymaga kontrasygnaty nawrockiego bedzie wetowane.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75023637",
       "author": "Insurance",
@@ -866,20 +889,6 @@
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74941055",
-      "author": "Inwestor85",
-      "postedAt": "2026-06-27 12:54",
-      "threadTitle": "Re: Nic to nie zmieni",
-      "url": "https://www.bankier.pl/forum/temat_nic-to-nie-zmieni,74925325.html",
-      "body": "w dłuższej części tak może być i 95 za akcje ale dolek tez pewnie zobaczymy (inwestowanie dlugoterminowe ( wiarze się z cierpliwością wszelkie wachania góra i dół to norma. Obecnie może korekta może bessa ,,,, ale w dłuższej perspektywie wzrost + dewidenda )",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }
