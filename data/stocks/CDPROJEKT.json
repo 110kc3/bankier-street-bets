@@ -3,11 +3,11 @@
   "companyName": "CD Projekt SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-sa,6,21,353.html",
-  "updatedAt": "2026-07-05T04:19:32.169Z",
+  "updatedAt": "2026-07-05T09:22:28.267Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-05T04:19:32.169Z",
+    "fetchedAt": "2026-07-05T09:22:28.267Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.044,
-    "confidence": 0.72,
+    "score": 0.024,
+    "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 51,
-      "negative": 45,
+      "positive": 49,
+      "negative": 47,
       "neutral": 104
     },
     "trend": [
       {
-        "date": "2026-06-29",
-        "score": -0.322,
-        "count": 1
-      },
-      {
         "date": "2026-06-30",
-        "score": -0.007,
-        "count": 12
+        "score": 0,
+        "count": 8
       },
       {
         "date": "2026-07-01",
@@ -53,10 +48,15 @@
         "date": "2026-07-04",
         "score": 0.1,
         "count": 20
+      },
+      {
+        "date": "2026-07-05",
+        "score": -0.444,
+        "count": 5
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (51 pozytywnych, 45 negatywnych, 104 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (49 pozytywnych, 47 negatywnych, 104 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "cyberpunk",
@@ -64,7 +64,7 @@
       },
       {
         "word": "roku",
-        "count": 13
+        "count": 12
       },
       {
         "word": "projekt",
@@ -101,6 +101,76 @@
     ]
   },
   "comments": [
+    {
+      "id": "75031269",
+      "author": "PIOTR",
+      "postedAt": "2026-07-05 10:09",
+      "threadTitle": "Re: Spadzie odkupują cały czas ,już mln odkupione",
+      "url": "https://www.bankier.pl/forum/temat_spadzie-odkupuja-caly-czas-juz-mln-odkupione,75015855.html",
+      "body": "Dokładnie , CH z nimi. Jedziemy na 315 Fibo 0.61 następnie Fibo 0.78 - 383",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75031097",
+      "author": "Marianek",
+      "postedAt": "2026-07-05 09:27",
+      "threadTitle": "Re: Spadzie odkupują cały czas ,już mln odkupione",
+      "url": "https://www.bankier.pl/forum/temat_spadzie-odkupuja-caly-czas-juz-mln-odkupione,75015855.html",
+      "body": "Za chwilę beda płakać ci co sprzedali swoje akcje bo sobie short manipulował kursem i po rekomendacjach pseudo analityków z YT, że kurs spadnie na 150. Niech płaczą",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.931,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75030781",
+      "author": "PIOTR",
+      "postedAt": "2026-07-05 07:32",
+      "threadTitle": "Re: Spadzie odkupują cały czas ,już mln odkupione",
+      "url": "https://www.bankier.pl/forum/temat_spadzie-odkupuja-caly-czas-juz-mln-odkupione,75015855.html",
+      "body": "ORTEX: 2.87 na 3.07, a było ostatnio najwięcej w czewcu jak się nie myślę 3.69 jak podaje Trader2022 na X",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75030777",
+      "author": "PIOTR",
+      "postedAt": "2026-07-05 07:31",
+      "threadTitle": "Re: Spadzie odkupują cały czas ,już mln odkupione",
+      "url": "https://www.bankier.pl/forum/temat_spadzie-odkupuja-caly-czas-juz-mln-odkupione,75015855.html",
+      "body": "Cenzura w XXI wieku nadal żyjemy w rasyji hehe",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75030771",
+      "author": "PIOTR",
+      "postedAt": "2026-07-05 07:29",
+      "threadTitle": "Re: Spadzie odkupują cały czas ,już mln odkupione",
+      "url": "https://www.bankier.pl/forum/temat_spadzie-odkupuja-caly-czas-juz-mln-odkupione,75015855.html",
+      "body": "Cenzura admina nie zna granic hehe Rozumiem, pracodawcy kazali",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75030507",
       "author": "M84ck",
@@ -193,7 +263,7 @@
       "url": "https://www.bankier.pl/forum/temat_100tys-graczy-na-steam,75028231.html",
       "body": "Do piątku 250 powinno pęknąć bez problemu",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -207,7 +277,7 @@
       "url": "https://www.bankier.pl/forum/temat_100tys-graczy-na-steam,75028231.html",
       "body": "Sprzedaż CP77 w czołówce. Obecnie gra ok. 95tys osob. Jesienią ER2. Jeszcze maja jakieś asy w rękawie na ten rok. Ciekawe czy wystarczy na osiągnięcie celu motywacyjnego",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -221,7 +291,7 @@
       "url": "https://www.bankier.pl/forum/temat_100tys-graczy-na-steam,75028231.html",
       "body": "Ciekawe czy jutro uda im przebić tą granicę. W niedzielę zawsze najwięcej osób gra. Promka -70% i zapowiedzi ER2 widać zrobiły swoje.Ciekawe ile będzie jak serial się ukaże na jesieni.",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 1
       },
       "sentimentScore": 0,
@@ -249,7 +319,7 @@
       "url": "https://www.bankier.pl/forum/temat_na-anime-expo-redzi-oraz-trigger-ukazali-swiatowa-przedpremiere,75018095.html",
       "body": "My tu sobie pitu.. pitu..A tu.. właśnie Redzi - pokazali gigantycznym tłumom w LA - anime Cyberpunk: Edgerunners 2..Nawet sobie nie wyobrażacie tego hype!(Zrzut relacji uczestnika na Xie)https://i.imgur.com/1iMbbhM.png",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 1
       },
       "sentimentScore": 0,
@@ -389,7 +459,7 @@
       "url": "https://www.bankier.pl/forum/temat_ortex,75019877.html",
       "body": "Jaka jest liczba akcji do odkupu?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -557,7 +627,7 @@
       "url": "https://www.bankier.pl/forum/temat_na-anime-expo-redzi-oraz-trigger-ukazali-swiatowa-przedpremiere,75018095.html",
       "body": "Skąd ten wielki HYPE??xDDOtóż podczas targów Anime Expo 2026 CD Projekt oraz studio TRIGGER z przytupem zaprezentowali światową przedpremierę pierwszego odcinka Cyberpunk: Edgerunners 2 (udostępniając go wyłącznie uczestnikom wydarzenia)!!https://i.imgur.com/hI8kCmb_d.webp?maxwidth=760&fidelity=grandPonadto w trakcie specjalnego panelu - twórcy zdradzili najważniejsze szczegóły na temat nowej produkcji.Najważniejsze informacje zaprezentowane na wydarzeniu:Zupełnie nowa historia: Sequel nie jest bezpośrednią kontynuacją losów Davida i Lucy, lecz samodzielną, 10-odcinkową opowieścią skupioną na motywach zemsty i odkupienia, która osadzona jest w doskonale znanym Night City.Nowe postacie i twórcy: Zaprezentowano materiały z nowymi bohaterami. Ujawniono, że w obsadzie pojawi się m.in. postać Wicka Kingsleya oraz członkowie gangu Maelstrom.Ekipa produkcyjna: Za sterami projektu stoi reżyser Kai Ikarashi oraz showrunner i scenarzysta Bartosz Sztybor.Premiera: Oficjalne ogłoszenie potwierdziło, że debiut całej serii nastąpi jesienią 2026 roku na platformie Netflixhttps://i.imgur.com/vWgUGuU.jpegOczywiście (jak to w popkulturze bywa) nie obyło się bez cosplayerów..!",
       "votes": {
-        "up": 21,
+        "up": 22,
         "down": 2
       },
       "sentimentScore": 0,
@@ -725,7 +795,7 @@
       "url": "https://www.bankier.pl/forum/temat_spadzie-odkupuja-caly-czas-juz-mln-odkupione,75015855.html",
       "body": "Uciekają ,boją się naszej perełki ,małe czapeczki,beznapletkowcy",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 2
       },
       "sentimentScore": -0.762,
@@ -1845,7 +1915,7 @@
       "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
       "body": "Średnia 140, przejrzyj historię bankiera , a teraz znikaj do nory jak nie masz akcji.",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2601,7 +2671,7 @@
       "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
       "body": "Średnia 140, do nory zapraszam",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 2
       },
       "sentimentScore": 0,
@@ -2830,76 +2900,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74963261",
-      "author": "DC",
-      "postedAt": "2026-06-30 12:54",
-      "threadTitle": "Re: Zastanawiajace",
-      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
-      "body": "Hmm ma rację teraz pół roku kiszenia a potem w tydzień znowu -20 proc. To gniot bez przeszlosci tylko kolka i spekulacja żaden long szkoda czasu",
-      "votes": {
-        "up": 1,
-        "down": 18
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74962989",
-      "author": "Hmm",
-      "postedAt": "2026-06-30 12:33",
-      "threadTitle": "Re: Zastanawiajace",
-      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
-      "body": "i po co prowokujecie :)) spadło 80zł, odbiło 4, jedna sesja na zielono a tu wzrościaki jak zwykle odrazu 300 widzą :)) niezłe z was gagatki",
-      "votes": {
-        "up": 8,
-        "down": 15
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74962953",
-      "author": "zielony_guzik",
-      "postedAt": "2026-06-30 12:30",
-      "threadTitle": "Re: Zastanawiajace",
-      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
-      "body": "\"Hmm\" też ostatnio jakoś mniej aktywny. Ciekawe ciekawe. A tak na poważnie ktoś mógłby zaktualizować pozycje shortów na akcjach. Sporo wydarzyło się w piątek ciekawe co się zmieniło od tego dnia",
-      "votes": {
-        "up": 6,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74962075",
-      "author": "M84ck",
-      "postedAt": "2026-06-30 11:33",
-      "threadTitle": "Zastanawiajace",
-      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
-      "body": "Nie ma dziś wysypu dużej ilości jak zwykle wpisów na spadki, jakby wszyscy nagle zniknęli. Dziś nie dostaną po 1zl za wpis, dobrze świadczy, pozdro Longi, najwyższa pora kolejne podejście na 300 zacząć, mam nadzieję że teraz już z podłogą tam. Pozdro Longi, do sierpnia już blisko.",
-      "votes": {
-        "up": 27,
-        "down": 8
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74955229",
-      "author": "Rewizor",
-      "postedAt": "2026-06-29 16:44",
-      "threadTitle": "Re: ❤️ dziecinne mylenie „przepalania gotówki” z inwestycjami.",
-      "url": "https://www.bankier.pl/forum/temat_gry-redow-regularnie-trafiaja-na-szczyty-zestawien-sprzedazowych,74866693.html",
-      "body": "Po prostu nie czytasz tekstow ze zrozumieniem. Podsuwasz tekst Chgpt a toto wypluwa jakis komentarz. Gdzie krytykowalem przychody? Pokreslilem ze bez realnych perspektyw ich zwiekszenia nowym produktem zadziala prawo malejacych przychodow krancowych. Zacznoj pisac samodzielnie",
-      "votes": {
-        "up": 0,
-        "down": 9
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
