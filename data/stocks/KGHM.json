@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-07-05T09:23:08.652Z",
+  "updatedAt": "2026-07-05T14:09:39.659Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-05T09:23:08.652Z",
+    "fetchedAt": "2026-07-05T14:09:39.659Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.006,
+    "score": -0.005,
     "confidence": 0.7,
     "commentCount": 105,
     "breakdown": {
       "positive": 23,
-      "negative": 22,
-      "neutral": 60
+      "negative": 23,
+      "neutral": 59
     },
     "trend": [
-      {
-        "date": "2026-06-28",
-        "score": 0,
-        "count": 1
-      },
       {
         "date": "2026-06-29",
         "score": 0.058,
@@ -58,10 +53,15 @@
         "date": "2026-07-04",
         "score": 0.081,
         "count": 4
+      },
+      {
+        "date": "2026-07-05",
+        "score": -0.583,
+        "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 105 komentarzy z ostatnich 7 dni: nastroje mieszane (23 pozytywnych, 22 negatywnych, 60 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 105 komentarzy z ostatnich 7 dni: nastroje mieszane (23 pozytywnych, 23 negatywnych, 59 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "miedzi",
@@ -106,6 +106,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75031707",
+      "author": "Lycan",
+      "postedAt": "2026-07-05 11:26",
+      "threadTitle": "Miedź",
+      "url": "https://www.bankier.pl/forum/temat_miedz,75031707.html",
+      "body": "Tak tylko wrzucam: https://youtube.com/shorts/PVjkvNBImfA?is=2Bg2EqIWLihPyvKr",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75030013",
       "author": "Zbik07",
@@ -1557,20 +1571,6 @@
       "body": "Wyszedł z nory, porozumienie wisi na włosku",
       "votes": {
         "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74945549",
-      "author": "Paweł",
-      "postedAt": "2026-06-28 13:41",
-      "threadTitle": "Re: CZY TAK BĘDZIE WYGLĄDAĆ ODBUDOWA UKRAINY ?",
-      "url": "https://www.bankier.pl/forum/temat_czy-tak-bedzie-wygladac-odbudowa-ukrainy,74935211.html",
-      "body": "A kto dla Ciebie jest autorytetem?",
-      "votes": {
-        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
