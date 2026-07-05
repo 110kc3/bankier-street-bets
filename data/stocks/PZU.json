@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-07-05T14:10:21.846Z",
+  "updatedAt": "2026-07-05T19:43:01.911Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-05T14:10:21.846Z",
+    "fetchedAt": "2026-07-05T19:43:01.911Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.147,
+    "score": 0.134,
     "confidence": 0.74,
     "commentCount": 59,
     "breakdown": {
-      "positive": 25,
+      "positive": 24,
       "negative": 4,
-      "neutral": 30
+      "neutral": 31
     },
     "trend": [
-      {
-        "date": "2026-06-28",
-        "score": 0.762,
-        "count": 1
-      },
       {
         "date": "2026-06-29",
         "score": 0.27,
@@ -61,16 +56,16 @@
       },
       {
         "date": "2026-07-05",
-        "score": 0.107,
-        "count": 3
+        "score": 0.081,
+        "count": 4
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 59 komentarzy z ostatnich 7 dni: nastroje pozytywne (25 pozytywnych, 4 negatywnych, 30 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 59 komentarzy z ostatnich 7 dni: nastroje pozytywne (24 pozytywnych, 4 negatywnych, 31 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
-        "count": 7
+        "count": 6
       },
       {
         "word": "zeby",
@@ -101,16 +96,30 @@
         "count": 3
       },
       {
-        "word": "kolka",
+        "word": "pekao",
         "count": 2
       },
       {
-        "word": "info",
+        "word": "kolka",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75033825",
+      "author": "stefan",
+      "postedAt": "2026-07-05 18:16",
+      "threadTitle": "Re: PZU dyskontuje uwolnienie kapitału...",
+      "url": "https://www.bankier.pl/forum/temat_pzu-dyskontuje-uwolnienie-kapitalu,75023637.html",
+      "body": "czyli połączenie z PEKAo niepotrzebne",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75033165",
       "author": "Omar",
@@ -119,7 +128,7 @@
       "url": "https://www.bankier.pl/forum/temat_70,75032339.html",
       "body": "Ty sprzedaż po 70, to co Cię to obchodzi hehe",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -147,7 +156,7 @@
       "url": "https://www.bankier.pl/forum/temat_100,74954953.html",
       "body": "A kurs i obroty na to wskazują",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
@@ -162,7 +171,7 @@
       "body": "W tym przypadku nie ma potrzeby aprobaty Alf Wonsa:⁠-⁠)",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -921,20 +930,6 @@
         "down": 0
       },
       "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74946517",
-      "author": "Kazimierz",
-      "postedAt": "2026-06-28 17:07",
-      "threadTitle": "PZU kupuje się pod Emeryturę",
-      "url": "https://www.bankier.pl/forum/temat_pzu-kupuje-sie-pod-emeryture,74946517.html",
-      "body": "Dywidendy dla spokojnego snu.",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
     }
   ]
