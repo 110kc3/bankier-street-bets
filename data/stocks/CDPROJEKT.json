@@ -3,36 +3,41 @@
   "companyName": "CD Projekt SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-sa,6,21,353.html",
-  "updatedAt": "2026-07-04T19:36:04.733Z",
+  "updatedAt": "2026-07-05T04:19:32.169Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-04T19:36:04.733Z",
+    "fetchedAt": "2026-07-05T04:19:32.169Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 115
+    "threadsScanned": 116
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.042,
-    "confidence": 0.71,
+    "score": 0.044,
+    "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
       "positive": 51,
-      "negative": 44,
-      "neutral": 105
+      "negative": 45,
+      "neutral": 104
     },
     "trend": [
       {
+        "date": "2026-06-29",
+        "score": -0.322,
+        "count": 1
+      },
+      {
         "date": "2026-06-30",
-        "score": 0,
-        "count": 10
+        "score": -0.007,
+        "count": 12
       },
       {
         "date": "2026-07-01",
-        "score": 0.028,
-        "count": 45
+        "score": 0.013,
+        "count": 38
       },
       {
         "date": "2026-07-02",
@@ -46,32 +51,32 @@
       },
       {
         "date": "2026-07-04",
-        "score": 0.089,
-        "count": 16
+        "score": 0.1,
+        "count": 20
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (51 pozytywnych, 44 negatywnych, 105 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (51 pozytywnych, 45 negatywnych, 104 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "cyberpunk",
-        "count": 17
-      },
-      {
-        "word": "graczy",
-        "count": 14
-      },
-      {
-        "word": "projekt",
         "count": 13
       },
       {
         "word": "roku",
+        "count": 13
+      },
+      {
+        "word": "projekt",
         "count": 12
       },
       {
+        "word": "graczy",
+        "count": 10
+      },
+      {
         "word": "gier",
-        "count": 11
+        "count": 10
       },
       {
         "word": "calej",
@@ -86,7 +91,7 @@
         "count": 9
       },
       {
-        "word": "firma",
+        "word": "wiedzmina",
         "count": 8
       },
       {
@@ -97,6 +102,62 @@
   },
   "comments": [
     {
+      "id": "75030507",
+      "author": "M84ck",
+      "postedAt": "2026-07-04 23:55",
+      "threadTitle": "Re: Zastanawiajace",
+      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
+      "body": "Średnia 140, pozdro Longi, jedyni pewnie wygrani .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75030393",
+      "author": "Phealot",
+      "postedAt": "2026-07-04 22:50",
+      "threadTitle": "Re: 100tys graczy na Steam",
+      "url": "https://www.bankier.pl/forum/temat_100tys-graczy-na-steam,75028231.html",
+      "body": "Zatrzymało się na 95900.Jutro pęknie 100000.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75030311",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-07-04 22:26",
+      "threadTitle": "Każdy urodził się golasem i taki powinien zostać!!!",
+      "url": "https://www.bankier.pl/forum/temat_kazdy-urodzil-sie-golasem-i-taki-powinien-zostac,75030311.html",
+      "body": "I jak bende już bogaty jak akcje pujdom na 5 tysiency to bende chodził na golasa wszendzie bo mnie bendzie stać na mandaty i wprowadzem polski ruch wolności dla golasów. I zrobimy spartakiade dla golasów!!!",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75030307",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-07-04 22:22",
+      "threadTitle": "Jesteśmy tenczowi!!!! Jesteśmy kolorowi!!! Jesteśmy Redami!!!",
+      "url": "https://www.bankier.pl/forum/temat_jestesmy-tenczowi-jestesmy-kolorowi-jestesmy-redami,75030307.html",
+      "body": "Każdy tutaj szanuje LGBTQ+ i czekamy na thriller i mażymy żeby było coś ciekawego. Np Wiedźmin w tenczowych włosach, albo jak wychodzi na golasa z sadzawki i wita się na golasa z Morganem Frimanem!!!!",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "75029469",
       "author": "Marianek",
       "postedAt": "2026-07-04 19:15",
@@ -104,7 +165,7 @@
       "url": "https://www.bankier.pl/forum/temat_nasze-akcje-poleca-do-gory,75029469.html",
       "body": "W przyszłym tygodniu pęknie 240 i 260 zobaczymy szybciej niż myślicie",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -132,8 +193,8 @@
       "url": "https://www.bankier.pl/forum/temat_100tys-graczy-na-steam,75028231.html",
       "body": "Do piątku 250 powinno pęknąć bez problemu",
       "votes": {
-        "up": 3,
-        "down": 0
+        "up": 4,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -146,8 +207,8 @@
       "url": "https://www.bankier.pl/forum/temat_100tys-graczy-na-steam,75028231.html",
       "body": "Sprzedaż CP77 w czołówce. Obecnie gra ok. 95tys osob. Jesienią ER2. Jeszcze maja jakieś asy w rękawie na ten rok. Ciekawe czy wystarczy na osiągnięcie celu motywacyjnego",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -160,8 +221,8 @@
       "url": "https://www.bankier.pl/forum/temat_100tys-graczy-na-steam,75028231.html",
       "body": "Ciekawe czy jutro uda im przebić tą granicę. W niedzielę zawsze najwięcej osób gra. Promka -70% i zapowiedzi ER2 widać zrobiły swoje.Ciekawe ile będzie jak serial się ukaże na jesieni.",
       "votes": {
-        "up": 6,
-        "down": 0
+        "up": 7,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -174,7 +235,7 @@
       "url": "https://www.bankier.pl/forum/temat_40-mln-egz-cyberpunka-sprzedane,75013507.html",
       "body": "CDR to super firma. Technicznie wygląda miodzio. Sceptyków i tak nie przekonasz żadnymi argumentami. Moim zdaniem powinno solidnie odbić.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -188,8 +249,8 @@
       "url": "https://www.bankier.pl/forum/temat_na-anime-expo-redzi-oraz-trigger-ukazali-swiatowa-przedpremiere,75018095.html",
       "body": "My tu sobie pitu.. pitu..A tu.. właśnie Redzi - pokazali gigantycznym tłumom w LA - anime Cyberpunk: Edgerunners 2..Nawet sobie nie wyobrażacie tego hype!(Zrzut relacji uczestnika na Xie)https://i.imgur.com/1iMbbhM.png",
       "votes": {
-        "up": 8,
-        "down": 0
+        "up": 9,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -217,7 +278,7 @@
       "body": "To może być brakujący element całej układanki. Wielka hossa pokoleniowa.",
       "votes": {
         "up": 1,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -244,7 +305,7 @@
       "url": "https://www.bankier.pl/forum/temat_40-mln-egz-cyberpunka-sprzedane,75013507.html",
       "body": "Cyberpunk 2077:lipiec 2026: 40 mln sztuklistopad 2025: 35 mln sztuklistopad 2024: 30 mln sztukCzyli w porównaniu z wcześniejszymi okresami sprzedaż przyspieszyła dwukrotnie.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -258,7 +319,7 @@
       "url": "https://www.bankier.pl/forum/temat_ortex,75019877.html",
       "body": "2.87 na 3.07, a było ostatnio najwięcej w czewcu jak się nie myślę 3.69 jak podaje Trader2022 na X",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -301,7 +362,7 @@
       "body": "Ale to nic bo ja bendem czekał na Wiedżmina 5 i 6 i na Cyberpanka 2 a teraz to ja zajmujem sie mojom drużynom i spokojnie czekam na Wiedżmina 5 bo ja jestem longiem i mam czas!!!!!!",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -315,7 +376,7 @@
       "body": "A jak wiemy ma tym się nie skończy !!! Później ATH. Cierpliwości",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -412,7 +473,7 @@
       "url": "https://www.bankier.pl/forum/temat_ortex,75019877.html",
       "body": "Czy dobrze widzę że shorty zamykają pozycje ?",
       "votes": {
-        "up": 5,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -441,7 +502,7 @@
       "body": "A to klops",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -482,7 +543,7 @@
       "url": "https://www.bankier.pl/forum/temat_250-zl-w-zasiegu-reki-w-nastepnym-tygodniu,75018109.html",
       "body": "Później droga na 296",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -496,8 +557,8 @@
       "url": "https://www.bankier.pl/forum/temat_na-anime-expo-redzi-oraz-trigger-ukazali-swiatowa-przedpremiere,75018095.html",
       "body": "Skąd ten wielki HYPE??xDDOtóż podczas targów Anime Expo 2026 CD Projekt oraz studio TRIGGER z przytupem zaprezentowali światową przedpremierę pierwszego odcinka Cyberpunk: Edgerunners 2 (udostępniając go wyłącznie uczestnikom wydarzenia)!!https://i.imgur.com/hI8kCmb_d.webp?maxwidth=760&fidelity=grandPonadto w trakcie specjalnego panelu - twórcy zdradzili najważniejsze szczegóły na temat nowej produkcji.Najważniejsze informacje zaprezentowane na wydarzeniu:Zupełnie nowa historia: Sequel nie jest bezpośrednią kontynuacją losów Davida i Lucy, lecz samodzielną, 10-odcinkową opowieścią skupioną na motywach zemsty i odkupienia, która osadzona jest w doskonale znanym Night City.Nowe postacie i twórcy: Zaprezentowano materiały z nowymi bohaterami. Ujawniono, że w obsadzie pojawi się m.in. postać Wicka Kingsleya oraz członkowie gangu Maelstrom.Ekipa produkcyjna: Za sterami projektu stoi reżyser Kai Ikarashi oraz showrunner i scenarzysta Bartosz Sztybor.Premiera: Oficjalne ogłoszenie potwierdziło, że debiut całej serii nastąpi jesienią 2026 roku na platformie Netflixhttps://i.imgur.com/vWgUGuU.jpegOczywiście (jak to w popkulturze bywa) nie obyło się bez cosplayerów..!",
       "votes": {
-        "up": 20,
-        "down": 1
+        "up": 21,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -539,7 +600,7 @@
       "body": "Oo m84 ten co siedzi spokojny, a gdy kurs spada to kilkanaście razy dziennie musi przypominać, jak go nie ruszają spadki hehehe. Chłop podniecony bo po spadku o 85 pln kurs wzrósł, I jest tam gdzie ponad rok temu. Sukces!",
       "votes": {
         "up": 1,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -566,7 +627,7 @@
       "url": "https://www.bankier.pl/forum/temat_bardzo-silny-wzrost-dzisiaj-pociong-odjezdza,75017595.html",
       "body": "I pomachamy tym co na peronie!!!!",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -692,7 +753,7 @@
       "url": "https://www.bankier.pl/forum/temat_40-mln-egz-cyberpunka-sprzedane,75013507.html",
       "body": "Bijemy rekordy i mamy 1,5 mld rezerwy, dlatego dywidendy nie będzie, drodzy akcjonariusze.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 9
       },
       "sentimentScore": 0.583,
@@ -888,7 +949,7 @@
       "url": "https://www.bankier.pl/forum/temat_40-mln-egz-cyberpunka-sprzedane,75013507.html",
       "body": "W ciągu ostatnich nieco ponad 6 miesięcy Redzi sprzedali 5 milionów Cyberpunków i obecnie przekroczyli 40 milionów sprzedanych egzemplarzy gry.",
       "votes": {
-        "up": 22,
+        "up": 23,
         "down": 1
       },
       "sentimentScore": -0.322,
@@ -1672,7 +1733,7 @@
       "url": "https://www.bankier.pl/forum/temat_cdp-z-typem-kupuj-tej-sily-juz-nie-powstrzymacie-wkrotce-300,74990993.html",
       "body": "Jazda z nimi, do piekła",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -1714,7 +1775,7 @@
       "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
       "body": "M84ck nie będę zakładał nowego posta, bo nie lubię spamować, ale patrząc na obecny kurs chce mi się śmiać z twórczości \"Hmm\"",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1771,7 +1832,7 @@
       "body": "szort schłodzi wasze oczekiwania",
       "votes": {
         "up": 0,
-        "down": 8
+        "down": 9
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -2337,20 +2398,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "74983707",
-      "author": "zielony_guzik",
-      "postedAt": "2026-07-01 18:12",
-      "threadTitle": "Re: ❗️❤️ Na synergii z Wuthering Waves - korzysta też mocno CD Projekt⁉️",
-      "url": "https://www.bankier.pl/forum/temat_na-synergii-z-wuthering-waves-korzysta-tez-mocno-cd-projekt,74978879.html",
-      "body": "Chcesz nam powiedzieć, że w postach Hmm nie znajdujesz ani kszty merytoryki?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "74983391",
       "author": "Mentor",
       "postedAt": "2026-07-01 17:51",
@@ -2365,34 +2412,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "74983055",
-      "author": "hiklo",
-      "postedAt": "2026-07-01 17:30",
-      "threadTitle": "Wróciła pamięć :-) ?",
-      "url": "https://www.bankier.pl/forum/temat_na-synergii-z-wuthering-waves-korzysta-tez-mocno-cd-projekt,74978879.html",
-      "body": "I znowu ponawiam pytanie, bo się wijesz jak piskorz :-)Pamiętasz jeszcze płatny cyniczny nagan-iaczu jak firma świadomie sprzedawała pół bubla a brała pieniądze jak za pełnowartościowy produkt :-)?Dlaczego mnie jako klienta nabitego w \"arcydzieło gamingu\" nazywasz trolem i hejterem :-)?Kupiłem grę która wbrew obietnicom i zapowiedziom niestety okazała się pół bublem:-) Każdego niezadowolonego klienta nazywasz oszustem, złodziejem, niszczycielem polskiego dorobku artystycznego?Bardzo słaby PR :-)A byłbym zapomniał - jak tam screeny :-)?",
-      "votes": {
-        "up": 2,
-        "down": 4
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74983043",
-      "author": "hiklo",
-      "postedAt": "2026-07-01 17:29",
-      "threadTitle": "Re: Krótka pamięć :-) ciąg dalszy :-)",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-cyberpunk-2077-osiagnal-wlasnie-najwyzsza-liczbe-graczy,74965425.html",
-      "body": "Firma świadomie sprzedawała pół bubla lub firma nie przetestowała gry przed sprzedażą - obie odpowiedzi dla CD są złe :-)W obu przypadkach kasowała jak pełnowartościowy produkt.",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74980753",
       "author": "Art",
       "postedAt": "2026-07-01 15:28",
@@ -2404,20 +2423,6 @@
         "down": 0
       },
       "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74980669",
-      "author": "Ggg",
-      "postedAt": "2026-07-01 15:24",
-      "threadTitle": "Re: ❗️❤️ Na synergii z Wuthering Waves - korzysta też mocno CD Projekt⁉️",
-      "url": "https://www.bankier.pl/forum/temat_na-synergii-z-wuthering-waves-korzysta-tez-mocno-cd-projekt,74978879.html",
-      "body": "Wolę Ciebie niż Hmm pier..isz tak samo tylko iW odwrotnym kierunku ale przynajmniej ma to znamiona merytoryki.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     },
     {
@@ -2461,20 +2466,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74978879",
-      "author": "nagan",
-      "postedAt": "2026-07-01 13:46",
-      "threadTitle": "❗️❤️ Na synergii z Wuthering Waves - korzysta też mocno CD Projekt⁉️",
-      "url": "https://www.bankier.pl/forum/temat_na-synergii-z-wuthering-waves-korzysta-tez-mocno-cd-projekt,74978879.html",
-      "body": "Chińskie studio gier mobilnych - Kuro - zamierza kuć żelazo póki gorące i złapali wiatr w żagle po współpracy z CD Projektem. Gra Wuthering Waves wystrzeliła ostatnio w rankingach popularności dzięki współpracy z autorami Cyberpunk 2077. Wuthering Waves przebiło się w ostatnich tygodniach na czołowe listy rankingu bestsellerów Steam, przyciągając do siebie przy okazji rekordową liczbę graczy. Wszystko za sprawą mocnego crossovera z marką Cyberpunk.Warto też wspomnieć, że na synergii crossovera z Wuthering Waves - zyskuje też mocno CD Projekt, którego Cyberpunk 2077, zaoferowany w historycznie niskiej cenie, cieszy się ostatnio niesamowitą popularnością, stając się ponownie sprzedażowym Nr1..!",
-      "votes": {
-        "up": 9,
-        "down": 3
-      },
-      "sentimentScore": 0.995,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "74978211",
@@ -2597,7 +2588,7 @@
       "body": "Z jednej strony to mam z ciebie M84 ck beke ..ze wierzysz w takie bzdury np ze ktos komus placu 1 zł od posta //to ciekawe ile musza tow naganowi płacić za te elaboraty//..to ze wierzysz ze od tych wpisów kurs cdr moze rosnac lub spadać...no szok ..tu juz naszej ulicy dawno nie pozostali tacy jak ty na hakach co uwierzą we wszystkie teorie aby tylko ktos w finale napisał...juz niedługo...ath i jazda czy rakieta do góry..a z 2 strony mam podziw ze siedzisz na tym papierze i masz taka wiare ze to odpali ,....no tu pełny szacun ,oczywiście tez mozna wierzyć ze za tydzien będzie zima ....ale to juz zupelnie inna bajka",
       "votes": {
         "up": 2,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0.964,
       "sentimentLabel": "Positive"
@@ -2639,7 +2630,7 @@
       "body": "po 2 sesjach z przymrużeniem oka CD PR wraca na rownię pochyłą. A ruch po równi pochyłej to ruch jednostajnie przyspieszony i znowu zdaniem Nagana winni będą nie nieudacznicy z zarządu ale akcjonariusze bo niedouczeni w sztuce wyceny spółki.",
       "votes": {
         "up": 0,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2701,20 +2692,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74972437",
-      "author": "lol",
-      "postedAt": "2026-07-01 08:07",
-      "threadTitle": "Re: ❗️❤️ Pretensje zgłaszaj do amerykańskiego Forbesa ❗️❗️",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-cyberpunk-2077-osiagnal-wlasnie-najwyzsza-liczbe-graczy,74965425.html",
-      "body": "Forbes napisał prawdę, ty jak zwykle kłamstwo. Chociaż mnie bardziej bawi stwierdzenie, że Overwatch i PUBG to gry dostępne w cenie AAA (dla zainteresowanych: to gry darmowe). Jak zwykle nie tylko manipulujesz, ale też wykazujesz się zerową wiedzą o branży.",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "74972233",
       "author": "Art",
       "postedAt": "2026-07-01 07:48",
@@ -2743,20 +2720,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74970503",
-      "author": "PospolityHejter",
-      "postedAt": "2026-07-01 00:33",
-      "threadTitle": "Re: ❗️❤️ dlaczego Cyberpunk 2077 osiągnął właśnie najwyższą liczbę gracz",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-cyberpunk-2077-osiagnal-wlasnie-najwyzsza-liczbe-graczy,74965425.html",
-      "body": "Wypuścili pół-produkt, nie powiedziałbym, patrząc na współczesną branże, nie była to zła gra już na starcie, dało się go przejść od początku do końca, ale nie spełniała wszystkich oczekiwań i niepotrzebnie cdp wypuścił grę na starą generację konsol, mógł zrobić mutiplatformowy debiut na konsolach w tedy nowej generacji. Ale naprawili grę, nie mówię że odzyskali zaufanie ale gra jest jak najbardziej grywalna. Po aktualizacji 2.0 ta gra odżyła na nowo, dodatek też jest świetny. Przeszedłem że 3 razy, ostatni save mam ponad 100 godzin, maxymalny poziom, maxymalna reputacja, maksymalny poziom wszczepów na tą chwilę, a takemura wciąż czeka. Nowy tytuły są tragiczne, i tragiczne będzie Gta6. Więc nie ma się co dziwić że cyberpunk, gra dla pojedynczego gracza ma sporo graczy. Jest to zwyczajne dobry tytuł.",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "74969975",
       "author": "AkcjoMariusz",
       "postedAt": "2026-06-30 22:29",
@@ -2765,20 +2728,6 @@
       "body": "Eeeej to nie ja pisałem",
       "votes": {
         "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74969473",
-      "author": "Antoni",
-      "postedAt": "2026-06-30 21:33",
-      "threadTitle": "❤️ dlaczego Cyberpunk 2077 osiągnął właśnie najwyższą liczbę graczy⁉️❓",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-cyberpunk-2077-osiagnal-wlasnie-najwyzsza-liczbe-graczy,74965425.html",
-      "body": "Wystarczyło wypuścić trailer i słupki skaczą. To jest jakiś fenomen.",
-      "votes": {
-        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2797,20 +2746,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74969325",
-      "author": "nagan",
-      "postedAt": "2026-06-30 21:17",
-      "threadTitle": "❗️❤️ Pretensje zgłaszaj do amerykańskiego Forbesa ❗️❗️",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-cyberpunk-2077-osiagnal-wlasnie-najwyzsza-liczbe-graczy,74965425.html",
-      "body": "> \"Najwyższą liczbę graczy\" na Steam Cyberpunk 2077 osiągnął w grudniu 2020, w liczbie 1054000, i od tamtej pory nawet jednokrotnie się do niej nie zbliżył.> Tytuł wątku jest kłamstwem i dezinformacją.Drogi trolluTo pretensje zgłaszaj do amerykańskiego Forbesa!xDDŻyczę powodzenia w obalaniu tych „kłamstw i dezinformacji\"!!!xDDMusisz być dolarowym milionerem... jeżeli chcesz zakwestionować ich ustalenia..? xDD",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "74969299",
@@ -2841,60 +2776,130 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74968923",
-      "author": "kantek15",
-      "postedAt": "2026-06-30 20:36",
-      "threadTitle": "Re: Krótka pamięć :-) ciąg dalszy :-)",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-cyberpunk-2077-osiagnal-wlasnie-najwyzsza-liczbe-graczy,74965425.html",
-      "body": "Gra została naprawiona a każdy kto zakupił mógł sobie za darmo zrobić update więc czemu tak narzekasz.... Czy ty jesteś taki nieomylny i nigdy nie popełniłeś błędu ?",
+      "id": "74966319",
+      "author": "Jupit",
+      "postedAt": "2026-06-30 16:35",
+      "threadTitle": "Re: Zastanawiajace",
+      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
+      "body": "Może i bez przyszłości, ale liczymy na przyszłość. :)",
       "votes": {
-        "up": 7,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74968813",
-      "author": "Orim",
-      "postedAt": "2026-06-30 20:26",
-      "threadTitle": "Re: ❗️❤️ dlaczego Cyberpunk 2077 osiągnął właśnie",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-cyberpunk-2077-osiagnal-wlasnie-najwyzsza-liczbe-graczy,74965425.html",
-      "body": "Ciekawe dlaczego bankier nie reaguje",
+      "id": "74966053",
+      "author": "zielony_guzik",
+      "postedAt": "2026-06-30 16:21",
+      "threadTitle": "Re: Zastanawiajace",
+      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
+      "body": "Hmm bo jak spadało, to pisałeś, jakbyś znał przyszłość. Rynek szybko zweryfikował te prognozy.Tak, kurs spadł o około 80 zł i właśnie dlatego wszedłem. Moim zdaniem za jakiś czas ta strata zostanie odrobiona. Gdy ruszy kampania marketingowa „Pieśni Przeszłości”, „Wiedźmina 4” i remake'u „Wiedźmina 1”, poziom 300 zł może okazać się nie przystankiem do realizacji zysków, a dopiero początkiem większego ruchu.Pozdro dla gagatķów na longach.",
       "votes": {
-        "up": 2,
-        "down": 3
+        "up": 12,
+        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "74968687",
-      "author": "JohnDoe",
-      "postedAt": "2026-06-30 20:13",
-      "threadTitle": "Re: ❗️❤️ dlaczego Cyberpunk 2077 osiągnął właśnie",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-cyberpunk-2077-osiagnal-wlasnie-najwyzsza-liczbe-graczy,74965425.html",
-      "body": "\"Najwyższą liczbę graczy\" na Steam Cyberpunk 2077 osiągnął w grudniu 2020, w liczbie 1054000, i od tamtej pory nawet jednokrotnie się do niej nie zbliżył.Tytuł wątku jest kłamstwem i dezinformacją.",
-      "votes": {
-        "up": 5,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74968245",
-      "author": "Orim",
-      "postedAt": "2026-06-30 19:20",
-      "threadTitle": "Re: ❗️❤️ dlaczego Cyberpunk 2077 osiągnął właśnie najwyższą liczbę gracz",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-cyberpunk-2077-osiagnal-wlasnie-najwyzsza-liczbe-graczy,74965425.html",
-      "body": "A chetnego na L po tych wspanialosciach nadal nie ma.",
+      "id": "74965309",
+      "author": "(usunięty)",
+      "postedAt": "2026-06-30 15:33",
+      "threadTitle": "(wiadomość usunięta przez moderatora)",
+      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
+      "body": "(wiadomość usunięta przez moderatora)",
       "votes": {
         "up": 1,
-        "down": 6
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74965103",
+      "author": "Patryk",
+      "postedAt": "2026-06-30 15:16",
+      "threadTitle": "Re: Zastanawiajace",
+      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
+      "body": "Mogłem już dwa kółka zrobić i być ze 30% do przodu, aktualnie jestem 13% w plecy. Mam nadzieję ze z czasem spółka zrekompensuje mi te stresy",
+      "votes": {
+        "up": 11,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "74963261",
+      "author": "DC",
+      "postedAt": "2026-06-30 12:54",
+      "threadTitle": "Re: Zastanawiajace",
+      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
+      "body": "Hmm ma rację teraz pół roku kiszenia a potem w tydzień znowu -20 proc. To gniot bez przeszlosci tylko kolka i spekulacja żaden long szkoda czasu",
+      "votes": {
+        "up": 1,
+        "down": 18
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74962989",
+      "author": "Hmm",
+      "postedAt": "2026-06-30 12:33",
+      "threadTitle": "Re: Zastanawiajace",
+      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
+      "body": "i po co prowokujecie :)) spadło 80zł, odbiło 4, jedna sesja na zielono a tu wzrościaki jak zwykle odrazu 300 widzą :)) niezłe z was gagatki",
+      "votes": {
+        "up": 8,
+        "down": 15
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74962953",
+      "author": "zielony_guzik",
+      "postedAt": "2026-06-30 12:30",
+      "threadTitle": "Re: Zastanawiajace",
+      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
+      "body": "\"Hmm\" też ostatnio jakoś mniej aktywny. Ciekawe ciekawe. A tak na poważnie ktoś mógłby zaktualizować pozycje shortów na akcjach. Sporo wydarzyło się w piątek ciekawe co się zmieniło od tego dnia",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "74962075",
+      "author": "M84ck",
+      "postedAt": "2026-06-30 11:33",
+      "threadTitle": "Zastanawiajace",
+      "url": "https://www.bankier.pl/forum/temat_zastanawiajace,74962075.html",
+      "body": "Nie ma dziś wysypu dużej ilości jak zwykle wpisów na spadki, jakby wszyscy nagle zniknęli. Dziś nie dostaną po 1zl za wpis, dobrze świadczy, pozdro Longi, najwyższa pora kolejne podejście na 300 zacząć, mam nadzieję że teraz już z podłogą tam. Pozdro Longi, do sierpnia już blisko.",
+      "votes": {
+        "up": 27,
+        "down": 8
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "74955229",
+      "author": "Rewizor",
+      "postedAt": "2026-06-29 16:44",
+      "threadTitle": "Re: ❤️ dziecinne mylenie „przepalania gotówki” z inwestycjami.",
+      "url": "https://www.bankier.pl/forum/temat_gry-redow-regularnie-trafiaja-na-szczyty-zestawien-sprzedazowych,74866693.html",
+      "body": "Po prostu nie czytasz tekstow ze zrozumieniem. Podsuwasz tekst Chgpt a toto wypluwa jakis komentarz. Gdzie krytykowalem przychody? Pokreslilem ze bez realnych perspektyw ich zwiekszenia nowym produktem zadziala prawo malejacych przychodow krancowych. Zacznoj pisac samodzielnie",
+      "votes": {
+        "up": 0,
+        "down": 9
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
     }
   ]
 }
