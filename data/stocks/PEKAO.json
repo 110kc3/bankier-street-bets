@@ -3,32 +3,27 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-07-06T04:39:24.928Z",
+  "updatedAt": "2026-07-06T11:03:17.520Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-06T04:39:24.928Z",
+    "fetchedAt": "2026-07-06T11:03:17.520Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 13
+    "threadsScanned": 14
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.245,
-    "confidence": 0.72,
-    "commentCount": 50,
+    "score": 0.204,
+    "confidence": 0.71,
+    "commentCount": 51,
     "breakdown": {
-      "positive": 29,
+      "positive": 28,
       "negative": 5,
-      "neutral": 16
+      "neutral": 18
     },
     "trend": [
-      {
-        "date": "2026-06-06",
-        "score": 0.322,
-        "count": 1
-      },
       {
         "date": "2026-06-08",
         "score": 0.56,
@@ -93,10 +88,15 @@
         "date": "2026-07-01",
         "score": 0,
         "count": 2
+      },
+      {
+        "date": "2026-07-06",
+        "score": 0,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 50 komentarzy z ostatnich 30 dni: nastroje pozytywne (29 pozytywnych, 5 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 51 komentarzy z ostatnich 30 dni: nastroje pozytywne (28 pozytywnych, 5 negatywnych, 18 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidende",
@@ -107,14 +107,6 @@
         "count": 6
       },
       {
-        "word": "dywidenda",
-        "count": 4
-      },
-      {
-        "word": "dywidendy",
-        "count": 4
-      },
-      {
         "word": "wiecej",
         "count": 4
       },
@@ -123,7 +115,15 @@
         "count": 4
       },
       {
+        "word": "dywidenda",
+        "count": 3
+      },
+      {
         "word": "pekao",
+        "count": 3
+      },
+      {
+        "word": "dywidendy",
         "count": 3
       },
       {
@@ -141,6 +141,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75037323",
+      "author": "Tomek",
+      "postedAt": "2026-07-06 09:54",
+      "threadTitle": "Re: Jazda na 250 Pln",
+      "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
+      "body": "Ja już zapiołem pasy. Czekamy na 8 lipca. Co Glapiński wymyśli",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75036579",
+      "author": "transakcjusz",
+      "postedAt": "2026-07-06 09:04",
+      "threadTitle": "Jazda na 250 Pln",
+      "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
+      "body": "Ciekawe kiedy ponownie dojedzie do 250zł. Bo że dojedzie to pewne, tylko pytanie kiedy? :) Przypuszczam że okolice sierpnia/września. A Wy co sądzicie?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "74976135",
       "author": "aa",
@@ -823,20 +851,6 @@
       "votes": {
         "up": 6,
         "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74712295",
-      "author": "inwestor",
-      "postedAt": "2026-06-06 11:43",
-      "threadTitle": "Re: Naprawdę, nikt nie chce dywidendy 8,5%",
-      "url": "https://www.bankier.pl/forum/temat_naprawde-nikt-nie-chce-dywidendy-8-5,74703061.html",
-      "body": "Dywidenda fajna, ale darmowego obiadu nie ma.Mam akcje i wierzę ale 230 po odcięciu dywidendy to biorę cash i dziękuję za współpracę. :)",
-      "votes": {
-        "up": 6,
-        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
