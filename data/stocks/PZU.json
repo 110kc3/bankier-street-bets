@@ -3,31 +3,31 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-07-07T15:16:05.257Z",
+  "updatedAt": "2026-07-07T20:15:05.859Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-07T15:16:05.257Z",
+    "fetchedAt": "2026-07-07T20:15:05.859Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 19
+    "threadsScanned": 18
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.037,
+    "score": 0.053,
     "confidence": 0.71,
-    "commentCount": 63,
+    "commentCount": 59,
     "breakdown": {
       "positive": 16,
-      "negative": 7,
-      "neutral": 40
+      "negative": 8,
+      "neutral": 35
     },
     "trend": [
       {
         "date": "2026-06-30",
-        "score": 0.046,
-        "count": 7
+        "score": 0,
+        "count": 1
       },
       {
         "date": "2026-07-01",
@@ -61,12 +61,12 @@
       },
       {
         "date": "2026-07-07",
-        "score": -0.073,
-        "count": 8
+        "score": -0.014,
+        "count": 10
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 63 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 7 negatywnych, 40 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 59 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 8 negatywnych, 35 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -75,6 +75,10 @@
       {
         "word": "dywidendy",
         "count": 6
+      },
+      {
+        "word": "zlotych",
+        "count": 3
       },
       {
         "word": "stoxx",
@@ -97,20 +101,44 @@
         "count": 3
       },
       {
-        "word": "kapitalu",
-        "count": 3
-      },
-      {
         "word": "musi",
         "count": 3
       },
       {
-        "word": "przy",
+        "word": "cenie",
         "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75056771",
+      "author": "Lo21",
+      "postedAt": "2026-07-07 20:13",
+      "threadTitle": "Re: PZU PKO",
+      "url": "https://www.bankier.pl/forum/temat_pzu-pko,75053267.html",
+      "body": "Ktoś to sprzedał...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75056721",
+      "author": "Truthm",
+      "postedAt": "2026-07-07 20:07",
+      "threadTitle": "Re: PZU PKO",
+      "url": "https://www.bankier.pl/forum/temat_pzu-pko,75053267.html",
+      "body": "884 tysiące akcji na fixingu, kontrolowane przejęcie płynności i doskonała okazja do akumulacji. Duży gracz instytucjonalny (lub grupa graczy) wykorzystał podaż , by hurtowo, w jednej transakcji, „zaparkować” w swoim portfelu paczkę akcji wartą ponad 60 milionów złotych.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75054541",
       "author": "janek",
@@ -134,7 +162,7 @@
       "body": "Łajba dzisiaj buja w dół",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -358,7 +386,7 @@
       "body": "Ja chce sprzedać za 70, będę tupał nogami",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -905,90 +933,6 @@
       "votes": {
         "up": 7,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74969629",
-      "author": "Kazimierz",
-      "postedAt": "2026-06-30 21:48",
-      "threadTitle": "Re: Zabawa na fixie",
-      "url": "https://www.bankier.pl/forum/temat_zabawa-na-fixie,74967227.html",
-      "body": "Tak samo było z Orlenem w okolicy 65 PLN",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74968603",
-      "author": "Lo21",
-      "postedAt": "2026-06-30 20:02",
-      "threadTitle": "Re: Zabawa na fixie",
-      "url": "https://www.bankier.pl/forum/temat_zabawa-na-fixie,74967227.html",
-      "body": "Nie przy takim volumenie.Przy milionie mogli zejść spokojnie na 64.5",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74968271",
-      "author": "Orim",
-      "postedAt": "2026-06-30 19:22",
-      "threadTitle": "Re: Zabawa na fixie",
-      "url": "https://www.bankier.pl/forum/temat_zabawa-na-fixie,74967227.html",
-      "body": "A nie przypomina to tobie zagrywki szortow",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74968257",
-      "author": "Orim",
-      "postedAt": "2026-06-30 19:22",
-      "threadTitle": "Re: czy tłusty prezes zrobi coś by ta spólka byla wyceniana godnie??",
-      "url": "https://www.bankier.pl/forum/temat_czy-tlusty-prezes-zrobi-cos-by-ta-spolka-byla-wyceniana-godnie,74950181.html",
-      "body": "To jest forum PZU wypad na PKN",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74967691",
-      "author": "Azazello",
-      "postedAt": "2026-06-30 18:23",
-      "threadTitle": "Re: czy tłusty prezes zrobi coś by ta spólka byla wyceniana godnie??",
-      "url": "https://www.bankier.pl/forum/temat_czy-tlusty-prezes-zrobi-cos-by-ta-spolka-byla-wyceniana-godnie,74950181.html",
-      "body": "Dokładnie przecież płacą dywidendę z kapitału zapasowego. Jadą na decyzjach Obajtka. Tylko tamten niechętnie dzielił się z udziałowcami a ten roztrwonił wszystko.",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74967227",
-      "author": "Lo21",
-      "postedAt": "2026-06-30 17:43",
-      "threadTitle": "Zabawa na fixie",
-      "url": "https://www.bankier.pl/forum/temat_zabawa-na-fixie,74967227.html",
-      "body": "Znowu obniżenie kursu o 40 groszy...Choć większy wolumen poszedł ok 1mln akcji...Cały czas trzymają kurs pod 66.Zabawa trwa.",
-      "votes": {
-        "up": 0,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
