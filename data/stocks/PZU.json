@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-07-07T04:17:41.678Z",
+  "updatedAt": "2026-07-07T10:01:52.651Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-07T04:17:41.678Z",
+    "fetchedAt": "2026-07-07T10:01:52.651Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.082,
+    "score": 0.078,
     "confidence": 0.73,
-    "commentCount": 63,
+    "commentCount": 62,
     "breakdown": {
-      "positive": 19,
-      "negative": 4,
-      "neutral": 40
+      "positive": 18,
+      "negative": 5,
+      "neutral": 39
     },
     "trend": [
       {
         "date": "2026-06-30",
-        "score": 0.169,
-        "count": 15
+        "score": 0.158,
+        "count": 10
       },
       {
         "date": "2026-07-01",
@@ -58,29 +58,34 @@
         "date": "2026-07-06",
         "score": 0.004,
         "count": 16
+      },
+      {
+        "date": "2026-07-07",
+        "score": 0.081,
+        "count": 4
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 63 komentarzy z ostatnich 7 dni: nastroje mieszane (19 pozytywnych, 4 negatywnych, 40 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 62 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 5 negatywnych, 39 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
         "count": 7
       },
       {
-        "word": "zeby",
+        "word": "https",
         "count": 5
       },
       {
-        "word": "https",
+        "word": "zeby",
         "count": 4
       },
       {
-        "word": "musi",
+        "word": "kapitalu",
         "count": 3
       },
       {
-        "word": "dywidenda",
+        "word": "musi",
         "count": 3
       },
       {
@@ -96,16 +101,72 @@
         "count": 3
       },
       {
-        "word": "trzeba",
-        "count": 3
+        "word": "straznik",
+        "count": 2
       },
       {
-        "word": "wtedy",
+        "word": "dywidende",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75049649",
+      "author": "Orim",
+      "postedAt": "2026-07-07 11:07",
+      "threadTitle": "Re: Czy dojdzie do 70",
+      "url": "https://www.bankier.pl/forum/temat_czy-dojdzie-do-70,75036435.html",
+      "body": "Nie PZU max 75 zl . Popatrz na wykres . Niestey liczylem na to ze przejdzie przez 70 zl ale straznik mocny i ma czym spychac kurs",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75049481",
+      "author": "okk",
+      "postedAt": "2026-07-07 10:59",
+      "threadTitle": "Re: Czy dojdzie do 70",
+      "url": "https://www.bankier.pl/forum/temat_czy-dojdzie-do-70,75036435.html",
+      "body": "GPW od kwietnia z ok 69 zł do ok 100 zł a Pzu z ok 62 zł d0 69 zł Ja biore dywidendę z Gpw i całośc pod dywidende w Pzu",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75046875",
+      "author": "Zbyszek",
+      "postedAt": "2026-07-07 07:32",
+      "threadTitle": "Re: Zaczęlo sie...LINK:)",
+      "url": "https://www.bankier.pl/forum/temat_zaczelo-sie-link,74902477.html",
+      "body": "Ciekawe jak daleko w dół odrzuci PZU po osiągnięciu 70-70.5: tam siedzi troche leszcza na haku",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75046719",
+      "author": "Insurance",
+      "postedAt": "2026-07-07 06:58",
+      "threadTitle": "Re: Zaczęlo sie...LINK:)",
+      "url": "https://www.bankier.pl/forum/temat_zaczelo-sie-link,74902477.html",
+      "body": "ATH spółek ubezpieczeniowych w Europie plus uwolnienie kapitału...https://stoxx.com/index/sxip/",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75044549",
       "author": "Marek",
@@ -142,7 +203,7 @@
       "url": "https://www.bankier.pl/forum/temat_100,74954953.html",
       "body": "Wtedy będziesz skomlał o 100 PLN lamusie",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -380,7 +441,7 @@
       "url": "https://www.bankier.pl/forum/temat_100,74954953.html",
       "body": "A kurs i obroty na to wskazują",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 2
       },
       "sentimentScore": 0,
@@ -730,7 +791,7 @@
       "url": "https://www.bankier.pl/forum/temat_100,74954953.html",
       "body": "Teraz się kupuje",
       "votes": {
-        "up": 10,
+        "up": 11,
         "down": 2
       },
       "sentimentScore": 0.583,
@@ -917,76 +978,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74960539",
-      "author": "Dexter",
-      "postedAt": "2026-06-30 09:57",
-      "threadTitle": "Re: Dywidenda już niedaleko i widać rozgrzewa inwestorów",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-juz-niedaleko-i-widac-rozgrzewa-inwestorow,74959391.html",
-      "body": "spokojny skup",
-      "votes": {
-        "up": 6,
-        "down": 4
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74959661",
-      "author": "Mario_az",
-      "postedAt": "2026-06-30 09:01",
-      "threadTitle": "Re: czy tłusty prezes zrobi coś by ta spólka byla wyceniana godnie??",
-      "url": "https://www.bankier.pl/forum/temat_czy-tlusty-prezes-zrobi-cos-by-ta-spolka-byla-wyceniana-godnie,74950181.html",
-      "body": "Trzeba zacisnąć zęby i poczekac do przyszłorocznych wyborów, które zmiotą obecną klikę.",
-      "votes": {
-        "up": 5,
-        "down": 8
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74959391",
-      "author": "marcinl0",
-      "postedAt": "2026-06-30 08:37",
-      "threadTitle": "Dywidenda już niedaleko i widać rozgrzewa inwestorów",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-juz-niedaleko-i-widac-rozgrzewa-inwestorow,74959391.html",
-      "body": "-> 90 zł",
-      "votes": {
-        "up": 2,
-        "down": 6
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74959293",
-      "author": "mabmab",
-      "postedAt": "2026-06-30 08:26",
-      "threadTitle": "Re: Usiadl sobie szorcik na PZU",
-      "url": "https://www.bankier.pl/forum/temat_usiadl-sobie-szorcik-na-pzu,74923167.html",
-      "body": "nie rozumiem co dywidenda ma wspolnego z szortowaniem? szortowanie może byc pod wyniki Q2",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74958931",
-      "author": "Kazimierz",
-      "postedAt": "2026-06-30 07:30",
-      "threadTitle": "Re: czy tłusty prezes zrobi coś by ta spólka byla wyceniana godnie??",
-      "url": "https://www.bankier.pl/forum/temat_czy-tlusty-prezes-zrobi-cos-by-ta-spolka-byla-wyceniana-godnie,74950181.html",
-      "body": "Obajtek nic nie zrobił , to nie jego zasługa tylko kilku splotów korzystnych sytuacji na świecie, inwestorzy wycenili odpowiednio tego syna najbogatszej krawcowej w Polsce",
-      "votes": {
-        "up": 6,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }

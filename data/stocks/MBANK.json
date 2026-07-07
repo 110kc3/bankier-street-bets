@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-07-07T04:17:09.481Z",
+  "updatedAt": "2026-07-07T10:01:22.843Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-07T04:17:09.481Z",
+    "fetchedAt": "2026-07-07T10:01:22.843Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.17,
+    "score": -0.173,
     "confidence": 0.76,
-    "commentCount": 74,
+    "commentCount": 72,
     "breakdown": {
-      "positive": 17,
+      "positive": 16,
       "negative": 29,
-      "neutral": 28
+      "neutral": 27
     },
     "trend": [
       {
         "date": "2026-04-08",
-        "score": -0.312,
-        "count": 10
+        "score": -0.43,
+        "count": 8
       },
       {
         "date": "2026-04-09",
@@ -161,7 +161,7 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 74 komentarzy z ostatnich 90 dni: nastroje negatywne (17 pozytywnych, 29 negatywnych, 28 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 72 komentarzy z ostatnich 90 dni: nastroje negatywne (16 pozytywnych, 29 negatywnych, 27 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -1213,34 +1213,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74087149",
-      "author": "Myslacy",
-      "postedAt": "2026-04-08 11:37",
-      "threadTitle": "Re: Co jest?",
-      "url": "https://www.bankier.pl/forum/temat_co-jest,74035673.html",
-      "body": "Jak Trump dzisiaj wstanie lewą nogą to zrobi nam promocję ;)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74086513",
-      "author": "Myslacy",
-      "postedAt": "2026-04-08 10:59",
-      "threadTitle": "Re: Kupiłem za równiutko 1000 zł dla dzieci !",
-      "url": "https://www.bankier.pl/forum/temat_kupilem-za-rowniutko-1000-zl-dla-dzieci,71811449.html",
-      "body": "Ale mi dzisiaj Bogdankę zjechali.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
