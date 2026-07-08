@@ -3,32 +3,27 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-08T08:45:32.744Z",
+  "updatedAt": "2026-07-08T14:42:04.290Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-08T08:45:32.744Z",
+    "fetchedAt": "2026-07-08T14:42:04.290Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 15
+    "threadsScanned": 14
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.071,
-    "confidence": 0.54,
+    "score": -0.061,
+    "confidence": 0.53,
     "commentCount": 32,
     "breakdown": {
       "positive": 10,
-      "negative": 7,
-      "neutral": 15
+      "negative": 6,
+      "neutral": 16
     },
     "trend": [
-      {
-        "date": "2026-06-08",
-        "score": -0.322,
-        "count": 1
-      },
       {
         "date": "2026-06-09",
         "score": 0,
@@ -122,11 +117,11 @@
       {
         "date": "2026-07-08",
         "score": 0,
-        "count": 1
+        "count": 2
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 32 komentarzy z ostatnich 30 dni: nastroje mieszane (10 pozytywnych, 7 negatywnych, 15 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 32 komentarzy z ostatnich 30 dni: nastroje mieszane (10 pozytywnych, 6 negatywnych, 16 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wzrostu",
@@ -157,20 +152,34 @@
         "count": 2
       },
       {
-        "word": "polskich",
-        "count": 2
-      },
-      {
         "word": "bankow",
         "count": 2
       },
       {
         "word": "mbank",
         "count": 2
+      },
+      {
+        "word": "dopiero",
+        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75064675",
+      "author": "Davson",
+      "postedAt": "2026-07-08 13:29",
+      "threadTitle": "Re: Automaty automaty",
+      "url": "https://www.bankier.pl/forum/temat_automaty-automaty,75017561.html",
+      "body": "tylko to im pozostaje",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75061461",
       "author": "tk",
@@ -179,7 +188,7 @@
       "url": "https://www.bankier.pl/forum/temat_automaty-automaty,75017561.html",
       "body": "nadal bronią wig20 tym bankiem",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -604,20 +613,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74723437",
-      "author": "profesor",
-      "postedAt": "2026-06-08 11:38",
-      "threadTitle": "zmyla",
-      "url": "https://www.bankier.pl/forum/temat_zmyla,74723437.html",
-      "body": "kto daje prawo zarzadzajacym niszczyc polski rynek. caly zachod w gore a gpw jak zwkle w dol.tak robia w bambuko polskich inwestorow od 20 lat.do prokuratora z nimi i abw na nich wyslac",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }

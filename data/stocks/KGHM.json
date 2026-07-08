@@ -3,31 +3,31 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-07-08T08:44:39.153Z",
+  "updatedAt": "2026-07-08T14:41:24.043Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-08T08:44:39.153Z",
+    "fetchedAt": "2026-07-08T14:41:24.043Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 29
+    "threadsScanned": 33
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.013,
-    "confidence": 0.7,
-    "commentCount": 111,
+    "score": 0.015,
+    "confidence": 0.71,
+    "commentCount": 128,
     "breakdown": {
-      "positive": 34,
-      "negative": 29,
-      "neutral": 48
+      "positive": 39,
+      "negative": 27,
+      "neutral": 62
     },
     "trend": [
       {
         "date": "2026-07-01",
-        "score": -0.066,
-        "count": 24
+        "score": 0.064,
+        "count": 5
       },
       {
         "date": "2026-07-02",
@@ -61,56 +61,546 @@
       },
       {
         "date": "2026-07-08",
-        "score": -0.239,
-        "count": 11
+        "score": -0.019,
+        "count": 47
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 111 komentarzy z ostatnich 7 dni: nastroje mieszane (34 pozytywnych, 29 negatywnych, 48 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 128 komentarzy z ostatnich 7 dni: nastroje mieszane (39 pozytywnych, 27 negatywnych, 62 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "srebro",
-        "count": 10
+        "word": "kghm",
+        "count": 14
       },
       {
-        "word": "kghm",
-        "count": 7
+        "word": "srebro",
+        "count": 12
       },
       {
         "word": "ceny",
-        "count": 6
+        "count": 8
       },
       {
         "word": "miedzi",
-        "count": 6
+        "count": 8
+      },
+      {
+        "word": "wzrost",
+        "count": 7
       },
       {
         "word": "ropy",
+        "count": 7
+      },
+      {
+        "word": "srebra",
+        "count": 6
+      },
+      {
+        "word": "miedz",
         "count": 5
       },
       {
-        "word": "long",
+        "word": "spadek",
         "count": 5
       },
       {
-        "word": "pewnie",
-        "count": 5
-      },
-      {
-        "word": "chce",
-        "count": 5
-      },
-      {
-        "word": "ponizej",
-        "count": 5
-      },
-      {
-        "word": "gora",
+        "word": "ropa",
         "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75067433",
+      "author": "Lis",
+      "postedAt": "2026-07-08 16:38",
+      "threadTitle": "srebro pęka 58$",
+      "url": "https://www.bankier.pl/forum/temat_srebro-peka-58,75067433.html",
+      "body": "jak coś ostatnie wsparcie na 56$",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75067379",
+      "author": "Lis",
+      "postedAt": "2026-07-08 16:33",
+      "threadTitle": "Re: ropa +7%",
+      "url": "https://www.bankier.pl/forum/temat_ropa-7,75067333.html",
+      "body": "nie ma wyjścia spadamy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75066989",
+      "author": "Ch",
+      "postedAt": "2026-07-08 16:08",
+      "threadTitle": "Re: Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "Zgadzam się ale do tego trzeba dołożyć płytkość gpw i łatwe manipulacje kursem - to jest idealna spółka aby robić przekręty , wiec nie bardzo bym się skupiał na cenach surowców a raczej na tym czy ktoś przekręca wajche",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75066893",
+      "author": "Ggg",
+      "postedAt": "2026-07-08 16:02",
+      "threadTitle": "Re: Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "Wzrosły nieproporcjonalnie bo za wzrost zysku KGHM odpowiada spekulacyjny wzrost ceny srebra, który był kilkukrotnie wyższy niż w przypadku miedzi. Więc dla zachowania kursu KGHM kluczowe jest srebro a nie miedź, niezależnie od specyficznego ujęcia w raportach okresowych (srebro traktowane jak produkt uboczny obniżający koszt wydobycia miedzi)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75066891",
+      "author": "Ch",
+      "postedAt": "2026-07-08 16:02",
+      "threadTitle": "Re: Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "Ja robię przeważnie odwrotnie niż ty piszesz i dobrze na tym wychodzę . Najlepiej żebyś wszystkie swoje myśli spisywał w jednym wątku a nie tworzył ciagle nowe zaśmiecających całe forum",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75066857",
+      "author": "Gracz",
+      "postedAt": "2026-07-08 16:00",
+      "threadTitle": "Re: chce iść wyżej",
+      "url": "https://www.bankier.pl/forum/temat_chce-isc-wyzej,75066479.html",
+      "body": "Dokladnie, gielda ocenia przyszlosc, a tu sie szykuje ~35-40 cena srebra. Tam sie powinno ustabilizowac. Obecny kurs KGHM 300 zl jest nie do utrzymania skoro teraz jest po 58 juz nie mowiac jak bedzie po 35.Chyba ze nagle srebro wroci na 120 co jest malo mozliwe. Takie rajdy trafiaja sie raz na kilka lat.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75066703",
+      "author": "Ch",
+      "postedAt": "2026-07-08 15:51",
+      "threadTitle": "Re: Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "Akcje kghm wzrosły nieproporcjonalnie do użycia miedzi cen miedzi itp , gdy dochodzimy do takiego punktu to są spadki , potem wzrosty i spadli i tak w kółko aż się skończą pieniądze drobnym inwestorom . Na tej spółce widać to wyraźnie bo jest płynna a ludzie ciagle się wachają. Tak jak pisze Mm , będzie podbitka spadek do 200 i wzrost do 400 - jeśli ten wariant się nie sprawi to będą ruchy pomiędzy 140 a 300 i tak w kółko",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75066715",
+      "author": "nim",
+      "postedAt": "2026-07-08 15:51",
+      "threadTitle": "Re: Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "Globalnie 44% miedzi idzie w energetykę, 20% budownictwo, 14% elektronika,12% transport",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75066589",
+      "author": "Gracz",
+      "postedAt": "2026-07-08 15:45",
+      "threadTitle": "Re: Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "Prosto i do rzeczy. Łap plusa. Uczyńmy to forum przyjaznym początkującym, a nie śmietnikiem.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75066563",
+      "author": "Ggg",
+      "postedAt": "2026-07-08 15:43",
+      "threadTitle": "Re: chce iść wyżej",
+      "url": "https://www.bankier.pl/forum/temat_chce-isc-wyzej,75066479.html",
+      "body": "A jak srebro wróci na 35 to ile zysku będzie miał za rok?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75066479",
+      "author": "Lis",
+      "postedAt": "2026-07-08 15:38",
+      "threadTitle": "chce iść wyżej",
+      "url": "https://www.bankier.pl/forum/temat_chce-isc-wyzej,75066479.html",
+      "body": "przecież kghm to potęga za 26r. będzie ok 8mld zysku albo może i więcej",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75066459",
+      "author": "Wytrawnytrader",
+      "postedAt": "2026-07-08 15:36",
+      "threadTitle": "Analizy na żywo",
+      "url": "https://www.bankier.pl/forum/temat_analizy-na-zywo,75066459.html",
+      "body": "godz 15.35 sroda 8.07.2026r https://youtube.com/live/iH3MBPwIbyY?feature=share",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75065979",
+      "author": "Ggg",
+      "postedAt": "2026-07-08 15:06",
+      "threadTitle": "Re: Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "Wyższe ceny ropy = wyższa inflacja = wyższe stopy procentowe = niższy wzrost gospodarczy i mniej kredytów hipotecznych = niższy popyt na miedź (połowa popytu to budownictwo). Jaśniej i prościej chyba się nie da.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75065857",
+      "author": "Lis",
+      "postedAt": "2026-07-08 14:56",
+      "threadTitle": "Re: Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "ja byłbym za tym żebyście pisali jakie ruchy robicie kiedy pozycja otwarta kiedy zamknięta czy S czy Lja tak piszę",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75065833",
+      "author": "Gracz",
+      "postedAt": "2026-07-08 14:52",
+      "threadTitle": "Re: Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "A może odpowiedz jej merytorycznie zamiast pisać głupoty nie wnoszące nic do dyskusji na temat spółki?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75065665",
+      "author": "Trzas-wawa",
+      "postedAt": "2026-07-08 14:41",
+      "threadTitle": "Re: Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "Ty idż Moniczka na saunę, do kosmetyczki, wypij sok z koleżankami, a giełdę zostaw innym.",
+      "votes": {
+        "up": 0,
+        "down": 5
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75065333",
+      "author": "Lis",
+      "postedAt": "2026-07-08 14:20",
+      "threadTitle": "Re: za dwie godziny samoopalacz wznowi negocjacje",
+      "url": "https://www.bankier.pl/forum/temat_za-dwie-godziny-samoopalacz-wznowi-negocjacje,75063761.html",
+      "body": "najpierw iran zaatakował 2 tankowce bo nie przepływały wyznaczoną trasą trampek cofnął import ropy z iranu i odpowiedział kilkoma atakami patowa sytuacja jak ochłoną to może zezwoli na import i wrócą do rozmów",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75065151",
+      "author": "andi",
+      "postedAt": "2026-07-08 14:07",
+      "threadTitle": "Re: Skiing - z górki na pazurki-KGHM",
+      "url": "https://www.bankier.pl/forum/temat_sky-is-the-limit,73536347.html",
+      "body": "ale gniot jedzie....",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75064797",
+      "author": "hukers",
+      "postedAt": "2026-07-08 13:38",
+      "threadTitle": "Re: za dwie godziny samoopalacz wznowi negocjacje",
+      "url": "https://www.bankier.pl/forum/temat_za-dwie-godziny-samoopalacz-wznowi-negocjacje,75063761.html",
+      "body": "ropa lezala na dnie wiec czapka wymyslila ze wezma dlugie i zbombarduja iran on tam jest tylko po to żeby zarabiac na gieldzie że też go nie odstrzela",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75064455",
+      "author": "YorX",
+      "postedAt": "2026-07-08 13:14",
+      "threadTitle": "Re: za dwie godziny samoopalacz wznowi negocjacje",
+      "url": "https://www.bankier.pl/forum/temat_za-dwie-godziny-samoopalacz-wznowi-negocjacje,75063761.html",
+      "body": "> hehe całkiem możliwe >> na razie nikomu nie opłaca się znawiać konfliktu Dokładnie... dlatego właśnie go wzmowili.Czy nie wznowili?",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75064015",
+      "author": "Monique",
+      "postedAt": "2026-07-08 12:37",
+      "threadTitle": "Nie rozumiem jednego. Może ktoś mi to wytłumaczyć?",
+      "url": "https://www.bankier.pl/forum/temat_nie-rozumiem-jednego-moze-ktos-mi-to-wytlumaczyc,75064015.html",
+      "body": "Czemu dziś spadają ceny miedzi i srebra? Bo znów wojna w Iranie? No ale co z tego, że wojna? Nadal przemysł potrzebuje tych surowców do normalnej produkcji (przecież nikt na świecie nie pozrywał kontraktów na produkcję dowolnego sprzętu tylko dlatego, ze Iran jest atakowany), a do tego będzie tego surowca potrzebne jeszcze więcej na cele zbrojeniowe bijących się państw.A jak dodać do tego, że pomarańczowy pięć razy dziennie zmienia zdanie, to tym bardziej to jest bez sensu.",
+      "votes": {
+        "up": 6,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75063845",
+      "author": "Lis",
+      "postedAt": "2026-07-08 12:22",
+      "threadTitle": "Re: za dwie godziny samoopalacz wznowi negocjacje",
+      "url": "https://www.bankier.pl/forum/temat_za-dwie-godziny-samoopalacz-wznowi-negocjacje,75063761.html",
+      "body": "hehe całkiem możliwe na razie nikomu nie opłaca się znawiać konfliktu",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75063761",
+      "author": "ckn",
+      "postedAt": "2026-07-08 12:17",
+      "threadTitle": "za dwie godziny samoopalacz wznowi negocjacje",
+      "url": "https://www.bankier.pl/forum/temat_za-dwie-godziny-samoopalacz-wznowi-negocjacje,75063761.html",
+      "body": "standardowa zagrywka a o 16 wyszczał i powrót 320",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75063635",
+      "author": "YorX",
+      "postedAt": "2026-07-08 12:08",
+      "threadTitle": "Re: pękło",
+      "url": "https://www.bankier.pl/forum/temat_peklo,75062089.html",
+      "body": "Może i przydało by się przewietrzyć temat.240 pln nie było drugi raz testowane.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75063611",
+      "author": "Michu",
+      "postedAt": "2026-07-08 12:06",
+      "threadTitle": "Re: pękło",
+      "url": "https://www.bankier.pl/forum/temat_peklo,75062089.html",
+      "body": "Rozpierducha na całego wisi w powietrzu,",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75063197",
+      "author": "Gracz",
+      "postedAt": "2026-07-08 11:41",
+      "threadTitle": "Re: pękło",
+      "url": "https://www.bankier.pl/forum/temat_peklo,75062089.html",
+      "body": "Droga na 120 otwarta.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75063163",
+      "author": "Lis",
+      "postedAt": "2026-07-08 11:39",
+      "threadTitle": "Re: Sytuacja",
+      "url": "https://www.bankier.pl/forum/temat_sytuacja,75060765.html",
+      "body": "kurs się broni wynikami 60$ za srebro to nie jest zła cena dla kghm wiadomo że wyniki będą za półrocze ok 6mld zł rekordowe ceny miedzi były",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75063079",
+      "author": "DzikuSS",
+      "postedAt": "2026-07-08 11:33",
+      "threadTitle": "Ojoj",
+      "url": "https://www.bankier.pl/forum/temat_ojoj,75063079.html",
+      "body": "Kto kupował powyżej 385 ceb ten robi teraz szczau w łeb :/",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75062951",
+      "author": "YorX",
+      "postedAt": "2026-07-08 11:25",
+      "threadTitle": "Re: Sytuacja",
+      "url": "https://www.bankier.pl/forum/temat_sytuacja,75060765.html",
+      "body": "> Ciekawe jaki bedzie wynik KGHM za półroczeWyniki pewnie będą świetne ale to już chyba będzie traktowane jako one off",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75062867",
+      "author": "Ch",
+      "postedAt": "2026-07-08 11:21",
+      "threadTitle": "Re: Co dalej ?",
+      "url": "https://www.bankier.pl/forum/temat_co-dalej,74825583.html",
+      "body": "2 z przodu jest , nie martwcie się już niedługo odbicie zdechłego kota i jazda na 200",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75062731",
+      "author": "Zbik07",
+      "postedAt": "2026-07-08 11:13",
+      "threadTitle": "Re: Sytuacja",
+      "url": "https://www.bankier.pl/forum/temat_sytuacja,75060765.html",
+      "body": "Pisałem w poniedziałek że do końca tygodnia 300 chyba będzie niżej",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75062557",
+      "author": "Lis",
+      "postedAt": "2026-07-08 11:04",
+      "threadTitle": "Re: pękło",
+      "url": "https://www.bankier.pl/forum/temat_peklo,75062089.html",
+      "body": "Ropa może iść do80$Potem zależy od rozwoju sytuacji",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75062509",
+      "author": "End",
+      "postedAt": "2026-07-08 11:02",
+      "threadTitle": "Re: Sytuacja",
+      "url": "https://www.bankier.pl/forum/temat_sytuacja,75060765.html",
+      "body": "Ciekawe jaki bedzie wynik KGHM za półrocze",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75062507",
+      "author": "Lis",
+      "postedAt": "2026-07-08 11:02",
+      "threadTitle": "Re: to może być",
+      "url": "https://www.bankier.pl/forum/temat_to-moze-byc,75011069.html",
+      "body": "A jednak",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75062341",
+      "author": "YorX",
+      "postedAt": "2026-07-08 10:55",
+      "threadTitle": "Re: Sytuacja",
+      "url": "https://www.bankier.pl/forum/temat_sytuacja,75060765.html",
+      "body": "W ostatnim oku otworzyło się niezliczoną ilość razy z luką.Ciężko znaleźć tutaj jakiekolwiek sensowne wsparcie/opór kiedy kurs jest tak podatny na warunki makro",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75062089",
       "author": "Lis",
@@ -133,11 +623,25 @@
       "url": "https://www.bankier.pl/forum/temat_sytuacja,75060765.html",
       "body": "Jaki jest sens próbować łapać longa w trendzie spadkowym, zamiast grać z trendem?..",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75061021",
+      "author": "Grzyb",
+      "postedAt": "2026-07-08 09:45",
+      "threadTitle": "Re: Sytuacja",
+      "url": "https://www.bankier.pl/forum/temat_sytuacja,75060765.html",
+      "body": "290-300",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "75060845",
@@ -175,8 +679,8 @@
       "url": "https://www.bankier.pl/forum/temat_338,75058807.html",
       "body": "Uzasadnij pod co ma rosnac skoro srebro w trendzie spadkowym zlecialo z 120 na 60 w nocy nawet o 58 zahaczylo.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -274,7 +778,7 @@
       "body": "oscyluje w granicach 100 - 120 ceb. Coming soon :D",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1395,272 +1899,6 @@
       "votes": {
         "up": 0,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74981713",
-      "author": "Rafi",
-      "postedAt": "2026-07-01 16:20",
-      "threadTitle": "KGHM delikatnie na zielono :)",
-      "url": "https://www.bankier.pl/forum/temat_kghm-delikatnie-na-zielono,74981713.html",
-      "body": "Rany Julek :)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74981159",
-      "author": "Lis",
-      "postedAt": "2026-07-01 15:52",
-      "threadTitle": "opory na srebrze",
-      "url": "https://www.bankier.pl/forum/temat_opory-na-srebrze,74981159.html",
-      "body": "62$ i najważniejszy ok 65$moim zdaniem na razie nie ma przesłanek by wyszło wyżej",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74980983",
-      "author": "marek",
-      "postedAt": "2026-07-01 15:41",
-      "threadTitle": "Re: kghm",
-      "url": "https://www.bankier.pl/forum/temat_kghm,74977261.html",
-      "body": "wygląda na to że już się nie może doczekać aby wbić górą , jezeli tak będzie to ruch będzie spory.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74980759",
-      "author": "Ggg",
-      "postedAt": "2026-07-01 15:28",
-      "threadTitle": "Re: MIEDZ ZASTEPUJA ALUMINIUM !",
-      "url": "https://www.bankier.pl/forum/temat_miedz-zastepuja-aluminium,74973061.html",
-      "body": "Kilka dekad temu nie było takich alustopów jak teraz więc się ocknij. Nawet jak w 85-90% przypadków nie zastąpisz miedzi aluminium, w 10-15% owszem, da się to zrobić. Podobnie że srebrem, już są prognozy że do 2030 deficyt srebra na rynku będzie o RZĄD WIELKOŚCI MNIEJSZY niż przewidywano jeszcze kilka miesięcy. Po prostu tak działa rachunek ekonomiczny, jak surowiec bardzo drożeje albo są problemy z dostępnością to się ogranicza jego zastosowanie na rzecz tańszych i łatwiejszych w pozyskaniu zamienników.",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74979619",
-      "author": "AL",
-      "postedAt": "2026-07-01 14:25",
-      "threadTitle": "Re: MIEDZ ZASTEPUJA ALUMINIUM !",
-      "url": "https://www.bankier.pl/forum/temat_miedz-zastepuja-aluminium,74973061.html",
-      "body": "Kilka dekad temu też montowali instalacje aluminiowe w mieszkaniach. Niczego nie zastąpią chyba że lubisz bubel rodem z PRLu.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74979423",
-      "author": "Michu",
-      "postedAt": "2026-07-01 14:13",
-      "threadTitle": "Re: MIEDZ ZASTEPUJA ALUMINIUM !",
-      "url": "https://www.bankier.pl/forum/temat_miedz-zastepuja-aluminium,74973061.html",
-      "body": "Tak, tak już Tesla gadał, że prąd można przesyłać bez kabli...",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74978265",
-      "author": "YorX",
-      "postedAt": "2026-07-01 13:10",
-      "threadTitle": "Re: MIEDZ ZASTEPUJA ALUMINIUM !",
-      "url": "https://www.bankier.pl/forum/temat_miedz-zastepuja-aluminium,74973061.html",
-      "body": "> Wystarczy że 10% się zastąpi i ceny miedzi runą bo nie będzie mowy o żadnym deficycie i brakach na rynkuDokładnie. A jak uda się zastąpić w jednej dziedzinie, to i w innych będą poszukiwać tańszych zamienników.",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74977533",
-      "author": "Michu",
-      "postedAt": "2026-07-01 12:29",
-      "threadTitle": "Re: Szach Mat",
-      "url": "https://www.bankier.pl/forum/temat_szach-mat,74977171.html",
-      "body": "Ja nie wierzę, że nad Zatoką się uspokoi, tak samo na Krymie; trzeba przyjąć, że będzie tylko gorzej.",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74977481",
-      "author": "Ggg",
-      "postedAt": "2026-07-01 12:27",
-      "threadTitle": "Re: MIEDZ ZASTEPUJA ALUMINIUM !",
-      "url": "https://www.bankier.pl/forum/temat_miedz-zastepuja-aluminium,74973061.html",
-      "body": "Wystarczy że 10% się zastąpi i ceny miedzi runą bo nie będzie mowy o żadnym deficycie i brakach na rynku",
-      "votes": {
-        "up": 5,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74977427",
-      "author": "marek",
-      "postedAt": "2026-07-01 12:24",
-      "threadTitle": "Re: kghm",
-      "url": "https://www.bankier.pl/forum/temat_kghm,74977261.html",
-      "body": "idąc od dołu przez kilka miesięcy 320 było szczytami z których były korekty w dół dlatego to teraz 320 to silne wsparcie , czy wytrzyma czas pokaże.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74977383",
-      "author": "YorX",
-      "postedAt": "2026-07-01 12:22",
-      "threadTitle": "Re: kghm",
-      "url": "https://www.bankier.pl/forum/temat_kghm,74977261.html",
-      "body": "Srebro jak srebro, tam już jest kawał drogi od szczytu.Moim zdaniem, kolej na miedź",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74977261",
-      "author": "marek",
-      "postedAt": "2026-07-01 12:15",
-      "threadTitle": "kghm",
-      "url": "https://www.bankier.pl/forum/temat_kghm,74977261.html",
-      "body": "Obserwuję to od tygodnia porusza się w kanale 320 . 330 z małymi różnicami pomimo ruchów spadkowych na metalach , wygląda to na wyczekiwanie co dalej ze srebrem , jeżeli srebro wykona głębszy ruch dół polecimy za nim , jeśli tu się ustabilizuje to polecimy wyżej i to znacznie , na razie jest gra nerwów pewnie ameryki nie odkryłem ale tak to wygląda na razie 320 bardzo silne wsparcie.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74977259",
-      "author": "Lis",
-      "postedAt": "2026-07-01 12:15",
-      "threadTitle": "Re: Szach Mat",
-      "url": "https://www.bankier.pl/forum/temat_szach-mat,74977171.html",
-      "body": "Trampek się przeliczył Jeśli twardogłowi przekalkulują że wojna bardziej się opłaca, będzie wznowienie konfliktuTrampek teraz tylko może udawać że jest pięknie dobrze",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74977171",
-      "author": "Lis",
-      "postedAt": "2026-07-01 12:10",
-      "threadTitle": "Szach Mat",
-      "url": "https://www.bankier.pl/forum/temat_szach-mat,74977171.html",
-      "body": "IranUSA odblokowała mld dolarów z sankcji ropa płynie z Iranu i teraz chcą razem z Omanem wprowdzić opłaty w cieśninie Praktycznie wszystko ugrali co chcą",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74976981",
-      "author": "Pikador",
-      "postedAt": "2026-07-01 12:00",
-      "threadTitle": "Re: Lisu jak prognoza",
-      "url": "https://www.bankier.pl/forum/temat_lisu-jak-prognoza,74976807.html",
-      "body": "Szukam nowego kurnika. Jak się najem do syta to ci powiem.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74976855",
-      "author": "boluś",
-      "postedAt": "2026-07-01 11:54",
-      "threadTitle": "Re: LIpa",
-      "url": "https://www.bankier.pl/forum/temat_lipa,74971903.html",
-      "body": "I takie wypłochy inwestory sprzedają skrowisynom,którzy chętnie zbierają. Przyjdzie czas na UP.Muswzą to zrobić. Czekamy cierpliwie.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74976759",
-      "author": "Michu",
-      "postedAt": "2026-07-01 11:50",
-      "threadTitle": "Re: LIpa",
-      "url": "https://www.bankier.pl/forum/temat_lipa,74971903.html",
-      "body": "Niech żywi nie tracą nadziei.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74976649",
-      "author": "Mały",
-      "postedAt": "2026-07-01 11:45",
-      "threadTitle": "Re: LIpa",
-      "url": "https://www.bankier.pl/forum/temat_lipa,74971903.html",
-      "body": "Ja już sprzedałem ze stratą przy 340",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74975849",
-      "author": "Trzas-wawa",
-      "postedAt": "2026-07-01 11:05",
-      "threadTitle": "Re: ja jestem out , nie da sie grac chyba ze na 3,4 punkty",
-      "url": "https://www.bankier.pl/forum/temat_ja-jestem-out-nie-da-sie-grac-chyba-ze-na-3-4-punkty,74973707.html",
-      "body": "Grać się nie da jak się forsa kończy, albo \"siada\" psyche.",
-      "votes": {
-        "up": 2,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

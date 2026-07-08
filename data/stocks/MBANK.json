@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-07-08T08:44:57.879Z",
+  "updatedAt": "2026-07-08T14:41:39.307Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-08T08:44:57.879Z",
+    "fetchedAt": "2026-07-08T14:41:39.307Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -17,18 +17,13 @@
     "signal": "SELL",
     "score": -0.162,
     "confidence": 0.76,
-    "commentCount": 64,
+    "commentCount": 62,
     "breakdown": {
       "positive": 15,
-      "negative": 22,
-      "neutral": 27
+      "negative": 21,
+      "neutral": 26
     },
     "trend": [
-      {
-        "date": "2026-04-09",
-        "score": -0.161,
-        "count": 2
-      },
       {
         "date": "2026-04-10",
         "score": -0.119,
@@ -156,7 +151,7 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 64 komentarzy z ostatnich 90 dni: nastroje negatywne (15 pozytywnych, 22 negatywnych, 27 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 62 komentarzy z ostatnich 90 dni: nastroje negatywne (15 pozytywnych, 21 negatywnych, 26 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -183,19 +178,19 @@
         "count": 4
       },
       {
-        "word": "sprawy",
-        "count": 4
-      },
-      {
         "word": "kwietnia",
         "count": 4
       },
       {
-        "word": "banki",
-        "count": 4
+        "word": "bank",
+        "count": 3
       },
       {
-        "word": "bank",
+        "word": "sprawy",
+        "count": 3
+      },
+      {
+        "word": "zeby",
         "count": 3
       }
     ]
@@ -1068,34 +1063,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74103917",
-      "author": "Ciekawe",
-      "postedAt": "2026-04-09 16:16",
-      "threadTitle": "-5% kiedy?",
-      "url": "https://www.bankier.pl/forum/temat_5-kiedy,74103917.html",
-      "body": "To tylko kwestia czasu jak wróci na tysiaka.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74103753",
-      "author": "Ciekawe",
-      "postedAt": "2026-04-09 16:06",
-      "threadTitle": "Re: a za tydzień po wyroku TSUE zjazd do bazy albo niżej",
-      "url": "https://www.bankier.pl/forum/temat_a-za-tydzien-po-wyroku-tsue-zjazd-do-bazy-albo-nizej,74094771.html",
-      "body": "Już są pierwsze wygrane w Polsce sprawy o WIBOR, to pogrąży banki.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
