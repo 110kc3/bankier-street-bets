@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-07-07T20:15:05.859Z",
+  "updatedAt": "2026-07-08T03:44:59.997Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-07T20:15:05.859Z",
+    "fetchedAt": "2026-07-08T03:44:59.997Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.053,
-    "confidence": 0.71,
-    "commentCount": 59,
+    "score": 0.052,
+    "confidence": 0.7,
+    "commentCount": 58,
     "breakdown": {
       "positive": 16,
       "negative": 8,
-      "neutral": 35
+      "neutral": 34
     },
     "trend": [
-      {
-        "date": "2026-06-30",
-        "score": 0,
-        "count": 1
-      },
       {
         "date": "2026-07-01",
         "score": 0.291,
@@ -65,8 +60,8 @@
         "count": 10
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 59 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 8 negatywnych, 35 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 58 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 8 negatywnych, 34 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -75,10 +70,6 @@
       {
         "word": "dywidendy",
         "count": 6
-      },
-      {
-        "word": "zlotych",
-        "count": 3
       },
       {
         "word": "stoxx",
@@ -107,6 +98,10 @@
       {
         "word": "cenie",
         "count": 3
+      },
+      {
+        "word": "podwyzki",
+        "count": 3
       }
     ]
   },
@@ -119,7 +114,7 @@
       "url": "https://www.bankier.pl/forum/temat_pzu-pko,75053267.html",
       "body": "Ktoś to sprzedał...",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -133,8 +128,8 @@
       "url": "https://www.bankier.pl/forum/temat_pzu-pko,75053267.html",
       "body": "884 tysiące akcji na fixingu, kontrolowane przejęcie płynności i doskonała okazja do akumulacji. Duży gracz instytucjonalny (lub grupa graczy) wykorzystał podaż , by hurtowo, w jednej transakcji, „zaparkować” w swoim portfelu paczkę akcji wartą ponad 60 milionów złotych.",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -919,20 +914,6 @@
       "votes": {
         "up": 1,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74970143",
-      "author": "Mistral",
-      "postedAt": "2026-06-30 22:56",
-      "threadTitle": "Re: Dywidenda już niedaleko i widać rozgrzewa inwestorów",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-juz-niedaleko-i-widac-rozgrzewa-inwestorow,74959391.html",
-      "body": "Wątpliwe , żeby dla 4 złotych ktoś to kulił a potem po odcięciu stracił co najmniej 8 ….",
-      "votes": {
-        "up": 7,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
