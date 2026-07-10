@@ -3,11 +3,11 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-07-10T09:53:51.929Z",
+  "updatedAt": "2026-07-10T14:52:13.084Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-10T09:53:51.929Z",
+    "fetchedAt": "2026-07-10T14:52:13.084Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.22,
-    "confidence": 0.67,
-    "commentCount": 44,
+    "score": 0.221,
+    "confidence": 0.63,
+    "commentCount": 38,
     "breakdown": {
-      "positive": 22,
-      "negative": 5,
-      "neutral": 17
+      "positive": 18,
+      "negative": 4,
+      "neutral": 16
     },
     "trend": [
       {
         "date": "2026-06-10",
-        "score": 0.322,
-        "count": 9
+        "score": 0.409,
+        "count": 3
       },
       {
         "date": "2026-06-11",
@@ -91,7 +91,7 @@
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 44 komentarzy z ostatnich 30 dni: nastroje pozytywne (22 pozytywnych, 5 negatywnych, 17 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 38 komentarzy z ostatnich 30 dni: nastroje pozytywne (18 pozytywnych, 4 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidende",
@@ -103,14 +103,6 @@
       },
       {
         "word": "sprzedac",
-        "count": 3
-      },
-      {
-        "word": "dzis",
-        "count": 3
-      },
-      {
-        "word": "dzien",
         "count": 3
       },
       {
@@ -132,6 +124,14 @@
       {
         "word": "mnie",
         "count": 2
+      },
+      {
+        "word": "niech",
+        "count": 2
+      },
+      {
+        "word": "dywidendy",
+        "count": 2
       }
     ]
   },
@@ -144,7 +144,7 @@
       "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
       "body": "Drodzy Państwo! 239zł i jazda do góry :)",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -666,90 +666,6 @@
         "down": 2
       },
       "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74753963",
-      "author": "zielony_guzik",
-      "postedAt": "2026-06-10 16:36",
-      "threadTitle": "Re: Dywidenda",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda,74751099.html",
-      "body": "Sorry mój błąd jutro 11.06",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74752199",
-      "author": "Tomek",
-      "postedAt": "2026-06-10 14:36",
-      "threadTitle": "Re: eTrader nie chodzi",
-      "url": "https://www.bankier.pl/forum/temat_etrader-nie-chodzi,74257145.html",
-      "body": "Jutro kupicie po 245",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74752143",
-      "author": "demostenes",
-      "postedAt": "2026-06-10 14:33",
-      "threadTitle": "Re: eTrader nie chodzi",
-      "url": "https://www.bankier.pl/forum/temat_etrader-nie-chodzi,74257145.html",
-      "body": "Potwierdzam, porażka znów jakaś awaria, cały dzień nie można zalogować się do aplikacji",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74752083",
-      "author": "Tomek",
-      "postedAt": "2026-06-10 14:28",
-      "threadTitle": "Re: Dywidenda",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda,74751099.html",
-      "body": "11.06 ostatni dzień na zakup. Jutro może kurs wzrosnąć",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74751359",
-      "author": "zielony_guzik",
-      "postedAt": "2026-06-10 13:38",
-      "threadTitle": "Re: Dywidenda",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda,74751099.html",
-      "body": "Dziś do 17.05",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74751099",
-      "author": "CICHY",
-      "postedAt": "2026-06-10 13:21",
-      "threadTitle": "Dywidenda",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda,74751099.html",
-      "body": "ostani dzien na kupno to 09.06 czy 11.06 ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
     }
   ]
