@@ -3,32 +3,27 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-10T14:52:24.262Z",
+  "updatedAt": "2026-07-10T19:52:04.180Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-10T14:52:24.262Z",
+    "fetchedAt": "2026-07-10T19:52:04.180Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 16
+    "threadsScanned": 19
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.107,
+    "score": -0.015,
     "confidence": 0.57,
-    "commentCount": 35,
+    "commentCount": 39,
     "breakdown": {
-      "positive": 9,
+      "positive": 10,
       "negative": 9,
-      "neutral": 17
+      "neutral": 20
     },
     "trend": [
-      {
-        "date": "2026-06-10",
-        "score": 0.762,
-        "count": 1
-      },
       {
         "date": "2026-06-12",
         "score": 0.341,
@@ -116,13 +111,25 @@
       },
       {
         "date": "2026-07-10",
-        "score": 0,
-        "count": 1
+        "score": 0.209,
+        "count": 6
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 35 komentarzy z ostatnich 30 dni: nastroje negatywne (9 pozytywnych, 9 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 39 komentarzy z ostatnich 30 dni: nastroje mieszane (10 pozytywnych, 9 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "dopiero",
+        "count": 3
+      },
+      {
+        "word": "wina",
+        "count": 2
+      },
+      {
+        "word": "glapy",
+        "count": 2
+      },
       {
         "word": "czyzby",
         "count": 2
@@ -150,22 +157,80 @@
       {
         "word": "wszystko",
         "count": 2
-      },
-      {
-        "word": "tyle",
-        "count": 2
-      },
-      {
-        "word": "czekam",
-        "count": 2
-      },
-      {
-        "word": "poleci",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75097307",
+      "author": "Janekzwagrowca",
+      "postedAt": "2026-07-10 20:59",
+      "threadTitle": "Re: Automaty ustawiają pozycję na po wakacjach?",
+      "url": "https://www.bankier.pl/forum/temat_automaty-ustawiaja-pozycje-na-po-wakacjach,75090337.html",
+      "body": "Poza tym teraz piszą że rośnie i to też wina glapy ale nie PiS. Już się gubię w przekazie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75096533",
+      "author": "XD",
+      "postedAt": "2026-07-10 19:24",
+      "threadTitle": "Re: 145 to dopiero 0.1 ceny akcji mBank. tak tylko uświadamiam",
+      "url": "https://www.bankier.pl/forum/temat_145-to-dopiero-0-1-ceny-akcji-mbank-tak-tylko-uswiadamiam,74818671.html",
+      "body": "Rownie dobrze mogl porownac fo kursu lpp. Dopiero by mu wyszlo dyskonto. Skad oni sie biora? Jak sie dowiedzielino gpw? :))))",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75095731",
+      "author": "FUGAZI",
+      "postedAt": "2026-07-10 17:45",
+      "threadTitle": "5 sierpnia 2026",
+      "url": "https://www.bankier.pl/forum/temat_5-sierpnia-2026,75095731.html",
+      "body": "Ciekaw jestem do ilu dojdzie do 5 sierpnia br.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75095309",
+      "author": "Hillela",
+      "postedAt": "2026-07-10 17:05",
+      "threadTitle": "PKOBP Adaś szaleje mamy nowy rekord kupowałem za 16 Zeta kosmos",
+      "url": "https://www.bankier.pl/forum/temat_pkobp-adas-szaleje-mamy-nowy-rekord-kupowalem-za-16-zeta-kosmos,75095309.html",
+      "body": "Takie fakty",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75095235",
+      "author": "Verso",
+      "postedAt": "2026-07-10 16:59",
+      "threadTitle": "Zobaczcie zlecenia i kurs na zamku",
+      "url": "https://www.bankier.pl/forum/temat_zobaczcie-zlecenia-i-kurs-na-zamku,75095235.html",
+      "body": "Co tu się odwala?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75090337",
       "author": "Janekzwagrowca",
@@ -203,7 +268,7 @@
       "body": "PROSZE PYTAC NA ZYWO ANALIZUJE ASBIS SPADNIE",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -328,7 +393,7 @@
       "url": "https://www.bankier.pl/forum/temat_145-to-dopiero-0-1-ceny-akcji-mbank-tak-tylko-uswiadamiam,74818671.html",
       "body": "tyle że akcji PKO BP jest 1,25 mld a mBanku jakieś 0,04 mld",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -510,7 +575,7 @@
       "url": "https://www.bankier.pl/forum/temat_145-to-dopiero-0-1-ceny-akcji-mbank-tak-tylko-uswiadamiam,74818671.html",
       "body": "To dodaj jeszcze że mbank pierwszy poleci jak kamień w wodę na co gorąco czekam",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -638,20 +703,6 @@
       "votes": {
         "up": 1,
         "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74756377",
-      "author": "Davson",
-      "postedAt": "2026-06-10 19:41",
-      "threadTitle": "Re: Koniec korekty i powrót do wzrostu przed dywidendą",
-      "url": "https://www.bankier.pl/forum/temat_koniec-korekty-i-powrot-do-wzrostu-przed-dywidenda,74682857.html",
-      "body": "zejdz na ziemię... Czas na 97",
-      "votes": {
-        "up": 1,
-        "down": 1
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"

@@ -3,11 +3,11 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-07-10T14:52:13.084Z",
+  "updatedAt": "2026-07-10T19:51:51.235Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-10T14:52:13.084Z",
+    "fetchedAt": "2026-07-10T19:51:51.235Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.221,
-    "confidence": 0.63,
-    "commentCount": 38,
+    "score": 0.217,
+    "confidence": 0.61,
+    "commentCount": 35,
     "breakdown": {
-      "positive": 18,
+      "positive": 15,
       "negative": 4,
       "neutral": 16
     },
     "trend": [
-      {
-        "date": "2026-06-10",
-        "score": 0.409,
-        "count": 3
-      },
       {
         "date": "2026-06-11",
         "score": 0.153,
@@ -90,16 +85,12 @@
         "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 38 komentarzy z ostatnich 30 dni: nastroje pozytywne (18 pozytywnych, 4 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 35 komentarzy z ostatnich 30 dni: nastroje pozytywne (15 pozytywnych, 4 negatywnych, 16 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidende",
         "count": 4
-      },
-      {
-        "word": "dywidenda",
-        "count": 3
       },
       {
         "word": "sprzedac",
@@ -118,7 +109,7 @@
         "count": 2
       },
       {
-        "word": "rano",
+        "word": "dywidenda",
         "count": 2
       },
       {
@@ -131,6 +122,10 @@
       },
       {
         "word": "dywidendy",
+        "count": 2
+      },
+      {
+        "word": "ktos",
         "count": 2
       }
     ]
@@ -624,48 +619,6 @@
         "down": 0
       },
       "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74755235",
-      "author": "zielony_guzik",
-      "postedAt": "2026-06-10 17:57",
-      "threadTitle": "Re: Dywidenda",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda,74751099.html",
-      "body": "No oby bo chciałem zrealizować przed dywidendą i odkupić pojutrze rano. Mam stratę na innym papierze",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74755041",
-      "author": "Tomek",
-      "postedAt": "2026-06-10 17:42",
-      "threadTitle": "Re: Dywidenda",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda,74751099.html",
-      "body": "Raczej przebije 240",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74754513",
-      "author": "zielony_guzik",
-      "postedAt": "2026-06-10 17:11",
-      "threadTitle": "Re: Dywidenda",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda,74751099.html",
-      "body": "Do jakich poziomów może jutro wzrosnąć? Myślisz że przebijemy 240 ?",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
     }
   ]
