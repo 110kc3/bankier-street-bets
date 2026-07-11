@@ -3,11 +3,11 @@
   "companyName": "PGE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PGE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pge-sa,6,21,10000000641.html",
-  "updatedAt": "2026-07-11T03:43:05.760Z",
+  "updatedAt": "2026-07-11T08:16:00.385Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-11T03:43:05.760Z",
+    "fetchedAt": "2026-07-11T08:16:00.385Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.011,
+    "score": -0.002,
     "confidence": 0.7,
-    "commentCount": 119,
+    "commentCount": 120,
     "breakdown": {
-      "positive": 20,
+      "positive": 21,
       "negative": 19,
       "neutral": 80
     },
     "trend": [
       {
         "date": "2026-07-04",
-        "score": -0.107,
-        "count": 3
+        "score": -0.161,
+        "count": 2
       },
       {
         "date": "2026-07-06",
@@ -53,14 +53,19 @@
         "date": "2026-07-10",
         "score": -0.066,
         "count": 22
+      },
+      {
+        "date": "2026-07-11",
+        "score": 0.291,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 119 komentarzy z ostatnich 7 dni: nastroje mieszane (20 pozytywnych, 19 negatywnych, 80 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 120 komentarzy z ostatnich 7 dni: nastroje mieszane (21 pozytywnych, 19 negatywnych, 80 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "black",
-        "count": 26
+        "count": 25
       },
       {
         "word": "czarny",
@@ -75,12 +80,12 @@
         "count": 8
       },
       {
-        "word": "ciebie",
+        "word": "mnie",
         "count": 8
       },
       {
-        "word": "mnie",
-        "count": 8
+        "word": "ciebie",
+        "count": 7
       },
       {
         "word": "https",
@@ -101,6 +106,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75098917",
+      "author": "Nikt",
+      "postedAt": "2026-07-11 07:07",
+      "threadTitle": "Re: PGE Energetyka Kolejowa",
+      "url": "https://www.bankier.pl/forum/temat_pge-energetyka-kolejowa,75089495.html",
+      "body": "Tak od 5 lat?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75098915",
+      "author": "Nikt",
+      "postedAt": "2026-07-11 07:06",
+      "threadTitle": "Re: Polska giełda najwyżej w historii.",
+      "url": "https://www.bankier.pl/forum/temat_polska-gielda-najwyzej-w-historii,75096587.html",
+      "body": "Tak. Brawo. Świetna spółka.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75097475",
       "author": "XD",
@@ -1752,20 +1785,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75024367",
-      "author": "Transek",
-      "postedAt": "2026-07-04 09:51",
-      "threadTitle": "Re: Hmmm . . .",
-      "url": "https://www.bankier.pl/forum/temat_pge-kurs,74969775.html",
-      "body": "Dzięki tobie xd, Black pewnie ma niezłą bekę z ciebie",
-      "votes": {
-        "up": 3,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
