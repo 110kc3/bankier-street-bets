@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-07-12T03:57:12.309Z",
+  "updatedAt": "2026-07-12T08:31:45.100Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-12T03:57:12.309Z",
+    "fetchedAt": "2026-07-12T08:31:45.100Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.066,
-    "confidence": 0.72,
-    "commentCount": 184,
+    "score": -0.074,
+    "confidence": 0.73,
+    "commentCount": 187,
     "breakdown": {
       "positive": 37,
-      "negative": 59,
-      "neutral": 88
+      "negative": 60,
+      "neutral": 90
     },
     "trend": [
       {
@@ -58,18 +58,23 @@
         "date": "2026-07-11",
         "score": 0.322,
         "count": 1
+      },
+      {
+        "date": "2026-07-12",
+        "score": -0.29,
+        "count": 3
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 184 komentarzy z ostatnich 7 dni: nastroje mieszane (37 pozytywnych, 59 negatywnych, 88 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 187 komentarzy z ostatnich 7 dni: nastroje mieszane (37 pozytywnych, 60 negatywnych, 90 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
-        "count": 25
+        "count": 26
       },
       {
         "word": "srebro",
-        "count": 23
+        "count": 24
       },
       {
         "word": "ceny",
@@ -92,20 +97,62 @@
         "count": 8
       },
       {
+        "word": "ponizej",
+        "count": 7
+      },
+      {
+        "word": "kilka",
+        "count": 7
+      },
+      {
         "word": "pewnie",
-        "count": 7
-      },
-      {
-        "word": "wsparcie",
-        "count": 7
-      },
-      {
-        "word": "spadek",
         "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75105917",
+      "author": "jack",
+      "postedAt": "2026-07-12 10:28",
+      "threadTitle": "Re: Kierunek na południe. 130 to max",
+      "url": "https://www.bankier.pl/forum/temat_kierunek-na-poludnie-130-to-max,75068801.html",
+      "body": "az tak to sprzedaje w pn,ide na JSW",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75105895",
+      "author": "Magellan",
+      "postedAt": "2026-07-12 10:22",
+      "threadTitle": "Re: Beep trump",
+      "url": "https://www.bankier.pl/forum/temat_beep-trump,75094937.html",
+      "body": "może być jutro ciekawie...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75105649",
+      "author": "Gracz",
+      "postedAt": "2026-07-12 09:37",
+      "threadTitle": "Re: Beep trump",
+      "url": "https://www.bankier.pl/forum/temat_beep-trump,75094937.html",
+      "body": "Pomaranczowa malpa znowu ostrzelala Iran w nocy. Srebro 50$ (i w efekcie KGHM ponizej 300) w przyszlym tygodniu?Czy moze małpa znowu zacznie bredzić o pokoju kilka godzin przed otwarciem jutrzejszej sesji?https://wiadomosci.wp.pl/goraca-noc-na-bliskim-wschodzie-usa-znow-uderzyly-w-iran-7306521130445152a",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75101367",
       "author": "Magellan",
@@ -1192,7 +1239,7 @@
       "url": "https://www.bankier.pl/forum/temat_kierunek-na-poludnie-130-to-max,75068801.html",
       "body": "w obecnej sytuacji geopolitycznej",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 9
       },
       "sentimentScore": -0.583,
