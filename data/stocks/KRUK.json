@@ -3,11 +3,11 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-07-12T13:58:01.386Z",
+  "updatedAt": "2026-07-12T19:31:22.387Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-12T13:58:01.386Z",
+    "fetchedAt": "2026-07-12T19:31:22.387Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,7 +15,7 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.105,
+    "score": 0.108,
     "confidence": 0.74,
     "commentCount": 165,
     "breakdown": {
@@ -26,8 +26,8 @@
     "trend": [
       {
         "date": "2026-06-12",
-        "score": 0.194,
-        "count": 3
+        "score": 0,
+        "count": 2
       },
       {
         "date": "2026-06-14",
@@ -163,6 +163,11 @@
         "date": "2026-07-11",
         "score": -0.322,
         "count": 1
+      },
+      {
+        "date": "2026-07-12",
+        "score": 0.322,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
@@ -197,20 +202,34 @@
         "count": 8
       },
       {
-        "word": "wierzytelnosci",
-        "count": 7
-      },
-      {
         "word": "zobaczymy",
         "count": 7
       },
       {
         "word": "dobrze",
         "count": 7
+      },
+      {
+        "word": "zlota",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75108343",
+      "author": "Alfa",
+      "postedAt": "2026-07-12 17:32",
+      "threadTitle": "Re: rekomendacja",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
+      "body": "600 było by super ale bardziej prawdopodobne na jesieni 530 moim skromnym zdaniem.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75099267",
       "author": "Wrona",
@@ -219,7 +238,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
       "body": "Trolują i trzęsą lekkie ręce zbierając stopy tak jak wcześniej Orlenie , allegro a ja czekam jesieni i przy 600 zastanowię się czy sprzedam",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": -0.322,
@@ -2506,20 +2525,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74781089",
-      "author": "Nowy",
-      "postedAt": "2026-06-12 16:45",
-      "threadTitle": "Re: Do zgarnięcia upsite +20%",
-      "url": "https://www.bankier.pl/forum/temat_do-zgarniecia-upsite-20,74755373.html",
-      "body": "Jak Ci wyszło że portfele wierzytelności są dla nich o 50% droższe? Nie pytam sarkastycznie, jestem ciekaw. Wiem że zwiększają nakłady na portfele wierzytelności ale to nie musi oznaczać że kupują ta sama wartość długu drożej",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }
