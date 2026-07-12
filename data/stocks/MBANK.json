@@ -3,32 +3,27 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-07-12T08:31:56.930Z",
+  "updatedAt": "2026-07-12T13:58:12.102Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-12T08:31:56.930Z",
+    "fetchedAt": "2026-07-12T13:58:12.102Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 15
+    "threadsScanned": 14
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.23,
-    "confidence": 0.73,
-    "commentCount": 52,
+    "score": -0.253,
+    "confidence": 0.71,
+    "commentCount": 48,
     "breakdown": {
-      "positive": 13,
-      "negative": 18,
-      "neutral": 21
+      "positive": 11,
+      "negative": 17,
+      "neutral": 20
     },
     "trend": [
-      {
-        "date": "2026-04-13",
-        "score": 0.107,
-        "count": 3
-      },
       {
         "date": "2026-04-15",
         "score": 0.194,
@@ -148,15 +143,10 @@
         "date": "2026-07-11",
         "score": -0.762,
         "count": 1
-      },
-      {
-        "date": "2026-07-12",
-        "score": 0,
-        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 52 komentarzy z ostatnich 90 dni: nastroje negatywne (13 pozytywnych, 18 negatywnych, 21 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 48 komentarzy z ostatnich 90 dni: nastroje negatywne (11 pozytywnych, 17 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -179,10 +169,6 @@
         "count": 4
       },
       {
-        "word": "bank",
-        "count": 3
-      },
-      {
         "word": "sprawy",
         "count": 3
       },
@@ -197,24 +183,14 @@
       {
         "word": "ktos",
         "count": 3
+      },
+      {
+        "word": "wszystkie",
+        "count": 3
       }
     ]
   },
   "comments": [
-    {
-      "id": "75104715",
-      "author": "Maksiu",
-      "postedAt": "2026-07-12 07:17",
-      "threadTitle": "Re: KNF nałoźył 15 mln kary, ale chyba bardziej zaboli utrata zaufania",
-      "url": "https://www.bankier.pl/forum/temat_knf-nalozyl-15-mln-kary-ale-chyba-bardziej-zaboli-utrata-zaufania,74847035.html",
-      "body": "Energy S.A. to dla mnie kandydat na obserwację pod trend OZE. Mała kapitalizacja i zakupy akcji przez podmioty powiązane dodają smaczku. Nie rekomendacja.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
     {
       "id": "75100851",
       "author": "Magellan",
@@ -886,48 +862,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74137249",
-      "author": "ppp",
-      "postedAt": "2026-04-13 14:52",
-      "threadTitle": "Re: Niemcy mają problem",
-      "url": "https://www.bankier.pl/forum/temat_niemcy-maja-problem,74110393.html",
-      "body": "Deutsche Bank już -3% o jak mi przykro.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74137031",
-      "author": "max",
-      "postedAt": "2026-04-13 14:33",
-      "threadTitle": "Re: Kto kupuje tego balona...",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupuje-tego-balona,74135001.html",
-      "body": "Ci, którzy maj długie pozycje na rynku derywatów. Mając odpowiednie możliwości finansowe można to pompować do 2500. A że to chore i oderwane od fundamentów i zdrowego rozsądku? Nie takie numery na bananie robili.",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74135001",
-      "author": "xXx",
-      "postedAt": "2026-04-13 11:32",
-      "threadTitle": "Kto kupuje tego balona...",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupuje-tego-balona,74135001.html",
-      "body": "w tej cenie ???????",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
