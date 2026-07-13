@@ -3,11 +3,11 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-13T04:00:40.713Z",
+  "updatedAt": "2026-07-13T09:48:36.180Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-13T04:00:40.713Z",
+    "fetchedAt": "2026-07-13T09:48:36.180Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.024,
+    "score": -0.004,
     "confidence": 0.56,
-    "commentCount": 37,
+    "commentCount": 39,
     "breakdown": {
-      "positive": 7,
+      "positive": 8,
       "negative": 8,
-      "neutral": 22
+      "neutral": 23
     },
     "trend": [
       {
@@ -118,10 +118,15 @@
         "date": "2026-07-12",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-07-13",
+        "score": 0.161,
+        "count": 2
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 37 komentarzy z ostatnich 30 dni: nastroje mieszane (7 pozytywnych, 8 negatywnych, 22 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 39 komentarzy z ostatnich 30 dni: nastroje mieszane (8 pozytywnych, 8 negatywnych, 23 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dopiero",
@@ -166,6 +171,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75114189",
+      "author": "jacek303",
+      "postedAt": "2026-07-13 11:10",
+      "threadTitle": "Re: 145 to dopiero 0.1 ceny akcji mBank. tak tylko uświadamiam",
+      "url": "https://www.bankier.pl/forum/temat_145-to-dopiero-0-1-ceny-akcji-mbank-tak-tylko-uswiadamiam,74818671.html",
+      "body": "No tylko góra ! Sky is the limit !",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75112659",
+      "author": "inwestujemy",
+      "postedAt": "2026-07-13 09:49",
+      "threadTitle": "Re: Najnowsza rekomendacja",
+      "url": "https://www.bankier.pl/forum/temat_145-to-dopiero-0-1-ceny-akcji-mbank-tak-tylko-uswiadamiam,74818671.html",
+      "body": "Nie rwą się do kupna",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75106471",
       "author": "Ok",
