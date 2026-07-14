@@ -3,11 +3,11 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-07-14T08:28:37.208Z",
+  "updatedAt": "2026-07-14T14:14:18.951Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-14T08:28:37.208Z",
+    "fetchedAt": "2026-07-14T14:14:18.951Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.18,
-    "confidence": 0.76,
-    "commentCount": 93,
+    "score": 0.156,
+    "confidence": 0.75,
+    "commentCount": 96,
     "breakdown": {
       "positive": 43,
-      "negative": 20,
-      "neutral": 30
+      "negative": 21,
+      "neutral": 32
     },
     "trend": [
       {
@@ -213,10 +213,15 @@
         "date": "2026-07-09",
         "score": 0.583,
         "count": 1
+      },
+      {
+        "date": "2026-07-14",
+        "score": -0.107,
+        "count": 3
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 93 komentarzy z ostatnich 90 dni: nastroje pozytywne (43 pozytywnych, 20 negatywnych, 30 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 96 komentarzy z ostatnich 90 dni: nastroje pozytywne (43 pozytywnych, 21 negatywnych, 32 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidende",
@@ -239,6 +244,10 @@
         "count": 7
       },
       {
+        "word": "banki",
+        "count": 6
+      },
+      {
         "word": "roku",
         "count": 6
       },
@@ -253,14 +262,52 @@
       {
         "word": "wiecej",
         "count": 5
-      },
-      {
-        "word": "banki",
-        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75127883",
+      "author": "Tomek",
+      "postedAt": "2026-07-14 13:38",
+      "threadTitle": "Re: Jazda na 250 Pln",
+      "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
+      "body": "Ropa w góre banki w dół. Niema tu żadnej filozofi",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75126643",
+      "author": "Nimozja",
+      "postedAt": "2026-07-14 12:07",
+      "threadTitle": "Re: Jazda na 250 Pln",
+      "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
+      "body": "Tylko dlaczego?Stopy procentowe nie ruszone, czyżby wtajemniczeni już wiedzieli o wynikach za II kwartał,?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75125511",
+      "author": "darius19",
+      "postedAt": "2026-07-14 10:45",
+      "threadTitle": "Re: Jazda na 250 Pln",
+      "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
+      "body": "faktycznie jazda -3,6%",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75081343",
       "author": "transakcjusz",
@@ -270,7 +317,7 @@
       "body": "Drodzy Państwo! 239zł i jazda do góry :)",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -284,7 +331,7 @@
       "body": "Ja już zapiołem pasy. Czekamy na 8 lipca. Co Glapiński wymyśli",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -298,7 +345,7 @@
       "body": "Ciekawe kiedy ponownie dojedzie do 250zł. Bo że dojedzie to pewne, tylko pytanie kiedy? :) Przypuszczam że okolice sierpnia/września. A Wy co sądzicie?",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -340,7 +387,7 @@
       "body": "Przez to bedą problemy w sektorze bankowym...Pozdrawiam",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"

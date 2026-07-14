@@ -3,36 +3,31 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-07-14T08:27:39.472Z",
+  "updatedAt": "2026-07-14T14:13:23.133Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-14T08:27:39.472Z",
+    "fetchedAt": "2026-07-14T14:13:23.133Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 126
+    "threadsScanned": 111
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.001,
-    "confidence": 0.7,
+    "score": -0.02,
+    "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 37,
-      "negative": 54,
-      "neutral": 109
+      "positive": 38,
+      "negative": 55,
+      "neutral": 107
     },
     "trend": [
       {
-        "date": "2026-07-09",
-        "score": 0.117,
-        "count": 5
-      },
-      {
         "date": "2026-07-10",
-        "score": -0.031,
-        "count": 93
+        "score": 0,
+        "count": 71
       },
       {
         "date": "2026-07-11",
@@ -51,27 +46,31 @@
       },
       {
         "date": "2026-07-14",
-        "score": -0.004,
-        "count": 17
+        "score": -0.081,
+        "count": 44
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (37 pozytywnych, 54 negatywnych, 109 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (38 pozytywnych, 55 negatywnych, 107 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 30
+        "count": 31
       },
       {
         "word": "wtedy",
-        "count": 9
+        "count": 10
       },
       {
         "word": "nieruchomosci",
         "count": 8
       },
       {
-        "word": "dzis",
+        "word": "spadki",
+        "count": 7
+      },
+      {
+        "word": "czas",
         "count": 7
       },
       {
@@ -79,28 +78,402 @@
         "count": 7
       },
       {
-        "word": "wartosc",
+        "word": "trzeba",
         "count": 7
       },
       {
-        "word": "trzeba",
+        "word": "masz",
+        "count": 6
+      },
+      {
+        "word": "dzis",
         "count": 6
       },
       {
         "word": "tych",
         "count": 6
-      },
-      {
-        "word": "dobrze",
-        "count": 6
-      },
-      {
-        "word": "zamek",
-        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75129841",
+      "author": "Witold",
+      "postedAt": "2026-07-14 16:07",
+      "threadTitle": "Re: Polscy analitycy",
+      "url": "https://www.bankier.pl/forum/temat_polscy-analitycy,75126157.html",
+      "body": "Konsensus zazwyczaj jest tak ustawiany jaki jrst potrzebny, kurs spadl 50% ale anale nadal uwazaja ,ze jest zrogo, i nie ma co liczyc ze powiedza kiedy trend sie zmieni , nie wiem do jakiego poziomu lub ile jrszcze potrwaja spadki?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75129187",
+      "author": "tuur",
+      "postedAt": "2026-07-14 15:18",
+      "threadTitle": "Re: Dziwne te zaciągi",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-te-zaciagi,75126805.html",
+      "body": "Dlaczego dziwnie ? Grubas chce kupić większą ilośc bez podbijania ceny. Daje zlecenie i potem czeka aż się skumuleuje nastepny pakiet do kupienia.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75128269",
+      "author": "Misiu",
+      "postedAt": "2026-07-14 14:05",
+      "threadTitle": "Re: Dziwne te zaciągi",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-te-zaciagi,75126805.html",
+      "body": "Czuję spadki do 25 a może nawetdo 23.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75127765",
+      "author": "Giedlar",
+      "postedAt": "2026-07-14 13:28",
+      "threadTitle": "Re: Spadek do 27 ? A nawet niżej ?",
+      "url": "https://www.bankier.pl/forum/temat_spadek-do-27-a-nawet-nizej,75105641.html",
+      "body": "Wystarczy ze Stany poleca 2 proc to tutaj będzie -5 proc. Taki czas mamy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75127561",
+      "author": "Gruby_na_maxa",
+      "postedAt": "2026-07-14 13:12",
+      "threadTitle": "Re: Spadek do 27 ? A nawet niżej ?",
+      "url": "https://www.bankier.pl/forum/temat_spadek-do-27-a-nawet-nizej,75105641.html",
+      "body": "23,50 jest dla mnie ok, potem kurs puszczę",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75127467",
+      "author": "Tumbelele",
+      "postedAt": "2026-07-14 13:06",
+      "threadTitle": "Inflacja",
+      "url": "https://www.bankier.pl/forum/temat_inflacja,75127467.html",
+      "body": "Ropa wraca do wzrostów dolar po 3,81, niestety ale inflacja wróci do nas szybciej niż się spodziewlismy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75127447",
+      "author": "mabmab",
+      "postedAt": "2026-07-14 13:04",
+      "threadTitle": "Re: Dziwne te zaciągi",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-te-zaciagi,75126805.html",
+      "body": "GIS komunikat DINO wycofuje ze sprzedaży produkt Bakaliowy raj jego spożycie zagraża życiu komunikat z dnia 13.07.2026",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75127403",
+      "author": "Lejs",
+      "postedAt": "2026-07-14 13:01",
+      "threadTitle": "Re: Dziwne te zaciągi",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-te-zaciagi,75126805.html",
+      "body": "Czujesz to też .Przyznaj się.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75127317",
+      "author": "Misiu",
+      "postedAt": "2026-07-14 12:55",
+      "threadTitle": "Re: Dziwne te zaciągi",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-te-zaciagi,75126805.html",
+      "body": "Przy takim wolumenie? Nie kompromituj się chłopie. Nie rób sobie z gęby cholewy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75127233",
+      "author": "Lejs",
+      "postedAt": "2026-07-14 12:49",
+      "threadTitle": "Re: Dziwne te zaciągi",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-te-zaciagi,75126805.html",
+      "body": "Wyciągną na 28 PLN a jutro +5 ,/,",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75127183",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-07-14 12:45",
+      "threadTitle": "Re: Polscy analitycy",
+      "url": "https://www.bankier.pl/forum/temat_polscy-analitycy,75126157.html",
+      "body": "Po co czytasz te głupoty to wynajęci trole ,którzy piszą za co im zapłacą,kierować się swoim rozumem",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75127155",
+      "author": "Lejs",
+      "postedAt": "2026-07-14 12:44",
+      "threadTitle": "Re: Obkupiony ze średnią 27,50 , teraz czekamy",
+      "url": "https://www.bankier.pl/forum/temat_obkupiony-ze-srednia-27-50-teraz-czekamy,75126011.html",
+      "body": "Orgr będą wzrosty",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75127067",
+      "author": "bart",
+      "postedAt": "2026-07-14 12:38",
+      "threadTitle": "Re: Obkupiony ze średnią 27,50 , teraz czekamy",
+      "url": "https://www.bankier.pl/forum/temat_obkupiony-ze-srednia-27-50-teraz-czekamy,75126011.html",
+      "body": "będzie nawóz, 25",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75126805",
+      "author": "Radi",
+      "postedAt": "2026-07-14 12:17",
+      "threadTitle": "Dziwne te zaciągi",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-te-zaciagi,75126805.html",
+      "body": "ktos skupuje za pre baniek co jakis czas niemal codziennie , dziwnie to wyglada",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75126369",
+      "author": "mabmab",
+      "postedAt": "2026-07-14 11:48",
+      "threadTitle": "Re: 27.70.pln Zapora popytowa",
+      "url": "https://www.bankier.pl/forum/temat_27-70-pln-zapora-popytowa,75122963.html",
+      "body": "nie ma czegos takiego jak zapora popytowa ..... nie twórz nowych pojęć!!!!! masz albo wsparcie albo opór i między wsparciem a oporem toczy sie gra o przełamanie. Dobra wiadomość - 27 zł jako wsparcie nadal sie trzyma a opór na 28 zl dowodzi,że nie ma popytu poza gra szortów a to oznacza marazm dopóki nie pojawi sie impuls ze strony silnej \"osobowości\" i tu staiwma na Andy do ski z Akcjonariuszem oraz Gruchą",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75126241",
+      "author": "mabmab",
+      "postedAt": "2026-07-14 11:38",
+      "threadTitle": "Re: Polscy analitycy",
+      "url": "https://www.bankier.pl/forum/temat_polscy-analitycy,75126157.html",
+      "body": "zgloś do prokuratury do KNF możesz zgłosic na stronie.... tylko pamietaj aby nigdy przenigdy nie kierowac sie rekomendacjami ktore powstaja na konkretne zlecenie i kto płaci ten wymaga....",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75126157",
+      "author": "AnalitykZwsbWkoszali",
+      "postedAt": "2026-07-14 11:31",
+      "threadTitle": "Polscy analitycy",
+      "url": "https://www.bankier.pl/forum/temat_polscy-analitycy,75126157.html",
+      "body": "Kto uważa że analitycy ubierali ludzi w syf w grudniu, styczniu, lutym i marcu bo wiedzieli że zniszczą kurs konsensusem który był zawyżony? Czemu w ogóle konsensus był zawyżony trzy kwartały z rzędu? Czemu uwzględniono w nim inflację koszyka Dino a nie deflację zgodnie ze stanem rzeczywistym? Jak to możliwe że analitycy pozostając w kontakcie ze spółką nie zmienili w modelach tak ważnej zmiennej? Ten walor został mega zmanipulowany i to jeszcze na WIG20. To jest sprawa dla prokuratury i knfu.",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75126025",
+      "author": "Buba",
+      "postedAt": "2026-07-14 11:19",
+      "threadTitle": "Re: 27.70.pln Zapora popytowa",
+      "url": "https://www.bankier.pl/forum/temat_27-70-pln-zapora-popytowa,75122963.html",
+      "body": "Raczej na 23",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75126011",
+      "author": "Gustaw",
+      "postedAt": "2026-07-14 11:18",
+      "threadTitle": "Obkupiony ze średnią 27,50 , teraz czekamy",
+      "url": "https://www.bankier.pl/forum/temat_obkupiony-ze-srednia-27-50-teraz-czekamy,75126011.html",
+      "body": "Albo wóz albo przewóz",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75125957",
+      "author": "Buhahahaha",
+      "postedAt": "2026-07-14 11:15",
+      "threadTitle": "Re: Przejęcie LIDL",
+      "url": "https://www.bankier.pl/forum/temat_przejecie-lidl,75123391.html",
+      "body": "W naszym przechoojewie tez o tym mowia.u fryzjera",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75125761",
+      "author": "Misiu",
+      "postedAt": "2026-07-14 11:03",
+      "threadTitle": "Re: 27.70.pln Zapora popytowa",
+      "url": "https://www.bankier.pl/forum/temat_27-70-pln-zapora-popytowa,75122963.html",
+      "body": "Lejs, przystań już z tymi bredniami. Tu będzie 25 jak nic do wyników.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75125569",
+      "author": "mabmab",
+      "postedAt": "2026-07-14 10:50",
+      "threadTitle": "Re: Przejęcie LIDL/lejsik",
+      "url": "https://www.bankier.pl/forum/temat_przejecie-lidl,75123391.html",
+      "body": "cierpliwosci trzeba - ja zakladam kurs kupna i czekam spokojnie . Nie kupie o zalozonej cenie - są inne spółki . Tak od 10 sesji wiadomo było,że PEPCO i Allegro dadza solidnie zarobić. MODIVO 3x po 12% w ciagu 15 sesji . Dino dla mnie to wyłacznie test trafności",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75125563",
+      "author": "Lejs",
+      "postedAt": "2026-07-14 10:49",
+      "threadTitle": "Re: Spadek do 27 ? A nawet niżej ?",
+      "url": "https://www.bankier.pl/forum/temat_spadek-do-27-a-nawet-nizej,75105641.html",
+      "body": "26.50 jednak ? Gruby się uparł zrobić jeszcze jeden zjazd i pogłębić dołek .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75125515",
+      "author": "Eustachy",
+      "postedAt": "2026-07-14 10:46",
+      "threadTitle": "Re: Spadek do 27 ? A nawet niżej ?",
+      "url": "https://www.bankier.pl/forum/temat_spadek-do-27-a-nawet-nizej,75105641.html",
+      "body": "Nooo, dobre, dawaj, dawaj...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75125383",
+      "author": "Jak",
+      "postedAt": "2026-07-14 10:38",
+      "threadTitle": "Re: Spadek do 27 ? A nawet niżej ?",
+      "url": "https://www.bankier.pl/forum/temat_spadek-do-27-a-nawet-nizej,75105641.html",
+      "body": "Tu będzie 20 złotych za akcję jeszcze w tym roku. I wtedy można wchodzić ale mimo wszystko ostrożnie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75125221",
+      "author": "Giedlar",
+      "postedAt": "2026-07-14 10:27",
+      "threadTitle": "Re: Spadek do 27 ? A nawet niżej ?",
+      "url": "https://www.bankier.pl/forum/temat_spadek-do-27-a-nawet-nizej,75105641.html",
+      "body": "24.xx tutaj będzie do wyników. A później to zależy od wyników. Ewidentnie Dino straciło blask….",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75125127",
+      "author": "max",
+      "postedAt": "2026-07-14 10:22",
+      "threadTitle": "Bariero popytowa",
+      "url": "https://www.bankier.pl/forum/temat_bariero-popytowa,75125127.html",
+      "body": "gdzie jesteś?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75124607",
       "author": "Lejs",
@@ -151,7 +524,7 @@
       "url": "https://www.bankier.pl/forum/temat_gruby-zaczyna-skup,75116121.html",
       "body": "Wyludniają to ci się włosy na głowie nagonie hehe",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -194,7 +567,7 @@
       "body": "Wybierają aż miło . Dziś zamek 28 PLN jutro +5 '/.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -236,7 +609,7 @@
       "body": "Ptaszki na mieście śpiewają ze przejmujemy LIDL",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -277,7 +650,7 @@
       "url": "https://www.bankier.pl/forum/temat_27-70-pln-zapora-popytowa,75122963.html",
       "body": "Ty masz zaporę w mozgu",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0,
@@ -375,7 +748,7 @@
       "url": "https://www.bankier.pl/forum/temat_gruby-zaczyna-skup,75116121.html",
       "body": "Dla konsumentów jest i będzie dobre jedzonko z Dino a nie szajs z biedry.",
       "votes": {
-        "up": 4,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -389,7 +762,7 @@
       "url": "https://www.bankier.pl/forum/temat_gruby-zaczyna-skup,75116121.html",
       "body": "Dla akcjonariuszy napewno",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -445,7 +818,7 @@
       "url": "https://www.bankier.pl/forum/temat_gruby-zaczyna-skup,75116121.html",
       "body": "Dino wykończy biedronkę o to jest ta cała gra i brak dywidendy posieją tyle sklepów z własną energią za które nie będzie trzeba płacić czynszu potem wejdą do Słowacji i Czech to w przeciągu 10 lat wtedy zaczną płacić dywidende od zysków",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -474,7 +847,7 @@
       "body": "Ktoś mądry obliczył, że za kilkadziesiąt lat będzie nas Polaków połowa. Także nie jest to na pewno długoterminowa inwestycja.",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -628,7 +1001,7 @@
       "body": "Lubisz ryzyko. A co z wyludnianiem się Polski, a szczególnie obszarów wiejskich tam gdzie Dino ma najwięcej sklepów?",
       "votes": {
         "up": 1,
-        "down": 12
+        "down": 14
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1327,7 +1700,7 @@
       "url": "https://www.bankier.pl/forum/temat_spadek-do-27-a-nawet-nizej,75105641.html",
       "body": "Wyniki dopiero po święcie Matki Bożej Zielnej 20 sierpnia bodajże.Do tego czasu można jeszcze nieźle zgnoic ten walor.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -2510,76 +2883,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75087261",
-      "author": "tadeusz-a",
-      "postedAt": "2026-07-10 08:52",
-      "threadTitle": "Re: Dzis bedzie potężny nurek",
-      "url": "https://www.bankier.pl/forum/temat_dzis-bedzie-potezny-nurek,75087071.html",
-      "body": "> Arleta zarabia pieniądze w inny sposób bo tu nie dasz radymyślę, że to narzeczona bankiera69 - pasują do siebie idealnie",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75087251",
-      "author": "tadeusz-a",
-      "postedAt": "2026-07-10 08:50",
-      "threadTitle": "Re: Dzis bedzie potężny nurek",
-      "url": "https://www.bankier.pl/forum/temat_dzis-bedzie-potezny-nurek,75087071.html",
-      "body": "co robi ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75087219",
-      "author": "tadeusz-a",
-      "postedAt": "2026-07-10 08:48",
-      "threadTitle": "Re: Dzis bedzie potężny nurek",
-      "url": "https://www.bankier.pl/forum/temat_dzis-bedzie-potezny-nurek,75087071.html",
-      "body": "i umrze dziewicą, świętą dziewicą",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75087217",
-      "author": "Nocwilka",
-      "postedAt": "2026-07-10 08:47",
-      "threadTitle": "Re: Dzis bedzie potężny nurek",
-      "url": "https://www.bankier.pl/forum/temat_dzis-bedzie-potezny-nurek,75087071.html",
-      "body": "Arleta zarabia pieniądze w inny sposób bo tu nie dasz rady",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75087193",
-      "author": "tadeusz-a",
-      "postedAt": "2026-07-10 08:45",
-      "threadTitle": "Re: Dzis bedzie potężny nurek",
-      "url": "https://www.bankier.pl/forum/temat_dzis-bedzie-potezny-nurek,75087071.html",
-      "body": "to jeszcze dziewica, daj jej spokój",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75087175",
       "author": "Nocwilka",
       "postedAt": "2026-07-10 08:43",
@@ -2592,314 +2895,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75087161",
-      "author": "Aldona",
-      "postedAt": "2026-07-10 08:42",
-      "threadTitle": "Re: Dzis bedzie potężny nurek",
-      "url": "https://www.bankier.pl/forum/temat_dzis-bedzie-potezny-nurek,75087071.html",
-      "body": "Weź się prześpij jeszcze",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75087071",
-      "author": "Arleta",
-      "postedAt": "2026-07-10 08:32",
-      "threadTitle": "Dzis bedzie potężny nurek",
-      "url": "https://www.bankier.pl/forum/temat_dzis-bedzie-potezny-nurek,75087071.html",
-      "body": "Okolice 26",
-      "votes": {
-        "up": 2,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75087043",
-      "author": "bankier69",
-      "postedAt": "2026-07-10 08:30",
-      "threadTitle": "Re: brak perspektyw",
-      "url": "https://www.bankier.pl/forum/temat_brak-perspektyw,75086667.html",
-      "body": "kiedy dino płaciło dywidendę?inwestorki z koziej duupy",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75086903",
-      "author": "tadeusz-a",
-      "postedAt": "2026-07-10 08:18",
-      "threadTitle": "Re: brak perspektyw",
-      "url": "https://www.bankier.pl/forum/temat_brak-perspektyw,75086667.html",
-      "body": "ten \"bankier\" to cudak",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75086899",
-      "author": "Eustachy",
-      "postedAt": "2026-07-10 08:17",
-      "threadTitle": "Re: brak perspektyw",
-      "url": "https://www.bankier.pl/forum/temat_brak-perspektyw,75086667.html",
-      "body": "Nooo, po takich lekcjach dziś wystawiam pkc",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75086833",
-      "author": "bankier69",
-      "postedAt": "2026-07-10 08:12",
-      "threadTitle": "Re: brak perspektyw",
-      "url": "https://www.bankier.pl/forum/temat_brak-perspektyw,75086667.html",
-      "body": "poniżej 5 tys. mieszkańców",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75086817",
-      "author": "bankier69",
-      "postedAt": "2026-07-10 08:11",
-      "threadTitle": "Re: brak perspektyw",
-      "url": "https://www.bankier.pl/forum/temat_brak-perspektyw,75086667.html",
-      "body": "Dino Polska ma sklepy praktycznie w całej Polsce, ale jego strategia jest dość specyficzna: nie skupia się głównie na wielkich miastach, tylko na małych miastach, miasteczkach i wsiach. To właśnie tam Dino zbudowało swoją przewagę.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75086797",
-      "author": "bankier69",
-      "postedAt": "2026-07-10 08:08",
-      "threadTitle": "Re: brak perspektyw",
-      "url": "https://www.bankier.pl/forum/temat_brak-perspektyw,75086667.html",
-      "body": "chcesz merytoryki? proszęZmiana liczby ludności według wielkości miasta (orientacyjnie)Wielkość miejscowościTrend 2020-2025poniżej 5 tys. mieszkańców",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75086749",
-      "author": "Eustachy",
-      "postedAt": "2026-07-10 08:02",
-      "threadTitle": "Re: brak perspektyw",
-      "url": "https://www.bankier.pl/forum/temat_brak-perspektyw,75086667.html",
-      "body": "Bankier69 - dziękuję za bezinteresowny wpis, jakże merytoryczny",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75086737",
-      "author": "Seba",
-      "postedAt": "2026-07-10 08:02",
-      "threadTitle": "Re: brak perspektyw",
-      "url": "https://www.bankier.pl/forum/temat_brak-perspektyw,75086667.html",
-      "body": "A do tego jesienią zacznie się odpływ Ukraińców z Polski",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75086693",
-      "author": "tadeusz-a",
-      "postedAt": "2026-07-10 07:55",
-      "threadTitle": "Re: brak perspektyw",
-      "url": "https://www.bankier.pl/forum/temat_brak-perspektyw,75086667.html",
-      "body": "utop się na prowincji",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75086667",
-      "author": "bankier69",
-      "postedAt": "2026-07-10 07:52",
-      "threadTitle": "brak perspektyw",
-      "url": "https://www.bankier.pl/forum/temat_brak-perspektyw,75086667.html",
-      "body": "Nastawiali baraków na prowincji. Prowincja wymiera , wyludnia się, Młodzi uciekają do dużych miast,Równia pochyła.",
-      "votes": {
-        "up": 1,
-        "down": 10
-      },
-      "sentimentScore": -0.931,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75086639",
-      "author": "tadeusz-a",
-      "postedAt": "2026-07-10 07:47",
-      "threadTitle": "Re: Akcjonariusz",
-      "url": "https://www.bankier.pl/forum/temat_akcjonariusz,75086587.html",
-      "body": "dokup jeszcze z pół, powinno wystarczyć na komdony",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75086587",
-      "author": "OsrpoPachy",
-      "postedAt": "2026-07-10 07:38",
-      "threadTitle": "Akcjonariusz",
-      "url": "https://www.bankier.pl/forum/temat_akcjonariusz,75086587.html",
-      "body": "CześćMam poważne pytanie do \"fachowców\" z tego forum.Tylko proszę o poważne odpowiedź.Mam 5 akcji tej spółki kupiłem 45pln. Już sprzedawać?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75086353",
-      "author": "Eustachy",
-      "postedAt": "2026-07-10 06:44",
-      "threadTitle": "Re: Sama wartość budynków i gruntów Dino to 17 miliardów złotych.",
-      "url": "https://www.bankier.pl/forum/temat_sama-wartosc-budynkow-i-gruntow-dino-to-17-miliardow-zlotych,75086003.html",
-      "body": "To być może wartość księgowa, a tak naprawdę warte jest tyle, ile ktoś zechciałby za to zapłacić",
-      "votes": {
-        "up": 2,
-        "down": 8
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75086077",
-      "author": "Buba",
-      "postedAt": "2026-07-10 04:45",
-      "threadTitle": "Re: Sama wartość budynków i gruntów Dino to 17 miliardów złotych.",
-      "url": "https://www.bankier.pl/forum/temat_sama-wartosc-budynkow-i-gruntow-dino-to-17-miliardow-zlotych,75086003.html",
-      "body": "Wartosc akcji ok 54 zl",
-      "votes": {
-        "up": 9,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75086003",
-      "author": "Misiu",
-      "postedAt": "2026-07-10 03:39",
-      "threadTitle": "Sama wartość budynków i gruntów Dino to 17 miliardów złotych.",
-      "url": "https://www.bankier.pl/forum/temat_sama-wartosc-budynkow-i-gruntow-dino-to-17-miliardow-zlotych,75086003.html",
-      "body": "Więc wychodzi na akcję 17,33 zł. Ci którzy twierdzą, że Dino jest warte mniej są chorzy na głowę.",
-      "votes": {
-        "up": 9,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75085005",
-      "author": "Lejs",
-      "postedAt": "2026-07-09 22:11",
-      "threadTitle": "Re: Pion",
-      "url": "https://www.bankier.pl/forum/temat_pion,75084931.html",
-      "body": "Zejdzie do 27.24 ale zamek na +",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75084997",
-      "author": "Lejs",
-      "postedAt": "2026-07-09 22:10",
-      "threadTitle": "Re: Pion",
-      "url": "https://www.bankier.pl/forum/temat_pion,75084931.html",
-      "body": "Not yet",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75084931",
-      "author": "Lukze",
-      "postedAt": "2026-07-09 21:58",
-      "threadTitle": "Pion",
-      "url": "https://www.bankier.pl/forum/temat_pion,75084931.html",
-      "body": "Jutro rakieta!!!!",
-      "votes": {
-        "up": 8,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75084567",
-      "author": "Eustachy",
-      "postedAt": "2026-07-09 21:12",
-      "threadTitle": "Re: Jutro piątek piątunio piateczek a Dino nie lubi piątków",
-      "url": "https://www.bankier.pl/forum/temat_jutro-piatek-piatunio-piateczek-a-dino-nie-lubi-piatkow,75083671.html",
-      "body": "Część mam ustawioną nawet niżej, grubasy się bawią, może i ja się załapię",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75084013",
-      "author": "Lejs",
-      "postedAt": "2026-07-09 20:02",
-      "threadTitle": "Re: Jutro piątek piątunio piateczek a Dino nie lubi piątków",
-      "url": "https://www.bankier.pl/forum/temat_jutro-piatek-piatunio-piateczek-a-dino-nie-lubi-piatkow,75083671.html",
-      "body": "Eustachy ładuj jutro po 27.50 bo po niedzieli odjazd !",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
