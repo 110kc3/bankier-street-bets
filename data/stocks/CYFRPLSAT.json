@@ -3,31 +3,31 @@
   "companyName": "Cyfrowy Polsat SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CYFRPLSAT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cyfrowy-polsat-sa,6,21,10000000415.html",
-  "updatedAt": "2026-07-14T14:13:16.202Z",
+  "updatedAt": "2026-07-14T19:42:16.323Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-14T14:13:16.202Z",
+    "fetchedAt": "2026-07-14T19:42:16.323Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 53
+    "threadsScanned": 58
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.025,
-    "confidence": 0.71,
-    "commentCount": 151,
+    "score": -0.002,
+    "confidence": 0.7,
+    "commentCount": 160,
     "breakdown": {
       "positive": 32,
-      "negative": 34,
-      "neutral": 85
+      "negative": 36,
+      "neutral": 92
     },
     "trend": [
       {
         "date": "2026-07-07",
-        "score": -0.092,
-        "count": 7
+        "score": 0,
+        "count": 1
       },
       {
         "date": "2026-07-08",
@@ -61,23 +61,31 @@
       },
       {
         "date": "2026-07-14",
-        "score": 0.123,
-        "count": 17
+        "score": 0.012,
+        "count": 32
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 151 komentarzy z ostatnich 7 dni: nastroje mieszane (32 pozytywnych, 34 negatywnych, 85 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 160 komentarzy z ostatnich 7 dni: nastroje mieszane (32 pozytywnych, 36 negatywnych, 92 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "placz",
         "count": 7
       },
       {
-        "word": "biegunke",
+        "word": "nigdy",
+        "count": 6
+      },
+      {
+        "word": "znowu",
+        "count": 6
+      },
+      {
+        "word": "tluka",
         "count": 5
       },
       {
-        "word": "nigdy",
+        "word": "racje",
         "count": 5
       },
       {
@@ -89,10 +97,6 @@
         "count": 5
       },
       {
-        "word": "zdzislaw",
-        "count": 5
-      },
-      {
         "word": "trzeba",
         "count": 5
       },
@@ -101,16 +105,222 @@
         "count": 5
       },
       {
-        "word": "znowu",
-        "count": 5
-      },
-      {
-        "word": "tluka",
+        "word": "leszcz",
         "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75132199",
+      "author": "11845682",
+      "postedAt": "2026-07-14 19:35",
+      "threadTitle": "Re: Po Allegro czas na cyfrowy",
+      "url": "https://www.bankier.pl/forum/temat_po-allegro-czas-na-cyfrowy,75131931.html",
+      "body": "Sztucznie to dołują i prymitywnie.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75132181",
+      "author": "11845682",
+      "postedAt": "2026-07-14 19:34",
+      "threadTitle": "Re: Mamy to - dywidonda 200 mln",
+      "url": "https://www.bankier.pl/forum/temat_mamy-to-dywidonda-200-mln,75124795.html",
+      "body": "40 zł tam się widzimy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75131931",
+      "author": "TakiLos",
+      "postedAt": "2026-07-14 19:03",
+      "threadTitle": "Po Allegro czas na cyfrowy",
+      "url": "https://www.bankier.pl/forum/temat_po-allegro-czas-na-cyfrowy,75131931.html",
+      "body": "Szczęścia chodzą parami",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75131707",
+      "author": "Zdzisław90Lat",
+      "postedAt": "2026-07-14 18:34",
+      "threadTitle": "Nie trzeba przepraszać! Wystarczy przyjść na BAL UROSTOWYCH OSTATKÓW!",
+      "url": "https://www.bankier.pl/forum/temat_nie-trzeba-przepraszac-wystarczy-przyjsc-na-bal-urostowych-ostatkow,75131707.html",
+      "body": "Ja się na nikogo nie gniewam. Wszyscy sa mile widziani w Karpaczu!",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75131277",
+      "author": "kangoorrz",
+      "postedAt": "2026-07-14 17:53",
+      "threadTitle": "Re: tłuką cyfry",
+      "url": "https://www.bankier.pl/forum/temat_tluka-cyfry,75095185.html",
+      "body": "tłuką drobnych trzepią z papiera aż przykro",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75130795",
+      "author": "ObfitaBiegunka",
+      "postedAt": "2026-07-14 17:14",
+      "threadTitle": "Jutro środa spadków, leszcz znów bez płacenia podatków.",
+      "url": "https://www.bankier.pl/forum/temat_jutro-sroda-spadkow-leszcz-znow-bez-placenia-podatkow,75130795.html",
+      "body": "Jutro środa spadków, leszcz znów bez płacenia podatków.Tylko straty kumuluje i się tym rajcuje !",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75130765",
+      "author": "johnnyhigh",
+      "postedAt": "2026-07-14 17:12",
+      "threadTitle": "Re: Mamy to - dywidonda 200 mln",
+      "url": "https://www.bankier.pl/forum/temat_mamy-to-dywidonda-200-mln,75124795.html",
+      "body": "Tak właśnie... to nie jest dywidenda, która trafi do Nas, tylko taka, która zasili konto Grupy... prawdopodobnie, pod przyszłe delewarowanie, a tu każde 100 mln się przyda więc to raczej neutralna informacja i póki nie poznamy Strategii to niczego to nie zmienia. Czekamy dalej na konkrety z wynikami po drodze.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75130749",
+      "author": "BrudneSzorty",
+      "postedAt": "2026-07-14 17:11",
+      "threadTitle": "Re: Pękło wsparciu, będzie spadziu. Zasięg 11 zł. Obserwować.",
+      "url": "https://www.bankier.pl/forum/temat_peklo-wsparciu-bedzie-spadziu-zasieg-11-zl-obserwowac,74961485.html",
+      "body": "Wyrocznia ktora nigdy nie trafia....",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75130721",
+      "author": "BrudneSzorty",
+      "postedAt": "2026-07-14 17:09",
+      "threadTitle": "Re: Kontrakty terminowe",
+      "url": "https://www.bankier.pl/forum/temat_kontrakty-terminowe,75050519.html",
+      "body": "A tymczasem kontraktow jest juz w ciul... Ciekawe jak je rozlicza...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75130699",
+      "author": "BrudneSzorty",
+      "postedAt": "2026-07-14 17:07",
+      "threadTitle": "Re: kot . . .",
+      "url": "https://www.bankier.pl/forum/temat_shoppping-time,74963431.html",
+      "body": "Listonosz 2 razy dzwonil.Teraz poziom zakupowy polke wyzej. Czekamy na atak na 16,6 pln...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75130671",
+      "author": "BrudneSzorty",
+      "postedAt": "2026-07-14 17:05",
+      "threadTitle": "Trele atakuje",
+      "url": "https://www.bankier.pl/forum/temat_zyciowe-wiecie-co,75111719.html",
+      "body": "Znowu sa w amoku",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75130481",
+      "author": "UczeńJasio",
+      "postedAt": "2026-07-14 16:53",
+      "threadTitle": "Re: kiedy to ruszy",
+      "url": "https://www.bankier.pl/forum/temat_kiedy-to-ruszy,75126471.html",
+      "body": "Juz niedługo, za tydzień, za miesiąc, za rok wszystko zależy co dla kogo znaczy niedługo",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75130423",
+      "author": "Jadwiga",
+      "postedAt": "2026-07-14 16:49",
+      "threadTitle": "Re: \"I zasada Zdzisława90Lat\"będzie od nowego roku w podręcznikach szkol",
+      "url": "https://www.bankier.pl/forum/temat_i-zasada-zdzislawa90lat-bedzie-od-nowego-roku-w-podrecznikach-szkolnych,74983021.html",
+      "body": "No pewnie, znowu Zdzisio mial racje",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75130395",
+      "author": "Jadwiga",
+      "postedAt": "2026-07-14 16:47",
+      "threadTitle": "Re: wszystkie zasady Zdisława sa guzik warte",
+      "url": "https://www.bankier.pl/forum/temat_wszystkie-zasady-zdislawa-sa-guzik-warte,75127519.html",
+      "body": "Prosze teraz przeprosic pana Zdzislawa!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75130109",
+      "author": "ObfitaBiegunka",
+      "postedAt": "2026-07-14 16:28",
+      "threadTitle": "Chwilowy, wtorkowy urost zawsze zamienia się soczystą spadź",
+      "url": "https://www.bankier.pl/forum/temat_chwilowy-wtorkowy-urost-zawsze-zamienia-sie-soczysta-spadz,75130109.html",
+      "body": "Zapamiętajcie, milusińscy moi !",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75128933",
       "author": "BrudneSzorty",
@@ -120,7 +330,7 @@
       "body": "Bedzie grubo...",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -162,7 +372,7 @@
       "body": "Nie tluka tylko kupuja ile sie da nie windujac kursu...Fundy buduja dlugie pozycje...",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -175,7 +385,7 @@
       "url": "https://www.bankier.pl/forum/temat_ale-tu-kroja-leszczy-z-akcji,74965799.html",
       "body": "Akumulacja przed wrzesniowym startem rakiety...",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.87,
@@ -217,7 +427,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-jestescie-gotowi-na-soczysta-czerwien,75128029.html",
       "body": "Czy jesteście?",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -301,7 +511,7 @@
       "url": "https://www.bankier.pl/forum/temat_ale-tu-kroja-leszczy-z-akcji,74965799.html",
       "body": "Aktualne jak nigdy wcześniej, Short w SZOKU !!! Strata się powiększa, leszcz oddał i płacze SZOK !!",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -329,8 +539,8 @@
       "url": "https://www.bankier.pl/forum/temat_mamy-to-dywidonda-200-mln,75124795.html",
       "body": "https://www.wirtualnemedia.pl/polsat-ile-zarabia-z-reklam-praca-zysk-i-dywidenda-w-2026-roku-dla-cyfrowego-polsatu,7307282792159232a",
       "votes": {
-        "up": 2,
-        "down": 2
+        "up": 3,
+        "down": 3
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -1198,7 +1408,7 @@
       "body": "Proszę się przygotować , na solidne wzrosty . …",
       "votes": {
         "up": 1,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -2136,90 +2346,6 @@
       "body": "Czy gotowi ?",
       "votes": {
         "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75056827",
-      "author": "Franek_Chicago",
-      "postedAt": "2026-07-07 20:18",
-      "threadTitle": "Re: Niech was nie zwiedzie ten wątły, cherlawy urost !",
-      "url": "https://www.bankier.pl/forum/temat_niech-was-nie-zwiedzie-ten-watly-cherlawy-urost,75054837.html",
-      "body": "Chyba Zdzisław , ma zaawansowaną biegunkę od dziecka :)))",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75056527",
-      "author": "Zdzisław90Lat",
-      "postedAt": "2026-07-07 19:41",
-      "threadTitle": "Re: Niech was nie zwiedzie ten wątły, cherlawy urost !",
-      "url": "https://www.bankier.pl/forum/temat_niech-was-nie-zwiedzie-ten-watly-cherlawy-urost,75054837.html",
-      "body": "Krzysiu, a jaki oni tam dziś majo urost? Chyba dolny! Spadź dziś znowu. Przyjdźno do nas pod kuter bo my dzis z Jadzka sami",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75056275",
-      "author": "kangoorrz",
-      "postedAt": "2026-07-07 19:10",
-      "threadTitle": "cyfrowy",
-      "url": "https://www.bankier.pl/forum/temat_cyfrowy,75056275.html",
-      "body": "trend jest i nie ma co z nim walczyć",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75054837",
-      "author": "Biegunka",
-      "postedAt": "2026-07-07 17:00",
-      "threadTitle": "Niech was nie zwiedzie ten wątły, cherlawy urost !",
-      "url": "https://www.bankier.pl/forum/temat_niech-was-nie-zwiedzie-ten-watly-cherlawy-urost,75054837.html",
-      "body": "Każde 0,31 % urostu oznacza 3,31 % spadziu w kolejnym dniu.",
-      "votes": {
-        "up": 6,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75054431",
-      "author": "Franek_Chicago",
-      "postedAt": "2026-07-07 16:31",
-      "threadTitle": "Re: Trigon - Top Picks na lipiec. Jest CPS",
-      "url": "https://www.bankier.pl/forum/temat_trigon-top-picks-na-lipiec-jest-cps,75052161.html",
-      "body": "Ktoś tu , bawi się w kotka i w myszkę :)))",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75054287",
-      "author": "Franek_Chicago",
-      "postedAt": "2026-07-07 16:21",
-      "threadTitle": "Re: Trigon - Top Picks na lipiec. Jest CPS",
-      "url": "https://www.bankier.pl/forum/temat_trigon-top-picks-na-lipiec-jest-cps,75052161.html",
-      "body": "Teraz zlecenie , nagle zniknęło . …",
-      "votes": {
-        "up": 0,
         "down": 0
       },
       "sentimentScore": 0,

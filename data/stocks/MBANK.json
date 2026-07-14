@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-07-14T14:14:01.488Z",
+  "updatedAt": "2026-07-14T19:42:59.619Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-14T14:14:01.488Z",
+    "fetchedAt": "2026-07-14T19:42:59.619Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.253,
-    "confidence": 0.7,
-    "commentCount": 47,
+    "score": -0.263,
+    "confidence": 0.69,
+    "commentCount": 45,
     "breakdown": {
-      "positive": 11,
+      "positive": 9,
       "negative": 16,
       "neutral": 20
     },
     "trend": [
-      {
-        "date": "2026-04-15",
-        "score": 0.453,
-        "count": 2
-      },
       {
         "date": "2026-04-16",
         "score": 0.762,
@@ -146,7 +141,7 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 47 komentarzy z ostatnich 90 dni: nastroje negatywne (11 pozytywnych, 16 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 45 komentarzy z ostatnich 90 dni: nastroje negatywne (9 pozytywnych, 16 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -181,11 +176,11 @@
         "count": 3
       },
       {
-        "word": "ktos",
+        "word": "wszystkie",
         "count": 3
       },
       {
-        "word": "wszystkie",
+        "word": "banku",
         "count": 3
       }
     ]
@@ -819,34 +814,6 @@
         "down": 0
       },
       "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74164839",
-      "author": "Myslacy",
-      "postedAt": "2026-04-15 17:09",
-      "threadTitle": "Re: Kto kupuje tego balona...",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupuje-tego-balona,74135001.html",
-      "body": "Info złe a ktos to pompuje",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74164075",
-      "author": "Inwestor",
-      "postedAt": "2026-04-15 16:17",
-      "threadTitle": "Re: Kto kupuje tego balona...",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupuje-tego-balona,74135001.html",
-      "body": "Dzisiaj poszly zle infprmacje dla banków. Inflacja stoi pomimo wzrostu cen paliw a więc obniżki stóp staną się faktem",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
     }
   ]
