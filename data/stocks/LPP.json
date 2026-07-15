@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-07-15T03:33:47.459Z",
+  "updatedAt": "2026-07-15T08:36:08.037Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-15T03:33:47.459Z",
+    "fetchedAt": "2026-07-15T08:36:08.037Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.113,
-    "confidence": 0.57,
-    "commentCount": 35,
+    "score": 0.099,
+    "confidence": 0.55,
+    "commentCount": 32,
     "breakdown": {
-      "positive": 13,
+      "positive": 11,
       "negative": 4,
-      "neutral": 18
+      "neutral": 17
     },
     "trend": [
       {
         "date": "2026-07-08",
-        "score": 0.291,
-        "count": 4
+        "score": 0,
+        "count": 1
       },
       {
         "date": "2026-07-09",
@@ -51,12 +51,8 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 35 komentarzy z ostatnich 7 dni: nastroje pozytywne (13 pozytywnych, 4 negatywnych, 18 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 32 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 4 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
-      {
-        "word": "zysk",
-        "count": 4
-      },
       {
         "word": "dywidendy",
         "count": 4
@@ -66,19 +62,19 @@
         "count": 4
       },
       {
+        "word": "zysk",
+        "count": 3
+      },
+      {
         "word": "dlatego",
-        "count": 4
-      },
-      {
-        "word": "netto",
-        "count": 4
-      },
-      {
-        "word": "przedziale",
         "count": 3
       },
       {
         "word": "dywidenda",
+        "count": 3
+      },
+      {
+        "word": "netto",
         "count": 3
       },
       {
@@ -92,6 +88,10 @@
       {
         "word": "zysku",
         "count": 3
+      },
+      {
+        "word": "papier",
+        "count": 2
       }
     ]
   },
@@ -104,7 +104,7 @@
       "url": "https://www.bankier.pl/forum/temat_ranking,75121245.html",
       "body": "Czy widzicie, które miejsce w rankingu bankiera zajmuje LPP,zazwyczaj było w którejś tam dziesiątce, a tu nagle podium.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -543,48 +543,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75060953",
-      "author": "Antoni",
-      "postedAt": "2026-07-08 09:42",
-      "threadTitle": "Re: Lpp w 2026r zarobi 2.2 mld pln",
-      "url": "https://www.bankier.pl/forum/temat_lpp-w-2026r-zarobi-2-2-mld-pln,75059149.html",
-      "body": "Chyba wkradła Co się literówka (cyfrówka). LPP w tym roku zysk netto w przedziale 3,0 mld - 3,3 mld. Q1 - 475 mlnQ2 ~ 600 mlnQ3 ~ 900 mln - 1,1 mldQ4 ~ 800 mln - 900 mlnI nie są to jakieś bardzo optymistyczne przewidywania.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75059457",
-      "author": "Magellan",
-      "postedAt": "2026-07-08 08:03",
-      "threadTitle": "Re: Lpp w 2026r zarobi 2.2 mld pln",
-      "url": "https://www.bankier.pl/forum/temat_lpp-w-2026r-zarobi-2-2-mld-pln,75059149.html",
-      "body": "Dlatego dostała reko na 18 000Zbierają aż miło....",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75059149",
-      "author": "Krystian",
-      "postedAt": "2026-07-08 06:55",
-      "threadTitle": "Lpp w 2026r zarobi 2.2 mld pln",
-      "url": "https://www.bankier.pl/forum/temat_lpp-w-2026r-zarobi-2-2-mld-pln,75059149.html",
-      "body": "Spólka mega niedowartościowana.....",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }
