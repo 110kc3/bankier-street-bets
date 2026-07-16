@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-07-15T19:36:33.755Z",
+  "updatedAt": "2026-07-16T03:36:53.098Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-15T19:36:33.755Z",
+    "fetchedAt": "2026-07-16T03:36:53.098Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.09,
+    "score": 0.058,
     "confidence": 0.54,
-    "commentCount": 32,
+    "commentCount": 33,
     "breakdown": {
       "positive": 11,
-      "negative": 4,
+      "negative": 5,
       "neutral": 17
     },
     "trend": [
@@ -46,12 +46,12 @@
       },
       {
         "date": "2026-07-15",
-        "score": 0,
-        "count": 1
+        "score": -0.161,
+        "count": 2
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 32 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 4 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 33 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 5 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
@@ -90,12 +90,26 @@
         "count": 3
       },
       {
-        "word": "dopiero",
+        "word": "dobrze",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75146379",
+      "author": "Kurator",
+      "postedAt": "2026-07-15 23:16",
+      "threadTitle": "Re: I po spadkach 2",
+      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach-2,74939177.html",
+      "body": "Mówiłeś i miałeś rację. Dobrze to wygląda. Ja bym teraz oczekiwał infa o cząstkowych wynikach w 2Q.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75144585",
       "author": "Marek",
@@ -160,7 +174,7 @@
       "url": "https://www.bankier.pl/forum/temat_ropa-5-chyba-trzeba-sie-ewakuowac,75111255.html",
       "body": "a gdzie mamy uciekać ?",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
