@@ -3,11 +3,11 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-19T13:54:01.829Z",
+  "updatedAt": "2026-07-19T19:32:53.720Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-19T13:54:01.829Z",
+    "fetchedAt": "2026-07-19T19:32:53.720Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.006,
-    "confidence": 0.53,
-    "commentCount": 34,
+    "score": -0.014,
+    "confidence": 0.54,
+    "commentCount": 36,
     "breakdown": {
       "positive": 5,
-      "negative": 7,
-      "neutral": 22
+      "negative": 8,
+      "neutral": 23
     },
     "trend": [
       {
@@ -103,21 +103,26 @@
         "date": "2026-07-17",
         "score": 0,
         "count": 2
+      },
+      {
+        "date": "2026-07-19",
+        "score": -0.161,
+        "count": 2
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 34 komentarzy z ostatnich 30 dni: nastroje mieszane (5 pozytywnych, 7 negatywnych, 22 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 36 komentarzy z ostatnich 30 dni: nastroje mieszane (5 pozytywnych, 8 negatywnych, 23 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "sierpnia",
+        "count": 3
+      },
       {
         "word": "jakies",
         "count": 2
       },
       {
         "word": "dojdzie",
-        "count": 2
-      },
-      {
-        "word": "sierpnia",
         "count": 2
       },
       {
@@ -135,6 +140,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75179101",
+      "author": "mabmab",
+      "postedAt": "2026-07-19 20:23",
+      "threadTitle": "Re: A co to za ucieczka amerykancow",
+      "url": "https://www.bankier.pl/forum/temat_a-co-to-za-ucieczka-amerykancow,75166207.html",
+      "body": "DD jest 3 sierpnia podstawowa wiedza",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75177895",
+      "author": "Ok",
+      "postedAt": "2026-07-19 16:05",
+      "threadTitle": "Re: A co to za ucieczka amerykancow",
+      "url": "https://www.bankier.pl/forum/temat_a-co-to-za-ucieczka-amerykancow,75166207.html",
+      "body": "Amerykanie nie chcą dywidendy za tydzień",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75166207",
       "author": "mabmab",
