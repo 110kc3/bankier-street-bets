@@ -3,31 +3,31 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-07-20T09:34:27.977Z",
+  "updatedAt": "2026-07-20T14:33:53.296Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-20T09:34:27.977Z",
+    "fetchedAt": "2026-07-20T14:33:53.296Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 11
+    "threadsScanned": 10
   },
   "analysis": {
     "signal": "SELL",
     "score": -0.345,
-    "confidence": 0.69,
-    "commentCount": 40,
+    "confidence": 0.67,
+    "commentCount": 37,
     "breakdown": {
       "positive": 4,
-      "negative": 17,
-      "neutral": 19
+      "negative": 15,
+      "neutral": 18
     },
     "trend": [
       {
         "date": "2026-04-21",
-        "score": -0.352,
-        "count": 4
+        "score": -0.322,
+        "count": 1
       },
       {
         "date": "2026-04-22",
@@ -131,7 +131,7 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 40 komentarzy z ostatnich 90 dni: nastroje negatywne (4 pozytywnych, 17 negatywnych, 19 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 37 komentarzy z ostatnich 90 dni: nastroje negatywne (4 pozytywnych, 15 negatywnych, 18 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -692,48 +692,6 @@
         "down": 0
       },
       "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74220317",
-      "author": "tomasz",
-      "postedAt": "2026-04-21 15:20",
-      "threadTitle": "Re: Co jest?",
-      "url": "https://www.bankier.pl/forum/temat_co-jest,74035673.html",
-      "body": "jak tam koledzy i koleżanki trzymacie krótkie ?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74220179",
-      "author": "tomasz",
-      "postedAt": "2026-04-21 15:06",
-      "threadTitle": "Re: Balonik pęka!",
-      "url": "https://www.bankier.pl/forum/temat_balonik-peka,74219571.html",
-      "body": "nie idzie dzisiaj jak inne banki - zastanawiające",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74219571",
-      "author": "Max",
-      "postedAt": "2026-04-21 14:09",
-      "threadTitle": "Balonik pęka!",
-      "url": "https://www.bankier.pl/forum/temat_balonik-peka,74219571.html",
-      "body": "Wygląda na to, że w naszym mBaloniku pojawił się pęknięcia jak w prawej burcie Titanika swego czasu. Zaczyna się pikowanie dziobem w dół.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
     }
   ]
