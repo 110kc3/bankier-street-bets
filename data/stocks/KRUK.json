@@ -3,11 +3,11 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-07-20T04:04:03.337Z",
+  "updatedAt": "2026-07-20T09:34:18.441Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-20T04:04:03.337Z",
+    "fetchedAt": "2026-07-20T09:34:18.441Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,11 +15,11 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.104,
+    "score": 0.109,
     "confidence": 0.74,
-    "commentCount": 132,
+    "commentCount": 133,
     "breakdown": {
-      "positive": 43,
+      "positive": 44,
       "negative": 24,
       "neutral": 65
     },
@@ -163,10 +163,15 @@
         "date": "2026-07-19",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-07-20",
+        "score": 0.322,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 132 komentarzy z ostatnich 30 dni: nastroje pozytywne (43 pozytywnych, 24 negatywnych, 65 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 133 komentarzy z ostatnich 30 dni: nastroje pozytywne (44 pozytywnych, 24 negatywnych, 65 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruka",
@@ -179,6 +184,10 @@
       {
         "word": "przy",
         "count": 10
+      },
+      {
+        "word": "zysku",
+        "count": 7
       },
       {
         "word": "rynek",
@@ -197,20 +206,30 @@
         "count": 7
       },
       {
-        "word": "zysku",
+        "word": "roku",
         "count": 6
       },
       {
         "word": "kruku",
         "count": 6
-      },
-      {
-        "word": "zobaczymy",
-        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75180295",
+      "author": "Misiek",
+      "postedAt": "2026-07-20 07:30",
+      "threadTitle": "Re: Ciezko byx akcjonariuszem Kruka",
+      "url": "https://www.bankier.pl/forum/temat_ciezko-byx-akcjonariuszem-kruka,75126073.html",
+      "body": "Ja uważam, że w tym roku i tak dowiozą kolejny mld zysku...",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75176857",
       "author": "Alfa",
@@ -219,7 +238,7 @@
       "url": "https://www.bankier.pl/forum/temat_ciezko-byx-akcjonariuszem-kruka,75126073.html",
       "body": "Raczej kierunek 450, czas na Kółeczko będzie przy wybiciu 500 jesienią…",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
