@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-07-21T08:44:55.410Z",
+  "updatedAt": "2026-07-21T14:21:58.087Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-21T08:44:55.410Z",
+    "fetchedAt": "2026-07-21T14:21:58.087Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.347,
-    "confidence": 0.65,
-    "commentCount": 35,
+    "score": -0.352,
+    "confidence": 0.64,
+    "commentCount": 33,
     "breakdown": {
       "positive": 4,
       "negative": 14,
-      "neutral": 17
+      "neutral": 15
     },
     "trend": [
-      {
-        "date": "2026-04-22",
-        "score": 0,
-        "count": 2
-      },
       {
         "date": "2026-04-23",
         "score": 0.29,
@@ -126,11 +121,11 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 35 komentarzy z ostatnich 90 dni: nastroje negatywne (4 pozytywnych, 14 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 33 komentarzy z ostatnich 90 dni: nastroje negatywne (4 pozytywnych, 14 negatywnych, 15 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
-        "count": 6
+        "count": 5
       },
       {
         "word": "banku",
@@ -632,34 +627,6 @@
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74231947",
-      "author": "Myslacy",
-      "postedAt": "2026-04-22 13:43",
-      "threadTitle": "Re: orzeczenia TSUE",
-      "url": "https://www.bankier.pl/forum/temat_orzeczenia-tsue,74227057.html",
-      "body": "https://strefabiznesu.pl/sytuacja-kredytobiorcow-moze-sie-zmienic-23-kwietnia-tsue-wyda-kluczowy-wyrok/ar/c3p2-28929335Jutro wyrok TSUE",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74230215",
-      "author": "Jim",
-      "postedAt": "2026-04-22 11:42",
-      "threadTitle": "Re: orzeczenia TSUE",
-      "url": "https://www.bankier.pl/forum/temat_orzeczenia-tsue,74227057.html",
-      "body": "Przepraszam uniżenie.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
