@@ -3,31 +3,31 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-07-21T03:44:44.223Z",
+  "updatedAt": "2026-07-21T08:44:49.513Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-21T03:44:44.223Z",
+    "fetchedAt": "2026-07-21T08:44:49.513Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 21
+    "threadsScanned": 22
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.048,
+    "score": 0.057,
     "confidence": 0.72,
     "commentCount": 125,
     "breakdown": {
-      "positive": 31,
+      "positive": 32,
       "negative": 38,
-      "neutral": 56
+      "neutral": 55
     },
     "trend": [
       {
         "date": "2026-06-21",
-        "score": -0.161,
-        "count": 2
+        "score": -0.322,
+        "count": 1
       },
       {
         "date": "2026-06-22",
@@ -138,10 +138,15 @@
         "date": "2026-07-20",
         "score": 0,
         "count": 3
+      },
+      {
+        "date": "2026-07-21",
+        "score": 0.322,
+        "count": 1
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 125 komentarzy z ostatnich 30 dni: nastroje mieszane (31 pozytywnych, 38 negatywnych, 56 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 125 komentarzy z ostatnich 30 dni: nastroje mieszane (32 pozytywnych, 38 negatywnych, 55 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "przy",
@@ -187,6 +192,20 @@
   },
   "comments": [
     {
+      "id": "75193611",
+      "author": "gordon555",
+      "postedAt": "2026-07-21 10:23",
+      "threadTitle": "Rekordowy kwartał dla LPP allegro 2",
+      "url": "https://www.bankier.pl/forum/temat_rekordowy-kwartal-dla-lpp-allegro-2,75193611.html",
+      "body": "Tu będzie jazda jak na Allegro....",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "75188455",
       "author": "Kurator",
       "postedAt": "2026-07-20 18:49",
@@ -194,7 +213,7 @@
       "url": "https://www.bankier.pl/forum/temat_2q-650-mln-wpadnie,75185701.html",
       "body": "Przy Inditex i H&M również. Reko na poziomie 26k nie biorą się z kapelusza.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -1921,20 +1940,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74868159",
-      "author": "on",
-      "postedAt": "2026-06-21 08:14",
-      "threadTitle": "Re: Cena",
-      "url": "https://www.bankier.pl/forum/temat_cena,74801391.html",
-      "body": "Nie udało się przewidzieć kursuznowu błąd",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
