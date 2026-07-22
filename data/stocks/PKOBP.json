@@ -3,11 +3,11 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-22T08:45:12.404Z",
+  "updatedAt": "2026-07-22T14:23:04.270Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-22T08:45:12.404Z",
+    "fetchedAt": "2026-07-22T14:23:04.270Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.132,
-    "confidence": 0.65,
-    "commentCount": 45,
+    "score": 0.088,
+    "confidence": 0.64,
+    "commentCount": 47,
     "breakdown": {
       "positive": 12,
       "negative": 8,
-      "neutral": 25
+      "neutral": 27
     },
     "trend": [
       {
@@ -116,16 +116,20 @@
       },
       {
         "date": "2026-07-22",
-        "score": 0.479,
-        "count": 5
+        "score": 0.342,
+        "count": 7
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 45 komentarzy z ostatnich 30 dni: nastroje pozytywne (12 pozytywnych, 8 negatywnych, 25 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 47 komentarzy z ostatnich 30 dni: nastroje mieszane (12 pozytywnych, 8 negatywnych, 27 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "podatku",
         "count": 4
+      },
+      {
+        "word": "poniewaz",
+        "count": 3
       },
       {
         "word": "bankow",
@@ -140,6 +144,14 @@
         "count": 3
       },
       {
+        "word": "oznacza",
+        "count": 2
+      },
+      {
+        "word": "banki",
+        "count": 2
+      },
+      {
         "word": "dywidende",
         "count": 2
       },
@@ -150,22 +162,38 @@
       {
         "word": "zyskow",
         "count": 2
-      },
-      {
-        "word": "stawka",
-        "count": 2
-      },
-      {
-        "word": "powodu",
-        "count": 2
-      },
-      {
-        "word": "jaka",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75210411",
+      "author": "barka123",
+      "postedAt": "2026-07-22 15:21",
+      "threadTitle": "Re: news",
+      "url": "https://www.bankier.pl/forum/temat_news,75202475.html",
+      "body": "Masz bardzo trafne wypowiedzi. Ja czytam każdą, ponieważ mam akcje tylko PKO BP",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75209759",
+      "author": "mabmab",
+      "postedAt": "2026-07-22 14:39",
+      "threadTitle": "Re: news",
+      "url": "https://www.bankier.pl/forum/temat_news,75202475.html",
+      "body": "zobacz jak wysokie sa obroty na PKO BP a to oznacza albo wymianę między fudnuszami albo umiejętne wychodzenie przez bardzo dużego gracza . Co do PKO BP i PEO - to poradza sobie na pewno. Średnie banki tu bardzo ostrożnie ......no i jeszcze jak popatrzysz na wykresy rozkladu wolumenu na dziennym to 80% obrotu ostatnia godzina i fix....",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75204219",
       "author": "barka123",
@@ -189,7 +217,7 @@
       "body": "Dodatkowe wplywy dla calego sektora to max 6 mld zl. Teraz oblicz jaki udzial ma zysk PKO BP w calym sektorze i wyliczysz wplyw na zysk netto PKO",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 7
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -203,7 +231,7 @@
       "body": "Ponadto nie ma podatku od zyskow nadzwyczajnych bankow ale podniesiona zostala stawka CIT do 30%",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 9
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -217,7 +245,7 @@
       "body": "Zyski wszystkich banków beda nizsze z tego powodu. Jaka jest stawka podatku od nadmiarowych zysków? Pomysł co napisałeś.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 6
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"

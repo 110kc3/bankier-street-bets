@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-07-22T08:44:41.012Z",
+  "updatedAt": "2026-07-22T14:22:33.646Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-22T08:44:41.012Z",
+    "fetchedAt": "2026-07-22T14:22:33.646Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.3,
+    "score": -0.302,
     "confidence": 0.62,
-    "commentCount": 33,
+    "commentCount": 32,
     "breakdown": {
       "positive": 3,
       "negative": 14,
-      "neutral": 16
+      "neutral": 15
     },
     "trend": [
-      {
-        "date": "2026-04-23",
-        "score": 0,
-        "count": 1
-      },
       {
         "date": "2026-04-24",
         "score": 0.322,
@@ -126,12 +121,8 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 33 komentarzy z ostatnich 90 dni: nastroje negatywne (3 pozytywnych, 14 negatywnych, 16 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 32 komentarzy z ostatnich 90 dni: nastroje negatywne (3 pozytywnych, 14 negatywnych, 15 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
-      {
-        "word": "https",
-        "count": 4
-      },
       {
         "word": "kwartalu",
         "count": 4
@@ -154,6 +145,10 @@
       },
       {
         "word": "szorty",
+        "count": 3
+      },
+      {
+        "word": "https",
         "count": 3
       },
       {
@@ -618,20 +613,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74243965",
-      "author": "PP",
-      "postedAt": "2026-04-23 12:23",
-      "threadTitle": "Re: orzeczenia TSUE",
-      "url": "https://www.bankier.pl/forum/temat_orzeczenia-tsue,74227057.html",
-      "body": "Orzeczenie z 24.04.26https://www.bankier.pl/wiadomosc/Nie-dla-odsetek-od-oplat-i-prowizji-TSUE-wydal-kluczowy-wyrok-9121549.html",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
