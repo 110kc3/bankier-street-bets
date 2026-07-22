@@ -3,11 +3,11 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-07-22T03:44:58.749Z",
+  "updatedAt": "2026-07-22T08:43:22.798Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-22T03:44:58.749Z",
+    "fetchedAt": "2026-07-22T08:43:22.798Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.06,
+    "score": 0.045,
     "confidence": 0.72,
-    "commentCount": 119,
+    "commentCount": 106,
     "breakdown": {
-      "positive": 31,
-      "negative": 27,
-      "neutral": 61
+      "positive": 27,
+      "negative": 26,
+      "neutral": 53
     },
     "trend": [
       {
         "date": "2026-07-15",
-        "score": 0.037,
-        "count": 34
+        "score": -0.008,
+        "count": 19
       },
       {
         "date": "2026-07-16",
@@ -61,12 +61,12 @@
       },
       {
         "date": "2026-07-22",
-        "score": 0.583,
-        "count": 1
+        "score": -0.02,
+        "count": 3
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 119 komentarzy z ostatnich 7 dni: nastroje mieszane (31 pozytywnych, 27 negatywnych, 61 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 106 komentarzy z ostatnich 7 dni: nastroje mieszane (27 pozytywnych, 26 negatywnych, 53 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "allegro",
@@ -85,14 +85,6 @@
         "count": 5
       },
       {
-        "word": "skup",
-        "count": 5
-      },
-      {
-        "word": "przy",
-        "count": 5
-      },
-      {
         "word": "czekamy",
         "count": 4
       },
@@ -107,10 +99,46 @@
       {
         "word": "firma",
         "count": 4
+      },
+      {
+        "word": "wszystko",
+        "count": 4
+      },
+      {
+        "word": "oznacza",
+        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75204499",
+      "author": "luki",
+      "postedAt": "2026-07-22 09:03",
+      "threadTitle": "Re: Bedą spadki",
+      "url": "https://www.bankier.pl/forum/temat_beda-spadki,75204151.html",
+      "body": "Jedynie Twojego Kapitału",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75204151",
+      "author": "Aliegro",
+      "postedAt": "2026-07-22 08:36",
+      "threadTitle": "Bedą spadki",
+      "url": "https://www.bankier.pl/forum/temat_beda-spadki,75204151.html",
+      "body": "Ostatni moment.",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75203033",
       "author": "Mat",
@@ -119,8 +147,8 @@
       "url": "https://www.bankier.pl/forum/temat_moim-zdaniem-bedzie-wezwanie,75203033.html",
       "body": "Na akcję. Ten papier nie będzie leżał bezpańsko bez wiekszosciowego udzialowca bo za fajny kàsek to jest. Dlatego fundy już to kupują jak bułeczki bo wiedzą ze sprzedadzą na wezwaniu po 60zl",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 4,
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -147,7 +175,7 @@
       "url": "https://www.bankier.pl/forum/temat_wzrost-akcji-allegro,75183673.html",
       "body": "Kolego, czy musisz używać czyjegoś nicku - czy musisz działać jak allegro - jak ukradli pomysły sprzedawcom i później ich wywalili z serwisu, to ty teraz kradniesz nicki? jaki serwis - taki trolling",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -162,7 +190,7 @@
       "body": "Tak mówi prawdziwa Jola.",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -651,8 +679,8 @@
       "url": "https://www.bankier.pl/forum/temat_wzrost-akcji-allegro,75183673.html",
       "body": "Wzrost akcji Allegro to nie spekulacja, lecz odzwierciedlenie realnego biznesowego sukcesu, dominacji w Polsce, szybkiej ekspansji regionalnej i inwestycjach w przyszłość (AI). Przy dalszym wykonywaniu planów spółka ma szansę na dalsze dwucyfrowe wzrosty wyników i wsparcie kursu.",
       "votes": {
-        "up": 9,
-        "down": 4
+        "up": 10,
+        "down": 5
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
@@ -1566,216 +1594,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75137143",
-      "author": "Byq",
-      "postedAt": "2026-07-15 10:43",
-      "threadTitle": "Re: Będzie bolało",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-bolalo,75136493.html",
-      "body": "Żeby nie okazało się jak na Pepco gdzie większość wysypała się przy 25 licząc na korektę a kurs poszedł na 30",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75136967",
-      "author": "irra",
-      "postedAt": "2026-07-15 10:32",
-      "threadTitle": "Re: Będzie bolało",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-bolalo,75136493.html",
-      "body": "Jakaś mizerna ta korekta.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75136895",
-      "author": "Przemek",
-      "postedAt": "2026-07-15 10:27",
-      "threadTitle": "Re: Będzie bolało",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-bolalo,75136493.html",
-      "body": "tzn. że mi całe 40% zysku zabiorom ?!!!! Oj",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75136837",
-      "author": "Merc",
-      "postedAt": "2026-07-15 10:22",
-      "threadTitle": "Re: Będzie bolało",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-bolalo,75136493.html",
-      "body": "Jurek chłopie daj se spokój",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75136817",
-      "author": "Romek",
-      "postedAt": "2026-07-15 10:21",
-      "threadTitle": "Re: Będzie bolało",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-bolalo,75136493.html",
-      "body": "Będzie bolało tych co się nie zdecydowali :P",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75136493",
-      "author": "Jola",
-      "postedAt": "2026-07-15 10:04",
-      "threadTitle": "Będzie bolało",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-bolalo,75136493.html",
-      "body": "Za chwilę okaże się, że wczorajszy entuzjazm zaboli. oj zaboli. Wspomnicie moje słowa.",
-      "votes": {
-        "up": 2,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75135375",
-      "author": "Riki39",
-      "postedAt": "2026-07-15 09:10",
-      "threadTitle": "Re: Analitycy wyceniaja allegro nawet na 90 zl",
-      "url": "https://www.bankier.pl/forum/temat_analitycy-wyceniaja-allegro-nawet-na-90-zl,75134041.html",
-      "body": "Tak właśnie- jestem analitykiem kupiłem spory pakiecik to teraz mogę wydać wysoką rekomendację nagle spółka zrobiła mi się jakaś taka dobra haha",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75135331",
-      "author": "Przemek",
-      "postedAt": "2026-07-15 09:07",
-      "threadTitle": "Re: Powiedzcie jaki scenariusz przewidujecie ???",
-      "url": "https://www.bankier.pl/forum/temat_powiedzcie-jaki-scenariusz-przewidujecie,75133527.html",
-      "body": "ale co to jest 800 mln, skupią a potem dalszy spokojny wzrost. Tu jest baza, zaje...ste wyniki i perspektywa stworzenia giganta ;-)",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75135309",
-      "author": "Przemek",
-      "postedAt": "2026-07-15 09:06",
-      "threadTitle": "Re: Analitycy wyceniaja allegro nawet na 90 zl",
-      "url": "https://www.bankier.pl/forum/temat_analitycy-wyceniaja-allegro-nawet-na-90-zl,75134041.html",
-      "body": "Naganianie i mądrości z forum działają chyba tylko na deb.... nie daj się, ufaj sobie.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75135279",
-      "author": "Przemek",
-      "postedAt": "2026-07-15 09:05",
-      "threadTitle": "Re: Analitycy wyceniaja allegro nawet na 90 zl",
-      "url": "https://www.bankier.pl/forum/temat_analitycy-wyceniaja-allegro-nawet-na-90-zl,75134041.html",
-      "body": "też mi zjazd... taka cena to dzienna korekta dzisiaj, przewalą pare baniek i znowu jazda w górę. tutaj bez testu 55 PLN się nie obejdzie, 60, 70 czy 90 raczej w dłuższej perspektywie. Ważne że miliony akcji po 30% taniej niż dziś kupiły fundy, a one nie sprzedadzą ;-) nie po to tydzień temu kupiły.",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75135029",
-      "author": "mors",
-      "postedAt": "2026-07-15 08:46",
-      "threadTitle": "Re: Analitycy wyceniaja allegro nawet na 90 zl",
-      "url": "https://www.bankier.pl/forum/temat_analitycy-wyceniaja-allegro-nawet-na-90-zl,75134041.html",
-      "body": "Racja , trzeba zamknąć luke.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75134957",
-      "author": "EveryBodyLies",
-      "postedAt": "2026-07-15 08:40",
-      "threadTitle": "Re: Analitycy wyceniaja allegro nawet na 90 zl",
-      "url": "https://www.bankier.pl/forum/temat_analitycy-wyceniaja-allegro-nawet-na-90-zl,75134041.html",
-      "body": "Rekomendacje analityków mozna sobie wsadzić. 90 kiedy? za rok za10 lat? Powinni płacić kary za naganianie.",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75134835",
-      "author": "EveryBodyLies",
-      "postedAt": "2026-07-15 08:27",
-      "threadTitle": "Re: Powiedzcie jaki scenariusz przewidujecie ???",
-      "url": "https://www.bankier.pl/forum/temat_powiedzcie-jaki-scenariusz-przewidujecie,75133527.html",
-      "body": "Do 45 i kiszonka :) za tyle maksymalnie będą skupować, wiec kurs bedzie w trzymany.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75134691",
-      "author": "Dik",
-      "postedAt": "2026-07-15 08:07",
-      "threadTitle": "Re: Powiedzcie jaki scenariusz przewidujecie ???",
-      "url": "https://www.bankier.pl/forum/temat_powiedzcie-jaki-scenariusz-przewidujecie,75133527.html",
-      "body": "Trzymać i obserwować. Od dziś skup. Zobaczymy co będzie.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75134671",
-      "author": "Dak",
-      "postedAt": "2026-07-15 08:04",
-      "threadTitle": "Re: Analitycy wyceniaja allegro nawet na 90 zl",
-      "url": "https://www.bankier.pl/forum/temat_analitycy-wyceniaja-allegro-nawet-na-90-zl,75134041.html",
-      "body": "Wszystkim życzę 90 …ale wcześniej zjazd na 39,80… ja tam ustawiam worek i czekam …a teraz wybaczcie… odpoczywam i czekam :)",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
