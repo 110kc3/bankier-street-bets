@@ -3,11 +3,11 @@
   "companyName": "CD Projekt SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-sa,6,21,353.html",
-  "updatedAt": "2026-07-21T19:50:53.715Z",
+  "updatedAt": "2026-07-22T03:45:18.084Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-21T19:50:53.715Z",
+    "fetchedAt": "2026-07-22T03:45:18.084Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,24 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.156,
-    "confidence": 0.75,
+    "score": 0.158,
+    "confidence": 0.76,
     "commentCount": 200,
     "breakdown": {
-      "positive": 88,
-      "negative": 31,
+      "positive": 89,
+      "negative": 30,
       "neutral": 81
     },
     "trend": [
       {
         "date": "2026-07-16",
-        "score": 0.299,
-        "count": 16
+        "score": 0.317,
+        "count": 15
       },
       {
         "date": "2026-07-17",
-        "score": 0.226,
-        "count": 50
+        "score": 0.231,
+        "count": 49
       },
       {
         "date": "2026-07-18",
@@ -53,10 +53,15 @@
         "date": "2026-07-21",
         "score": 0.206,
         "count": 65
+      },
+      {
+        "date": "2026-07-22",
+        "score": 0.161,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje pozytywne (88 pozytywnych, 31 negatywnych, 81 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje pozytywne (89 pozytywnych, 30 negatywnych, 81 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
@@ -68,7 +73,7 @@
       },
       {
         "word": "maja",
-        "count": 13
+        "count": 12
       },
       {
         "word": "koniec",
@@ -83,24 +88,52 @@
         "count": 12
       },
       {
-        "word": "redzi",
-        "count": 9
-      },
-      {
-        "word": "wiedzmina",
-        "count": 9
-      },
-      {
-        "word": "cyberpunk",
+        "word": "premiery",
         "count": 9
       },
       {
         "word": "lata",
         "count": 9
+      },
+      {
+        "word": "redzi",
+        "count": 8
+      },
+      {
+        "word": "masz",
+        "count": 8
       }
     ]
   },
   "comments": [
+    {
+      "id": "75203325",
+      "author": "Zdzisław",
+      "postedAt": "2026-07-22 04:13",
+      "threadTitle": "Całom noc zbierałem puszki i butelki!!!!",
+      "url": "https://www.bankier.pl/forum/temat_calom-noc-zbieralem-puszki-i-butelki,75203325.html",
+      "body": "Mam 4 wielkie worki a jak sie ociepli to bendzie jeszcze lepiej bo ludzie bendom więcej pić i ja lubiem zbierać i lubię grać w Reduw i lubiem robote przy Toy Toyach i wcale nie muszem robić w zakładzie pogrzebowym!!!!!!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75203317",
+      "author": "Zdzisław",
+      "postedAt": "2026-07-22 03:35",
+      "threadTitle": "Re: Papier dzisiaj mocno urusł i pokazał klasę!!!",
+      "url": "https://www.bankier.pl/forum/temat_papier-dzisiaj-mocno-urusl-i-pokazal-klase,75200037.html",
+      "body": "Nie robiem w zakładzie pogrzebowym bo muj opiekun mi zabronił i jak bym tam robił to bym stracił zasiłek i ja cały czas robiem przy Toy Toyach i zbieram butelki i puszki!!!!!!!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75201957",
       "author": "Pkc",
@@ -109,8 +142,8 @@
       "url": "https://www.bankier.pl/forum/temat_czy-to-nie-koszmar-patrzec-na-kurs-cdp,75199819.html",
       "body": "Tak ? To pisz śmiało kiedy premiera W4 ?",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -137,7 +170,7 @@
       "url": "https://www.bankier.pl/forum/temat_spada-podczas-hossy-to-co-sie-bedzie-dzialo-w-bessie,75193441.html",
       "body": "Redzi poprostu się chłodzom po mocnym roku wzrostuw!",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -151,7 +184,7 @@
       "url": "https://www.bankier.pl/forum/temat_spada-podczas-hossy-to-co-sie-bedzie-dzialo-w-bessie,75193441.html",
       "body": "Nie będziesz miał już trollu pracy.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -179,7 +212,7 @@
       "url": "https://www.bankier.pl/forum/temat_the-witcher,75198403.html",
       "body": "Troll ma jedno zadanie, zniechęcenie, obrzydzenie i dziesięć groszy od posta.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -194,7 +227,7 @@
       "body": "Nie marnuj czasu tutaj , ja widzę fałszywe wybicie z konsolidacji rocznej , zrobiony wyższy szczyty i czekamy w konsolidacǰji \" bloku \" startowym pod gamescom ....",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
@@ -235,8 +268,8 @@
       "url": "https://www.bankier.pl/forum/temat_czy-to-nie-koszmar-patrzec-na-kurs-cdp,75199819.html",
       "body": "Jest ogłoszone kiedy co mają pokazać i kiedy nad czym pracują , co byś jeszcze chciał, cierpliwości.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -333,7 +366,7 @@
       "url": "https://www.bankier.pl/forum/temat_papier-dzisiaj-mocno-urusl-i-pokazal-klase,75200037.html",
       "body": "I możliwe że to koniec chłodzenia i pomachamy tym co na peronie!!!",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -347,7 +380,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-to-nie-koszmar-patrzec-na-kurs-cdp,75199819.html",
       "body": "A CDP ma nas w … Zero komunikacji",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -389,7 +422,7 @@
       "url": "https://www.bankier.pl/forum/temat_the-witcher,75198403.html",
       "body": "TFI Erste widziało...nabrało w czerwcu kosze akcji",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -431,7 +464,7 @@
       "url": "https://www.bankier.pl/forum/temat_the-witcher,75198403.html",
       "body": "Our Path to #gamescom 2026 starts with #OpeningNightLive. On August 25, catch a glimpse of The Witcher 3: Wild Hunt - Songs of the Past during the show!https://pbs.twimg.com/media/HNva9apWEAA4heV?format=jpg&name=medium",
       "votes": {
-        "up": 7,
+        "up": 9,
         "down": 2
       },
       "sentimentScore": 0,
@@ -515,7 +548,7 @@
       "url": "https://www.bankier.pl/forum/temat_games-in-i-prezentacja-w3-piesn-przeszlosci,75197131.html",
       "body": "https://pl.ign.com/pc/73207/wiedzmin-3-dziki-gon-piesni-przeszlosci-ujrzymy-juz-w-sierpniu-wielka-prezentacja-wielkiego-dodatku",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -655,7 +688,7 @@
       "url": "https://www.bankier.pl/forum/temat_cd-projekt-to-faktycznie-taki-fundusz-inwestycyjny-co-nie-ma,75176545.html",
       "body": "Omamy (halucynacje) i błędna interpretacja faktów (urojenia) to objawy, które wymagają konsultacji z lekarzem psychiatrą lub psychologiem. Omamy (halucynacje) – to fałszywe postrzeżenia zmysłowe. Chory słyszy, widzi, czuje lub smakuje rzeczy, które obiektywnie nie istnieją i nie są wywołane przez żaden zewnętrzny bodziec (np. słyszy głosy, mimo że w pokoju jest cicho)Urojenia (błędna interpretacja faktów) – to fałszywe przekonania i sądy, które nie mają pokrycia w rzeczywistości. Osoba jest tak silnie przekonana o swojej racji, że nie zmienia zdania nawet pod wpływem logicznych argumentów.Mogą one świadczyć o wielu różnych stanach – od skrajnego wyczerpania, przez zaburzenia lękowe, po poważniejsze problemy zdrowotne. W celu zdiagnozowania przyczyny i dobrania leczenia niezbędny jest bezpośredni kontakt z profesjonalistą",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0,
@@ -809,7 +842,7 @@
       "url": "https://www.bankier.pl/forum/temat_spada-podczas-hossy-to-co-sie-bedzie-dzialo-w-bessie,75193441.html",
       "body": "zwykła ladacznica",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": -0.322,
@@ -851,7 +884,7 @@
       "url": "https://www.bankier.pl/forum/temat_spada-podczas-hossy-to-co-sie-bedzie-dzialo-w-bessie,75193441.html",
       "body": "perła korony wig20 kolejny dzień spadkowy na rosnącym rynku, kolejny dzień najgorsza",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 2
       },
       "sentimentScore": -0.322,
@@ -1019,7 +1052,7 @@
       "url": "https://www.bankier.pl/forum/temat_cd-projekt-to-faktycznie-taki-fundusz-inwestycyjny-co-nie-ma,75176545.html",
       "body": "To właśnie napisałem, dlatego nie ma ciśnienia by wydawać nowe gry.CD Projekt to taki fundusz i ten fundusz, czasem produkuje jakąś grę, a w zasadzie to produkuje cały czas, a czasami jakąś grę wydaje, np The Wicher Monster Slayer w którym to dostrzegałeś potencjał miliardowych zysków .Zabawnie treści przekazujesz w tych swoich elaboratach.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -1048,7 +1081,7 @@
       "body": "> ciśnienia na wydawanie nowych gier.> > Ale ma plan wydawania kolejnych gier i gadżetów.> > A nagan, to taki super gość i on wie jak się zarabia na gadżetach.> > Aż mnie brzuch rozbolał że śmiechu.> > Tutaj AkcjoMariusz i Zdzisław próbują być zabawni, ale prawdziwą perłą tego forum jest nagan.Drogi zenku..Dostałeś sraczki? Może rycynus albo węgiel ci pomoże? xDMuszę cię zmartwić... otóż w sensie przenośnym i czysto biznesowym, CD Projekt można nazwać swoistym „funduszem inwestycyjnym” (a dokładniej funduszem typu Corporate Venture Capital lub wehikułem inwestycyjnym).xDChociaż oczywiście formalnie jest to spółka operacyjna CD Projekt RED, lecz jej model finansowy (zwłaszcza po premierze Wiedźmina 3) zaczął mocno przypominać zarządzanie portfelem aktywów o pewnym ryzyku.A oto argumenty, które uzasadniają taką metaforę:1. Monetyzacja „starych” inwestycji finansuje nowe projektyKlasyczny deweloper gier żyje od premiery do premiery. CD Projekt działa inaczej – posiada potężną bazę kapitałową wypracowaną na poprzednich sukcesach.Spółka regularnie generuje ogromne przepływy pieniężne (w 2025 roku zysk netto Grupy wyniósł aż 595 mln zł).Te nadwyżki finansowe nie są w całości przeznaczane na bieżące utrzymanie, lecz są akumulowane i traktowane jako kapitał inwestycyjny na przyszłe, wieloletnie przedsięwzięcia (np. projekty Polaris, Orion czy Hadid).2. Dywersyfikacja portfela projektów (Portfolio Management)Zamiast stawiać wszystko na jedną kartę, Zarząd Redów zarządza obecnie zdywersyfikowanym portfelem aktywów IP (Własności Intelektualnej). Rozdzielają ten kapitał na różne „koszyki”:Projekty własne (In-house): Finansowanie wewnętrznych studiów CD Projekt RED pracujących nad nową sagą wiedźmińską i kontynuacją Cyberpunka w USA i Polsce.Inwestycje zewnętrzne: Przejęcia i finansowanie studiów zewnętrznych, takich jak The Molasses Flood w USA czy inwestycje w ramy wydawnicze dla mniejszych twórców (w duchu funduszy Venture Capital).Projekty transmedialne: Lokowanie kapitału w anime, filmy i komiksy, gry planszowe i merch, które mają zwiększać wartość rynkową posiadanych marek.3. Asymetria ryzyka i stóp zwrotu (Venture Capital Profile)Profil ryzyka CD Projektu jest niemal identyczny jak w funduszach sporego ryzyka:Inwestują setki milionów złotych przez 4–5 lat w projekt, mając głównie jakościowe szanse sukcesu (jak to w branży art-rozrywkowej bywa).Liczą na asymetryczny zwrot z inwestycji (w ich przypadku słusznie) – jedna udana premiera (jak Wiedźmin 3 czy odbudowany wizerunkowo i sprzedażowo Cyberpunk 2077) potrafi spłacić wszystkie koszty z gigantyczną nawiązką i sfinansować działalność na kolejną dekadę.",
       "votes": {
         "up": 2,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1202,7 +1235,7 @@
       "body": "> Technologiczny przełom, gra z 2020 roku:Drogi johnieA teraz popisz się i uzasadnij (własnymi słowami), który punkt z mojego wpisu obala twój obrazek..?!XDDNawet jeżeli obrazek jest prawdziwy to nie zaprzecza ŻADNEMU z wymienionych osiągnięć!Czy zdajesz sobie sprawę, że każda gra (zwłaszcza tak wielka i skomplikowana jak Cyberpunk) do dzisiaj będzie ci dostarczać takie i podobne zrzuty ekranu..? Ten bzdet nie zaprzecza, że przez medialny szum, analitycy branżowi oraz recenzenci skupili się wyłącznie na błędach, całkowicie ignorując (często celowo, pod publiczkę) absolutnie pionierskie, przełomowe i rewolucyjne rozwiązania technologiczne, które studio CD Projekt wprowadziło do branży gier wideo.Pionierskie decyzje technologiczne podjęte przy tworzeniu Cyberpunka 2077 nie tylko przetrwały próbę czasu, ale wręcz ukształtowały obecne standardy produkcji gier AAA. Wiele z tych rozwiązań, zignorowanych w 2020 roku, jest dziś fundamentem dla największych hitów branży. Są to m.inn:JALI i automatyczna mimika AI – Absolutny Standard BranżyEwolucja Ray Tracingu i Path Tracingu jako nowy BenchmarkWpływ na immersyjne dialogi i brak klasycznych cutscenekNa koniec to paradoksalne, ale jedno z największych dokonań technologicznych Cyberpunka – potężny silnik REDengine 4 – przypieczętował los autorskich technologii. Bezkompromisowość w tworzeniu geometrii dźwięku, braku oszustw LOD i wertykalnego AI tłumu okazała się tak kosztowna i trudna w utrzymaniu, że CD Projekt RED (oraz dziesiatki innych studiów w branży) oficjalnie ogłosił porzucenie własnych silników na rzecz Unreal Engine 5. Przełomowe doświadczenia zdobyte przy Cyberpunku sprawiły jednak, że CDPR blisko współpracuje z firmą Epic Games, aby przenieść swoje nowatorskie patenty (np. generowanie wertykalnych miast, zaawansowane systemy dialogowe) bezpośrednio do architektury UE5, z czego skorzysta już cała branża.",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1230,7 +1263,7 @@
       "body": "> Moze jak Nagan bedzie kompletnie ignorowany to zniknie z forum ? Jego wpisy irytuja nawet umarlakow....Droga mamboPo piętnastu latach mam zniknąć (bez powodu) z tego forum? Przecież to chyba niewiele mniej niż ty funkcjonujesz na tym świecie?! xDDA merytoryczne wpisy dlatego irytują spekulantów, ponieważ ujawniają one rzeczywistą wartość aktywów, utrudniając sztuczne pompowanie lub zbijanie kursów twoimi oszukańczymi próbami wpływu na decyzje giełdowe. Rzetelna analiza i przedstawianie faktów - niszczy tzw. efekt stadny - uodparnia innych uczestników rynku na chęć szybkiego zysku i przeciwdziała manipulacjom niezbędnym do realizacji twoich krótkoterminowych celów spekulacyjnych.",
       "votes": {
         "up": 5,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.931,
       "sentimentLabel": "Negative"
@@ -1244,7 +1277,7 @@
       "body": "> technologiczny przełom za który prezes w mediach przepraszał a spółka 3 lata naprawiała... paszoł won Drogi hmDawno pisałem, że strategia pełnej skruchy i natychmiastowych przeprosin była błędem wizerunkowym, ponieważ wzięcie całej odpowiedzialności na siebie usankcjonowało narrację o katastrofie, zamiast pozwolić na rozmycie winy w czasie jak to zrobiły wszystkie rzekome hity... xDDInni wydawcy (Elden Ring, Baldurs Gate, RDR2 itd itp) poradzili sobie z trudniejszymi premierami przeciętnych i mało ambitnych gier - znacznie lepiej - stosując agresywne zaprzeczanie, minimalizowanie błędów oraz zupełnie odmienne mechanizmy psychologii tłumu i zarządzania kryzysowego.Dlaczego (moim zdaniem naiwna) kapitulacja oraz przeprosiny były błędem, który pogrążył stary zarząd?Hejt uzyskał efekt „potwierdzenia\": Oficjalne, głębokie przeprosiny i bicie się w piersi zostały odebrane przez rynek i graczy jako rzekomy dowód na to, że produkt był świadomym „oszustwem\", a nie tylko (jak u wszystkich) zwyczajnie i rutynowo niedopracowaną grą.Skupienie i nasilenie agresji: Publikując słynne \"żółte plansze\" czy filmowe oświadczenia, zarząd sam postawił się pod pręgierzem. Hejterzy i spekulanci dostali jasny cel do ataku, co uniemożliwiło obronę tytułu przez lojalnych fanów.Odebranie argumentów: Przeproszenie za \"wszystko\" zamknęło drogę do merytorycznej dyskusji o udanych elementach gry. To i medialny szum spowodowało, że analitycy branżowi oraz recenzenci skupili się na błędach, całkowicie ignorując (często celowo, pod publiczkę) absolutnie pionierskie i rewolucyjne rozwiązania technologiczne, które studio CD Projekt RED wprowadziło do branży gier wideo (co wykazałem w poście).. Cała narracja medialna została zredukowana do jednego słowa: „katastrofa\".xDDD",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.997,
       "sentimentLabel": "Negative"
@@ -1369,7 +1402,7 @@
       "url": "https://www.bankier.pl/forum/temat_technologiczny-przelom-w-cyberpunk-2077-ignorowany-na-premierze,75185259.html",
       "body": "Technologiczny przełom, gra z 2020 roku:https://i.imgur.com/qArtykF.jpeg",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 5
       },
       "sentimentScore": 0,
@@ -1383,7 +1416,7 @@
       "url": "https://www.bankier.pl/forum/temat_technologiczny-przelom-w-cyberpunk-2077-ignorowany-na-premierze,75185259.html",
       "body": "Moze jak Nagan bedzie kompletnie ignorowany to zniknie z forum ? Jego wpisy irytuja nawet umarlakow....",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 6
       },
       "sentimentScore": -0.583,
@@ -1397,7 +1430,7 @@
       "url": "https://www.bankier.pl/forum/temat_technologiczny-przelom-w-cyberpunk-2077-ignorowany-na-premierze,75185259.html",
       "body": "technologiczny przełom za który prezes w mediach przepraszał a spółka 3 lata naprawiała... paszoł won",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 7
       },
       "sentimentScore": 0,
@@ -1439,7 +1472,7 @@
       "url": "https://www.bankier.pl/forum/temat_technologiczny-przelom-w-cyberpunk-2077-ignorowany-na-premierze,75185259.html",
       "body": "Najważniejszy przełom: wydanie gry w takim stanie, że 300 pracowników przez 3 lata musiało ją naprawiać.",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 9
       },
       "sentimentScore": 0,
@@ -1454,7 +1487,7 @@
       "body": "Podczas premiery w 2020 roku fiksacja hejterów na punkcie błędów technicznych i spadków płynności sprawiła, że analitycy i recenzenci potraktowali Night City jak „zwykłą, ładną makietę”.xDCałkowicie zignorowano i „zapomniano” o głębokich walorach estetyczno-artystycznych, które do dzisiaj stanowią unikalny w skali całej popkultury manifest filozoficzny i wizualny.Co nadal zdumiewa - w analizach pominięto również przełomowe technologie oraz pionierskie rozwiązania reżyserskie w grze Cyberpunk 2077, które podczas premiery w grudniu 2020 roku celowo zostały całkowicie zignorowane przez analityków i media głównego nurtu z powodu klikalnego skupienia się na błędach technicznych (które mają wszyscy na premierę).1. Sztuczna inteligencja JALI (Rewolucja w mimice twarzy)Wielojęzyczność bez MoCapu: CD Projekt jako pierwszy na tak gigantyczną skalę zintegrował AI do automatycznej synchronizacji ust (lip-sync) oraz mięśni twarzy dla 10 różnych języków jednocześnie.Proceduralne emocje: System analizował częstotliwość i tonację głosu aktorów głosowych, generując naturalną ekspresję twarzy w locie, eliminując potrzebę ręcznej animacji tysięcy linii dialogowych.2. Pełna interaktywność i brak tradycyjnych cutscenek (Pierwszoosobowa reżyseria)Płynność bez cięć (Seamless Immersion): Całkowity brak oszustwa w postaci kinowych przerywników filmowych, gdzie gracz traci kontrolę nad postacią. Granica między rozgrywką a opowiadaniem historii została całkowicie zatarta.Żywy dialog: Podczas rozmowy gracz zachowuje pełną swobodę ruchu – może odejść, nalać sobie drinka, usiąść lub wyciągnąć broń, a świat wokół nie ulega „zamrożeniu” w gadające głowy.Dynamiczna reżyseria AI: Postacie niezależne (NPC) reagują na zachowanie gracza w czasie rzeczywistym. Jeśli podejdziesz za blisko, przerwiesz im lub spojrzysz na konkretny przedmiot, gra płynnie modyfikuje ich gestykulację i linie dialogowe.3. Brak technologicznego „oszustwa” (Zasada WYSIWYG)Jednolita jakość modeli (Single-Mesh Consistency): W przeciwieństwie do gier takich jak Red Dead Redemption 2 czy Baldur's Gate 3, silnik Cyberpunka nie podmienia modeli postaci na wersje „high-poly” o wyższej reolucji tuż przed zbliżeniem kamery. Modele w walce lub w intymnym dialogu są dokładnie tym samym, NAPRAWDĘ ultra-szczegółowym obiektem.Naturalne oświetlenie scen: Brak oszustwa „niewidzialnych, studyjnych lamp” doświetlających twarze w dialogach (częsty trik w branży). Postacie są oświetlane wyłącznie przez fizyczne źródła światła istniejące w danej lokacji (np. neon, latarka, słońce).4. Przełomowa pionowa architektura (Verticality) i ekstremalny streaming danychBrak ekranów ładowania: Silnik RedEngine dokonał potężnego wyczynu inżynieryjnego, bezszwowo ładując gigantyczne, wielopoziomowe megabloki i wieżowce w czasie rzeczywistym.Trójwymiarowy Level Design: Zamiast klasycznej, płaskiej mapy, gra jednocześnie przetwarzała podziemia, kilkupiętrowe bazary, sieć autostrad na estakadach oraz wnętrza budynków umieszczone setki metrów nad ziemią.5. Zaawansowana akustyka 3D i translacja w locieGeometria audio: Dźwięk w grze rozchodzi się w sposób fizycznie poprawny – odbija się od ścian, rezonuje w ciasnych zaułkach i ulega stłumieniu za grubymi przeszkodami betonowymi całkowicie dynamicznie.Wszczep tłumacza: Pionierskie podejście do immersji językowej. Gracz słyszy obce gangi (np. Voodoo Boys) mówiące w ich natywnym języku, a interfejs V (HUD) tłumaczy ich słowa na ekranie w czasie rzeczywistym, symulując działanie cybernetycznego implantu.6. Zaawansowana fizyka trzech typów uzbrojeniaPower (Rykoszetowanie): Silnik w ułamku sekundy obliczał kąty odbicia pocisków od geometrii otoczenia, pozwalając na eliminowanie wrogów za osłonami, co dodatkowo wspierał wszczep wizualizujący trajektorię lotu kuli.Smart (Namierzanie mikro-odrzutowe): Pociski fizycznie omijały przeszkody architektoniczne i zakręcały w powietrzu, precyzyjnie dążąc do mikroskopijnych punktów na ciele ruchomego celu.7. Bezkompromisowa integracja Ray Tracingu na premieręMiasto jako pułapka na światło: Night City zostało zaprojektowane geometrycznie i artystycznie (kałuże, neony, chromowane karoserie) specjalnie pod technologię śledzenia promieni.Dynamiczne Globalne Oświetlenie: Gra zrezygnowała z powszechnych w 2020 roku statycznie „wypalanych” map światła, generując całe oświetlenie gigantycznego miasta w czasie rzeczywistym, co wyprzedzało ówczesne możliwości większości domowych komputerów.",
       "votes": {
         "up": 8,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": 0.995,
       "sentimentLabel": "Positive"
@@ -2636,20 +2669,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75158551",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-07-17 00:18",
-      "threadTitle": "Re: Fani zaczęli domagać się od Redów wydania DLC dla Cyberpunka❗️",
-      "url": "https://www.bankier.pl/forum/temat_fani-zaczeli-domagac-sie-od-redow-wydania-dlc-dla-cyberpunka-d,75156141.html",
-      "body": "Może też nie publikowane ujencia z Chocago w końcu pokarzom!!!",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75158543",
       "author": "AkcjoMariusz",
       "postedAt": "2026-07-17 00:16",
@@ -2675,34 +2694,6 @@
         "down": 1
       },
       "sentimentScore": 0.964,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75158417",
-      "author": "nagan",
-      "postedAt": "2026-07-16 23:43",
-      "threadTitle": "Fani zaczęli domagać się od Redów wydania DLC dla Cyberpunka❗️",
-      "url": "https://www.bankier.pl/forum/temat_fani-zaczeli-domagac-sie-od-redow-wydania-dlc-dla-cyberpunka-d,75156141.html",
-      "body": "> Często pojawia się argument, że zespół CDPR działa już nad nowymi tytułami na UE5 więc nie ma wolnych mocy aby pracować na starym silniku ale przecież dodatek do wiedzmina jest robiony przez Fools Theory. Nad ostatnimi patchami do Cyberpunka pracowało zewnętrzne studio Virttous więc kto wie....@graczOczekiwania fanów na kolejne DLC do gry Cyberpunk 2077 są ogromne, jednak rzeczywistość produkcyjna brutalnie je weryfikuje i mówi NIE. Chciałbym aby istniały jakieś teoretycznie realne szanse na powstanie nowego, oficjalnego dodatku Cyberpunka od CD Projektu - jednak sądzę, że w obecnej sytuacji - wynoszą one zero. :(Głównym powodem jest całkowite porzucenie autorskiego silnika REDengine na rzecz Unreal Engine 5. Wprawdzie gimnastyka intelektualna pozwala myśleć (patrząc czysto hipotetycznie), że istnieją pewne „teoretyczne\" scenariusze, które mogłyby przynieść nowy DLC. Oto jak wyglądają te ewentualności:1. Przekazanie projektu zewnętrznemu studiu (Outsourcing)Jak by to działało: CDPR mogłoby zlecić stworzenie mniejszego DLC zewnętrznemu deweloperowi.Jest jednak problem technologiczny: REDengine to niezwykle skomplikowane i \"kapryśne\" narzędzie autorskie. Przeszkolenie zewnętrznego studia do pracy na tym silniku zajęłoby tyle czasu i środków, że byłoby to całkowicie nieopłacalne a dostępne zespoły pracowników znających RedEngine nie istnieją.2. Oficjalne narzędzia moderskie (REDmod) jako ratunekJak by to działało: Skoro Redzi nie mają wolnych mocy, całą pracę przejmują gracze. Studio mogłoby wydać jeszcze bardziej zaawansowane narzędzia deweloperskie dla społeczności.Stan faktyczny: Lecz to już się dzieje w sferze teorii i praktyki. Moderzy są w stanie tworzyć własne misje, linie dialogowe, a nawet nowe lokacje. Ale przecież nie o to chodzi..3. Portowanie Night City na Unreal Engine 5Jak by to działało: Teoretycznie CDPR mogłoby odtworzyć mapę Night City w Unreal Engine 5 i tam stworzyć nowe DLC, które działałoby jako samodzielny dodatek (spin-off).Problem technologiczny: Przeniesienie tak ogromnej i złożonej gry na nowy silnik wymagałoby gigantycznych nakładów pracy, porównywalnych z robieniem gry od nowa. Zespół pracujący nad sequelem (Project Orion) z pewnością buduje to w UE5, ale te zasoby zostaną wykorzystane dopiero w pełnoprawnej kontynuacji.Podsumowując: CDR podjął twardą biznesową i technologiczną decyzję: RedEngine odchodzi do lamusa z powodu swojej technologicznej zasobożerności i trudności w utrzymaniu. A każda godzina pracy programisty poświęcona na stary silnik to godzina opóźnienia dla nowego Wiedźmina 4 czy Cyberpunka 2 na UE5.No ale być może (jak to już bywało) o czymś nie wiem..??xD",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75158219",
-      "author": "Gracz",
-      "postedAt": "2026-07-16 22:58",
-      "threadTitle": "Re: Fani zaczęli domagać się od Redów wydania DLC dla Cyberpunka❗️;D",
-      "url": "https://www.bankier.pl/forum/temat_fani-zaczeli-domagac-sie-od-redow-wydania-dlc-dla-cyberpunka-d,75156141.html",
-      "body": "Często pojawia się argument, że zespół CDPR działa już nad nowymi tytułami na UE5 więc nie ma wolnych mocy aby pracować na starym silniku ale przecież dodatek do wiedzmina jest robiony przez Fools Theory. Nad ostatnimi patchami do Cyberpunka pracowało zewnętrzne studio Virttous więc kto wie....",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     },
     {
@@ -2818,34 +2809,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75156277",
-      "author": "nagan",
-      "postedAt": "2026-07-16 18:33",
-      "threadTitle": "Fani zaczęli domagać się od Redów wydania DLC dla Cyberpunka❗️;D",
-      "url": "https://www.bankier.pl/forum/temat_fani-zaczeli-domagac-sie-od-redow-wydania-dlc-dla-cyberpunka-d,75156141.html",
-      "body": "Następna ciekawostka, która potencjalnie podbudowuje markę Cyberpunk..W związku z odrodzeniem cyberpunkowego hype - pojawiło się ogłoszenie o dodatkowym nakładzie oficjalnego artbooka do anime „Cyberpunk: Edgerunners”. Jest on dostępny na platformie Netflix i jest już w sprzedaży! Sprzedaż odbywa się wyłącznie stacjonarnie - w wymienionych w ogłoszeniu sklepach partnerskich..Warto zauważyć, że tego typu działania marketingowe odbywają się bez zaangażowania organizacyjnego czy finansowego CD Projektu.. A przecież zyski z tego (zwłaszcza reklamowe) jakieś są..",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75156141",
-      "author": "nagan",
-      "postedAt": "2026-07-16 18:13",
-      "threadTitle": "Fani zaczęli domagać się od Redów wydania DLC dla Cyberpunka❗️;D",
-      "url": "https://www.bankier.pl/forum/temat_fani-zaczeli-domagac-sie-od-redow-wydania-dlc-dla-cyberpunka-d,75156141.html",
-      "body": "Fani zaczęli domagać się od CD Projektu wydania DLC dla Cyberpunka❗️;DZachodzi przedziwna sytuacja...Powrót graczy do gry Cyberpunk 2077 (przez liczne współprace) sprawił, że fani zaczęli domagać się od CD Projektu zmiany zdania i wydania większej liczby dodatków DLC — podobnych do tych, jakie pojawiają się w przypadku Wiedźmina 3. Ciekawe jaka będzie reakcja studia? I czy będzie..? xDWłaśnie 14-tego rozpoczęła się następna kolaboracja z Apex.. i zainteresowanie Cyberpunkiem ponownie wzrosło..Na dodatek Cyberpunk, który zazwyczaj po akcji promocyjnej spadał ze sprzedażowego podium - nawet poniżej setki - teraz kręci się w bestsellerowym TOP50 i bywa, że pomimo pełnej ceny (niestety rzadko) ociera się nawet o pierwszą dziesiątkę..!Jest to też pewnie „zasługa\" mniejszej aktywności graczy na platformach ze względu na sezon wakacyjny.?Co jednak nie umniejsza potencjału tej marki Redów!",
-      "votes": {
-        "up": 12,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75154579",
       "author": "Pikolo",
       "postedAt": "2026-07-16 16:06",
@@ -2899,6 +2862,48 @@
         "down": 0
       },
       "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75150443",
+      "author": "pawel11a",
+      "postedAt": "2026-07-16 11:36",
+      "threadTitle": "Re: Nie zamknę shorta nie poddam się, zaraz zjad!",
+      "url": "https://www.bankier.pl/forum/temat_nie-zamkne-shorta-nie-poddam-sie-zaraz-zjad,75150253.html",
+      "body": "Kto Ci każe teraz zamykać Shorta, poczekaj do Gamescoma na ogłoszenie daty premiery W3 DLC, W4 i czegos jeszcze... Wtedy będzie lepszy moment na zamknięcie...",
+      "votes": {
+        "up": 11,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75150351",
+      "author": "Mocarz",
+      "postedAt": "2026-07-16 11:31",
+      "threadTitle": "Re: Nie zamknę shorta nie poddam się, zaraz zjad!",
+      "url": "https://www.bankier.pl/forum/temat_nie-zamkne-shorta-nie-poddam-sie-zaraz-zjad,75150253.html",
+      "body": "Ojojoj piecze oczko shorcików",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75150253",
+      "author": "SHORT",
+      "postedAt": "2026-07-16 11:25",
+      "threadTitle": "Nie zamknę shorta nie poddam się, zaraz zjad!",
+      "url": "https://www.bankier.pl/forum/temat_nie-zamkne-shorta-nie-poddam-sie-zaraz-zjad,75150253.html",
+      "body": "Zaraz zgodnie z planem zjazd, szykujcie kakao",
+      "votes": {
+        "up": 5,
+        "down": 7
+      },
+      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     }
   ]

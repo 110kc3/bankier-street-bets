@@ -3,11 +3,11 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-07-21T19:50:35.743Z",
+  "updatedAt": "2026-07-22T03:44:58.749Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-21T19:50:35.743Z",
+    "fetchedAt": "2026-07-22T03:44:58.749Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.048,
+    "score": 0.06,
     "confidence": 0.72,
-    "commentCount": 122,
+    "commentCount": 119,
     "breakdown": {
-      "positive": 30,
-      "negative": 29,
-      "neutral": 63
+      "positive": 31,
+      "negative": 27,
+      "neutral": 61
     },
     "trend": [
       {
-        "date": "2026-07-14",
-        "score": -0.161,
-        "count": 2
-      },
-      {
         "date": "2026-07-15",
-        "score": 0.026,
-        "count": 36
+        "score": 0.037,
+        "count": 34
       },
       {
         "date": "2026-07-16",
@@ -63,10 +58,15 @@
         "date": "2026-07-21",
         "score": 0.007,
         "count": 22
+      },
+      {
+        "date": "2026-07-22",
+        "score": 0.583,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 122 komentarzy z ostatnich 7 dni: nastroje mieszane (30 pozytywnych, 29 negatywnych, 63 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 119 komentarzy z ostatnich 7 dni: nastroje mieszane (31 pozytywnych, 27 negatywnych, 61 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "allegro",
@@ -79,6 +79,10 @@
       {
         "word": "skupu",
         "count": 6
+      },
+      {
+        "word": "papier",
+        "count": 5
       },
       {
         "word": "skup",
@@ -103,14 +107,24 @@
       {
         "word": "firma",
         "count": 4
-      },
-      {
-        "word": "wszystko",
-        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75203033",
+      "author": "Mat",
+      "postedAt": "2026-07-22 00:12",
+      "threadTitle": "Moim zdaniem będzie wezwanie",
+      "url": "https://www.bankier.pl/forum/temat_moim-zdaniem-bedzie-wezwanie,75203033.html",
+      "body": "Na akcję. Ten papier nie będzie leżał bezpańsko bez wiekszosciowego udzialowca bo za fajny kàsek to jest. Dlatego fundy już to kupują jak bułeczki bo wiedzą ze sprzedadzą na wezwaniu po 60zl",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75201373",
       "author": "Adi",
@@ -175,7 +189,7 @@
       "url": "https://www.bankier.pl/forum/temat_wzrost-akcji-allegro,75183673.html",
       "body": "Czyli pakować do wora i cierpliwie czekać kurs obrany a ze będą cofki to normalne czekamy na info za 3 kwartał może być rekordowy zysk",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -189,7 +203,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-ze-skupem,75199879.html",
       "body": "Czekamy na komunikat o podwyższeniu ceny skupu do 60 zł i lecimy dalej",
       "votes": {
-        "up": 4,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -203,7 +217,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-ze-skupem,75199879.html",
       "body": "... kiedy akcje droższe niż firma ustaliła zapłacić?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -637,7 +651,7 @@
       "url": "https://www.bankier.pl/forum/temat_wzrost-akcji-allegro,75183673.html",
       "body": "Wzrost akcji Allegro to nie spekulacja, lecz odzwierciedlenie realnego biznesowego sukcesu, dominacji w Polsce, szybkiej ekspansji regionalnej i inwestycjach w przyszłość (AI). Przy dalszym wykonywaniu planów spółka ma szansę na dalsze dwucyfrowe wzrosty wyników i wsparcie kursu.",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 4
       },
       "sentimentScore": 0.87,
@@ -1762,62 +1776,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75134041",
-      "author": "Nastek",
-      "postedAt": "2026-07-15 01:10",
-      "threadTitle": "Analitycy wyceniaja allegro nawet na 90 zl",
-      "url": "https://www.bankier.pl/forum/temat_analitycy-wyceniaja-allegro-nawet-na-90-zl,75134041.html",
-      "body": "Także jest dobrze trzymac akcje",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75133973",
-      "author": "Dak",
-      "postedAt": "2026-07-15 00:05",
-      "threadTitle": "Re: Tylko spadki.",
-      "url": "https://www.bankier.pl/forum/temat_tylko-spadki,75123479.html",
-      "body": "Wakacje w Tajlandii …:)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75133569",
-      "author": "Zawodowiec",
-      "postedAt": "2026-07-14 22:39",
-      "threadTitle": "Re: Tylko spadki.",
-      "url": "https://www.bankier.pl/forum/temat_tylko-spadki,75123479.html",
-      "body": "A co to jest BlackRock ? To jakaś kapela rockowa ?",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75133527",
-      "author": "Nastek",
-      "postedAt": "2026-07-14 22:31",
-      "threadTitle": "Powiedzcie jaki scenariusz przewidujecie ???",
-      "url": "https://www.bankier.pl/forum/temat_powiedzcie-jaki-scenariusz-przewidujecie,75133527.html",
-      "body": "Będzie radość czy pampers",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
