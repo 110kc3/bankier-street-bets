@@ -3,11 +3,11 @@
   "companyName": "JSW SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=JSW",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_jsw-sa,6,21,10000000176.html",
-  "updatedAt": "2026-07-22T14:22:11.198Z",
+  "updatedAt": "2026-07-22T19:43:15.912Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-22T14:22:11.198Z",
+    "fetchedAt": "2026-07-22T19:43:15.912Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,99 +15,459 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.024,
+    "score": -0.031,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 45,
-      "negative": 48,
-      "neutral": 107
+      "positive": 24,
+      "negative": 51,
+      "neutral": 125
     },
     "trend": [
       {
+        "date": "2026-07-15",
+        "score": -0.322,
+        "count": 5
+      },
+      {
+        "date": "2026-07-16",
+        "score": -0.322,
+        "count": 2
+      },
+      {
         "date": "2026-07-17",
-        "score": -0.005,
-        "count": 12
+        "score": -0.307,
+        "count": 4
       },
       {
         "date": "2026-07-18",
-        "score": -0.046,
-        "count": 7
+        "score": -0.191,
+        "count": 4
       },
       {
         "date": "2026-07-19",
         "score": 0,
-        "count": 8
+        "count": 3
       },
       {
         "date": "2026-07-20",
-        "score": -0.12,
-        "count": 20
+        "score": -0.048,
+        "count": 25
       },
       {
         "date": "2026-07-21",
-        "score": -0.083,
-        "count": 33
+        "score": -0.105,
+        "count": 30
       },
       {
         "date": "2026-07-22",
-        "score": 0.07,
-        "count": 120
+        "score": -0.013,
+        "count": 127
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (45 pozytywnych, 48 negatywnych, 107 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (24 pozytywnych, 51 negatywnych, 125 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "chwile",
-        "count": 12
+        "word": "wegla",
+        "count": 14
       },
       {
         "word": "roku",
-        "count": 8
+        "count": 12
       },
       {
-        "word": "kupuja",
-        "count": 7
-      },
-      {
-        "word": "coraz",
-        "count": 7
-      },
-      {
-        "word": "fundusze",
-        "count": 6
-      },
-      {
-        "word": "wegla",
-        "count": 6
+        "word": "koksowego",
+        "count": 11
       },
       {
         "word": "wiecej",
+        "count": 8
+      },
+      {
+        "word": "wyniki",
+        "count": 8
+      },
+      {
+        "word": "rowniez",
+        "count": 8
+      },
+      {
+        "word": "dzieki",
         "count": 6
       },
       {
-        "word": "super",
+        "word": "tych",
         "count": 6
       },
       {
-        "word": "lata",
+        "word": "dobre",
         "count": 6
       },
       {
-        "word": "gore",
-        "count": 5
+        "word": "kopaln",
+        "count": 6
       }
     ]
   },
   "comments": [
     {
-      "id": "75211277",
+      "id": "75214233",
+      "author": "Roman",
+      "postedAt": "2026-07-22 21:41",
+      "threadTitle": "Re: Misza trollu nagonie.",
+      "url": "https://www.bankier.pl/forum/temat_misza-trollu-nagonie,75213977.html",
+      "body": "do wyborów rok kiszonka",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75214231",
+      "author": "Jok",
+      "postedAt": "2026-07-22 21:41",
+      "threadTitle": "Re: Widzę, że na tym forum w końcu zapanował ład i porządek.",
+      "url": "https://www.bankier.pl/forum/temat_widze-ze-na-tym-forum-w-koncu-zapanowal-lad-i-porzadek,75208933.html",
+      "body": "Złodziej krzyczy łapać złodzieja? No tylko parobas szulerski tak potrafi! Hehehehehe.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75214227",
+      "author": "kasa",
+      "postedAt": "2026-07-22 21:40",
+      "threadTitle": "Re: dlaczego koksowy tanieje?",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-koksowy-tanieje,75213361.html",
+      "body": "Tyle tylko, że w tym roku to wyglądało chyba trochę inaczej… nie było takiego typowego, klasycznego dołka monsunowego w typowych m-cach, a widoczna była ucieczka do płynności (ropa, złoto, USD) natychmiast po mocnej eskalacji na Bliskim Wschodzie. Dwa takie mocne impulsy były. Tak mi to z wykresów wychodzi, ale zastrzegam sobie prawo do błędu.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75214193",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 21:36",
+      "threadTitle": "Re: ❤️ SUROWCE STRATEGICZNE I KRYTYCZNE DLA POLSKI I UE ❤️",
+      "url": "https://www.bankier.pl/forum/temat_surowce-strategiczne-i-krytyczne-dla-polski-i-ue,75214191.html",
+      "body": "Surowce strategiczne dla polskiej gospodarki dzielą się na dwie podgrupy:Surowce strategiczne o podstawowym znaczeniu dla prawidłowego funkcjonowania gospodarki i zaspokojenia potrzeb bytowych społeczeństwa - surowce których trwała podaż musi być zapewniona, zarówno takie, których krajowa baza zasobowa jest duża i które dzięki jej wykorzystaniu są podstawą działania przemysłu, jak i ważne surowce deficytowe.Surowce strategiczne o podstawowym znaczeniu dla bezpieczeństwa narodowego i innowacyjnych technologii - surowce, które nie są w sposób wystarczający (min. 90%) pozyskiwane ze źródeł krajowych lub których możliwości trwałego pozyskania z tych źródeł są ograniczone lub zagrożone, oraz inne surowce niepozyskiwane w kraju (deficytowe) niezbędne dla obronności kraju i bezpieczeństwa narodowego oraz rozwoju innowacyjnych technologii.Surowce krytyczne dla polskiej gospodarki - takie surowce strategiczne, których możliwości pozyskania zarówno ze źródeł pierwotnych, jak i wtórnych, są obarczone albo dużym ryzykiem, albo istnieją bardzo duże trudności ich pozyskania, a możliwości ich substytucji są niewielkie. Są to w szczególności surowce znajdujące się na liście surowców krytycznych dla Unii Europejskiej, ale także takie surowce, które mimo występowania w dużej ilości są niemożliwe do pozyskania np. z powodu uwarunkowań planistycznych, protestów społecznych itp.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75214191",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 21:35",
+      "threadTitle": "❤️ SUROWCE STRATEGICZNE I KRYTYCZNE DLA POLSKI I UE ❤️",
+      "url": "https://www.bankier.pl/forum/temat_surowce-strategiczne-i-krytyczne-dla-polski-i-ue,75214191.html",
+      "body": "❤️ SUROWCE STRATEGICZNE I KRYTYCZNE DLA POLSKI I UE ❤️Węgiel koksujący i miedź to dwa podstawowe polskie surowce krytyczne potrzebne zarówno krajowej gospodarce, jak też europejskiej - podkreśla Główny Geolog Kraju. Rolą państwa jest ich wskazywanie oraz zainteresowanie nimi inwestorów, którzy poniosą koszty ich bliższego rozpoznania - dodaje Galos.WĘGIEL KOKSOWY JEST JEDNAK POTRZEBNYŚWIAT BEZ WĘGLA KOKSOWEGO - TO ŚWIAT BEZ STALI.A TUTAJ STAL BĘDZIE POTRZEBNA ❤️ SUROWCE STRATEGICZNE I KRYTYCZNE DLA POLSKI I UE ❤️W RAMACH OPRACOWANIA POLITYKI SUROWCOWEJ PAŃSTWA OKREŚLONO LISTĘ SUROWCÓW STRATEGICZNYCH I KRYTYCZNYCH DLA POLSKIEJ I UNIJNEJ GOSPODARKI.Surowce strategiczne dla polskiej gospodarki dzielą się na dwie podgrupy:Surowce strategiczne o podstawowym znaczeniu dla prawidłowego funkcjonowania gospodarki i zaspokojenia potrzeb bytowych społeczeństwa - surowce których trwała podaż musi być zapewniona, zarówno takie, których krajowa baza zasobowa jest duża i które dzięki jej wykorzystaniu są podstawą działania przemysłu, jak i ważne surowce deficytowe.Surowce strategiczne o podstawowym znaczeniu dla bezpieczeństwa narodowego i innowacyjnych technologii - surowce, które nie są w sposób wystarczający (min. 90%) pozyskiwane ze źródeł krajowych lub których możliwości trwałego pozyskania z tych źródeł są ograniczone lub zagrożone, oraz inne surowce niepozyskiwane w kraju (deficytowe) niezbędne dla obronności kraju i bezpieczeństwa narodowego oraz rozwoju innowacyjnych technologii.Surowce krytyczne dla polskiej gospodarki - takie surowce strategiczne, których możliwości pozyskania zarówno ze źródeł pierwotnych, jak i wtórnych, są obarczone albo dużym ryzykiem, albo istnieją bardzo duże trudności ich pozyskania, a możliwości ich substytucji są niewielkie. Są to w szczególności surowce znajdujące się na liście surowców krytycznych dla Unii Europejskiej, ale także takie surowce, które mimo występowania w dużej ilości są niemożliwe do pozyskania np. z powodu uwarunkowań planistycznych, protestów społecznych itp. Komisja Europejska przygotowała w 2011 pierwszą listę surowców krytycznych dla Unii Europejskiej kierując się europejską „Inicjatywą na rzecz surowców” z 2008 roku. Lista surowców krytycznych dla UE jest aktualizowana co 3 lata (2011, 2014, 2017, 2020 i 2023). W dniu 16 marca 2023 roku Komisja Europejska opublikowała Wniosek dotyczący rozporządzenia Parlamentu Europejskiego i Rady ustanawiającego ramy zapewniające bezpieczne i zrównoważone dostawy surowców krytycznych wraz z załącznikiem zawierającym 16 surowców strategicznych oraz 34 surowce krytyczne dla Unii Europejskiej. Aktualny wykaz surowców strategicznych i krytycznych można znaleźć na stronie.https://www.gov.pl/photo/c6faa788-e64b-4e59-ab4f-d6899eefc524 https://www.gov.pl/web/klimat/surowce-strategiczne-i-krytyczne-dla-polski-i-ue",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75214091",
+      "author": "Misza",
+      "postedAt": "2026-07-22 21:19",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Wodzisz, MAX już nazwał mnie nagonem. I wiśelcem na haku.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75214079",
+      "author": "Misza",
+      "postedAt": "2026-07-22 21:17",
+      "threadTitle": "Re: Misza trollu nagonie.",
+      "url": "https://www.bankier.pl/forum/temat_misza-trollu-nagonie,75213977.html",
+      "body": "Dobre",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75214045",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 21:11",
+      "threadTitle": "Re: ⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI ⭐❤️✅❤️⭐",
+      "url": "https://www.bankier.pl/forum/temat_czynniki-za-zakupem-akcji,75212675.html",
+      "body": "Wstępne prognozy mówią o kilkuset mln zł na plusie.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75214039",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 21:11",
+      "threadTitle": "Re: ⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI ⭐❤️✅❤️⭐",
+      "url": "https://www.bankier.pl/forum/temat_czynniki-za-zakupem-akcji,75212675.html",
+      "body": "II kwartał na plusie (...) Jak mówi analityk Jakub Szkopek z Erste Group, (...) II kwartał tego roku powinien być jeszcze lepszy, bo pojawi się efekt wyższych cen węgla, które przełożą się na formuły cenowe JSW. Co więcej, w Chinach doszło do wypadków górniczych. Część kopalń wstrzymała prace w efekcie kontroli. To przełożyło się na mniejsze wydobycie i wyższe ceny węgla koksującego, które przekroczyły 240 USD za tonę – wskazuje analityk. II kwartał w zakresie wyniku EBITDA powinien już przynieść dodatnie wyniki. – Wstępne prognozy mówią o kilkuset mln zł na plusie. cdn",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75214005",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-07-22 21:06",
+      "threadTitle": "Re: Misza trollu nagonie.",
+      "url": "https://www.bankier.pl/forum/temat_misza-trollu-nagonie,75213977.html",
+      "body": "Max mam usunąć",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213999",
+      "author": "Ginga",
+      "postedAt": "2026-07-22 21:05",
+      "threadTitle": "Re: dlaczego koksowy tanieje?",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-koksowy-tanieje,75213361.html",
+      "body": "Prosze bardzo odpowiem,... sezonowosc cen jest z wykresow tutajhttps://www.tradingview.com/symbols/SGX-ACF1!/seasonals/",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213995",
+      "author": "Olo",
+      "postedAt": "2026-07-22 21:04",
+      "threadTitle": "Re: Misza trollu nagonie.",
+      "url": "https://www.bankier.pl/forum/temat_misza-trollu-nagonie,75213977.html",
+      "body": "Kwili 24 godziny na dobę.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213977",
       "author": "Max",
-      "postedAt": "2026-07-22 16:21",
-      "threadTitle": "Re: A pamiętacie jak w 2024 Trader/Tusk zamykał shorty po 390 zł.?",
-      "url": "https://www.bankier.pl/forum/temat_a-pamietacie-jak-w-2024-trader-tusk-zamykal-shorty-po-390-zl,73868831.html",
-      "body": "I było wesoło.",
+      "postedAt": "2026-07-22 21:02",
+      "threadTitle": "Misza trollu nagonie.",
+      "url": "https://www.bankier.pl/forum/temat_misza-trollu-nagonie,75213977.html",
+      "body": "Jęczysz o wzrosty odkąd cię ubrali.Wincyj !",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75213979",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-07-22 21:02",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Przecież admin to leń usuwa prawie wszystko co zgodzisz . Sprawdź",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213925",
+      "author": "Misza",
+      "postedAt": "2026-07-22 20:53",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Ja to jutro widzę tak. Nasza brygada północ się uśmiecha i zajada Prince Polo, jak mawiał nasz dwu godziny Prezydent. Czytamy jutro forum bez emocji i wpisów na forum. Na zamku dokupujemy po parę akcji JSW, a od piątku jedziemy z koksem Naszym czarnym złotem do góry.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75213889",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 20:46",
+      "threadTitle": "Re: Studium upadku.",
+      "url": "https://www.bankier.pl/forum/temat_studium-upadku,74912613.html",
+      "body": "Dobre to było i jest.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213849",
+      "author": "Misza",
+      "postedAt": "2026-07-22 20:40",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Ja mam również ATT. Szorty też tutaj są, a wpisów na forum dzisiaj tylko 8. Jak nie wierzysz to sobie możesz sam sprawdzić.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213829",
+      "author": "Misza",
+      "postedAt": "2026-07-22 20:37",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Zobaczymy również czy posty będą jutro usówane jak nas, prawdziwych akcjonariuszy JSW nie będzie na forum.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213809",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-07-22 20:34",
+      "threadTitle": "Re: Dzięki admin za usuwanie wpisów łamiących regulamin",
+      "url": "https://www.bankier.pl/forum/temat_dzieki-admin-za-usuwanie-wpisow-lamiacych-regulamin,75213757.html",
+      "body": "Proponuję pomagać shorcikom , wystarczy zgłosić naruszenie regulaminu.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213757",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-07-22 20:29",
+      "threadTitle": "Dzięki admin za usuwanie wpisów łamiących regulamin",
+      "url": "https://www.bankier.pl/forum/temat_dzieki-admin-za-usuwanie-wpisow-lamiacych-regulamin,75213757.html",
+      "body": "Max kto mieciem wojuje od Miecia ginie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213749",
+      "author": "Misza",
+      "postedAt": "2026-07-22 20:28",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "No właśnie, niech nawalają między sobą. Będzie śmiesznie jak ich całkiem zignorujemy na 24H.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213693",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 20:22",
+      "threadTitle": "pobrykały i tryknęły szorta :)",
+      "url": "https://www.bankier.pl/forum/temat_pobrykaly-i-tryknely-szorta,75213693.html",
+      "body": "szort ustawiaa się powoli w kolejce na 100",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213665",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 20:18",
+      "threadTitle": "Re: Pobrykały już nowe jelonki na haku w paśniku ?",
+      "url": "https://www.bankier.pl/forum/temat_pobrykaly-juz-nowe-jelonki-na-haku-w-pasniku,74511369.html",
+      "body": "No jak nie jak tak. ;)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213641",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 20:14",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "a poza tym:po co ci ta cisza,skoro trole nawalają?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213625",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 20:10",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "wiesz doskonale,że te wszystkie wpisy tutaj mają prawie żaden wpływna wysokość kursu,tak wydaje się tylko trolom szorta,bo przeciesz70% wpisów to ściek;szort wynajął ba ndę troli i maja za zadaniezaciemniać obraz spółki,ale to nie tutaj,tutaj są już innego rodzajuakcjonariusze;merytoryki mało,a ze strony szorta-zero",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213609",
+      "author": "Misza",
+      "postedAt": "2026-07-22 20:08",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Paweł, potraktuj to proszę jak wyzwanie dla nas akcjonariuszy JSW. Czytać będziesz mógł co tam szorty piszą. Przecież nie spuszczą kursu w dół samymi postami między sobą.",
       "votes": {
         "up": 0,
         "down": 0
@@ -116,40 +476,110 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75211267",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:20",
-      "threadTitle": "❤️❤️ SZORTY I BRAK AKCJI DO POŻYCZENIA. 40 zł ZA CHWILĘ BĘDZIE? ❤️❤️",
-      "url": "https://www.bankier.pl/forum/temat_szorty-i-brak-akcji-do-pozyczenia-40-zl-za-chwile-bedzie,75211267.html",
-      "body": "❤️❤️ SZORTY I BRAK AKCJI DO POŻYCZENIA. 40 zł ZA CHWILĘ BĘDZIE? ❤️❤️ Nie ma akcji do zbijania, To już koniec uwalania.. Szorty siły już nie mają. Opluwaniem się wspierają. Już ustawia się kolejka A kolejka będzie wielka. Wszyscy będą kupowali Nawet Ci co opluwali.",
+      "id": "75213571",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 20:03",
+      "threadTitle": "~Paweł [89.151.46.*] MA NI PULANT",
+      "url": "https://www.bankier.pl/forum/temat_pawel-89-151-46-ma-ni-pulant,75213571.html",
+      "body": "dla szorta nie ma odwrotu,musi odkupować akcje",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213551",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 19:59",
+      "threadTitle": "Re: Widzę, że na tym forum w końcu zapanował ład i porządek.",
+      "url": "https://www.bankier.pl/forum/temat_widze-ze-na-tym-forum-w-koncu-zapanowal-lad-i-porzadek,75208933.html",
+      "body": "Nareszcie.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213549",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 19:58",
+      "threadTitle": "Re: Ubrani po 26 wystąp !",
+      "url": "https://www.bankier.pl/forum/temat_ubrani-po-26-wystap,75190449.html",
+      "body": "Czas pokaże.",
       "votes": {
         "up": 0,
         "down": 0
       },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "75211257",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:19",
-      "threadTitle": "Re: ❤️ZBROJENIÓWKA NA ŚWIECIE DOPIERO RUSZA W 2 POŁOWIE ROKU 2026R ❤️",
-      "url": "https://www.bankier.pl/forum/temat_zbrojeniowka-na-swiecie-dopiero-rusza-w-2-polowie-roku-2026r,75203071.html",
-      "body": "Fundusze kupują tanie akcje JSW na potęgę.",
+      "id": "75213517",
+      "author": "Pzdrrr",
+      "postedAt": "2026-07-22 19:53",
+      "threadTitle": "Re: dlaczego koksowy tanieje?",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-koksowy-tanieje,75213361.html",
+      "body": "Powiesz cos wiecej z ciekawości? Co przestudiować. Skąd ta sezonowość cen",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213519",
+      "author": "Misza",
+      "postedAt": "2026-07-22 19:53",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Paweł proszę tylko o 24 H.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213511",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 19:53",
+      "threadTitle": "Re: jacek_z_grochowa [78.30.68.*]to oszut grochowski z szortowa:)",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-78-30-68-to-oszut-grochowski-z-szortowa,75211647.html",
+      "body": "ulubienieć szorta padaki:)",
       "votes": {
         "up": 0,
         "down": 0
       },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "75211249",
-      "author": "Max",
-      "postedAt": "2026-07-22 16:18",
-      "threadTitle": "Czyżby ta ciuchcia na koks zawracała ?",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-ta-ciuchcia-na-koks-zawracala,75211249.html",
-      "body": "Może nie ma rakietowego szwungu na 100 ?Czy jak ?",
+      "id": "75213487",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 19:50",
+      "threadTitle": "Re: maxiu,zabierz się do uczciwej roboty!dobrze ci to zrobi",
+      "url": "https://www.bankier.pl/forum/temat_maxiu-zabierz-sie-do-uczciwej-roboty-dobrze-ci-to-zrobi,75211901.html",
+      "body": "pewnie nikt ci jej nie da",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213471",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 19:47",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "nie dość,że kasują to jeszcze chcecie mieć ciszę,żebytrole szortowe mogły popłynąć?dramaturgia widzę coraz większa:)",
       "votes": {
         "up": 0,
         "down": 0
@@ -158,12 +588,110 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75211225",
-      "author": "Ślusarz",
-      "postedAt": "2026-07-22 16:16",
-      "threadTitle": "Re: Cena węgla koksowego będzie spadać do 200 dolarów",
-      "url": "https://www.bankier.pl/forum/temat_cena-wegla-koksowego-bedzie-spadac-do-200-dolarow,75210741.html",
-      "body": "No ma rację. Zawsze sprzedawali 90% ceny rynkowej, niestety.",
+      "id": "75213461",
+      "author": "Ginga",
+      "postedAt": "2026-07-22 19:45",
+      "threadTitle": "Re: dlaczego koksowy tanieje?",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-koksowy-tanieje,75213361.html",
+      "body": "To sobie przestudiuj: Sezonowosc cen wegla koksowego. Juz niedlugo odjazd w góre ACF po porze monsunowej...dni lub tygodnie.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75213361",
+      "author": "los",
+      "postedAt": "2026-07-22 19:28",
+      "threadTitle": "dlaczego koksowy tanieje?",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-koksowy-tanieje,75213361.html",
+      "body": "skoro taki popyt w Indiach?w Chinach słaba podażw Australii słaba podazceny frachy updlaczego koksowy tanieje?",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75213363",
+      "author": "wewete",
+      "postedAt": "2026-07-22 19:28",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Dałem łapkę w górę za \"średnia ważona dla całej pozycji\".",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75213309",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 19:20",
+      "threadTitle": "Re: A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "Kurs tonie pomimo dzisiejszych podrygów.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75213175",
+      "author": "kasa",
+      "postedAt": "2026-07-22 18:59",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "'Alchemika matematyki' nie czytam, ale jak liczę dla poszczególnych zameldowanych ostatnio podmiotów, to średnia ważona dla całej pozycji mnie interesuje. Na Jsw to dzienny koszt pożyczek był nawet kiedyś >44%, a ostatnio im nawet znacznie potaniało w stosunku do ogólnego CTB. Poza tym ważniejszy jedt dla mnie wskaźnik DTC z 2 tygodni, a ten jutro to juz chyba z 25/26 dni pokaże.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213113",
+      "author": "Misza",
+      "postedAt": "2026-07-22 18:50",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "To super, ja również.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75213101",
+      "author": "kasa",
+      "postedAt": "2026-07-22 18:49",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Polskim firmom, a Ty?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213091",
+      "author": "wewete",
+      "postedAt": "2026-07-22 18:47",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Chodzi mi o wyliczenia kosztów funduszy szortujących, którymi regularnie raczą nas tutaj niektórzy forumowi koledzy. Do tych wyliczeń należy brać średni koszt pożyczonych akcji. Używanie kosztu chwilowego jest... błędem?... manipulacją?",
       "votes": {
         "up": 0,
         "down": 0
@@ -172,12 +700,404 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75211213",
+      "id": "75213087",
+      "author": "Hhh",
+      "postedAt": "2026-07-22 18:47",
+      "threadTitle": "Re: ORGR na dziennym",
+      "url": "https://www.bankier.pl/forum/temat_orgr-na-dziennym,75211087.html",
+      "body": "​Patrząc na bieżący wykres dzienny Jastrzębskiej Spółki Węglowej (JSW) na Giełdzie Papierów Wartościowych: ​Brak klasycznej formacji ORGR: Na interwale dziennym nie ma obecnie książkowej, czy szeroko dyskutowanej przez analityków, formac",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75213079",
+      "author": "Olo",
+      "postedAt": "2026-07-22 18:47",
+      "threadTitle": "Re: Gaśnie entuzjazm posiadaczy akcji.",
+      "url": "https://www.bankier.pl/forum/temat_gasnie-entuzjazm-posiadaczy-akcji,74422859.html",
+      "body": "Serio?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212987",
       "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:16",
-      "threadTitle": "⭐⭐⭐JSW PRZED SZANSĄ NA DWUCYFROWY RAJD W GÓRĘ ⭐⭐⭐",
-      "url": "https://www.bankier.pl/forum/temat_jsw-przed-szansa-na-dwucyfrowy-rajd-w-gore,75211213.html",
-      "body": "⭐⭐⭐JSW PRZED SZANSĄ NA DWUCYFROWY RAJD W GÓRĘ ⭐⭐⭐✅ 350 DOLARÓW ZA WĘGIEL KOKSUJĄCY, PO SŁOWACH DONALDA TRUMPA ✅WĘGIEL KOKSUJĄCY NA KONTRAKTACH W AZJI NA 2027r. ZA CHWILĘ DOJDZIE DO 350 DOLARÓW, PO SŁOWACH DONALDA TRUMPA ✅USA. PALIWO DO WZRSTU GIEŁDY ZOSTAŁO DOLANE.✅",
+      "postedAt": "2026-07-22 18:34",
+      "threadTitle": "Re: ⚡️⭐✅❤️⭐ WYNIKI ZA II KWARTAŁ NA PLUSIE. ⭐❤️✅⭐⚡️",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-za-ii-kwartal-na-plusie,75212707.html",
+      "body": "Rekordowe wyniki w kolejnych kwartałach będą",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75212981",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 18:34",
+      "threadTitle": "Re: ❤️KOPALNIA KNURÓW-SZCZYGŁOWICE O KROK OD POTĘŻNYCH ZŁÓŻ DĘBIEŃSKA❤",
+      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75212881.html",
+      "body": "Tak, złoża w Dębieńsku (tzw. złoże Dębieńsko 1) są uważane za jedne z największych i najcenniejszych w Europie złóż węgla koksowego.Szacunki zasobów: Zasoby szacowane są na poziomie od 190 mln do nawet ponad 300 mln ton węgla.Charakterystyka: To złoże wysokiej jakości węgla koksowego, który jest kluczowy m.in. dla przemysłu stalowego.Obecny stan: Trwają prace badawcze mające na celu dokładne rozpoznanie geologiczne złoża. Projekt realizuje Jastrzębska Spółka Węglowa (JSW), która w 2026 roku otrzymała koncesję na jego rozpoznanie. Położenie złoża tuż przy kopalni Knurów-Szczygłowice pozwala na wykorzystanie istniejącej infrastruktury.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212965",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 18:32",
+      "threadTitle": "Re: ✅30% CENA AKCJI JSW W GÓRĘ WYBIJE, CZY BĘDZIE WIĘCEJ ZA CHWILĘ, 50%?",
+      "url": "https://www.bankier.pl/forum/temat_30-cena-akcji-jsw-w-gore-wybije-czy-bedzie-wiecej-za-chwile-50,75212837.html",
+      "body": "ZBROJENIÓWKA RUSZA Z PRODUKCJĄ BRONI W DRUGIEJ POŁOWIE ROKU 2026r",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75212961",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 18:31",
+      "threadTitle": "Re: ⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI ⭐❤️✅❤️⭐",
+      "url": "https://www.bankier.pl/forum/temat_czynniki-za-zakupem-akcji,75212675.html",
+      "body": "37. Analitycy: w II kwartale możliwa dodatnia EBITDA.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212939",
+      "author": "Misza",
+      "postedAt": "2026-07-22 18:29",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Kasa, a komu Ty kibicujesz?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212943",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 18:29",
+      "threadTitle": "Re: ⭐PO CO SPRZEDAWAĆ PONIŻEJ 30 JAK SHORTY KUPIĄ PO 100 ZŁ.⭐",
+      "url": "https://www.bankier.pl/forum/temat_po-co-sprzedawac-ponizej-30-jak-shorty-kupia-po-100-zl,75212623.html",
+      "body": "⭐MACIE AKCJE, WYSTAWIAĆ ZLECENIA SPRZEDAŻY PO 100 ZŁ DO KOŃCA ROKU⭐",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75212923",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 18:27",
+      "threadTitle": "Re: ❤️KOPALNIA KNURÓW-SZCZYGŁOWICE O KROK OD POTĘŻNYCH ZŁÓŻ DĘBIEŃSKA❤",
+      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75212881.html",
+      "body": "\"zaledwie trzy metry od granicy jednych z najbogatszych w kraju złóż węgla koksowego\"",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212911",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 18:26",
+      "threadTitle": "Re: ❤️KOPALNIA KNURÓW-SZCZYGŁOWICE O KROK OD POTĘŻNYCH ZŁÓŻ DĘBIEŃSKA❤",
+      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75212881.html",
+      "body": "Ruch Szczygłowice kopalni Knurów-Szczygłowice znajduje się zaledwie trzy metry od granicy jednych z najbogatszych w kraju złóż węgla koksowego.Trwające inwestycje w szyby, klimatyzację i nowy poziom wydobywczy mają otworzyć drogę do ich eksploatacji. Jak poinformował w sobotę serwis netTG.pl, Kopalnia Knurów-Szczygłowice zbliża się do jednego z najważniejszych momentów w swojej historii. Ruch Szczygłowice dzieli obecnie jedynie trzy metry od granicy złoża dawnej kopalni Dębieńsko, uważanego za jedno z najcenniejszych w Polsce pod względem jakości węgla koksowego. Dostęp do tych zasobów ma zapewnić dalszy rozwój zakładu na kolejne dekady.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212871",
+      "author": "Prins",
+      "postedAt": "2026-07-22 18:23",
+      "threadTitle": "Re: ORGR na dziennym",
+      "url": "https://www.bankier.pl/forum/temat_orgr-na-dziennym,75211087.html",
+      "body": "Rsi 4H kakaowy krasnal nic z tego nie bedzie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212881",
+      "author": "(usunięty)",
+      "postedAt": "2026-07-22 18:23",
+      "threadTitle": "(wiadomość usunięta przez moderatora)",
+      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75212881.html",
+      "body": "(wiadomość usunięta przez moderatora)",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212849",
+      "author": "Misza",
+      "postedAt": "2026-07-22 18:20",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Panie i Panowie. Jutro robimy 24 H ciszy na forum. Panie Tusk, poproszę Jutro również o ciszę na forum. Dziękuję",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212851",
+      "author": "Rc",
+      "postedAt": "2026-07-22 18:20",
+      "threadTitle": "Re: ORGR na dziennym",
+      "url": "https://www.bankier.pl/forum/temat_orgr-na-dziennym,75211087.html",
+      "body": "Pytanie tylko czy AT tu działa",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212841",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 18:19",
+      "threadTitle": "✅30% CENA AKCJI JSW W GÓRĘ WYBIJE, CZY BĘDZIE WIĘCEJ ZA CHWILĘ, 50%?✅",
+      "url": "https://www.bankier.pl/forum/temat_30-cena-akcji-jsw-w-gore-wybije-czy-bedzie-wiecej-za-chwile-50,75212837.html",
+      "body": "BARDZO DOBRE WYNIKI za 3Q BĘDĄ",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75212837",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 18:19",
+      "threadTitle": "✅30% CENA AKCJI JSW W GÓRĘ WYBIJE, CZY BĘDZIE WIĘCEJ ZA CHWILĘ, 50%?✅",
+      "url": "https://www.bankier.pl/forum/temat_30-cena-akcji-jsw-w-gore-wybije-czy-bedzie-wiecej-za-chwile-50,75212837.html",
+      "body": "✅30% CENA AKCJI JSW W GÓRĘ WYBIJE, CZY BĘDZIE WIĘCEJ ZA CHWILĘ, 50%?✅✅ AKTUALNA SYTUACJA NA RYNKU WĘGLA ✅ CENA AKCJI W GÓRĘ ✅ BARDZO DOBRE WYNIKI za 3Q BĘDĄ: ● CŁO NA STAL Z POZA UE ROŚNIE DO 50% ● REDUKCJA ZATRUDNIENIA W JSW ● CENA WĘGLA KOKSOWEGO W GÓRĘ, A TO NIE KONIEC WZROSTU ● ZBROJENIÓWKA RUSZA Z PRODUKCJĄ BRONI W DRUGIEJ POŁOWIE ROKU 2026r A TO NIE KONIEC DOBRYCH INFORMACJI GEOPOLITYCZNYCH ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,' ✅ AKTUALNA SYTUACJA NA RYNKU WĘGLA (czerwiec 2026)✅CENA AKCJI W GÓRĘ ✅ 30% cena akcji JSW w górę wybije, czy będzie więcej za chwilę, 50%?✅ Za chwilę będą kupować wszyscy na wyścigi pod korek. Na horyzoncie widać 40zł Kluczowe wnioskiKatastrofa w kopalni Liushenyu (Shanxi, maj 2026): ~82 ofiary, zawieszenie 109 kopalń (319 tys. t/dobę ≈ 10% chińskiej produkcji) — największy szok podażowy od ponad dekady.Import węgla do Azji w maju 2026: 76,26 mln t (+23% m/m) — wszystkie główne rynki azjatyckie odnotowują wzrosty.Geopolityka: zastępowanie gazu (kryzys Cieśniny Ormuz) węglem przez azjatyckich odbiorców, wzrost chińskiego importu morskiego do 22,63 mln t w maju 2026.Węgiel koksowy: cena ~218–240 USD/t (marzec–czerwiec 2026), +18% r/r — napędzany przez sektor stalowy w Indiach i odbudowę chińskiego importu. ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,' ✅ OSZCZĘDNOŚCI BĘDĄ GIGANTYCZNE W KOLEJNYCH KWARTAŁACH, ZAPOWIADAJĄ SIĘ BARDZO DOBRE WYNIKI KWARTALNE ✅ ✅ REDUKCJA ZATRUDNIENIA W JSW, OSZCZĘDNOŚCI BĘDĄ GIGANTYCZNE.Z pakietu dobrowolnych odejść w ramach programu Jednorazowych Odpraw Pieniężnych, uruchomionego dzięki umowie dotacyjnej pomiędzy Jastrzębską Spółką Węglową (JSW) a Ministerstwem Energii, skorzystało 526 osób, podała JSW. To pierwszy etap procesu. W sumie z jednorazowych odpraw może skorzystać 1156 pracowników. Każdy pracownik, który zdecyduje się na udział w programie, otrzyma 170 tys. zł. https://isbiznes.pl/2026/05/28/jsw-z-pakietu-dobrowolnych-odejsc-w-ramach-programu-jop-skorzystalo-do-tej-pory-526-osob/ ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zgodnie z założeniami, w roku 2026 z urlopów górniczych w JSW ma skorzystać 3092 pracowników” – czytamy w komunikacie.Program osłonowy obejmujący uruchomione w maju jednorazowe odprawy pieniężne oraz urlopy górnicze i urlopy przeróbkarskie ma objąć łącznie 4248 pracowników JSW. https://isbiznes.pl/2026/07/01/jsw-pierwsza-grupa-1123-pracownikow-skorzystala-z-programu-odejsc-na-urlopy-gornicze/ ✅30% CENA AKCJI JSW W GÓRĘ WYBIJE, CZY BĘDZIE WIĘCEJ ZA CHWILĘ, 50%?✅",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 1,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75212781",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 18:11",
+      "threadTitle": "Re: ⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI ⭐❤️✅❤️⭐",
+      "url": "https://www.bankier.pl/forum/temat_czynniki-za-zakupem-akcji,75212675.html",
+      "body": "7. Chiny zwiększyły import węgla koksowego o prawie +30% w maju z powodu zamknięcia kopalń po eksplozji metanu w jednej z nich. Te które wróciły do pracy, zmniejszyły wydobycie od 20% do nawet 80%.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212779",
+      "author": "kasa",
+      "postedAt": "2026-07-22 18:10",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Mylisz się co do tego co jest ważniejsze dla inwestorów. To są wyniki firmy, ceny na rynkach światowych, mechanizmy oddziaływania na spółkę np. opóźnienie wejścia o 3-6 m-cy wyższych cen sprzedazy z tytułu renty geograficznej, kursy walut, geopolityka itd. A short miał kilka sposobów na zabezpieczenie sobie wyjścia i najmniej akcjonariuszy interesuje czy stracą na tym czy zarobią 50x więcej poprzez inne instrumenty.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75212777",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 18:09",
+      "threadTitle": "Re: ⚡️⭐✅❤️⭐ WYNIKI ZA II KWARTAŁ NA PLUSIE. ⭐❤️✅⭐⚡️",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-za-ii-kwartal-na-plusie,75212707.html",
+      "body": "Wstępne prognozy mówią o kilkuset mln zł na plusie.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212715",
+      "author": "Inwestor",
+      "postedAt": "2026-07-22 18:03",
+      "threadTitle": "Re: Zjazd jak zwykle.",
+      "url": "https://www.bankier.pl/forum/temat_zjazd-jak-zwykle,75210905.html",
+      "body": "Normalne",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75212707",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 18:02",
+      "threadTitle": "⚡️⭐✅❤️⭐ WYNIKI ZA II KWARTAŁ NA PLUSIE. ⭐❤️✅⭐⚡️",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-za-ii-kwartal-na-plusie,75212707.html",
+      "body": "⚡️⭐✅❤️⭐ WYNIKI ZA II KWARTAŁ NA PLUSIE. ⭐❤️✅⭐⚡️ II kwartał na plusie (...) Jak mówi analityk Jakub Szkopek z Erste Group, (...) II kwartał tego roku powinien być jeszcze lepszy, bo pojawi się efekt wyższych cen węgla, które przełożą się na formuły cenowe JSW. Co więcej, w Chinach doszło do wypadków górniczych. Część kopalń wstrzymała prace w efekcie kontroli. To przełożyło się na mniejsze wydobycie i wyższe ceny węgla koksującego, które przekroczyły 240 USD za tonę – wskazuje analityk. II kwartał w zakresie wyniku EBITDA powinien już przynieść dodatnie wyniki. – Wstępne prognozy mówią o kilkuset mln zł na plusie. cdn",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75212693",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 18:01",
+      "threadTitle": "Re: ⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI ⭐❤️✅❤️⭐",
+      "url": "https://www.bankier.pl/forum/temat_czynniki-za-zakupem-akcji,75212675.html",
+      "body": "16. TFI: Goldman, PKO, Rockbridge, PZU, Uniqua, Millenium, BNP zwiększyły stan posiadania o 756 000 akcji.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212691",
+      "author": "kasa",
+      "postedAt": "2026-07-22 18:00",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Powiem nawet więcej, dzisiaj też pewnie nie napiszą, bo mają kasowane posty.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212675",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 17:59",
+      "threadTitle": "⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI ⭐❤️✅❤️⭐",
+      "url": "https://www.bankier.pl/forum/temat_czynniki-za-zakupem-akcji,75212675.html",
+      "body": "Pełna analiza ✅JSW 7 lipca 2026 . Doskonałe info Autor: ~Merd [46.134.12.*]2026-07-07 19:48 https://x.com/GPW_Trader2022/status/2074531404705116489 ⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI ⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI 1. Z JSW w 2026 odejdzie około 4270 osób. 526 już odeszło.2. 26 czerwca 2026 informacja o finansowaniu urlopów górniczych przez Ministerstwo Klimatu dla 3092 pracowników. Nie będą już kosztem firmy.3. Fundusze muszą odkupić pożyczone ponad 6 000 000 akcji z rynku. Wcześniej odkup 600 000 powodował wzrost kursu o 51%.4. W połowie lipca Komisja Europejska przedstawi ograniczenie kosztów ETS dla hut stali i przemysłu ciężkiego. Czyli do 16 dni od dziś.5. Spółka stara się o finansowanie dłużne (np. obligacje), w tym celu musi wykazać dodatnią EBITDA i robi wszystko w tym kierunku.6. Rynek oczekuje, że wyniki za Q2 mogą już dać dodatnią EBITDA.7. Chiny zwiększyły import węgla koksowego o prawie +30% w maju z powodu zamknięcia kopalń po eksplozji metanu w jednej z nich. Te które wróciły do pracy, zmniejszyły wydobycie od 20% do nawet 80%.8. Polska i 14 innych Państw stara się o mocne luzowanie ETS dla przemysłu stalowego.9. Rosną ceny węgla koksowego. Zamykają się kopalnie na świecie. Są braki surowca. Transporty z Australii przejmują Chiny.10. Koszt wydobycia w 2026 ma spaść z 730 zł/t na 570 zł/t. 11. JSW to monopolista w UE w wydobyciu węgla koksowego.12. Koszt transportu tony węgla z Australii/Indonezji do Europy to 70$ na tonie.13. Skupienie się na najwyższej jakości pokładach i restrukturyzacja. 14. Niemcy i Włochy nadal lobbują za czasowym zawieszeniem ETS. 15. JSW zdobywa 99,7% rynku koksu na Ukrainie. 16. TFI: Goldman, PKO, Rockbridge, PZU, Uniqua, Millenium, BNP zwiększyły stan posiadania o 756 000 akcji. 17. Australia zakazuje nowych kopalni węgla. 18. Mamy prawie 100% utilization na JSW, czyli fundusze atakujące kurs powoli nie mają skąd pożyczać akcji do zaniżania kursu. 19. Wsparcie Ministerstwa Aktywów Państwowych i Ministrów , którzy nadzorują kluczowy podmiot dla polskiego przemysłu oraz 20. Thyssen anuluje sprzedaż hut stali i wraca do produkcji z koksu z powodu pozytywnego otoczenia. 21. ArcelorMittal uruchomił piece w Dąbrowie Górniczej. 22. Indonezja wprowadza podatki eksportowe na węgiel koksowy. Cena surowca rośnie na rynkach o tę wartość. 23. Australijskie kopalnie mają problemy z wydobyciem. Rosną koszty paliw i frachtu. 24. Rosja wstrzymuje eksport koksowego. Ataki dronów na porty. 25. Elektrociepłownia Radlin produkuje i przeszła testy. 26. JSW ma być w łańcuchu firm zbrojeniowych. 27. MAP wyklucza emisję akcji, są chętni do kredytowania. 28. Węgiel koksowy na liście surowców strategicznych UE. 29. Ministrowie szykują ustawy pod poprawę funkcjonowania JSW. 30. Kryzys energetyczny potrwa długo, nawet po otwarciu cieśniny Ormuz. 31. CBAM – stal importowana drożeje o koszty ETS, produkcja na koks znów opłacalna w Europie. 32. Przez ceny prądu zatrzymują się huty łukowe (przetwarzające złom). 33. Thyssen lobbuje za darmowymi ETS dla hut na koks. 34. Upadek stalowni w Iranie. 35. Popyt na stal przy odbudowie Ukrainy. Polskie huty, w tym Arcelor, na to mocno liczą. 36. JSW Nowe Projekty – produkcja dronów morskich (testy WP). 37. Analitycy: w II kwartale możliwa dodatnia EBITDA. 38. Nowe ściany wydobywcze, fokus na najwyższej marży. 39. Porozumienie ze związkami – 1,2 mld zł oszczędności. 40. Sprzedaż 2 spółek za ponad 1 mld zł. 41. Oczekiwanie na koncesję Dębieńsko (~100 mld zł zasobów 42. Umowa 2,1 mld zł z ArcelorMittal (restart huty w Dąbrowie Górniczej). 43. Europa importuje ~40 mln ton koksowego – lokalna przewaga JSW. 44. Program naprawczy 8,5 mld zł. 45. Włosi i Niemcy uruchamiają wygaszone huty na koks, bo produkcja jest opłacalna przez CBAM. 46. Bankructwa hut wodorowych (uzależnionych od dotacji).",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75212625",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 17:53",
+      "threadTitle": "⭐PO CO SPRZEDAWAĆ PONIŻEJ 30 JAK SHORTY KUPIĄ PO 100 ZŁ.⭐",
+      "url": "https://www.bankier.pl/forum/temat_po-co-sprzedawac-ponizej-30-jak-shorty-kupia-po-100-zl,75212623.html",
+      "body": "BO JAK NIE WYSTAWICIE ZLECENIA, TO POŻYCZAJĄ WASZE AKCJE I ZBIJAJĄ KURS WASZYMI AKCJAMI.CHYBA NIKT TEGO NIE CHCE.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75212623",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 17:52",
+      "threadTitle": "⭐PO CO SPRZEDAWAĆ PONIŻEJ 30 JAK SHORTY KUPIĄ PO 100 ZŁ.⭐",
+      "url": "https://www.bankier.pl/forum/temat_po-co-sprzedawac-ponizej-30-jak-shorty-kupia-po-100-zl,75212623.html",
+      "body": "16. TFI: Goldman, PKO, Rockbridge, PZU, Uniqua, Millenium, BNP zwiększyły stan posiadania o 756 000 akcji.18. Mamy prawie 100% utilization na JSW, czyli fundusze atakujące kurs powoli nie mają skąd pożyczać akcji do zaniżania kursu. ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ⭐PO CO SPRZEDAWAĆ PONIŻEJ 30 JAK SHORTY KUPIĄ PO 100 ZŁ.⭐ ⭐MACIE AKCJE, WYSTAWIAĆ ZLECENIA SPRZEDAŻY PO 100 ZŁ DO KOŃCA ROKU⭐TO NIC NIE KOSZTUJE, W KAŻDEJ CHWILI MOŻNA ZLECENIE ZMIENIĆ / ZMODYFIKOWAĆ.BO JAK NIE WYSTAWICIE ZLECENIA, TO POŻYCZAJĄ WASZE AKCJE I ZBIJAJĄ KURS WASZYMI AKCJAMI.CHYBA NIKT TEGO NIE CHCE.A JAK ZACZNĄ SKUP, BO MUSZĄ ODDAĆ POŻYCZONE AKCJE TO ZAPŁACĄ 100 ZŁ.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75212591",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-07-22 17:48",
+      "threadTitle": "⭐⭐TROLLU WIELONICKOWY SPADKOWY ŁączyNasGreenX, Max, Paweł Olo ... W JE",
+      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75212585.html",
+      "body": "⭐JAK WAM TUTAJ TAK ŹLE, TO CO WY TUTAJ ROBICIE TROLLE SPADKOWE⭐UWAGA NA FAŁSZYWE WPISY TROLLI SPADKOWYCH PODSZYWAJĄ SIĘ POD INNE OSOBY.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75212585",
+      "author": "(usunięty)",
+      "postedAt": "2026-07-22 17:47",
+      "threadTitle": "(wiadomość usunięta przez moderatora)",
+      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75212585.html",
+      "body": "(wiadomość usunięta przez moderatora)",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212553",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 17:45",
+      "threadTitle": "Re: ❤️AKTUALNA SYTUACJA NA RYNKU WĘGLA (czerwiec 2026)❤️CENA AKCJI W GÓR",
+      "url": "https://www.bankier.pl/forum/temat_aktualna-sytuacja-na-rynku-wegla-czerwiec-2026-cena-akcji-w-gore,75211415.html",
+      "body": "Węgla koksowego brakuje w Azji Indie i Chiny kupują",
       "votes": {
         "up": 0,
         "down": 0
@@ -186,12 +1106,26 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75211199",
+      "id": "75212537",
+      "author": "wewete",
+      "postedAt": "2026-07-22 17:44",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Mogę się dolączyć.A potem któregoś razu zapytam się kolegi @Tusk, czy CTB które podaje to jest \"CTB New\", czy \"CTB All\" z ortex... bo to znacząca różnica. Ten pierwszy parameter nadaje się tylko do opowiadania bajek, dla inwestorów ważniejszy jest ten drugi, bo to średnie oprocentowanie pożyczonych akcji.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212539",
       "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:15",
-      "threadTitle": "PERONIARZ STOI NA STACJI I PŁACZE ŻE POCIĄG ODJECHAŁ.",
-      "url": "https://www.bankier.pl/forum/temat_peroniarz-stoi-na-stacji-i-placze-ze-pociag-odjechal,75211199.html",
-      "body": "PERONIARZ STOI NA STACJI I PŁACZE ŻE POCIĄG ODJECHAŁ. WSIADAĆ NASTĘPNA STACJA 36 ZŁ",
+      "postedAt": "2026-07-22 17:44",
+      "threadTitle": "Re: ✅TYLKO 3m DZIELI JSW OD NAJWIĘKSZYCH ZŁÓŻ WĘGLA KOKSOWEGO W EUROPIE,",
+      "url": "https://www.bankier.pl/forum/temat_tylko-3m-dzieli-jsw-od-najwiekszych-zloz-wegla-koksowego-w-europie-de,75211729.html",
+      "body": "Za chwilę będą wydobywać z DĘBIEŃSKA",
       "votes": {
         "up": 0,
         "down": 0
@@ -200,12 +1134,40 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75211197",
-      "author": "Ślusarz",
-      "postedAt": "2026-07-22 16:15",
-      "threadTitle": "Re: W 2026R WYDOBYCIE BĘDZIE ROSŁO Z KWARTAŁU NA KWARTAŁ.",
-      "url": "https://www.bankier.pl/forum/temat_w-2026r-wydobycie-bedzie-roslo-z-kwartalu-na-kwartal,75211131.html",
-      "body": "Tak, te panie z biurowca pójdą na oddziały wydobywcze!",
+      "id": "75212527",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 17:43",
+      "threadTitle": "Re: SKUP, IDĄ DUŻE PAKIETY, JUTRO PEWNIE ZOBACZYMY +5% MOŻE WIECEJ?",
+      "url": "https://www.bankier.pl/forum/temat_skup-ida-duze-pakiety-jutro-pewnie-zobaczymy-5-moze-wiecej,75211743.html",
+      "body": "Kupują",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75212477",
+      "author": "Oj",
+      "postedAt": "2026-07-22 17:40",
+      "threadTitle": "Re: Serdeczne podziękowania dla Admina.",
+      "url": "https://www.bankier.pl/forum/temat_serdeczne-podziekowania-dla-admina,75195557.html",
+      "body": "Pomimo tych komentarzy ja kupuje.Trzymam.Jakos jeszxze tutaj nie straciłem,chociaz ostatnio czekałem na zysk długo.Sprzedałem.Zarobiłem.Czekam na kolejna okazje.Posiadam kilka kilo papiera.No i gram za swoje",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75212453",
+      "author": "zb",
+      "postedAt": "2026-07-22 17:38",
+      "threadTitle": "Re: Serdeczne podziękowania dla Admina.",
+      "url": "https://www.bankier.pl/forum/temat_serdeczne-podziekowania-dla-admina,75195557.html",
+      "body": "Jakich?",
       "votes": {
         "up": 0,
         "down": 0
@@ -214,32 +1176,396 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75211179",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:13",
-      "threadTitle": "⭐ PO CO SPRZEDAWAĆ PONIŻEJ 30 JAK SHORTY KUPIĄ PO 100 ZŁ.⭐",
-      "url": "https://www.bankier.pl/forum/temat_po-co-sprzedawac-ponizej-30-jak-shorty-kupia-po-100-zl,75211179.html",
-      "body": "⭐PO CO SPRZEDAWAĆ PONIŻEJ 30 JAK SHORTY KUPIĄ PO 100 ZŁ.⭐⭐MACIE AKCJE, WYSTAWIAĆ ZLECENIA SPRZEDAŻY PO 100 ZŁ DO KOŃCA ROKU⭐TO NIC NIE KOSZTUJE, W KAŻDEJ CHWILI MOŻNA ZLECENIE ZMIENIĆ / ZMODYFIKOWAĆ.BO JAK NIE WYSTAWICIE ZLECENIA, TO POŻYCZAJĄ WASZE AKCJE I ZBIJAJĄ KURS WASZYMI AKCJAMI.CHYBA NIKT TEGO NIE CHCE.A JAK ZACZNĄ SKUP, BO MUSZĄ ODDAĆ POŻYCZONE AKCJE TO ZAPŁACĄ 100 ZŁ.",
+      "id": "75212415",
+      "author": "Oj",
+      "postedAt": "2026-07-22 17:36",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "No jestem za.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212401",
+      "author": "Mondrala",
+      "postedAt": "2026-07-22 17:35",
+      "threadTitle": "ZZ odchodzących na JOPy i urlopy przedemerytalne",
+      "url": "https://www.bankier.pl/forum/temat_zz-odchodzacych-na-jopy-i-urlopy-przedemerytalne,75212401.html",
+      "body": "To nowy 83 związek zawodowy.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212337",
+      "author": "Misza",
+      "postedAt": "2026-07-22 17:29",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "I się zobaczy czy Bankier też coś usunie.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212335",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 17:29",
+      "threadTitle": "Re: Serdeczne podziękowania dla Admina.",
+      "url": "https://www.bankier.pl/forum/temat_serdeczne-podziekowania-dla-admina,75195557.html",
+      "body": "Stop forumowym naciągaczom !",
       "votes": {
         "up": 0,
         "down": 0
       },
-      "sentimentScore": -0.87,
+      "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75211167",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:12",
-      "threadTitle": "⚡️⭐✅❤️⭐ WYNIKI ZA II KWARTAŁ NA PLUSIE. ⭐❤️✅⭐⚡️",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-ii-kwartal-na-plusie,75211167.html",
-      "body": "⚡️⭐✅❤️⭐ WYNIKI ZA II KWARTAŁ NA PLUSIE. ⭐❤️✅⭐⚡️II kwartał na plusie(...)Jak mówi analityk Jakub Szkopek z Erste Group,(...)II kwartał tego roku powinien być jeszcze lepszy, bo pojawi się efekt wyższych cen węgla, które przełożą się na formuły cenowe JSW. Co więcej, w Chinach doszło do wypadków górniczych. Część kopalń wstrzymała prace w efekcie kontroli. To przełożyło się na mniejsze wydobycie i wyższe ceny węgla koksującego, które przekroczyły 240 USD za tonę – wskazuje analityk. II kwartał w zakresie wyniku EBITDA powinien już przynieść dodatnie wyniki. – Wstępne prognozy mówią o kilkuset mln zł na plusie.cdn",
+      "id": "75212277",
+      "author": "Misza",
+      "postedAt": "2026-07-22 17:25",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Dzisiaj już ponad 250 wpisów na forum. Zróbmy tak jak proponuję. Zobaczymy co się wydarzy.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212279",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 17:25",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Nie karm trolla.",
       "votes": {
         "up": 0,
         "down": 0
       },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75212275",
+      "author": "Edek",
+      "postedAt": "2026-07-22 17:25",
+      "threadTitle": "Re: USA. PALIWO DO WZRSTU GIEŁDY ZOSTAŁO DOLANE.",
+      "url": "https://www.bankier.pl/forum/temat_usa-paliwo-do-wzrstu-gieldy-zostalo-dolane,75212019.html",
+      "body": "Tak ,a kto dolał tego paliwa.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212229",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 17:22",
+      "threadTitle": "Moi drodzy, łyżką nie chochlą.",
+      "url": "https://www.bankier.pl/forum/temat_moi-drodzy-lyzka-nie-chochla,75212229.html",
+      "body": "pomalutku,pomalutku szorcika podtopimya później nangłęboką wodę po 100",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212191",
+      "author": "Misza",
+      "postedAt": "2026-07-22 17:19",
+      "threadTitle": "Re: Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Dobry czy zły pomysł? Może jakiś komentarz.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212149",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 17:15",
+      "threadTitle": "Re: Ubrani po 26 wystąp !",
+      "url": "https://www.bankier.pl/forum/temat_ubrani-po-26-wystap,75190449.html",
+      "body": "Leci niżej.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75212119",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 17:13",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Retau spoko.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212109",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 17:12",
+      "threadTitle": "Re: Studium upadku.",
+      "url": "https://www.bankier.pl/forum/temat_studium-upadku,74912613.html",
+      "body": "Prawda.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75212103",
+      "author": "Misza",
+      "postedAt": "2026-07-22 17:11",
+      "threadTitle": "Forum",
+      "url": "https://www.bankier.pl/forum/temat_forum,75212103.html",
+      "body": "Może Ci co są za wzrostami, jutro nic nie napiszą przez cały dzień. Żadnego wpisu. Zobaczymy co będzie się działo. Taka moja propozycja. Jeden dzień 24 H. To bardzo mało, a może być zabawnie. Przemyślcie to. Dzięki",
+      "votes": {
+        "up": 5,
+        "down": 3
+      },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75212019",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 17:05",
+      "threadTitle": "USA. PALIWO DO WZRSTU GIEŁDY ZOSTAŁO DOLANE.",
+      "url": "https://www.bankier.pl/forum/temat_usa-paliwo-do-wzrstu-gieldy-zostalo-dolane,75212019.html",
+      "body": "Super informacja geopolityczne dla JSW Rakieta będzie gigantyczna",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75211901",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 16:59",
+      "threadTitle": "maxiu,zabierz się do uczciwej roboty!dobrze ci to zrobi",
+      "url": "https://www.bankier.pl/forum/temat_maxiu-zabierz-sie-do-uczciwej-roboty-dobrze-ci-to-zrobi,75211901.html",
+      "body": "a szort bez akcji nie ruszy z miejsca,sprzedamy ale po 100",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75211823",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 16:54",
+      "threadTitle": "Re: Serdeczne podziękowania dla Admina.",
+      "url": "https://www.bankier.pl/forum/temat_serdeczne-podziekowania-dla-admina,75195557.html",
+      "body": "Pozdrawiam ubrańca.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75211779",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 16:52",
+      "threadTitle": "Re: jacek_z_grochowa [78.30.68.*]to oszut grochowski z szortowa:)",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-78-30-68-to-oszut-grochowski-z-szortowa,75211647.html",
+      "body": "razem ze swoimi kumplamintrolami",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75211787",
+      "author": "nawiedzony",
+      "postedAt": "2026-07-22 16:52",
+      "threadTitle": "Re: SKUP, IDĄ DUŻE PAKIETY, JUTRO PEWNIE ZOBACZYMY +5% MOŻE WIECEJ?",
+      "url": "https://www.bankier.pl/forum/temat_skup-ida-duze-pakiety-jutro-pewnie-zobaczymy-5-moze-wiecej,75211743.html",
+      "body": "To prawda od kilku sesji \"ida ogromne paliety\" po 50 - 100 akcji Wypieranie rzeczywistosci nic nie da , to jak z alkoholikiem , który wszystkim udowadnia ze w kazdej chwili moze przestac ,Tak samo jest z toba - tylko terapia moze cie uratowac",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75211729",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 16:49",
+      "threadTitle": "✅TYLKO 3m DZIELI JSW OD NAJWIĘKSZYCH ZŁÓŻ WĘGLA KOKSOWEGO W EUROPIE, DĘ✅",
+      "url": "https://www.bankier.pl/forum/temat_tylko-3m-dzieli-jsw-od-najwiekszych-zloz-wegla-koksowego-w-europie-de,75211729.html",
+      "body": "✅ TYLKO 3 METRY DZIELI JSW OD NAJWIĘKSZYCH ZŁÓŻ WĘGLA KOKSOWEGO W EUROPIE, DĘBIEŃSKO ✅✅ JSW, JESZCZE W TYM ROKU BĘDZIE WYDOBYCIE WĘGLA KOKSOWEGO Z DĘBIEŃSKA ✅Tak, złoża w Dębieńsku (tzw. złoże Dębieńsko 1) są uważane za jedne z największych i najcenniejszych w Europie złóż węgla koksowego.Szacunki zasobów: Zasoby szacowane są na poziomie od 190 mln do nawet ponad 300 mln ton węgla.Charakterystyka: To złoże wysokiej jakości węgla koksowego, który jest kluczowy m.in. dla przemysłu stalowego.Obecny stan: Trwają prace badawcze mające na celu dokładne rozpoznanie geologiczne złoża. Projekt realizuje Jastrzębska Spółka Węglowa (JSW), która w 2026 roku otrzymała koncesję na jego rozpoznanie. Położenie złoża tuż przy kopalni Knurów-Szczygłowice pozwala na wykorzystanie istniejącej infrastruktury.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75211743",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 16:49",
+      "threadTitle": "SKUP, IDĄ DUŻE PAKIETY, JUTRO PEWNIE ZOBACZYMY +5% MOŻE WIECEJ?",
+      "url": "https://www.bankier.pl/forum/temat_skup-ida-duze-pakiety-jutro-pewnie-zobaczymy-5-moze-wiecej,75211743.html",
+      "body": "SKUP, IDĄ DUŻE PAKIETY, JUTRO PEWNIE ZOBACZYMY +5% MOŻE WIECEJ?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75211693",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 16:47",
+      "threadTitle": "Re: ❤️AKTUALNA SYTUACJA NA RYNKU WĘGLA (czerwiec 2026)❤️CENA AKCJI W GÓR",
+      "url": "https://www.bankier.pl/forum/temat_aktualna-sytuacja-na-rynku-wegla-czerwiec-2026-cena-akcji-w-gore,75211415.html",
+      "body": "Dobre informacje geopolityczne dla JSW",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75211647",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 16:44",
+      "threadTitle": "jacek_z_grochowa [78.30.68.*]to oszut grochowski z szortowa:)",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-78-30-68-to-oszut-grochowski-z-szortowa,75211647.html",
+      "body": "akcje trzeba odkupić,żeby wyjść,najlepiej po 100",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75211589",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 16:41",
+      "threadTitle": "Re: ORGR na dziennym",
+      "url": "https://www.bankier.pl/forum/temat_orgr-na-dziennym,75211087.html",
+      "body": "wyglada to dobrze",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75211591",
+      "author": "Olo",
+      "postedAt": "2026-07-22 16:41",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "No tak.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75211535",
+      "author": "Misza",
+      "postedAt": "2026-07-22 16:38",
+      "threadTitle": "Re: Serdeczne podziękowania dla Admina.",
+      "url": "https://www.bankier.pl/forum/temat_serdeczne-podziekowania-dla-admina,75195557.html",
+      "body": "A Ty na spadki możesz naganiać? I pilnować forum i dziesiątki postów pisać.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75211461",
+      "author": "Max",
+      "postedAt": "2026-07-22 16:34",
+      "threadTitle": "Re: Ubrani po 26 wystąp !",
+      "url": "https://www.bankier.pl/forum/temat_ubrani-po-26-wystap,75190449.html",
+      "body": "Niżej Edek, niżej.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75211415",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-07-22 16:30",
+      "threadTitle": "❤️AKTUALNA SYTUACJA NA RYNKU WĘGLA (czerwiec 2026)❤️CENA AKCJI W GÓRĘ",
+      "url": "https://www.bankier.pl/forum/temat_aktualna-sytuacja-na-rynku-wegla-czerwiec-2026-cena-akcji-w-gore,75211415.html",
+      "body": "❤️AKTUALNA SYTUACJA NA RYNKU WĘGLA (czerwiec 2026)❤️CENA AKCJI W GÓRĘ30% cena akcji JSW w górę wybije, czy będzie więcej za chwilę, 50%?● Katastrofa w kopalni Liushenyu (Shanxi, maj 2026): ~82 ofiary, zawieszenie 109 kopalń (319 tys. t/dobę ≈ 10% chińskiej produkcji) — największy szok podażowy od ponad dekady.● Import węgla do Azji w maju 2026: 76,26 mln t (+23% m/m) — wszystkie główne rynki azjatyckie odnotowują wzrosty.● Geopolityka: zastępowanie gazu (kryzys Cieśniny Ormuz) węglem przez azjatyckich odbiorców, wzrost chińskiego importu morskiego do 22,63 mln t w maju 2026.● Węgiel koksowy: cena ~218–240 USD/t (marzec–czerwiec 2026), +18% r/r — napędzany przez sektor stalowy w Indiach i odbudowę chińskiego importu.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75211319",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 16:25",
+      "threadTitle": "Re: ORGR na dziennym",
+      "url": "https://www.bankier.pl/forum/temat_orgr-na-dziennym,75211087.html",
+      "body": "było do przewidzenia",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "75211157",
@@ -256,48 +1582,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75211155",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:11",
-      "threadTitle": "36 zł pewnie w 3Q zobaczymy, z wykresu wynika że to na niedługo.",
-      "url": "https://www.bankier.pl/forum/temat_36-zl-pewnie-w-3q-zobaczymy-z-wykresu-wynika-ze-to-na-niedlugo,75211155.html",
-      "body": "Wyniki z kwartału na kwartał będą coraz lepsze",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75211131",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:10",
-      "threadTitle": "W 2026R WYDOBYCIE BĘDZIE ROSŁO Z KWARTAŁU NA KWARTAŁ.",
-      "url": "https://www.bankier.pl/forum/temat_w-2026r-wydobycie-bedzie-roslo-z-kwartalu-na-kwartal,75211131.html",
-      "body": "Dębieńsko ruszy jeszcze w tym roku ....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75211119",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:09",
-      "threadTitle": "ZA CHWILĘ SKUPUJEMY DO KOŃCA SESJI",
-      "url": "https://www.bankier.pl/forum/temat_za-chwile-skupujemy-do-konca-sesji,75211119.html",
-      "body": "Wyniki będą dobre",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75211095",
       "author": "Paweł",
       "postedAt": "2026-07-22 16:08",
@@ -305,7 +1589,7 @@
       "url": "https://www.bankier.pl/forum/temat_zjazd-jak-zwykle,75210905.html",
       "body": "Na fixie dojadą ubrańców na hakach.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -319,179 +1603,11 @@
       "url": "https://www.bankier.pl/forum/temat_orgr-na-dziennym,75211087.html",
       "body": "Obroty to potwierdzają , pierwszy opór 27 kolejny 30-31 i później już 36 zł",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75211085",
-      "author": "Inwestor",
-      "postedAt": "2026-07-22 16:07",
-      "threadTitle": "Pkp cargo widzieli",
-      "url": "https://www.bankier.pl/forum/temat_pkp-cargo-widzieli,75211085.html",
-      "body": "Tu straciłem 31k",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75211055",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 16:06",
-      "threadTitle": "Re: A gdzie wy się wybieracie z tym 26,30?",
-      "url": "https://www.bankier.pl/forum/temat_a-gdzie-wy-sie-wybieracie-z-tym-26-30,75210973.html",
-      "body": "Samosierra.Forumowa.Szkoda kasy.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75211025",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:04",
-      "threadTitle": "30,5 zł NOWA REKOMENDACJA, KUPUJ od Erste Securities",
-      "url": "https://www.bankier.pl/forum/temat_30-5-zl-nowa-rekomendacja-kupuj-od-erste-securities,75211025.html",
-      "body": "Najnowsza rekomendacja",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75211021",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:04",
-      "threadTitle": "36 zł już w tym roku było. za chwilę będzie ponownie.",
-      "url": "https://www.bankier.pl/forum/temat_36-zl-juz-w-tym-roku-bylo-za-chwile-bedzie-ponownie,75211021.html",
-      "body": "TFI KUPUJĄ",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75211011",
-      "author": "Edek",
-      "postedAt": "2026-07-22 16:03",
-      "threadTitle": "Re: Cena węgla koksowego będzie spadać do 200 dolarów",
-      "url": "https://www.bankier.pl/forum/temat_cena-wegla-koksowego-bedzie-spadac-do-200-dolarow,75210741.html",
-      "body": "To rezerwój dla mnie kolejkę po te 180.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75211015",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:03",
-      "threadTitle": "DOKUPIONE I WYSTAWIONE NA 100. Taniej nie będzie",
-      "url": "https://www.bankier.pl/forum/temat_dokupione-i-wystawione-na-100-taniej-nie-bedzie,75211015.html",
-      "body": "Taniej nie będzie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75211001",
-      "author": "Olo",
-      "postedAt": "2026-07-22 16:03",
-      "threadTitle": "Re: Maksiu, porządek na forum zapanuje jak znikniesz raz na zawsze...",
-      "url": "https://www.bankier.pl/forum/temat_maksiu-porzadek-na-forum-zapanuje-jak-znikniesz-raz-na-zawsze,75210955.html",
-      "body": "Antyrozumny, na to bym nie liczył. Ale trolluj dalej.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210999",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 16:02",
-      "threadTitle": "STRASZĄ DALEJ CZYLI CHCĄ AKCJE KUPIĆ",
-      "url": "https://www.bankier.pl/forum/temat_strasza-dalej-czyli-chca-akcje-kupic,75210999.html",
-      "body": "Już kupują fundusze....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210973",
-      "author": "Olo",
-      "postedAt": "2026-07-22 16:00",
-      "threadTitle": "A gdzie wy się wybieracie z tym 26,30?",
-      "url": "https://www.bankier.pl/forum/temat_a-gdzie-wy-sie-wybieracie-z-tym-26-30,75210973.html",
-      "body": "No gdzie?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210969",
-      "author": "Edek",
-      "postedAt": "2026-07-22 16:00",
-      "threadTitle": "Re: Węgiel koksowy w tym roku będzie po 200 dolarów albo niżej",
-      "url": "https://www.bankier.pl/forum/temat_wegiel-koksowy-w-tym-roku-bedzie-po-200-dolarow-albo-nizej,75210689.html",
-      "body": "To super bo muszę kupić na zimę.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210955",
-      "author": "Antytrol",
-      "postedAt": "2026-07-22 15:59",
-      "threadTitle": "Maksiu, porządek na forum zapanuje jak znikniesz raz na zawsze...",
-      "url": "https://www.bankier.pl/forum/temat_maksiu-porzadek-na-forum-zapanuje-jak-znikniesz-raz-na-zawsze,75210955.html",
-      "body": "i mam nadzieję, że nastąpi to niebawem bo twoja bytność tu przestanie mieć rację bytu i dostaniesz kick w sam środek twego od bytu",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210937",
-      "author": "Edek",
-      "postedAt": "2026-07-22 15:58",
-      "threadTitle": "Re: Indonezja zalewa węglem Polskę i Europe",
-      "url": "https://www.bankier.pl/forum/temat_indonezja-zalewa-weglem-polske-i-europe,75210711.html",
-      "body": "No to super. Po co kopać.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75210905",
@@ -501,8 +1617,8 @@
       "url": "https://www.bankier.pl/forum/temat_zjazd-jak-zwykle,75210905.html",
       "body": "Śmiesznie to zaczyna wyglądać. Dzień jak co dzień.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -522,538 +1638,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75210851",
-      "author": "REX",
-      "postedAt": "2026-07-22 15:51",
-      "threadTitle": "Re: Indonezja zalewa węglem Polskę i Europe",
-      "url": "https://www.bankier.pl/forum/temat_indonezja-zalewa-weglem-polske-i-europe,75210711.html",
-      "body": "Na obecną chwile z indonecji kupujemy znikoma ilość węgla w stosunku do roku 2022-2023 gdzie wydalismy około 20 mld/zl za przyslowiowy wegiel a wiekszości opisali to jako błoto .Swoją wypowiedż podeprzyj konkretnymi artykułami a nie wysysaj głupot ze swego kciuka , nagadziasz na sprzedaż lecz bardzo nieudolnie .",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210799",
-      "author": "Rumcajs",
-      "postedAt": "2026-07-22 15:48",
-      "threadTitle": "Re: Indonezja zalewa węglem Polskę i Europe",
-      "url": "https://www.bankier.pl/forum/temat_indonezja-zalewa-weglem-polske-i-europe,75210711.html",
-      "body": "To sobie kup a nie płacz na forum",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210787",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:47",
-      "threadTitle": "Re: -28% od górki z 23.03.2026.",
-      "url": "https://www.bankier.pl/forum/temat_28-od-gorki-z-23-03-2026,75210499.html",
-      "body": "ATH 142 zł.Rok 2012.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210741",
-      "author": "Brando25",
-      "postedAt": "2026-07-22 15:43",
-      "threadTitle": "Cena węgla koksowego będzie spadać do 200 dolarów",
-      "url": "https://www.bankier.pl/forum/temat_cena-wegla-koksowego-bedzie-spadac-do-200-dolarow,75210741.html",
-      "body": "To JSW BĘDZIE SPRZEDAWAĆ PO 180 DOLCÓW",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210725",
-      "author": "Antytrol",
-      "postedAt": "2026-07-22 15:42",
-      "threadTitle": "To mimo wszystko nadal +26% od dołka z 9 grudnia",
-      "url": "https://www.bankier.pl/forum/temat_to-mimo-wszystko-nadal-26-od-dolka-z-9-grudnia,75210725.html",
-      "body": "a będzie IMHO dużo więcejPozdrawiam wytrwałych!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210711",
-      "author": "Brando25",
-      "postedAt": "2026-07-22 15:41",
-      "threadTitle": "Indonezja zalewa węglem Polskę i Europe",
-      "url": "https://www.bankier.pl/forum/temat_indonezja-zalewa-weglem-polske-i-europe,75210711.html",
-      "body": "Taka prawda",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210689",
-      "author": "Brando25",
-      "postedAt": "2026-07-22 15:40",
-      "threadTitle": "Węgiel koksowy w tym roku będzie po 200 dolarów albo niżej",
-      "url": "https://www.bankier.pl/forum/temat_wegiel-koksowy-w-tym-roku-bedzie-po-200-dolarow-albo-nizej,75210689.html",
-      "body": "Niestety",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210703",
-      "author": "Olo",
-      "postedAt": "2026-07-22 15:40",
-      "threadTitle": "Re: Po co kupować po 100, jak po 28 nie ma chętnych ?",
-      "url": "https://www.bankier.pl/forum/temat_po-co-kupowac-po-100-jak-po-28-nie-ma-chetnych,74160405.html",
-      "body": "26 to drogo.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210683",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:39",
-      "threadTitle": "Zakupy - czas start. PÓKI AKCJE PONIŻEJ 28 ZŁ",
-      "url": "https://www.bankier.pl/forum/temat_zakupy-czas-start-poki-akcje-ponizej-28-zl,75210683.html",
-      "body": "Za chwilę będą kupować akcje JSW po 32zł i będą się cieszyć40zł na horyzoncie widać",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210681",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:39",
-      "threadTitle": "Dlaczego tutaj tylu troli szorta?To bicie piany.",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-tutaj-tylu-troli-szorta-to-bicie-piany,75210681.html",
-      "body": "Kto sprzeda teraz akcje JSW?Kiedy zaczyna się dziać na plus.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210677",
-      "author": "Olo",
-      "postedAt": "2026-07-22 15:39",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Znowu nie pykło. No pech.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210663",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:38",
-      "threadTitle": "36 musimy przebić w 3Q, shorty nam w tym pomogą , buhahaha",
-      "url": "https://www.bankier.pl/forum/temat_36-musimy-przebic-w-3q-shorty-nam-w-tym-pomoga-buhahaha,75210663.html",
-      "body": "Skup shortów za chwilę będzie. 7 000 000 akcji muszą odkupić by oddać.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210645",
-      "author": "Olo",
-      "postedAt": "2026-07-22 15:37",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Tak będzie.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210643",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:37",
-      "threadTitle": "Nikt tego nie sprzedaje za bezcen,teraz trzeba kupować i akumulować.",
-      "url": "https://www.bankier.pl/forum/temat_nikt-tego-nie-sprzedaje-za-bezcen-teraz-trzeba-kupowac-i-akumulowac,75210643.html",
-      "body": "Szort tanią sprzedażą poddaje się nieświadomie.Do tego pożyczone.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.964,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210637",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:36",
-      "threadTitle": "WYDOBYCIE Z DĘBIEŃSKA W TYM ROKU, DAJCIE LINK",
-      "url": "https://www.bankier.pl/forum/temat_wydobycie-z-debienska-w-tym-roku-dajcie-link,75210637.html",
-      "body": "Jest informacja o planach dotyczących wydobycia",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210615",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:35",
-      "threadTitle": "JELEŃ, BARAN I OSIOŁ MYŚLĄ ŻE KTOŚ IM AKCJE ODDA PRZED WYBICIEM W GÓRĘ.",
-      "url": "https://www.bankier.pl/forum/temat_jelen-baran-i-osiol-mysla-ze-ktos-im-akcje-odda-przed-wybiciem-w-gore,75210615.html",
-      "body": "Za chwilę będą kupować wszyscy",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210611",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:34",
-      "threadTitle": "Szort bezmyślnie oddaje akcje po taniości,bierzemy.",
-      "url": "https://www.bankier.pl/forum/temat_szort-bezmyslnie-oddaje-akcje-po-taniosci-bierzemy,75210611.html",
-      "body": "Sztką nie jest zbicie kursu,a akcje są tracone przez szorta,tym lepiejdla akcjonariuszy.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210597",
-      "author": "Matematyk",
-      "postedAt": "2026-07-22 15:34",
-      "threadTitle": "Re: Dzisiaj o ACF-ach nie piszemy",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-o-acf-ach-nie-piszemy,75210439.html",
-      "body": "Czy tam jest taka sama spekula jak np na zlocie czy srebrze?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210593",
-      "author": "Brando25",
-      "postedAt": "2026-07-22 15:33",
-      "threadTitle": "Re: Kupujcie dają poniżej 26 zł warto dokupić",
-      "url": "https://www.bankier.pl/forum/temat_kupujcie-daja-ponizej-26-zl-warto-dokupic,75210579.html",
-      "body": "Wszystko wam wyzbieraja",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210581",
-      "author": "Wsp",
-      "postedAt": "2026-07-22 15:32",
-      "threadTitle": "Re: Dzisiaj o ACF-ach nie piszemy",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-o-acf-ach-nie-piszemy,75210439.html",
-      "body": "Kierunek upadlosc",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210571",
-      "author": "Matematyk",
-      "postedAt": "2026-07-22 15:32",
-      "threadTitle": "Re: Dzisiaj o ACF-ach nie piszemy",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-o-acf-ach-nie-piszemy,75210439.html",
-      "body": "Ja bym chcial sie dowiedziec dlaczego te kontrakty spadaja jak w Chinach spadlo wydobycie?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210579",
-      "author": "Brando25",
-      "postedAt": "2026-07-22 15:32",
-      "threadTitle": "Kupujcie dają poniżej 26 zł warto dokupić",
-      "url": "https://www.bankier.pl/forum/temat_kupujcie-daja-ponizej-26-zl-warto-dokupic,75210579.html",
-      "body": "Ja dokupiłem 500 szt po 25,97",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210587",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:32",
-      "threadTitle": "Bardzo dobry zakup,takich potrzeba ,szort musi akcje oddać.",
-      "url": "https://www.bankier.pl/forum/temat_bardzo-dobry-zakup-takich-potrzeba-szort-musi-akcje-oddac,75210587.html",
-      "body": "Miliony akcji do addania,na pewno sporo się utłucze.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210559",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:31",
-      "threadTitle": "Jest szansa na ogromne zarobki,trzeba kupować póki tanio.",
-      "url": "https://www.bankier.pl/forum/temat_jest-szansa-na-ogromne-zarobki-trzeba-kupowac-poki-tanio,75210559.html",
-      "body": "Kupujemy akcje i na 100.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210551",
-      "author": "Brando25",
-      "postedAt": "2026-07-22 15:30",
-      "threadTitle": "Kupione po 25,97 JSW 500 szt",
-      "url": "https://www.bankier.pl/forum/temat_kupione-po-25-97-jsw-500-szt,75210551.html",
-      "body": "Dziękuję",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210543",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:30",
-      "threadTitle": "Na horyzoncie 30 za akcję.",
-      "url": "https://www.bankier.pl/forum/temat_na-horyzoncie-30-za-akcje,75210543.html",
-      "body": "Warto kupować,póki tanio.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210539",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:29",
-      "threadTitle": "Karuzela marzeń.",
-      "url": "https://www.bankier.pl/forum/temat_karuzela-marzen,75210539.html",
-      "body": "Poniedziałek -0,38%Wtorek -0,27%Środa Tik tak.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210525",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:29",
-      "threadTitle": "Kupujemy i blokujemy akcje.",
-      "url": "https://www.bankier.pl/forum/temat_kupujemy-i-blokujemy-akcje,75210525.html",
-      "body": "To dobra droga do zmuszenia szorta do wykupu.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210499",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:27",
-      "threadTitle": "-28% od górki z 23.03.2026.",
-      "url": "https://www.bankier.pl/forum/temat_28-od-gorki-z-23-03-2026,75210499.html",
-      "body": "-80% od IPO (136 zł.)",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210493",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:27",
-      "threadTitle": "Re: Admin na Maxa sprzedajny!",
-      "url": "https://www.bankier.pl/forum/temat_admin-na-maxa-sprzedajny,75209655.html",
-      "body": "szortowi to nie pomoże,akcje musi odkupić",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210481",
-      "author": "Olo",
-      "postedAt": "2026-07-22 15:26",
-      "threadTitle": "Re: Podrzuć komuś innemu tego gorącego kartofla.",
-      "url": "https://www.bankier.pl/forum/temat_podrzuc-komus-innemu-tego-goracego-kartofla,75190443.html",
-      "body": "Kurs tonie.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210477",
-      "author": "Brando25",
-      "postedAt": "2026-07-22 15:25",
-      "threadTitle": "Barbórka ma być wypłacona do końca sierpniu info ze związków",
-      "url": "https://www.bankier.pl/forum/temat_barborka-ma-byc-wyplacona-do-konca-sierpniu-info-ze-zwiazkow,75210477.html",
-      "body": "Super",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210439",
-      "author": "Mondrala",
-      "postedAt": "2026-07-22 15:23",
-      "threadTitle": "Dzisiaj o ACF-ach nie piszemy",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-o-acf-ach-nie-piszemy,75210439.html",
-      "body": "Bo o czym tu pisać.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210449",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:23",
-      "threadTitle": "~Max [91.94.66.*] i frajer szortowy",
-      "url": "https://www.bankier.pl/forum/temat_max-91-94-66-i-frajer-szortowy,75210449.html",
-      "body": "do oddania 16 mln akcji",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210427",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:22",
-      "threadTitle": "Re: Admin na Maxa sprzedajny!",
-      "url": "https://www.bankier.pl/forum/temat_admin-na-maxa-sprzedajny,75209655.html",
-      "body": "dla maxia i ferajny,matko!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210407",
-      "author": "Olo",
-      "postedAt": "2026-07-22 15:21",
-      "threadTitle": "Re: Matko jaki to jest crap.",
-      "url": "https://www.bankier.pl/forum/temat_matko-jaki-to-jest-crap,75185165.html",
-      "body": "I przez ten rok nic się nie zmieni.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210397",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:20",
-      "threadTitle": "~Max [91.94.66.*] padaka szortowy",
-      "url": "https://www.bankier.pl/forum/temat_max-91-94-66-padaka-szortowy,75210397.html",
-      "body": "a szorty bez odkupu akcji nie wyjda",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210371",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:19",
-      "threadTitle": "Re: 36 było i za chwilę będzie...., czy będzie 45zł?",
-      "url": "https://www.bankier.pl/forum/temat_36-bylo-i-za-chwile-bedzie-czy-bedzie-45zl,75210077.html",
-      "body": "szorty akcje kupią bo muszą",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75210369",
       "author": "Olo",
       "postedAt": "2026-07-22 15:19",
@@ -1062,7 +1646,7 @@
       "body": "Życie nie znosi próżni.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1082,244 +1666,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75210287",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:14",
-      "threadTitle": "Re: Jeszcze w tym roku będzie wydobycie z DĘBIEŃSKA.",
-      "url": "https://www.bankier.pl/forum/temat_jeszcze-w-tym-roku-bedzie-wydobycie-z-debienska,75196587.html",
-      "body": "Do: tekkaiTelefon na anal.?Kolego, analitycy piszą 45-49 to nie jest długość, to cena akcji JSW w tym roku.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210227",
-      "author": "Brando25",
-      "postedAt": "2026-07-22 15:11",
-      "threadTitle": "Re: ⭐NIKT MĄDRY NIE SPRZEDA JSW, WIEDZĄC ŻE ZA CHWILĘ WYBICIE W GÓRĘ BĘD",
-      "url": "https://www.bankier.pl/forum/temat_nikt-madry-nie-sprzeda-jsw-wiedzac-ze-za-chwile-wybicie-w-gore-bedzie,75203073.html",
-      "body": "Ochłoń dziecko",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210195",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:09",
-      "threadTitle": "Re: ✅KONIEC ROZEJMU USA-IRAN, WĘGIEL KOKSOWY W AZJI ZA CHWILĘ PO 350 $ U",
-      "url": "https://www.bankier.pl/forum/temat_koniec-rozejmu-usa-iran-wegiel-koksowy-w-azji-za-chwile-po-350-usa,75203025.html",
-      "body": "Surowce w górę za chwilę kolejne na węgiel koksowy",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210205",
-      "author": "Brando25",
-      "postedAt": "2026-07-22 15:09",
-      "threadTitle": "Re: ✅KONIEC ROZEJMU USA-IRAN, WĘGIEL KOKSOWY W AZJI ZA CHWILĘ PO 350 $ U",
-      "url": "https://www.bankier.pl/forum/temat_koniec-rozejmu-usa-iran-wegiel-koksowy-w-azji-za-chwile-po-350-usa,75203025.html",
-      "body": "Niepoważny jesteś",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210203",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:09",
-      "threadTitle": "Re: ❤️AKTUALNA SYTUACJA NA RYNKU WĘGLA (czerwiec 2026)❤️CENA W GÓRĘ",
-      "url": "https://www.bankier.pl/forum/temat_aktualna-sytuacja-na-rynku-wegla-czerwiec-2026-cena-w-gore,75203023.html",
-      "body": "● Katastrofa w kopalni Liushenyu (Shanxi, maj 2026): ~82 ofiary, zawieszenie 109 kopalń (319 tys. t/dobę ≈ 10% chińskiej produkcji) — największy szok podażowy od ponad dekady.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210189",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:09",
-      "threadTitle": "Re: The Ecstasy of Koks.",
-      "url": "https://www.bankier.pl/forum/temat_the-ecstasy-of-koks,74547457.html",
-      "body": "Sprawdza się.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210171",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:08",
-      "threadTitle": "Re: ⭐NIKT MĄDRY NIE SPRZEDA JSW, WIEDZĄC ŻE ZA CHWILĘ WYBICIE W GÓRĘ BĘD",
-      "url": "https://www.bankier.pl/forum/temat_nikt-madry-nie-sprzeda-jsw-wiedzac-ze-za-chwile-wybicie-w-gore-bedzie,75203073.html",
-      "body": "Wyniki będą bardzo dobre. Z kwartału na kwartał coraz lepsze",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210147",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:06",
-      "threadTitle": "Re: ❤️ JSW MA 3 METRY DO GIGANTYCZNYCH ZŁÓŻ DĘBIEŃSKA 1 ❤️",
-      "url": "https://www.bankier.pl/forum/temat_jsw-ma-3-metry-do-gigantycznych-zloz-debienska-1,75203105.html",
-      "body": "Za chwilę będą wydobywać z DĘBIEŃSKA",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210145",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:06",
-      "threadTitle": "Re: QRT i Numeryczni, czyli zostało kilka dni:)",
-      "url": "https://www.bankier.pl/forum/temat_qrt-i-numeryczni-czyli-zostalo-kilka-dni,74699247.html",
-      "body": "Daleko jeszcze ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75210121",
-      "author": "tekkai",
-      "postedAt": "2026-07-22 15:05",
-      "threadTitle": "Re: JSW, CZY TO BĘDZIE KOLEJNE CCC, W 1 ROK 300% UROŚNIE.",
-      "url": "https://www.bankier.pl/forum/temat_jsw-czy-to-bedzie-kolejne-ccc-w-1-rok-300-urosnie,75210103.html",
-      "body": "Miałem akcje solidnej spółki przez lata i była to stabilna maszyna do procentu składanego. Potem zarząd ogłosił gigantyczne przejęcie, płacąc ogromną premię z pożyczonych pieniędzy. Kibicowałem tej wiadomości, przekonany, że transakcja stworzy wartość. Nie stworzyła. Integracja się nie powiodła, dług eksplodował, a kurs się przepołowił. Straciłem 5 400 € na spółce, której ufałem przez dekadę. Laura G. Prescott na Facebooku nauczyła mnie badać aktywność M&A i sprawdzać, czy zarząd ma historię niszczących wartość transakcji. Dała mi też zasadę, by przycinać każdą pozycję, gdy ogłaszane jest ryzykowne przejęcie. Zacząłem od nowa z 2 300 € pod jej okiem i w cztery miesiące zamieniłem to na 36 800 € zysku. Dała mi system zarządzania portfelem, który monitoruje ład korporacyjny. Jeśli przejęcie kiedykolwiek zniszczyło akcję, którą kochałeś, napisz do niej na WhatsApp: +44-.7460.023.003",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210109",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:04",
-      "threadTitle": "Re: ❤️ZBROJENIÓWKA NA ŚWIECIE DOPIERO RUSZA W 2 POŁOWIE ROKU 2026R ❤️",
-      "url": "https://www.bankier.pl/forum/temat_zbrojeniowka-na-swiecie-dopiero-rusza-w-2-polowie-roku-2026r,75203071.html",
-      "body": "Gigantyczne zyski w kolejnych kwartałach",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210113",
-      "author": "Olo",
-      "postedAt": "2026-07-22 15:04",
-      "threadTitle": "Re: Ostatni dołek 24,11.",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-dolek-24-11,75144871.html",
-      "body": "Żabę gotują, czekać!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210111",
-      "author": "Brando25",
-      "postedAt": "2026-07-22 15:04",
-      "threadTitle": "Re: Czy JP Morgan kupi akcje JSW?:)",
-      "url": "https://www.bankier.pl/forum/temat_czy-jp-morgan-kupi-akcje-jsw,75204533.html",
-      "body": "Tak wywalają fundusze",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75210103",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:03",
-      "threadTitle": "JSW, CZY TO BĘDZIE KOLEJNE CCC, W 1 ROK 300% UROŚNIE.",
-      "url": "https://www.bankier.pl/forum/temat_jsw-czy-to-bedzie-kolejne-ccc-w-1-rok-300-urosnie,75210103.html",
-      "body": "Fundusze kupują tanie akcje JSW na potęgę",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210085",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:02",
-      "threadTitle": "Re: Czy JP Morgan kupi akcje JSW?:)",
-      "url": "https://www.bankier.pl/forum/temat_czy-jp-morgan-kupi-akcje-jsw,75204533.html",
-      "body": "Fundusze kupują tanie akcje JSW",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210077",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 15:01",
-      "threadTitle": "36 było i za chwilę będzie...., czy będzie 45zł?",
-      "url": "https://www.bankier.pl/forum/temat_36-bylo-i-za-chwile-bedzie-czy-bedzie-45zl,75210077.html",
-      "body": "Fundusze kupują",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75210067",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 15:00",
-      "threadTitle": "Re: Moi drodzy, łyżką nie chochlą.",
-      "url": "https://www.bankier.pl/forum/temat_moi-drodzy-lyzka-nie-chochla,75199799.html",
-      "body": "No właśnie lecą.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75209813",
       "author": "Gilafa",
       "postedAt": "2026-07-22 14:43",
@@ -1328,7 +1674,7 @@
       "body": "Jeszcze tylko parę ich kobitek się od nich odwróci, to ich życie już zostanie całkowicie oczyszczone z zajmowania się głupotami.",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1348,20 +1694,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75209655",
-      "author": "Antytrol",
-      "postedAt": "2026-07-22 14:32",
-      "threadTitle": "Admin na Maxa sprzedajny!",
-      "url": "https://www.bankier.pl/forum/temat_admin-na-maxa-sprzedajny,75209655.html",
-      "body": "Masakra!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75209609",
       "author": "Max",
       "postedAt": "2026-07-22 14:28",
@@ -1376,34 +1708,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75209315",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 14:10",
-      "threadTitle": "Re: Moi drodzy, łyżką nie chochlą.",
-      "url": "https://www.bankier.pl/forum/temat_moi-drodzy-lyzka-nie-chochla,75199799.html",
-      "body": "Racja.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75209155",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 13:56",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Czas pokaże, ale raczej na długo.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75208933",
       "author": "Max",
       "postedAt": "2026-07-22 13:41",
@@ -1411,8 +1715,8 @@
       "url": "https://www.bankier.pl/forum/temat_widze-ze-na-tym-forum-w-koncu-zapanowal-lad-i-porzadek,75208933.html",
       "body": "A trolle nagony na hakach są systematycznie banowani.Podoba mi się to.I to się nie zmieni, dosyć oszukiwania tu ludzi i grabienia z oszczędności.Tik tak.",
       "votes": {
-        "up": 2,
-        "down": 3
+        "up": 3,
+        "down": 6
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -1432,12 +1736,12 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75208151",
+      "id": "75207787",
       "author": "Paweł",
-      "postedAt": "2026-07-22 12:51",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Popytu brak.",
+      "postedAt": "2026-07-22 12:27",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Czekamy cierpliwie.",
       "votes": {
         "up": 0,
         "down": 0
@@ -1446,32 +1750,18 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75208035",
+      "id": "75207699",
       "author": "Paweł",
-      "postedAt": "2026-07-22 12:45",
-      "threadTitle": "Re: Ostatni dołek 24,11.",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-dolek-24-11,75144871.html",
-      "body": "Się zobaczy, narazie mielonka.",
+      "postedAt": "2026-07-22 12:22",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Zgoda.",
       "votes": {
         "up": 0,
         "down": 0
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75207897",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 12:36",
-      "threadTitle": "Re: Moi drodzy, łyżką nie chochlą.",
-      "url": "https://www.bankier.pl/forum/temat_moi-drodzy-lyzka-nie-chochla,75199799.html",
-      "body": "Dzisiaj też zamkną na małym minusie.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75207455",
@@ -1482,7 +1772,7 @@
       "body": "Dzięki Admin.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1500,132 +1790,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75206715",
-      "author": "Tusk",
-      "postedAt": "2026-07-22 11:19",
-      "threadTitle": "Re: Czy JP Morgan kupi akcje JSW?:)",
-      "url": "https://www.bankier.pl/forum/temat_czy-jp-morgan-kupi-akcje-jsw,75204533.html",
-      "body": "Zgadam się z Kolegą. Dodam jednak, że polskie akcje en masse są bardzo nisko wycenione. Wystarczy porównać choćby wycenę akcji Orlenu z innymi spólka z tego sektora w Europie, czy na świecie. Przypomnę, że obecnie WIG20 jest na poziomie z 2007 roku, sprzed kryzysu Lehman Brothers. 19 lat trwało odbudowania WIG20, a gdzie wzrosty odzwierciedlające rozwój spólek i ich majatek? Porównajcie sobie Dax z WIG20 na przestrzeni tych 19 lat. Dax z ok. 3900 pkt urósł do > 25 000 okt, czyli > 6 razy. A WIG20? No własnie, z 3940 pkt po 17 latach jest na poziomie zbliżonym, czyli nie urósł wcale Na giełdach zachodnich już więcej się nie da zarobić w krótkiej perspektywie, ale przykładowo w Warszawie potencjał wzrostu jest jeszcze całkiem spory.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75206607",
-      "author": "STRZĄSAMY-CZOSNEK",
-      "postedAt": "2026-07-22 11:12",
-      "threadTitle": "Re: Czy JP Morgan kupi akcje JSW?:)",
-      "url": "https://www.bankier.pl/forum/temat_czy-jp-morgan-kupi-akcje-jsw,75204533.html",
-      "body": "Dzięki dziwne że jeszcze nie usunęli. Coś się święci dawno tak nie usuwali",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75205851",
-      "author": "Misza",
-      "postedAt": "2026-07-22 10:24",
-      "threadTitle": "Re: Czy JP Morgan kupi akcje JSW?:)",
-      "url": "https://www.bankier.pl/forum/temat_czy-jp-morgan-kupi-akcje-jsw,75204533.html",
-      "body": "Nie marudź, tylko kupuj akcje JSW I czekaj na wzrosty. A jak nie kupujesz i nie posiadasz akcji to dziękuję za uwagę. Pozdrawiam",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75205459",
-      "author": "Hhh",
-      "postedAt": "2026-07-22 10:03",
-      "threadTitle": "Re: Czy JP Morgan kupi akcje JSW?:)",
-      "url": "https://www.bankier.pl/forum/temat_czy-jp-morgan-kupi-akcje-jsw,75204533.html",
-      "body": "Już od lat nie może się zdarzyć zawsze skądś maja akcje",
-      "votes": {
-        "up": 1,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75205369",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 09:57",
-      "threadTitle": "Re: Czy JP Morgan kupi akcje JSW?:)",
-      "url": "https://www.bankier.pl/forum/temat_czy-jp-morgan-kupi-akcje-jsw,75204533.html",
-      "body": "i pewnie się zdarzy",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75205311",
-      "author": "Mario",
-      "postedAt": "2026-07-22 09:54",
-      "threadTitle": "Re: Czy JP Morgan kupi akcje JSW?:)",
-      "url": "https://www.bankier.pl/forum/temat_czy-jp-morgan-kupi-akcje-jsw,75204533.html",
-      "body": "Patrząc na to szerzej, jeśli scenariusz Dimona (wyższa inflacja, wyższe stopy, większa zmienność) rzeczywiście się zmaterializuje, bardziej prawdopodobne jest, że kapitał będzie szukał tanich spółek surowcowych niż drogich spółek technologicznych. Pod tym względem JSW wpisuje się w sektor, który mógłby skorzystać, według mnie potrzebny jest jedynie impuls i będziemy mieli powtórkę charakterystyczną dla tej spółki w poprzednich cyklach surowcowych. Świat nie staje się bezpieczniejszy a dążęnie do skracania łańcucha dostaw staje się powoli nowa rzeczywistością.",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75205137",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 09:43",
-      "threadTitle": "Re: ❤️ZBROJENIÓWKA NA ŚWIECIE DOPIERO RUSZA W 2 POŁOWIE ROKU 2026R ❤️",
-      "url": "https://www.bankier.pl/forum/temat_zbrojeniowka-na-swiecie-dopiero-rusza-w-2-polowie-roku-2026r,75203071.html",
-      "body": "Bez JSW nie ma stali A tu stal będzie potrzebna",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75205091",
-      "author": "Tusk",
-      "postedAt": "2026-07-22 09:40",
-      "threadTitle": "Re: Czy JP Morgan kupi akcje JSW?:)",
-      "url": "https://www.bankier.pl/forum/temat_czy-jp-morgan-kupi-akcje-jsw,75204533.html",
-      "body": "3,625 mln akcji - taki jest dotychczasowy wolumen obrotów w lipcu. +5,93% - taki jest, jak dotąd, wzrost wartości spółki w lipcu. Średnio na sesję w tym miesiącu obrót wynosi 0,278 mln akcji. Dla porównania - w pierwszym półroczu wolumen obrotów wyniósł 92,320 mln akcji, średnio na sesję 0,738 mln akcji. Spadek wolumenu obrotów jest ogromny i pogłębia się. W tym miesiącu szacowany wolumen obrotów wyniesie prawdopodobnie 6,394 mln akcji, czyli najmniej w tym roku. Poprzedni najniższy wolumen obrotów wynosił 9,93 mln akcji (maj). Dodatkowo spada również udział sesji spadkowych w miesięcznym zestawieniu. W tym miesiącu sesji spadkowych było - jak dotąd - tylko cztery na 13 w sumie (25%). Udział sesji spadkowych JSW w I półroczu wynosi 40%. Nic nie zapowiada obecnie, żeby w tym miesiącu udział sesji spadkowych się istotnie zwiększył. Dlaczego? Dlatego, że spadki wywołuje przede wszystkim podaż akcji pożyczanych przez szorciarzy. Tych akcji jest coraz mniej. W ostatni piątek UT wyniosła 93,83%, czyli niezrealizowana oferta pożyczkowa opiewała na około 0,455 mln akcji. CTB rośnie. 1 lipca za pożyczane akcje szorciarze płacili średnio 8,12%, w ostatni piątek 8,56%. Pamiętajmy o blokowaniu akcji w arkuszu zleceń S, w innym wypadku brokerzy mogą je oferować szorciarzom, a ci z kolei używają ich do tłuczenia kursu. Tu: https://x.com/GPW_Trader2022/status/2078082061454201027/photo/1Szorciarze pożyczają coraz mniej akcji i coraz rzadziej. Ostatnia pożyczka został ujawniona 16 lipca, czyli uwzględniając 5-dniowe opóźnienie raportu, miała miejsce 10 lipca. 7 lipca po raz ostatni w tym miesiącu szorciarze zmniejszyli nieznacznie zadłużenie, o 0,05 mln akcji. Jakie płyną z tego wnioski? Koszty pożyczek są horrendalnie wysokie i szorciarze wolą obecnie używać do tłuczenia kursu akcji JSW, które kupują w trakcie sesji, na przykład od zaprzyjaźnionych funduszy. Jednak wolumeny obrotów drastycznie spadają, a zatem możliwości pozyskiwania w ten sposób akcji do tłuczenia kursu kurczą się. Szorciarze znaleźli się w pułapce. Żeby skutecznie tłuc kurs muszą mieć sporo akcji, albo z pożyczek od brokerów, albo kupowanych na bieżąco na rynku. Tych jednak brakuje na rynku przy obecnych cenach. Pozostają zatem pożyczki od brokerów, ale i tutaj oferta jest skromna, 0,455 mln akcji. Przypomnę, że głębsze stłuczenie kursu wymagało przykładowo w lutym tego roku pożyczenia 2,28 mln akcji, a w kwietniu 2,25 mln akcji i w czerwcu 2,24 mln akcji. Wywoływane w ten sposób spadki kursu okazywały się jednak krótkotrwałe. Od początku roku wycena giełdowa JSW zwiększyła się o 11,36%. Znikąd nadziei dla szorciarzy, czyż nie?:) Szorciarze borykają się od pewnego czasu z problemem taniego pożyczania akcji. Dlatego prawdopodobnie korzystają z pomocy zaprzyjaźnionych funduszy inwestycyjnych. W drugim kwartale tego roku prawdopodobnie korzystali z akcji TFI Rockbridge, który sprzedał 0,423 mln akcji, zostawiając sobie w portfelu, wiadomo dlaczego, 73 walory JSW.:) Taka pomoc kosztuje, ponieważ te akcje trzeba będzie prawdopodobnie zwrócić lub w inny sposób zrekompensować funduszom koszty takich transakcji. Spodziewam się, że TFI Rockbridge odkupi w kolejnych miesiącach w/w 0,423 mln akcji, tak jak wcześniej, w ubiegłym roku, TFI Goldman odkupił na rynku sprzedane wcześniej 0,547 mln akcji, a nawet później, w Iq 2026 roku, dokupił jeszcze całkiem sporo (0,241 mln akcji). Reasumując, takie akcje doliczam do potencjalnego popytu w związku z zamykaniem pozycji krótkich na JSW przez szorciarzy. Tu: https://stooq.pl/q/h/?s=jswKiedy dojdzie do \"wyciskania\"? Ja tego oczywiście nie wiem, ale jesteśmy już zdecydowanie bliżej tego dnia niż kilka miesięcy wcześniej. Poprawa efektywności działalności spółki w rezultacie wdrożenia przez zarząd programu naprawczego (m.in. zwolnienie kilku tysięcy zbędnych pracowników czy efektywniejsze wykorzystanie złóż węgla), spadek kosztu wydobycia do 570 złotych/t oraz wysoka cena CC (232$/t) sprawiają, że z każdym miesiącem w kasie spółki będzie przybywać gotówki netto. Ustanie zatem medialne uzasadnienie spadków kursu JSW. Zamknięcie pozycji krótkich będzie wtedy nakazem chwili, tym bardziej, że chętnych do sprzedaży akcji JSW po bieżących cenach będzie niewielu, a oferta pożyczkowa będzie minimalna. Wyczerpią się także zasoby zaprzyjaźnionych funduszy. Bez podaży nie będzie spadków kursu. Będą natomiast wzrosty kursu mające uzasadnienie w wynikach finansowych spółki. Im dłużej trwa szortowanie, tym więcej inwestorów pojawia się tutaj z gotówką i skutecznie konkuruje z szorciarzami o akcje oferowane na rynku. Zdecydowana większość tych akcji pochodzi od samych szorciarzy lub zaprzyjaźnionych z nimi funduszy - tak uważam. Widać to doskonale po rosnącej liczbie akcji zablokowanych w arkuszu zleceń S. Przypomnę, że na początku roku w tym arkuszu liczba zablokowanych akcji wynosiła ok. 7,4 mln akcji. Obecnie tych akcji jest o ok. 6 mln więcej. Około 13,5 mln akcji zablokowanych odpowiadają w przybliżeniu - tak uważam - minimalnej wielkości otwartych pozycji krótkich. To zadłużenie może być jednak jeszcze większe. W ubiegłym roku przedstawiłem na forum moje obliczenia długu szorciarzy. Zachęcam do zapoznania się z nimi, do ich krytycznej oceny, a przede wszystkim do wykonania własnych rachunków oraz do kierowania się wyłącznie nimi i własnymi przemyśleniami przy podejmowaniu decyzji inwestycyjnych. Errare humanum est! Obecnie szacuję wolumen otwartych pozycji krótkich JSW w sumie na ok. 17 mln akcji. To więcej niż cała ujawniona oferta sprzedaży. Dlatego spodziewam się, że w wyniku \"wyciskania\" jeden walor JSW może kosztować kilkaset złotych. Przypomnę, że poprzednie, przed kilku laty, zamykanie pozycji krótkich JSW zaowocowało wzrostem kursu akcji o +719% licząc od minimum. Można? Oczywiście, że tak. Teraz przy zastosowaniu tego wskaźnika jedna akcja może kosztować nawet 161 złotych. Czy tak będzie? Przekonamy się.:) Kurs może być nawet jeszcze wyższy, wszak na początku odkupu, gdy akcje będą względnie tanie, w zakupach będą uczestniczyć również inni inwestorzy. Dlaczego? Dlatego, że obecna cena nie odpowiada godziwej wartości spółki po zrealizowaniu programu naprawczego oraz nie uwzględnia pozytywnych skutków hossy surowcowej dla finansów spółki. To oznacza, że przykładowo z ok. 9 mln akcji wystawionych na sprzedaż do ceny 100 złotych włącznie, szorciarze kupią prawdopodobnie tylko około 2 mln walorów JSW. Skąd to przypuszczenie? Wynika ono z dotychczasowej statystyki i efektywności odkupu akcji brutto. Warto tu dodać, że według moich szacunków większość, około 85-95%, wolumenu obrotów na sesjach spadkowych jest efektem \"mielenia\" tych samych akcji, ich wymiany między szorciarzami. W tym roku szorciarze zbierają średnio z podaży w dniach faktycznych zakupów około 17,8% wolumenu obrotów. Dlatego uważam, że w/w 2 miliony akcji nie są wzięte z sufitu. Może być tak, że kurs przekroczy 100 złotych, a szorciarze zmniejszą pozycje krótkie o 2 mln akcji, czyli przy oficjalnym zadłużeniu z 6,93 mln do 4,93 mln akcji. Wtedy oficjalne zobowiązanie szorciarzy będzie zbliżone do pozostałej oferty sprzedaży, czyli ok. 5 mln walorów JSW, tyle że ostatnie akcje w arkuszu S są wystawione na sprzedaż po 27 tysięcy złotych sztuka.:) Czy w tym kontekście pisanie o kilkuset złotych za akcję JSW, o 200, 300 czy więcej złotych, jest czystą fantazją?:) A przecież mowa jest w tym przypadku o zadłużeniu oficjalnym, czyż nie? A skąd szorciarze wezmą pozostałe akcje, żeby zamknąć resztę pozycji krótkich, tych ukrytych, których wolumen szacuję na ok. 10 mln sztuk?:) I w tym optymitycznym nastroju oświadczam, że taka jest moja spekulacja!:) Dobrej zabawy i dużych zysków życzę wszystkim gojom!:)",
-      "votes": {
-        "up": 14,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75204533",
-      "author": "Tusk",
-      "postedAt": "2026-07-22 09:04",
-      "threadTitle": "Czy JP Morgan kupi akcje JSW?:)",
-      "url": "https://www.bankier.pl/forum/temat_czy-jp-morgan-kupi-akcje-jsw,75204533.html",
-      "body": "https://www.bankier.pl/wiadomosc/Nie-kupilbym-dzis-akcji-ani-obligacji-Szef-JPMorgan-ostrzega-9171493.htmlCzytac i wyciągać wnioski.:)",
-      "votes": {
-        "up": 15,
-        "down": 4
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75203447",
@@ -1663,7 +1827,7 @@
       "url": "https://www.bankier.pl/forum/temat_serdeczne-podziekowania-dla-admina,75195557.html",
       "body": "Spekulant się skarży! Złodziej krzyczy łapać złodzieja. Koniec świata.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1684,62 +1848,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75203175",
-      "author": "Paweł",
-      "postedAt": "2026-07-22 00:48",
-      "threadTitle": "Re: Matko jaki to jest crap.",
-      "url": "https://www.bankier.pl/forum/temat_matko-jaki-to-jest-crap,75185165.html",
-      "body": "Chyba coś w tym jednak jest.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75203105",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 00:35",
-      "threadTitle": "❤️ JSW MA 3 METRY DO GIGANTYCZNYCH ZŁÓŻ DĘBIEŃSKA 1 ❤️",
-      "url": "https://www.bankier.pl/forum/temat_jsw-ma-3-metry-do-gigantycznych-zloz-debienska-1,75203105.html",
-      "body": "❤️ JSW MA 3 METRY DO GIGANTYCZNYCH ZŁÓŻ DĘBIEŃSKA 1 ❤️To stwierdzenie odnosi się do faktu, że JSW uzyskała koncesję na rozpoznanie złoża „Dębieńsko 1”. Obszar ten przylega bezpośrednio do wschodniej granicy należącej do JSW kopalni Knurów-Szczygłowice. Pomiędzy wyrobiskami obu tych miejsc odległość jest minimalna, co pozwala na udostępnienie złoża istniejącymi korytarzami.Przyznana koncesja to dla spółki strategiczny krok w pozyskiwaniu węgla koksowego. Zamiast drążyć zupełnie nowe, głębokie szyby, JSW planuje poprowadzić wyrobiska z sąsiadującej kopalni Knurów-Szczygłowice w stronę dawnego złoża w Dębieńsku. To pozwoli im zbadać jakość węgla i w przyszłości taniej rozpocząć wydobycie z wykorzystaniem działającej infrastruktury.Więcej szczegółów na temat strategicznego dostępu do tego złoża można przeczytać na oficjalnej stronie spółki w artykule o koncesji na złoże Dębieńsko 1. Pełną analizę tego geologicznego i biznesowego posunięcia opisano w serwisie Energetyka24.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75203073",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 00:25",
-      "threadTitle": "⭐NIKT MĄDRY NIE SPRZEDA JSW, WIEDZĄC ŻE ZA CHWILĘ WYBICIE W GÓRĘ BĘDZIE⭐",
-      "url": "https://www.bankier.pl/forum/temat_nikt-madry-nie-sprzeda-jsw-wiedzac-ze-za-chwile-wybicie-w-gore-bedzie,75203073.html",
-      "body": "⭐NIKT MĄDRY NIE SPRZEDA JSW, WIEDZĄC ŻE ZA CHWILĘ WYBICIE W GÓRĘ BĘDZIE ⭐Za chwilę będzie potrzebna gigantycznej ilość stali.Ruszają fabryki w latach 2026-28 z produkcją uzbrojenia.POWSTAJA / ROZBUDOWUJĄ FABRYKI:AMONICJICZOŁGÓW ARMATOHAUBICWOZÓW OPANCERZONYCHITD, ITP",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.964,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75203071",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 00:24",
-      "threadTitle": "❤️ZBROJENIÓWKA NA ŚWIECIE DOPIERO RUSZA W 2 POŁOWIE ROKU 2026R ❤️",
-      "url": "https://www.bankier.pl/forum/temat_zbrojeniowka-na-swiecie-dopiero-rusza-w-2-polowie-roku-2026r,75203071.html",
-      "body": "❤️ZBROJENIÓWKA NA ŚWIECIE DOPIERO RUSZA W 2 POŁOWIE ROKU 2026R ❤️Kończą budować fabryki broni i amonicji W latach 2026-2028 będzie gigantyczne zapotrzebowanie na surowce do produkcji amunicji i uzbrojenia Bez JSW nie ma stali wysokogatunkowej w Europie",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75203059",
       "author": "Paweł",
       "postedAt": "2026-07-22 00:21",
@@ -1754,40 +1862,12 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75203025",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 00:11",
-      "threadTitle": "✅KONIEC ROZEJMU USA-IRAN, WĘGIEL KOKSOWY W AZJI ZA CHWILĘ PO 350 $ USA ✅",
-      "url": "https://www.bankier.pl/forum/temat_koniec-rozejmu-usa-iran-wegiel-koksowy-w-azji-za-chwile-po-350-usa,75203025.html",
-      "body": "✅ KONIEC ROZEJMU USA-IRAN, WĘGIEL KOKSOWY W AZJI ZA CHWILĘ PO 350 DOLARÓW✅✅ KONIEC ROZEJMU USA-IRAN, WĘGIEL KOKSOWY W AZJI ZA CHWILĘ PO 350 DOLARÓW W KONTRAKTACH NA 2027r✅✅ SHORTY WIEDZĄ ŻE BĘDZIE ROSŁO I USUWAJĄ WSZYSTKIE DOBRE INFORMACJE ✅30% cena akcji JSW w górę wybije, czy będzie więcej za chwilę, 50%?❤️AKTUALNA SYTUACJA NA RYNKU WĘGLA (czerwiec 2026)❤️CENA W GÓRĘ● Katastrofa w kopalni Liushenyu (Shanxi, maj 2026): ~82 ofiary, zawieszenie 109 kopalń (319 tys. t/dobę ≈ 10% chińskiej produkcji) — największy szok podażowy od ponad dekady.● Import węgla do Azji w maju 2026: 76,26 mln t (+23% m/m) — wszystkie główne rynki azjatyckie odnotowują wzrosty.● Geopolityka: zastępowanie gazu (kryzys Cieśniny Ormuz) węglem przez azjatyckich odbiorców, wzrost chińskiego importu morskiego do 22,63 mln t w maju 2026.● Węgiel koksowy: cena ~218–240 USD/t (marzec–czerwiec 2026), +18% r/r — napędzany przez sektor stalowy w Indiach i odbudowę chińskiego importu.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75203023",
-      "author": "LecimyDoGóry",
-      "postedAt": "2026-07-22 00:09",
-      "threadTitle": "❤️AKTUALNA SYTUACJA NA RYNKU WĘGLA (czerwiec 2026)❤️CENA W GÓRĘ",
-      "url": "https://www.bankier.pl/forum/temat_aktualna-sytuacja-na-rynku-wegla-czerwiec-2026-cena-w-gore,75203023.html",
-      "body": "❤️AKTUALNA SYTUACJA NA RYNKU WĘGLA (czerwiec 2026)❤️CENA W GÓRĘ30% cena akcji JSW w górę wybije, czy będzie więcej za chwilę, 50%?● Katastrofa w kopalni Liushenyu (Shanxi, maj 2026): ~82 ofiary, zawieszenie 109 kopalń (319 tys. t/dobę ≈ 10% chińskiej produkcji) — największy szok podażowy od ponad dekady.● Import węgla do Azji w maju 2026: 76,26 mln t (+23% m/m) — wszystkie główne rynki azjatyckie odnotowują wzrosty.● Geopolityka: zastępowanie gazu (kryzys Cieśniny Ormuz) węglem przez azjatyckich odbiorców, wzrost chińskiego importu morskiego do 22,63 mln t w maju 2026.● Węgiel koksowy: cena ~218–240 USD/t (marzec–czerwiec 2026), +18% r/r — napędzany przez sektor stalowy w Indiach i odbudowę chińskiego importu.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75202971",
+      "id": "75203051",
       "author": "Paweł",
-      "postedAt": "2026-07-21 23:58",
-      "threadTitle": "Re: Podrzuć komuś innemu tego gorącego kartofla.",
-      "url": "https://www.bankier.pl/forum/temat_podrzuc-komus-innemu-tego-goracego-kartofla,75190443.html",
-      "body": "I jeszcze ciepły.",
+      "postedAt": "2026-07-22 00:19",
+      "threadTitle": "Re: Studium upadku.",
+      "url": "https://www.bankier.pl/forum/temat_studium-upadku,74912613.html",
+      "body": "Niech każdy sam oceni.",
       "votes": {
         "up": 0,
         "down": 0
@@ -1796,29 +1876,71 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75200365",
-      "author": "Max",
-      "postedAt": "2026-07-21 17:47",
-      "threadTitle": "Re: A pamiętacie jak w 2024 Trader/Tusk zamykał shorty po 390 zł.?",
-      "url": "https://www.bankier.pl/forum/temat_a-pamietacie-jak-w-2024-trader-tusk-zamykal-shorty-po-390-zl,73868831.html",
-      "body": "No chyba że tak.",
+      "id": "75203041",
+      "author": "Paweł",
+      "postedAt": "2026-07-22 00:16",
+      "threadTitle": "Re: Gaśnie entuzjazm posiadaczy akcji.",
+      "url": "https://www.bankier.pl/forum/temat_gasnie-entuzjazm-posiadaczy-akcji,74422859.html",
+      "body": "-11%.Dołuje.",
       "votes": {
         "up": 0,
         "down": 0
       },
-      "sentimentScore": -0.583,
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75202757",
+      "author": "Paweł",
+      "postedAt": "2026-07-21 23:09",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Trzeba go zatem odkopywać.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75200083",
+      "id": "75202223",
       "author": "Max",
-      "postedAt": "2026-07-21 17:27",
-      "threadTitle": "Re: Moi drodzy, łyżką nie chochlą.",
-      "url": "https://www.bankier.pl/forum/temat_moi-drodzy-lyzka-nie-chochla,75199799.html",
-      "body": "Przy gotowaniu żaby tylko cierpliwość.I aż.",
+      "postedAt": "2026-07-21 21:34",
+      "threadTitle": "Re: Pobrykały już nowe jelonki na haku w paśniku ?",
+      "url": "https://www.bankier.pl/forum/temat_pobrykaly-juz-nowe-jelonki-na-haku-w-pasniku,74511369.html",
+      "body": "Trader to nagon leszcz na haku, ale Traderówna niczego sobie.",
       "votes": {
-        "up": 1,
-        "down": 1
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75202213",
+      "author": "technik-at",
+      "postedAt": "2026-07-21 21:31",
+      "threadTitle": "Re: Pobrykały już nowe jelonki na haku w paśniku ?",
+      "url": "https://www.bankier.pl/forum/temat_pobrykaly-juz-nowe-jelonki-na-haku-w-pasniku,74511369.html",
+      "body": "A co na to trader? Możesz zrób jakieś 20 stron wykresów i prognozy pogody w Australii",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75200609",
+      "author": "Max",
+      "postedAt": "2026-07-21 18:10",
+      "threadTitle": "Re: Pobrykały już nowe jelonki na haku w paśniku ?",
+      "url": "https://www.bankier.pl/forum/temat_pobrykaly-juz-nowe-jelonki-na-haku-w-pasniku,74511369.html",
+      "body": "Nie trudno było wytypować.",
+      "votes": {
+        "up": 0,
+        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1838,60 +1960,46 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75199919",
-      "author": "Olo",
-      "postedAt": "2026-07-21 17:14",
-      "threadTitle": "Re: Moi drodzy, łyżką nie chochlą.",
-      "url": "https://www.bankier.pl/forum/temat_moi-drodzy-lyzka-nie-chochla,75199799.html",
-      "body": "Ty odleciałeś dwa lata temu jak kupowałeś. Tuska GameStop?",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75199839",
-      "author": "Asd",
-      "postedAt": "2026-07-21 17:09",
-      "threadTitle": "Re: Moi drodzy, łyżką nie chochlą.",
-      "url": "https://www.bankier.pl/forum/temat_moi-drodzy-lyzka-nie-chochla,75199799.html",
-      "body": "I tu się mylisz. Akcje odlecą a ty zostaniesz z reką w nocniku",
-      "votes": {
-        "up": 4,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75199799",
-      "author": "Olo",
-      "postedAt": "2026-07-21 17:05",
-      "threadTitle": "Moi drodzy, łyżką nie chochlą.",
-      "url": "https://www.bankier.pl/forum/temat_moi-drodzy-lyzka-nie-chochla,75199799.html",
-      "body": "Wczoraj -0.38% dzisiaj -0,27% czyli w niedalekiej przyszłości kupimy taniej. Akcje nie bocian nie odlecą, są ich miliony.",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75199505",
+      "id": "75199063",
       "author": "Max",
-      "postedAt": "2026-07-21 16:48",
-      "threadTitle": "Re: Ostatni dołek 24,11.",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-dolek-24-11,75144871.html",
-      "body": "-4% od wpisu. Spoko.",
+      "postedAt": "2026-07-21 16:20",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Daj mu spokój. To nudysta.",
       "votes": {
         "up": 0,
         "down": 0
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75199025",
+      "author": "Max",
+      "postedAt": "2026-07-21 16:17",
+      "threadTitle": "Re: A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "Eukaliptus zwiał.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75198921",
+      "author": "Max",
+      "postedAt": "2026-07-21 16:10",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "No ale teraz liczy się tu i teraz.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "75198871",
@@ -1908,60 +2016,32 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75198025",
-      "author": "kaz",
-      "postedAt": "2026-07-21 15:05",
-      "threadTitle": "Re: A pamiętacie jak w 2024 Trader/Tusk zamykał shorty po 390 zł.?",
-      "url": "https://www.bankier.pl/forum/temat_a-pamietacie-jak-w-2024-trader-tusk-zamykal-shorty-po-390-zl,73868831.html",
-      "body": "Już nikt nie wierzy w bajeczki Tradera i Tuska.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75197849",
+      "id": "75196827",
       "author": "Max",
-      "postedAt": "2026-07-21 14:53",
-      "threadTitle": "Re: A pamiętacie jak w 2024 Trader/Tusk zamykał shorty po 390 zł.?",
-      "url": "https://www.bankier.pl/forum/temat_a-pamietacie-jak-w-2024-trader-tusk-zamykal-shorty-po-390-zl,73868831.html",
-      "body": "To były czasy.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75197021",
-      "author": "Max",
-      "postedAt": "2026-07-21 13:56",
-      "threadTitle": "Re: A pamiętacie jak w 2024 Trader/Tusk zamykał shorty po 390 zł.?",
-      "url": "https://www.bankier.pl/forum/temat_a-pamietacie-jak-w-2024-trader-tusk-zamykal-shorty-po-390-zl,73868831.html",
-      "body": "Do tej pory są przerażeni.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75196939",
-      "author": "Max",
-      "postedAt": "2026-07-21 13:50",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Trend jest spadkowy.",
+      "postedAt": "2026-07-21 13:43",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Ja lubię czytać posty Jacka bo są merytoryczne.",
       "votes": {
         "up": 0,
         "down": 0
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75196729",
+      "author": "Max",
+      "postedAt": "2026-07-21 13:38",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Kierunek południe moi drodzy, nie ma pod co rosnąć.Kupimy taniej.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
     },
     {
       "id": "75196661",
@@ -1972,38 +2052,10 @@
       "body": "Gdzie Tusk tam spadki.Podobnie było na innych spółkach na forum.",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75196603",
-      "author": "tekkai",
-      "postedAt": "2026-07-21 13:28",
-      "threadTitle": "Re: Jeszcze w tym roku będzie wydobycie z DĘBIEŃSKA.",
-      "url": "https://www.bankier.pl/forum/temat_jeszcze-w-tym-roku-bedzie-wydobycie-z-debienska,75196587.html",
-      "body": "Trzymałem akcję przez lata, bo była pierwszą, którą kiedykolwiek kupiłem. Ignorowałem spadające przychody, zmiany w zarządzie, dług. Traktowałem ją jak rodzinną pamiątkę, a nie inwestycję. Mój portfel bardzo ucierpiał przez tę jedną pozycję. Laura G. Prescott na Facebooku pomogła mi oddzielić emocje od analizy. Zadała mi proste pytanie: „Gdybyś miał dziś gotówkę, czy kupiłbyś te akcje?”. Kiedy odpowiedziałem, że nie, pomogła mi w końcu je puścić. Przez chwilę było to bolesne, ale uwolnienie tego kapitału i przeniesienie go w lepsze okazje odmieniło cały mój portfel. Teraz co kwartał przeglądam każdą pozycję świeżym okiem. Jeśli trzymasz akcję z powodów sentymentalnych, napisz do niej na WhatsApp: +44.7460.023.003",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75196587",
-      "author": "Paweł",
-      "postedAt": "2026-07-21 13:27",
-      "threadTitle": "Jeszcze w tym roku będzie wydobycie z DĘBIEŃSKA.",
-      "url": "https://www.bankier.pl/forum/temat_jeszcze-w-tym-roku-bedzie-wydobycie-z-debienska,75196587.html",
-      "body": "Gigantyczne złoża w Dębieńsku dla JSW",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75195923",
@@ -2014,7 +2066,7 @@
       "body": "Regulamin obowiązuje wszystkich na tym forum.Nie udawaj, że nie widzisz tego co się tutaj dzieje.Nie pozdrawiam ... Wy, towarzyszu.;)",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2027,7 +2079,7 @@
       "url": "https://www.bankier.pl/forum/temat_serdeczne-podziekowania-dla-admina,75195557.html",
       "body": "Czyli Wy możecie, a my nie. Taka demokracja. Pozdrawiam",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2042,7 +2094,7 @@
       "body": "Nie obchodzą mnie cudze sprawy i inwestycje, ale myślę że nie będzie z tym problemu.Podszywie Olo.",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -2055,8 +2107,8 @@
       "url": "https://www.bankier.pl/forum/temat_serdeczne-podziekowania-dla-admina,75195557.html",
       "body": "Odezwał się spekulant szortowski. Hehehehehe.",
       "votes": {
-        "up": 3,
-        "down": 1
+        "up": 4,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2070,7 +2122,7 @@
       "body": "Dokładnie. Jestem na tak. Myślisz Maxiu że jeszcze kiedyś zejdziemy z tych haków za 24 zł? Bo zaczynam się coraz poważniej zastanawiać...",
       "votes": {
         "up": 3,
-        "down": 6
+        "down": 9
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2084,7 +2136,7 @@
       "body": "Gratki za bana dla Tuska, prowodyra tej zgrai naganiaczy.",
       "votes": {
         "up": 6,
-        "down": 9
+        "down": 12
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2098,7 +2150,7 @@
       "body": "Za usuwanie wątków i postów trolli naganiaczy na haku.Już dosyć naciągania ludzi i ogołacania ich z oszczędności.Tak trzymać !",
       "votes": {
         "up": 17,
-        "down": 11
+        "down": 14
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -2118,40 +2170,12 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75194701",
-      "author": "Max",
-      "postedAt": "2026-07-21 11:15",
-      "threadTitle": "Re: Podrzuć komuś innemu tego gorącego kartofla.",
-      "url": "https://www.bankier.pl/forum/temat_podrzuc-komus-innemu-tego-goracego-kartofla,75190443.html",
-      "body": "Co najważniejsze sprawdzony.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75194373",
+      "id": "75195441",
       "author": "Olo",
-      "postedAt": "2026-07-21 11:00",
-      "threadTitle": "Re: Podrzuć komuś innemu tego gorącego kartofla.",
-      "url": "https://www.bankier.pl/forum/temat_podrzuc-komus-innemu-tego-goracego-kartofla,75190443.html",
-      "body": "Dobry przepis.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75193813",
-      "author": "Max",
-      "postedAt": "2026-07-21 10:34",
-      "threadTitle": "Re: The Ecstasy of Koks.",
-      "url": "https://www.bankier.pl/forum/temat_the-ecstasy-of-koks,74547457.html",
-      "body": "Mają rozmach s ...",
+      "postedAt": "2026-07-21 12:07",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Dokładnie.",
       "votes": {
         "up": 0,
         "down": 0
@@ -2160,15 +2184,43 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75192793",
+      "id": "75194587",
       "author": "Max",
-      "postedAt": "2026-07-21 09:47",
-      "threadTitle": "Re: Podrzuć komuś innemu tego gorącego kartofla.",
-      "url": "https://www.bankier.pl/forum/temat_podrzuc-komus-innemu-tego-goracego-kartofla,75190443.html",
-      "body": "Dobry przepis na cięcie strat.",
+      "postedAt": "2026-07-21 11:09",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "A może tną jeszcze większe straty ?",
       "votes": {
-        "up": 1,
+        "up": 0,
         "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75194313",
+      "author": "Olo",
+      "postedAt": "2026-07-21 10:57",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Niewygodny dla ubranych przez Tuska.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75192579",
+      "author": "Max",
+      "postedAt": "2026-07-21 09:40",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Słabo to wygląda.",
+      "votes": {
+        "up": 0,
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -2188,6 +2240,34 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "75190941",
+      "author": "Misza",
+      "postedAt": "2026-07-21 07:04",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Dla Ciebie to Pan Prezydent Karol Nawrocki. Sorry zapomniałem Ty dalej liczysz głosy.",
+      "votes": {
+        "up": 4,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75190907",
+      "author": "Inwestor",
+      "postedAt": "2026-07-21 06:56",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Inwestorzy wysprzedają po stratach, będzie to widać w tysiącach głosów za rok,jak z batyrem przegrają mała przewaga",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75190841",
       "author": "Max",
       "postedAt": "2026-07-21 06:27",
@@ -2202,26 +2282,12 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75190815",
+      "id": "75190837",
       "author": "Max",
-      "postedAt": "2026-07-21 06:18",
-      "threadTitle": "Re: Ostatni dołek 24,11.",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-dolek-24-11,75144871.html",
-      "body": "Zostało 10 dni.Dadzą radę ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75190759",
-      "author": "Paweł",
-      "postedAt": "2026-07-21 05:58",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Dobranoc ubrańcu.",
+      "postedAt": "2026-07-21 06:26",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Pełno tu takich.",
       "votes": {
         "up": 0,
         "down": 0
@@ -2230,18 +2296,18 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75190725",
-      "author": "Paweł",
-      "postedAt": "2026-07-21 05:48",
-      "threadTitle": "Re: Po co kupować po 100, jak po 28 nie ma chętnych ?",
-      "url": "https://www.bankier.pl/forum/temat_po-co-kupowac-po-100-jak-po-28-nie-ma-chetnych,74160405.html",
-      "body": "Dobre porównanie.",
+      "id": "75190789",
+      "author": "Max",
+      "postedAt": "2026-07-21 06:12",
+      "threadTitle": "Re: A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "Musi smakować.",
       "votes": {
         "up": 0,
         "down": 0
       },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "75190449",
@@ -2258,26 +2324,54 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75190443",
+      "id": "75190305",
       "author": "Paweł",
-      "postedAt": "2026-07-20 23:50",
-      "threadTitle": "Podrzuć komuś innemu tego gorącego kartofla.",
-      "url": "https://www.bankier.pl/forum/temat_podrzuc-komus-innemu-tego-goracego-kartofla,75190443.html",
-      "body": "Dziś dobry moment na wypchnięcie problemu innym.Niech oni się martwią tą zamrożoną kiszoną.",
+      "postedAt": "2026-07-20 23:14",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Dzięki za info.",
       "votes": {
-        "up": 3,
+        "up": 0,
         "down": 0
       },
-      "sentimentScore": -0.583,
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75189757",
+      "author": "Misza",
+      "postedAt": "2026-07-20 21:58",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "No I co z tego. Panie Obserwator, kurs był po 8.80, i również pisali źle o JSW. A później jak był po 100, też pisali złe. Chyba musicie tak pisać, czy się mylę?",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75189717",
+      "author": "Retau",
+      "postedAt": "2026-07-20 21:52",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Ponawiam pytanie jw. Odchylenia w dół od cen referencyjnych dla węgla koksowego z JSW wydają się być uzasadnione bo oprócz c 35 sprzedają również c 34 ale koks z JSW chyba nie różni się parametrami aż tak bardzo od tego zamorskiego.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75190347",
-      "author": "Paweł",
-      "postedAt": "2026-07-20 23:23",
-      "threadTitle": "Re: Matko jaki to jest crap.",
-      "url": "https://www.bankier.pl/forum/temat_matko-jaki-to-jest-crap,75185165.html",
-      "body": "Z dużym samozaparciem.",
+      "id": "75188979",
+      "author": "ObserwatoR",
+      "postedAt": "2026-07-20 19:59",
+      "threadTitle": "Re: Pobrykały już nowe jelonki na haku w paśniku ?",
+      "url": "https://www.bankier.pl/forum/temat_pobrykaly-juz-nowe-jelonki-na-haku-w-pasniku,74511369.html",
+      "body": "Chyba dobrze trafiłeś.",
       "votes": {
         "up": 0,
         "down": 0
@@ -2286,40 +2380,138 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75189753",
-      "author": "Inwestor",
-      "postedAt": "2026-07-20 21:57",
-      "threadTitle": "Re: Matko jaki to jest crap.",
-      "url": "https://www.bankier.pl/forum/temat_matko-jaki-to-jest-crap,75185165.html",
-      "body": "Wybory już za rok",
+      "id": "75188935",
+      "author": "ObserwatoR",
+      "postedAt": "2026-07-20 19:53",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Ciekawy interesujący wątek.",
       "votes": {
         "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75188919",
+      "author": "ObserwatoR",
+      "postedAt": "2026-07-20 19:51",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Ciekawa dyskusja pod moim wątkiem, zapraszam.",
+      "votes": {
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75189597",
-      "author": "marol92",
-      "postedAt": "2026-07-20 21:37",
-      "threadTitle": "Re: Matko jaki to jest crap.",
-      "url": "https://www.bankier.pl/forum/temat_matko-jaki-to-jest-crap,75185165.html",
-      "body": "Bo to nie są naturalne zachowania rynku, tylko sztucznie trzymane przez duży kapitał.",
+      "id": "75186043",
+      "author": "Olo",
+      "postedAt": "2026-07-20 15:32",
+      "threadTitle": "Re: Pobrykały już nowe jelonki na haku w paśniku ?",
+      "url": "https://www.bankier.pl/forum/temat_pobrykaly-juz-nowe-jelonki-na-haku-w-pasniku,74511369.html",
+      "body": "Leci kiszona.",
       "votes": {
-        "up": 5,
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75185211",
+      "author": "Tolek",
+      "postedAt": "2026-07-20 14:29",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "W Australii.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75183773",
+      "author": "Retau",
+      "postedAt": "2026-07-20 12:21",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Gdzie jest ta słynna renta geograficzna?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75183739",
+      "author": "Retau",
+      "postedAt": "2026-07-20 12:18",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Tyle tęgich głów na forum JSW. Może więc koś wyjaśni jaki jest powód poniższej bardzo istotnej rozbieżności ( 317,67 i 271,69 tj.85,53%):\":Średnia notowań koksu wielkopiecowego importowanego do Europy wyniosła w II kw. 2026 r. 317,67 dolarów, co daje wzrost kdk. o 14,3 proc. i wzrost rdr. o 31,3 proc.\"\"Szacowana średnia cena kontraktowa koksu do odbiorców zewnętrznych w II kw. br. wyniosła 993,58 zł za tonę (271,69 dolarów) i była wyższa w porównaniu do I kw. br. o 7,6 proc., jednak wobec II kw. 2025 r. niższa o 4,3 proc.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75183423",
+      "author": "Misza",
+      "postedAt": "2026-07-20 11:52",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "To kolejne 650%. Ta spolka ma potencjał tylko trzeba ją trochę naprawić.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75183407",
+      "author": "Misza",
+      "postedAt": "2026-07-20 11:50",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "13.03.2020r. Kurs 10 zł 25.03.2022r. Kurs 75 zł",
+      "votes": {
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75189567",
-      "author": "Paweł",
-      "postedAt": "2026-07-20 21:33",
-      "threadTitle": "Re: Matko jaki to jest crap.",
-      "url": "https://www.bankier.pl/forum/temat_matko-jaki-to-jest-crap,75185165.html",
-      "body": "Zamrażarka na lata.",
+      "id": "75183361",
+      "author": "Misza",
+      "postedAt": "2026-07-20 11:47",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Nie. Ale pamiętam, że też źle pisali o JSW.",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75183309",
+      "author": "Misza",
+      "postedAt": "2026-07-20 11:44",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Podpowiem Ci 1085% w półtora roku. Wydaje mi się, że spoko.",
       "votes": {
         "up": 2,
         "down": 2
@@ -2328,530 +2520,26 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75188861",
-      "author": "ObserwatoR",
-      "postedAt": "2026-07-20 19:44",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Haki na miesiące czy lata ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75188853",
-      "author": "ObserwatoR",
-      "postedAt": "2026-07-20 19:43",
-      "threadTitle": "Re: Matko jaki to jest crap.",
-      "url": "https://www.bankier.pl/forum/temat_matko-jaki-to-jest-crap,75185165.html",
-      "body": "A tutaj pełno takich.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75186141",
-      "author": "Brando25",
-      "postedAt": "2026-07-20 15:39",
-      "threadTitle": "Re: Matko jaki to jest crap.",
-      "url": "https://www.bankier.pl/forum/temat_matko-jaki-to-jest-crap,75185165.html",
-      "body": "Super fajnie",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75186135",
+      "id": "75183295",
       "author": "Olo",
-      "postedAt": "2026-07-20 15:39",
-      "threadTitle": "Re: The Ecstasy of Koks.",
-      "url": "https://www.bankier.pl/forum/temat_the-ecstasy-of-koks,74547457.html",
-      "body": "Leci.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75186111",
-      "author": "Olo",
-      "postedAt": "2026-07-20 15:37",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Niżej już jest.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75186083",
-      "author": "Olo",
-      "postedAt": "2026-07-20 15:35",
-      "threadTitle": "Re: Matko jaki to jest crap.",
-      "url": "https://www.bankier.pl/forum/temat_matko-jaki-to-jest-crap,75185165.html",
-      "body": "To spółka dla cierpiętników.",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75185165",
-      "author": "Tolek",
-      "postedAt": "2026-07-20 14:26",
-      "threadTitle": "Matko jaki to jest crap.",
-      "url": "https://www.bankier.pl/forum/temat_matko-jaki-to-jest-crap,75185165.html",
-      "body": "Do ubierania ludzi na lata. Koszmarny papier. Lodówka.",
-      "votes": {
-        "up": 15,
-        "down": 3
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75183801",
-      "author": "Olo",
-      "postedAt": "2026-07-20 12:24",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Opada pod własnym ciężarem. Podaż.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75182845",
-      "author": "Paweł",
-      "postedAt": "2026-07-20 11:14",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Od marca.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75182765",
-      "author": "ObserwatoR",
-      "postedAt": "2026-07-20 11:09",
-      "threadTitle": "Re: The Ecstasy of Koks.",
-      "url": "https://www.bankier.pl/forum/temat_the-ecstasy-of-koks,74547457.html",
-      "body": "Możliwy scenariusz.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75182499",
-      "author": "ObserwatoR",
-      "postedAt": "2026-07-20 10:53",
-      "threadTitle": "Re: A pamiętacie jak w 2024 Trader/Tusk zamykał shorty po 390 zł.?",
-      "url": "https://www.bankier.pl/forum/temat_a-pamietacie-jak-w-2024-trader-tusk-zamykal-shorty-po-390-zl,73868831.html",
-      "body": "To jest jeden troll ?Ten Trader/Tusk ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75182221",
-      "author": "Paweł",
-      "postedAt": "2026-07-20 10:34",
-      "threadTitle": "Re: Ostatni dołek 24,11.",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-dolek-24-11,75144871.html",
-      "body": "Gotują tą żabę metodycznie.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75181897",
-      "author": "Paweł",
-      "postedAt": "2026-07-20 10:15",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Zgadzam się z tą opinią.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75181371",
-      "author": "Paweł",
-      "postedAt": "2026-07-20 09:39",
-      "threadTitle": "Re: The Ecstasy of Koks.",
-      "url": "https://www.bankier.pl/forum/temat_the-ecstasy-of-koks,74547457.html",
-      "body": "Też tak uważam.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75179353",
-      "author": "Olo",
-      "postedAt": "2026-07-19 21:20",
-      "threadTitle": "Re: The Ecstasy of Koks.",
-      "url": "https://www.bankier.pl/forum/temat_the-ecstasy-of-koks,74547457.html",
-      "body": "Dobre.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75178079",
-      "author": "Kalafior",
-      "postedAt": "2026-07-19 16:47",
-      "threadTitle": "Re: QRT i Numeryczni, czyli zostało kilka dni:)",
-      "url": "https://www.bankier.pl/forum/temat_qrt-i-numeryczni-czyli-zostalo-kilka-dni,74699247.html",
-      "body": "Kilka dni mamy to!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75177651",
-      "author": "Olo",
-      "postedAt": "2026-07-19 15:17",
-      "threadTitle": "Re: The Ecstasy of Koks.",
-      "url": "https://www.bankier.pl/forum/temat_the-ecstasy-of-koks,74547457.html",
-      "body": "Do wyborów nic się nie zmieni.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75177491",
-      "author": "Olo",
-      "postedAt": "2026-07-19 14:49",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Kupować w tej cenie to była aberracja.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75177261",
-      "author": "Paweł",
-      "postedAt": "2026-07-19 14:02",
-      "threadTitle": "Re: The Ecstasy of Koks.",
-      "url": "https://www.bankier.pl/forum/temat_the-ecstasy-of-koks,74547457.html",
-      "body": "Ma pochodzenie ukraińskie i to jest fakt.Do wyborów coraz bliżej.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75176911",
-      "author": "Max",
-      "postedAt": "2026-07-19 12:39",
-      "threadTitle": "Re: Trauma to nie jest miłe uczucie.",
-      "url": "https://www.bankier.pl/forum/temat_trauma-to-nie-jest-mile-uczucie,74780629.html",
-      "body": "Ok. -28% na dzisiaj.",
+      "postedAt": "2026-07-20 11:43",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Kupowałeś i sprzedawałeś wtedy? Hahaha.",
       "votes": {
         "up": 2,
         "down": 1
       },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75176891",
-      "author": "Max",
-      "postedAt": "2026-07-19 12:35",
-      "threadTitle": "Re: The Ecstasy of Koks.",
-      "url": "https://www.bankier.pl/forum/temat_the-ecstasy-of-koks,74547457.html",
-      "body": "Balczun to ukraiński kret.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75175547",
-      "author": "Kalafior",
-      "postedAt": "2026-07-19 04:58",
-      "threadTitle": "Re: QRT i Numeryczni, czyli zostało kilka dni:)",
-      "url": "https://www.bankier.pl/forum/temat_qrt-i-numeryczni-czyli-zostalo-kilka-dni,74699247.html",
-      "body": "Szrot pokonany. Zostało kilka dni.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75174983",
-      "author": "Paweł",
-      "postedAt": "2026-07-18 22:21",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Nawet w weekendy.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75174657",
-      "author": "Paweł",
-      "postedAt": "2026-07-18 20:43",
-      "threadTitle": "Re: Ostatni dołek 24,11.",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-dolek-24-11,75144871.html",
-      "body": "Zgoda.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75174543",
-      "author": "Paweł",
-      "postedAt": "2026-07-18 20:25",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Zerknij na kurs i trend średnioterminowy.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75174453",
-      "author": "Paweł",
-      "postedAt": "2026-07-18 20:13",
-      "threadTitle": "Re: Ostatni dołek 24,11.",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-dolek-24-11,75144871.html",
-      "body": "I mnie to pasuje.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75174311",
-      "author": "Olo",
-      "postedAt": "2026-07-18 19:52",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Pełno tu wielonickowych trolli.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75172489",
-      "author": "speeding",
-      "postedAt": "2026-07-18 13:19",
-      "threadTitle": "Re: QRT i Numeryczni, czyli zostało kilka dni:)",
-      "url": "https://www.bankier.pl/forum/temat_qrt-i-numeryczni-czyli-zostalo-kilka-dni,74699247.html",
-      "body": "Fajnie się czyta. Super",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75170593",
-      "author": "Kalafior",
-      "postedAt": "2026-07-18 02:30",
-      "threadTitle": "Re: QRT i Numeryczni, czyli zostało kilka dni:)",
-      "url": "https://www.bankier.pl/forum/temat_qrt-i-numeryczni-czyli-zostalo-kilka-dni,74699247.html",
-      "body": "Odliczamy nadal kilka dni",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75167423",
-      "author": "Paweł",
-      "postedAt": "2026-07-17 16:35",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Podszywają się desperaci pod cudze nicki.Żenada.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75166003",
-      "author": "Olo",
-      "postedAt": "2026-07-17 15:00",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Nie podszywaj się trollu nagonie!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75165173",
-      "author": "xxx",
-      "postedAt": "2026-07-17 14:09",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "szkoda na takich czasu, ślęczą godzinami i produkują bezwartościowy słowotok, rozumni zajmują się zarabianiem pieniędzy a nie produkcją bezsensownych wpisów...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75165107",
-      "author": "Paweł",
-      "postedAt": "2026-07-17 14:04",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Gotowanie żaby trwa tu od lat.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75164393",
-      "author": "Matematyk",
-      "postedAt": "2026-07-17 13:20",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Droga nauczka??? To jaki jest wg Ciebie obecnie potencjal spadkowy? Do ilu zleci i w jakim terminie? Dawaj mie krepuj sie!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75164163",
-      "author": "Olo",
-      "postedAt": "2026-07-17 13:07",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Nęcą nowych naiwnych, ale to będzie dla nich droga nauczka.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75163949",
-      "author": "Olo",
-      "postedAt": "2026-07-17 12:53",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Idz spać, bo ślenczysz tu calymi dniami i godzinami nie wnosząc nic sensownego. Wybicie będzie prędzej, czy później - prawo gieldy",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75163909",
-      "author": "Max",
-      "postedAt": "2026-07-17 12:50",
-      "threadTitle": "Re: Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Bo cierpliwy to i koks ugotuje.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75163759",
-      "author": "Olo",
-      "postedAt": "2026-07-17 12:41",
-      "threadTitle": "Ruszyła na forum kolejna nagonka.",
-      "url": "https://www.bankier.pl/forum/temat_ruszyla-na-forum-kolejna-nagonka,75163759.html",
-      "body": "Tym razem pod ETF. Wystarczy paliwa do 15-tej? Wątpię ale poczekajmy cierpliwie.",
+      "id": "75183259",
+      "author": "Misza",
+      "postedAt": "2026-07-20 11:41",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "29.01.2016 r. Kurs 8.80 za akcję. 25.08.2017 r. Kurs 104,50 za akcję. Ile to będzie procent w 1,5 roku?",
       "votes": {
         "up": 3,
         "down": 1
@@ -2860,26 +2548,54 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75162993",
-      "author": "Kontroler",
-      "postedAt": "2026-07-17 11:56",
-      "threadTitle": "Re: Po co kupować po 100, jak po 28 nie ma chętnych ?",
-      "url": "https://www.bankier.pl/forum/temat_po-co-kupowac-po-100-jak-po-28-nie-ma-chetnych,74160405.html",
-      "body": "To peron jedzie a nie pociąg",
+      "id": "75183225",
+      "author": "Olo",
+      "postedAt": "2026-07-20 11:38",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Ale ciebie wtedy nie było, dlatego tak łkasz z haka o wzrosty. Nagonie.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 2
       },
-      "sentimentScore": 0.583,
+      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75162675",
-      "author": "Kontroler",
-      "postedAt": "2026-07-17 11:38",
-      "threadTitle": "Re: QRT i Numeryczni, czyli zostało kilka dni:)",
-      "url": "https://www.bankier.pl/forum/temat_qrt-i-numeryczni-czyli-zostalo-kilka-dni,74699247.html",
-      "body": "Boty nie spały",
+      "id": "75183177",
+      "author": "Misza",
+      "postedAt": "2026-07-20 11:35",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Tylko przez te wszystkie lata kurs rósł również o kilkaset %. Chyba o tym zapomniałeś wspomnieć.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75183059",
+      "author": "Olo",
+      "postedAt": "2026-07-20 11:27",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "To jest jakaś masakra.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75183039",
+      "author": "Paweł",
+      "postedAt": "2026-07-20 11:25",
+      "threadTitle": "Re: Pobrykały już nowe jelonki na haku w paśniku ?",
+      "url": "https://www.bankier.pl/forum/temat_pobrykaly-juz-nowe-jelonki-na-haku-w-pasniku,74511369.html",
+      "body": "Wiadomo. Szwajcarskim.",
       "votes": {
         "up": 0,
         "down": 0
@@ -2888,12 +2604,306 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75159115",
+      "id": "75182817",
+      "author": "Paweł",
+      "postedAt": "2026-07-20 11:12",
+      "threadTitle": "Re: Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "Tylko od marca br. -28%.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75182705",
+      "author": "ObserwatoR",
+      "postedAt": "2026-07-20 11:05",
+      "threadTitle": "Kurs jest -80% niżej niż było IPO (136 zł.)",
+      "url": "https://www.bankier.pl/forum/temat_kurs-jest-80-nizej-niz-bylo-ipo-136-zl,75182705.html",
+      "body": "14 lat temu !To jest tak nieprawdopodobne, że wydaje się aż niemożliwe.A jednak. Ogłoszone niedawno wyniki (raport) zamiast wynieść kurs na 28-30 zł, ponownie pogrążyły notowania.",
+      "votes": {
+        "up": 4,
+        "down": 5
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75181295",
+      "author": "Olo",
+      "postedAt": "2026-07-20 09:33",
+      "threadTitle": "Re: A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "No właśnie, bo ja nowy, możecie napisać czy rzeczywiście shorty muszą odkupić aż 6 mln akcji i nie mają skąd je wziąć? Że dlatego ten ich odkup tak długo trwa? Prawda to wszystko?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75180077",
+      "author": "Kalafior",
+      "postedAt": "2026-07-20 05:44",
+      "threadTitle": "Re: A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "Eukaliptus kręci kółka i pozdrawia ŚA",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75177631",
+      "author": "Olo",
+      "postedAt": "2026-07-19 15:12",
+      "threadTitle": "Re: A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "W Australii czy Chinach?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75177051",
+      "author": "Paweł",
+      "postedAt": "2026-07-19 13:12",
+      "threadTitle": "Re: Gaśnie entuzjazm posiadaczy akcji.",
+      "url": "https://www.bankier.pl/forum/temat_gasnie-entuzjazm-posiadaczy-akcji,74422859.html",
+      "body": "Jutro powrót na 25,xx.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75176177",
+      "author": "Kalafior",
+      "postedAt": "2026-07-19 10:11",
+      "threadTitle": "Re: A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "Wyciska czorta",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75175093",
+      "author": "Paweł",
+      "postedAt": "2026-07-18 22:46",
+      "threadTitle": "Re: Pobrykały już nowe jelonki na haku w paśniku ?",
+      "url": "https://www.bankier.pl/forum/temat_pobrykaly-juz-nowe-jelonki-na-haku-w-pasniku,74511369.html",
+      "body": "Wisielcy w weekend też nadają.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75174237",
+      "author": "Paweł",
+      "postedAt": "2026-07-18 19:36",
+      "threadTitle": "Re: A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "Dobre. ;)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75173245",
+      "author": "Olo",
+      "postedAt": "2026-07-18 15:31",
+      "threadTitle": "Re: A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "Oddział już zamknięty jest!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75171209",
+      "author": "Paweł",
+      "postedAt": "2026-07-18 09:12",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Kurs tonie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75163529",
+      "author": "Paweł",
+      "postedAt": "2026-07-17 12:28",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Zgoda z ~USA.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75159711",
+      "author": "Paweł",
+      "postedAt": "2026-07-17 08:47",
+      "threadTitle": "Re: A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "Czarny chleb i czarna kawa, opętany shortem.Przebywa w Choroszczy, czeka z koksem na Tuska.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75159591",
+      "author": "MarJanek",
+      "postedAt": "2026-07-17 08:37",
+      "threadTitle": "A co tam słychać u Eukaliptusa?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tam-slychac-u-eukaliptusa,75159591.html",
+      "body": "Jak smakuje jego wyznawcom kawusia po 45zł?",
+      "votes": {
+        "up": 7,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75159199",
       "author": "Max",
-      "postedAt": "2026-07-17 07:49",
-      "threadTitle": "Re: Ostatni dołek 24,11.",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-dolek-24-11,75144871.html",
-      "body": "Zawsze tak jest, jak czytasz oryginalnego Maxa.;)",
+      "postedAt": "2026-07-17 07:58",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Dlatego trzeba o nim przypominać.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75158101",
+      "author": "Paweł",
+      "postedAt": "2026-07-16 22:42",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "E tam będzie.No chyba że na forum.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75146627",
+      "author": "Joanna",
+      "postedAt": "2026-07-16 00:02",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Mechanizm widzę identyczny, czysto sekciarski",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75146611",
+      "author": "Joanna",
+      "postedAt": "2026-07-15 23:59",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Zwykła analogia.fakty są nieważne skoro będzie squize /armagedon. Już u progu",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75146569",
+      "author": "Ania",
+      "postedAt": "2026-07-15 23:50",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Yyyy.....Wolisz tamtych ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75146549",
+      "author": "Brando25",
+      "postedAt": "2026-07-15 23:47",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Joanna spoko luz",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75146531",
+      "author": "Joanna",
+      "postedAt": "2026-07-15 23:42",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Wyznawcy Tuska to świadkowie Jehowy giełdy. Analogia wypisz wymaluj. Tam też co trzy lata koniec świata… jak nie nastąpi to nic, wyciskamy dalej. Trochę jak tu z tym squizem na 390 ,jakoś 14 czerwca czy coś miał być",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75146269",
+      "author": "Paweł",
+      "postedAt": "2026-07-15 22:50",
+      "threadTitle": "Re: Jacek z Grochowa - odtrutka na forumowe manipulacje Tuska i jego sek",
+      "url": "https://www.bankier.pl/forum/temat_jacek-z-grochowa-odtrutka-na-forumowe-manipulacje-tuska-i-jego-sekty,75043687.html",
+      "body": "Pozdrawiam.",
       "votes": {
         "up": 0,
         "down": 0
