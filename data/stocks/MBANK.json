@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-07-23T08:45:12.670Z",
+  "updatedAt": "2026-07-23T14:31:34.406Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-23T08:45:12.670Z",
+    "fetchedAt": "2026-07-23T14:31:34.406Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.357,
-    "confidence": 0.65,
+    "score": -0.389,
+    "confidence": 0.66,
     "commentCount": 34,
     "breakdown": {
-      "positive": 3,
-      "negative": 16,
+      "positive": 2,
+      "negative": 17,
       "neutral": 15
     },
     "trend": [
-      {
-        "date": "2026-04-24",
-        "score": 0.322,
-        "count": 1
-      },
       {
         "date": "2026-04-25",
         "score": 0.381,
@@ -123,22 +118,23 @@
         "date": "2026-07-22",
         "score": -0.672,
         "count": 2
+      },
+      {
+        "date": "2026-07-23",
+        "score": -0.762,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 34 komentarzy z ostatnich 90 dni: nastroje negatywne (3 pozytywnych, 16 negatywnych, 15 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 34 komentarzy z ostatnich 90 dni: nastroje negatywne (2 pozytywnych, 17 negatywnych, 15 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "przy",
+        "count": 4
+      },
       {
         "word": "https",
         "count": 4
-      },
-      {
-        "word": "kwartalu",
-        "count": 4
-      },
-      {
-        "word": "przy",
-        "count": 3
       },
       {
         "word": "szortuje",
@@ -167,10 +163,28 @@
       {
         "word": "wyniki",
         "count": 3
+      },
+      {
+        "word": "kwartalu",
+        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75218031",
+      "author": "Magellan",
+      "postedAt": "2026-07-23 10:47",
+      "threadTitle": "Re: Mbank ogromne zadłużenie nie kupowac",
+      "url": "https://www.bankier.pl/forum/temat_mbank-ogromne-zadluzenie-nie-kupowac,75085257.html",
+      "body": "przy 1450 skujeprzy obecynych sesjach Lkujezawsze coś tam wpadnie, spokojnie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75213751",
       "author": "XD",
@@ -631,20 +645,6 @@
         "down": 0
       },
       "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74259799",
-      "author": "tomasz",
-      "postedAt": "2026-04-24 15:57",
-      "threadTitle": "Re: wiem , że to obłęd ale nie można wykluczyć wzrostu na 1400zł",
-      "url": "https://www.bankier.pl/forum/temat_wiem-ze-to-obled-ale-nie-mozna-wykluczyc-wzrostu-na-1400zl,74206243.html",
-      "body": "po wynikach I kwartału jedynki z przodu już może nie być .............",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     }
   ]

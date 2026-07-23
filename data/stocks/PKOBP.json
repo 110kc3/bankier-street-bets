@@ -3,19 +3,19 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-23T08:45:53.907Z",
+  "updatedAt": "2026-07-23T14:32:08.121Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-23T08:45:53.907Z",
+    "fetchedAt": "2026-07-23T14:32:08.121Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 15
+    "threadsScanned": 14
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.087,
+    "score": 0.083,
     "confidence": 0.64,
     "commentCount": 47,
     "breakdown": {
@@ -24,11 +24,6 @@
       "neutral": 27
     },
     "trend": [
-      {
-        "date": "2026-06-23",
-        "score": 0,
-        "count": 1
-      },
       {
         "date": "2026-06-24",
         "score": -0.762,
@@ -118,6 +113,11 @@
         "date": "2026-07-22",
         "score": 0.342,
         "count": 7
+      },
+      {
+        "date": "2026-07-23",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "improving",
@@ -144,6 +144,10 @@
         "count": 3
       },
       {
+        "word": "banku",
+        "count": 2
+      },
+      {
         "word": "oznacza",
         "count": 2
       },
@@ -158,14 +162,24 @@
       {
         "word": "netto",
         "count": 2
-      },
-      {
-        "word": "zyskow",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75221489",
+      "author": "Analityk",
+      "postedAt": "2026-07-23 14:35",
+      "threadTitle": "Re: wojna",
+      "url": "https://www.bankier.pl/forum/temat_wojna,75187463.html",
+      "body": "No i co to ma do banku PKO bp ? I jego kursu?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75210411",
       "author": "barka123",
@@ -328,7 +342,7 @@
       "url": "https://www.bankier.pl/forum/temat_wojna,75187463.html",
       "body": "Ludzie wojna na bliskim wschodzie będzie trwałą jeszcze długo ponieważ nikomu, ani USA ani Iranowi , nie zależy na zakonczeniu tej wojny. Obydwie strony na tym zarabiają.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
@@ -809,20 +823,6 @@
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74893581",
-      "author": "rygo",
-      "postedAt": "2026-06-23 12:26",
-      "threadTitle": "Re: Ciągle można sprzedać powyżej 100.",
-      "url": "https://www.bankier.pl/forum/temat_ciagle-mozna-sprzedac-powyzej-100,74653555.html",
-      "body": "za chwię",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
