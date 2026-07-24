@@ -3,11 +3,11 @@
   "companyName": "Orlen SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKNORLEN",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_orlen-sa,6,21,201.html",
-  "updatedAt": "2026-07-24T08:43:16.026Z",
+  "updatedAt": "2026-07-24T14:13:32.067Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-24T08:43:16.026Z",
+    "fetchedAt": "2026-07-24T14:13:32.067Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.013,
-    "confidence": 0.7,
+    "score": -0.035,
+    "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 36,
-      "negative": 47,
-      "neutral": 117
+      "positive": 35,
+      "negative": 55,
+      "neutral": 110
     },
     "trend": [
       {
-        "date": "2026-07-20",
-        "score": 0.063,
-        "count": 24
-      },
-      {
         "date": "2026-07-21",
-        "score": -0.198,
-        "count": 31
+        "score": -0.185,
+        "count": 23
       },
       {
         "date": "2026-07-22",
@@ -46,39 +41,23 @@
       },
       {
         "date": "2026-07-24",
-        "score": 0.129,
-        "count": 25
+        "score": -0.018,
+        "count": 57
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (36 pozytywnych, 47 negatywnych, 117 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (35 pozytywnych, 55 negatywnych, 110 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
-      {
-        "word": "piszesz",
-        "count": 14
-      },
       {
         "word": "zeby",
         "count": 14
       },
       {
-        "word": "wobec",
-        "count": 14
-      },
-      {
-        "word": "wylacznie",
-        "count": 14
-      },
-      {
-        "word": "masz",
+        "word": "piszesz",
         "count": 13
       },
       {
-        "word": "wolyniu",
-        "count": 13
-      },
-      {
-        "word": "wiecej",
+        "word": "trzeba",
         "count": 12
       },
       {
@@ -86,16 +65,480 @@
         "count": 12
       },
       {
-        "word": "dlatego",
+        "word": "wobec",
         "count": 12
       },
       {
-        "word": "ukraincow",
+        "word": "masz",
         "count": 12
+      },
+      {
+        "word": "wylacznie",
+        "count": 12
+      },
+      {
+        "word": "dzis",
+        "count": 11
+      },
+      {
+        "word": "argument",
+        "count": 10
+      },
+      {
+        "word": "dlatego",
+        "count": 10
       }
     ]
   },
   "comments": [
+    {
+      "id": "75233625",
+      "author": "Sjjehe",
+      "postedAt": "2026-07-24 16:10",
+      "threadTitle": "Re: Bedzie Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "A se rób podatki, byle nie dzialaj wstecz.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75233581",
+      "author": "kat12",
+      "postedAt": "2026-07-24 16:07",
+      "threadTitle": "Re: Windfall tax do kosza",
+      "url": "https://www.bankier.pl/forum/temat_windfall-tax-do-kosza,75232643.html",
+      "body": "Tak, mamy to.Bardziej tu ropa wchodzi w grę teraz …. Szykuje się spore wybicie przy dzisiejszej (zasłużonej) korekcie. Zobaczymy co dalej…( powoli puszczają mi zwier..",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75233543",
+      "author": "endrzej",
+      "postedAt": "2026-07-24 16:05",
+      "threadTitle": "Re: Bedzie Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "Mercadio a jak myślisz ile ropy i gazu jest wydobywane w Polsce?Czas na plan B",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75233433",
+      "author": "Obserwator",
+      "postedAt": "2026-07-24 15:57",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "Nie fantazjuj bo sam siebie oszukujesz. Byli tacy, którzy wieszczyli koniec PIS-u już w 2007 kiedy PO wygrała wybory po debacie telewizyjnej, w której Donald rozjechał Jarosława jak walec. Wszyscy myślący zdroworozsądkowo i inteligentni Polacy życzą PIS-owi jak najgorzej bo życzymy jak najlepiej przyszłości Polski. Natomiast musimy pamiętać o tym, że za sitwą Kaczyńskiego stoją miliony Polaków i oni nadal będą go popierać. Rozłam w PIS-ie tego nie zmieni.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75233309",
+      "author": "Mercadio",
+      "postedAt": "2026-07-24 15:49",
+      "threadTitle": "Re: Bedzie Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "Podatek o wydobycia, handlu i przerobu ropy jest jeszcze bardziej sprawiedliwy. W złotych czasach pierwszego Tuska wprowadzono miedziowy, to dlaczego tutaj nie pokusić się o podobne rozwiązanie",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75233105",
+      "author": "Sjjehe",
+      "postedAt": "2026-07-24 15:35",
+      "threadTitle": "Re: Bedzie Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "Dywidenda zaliczkowa jest ucziwym podziałem zyskow.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75233063",
+      "author": "Sjjehe",
+      "postedAt": "2026-07-24 15:31",
+      "threadTitle": "Re: Bedzie Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "Prawo nie dziala wstecz. Kropka. I koniec dyskusji. :)",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75233051",
+      "author": "Mercadio",
+      "postedAt": "2026-07-24 15:31",
+      "threadTitle": "Re: Windfall tax do kosza",
+      "url": "https://www.bankier.pl/forum/temat_windfall-tax-do-kosza,75232643.html",
+      "body": "Macie zatem szansę wyjść z twarzą z tej inwestycji. Na bazie weta ostatnia podbitka dla gapowatych akcjonariuszy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75232857",
+      "author": "Pisułar",
+      "postedAt": "2026-07-24 15:16",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "Koniec Pisu. Kaczor ma swoje lata a Ci co zostali bedaż sie między soba bić o schedę i kolejne podziały. R.I.P Pis.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75232597",
+      "author": "mabmab",
+      "postedAt": "2026-07-24 14:57",
+      "threadTitle": "Re: Bedzie Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "Mylisz dwie sprawy dzialnosc vetoholika ktory wetuje nie bo wynika to z interesu panstwa ale po to aby doprowadzic do upadku rzadu. Wyjasnij dlaczego niw orzyjal sluboean od wybranych zgodnie z Konstytucja sedziow do TK? Dlaczego uzurpuje sobie kompetencje ktorych Konstytucja nie przewiduje? Dlaczego nie podpisal porozumienia o sojuszu Polski z Wlk.Brytania ? A co do podatku o ktorym piszesz blednie nazywanym od windfall profit tax nie da sie inaczej skonstruowac. Tak samo jest w krajach ktorych obowiazuje. Ten podatek jest sprzeczny ze zdrowa logika .",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75232593",
+      "author": "endrzej",
+      "postedAt": "2026-07-24 14:56",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "15.7 jest Konfy dodajec minimum 3-5 po rozpadzie będzie 20 i 2 miejsce",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75232517",
+      "author": "endrzej",
+      "postedAt": "2026-07-24 14:48",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "Nie przypelznie.kaczor jest za bardzo mściwy i pamiętliwy koniec",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75232449",
+      "author": "endrzej",
+      "postedAt": "2026-07-24 14:43",
+      "threadTitle": "Re: Bedzie Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "Na jesień rząd nałoży podatek wsteczny 50% na branżę turystyczną na Bałtykiem że względu na wyjątkową duża ilość turystów W grudniu od czerwca",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75232395",
+      "author": "mabmab",
+      "postedAt": "2026-07-24 14:39",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "MACO przypelznie na kolanach do Kaczynskiego. W sejmie leci Gomulka na calego co drugie slowo intryganci i Tusk. Zenada stado zaplakanych histerykow....zalosne wystapienia Semeniuk i Cieszynskiego. Ciagle powtarzaja bardzo tego zaluje...zalosni i budzacy politowanie. I dobrze . Morawiecki dzis powiedzial ze kluczem do zdobycia nowych wyborcow jest GRILL! Polacy ich glosy za grilla. Obsesja na punkcie Tuska chorobliwa.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75232205",
+      "author": "Pisułar",
+      "postedAt": "2026-07-24 14:22",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "To dopiero początek",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75232171",
+      "author": "Rycz",
+      "postedAt": "2026-07-24 14:20",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "Znajdą się chętni",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75232165",
+      "author": "mabmab",
+      "postedAt": "2026-07-24 14:19",
+      "threadTitle": "MACO",
+      "url": "https://www.bankier.pl/forum/temat_maco,75232165.html",
+      "body": "czyli Pinokio bredzi w sejmie a co 2 slowo to Tusk. Nawet nie rozumie ze twierdzac to umacnia Tuska. Program tzw nowej prawicy premiera od prezentacji o Irydzie o 100MB to przeciw Tuskowi. Lecial Gomulka jak zawsze. Oni dzis wrecz plakali ciagle za moja prace a oni mnie wykopali....wstyd i zenada.Dewajtis rozszyfruj MACO.Pytanie czy Ziobro i Romanowski podpisali lojalke.Ciagle mowia o intrygantach brakuje tylko stonki zrzucanej przez intrygantow. Nie da sie ich sluchac histeria....histeria. Kuriozalne wystapienia Semeniuk i glownego przewalacza z czasow covid. Jesli Kaczynski kiwnie do nich niedbale palcem popelzna na kolanach i calowac po d...e beda.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75232089",
+      "author": "Magellan",
+      "postedAt": "2026-07-24 14:12",
+      "threadTitle": "Re: Bedzie Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "jak można podpisać ustawę, która działa wsteczmasz nieruchomości ? to może podpiszemy ustawę która anuluje twój zakupcywilizacja europy się cofa",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75232091",
+      "author": "Obserwator",
+      "postedAt": "2026-07-24 14:12",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "Kto zleci z podium? Nie fantazjuj bo będziesz rozczarowany. PIS zostanie na drugim miejscu tylko zamiast 22-23% poparcia będzie miał około 17%. Ale każde osłabienie sitwy Kaczyńskiego jest korzystne pod kątem wyborów 2027. Teraz to Morawiecki będzie miał bardzo trudny okres. Przed nim i politykami, którzy go poparli ciężka i wyczerpująca harówka w budowaniu partii. To bardzo trudne zadanie bo najpierw trzeba utworzyć ogólnopolską partię i jej regionalne struktury a następnie rozwinąć wielką kampanię wyborczą, żeby jesienią 2027 mieć poparcie min. 10%.",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75232059",
+      "author": "mabmab",
+      "postedAt": "2026-07-24 14:09",
+      "threadTitle": "Re: Bedzie Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "Vetoholik wetuje bo onaczej nie potrafi dzialac. Jaki interes panstwa liczy sie na zlosc Tuskowi. Dzis dzien gdy slonce nad PiS zachodzi.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75231897",
+      "author": "katesky",
+      "postedAt": "2026-07-24 13:54",
+      "threadTitle": "Bedzie Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "Veto windfall tax w obecnych warunkach rynkowych i geopolitycznych są niezwykle silne, jednak zwolennicy ustawy również mają tylko jeden argument, łatanie dziury którą wykopali Prezydent może zważyć ochronę stabilności polskiego sektora energetycznego, za czym pójdą kolejne podwyżki bo przecież koncern przerzucinkoszty na konsumenta versus pilne potrzeby budżetowe państwa na ich kolejne defraudacje . Sami niech majątkiem zaczną odpowiadać a nie ściągać krocie z naszych podatków .",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75231821",
+      "author": "endrzej",
+      "postedAt": "2026-07-24 13:46",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "W najbliższym sondażu zleca z podium tam gdzie ich miejsce.brawo 2 miejsce Konfa brawo my",
+      "votes": {
+        "up": 2,
+        "down": 3
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75231797",
+      "author": "Magellan",
+      "postedAt": "2026-07-24 13:43",
+      "threadTitle": "Re: Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "jak prezydent nie podpisze a pewnie nie podpisze to nowe ATH",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75231767",
+      "author": "endrzej",
+      "postedAt": "2026-07-24 13:40",
+      "threadTitle": "Re: Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "Im później tym lepiej Jeśli w nocy to będzie veto żeby nie było w mediach gadania jakie to veto itp",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75231707",
+      "author": "Obserwator",
+      "postedAt": "2026-07-24 13:34",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "Każdy tego typu bajzel w PIS-ie jest korzystny dla Koalicji 15 października pod kątem przyszłorocznych wyborów. Chociaż patrząc na to chłodnym okiem to zamiast jednej partii będą dwie PIS Kaczyńskiego i PIS Morawieckiego. Różnic programowych nie ma żadnych. To przecież rząd premiera Morawieckiego przez wiele lat prowadził szkodliwą, antyunijną politykę. Było to oczywiście pod nadzorem Kaczyńskiego, który decydował o wszystkim jako superpremier i naczelnik państwa.",
+      "votes": {
+        "up": 5,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75231511",
+      "author": "Xyz",
+      "postedAt": "2026-07-24 13:15",
+      "threadTitle": "Veto",
+      "url": "https://www.bankier.pl/forum/temat_veto,75231511.html",
+      "body": "Jak myślicie o której będzie wiadomo co z windfall tax bo dzisiaj 24ty a coś nie widzę info a już po 13",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75231487",
+      "author": "endrzej",
+      "postedAt": "2026-07-24 13:12",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "Stuprocentowa racjai precyzyjne punktuje tę retorykę – zrzucanie winy na młodych ludzi, że „dali się omamić”, było jednym z najbardziej jaskrawych przykładów unikania odpowiedzialności przez kierownictwo PiS po 2023 roku. Zamiast głębokiej autorefleksji, dlaczego partia straciła kontakt z młodym pokoleniem, wybrano najwygodniejsze tłumaczenie: „to nie nasza wina, to oni zostali zmanipulowani”.Dzisiejszy rozłam to bezpośrednia konsekwencja takiego podejścia. Jeśli partia przez blisko trzy lata rozlicza się w ten sposób, to musiało doprowadzić do katastrofy z kilku kluczowych powodów:Skutki „rozliczania winnych na zewnątrz”Polityczna ślepota i brak wyciągania wniosków: Uznanie, że młodzi wyborcy odeszli tylko dlatego, że zostali „omamieni” przez internet czy opozycję, zablokowało jakąkolwiek próbę zmiany języka i programu. Partia uznała, że nie musi nic w sobie zmieniać.Bunt wewnętrzny (reakcja Morawieckiego): Frakcja Mateusza Morawieckiego doskonale widziała, że z taką narracją partia staje się formacją schyłkową, która na stałe traci najmłodsze i średnie pokolenie Polaków. Stowarzyszenie „Rozwój Plus” powstało właśnie z buntu wobec tej bezradności – jako próba szukania nowego języka do ludzi, których Nowogrodzka po prostu skreśliła.Gnicie struktur od środka: Kiedy przez trzy lata zamiast realnej strategii posłowie słyszeli tylko, że winna jest zagranica, media i „omamiona” młodzież, w wielu z nich pękła resztka lojalności. Zrozumieli, że z kierownictwem żyjącym w oblężonej twierdzy nie da się wygrać kolejnych wyborów.Dzisiejszy podział i odejście ponad trzydziestu posłów to ostateczny rachunek za te trzy lata udawania, że problem leży wszędzie, tylko nie we własnych błędach.",
+      "votes": {
+        "up": 3,
+        "down": 2
+      },
+      "sentimentScore": -0.931,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75231347",
+      "author": "dojnazmia",
+      "postedAt": "2026-07-24 13:02",
+      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
+      "body": "Nocwilkaty nie masz pojęcia o niczymJa osobiście tankowałem po 5.24,a le do czego zmierzam kiedy to powiedział???, ile od tego czasu średnia płaca wzrosła np pracowników orlenu?? jest ich kilkadziesiąt tysięcy, no przecież ich wypłata jest z ropy, ile wzrosła opłata paliwowa która jest co roku w styczniu podwyższana ustawowo którą to ustawe przyjeli w pierwszej pisiejwładzy w 2005r .zero pojęcia jak na prawicowcaprzystało, można by jeszcze wymieniac co ma wpływ na to że paliwo drożeje ale pewnie nie dotrze to do takich jak ty co informacje zbieraja z republikiitiktoka",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75230727",
+      "author": "Super",
+      "postedAt": "2026-07-24 12:04",
+      "threadTitle": "PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "To koniec ❤️",
+      "votes": {
+        "up": 6,
+        "down": 3
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75229937",
+      "author": "Amogus",
+      "postedAt": "2026-07-24 11:06",
+      "threadTitle": "Re: Karzelek stary malutki wystąpi",
+      "url": "https://www.bankier.pl/forum/temat_karzelek-stary-malutki-wystapi,75226839.html",
+      "body": "Z tym, że Gomułka był bardzo gospodarnym dyktatorem. Towarzyszowi Kaczyńskiemu pod względem rozdawnictwa bliżej jednak do Gierka.",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75229813",
+      "author": "BRAWO",
+      "postedAt": "2026-07-24 10:58",
+      "threadTitle": "Re: Karzelek stary malutki wystąpi",
+      "url": "https://www.bankier.pl/forum/temat_karzelek-stary-malutki-wystapi,75226839.html",
+      "body": "Dokładnie opisałeś partię tuska...oraz jego zaplecze z PZPR i ZOMO....",
+      "votes": {
+        "up": 5,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75229687",
+      "author": "endrzej",
+      "postedAt": "2026-07-24 10:51",
+      "threadTitle": "Re: Strona 9 raportu ORLEN",
+      "url": "https://www.bankier.pl/forum/temat_strona-9-raportu-orlen,75224189.html",
+      "body": "Nie osmieszaj się waść Wstydu oszczędź Jeśli naprawdę chcesz wiedzieć dlaczego kurs jest taki poszukaj,policz jeśli potrafisz.Jeśli braknie sił poproś ai niech ci policzy śmiało to nic wstydliwego PREMIA LĄDOWA",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75229549",
       "author": "Rycz",
@@ -174,8 +617,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "Zaklinaczy rzeczywistości nie brakuje XD",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -230,7 +673,7 @@
       "url": "https://www.bankier.pl/forum/temat_strona-9-raportu-orlen,75224189.html",
       "body": "> Nie mam więcej czasu na bicie piany z teoretykiemMoje bicie piany i \"informacyjna bomba\" to skopiowanie tu jednej strony raportu sprzed 2 miesięcy, na forum dla analfabetów finansowych, żeby wyśmiać tutaj price action serwowane przez Silvermana i spółkę.W końcu trzeba będzie jednak znaleźć kolejnych kupców na tak świetny walor w tak świetnym otoczeniu makroekonomicznym.Ale jak rośnie gdy jest świetnie (2025) to rośnie jeszcze mocniej jak jest tragicznie.Logika królową nauk.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.981,
@@ -301,7 +744,7 @@
       "body": "To nie jest konkurs interpunkcji i ortografii a ty nie jesteś profesor Miodek tylko śmieszny człowieczek które sam nie wie czego chceTeraz ostatnie pytanie teoretyku co zrobiłeś z informacją o mniejszym przepływie gotówki w 1q Jak wykorzystałeś ja to swoich celów inwestycyinych?",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -314,7 +757,7 @@
       "url": "https://www.bankier.pl/forum/temat_strona-9-raportu-orlen,75224189.html",
       "body": "Jakbyś znał język polski to byś zrozumiał,że nie było tam żadnych sprzeczności.Napisałeś \"mam do zapłacenia 202tyś PIT38\" skoro PIT38 za 2025 był do kwietnia, to już jest po terminie i nie masz go do zapłacenia tylko sugerujesz tutaj, że masz w 2026 zysku około miliona złotych. Pomagałem Ci poprawnie się wysłowić.Kontynuowałem dalej,że nie wierzę, że osoba która wkleja AI slop bez sprawdzenia nawet czy cyfry są poprawne za 2025 a nie były i podpisująca to \"Poczytaj pajacu\" ma jakiekolwiek szanse na zarobienie miliona złotych z giełdy.Mam nadzieję,że pomogłem i miłego piątku.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -328,7 +771,7 @@
       "url": "https://www.bankier.pl/forum/temat_strona-9-raportu-orlen,75224189.html",
       "body": "Skoro sprzedałeś wtedy na szczycie i odkupiłeś prawie na max dołku, to podpowiedz do ilu teraz urośnie?",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -342,8 +785,8 @@
       "url": "https://www.bankier.pl/forum/temat_karzelek-stary-malutki-wystapi,75226839.html",
       "body": "Wracamy do średniowiecza.ki3dys tez obwozili karlow po jarmarkach ku uciesze gawiedzi",
       "votes": {
-        "up": 3,
-        "down": 0
+        "up": 5,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -356,8 +799,8 @@
       "url": "https://www.bankier.pl/forum/temat_karzelek-stary-malutki-wystapi,75226839.html",
       "body": "Pierwszy sekretarz KC PIS tow. Jarosław jest taką samą postacią jaką był Władysław Gomułka w odległych czasach PRL-u. Jedna partia, jedyny słuszny program, jeden nieomylny przywódca. Gospodarka centralnie sterowana, partyjna telewizja propagandowa, wrogość wobec Niemiec i suwerenna Polska z ludem pracującym miast i wsi. Taką Polskę budował Kaczyński i jego sitwa w latach 2015-2023.",
       "votes": {
-        "up": 5,
-        "down": 0
+        "up": 7,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -371,7 +814,7 @@
       "body": "W jednej wypowiedzi 2 sprzeczności Był do zapłacenia do kwietnia Wątpię byś generował w pół roku milionSynku poszukaj sobie na forum Sprzedałem po 148.12Dziadek wrócił ,124.98Ty za to piszesz super po polsku a jesteś bucem",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -384,7 +827,7 @@
       "url": "https://www.bankier.pl/forum/temat_strona-9-raportu-orlen,75224189.html",
       "body": "PIT był do zapłaty do końca kwietnia, rekordowe zyski to rekordowo mała gotówka, i obecny kurs jest kompletnie odklejony od fundamentów, bo Orlen wydobywa za mało surowców żeby zarabiać jak idą do góry.Plus odpisy, plus podatek od nadmiarowych zysków.Wiedzę masz taką Andrzeju, że ledwo piszesz po polsku, i jeśli miałbym obstawiać, to raczej taka osoba nie generuję sobie miliona złotych z giełdy w ciągu 6 miesięcy.Pozdrawiam i miłego dnia.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.964,
@@ -399,7 +842,7 @@
       "body": "Moje wrażenia duży cwaniaczku z małą wiedzą są w odróżnieniu od ciebie zaje.......Mam 202 tys pit 38 do zapłacenia Rekordowy kurs super dane za 2 q Różni nas to że ja wykorzystuje swoją wiedzę w praktyce s ty bijesz pianę w nieistotnym szczególe czepiając się jak małolat słówek czy pisowni.To taka różnica Ale żebyś miał satysfakcję to ci napisze przepływy w 1 q 26 były mniejsze niż przeplywy1q 25A teraz zrób użytek z tej informacji pozdrawiam",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -426,8 +869,8 @@
       "url": "https://www.bankier.pl/forum/temat_karzelek-stary-malutki-wystapi,75226839.html",
       "body": "O 12-ej",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -496,8 +939,8 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
       "body": "program po : P olaków O skubać, by nam żyło się lepiej ...",
       "votes": {
-        "up": 7,
-        "down": 0
+        "up": 9,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -539,7 +982,7 @@
       "body": "Zresztą mamy szacunki za2q i tam są pozytywne dane a nie dziwne sensacje",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -553,7 +996,7 @@
       "body": "Nie dociera do ciebie żaden argument,upadłeś się na porownanie q do jakiegoś q może ja znajdę jakiś q w 1997 i go porównam do 1q 26 będzie super ale czy z tego można wyciągnąć jakieś wnioski? Wątpię no chyba że takie jak ty to takNie będę więcej nic ci udowadniać bo dyskusja z tobą jest bezcelową skóra ja pisze że cały rok jest miarodajny a ty że ja prognozuje cały rok.Albo się skup i czytaj ze zrozumieniem albo poczekaj na oficjalne wyniki 2q wtedy będzie można zweryfikować 1q i tyle",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -566,7 +1009,7 @@
       "url": "https://www.bankier.pl/forum/temat_strona-9-raportu-orlen,75224189.html",
       "body": "Pełna zgoda, podłączyli Orlen pod spółki wydobywcze i leci. Ciężko to wytłumaczyć inaczej, żadne wyniki podpisy itp pierdy tu nie mają znaczenia, żeby aż tak rosło, jeśli już to marginalny",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -622,7 +1065,7 @@
       "url": "https://www.bankier.pl/forum/temat_strona-9-raportu-orlen,75224189.html",
       "body": "Podsumowanie kwartałuMimo że operacyjne przepływy gotówki były nieco niższe niż w rekordowym pierwszym kwartale poprzedniego roku (kiedy wynosiły 15,7 mld zł), Orlen utrzymał solidną nadwyżkę finansową. Wynika to m.in. z faktu, że spółka w Q1 2026 zanotowała bardzo mocny zysk netto na poziomie 8,15 mld zł oraz zredukowała kwartalne wydatki inwestycyjne (CapEx) o 13% rok do roku. Tak dobra pozycja gotówkowa pozwoliła zarządowi na rekomendację rekordowej dywidendy w wysokości 8 zł.Wyrwałeś z kontekstu q z najlepszym q i szukasz sensacji.Jak widać rynek twoja sensację ma w d....ileMiarodajny jest cały rok chłopaku dobrze o tym wiesz jeśli choć trochę kumasz bazę.Co do wzrostu proponuje rzucić okiem na Shell BpSchevron MolExxonDiesel AraCeny hurtowe za ten tydzień w petrochemi Możliwe jutrzejsze veto do windfall tax 12% wzrost sprzedaży w detalu i napełnione magazyny ponad stan na koniec lipca tanim gazem lngTo są powody wzrostu a nie sensację dziwnego",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 2
       },
       "sentimentScore": 0.995,
@@ -636,7 +1079,7 @@
       "url": "https://www.bankier.pl/forum/temat_strona-9-raportu-orlen,75224189.html",
       "body": "Dziwne,ropa w górę + dolar w górę to sytuacja wręcz dramatyczna dla Orlenu na co jasno wskazuje FCF za 1Q2026.Kto tu jest ubierany pod te wyniki ignorując fundament,skoro te same fundamenty działały od lat ?Cofnijmy do 2022, jakoś rynek wiedział co się dzieje gdy ropa i dolar w górę.Automatów nie było wtedy ?",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -664,7 +1107,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-orlen-odkryl-zloza-ropy,75217539.html",
       "body": "Może jeszcze sprzedaż nowego hot doga ruszyła i dlatego kurs tak rośnie?",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -805,7 +1248,7 @@
       "body": "Orlen przeją PGNiG. Teraz Orlen ma potężne złoża gazu i coraz więcej nowych odwiertów.",
       "votes": {
         "up": 5,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1112,7 +1555,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-orlen-odkryl-zloza-ropy,75217539.html",
       "body": "Na WIG 20 gra się tylko tak dziś kupujesz dzisz sprzedajesz to nie stracisz",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 3
       },
       "sentimentScore": 0.322,
@@ -1126,7 +1569,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-orlen-odkryl-zloza-ropy,75217539.html",
       "body": "Czyli po wyborach. Pozdrawiam.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -1140,7 +1583,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-orlen-odkryl-zloza-ropy,75217539.html",
       "body": "Skąd taka wycena ? Ropa rośnie, Orlen rośnie. Ropa spada, Orlen rośnie. Odnoszę wrażenie, że wycena jest już bardzo mocno oderwana od rzeczywistości ale .... rosnąć może do nieskończoności. Gorzej, że jak zacznie się korygować to cały WIG20 będzie krwawił tygodniami.",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 2
       },
       "sentimentScore": 0.762,
@@ -1239,7 +1682,7 @@
       "body": "Z KGHM przy 180 zł się śmiali a potem kupowali na wyścigi przy 270 zł",
       "votes": {
         "up": 6,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1252,7 +1695,7 @@
       "url": "https://www.bankier.pl/forum/temat_ale-to-jest-gniot-masakra,75216805.html",
       "body": "Taaak. Po 500 napisz. Co tak słabo",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": -0.762,
@@ -1267,7 +1710,7 @@
       "body": "Jak będzie po 300 to będziesz inaczej śpiewał",
       "votes": {
         "up": 10,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -1308,7 +1751,7 @@
       "url": "https://www.bankier.pl/forum/temat_ale-to-jest-gniot-masakra,75216805.html",
       "body": "Beka z tych co kupują po tej cenie",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 7
       },
       "sentimentScore": 0,
@@ -1561,7 +2004,7 @@
       "body": "Chyba najlepiej będzie jeżeli jeszcze w tym roku będą wybory. PiS robi powtórkę z rozrywki. Dwie tv już po to powołali. Najpierw rozpirzą konfy a później walka z koalicją wolności. Potrzebują czasu, którego nie wolno im dać.",
       "votes": {
         "up": 1,
-        "down": 8
+        "down": 9
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1630,8 +2073,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "Pisowskie pajace nacje taką samą sytuację jak przed i po wyborach 23 roku.Koalicje zrobicie ze sobą na z wami czyli oszolomami z PiSu nikt nie siedzie do stołu.Dzieki takiemu dzbanowi No chyba że z Morawieckie choć też wątpię nawet on ma dość zrytych betonowych oze sroze",
       "votes": {
-        "up": 3,
-        "down": 6
+        "up": 4,
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1645,7 +2088,7 @@
       "body": "Aleś to wymyślił. Bardziej widzę koalicję Ko z konfederacją Mentzena i PSL. Byłoby wspaniale.",
       "votes": {
         "up": 1,
-        "down": 5
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1658,8 +2101,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "Polej głowę zimną wodą, bo ci się RAM przegrzewa.",
       "votes": {
-        "up": 2,
-        "down": 1
+        "up": 3,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1672,8 +2115,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "niech się dzielą, im więcej będzie pisów tym lepiej, dwie wejdą reszta przepadnie razem z glosami ,po razem z psl ,lewicą będzie miała większość konstytucyjną i vetoman nie pomoże w destrukcji kraju",
       "votes": {
-        "up": 1,
-        "down": 9
+        "up": 2,
+        "down": 10
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1728,8 +2171,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "Morawiecki może zabrać platformie głosy. I niech się tak stanie .A rządy MORAWIECKI gdy był kowid i początek wojny to jego majstersztyk.I gdyby TUSK to ciągnął do wyborów prezydenckich to Rafał by wygrał.A tak mamy zaj***y dług . Mateusz do boju. MŁODZI NA MORAWIECKIEGO i rozwój a reszta na CZARNKA i naprawę prawa, edukacje i rozliczenia. 48% POPARCIA",
       "votes": {
-        "up": 3,
-        "down": 1
+        "up": 4,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1841,7 +2284,7 @@
       "body": "A kto to jest strona demokratyczna? Ta wasza demokracja walcząca?",
       "votes": {
         "up": 14,
-        "down": 22
+        "down": 23
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1854,8 +2297,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "Dziękuję za opinię syfu po podstawowce pouczajacego mnie - inteligenta. Jak zwykle zabawna. XDPonownie powtórzę. Rozłam w PiS jest błogosławieństwem dla KO. Nikt nigdy ze strony demokratycznej nie rozważałby nawet hipotetycznie poparcia dla PiS-bis Morawieckiego. Elity doskonale pamiętają jego rządy.",
       "votes": {
-        "up": 16,
-        "down": 15
+        "up": 17,
+        "down": 16
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -1883,7 +2326,7 @@
       "body": "Tusk może już pójść tylko z Donaldem.",
       "votes": {
         "up": 12,
-        "down": 24
+        "down": 26
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1924,8 +2367,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "To znaczy, że nie masz pojęcia o polityce.",
       "votes": {
-        "up": 9,
-        "down": 14
+        "up": 10,
+        "down": 16
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1938,8 +2381,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "Pomoże Tuskowi w sposób niebywały o dramatycznie osłabi populistów prawackich. Nie ma co do tego cienia wątpliwości.",
       "votes": {
-        "up": 14,
-        "down": 11
+        "up": 15,
+        "down": 12
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -1952,8 +2395,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "Wie, ale ten system mimo wszystko nue pomoże Tuskowi utrzymać władzy, bo nue będzie miał z kim tworzyć koalicji. Zeżarł przystawki, a resztki tych przystawek mogą utracić elektorat na rzecz PiSu i ewentualnie partii Morawieckiego.",
       "votes": {
-        "up": 9,
-        "down": 14
+        "up": 10,
+        "down": 16
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1966,8 +2409,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "Widzę że psiocha nie wie jak działa system d'Hondta XDDDDD",
       "votes": {
-        "up": 11,
-        "down": 9
+        "up": 12,
+        "down": 10
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1980,8 +2423,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "Nie zastanowiło cię, że jeśli hipotecznie grupa Morawieckiego odejdzie z PiS tworząc nową partię to może to być chwyt taktyczny mający na celu przeciąganie wyborców z innych partii. Zrobiono sondaże, który uwzględniają takie wyjście. Rozwój Plus osiąga tam ok. 6%, PiS ok. 18%.Teraz konserwatywny, bardziej prawicowy PiS jest bardziej wiarygodny dla części elektoratu obu Konfederacji, a Rozwój Plus może zassać część elektoratu P2050 i Unii Centrum znudzonego koalicją z Tuskiem. Po czym po wyborach wróci koalicja PiS - Rozwój Plus tworząc większość spychając Tuska di opozycji.",
       "votes": {
-        "up": 7,
-        "down": 15
+        "up": 8,
+        "down": 16
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2008,8 +2451,8 @@
       "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
       "body": "Czyli będzie większość Konstytucyjna..!",
       "votes": {
-        "up": 15,
-        "down": 2
+        "up": 17,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2120,8 +2563,8 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
       "body": "Gościu ty nie umiesz odpowiadać na argumenty Tusk nas zniszczy",
       "votes": {
-        "up": 6,
-        "down": 2
+        "up": 7,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2149,7 +2592,7 @@
       "body": "Bo ich na stać he he",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2386,8 +2829,8 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
       "body": "Pis wydoił na 120 miliardów",
       "votes": {
-        "up": 5,
-        "down": 7
+        "up": 7,
+        "down": 8
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2400,8 +2843,8 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
       "body": "Za to że latałeś na kocie",
       "votes": {
-        "up": 1,
-        "down": 2
+        "up": 2,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2415,7 +2858,7 @@
       "body": "Taka prawda latałem z pałą po ulicy mam emeryturę 8 tys na kocie ha ha",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2428,8 +2871,8 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
       "body": "Takie bajery to Republika.Prawda jest takaDyferencjał Ural/Brent (Tania rosyjska ropa)Rabat na ropę ze Wschodu: Ze względu na sankcje i niechęć zachodnich rynków do zakupu rosyjskiej ropy typu Urals, jej cena drastycznie spadła w stosunku do benchmarkowej ropy Brent. Różnica ta (tzw. dyferencjał) wynosiła w 2022 roku momentami od 30 do ponad 40 dolarów na baryłce.Podwójny zysk: Orlen realizował w 2022 roku długoterminowe kontrakty na dostawy rurociągowe rosyjskiej ropy. Kupował więc surowiec bardzo tanio (z gigantycznym rabatem wynikającym z dyferencjału), a gotowe produkty (benzynę i diesel) sprzedawał po rekordowo wysokich cenach giełdowych dyktowanych przez europejskie rynki.PodsumowanieOrlen \"sztucznie podnosił\" marże, lecz wykorzystał sprzyjające, choć nadzwyczajne uwarunkowania makroekonomiczne. Połączenie taniego surowca ze Wschodu z bardzo drogim produktem końcowym na Zachodzie automatycznie wygenerowało rekordową marżę rafineryjną, która stała się głównym źródłem miliardowych zysków koncernu w 2022 roku.",
       "votes": {
-        "up": 7,
-        "down": 10
+        "up": 14,
+        "down": 11
       },
       "sentimentScore": 0.964,
       "sentimentLabel": "Positive"
@@ -2442,459 +2885,11 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
       "body": "Powiedział to w czasie wojny w Iranie tłuku o IQ kału?PSKiedy do syfu gminnego dojdzie, że NIE STAWIAMY SPACJI PRZED ZNAKAMI INTERPUNKCYJNYMI?!",
       "votes": {
-        "up": 3,
-        "down": 9
+        "up": 5,
+        "down": 10
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75191051",
-      "author": "PiSosyf",
-      "postedAt": "2026-07-21 07:26",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Robisz na ruskie",
-      "votes": {
-        "up": 2,
-        "down": 9
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75191031",
-      "author": "Skok",
-      "postedAt": "2026-07-21 07:22",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Xx - twój rudy bożek donio powiedział ,,a gdybym to ja był premierem to litr paliwa kosztowałby 5,19 zł ,,Jak twoje IQ ci podpowiada Rudy jest PREMIEREM czy nie ?",
-      "votes": {
-        "up": 12,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75191001",
-      "author": "Skok",
-      "postedAt": "2026-07-21 07:17",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Ja nie chcę robić na es'beckie emerytury Oni mają a ....?",
-      "votes": {
-        "up": 10,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190933",
-      "author": "Ann",
-      "postedAt": "2026-07-21 07:03",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Dolar tani , baryłka ropy też nie taka droga , a za plajtę formy paliwo na stacjach drogie , za PIS tak nas nie doili , po to dno ,",
-      "votes": {
-        "up": 15,
-        "down": 10
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75190799",
-      "author": "PiSosyf",
-      "postedAt": "2026-07-21 06:15",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Czemu dyskutujecie z ruskim? Przecież on ma płacone żeby nabijać posty i szerzyć propagandę.",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190501",
-      "author": "Xx",
-      "postedAt": "2026-07-21 00:13",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Hillela, klasyczna ucieczka od tematu. Dyskusja dotyczyła tego, czy tragedia Wołynia jest dziś wykorzystywana politycznie do budowania niechęci wobec współczesnych Ukraińców, a ty nagle wrzucasz dług publiczny. To nie jest argument, tylko zmiana wątku, kiedy brakuje odpowiedzi.Ale skoro już poruszyłeś dług, to warto sprostować te uproszczenia.Twój argument opiera się na prymitywnym porównaniu: „było 834 mld, jest 2,19 bln, więc wszystko jasne”. Nie, nie jest jasne. Dług publiczny nie rośnie w próżni. Im większa jest baza zadłużenia, tym większe są przyrosty kwotowe. Ktoś z długiem 2 bln przy podobnym tempie wzrostu będzie dokładał rocznie więcej miliardów niż ktoś z długiem 800 mld. To matematyka na poziomie szkoły podstawowej.Poza tym pomijasz najważniejszą rzecz: **dług ukrywany poza klasycznym budżetem**. Liczy się nie tylko oficjalna liczba, ale także zobowiązania wypychane do funduszy i instytucji pozabudżetowych. Jeśli ktoś manipuluje wyłącznie oficjalnym wskaźnikiem, a ignoruje całość zobowiązań państwa, to nie analizuje finansów — tylko uprawia propagandę.Dług należy oceniać przez:* relację do PKB,* koszty obsługi,* sposób finansowania,* przejrzystość finansów publicznych,* zobowiązania ukryte poza budżetem.Samą liczbą „ile wynosi dług” można udowodnić wszystko i nic.A teraz wracając do sedna dyskusji.Dewajtis od początku zbudował całą swoją narrację na chochole. Prof. Środa nie napisała, że Wołyń nie istniał. Nie napisała, że Polacy nie mają prawa pamiętać ofiar. Nie napisała, że zbrodnie UPA można relatywizować.Jej teza była znacznie prostsza: **tragiczna historia nie może być używana jako narzędzie do szczucia na współczesnych Ukraińców**.I tego Dewajtis przez całą dyskusję nie obalił.Zamiast odpowiedzieć na tę tezę, zrobił trzy rzeczy:Po pierwsze — ogłosił, że profesor etyki „świadomie manipuluje”, ale nie przedstawił żadnego dowodu. Samo przekonanie anonimowego forumowicza nie jest kontrargumentem wobec osoby zajmującej się naukowo etyką i filozofią.Po drugie — pomieszał dwie różne rzeczy: pamięć historyczną i polityczne wykorzystywanie historii. To, że ktoś pamięta Wołyń, nie oznacza, że ma prawo używać tej pamięci do atakowania ludzi tylko dlatego, że są Ukraińcami.Po trzecie — kiedy argumenty zaczęły się kończyć, pojawił się zarzut „AI ci to napisało”.Tak, przyznaję: korzystam z ChatGPT przy formułowaniu odpowiedzi. I jest to nawet zabawne, bo cała obrona Dewajtisa sprowadziła się ostatecznie nie do obalenia argumentów, tylko do narzekania na narzędzie. To trochę jakby ktoś przegrał debatę z kalkulatorem i zaczął mieć pretensje, że przeciwnik umie liczyć.AI nie tworzy faktów. AI pomaga uporządkować argumenty. A jeżeli kilka logicznie uporządkowanych zdań wystarczy, żeby rozbić czyjąś narrację, to problemem nie jest AI, tylko słabość tej narracji.Podsumowanie tej dyskusji:* Wołyń był tragedią i zbrodnią — nikt tego tutaj nie neguje.* Ofiary zasługują na pamięć — nikt tego nie kwestionuje.* Ale wykorzystywanie tej tragedii do budowania wrogości wobec dzisiejszych Ukraińców jest polityczną manipulacją.* Dewajtis nie obalił tej tezy ani jednym argumentem.* Hillel nie wniósł nic do rozmowy o historii, tylko zmienił temat na dług i podał jedną liczbę bez kontekstu.* A gdy zabrakło odpowiedzi merytorycznej, pozostało już tylko atakowanie źródła odpowiedzi.Czyli klasyczny schemat: najpierw wielkie oskarżenia o manipulację, potem brak dowodów, następnie zmiana tematu, a na końcu pretensje, że ktoś potrafi logicznie odpowiedzieć.To nie jest przegrana jednej tezy. To jest całkowita kapitulacja w dyskusji.",
-      "votes": {
-        "up": 4,
-        "down": 10
-      },
-      "sentimentScore": -1,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75190485",
-      "author": "nelor",
-      "postedAt": "2026-07-21 00:05",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Stuknij się, to było 50 lat temu, więc na pewno dokładnie ci nie napiszę, tak jak i o Bieszczadach.",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190481",
-      "author": "Xx",
-      "postedAt": "2026-07-21 00:02",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Wiem. Bo wcześniej przeciwczylem ten algorytm. Teraz nie muszę już czytać.",
-      "votes": {
-        "up": 3,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190399",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-20 23:34",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Nawet nie wiesz czy jestem miażdżony, bo ani nie czytasz tego co ja napisałem, ani tego co sam wkleiłeś. Zatem bujasz w obłokach bratku i to udowodniłem.",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190393",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-20 23:32",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Wołyń był tylko jednym z polskich regionów, więc ludność ukraińska tam zamieszkiwana była traktowana jako mniejszość, nawet jeśli w tym konkretnie regionie ich odsetek był większy od zamieszkiwanej tam ludności polskiej.",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190373",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-20 23:29",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": ">O zbrodniach UPA minn. na Wołyniu wiem ze szkoły. <<Właśnie, w szkole było o zbrodniach UPA, ale nie na Wołyniu, a w Bieszczadach. Po prostu pomyliło ci się. A jeśli się upierasz, to napisz co konkretnie w szkole się dowiedziałeś.",
-      "votes": {
-        "up": 6,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190361",
-      "author": "nelor",
-      "postedAt": "2026-07-20 23:27",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Dziwić sie, że nie rozumiesz słów Środy??? Nie rozumiesz co do ciebie się pisze. Co mają wspólnego flagi państwa ukraińskiego z flagami nacjonalistów ukraińskich? To nie jest co innego, tylko bezczelne wykorzystywanie nastrojów dla paru punktów procentowych w wyścigu z konfami. Błąd Żeleńskiego, to tylko pretekst do wykorzystania okazji. A może zsynchronizowana akcja. Kto polityków zrozumie???",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75190333",
-      "author": "Xx",
-      "postedAt": "2026-07-20 23:22",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Zgadza się. Nie czytam nic co piszesz ani tego co wklejam. A i tak jesteś miażdżony, bo wiem jak to robić. Nawet w tym nie masz szans.",
-      "votes": {
-        "up": 3,
-        "down": 9
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190301",
-      "author": "nelor",
-      "postedAt": "2026-07-20 23:13",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Mniejszości ukraińskiej na Wołyniu, to chyba takie stwierdzenie, bo to były nasze tereny. Na Wołyniu mieszkało 17% Polaków.",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190209",
-      "author": "citro1",
-      "postedAt": "2026-07-20 22:58",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Paryska „Kultura” kierowana przez Jerzego Giedroycia dążyła do pojednania polsko-ukraińskiego, uznając niepodległość Ukrainy za warunek bezpieczeństwa Polski. Temat Wołynia był jednak na jej łamach przedmiotem trudnych dyskusji. Kluczowe stanowiska środowiska obejmowały: [1, 2]Prawda i bolesny realizm: Redakcja nie unikała tematu zbrodni popełnionych przez OUN-UPA na ludności polskiej. Stawiano jednak nacisk na to, by tragiczna przeszłość nie stała się przeszkodą w budowaniu wspólnej przyszłości z niepodległą Ukrainą. [1, 2, 3]Odrzucenie myślenia imperialnego: Główny publicysta pisma, Juliusz Mieroszewski, podkreślał konieczność zrzeczenia się pretensji do Kresów (w tym Lwowa i Wołynia) oraz uznania granicy na Bugu. [1]Krytyka nacjonalizmów: „Kultura” potępiała ukraiński szowinizm z okresu II wojny światowej, ale równie krytycznie odnosiła się do polskich przedwojennych błędów w traktowaniu mniejszości ukraińskiej na Wołyniu. [1]Dialog zamiast odwetu: Publikowano teksty ukraińskich intelektualistów (m.in. Iwana Łysiak-Rudnyckiego, Bohdana Osadczuka), dążąc do wypracowania wspólnej interpretacji historii, która potępiałaby czystki etniczne z obu stron. [1, 2]Więcej na temat wieloletnich starań redakcji o porozumienie przeczytasz w analizie poświęconej Ukrainie w życiu Jerzego Giedroycia.",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75190185",
-      "author": "nelor",
-      "postedAt": "2026-07-20 22:54",
-      "threadTitle": "Re: Rysuję się Rgr na wykresie",
-      "url": "https://www.bankier.pl/forum/temat_rysuje-sie-rgr-na-wykresie,75166285.html",
-      "body": "Kiedy będzie Budapeszt w Warszawie???",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190129",
-      "author": "nelor",
-      "postedAt": "2026-07-20 22:48",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Jeszcze raz. O zbrodniach UPA minn. na Wołyniu wiem ze szkoły. Może nie o aż takim barbarzyństwie, ale wiedziałem już w podstawówce.",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190075",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-20 22:42",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Mieszkam na Lubelszczyźnie i o okrucieństwach na wschodzie słyszałem od dziecka. Jednak moja rodzinna miejscowość nie leży na terenach zamieszkiwanych również przez ludność narodowości ukraińskiej, więc informacje jakie do nas za komuny docierały mieszały Katyń z Wołyniem. Temat rozjaśnił ki się dopiero pod koniec lat 80 tych, gdy łatwiej było o literaturę drogiego obiegu. Teraz często bywam na działce po moich teściach, gdzie do dziś mieszka dużo ludzi narodowości ukraińskiej i rrn temat jest mi doskonale znany.",
-      "votes": {
-        "up": 6,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190037",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-20 22:38",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": ">Bzdura, ulica huczała a ostatni wybryk Żeleńskiego, to pryszcz z wcześniejszymi występkami. Flagi UPA, to i po Polsce hulały.<<Daj przykład. Co innego rozmowy między Polakami na tematy ukraińskie, a co innego konkretne zatargi czy ataki werbalne czy słowne wobec Ukraińców. Oczywiście, że raziły w oczy ukraińskie flagi na budynkach użyteczności publicznej. Uważam to za grube nadużycie. Znam też przykład szkoły w Warszawie, gdzie na akademiach z okazji rozpoczęcia czy zakończenia roku szkolnego obok polskiego hymnu jest też hymn ukraiński i nie z tego powodu, że uczą sie tam dzieci m.in. ukraińskie. Szkoła ma charakter międzynarodowy i uczęszczają tam dzieciaki z różnych państw (Indii, Węgier, Rosji, Ukrainy, Chin, Wietnamu i wielu innych).",
-      "votes": {
-        "up": 7,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75189961",
-      "author": "citro1",
-      "postedAt": "2026-07-20 22:25",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "> >>Jedyne co, to nie były tak celebrowane, jak obecnie. >> > Zbrodnie UPA w PRL nie były znane powszechnie. Były znane w przekazach ludności na terenach wschodniej Lubelszczyzny i Podkarpacia.>>Co ty chłopczyku pitolisz! Ja mieszkam we Wrocławiu i o Wołyniu wiedziałem juz w latach 70 tych.",
-      "votes": {
-        "up": 0,
-        "down": 11
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75189937",
-      "author": "nelor",
-      "postedAt": "2026-07-20 22:20",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "O stanowisku oficjalnej propagandy, to ci napisałem. Tak jak milczała o agresji na wschodnie kresy i podboju. Wzmianki w szkołach były. O ludobójstwie na bolszewikach w ogóle jak i Katyniu. Wybitnie świadczy, to o polityce zabliźniania ran.",
-      "votes": {
-        "up": 0,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75189851",
-      "author": "nelor",
-      "postedAt": "2026-07-20 22:11",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Bzdura, ulica huczała a ostatni wybryk Żeleńskiego, to pryszcz z wcześniejszymi występkami. Flagi UPA, to i po Polsce hulały.",
-      "votes": {
-        "up": 1,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75189763",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-20 21:58",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Nastroje antyukraińskie zawsze były, ale były nieznaczne. Chodzi o skalę, a ta diametralnie wzrosła po haniebnej decyzji Zełeńskiego.",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75189749",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-20 21:57",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": ">Jedyne co, to nie były tak celebrowane, jak obecnie.<<Zbrodnie UPA w PRL nie były znane powszechnie. Były znane w przekazach ludności na terenach wschodniej Lubelszczyzny i Podkarpacia. To o czym piszesz to nie jest to o czym ja piszę. A komuny temat UPA ograniczał się do walk, gloenie6w Bieszczadach z siłami NKWD i wojskiem polskim, ewentualnie z komunistyczną partyzantką. Sztandarowa lektura \"Łuny w Bieszczadach\". O ludobójstwie na Wołyniu oficjalna propaganda milczała, by nie podkreślać utraty Kresów Wschodnich na rzecz ZSRR.",
-      "votes": {
-        "up": 9,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75189707",
-      "author": "nelor",
-      "postedAt": "2026-07-20 21:51",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "I znowu nieprawda. Nastroje anty ukraińskie ujawniły się niedługo po rozpoczęciu wojny. Wszystkie benefity przybyszy natychmiast kuły w oczy naszych obywateli. To praawaccy politycy dopiero teraz wykorzystują okazję. Wybory coraz bliżej a PiS ma sporą konkurencję w konfach. Nikt nie widzi, do czego, to prowadzi.",
-      "votes": {
-        "up": 1,
-        "down": 6
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75189697",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-20 21:50",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": ">Możesz uderzyć w sedno jego błędu – przedstawia własną interpretację jako jedyną przyczynę zjawiska, ignorując rolę polityki i propagandy:<<Nawet nie robisz pozorów, że wiesz co wklejasz. AI pisze ci co masz napisać, a ty to bezwiednie wklejasz. Kpina.",
-      "votes": {
-        "up": 10,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75189617",
-      "author": "Hillela",
-      "postedAt": "2026-07-20 21:39",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Dziecko niema jeszcze matematyki w szkole roku 2015 rok Beata szydło przejmuje władzę od hyzego to dług publiczny państwa wynosi 834 mld Morawiecki oddaje władze hyzemu dług jest 1.300 .bil.dzis mamy po 3 latach już 2.19 bil.zwieksza ponat 819mld 3lat kosmos",
-      "votes": {
-        "up": 3,
-        "down": 6
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75189599",
-      "author": "nelor",
-      "postedAt": "2026-07-20 21:38",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Nawet głupiec czasami powie coś mądrego, ale mądrość może trafić tylko do mądrego. Niestety, ale, to wszystko świadczy jak blisko ludziom do nacjonalizmu, nazizmu, faszyzmu. Jak niewiele potrzeba aby bestia powstała. Łżesz Dewajtis jak często ci się zdarza. Konflikt z UPA i ich zbrodnie były powszechnie znane. Jedyne co, to nie były tak celebrowane, jak obecnie. Nie dlatego, że ktoś chciał coś ukrywać, tylko aby nowym pokoleniom zabliźnić rany. Zdumiewające, że te rany najchętniej rozdrapuje kościół katolicki. Innowiercy co???",
-      "votes": {
-        "up": 1,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75189495",
-      "author": "Xx",
-      "postedAt": "2026-07-20 21:19",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Pisowskie zadłużenie pokrywane w rozmaitych funduszach nie zrobiło się samo.Ale nie tego dotyczy wątek.",
-      "votes": {
-        "up": 3,
-        "down": 8
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75189489",
-      "author": "Hillela",
-      "postedAt": "2026-07-20 21:18",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Dług Polski wystrzelił kosmos 2.19 bil.",
-      "votes": {
-        "up": 7,
-        "down": 2
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75189461",
-      "author": "Xx",
-      "postedAt": "2026-07-20 21:13",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Pięknie cię miażdży mój AI ahhhh",
-      "votes": {
-        "up": 4,
-        "down": 10
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75189459",
-      "author": "Xx",
-      "postedAt": "2026-07-20 21:13",
-      "threadTitle": "Re: Mądre słowa Pani Profesor Magdaleny Środy",
-      "url": "https://www.bankier.pl/forum/temat_madre-slowa-pani-profesor-magdaleny-srody,75188875.html",
-      "body": "Możesz uderzyć w sedno jego błędu – przedstawia własną interpretację jako jedyną przyczynę zjawiska, ignorując rolę polityki i propagandy:Dewajtis, nie odpowiedziałeś na główną tezę. Powtórzyłeś jedynie własną opinię i ogłosiłeś ją faktem.Nikt nie twierdzi, że decyzje władz Ukrainy nie wywołały oburzenia. Problem polega na tym, że Ty próbujesz wmówić, iż **wyłącznie one** odpowiadają za wzrost antyukraińskich nastrojów w Polsce. To zwyczajnie nieprawda.Od miesięcy część polityków prawicy i skrajnej prawicy buduje przekaz o „niewdzięcznych Ukraińcach”, „ukrainizacji Polski”, „zabieraniu pieniędzy Polakom” czy „zagrożeniu ze strony uchodźców”. To nie Kijów odpowiada za tę kampanię. To polscy politycy świadomie wykorzystują temat Ukrainy do mobilizacji własnego elektoratu.Dlatego prof. Środa mówi o politycznym wykorzystaniu Wołynia. Nie neguje ludobójstwa. Zwraca uwagę, że pamięć o nim stała się narzędziem bieżącej walki politycznej. I wystarczy spojrzeć na język części prawicy oraz rosnącą liczbę incydentów wobec Ukraińców, by zrozumieć, o czym mówi.Co więcej, znowu stosujesz podwójne standardy. Kiedy Ukraina podejmuje decyzje historyczne, wyciągasz z nich wniosek o odpowiedzialności całego państwa i społeczeństwa. Kiedy w Polsce politycy prawicy od miesięcy nakręcają antyukraińskie emocje, a potem dochodzi do ataków na Ukraińców czy demolowania sklepów, nagle twierdzisz, że to nie ma żadnego związku.To nie jest analiza. To jest wybiórcze dobieranie faktów pod wcześniej przyjętą tezę.I jeszcze jedno. Zabawne, że zarzucasz komuś „AI”, bo gdy zabrakło argumentów, zostało już tylko odwołanie personalne. I pada to od osoby która jako pierwsza zaczęła tu wklejać strony tekstu z generatora gdy okazało się że jest kompletnie bezradna intelektualnie. Otóż oznajmiam ci, że nikt nie będzie tracił tu czasu na dyskusję z generatorem. Skoro przyjąłeś model zaśmiecania tego forum AI, to w ten sam sposób będziesz miażdżony. Na końcu liczy się bowiem siła argumentu a ty nie jesteś intelektualnie zdolny nawet by zadać właściwie prompt. Więc także w pojedynku na teksty z AI jesteś nokautowany.",
-      "votes": {
-        "up": 6,
-        "down": 15
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }

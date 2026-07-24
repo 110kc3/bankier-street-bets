@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-07-24T08:42:43.621Z",
+  "updatedAt": "2026-07-24T14:13:00.630Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-24T08:42:43.621Z",
+    "fetchedAt": "2026-07-24T14:13:00.630Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,8 +15,8 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.442,
-    "confidence": 0.69,
+    "score": -0.417,
+    "confidence": 0.68,
     "commentCount": 35,
     "breakdown": {
       "positive": 1,
@@ -24,11 +24,6 @@
       "neutral": 15
     },
     "trend": [
-      {
-        "date": "2026-04-25",
-        "score": 0,
-        "count": 1
-      },
       {
         "date": "2026-04-28",
         "score": 0.322,
@@ -123,6 +118,11 @@
         "date": "2026-07-23",
         "score": -0.762,
         "count": 3
+      },
+      {
+        "date": "2026-07-24",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
@@ -165,12 +165,26 @@
         "count": 3
       },
       {
-        "word": "banki",
+        "word": "wzrosnie",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75231063",
+      "author": "XD",
+      "postedAt": "2026-07-24 12:35",
+      "threadTitle": "Re: Mbank ogromne zadłużenie nie kupowac",
+      "url": "https://www.bankier.pl/forum/temat_mbank-ogromne-zadluzenie-nie-kupowac,75085257.html",
+      "body": "Aha, swietna analiza. A wzrosnie jak bedzie mialo wlurosnac. No, to kazdy wie, co ronic. Hahahaha",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75224545",
       "author": "Magellan",
@@ -646,20 +660,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74266001",
-      "author": "Tomasz",
-      "postedAt": "2026-04-25 12:50",
-      "threadTitle": "Re: wiem , że to obłęd ale nie można wykluczyć wzrostu na 1400zł",
-      "url": "https://www.bankier.pl/forum/temat_wiem-ze-to-obled-ale-nie-mozna-wykluczyc-wzrostu-na-1400zl,74206243.html",
-      "body": "Popatrz na wyniki aliora 41 procent niżej kwartał do kwartału Tutaj nie będzie lepiej",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
