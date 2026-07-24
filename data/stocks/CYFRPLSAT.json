@@ -3,11 +3,11 @@
   "companyName": "Cyfrowy Polsat SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CYFRPLSAT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cyfrowy-polsat-sa,6,21,10000000415.html",
-  "updatedAt": "2026-07-24T14:12:03.641Z",
+  "updatedAt": "2026-07-24T19:46:12.720Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-24T14:12:03.641Z",
+    "fetchedAt": "2026-07-24T19:46:12.720Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,29 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.096,
-    "confidence": 0.73,
+    "score": -0.109,
+    "confidence": 0.74,
     "commentCount": 200,
     "breakdown": {
-      "positive": 32,
-      "negative": 72,
-      "neutral": 96
+      "positive": 26,
+      "negative": 73,
+      "neutral": 101
     },
     "trend": [
       {
+        "date": "2026-07-19",
+        "score": -0.291,
+        "count": 2
+      },
+      {
         "date": "2026-07-20",
-        "score": -0.061,
-        "count": 20
+        "score": -0.202,
+        "count": 18
       },
       {
         "date": "2026-07-21",
-        "score": -0.172,
-        "count": 41
+        "score": -0.222,
+        "count": 33
       },
       {
         "date": "2026-07-22",
@@ -46,32 +51,36 @@
       },
       {
         "date": "2026-07-24",
-        "score": -0.004,
-        "count": 36
+        "score": -0.018,
+        "count": 44
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (32 pozytywnych, 72 negatywnych, 96 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje negatywne (26 pozytywnych, 73 negatywnych, 101 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "szok",
-        "count": 28
+        "count": 30
       },
       {
         "word": "musi",
-        "count": 20
+        "count": 22
       },
       {
         "word": "bolec",
-        "count": 15
+        "count": 17
       },
       {
         "word": "placz",
-        "count": 11
+        "count": 12
       },
       {
         "word": "zeby",
         "count": 10
+      },
+      {
+        "word": "dziubaski",
+        "count": 8
       },
       {
         "word": "ostrzegalem",
@@ -82,20 +91,128 @@
         "count": 8
       },
       {
-        "word": "dziubaski",
+        "word": "rynek",
         "count": 7
       },
       {
-        "word": "tyle",
+        "word": "dzis",
         "count": 7
-      },
-      {
-        "word": "wyzej",
-        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75235403",
+      "author": "Mmm",
+      "postedAt": "2026-07-24 18:32",
+      "threadTitle": "Re: Pani Katarzyna odchodzi z zarządu",
+      "url": "https://www.bankier.pl/forum/temat_pani-katarzyna-odchodzi-z-zarzadu,75235129.html",
+      "body": "Zadaj pytanie chatGPT i będziesz miał odpowiedź myślę ze bardziej neutralna niż jak odpowie Ci ekipa z Karpacza",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75235395",
+      "author": "Tytus",
+      "postedAt": "2026-07-24 18:31",
+      "threadTitle": "Re: Pani Katarzyna odchodzi z zarządu",
+      "url": "https://www.bankier.pl/forum/temat_pani-katarzyna-odchodzi-z-zarzadu,75235129.html",
+      "body": "Hehe tak rynek przejmie się panią Katarzyną. Hehe. Odchodzi z firmy, nie z zarządu. Młodzi wstawiają swoich. Poczytaj życiorys tej która ją zastępuje. Z całym szacunkiem dla pani Katarzyny która trzęsie rynkiem hehehehehe",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75235129",
+      "author": "Urbi",
+      "postedAt": "2026-07-24 18:00",
+      "threadTitle": "Pani Katarzyna odchodzi z zarządu",
+      "url": "https://www.bankier.pl/forum/temat_pani-katarzyna-odchodzi-z-zarzadu,75235129.html",
+      "body": "Co myślicie na ten temat? Obawiam się reakcji rynku...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75234951",
+      "author": "Włodi",
+      "postedAt": "2026-07-24 17:39",
+      "threadTitle": "Re: Ostrzegałem dziubaski już przy 12 a teraz płacz AŁA musi boleć SZOK",
+      "url": "https://www.bankier.pl/forum/temat_ostrzegalem-dziubaski-juz-przy-12-a-teraz-placz-ala-musi-bolec-szok,75192635.html",
+      "body": "Dziś dali shortom cień nadziei a później góra aż w USTĘPACH trzeszczało, od poniedzialku solidna zieleń dziubaski a strata będzie rosła SZOK !!! Musi boleć AŁA!!!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75234715",
+      "author": "Zielu",
+      "postedAt": "2026-07-24 17:21",
+      "threadTitle": "Re: Za chwilę weekend , odpoczynek... A potem ...",
+      "url": "https://www.bankier.pl/forum/temat_za-chwile-weekend-odpoczynek-a-potem,75233761.html",
+      "body": "Jesteś mystrz",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75234315",
+      "author": "Ojo",
+      "postedAt": "2026-07-24 16:58",
+      "threadTitle": "Re: PKO rozsądnie obniża rekomendacje.Kwota skrajnie rozsądna to 7 zł",
+      "url": "https://www.bankier.pl/forum/temat_pko-rozsadnie-obniza-rekomendacje-kwota-skrajnie-rozsadna-to-7-zl,75233305.html",
+      "body": "I cyk zgłoszony. Jeśli to nie prawda będzie sąd. Buuuuuaaaaa",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75234027",
+      "author": "Ryszard",
+      "postedAt": "2026-07-24 16:39",
+      "threadTitle": "Najwyższy czas aby poobcinać szortom palce na CPS",
+      "url": "https://www.bankier.pl/forum/temat_najwyzszy-czas-aby-poobcinac-szortom-palce-na-cps,75234027.html",
+      "body": "… na rece przyjdzie czas później.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75233761",
+      "author": "Kakałowiec",
+      "postedAt": "2026-07-24 16:20",
+      "threadTitle": "Za chwilę weekend , odpoczynek... A potem ...",
+      "url": "https://www.bankier.pl/forum/temat_za-chwile-weekend-odpoczynek-a-potem,75233761.html",
+      "body": "Poniedziałek - oczywisty spadek !",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75233305",
       "author": "Biegunka",
@@ -104,7 +221,7 @@
       "url": "https://www.bankier.pl/forum/temat_pko-rozsadnie-obniza-rekomendacje-kwota-skrajnie-rozsadna-to-7-zl,75233305.html",
       "body": "Obserwować",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -118,7 +235,7 @@
       "url": "https://www.bankier.pl/forum/temat_na-rocznym-rysuje-sie-rgr-wiec-kierunekn11,75233137.html",
       "body": "Tym bardziej ze wyniki maga byc ponizej konsensusu. Orange nie pomaga",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -132,7 +249,7 @@
       "url": "https://www.bankier.pl/forum/temat_polkomtel-za-duzo-oddal-i-bedzie-strata,75233101.html",
       "body": "Dochod z abonamentów jest stabilny ale jak się traci klientów to traci sie stabilne finansowanie i może byc problem.....",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -147,7 +264,7 @@
       "body": "Dokładnie jadzia moja żona jest szczęsliwa nie musi żebrać o akcje po forach. I coś starasznego cmokać zdzisława90lat nawet boję się pomyśleć gdzie. TROCHĘ JAK kobieta obyczajów onktoeych się nie mówi bo admin zabrania nawet grzecznie . Zachowujesz się jak jadwiga ale czego nie robi się dla swojego mocodawcy ? BĘDZIE choć na waciki - między majtasy ?",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -314,7 +431,7 @@
       "url": "https://www.bankier.pl/forum/temat_cyfrowy,75228057.html",
       "body": "Nie maraj popatrz na dino tam nie lepiej",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 3
       },
       "sentimentScore": -0.322,
@@ -2211,34 +2328,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75199275",
-      "author": "Zdechly_kot",
-      "postedAt": "2026-07-21 16:33",
-      "threadTitle": "Re: Nadal jest TANIO",
-      "url": "https://www.bankier.pl/forum/temat_nadal-jest-tanio,75185089.html",
-      "body": "Jeszcze 2 tygodnie temu dojechalo w piku do 16,6 pln i byl test oporu na 16.8 pln.Potem szybkim strzalem przebilo 17 a dzisiaj byla zbiorka do 17.5 pln.Teraz znowu testuje 16.8 pln a tym razem jako wsparcie. Poleczka po poleczce coraz wyzej w drodze do raportu za Q2.Fundy dobieraja, szorty probuje odkupic i oddac ostatnie pakiety...Ta socjotechnika nigdy nie jest bez powodu...",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75199155",
-      "author": "AntonBiegunkovic",
-      "postedAt": "2026-07-21 16:25",
-      "threadTitle": "Atak ŚLEPEGO UROSTU",
-      "url": "https://www.bankier.pl/forum/temat_atak-slepego-urostu,75199155.html",
-      "body": "Jak człowiek dostaje ataku ślepej kiszki tak spółki słabe niedomogące dostają ataku ŚLEPEGO UROSTU. obserwować",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75198899",
       "author": "kangoorrz",
       "postedAt": "2026-07-21 16:08",
@@ -2267,48 +2356,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75198445",
-      "author": "PanRyszard",
-      "postedAt": "2026-07-21 15:36",
-      "threadTitle": "Re: Chwilowo - UROSTOWCY !",
-      "url": "https://www.bankier.pl/forum/temat_chwilowo-urostowcy,75198237.html",
-      "body": "Mylisz się teraz będzie rosło i rosło aż balon pęknie.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75198347",
-      "author": "Abc",
-      "postedAt": "2026-07-21 15:29",
-      "threadTitle": "Re: Chwilowo - UROSTOWCY !",
-      "url": "https://www.bankier.pl/forum/temat_chwilowo-urostowcy,75198237.html",
-      "body": "Może i racja bo na razie brak popytu.Raczej cofnie się 2-4 %",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75198237",
-      "author": "KałOwiec",
-      "postedAt": "2026-07-21 15:21",
-      "threadTitle": "Chwilowo - UROSTOWCY !",
-      "url": "https://www.bankier.pl/forum/temat_chwilowo-urostowcy,75198237.html",
-      "body": "Każdy urost trzeba będzie stracić ... Zapamiętajcie.",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75197637",
       "author": "kangoorrz",
       "postedAt": "2026-07-21 14:39",
@@ -2321,34 +2368,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75197377",
-      "author": "xyz",
-      "postedAt": "2026-07-21 14:18",
-      "threadTitle": "Re: Nadal jest TANIO",
-      "url": "https://www.bankier.pl/forum/temat_nadal-jest-tanio,75185089.html",
-      "body": "Znowu was dymają,hahahIle dzisiaj na minusie 4 czy 5% ?",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75196911",
-      "author": "11845682",
-      "postedAt": "2026-07-21 13:48",
-      "threadTitle": "Re: Nadal jest TANIO",
-      "url": "https://www.bankier.pl/forum/temat_nadal-jest-tanio,75185089.html",
-      "body": "Teraz retest od góry wybitego oporu i jedziemy wyżej.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75196469",
@@ -2447,20 +2466,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75194319",
-      "author": "Zdechly_kot",
-      "postedAt": "2026-07-21 10:57",
-      "threadTitle": "Re: Nadal jest TANIO",
-      "url": "https://www.bankier.pl/forum/temat_nadal-jest-tanio,75185089.html",
-      "body": "A dzisiaj juz troche mniej tanio ale do wk nadal sporo brakuje...",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75193933",
@@ -2729,48 +2734,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75185241",
-      "author": "Zdechly_kot",
-      "postedAt": "2026-07-20 14:31",
-      "threadTitle": "Re: Nadal jest TANIO",
-      "url": "https://www.bankier.pl/forum/temat_nadal-jest-tanio,75185089.html",
-      "body": "Czyli po drodze sa poziomy 19-20 pln jak spolka udowodni na cyfrach delewarowanie...A jak we wrzesniu oglosza sprzedaz jakis assetow typu port praski za dobre pieniadze i przyspieszone delewarowanie, mocny spadek dlugu ponizej 3.5 Ebitda i jasna sciezke do wyplaty dywidendy to bedzie kolejny impuls wzrostowy...",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75185171",
-      "author": "11845682",
-      "postedAt": "2026-07-20 14:27",
-      "threadTitle": "Re: Nadal jest TANIO",
-      "url": "https://www.bankier.pl/forum/temat_nadal-jest-tanio,75185089.html",
-      "body": "Czyli 45 w zasięgu ruchum",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75185089",
-      "author": "Zdechly_kot",
-      "postedAt": "2026-07-20 14:19",
-      "threadTitle": "Nadal jest TANIO",
-      "url": "https://www.bankier.pl/forum/temat_nadal-jest-tanio,75185089.html",
-      "body": "Na razie wsiadaja spoznieni ktorzy dostali z dzialu ryzyka ok po zakonczeniu sporu wlascicielskiego.Raport z potwierdzeniem delewarowania na konkretnych cyfrach i stabilnych zyskow OZE dopiero nadchodzi.To bedzie katalizator...",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75185023",
       "author": "Zdechly_kot",
       "postedAt": "2026-07-20 14:14",
@@ -2895,6 +2858,48 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75180833",
+      "author": "Rafał",
+      "postedAt": "2026-07-20 09:03",
+      "threadTitle": "Azja, Europa, Usa w czerwieni, cyfrowy zieleń, short w SZOKU ! AŁŁA boli",
+      "url": "https://www.bankier.pl/forum/temat_azja-europa-usa-w-czerwieni-cyfrowy-zielen-short-w-szoku-alla-boli,75180833.html",
+      "body": "Ale ich tu załatwili SZOK !!! Brali po 12ł, miało być 7zł AŁA, przecieiż to musi boleć, gdzie próg wytrzymałości, kiedy zaczną ciąć straty ., SZOK !!1",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75178287",
+      "author": "Włodi",
+      "postedAt": "2026-07-19 17:46",
+      "threadTitle": "Re: AŁŁA ale tu zbili kilka osób !!!",
+      "url": "https://www.bankier.pl/forum/temat_alla-ale-tu-zbili-kilka-osob,75163679.html",
+      "body": "Jutro od rana płacz shortów , dokładnie od 9:00",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75177275",
+      "author": "Ojo",
+      "postedAt": "2026-07-19 14:06",
+      "threadTitle": "Re: Szorty",
+      "url": "https://www.bankier.pl/forum/temat_szorty,75172033.html",
+      "body": "Już jutro zaczynamy",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     }
   ]
 }
