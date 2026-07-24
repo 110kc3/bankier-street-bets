@@ -3,31 +3,31 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-07-24T03:44:16.491Z",
+  "updatedAt": "2026-07-24T08:42:37.519Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-24T03:44:16.491Z",
+    "fetchedAt": "2026-07-24T08:42:37.519Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 22
+    "threadsScanned": 23
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.073,
+    "score": 0.076,
     "confidence": 0.73,
-    "commentCount": 117,
+    "commentCount": 114,
     "breakdown": {
-      "positive": 31,
-      "negative": 35,
-      "neutral": 51
+      "positive": 32,
+      "negative": 32,
+      "neutral": 50
     },
     "trend": [
       {
         "date": "2026-06-24",
-        "score": -0.233,
-        "count": 17
+        "score": -0.219,
+        "count": 11
       },
       {
         "date": "2026-06-25",
@@ -141,32 +141,36 @@
       },
       {
         "date": "2026-07-24",
-        "score": 0,
-        "count": 1
+        "score": 0.065,
+        "count": 4
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 117 komentarzy z ostatnich 30 dni: nastroje mieszane (31 pozytywnych, 35 negatywnych, 51 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 114 komentarzy z ostatnich 30 dni: nastroje mieszane (32 pozytywnych, 32 negatywnych, 50 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
-        "count": 10
+        "count": 9
       },
       {
         "word": "przy",
-        "count": 10
+        "count": 9
       },
       {
         "word": "dywidendy",
         "count": 8
       },
       {
-        "word": "uwazam",
+        "word": "rowniez",
         "count": 8
       },
       {
-        "word": "rowniez",
-        "count": 8
+        "word": "tych",
+        "count": 7
+      },
+      {
+        "word": "uwazam",
+        "count": 7
       },
       {
         "word": "zdaniem",
@@ -183,14 +187,52 @@
       {
         "word": "netto",
         "count": 6
-      },
-      {
-        "word": "tych",
-        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75229373",
+      "author": "Wacek",
+      "postedAt": "2026-07-24 10:26",
+      "threadTitle": "Re: można zaobserwować zbieranie pakietów",
+      "url": "https://www.bankier.pl/forum/temat_mozna-zaobserwowac-zbieranie-pakietow,75228381.html",
+      "body": "No i obroty wczoraj",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75228381",
+      "author": "cezjas",
+      "postedAt": "2026-07-24 09:28",
+      "threadTitle": "można zaobserwować zbieranie pakietów",
+      "url": "https://www.bankier.pl/forum/temat_mozna-zaobserwowac-zbieranie-pakietow,75228381.html",
+      "body": "wraca chyba sentyment do spółki a to dobry znak i wzrosty w perspektywie. Może w końcu 26k osiągnie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75227715",
+      "author": "Zbyszko_z_Rynska",
+      "postedAt": "2026-07-24 08:43",
+      "threadTitle": "Re: Pogoda popsuła sprzedaż lpp a szkoda",
+      "url": "https://www.bankier.pl/forum/temat_pogoda-popsula-sprzedaz-lpp-a-szkoda,75226679.html",
+      "body": "A zgłoszę sobie do KNF i tak straszny sezon ogórkowy w pracy i mi się nudzi :) Może i nic nie zrobią, ale zawsze jakaś tam szansa jest. Plus jak nie będziemy zgłaszać to nic się nie zmieni. I nie chodzi tu wcale o nielegalną rekomendację, bo tych przesłanek wpis nie ma, ale o celowe wprowadzanie w błąd w celu osiągnięcia własnych korzyści majątkowych. No chyba, że autor ma faktycznie dane potwierdzające tezę, to problemem będzie nie wprowadzanie w błąd ale publikacja tego typu danych poza systemem ESPI. Tak czy inaczej, do zgłoszenia wpis idealny.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75226679",
       "author": "Krystian",
@@ -200,7 +242,7 @@
       "body": "Wracamy na niższe poziomy!",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -227,7 +269,7 @@
       "url": "https://www.bankier.pl/forum/temat_bylem-w-sklepie,75224405.html",
       "body": "po ile u nich oranżada helena ????",
       "votes": {
-        "up": 4,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -269,7 +311,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekordowy-kwartal-dla-lpp-allegro-2,75193611.html",
       "body": "Pierwszy tydzień sierpnia",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -1738,90 +1780,6 @@
       "threadTitle": "Re: I po spadkach",
       "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
       "body": "Antoni a czy w tych pozostałych 70 % swojego portfela masz taką spółeczkę ,która nazywa się Grodno SA ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74904085",
-      "author": "Kurator",
-      "postedAt": "2026-06-24 10:22",
-      "threadTitle": "Re: I po spadkach",
-      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
-      "body": "Panie Antoni proszę potraktować to jako radę i majątek proszę dywersyfikować. Giełda/nieruchomości/obligacje/złote monety/trochę gotówki \"skarpecie\". Ja osobiście uważam ze obecnie warto skupować działki z wydanymi warunkami zabudowy lub jeśli są w dobrej cenie działki z miejscowym planem zagospodarowania pod zabudowę mieszkaniowa w dużych miastach lub w gminach sąsiadujących. Po wejściu planów ogólnych będzie mniej miejsca do zabudowy mieszkaniowej. Wówczas zgodzę się z tym leżaczkiem i palmami.:)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74903619",
-      "author": "Antoni",
-      "postedAt": "2026-06-24 09:56",
-      "threadTitle": "Re: I po spadkach",
-      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
-      "body": "A w czym Wam przeszkadzają spadki. Niech spada. Będzie można tanio dokupić. Nawet głęboka korekta nie trwa dłużej niż kilka miesięcy. A dywidenda za 2026 rok będzie już około 1200-1300 zł. Kilka kolejnych lat to okres intensywnego rozwoju spółki przy mniejszym capexie. Szczyt wydatków capex był w 2025 roku. Za 2030 rok dywidenda będzie w przedziale 4000-5000 zł na akcję. Pakiet LPP to 30% mojego portfela, ale poniżej 18 000 już wszystkie nowe środki będę pakował wyłącznie w LPP. Obym dobił do 50 akcji w ciągu 3-4 lat, a wtedy leżaczek i drinki pod palmami",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74902555",
-      "author": "Magellan",
-      "postedAt": "2026-06-24 09:03",
-      "threadTitle": "Re: I po spadkach",
-      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
-      "body": "bardzo możliwe o ile wig20 dalej będzie rósł",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74902501",
-      "author": "alan",
-      "postedAt": "2026-06-24 09:00",
-      "threadTitle": "Re: I po spadkach",
-      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
-      "body": "18010 to był dołek ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74902281",
-      "author": "Magellan",
-      "postedAt": "2026-06-24 08:42",
-      "threadTitle": "Re: I po spadkach",
-      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
-      "body": "jak już chcesz być merytoryczny, to przeciwgazową....",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74901361",
-      "author": "Bebok",
-      "postedAt": "2026-06-24 05:46",
-      "threadTitle": "Re: I po spadkach",
-      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,74900183.html",
-      "body": "Proponuję maskę gazową.",
       "votes": {
         "up": 0,
         "down": 0

@@ -3,89 +3,351 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-07-24T03:43:25.052Z",
+  "updatedAt": "2026-07-24T08:41:52.228Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-24T03:43:25.052Z",
+    "fetchedAt": "2026-07-24T08:41:52.228Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 76
+    "threadsScanned": 80
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.04,
+    "score": 0.022,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 52,
-      "negative": 42,
+      "positive": 48,
+      "negative": 46,
       "neutral": 106
     },
     "trend": [
       {
+        "date": "2026-07-20",
+        "score": -0.181,
+        "count": 5
+      },
+      {
         "date": "2026-07-21",
-        "score": 0.043,
-        "count": 29
+        "score": 0.03,
+        "count": 20
       },
       {
         "date": "2026-07-22",
-        "score": 0.102,
-        "count": 69
+        "score": -0.014,
+        "count": 55
       },
       {
         "date": "2026-07-23",
         "score": -0.023,
         "count": 102
+      },
+      {
+        "date": "2026-07-24",
+        "score": 0.191,
+        "count": 18
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (52 pozytywnych, 42 negatywnych, 106 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (48 pozytywnych, 46 negatywnych, 106 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 32
+        "count": 31
       },
       {
         "word": "wiesz",
-        "count": 11
+        "count": 12
       },
       {
         "word": "andy",
-        "count": 11
-      },
-      {
-        "word": "przy",
-        "count": 10
+        "count": 12
       },
       {
         "word": "koniec",
+        "count": 11
+      },
+      {
+        "word": "pisze",
         "count": 9
       },
       {
-        "word": "https",
+        "word": "przy",
         "count": 9
+      },
+      {
+        "word": "mnie",
+        "count": 8
+      },
+      {
+        "word": "dokladnie",
+        "count": 8
+      },
+      {
+        "word": "https",
+        "count": 8
       },
       {
         "word": "kontrakty",
         "count": 8
-      },
-      {
-        "word": "lepiej",
-        "count": 8
-      },
-      {
-        "word": "pisze",
-        "count": 7
-      },
-      {
-        "word": "dokladnie",
-        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75229317",
+      "author": "kocia",
+      "postedAt": "2026-07-24 10:23",
+      "threadTitle": "Zaraz zaraz czy ja dobrze widzę kupili po 26 upychają od 30",
+      "url": "https://www.bankier.pl/forum/temat_zaraz-zaraz-czy-ja-dobrze-widze-kupili-po-26-upychaja-od-30,75229317.html",
+      "body": "wygląda że fundusze kręcą sobie kółeczka, ubierając na górce ulice xD",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75229025",
+      "author": "Mario",
+      "postedAt": "2026-07-24 10:06",
+      "threadTitle": "Re: gaszę kompa na m-c i wyjeżdżam",
+      "url": "https://www.bankier.pl/forum/temat_gasze-kompa-na-m-c-i-wyjezdzam,75228957.html",
+      "body": "To sie zachowuje jak bankrut",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75228957",
+      "author": "ronny",
+      "postedAt": "2026-07-24 10:01",
+      "threadTitle": "gaszę kompa na m-c i wyjeżdżam",
+      "url": "https://www.bankier.pl/forum/temat_gasze-kompa-na-m-c-i-wyjezdzam,75228957.html",
+      "body": "psychicznie wykańcza mnie ten walor...",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75228747",
+      "author": "SHORT",
+      "postedAt": "2026-07-24 09:50",
+      "threadTitle": "Re: Nie sprzedawać, zaraz wzrosty!",
+      "url": "https://www.bankier.pl/forum/temat_nie-sprzedawac-zaraz-wzrosty,75226919.html",
+      "body": "> Proponuję, żebyś robił coś, co potrafisz...Potrafię cisnąć bardzo eleganckie klocki, przeważnie poranną porą w moim WC w intencji spadków! Hehehe!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75228637",
+      "author": "Edek",
+      "postedAt": "2026-07-24 09:45",
+      "threadTitle": "Re: Po co wchodzić tak wysoko jak było po 26 ?",
+      "url": "https://www.bankier.pl/forum/temat_po-co-wchodzic-tak-wysoko-jak-bylo-po-26,75224303.html",
+      "body": "Szorty mają rację tutaj same straty a Asbis w tym czasie 200 procent zysku. Idźcie na Asbis rada wujka szorta. Na Asbis jest taki popyt że szorty muszą pożyczać akcje żeby go zaspikoic",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75228601",
+      "author": "Józef",
+      "postedAt": "2026-07-24 09:41",
+      "threadTitle": "Re: Dzis odbicie?",
+      "url": "https://www.bankier.pl/forum/temat_dzis-odbicie,75226927.html",
+      "body": "Jak kapitał uzna że ma już odbić to odbije,jak nie to trzeba czekać.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75228505",
+      "author": "Podglądacz",
+      "postedAt": "2026-07-24 09:36",
+      "threadTitle": "Re: Po co wchodzić tak wysoko jak było po 26 ?",
+      "url": "https://www.bankier.pl/forum/temat_po-co-wchodzic-tak-wysoko-jak-bylo-po-26,75224303.html",
+      "body": "Dziś pewnie z -3% nn a koniec",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75228503",
+      "author": "ja",
+      "postedAt": "2026-07-24 09:36",
+      "threadTitle": "gwiazda giełdy",
+      "url": "https://www.bankier.pl/forum/temat_gwiazda-gieldy,75228503.html",
+      "body": "po wynikach do końca roku i w przyszłym tak będzie",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75228453",
+      "author": "Ms",
+      "postedAt": "2026-07-24 09:33",
+      "threadTitle": "Nie ukrywam ze trochę mi smutno",
+      "url": "https://www.bankier.pl/forum/temat_nie-ukrywam-ze-troche-mi-smutno,75228453.html",
+      "body": "Ale fundamenty są dobre ! Jestem na 0",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75228059",
+      "author": "Pucin",
+      "postedAt": "2026-07-24 09:10",
+      "threadTitle": "Re: Dzis odbicie?",
+      "url": "https://www.bankier.pl/forum/temat_dzis-odbicie,75226927.html",
+      "body": "Duście ich, duście. Dzisiaj też ich duście.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75227561",
+      "author": "Zbyszek",
+      "postedAt": "2026-07-24 08:29",
+      "threadTitle": "Re: Dzis odbicie?",
+      "url": "https://www.bankier.pl/forum/temat_dzis-odbicie,75226927.html",
+      "body": "Odbicie nerek:)",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75227387",
+      "author": "Pawlik",
+      "postedAt": "2026-07-24 08:14",
+      "threadTitle": "Re: Kukurydza 20% w górę",
+      "url": "https://www.bankier.pl/forum/temat_kukurydza-20-w-gore,75227341.html",
+      "body": "Cudownie",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75227341",
+      "author": "Mario",
+      "postedAt": "2026-07-24 08:07",
+      "threadTitle": "Kukurydza 20% w górę",
+      "url": "https://www.bankier.pl/forum/temat_kukurydza-20-w-gore,75227341.html",
+      "body": "Wkracza inflacja zywnosci ,do tego ropa..",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75227143",
+      "author": "lek",
+      "postedAt": "2026-07-24 07:33",
+      "threadTitle": "Re: Po co wchodzić tak wysoko jak było po 26 ?",
+      "url": "https://www.bankier.pl/forum/temat_po-co-wchodzic-tak-wysoko-jak-bylo-po-26,75224303.html",
+      "body": "> taaaa ...a w marcu było po 42pln> czuwaj!w marcu mogło być nawet po 142 to nie ma teraz żadnego znaczenia dla shortów którzy teraz otwierają pozycje by potem odkupić po..... ? to tylko oni więdzą do ilu mają zamiar uwalać",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75226961",
+      "author": "Eustachy",
+      "postedAt": "2026-07-24 06:43",
+      "threadTitle": "Re: Nie sprzedawać, zaraz wzrosty!",
+      "url": "https://www.bankier.pl/forum/temat_nie-sprzedawac-zaraz-wzrosty,75226919.html",
+      "body": "Proponuję, żebyś robił coś, co potrafisz...",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75226927",
+      "author": "Ktoś",
+      "postedAt": "2026-07-24 06:25",
+      "threadTitle": "Dzis odbicie?",
+      "url": "https://www.bankier.pl/forum/temat_dzis-odbicie,75226927.html",
+      "body": "jak myslicie?",
+      "votes": {
+        "up": 3,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75226919",
+      "author": "SHORT",
+      "postedAt": "2026-07-24 06:21",
+      "threadTitle": "Nie sprzedawać, zaraz wzrosty!",
+      "url": "https://www.bankier.pl/forum/temat_nie-sprzedawac-zaraz-wzrosty,75226919.html",
+      "body": "Tak myślę, a może źle mylę, kto to wie!?",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75226893",
+      "author": "SHORT",
+      "postedAt": "2026-07-24 06:11",
+      "threadTitle": "Re: Kolarz Andy!",
+      "url": "https://www.bankier.pl/forum/temat_kolarz-andy,75212973.html",
+      "body": "> > > Bo nasze dziołchy warte kusika, jak miałeś naszą Slazaczke to wiesz o czym piszę. Szacun od Hanysa!!!!! P.S. Sprawdzę dokładnie Twój cynk czy tak faktycznie będzie, po sesji odezwę się>> Andy, moja podpowiedź sprawdziła się tylko częściowo, bo nie przewidziałem że pelikany pod koniec notowań aż tak > intensywnie będą wymiotować akcjami tak chętnie i bardzo żarłocznie w poprzednich dniach połykanymi, zadziałała > psychologia mocno przestraszonego tłumu, którą jutro chcę wykorzystać dobierając na początku notowań dokupując > FPKOU26 / LONG, które będę odwracał na SHORT pod koniec korekty wzrostowej czyi na Wig-20 poziom około > 3840,00 - 3850,00 pkt.!>Andy po ponownej analizie wykresu Wig-20 uznałem że to jeszcze nie koniec spadków więc zmieniam plan, zamieniam na początku notowań obecnie posiadane LONGI na stronę SHORT i trzymam cały dzień! Pozdro!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75226595",
       "author": "Jackson",
@@ -109,7 +371,7 @@
       "body": "Geopolityka znowu wkracza do gry . NYSE na dużym minusie a ropa przebiła 100 $. To niestety nie wróży nic dobrego, więc do gry wejdą day traderzy i będzie bardzie ciekawie. Po spadku do 28 zł zaczynam kupować żeby szybko sprzedać i zarobić 1,5-2 %",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -151,7 +413,7 @@
       "body": "10k papiera 29,70.. ale mam jeszcze zapasy na wypadek spadkow.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -179,7 +441,7 @@
       "body": "\"Wystomp\" :D O kuźwa, sama inteligencja na tym forum.",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -206,7 +468,7 @@
       "url": "https://www.bankier.pl/forum/temat_zimny-prysznic,75224083.html",
       "body": "Cały wzrost z tego tygodnia wyparował w jedną sesję.Ubrani wystomp",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -388,8 +650,8 @@
       "url": "https://www.bankier.pl/forum/temat_po-co-wchodzic-tak-wysoko-jak-bylo-po-26,75224303.html",
       "body": "taaaa ...a w marcu było po 42plnczuwaj!",
       "votes": {
-        "up": 3,
-        "down": 1
+        "up": 5,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -402,8 +664,8 @@
       "url": "https://www.bankier.pl/forum/temat_po-co-wchodzic-tak-wysoko-jak-bylo-po-26,75224303.html",
       "body": "a będzie być może jeszcze po 2 dyszki nie rozumiesz po co przepłacać",
       "votes": {
-        "up": 4,
-        "down": 2
+        "up": 10,
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -416,7 +678,7 @@
       "url": "https://www.bankier.pl/forum/temat_zimny-prysznic,75224083.html",
       "body": "Hm... To hazard kolego a nie twarde fakty... Tu to można bo duże i płynne",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -430,8 +692,8 @@
       "url": "https://www.bankier.pl/forum/temat_zimny-prysznic,75224083.html",
       "body": "Czas wracać w kierunku 25 zł. Wiem, że Wam się to nie podoba bo myślicie, że jak pod Dino na parkingu jest dużo samochodów to akcje powinny być po 100 zł ale rynek woli twarde fakty",
       "votes": {
-        "up": 6,
-        "down": 10
+        "up": 7,
+        "down": 12
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -500,7 +762,7 @@
       "url": "https://www.bankier.pl/forum/temat_poprosze-zamek-29-20,75221147.html",
       "body": "Z góry dziękuję za uwalenie kursu..Jutro możecie zrobić małe odreagowanie ale cały przyszły tydzień proszę dalej zwalać.Wszak trend is your friend isn't it?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -724,7 +986,7 @@
       "url": "https://www.bankier.pl/forum/temat_poprosze-zamek-29-20,75221147.html",
       "body": "Dziękuję grubasy :-)../",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1578,7 +1840,7 @@
       "url": "https://www.bankier.pl/forum/temat_na-40-zl-juz-nie-wroci,75137103.html",
       "body": "Wolę jednak poczekać na 50",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1683,20 +1945,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75213151",
-      "author": "Marek",
-      "postedAt": "2026-07-22 18:56",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "A kreski potrafisz czytać czy tylko takie pobożne życzenia? To może pomogę wg AT do końca tygodnia to raczej 31,50 …Wolumen wzrasta , wzrosty też przyspieszają… Pierwszy opór był na 30 zł i właśnie został pokonany. Następny przystanek 31.50…Potem zobaczymy …",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75213075",
       "author": "Andy",
       "postedAt": "2026-07-22 18:46",
@@ -1739,20 +1987,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75212951",
-      "author": "MZ",
-      "postedAt": "2026-07-22 18:30",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "Teraz do konca tygodnia nad 30,60 i jestesmy w domu, potem powolutku po kilka procent tygodniowo kolejne levele i tak do 40 a pozniej dzida po tym.jak ludzie pouciekaja z hakow",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75212937",
       "author": "Marek",
       "postedAt": "2026-07-22 18:29",
@@ -1765,20 +1999,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75212935",
-      "author": "MZ",
-      "postedAt": "2026-07-22 18:28",
-      "threadTitle": "Re: Atrakcyjna cena",
-      "url": "https://www.bankier.pl/forum/temat_atrakcyjna-cena,75062873.html",
-      "body": "Lepiej miec mniej niz nie miec wcale jak niektorzy naganiacze co chca kupic po 15 hehe",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75212887",
@@ -1849,34 +2069,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75212557",
-      "author": "SHORT",
-      "postedAt": "2026-07-22 17:45",
-      "threadTitle": "Re: kupować bilety! to może być początek podróży",
-      "url": "https://www.bankier.pl/forum/temat_kupowac-bilety-to-moze-byc-poczatek-podrozy,75205935.html",
-      "body": "> jak tam eski 10szt , są w proficie? bo chyba twoje kupiłemJak kupiłeś stronę LONG to nie zazdroszczę chłopakom w twoim Biurze Maklerskim bo będą musieli zamykać PKCemjak rynek zanurkuje! Hehehe!",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.99,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75212427",
-      "author": "SHORT",
-      "postedAt": "2026-07-22 17:37",
-      "threadTitle": "Re: kupować bilety! to może być początek podróży",
-      "url": "https://www.bankier.pl/forum/temat_kupowac-bilety-to-moze-byc-poczatek-podrozy,75205935.html",
-      "body": "> jak tam eski 10szt , są w proficie?Eski są OK, a dzisiaj dokupiłem jeszcze koleje 5 szt.FDNPU26 SHORT w średniej cenie 30,70 zł/szt.! Hehehe!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75212367",
@@ -2313,48 +2505,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75207925",
-      "author": "Aaa",
-      "postedAt": "2026-07-22 12:38",
-      "threadTitle": "Re: Atrakcyjna cena",
-      "url": "https://www.bankier.pl/forum/temat_atrakcyjna-cena,75062873.html",
-      "body": "Ja również",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75207419",
-      "author": "Kali",
-      "postedAt": "2026-07-22 12:04",
-      "threadTitle": "Re: Atrakcyjna cena",
-      "url": "https://www.bankier.pl/forum/temat_atrakcyjna-cena,75062873.html",
-      "body": "Najnowsze dane o sprzedaży detalicznej napawają optymizmem. A i DINO nie tylko stawia na wioski ale i większe miasta.: https://share.google/cFTyICzS2OAaV2M3B",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75207305",
-      "author": "Inwestor",
-      "postedAt": "2026-07-22 11:55",
-      "threadTitle": "Re: Atrakcyjna cena",
-      "url": "https://www.bankier.pl/forum/temat_atrakcyjna-cena,75062873.html",
-      "body": "No i za mało kupiłam :(",
-      "votes": {
-        "up": 12,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75207243",
       "author": "Radi",
       "postedAt": "2026-07-22 11:52",
@@ -2367,20 +2517,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75207191",
-      "author": "Dexter",
-      "postedAt": "2026-07-22 11:48",
-      "threadTitle": "Re: kupować bilety! to może być początek podróży",
-      "url": "https://www.bankier.pl/forum/temat_kupowac-bilety-to-moze-byc-poczatek-podrozy,75205935.html",
-      "body": "jak tam eski 10szt , są w proficie? bo chyba twoje kupiłem",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75207085",
@@ -2397,48 +2533,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75206515",
-      "author": "Dexter",
-      "postedAt": "2026-07-22 11:06",
-      "threadTitle": "Re: kupować bilety! to może być początek podróży",
-      "url": "https://www.bankier.pl/forum/temat_kupowac-bilety-to-moze-byc-poczatek-podrozy,75205935.html",
-      "body": "jak tam eski 10szt , są w proficie?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75206501",
-      "author": "Bond",
-      "postedAt": "2026-07-22 11:05",
-      "threadTitle": "Re: kupować bilety! to może być początek podróży",
-      "url": "https://www.bankier.pl/forum/temat_kupowac-bilety-to-moze-byc-poczatek-podrozy,75205935.html",
-      "body": "Short skończony . Będzie wycie . Uwaga",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75206213",
-      "author": "SHORT",
-      "postedAt": "2026-07-22 10:44",
-      "threadTitle": "Re: kupować bilety! to może być początek podróży",
-      "url": "https://www.bankier.pl/forum/temat_kupowac-bilety-to-moze-byc-poczatek-podrozy,75205935.html",
-      "body": "> na athNie zapalaj się tak leszczyku, bo po łapkach solidnie oberwiesz!",
-      "votes": {
-        "up": 0,
-        "down": 15
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75206129",
       "author": "Cma",
       "postedAt": "2026-07-22 10:40",
@@ -2448,34 +2542,6 @@
       "votes": {
         "up": 8,
         "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75205935",
-      "author": "Dexter",
-      "postedAt": "2026-07-22 10:28",
-      "threadTitle": "kupować bilety! to może być początek podróży",
-      "url": "https://www.bankier.pl/forum/temat_kupowac-bilety-to-moze-byc-poczatek-podrozy,75205935.html",
-      "body": "na ath",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75205721",
-      "author": "Dexter",
-      "postedAt": "2026-07-22 10:17",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "wg scenariusza teraz utrzymać i obronić na cofce, dla tych bez akcji to miejsce do kupienia z rozsądnym SL",
-      "votes": {
-        "up": 2,
-        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -2670,7 +2736,7 @@
       "url": "https://www.bankier.pl/forum/temat_na-40-zl-juz-nie-wroci,75137103.html",
       "body": "Widzę że się znasz, możliwe że masz rację, to zrealizuje zysk na 39,9 pozdro i dzięki za info",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -2719,20 +2785,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75193749",
-      "author": "Dexter",
-      "postedAt": "2026-07-21 10:30",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "kilkuprocentowcy to plankton dający płynność, potrzebny element ekosystemu giełdowego",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75193651",
       "author": "wert",
       "postedAt": "2026-07-21 10:26",
@@ -2745,118 +2797,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75193491",
-      "author": "mabmab",
-      "postedAt": "2026-07-21 10:17",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "to nie sa kolarze ale \"kolaże inwestora\".....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75193409",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-07-21 10:13",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "Kolarze",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75192695",
-      "author": "mabmab",
-      "postedAt": "2026-07-21 09:45",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "tak juz przebiło od \"góry\"..... ech wy wyrywni co to dla 1% zaryzykuja cały kapitał",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75192147",
-      "author": "josefbb",
-      "postedAt": "2026-07-21 09:21",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "Ale widać że jest podaż przy odbiciu.Część niedowiarków, która dobierała przy 28 realizuje zyski - IMO",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75192023",
-      "author": "Xdddd",
-      "postedAt": "2026-07-21 09:12",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "Duzy obrot powinno przebic 30",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75191991",
-      "author": "Lejs",
-      "postedAt": "2026-07-21 09:10",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "Tak.. przebicie 30 musi być bo jak nie ,będzie źle :-).",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75191951",
-      "author": "Burneika",
-      "postedAt": "2026-07-21 09:08",
-      "threadTitle": "Re: pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "Jak tam idzie pompa?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75190913",
-      "author": "Dexter",
-      "postedAt": "2026-07-21 07:00",
-      "threadTitle": "pompujemy gada. musimy przejść 30 ziko",
-      "url": "https://www.bankier.pl/forum/temat_pompujemy-gada-musimy-przejsc-30-ziko,75190913.html",
-      "body": "34 i droga na 40 otwarta. nie brać jeńców!",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75190663",
@@ -2885,6 +2825,76 @@
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75190283",
+      "author": "SHORT",
+      "postedAt": "2026-07-20 23:09",
+      "threadTitle": "Re: Kiedy pelikany zaczną,",
+      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
+      "body": "> Gościu, znajdź se dziewczynę albo jakąś pracę poważniejszą. To będzie dla ciebie zdrowszeGościu, prawidłowo po polsku pisze się \"znajdź sobie\", a z ciekawości zapytam, masz już chłopaka i tętwarzową czerwoną torebkę, dajesz radę na nocki czy tylko dzionki cię interesują?!",
+      "votes": {
+        "up": 1,
+        "down": 4
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75190173",
+      "author": "Ppp",
+      "postedAt": "2026-07-20 22:52",
+      "threadTitle": "Re: Dino Warszawa",
+      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
+      "body": "A co to jest wariant lux?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75189589",
+      "author": "DużoTutajCzubków",
+      "postedAt": "2026-07-20 21:37",
+      "threadTitle": "Re: Kiedy pelikany zaczną,",
+      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
+      "body": "Gościu, znajdź se dziewczynę albo jakąś pracę poważniejszą. To będzie dla ciebie zdrowsze",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75189145",
+      "author": "SHORT",
+      "postedAt": "2026-07-20 20:20",
+      "threadTitle": "Re: Kiedy pelikany zaczną,",
+      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
+      "body": "Jakiś bardzo wygłodniały pelikan o godz16,45 jednym zleceniem zakupił moje 10 kontraktów FDNPU26 / SHORT w cenie30,00 zł, ale będę miał bekę jak zacznie mi płacić kasiorę jeśli rynek zawróci! Hehehe!PS. Uwaga dla nie wtajemniczonych to to że 1 kontrakt równoważy cenowo 100 akcji",
+      "votes": {
+        "up": 0,
+        "down": 7
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75189039",
+      "author": "Lukuze",
+      "postedAt": "2026-07-20 20:06",
+      "threadTitle": "Szczur",
+      "url": "https://www.bankier.pl/forum/temat_szczur,75189039.html",
+      "body": "Proszę, akademicka formacja szczura. Długo czekałem. Ale jest !",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     }
   ]
 }

@@ -3,32 +3,27 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-07-24T03:44:09.908Z",
+  "updatedAt": "2026-07-24T08:42:30.157Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-24T03:44:09.908Z",
+    "fetchedAt": "2026-07-24T08:42:30.157Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 4
+    "threadsScanned": 5
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.001,
-    "confidence": 0.54,
+    "score": 0.024,
+    "confidence": 0.55,
     "commentCount": 36,
     "breakdown": {
-      "positive": 8,
+      "positive": 9,
       "negative": 8,
-      "neutral": 20
+      "neutral": 19
     },
     "trend": [
-      {
-        "date": "2026-07-17",
-        "score": 0,
-        "count": 1
-      },
       {
         "date": "2026-07-19",
         "score": 0,
@@ -53,10 +48,15 @@
         "date": "2026-07-23",
         "score": 0.062,
         "count": 21
+      },
+      {
+        "date": "2026-07-24",
+        "score": 0.583,
+        "count": 1
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 36 komentarzy z ostatnich 7 dni: nastroje mieszane (8 pozytywnych, 8 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 36 komentarzy z ostatnich 7 dni: nastroje mieszane (9 pozytywnych, 8 negatywnych, 19 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wrona",
@@ -101,6 +101,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75228273",
+      "author": "cezjas",
+      "postedAt": "2026-07-24 09:22",
+      "threadTitle": "I tak będzie 7 z przodu",
+      "url": "https://www.bankier.pl/forum/temat_i-tak-bedzie-7-z-przodu,75228273.html",
+      "body": "Wyniki stabilne, dywidenda ok, niech tylko zagranica pokaże wyniki.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75225657",
       "author": "ŁorlenBuffet",
@@ -515,7 +529,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
       "body": "dluznicy byli sa ibeda jak swiat swiatem",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -587,20 +601,6 @@
       "votes": {
         "up": 3,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75160103",
-      "author": "Wrona",
-      "postedAt": "2026-07-17 09:10",
-      "threadTitle": "Re: Ciezko byx akcjonariuszem Kruka",
-      "url": "https://www.bankier.pl/forum/temat_ciezko-byx-akcjonariuszem-kruka,75126073.html",
-      "body": "Kierunek 400 ? niestety kółeczko kolejne?",
-      "votes": {
-        "up": 0,
-        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
