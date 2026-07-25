@@ -3,11 +3,11 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-07-25T08:23:46.193Z",
+  "updatedAt": "2026-07-25T14:01:25.864Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-25T08:23:46.193Z",
+    "fetchedAt": "2026-07-25T14:01:25.864Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,29 +15,34 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.079,
+    "score": 0.092,
     "confidence": 0.73,
     "commentCount": 200,
     "breakdown": {
-      "positive": 61,
-      "negative": 49,
-      "neutral": 90
+      "positive": 62,
+      "negative": 38,
+      "neutral": 100
     },
     "trend": [
       {
+        "date": "2026-07-18",
+        "score": 0,
+        "count": 2
+      },
+      {
         "date": "2026-07-19",
-        "score": -0.009,
-        "count": 7
+        "score": 0.029,
+        "count": 9
       },
       {
         "date": "2026-07-20",
-        "score": -0.208,
-        "count": 8
+        "score": -0.254,
+        "count": 3
       },
       {
         "date": "2026-07-21",
-        "score": 0.033,
-        "count": 18
+        "score": 0.128,
+        "count": 16
       },
       {
         "date": "2026-07-22",
@@ -46,8 +51,8 @@
       },
       {
         "date": "2026-07-23",
-        "score": -0.032,
-        "count": 63
+        "score": 0.003,
+        "count": 45
       },
       {
         "date": "2026-07-24",
@@ -56,56 +61,350 @@
       },
       {
         "date": "2026-07-25",
-        "score": 0.123,
-        "count": 21
+        "score": 0.077,
+        "count": 42
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (61 pozytywnych, 49 negatywnych, 90 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (62 pozytywnych, 38 negatywnych, 100 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 39
-      },
-      {
-        "word": "okolo",
-        "count": 11
-      },
-      {
-        "word": "maja",
-        "count": 10
-      },
-      {
-        "word": "pisze",
-        "count": 10
+        "count": 46
       },
       {
         "word": "sklep",
+        "count": 11
+      },
+      {
+        "word": "mnie",
         "count": 10
       },
       {
         "word": "https",
+        "count": 10
+      },
+      {
+        "word": "maja",
         "count": 9
       },
       {
-        "word": "andy",
+        "word": "mieso",
         "count": 9
       },
       {
-        "word": "dokladnie",
-        "count": 9
+        "word": "pisze",
+        "count": 8
       },
       {
-        "word": "hehehe",
-        "count": 9
+        "word": "koniec",
+        "count": 8
       },
       {
         "word": "przy",
-        "count": 8
+        "count": 7
+      },
+      {
+        "word": "kolego",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75239787",
+      "author": "ori",
+      "postedAt": "2026-07-25 14:47",
+      "threadTitle": "Re: Kiedy wyniki biedry",
+      "url": "https://www.bankier.pl/forum/temat_kiedy-wyniki-biedry,75238195.html",
+      "body": "Dinuś zawsze reaguje na wyniki Biedronki, które są wcześniej. Zakładam, że dobrze zareaguje. Ale to dopiero środa-czwartek. A wcześniej poniedziałek no i pytanie jaka reakcja na Żabkę...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75239699",
+      "author": "Pikolo",
+      "postedAt": "2026-07-25 14:25",
+      "threadTitle": "Re: 7-Eleven rezygnuje z Żabki",
+      "url": "https://www.bankier.pl/forum/temat_7-eleven-rezygnuje-z-zabki,75237951.html",
+      "body": "Zabka minus 18%, i pociągnie za sobą Dino. Taka nasza GPW :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75239431",
+      "author": "Andy",
+      "postedAt": "2026-07-25 13:19",
+      "threadTitle": "Re: Rekomendacja mBanku.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
+      "body": "Na żadnych wiochach ,ale w słownikach ortograficznych nieuku po gimbazie!!!!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75239397",
+      "author": "Andy",
+      "postedAt": "2026-07-25 13:15",
+      "threadTitle": "Re: Rekomendacja mBanku.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
+      "body": "Errata ma być oczywiście \"odgryźć \"",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75239393",
+      "author": "Dolar",
+      "postedAt": "2026-07-25 13:14",
+      "threadTitle": "Re: Rekomendacja mBanku.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
+      "body": "na klawiaturze obok i jest o, tak ciężko się domyśleć ? A te mnie to poprawna forma na wiochach w centralnej Polsce.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75239351",
+      "author": "Andy",
+      "postedAt": "2026-07-25 13:09",
+      "threadTitle": "Re: Rekomendacja mBanku.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
+      "body": "Polonistka musi się odrgryz, bowiem obie formy są poprawne to,której z nich użyjemy zależy od szyku zdania.Mi i mnie to forumy deklinacyjne zaimka osobowego ,jakbyś chciał wiedzieć, nadal czekam na rozszyfrowanie co to za pisanina, \"wiedzieli i rozmowach żabki z 7/11 dali cichą rekomendacje \" koleś!!!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75239265",
+      "author": "Lejs",
+      "postedAt": "2026-07-25 12:55",
+      "threadTitle": "Re: Rekomendacja mBanku.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
+      "body": "W poniedziałek żabka -10\"/.a Dino -1'/.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75239047",
+      "author": "Dolar",
+      "postedAt": "2026-07-25 12:14",
+      "threadTitle": "Re: Rekomendacja mBanku.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
+      "body": "Jak napisał tak napisał , nie istotne, w poniedziałek ucieczka grubych milionów z żabki oby coś z tego poszło na dino.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75239023",
+      "author": "Misiu",
+      "postedAt": "2026-07-25 12:10",
+      "threadTitle": "Re: Rekomendacja mBanku.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
+      "body": "Dobrze napisał o sobie \"mnie\", czyli jego wystarczy na tym forum.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75238989",
+      "author": "Dolar",
+      "postedAt": "2026-07-25 12:06",
+      "threadTitle": "Re: Rekomendacja mBanku.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
+      "body": "Po polsku pisze się : mi wystarczy. pani polonistko :)",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75238949",
+      "author": "wert",
+      "postedAt": "2026-07-25 11:59",
+      "threadTitle": "Re: Kiedy wyniki biedry",
+      "url": "https://www.bankier.pl/forum/temat_kiedy-wyniki-biedry,75238195.html",
+      "body": "biedra 29 lipca a dino 20 sierpnia",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75238781",
+      "author": "wert",
+      "postedAt": "2026-07-25 11:37",
+      "threadTitle": "Re: Dino Warszawa",
+      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
+      "body": "Kolejny sklep otwarty a następny budowany i to w szybkim tępie . Fajnie bo tam mieli spore problemy jak pamiętam a teraz sklep powstaje . Na żabce chyba zrobili inwestorów na plotakach w jajo . Dino niech zwiększa uudziałw handlu tak dalej https://glospowiatusredzkiego.pl/pl/15_fotorelacje/379_inne/1076_otwarcie-nowego-dino-w-srodzie-wielkopolskiej.htmlhttps://aleksandrowkujawski.naszemiasto.pl/dino-buduje-nowy-sklep-w-roznie-parcele-mieszkancy-czekaja-na-otwarcie-marketu/ar/c1p2-29208751",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75238635",
+      "author": "Magellan",
+      "postedAt": "2026-07-25 11:16",
+      "threadTitle": "Re: 7-Eleven rezygnuje z Żabki",
+      "url": "https://www.bankier.pl/forum/temat_7-eleven-rezygnuje-z-zabki,75237951.html",
+      "body": "Ja zawsze pisze z sensem bo gram kapitałem nie regonemMam w nosie nazwę spółki i czy rośnie czy spada. Ja mam zarobić.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75238589",
+      "author": "mabmab",
+      "postedAt": "2026-07-25 11:09",
+      "threadTitle": "Re: nowa jakosc ....",
+      "url": "https://www.bankier.pl/forum/temat_nowa-jakosc,75232435.html",
+      "body": "Super wpis",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75238569",
+      "author": "Andy",
+      "postedAt": "2026-07-25 11:05",
+      "threadTitle": "Re: Rekomendacja mBanku.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
+      "body": "Panowie 65 zeta to ponad 2 razy niż tyle, mnie wystarczy te 33 zeta jak w reko.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75238567",
+      "author": "mabmab",
+      "postedAt": "2026-07-25 11:04",
+      "threadTitle": "Re: nowa jakosc ....",
+      "url": "https://www.bankier.pl/forum/temat_nowa-jakosc,75232435.html",
+      "body": "Ha ha...nie masz cwaniaka nad warszawiaka! Ale po waszych wpisach rozumiem veto Nawrockiego. Skoro tak chetnie siegacie do jezyka heimatu...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75238545",
+      "author": "Andy",
+      "postedAt": "2026-07-25 11:02",
+      "threadTitle": "Re: 7-Eleven rezygnuje z Żabki",
+      "url": "https://www.bankier.pl/forum/temat_7-eleven-rezygnuje-z-zabki,75237951.html",
+      "body": "Choć raz piszesz z sensem , bo na naszej szulerni to nigdy nie wiadomo.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75238479",
+      "author": "Nicponim",
+      "postedAt": "2026-07-25 10:54",
+      "threadTitle": "Re: Rekomendacja mBanku.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
+      "body": "65 tam gdzie linia trendu wzrostowego. Mam nadzieje, ze wbije z powrotem do kanału i pojdzie gdzie ma pojsc.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75238425",
+      "author": "Magellan",
+      "postedAt": "2026-07-25 10:46",
+      "threadTitle": "Re: 7-Eleven rezygnuje z Żabki",
+      "url": "https://www.bankier.pl/forum/temat_7-eleven-rezygnuje-z-zabki,75237951.html",
+      "body": "Jak będzie zobaczymy. Dziś świeci słońce. Co będzie w poniedziałek się zobaczy. I tak nie masz na to wplywu",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75238419",
+      "author": "Lo21",
+      "postedAt": "2026-07-25 10:45",
+      "threadTitle": "Re: Kolarz Andy!",
+      "url": "https://www.bankier.pl/forum/temat_kolarz-andy,75212973.html",
+      "body": "Panowie.Widzę że piszecie z głową a nie to co reszta.Chętnie się przyłącze jeśli mogę..",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75238379",
+      "author": "REH",
+      "postedAt": "2026-07-25 10:40",
+      "threadTitle": "Re: Kiedy wyniki biedry",
+      "url": "https://www.bankier.pl/forum/temat_kiedy-wyniki-biedry,75238195.html",
+      "body": "Największe sieci spożywcze zwiększają sprzedaż, ale tempo wzrostu jest bardzo zróżnicowane. Najmocniej rosną Dino i Żabka, podczas gdy Eurocash oraz Carrefour tracą przychody i notują wysokie straty.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75238261",
       "author": "Bond",
@@ -142,7 +441,7 @@
       "url": "https://www.bankier.pl/forum/temat_7-eleven-rezygnuje-z-zabki,75237951.html",
       "body": "Przepłynie nie odpłynie, fundy maja koszyki sektorowe ustawione na constans.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -156,7 +455,7 @@
       "url": "https://www.bankier.pl/forum/temat_7-eleven-rezygnuje-z-zabki,75237951.html",
       "body": "Dino wzrosło na fali zabkowej.Podejrzewam że teraz trochę kapitału że spozywki odpłynie od przyszłego tyg.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -170,7 +469,7 @@
       "url": "https://www.bankier.pl/forum/temat_7-eleven-rezygnuje-z-zabki,75237951.html",
       "body": "Ha ha ha ha ha, no właśnie i teraz 7 Eleven jednak zainteresuje sie kupnem Dino i to od poniedziałku , co za szulernia na tym gpw, ktoś coś pierdnie w sieci i stado baranów o nie to że plankton gieldowy ,ale cwaniaki z fundow jak barany lecą od ściany do ściany,od pkc kupno,do pkc sprzedaż",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -212,7 +511,7 @@
       "url": "https://www.bankier.pl/forum/temat_7-eleven-rezygnuje-z-zabki,75237951.html",
       "body": "https://strefainwestorow.pl/spolki/7-eleven-rezygnacja-zabka?utm_medium=push&utm_source=pushpushgo&utm_campaign=pushpushgoTo jak panowie i panie?Może część akcjonariuszy w chwili załamania wymieni z powrotem akcje na Dino i będzie mijanka?",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -254,7 +553,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
       "body": "Ja daje 65…",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -296,7 +595,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
       "body": "Trochę prześmiewczo i raczej nie po polsku piszesz,, bo co to znaczy ten \"szyfrogram\", \"wiedzieli i rozmowach żabki z 7/11 i dali cichą rekomendacje\". Tak więc pisz poprawnie ,a nie jakimiś sloganami bo to nie moje niezrozumienie tylko twój jakiś niespójny przekaz P.S A gdzie jest to niby reko o tych 33 zeta, może jakiś link, jakbys był łaskaw uwiarygodnić swoją rewelację z tym info kolego",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -310,7 +609,7 @@
       "url": "https://www.bankier.pl/forum/temat_zimny-prysznic,75224083.html",
       "body": "Ilość czerwonych łapek od forumowiczów mówi sama za siebie że większość ludzi twierdzi ,ze to sa same brednie o tym kierunku na 25 zeta.Za niecały miesiąc mocno się zdziwisz po wynikach kwartalnych sezonu letniego ,gdzie zysk netto oscylowal w okolicach 400 mln zeta, w tym roku będzie podobnie ,a może i lepiej bo przybyło już wiele nowych sklepów od ubiegłego roku , ponadto inni kumaci forumowicze wyczaili,że MBank wydał nowe reko z ceną 33 zeta, tak więc koleś zobaczysz te z d... wyjęte 25 zeta jak świnia niebo !!!!",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -338,7 +637,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekomendacja-mbanku,75237425.html",
       "body": "Wielcy fachowcy ha ha ha .Ja też wiem że w okolicach 33,6 zeta jest opór średnio terminowy, a za niecały miesiąc podadzą wyniki kwartalne i pół roczne, które ,jak to w poprzednich latach było zawsze są szczytowe dla Dino, około 400 mln zeta zysku netto za kwartał. Tak więc każdy sam może stworzyć sobie takie reko.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -366,7 +665,7 @@
       "url": "https://www.bankier.pl/forum/temat_zimny-prysznic,75224083.html",
       "body": "To dyziowate marzenia, takie pitolenie o Szopenie, ze niby spodnie jeszcze na 25 z hakiem zeta , przecież to musiało by spaść jeszcze ponad -10%, a za miesiąc wyniki ,prawdopodobnie dobre wyniki , tak więc to taka jałowa pisanina bez realnego pokrycia",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -423,7 +722,7 @@
       "body": "Czy jak zejdzie do 25,50 zł warto wejść na dłużej i więcej ( do stycznia 27' ) licząc na 32-33 zł ??? ( 100k akcji ) .",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -471,20 +770,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75236733",
-      "author": "Maro",
-      "postedAt": "2026-07-24 22:01",
-      "threadTitle": "Masło w Biedronce po 1,99 zł",
-      "url": "https://www.bankier.pl/forum/temat_maslo-w-biedronce-po-1-99-zl,75236733.html",
-      "body": "Co na to Dino ? Konkurencja nie śpi a marże spadają",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75236731",
       "author": "Scyzoryk",
       "postedAt": "2026-07-24 22:01",
@@ -497,6 +782,20 @@
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75236733",
+      "author": "Maro",
+      "postedAt": "2026-07-24 22:01",
+      "threadTitle": "Masło w Biedronce po 1,99 zł",
+      "url": "https://www.bankier.pl/forum/temat_maslo-w-biedronce-po-1-99-zl,75236733.html",
+      "body": "Co na to Dino ? Konkurencja nie śpi a marże spadają",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
     },
     {
       "id": "75236623",
@@ -828,21 +1127,7 @@
       "url": "https://www.bankier.pl/forum/temat_nowa-jakosc,75232435.html",
       "body": "> Mokotów pamieta co zrobili Niemcy a ponadto popełniłeś błędy ortograficzne w swoim niemieckim wtrecie. I przeczytaj Goloborze jesli czytasz cokolwiek.Hallo Kollege, nie będę się tłumaczył z niewpisanych zgłosek, to że mówię i piszę po niemiecku nie oznacza że jestem Volks,tak jak twoje anglojęzyczne wpisy, że jesteś anglikiem w Warszawie na wywczasach w Polsce!",
       "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75232727",
-      "author": "Heisenberg",
-      "postedAt": "2026-07-24 15:07",
-      "threadTitle": "Re: Sprzedane po 28,90 czekam na 23",
-      "url": "https://www.bankier.pl/forum/temat_sprzedane-po-28-90-czekam-na-23,75230607.html",
-      "body": "Mogłeś więcej zarobić, w gorącej H2O kąpany. Słowo-klucz dla młodzieży to:CIERPLIWOŚĆ :)",
-      "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -858,6 +1143,20 @@
       "votes": {
         "up": 0,
         "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75232727",
+      "author": "Heisenberg",
+      "postedAt": "2026-07-24 15:07",
+      "threadTitle": "Re: Sprzedane po 28,90 czekam na 23",
+      "url": "https://www.bankier.pl/forum/temat_sprzedane-po-28-90-czekam-na-23,75230607.html",
+      "body": "Mogłeś więcej zarobić, w gorącej H2O kąpany. Słowo-klucz dla młodzieży to:CIERPLIWOŚĆ :)",
+      "votes": {
+        "up": 3,
+        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1472,7 +1771,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-la-dino-z-villanova,75225811.html",
       "body": "Elyty trafią bez trudu, pamiętaj że frak pasuje w trzecim pokoleniu, tam teraz mieszkają właśnie dzieci kapuściarzy. Elita cicho siedzi w Konstancinie.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1773,20 +2072,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75224083",
-      "author": "Stary_kaczor",
-      "postedAt": "2026-07-23 17:42",
-      "threadTitle": "Zimny prysznic",
-      "url": "https://www.bankier.pl/forum/temat_zimny-prysznic,75224083.html",
-      "body": "Czas wracać w kierunku 25 zł. Wiem, że Wam się to nie podoba bo myślicie, że jak pod Dino na parkingu jest dużo samochodów to akcje powinny być po 100 zł ale rynek woli twarde fakty",
-      "votes": {
-        "up": 8,
-        "down": 16
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75224089",
       "author": "wert",
       "postedAt": "2026-07-23 17:42",
@@ -1796,6 +2081,20 @@
       "votes": {
         "up": 0,
         "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75224083",
+      "author": "Stary_kaczor",
+      "postedAt": "2026-07-23 17:42",
+      "threadTitle": "Zimny prysznic",
+      "url": "https://www.bankier.pl/forum/temat_zimny-prysznic,75224083.html",
+      "body": "Czas wracać w kierunku 25 zł. Wiem, że Wam się to nie podoba bo myślicie, że jak pod Dino na parkingu jest dużo samochodów to akcje powinny być po 100 zł ale rynek woli twarde fakty",
+      "votes": {
+        "up": 8,
+        "down": 17
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1838,20 +2137,6 @@
       "votes": {
         "up": 0,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75223627",
-      "author": "Lejs",
-      "postedAt": "2026-07-23 17:06",
-      "threadTitle": "Re: Poproszę zamek 29.20 !!!",
-      "url": "https://www.bankier.pl/forum/temat_poprosze-zamek-29-20,75221147.html",
-      "body": "Z góry dziękuję za uwalenie kursu..Jutro możecie zrobić małe odreagowanie ale cały przyszły tydzień proszę dalej zwalać.Wszak trend is your friend isn't it?",
-      "votes": {
-        "up": 1,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1955,34 +2240,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75222837",
-      "author": "Pucin",
-      "postedAt": "2026-07-23 16:09",
-      "threadTitle": "Re: Trzeba się przygotować",
-      "url": "https://www.bankier.pl/forum/temat_trzeba-sie-przygotowac,75222791.html",
-      "body": "Duście ich duście jeszcze mocniej",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75222791",
-      "author": "Ccc",
-      "postedAt": "2026-07-23 16:05",
-      "threadTitle": "Trzeba się przygotować",
-      "url": "https://www.bankier.pl/forum/temat_trzeba-sie-przygotowac,75222791.html",
-      "body": "Na 25. Za niedługo będzie",
-      "votes": {
-        "up": 3,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75222643",
       "author": "Lejs",
       "postedAt": "2026-07-23 15:57",
@@ -2039,48 +2296,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75222285",
-      "author": "SHORT",
-      "postedAt": "2026-07-23 15:31",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "> > > Choć jeden do rzeczy pisze tutaj Wiesz kupę lat siedzę na giełdzie, znam rzemiosło rasowego gieldowca, ale jakoś nie ma przekonania, odwagi \"brać\" sie za kontrakty. Miłego dnia.>> Andy, udało mi się zamknąć wszystkie 15 szt. w średniej cenie 29,60 zł i mi to na razie wystarczy, a za kontrakty to ty się nie> bież, bo popłyniesz jeśli obstawisz złą stronę, no i poważną rolę odgrywa oprócz wiedzy zwykła ludzka odporność psychiczna!Zrobiłem rzecz karkołomną, zamknąłem również z dużym zyskiem wszystkie swoje 6 szt. FPKOU26 / SHORT i otworzyłem 6 kontraktów LONG w średniej cenie około 101,80 i czekam na korektę wzrostową, a DINA się na razie nie dotykam!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75221607",
-      "author": "mabmab",
-      "postedAt": "2026-07-23 14:43",
-      "threadTitle": "Re: Ktos wyrzuca na poziomie 30 a tzn bedzie",
-      "url": "https://www.bankier.pl/forum/temat_ktos-wyrzuca-na-poziomie-30-a-tzn-bedzie,75219071.html",
-      "body": "I dokladnie tam sie sotkamy....ale z nich nie kpimy bo sami sobie dowalili. Zwlaszcza Andy alias tadeusz-a.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75221147",
-      "author": "Lejs",
-      "postedAt": "2026-07-23 14:12",
-      "threadTitle": "Poproszę zamek 29.20 !!!",
-      "url": "https://www.bankier.pl/forum/temat_poprosze-zamek-29-20,75221147.html",
-      "body": "Dziękuję grubasy :-)../",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75221037",
       "author": "SHORT",
       "postedAt": "2026-07-23 14:02",
@@ -2093,48 +2308,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75221023",
-      "author": "Lejs",
-      "postedAt": "2026-07-23 14:00",
-      "threadTitle": "Re: Ktos wyrzuca na poziomie 30 a tzn bedzie",
-      "url": "https://www.bankier.pl/forum/temat_ktos-wyrzuca-na-poziomie-30-a-tzn-bedzie,75219071.html",
-      "body": "Dokładnie.Jak rosło to Radziu i spółka się podkpiwali że mnie ale co tam ...wiedziałem że ten się śmieje....Czekam na 25-26 przyszły piątek.",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75220991",
-      "author": "SHORT",
-      "postedAt": "2026-07-23 13:56",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "> Choć jeden do rzeczy pisze tutaj Wiesz kupę lat siedzę na giełdzie, znam rzemiosło rasowego gieldowca, ale jakoś nie ma przekonania, odwagi \"brać\" sie za kontrakty. Miłego dnia.Andy, udało mi się zamknąć wszystkie 15 szt. w średniej cenie 29,60 zł i mi to na razie wystarczy, a za kontrakty to ty się niebież, bo popłyniesz jeśli obstawisz złą stronę, no i poważną rolę odgrywa oprócz wiedzy zwykła ludzka odporność psychiczna!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75220945",
-      "author": "mabmab",
-      "postedAt": "2026-07-23 13:54",
-      "threadTitle": "Re: Ktos wyrzuca na poziomie 30 a tzn bedzie",
-      "url": "https://www.bankier.pl/forum/temat_ktos-wyrzuca-na-poziomie-30-a-tzn-bedzie,75219071.html",
-      "body": "Lejs my jestesmy kulturalni pamietaj nie idzmy w ich slady niech wiedza gdzie kultura i wiedza",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75220651",
@@ -2165,90 +2338,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75219691",
-      "author": "Lejs",
-      "postedAt": "2026-07-23 12:33",
-      "threadTitle": "Re: Ktos wyrzuca na poziomie 30 a tzn bedzie",
-      "url": "https://www.bankier.pl/forum/temat_ktos-wyrzuca-na-poziomie-30-a-tzn-bedzie,75219071.html",
-      "body": "Bordo paryskie .Cudowny dzień.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75219257",
-      "author": "Andy",
-      "postedAt": "2026-07-23 12:04",
-      "threadTitle": "Re: Ktos wyrzuca na poziomie 30 a tzn bedzie",
-      "url": "https://www.bankier.pl/forum/temat_ktos-wyrzuca-na-poziomie-30-a-tzn-bedzie,75219071.html",
-      "body": "O widzę że tu Andy bis!!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75219187",
-      "author": "Andy",
-      "postedAt": "2026-07-23 12:01",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "Choć jeden do rzeczy pisze tutaj Wiesz kupę lat siedzę na giełdzie, znam rzemiosło rasowego gieldowca, ale jakoś nie ma przekonania, odwagi \"brać\" sie za kontrakty. Miłego dnia.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75219071",
-      "author": "Andy",
-      "postedAt": "2026-07-23 11:55",
-      "threadTitle": "Ktos wyrzuca na poziomie 30 a tzn bedzie",
-      "url": "https://www.bankier.pl/forum/temat_ktos-wyrzuca-na-poziomie-30-a-tzn-bedzie,75219071.html",
-      "body": "Znowu dół",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75218305",
-      "author": "SHORT",
-      "postedAt": "2026-07-23 11:06",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "Andy, ja skutecznie wyleczyłem się z demona chciwości, bo przytrzymanie pozycji zwykle źle się kończy, dategopostanowiłem zamykać wszystkie swoje FDNPU26/S - 15 szt. jeśli baza ceny Dino znajdzie się w przedzialecenowym 29,40 - 29,50 i już, ale LONGów nie otwieram czyli nie odwracam pozycji. Pozdro",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75218033",
-      "author": "SHORT",
-      "postedAt": "2026-07-23 10:47",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "> > > Przecież ja gieldowiec od dawien dawna, to znam rzemiosło giełdowe i to dobrze. Co zamykasz dziś krótkiego jak to wczoraj pisałeś?>> Czekam na poziom 3850,00 na Wig-20 i na FTSE na poziom około 10650,00 pkt., może zbiegną się razem w czasie?!Poziom na Wig-20 jest już prawdopodobnie nieaktualny, bo był macany na obecnym dołku, więc podejrzewam że będzie dużo niżej, natomiast przyglądam się indeksowi FTSE i tam pozom 10650,00 jest aktualny, a to jest środek wczorajszej białej świecy.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75217925",
       "author": "Elczapo",
       "postedAt": "2026-07-23 10:40",
@@ -2274,48 +2363,6 @@
         "down": 2
       },
       "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75217307",
-      "author": "SHORT",
-      "postedAt": "2026-07-23 10:04",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "> Przecież ja gieldowiec od dawien dawna, to znam rzemiosło giełdowe i to dobrze. Co zamykasz dziś krótkiego jak to wczoraj pisałeś?Czekam na poziom 3850,00 na Wig-20 i a FTSE poziom około 10650,00 pkt., może zbiegną się razem w czasie?!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75216755",
-      "author": "Andy",
-      "postedAt": "2026-07-23 09:34",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "Przecież ja gieldowiec od dawien dawna, to znam rzemiosło giełdowe i to dobrze. Co zamykasz dziś krótkiego jak to wczoraj pisałeś?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75215263",
-      "author": "SHORT",
-      "postedAt": "2026-07-23 07:05",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "> Dla niewtajemniczonych uwaga ,że kontrakty są na tzw lewarze tzn.,że można wielokrotnie stracić jak kurs pojdzie nie w ta stronę co się obstawiało, a wówczas trzeba dopłacać do tzw depozytu aż ci kasy braknie na dopłacanie ,a wówczas biuro maklerskie sprzedaje takie kontrakty nawet pkcem i można w ten sposób szybko stracić sporo kasy co nie koleśAndy, gratuluję bo jesteś jednym z nielicznych którzy kumają co to są kontrakty na akcje i jest tutaj dźwignia około 1 :7 czylimnie 1 kontrakt Dino przy wczorajszym zamknięciu 30,50 zł kosztuje 432,46 /depozyt/,a równoważy 30,50 x 100 akcji = 3050,00 zł.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
     },
     {
@@ -2641,20 +2688,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75196883",
-      "author": "Nara",
-      "postedAt": "2026-07-21 13:46",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "To forum to jakaś jedna wielka pomyłka....Może z racji wakacji tak jest... Dzieci z gimnazjów mają wolne.... I takie pierdoły wypisują...",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75194281",
       "author": "wert",
       "postedAt": "2026-07-21 10:56",
@@ -2683,34 +2716,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75190483",
-      "author": "Andy",
-      "postedAt": "2026-07-21 00:04",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "Dla niewtajemniczonych uwaga ,że kontrakty są na tzw lewarze tzn.,że można wielokrotnie stracić jak kurs pojdzie nie w ta stronę co się obstawiało, a wówczas trzeba dopłacać do tzw depozytu aż ci kasy braknie na dopłacanie ,a wówczas biuro maklerskie sprzedaje takie kontrakty nawet pkcem i można w ten sposób szybko stracić sporo kasy co nie koleś",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75190283",
-      "author": "SHORT",
-      "postedAt": "2026-07-20 23:09",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "> Gościu, znajdź se dziewczynę albo jakąś pracę poważniejszą. To będzie dla ciebie zdrowszeGościu, prawidłowo po polsku pisze się \"znajdź sobie\", a z ciekawości zapytam, masz już chłopaka i tętwarzową czerwoną torebkę, dajesz radę na nocki czy tylko dzionki cię interesują?!",
-      "votes": {
-        "up": 1,
-        "down": 4
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75190173",
       "author": "Ppp",
       "postedAt": "2026-07-20 22:52",
@@ -2720,62 +2725,6 @@
       "votes": {
         "up": 0,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75189589",
-      "author": "DużoTutajCzubków",
-      "postedAt": "2026-07-20 21:37",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "Gościu, znajdź se dziewczynę albo jakąś pracę poważniejszą. To będzie dla ciebie zdrowsze",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75189145",
-      "author": "SHORT",
-      "postedAt": "2026-07-20 20:20",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "Jakiś bardzo wygłodniały pelikan o godz16,45 jednym zleceniem zakupił moje 10 kontraktów FDNPU26 / SHORT w cenie30,00 zł, ale będę miał bekę jak zacznie mi płacić kasiorę jeśli rynek zawróci! Hehehe!PS. Uwaga dla nie wtajemniczonych to to że 1 kontrakt równoważy cenowo 100 akcji",
-      "votes": {
-        "up": 0,
-        "down": 7
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75184537",
-      "author": "SHORT",
-      "postedAt": "2026-07-20 13:29",
-      "threadTitle": "Re: Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "> wymiotować dzisiaj na górce tak żarłocznie połkniętymi akcjami! Hehehe!Chyba nadchodzi moment niestrawności?! Hehehe!",
-      "votes": {
-        "up": 1,
-        "down": 8
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75184399",
-      "author": "SHORT",
-      "postedAt": "2026-07-20 13:14",
-      "threadTitle": "Kiedy pelikany zaczną,",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pelikany-zaczna,75184399.html",
-      "body": "wymiotować dzisiaj na górce tak żarłocznie połkniętymi akcjami! Nenene!",
-      "votes": {
-        "up": 2,
-        "down": 17
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2905,6 +2854,62 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75176453",
+      "author": "Rysiek",
+      "postedAt": "2026-07-19 10:53",
+      "threadTitle": "Re: Dino Warszawa",
+      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
+      "body": "Ewidentnie widać że Dino jakością produktów pozamiata konkurencję... Świeże mięso, wędliny, nabiał.... Cóż można chcieć więcej.... Dlatego jest taki skowyt....",
+      "votes": {
+        "up": 18,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75176157",
+      "author": "MZ",
+      "postedAt": "2026-07-19 10:07",
+      "threadTitle": "Re: Dino Warszawa",
+      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
+      "body": "Dlatego tak dino zyskuje na popularnosci, mieso w dino sa tylko kilka procent wyzsze niz w innych sieciowkach, a jakoscia i swiezoscia bije na glowe. Ponadto wszyscy miwia o miesie a drugim produktem ktory jest u nas w kraju bardzo popularny to nabial, a w szczegolnosci ser, ktory w dino jest najtanszy a bardzo dobry, a wspolpraca z Mlekovita pozamiata konkurencje w tej grupie produktow",
+      "votes": {
+        "up": 14,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75174939",
+      "author": "RS",
+      "postedAt": "2026-07-18 22:10",
+      "threadTitle": "Re: Dino Warszawa",
+      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
+      "body": "Dino w Wilanowie zostanie otwarte 21 lipca",
+      "votes": {
+        "up": 7,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75174685",
+      "author": "Re",
+      "postedAt": "2026-07-18 20:54",
+      "threadTitle": "Re: Dino Warszawa",
+      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
+      "body": "Nudny jesteś lej.",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     }
   ]
 }
