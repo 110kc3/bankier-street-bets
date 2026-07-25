@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-07-24T19:46:49.293Z",
+  "updatedAt": "2026-07-25T03:36:52.606Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-24T19:46:49.293Z",
+    "fetchedAt": "2026-07-25T03:36:52.606Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.014,
-    "confidence": 0.7,
-    "commentCount": 124,
+    "score": -0.015,
+    "confidence": 0.71,
+    "commentCount": 123,
     "breakdown": {
       "positive": 27,
       "negative": 27,
-      "neutral": 70
+      "neutral": 69
     },
     "trend": [
       {
-        "date": "2026-07-17",
-        "score": 0,
-        "count": 1
-      },
-      {
         "date": "2026-07-18",
-        "score": 0.097,
-        "count": 6
+        "score": 0.117,
+        "count": 5
       },
       {
         "date": "2026-07-19",
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-07-24",
-        "score": -0.042,
-        "count": 14
+        "score": -0.039,
+        "count": 15
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 124 komentarzy z ostatnich 7 dni: nastroje mieszane (27 pozytywnych, 27 negatywnych, 70 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 123 komentarzy z ostatnich 7 dni: nastroje mieszane (27 pozytywnych, 27 negatywnych, 69 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
@@ -112,6 +107,20 @@
   },
   "comments": [
     {
+      "id": "75236669",
+      "author": "Analo",
+      "postedAt": "2026-07-24 21:51",
+      "threadTitle": "Re: kurs się męczy",
+      "url": "https://www.bankier.pl/forum/temat_kurs-sie-meczy,75233709.html",
+      "body": "Muszą sprzedać w piątek pożyczone akcje a także ci co grają na dźwignię.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "75233845",
       "author": "Lis",
       "postedAt": "2026-07-24 16:27",
@@ -147,7 +156,7 @@
       "url": "https://www.bankier.pl/forum/temat_metale,75228025.html",
       "body": "Napisz, kiedy to się stanie",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -189,7 +198,7 @@
       "url": "https://www.bankier.pl/forum/temat_metale,75228025.html",
       "body": "Wiadomo korekta musiała przyjść, ale teraz przy obecnej sytuacji metal zaczyna być silny ktoś uważa te poziomy za atrakcyjną i bierze kongCzyżby ktoś tu zauważał już początek kryzysu obligacji i zadłużenia",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -1815,34 +1824,6 @@
       "votes": {
         "up": 0,
         "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75170515",
-      "author": "Olo",
-      "postedAt": "2026-07-18 00:55",
-      "threadTitle": "Re: Czas przywitać się z SMA 200",
-      "url": "https://www.bankier.pl/forum/temat_czas-przywitac-sie-z-sma-200,75161489.html",
-      "body": "Ty siedzisz wszędzie",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75170011",
-      "author": "Olo",
-      "postedAt": "2026-07-17 22:02",
-      "threadTitle": "Re: Jakby tak zakończyła się sesja",
-      "url": "https://www.bankier.pl/forum/temat_jakby-tak-zakonczyla-sie-sesja,75168815.html",
-      "body": "Bzdurzysz tutaj tak samo, jak na JSW?",
-      "votes": {
-        "up": 0,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
