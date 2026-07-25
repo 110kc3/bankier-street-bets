@@ -3,11 +3,11 @@
   "companyName": "Orlen SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKNORLEN",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_orlen-sa,6,21,201.html",
-  "updatedAt": "2026-07-25T14:02:44.847Z",
+  "updatedAt": "2026-07-25T19:36:04.669Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-25T14:02:44.847Z",
+    "fetchedAt": "2026-07-25T19:36:04.670Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,87 +15,301 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.032,
+    "score": -0.023,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 41,
-      "negative": 69,
-      "neutral": 90
+      "positive": 44,
+      "negative": 70,
+      "neutral": 86
     },
     "trend": [
       {
-        "date": "2026-07-21",
-        "score": 0.048,
-        "count": 8
-      },
-      {
-        "date": "2026-07-22",
-        "score": -0.129,
-        "count": 7
-      },
-      {
         "date": "2026-07-23",
-        "score": 0.053,
-        "count": 28
+        "score": 0.094,
+        "count": 24
       },
       {
         "date": "2026-07-24",
-        "score": -0.087,
-        "count": 107
+        "score": -0.085,
+        "count": 109
       },
       {
         "date": "2026-07-25",
-        "score": -0.033,
-        "count": 50
+        "score": -0.028,
+        "count": 67
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (41 pozytywnych, 69 negatywnych, 90 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (44 pozytywnych, 70 negatywnych, 86 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "zeby",
+        "count": 12
+      },
       {
         "word": "jego",
         "count": 12
       },
       {
-        "word": "roku",
-        "count": 12
-      },
-      {
-        "word": "orlen",
-        "count": 12
-      },
-      {
-        "word": "wtedy",
+        "word": "mnie",
         "count": 11
       },
       {
-        "word": "zeby",
-        "count": 10
+        "word": "roku",
+        "count": 11
       },
       {
-        "word": "mnie",
-        "count": 10
+        "word": "orlen",
+        "count": 11
       },
       {
         "word": "wiecej",
+        "count": 10
+      },
+      {
+        "word": "wtedy",
+        "count": 10
+      },
+      {
+        "word": "zysk",
         "count": 9
       },
       {
-        "word": "maja",
+        "word": "podatek",
         "count": 9
       },
       {
-        "word": "tuska",
-        "count": 9
-      },
-      {
-        "word": "wyborow",
+        "word": "polska",
         "count": 9
       }
     ]
   },
   "comments": [
+    {
+      "id": "75241099",
+      "author": "Dewajtis",
+      "postedAt": "2026-07-25 21:35",
+      "threadTitle": "Wołodia, Lachi nie lubiom ciebie",
+      "url": "https://www.bankier.pl/forum/temat_wolodia-lachi-nie-lubiom-ciebie,75241099.html",
+      "body": "Nad Wisłą zapanował duży sceptycyzm wobec Wołodymyra Zełenskiego. Nowy sondaż dla Wirtualnej Polski pokazuje, że aż trzy czwarte Polaków źle ocenia działalność prezydenta Ukrainy. Co więcej, w tej sprawie nawet elektorat koalicji rządzącej nie jest jednomyślnie przychylny ukraińskiemu przywódcy.https://wiadomosci.wp.pl/wolodymyr-zelenski-poddany-ocenie-polacy-wydali-werdykt-7310535758014816a",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75240973",
+      "author": "Dewajtis",
+      "postedAt": "2026-07-25 20:46",
+      "threadTitle": "Re: Partia PiS zakończyła działalność",
+      "url": "https://www.bankier.pl/forum/temat_partia-pis-zakonczyla-dzialalnosc,75240409.html",
+      "body": "Tym gorzej dla ciebie, że nie pijesz, bo byłoby to jakieś usprawiedliwienie dla pisania przez ciebie takich kosmicznych bzdetów.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75240953",
+      "author": "Ryś12",
+      "postedAt": "2026-07-25 20:41",
+      "threadTitle": "Re: Partia PiS zakończyła działalność",
+      "url": "https://www.bankier.pl/forum/temat_partia-pis-zakonczyla-dzialalnosc,75240409.html",
+      "body": "Widzisz, nie piję bo nie lubię. A ty mniej nadawaj bo ci się móżdżek skurczy.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75240941",
+      "author": "Dewajtis",
+      "postedAt": "2026-07-25 20:35",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "Niestety dla ciebie, ale PiS jest, i co najważniejsze przejmie władzę w 2027.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75240937",
+      "author": "Dewajtis",
+      "postedAt": "2026-07-25 20:34",
+      "threadTitle": "Re: Partia PiS zakończyła działalność",
+      "url": "https://www.bankier.pl/forum/temat_partia-pis-zakonczyla-dzialalnosc,75240409.html",
+      "body": "Co Pan powiesz? Teraz właśnie PiS będzie mógł odzyskać poparcie, bo staje się partią klarowną, Morawiecki niech sobie szuka kumpli, jak znajdzie też dobrze. A ty mniej pij.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75240931",
+      "author": "Ryś12",
+      "postedAt": "2026-07-25 20:31",
+      "threadTitle": "Re: Partia PiS zakończyła działalność",
+      "url": "https://www.bankier.pl/forum/temat_partia-pis-zakonczyla-dzialalnosc,75240409.html",
+      "body": "Pis to zgnilizna. Oni gniją od środka już od dawna.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75240725",
+      "author": "endrzej",
+      "postedAt": "2026-07-25 19:36",
+      "threadTitle": "Re: Dlaczego TK? Podatek od zysków nadwymiarowych",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
+      "body": "To idź na jakikolwiek wątek założony przez dewaitisa to zapaczysz jak panowie polityczne oszołomy dyskutują.A tu widzisz mambaba od tuskowej propagandy jak zobaczył fakty uciekłBo naprawdę CPN de facto przynosi zyski budzetowi",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75240637",
+      "author": "mabmab",
+      "postedAt": "2026-07-25 19:00",
+      "threadTitle": "Re: Dlaczego TK? Podatek od zysków nadwymiarowych",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
+      "body": "Mylisz jabłka i gruszki. Niby owoce z drzew ale to nie to samo. Dla istoty podatku od zysków ponadwymiarowych to co napisałeś nie ma znaczenia . Istota problemu jest określenie od jakiego poziomu zysków to co ponad zysk znormalizowany czyli arbitralnie uznany za fair jest liczony zysk ponad ten poziom i opodatkowane. Windfall profit to określenie pojawiło się w finansach po to aby pokazać zysk ktory wpada do rachunku wyników i nie jest wynikiem starań firmy. I stad pojawiła się koncepcja dodatkowego opodatkowania. Żeby było jasne dla mnie ten podatek nie powinien istnieć ze względu na arbitralnosc fiskusa.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75240547",
+      "author": "Prawda",
+      "postedAt": "2026-07-25 18:36",
+      "threadTitle": "Re: Dlaczego TK? Podatek od zysków nadwymiarowych",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
+      "body": "Odniosłem się do Twojej początkowej wypowiedzi o mechanikach i farmaceutach. Faktycznie wskazaliśmy podobne zagrożenie — że raz przyjęta zasada może być później rozszerzana. Ty podałeś przykład, a ja rozwinąłem to od strony stabilności prawa i wpływu na inwestycje. Nie ma więc tu różnicy w ocenie samego problemu. Szkoda tylko, że zamiast dyskutować o argumentach, przeszedłeś do oceniania ludzi.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75240461",
+      "author": "HarcerzeundMaslarze",
+      "postedAt": "2026-07-25 18:04",
+      "threadTitle": "Re: Partia PiS zakończyła działalność",
+      "url": "https://www.bankier.pl/forum/temat_partia-pis-zakonczyla-dzialalnosc,75240409.html",
+      "body": "Szkoda ze tak późno.teraz jechać ze złodziejami!!!",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75240439",
+      "author": "Pinokio",
+      "postedAt": "2026-07-25 17:59",
+      "threadTitle": "Re: Partia PiS zakończyła działalność",
+      "url": "https://www.bankier.pl/forum/temat_partia-pis-zakonczyla-dzialalnosc,75240409.html",
+      "body": "Delegalizacja !",
+      "votes": {
+        "up": 1,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75240423",
+      "author": "endrzej",
+      "postedAt": "2026-07-25 17:56",
+      "threadTitle": "Re: Dlaczego TK? Podatek od zysków nadwymiarowych",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
+      "body": "Przecież napisałeś to samo co ja wyżej panie prawda.Nie można również kłamać ludziom w żywe oczy i robić z nich .do...w Są tacy którzy myślą samodzielnie a takie dewitisy mambamy to chłam odpad od propagandy ty prawda zresztą też do te grupy się zaliczasz",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75240409",
+      "author": "123",
+      "postedAt": "2026-07-25 17:50",
+      "threadTitle": "Partia PiS zakończyła działalność",
+      "url": "https://www.bankier.pl/forum/temat_partia-pis-zakonczyla-dzialalnosc,75240409.html",
+      "body": "Niech żyje Wolna Polska!",
+      "votes": {
+        "up": 1,
+        "down": 6
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75240415",
+      "author": "123",
+      "postedAt": "2026-07-25 17:50",
+      "threadTitle": "Re: PINOKIO I 40 POSŁÓW WYRZUCONA Z PIS",
+      "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
+      "body": "Cudownie czyta się kwik swoloczy prawackiej. PiSu już nie ma ❤️",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75240305",
+      "author": "Prawda",
+      "postedAt": "2026-07-25 17:20",
+      "threadTitle": "Re: Dlaczego TK? Podatek od zysków nadwymiarowych",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
+      "body": "Nie chodzi o politykę ani o to, kto na tym zyska. Problem jest w zasadzie: państwo może ustalać podatki, ale nie powinno zmieniać reguł po fakcie. Jeśli dopuścimy, że można później uznać czyjś zysk za nadmierny i dodatkowo go opodatkować, tworzymy niebezpieczny precedens. Dzisiaj dotyczy to jednej branży, jutro może dotyczyć innej. Przedsiębiorcy muszą mieć możliwość planowania inwestycji na podstawie znanych zasad. Państwo, które daje wyjątki od tej reguły, ryzykuje utratę zaufania.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75240123",
+      "author": "endrzej",
+      "postedAt": "2026-07-25 16:27",
+      "threadTitle": "Re: Dlaczego TK? Podatek od zysków nadwymiarowych",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
+      "body": "Co zaniemówiłem jak dewaitis po rozpadzie Szukaj danych liczb to zaraz zobaczymy kto ma od propagandy dziury w głowie",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75240037",
       "author": "endrzej",
@@ -104,7 +318,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
       "body": "Ty mi dyktuj co mam pisać to ja mam ci wyjaśnić bo ty propagandy za dużo lykasz.Znajdź w necie bo mi nie uwierzysz1 ile wzrosła sprzedaż paliw kwietnia maj czerwiec i jaki budżet ma z tego zysk ekstra 2 ile wzrosła sprzedaż dzięki turystyce paliwowej sprzedaż alkoholu, papierosów, tytoń, żywności,chemia,AGD3 jaki wzrost cit stacji przygranicznych 4 ile straciła branża transportowa,kurierzy,handlowcy itp itp którzy odliczają VAT czyli ile więcej dostały więcej urzędy skarbowe z powodu mniejszych odliczeń Tylko bez propagandy same liczby Ps.Jesli poszukasz moich wypowiedzi to wiesz że PiS to zło żeby nie było że jestem za pisem i prezydent",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -132,7 +346,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
       "body": "Tobie mamba razem z dewaitisem polityka już całkiem rozum zjadła.Jesli nie kumasz podstaw to nie zabieraj zdania Wałcz z dewaitisem ekonomię zastaw bo bzdury piszesz co mogę ci szybko wyjaśnić!Tylko bez propagandy same fakty chcesz",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -146,7 +360,7 @@
       "url": "https://www.bankier.pl/forum/temat_podatek,75239741.html",
       "body": "Zgadza się. Zyskali wszyscy a stracić potencjalnie mają akcjonariusze.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -160,7 +374,7 @@
       "url": "https://www.bankier.pl/forum/temat_plonie-najwieksza-rafineria-w-rosji-50-mocy-przerobowych-kraju,75238701.html",
       "body": "Chyba już była wcześniej trafiona? Tak czy inaczej byle w końcu doszło do pokoju.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -174,8 +388,8 @@
       "url": "https://www.bankier.pl/forum/temat_plonie-najwieksza-rafineria-w-rosji-50-mocy-przerobowych-kraju,75238701.html",
       "body": "Gorzej będzie gdy ukraińcy zabiorą się za odzyskiwanie \"swoich\" ziem na zachodzie.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 3
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -188,7 +402,7 @@
       "url": "https://www.bankier.pl/forum/temat_plonie-najwieksza-rafineria-w-rosji-50-mocy-przerobowych-kraju,75238701.html",
       "body": "I dobrze",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -202,7 +416,7 @@
       "url": "https://www.bankier.pl/forum/temat_podatek,75239741.html",
       "body": "Nic takiego chorego nie liczyć, zysk zużyć na inwestycje, resztę wypłacić akcjonariuszom",
       "votes": {
-        "up": 0,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -230,8 +444,8 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
       "body": "Nadal brniesz w glupote....ale brnij . Odeslanie do TK to eskapizm i prymitywna zqgrywka nie majaca nic wspolnego z zasada prawo nie dziala wstecz.Mysl",
       "votes": {
-        "up": 1,
-        "down": 1
+        "up": 2,
+        "down": 4
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -245,7 +459,7 @@
       "body": "Nie kompromituj sie zysk nadzwyczajny zawsze jest okreslaby aposteriori a nie apriori. Tak to dziala wszedzie.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -258,8 +472,8 @@
       "url": "https://www.bankier.pl/forum/temat_podatek,75239741.html",
       "body": "On to robi dla nas przeciez tak powiedzial . Ale bajlepszy jest Szefernaker....ktory nie rozumie pojecia zysk nadzwyczajny i nazywa Tuska dyletantem gospodarczym jednoczesnie swoim wpisem obnaza swoja ignoranchebi arogancje. Szefernaker ty mi odpowiedz jak chcesz wyliczyc wielkosc zysku nadzwyczajnego do opodatkowania? Blysnij",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -272,8 +486,8 @@
       "url": "https://www.bankier.pl/forum/temat_podatek,75239741.html",
       "body": "Bokser robi wszystko, żeby było wbrew.",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 1,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -286,7 +500,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
       "body": "W lutym nie mogli nałożyć podatku bo nie było wiadomo ., że będzie wojna z Iranem.. Trzeba było by procedować z miesięczny wyprzedzeniem żeby podatek był gotowy na 1 marca.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -301,7 +515,7 @@
       "body": "Powinniśmy się cieszyć bo może dywidendowa zaliczka",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -314,7 +528,7 @@
       "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
       "body": "Dołożyłeś kolejnego bandytę, do tego w lekturze, która próbuje go niejako usprawiedliwiać przez ukazanie, że zbrodniarz nie był potworem o nadludzkich rysach, lecz zdyscyplinowanym, bezdusznym urzędnikiem realizującym nieludzką ideologię. Brnij dalej.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -385,7 +599,7 @@
       "body": "No botku blysnales sensacja ignorancja. Zmiana algorytmu niezbędna. Ty a jak covid mial wplywac na wzrost cen skoro ludzie siedzieli w domach a samochody w garażach byly?",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -398,7 +612,7 @@
       "url": "https://www.bankier.pl/forum/temat_wreszcie-wynaleziono-lekarstwo,75237115.html",
       "body": "Polityka rządu.!! Za PISu była totalna wojna tuż obok, hybrydowe ataki na naszą granicę oraz największa pandemia od 200lat i reagowano na ceny.!!! O czym tu rozmawiać..?",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 3
       },
       "sentimentScore": 0,
@@ -426,8 +640,8 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
       "body": "Ty jesteś prymityw z tą politykaMoże na wiosnę oszołomie rząd nałoży podatek wsteczny na sektor farmaceutyczny bo dużo ludzi chorowało w zimieAlbo na mechaników bo z powodu dużych mrozów powstało wiele dziur w drogach i wymienili 500% więcej wahaczy i amortyzatorow",
       "votes": {
-        "up": 3,
-        "down": 3
+        "up": 8,
+        "down": 4
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -441,7 +655,7 @@
       "body": "Fundamenty panie fundamentyRównamy do sektora równamy Jeszcze mam daleko dalekoMamy liczy które mówią prawdę a nie bzdury pisane przez znafcow",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -475,20 +689,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75238701",
-      "author": "Nostradamus",
-      "postedAt": "2026-07-25 11:22",
-      "threadTitle": "PŁONIE NAJWIĘKSZA RAFINERIA W ROSJI \"50% MOCY PRZEROBOWYCH KRAJU\"",
-      "url": "https://www.bankier.pl/forum/temat_plonie-najwieksza-rafineria-w-rosji-50-mocy-przerobowych-kraju,75238701.html",
-      "body": "PŁONIE NAJWIĘKSZA RAFINERIA W ROSJI \"50% MOCY PRZEROBOWYCH KRAJU\"Największa rosyjska rafineria ropy naftowej w Omsku stała się celem skutecznego ataku ukraińskich dronów dalekiego zasięgu. Bezzałogowce pokonały ogromny dystans, aby precyzyjnie uderzyć w kluczową instalację przeróbczą. To wydarzenie pokazuje, że nawet obiekty na Syberii, dotychczas uznawane za bezpieczne, są teraz w zasięgu ukraińskiej armii.Ukraińskie drony dalekiego zasięgu zaatakowały rafinerię ropy naftowej w Omsku (Omski NPZ). Jest to największy tego typu obiekt w Rosji. Do uderzenia doszło w jednostkę destylacji pierwotnej ELOU-AVT-11. Na terenie rafinerii wybuchł pożar. To pierwszy potwierdzony atak na tę instalację w trakcie całej wojny. Rafineria należy do Gazprom Nieft i ma moce przerobowe ponad 21-22 mln ton ropy rocznie. Znajduje się w zachodniej Syberii, w odległości ok. 2500-2600 km od Ukrainy (w linii prostej).Rafineria w Omsku odgrywa kluczową rolę w rosyjskim systemie przerobu ropy naftowej, odpowiadając za 8% wszystkich mocy rafineryjnych kraju. W sytuacji, gdy już 43% całkowitych rosyjskich mocy rafineryjnych zostało wyłączonych z eksploatacji, potencjalna utrata tej strategicznej instalacji stanowiłaby bardzo poważne zagrożenie, gdyż mówimy tutaj o ponad 50% mocy przerobowych kraju. Eksperci wskazują, że mogłaby znacząco pogłębić niedobory paliw, zakłócić stabilność rynku wewnętrznego oraz ograniczyć możliwości eksportowe Rosji, dodatkowo obciążając i tak już nadwyrężony sektor energetyczny.CZYTAJ DALEJ:https://geekweek.interia.pl/militaria/news-plonie-najwieksza-rafineria-w-rosji-50-mocy-przerobowych-kra,nId,23510355",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75238693",
       "author": "Obserwator",
       "postedAt": "2026-07-25 11:22",
@@ -515,6 +715,20 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75238701",
+      "author": "Nostradamus",
+      "postedAt": "2026-07-25 11:22",
+      "threadTitle": "PŁONIE NAJWIĘKSZA RAFINERIA W ROSJI \"50% MOCY PRZEROBOWYCH KRAJU\"",
+      "url": "https://www.bankier.pl/forum/temat_plonie-najwieksza-rafineria-w-rosji-50-mocy-przerobowych-kraju,75238701.html",
+      "body": "PŁONIE NAJWIĘKSZA RAFINERIA W ROSJI \"50% MOCY PRZEROBOWYCH KRAJU\"Największa rosyjska rafineria ropy naftowej w Omsku stała się celem skutecznego ataku ukraińskich dronów dalekiego zasięgu. Bezzałogowce pokonały ogromny dystans, aby precyzyjnie uderzyć w kluczową instalację przeróbczą. To wydarzenie pokazuje, że nawet obiekty na Syberii, dotychczas uznawane za bezpieczne, są teraz w zasięgu ukraińskiej armii.Ukraińskie drony dalekiego zasięgu zaatakowały rafinerię ropy naftowej w Omsku (Omski NPZ). Jest to największy tego typu obiekt w Rosji. Do uderzenia doszło w jednostkę destylacji pierwotnej ELOU-AVT-11. Na terenie rafinerii wybuchł pożar. To pierwszy potwierdzony atak na tę instalację w trakcie całej wojny. Rafineria należy do Gazprom Nieft i ma moce przerobowe ponad 21-22 mln ton ropy rocznie. Znajduje się w zachodniej Syberii, w odległości ok. 2500-2600 km od Ukrainy (w linii prostej).Rafineria w Omsku odgrywa kluczową rolę w rosyjskim systemie przerobu ropy naftowej, odpowiadając za 8% wszystkich mocy rafineryjnych kraju. W sytuacji, gdy już 43% całkowitych rosyjskich mocy rafineryjnych zostało wyłączonych z eksploatacji, potencjalna utrata tej strategicznej instalacji stanowiłaby bardzo poważne zagrożenie, gdyż mówimy tutaj o ponad 50% mocy przerobowych kraju. Eksperci wskazują, że mogłaby znacząco pogłębić niedobory paliw, zakłócić stabilność rynku wewnętrznego oraz ograniczyć możliwości eksportowe Rosji, dodatkowo obciążając i tak już nadwyrężony sektor energetyczny.CZYTAJ DALEJ:https://geekweek.interia.pl/militaria/news-plonie-najwieksza-rafineria-w-rosji-50-mocy-przerobowych-kra,nId,23510355",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
     },
     {
       "id": "75238653",
@@ -608,7 +822,7 @@
       "url": "https://www.bankier.pl/forum/temat_pkn-dzis-to-jak-ccc-po-300zl,75238505.html",
       "body": "Jak w temcie, podobna banska spekulacyjna, tu tez pojdzie dluga korekta o 50-70% ceny pytanie kiedy",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -637,7 +851,7 @@
       "body": "I więcej nie sciemniaj",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -678,11 +892,25 @@
       "url": "https://www.bankier.pl/forum/temat_wreszcie-wynaleziono-lekarstwo,75237115.html",
       "body": "Demagogu odpowiedz sobie na pytanie czy przyczyną wzrostu cen jest polityka rządu czy waszego bozka Trumpa? Nadal skandujecie jego imię?",
       "votes": {
-        "up": 5,
-        "down": 4
+        "up": 6,
+        "down": 7
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75238043",
+      "author": "mabmab",
+      "postedAt": "2026-07-25 09:43",
+      "threadTitle": "Dlaczego TK? Podatek od zysków nadwymiarowych",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-tk-podatek-od-zyskow-nadwymiarowych,75238043.html",
+      "body": "Prosta odpowiedź nie chodzi o tzw dobro Polaków ale interes polityczny rezydenta. Otóż założenie jakie przyjął jest takie ze gdyby wyrok TK byl korzystny dla rządu wówczas aby wprowadzić podatek od zysków nadwymiarowych rząd musiałby opublikować wszystkie a nie tylko to wyroki. Pułapka prymitywna a uzasadnienie decyzji to tylko ściema.",
+      "votes": {
+        "up": 1,
+        "down": 10
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "75238017",
@@ -707,7 +935,7 @@
       "body": "Proszę. Ty za to popisałeś inteligencją tak bardzo że nie zasługujesz na odpowiedź. To sprzedałeś akcję czy trzymasz i zarabiasz dzięki polityce koncernu i rządu?",
       "votes": {
         "up": 6,
-        "down": 3
+        "down": 6
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -734,7 +962,7 @@
       "url": "https://www.bankier.pl/forum/temat_wreszcie-wynaleziono-lekarstwo,75237115.html",
       "body": "Dzięki za oficjalne potwierdzenie, że czytać ze zrozumieniem nie umiesz.",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 3
       },
       "sentimentScore": 0,
@@ -748,7 +976,7 @@
       "url": "https://www.bankier.pl/forum/temat_wreszcie-wynaleziono-lekarstwo,75237115.html",
       "body": "Mówisz że platforma ubiera w akcje Orlen. Nikt tak nie umie ubrać w akcje jak platforma. Już zrobili odpisy ale o prawdziwych odpisach dowiemy się jak się zmieni władza",
       "votes": {
-        "up": 4,
+        "up": 7,
         "down": 5
       },
       "sentimentScore": 0,
@@ -763,7 +991,7 @@
       "body": "Jako wierny wyznawca Pisosyfu mam nadzieję że zachowałeś się patriotycznie i zaraz po starcie władzy przez Pisosyf sprzedałeś akcje Orlen? Czy jak każdy patus płaczesz na KO i korzystasz wreszcie z demokratycznych normalnych rządów dzięki którym GPW wreszcie odbiła od dna.",
       "votes": {
         "up": 8,
-        "down": 5
+        "down": 8
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -804,8 +1032,8 @@
       "url": "https://www.bankier.pl/forum/temat_wreszcie-wynaleziono-lekarstwo,75237115.html",
       "body": "na głupotę.!!! Podobno zacznie działać na elektorat tuska już od 15zł. za paliwo.Czym drożej, tym szybciej działa..!!! Na innych nie działa..",
       "votes": {
-        "up": 7,
-        "down": 8
+        "up": 10,
+        "down": 9
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -874,7 +1102,7 @@
       "url": "https://www.bankier.pl/forum/temat_koniec-dnia-na-plusie-jest-moc,75234355.html",
       "body": "10 zł w tydzień to jest bardzo dobry wynik",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -916,7 +1144,7 @@
       "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
       "body": "Nie byłbym taki pewny, że rozłam w PiS automatycznie będzie dużym wzmocnieniem dla Koalicji 15 października. Polityka nie działa na zasadzie prostego schematu: „PiS słabnie, więc KO zyskuje”. Wyborcy odchodzący od jednej partii nie zawsze przechodzą do jej głównego przeciwnika.Część wyborców PiS, jeśli straci zaufanie do tej partii, może szukać alternatywy po prawej stronie sceny politycznej – w Konfederacji albo w ugrupowaniu Grzegorza Brauna. Już niektóre sondaże pokazują wzrost poparcia dla partii Brauna, w części badań przekraczający 12%. Oczywiście pojedynczy sondaż nie przesądza wyniku wyborów, ale pokazuje pewien kierunek zmian.Dlatego nie ma co zbyt szybko cieszyć się z osłabienia PiS. Rozpad dużej partii może nie tylko ją osłabić, ale również wzmocnić ugrupowania bardziej radykalne. I to jest kolejny powód do ostrożności – wzrost znaczenia partii Grzegorza Brauna oznaczałby większą rolę środowiska bardzo krytycznego wobec Unii Europejskiej, które dąży do znacznego ograniczenia jej roli w Polsce, a nawet większego dystansu wobec jej struktur. Byłby to kierunek znacznie bardziej radykalny niż dotychczasowa polityka PiS.Dodatkowo, jeżeli problemy rządu, w tym sprawy dotyczące ochrony zdrowia, będą się pogłębiać i długo pozostaną w centrum uwagi opinii publicznej, może to wpłynąć na przepływ wyborców. Niezadowolenie społeczne nie zawsze trafia do największej partii opozycyjnej – często korzystają na nim mniejsze ugrupowania.Co do Mateusza Morawieckiego – jest to polityk z dużymi ambicjami przywódczymi. Warto pamiętać, że zanim wszedł do polityki, był cenionym bankowcem. W czasie rządów Donalda Tuska pojawiały się informacje, że rozważano jego kandydaturę na ministra skarbu, jednak ostatecznie tego stanowiska nie objął. Pokazuje to, że jego pozycja jako fachowca gospodarczego była dostrzegana także poza późniejszym środowiskiem PiS.Historia polityki pokazuje, że sojusze i układy potrafią się zmieniać, dlatego dziś trudno przewidzieć wszystkie ruchy. Morawiecki ma własne ambicje polityczne i wiele będzie zależało od tego, jak potoczy się sytuacja w PiS.Ostatecznie wszystko pokażą kolejne miesiące i reakcje wyborców. Rozłam w PiS może osłabić tę partię, ale nie ma gwarancji, że największym beneficjentem będzie KO. Równie dobrze mogą na tym zyskać Konfederacja lub inne ugrupowania po prawej stronie sceny politycznej.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -1210,7 +1438,7 @@
       "url": "https://www.bankier.pl/forum/temat_koniec-dnia-na-plusie-jest-moc,75234355.html",
       "body": "pewnie byłoby -5 gdyby podpisałrynek się spodziewał, że chłop normalny to nie podpisze",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1253,7 +1481,7 @@
       "body": "Sami mężowie stanu. Bosak jedyne doświadczenie zawodowe oprócz różnych funkcji politycznych. Instruktor sportów wodnych.",
       "votes": {
         "up": 0,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1267,7 +1495,7 @@
       "body": "Koalicja PIS-owskiej sitwy ewentualnie z narodowcami Bosaka bo Mentzen nie nadstawi głowy pod topór tak jak to przed laty zrobiły Samoobrona i LPR. Wróble ćwierkają, że mężem opatrznościowym patologicznej prawicy chce zostać Vetoman. Ale jego dorobek jako prezydenta PIS-u i Konfederacji to 35 zawetowanych ustaw i....to wszystko.",
       "votes": {
         "up": 1,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1281,7 +1509,7 @@
       "body": "Dewajtis będzie tym co zgasi światło XD",
       "votes": {
         "up": 1,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1323,7 +1551,7 @@
       "body": "Z kim miałby zrobić pajacu koalicję?Takie same bzdury pisałeś w 23 rokuTym bardziej że zostały już same oszołomy twardogłowe betony.No z kim",
       "votes": {
         "up": 1,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1336,7 +1564,7 @@
       "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
       "body": "Tusk ma swoje problemy i bałagan. Chwilowa awantura wokół PiS dała mu chwilę oddechu, że media chwilowo odwróciły uwagę od jego problemów. Ale na szczęście to tylko chwilowe. Nie używaj słowa \"brunatny\", bo to kojarzy się jednoznacznie z pewną ideologią rodem z Niemiec i z którą ściśle powiązana była ukraińska armia powstańcza, którą dzisiaj gloryfikuje władza w Kijowie, a na którą nie wolno na tym forum złego słowa napisać, bo zaraz ma się przypiętą łatkę ruskiej onucy.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -1364,7 +1592,7 @@
       "url": "https://www.bankier.pl/forum/temat_windfall-tax-do-kosza,75232643.html",
       "body": "Wyluzuj kolego nerwy są złym doradcą.Wbrem logice byli by dobrze gdyby ropę spadła parę $ wtedy zeszło by ciśnienie polityczne na ceny paliw.Bo znając życie gdy ten rząd chce wprowadzić prawo które działa wstecz to jest gotów do jeszcze głupszych pomysłów.Choć sam twierdzę że najbardziej prawdopodobne jest wza i zaliczkowa dywidenda za 26 w 26 .Sądząc po szacunku za 2q może to być od 5-7 mld czyli razem 12-14 mld co daje na dywidende 6-7 bo na zaliczkę może iść 50% co daje na końcu 5.5-6.5 zł na akcję płatne nawet w wrześniu",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -1462,7 +1690,7 @@
       "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
       "body": "O rany, ile tego wypełzło. Ciekaw jestem na co liczycie niedojdy tuskowe? PiS z Morawieckim coraz bardziej tracił w sondażach, bo trudno było określić czy jest prawicą czy centroprawicą. Elektorat PiS odpływał w stronę Konfederacji tej czy innej. Jak powiedział trzy dni temu Czarnek, jeśli ktoś chce opuścić PiS, niech zrobi to jak najszybciej. I dobrze się stało.Jeśli myślicie niuńki, ze PiS na tym straci to się mylicie. PiS odzyska elektorat. A Morawiecki? Życzę mu jak najlepiej, ale jeśli nie uda mu się podejść P2050 i Centrum, to tych 30, którzy z nim poszli być może w przyszłym roku przejdą do historii polityki, bo do Sejmu mogą się nie zmieścić. A PiS stał się bardziej klarowny ideologicznie i łatwiej będzie mu budować jasną patriotyczną, prawicową tożsamość. Łatwiej też będzie tworzyć prawicowe koalicje.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 3
       },
       "sentimentScore": -0.583,
@@ -1477,7 +1705,7 @@
       "body": "Popieracie, popieracie XD",
       "votes": {
         "up": 0,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1575,7 +1803,7 @@
       "body": "Nie fantazjuj bo sam siebie oszukujesz. Byli tacy, którzy wieszczyli koniec PIS-u już w 2007 kiedy PO wygrała wybory po debacie telewizyjnej, w której Donald rozjechał Jarosława jak walec. Wszyscy myślący zdroworozsądkowo i inteligentni Polacy życzą PIS-owi jak najgorzej bo życzymy jak najlepiej przyszłości Polski. Natomiast musimy pamiętać o tym, że za sitwą Kaczyńskiego stoją miliony Polaków i oni nadal będą go popierać. Rozłam w PIS-ie tego nie zmieni.",
       "votes": {
         "up": 2,
-        "down": 7
+        "down": 8
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -1645,7 +1873,7 @@
       "body": "Koniec Pisu. Kaczor ma swoje lata a Ci co zostali bedaż sie między soba bić o schedę i kolejne podziały. R.I.P Pis.",
       "votes": {
         "up": 1,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1673,7 +1901,7 @@
       "body": "15.7 jest Konfy dodajec minimum 3-5 po rozpadzie będzie 20 i 2 miejsce",
       "votes": {
         "up": 1,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1687,7 +1915,7 @@
       "body": "Nie przypelznie.kaczor jest za bardzo mściwy i pamiętliwy koniec",
       "votes": {
         "up": 2,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1715,7 +1943,7 @@
       "body": "MACO przypelznie na kolanach do Kaczynskiego. W sejmie leci Gomulka na calego co drugie slowo intryganci i Tusk. Zenada stado zaplakanych histerykow....zalosne wystapienia Semeniuk i Cieszynskiego. Ciagle powtarzaja bardzo tego zaluje...zalosni i budzacy politowanie. I dobrze . Morawiecki dzis powiedzial ze kluczem do zdobycia nowych wyborcow jest GRILL! Polacy ich glosy za grilla. Obsesja na punkcie Tuska chorobliwa.",
       "votes": {
         "up": 0,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
@@ -1729,7 +1957,7 @@
       "body": "To dopiero początek",
       "votes": {
         "up": 1,
-        "down": 6
+        "down": 7
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1771,7 +1999,7 @@
       "body": "Kto zleci z podium? Nie fantazjuj bo będziesz rozczarowany. PIS zostanie na drugim miejscu tylko zamiast 22-23% poparcia będzie miał około 17%. Ale każde osłabienie sitwy Kaczyńskiego jest korzystne pod kątem wyborów 2027. Teraz to Morawiecki będzie miał bardzo trudny okres. Przed nim i politykami, którzy go poparli ciężka i wyczerpująca harówka w budowaniu partii. To bardzo trudne zadanie bo najpierw trzeba utworzyć ogólnopolską partię i jej regionalne struktury a następnie rozwinąć wielką kampanię wyborczą, żeby jesienią 2027 mieć poparcie min. 10%.",
       "votes": {
         "up": 3,
-        "down": 7
+        "down": 8
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -1827,7 +2055,7 @@
       "body": "W najbliższym sondażu zleca z podium tam gdzie ich miejsce.brawo 2 miejsce Konfa brawo my",
       "votes": {
         "up": 4,
-        "down": 8
+        "down": 9
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1869,7 +2097,7 @@
       "body": "Każdy tego typu bajzel w PIS-ie jest korzystny dla Koalicji 15 października pod kątem przyszłorocznych wyborów. Chociaż patrząc na to chłodnym okiem to zamiast jednej partii będą dwie PIS Kaczyńskiego i PIS Morawieckiego. Różnic programowych nie ma żadnych. To przecież rząd premiera Morawieckiego przez wiele lat prowadził szkodliwą, antyunijną politykę. Było to oczywiście pod nadzorem Kaczyńskiego, który decydował o wszystkim jako superpremier i naczelnik państwa.",
       "votes": {
         "up": 9,
-        "down": 8
+        "down": 9
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1897,7 +2125,7 @@
       "body": "Stuprocentowa racjai precyzyjne punktuje tę retorykę – zrzucanie winy na młodych ludzi, że „dali się omamić”, było jednym z najbardziej jaskrawych przykładów unikania odpowiedzialności przez kierownictwo PiS po 2023 roku. Zamiast głębokiej autorefleksji, dlaczego partia straciła kontakt z młodym pokoleniem, wybrano najwygodniejsze tłumaczenie: „to nie nasza wina, to oni zostali zmanipulowani”.Dzisiejszy rozłam to bezpośrednia konsekwencja takiego podejścia. Jeśli partia przez blisko trzy lata rozlicza się w ten sposób, to musiało doprowadzić do katastrofy z kilku kluczowych powodów:Skutki „rozliczania winnych na zewnątrz”Polityczna ślepota i brak wyciągania wniosków: Uznanie, że młodzi wyborcy odeszli tylko dlatego, że zostali „omamieni” przez internet czy opozycję, zablokowało jakąkolwiek próbę zmiany języka i programu. Partia uznała, że nie musi nic w sobie zmieniać.Bunt wewnętrzny (reakcja Morawieckiego): Frakcja Mateusza Morawieckiego doskonale widziała, że z taką narracją partia staje się formacją schyłkową, która na stałe traci najmłodsze i średnie pokolenie Polaków. Stowarzyszenie „Rozwój Plus” powstało właśnie z buntu wobec tej bezradności – jako próba szukania nowego języka do ludzi, których Nowogrodzka po prostu skreśliła.Gnicie struktur od środka: Kiedy przez trzy lata zamiast realnej strategii posłowie słyszeli tylko, że winna jest zagranica, media i „omamiona” młodzież, w wielu z nich pękła resztka lojalności. Zrozumieli, że z kierownictwem żyjącym w oblężonej twierdzy nie da się wygrać kolejnych wyborów.Dzisiejszy podział i odejście ponad trzydziestu posłów to ostateczny rachunek za te trzy lata udawania, że problem leży wszędzie, tylko nie we własnych błędach.",
       "votes": {
         "up": 5,
-        "down": 9
+        "down": 10
       },
       "sentimentScore": -0.931,
       "sentimentLabel": "Negative"
@@ -1924,8 +2152,8 @@
       "url": "https://www.bankier.pl/forum/temat_pinokio-i-40-poslow-wyrzucona-z-pis,75230727.html",
       "body": "To koniec ❤️",
       "votes": {
-        "up": 10,
-        "down": 12
+        "up": 11,
+        "down": 13
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -2038,6 +2266,20 @@
       "votes": {
         "up": 0,
         "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75229129",
+      "author": "Pisułar",
+      "postedAt": "2026-07-24 10:12",
+      "threadTitle": "Re: Dwie partie PIS...to jednak więcej niż jedna..!!",
+      "url": "https://www.bankier.pl/forum/temat_dwie-partie-pis-to-jednak-wiecej-niz-jedna,75210191.html",
+      "body": "Zaklinaczy rzeczywistości nie brakuje XD",
+      "votes": {
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2290,6 +2532,34 @@
       "votes": {
         "up": 1,
         "down": 6
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75226687",
+      "author": "mezen",
+      "postedAt": "2026-07-24 00:37",
+      "threadTitle": "Re: Dla przypomnienia, spółka spekulacyjna",
+      "url": "https://www.bankier.pl/forum/temat_dla-przypomnienia-spolka-spekulacyjna,75226637.html",
+      "body": "rycz mała rycz",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75226637",
+      "author": "Rycz",
+      "postedAt": "2026-07-23 23:59",
+      "threadTitle": "Dla przypomnienia, spółka spekulacyjna",
+      "url": "https://www.bankier.pl/forum/temat_dla-przypomnienia-spolka-spekulacyjna,75226637.html",
+      "body": "Żeby ktoś się nie pomylił",
+      "votes": {
+        "up": 0,
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2612,286 +2882,6 @@
       "votes": {
         "up": 7,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75217507",
-      "author": "PiSosyf",
-      "postedAt": "2026-07-23 10:16",
-      "threadTitle": "Re: Ponownie knują cichaczem",
-      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75211857.html",
-      "body": "Onuca nadaje. Uwaga propaganda morderców.",
-      "votes": {
-        "up": 1,
-        "down": 9
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75217323",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-23 10:05",
-      "threadTitle": "Re: Ponownie knują cichaczem",
-      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75211857.html",
-      "body": "Nue zauważyłem, faktycznie 31 łapek w tak krótkim czasie na tym forum mógł sobie postawić tylko autor wpisu.",
-      "votes": {
-        "up": 10,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75217291",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-23 10:03",
-      "threadTitle": "Re: Ponownie knują cichaczem",
-      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75211857.html",
-      "body": ">Dziwne ze ja nie zylem wsrod ormowcow...<<Bo zapewne wtedy mamusia nie miała cię jeszcze w planach lub byłeś jeszcze zbyt młody, byś to zauważał.Ja pracowałem w dużej firmie, gdzie w każdym z oddziałów było co najmniej kilku ormowców. Jedni jawnie się z tym obnosili, inni kryli się z tym, ale podczas pewnej akcji sabotażu do jakiego doszło w firmie, wszyscy ormowcy zostali zmobilizowani, by wraz z ochroną pilnować wrażliwych punktów infrastruktury zakładowej wszyscy się ujawnili. Przed sabotażem nigdy bym się nie domyślił, że aż tyle osób było kapusiami.",
-      "votes": {
-        "up": 10,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75216039",
-      "author": "Kasztan",
-      "postedAt": "2026-07-23 08:47",
-      "threadTitle": "Re: Ponownie knują cichaczem",
-      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75211857.html",
-      "body": "Tą piękną manipulacją z ilością łapek wracacie do komentarzy pod artykułami na wp.pl w latach przed upadkiem rządu Donalda T. Aż się łezka w oku kręci, bo ten wskaźnik pokazuje panikę rządzących, chyba trzeba się szykować na stan wojenny, bo władzy nie oddadzą w inny sposób. Ponure czasy PRL bis wracają.",
-      "votes": {
-        "up": 11,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75215365",
-      "author": "mabmab",
-      "postedAt": "2026-07-23 07:34",
-      "threadTitle": "Re: Ponownie knują cichaczem",
-      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75211857.html",
-      "body": "Dzieki za taki coming out! Dziwne ze ja nie zylem wsrod ormowcow...no ale juz wiadomo wsrod kogo sie obracales. I czym skorupka na molodosc nasiaka tym na starosc traci",
-      "votes": {
-        "up": 31,
-        "down": 11
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75214465",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-22 22:12",
-      "threadTitle": "Re: Ponownie knują cichaczem",
-      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75211857.html",
-      "body": "Gdy się długie lata żyło w tamtych czasach pośród ormowców, to się wie jak wyglądał beret ormowca.",
-      "votes": {
-        "up": 93,
-        "down": 61
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75214105",
-      "author": "mabmab",
-      "postedAt": "2026-07-22 21:21",
-      "threadTitle": "Re: Ponownie knują cichaczem",
-      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75211857.html",
-      "body": "Znawca beretow ORMO.Brawo! Ale wczoraj usłyszałem coś wspaniałego zdaniem Szrota to co się dzieje w PiS to intryga Tuska . Ma moc ten Tusk!",
-      "votes": {
-        "up": 27,
-        "down": 53
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75213297",
-      "author": "Dewajtis",
-      "postedAt": "2026-07-22 19:18",
-      "threadTitle": "Re: Ponownie knują cichaczem",
-      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75211857.html",
-      "body": "Ooo, a teraz Onet stał się ruską onucą. Ja.ja jak berety ormowskie.https://wiadomosci.onet.pl/swiat/tajne-spotkanie-przedstawicieli-rosji-i-niemiec-bez-naszej-wiedzy/dtsshxd",
-      "votes": {
-        "up": 132,
-        "down": 103
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75212281",
-      "author": "PiSosyf",
-      "postedAt": "2026-07-22 17:25",
-      "threadTitle": "Re: Ponownie knują cichaczem",
-      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75211857.html",
-      "body": "Uwaga ruska onuca",
-      "votes": {
-        "up": 32,
-        "down": 19
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75211857",
-      "author": "(usunięty)",
-      "postedAt": "2026-07-22 16:57",
-      "threadTitle": "(wiadomość usunięta przez moderatora)",
-      "url": "https://www.bankier.pl/forum/temat_wiadomosc-usunieta-przez-moderatora,75211857.html",
-      "body": "(wiadomość usunięta przez moderatora)",
-      "votes": {
-        "up": 29,
-        "down": 102
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75203285",
-      "author": "Finansista",
-      "postedAt": "2026-07-22 02:59",
-      "threadTitle": "Buczek z Edlinersem sprzedali milionerom tera wyjom hee",
-      "url": "https://www.bankier.pl/forum/temat_buczek-z-edlinersem-sprzedali-milionerom-tera-wyjom-hee,73230071.html",
-      "body": "Nie ladnie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75202991",
-      "author": "Nocwilka",
-      "postedAt": "2026-07-22 00:02",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Gościu ty nie umiesz odpowiadać na argumenty Tusk nas zniszczy",
-      "votes": {
-        "up": 8,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75202881",
-      "author": "Bo_są_Głąby",
-      "postedAt": "2026-07-21 23:40",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "...\"Gdyby nie internet nigdy bym nie wiedział ...ilu.....jest dookoła\"...a wystarczyło poskładać kropki do kupy razem z nickiem........ale nie z takim IQ jak wy..",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75202807",
-      "author": "Jkk",
-      "postedAt": "2026-07-21 23:18",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Bo ich na stać he he",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75191683",
-      "author": "Kotprezesa",
-      "postedAt": "2026-07-21 08:52",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Pis wydoił na 120 miliardów",
-      "votes": {
-        "up": 8,
-        "down": 9
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75191561",
-      "author": "Nowy",
-      "postedAt": "2026-07-21 08:44",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Za to że latałeś na kocie",
-      "votes": {
-        "up": 2,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75191501",
-      "author": "Hillela",
-      "postedAt": "2026-07-21 08:38",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Taka prawda latałem z pałą po ulicy mam emeryturę 8 tys na kocie ha ha",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75191233",
-      "author": "endrzej",
-      "postedAt": "2026-07-21 08:02",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Takie bajery to Republika.Prawda jest takaDyferencjał Ural/Brent (Tania rosyjska ropa)Rabat na ropę ze Wschodu: Ze względu na sankcje i niechęć zachodnich rynków do zakupu rosyjskiej ropy typu Urals, jej cena drastycznie spadła w stosunku do benchmarkowej ropy Brent. Różnica ta (tzw. dyferencjał) wynosiła w 2022 roku momentami od 30 do ponad 40 dolarów na baryłce.Podwójny zysk: Orlen realizował w 2022 roku długoterminowe kontrakty na dostawy rurociągowe rosyjskiej ropy. Kupował więc surowiec bardzo tanio (z gigantycznym rabatem wynikającym z dyferencjału), a gotowe produkty (benzynę i diesel) sprzedawał po rekordowo wysokich cenach giełdowych dyktowanych przez europejskie rynki.PodsumowanieOrlen \"sztucznie podnosił\" marże, lecz wykorzystał sprzyjające, choć nadzwyczajne uwarunkowania makroekonomiczne. Połączenie taniego surowca ze Wschodu z bardzo drogim produktem końcowym na Zachodzie automatycznie wygenerowało rekordową marżę rafineryjną, która stała się głównym źródłem miliardowych zysków koncernu w 2022 roku.",
-      "votes": {
-        "up": 14,
-        "down": 12
-      },
-      "sentimentScore": 0.964,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75191229",
-      "author": "Xx",
-      "postedAt": "2026-07-21 08:02",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Powiedział to w czasie wojny w Iranie tłuku o IQ kału?PSKiedy do syfu gminnego dojdzie, że NIE STAWIAMY SPACJI PRZED ZNAKAMI INTERPUNKCYJNYMI?!",
-      "votes": {
-        "up": 6,
-        "down": 11
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75191051",
-      "author": "PiSosyf",
-      "postedAt": "2026-07-21 07:26",
-      "threadTitle": "Re: Dlaczego wyborcy PO lubią drogie paliwa..??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-wyborcy-po-lubia-drogie-paliwa,75180753.html",
-      "body": "Robisz na ruskie",
-      "votes": {
-        "up": 4,
-        "down": 11
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
