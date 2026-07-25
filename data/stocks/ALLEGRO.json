@@ -3,11 +3,11 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-07-25T03:35:37.464Z",
+  "updatedAt": "2026-07-25T08:23:12.502Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-25T03:35:37.464Z",
+    "fetchedAt": "2026-07-25T08:23:12.502Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.019,
-    "confidence": 0.71,
-    "commentCount": 92,
+    "score": 0.005,
+    "confidence": 0.7,
+    "commentCount": 94,
     "breakdown": {
       "positive": 28,
-      "negative": 28,
+      "negative": 30,
       "neutral": 36
     },
     "trend": [
@@ -58,14 +58,19 @@
         "date": "2026-07-24",
         "score": -0.213,
         "count": 10
+      },
+      {
+        "date": "2026-07-25",
+        "score": -0.322,
+        "count": 2
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 92 komentarzy z ostatnich 7 dni: nastroje mieszane (28 pozytywnych, 28 negatywnych, 36 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 94 komentarzy z ostatnich 7 dni: nastroje mieszane (28 pozytywnych, 30 negatywnych, 36 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "allegro",
-        "count": 26
+        "count": 27
       },
       {
         "word": "towar",
@@ -107,6 +112,34 @@
   },
   "comments": [
     {
+      "id": "75237919",
+      "author": "Wald",
+      "postedAt": "2026-07-25 09:28",
+      "threadTitle": "Re: Bedą spadki",
+      "url": "https://www.bankier.pl/forum/temat_beda-spadki,75204151.html",
+      "body": "Do oporu powininen dociągnąć czyli ok. 50zl a co dalej zobaczymy..",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75237811",
+      "author": "Olo",
+      "postedAt": "2026-07-25 09:10",
+      "threadTitle": "Re: Bedą spadki",
+      "url": "https://www.bankier.pl/forum/temat_beda-spadki,75204151.html",
+      "body": "Allegro będzie potęgą....Zresztą już jest.... Ale będzie jeszcze większy...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75235151",
       "author": "Jola",
       "postedAt": "2026-07-24 18:02",
@@ -114,7 +147,7 @@
       "url": "https://www.bankier.pl/forum/temat_uff-etatowi-naganiacze-ida-na-weekend,75235151.html",
       "body": "Dwa dni spokoju, bez wpisów typu \"będzie 60\", \"idzie na 100\", \"spóła ma moc\"... i tak od kilku lat...",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 2
       },
       "sentimentScore": 0,
@@ -226,7 +259,7 @@
       "url": "https://www.bankier.pl/forum/temat_dla-zagubionych,75224339.html",
       "body": "Trole uciekajcie bo idzie na 50zl+Nikt taniej o zdrowym umyśle nie odda",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -394,7 +427,7 @@
       "url": "https://www.bankier.pl/forum/temat_trole,75215093.html",
       "body": "Wy trole naprawdę myślicie, że wasze wpisy cokolwiek zmienią? 10 złoty temu nikogo nie było na tym forum, a teraz trolownia zapowiada spadki podczas, gdy kurs zmierza tylko i wyłącznie na północ.",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -563,7 +596,7 @@
       "body": "Ostatni moment.",
       "votes": {
         "up": 5,
-        "down": 10
+        "down": 11
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
