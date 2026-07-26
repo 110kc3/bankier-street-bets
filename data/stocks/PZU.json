@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-07-26T03:56:28.187Z",
+  "updatedAt": "2026-07-26T08:40:45.890Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-26T03:56:28.187Z",
+    "fetchedAt": "2026-07-26T08:40:45.890Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,7 +15,7 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.025,
+    "score": 0.017,
     "confidence": 0.71,
     "commentCount": 80,
     "breakdown": {
@@ -26,8 +26,8 @@
     "trend": [
       {
         "date": "2026-07-19",
-        "score": -0.217,
-        "count": 5
+        "score": -0.107,
+        "count": 3
       },
       {
         "date": "2026-07-20",
@@ -61,27 +61,31 @@
       },
       {
         "date": "2026-07-26",
-        "score": -0.762,
-        "count": 1
+        "score": -0.361,
+        "count": 3
       }
     ],
     "trendDirection": "deteriorating",
     "summary": "Analiza 80 komentarzy z ostatnich 7 dni: nastroje mieszane (22 pozytywnych, 16 negatywnych, 42 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
+        "word": "dobrze",
+        "count": 7
+      },
+      {
         "word": "https",
         "count": 6
       },
       {
-        "word": "dobrze",
-        "count": 6
+        "word": "taka",
+        "count": 4
       },
       {
-        "word": "stop",
+        "word": "dzis",
         "count": 3
       },
       {
-        "word": "taka",
+        "word": "stop",
         "count": 3
       },
       {
@@ -103,14 +107,38 @@
       {
         "word": "dywidenda",
         "count": 3
-      },
-      {
-        "word": "zeby",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75241855",
+      "author": "Ronald",
+      "postedAt": "2026-07-26 08:45",
+      "threadTitle": "Re: piszący o ATH dla PZU - max dla okresu 20Y",
+      "url": "https://www.bankier.pl/forum/temat_piszacy-o-ath-dla-pzu-max-dla-okresu-20y,75216881.html",
+      "body": "Dobrze się czujesz?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75241625",
+      "author": "mabmab",
+      "postedAt": "2026-07-26 07:02",
+      "threadTitle": "Re: Oficjalny kit dla mas i realna inflacja pod /cashofarianin",
+      "url": "https://www.bankier.pl/forum/temat_oficjalny-kit-dla-mas-i-realna-inflacja-pod-dywanem,75227209.html",
+      "body": "cash rules! taka zasada na dziś to podstawa... jeśłi będzie jakiś zdecydowany ruch to przed sierpniem.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75241457",
       "author": "Cashofarianin",
@@ -1201,34 +1229,6 @@
         "down": 0
       },
       "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75176113",
-      "author": "YouEsEj",
-      "postedAt": "2026-07-19 10:02",
-      "threadTitle": "Re: BlackRock aktywa 15,2 bln USD",
-      "url": "https://www.bankier.pl/forum/temat_blackrock-aktywa-15-2-bln-usd,75140479.html",
-      "body": "Ogromne potoki kapitału płyną na rynek z TFI PPK plus zagranica",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75175823",
-      "author": "Lo21",
-      "postedAt": "2026-07-19 09:03",
-      "threadTitle": "Cz spadnie do 66?",
-      "url": "https://www.bankier.pl/forum/temat_cz-spadnie-do-66,75175823.html",
-      "body": "Wojna w Iranie dowali.Spółdzielnia zrobi znowu kółko. Pytanie do ilu w dół?",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
     }
   ]
