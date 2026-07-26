@@ -3,11 +3,11 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-26T08:40:40.648Z",
+  "updatedAt": "2026-07-26T13:56:43.152Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-26T08:40:40.648Z",
+    "fetchedAt": "2026-07-26T13:56:43.152Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,11 +15,11 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.089,
-    "confidence": 0.63,
-    "commentCount": 45,
+    "score": 0.103,
+    "confidence": 0.64,
+    "commentCount": 46,
     "breakdown": {
-      "positive": 12,
+      "positive": 13,
       "negative": 6,
       "neutral": 27
     },
@@ -108,10 +108,15 @@
         "date": "2026-07-23",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-07-26",
+        "score": 0.322,
+        "count": 1
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 45 komentarzy z ostatnich 30 dni: nastroje mieszane (12 pozytywnych, 6 negatywnych, 27 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 46 komentarzy z ostatnich 30 dni: nastroje pozytywne (13 pozytywnych, 6 negatywnych, 27 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "podatku",
@@ -134,6 +139,10 @@
         "count": 3
       },
       {
+        "word": "dywidendy",
+        "count": 2
+      },
+      {
         "word": "banku",
         "count": 2
       },
@@ -148,14 +157,24 @@
       {
         "word": "dywidende",
         "count": 2
-      },
-      {
-        "word": "netto",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75242999",
+      "author": "Robek",
+      "postedAt": "2026-07-26 13:08",
+      "threadTitle": "Re: news",
+      "url": "https://www.bankier.pl/forum/temat_news,75202475.html",
+      "body": "To teraz do dywidendy będzie rosło.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75221489",
       "author": "Analityk",
@@ -388,7 +407,7 @@
       "url": "https://www.bankier.pl/forum/temat_5-sierpnia-2026,75095731.html",
       "body": "3-go powinien być max.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
