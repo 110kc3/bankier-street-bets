@@ -3,23 +3,23 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-07-26T13:56:07.477Z",
+  "updatedAt": "2026-07-26T19:34:32.558Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-26T13:56:07.477Z",
+    "fetchedAt": "2026-07-26T19:34:32.558Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 6
+    "threadsScanned": 7
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.009,
-    "confidence": 0.59,
-    "commentCount": 43,
+    "score": 0.06,
+    "confidence": 0.62,
+    "commentCount": 45,
     "breakdown": {
-      "positive": 10,
+      "positive": 12,
       "negative": 10,
       "neutral": 23
     },
@@ -48,10 +48,15 @@
         "date": "2026-07-24",
         "score": 0,
         "count": 9
+      },
+      {
+        "date": "2026-07-26",
+        "score": 0.583,
+        "count": 2
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 43 komentarzy z ostatnich 7 dni: nastroje mieszane (10 pozytywnych, 10 negatywnych, 23 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 45 komentarzy z ostatnich 7 dni: nastroje mieszane (12 pozytywnych, 10 negatywnych, 23 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wrona",
@@ -96,6 +101,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75244897",
+      "author": "XD",
+      "postedAt": "2026-07-26 21:15",
+      "threadTitle": "Re: TFI Quercus S.A.",
+      "url": "https://www.bankier.pl/forum/temat_tfi-quercus-s-a,75244045.html",
+      "body": "Ci co kupuja nie czekaja na 380. Wrony, wiewiory, bob-ki i owszem, bo im wszystko jedno, skoro i tak nie maja nawet na 1 akcje. To takie forumowe wkrwiacze.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75244045",
+      "author": "maxximm",
+      "postedAt": "2026-07-26 17:31",
+      "threadTitle": "TFI Quercus S.A.",
+      "url": "https://www.bankier.pl/forum/temat_tfi-quercus-s-a,75244045.html",
+      "body": "TFI dokupił niecałe 35 000 akcji . czekamy.. na 380 zł ? nie wydaje mi się",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75236205",
       "author": "ŁorlenBuffet",
