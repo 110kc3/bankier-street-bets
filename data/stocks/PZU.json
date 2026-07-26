@@ -3,31 +3,31 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-07-25T19:36:15.485Z",
+  "updatedAt": "2026-07-26T03:56:28.187Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-25T19:36:15.485Z",
+    "fetchedAt": "2026-07-26T03:56:28.187Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 22
+    "threadsScanned": 21
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.047,
-    "confidence": 0.72,
+    "score": 0.025,
+    "confidence": 0.71,
     "commentCount": 80,
     "breakdown": {
       "positive": 22,
-      "negative": 15,
-      "neutral": 43
+      "negative": 16,
+      "neutral": 42
     },
     "trend": [
       {
         "date": "2026-07-19",
-        "score": -0.181,
-        "count": 6
+        "score": -0.217,
+        "count": 5
       },
       {
         "date": "2026-07-20",
@@ -58,18 +58,27 @@
         "date": "2026-07-25",
         "score": 0.322,
         "count": 1
+      },
+      {
+        "date": "2026-07-26",
+        "score": -0.762,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 80 komentarzy z ostatnich 7 dni: nastroje mieszane (22 pozytywnych, 15 negatywnych, 43 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 80 komentarzy z ostatnich 7 dni: nastroje mieszane (22 pozytywnych, 16 negatywnych, 42 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
-        "count": 7
+        "count": 6
       },
       {
         "word": "dobrze",
         "count": 6
+      },
+      {
+        "word": "stop",
+        "count": 3
       },
       {
         "word": "taka",
@@ -98,14 +107,24 @@
       {
         "word": "zeby",
         "count": 3
-      },
-      {
-        "word": "duzo",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75241457",
+      "author": "Cashofarianin",
+      "postedAt": "2026-07-26 00:46",
+      "threadTitle": "Re: Oficjalny kit dla mas i realna inflacja pod dywanem/truestory",
+      "url": "https://www.bankier.pl/forum/temat_oficjalny-kit-dla-mas-i-realna-inflacja-pod-dywanem,75227209.html",
+      "body": "Paniczne ruchy podczas krachów czy napięć geopolitycznych, jak konflikt z Iranem, to główny powód, dla którego kapitał ucieka od kurczaków do rentierów. Elita traktuje zwały nie jako zagrożenie, ale jako transfer majątku, następuje aktywacja rezerw gotówkowych i skupowanie wartościowych aktywów. Zwała na balonach AI i podwyżki stóp procentowych automatycznie uruchamiają potężną rotację kapitału do sektora Value oraz firm ubezpieczeniowych. Jestem znudzony...czekam na zwałe w cashu...w poniedziałek chyba nie doczekam bo żaba wchodzi tutaj.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75238547",
       "author": "Azatem",
@@ -1211,20 +1230,6 @@
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75175545",
-      "author": "spokojnie",
-      "postedAt": "2026-07-19 04:02",
-      "threadTitle": "Re: Czy Trump nakaże przejęcie PZU...",
-      "url": "https://www.bankier.pl/forum/temat_czy-trump-nakaze-przejecie-pzu,75157233.html",
-      "body": "https://www.youtube.com/watch?v=oxSwWc3v1DU&list=RDoxSwWc3v1DU&index=1 i rozwiniecie : https://suno.com/song/572c6de2-7f90-44a3-86e4-3811e3e26e49",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
