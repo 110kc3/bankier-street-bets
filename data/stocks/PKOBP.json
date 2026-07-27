@@ -3,11 +3,11 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-26T19:35:16.925Z",
+  "updatedAt": "2026-07-27T04:04:13.454Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-26T19:35:16.925Z",
+    "fetchedAt": "2026-07-27T04:04:13.454Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,11 +15,11 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.103,
-    "confidence": 0.64,
-    "commentCount": 46,
+    "score": 0.139,
+    "confidence": 0.66,
+    "commentCount": 47,
     "breakdown": {
-      "positive": 13,
+      "positive": 14,
       "negative": 6,
       "neutral": 27
     },
@@ -111,16 +111,28 @@
       },
       {
         "date": "2026-07-26",
-        "score": 0.322,
-        "count": 1
+        "score": 0.542,
+        "count": 2
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 46 komentarzy z ostatnich 30 dni: nastroje pozytywne (13 pozytywnych, 6 negatywnych, 27 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 47 komentarzy z ostatnich 30 dni: nastroje pozytywne (14 pozytywnych, 6 negatywnych, 27 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "podatku",
         "count": 4
+      },
+      {
+        "word": "banki",
+        "count": 3
+      },
+      {
+        "word": "nadal",
+        "count": 3
+      },
+      {
+        "word": "zyskow",
+        "count": 3
       },
       {
         "word": "poniewaz",
@@ -145,22 +157,24 @@
       {
         "word": "banku",
         "count": 2
-      },
-      {
-        "word": "oznacza",
-        "count": 2
-      },
-      {
-        "word": "banki",
-        "count": 2
-      },
-      {
-        "word": "dywidende",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75245269",
+      "author": "Verso",
+      "postedAt": "2026-07-26 22:36",
+      "threadTitle": "Re: news",
+      "url": "https://www.bankier.pl/forum/temat_news,75202475.html",
+      "body": "Ktoś kupuje te ilosci. Kto?Banki mają nadal doskonaly model generowania zysków w PL. Ostatnie kwartały to pokazały",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75242999",
       "author": "Robek",
@@ -268,7 +282,7 @@
       "body": "Zyski wszystkich banków beda nizsze z tego powodu. Jaka jest stawka podatku od nadmiarowych zysków? Pomysł co napisałeś.",
       "votes": {
         "up": 0,
-        "down": 6
+        "down": 7
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"

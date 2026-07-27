@@ -3,11 +3,11 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-07-26T19:34:32.558Z",
+  "updatedAt": "2026-07-27T04:03:29.721Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-26T19:34:32.558Z",
+    "fetchedAt": "2026-07-27T04:03:29.721Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.06,
-    "confidence": 0.62,
-    "commentCount": 45,
+    "score": 0.086,
+    "confidence": 0.64,
+    "commentCount": 47,
     "breakdown": {
-      "positive": 12,
+      "positive": 13,
       "negative": 10,
-      "neutral": 23
+      "neutral": 24
     },
     "trend": [
       {
@@ -52,11 +52,16 @@
       {
         "date": "2026-07-26",
         "score": 0.583,
-        "count": 2
+        "count": 3
+      },
+      {
+        "date": "2026-07-27",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 45 komentarzy z ostatnich 7 dni: nastroje mieszane (12 pozytywnych, 10 negatywnych, 23 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 47 komentarzy z ostatnich 7 dni: nastroje mieszane (13 pozytywnych, 10 negatywnych, 24 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wrona",
@@ -65,6 +70,10 @@
       {
         "word": "masz",
         "count": 8
+      },
+      {
+        "word": "widac",
+        "count": 4
       },
       {
         "word": "czekam",
@@ -79,6 +88,10 @@
         "count": 4
       },
       {
+        "word": "srednia",
+        "count": 3
+      },
+      {
         "word": "info",
         "count": 3
       },
@@ -89,18 +102,38 @@
       {
         "word": "niebawem",
         "count": 3
-      },
-      {
-        "word": "kupilem",
-        "count": 3
-      },
-      {
-        "word": "kupie",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75245517",
+      "author": "123",
+      "postedAt": "2026-07-27 00:27",
+      "threadTitle": "Re: TFI Quercus S.A.",
+      "url": "https://www.bankier.pl/forum/temat_tfi-quercus-s-a,75244045.html",
+      "body": "skąd te dane - pytam gdyż w danych o zmianach w akcjonaricie na stooq.pl nie widać tego.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75244995",
+      "author": "XD",
+      "postedAt": "2026-07-26 21:35",
+      "threadTitle": "Re: TFI Quercus S.A.",
+      "url": "https://www.bankier.pl/forum/temat_tfi-quercus-s-a,75244045.html",
+      "body": "W dodatku quercus dokupil ze srednia ok. 422 zl, tfi pekao dolozylo 9.500 szt, tfi uniqua prawie 2 tys sztuk. Pewnie nie lubia wrony i tych szukajacych sensacji w sprzedazy pakieciku menedzerskiego. No, to bierzemy popcorn i obserwujemy",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75244897",
       "author": "XD",
@@ -109,7 +142,7 @@
       "url": "https://www.bankier.pl/forum/temat_tfi-quercus-s-a,75244045.html",
       "body": "Ci co kupuja nie czekaja na 380. Wrony, wiewiory, bob-ki i owszem, bo im wszystko jedno, skoro i tak nie maja nawet na 1 akcje. To takie forumowe wkrwiacze.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -123,7 +156,7 @@
       "url": "https://www.bankier.pl/forum/temat_tfi-quercus-s-a,75244045.html",
       "body": "TFI dokupił niecałe 35 000 akcji . czekamy.. na 380 zł ? nie wydaje mi się",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -151,7 +184,7 @@
       "url": "https://www.bankier.pl/forum/temat_przeciek-info-poufnych,75230871.html",
       "body": "Cdr też podobnie obleciał, jaka tam teorię spiskową wymyślisz?",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -165,7 +198,7 @@
       "url": "https://www.bankier.pl/forum/temat_przeciek-info-poufnych,75230871.html",
       "body": "Info bylo wczoraj tylko trzeba umiec czyrac, czego ty nie umiesz zygi. I jeszcze ta bzdura z telefonem do RI. Buhahahaha. Alez tu zasianek siedzi na forum.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -193,7 +226,7 @@
       "url": "https://www.bankier.pl/forum/temat_przeciek-info-poufnych,75230871.html",
       "body": "https://www.bankier.pl/wiadomosc/KRUK-S-A-Informacja-o-transakcjach-uzyskana-w-trybie-art-19-MAR-9172470.htmlskad wy sie bierzecie?",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -207,7 +240,7 @@
       "url": "https://www.bankier.pl/forum/temat_przeciek-info-poufnych,75230871.html",
       "body": "Jakie info poufne. Espi bylo. Nie siej zametu. 5000 akcji sprzedal po 419 srednia. Zwykle akcje menedzerskie, ktore dostaja w kruku. Nie pierwszy i nie ostatni raz. 22.07 przemielilo sie 28000 akcji, wiec te 5000 to pikus. 23.07 caly rynek spadal. Ogarniasz? Wyjasnilem ci? To przestan siac zamet.",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -222,7 +255,7 @@
       "body": "22 07 czl zarzadu sprzedaje 23 07 od rana kurs sie wali ponad 3 % bez powodow 24 info o sprzedazy przez czlonka zarzadu wyciek info murowany dzwonilem do relacji inwestorskich nikt nie odbiera i nie oddzwania zeby wyjasnic sprawe Co wy na to ? Moze ktos ma wyjasnienie tej sytuacji bo ja nie",
       "votes": {
         "up": 0,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"

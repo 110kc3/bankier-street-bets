@@ -3,11 +3,11 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-07-26T19:33:56.204Z",
+  "updatedAt": "2026-07-27T04:02:48.739Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-26T19:33:56.204Z",
+    "fetchedAt": "2026-07-27T04:02:48.739Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.063,
-    "confidence": 0.72,
+    "score": 0.043,
+    "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 59,
-      "negative": 34,
+      "positive": 55,
+      "negative": 38,
       "neutral": 107
     },
     "trend": [
       {
-        "date": "2026-07-20",
-        "score": 0,
-        "count": 2
-      },
-      {
         "date": "2026-07-21",
-        "score": 0.186,
-        "count": 14
+        "score": 0.099,
+        "count": 11
       },
       {
         "date": "2026-07-22",
@@ -46,8 +41,8 @@
       },
       {
         "date": "2026-07-24",
-        "score": 0.115,
-        "count": 74
+        "score": 0.109,
+        "count": 72
       },
       {
         "date": "2026-07-25",
@@ -56,12 +51,17 @@
       },
       {
         "date": "2026-07-26",
-        "score": -0.03,
-        "count": 32
+        "score": -0.062,
+        "count": 38
+      },
+      {
+        "date": "2026-07-27",
+        "score": -0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (59 pozytywnych, 34 negatywnych, 107 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (55 pozytywnych, 38 negatywnych, 107 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
@@ -70,6 +70,10 @@
       {
         "word": "koniec",
         "count": 11
+      },
+      {
+        "word": "zabka",
+        "count": 10
       },
       {
         "word": "mnie",
@@ -81,10 +85,6 @@
       },
       {
         "word": "zabki",
-        "count": 9
-      },
-      {
-        "word": "zabka",
         "count": 9
       },
       {
@@ -100,12 +100,110 @@
         "count": 8
       },
       {
-        "word": "https",
-        "count": 8
+        "word": "poniedzialek",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75245729",
+      "author": "Magellan",
+      "postedAt": "2026-07-27 05:58",
+      "threadTitle": "Re: Czy sprzedac z stratą i kupić Orlen",
+      "url": "https://www.bankier.pl/forum/temat_czy-sprzedac-z-strata-i-kupic-orlen,75245033.html",
+      "body": "Ja tam widzę -5 na topie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75245453",
+      "author": "Aa",
+      "postedAt": "2026-07-26 23:41",
+      "threadTitle": "Re: Czy sprzedac z stratą i kupić Orlen",
+      "url": "https://www.bankier.pl/forum/temat_czy-sprzedac-z-strata-i-kupic-orlen,75245033.html",
+      "body": "Orlen nie spadnie - windfall tax zablokowany, paliwa w górę. Dino w poniedziałek na południe razem z żabką. Najlepsza strategia kupuj w górce sprzadawaj na dołku.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75245325",
+      "author": "niedźwiadek",
+      "postedAt": "2026-07-26 23:01",
+      "threadTitle": "Re: Czy Żabka pogroży Dino ?",
+      "url": "https://www.bankier.pl/forum/temat_czy-zabka-pogrozy-dino,75242579.html",
+      "body": "31 lipca będzie wstępny odczyt inflacji . Wszyscy oczekują ,że wzrośnie ona grubo ponad 3 %. To może pomóc DINO jeżeli zdrożenie żywność na co jednak się nie zanosi. ( w czerwcu jej spadek był niższy o ponad 7 %)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75245263",
+      "author": "heh",
+      "postedAt": "2026-07-26 22:34",
+      "threadTitle": "Re: Czy Żabka pogroży Dino ?",
+      "url": "https://www.bankier.pl/forum/temat_czy-zabka-pogrozy-dino,75242579.html",
+      "body": "Porównaj wykresy i zobaczysz.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75245231",
+      "author": "Magellan",
+      "postedAt": "2026-07-26 22:26",
+      "threadTitle": "Re: Czy sprzedac z stratą i kupić Orlen",
+      "url": "https://www.bankier.pl/forum/temat_czy-sprzedac-z-strata-i-kupic-orlen,75245033.html",
+      "body": "orlen już niestety ubiera ulice...",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75245065",
+      "author": "Gkk",
+      "postedAt": "2026-07-26 21:46",
+      "threadTitle": "Re: Czy sprzedac z stratą i kupić Orlen",
+      "url": "https://www.bankier.pl/forum/temat_czy-sprzedac-z-strata-i-kupic-orlen,75245033.html",
+      "body": "Ta górka rośnie i rośnie i raczej nie przestaje rosnąć a Dino leci i leci i leci",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75245045",
+      "author": "Eustachy",
+      "postedAt": "2026-07-26 21:41",
+      "threadTitle": "Re: Czy sprzedac z stratą i kupić Orlen",
+      "url": "https://www.bankier.pl/forum/temat_czy-sprzedac-z-strata-i-kupic-orlen,75245033.html",
+      "body": "Na górce? hmmm",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75244557",
       "author": "SHORT",
@@ -170,7 +268,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-otwarcie-czerwien-zamek-zielen,75244149.html",
       "body": "> a jakie wasze zdanie?Wypij tę swoją herbatkę i z fusów odczytasz jak będzie! Hehehe!",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 2
       },
       "sentimentScore": 0,
@@ -269,7 +367,7 @@
       "body": "A mógłbyś przypomnieć, jak pociągnął na północ?",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -282,7 +380,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-zabka-pogrozy-dino,75242579.html",
       "body": "Jak news o 7/11 pociągnął za sobą Dino na północ, tak teraz pociągnie na południe.Kto wie, może nowy dołek?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -660,7 +758,7 @@
       "url": "https://www.bankier.pl/forum/temat_zabka-przewartosciowana-o-40-dino-w-porownaniu-bardzo-tanie,75240541.html",
       "body": "Nie ma sie co dziwić że ich nie kupili, według parametrów 7/11 to 7,5 a żabka 12. Myśleli że japończycy nie umieja liczyć i przepłacą im o 40 %. Dino w porównaniu do Żabki jest tanie i mysle że po wynikach wrócimy szybko w okolice 40 zł.",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 1
       },
       "sentimentScore": -0.87,
@@ -1780,7 +1878,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprzedane-po-28-90-czekam-na-23,75230607.html",
       "body": "miszcz sprzedaje spółkę która nie ma grosza długu i potężny rozwój finasuje wyłacznie swoim zyskiem. miszcz:)",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -2305,34 +2403,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75227387",
-      "author": "Pawlik",
-      "postedAt": "2026-07-24 08:14",
-      "threadTitle": "Re: Kukurydza 20% w górę",
-      "url": "https://www.bankier.pl/forum/temat_kukurydza-20-w-gore,75227341.html",
-      "body": "Cudownie",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75227341",
-      "author": "Mario",
-      "postedAt": "2026-07-24 08:07",
-      "threadTitle": "Kukurydza 20% w górę",
-      "url": "https://www.bankier.pl/forum/temat_kukurydza-20-w-gore,75227341.html",
-      "body": "Wkracza inflacja zywnosci ,do tego ropa..",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75227143",
       "author": "lek",
       "postedAt": "2026-07-24 07:33",
@@ -2634,7 +2704,7 @@
       "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
       "body": "Ja z dużego miasta na północy zacząłem jeździć 20km do mniejszej miejscowości po mięso - jest rzeczywiście super. Przy okazji kupuję inne rzeczy. Nie zrezygnowałem z Lidlow, biedronek, kaufmanow etc. Poprostu dorzuciłem Dino do listy. Tak będzie też w Warszawie",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.964,
@@ -2832,76 +2902,6 @@
       "votes": {
         "up": 1,
         "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75198509",
-      "author": "Elczapo",
-      "postedAt": "2026-07-21 15:41",
-      "threadTitle": "Asbis kap 5,8 mld a wyniki od q2 podobne",
-      "url": "https://www.bankier.pl/forum/temat_asbis-kap-5-8-mld-a-wyniki-od-q2-podobne,75198509.html",
-      "body": "Przychody rosną po 80% r/r a zyski 4-5 krotnie i od q2 bijemy Dino.pl.ps. Zapraszam bo Gruby parola zrobił przed najlepszym q2 w historii i jeszcze lepszymi kolejnymi kwartałami a dywidendy 50% z zysku to nawet 7-8 ziko na ryja już w grudniu 50% zaliczka.",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75194281",
-      "author": "wert",
-      "postedAt": "2026-07-21 10:56",
-      "threadTitle": "Re: Dino Warszawa",
-      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
-      "body": "Dino pomyślało i zrobiło https://boop.pl/rozne/dino-dokonalo-niemozliwego-przed-sklepem-ustawiaja-sie-kolejki",
-      "votes": {
-        "up": 10,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75193651",
-      "author": "wert",
-      "postedAt": "2026-07-21 10:26",
-      "threadTitle": "Re: Dino Warszawa",
-      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
-      "body": "Dino już otwarte , ludzie kupują ale ja się pytam gdzie gazeta wyborcza i ich gadanie o kurniku?? Gdzie kanał zero co pluł na dino ??? Olali to a tak się podniecali i wyśmiewali Dino .Robili nagonkę na firme a jestem pewny że ta babka co jako jedyna bredziłą że to kurnik ta co w biedronce pracuje już biega po Dino i szuka szczęścia . Takie to nasze media polskojęzyczne pluć na firmę by obrzydzić ale jak już gotowy sklep i ludzie się cieszą to nic nie pokazać ile ludzi tam przyszło ?? Bo po co ?? Idę na zakupy spożywcze do Dino jak zawsze wspierać rozwój Dino https://wiadomoscispozywcze.pl/artykuly/16333/tego-chyba-nikt-sie-nie-spodziewa-synne-dino-w-wilanowie-juz-otwarte-byo-spokojnie/",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75190173",
-      "author": "Ppp",
-      "postedAt": "2026-07-20 22:52",
-      "threadTitle": "Re: Dino Warszawa",
-      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
-      "body": "A co to jest wariant lux?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75180953",
-      "author": "mabmab",
-      "postedAt": "2026-07-20 09:12",
-      "threadTitle": "Re: Dino Warszawa/eustachy",
-      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
-      "body": "dobre sobie.... z tym słoikiem . Ciekawe ,że tego określenia nie używaja autochtoni z Mokotowa .",
-      "votes": {
-        "up": 0,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
