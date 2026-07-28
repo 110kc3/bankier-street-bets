@@ -13,14 +13,28 @@
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B0%3C/text%3E%3C/svg%3E"
     />
 
-    <!-- Social sharing (Open Graph + Twitter) -->
+    <link rel="canonical" href="https://110kc3.github.io/bankier-street-bets/" />
+    <!-- The same file app.js fetches to build the page, so an agent can read
+         every signal without running the JavaScript. -->
+    <link
+      rel="alternate"
+      type="application/json"
+      href="https://110kc3.github.io/bankier-street-bets/data/index.json"
+      title="Sygnały dla wszystkich spółek (JSON)"
+    />
+
+    <!-- Social sharing (Open Graph + Twitter). Absolute URLs: og:image is
+         resolved by scrapers that never saw this page's base, so a relative
+         path silently yields no preview image. -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Giełdowy Express — Bankier Street Bets" />
     <meta
       property="og:description"
       content="Tabloid giełdowy: sygnały KUPUJ/TRZYMAJ/SPRZEDAWAJ dla GPW z forum Bankier.pl. To nie jest porada inwestycyjna. To nie jest nawet gazeta."
     />
-    <meta property="og:image" content="./og-image.svg" />
+    <meta property="og:url" content="https://110kc3.github.io/bankier-street-bets/" />
+    <meta property="og:site_name" content="Giełdowy Express" />
+    <meta property="og:image" content="https://110kc3.github.io/bankier-street-bets/og-image.svg" />
     <meta property="og:locale" content="pl_PL" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Giełdowy Express — Bankier Street Bets" />
@@ -28,7 +42,40 @@
       name="twitter:description"
       content="Sygnały KUPUJ/TRZYMAJ/SPRZEDAWAJ dla GPW z forum Bankier.pl. Heurystyka, nie nauka."
     />
-    <meta name="twitter:image" content="./og-image.svg" />
+    <meta name="twitter:image" content="https://110kc3.github.io/bankier-street-bets/og-image.svg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://110kc3.github.io/bankier-street-bets/#website",
+            "url": "https://110kc3.github.io/bankier-street-bets/",
+            "name": "Giełdowy Express — Bankier Street Bets",
+            "inLanguage": "pl",
+            "description": "Satyryczny tabloid giełdowy: sygnały KUPUJ/TRZYMAJ/SPRZEDAWAJ dla spółek GPW, wyliczane z nastrojów na forum Bankier.pl. Nie jest to porada inwestycyjna."
+          },
+          {
+            "@type": "Dataset",
+            "@id": "https://110kc3.github.io/bankier-street-bets/#dataset",
+            "name": "Sygnały nastrojów forumowych dla spółek GPW",
+            "description": "Dla każdej monitorowanej spółki GPW: sygnał KUPUJ/TRZYMAJ/SPRZEDAWAJ, wynik liczbowy i kierunek trendu, wyliczone heurystycznie z komentarzy forum Bankier.pl. Odświeżane codziennie. Materiał satyryczny — nie stanowi porady inwestycyjnej ani rekomendacji w rozumieniu przepisów.",
+            "url": "https://110kc3.github.io/bankier-street-bets/",
+            "inLanguage": "pl",
+            "isAccessibleForFree": true,
+            "creativeWorkStatus": "Satire",
+            "distribution": [
+              {
+                "@type": "DataDownload",
+                "encodingFormat": "application/json",
+                "contentUrl": "https://110kc3.github.io/bankier-street-bets/data/index.json"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
