@@ -3,25 +3,25 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-28T14:38:01.519Z",
+  "updatedAt": "2026-07-28T19:53:48.198Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-28T14:38:01.519Z",
+    "fetchedAt": "2026-07-28T19:53:48.198Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
     "threadsScanned": 16
   },
   "analysis": {
-    "signal": "BUY",
-    "score": 0.174,
-    "confidence": 0.69,
-    "commentCount": 50,
+    "signal": "HOLD",
+    "score": 0.144,
+    "confidence": 0.7,
+    "commentCount": 52,
     "breakdown": {
       "positive": 15,
-      "negative": 6,
-      "neutral": 29
+      "negative": 7,
+      "neutral": 30
     },
     "trend": [
       {
@@ -121,16 +121,20 @@
       },
       {
         "date": "2026-07-28",
-        "score": 0.466,
-        "count": 2
+        "score": 0.152,
+        "count": 4
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 50 komentarzy z ostatnich 30 dni: nastroje pozytywne (15 pozytywnych, 6 negatywnych, 29 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 52 komentarzy z ostatnich 30 dni: nastroje pozytywne (15 pozytywnych, 7 negatywnych, 30 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "podatku",
         "count": 4
+      },
+      {
+        "word": "dywidende",
+        "count": 3
       },
       {
         "word": "banki",
@@ -163,14 +167,38 @@
       {
         "word": "albo",
         "count": 2
-      },
-      {
-        "word": "dywidendy",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75267793",
+      "author": "Davson",
+      "postedAt": "2026-07-28 21:05",
+      "threadTitle": "Re: PZU najtansza spolka z WIG20 C/Z 9,5",
+      "url": "https://www.bankier.pl/forum/temat_pzu-najtansza-spolka-z-wig20-c-z-9-5,75258363.html",
+      "body": "jak PKOBP wpadnie w korekte to i to poleci na ..",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75266335",
+      "author": "Nimozja",
+      "postedAt": "2026-07-28 18:41",
+      "threadTitle": "Re: PZU najtansza spolka z WIG20 C/Z 9,5",
+      "url": "https://www.bankier.pl/forum/temat_pzu-najtansza-spolka-z-wig20-c-z-9-5,75258363.html",
+      "body": "Tylko wyniki kiepskie.Sztuczne pompowanie pod dywidendę",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75263923",
       "author": "inwestujemy",
@@ -179,7 +207,7 @@
       "url": "https://www.bankier.pl/forum/temat_pzu-najtansza-spolka-z-wig20-c-z-9-5,75258363.html",
       "body": "To sprzedaj coś albo weź pożyczkę i kupuj , kupuj, kupuj - póki tanio !!!",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.931,
@@ -208,7 +236,7 @@
       "body": "to będzie jak po kebabie na ostro",
       "votes": {
         "up": 1,
-        "down": 6
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

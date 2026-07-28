@@ -3,11 +3,11 @@
   "companyName": "Orange Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ORANGEPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_orange-polska-sa,6,21,247.html",
-  "updatedAt": "2026-07-28T14:37:30.060Z",
+  "updatedAt": "2026-07-28T19:53:21.733Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-28T14:37:30.060Z",
+    "fetchedAt": "2026-07-28T19:53:21.733Z",
     "windowDays": 365,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.212,
-    "confidence": 0.77,
-    "commentCount": 108,
+    "score": 0.218,
+    "confidence": 0.78,
+    "commentCount": 105,
     "breakdown": {
-      "positive": 41,
+      "positive": 39,
       "negative": 14,
-      "neutral": 53
+      "neutral": 52
     },
     "trend": [
-      {
-        "date": "2025-07-28",
-        "score": 0.241,
-        "count": 4
-      },
       {
         "date": "2025-07-29",
         "score": -0.107,
@@ -391,35 +386,27 @@
       },
       {
         "date": "2026-07-28",
-        "score": -0.583,
-        "count": 1
+        "score": -0.13,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 108 komentarzy z ostatnich 365 dni: nastroje pozytywne (41 pozytywnych, 14 negatywnych, 53 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 105 komentarzy z ostatnich 365 dni: nastroje pozytywne (39 pozytywnych, 14 negatywnych, 52 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "orange",
-        "count": 12
-      },
-      {
-        "word": "zysk",
-        "count": 8
-      },
-      {
-        "word": "dywidenda",
-        "count": 8
+        "count": 13
       },
       {
         "word": "wyniki",
         "count": 7
       },
       {
-        "word": "netto",
+        "word": "czas",
         "count": 7
       },
       {
-        "word": "czas",
+        "word": "dywidenda",
         "count": 7
       },
       {
@@ -437,10 +424,32 @@
       {
         "word": "ceny",
         "count": 6
+      },
+      {
+        "word": "poziomie",
+        "count": 6
+      },
+      {
+        "word": "dywidende",
+        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75265481",
+      "author": "asd",
+      "postedAt": "2026-07-28 17:26",
+      "threadTitle": "Re: Raport za 1 półrocze",
+      "url": "https://www.bankier.pl/forum/temat_raport-za-1-polrocze,75255589.html",
+      "body": "Długo spał rano orange ale jak się obudził to ładnie urosło tak dalej",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75258395",
       "author": "Ppp",
@@ -450,7 +459,7 @@
       "body": "Na bananie spadek, jakby były straty to by rosło.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -1896,62 +1905,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "71673643",
-      "author": "Mikolaj",
-      "postedAt": "2025-07-28 21:49",
-      "threadTitle": "Re: Podsumowanie 2 kw.oraz 1 polrocza",
-      "url": "https://www.bankier.pl/forum/temat_podsumowanie-2-kw-oraz-1-polrocza,71672379.html",
-      "body": "Jak tak bedzie na zamknieciu to serdecznie cie wysciskam:)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "71673403",
-      "author": "ks",
-      "postedAt": "2025-07-28 21:16",
-      "threadTitle": "Re: Podsumowanie 2 kw.oraz 1 polrocza",
-      "url": "https://www.bankier.pl/forum/temat_podsumowanie-2-kw-oraz-1-polrocza,71672379.html",
-      "body": "Zysk netto powyżej konsensusu, więc powinna jutro być północ a nie południe. Tak sobie myślę.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "71672675",
-      "author": "Mikolaj",
-      "postedAt": "2025-07-28 19:43",
-      "threadTitle": "Re: Podsumowanie 2 kw.oraz 1 polrocza",
-      "url": "https://www.bankier.pl/forum/temat_podsumowanie-2-kw-oraz-1-polrocza,71672379.html",
-      "body": "Wazne ze zysk po polroczu 0.35 gr na akcje bedzie dywidenda juz za 9 miesiecy:)byc moze wieksza niz w tym roku a kurs to juz zupelnie cos innego nie bede zdziwiony jak jutro spadnie z -1%",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "71672379",
-      "author": "PogromcaHossy",
-      "postedAt": "2025-07-28 19:06",
-      "threadTitle": "Podsumowanie 2 kw.oraz 1 polrocza",
-      "url": "https://www.bankier.pl/forum/temat_podsumowanie-2-kw-oraz-1-polrocza,71672379.html",
-      "body": "Przychody w 2 kw. 2025 wynosily3 158 mln i w ujeciu rocznym wzrosly o 35 mln czyli 1.1%Zysk netto 1 polroczu w wysokosci 465 mln zl +1.5% r/rPrezentacja wynikow 29lipca 25 godz 11.00Warszawa 10.00 Londyn5.00 Nowy Jork",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
