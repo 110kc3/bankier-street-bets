@@ -3,31 +3,31 @@
   "companyName": "CD Projekt SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-sa,6,21,353.html",
-  "updatedAt": "2026-07-28T03:34:03.568Z",
+  "updatedAt": "2026-07-28T08:50:50.545Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-28T03:34:03.568Z",
+    "fetchedAt": "2026-07-28T08:50:50.545Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 141
+    "threadsScanned": 135
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.042,
+    "score": 0.029,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 65,
-      "negative": 53,
+      "positive": 62,
+      "negative": 56,
       "neutral": 82
     },
     "trend": [
       {
         "date": "2026-07-21",
-        "score": 0.67,
-        "count": 4
+        "score": 0.583,
+        "count": 1
       },
       {
         "date": "2026-07-22",
@@ -36,8 +36,8 @@
       },
       {
         "date": "2026-07-23",
-        "score": 0.118,
-        "count": 54
+        "score": 0.109,
+        "count": 53
       },
       {
         "date": "2026-07-24",
@@ -61,12 +61,12 @@
       },
       {
         "date": "2026-07-28",
-        "score": 0,
-        "count": 1
+        "score": -0.181,
+        "count": 5
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (65 pozytywnych, 53 negatywnych, 82 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (62 pozytywnych, 56 negatywnych, 82 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "przy",
@@ -74,7 +74,7 @@
       },
       {
         "word": "mnie",
-        "count": 15
+        "count": 16
       },
       {
         "word": "projekt",
@@ -112,18 +112,74 @@
   },
   "comments": [
     {
-      "id": "75256233",
-      "author": "Zdzisław",
-      "postedAt": "2026-07-28 01:32",
-      "threadTitle": "Info o Morganie Frimanie za niedługo!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_info-o-morganie-frimanie-za-niedlugo,75256233.html",
-      "body": "Ci co sie znajom wiedzom o tym i dlatego papier ruszył a ja spokojnie czekam bo ja sie znam!!!!!!",
+      "id": "75258969",
+      "author": "Mentor",
+      "postedAt": "2026-07-28 10:25",
+      "threadTitle": "Re: Zasięg 500+",
+      "url": "https://www.bankier.pl/forum/temat_zasieg-500,75250027.html",
+      "body": "Jaka korekta ? Jedziemy na 241",
       "votes": {
-        "up": 1,
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75258447",
+      "author": "Zenon",
+      "postedAt": "2026-07-28 09:55",
+      "threadTitle": "Re: W tym tygodniu na pewno przebijemy 235",
+      "url": "https://www.bankier.pl/forum/temat_w-tym-tygodniu-na-pewno-przebijemy-235,75131827.html",
+      "body": "W tym tygodniu kolejny raz budzi się we mnie nadzieja na trwałe przebicie 235",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75258239",
+      "author": "Longin",
+      "postedAt": "2026-07-28 09:43",
+      "threadTitle": "Re: Byłem zmuszony wziąć dziś kredyt aby uzupełnić",
+      "url": "https://www.bankier.pl/forum/temat_bylem-zmuszony-wziac-dzis-kredyt-aby-uzupelnic,75254443.html",
+      "body": "zwiększaj linię",
+      "votes": {
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75257707",
+      "author": "PIOTR",
+      "postedAt": "2026-07-28 09:15",
+      "threadTitle": "Trolle spadziowe to sługusy małych czapeczek",
+      "url": "https://www.bankier.pl/forum/temat_trolle-spadziowe-to-slugusy-malych-czapeczek,75257707.html",
+      "body": "Nie warto z bootami dyskutować hehe",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75256507",
+      "author": "Tentyp",
+      "postedAt": "2026-07-28 06:37",
+      "threadTitle": "Re: Zasięg 500+",
+      "url": "https://www.bankier.pl/forum/temat_zasieg-500,75250027.html",
+      "body": "Dzisiaj możliwa kontynuacja, z korektami",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
     },
     {
       "id": "75255923",
@@ -133,7 +189,7 @@
       "url": "https://www.bankier.pl/forum/temat_dokupilem,75255247.html",
       "body": "Kompletnie spóźnione zagranie w mojej opinii, nie potrafisz czytać taśmy, ale życzę powodzenia.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -147,8 +203,8 @@
       "url": "https://www.bankier.pl/forum/temat_dzisiaj-fajnie-uroslo-ale-boje-sie-ze-jutro-jebnie,75255407.html",
       "body": "Ostatnio Redzi lubiom spadać i taki silny wzrost mugłich przegrzać i boję się że zaraz wrucom na 220.",
       "votes": {
-        "up": 2,
-        "down": 4
+        "up": 3,
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -161,7 +217,7 @@
       "url": "https://www.bankier.pl/forum/temat_do-gamescom-2026-22-sesje,75247947.html",
       "body": "Przebilismy 50 seryjna, od której sie odbijaliśmy",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -175,7 +231,7 @@
       "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
       "body": "> Od czerwcowego dołka na 211 zł mamy już ponad 22 zł wzrostu. A moim zdaniem to dopiero rozgrzewka. Prawdziwa zabawa zacznie się przy raporcie za pierwsze półrocze, który jak zwykle ma spore szanse przebić rynkowy konsensus, a później na Gamescomie. Ciekawe tylko, ile depozytów do tego czasu wyparuje po stronie shortów.Faktyczne jesteś zielony jak szczypiorek na wiosnę, a rynek dał ci dzisiaj wyjątkowo złudą nadzieję że ulży bolesnemu cierpieniu wiszenia na wysokim HAKU! Hehehe!",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -218,7 +274,7 @@
       "body": "kilka sztuk kontraktów na akcje FCDRO26 / SHORT w średniej cenie 236,00 zł/szt! Hehehe!",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -231,7 +287,7 @@
       "url": "https://www.bankier.pl/forum/temat_bylem-zmuszony-wziac-dzis-kredyt-aby-uzupelnic,75254443.html",
       "body": "A jak wzrośnie to spłacisz mi stratę ? Będziesz miał z czego ?",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -245,7 +301,7 @@
       "url": "https://www.bankier.pl/forum/temat_ciekawy-artykul,75255097.html",
       "body": "https://www.ppe.pl/news/419978/nowy-cyberpunk-to-bijatyka-znamy-pierwsze-szczegoly-gry.html",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -274,7 +330,7 @@
       "body": "zarobisz, to spada na 100",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -287,7 +343,7 @@
       "url": "https://www.bankier.pl/forum/temat_bylem-zmuszony-wziac-dzis-kredyt-aby-uzupelnic,75254443.html",
       "body": "Depozyt. Uda się ?",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -329,8 +385,8 @@
       "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
       "body": "Pgh ? Nie znam i szczerze to póki co wśród akcji pojedynczych spółke mam tylko asbis & cdprojekt. Szczerze nie chce mi się analizować już innych. Na cdprojekt mam prostą strategie. Kupić -> czekać do skutku i sprzedać z dużym zyskeim. Prościej się nie da.",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -357,7 +413,7 @@
       "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
       "body": "Lecz się kibolu, bo strasznie bredzisz.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 3
       },
       "sentimentScore": 0.322,
@@ -413,7 +469,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-241,75253027.html",
       "body": "Jak w banku",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 1
       },
       "sentimentScore": 0,
@@ -441,7 +497,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-oddam-za-mniej-niz-5-tysiecy,75252289.html",
       "body": "Mam mocny pakiet 16 akcji za odszkodowanie po tym jak wpadłem do przerembla i sprzedam ten pakiet naj mniej za 80 tysiency albo wiencej!!!!!!!!!",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 2
       },
       "sentimentScore": 0,
@@ -455,7 +511,7 @@
       "url": "https://www.bankier.pl/forum/temat_zasieg-500,75250027.html",
       "body": "Jazda z shortami",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -469,7 +525,7 @@
       "url": "https://www.bankier.pl/forum/temat_zasieg-500,75250027.html",
       "body": "pełen gaz",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -497,7 +553,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-bendzie-300-zlotych-i-widly-gurne,75251877.html",
       "body": "Tych wzrostuw już nic nie zatrzyma!!!!!!!",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 2
       },
       "sentimentScore": 0.322,
@@ -568,7 +624,7 @@
       "body": "w 2031 roku jak fundy wyjdą chyba",
       "votes": {
         "up": 1,
-        "down": 8
+        "down": 9
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -581,7 +637,7 @@
       "url": "https://www.bankier.pl/forum/temat_zasieg-500,75250027.html",
       "body": "Powoli ale już w dobrym kierunku ...",
       "votes": {
-        "up": 9,
+        "up": 12,
         "down": 1
       },
       "sentimentScore": 0,
@@ -721,7 +777,7 @@
       "url": "https://www.bankier.pl/forum/temat_do-gamescom-2026-22-sesje,75247947.html",
       "body": "Bardzo podoba mi się sygnał na SMA100-244 i SMA200-257 na D1Czas ruszyć z kopyta z naszą perełką ,tylko 22 sesje.Shortom pali się pod kopułą.Trolliki mogą być pobudzone. 22 sesje",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -749,7 +805,7 @@
       "url": "https://www.bankier.pl/forum/temat_jak-podraznimy-silne-rence-takim-wzrostem-to-zwalom-kurs-jak-gruche,75247857.html",
       "body": "Ja się bojem już tego ale i tak akcji nie oddam szulerom.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 3
       },
       "sentimentScore": 0.583,
@@ -791,7 +847,7 @@
       "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
       "body": "tylko po dordze bylo przesuniecie terminu premiery dodatku...teraz juz tylko same plusy",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -945,7 +1001,7 @@
       "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
       "body": "Nie zrozumiałeś, to była figura retoryczna, to oczywiste że gwiazdorzysz.Strategia M84ck jest zwyczajnie głupia, można było kilka razy sprzedać na pidbitce i zarobić ładną kasę, ale on woli trzymać i się śmiać z shortów które zarabiają na spekulacji, bo przecież on jest spokojny że srednią 140. Z taką głupotą nie należy się obnosić, a obrona jego strategii wiele mówi o tobie.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 2
       },
       "sentimentScore": -0.322,
@@ -1169,7 +1225,7 @@
       "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
       "body": "Ciekawi mnie czy się na kogoś kreujesz i chcesz tu gwiazdorzyć, bo takie sprawiasz wrażenie, czy masz inną motywację?Jeszcze tylko Swawolnik_Ogłupnik który teraz udzielą się na forum pod nickiem M84ck lubi przypominać że ma srednią 140 i spadki go nie ruszają.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 5
       },
       "sentimentScore": 0,
@@ -2576,20 +2632,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75222459",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-07-23 15:43",
-      "threadTitle": "Ludzie się bojom mieć ten papier na weekend bo som wojny!!",
-      "url": "https://www.bankier.pl/forum/temat_ludzie-sie-bojom-miec-ten-papier-na-weekend-bo-som-wojny,75222459.html",
-      "body": "A ja powtarzam. Wiedźmina rakiety nie siengnom!!! I on nie jeździ na ropę tylko na Płotce!!!",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75222375",
       "author": "AkcjoMariusz",
       "postedAt": "2026-07-23 15:38",
@@ -2737,7 +2779,7 @@
       "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
       "body": "guzik wychodź z nory, hossa trwa a ciebie nie ma",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 2
       },
       "sentimentScore": 0.762,
@@ -2864,48 +2906,6 @@
       "body": "Tak ? To pisz śmiało kiedy premiera W4 ?",
       "votes": {
         "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75200909",
-      "author": "Cdr",
-      "postedAt": "2026-07-21 18:43",
-      "threadTitle": "Re: Czy to nie koszmar patrzeć na kurs cdp",
-      "url": "https://www.bankier.pl/forum/temat_czy-to-nie-koszmar-patrzec-na-kurs-cdp,75199819.html",
-      "body": "Nie marnuj czasu tutaj , ja widzę fałszywe wybicie z konsolidacji rocznej , zrobiony wyższy szczyty i czekamy w konsolidacǰji \" bloku \" startowym pod gamescom ....",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75200525",
-      "author": "M84ck",
-      "postedAt": "2026-07-21 17:59",
-      "threadTitle": "Re: Czy to nie koszmar patrzeć na kurs cdp",
-      "url": "https://www.bankier.pl/forum/temat_czy-to-nie-koszmar-patrzec-na-kurs-cdp,75199819.html",
-      "body": "Jest ogłoszone kiedy co mają pokazać i kiedy nad czym pracują , co byś jeszcze chciał, cierpliwości.",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75199819",
-      "author": "Pkc",
-      "postedAt": "2026-07-21 17:07",
-      "threadTitle": "Czy to nie koszmar patrzeć na kurs cdp",
-      "url": "https://www.bankier.pl/forum/temat_czy-to-nie-koszmar-patrzec-na-kurs-cdp,75199819.html",
-      "body": "A CDP ma nas w … Zero komunikacji",
-      "votes": {
-        "up": 5,
         "down": 1
       },
       "sentimentScore": 0.583,
