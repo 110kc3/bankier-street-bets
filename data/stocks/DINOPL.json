@@ -3,11 +3,11 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-07-27T19:53:53.774Z",
+  "updatedAt": "2026-07-28T03:34:17.876Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-27T19:53:53.774Z",
+    "fetchedAt": "2026-07-28T03:34:17.876Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.033,
+    "score": 0.036,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 48,
-      "negative": 37,
-      "neutral": 115
+      "positive": 49,
+      "negative": 38,
+      "neutral": 113
     },
     "trend": [
       {
-        "date": "2026-07-21",
-        "score": 0.107,
-        "count": 3
-      },
-      {
         "date": "2026-07-22",
-        "score": 0.098,
-        "count": 8
+        "score": 0.112,
+        "count": 7
       },
       {
         "date": "2026-07-23",
@@ -56,16 +51,21 @@
       },
       {
         "date": "2026-07-27",
-        "score": 0.069,
-        "count": 64
+        "score": 0.066,
+        "count": 67
+      },
+      {
+        "date": "2026-07-28",
+        "score": 0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (48 pozytywnych, 37 negatywnych, 115 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (49 pozytywnych, 38 negatywnych, 113 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 46
+        "count": 44
       },
       {
         "word": "zabka",
@@ -80,20 +80,16 @@
         "count": 10
       },
       {
+        "word": "okolo",
+        "count": 9
+      },
+      {
         "word": "zabki",
         "count": 9
       },
       {
-        "word": "okolo",
-        "count": 8
-      },
-      {
         "word": "koniec",
         "count": 8
-      },
-      {
-        "word": "dobre",
-        "count": 7
       },
       {
         "word": "mnie",
@@ -102,10 +98,70 @@
       {
         "word": "zawsze",
         "count": 7
+      },
+      {
+        "word": "short",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75256171",
+      "author": "Mirek",
+      "postedAt": "2026-07-28 00:24",
+      "threadTitle": "Re: Dlaczego to rośnie?",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-to-rosnie,75248545.html",
+      "body": "Rzucą jakieś plotki w tym tygodniu tak około czwartku",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75255977",
+      "author": "Misiu",
+      "postedAt": "2026-07-27 23:31",
+      "threadTitle": "Re: Dlaczego to rośnie?",
+      "url": "https://www.bankier.pl/forum/temat_dlaczego-to-rosnie,75248545.html",
+      "body": "Spokojnie łosiu, będzie taniej. Niedługo 25zł.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75255649",
+      "author": "Zbyszek",
+      "postedAt": "2026-07-27 22:16",
+      "threadTitle": "Re: Leszcze oddały.",
+      "url": "https://www.bankier.pl/forum/temat_leszcze-oddaly,75253605.html",
+      "body": "Tak może być, ale może też tak być że zerwie się z łańcucha - ja trailing stop już mam zapięty:)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75255537",
+      "author": "Andy",
+      "postedAt": "2026-07-27 22:01",
+      "threadTitle": "Re: Uwaga na tego spadzia",
+      "url": "https://www.bankier.pl/forum/temat_leszcze-oddaly,75253605.html",
+      "body": "Do piasownicy tam się pobaw tymi bredniami o predykcji starszaku z przedszkola",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75255315",
       "author": "Lejs",
@@ -115,7 +171,7 @@
       "body": "Czegoż Ty beczysz ? Każdy inwestuje jak uważa ja tylko robię predykcje mając przy tym zabawę.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -128,7 +184,7 @@
       "url": "https://www.bankier.pl/forum/temat_leszcze-oddaly,75253605.html",
       "body": "Nowi inwestorzy uważać na tego osobnika który notorycznie nie trafia z prognozami cen akcji Dino. Codziennie podaję nowe ceny ,rzadko trafiajac",
       "votes": {
-        "up": 0,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -143,7 +199,7 @@
       "body": "..i to by się nawet zgrało że słabymi wynikami Biedry na które stosownie zareaguje Dino.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -156,8 +212,8 @@
       "url": "https://www.bankier.pl/forum/temat_leszcze-oddaly,75253605.html",
       "body": "Spokojnie. Jeszcze 28.40 PLN do zaliczenia.Korekta ABC ostatniej fali wzrostowej.Teraz trzy sesje na minusie do wspomnianej wartości...Trzymajcie kciuki :-)./",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -170,7 +226,7 @@
       "url": "https://www.bankier.pl/forum/temat_leszcze-oddaly,75253605.html",
       "body": "Nie jest ważne kto sprzedawał tylko kto kupował. Będzie wycie na peronie! Papier odleszczony!",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -212,7 +268,7 @@
       "url": "https://www.bankier.pl/forum/temat_leszcze-oddaly,75253605.html",
       "body": "Ja tam się aż tak nie znam ale oddawanie po 27 ziko to było raczej lekko bezmyślne",
       "votes": {
-        "up": 5,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": 0,
@@ -226,7 +282,7 @@
       "url": "https://www.bankier.pl/forum/temat_akcje-dino-nie-maja-prawa-byc-takimi-tanimi,75249455.html",
       "body": "Zrobiłem podsumowanie wydatków w diskontach w ciagu ostatnich 12 miesięcy. Otóż Dino zabrało obroty:Biedronka -4.200 złkaufland -1.900 złLewiatan -3.000 zł. Lidla nie liczę no tam jedzenie dla psa sie nawet nie nadaje. Te pieniądze nie trafiły do Dino. Blisko 10.000",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -240,7 +296,7 @@
       "url": "https://www.bankier.pl/forum/temat_ktory-obstawial-19-10,75252421.html",
       "body": "Słynny spadziocha forumy niejaki Lays coś bredzil o 29,1 zeta ,ale znowu trafił jak kulą w płot.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -254,8 +310,8 @@
       "url": "https://www.bankier.pl/forum/temat_leszcze-oddaly,75253605.html",
       "body": "Bravo wy . Teraz już nie zejdzie. Bravo wy. Pięknie oddawali wszyscy akcje. Za chwilę już na stałe powyżej 30. Spółka warta sporo ponad 50 zł.",
       "votes": {
-        "up": 14,
-        "down": 2
+        "up": 21,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -268,7 +324,7 @@
       "url": "https://www.bankier.pl/forum/temat_prosze-sie-po-mnie-nie-podszywac,75253435.html",
       "body": "Jestem pro wzrostowy nastawiony na drugą połowę roku i kolejne dwa lata a ktoś tu mi bruździ ..",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -282,7 +338,7 @@
       "url": "https://www.bankier.pl/forum/temat_winda-na-polnoc,75252023.html",
       "body": "Pozbierają papier od wystraszonych i bedzie jazda.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -310,7 +366,7 @@
       "url": "https://www.bankier.pl/forum/temat_winda-na-polnoc,75252023.html",
       "body": "To się zobaczy:) kiedyś przychodzi moment kiedy wajcha zostaje przełożona.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -366,7 +422,7 @@
       "url": "https://www.bankier.pl/forum/temat_winda-na-polnoc,75252023.html",
       "body": "Będą korekty, ale w trendzie wzrostowym- ażeby jeszcze trochę akcji odebrać ludziom, chcącym zminimalizować straty. Dno już uklepane, teraz stopniowy marsz. Q2 jest spodziewane przez analityków, może zaskoczyć tylko na plus. Q3 i Q4 zacznie pokazywać siłę. Akcjonariat zapakowany nie czeka na +10%, tacy giganci nie wchodzą w coś co ma spaść. Trzeba wybić dobre ath żeby realizować zyski. A chrupki krzyczące, że 28 na otwarcie, 29,1 na zamknięcie pobiegły po chusteczki. Pozdrawiam",
       "votes": {
-        "up": 11,
+        "up": 12,
         "down": 0
       },
       "sentimentScore": 0,
@@ -380,7 +436,7 @@
       "url": "https://www.bankier.pl/forum/temat_akcje-dino-nie-maja-prawa-byc-takimi-tanimi,75249455.html",
       "body": "Przypomniałem sobie jeszcze jedną scenkę podczas tego Ogólnopolskiego Strajku w Krotoszynie.Otóż w siedzibie firmy wysypano buraki.Wydźwięk był taki, jakby tam podjechał traktor z przyczepą i wysypał parę ton.W rzeczywistości to była mała biała reklamówka, w której było kilka sztuk buraka.Akcja wysypania tych paru buraków wyglądała mocno żałośnie, ale za to jakiego newsa można z tego zrobić!.No i tak wygląda PR w praktyce.pozdrawiam",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -394,7 +450,7 @@
       "url": "https://www.bankier.pl/forum/temat_akcje-dino-nie-maja-prawa-byc-takimi-tanimi,75249455.html",
       "body": "jeżeli były 3 małe namiociki to ok. ha,ha,ha",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -450,7 +506,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-to-rosnie,75248545.html",
       "body": "To ty powróć z podkulonym ogonem , tam zarabiaj , co tu robisz nagonie za dychę",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -465,7 +521,7 @@
       "body": "Spokojnie. Zaraz wróci z podkulonym ogonem.",
       "votes": {
         "up": 0,
-        "down": 4
+        "down": 6
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -506,7 +562,7 @@
       "url": "https://www.bankier.pl/forum/temat_akcje-dino-nie-maja-prawa-byc-takimi-tanimi,75249455.html",
       "body": "bo to zwykły hejt i antypolska propaganda zagranicznej konkurencji",
       "votes": {
-        "up": 12,
+        "up": 14,
         "down": 0
       },
       "sentimentScore": 0,
@@ -520,7 +576,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-to-rosnie,75248545.html",
       "body": "Pociąg odjechał mi dzisiaj",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -576,7 +632,7 @@
       "url": "https://www.bankier.pl/forum/temat_akcje-dino-nie-maja-prawa-byc-takimi-tanimi,75249455.html",
       "body": "> realna cena to ok.40zł (+_ 5zł)Akcje Dino mają prawo kosztować tyle, ile chce rynek, ale mamy tu ciekawy przypadek bujania się od bandy do bandy. Wycena poniżej 30zł wydaje mi się równie absurdalna, jak niegdysiejsze ATH w okolicach 55zł. Jakieś rynkowe dziwactwa, w obu przypadkach. No cóż, zdarza się, magia giełdy..Wg mojej, wysoce nieprofesjonalnej opinii, w miarę realistyczny zakres to 36-42zł, ale rynek potrzebuje czasu, żeby do tego dojść.Niestety, obecnie Dino to porażka PRowa, a latające w tę i wewtę niekorzystne newsy obniżają sentyment i morale inwestorów.Głównym problemem wydaje się temat związków zawodowych, a ja bardzo uważnie obserwowałem ten wiosenny ogólnopolski protest w Krotoszynie, gdzie pojawiło się max 20 protestujących i 3 bardzo małe namioty. Trąbiono o tym wszędzie, a jeśli to miał być pokaz siły to, delikatnie mówiąc, nie wyszło. Inwestorzy są jednak informowani o problemach ze związkami, bo o tym krzyczą nagłówki i w rezultacie sentyment jest taki, jakby spółka się zwijała, a nie stawiała dziesiątki nowych sklepów.pozdrawiam",
       "votes": {
-        "up": 13,
+        "up": 14,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -591,7 +647,7 @@
       "body": "Wiesz co to jest wartość godziwa, MAŁY INWESTORKU.Jeżeli zostanie zachowane obecne tempo wzrostu zysków w latach 2026–2028 to wartość godziwa może oscylować ok.35 zet. Jeśli marże zaczną się poprawiać, wartość godziwa może być nawet wyższa niż 38 zł. Dla mnie najbardziej prawdopodobna wartość wewnętrzna Dino dziś to około 36 zł za akcję.",
       "votes": {
         "up": 5,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -618,7 +674,7 @@
       "url": "https://www.bankier.pl/forum/temat_akcje-dino-nie-maja-prawa-byc-takimi-tanimi,75249455.html",
       "body": "Słuchaj Lubrykant , tak może być , co chwilę dziesiątki nowych sklepów budowanych za gotówkę, jak najbardziej 40 możliwe do końca wakacji.",
       "votes": {
-        "up": 9,
+        "up": 11,
         "down": 1
       },
       "sentimentScore": 0,
@@ -646,7 +702,7 @@
       "url": "https://www.bankier.pl/forum/temat_akcje-dino-nie-maja-prawa-byc-takimi-tanimi,75249455.html",
       "body": "realna cena to ok.40zł (+_ 5zł)",
       "votes": {
-        "up": 11,
+        "up": 13,
         "down": 2
       },
       "sentimentScore": 0,
@@ -702,7 +758,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-to-rosnie,75248545.html",
       "body": "Dla jednego miało spadać, dla innego rosnąć. Żabka swoją kapitalizację już schowała pod dino. A i tak jest nieprzyzwoicie blisko Dino.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -716,7 +772,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-to-rosnie,75248545.html",
       "body": "Jak urośnie to potem ciut spadnie . Szorty baty dostają jak na alegroŻabce i pepco ...",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -744,8 +800,8 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-to-rosnie,75248545.html",
       "body": "> A miało to spadać.Trochę cierpliwości i doczekasz się! Hehehe!",
       "votes": {
-        "up": 0,
-        "down": 2
+        "up": 1,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -758,7 +814,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-to-rosnie,75248545.html",
       "body": "bo mają potężny rozwój który finansują w calości z własnego zysku czyli nie maja wogóle długu plus wiele innych plusów ale nie będę cię wyręczał sam sobie załaduj w pusty łeb",
       "votes": {
-        "up": 13,
+        "up": 16,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -787,7 +843,7 @@
       "body": "A miało to spadać.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1277,7 +1333,7 @@
       "body": "> Polecam przygotować gotówkę na uzupełnienie depozytu, jutro przez chwilę może jeszcze trochę spaść ale po dramatach na żabce, koniec sesji dino może zaliczyć +4%.Spoko, kasiora stale jest na koncie w rozsądnych proporcjach, musisz koleś wysoko na tym Krzyżu wisieć skoro marzy ci się taki skok ceny i to akurat w twoją stronę, obyś się nie zawiódł! Hehehe!",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2341,7 +2397,7 @@
       "body": "Ja ci sprzedam nawet za 50 gr.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -2508,7 +2564,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprzedane-po-28-90-czekam-na-23,75230607.html",
       "body": "miszcz sprzedaje spółkę która nie ma grosza długu i potężny rozwój finasuje wyłacznie swoim zyskiem. miszcz:)",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -2849,62 +2905,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75203297",
-      "author": "Finansista",
-      "postedAt": "2026-07-22 03:06",
-      "threadTitle": "Ostatnia Poznańska Wirówka żeby długi Kulczykow spłacali franczyzobiorcy",
-      "url": "https://www.bankier.pl/forum/temat_ostatnia-poznanska-wirowka-zeby-dlugi-kulczykow-splacali-franczyzobiorcy,62652237.html",
-      "body": "Útedniac",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75202323",
-      "author": "wert",
-      "postedAt": "2026-07-21 21:48",
-      "threadTitle": "Re: Dino Warszawa",
-      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
-      "body": "A tu normalni ludzie byli w dino i mówią że spoko , zadowoleni . Sklep jak sklep i tak ma być , dobre mięso to i zyski będą .A następne 2 sklepy dino w budowie i widać że to Dino buduje tam gdzie jest lidl i biedronka . Budować , zarabiać , zwiększać udział w handlu .https://finanse.wp.pl/wioche-robia-a-jest-pelno-bylismy-na-otwarciu-dino-w-wilanowie-7309918048727617vhttps://mylomza.pl/artykul/biedronka-sciga-sie-n1841590https://www.dlahandlu.pl/detal-hurt/trzecie-dino-w-15-tysiecznym-miescie-market-na-markecie,173030.html",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75199133",
-      "author": "MZ",
-      "postedAt": "2026-07-21 16:24",
-      "threadTitle": "Re: Dino Warszawa",
-      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
-      "body": "I to jest innowacja",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75194281",
-      "author": "wert",
-      "postedAt": "2026-07-21 10:56",
-      "threadTitle": "Re: Dino Warszawa",
-      "url": "https://www.bankier.pl/forum/temat_dino-warszawa,75172613.html",
-      "body": "Dino pomyślało i zrobiło https://boop.pl/rozne/dino-dokonalo-niemozliwego-przed-sklepem-ustawiaja-sie-kolejki",
-      "votes": {
-        "up": 10,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
