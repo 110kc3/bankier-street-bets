@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-07-29T03:39:55.322Z",
+  "updatedAt": "2026-07-29T09:10:00.202Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-29T03:39:55.322Z",
+    "fetchedAt": "2026-07-29T09:10:00.202Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.146,
-    "confidence": 0.74,
-    "commentCount": 59,
+    "score": 0.137,
+    "confidence": 0.73,
+    "commentCount": 57,
     "breakdown": {
-      "positive": 16,
+      "positive": 15,
       "negative": 11,
-      "neutral": 32
+      "neutral": 31
     },
     "trend": [
       {
         "date": "2026-07-22",
-        "score": 0.071,
-        "count": 20
+        "score": 0.05,
+        "count": 17
       },
       {
         "date": "2026-07-23",
@@ -58,10 +58,15 @@
         "date": "2026-07-28",
         "score": 0.302,
         "count": 3
+      },
+      {
+        "date": "2026-07-29",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 59 komentarzy z ostatnich 7 dni: nastroje pozytywne (16 pozytywnych, 11 negatywnych, 32 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 57 komentarzy z ostatnich 7 dni: nastroje pozytywne (15 pozytywnych, 11 negatywnych, 31 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -92,20 +97,34 @@
         "count": 3
       },
       {
+        "word": "ktorej",
+        "count": 2
+      },
+      {
+        "word": "dawna",
+        "count": 2
+      },
+      {
         "word": "dywidende",
-        "count": 2
-      },
-      {
-        "word": "ciekawe",
-        "count": 2
-      },
-      {
-        "word": "jakis",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75269425",
+      "author": "Insurance",
+      "postedAt": "2026-07-29 06:50",
+      "threadTitle": "Re: Zaczęlo sie...LINK:)",
+      "url": "https://www.bankier.pl/forum/temat_zaczelo-sie-link,74902477.html",
+      "body": "Jeszcze jakby dali rekomendację której nie było od dawna to byłby \"komplet\"",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75260979",
       "author": "okk",
@@ -129,7 +148,7 @@
       "body": "USD po 3.81 a Dyzma Glapinski nadal kupuje złoto od putina za nasze zaskurniaki i jeszcze reklamuje sie w Bankier",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -889,48 +908,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75206043",
-      "author": "szakal",
-      "postedAt": "2026-07-22 10:34",
-      "threadTitle": "Pko i orlen wyznaczyli nowe ath.Pzu jeszcze brakuje",
-      "url": "https://www.bankier.pl/forum/temat_pko-i-orlen-wyznaczyli-nowe-ath-pzu-jeszcze-brakuje,75206043.html",
-      "body": "takie są fakty.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75205629",
-      "author": "Newil",
-      "postedAt": "2026-07-22 10:13",
-      "threadTitle": "Re: BlackRock aktywa 15,2 bln USD/okk",
-      "url": "https://www.bankier.pl/forum/temat_blackrock-aktywa-15-2-bln-usd,75140479.html",
-      "body": "Surfer jest czy popłynął z prognozami?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75203727",
-      "author": "Kazimierz",
-      "postedAt": "2026-07-22 07:42",
-      "threadTitle": "Akumulacja przed atakiem na ATH",
-      "url": "https://www.bankier.pl/forum/temat_akumulacja-przed-atakiem-na-ath,75203727.html",
-      "body": "PPK mają ogromne ilości pieniędzy",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }

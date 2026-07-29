@@ -3,23 +3,23 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-07-29T03:39:50.360Z",
+  "updatedAt": "2026-07-29T09:09:55.041Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-29T03:39:50.360Z",
+    "fetchedAt": "2026-07-29T09:09:55.041Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 16
+    "threadsScanned": 17
   },
   "analysis": {
-    "signal": "HOLD",
-    "score": 0.139,
-    "confidence": 0.7,
-    "commentCount": 53,
+    "signal": "BUY",
+    "score": 0.188,
+    "confidence": 0.73,
+    "commentCount": 55,
     "breakdown": {
-      "positive": 15,
+      "positive": 17,
       "negative": 7,
       "neutral": 31
     },
@@ -126,16 +126,20 @@
       },
       {
         "date": "2026-07-29",
-        "score": 0,
-        "count": 1
+        "score": 0.448,
+        "count": 3
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 53 komentarzy z ostatnich 30 dni: nastroje pozytywne (15 pozytywnych, 7 negatywnych, 31 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 55 komentarzy z ostatnich 30 dni: nastroje pozytywne (17 pozytywnych, 7 negatywnych, 31 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "podatku",
         "count": 4
+      },
+      {
+        "word": "dywidendy",
+        "count": 3
       },
       {
         "word": "dywidende",
@@ -168,14 +172,38 @@
       {
         "word": "sierpnia",
         "count": 3
-      },
-      {
-        "word": "albo",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75272235",
+      "author": "Jfk1975",
+      "postedAt": "2026-07-29 10:23",
+      "threadTitle": "Re: strategia na przyszły tydzień",
+      "url": "https://www.bankier.pl/forum/temat_strategia-na-przyszly-tydzien,75271457.html",
+      "body": "Niezły optymista jesteś. Zabrzmi to dziwnie, ale zastanawiam się czy nie wyskoczyć przed dywidendą. Moja średnia 109,68 pln.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75271457",
+      "author": "gameplan",
+      "postedAt": "2026-07-29 09:47",
+      "threadTitle": "strategia na przyszły tydzień",
+      "url": "https://www.bankier.pl/forum/temat_strategia-na-przyszly-tydzien,75271457.html",
+      "body": "witam,jak Waszym zdaniem będzie wyglądał kurs pod w najbliższych 2 tygodniach.Mój optymistyczny typ to:- do piątku (31.07) - 115pln- poniedziałek (03.08) - dzień dywidendy 123pln- wtorek (04.08)- poniedzialek (10.08) - okolice 113pln- od wtorku (11.08) - lekka góra i umacnianie kursu w okolicy 117-120pln",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75269001",
       "author": "Joe",
@@ -212,7 +240,7 @@
       "url": "https://www.bankier.pl/forum/temat_pzu-najtansza-spolka-z-wig20-c-z-9-5,75258363.html",
       "body": "Tylko wyniki kiepskie.Sztuczne pompowanie pod dywidendę",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
