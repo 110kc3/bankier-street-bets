@@ -3,11 +3,11 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-07-30T08:50:11.537Z",
+  "updatedAt": "2026-07-30T14:31:57.767Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-30T08:50:11.537Z",
+    "fetchedAt": "2026-07-30T14:31:57.767Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.128,
-    "confidence": 0.68,
-    "commentCount": 50,
+    "score": 0.125,
+    "confidence": 0.6,
+    "commentCount": 39,
     "breakdown": {
-      "positive": 18,
+      "positive": 15,
       "negative": 5,
-      "neutral": 27
+      "neutral": 19
     },
     "trend": [
       {
         "date": "2026-07-23",
-        "score": 0.175,
-        "count": 17
+        "score": 0.35,
+        "count": 5
       },
       {
         "date": "2026-07-24",
@@ -53,18 +53,19 @@
         "date": "2026-07-29",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-07-30",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 50 komentarzy z ostatnich 7 dni: nastroje pozytywne (18 pozytywnych, 5 negatywnych, 27 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 39 komentarzy z ostatnich 7 dni: nastroje pozytywne (15 pozytywnych, 5 negatywnych, 19 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wrona",
-        "count": 17
-      },
-      {
-        "word": "masz",
-        "count": 6
+        "count": 12
       },
       {
         "word": "koleczka",
@@ -72,14 +73,6 @@
       },
       {
         "word": "mnie",
-        "count": 4
-      },
-      {
-        "word": "toba",
-        "count": 4
-      },
-      {
-        "word": "tyle",
         "count": 4
       },
       {
@@ -91,16 +84,42 @@
         "count": 3
       },
       {
-        "word": "puszki",
+        "word": "swoje",
         "count": 3
       },
       {
-        "word": "swoje",
+        "word": "zeby",
+        "count": 3
+      },
+      {
+        "word": "dzieki",
+        "count": 3
+      },
+      {
+        "word": "piatek",
+        "count": 3
+      },
+      {
+        "word": "kupil",
         "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75289141",
+      "author": "Wrona",
+      "postedAt": "2026-07-30 14:20",
+      "threadTitle": "Re: ciekawe jak sie adaś czuje...",
+      "url": "https://www.bankier.pl/forum/temat_ciekawe-jak-sie-adas-czuje,75249367.html",
+      "body": "Każdy wie że wyniki około 28 sierpnia i powinny być motorem dla kursu. A co do pakieciku to ten co ma naprawdę to się nie chwali. Na razie grubas robi z akcjami co chce i pisanie na forum tego nie zmieni. Byś miał wiedzę to byś napisał będzie rosło będzie spawać albo kierunek 500 600 700 w tym momencie każdy tłok może napisać to samo i udawać że cokolwiek ogarnia.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75270729",
       "author": "XD",
@@ -629,174 +648,6 @@
       "votes": {
         "up": 0,
         "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75221327",
-      "author": "XD",
-      "postedAt": "2026-07-23 14:24",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "Wymysl cos sam. Na to tez cie nie stac, przegrywie?",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75221279",
-      "author": "Wrona",
-      "postedAt": "2026-07-23 14:21",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "Puszki zbieraj , w tym jeszcze nie ma spadku cen",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75221063",
-      "author": "XD",
-      "postedAt": "2026-07-23 14:04",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "Co to jest samochwalstwo? Zacznij ty, wrona, od edukacji. Interpunkcja cie nawet przerasta. No, koniec. Z psparuchami nie dyskutuje.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75221029",
-      "author": "Wrona",
-      "postedAt": "2026-07-23 14:01",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "Twoje wsparcie to samochwalstwo, a z puszkami nie będę zaczynał żebyś miał z czego żyć",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75220881",
-      "author": "XD",
-      "postedAt": "2026-07-23 13:50",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "Zbieraj puszki, wrona. Ja sobie pozarabiam. Tym sie roznimy. Koncze z toba dyskusje. Szkoda mojego czasu. Naucz sie czy jest opor, a czym wsparcie.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75220313",
-      "author": "Wrona",
-      "postedAt": "2026-07-23 13:12",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "Oj jak hak uwiera ? Kupione po 430 pod dywidende ? Melisa pomaga. Jak masz tyle to teraz rozumiem stres",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75220131",
-      "author": "XD",
-      "postedAt": "2026-07-23 13:00",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "To moze sie zalozymy? Ja ci to udowodnie, a ty idz na inne forum, ok? Ty nawet nie jestes sanch pansa. Czasami mozna sie zdziwic. Nie kszdy jest golasem jak ty.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75219569",
-      "author": "Wrona",
-      "postedAt": "2026-07-23 12:24",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "Niektórzy twierdzą że są napoleonem",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75219217",
-      "author": "XD",
-      "postedAt": "2026-07-23 12:02",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "Kwestia nie jest czy spada czy rosnie tylko czy jest juz twoje 400 czy 380? Jest? Niestety, nie masz nawet 1 akcji, dlatego nigdzie nie jedziemy. Jam mam 3300 akcji kupione ze srednia 388,96. I tyle, wrona.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75219203",
-      "author": "XD",
-      "postedAt": "2026-07-23 12:02",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "Wrona, na miescie gadaja, ze z butelek masz 390 zeta z miesiaca. Nie potwierdzili twojego zakupu 1 akcji kruka. Mowia, ze znowu na jabbola wydasz. I tak co miesiac.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75219127",
-      "author": "XD",
-      "postedAt": "2026-07-23 11:57",
-      "threadTitle": "Re: Kółeczka",
-      "url": "https://www.bankier.pl/forum/temat_koleczka,75206745.html",
-      "body": "Opor czy wsparcie? Wiesz juz czym sie roznia, wrona?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75218171",
-      "author": "Wrona",
-      "postedAt": "2026-07-23 10:56",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "XD Kupiłem po 411,2 jak pisałeś 1 akcję udało się ...pomyślałem że może coś wiesz. Jadę z z Tobą. Chyba że nie masz akcji",
-      "votes": {
-        "up": 0,
-        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
