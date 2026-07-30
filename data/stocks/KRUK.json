@@ -3,32 +3,27 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-07-29T19:42:36.110Z",
+  "updatedAt": "2026-07-30T03:27:55.938Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-29T19:42:36.110Z",
+    "fetchedAt": "2026-07-30T03:27:55.938Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 7
+    "threadsScanned": 6
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.108,
-    "confidence": 0.71,
-    "commentCount": 56,
+    "score": 0.107,
+    "confidence": 0.7,
+    "commentCount": 54,
     "breakdown": {
-      "positive": 19,
-      "negative": 9,
+      "positive": 18,
+      "negative": 8,
       "neutral": 28
     },
     "trend": [
-      {
-        "date": "2026-07-22",
-        "score": 0.22,
-        "count": 2
-      },
       {
         "date": "2026-07-23",
         "score": 0.062,
@@ -60,8 +55,8 @@
         "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 56 komentarzy z ostatnich 7 dni: nastroje pozytywne (19 pozytywnych, 9 negatywnych, 28 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 54 komentarzy z ostatnich 7 dni: nastroje pozytywne (18 pozytywnych, 8 negatywnych, 28 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wrona",
@@ -73,10 +68,6 @@
       },
       {
         "word": "koleczka",
-        "count": 5
-      },
-      {
-        "word": "widac",
         "count": 5
       },
       {
@@ -92,16 +83,20 @@
         "count": 4
       },
       {
-        "word": "swoje",
+        "word": "widac",
         "count": 4
       },
       {
-        "word": "kupilem",
+        "word": "opor",
         "count": 4
       },
       {
-        "word": "spada",
-        "count": 4
+        "word": "haku",
+        "count": 3
+      },
+      {
+        "word": "wrony",
+        "count": 3
       }
     ]
   },
@@ -860,34 +855,6 @@
         "down": 0
       },
       "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75214673",
-      "author": "Wrona",
-      "postedAt": "2026-07-22 22:52",
-      "threadTitle": "Re: rekomendacja",
-      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
-      "body": "Nie istotne ile tylko za ile a to raczej niebawem. Do wyników chyba około 36 dni. Swoje sprzedałem po 422 a kupiłem po 389. Teraz czekam na promocje wtedy kupię pozdro. Do piątku poczekajmy ...Będzie widać czy rośnie czy spada",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75214625",
-      "author": "Alfa",
-      "postedAt": "2026-07-22 22:38",
-      "threadTitle": "Re: Puku puku i spadki na kruku",
-      "url": "https://www.bankier.pl/forum/temat_puku-puku-i-spadki-na-kruku,74664903.html",
-      "body": "Wpierw musimy wybić 450 a mozolnie im z tym idzie, nie wszyscy rozumieją na co patrzeć w wynikach Kruka",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     }
   ]
