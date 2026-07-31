@@ -3,27 +3,32 @@
   "companyName": "CD Projekt SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-sa,6,21,353.html",
-  "updatedAt": "2026-07-31T03:48:42.800Z",
+  "updatedAt": "2026-07-31T09:15:49.766Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-31T03:48:42.800Z",
+    "fetchedAt": "2026-07-31T09:15:49.766Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 143
+    "threadsScanned": 149
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.03,
+    "score": 0.025,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 59,
-      "negative": 47,
-      "neutral": 94
+      "positive": 54,
+      "negative": 46,
+      "neutral": 100
     },
     "trend": [
+      {
+        "date": "2026-07-26",
+        "score": 0.436,
+        "count": 5
+      },
       {
         "date": "2026-07-27",
         "score": 0.256,
@@ -36,8 +41,8 @@
       },
       {
         "date": "2026-07-29",
-        "score": 0.044,
-        "count": 71
+        "score": 0.05,
+        "count": 46
       },
       {
         "date": "2026-07-30",
@@ -46,13 +51,21 @@
       },
       {
         "date": "2026-07-31",
-        "score": 0,
-        "count": 3
+        "score": -0.053,
+        "count": 23
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (59 pozytywnych, 47 negatywnych, 94 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (54 pozytywnych, 46 negatywnych, 100 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "projekt",
+        "count": 10
+      },
+      {
+        "word": "gier",
+        "count": 10
+      },
       {
         "word": "premiery",
         "count": 9
@@ -62,11 +75,15 @@
         "count": 9
       },
       {
-        "word": "gier",
-        "count": 9
+        "word": "masz",
+        "count": 8
       },
       {
         "word": "trzeba",
+        "count": 8
+      },
+      {
+        "word": "rynku",
         "count": 8
       },
       {
@@ -74,28 +91,296 @@
         "count": 8
       },
       {
-        "word": "projekt",
-        "count": 8
-      },
-      {
-        "word": "masz",
+        "word": "mnie",
         "count": 7
       },
       {
-        "word": "czas",
-        "count": 7
-      },
-      {
-        "word": "rynku",
-        "count": 7
-      },
-      {
-        "word": "redow",
+        "word": "duzo",
         "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75298531",
+      "author": "bolek",
+      "postedAt": "2026-07-31 11:12",
+      "threadTitle": "Re: Największe studio w europie CDPROJEKT! może tu ktoś zrobi wezwanie",
+      "url": "https://www.bankier.pl/forum/temat_najwieksze-studio-w-europie-cdprojekt-moze-tu-ktos-zrobi-wezwanie,75296067.html",
+      "body": "A to mało bogatych na świecie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75298181",
+      "author": "Giermek",
+      "postedAt": "2026-07-31 10:48",
+      "threadTitle": "jadą dziś nas czy nie?",
+      "url": "https://www.bankier.pl/forum/temat_jada-dzis-nas-czy-nie,75298181.html",
+      "body": "bo nie wiem czy się smarować",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75298043",
+      "author": "Zdzisław",
+      "postedAt": "2026-07-31 10:39",
+      "threadTitle": "Ma ktoś z was Fejsbuka!!!!!!!",
+      "url": "https://www.bankier.pl/forum/temat_ma-ktos-z-was-fejsbuka,75298043.html",
+      "body": "Bo ja chcem go załorzyć ale nie wiem jak a tam można poznawać fajnych chłopakuw i ja go założem bo somsiad mi pomoże bo on go ma!!!!!!!!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75297933",
+      "author": "Zdzisław",
+      "postedAt": "2026-07-31 10:32",
+      "threadTitle": "Szkoda że na naszym forum nie można poznawać sie!!!!!!!",
+      "url": "https://www.bankier.pl/forum/temat_szkoda-ze-na-naszym-forum-nie-mozna-poznawac-sie,75297933.html",
+      "body": "Bo ja szukam chłopaka i na razie znalazłem Mariusza ale on mnie oszukał i nie przyjechał a ja go już troche kochałem!!!!!!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75297737",
+      "author": "Zdzisław",
+      "postedAt": "2026-07-31 10:20",
+      "threadTitle": "Kocham nasze forum bo piszemy o życiu i innych sprawach!!!!",
+      "url": "https://www.bankier.pl/forum/temat_kocham-nasze-forum-bo-piszemy-o-zyciu-i-innych-sprawach,75297737.html",
+      "body": "Można sie tu dużo nauczyć jak grać w Reduw i jak zarabiać i jak źyć i dlatego to forum jest wspaniałe!!!!!!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75297569",
+      "author": "PIOTR",
+      "postedAt": "2026-07-31 10:09",
+      "threadTitle": "Odbicie od BB na H1 i jedziemy na 264 Fibo 0.61 korekty",
+      "url": "https://www.bankier.pl/forum/temat_odbicie-od-bb-na-h1-i-jedziemy-na-264-fibo-0-61-korekty,75297569.html",
+      "body": "Spadzie uciekać ,bo rączki pourywa. Ostatni płaci rachunek.Biznesmeni",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75297265",
+      "author": "Zdzisław",
+      "postedAt": "2026-07-31 09:51",
+      "threadTitle": "Re: Dzisiaj za goronco na puszki I jadem na jagody!!!",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-za-goronco-na-puszki-i-jadem-na-jagody,75295475.html",
+      "body": "Zobacz Mariusz jacy oni som gupi jak wypisujom takie gupie rzeczy!!!!!!!",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75296859",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-07-31 09:30",
+      "threadTitle": "Re: 253, no to szorty",
+      "url": "https://www.bankier.pl/forum/temat_253-no-to-szorty,75277995.html",
+      "body": "Zaraz bendziesz płakał. Gołym okiem widać że chcieli młodych z akcji wytrzepać z rana.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75296713",
+      "author": "Prawda",
+      "postedAt": "2026-07-31 09:21",
+      "threadTitle": "Re: 253, no to szorty",
+      "url": "https://www.bankier.pl/forum/temat_253-no-to-szorty,75277995.html",
+      "body": "248, pieski szczekają o jakimś xtb i uzupelnianiu depozytu. Pieski, ja już więcej na plusie w te kilka dni niż wy przez ostatni rok na tym papierze (hehehe bo jestescie na stracie przez \"perełkę\").",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75296625",
+      "author": "mmm",
+      "postedAt": "2026-07-31 09:16",
+      "threadTitle": "Re: Największe studio w europie CDPROJEKT! może tu ktoś zrobi wezwanie",
+      "url": "https://www.bankier.pl/forum/temat_najwieksze-studio-w-europie-cdprojekt-moze-tu-ktos-zrobi-wezwanie,75296067.html",
+      "body": "Znasz takiego bogatego",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75296571",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-07-31 09:12",
+      "threadTitle": "Wruciły silne rence i bijom nas jak konia!!!",
+      "url": "https://www.bankier.pl/forum/temat_wrucily-silne-rence-i-bijom-nas-jak-konia,75296571.html",
+      "body": "Smutne to.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75296567",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-07-31 09:11",
+      "threadTitle": "Re: Dzisiaj za goronco na puszki I jadem na jagody!!!",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-za-goronco-na-puszki-i-jadem-na-jagody,75295475.html",
+      "body": "Jesteś nie poważny!!! Ja nie znam się że Zdzisławem osobiście a menczywur to był spadzuowy troll",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75296231",
+      "author": "Brando25",
+      "postedAt": "2026-07-31 08:48",
+      "threadTitle": "PALIWO DO WZROSTU GIEŁDY ZOSTAŁO DOLANE NASDAQ +2,78% SP500+1,66%",
+      "url": "https://www.bankier.pl/forum/temat_paliwo-do-wzrostu-gieldy-zostalo-dolane-nasdaq-2-78-sp500-1-66,75296231.html",
+      "body": "PALIWO DO WZROSTU GIEŁDY ZOSTAŁO DOLANE NASDAQ +2,78% SP500+1,66%",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75296211",
+      "author": "PIOTR",
+      "postedAt": "2026-07-31 08:46",
+      "threadTitle": "Re: Nadszedł właściwy moment aby...",
+      "url": "https://www.bankier.pl/forum/temat_nadszedl-wlasciwy-moment-aby,75296005.html",
+      "body": "Bankier na tym zarabia. Małe czapeczki sponsorują. Nie ma szans na porządek. Takie nowoczesne sposoby psychologiczne żeby obrzydzić spółkę hehe biznesmena Hehe",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75296113",
+      "author": "essa",
+      "postedAt": "2026-07-31 08:38",
+      "threadTitle": "Re: Dzisiaj za goronco na puszki I jadem na jagody!!!",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-za-goronco-na-puszki-i-jadem-na-jagody,75295475.html",
+      "body": "zdzsiaław i akcjomariusz, to ta sama osoba. typ zmienia nazwy co kolejny projekt - wcześniej mietek_męczywór / swalonik okrutny i jego legendarne wpisy o b0l..co/wani_u akcjonariatu xd",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75296067",
+      "author": "bolek",
+      "postedAt": "2026-07-31 08:35",
+      "threadTitle": "Największe studio w europie CDPROJEKT! może tu ktoś zrobi wezwanie",
+      "url": "https://www.bankier.pl/forum/temat_najwieksze-studio-w-europie-cdprojekt-moze-tu-ktos-zrobi-wezwanie,75296067.html",
+      "body": "tyle pięknych gier się tworzy , najlepsze studio , a cisza",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75296069",
+      "author": "Zdzisław",
+      "postedAt": "2026-07-31 08:35",
+      "threadTitle": "Re: Dzisiaj za goronco na puszki I jadem na jagody!!!",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-za-goronco-na-puszki-i-jadem-na-jagody,75295475.html",
+      "body": "Puszki i butelki fajnie sie zbiera w nocy i ja zawsze zbieram w nocy!!!!!",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75296005",
+      "author": "essa",
+      "postedAt": "2026-07-31 08:29",
+      "threadTitle": "Nadszedł właściwy moment aby...",
+      "url": "https://www.bankier.pl/forum/temat_nadszedl-wlasciwy-moment-aby,75296005.html",
+      "body": "Zgłaszać wszystkie posty, które są spamami.Czas, aby zrobić porządek z tr0l@.i na tym forum.Zgłaszaj każdy post, który jest spamem, aby zrobić z w/w osobami. Po kilku zgłoszeniach takie osobniki dostaną bana od admina.Działajmy, bo za dużo tu tego",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75295515",
+      "author": "Lolo",
+      "postedAt": "2026-07-31 07:20",
+      "threadTitle": "Dzisiaj juz na 150% spadek",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-juz-na-150-spadek,75295515.html",
+      "body": "Lecimy na wiecie ile",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75295475",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-07-31 07:06",
+      "threadTitle": "Dzisiaj za goronco na puszki I jadem na jagody!!!",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-za-goronco-na-puszki-i-jadem-na-jagody,75295475.html",
+      "body": "Zaczyna się prawdziwe zarabianie!!!",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75295223",
       "author": "Zdzisław",
@@ -105,7 +390,7 @@
       "body": "Wracam rano i znuw pełen wuzek a chodziłem tylko po Opatówku i do końca wakaci jak tak bendzie dalej to ja bende bardzo bogaty i nie muszem już grzebać w Toy Toyach!!!!!!!!!",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -118,7 +403,7 @@
       "url": "https://www.bankier.pl/forum/temat_glos-geralta-z-uk-wrzucil-fote-z-nagrywek,75295155.html",
       "body": "https://cdaction.pl/newsy/wiedzmin-3-piesni-przeszlosci-ma-juz-nagrywane-dialogi-angielski-glos-geralta-postanowil-uchylic-rabka-tajemnicy/#google_vignetteTo raczej dodatek będzie w pierwszym kwartale, dobra wiadomość :)",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -133,7 +418,7 @@
       "body": "Do rana bendem miał z 500 sztuk!!!!!!!!!!!!!!",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -146,8 +431,8 @@
       "url": "https://www.bankier.pl/forum/temat_25mln-kopii-w4-w-rok-scenariusz-optymistyczny-tlumacze,75293777.html",
       "body": "Sens jest taki, że w 2027 będą sprzedawać dodatek, a w 2028 dodatek i grę w zestawie z trzema dodatkami. Byliby deb*lami, gdyby tak nie zrobili. Jeśli wydadzą W4 od razu, to kupa ludzi daruje sobie dodatek lub zestaw W3+dodatki i obejrzy streszczenie na YouTubie, bo w momencie premiery W4 FOMO będzie takie, że nie będą już grać w starszą grę.",
       "votes": {
-        "up": 0,
-        "down": 3
+        "up": 1,
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -174,7 +459,7 @@
       "url": "https://www.bankier.pl/forum/temat_25mln-kopii-w4-w-rok-scenariusz-optymistyczny-tlumacze,75293777.html",
       "body": "początek 2027 W3 DLC, koniec 2027 W4.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -202,7 +487,7 @@
       "url": "https://www.bankier.pl/forum/temat_25mln-kopii-w4-w-rok-scenariusz-optymistyczny-tlumacze,75293777.html",
       "body": "Dlaczego koniec 28? Jaki sens robić 2 lata od dodatku we do premiery w4, oni nie są deebyyylami, wydadzą to w max rok później.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -273,7 +558,7 @@
       "body": "ten ruch z dodatkiem to jest już start kampanii pod w 4 , przeciez to genialne co cdr robi. dlatego w 4 bd koniec 2028 dopracowany i 20 mln pójdzie ...",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -342,7 +627,7 @@
       "url": "https://www.bankier.pl/forum/temat_25mln-kopii-w4-w-rok-scenariusz-optymistyczny-tlumacze,75293777.html",
       "body": "Na szybko liczac $40 zysku netto za kopie (usredniajac z przecenami), daje to $1 miliard, tj. 3.6 miliarda PLN zysku w rok. Do tego doliczyc trzeba ok. 400 milionow PLN za pozostale IP i otrzymujemy niebagatelna kwote 4 miliardow PLN czystego zysku w 1 rok.Zakladajac trzezwy mnoznik C/Z na poziomie 25, przy 100 milionach akcji wycena teoretycznie moglaby liznac ten 1000 PLN za papier.",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -406,11 +691,11 @@
     },
     {
       "id": "75293017",
-      "author": "MamaNaganka",
+      "author": "(usunięty)",
       "postedAt": "2026-07-30 19:32",
-      "threadTitle": "Re: ❤️ W hali E6 ChinaJoy pojawi się tylko jedna z 275 zachodnich firm❗️",
+      "threadTitle": "(wiadomość usunięta przez moderatora)",
       "url": "https://www.bankier.pl/forum/temat_obecnosc-redow-na-scenie-glownej-e6-chinajoy-to-status-gwiazdy,75262025.html",
-      "body": "Wybitny to jesteś Ty !",
+      "body": "(wiadomość usunięta przez moderatora)",
       "votes": {
         "up": 2,
         "down": 1
@@ -538,7 +823,7 @@
       "url": "https://www.bankier.pl/forum/temat_253-no-to-szorty,75277995.html",
       "body": "A od ciebie aż śmierdzi niską inteligencją. I trzeba z tym żyć.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0,
@@ -776,7 +1061,7 @@
       "url": "https://www.bankier.pl/forum/temat_szort-ucieka,75289011.html",
       "body": "AQR CAPITAL MANAGEMENT, LLC 0.59%>0.50%",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2127,20 +2412,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75278717",
-      "author": "Mariusz",
-      "postedAt": "2026-07-29 17:01",
-      "threadTitle": "Re: Dawać, kupować, lać, nie mieć litości",
-      "url": "https://www.bankier.pl/forum/temat_dawac-kupowac-lac-nie-miec-litosci,75271121.html",
-      "body": "Tak to nie ma sensu, pisałem że nic się nie dzieje, nie sprzedawać, a robicie inaczej.Zawsze będziecie mieć marne grosiki w kieszeni, no sorry.",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75278605",
       "author": "Jose",
       "postedAt": "2026-07-29 16:55",
@@ -2197,34 +2468,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75278341",
-      "author": "Mentor",
-      "postedAt": "2026-07-29 16:40",
-      "threadTitle": "Re: GTA VI jako trigger dla branzy",
-      "url": "https://www.bankier.pl/forum/temat_gta-vi-jako-trigger-dla-branzy,75269711.html",
-      "body": "I może Wiedźmin 4 :)))))",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75278329",
-      "author": "Zdzisław",
-      "postedAt": "2026-07-29 16:39",
-      "threadTitle": "Idziemy na 5 tysiency!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_idziemy-na-5-tysiency,75278329.html",
-      "body": "I tego już nic nie zatrzyma!!!!!!!!!",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75278269",
       "author": "JAREK",
       "postedAt": "2026-07-29 16:36",
@@ -2251,20 +2494,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75278029",
-      "author": "Blackjack",
-      "postedAt": "2026-07-29 16:20",
-      "threadTitle": "Re: GTA VI jako trigger dla branzy",
-      "url": "https://www.bankier.pl/forum/temat_gta-vi-jako-trigger-dla-branzy,75269711.html",
-      "body": "Do tego DLC do Wiedzmina. Jest pod co rosnąć.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75277995",
@@ -2309,62 +2538,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75277699",
-      "author": "Mocarz",
-      "postedAt": "2026-07-29 15:59",
-      "threadTitle": "Re: Ostatnie moje zakupy i czekam na 450",
-      "url": "https://www.bankier.pl/forum/temat_ostatnie-moje-zakupy-i-czekam-na-450,75277551.html",
-      "body": "237 $",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75277645",
-      "author": "ToblaKai",
-      "postedAt": "2026-07-29 15:54",
-      "threadTitle": "Re: Ostatnie moje zakupy i czekam na 450",
-      "url": "https://www.bankier.pl/forum/temat_ostatnie-moje-zakupy-i-czekam-na-450,75277551.html",
-      "body": "Zaraz bedzie 237",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75277551",
-      "author": "Mentor",
-      "postedAt": "2026-07-29 15:46",
-      "threadTitle": "Ostatnie moje zakupy i czekam na 450",
-      "url": "https://www.bankier.pl/forum/temat_ostatnie-moje-zakupy-i-czekam-na-450,75277551.html",
-      "body": "Minimum :)",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75277533",
-      "author": "Art",
-      "postedAt": "2026-07-29 15:45",
-      "threadTitle": "Pociąg odjeżdża",
-      "url": "https://www.bankier.pl/forum/temat_pociag-odjezdza,75277533.html",
-      "body": "Jutro już po 260",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75277269",
       "author": "nagan",
       "postedAt": "2026-07-29 15:26",
@@ -2379,34 +2552,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75276889",
-      "author": "Zdzisław",
-      "postedAt": "2026-07-29 15:04",
-      "threadTitle": "Teraz przez 12 lat ciongle wzrosty!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_teraz-przez-12-lat-ciongle-wzrosty,75276889.html",
-      "body": "Aż do Wiedzmina 7!!!!!! Pobijemy LPP bo to śmiech że oni tyle kosztujom!!!!!!!",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75276883",
-      "author": "nagan",
-      "postedAt": "2026-07-29 15:04",
-      "threadTitle": "WSPOMINKI ❤️ Wiedźmin ma już 11 lat, a znów może skraść show❗️",
-      "url": "https://www.bankier.pl/forum/temat_wspominki-wiedzmin-ma-juz-11-lat-a-znow-moze-skrasc-show,75276883.html",
-      "body": "Wiedźmin 3 ma już 11 lat, a znów może skraść całe show. Nie każda legenda musi odejśćKajetan WęsierskiJedenaście lat to w grach cała epoka. W tym czasie zdążyły zmienić się konsole, modele biznesowe, mody, ceny i pomysły na to, czym właściwie powinno być wielkie RPG. Jedne produkcje przychodziły z hukiem, przez chwilę rządziły rozmowami, a potem znikały gdzieś pomiędzy kolejną aktualizacją a wyprzedażą. Wiedźmin 3 tymczasem nadal siedzi przy stole jak stary wyjadacz, który nie musi już niczego udowadniać. Wystarczy, że lekko uniesie brew, poprawi dwa miecze na plecach i pół branży znowu zaczyna patrzeć w jego stronę.Najdziwniejsze jest to, że ten powrót wcale nie pachnie odgrzewaniem dawnej chwały. Geralt nie potrzebuje kolejnej rocznicowej laurki, żeby przypomnieć, dlaczego tyle osób zostawiło w jego świecie setki godzin. Ta gra wciąż ma ciężar, którego nie da się dopisać patchem ani kupić większym budżetem. Wiecie, nie każda legenda powinna schodzić ze sceny tylko dlatego, że kalendarz zdążył przewrócić kilka kartek za dużo. Czasem wystarczy ponownie zapalić reflektory i sprawdzić, czy stary wiedźmin nie ukradnie całego przedstawienia jeszcze jeden raz.Wiedźmin 3 powstał w czasach, gdy wielkie gry nie próbowały zamienić każdego wolnego wieczoru w sezonową przepustkę. Geralt ruszał na szlak, tablice uginały się pod ogłoszeniami, wieśniacy mieli problemy z potworami, duchami albo sąsiadem, a zwykłe zlecenie potrafiło po godzinie zostawić człowieka z moralnym kacem. Jedenaście lat później grafika zdradza już swój wiek w kilku miejscach, animacje czasem trzeszczą, a Płotka nadal potrafi zaparkować na dachu. Tylko jakoś trudno przez to wszystko uznać, że Dziki Gon zrobił się stary.Duża w tym zasługa świata, który nie wyglądał jak teren wysypany znacznikami przez nadgorliwego kartografa. Velen miało błoto pod paznokciami, Novigrad własny rytm, a Skellige pachniało zimnym morzem jeszcze przed dopłynięciem do brzegu. Nawet krótki wypad po nowy miecz potrafił skończyć się rozmową, bójką, odkryciem piwnicy pełnej trupów i powrotem nad ranem z zupełnie innym zadaniem niż to, od którego zaczynaliśmy. Gra pozwalała zgubić plan dnia, a potem nagradzała nas za to lepiej niż wiele produkcji za wykonanie głównego questa.Najmocniej trzymają się jednak historie. Krwawy Baron, Pan Lusterko, siostry z Krzywuchowych Moczarów, uczta na Skellige - te sceny miały bohaterów, których można było lubić, nienawidzić i próbować zrozumieć, często jednocześnie. Dlatego kolejne powroty do gry przypominają wizytę w miejscu, które dobrze znamy, choć za każdym razem skręcamy w uliczkę pomijaną przez poprzednie sto godzin.A to nie koniec!Gdy wydawało się, że ostatnie wino w Toussaint zostało już wypite, CD Projekt Red ponownie zawiesił Geraltowi miecze na plecach. Pieśni przeszłości mają być trzecim pełnoprawnym dodatkiem fabularnym do Wiedźmina 3, zapowiedzianym ponad dekadę po premierze podstawowej gry. Sam pomysł brzmi trochę jak wiadomość przyniesiona przez portal z alternatywnej rzeczywistości. Na razie twórcy trzymają karty blisko kaftana. Wiemy, że znów wcielimy się w Geralta i przeżyjemy całkowicie nową przygodę, ale miejsce akcji, przeciwnicy oraz punkt osadzenia historii nadal pozostają tajemnicą. Sam tytuł pobudza jednak wyobraźnię. „Pieśni przeszłości” pachną starymi winami, zapomnianymi długami i sprawami, które miały zostać pogrzebane głęboko pod warstwą legend. Premiera została zaplanowana na 2027 rok, wyłącznie na PC oraz konsole obecnej generacji. To również daje do myślenia. Twórcy nie muszą oglądać się na sprzęt, który pamięta premierę podstawowej wersji, więc mogą pozwolić sobie na bardziej rozbudowane lokacje, gęstszy świat i techniczne poprawki wykraczające poza zwykły zestaw nowych questów. Oczywiście oczekiwania od razu stanęły pod samym sufitem. Po Sercach z Kamienia oraz Krwi i Winie słowo „dodatek” w wykonaniu CD Projekt Red znaczy trochę więcej niż u większości wydawców.Konkludując...Wiedźmin 3 nie potrzebował nowego rozdziału, żeby zachować swoje miejsce w historii. Zdążył już zrobić wystarczająco dużo, przejąć wystarczająco wiele wieczorów i zostawić za sobą ślad głębszy niż koleiny po wozach na drogach Velen. Nie przypomina nerwowej próby wyciągnięcia starej marki z piwnicy. Geralt siedział spokojnie przy ogniu, czekając, aż ktoś ponownie podrzuci mu kontrakt.A kiedy Pieśni przeszłości wreszcie zabrzmią, młodsze gry mogą mieć mały problem. W 2027 roku na rynku nie zabraknie piękniejszych światów, szybszych systemów i nowych bohaterów próbujących zdobyć własną legendę. Później do karczmy wejdzie siwowłosy wiedźmin z gry mającej dwanaście lat, położy miecze przy stole i znów skupi na sobie wszystkie spojrzenia. Nie każda legenda musi wiedzieć, kiedy odejść. Niektóre doskonale wiedzą, kiedy wrócić.Więcej na https://www.ppe.pl/publicystyka/419448/wiedzmin-3-ma-juz-11-lat-a-znow-moze-skrasc-cale-show-nie-kazda-legenda-musi-odejsc.html",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": -0.964,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75276757",
       "author": "Zenon",
       "postedAt": "2026-07-29 14:55",
@@ -2416,20 +2561,6 @@
       "votes": {
         "up": 2,
         "down": 14
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75276613",
-      "author": "Boss",
-      "postedAt": "2026-07-29 14:46",
-      "threadTitle": "Re: A pisałem :) lecimy na ATH",
-      "url": "https://www.bankier.pl/forum/temat_a-pisalem-lecimy-na-ath,75274135.html",
-      "body": "No właśnie dlatego lepiej żebyś miał szorta :P Eee ten oryginalny Mentor mi mówi, że jednak ma szorta nadal :P",
-      "votes": {
-        "up": 1,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2447,132 +2578,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75276583",
-      "author": "nowy",
-      "postedAt": "2026-07-29 14:43",
-      "threadTitle": "Re: LOP spada",
-      "url": "https://www.bankier.pl/forum/temat_lop-spada,75276275.html",
-      "body": "Ale się znafców zleciało.....",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75276517",
-      "author": "Ziemianin",
-      "postedAt": "2026-07-29 14:38",
-      "threadTitle": "Re: 3 tysionce to bendzie poczontek wzrostuw!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_3-tysionce-to-bendzie-poczontek-wzrostuw,75276105.html",
-      "body": "Tysionc biore w ciemno…",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75276299",
-      "author": "Mentor",
-      "postedAt": "2026-07-29 14:24",
-      "threadTitle": "Re: A pisałem :) lecimy na ATH",
-      "url": "https://www.bankier.pl/forum/temat_a-pisalem-lecimy-na-ath,75274135.html",
-      "body": "Miałem, ale już mam longa. Trzeba znać się na giełdzie.",
-      "votes": {
-        "up": 1,
-        "down": 5
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75276303",
-      "author": "Mocarz",
-      "postedAt": "2026-07-29 14:24",
-      "threadTitle": "Re: LOP spada",
-      "url": "https://www.bankier.pl/forum/temat_lop-spada,75276275.html",
-      "body": "Sprzedajesz czy kupujesz , czy po prostu jesteś analytykiem?",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75276275",
-      "author": "Magellan",
-      "postedAt": "2026-07-29 14:21",
-      "threadTitle": "LOP spada",
-      "url": "https://www.bankier.pl/forum/temat_lop-spada,75276275.html",
-      "body": "250 to jest lokalny szczytteraz papier jest żeniony",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75276235",
-      "author": "Jupit",
-      "postedAt": "2026-07-29 14:17",
-      "threadTitle": "Wzrost jest chwilowy",
-      "url": "https://www.bankier.pl/forum/temat_wzrost-jest-chwilowy,75276235.html",
-      "body": "Zbliża się znacznie zuchwalaszy i trwały.",
-      "votes": {
-        "up": 4,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75276105",
-      "author": "Zdzisław",
-      "postedAt": "2026-07-29 14:06",
-      "threadTitle": "3 tysionce to bendzie poczontek wzrostuw!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_3-tysionce-to-bendzie-poczontek-wzrostuw,75276105.html",
-      "body": "Ja czekam na 5 tysięcy albo wiencej!!!!!!",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75276013",
-      "author": "Boss",
-      "postedAt": "2026-07-29 14:00",
-      "threadTitle": "Re: A pisałem :) lecimy na ATH",
-      "url": "https://www.bankier.pl/forum/temat_a-pisalem-lecimy-na-ath,75274135.html",
-      "body": "A Ty szorta nie miałeś czasem.... co za gość....",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75276035",
-      "author": "Magellan",
-      "postedAt": "2026-07-29 14:00",
-      "threadTitle": "Re: A pisałem :) lecimy na ATH",
-      "url": "https://www.bankier.pl/forum/temat_a-pisalem-lecimy-na-ath,75274135.html",
-      "body": "AQR Capital Management, LLC CDPROJEKT PLOPTTC00011 0.59 2026-07-07 2026-07-092 Qube Research & Technologies Limited CDPROJEKT PLOPTTC00011 0.5 2026-07-06 2026-07-07",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75275155",
@@ -2600,48 +2605,6 @@
         "down": 0
       },
       "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75274425",
-      "author": "Ddd",
-      "postedAt": "2026-07-29 12:18",
-      "threadTitle": "Re: A pisałem :) lecimy na ATH",
-      "url": "https://www.bankier.pl/forum/temat_a-pisalem-lecimy-na-ath,75274135.html",
-      "body": "Tu nie ma shortow zgłoszonych żadnych",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75274135",
-      "author": "Mentor",
-      "postedAt": "2026-07-29 12:03",
-      "threadTitle": "A pisałem :) lecimy na ATH",
-      "url": "https://www.bankier.pl/forum/temat_a-pisalem-lecimy-na-ath,75274135.html",
-      "body": "Jazda z shortami",
-      "votes": {
-        "up": 6,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75273743",
-      "author": "Mariusz",
-      "postedAt": "2026-07-29 11:44",
-      "threadTitle": "Re: Dawać, kupować, lać, nie mieć litości",
-      "url": "https://www.bankier.pl/forum/temat_dawac-kupowac-lac-nie-miec-litosci,75271121.html",
-      "body": "Spokojnie, nic się nie dzieje, tylko jena sprawa jest dość ważna nie sprzedawać teraz, bo nie warto.Cena tych akcji w przyszłym roku może zacząć oschlować w z upełni innym przedziale cenowym, nawet sporo wyżej od tych magicznych 300 zł.To wszystko powoli będzie trafiać do świadomości inwestorów, jakie będą oceny nowego dodatku do W3 dowiemy się już w przyszłym miesiącu i potem będą następne informacje procwzrostowe aż do premiery W4 i zobaczymy jak się te gry będą sprzedawać i to może cały czas rosnąć, a apogeum to może być nowy Cyber2 którego premiera zostanie wyprzedza innymi premierami i to wszystko jest bardzo obiecujące.",
-      "votes": {
-        "up": 10,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
     },
     {
@@ -2682,34 +2645,6 @@
       "votes": {
         "up": 0,
         "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75271121",
-      "author": "Art",
-      "postedAt": "2026-07-29 09:33",
-      "threadTitle": "Dawać, kupować, lać, nie mieć litości",
-      "url": "https://www.bankier.pl/forum/temat_dawac-kupowac-lac-nie-miec-litosci,75271121.html",
-      "body": "Jedziemy dziś na rekord!",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75269711",
-      "author": "Blackjack",
-      "postedAt": "2026-07-29 07:59",
-      "threadTitle": "GTA VI jako trigger dla branzy",
-      "url": "https://www.bankier.pl/forum/temat_gta-vi-jako-trigger-dla-branzy,75269711.html",
-      "body": "Zaraz wychodzi gra i na tym sentymencie może coś wzrosnąć.",
-      "votes": {
-        "up": 8,
-        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -2895,6 +2830,76 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75245375",
+      "author": "Zenon",
+      "postedAt": "2026-07-26 23:15",
+      "threadTitle": "Re: Kurs w góre",
+      "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
+      "body": "Wpisy na tym forum nie mają wpływu na decyzję akcjonariuszy, tak mi się wydaje.Jeśli ktoś jest na tyle głupi, by kierować się wpisami z forum, to najpóźniej po kilku błędnych decyzjach zrozumieją, że to głupie.Liczę się na to, że kurs w sierpniu odbije, kolejna nadzieja na wzrosty, to koniec września, potem rajd w grudniu, albo w styczniu. Jak chce się wierzyć i mieć nadzieję, to powód się znajdzie.Kursem sterują duzi gracze, trzeba mieć tego świadomość, reszta to tylko preteksty, a powody pojawiają się wraz z faktami.Już niejednokrotnie pozytywy ze spółki były ignorowane przez rynek, więc nie mam pewności że kurs w sierpniu zaliczy kolejny rajd wzrostowy.Ryzyko podniesienia stóp procentowych przez FED jest wysokie, to nie jest korzystne dla rynku akcji, a gracze z USA robią gigantyczne obroty na GPW.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75244803",
+      "author": "zielony_guzik",
+      "postedAt": "2026-07-26 20:50",
+      "threadTitle": "Re: Kurs w góre",
+      "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
+      "body": "Przepraszam, że nie dostosowuję się do Twojej strategii. Mam jednak wrażenie, że pisanie \"jest źle, bo kurs spada\" i straszenie akcjonariuszy, żeby w panice sprzedawali na dołkach, a później odkupowali wyżej, bardziej szkodzi niż pomaga.Inwestowanie w CD Projekt to nie obstawianie meczu, gdzie wszystko rozstrzyga się w 90 minutach. Jeśli ktoś świadomie kupuje akcje kilkanaście miesięcy przed premierą Wiedźmina 4, to doskonale wie, że po drodze będą zarówno wzrosty, jak i korekty. Wielu inwestorów właśnie takie spadki wykorzystuje do akumulacji, licząc na wzrost kursu wraz ze zbliżaniem się premiery i kolejnych materiałów promocyjnych.Dlatego mam proste pytanie: czy uważasz, że w sierpniu – przed jedną z największych imprez gamingowych i prezentacją „Pieśni Przeszłości” – kurs Twoim zdaniem nadal będzie spadał? Napisz wprost. Będzie to dobra okazja, żeby zweryfikować Twoją rzetelność i profesjonalizm.A co do M84ck ja nie bronię jego strategi wszedł w dobrym momęcie i nadal jest 50% na plusie, większość forumowiczów szczególnie kierujących się emocjami pewnie wychodzi na 0 albo jest pod kreską. Jeżeli M84ck dotrzyma do 450 na piku przed W4 to zrobi ponad 200% czyli tyle co może 5% na GPW czy go bronię? Nie bo on tego nie potrzebuje, a jego strategia w dlugim terminie będzie lepsza niż sprzedawanie cdprojekt po 226,2 bo Trump ostrzelał Iran (znowu) I jakiś shorciarz z cdf na spadki spóźnił się z wchodzeniem kiedy kurs był po 280",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75244709",
+      "author": "Zenon",
+      "postedAt": "2026-07-26 20:32",
+      "threadTitle": "Re: Kurs w góre",
+      "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
+      "body": "Nie zrozumiałeś, to była figura retoryczna, to oczywiste że gwiazdorzysz.Strategia M84ck jest zwyczajnie głupia, można było kilka razy sprzedać na pidbitce i zarobić ładną kasę, ale on woli trzymać i się śmiać z shortów które zarabiają na spekulacji, bo przecież on jest spokojny że srednią 140. Z taką głupotą nie należy się obnosić, a obrona jego strategii wiele mówi o tobie.",
+      "votes": {
+        "up": 2,
+        "down": 3
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75242927",
+      "author": "zielony_guzik",
+      "postedAt": "2026-07-26 12:56",
+      "threadTitle": "Re: Kurs w góre",
+      "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
+      "body": "To zastanawiaj się dalej.Jeżeli ktoś, jak M84ck, kupował akcje po około 140 zł (jestem na tym forum od czasu, gdy kurs był w okolicach 104 zł, więc dobrze pamiętam, kiedy wchodził), pisze, że nie ruszają go spadki, to trudno się dziwić. Przy takim wejściu nadal ma około 85 zł zysku na każdej akcji.Jeżeli ja piszę, że nie ruszają mnie spadki z 220 do 226 zł, to również ma to swoje uzasadnienie. Inwestuję przede wszystkim w fundamenty spółki i dłuższy scenariusz, a nie w chwilowe nastroje rynku.Obecna niepewność związana z geopolityką, w tym napięciami wokół Iranu, wpływa na sentyment i krótkoterminowe notowania, ale nie zmienia wartości projektów, nad którymi pracuje CD Projekt. Fundamenty spółki oceniam jako mocne, dlatego nie zamierzam podejmować decyzji pod wpływem kilku procent w jedną czy drugą stronę.A to, że część początkujących inwestorów otwiera krótkie pozycje i próbuje budować narrację na forach, jest ich strategią. Ja trzymam się własnego planu inwestycyjnego.",
+      "votes": {
+        "up": 8,
+        "down": 2
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75242765",
+      "author": "Zenon",
+      "postedAt": "2026-07-26 12:19",
+      "threadTitle": "Re: Kurs w góre",
+      "url": "https://www.bankier.pl/forum/temat_kurs-w-gore,75108131.html",
+      "body": "Ciekawi mnie czy się na kogoś kreujesz i chcesz tu gwiazdorzyć, bo takie sprawiasz wrażenie, czy masz inną motywację?Jeszcze tylko Swawolnik_Ogłupnik który teraz udzielą się na forum pod nickiem M84ck lubi przypominać że ma srednią 140 i spadki go nie ruszają.",
+      "votes": {
+        "up": 3,
+        "down": 5
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     }
   ]
 }

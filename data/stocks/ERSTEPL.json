@@ -3,32 +3,27 @@
   "companyName": "Erste Bank Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ERSTEPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_erste-bank-polska-sa,6,21,38.html",
-  "updatedAt": "2026-07-31T03:49:06.174Z",
+  "updatedAt": "2026-07-31T09:16:18.212Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-31T03:49:06.174Z",
+    "fetchedAt": "2026-07-31T09:16:18.212Z",
     "windowDays": 365,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 11
+    "threadsScanned": 10
   },
   "analysis": {
     "signal": "HOLD",
     "score": -0.041,
-    "confidence": 0.56,
-    "commentCount": 37,
+    "confidence": 0.55,
+    "commentCount": 35,
     "breakdown": {
-      "positive": 6,
-      "negative": 11,
+      "positive": 5,
+      "negative": 10,
       "neutral": 20
     },
     "trend": [
-      {
-        "date": "2025-07-31",
-        "score": 0,
-        "count": 2
-      },
       {
         "date": "2025-08-03",
         "score": 0.87,
@@ -180,8 +175,8 @@
         "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 37 komentarzy z ostatnich 365 dni: nastroje mieszane (6 pozytywnych, 11 negatywnych, 20 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 35 komentarzy z ostatnich 365 dni: nastroje mieszane (5 pozytywnych, 10 negatywnych, 20 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "black",
@@ -714,34 +709,6 @@
         "down": 2
       },
       "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "71695645",
-      "author": "Xxx",
-      "postedAt": "2025-07-31 09:27",
-      "threadTitle": "Re: biuro maklerskie do D",
-      "url": "https://www.bankier.pl/forum/temat_biuro-maklerskie-do-d,71646157.html",
-      "body": "W koszykach na wykresie wig20 z 500 na 50 zł się przecenił perfekcyjnie",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "71695395",
-      "author": "Transakcjusz",
-      "postedAt": "2025-07-31 09:12",
-      "threadTitle": "Re: Dobre tory",
-      "url": "https://www.bankier.pl/forum/temat_dobre-tory,71504469.html",
-      "body": "550 i w górę. Ciekawe jest szansa że przed sprzedażą dojdzie do 600?",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     }
   ]
