@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-07-30T19:52:07.651Z",
+  "updatedAt": "2026-07-31T03:49:38.283Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-07-30T19:52:07.651Z",
+    "fetchedAt": "2026-07-31T03:49:38.283Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.067,
-    "confidence": 0.72,
+    "score": 0.075,
+    "confidence": 0.73,
     "commentCount": 100,
     "breakdown": {
-      "positive": 28,
+      "positive": 29,
       "negative": 17,
-      "neutral": 55
+      "neutral": 54
     },
     "trend": [
       {
         "date": "2026-07-01",
-        "score": -0.057,
-        "count": 5
+        "score": -0.072,
+        "count": 4
       },
       {
         "date": "2026-07-02",
@@ -136,12 +136,12 @@
       },
       {
         "date": "2026-07-30",
-        "score": 0,
-        "count": 1
+        "score": 0.161,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 100 komentarzy z ostatnich 30 dni: nastroje mieszane (28 pozytywnych, 17 negatywnych, 55 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 100 komentarzy z ostatnich 30 dni: nastroje mieszane (29 pozytywnych, 17 negatywnych, 54 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
@@ -187,6 +187,20 @@
   },
   "comments": [
     {
+      "id": "75294649",
+      "author": "1234",
+      "postedAt": "2026-07-30 23:09",
+      "threadTitle": "Re: 1000 akcji",
+      "url": "https://www.bankier.pl/forum/temat_1000-akcji,75290557.html",
+      "body": "Dzisiaj porządkowanie fundy portfele. Ktoś sprzedał kros kupił. Ta transakcja była ustalona. Cena zapewne też.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "75290557",
       "author": "on",
       "postedAt": "2026-07-30 15:57",
@@ -209,7 +223,7 @@
       "body": "Lpp uruchomił centrum logistyczne w Rumunii pod Bukarsztem. Myślę że jutro jeszcze wyżej. Będziemy ubijać 21k. A po cząstkowych za 2Q zapinamy pasy.",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1571,20 +1585,6 @@
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74970563",
-      "author": "XD",
-      "postedAt": "2026-07-01 01:35",
-      "threadTitle": "Re: Ale jajca haha 17XXX do piatku",
-      "url": "https://www.bankier.pl/forum/temat_ale-jajca-haha-17xxx-do-piatku,74910485.html",
-      "body": "Ten wszędzie \"tak myśli\", a wisi na cokumbusie po 8 i nagrania ludzi. Inwestor z grafiką demo.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
