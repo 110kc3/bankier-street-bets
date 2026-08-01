@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-08-01T03:49:23.153Z",
+  "updatedAt": "2026-08-01T08:34:33.202Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-01T03:49:23.153Z",
+    "fetchedAt": "2026-08-01T08:34:33.202Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.073,
-    "confidence": 0.73,
-    "commentCount": 97,
+    "score": 0.061,
+    "confidence": 0.72,
+    "commentCount": 98,
     "breakdown": {
       "positive": 28,
-      "negative": 15,
+      "negative": 16,
       "neutral": 54
     },
     "trend": [
@@ -138,10 +138,15 @@
         "date": "2026-07-31",
         "score": 0,
         "count": 2
+      },
+      {
+        "date": "2026-08-01",
+        "score": -0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 97 komentarzy z ostatnich 30 dni: nastroje mieszane (28 pozytywnych, 15 negatywnych, 54 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 98 komentarzy z ostatnich 30 dni: nastroje mieszane (28 pozytywnych, 16 negatywnych, 54 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
@@ -187,6 +192,20 @@
   },
   "comments": [
     {
+      "id": "75306117",
+      "author": "Magellan",
+      "postedAt": "2026-08-01 09:09",
+      "threadTitle": "Re: Ma siłę. Moze nawet na 22k do połowy sierpnia.",
+      "url": "https://www.bankier.pl/forum/temat_ma-sile-moze-nawet-na-22k-do-polowy-sierpnia,75265665.html",
+      "body": "RSI już czerwonemuszą ten tysiąc schłodzić.... RSI się rzadko myli",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75304703",
       "author": "on",
       "postedAt": "2026-07-31 21:21",
@@ -194,7 +213,7 @@
       "url": "https://www.bankier.pl/forum/temat_ma-sile-moze-nawet-na-22k-do-polowy-sierpnia,75265665.html",
       "body": "W przyszłym tygodniu wstępne prognozyOd tego dużo zależy. Wielu analityków uważa, że wyniki powinny być pozytywnie.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -209,7 +228,7 @@
       "body": "22 k to będzie na początku a nie w połowie sierpnia",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

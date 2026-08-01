@@ -3,27 +3,37 @@
   "companyName": "Cyfrowy Polsat SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CYFRPLSAT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cyfrowy-polsat-sa,6,21,10000000415.html",
-  "updatedAt": "2026-08-01T03:48:41.546Z",
+  "updatedAt": "2026-08-01T08:33:37.331Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-01T03:48:41.546Z",
+    "fetchedAt": "2026-08-01T08:33:37.331Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 65
+    "threadsScanned": 62
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.054,
+    "score": 0.043,
     "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 56,
-      "negative": 56,
-      "neutral": 88
+      "positive": 55,
+      "negative": 60,
+      "neutral": 85
     },
     "trend": [
+      {
+        "date": "2026-07-25",
+        "score": -0.448,
+        "count": 3
+      },
+      {
+        "date": "2026-07-26",
+        "score": 0,
+        "count": 1
+      },
       {
         "date": "2026-07-27",
         "score": -0.201,
@@ -31,8 +41,8 @@
       },
       {
         "date": "2026-07-28",
-        "score": 0.039,
-        "count": 56
+        "score": 0.017,
+        "count": 49
       },
       {
         "date": "2026-07-29",
@@ -48,21 +58,30 @@
         "date": "2026-07-31",
         "score": 0.243,
         "count": 38
+      },
+      {
+        "date": "2026-08-01",
+        "score": -0.107,
+        "count": 3
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (56 pozytywnych, 56 negatywnych, 88 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (55 pozytywnych, 60 negatywnych, 85 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "szok",
-        "count": 13
+        "count": 16
       },
       {
         "word": "musi",
-        "count": 12
+        "count": 15
       },
       {
         "word": "bolec",
+        "count": 15
+      },
+      {
+        "word": "zeby",
         "count": 12
       },
       {
@@ -70,32 +89,70 @@
         "count": 12
       },
       {
-        "word": "zeby",
-        "count": 11
+        "word": "dzis",
+        "count": 10
+      },
+      {
+        "word": "ostrzegalem",
+        "count": 10
+      },
+      {
+        "word": "cena",
+        "count": 9
+      },
+      {
+        "word": "przy",
+        "count": 9
       },
       {
         "word": "roku",
         "count": 9
-      },
-      {
-        "word": "dzis",
-        "count": 9
-      },
-      {
-        "word": "czas",
-        "count": 9
-      },
-      {
-        "word": "mnie",
-        "count": 9
-      },
-      {
-        "word": "cena",
-        "count": 8
       }
     ]
   },
   "comments": [
+    {
+      "id": "75306255",
+      "author": "Ryszard",
+      "postedAt": "2026-08-01 09:34",
+      "threadTitle": "Re: Gdy IPOPEMA mówiła 8.5zł wyzywali od najgorszych",
+      "url": "https://www.bankier.pl/forum/temat_gdy-ipopema-mowila-8-5zl-wyzywali-od-najgorszych,75304527.html",
+      "body": "> Teraz jak mówi 19zł to jest wiarygodna. Haha! Nie dajcie się trolom wzrostowym!Kiedyś probowali straszyc, żeby skupić od wystraszonych, dziś daja trochę więcej od kursu, zeby Kupić od zarobionych.Czego nie rozumiesz?Dla przypomnienia: wezwanie w 2021. Cena akcji w wezwaniu 35PLN. Cel to wycofanie z giełdy. Wezwanie nieudane.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75306217",
+      "author": "Włodi",
+      "postedAt": "2026-08-01 09:26",
+      "threadTitle": "Re: Tu ŚMIESZY UROST jest od 12zł, SPADŹ beczy zbity w koncie AŁŁA..SZOK",
+      "url": "https://www.bankier.pl/forum/temat_tu-smieszy-urost-jest-od-12zl-spadz-beczy-zbity-w-koncie-alla-szok,75185621.html",
+      "body": "AŁA !! Musi boleć SZOK !!! Tylko mi nie mówcie że was nie ostrzegałem przy 12zł żeby nie brać krótkich , SZOK !!!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75306207",
+      "author": "Włodi",
+      "postedAt": "2026-08-01 09:25",
+      "threadTitle": "Re: Jak widać na łowisku LESZCZ uciekł i ma się dobrze, zostały same BAR",
+      "url": "https://www.bankier.pl/forum/temat_jak-widac-na-lowisku-leszcz-uciekl-i-ma-sie-dobrze-zostaly-same-barany,75270959.html",
+      "body": "Wycie baranów z zagrody nawet w dni wolne od notowań AŁA !! Musi boleć SZOK !! A ostrzegałem już przy 12zł",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75304839",
       "author": "johnnyhigh",
@@ -104,8 +161,8 @@
       "url": "https://www.bankier.pl/forum/temat_najwiekszy-bank-obniza-rekomendacje-niestety,75301731.html",
       "body": "Ładnie to tak kłamać? Z 16zł \"kupuj\" na 16zł \"trzymaj\" to nie obniżka... Cena urosła o 20% i przebija cenę z rekomendacji więc cel osiągnięty... czekamy na strategię Zdzisiek",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
@@ -118,7 +175,7 @@
       "url": "https://www.bankier.pl/forum/temat_gdy-ipopema-mowila-8-5zl-wyzywali-od-najgorszych,75304527.html",
       "body": "Poszukaj gałęzi i idź się pohuśtaj na sznurku. IPOPEMA pisze na zlecenie i zawsze jest tak samo wiarygodna, czyli wcale, ale jak mówiła te twoje 8,50 to była \"najrzetelniejsza\" ze wszystkich... a teraz odwracacie kota ogonem, bo nie po waszemu. Weź się za uczciwą pracę a nie wypisujesz bzdury...",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -133,7 +190,7 @@
       "body": "Teraz jak mówi 19zł to jest wiarygodna. Haha! Nie dajcie się trolom wzrostowym!",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -160,7 +217,7 @@
       "url": "https://www.bankier.pl/forum/temat_najwiekszy-bank-obniza-rekomendacje-niestety,75301731.html",
       "body": "Lecz sie",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -188,7 +245,7 @@
       "url": "https://www.bankier.pl/forum/temat_nowe-reko-19-zl,75300591.html",
       "body": "Do wyników już niedaleko. Może coś powiedzą na konferencji, ale na pełną strategię jeszcze za wcześnie. Do boju.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0,
@@ -231,7 +288,7 @@
       "body": "PKO zaprzestał rekomendować zakupu. Szkoda. Wielka szkoda. To może oznaczać tylko jedno",
       "votes": {
         "up": 0,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -356,7 +413,7 @@
       "url": "https://www.bankier.pl/forum/temat_nowe-reko-19-zl,75300591.html",
       "body": "45 to godziwą cena",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -384,7 +441,7 @@
       "url": "https://www.bankier.pl/forum/temat_nowe-reko-19-zl,75300591.html",
       "body": "Nowe Reko - 19 zł - źródło https://grupapolsatplus.pl/pl/relacje-inwestorskie/gielda/rekomendacjei to od kogo ;-) 31 lipca 2026 r.IpopemaAkumuluj19,00 złkilka miesięcy temu było sprzedaj i 8,5 zł ;-)Więc ładują do worów i na longa stawiają.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2477,34 +2534,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75262637",
-      "author": "Jadwiga",
-      "postedAt": "2026-07-28 14:38",
-      "threadTitle": "Re: DM TRIGON zmienia nazwę na DM NAGON",
-      "url": "https://www.bankier.pl/forum/temat_dm-trigon-zmienia-nazwe-na-dm-nagon,75214109.html",
-      "body": "Dobrzes to jacek napisal. Nagon",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75262073",
-      "author": "KakałOwiec",
-      "postedAt": "2026-07-28 14:03",
-      "threadTitle": "Re: Netia dużo zyskowniejsza - większy zysk 10 %",
-      "url": "https://www.bankier.pl/forum/temat_netia-duzo-zyskowniejsza-wiekszy-zysk-10,75260571.html",
-      "body": "Hahaha Traco klientów aż trzeszczy w ustępach ! Hahaha",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75262061",
       "author": "Obiektywnie",
       "postedAt": "2026-07-28 14:02",
@@ -2573,20 +2602,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75260571",
-      "author": "Obiektywnie",
-      "postedAt": "2026-07-28 12:17",
-      "threadTitle": "Netia dużo zyskowniejsza - większy zysk 10 %",
-      "url": "https://www.bankier.pl/forum/temat_netia-duzo-zyskowniejsza-wiekszy-zysk-10,75260571.html",
-      "body": "https://www.wirtualnemedia.pl/netia-duzo-zyskowniejsza-ludzie-solorza-bez-absolutoriow,7312070782908800a",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75259619",
@@ -2659,20 +2674,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75258097",
-      "author": "11845682",
-      "postedAt": "2026-07-28 09:37",
-      "threadTitle": "Re: ja czekam na szczal (l!!!!!)",
-      "url": "https://www.bankier.pl/forum/temat_ja-czekam-na-szczal-l,75257667.html",
-      "body": "45 zł...",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75258083",
       "author": "11845682",
       "postedAt": "2026-07-28 09:36",
@@ -2701,20 +2702,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75258057",
-      "author": "Koko",
-      "postedAt": "2026-07-28 09:35",
-      "threadTitle": "Re: ja czekam na szczal (l!!!!!)",
-      "url": "https://www.bankier.pl/forum/temat_ja-czekam-na-szczal-l,75257667.html",
-      "body": "Dokladnie zbyt dużo tu naganiania, produkowania sie szorcików - obrzydzania spółki . A wszystko to po to żeby zarobić wiec kto cierpliwy tan jest już wygrany to tylko chwila .",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75258037",
       "author": "Zdechly_kot",
       "postedAt": "2026-07-28 09:34",
@@ -2727,20 +2714,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75257667",
-      "author": "Myśliwy",
-      "postedAt": "2026-07-28 09:14",
-      "threadTitle": "ja czekam na szczal (l!!!!!)",
-      "url": "https://www.bankier.pl/forum/temat_ja-czekam-na-szczal-l,75257667.html",
-      "body": "j.w. jak na pepco.Trzymałem, trzymałem, nie popuszczałem, aż się doczekałem. Tu będzie to samo",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75257575",
@@ -2783,20 +2756,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75257007",
-      "author": "AntonBiegunkovic",
-      "postedAt": "2026-07-28 08:25",
-      "threadTitle": "GR0B0WE NASTROJE W POLSACIE. niestety",
-      "url": "https://www.bankier.pl/forum/temat_gr0b0we-nastroje-w-polsacie-niestety,75257007.html",
-      "body": "Tak się musiało to skończyć. Zygmunt nie popuścihttps://telewizja.jastrzabpost.pl/interwencja-znika-z-polsatu-dziennikarze-ujawnia-nastroje-w-redakcji,7312239456196992a",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75255213",
@@ -2895,6 +2854,62 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75243705",
+      "author": "Irek",
+      "postedAt": "2026-07-26 15:59",
+      "threadTitle": "Czy CPS bedzie budował farmę 500MW z ZEPAK?",
+      "url": "https://www.bankier.pl/forum/temat_czy-cps-bedzie-budowal-farme-500mw-z-zepak,75243705.html",
+      "body": "O tym bedzie strategia na jesień?ZEPAK już zbiera kasę. Inwestycja pewno na ok 3 mld. ZEPAK uzbieral juz 700mln.Takie moje przypuszczenia. Zobaczymy czy się sprawdzą. I planowanie ukończenia inwestycji na koniec 2027. Może tutaj ktoś wie, czy dałoby się pod to jakaś dotacje wyciagnąć?To wszystko to tylko moje przypuszczenia",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75240971",
+      "author": "Ojo",
+      "postedAt": "2026-07-25 20:45",
+      "threadTitle": "Re: Spólka dnia DM BOŚ",
+      "url": "https://www.bankier.pl/forum/temat_spolka-dnia-dm-bos,74975167.html",
+      "body": "Cierpliwość popłaci",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75239751",
+      "author": "Włodi",
+      "postedAt": "2026-07-25 14:40",
+      "threadTitle": "Re: Tu ŚMIESZY UROST jest od 12zł, SPADŹ beczy zbity w koncie AŁŁA..SZOK",
+      "url": "https://www.bankier.pl/forum/temat_tu-smieszy-urost-jest-od-12zl-spadz-beczy-zbity-w-koncie-alla-szok,75185621.html",
+      "body": "Ale ich żbilii masakra będzie bolało ALA",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75239745",
+      "author": "Włodi",
+      "postedAt": "2026-07-25 14:39",
+      "threadTitle": "Re: Ostrzegałem dziubaski już przy 12 a teraz płacz AŁA musi boleć SZOK",
+      "url": "https://www.bankier.pl/forum/temat_ostrzegalem-dziubaski-juz-przy-12-a-teraz-placz-ala-musi-bolec-szok,75192635.html",
+      "body": "Ale kwik shortów nawet w weekend AŁA musi boleć SZOK !!!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
     }
   ]
 }

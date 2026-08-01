@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-08-01T03:49:16.069Z",
+  "updatedAt": "2026-08-01T08:34:22.960Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-01T03:49:16.069Z",
+    "fetchedAt": "2026-08-01T08:34:22.960Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.082,
+    "score": 0.072,
     "confidence": 0.73,
-    "commentCount": 122,
+    "commentCount": 124,
     "breakdown": {
       "positive": 40,
-      "negative": 22,
-      "neutral": 60
+      "negative": 23,
+      "neutral": 61
     },
     "trend": [
       {
@@ -53,10 +53,15 @@
         "date": "2026-07-31",
         "score": 0.113,
         "count": 28
+      },
+      {
+        "date": "2026-08-01",
+        "score": -0.291,
+        "count": 2
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 122 komentarzy z ostatnich 7 dni: nastroje mieszane (40 pozytywnych, 22 negatywnych, 60 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 124 komentarzy z ostatnich 7 dni: nastroje mieszane (40 pozytywnych, 23 negatywnych, 61 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
@@ -101,6 +106,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75305821",
+      "author": "kus",
+      "postedAt": "2026-08-01 07:51",
+      "threadTitle": "Re: prognoza wf",
+      "url": "https://www.bankier.pl/forum/temat_prognoza-wf,75304081.html",
+      "body": "Za I kwartał już były wyniki 3,5mld",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75305681",
+      "author": "Trzas-wawa",
+      "postedAt": "2026-08-01 06:47",
+      "threadTitle": "Re: Lisku, wyznwacy wołają, prowadź wodzu !",
+      "url": "https://www.bankier.pl/forum/temat_lisku-wyznwacy-wolaja-prowadz-wodzu,75301277.html",
+      "body": "To raczej wygląda na ironię. Ja odradzam sugerowanie się wpisami innych forumowiczów.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75305019",
       "author": "YorX",
