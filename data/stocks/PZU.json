@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-08-01T19:34:35.000Z",
+  "updatedAt": "2026-08-02T03:53:54.235Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-01T19:34:35.000Z",
+    "fetchedAt": "2026-08-02T03:53:54.235Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.23,
+    "score": 0.229,
     "confidence": 0.78,
     "commentCount": 61,
     "breakdown": {
       "positive": 30,
-      "negative": 6,
-      "neutral": 25
+      "negative": 5,
+      "neutral": 26
     },
     "trend": [
       {
         "date": "2026-07-26",
-        "score": -0.361,
-        "count": 3
+        "score": -0.161,
+        "count": 2
       },
       {
         "date": "2026-07-27",
@@ -58,10 +58,15 @@
         "date": "2026-08-01",
         "score": 0.494,
         "count": 5
+      },
+      {
+        "date": "2026-08-02",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 61 komentarzy z ostatnich 7 dni: nastroje pozytywne (30 pozytywnych, 6 negatywnych, 25 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 61 komentarzy z ostatnich 7 dni: nastroje pozytywne (30 pozytywnych, 5 negatywnych, 26 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
@@ -78,6 +83,10 @@
       {
         "word": "spolek",
         "count": 5
+      },
+      {
+        "word": "maja",
+        "count": 4
       },
       {
         "word": "orlen",
@@ -98,14 +107,24 @@
       {
         "word": "dywidende",
         "count": 4
-      },
-      {
-        "word": "wartosci",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75309879",
+      "author": "Jestokej",
+      "postedAt": "2026-08-02 02:53",
+      "threadTitle": "Re: Sprzedaż Żabki uwolni miliardy PLN",
+      "url": "https://www.bankier.pl/forum/temat_sprzedaz-zabki-uwolni-miliardy-pln,75306697.html",
+      "body": "Techniczne kręcenie koszykiem gus już za nami, prezia też zmienili, chyba wyczerpali bajery i trzeba sie zmierzyć z prawdąTarcze wyczerpane, w kasie dziura , usługi budowlano - wykończeniowe +20% r/r, lekarze biedy nie mają, chyba idziemy w galop. Bochenek chleba z 2.8 na 5.5 to +99% od covida, taki zwykły którym sie tak Glapa zajada przed konferencjami :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75308381",
       "author": "Insurance",
@@ -944,20 +963,6 @@
         "down": 0
       },
       "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75241457",
-      "author": "Cashofarianin",
-      "postedAt": "2026-07-26 00:46",
-      "threadTitle": "Re: Oficjalny kit dla mas i realna inflacja pod dywanem/truestory",
-      "url": "https://www.bankier.pl/forum/temat_oficjalny-kit-dla-mas-i-realna-inflacja-pod-dywanem,75227209.html",
-      "body": "Paniczne ruchy podczas krachów czy napięć geopolitycznych, jak konflikt z Iranem, to główny powód, dla którego kapitał ucieka od kurczaków do rentierów. Elita traktuje zwały nie jako zagrożenie, ale jako transfer majątku, następuje aktywacja rezerw gotówkowych i skupowanie wartościowych aktywów. Zwała na balonach AI i podwyżki stóp procentowych automatycznie uruchamiają potężną rotację kapitału do sektora Value oraz firm ubezpieczeniowych. Jestem znudzony...czekam na zwałe w cashu...w poniedziałek chyba nie doczekam bo żaba wchodzi tutaj.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
     }
   ]

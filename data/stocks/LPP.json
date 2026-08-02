@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-08-01T19:33:53.968Z",
+  "updatedAt": "2026-08-02T03:53:06.909Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-01T19:33:53.968Z",
+    "fetchedAt": "2026-08-02T03:53:06.909Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,24 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.061,
+    "score": 0.063,
     "confidence": 0.72,
-    "commentCount": 96,
+    "commentCount": 94,
     "breakdown": {
       "positive": 28,
-      "negative": 16,
-      "neutral": 52
+      "negative": 15,
+      "neutral": 51
     },
     "trend": [
       {
-        "date": "2026-07-02",
-        "score": 0,
-        "count": 1
-      },
-      {
         "date": "2026-07-03",
-        "score": -0.13,
-        "count": 2
+        "score": 0.322,
+        "count": 1
       },
       {
         "date": "2026-07-05",
@@ -145,8 +140,8 @@
         "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 96 komentarzy z ostatnich 30 dni: nastroje mieszane (28 pozytywnych, 16 negatywnych, 52 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 94 komentarzy z ostatnich 30 dni: nastroje mieszane (28 pozytywnych, 15 negatywnych, 51 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
@@ -1506,34 +1501,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75004831",
-      "author": "Zorro2",
-      "postedAt": "2026-07-03 00:02",
-      "threadTitle": "Re: I po spadkach 2",
-      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach-2,74939177.html",
-      "body": "Uwierzcie już po spadkach teraz tylko straszą. Śmiejcie się z tego",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75004581",
-      "author": "on",
-      "postedAt": "2026-07-02 23:24",
-      "threadTitle": "DLACZEGO",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego,75004581.html",
-      "body": "Czy ktoś z ktosiów, garaczy, nibygraczy, botów i hejterówma jakąś wiedzę dlaczego? Czy pojawił się jakiś komunikat?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
