@@ -3,41 +3,46 @@
   "companyName": "CD Projekt SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-sa,6,21,353.html",
-  "updatedAt": "2026-08-04T14:38:20.188Z",
+  "updatedAt": "2026-08-04T19:55:26.894Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-04T14:38:20.188Z",
+    "fetchedAt": "2026-08-04T19:55:26.894Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 139
+    "threadsScanned": 143
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.005,
+    "score": -0.003,
     "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 49,
-      "negative": 61,
-      "neutral": 90
+      "positive": 53,
+      "negative": 54,
+      "neutral": 93
     },
     "trend": [
       {
+        "date": "2026-07-29",
+        "score": -0.107,
+        "count": 3
+      },
+      {
         "date": "2026-07-30",
-        "score": -0.024,
-        "count": 11
+        "score": -0.07,
+        "count": 12
       },
       {
         "date": "2026-07-31",
-        "score": -0.18,
-        "count": 35
+        "score": -0.102,
+        "count": 11
       },
       {
         "date": "2026-08-01",
-        "score": 0.016,
-        "count": 15
+        "score": -0.029,
+        "count": 7
       },
       {
         "date": "2026-08-02",
@@ -51,56 +56,448 @@
       },
       {
         "date": "2026-08-04",
-        "score": -0.033,
-        "count": 51
+        "score": -0.029,
+        "count": 79
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (49 pozytywnych, 61 negatywnych, 90 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (53 pozytywnych, 54 negatywnych, 93 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "hehe",
-        "count": 23
+        "count": 26
+      },
+      {
+        "word": "spadzie",
+        "count": 17
       },
       {
         "word": "gamescom",
         "count": 15
       },
       {
-        "word": "spadzie",
-        "count": 12
-      },
-      {
         "word": "przy",
         "count": 12
       },
       {
-        "word": "projekt",
-        "count": 11
+        "word": "zeby",
+        "count": 9
       },
       {
         "word": "premiery",
         "count": 9
       },
       {
-        "word": "zeby",
+        "word": "projekt",
+        "count": 9
+      },
+      {
+        "word": "dalej",
         "count": 8
       },
       {
-        "word": "widze",
-        "count": 7
+        "word": "maja",
+        "count": 8
       },
       {
-        "word": "prawda",
-        "count": 7
-      },
-      {
-        "word": "roku",
-        "count": 7
+        "word": "sesji",
+        "count": 8
       }
     ]
   },
   "comments": [
+    {
+      "id": "75337131",
+      "author": "Lucjusz",
+      "postedAt": "2026-08-04 21:21",
+      "threadTitle": "300 zeta na koniec tygodnia",
+      "url": "https://www.bankier.pl/forum/temat_300-zeta-na-koniec-tygodnia,75337131.html",
+      "body": "Tylko jeszcze nie wiadomo którego.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75336857",
+      "author": "PIOTR",
+      "postedAt": "2026-08-04 20:51",
+      "threadTitle": "Re: Co ja narobiłem :(",
+      "url": "https://www.bankier.pl/forum/temat_co-ja-narobilem,75336373.html",
+      "body": "To samo pisałeś przy 100, gon się półgłówku do lekarza",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75336851",
+      "author": "PIOTR",
+      "postedAt": "2026-08-04 20:50",
+      "threadTitle": "Re: ORTEX 2.14 mln wczoraj 2.21 Trader2022 z X podaje",
+      "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
+      "body": "Hehehe Mitomanka to twoja staraaa. Okłamała cię że jest twoja staraaaa hehehe",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75336373",
+      "author": "Mentor",
+      "postedAt": "2026-08-04 19:54",
+      "threadTitle": "Co ja narobiłem :(",
+      "url": "https://www.bankier.pl/forum/temat_co-ja-narobilem,75336373.html",
+      "body": "Znów rośnie a ja mam niestety mniej niż miałem",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75335733",
+      "author": "Zdzisław",
+      "postedAt": "2026-08-04 18:51",
+      "threadTitle": "Re: Jak mi dobrze pujdzie z butelkami to dobieram Reduw!!!",
+      "url": "https://www.bankier.pl/forum/temat_jak-mi-dobrze-pujdzie-z-butelkami-to-dobieram-reduw,75327809.html",
+      "body": "Może sorzedam wtedy 5 sztuk a resztem sprzedam jak bendom po 17 czy 20 tysiency ale sie jeszcze zastanowiem!!!!!",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75335641",
+      "author": "Mocarz",
+      "postedAt": "2026-08-04 18:42",
+      "threadTitle": "Re: Nie tykać balona ......bo będzie padek do 190 zł .......",
+      "url": "https://www.bankier.pl/forum/temat_nie-tykac-balona-bo-bedzie-padek-do-190-zl,75330217.html",
+      "body": "Xxx a ty z której karuzeli się urwałeś?",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75335557",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-08-04 18:35",
+      "threadTitle": "Jutro atak na 260, a do piontku możliwe że penknie czysta?",
+      "url": "https://www.bankier.pl/forum/temat_jutro-atak-na-260-a-do-piontku-mozliwe-ze-penknie-czysta,75335557.html",
+      "body": "Na prawdę mnie to nie zdziwi.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75335221",
+      "author": "PIOTR",
+      "postedAt": "2026-08-04 18:11",
+      "threadTitle": "Re: Hmm, dzisiaj nie było popytu , marne 80mln",
+      "url": "https://www.bankier.pl/forum/temat_hmm-dzisiaj-nie-bylo-popytu-marne-80mln,75334275.html",
+      "body": "Dokładnie ,spadzie też są potrzebne. Trochę ich nie doceniamy. Kto sprzedałby mi po 80 hmmmm Dobre chłopaki ,trochę czosnkiem śmierdzą ,ale nie szkodzi hehe",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75335185",
+      "author": "zielony_guzik",
+      "postedAt": "2026-08-04 18:08",
+      "threadTitle": "Re: Hmm, dzisiaj nie było popytu , marne 80mln",
+      "url": "https://www.bankier.pl/forum/temat_hmm-dzisiaj-nie-bylo-popytu-marne-80mln,75334275.html",
+      "body": "Ja uwielbiam shorty kto inny sprzedalby mi dziś akcje po 253. Oby tak dalej shorty nie poddawajcie się!!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.931,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75335169",
+      "author": "zielony_guzik",
+      "postedAt": "2026-08-04 18:06",
+      "threadTitle": "Re: Nie tykać balona ......bo będzie padek do 190 zł .......",
+      "url": "https://www.bankier.pl/forum/temat_nie-tykac-balona-bo-bedzie-padek-do-190-zl,75330217.html",
+      "body": "Ja też czekam, to by było rozsądne spadek cdprojekt o 25% przy ronsącym wigu w przededniu presentacji dcl. Noo 190 - brawo a jutro disel na orlenie po 4.99 i Marlboro po 9,99 ?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75335091",
+      "author": "M84ck",
+      "postedAt": "2026-08-04 17:59",
+      "threadTitle": "Re: Nie tykać balona ......bo będzie padek do 190 zł .......",
+      "url": "https://www.bankier.pl/forum/temat_nie-tykac-balona-bo-bedzie-padek-do-190-zl,75330217.html",
+      "body": "Do nory smutny nosku.",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75335083",
+      "author": "M84ck",
+      "postedAt": "2026-08-04 17:58",
+      "threadTitle": "Re: brak popytu po stronie szorta, to brak jakiegokolwiek popytu",
+      "url": "https://www.bankier.pl/forum/temat_brak-popytu-po-stronie-szorta-to-brak-jakiegokolwiek-popytu,75331467.html",
+      "body": "Co tam miałczysz smutny nosku? Uzupełniwszy depozyt piesku małych czapeczek?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75335057",
+      "author": "PIOTR",
+      "postedAt": "2026-08-04 17:56",
+      "threadTitle": "Re: Hmm, dzisiaj nie było popytu , marne 80mln",
+      "url": "https://www.bankier.pl/forum/temat_hmm-dzisiaj-nie-bylo-popytu-marne-80mln,75334275.html",
+      "body": "Nawet dobre obroty jak na sezon ogórkowy. Dobrze zapowiada się sierpień. WIG20 na rekordach. Spadzie uciekają z wielu spółek. Pomarańczowy obiecuje umowę hmmm ciekawie ,ciekawie. Spadzie jak będą czekać to po 300 będą robić odkup. Próbują sypać ale ,ktoś im szybko zbiera hehe nie wiedzą co się dzieje hehe ciekawe czy na zero wyjdą . Biznesmeni",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75334779",
+      "author": "Golgotan",
+      "postedAt": "2026-08-04 17:35",
+      "threadTitle": "Re: ORTEX 2.14 mln wczoraj 2.21 Trader2022 z X podaje",
+      "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
+      "body": "Powołujesz się na mitomana który twierdzi że podaje dane z Ortex. Widzisz różnice forumowy waflu ?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75334757",
+      "author": "PIOTR",
+      "postedAt": "2026-08-04 17:33",
+      "threadTitle": "Re: ORTEX 2.14 mln wczoraj 2.21 Trader2022 z X podaje",
+      "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
+      "body": "Sezon ogórkowy a tu nawet średnie obroty 322K , WIG20 na rekordach.Spadzie dalej uciekają, mają dobre informacje z przecieków hehe już nie mogę doczekać się GAMAESCOM. Zostało 15 sesji.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75334671",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-08-04 17:27",
+      "threadTitle": "Re: Dokopłem dzisiaj akcje",
+      "url": "https://www.bankier.pl/forum/temat_dokoplem-dzisiaj-akcje,75322679.html",
+      "body": "Za to Cie szanuje kolego I to jest rzycie!!!! Ja puki mam robotę co moge w niej spać to się jej trzymam ale tak też bym żył na koszt państwa!!! Muwiom szlachta nie pracuje!!!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75334533",
+      "author": "Wjehu",
+      "postedAt": "2026-08-04 17:17",
+      "threadTitle": "Re: Dokopłem dzisiaj akcje",
+      "url": "https://www.bankier.pl/forum/temat_dokoplem-dzisiaj-akcje,75322679.html",
+      "body": "Jak moja konkubina Grarzyna dostanie alimenty na czwurke młodyh to terz bedziemy dokupywać. Z zasiłku i 800 plus spokojnie wyrzyjemy",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75334513",
+      "author": "PIOTR",
+      "postedAt": "2026-08-04 17:16",
+      "threadTitle": "Re: ORTEX 2.14 mln wczoraj 2.21 Trader2022 z X podaje",
+      "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
+      "body": "Ale piękny fixing ,prawie 260 wskoczyło,szkoda . 257.30 też pięknie . Ostatni szczyt wybity. Jutro witamy 264 Fibo 0.61",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75334431",
+      "author": "PIOTR",
+      "postedAt": "2026-08-04 17:13",
+      "threadTitle": "Re: ORTEX 2.14 mln wczoraj 2.21 Trader2022 z X podaje",
+      "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
+      "body": "Super, na pewno będziesz zadowolony. Za rok będziemy na 400. Jeśli będziesz miał trochę cierpliwości to zostaniesz wynagrodzony. Ja najlepsze i największe zakupy robiłem od 80-120. Teraz po 220 parę K akcji dobrałem. A jeszcze lepsze zakupy robiłem kiedyś po 4 PLN hehe piękne czasy. Widziałeś jak trolle spadziowe szaleją ? Spadzie są zdesperowani Hehehe myślą ,że jak wyślą dzieci z podstawówki do trollowania to ulica odda akcje że strachu hehe kabarety",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75334435",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-08-04 17:13",
+      "threadTitle": "Re: Dokopłem dzisiaj akcje",
+      "url": "https://www.bankier.pl/forum/temat_dokoplem-dzisiaj-akcje,75322679.html",
+      "body": "Uwaga na tego spadzie bo podszywa się pod kogoś co ja nim jestem a to nie jestem ja i on jest nieudacznikiem a ja akcji mam dużo wiencej!!!!! Mam ponad 200 akcji Reduw!!!!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75334403",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-08-04 17:12",
+      "threadTitle": "W sierpniu papier może być dziennie na zielono!!!!",
+      "url": "https://www.bankier.pl/forum/temat_w-sierpniu-papier-moze-byc-dziennie-na-zielono,75334403.html",
+      "body": "I na prawdę nikogo to nie powinno dziwić.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75334335",
+      "author": "PIOTR",
+      "postedAt": "2026-08-04 17:08",
+      "threadTitle": "Re: ORTEX 2.14 mln wczoraj 2.21 Trader2022 z X podaje",
+      "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
+      "body": "Powołuje się na ORTEX półgłówku hehe Boli was spadzie,że Trader2022 udostępnia ORTEX i jesteście w czarnej ? Hehehe rozumiem was, zwijajcie manele i do czosnkowej krainy won",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75334275",
+      "author": "Zenon",
+      "postedAt": "2026-08-04 17:05",
+      "threadTitle": "Hmm, dzisiaj nie było popytu , marne 80mln",
+      "url": "https://www.bankier.pl/forum/temat_hmm-dzisiaj-nie-bylo-popytu-marne-80mln,75334275.html",
+      "body": "Życzę wszystkim więcej takich sesji, shortów też",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75334247",
+      "author": "zielony_guzik",
+      "postedAt": "2026-08-04 17:03",
+      "threadTitle": "Re: ORTEX 2.14 mln wczoraj 2.21 Trader2022 z X podaje",
+      "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
+      "body": "Piotr apropo wczorajszej rozmowy. Dokupiłem dziś kolejne akcje. Udalo się po 253. Pociąg troche mi za szybko odjechał liczyłem na początku ze dokupie jak potwierdzi się tręd wzrostowy po 240. Ale z 235 na 250 skoczyło w jeden dzień a nie byłem przygotowany. No cóż oby do 296 poszło gładko =) chociaż mam jeszcze zaskórniki na dodatkową transze",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75334119",
+      "author": "Golgotan",
+      "postedAt": "2026-08-04 16:55",
+      "threadTitle": "Re: ORTEX 2.14 mln wczoraj 2.21 Trader2022 z X podaje",
+      "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
+      "body": "Powołujesz się na mitomana a innych nazywasz \"kasztanami\" ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75334081",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-08-04 16:54",
+      "threadTitle": "Re: Dokopłem dzisiaj akcje",
+      "url": "https://www.bankier.pl/forum/temat_dokoplem-dzisiaj-akcje,75322679.html",
+      "body": "Masz racjem kolego, to słownik nie mysli",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75333863",
+      "author": "Jupit",
+      "postedAt": "2026-08-04 16:41",
+      "threadTitle": "Re: Dokopłem dzisiaj akcje",
+      "url": "https://www.bankier.pl/forum/temat_dokoplem-dzisiaj-akcje,75322679.html",
+      "body": "Jak to, nie myślę? Raczej się nie mylę.Powodzenia. :)",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75333841",
+      "author": "Nano",
+      "postedAt": "2026-08-04 16:40",
+      "threadTitle": "350 na początek",
+      "url": "https://www.bankier.pl/forum/temat_350-na-poczatek,75333841.html",
+      "body": "Się analitycy już ślinią na widok akcji",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75333479",
       "author": "AkcjoMariusz",
@@ -109,7 +506,7 @@
       "url": "https://www.bankier.pl/forum/temat_chcem-wam-powiedz-rze,75333479.html",
       "body": "Mam te akcje i zwiekszam zaanagarzowanje",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -137,7 +534,7 @@
       "url": "https://www.bankier.pl/forum/temat_brak-popytu-po-stronie-szorta-to-brak-jakiegokolwiek-popytu,75331467.html",
       "body": "Hmm chyba pracodawca zerwie z tobą umowę hehe słabo trollujesz Hehe dzisiaj i sierpień na zielono",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -152,7 +549,7 @@
       "body": "ladacznico?",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -165,7 +562,7 @@
       "url": "https://www.bankier.pl/forum/temat_do-gamescomu-coraz-blizej,75333189.html",
       "body": "To właśnie jak wyjdą ogłoszenia, na tym papierze pojawi się duży popyt...",
       "votes": {
-        "up": 0,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -179,7 +576,7 @@
       "url": "https://www.bankier.pl/forum/temat_brak-popytu-po-stronie-szorta-to-brak-jakiegokolwiek-popytu,75331467.html",
       "body": "Tak wiszę na zielonym gaju od 100, a ty dostałeś wypłatę od małych czapeczek ? Hehe Wystarczy na obiad ?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -235,7 +632,7 @@
       "url": "https://www.bankier.pl/forum/temat_trolle-spadziowe-wychodza-z-nory-tzn-up-up-up,75329507.html",
       "body": "16 sesji do Gamescom, spadzie miotają się jak dzikie pelikany , trolliki ,pochowają się ponownie przy 290 hehe I będą w szoku ,bo pracodawca wypowie umowę hehe",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -250,7 +647,7 @@
       "body": "milion akcji od szorta starczył na podbitke 10% :) bogactwo :) a teraz powrót do bazy",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -263,8 +660,8 @@
       "url": "https://www.bankier.pl/forum/temat_nie-tykac-balona-bo-bedzie-padek-do-190-zl,75330217.html",
       "body": "Ok. Tak zrobilem . czekam przy 200 !!",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -277,8 +674,8 @@
       "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
       "body": "Trolle spadziowe ,lizusy małych czapeczek hehe",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -291,8 +688,8 @@
       "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
       "body": "Posłańcem małych czapeczek ? 13 srebrników wystarczyło ,żeby cię kupić hehe",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -306,7 +703,7 @@
       "body": "Tak. Obiecywal wielki skup akcji przez szorta i olbrzymie wzrosty na JSW do konca czerwca. Oczywiscie to sie nie wydarzylo.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -319,7 +716,7 @@
       "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
       "body": "A ty kim jesteś kasztanie ?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -334,7 +731,7 @@
       "body": "To ten sam Trader2022 co na JSW widzi 390 PLN od 3 lat i czeka na odkup shorta 7mln akcji?",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -347,8 +744,8 @@
       "url": "https://www.bankier.pl/forum/temat_jak-mi-dobrze-pujdzie-z-butelkami-to-dobieram-reduw,75327809.html",
       "body": "Jak akcje bendom po 5 tysiency to już sprzedajesz?",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -361,7 +758,7 @@
       "url": "https://www.bankier.pl/forum/temat_brak-popytu-po-stronie-szorta-to-brak-jakiegokolwiek-popytu,75331467.html",
       "body": "Kolega chce powiedzieć że 100% obrotu to short ?:)",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -376,7 +773,7 @@
       "body": "taka prawda rośnie tylko jak fundy szort wychodzą z inwestycji, nie ma od nich popytu to nie ma wzrostu :)... dziś na minusie",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -389,7 +786,7 @@
       "url": "https://www.bankier.pl/forum/temat_w-indianapolis-na-gen-con-2026-pokazano-cyberpunk-tcg,75324875.html",
       "body": "Dziadku.. zapytaj kolegów z Alzheimerem!! XDPiszesz na tym wątku o karciance, której w 2022 roku jeszcze nie było!XDWnuki bawić - a nie zawracać dupy inwestorom!",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -403,8 +800,8 @@
       "url": "https://www.bankier.pl/forum/temat_ortex-2-14-mln-wczoraj-2-21-trader2022-z-x-podaje,75330447.html",
       "body": "Spadzie uciekają do krainy kwitnącego czosnku. Chyba mają przecieki ,że na Games com będzie się działo na ostro .",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 5,
+        "down": 1
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -418,7 +815,7 @@
       "body": "..Nie tykać teraz bo spadnie w okolice 190 zł i dopiero pomału można robic zakupy ....",
       "votes": {
         "up": 1,
-        "down": 5
+        "down": 11
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -432,7 +829,7 @@
       "body": "to po co takie bzdury pisałeś w okolicach 2021 roku, największym trollem jesteś Ty, a teraz na dwór słońca złapać i ruchu bo od wirtualnego świata Ci się bałagan na strychu robi synuś",
       "votes": {
         "up": 2,
-        "down": 3
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -445,7 +842,7 @@
       "url": "https://www.bankier.pl/forum/temat_trolle-spadziowe-wychodza-z-nory-tzn-up-up-up,75329507.html",
       "body": "Zszokowani 14% wyżej wyją hehe będzie spadało ,będzie 100, bankrut hehe miód na moje serce . Jedziemy na Fibo 0.61 - 264 pierwszy przystanek",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.87,
@@ -543,8 +940,8 @@
       "url": "https://www.bankier.pl/forum/temat_w-indianapolis-na-gen-con-2026-pokazano-cyberpunk-tcg,75324875.html",
       "body": "> Była ta gra karciana co pisałeś kilka lat temu za zarobi miliard ? Tak tylko pytamDrogi trollu coś pomerdałeś w informacjach, które docierają do twojej bańki ignoranta..Nikt nie twierdzi że analitycy uznają prezentację niszowej karcianki Cyberpunk TCG za miliardowe przedsięwzięcie! Udział w targach Gen Con 2026 uznano za informację pro-wzrostową - ponieważ potwierdza ona potężną siłę monetyzacji i zaangażowania fanów offline - poza samymi grami wideo. Raczej wszyscy są pozytywnie zaszokowani nieprawdopodobnym entuzjazmem towarzyszącym karciance; której sprzedaż obliczano na maksym alnie kilkaset do miliona dolarów w ciągu całego żywota..! xDDJakie czynniki biznesowe i rynkowe przemawiają za tym?Rekordowe zainteresowanie: Karcianka zebrała na Kickstarterze blisko 29 mln USD od ponad 50 000 wspierających, stając się rekordem i fenomenem crowdfundingowym. Potęga globalnej franczyzy: Gra wideo Cyberpunk 2077 znacznie przekroczyła pułap 40 milionów sprzedanych sztuk. Baza graczy szukających fizycznych produktów z tego uniwersum jest gigantyczna, a to bezpośrednio przekłada się na płynność finansową i obroty na rynku wtórnym gier bez prądu. Bpwie4m fizyczny produkt buduje długoterminowe zaangażowanie społeczności (zanim ukażą się kolejne duże gry wideo z uniwersum Cyberpunka).Skala odbioru na Gen Con 2026: Ogromne kolejki, pełne obłożenie sesji demonstracyjnych oraz świetne przyjęcie kluczowych ujawnień kart (np. Johnny Silverhand: Rocking Renegade) świadczą o gotowości rynku na premierę zestawu Welcome to Night City przed sezonem świątecznym.Co ciekawe mamy dodatkowo fenomen dalszej sprzedaży (mimo zakończenia crofdtfundingu): Secondary market szacowany jest na kolejne ponad 5 milionów dolarów i wynika z mechaniki rynku kolekcjonerskich gier karcianych (TCG) oraz ogromnej luki czasowej między rekordową zbiórką a sklepową premierą.",
       "votes": {
-        "up": 3,
-        "down": 4
+        "up": 5,
+        "down": 5
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
@@ -586,7 +983,7 @@
       "body": "Mam na razie 16 sztuk co je brałem po 420 złotych 6 lat temu i chcem jeszcze dobrać 4 to wtedy bendem miał ruwne 20 sztuk i je potem sprzedam za 100 tysiency i taki mam plan!!!!!!",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -767,8 +1164,8 @@
       "url": "https://www.bankier.pl/forum/temat_w-indianapolis-na-gen-con-2026-pokazano-cyberpunk-tcg,75324875.html",
       "body": "Była ta gra karciana co pisałeś kilka lat temu za zarobi miliard ? Tak tylko pytam",
       "votes": {
-        "up": 5,
-        "down": 6
+        "up": 6,
+        "down": 8
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -823,7 +1220,7 @@
       "url": "https://www.bankier.pl/forum/temat_w-indianapolis-na-gen-con-2026-pokazano-cyberpunk-tcg,75324875.html",
       "body": "Jak się robi marketing?Bierzemy Gen Con 2026 - największy i najdłużej trwający w Ameryce Północnej konwent gier bez prądu (gier planszowych, karcianych, RPG i bitewnych), który odbył się w dniach 30 lipca – 2 sierpnia 2026 roku. Nastyęponie w Indiana Convention Center oraz Lucas Oil Stadium w Indianapolis w USA. Uczestniczysz w wydarzeniu gromadzącym co roku ponad 70 tysięcy uczestników i nazywane jest „czterema najlepszymi dniami w grach”!! xDI mamy komunikat, że podczas konwentu Gen Con 2026 (30 lipca – 2 sierpnia) główną aktywnością związaną z uniwersum od CD Projekt było oficjalne prezentowanie i testowanie gry Cyberpunk TCG przez zespół WeirdCo. Gra karciana odniosła gigantyczny sukces na Kickstarterze, zbierając aż 28 milionów dolarów. Oto co działo się wokół projektów CD Projekt na Gen Con 2026 i w jego okolicach:Pokazy i wersje demo: Na stoisku w hali B organizowano otwarte pokazy rozgrywki oraz specjalne sesje testowe wersji Beta dla osób, które wsparły projekt na Kickstarterze. [1]Kluczowe zapowiedzi kart: Podczas wydarzenia ujawniono nowe unikalne karty oraz mechaniki z nadchodzącego zestawu Welcome to Night City. Pokazano m.in. karty legendarne i warianty kultowe (Iconic Rare).",
       "votes": {
-        "up": 8,
+        "up": 11,
         "down": 4
       },
       "sentimentScore": 0,
@@ -1145,7 +1542,7 @@
       "url": "https://www.bankier.pl/forum/temat_dokoplem-dzisiaj-akcje,75322679.html",
       "body": "Miałem 9 a po dzisiejszym zakupie mam juz 10 sztuk!!",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2076,48 +2473,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75309399",
-      "author": "nagan",
-      "postedAt": "2026-08-01 21:39",
-      "threadTitle": "❤️ Aż osiem potęg z TOP 10 indeksu NASDAQ ściśle współpracuje z Redami❗️",
-      "url": "https://www.bankier.pl/forum/temat_az-osiem-poteg-z-top-10-indeksu-nasdaq-scisle-wspolpracuje-z-redami,75309399.html",
-      "body": "Oto oficjalna lista TOP 10 największych spółek notowanych na giełdzie Nasdaq uszeregowana według kapitalizacji rynkowej... Gdyby jakaś firma z WIG 20 współpracowała z poniższymi potęgami.. Mielibyśmy nieustający skowyt i zachwyty nad nieziemskim wyczynem.. Niedawno polski rząd miał telekonferencje (nie osobisty kontakt) z szefami Apple'a.. Krajowe media uznały to wydarzenie za niezwykłe osiągnięcie.. A już osobiste poklepanie się po ramionkach (jako dowód przyjaznej współpracy) z szefami poniżej wymienionych spółek..? xDDNVIDIA (NVDA) – ok. 4,86 bln USDApple (AAPL) – ok. 4,54 bln USDAlphabet / Google (GOOGL) – ok. 4,31 bln USDMicrosoft (MSFT) – ok. 3,45 bln USDAmazon (AMZN) – ok. 2,92 bln USDBroadcom (AVGO) – ok. 1,85 bln USDMeta Platforms (META) – ok. 1,41 bln USDTesla (TSLA) – ok. 1,17 bln USDMicron Technology (MU) – ok. 930 mld USDWalmart (WMT) – ok. 885 mld USDPowiecie NIEREALNE!? Czysta Science Fiction?I to są właśnie prowincjonalne realia polskiej GPW, które całkowicie burzą standardowe algorytmy i podręczniki giełdowe!Ponieważ dla standardowego inwestora, każda spółka z GPW - to co najwyżej lokalny podmiot szukający kontraktów ze światowym biznesem. Tymczasem prawda o CD Projekcie brzmi jak nierzeczywista abstrakcja! Redzi się nawet tym specjalnie nie chwalą! xDD Bo aż osiem firm z TOP 10 indeksu NASDAQ ściśle współpracuje z Redami, a większość z nich sama zabiega o ich względy!https://i.imgur.com/8lMnOZB_d.webp?maxwidth=760&fidelity=grandGdy rozłoży się pierwszą dziesiątkę NASDAQ na czynniki pierwsze, widać czarno na białym, jak nieprawdopodobne i potężne jest to zjawisko:Parę przykładów kto u kogo zabiega? Apple: Greg Joswiak osobiście przylatuje do Michała Nowakowskiego. Bo Apple intensywnie zabiega o wielkie hity (AAA), aby udowodnić całemu światu, że ich nowe procesory Apple Silicon z serii M to potęga gamingowa. To oni pukali do drzwi w Warszawie, by dostać Cyberpunka 2077.NVIDIA: Absolutny król wycen NASDAQ. Przy każdej nowej generacji kart graficznych (RTX) oraz technologii DLSS czy Path Tracingu (pełnego Ray Tracingu), to właśnie Cyberpunk 2077 jest globalnym, flagowym tytułem pokazowym na konferencjach Jensena Huanga. Nvidia potrzebuje perfekcji technologicznej Redów, by sprzedawać swój sprzęt.Microsoft: Stały partner dystrybucyjny i marketingowy, który od lat walczy o to, by gry Redów lądowały w usłudze Game Pass lub miały ekskluzywny marketing z konsolami Xbox (pamiętna prezentacja Keanu Reevesa).Sony (choć z Tokio, to gigant technologiczny): Podobnie jak Microsoft – bije się o marketingowe prawa do kolejnych odsłon Wiedźmina czy Cyberpunka.Alphabet (Google) & Amazon: Google walczyło o Redów przy projekcie Stadia, a Amazon żyje w świetnej komitywie chociażby przy infrastrukturze serwerowej oraz potencjalnych projektach filmowo-serialowych (po sukcesie Edgerunners z Netflixem).Dlaczego klasyczni inwestorzy tego nie rozumieją?Paradoks Wyceny: Dla analityków z Polski (a nawet Wall Street) - CD Projekt to firma z kapitalizacją na poziomie \"zaledwie\" kilku miliardów dolarów – kropla w morzu bilionowych wycen Apple czy Microsoftu. Władza nad IP (Własnością Intelektualną): Czego nie rozumieją arkusze w Excelu? Tego, że Big Tech ma nieskończone miliardy dolarów, ale nie potrafi za te pieniądze stworzyć popkulturowego fenomenu. Mają platformy, systemy operacyjne, gogle VR i karty graficzne – ale te urządzenia są bezwartościowe bez genialnej treści.W tym unikalnym układzie to CD Projekt RED rozdają karty. Globalni giganci muszą zabiegać o współpracę, bo bez udziału Warszawy - nie będą mieli czym promować swoich najnowszych, technologicznych zabawek.To faktycznie najśmieszniejszy i zarazem najbardziej niesamowity zwrot akcji w historii polskiego kapitalizmu. Czy w świetle tej globalnej dominacji uważacie, że warszawska giełda w ogóle nadąża z wyceną tego, jak potężne asy w rękawie trzymają Redi przed premierą Wiedźmina 4 (Projekt Polaris)?",
-      "votes": {
-        "up": 15,
-        "down": 1
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75309001",
-      "author": "Mentor",
-      "postedAt": "2026-08-01 19:54",
-      "threadTitle": "Re: Będzie spadać w poniedziałek",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-spadac-w-poniedzialek,75304135.html",
-      "body": "Ja tez tak widzę",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75308519",
-      "author": "nagan",
-      "postedAt": "2026-08-01 17:22",
-      "threadTitle": "Re: Największe studio w europie CDPROJEKT! może tu ktoś zrobi wezwanie",
-      "url": "https://www.bankier.pl/forum/temat_najwieksze-studio-w-europie-cdprojekt-moze-tu-ktos-zrobi-wezwanie,75296067.html",
-      "body": "> A to mało bogatych na świecie@bolekPrzecież cały czas kręcą się: Sony, Microsoft i Tencent (tylko o najważniejszych wspominając)..Skoro jedną, czwartorzędną gierkę od Techlandu, wyceniono na ca 10 mld zł.. To możesz sobie wyopbrazic ile by musiał „ktoś\" wyłożyć na wykupienie jednego z najlepszych Studiów świata.. I to z dwoma globalnymi markami również ze ścisłego TOP na świecie! Chętnych (nawet na wrogie przejecie) jest wielu..Problem w sprytnym statucie (pigułka antyprzejęciowa)! xDPodmiotem, który najczęściej i najbardziej uparcie przewija się w plotkach dotyczących potencjalnego przejęcia CD Projektu, jest japoński gigant Sony.Wprawdzie Sony (swoim skandalicznym sojuszem z hedgingami) spalił sobie dojścia.. Lecz w wielkim biznesie sentymenty i dawne urazy rzadko stoją na przeszkodzie, jeśli w grę wchodzą miliardy dolarów. Ale wielu innych „zalotników\" do tej pory utrzymuje bliskie kontakty z „piękną Panną na wydaniu\".. xDTakim sygnałem są np „umizgi” do Nowakowskiego, w czasie przekazania pałeczki w Microsoft Gaming..Niedawne przejęcie sterów w Microsoft Gaming przez nową szefową, Ashę Sharmę (która zastąpiła na kluczowych stanowiskach operacyjnych Phila Spencera), przyniosło bardzo ciekawy i znamienny sygnał dyplomatyczny. Podczas konferencji finansowej M. Nowakowski (Joint CEO CD Projektu) potwierdził, że był zaproszony i miał okazję osobiście pożegnać się ze Spencerem oraz zostać bezpośrednio przedstawionym nowej szefowej. W świecie wielkiego biznesu takie bezpośrednie, kurtuazyjne gesty na najwyższym szczeblu deweloper-wydawca nie zdarzają się przypadkowo a zaproszeni są starannie wyselekcjonowani.Microsoft od pierwszych dni nowej kadencji pani Prezes, zabezpiecza swoje najważniejsze partnerstwo strategiczne w Europie Środkowej..Wielu gigantów technologicznych zabiega o kontakty z „nieważną\" dla spekulantów spółeczką z Polski..Szefostwo największego na świecia giganta gamingowego - TENCENT nieustannie nawiedza gabinet prezesa CDR (i z wzajemnością). Albo kilka miesięcy temu odwiedził Nowakowskiego viceprezes Apple'a (gdy Polski Rząd z telekonferencji z szefostwem Apple, zrobił sensacyjne wydarzenie).. XD",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75308471",
       "author": "vilus",
       "postedAt": "2026-08-01 17:11",
@@ -2126,20 +2481,6 @@
       "body": "Świerkają czyli jedzą świerk i go wydalają?",
       "votes": {
         "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75308195",
-      "author": "Mariusz",
-      "postedAt": "2026-08-01 15:50",
-      "threadTitle": "Re: Będzie spadać w poniedziałek",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-spadac-w-poniedzialek,75304135.html",
-      "body": "To co się teraz dzieje jest po to by odkupić wasze akcje.Moim zdaniem, choć mogę się mylić, powoli będzie spadać gdzieś do czwartku do jakiś 243 zł i piątek gdzieś do środy znowu do góry.Proszę się tym co napisałem nie sugerować, bo to nie koniecznie musi tak być, ale ja to tak widzę.",
-      "votes": {
-        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2174,20 +2515,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75307431",
-      "author": "Mentor",
-      "postedAt": "2026-08-01 13:07",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "Bo jest wyłamane... Eksperci za dychę",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75307281",
       "author": "M84ck",
       "postedAt": "2026-08-01 12:45",
@@ -2200,34 +2527,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75307271",
-      "author": "M84ck",
-      "postedAt": "2026-08-01 12:44",
-      "threadTitle": "Re: Kurs",
-      "url": "https://www.bankier.pl/forum/temat_kurs,75303681.html",
-      "body": "Smutny nosku bez akcji,",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75306339",
-      "author": "zielony_guzik",
-      "postedAt": "2026-08-01 09:55",
-      "threadTitle": "Re: Zdzisław, nie mogłem zrozumieć, jak można pisać tyle bzdur",
-      "url": "https://www.bankier.pl/forum/temat_zdzislaw-nie-moglem-zrozumiec-jak-mozna-pisac-tyle-bzdur,75299979.html",
-      "body": "Lol przerzucasz wine na moderatora za poziom postów które publikujesz? W naszej dysusji już wszystko zostało napisane. Temat się wyczerpał",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75305743",
@@ -2244,34 +2543,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75305541",
-      "author": "(usunięty)",
-      "postedAt": "2026-08-01 01:19",
-      "threadTitle": "(wiadomość usunięta przez moderatora)",
-      "url": "https://www.bankier.pl/forum/temat_zdzislaw-nie-moglem-zrozumiec-jak-mozna-pisac-tyle-bzdur,75299979.html",
-      "body": "(wiadomość usunięta przez moderatora)",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75305231",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-07-31 22:58",
-      "threadTitle": "Re: Kurs",
-      "url": "https://www.bankier.pl/forum/temat_kurs,75303681.html",
-      "body": "Jutro sobota pracujonca ale jest zakaz gry w akcje!!!!!!!!! Nic nie spadnie tym razem kolego.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75305043",
       "author": "Miras",
       "postedAt": "2026-07-31 22:22",
@@ -2284,34 +2555,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75304851",
-      "author": "Malykapeluszex",
-      "postedAt": "2026-07-31 21:48",
-      "threadTitle": "Re: Będzie spadać w poniedziałek",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-spadac-w-poniedzialek,75304135.html",
-      "body": "Ja mam lepszą teorię spiskową. Spadzie zapłaciły studentom by stworzyli gównoportal i zamieścili tam ten tekst by próbować wywołać panikę.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.931,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75304697",
-      "author": "CZeSłaF",
-      "postedAt": "2026-07-31 21:20",
-      "threadTitle": "Re: Będzie spadać w poniedziałek",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-spadac-w-poniedzialek,75304135.html",
-      "body": "fajny portalik HAHAHAH",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75304369",
@@ -2328,20 +2571,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75304343",
-      "author": "PIOTR",
-      "postedAt": "2026-07-31 20:24",
-      "threadTitle": "Re: Będzie spadać w poniedziałek",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-spadac-w-poniedzialek,75304135.html",
-      "body": "A co cię to interesuje jak nie masz akcji? Hehe do lekarza",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75304127",
       "author": "PIOTR",
       "postedAt": "2026-07-31 19:42",
@@ -2351,20 +2580,6 @@
       "votes": {
         "up": 3,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75304135",
-      "author": "Daw",
-      "postedAt": "2026-07-31 19:42",
-      "threadTitle": "Będzie spadać w poniedziałek",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-spadac-w-poniedzialek,75304135.html",
-      "body": "https://innpoland.pl/229417,kurs-akcji-cd-projektu-teoria-spiskowa. Już kilku analityków zwracało uwagę na wzrosty bez informacji, czy to kolejna informacja na zbicie kursu.",
-      "votes": {
-        "up": 1,
-        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2412,202 +2627,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75303681",
-      "author": "Gładź_spadziowa",
-      "postedAt": "2026-07-31 18:24",
-      "threadTitle": "Kurs",
-      "url": "https://www.bankier.pl/forum/temat_kurs,75303681.html",
-      "body": "Jankesi spadają jutro lecimy do zobaczenia na 240 jak nie pęknie. Tutaj zdzislaw jedynie został na akcjach sztuk 10",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75303613",
-      "author": "zielony_guzik",
-      "postedAt": "2026-07-31 18:16",
-      "threadTitle": "Re: Zdzisław, nie mogłem zrozumieć, jak można pisać tyle bzdur",
-      "url": "https://www.bankier.pl/forum/temat_zdzislaw-nie-moglem-zrozumiec-jak-mozna-pisac-tyle-bzdur,75299979.html",
-      "body": "Zenon, to Ty nie zrozumiałeś.Jesteś hipokrytą, zarzucając komuś spamowanie na forum, podczas gdy sam nie wniosłeś ani jednej wartościowej informacji do dyskusji.Napisałeś, cytuję: „Azja to marginalny rynek gamingowy”. Po takim stwierdzeniu jesteś spalony na forum CD Projekt, bo od razu widać, że nie znasz tego rynku.Porównywanie mnie do kibla? Na jakiej podstawie?Dyskusja z Tobą o spółce czy akcjach to strata czasu, bo po prostu się na tym nie znasz. Z kolei wytykanie Ci błędów i pokazywanie, jak bardzo mijasz się z faktami, też jest stratą czasu, ale przynajmniej bywa zabawne.Nie pozdrawiam",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75303381",
-      "author": "Edward",
-      "postedAt": "2026-07-31 17:52",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "ale zes głupotę palnął",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75303355",
-      "author": "slodkoKwasny",
-      "postedAt": "2026-07-31 17:48",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "Wylamana to masz psychike :(Gdzie sa klamki Mentor, szukaj, no szukaj",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75303289",
-      "author": "Mentor",
-      "postedAt": "2026-07-31 17:42",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "A co myślisz, że będzie w przyszłym tygodniu 255 jak wsparcie teraz zostało wyłamane ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75303091",
-      "author": "PIOTR",
-      "postedAt": "2026-07-31 17:24",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "To bardzo przykre, że twój pracodawca to beznapletkowiec",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75303061",
-      "author": "Zenon",
-      "postedAt": "2026-07-31 17:22",
-      "threadTitle": "Re: Zdzisław, nie mogłem zrozumieć, jak można pisać tyle bzdur",
-      "url": "https://www.bankier.pl/forum/temat_zdzislaw-nie-moglem-zrozumiec-jak-mozna-pisac-tyle-bzdur,75299979.html",
-      "body": "Widzę, że nie potrafisz czytać ze zrozumieniem, to ci wyjasnię, to taka forma retoryczna. No ale gdybyś był bystrzejszy, to nie zachowywał byś się jak kibol.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75302859",
-      "author": "cdr",
-      "postedAt": "2026-07-31 17:06",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "cieszymy się bo spółki rosną kiedy wszyscy co mieli sprzedac sprzedali...",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75302633",
-      "author": "Mentor",
-      "postedAt": "2026-07-31 16:49",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "To przykre :(",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75302433",
-      "author": "PIOTR",
-      "postedAt": "2026-07-31 16:33",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "Trolle spadziowe czasami podają się za longi. Oni nigdy nie mieli i nie będą mieć żadnych akcji na long ani short. To są śmieszne booty. Mentor przy 100 też pisał że sprzedał. Nowoczesne sposoby psychologiczne hehe psychologia tłumu trolli z podstawówki. Przykra ,ale taka jest prawda. Małe czapeczki płacą im za te wypociny. Nie warto z nimi pisać.",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75302221",
-      "author": "Boss",
-      "postedAt": "2026-07-31 16:13",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "Super! Miód na moje uszy",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75301955",
-      "author": "Lolo",
-      "postedAt": "2026-07-31 15:50",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "Gon tego syfa",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75301863",
-      "author": "Bolo",
-      "postedAt": "2026-07-31 15:43",
-      "threadTitle": "Re: Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "W przyszłym tygodniu będzie 262...",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75301791",
-      "author": "Mentor",
-      "postedAt": "2026-07-31 15:38",
-      "threadTitle": "Sprzedałem :(",
-      "url": "https://www.bankier.pl/forum/temat_sprzedalem,75301791.html",
-      "body": "Nie na moje nerwy",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75300035",
       "author": "Prawda",
       "postedAt": "2026-07-31 13:04",
@@ -2620,34 +2639,6 @@
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75300007",
-      "author": "zielony_guzik",
-      "postedAt": "2026-07-31 13:03",
-      "threadTitle": "Re: Zdzisław, nie mogłem zrozumieć, jak można pisać tyle bzdur",
-      "url": "https://www.bankier.pl/forum/temat_zdzislaw-nie-moglem-zrozumiec-jak-mozna-pisac-tyle-bzdur,75299979.html",
-      "body": "Serio Ty nie możesz? TY?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75299979",
-      "author": "Zenon",
-      "postedAt": "2026-07-31 13:01",
-      "threadTitle": "Zdzisław, nie mogłem zrozumieć, jak można pisać tyle bzdur",
-      "url": "https://www.bankier.pl/forum/temat_zdzislaw-nie-moglem-zrozumiec-jak-mozna-pisac-tyle-bzdur,75299979.html",
-      "body": "Każdemu normalnemu człowiekowi by się to znudziło, można w końcu trollować inteligentnie, ale to jest zapewne poza twoim zasięgiem.Kiedy jednak się ujawniłeś jako amator lodów i fan czekoladowej groty, to wszystko stało się jasne.",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75299915",
@@ -2678,20 +2669,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75298531",
-      "author": "bolek",
-      "postedAt": "2026-07-31 11:12",
-      "threadTitle": "Re: Największe studio w europie CDPROJEKT! może tu ktoś zrobi wezwanie",
-      "url": "https://www.bankier.pl/forum/temat_najwieksze-studio-w-europie-cdprojekt-moze-tu-ktos-zrobi-wezwanie,75296067.html",
-      "body": "A to mało bogatych na świecie",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75296859",
       "author": "AkcjoMariusz",
       "postedAt": "2026-07-31 09:30",
@@ -2718,34 +2695,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75296625",
-      "author": "mmm",
-      "postedAt": "2026-07-31 09:16",
-      "threadTitle": "Re: Największe studio w europie CDPROJEKT! może tu ktoś zrobi wezwanie",
-      "url": "https://www.bankier.pl/forum/temat_najwieksze-studio-w-europie-cdprojekt-moze-tu-ktos-zrobi-wezwanie,75296067.html",
-      "body": "Znasz takiego bogatego",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75296067",
-      "author": "bolek",
-      "postedAt": "2026-07-31 08:35",
-      "threadTitle": "Największe studio w europie CDPROJEKT! może tu ktoś zrobi wezwanie",
-      "url": "https://www.bankier.pl/forum/temat_najwieksze-studio-w-europie-cdprojekt-moze-tu-ktos-zrobi-wezwanie,75296067.html",
-      "body": "tyle pięknych gier się tworzy , najlepsze studio , a cisza",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75294605",
@@ -2900,6 +2849,62 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75282885",
+      "author": "zielony_guzik",
+      "postedAt": "2026-07-30 06:36",
+      "threadTitle": "Re: 253, no to szorty",
+      "url": "https://www.bankier.pl/forum/temat_253-no-to-szorty,75277995.html",
+      "body": "Ty masz jeszcze za co brac shorta? Depozyt pewnie ci wyparował jak na Kospi. Dzwonili już po uzupełnienie ?",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75280405",
+      "author": "pawel11a",
+      "postedAt": "2026-07-29 19:04",
+      "threadTitle": "Re: 253, no to szorty",
+      "url": "https://www.bankier.pl/forum/temat_253-no-to-szorty,75277995.html",
+      "body": "To nie dzieci, a wykupione trolle internetowe, które mają tu spamować wiadomościami poniżej jakiegokolwiek poziomu, żeby zniechęcić do inwestowania. W czasie przerwy na szczucie przeciw Ukraińcom biorą się za forum giełdowe... A co do jazdy na 225... Proszę bardzo jechać... Więcej pożyczonych akcji, to później więcej do odkupu... Popyt będzie większy. CDPR nie jest firemką z Pcimia, żeby można było tak długo manipulować kursem.",
+      "votes": {
+        "up": 12,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75279525",
+      "author": "Edward",
+      "postedAt": "2026-07-29 17:54",
+      "threadTitle": "Re: 253, no to szorty",
+      "url": "https://www.bankier.pl/forum/temat_253-no-to-szorty,75277995.html",
+      "body": "masz racje same dzieci ciesza sie z klepakow",
+      "votes": {
+        "up": 6,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75278991",
+      "author": "Kosmaty",
+      "postedAt": "2026-07-29 17:20",
+      "threadTitle": "Re: 253, no to szorty",
+      "url": "https://www.bankier.pl/forum/temat_253-no-to-szorty,75277995.html",
+      "body": "Co to za inwestory co sprzedały dwie akcje licząc na kółko za 2zł i od razu lecą na forum nawoływać. Ten rynek już upadł, zamiast inwestorów dzieci.",
+      "votes": {
+        "up": 26,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
     }
   ]
 }
