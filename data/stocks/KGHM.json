@@ -3,31 +3,31 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-08-04T03:36:49.027Z",
+  "updatedAt": "2026-08-04T09:07:03.154Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-04T03:36:49.027Z",
+    "fetchedAt": "2026-08-04T09:07:03.154Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 36
+    "threadsScanned": 37
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.088,
+    "score": 0.096,
     "confidence": 0.73,
-    "commentCount": 148,
+    "commentCount": 144,
     "breakdown": {
-      "positive": 55,
-      "negative": 30,
+      "positive": 53,
+      "negative": 28,
       "neutral": 63
     },
     "trend": [
       {
         "date": "2026-07-28",
-        "score": 0.04,
-        "count": 23
+        "score": -0.016,
+        "count": 15
       },
       {
         "date": "2026-07-29",
@@ -58,22 +58,23 @@
         "date": "2026-08-03",
         "score": -0.009,
         "count": 27
+      },
+      {
+        "date": "2026-08-04",
+        "score": 0.226,
+        "count": 4
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 148 komentarzy z ostatnich 7 dni: nastroje mieszane (55 pozytywnych, 30 negatywnych, 63 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 144 komentarzy z ostatnich 7 dni: nastroje mieszane (53 pozytywnych, 28 negatywnych, 63 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "miedzi",
-        "count": 17
+        "count": 15
       },
       {
         "word": "kghm",
-        "count": 16
-      },
-      {
-        "word": "srebra",
-        "count": 12
+        "count": 14
       },
       {
         "word": "rosnie",
@@ -88,7 +89,7 @@
         "count": 10
       },
       {
-        "word": "wyniki",
+        "word": "srebra",
         "count": 10
       },
       {
@@ -96,16 +97,76 @@
         "count": 9
       },
       {
-        "word": "srebro",
+        "word": "wyniki",
         "count": 9
       },
       {
         "word": "wsparcie",
         "count": 9
+      },
+      {
+        "word": "wsparcia",
+        "count": 9
       }
     ]
   },
   "comments": [
+    {
+      "id": "75327725",
+      "author": "marek",
+      "postedAt": "2026-08-04 10:22",
+      "threadTitle": "Re: Pachnie że idziemy do oporu",
+      "url": "https://www.bankier.pl/forum/temat_pachnie-ze-idziemy-do-oporu,75296933.html",
+      "body": "doszło do silnego oporu nie wiadomo co dalej stąd taka cisza na forum nie ma odważnych co dalej ale nie ma się co dziwić trudna sprawa , może się to utrzyma do jutra albo silny zjazd podobnie jak wczoraj było pełne zaskoczenie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75326301",
+      "author": "Lis",
+      "postedAt": "2026-08-04 09:12",
+      "threadTitle": "Re: Pachnie że idziemy do oporu",
+      "url": "https://www.bankier.pl/forum/temat_pachnie-ze-idziemy-do-oporu,75296933.html",
+      "body": "Zaraz może odpalić",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75325875",
+      "author": "Mareen",
+      "postedAt": "2026-08-04 08:37",
+      "threadTitle": "Re: Wybity opór na miedzi czyżby",
+      "url": "https://www.bankier.pl/forum/temat_wybity-opor-na-miedzi-czyzby,75325773.html",
+      "body": "Przy tej cenie miedzi tu powinno już być minimum 380zł ale ja i tak czekam na 420",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75325773",
+      "author": "Lis",
+      "postedAt": "2026-08-04 08:25",
+      "threadTitle": "Wybity opór na miedzi czyżby",
+      "url": "https://www.bankier.pl/forum/temat_wybity-opor-na-miedzi-czyzby,75325773.html",
+      "body": "Nowe ATH było?",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75324589",
       "author": "Inwestor",
@@ -128,8 +189,8 @@
       "url": "https://www.bankier.pl/forum/temat_silniki-juz-odpalone,75313519.html",
       "body": "Dziś nie starczyło kasy na 330.Jutro spróbujemy dociągnąć chociaż do 325.Niech moc będzie z Longersami",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 4,
+        "down": 1
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -143,7 +204,7 @@
       "body": "Wszystko aby sprzedać drogie akcje tyle w temacie obudzicie się za jakiś czas z ręką",
       "votes": {
         "up": 0,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -198,7 +259,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-dadza-nikomu-sie-zabezpieczyc-przed-inflacja,73362461.html",
       "body": "widze na wlasne oczy że zatrudnienie rosnie u nas i u czapki , sektor produkcji poprawia sie , dzis poszedl odczyt że u czapki wzrost produkcji najszybysz od 2022rbeda sprzedawac akcje na gorce na fali dobrych wyników makro akcje rosna bo ani siwa pani ani kevin ani skośny nie podnniesli stop w mipcu mimo podzwyzszonej inflacji innymi slowy puscili rynki akcji samopastylko w takich okolicznosciach ta spolka od windowsa moze sobie rosnac nascie % dziennie tu nie licza sie wyniki spolki tylko to czy bankier centralny hamuje rynki czy spuszcza z łancucha to jest juz koncowka fali tej hossy i trwa dopieszczanie kreseczek na wykresach",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0.981,
@@ -310,7 +371,7 @@
       "url": "https://www.bankier.pl/forum/temat_zjazd-na-308,75316659.html",
       "body": "Ale takie zbijanie ceny do ceny rozpoczęcia sesji to wygląda na skup. Czy wyniki będą aż tak pompowały cenę akcji że tak dokupuja. Podobnie bylo z akcjami lubawy od ceny 9-10 mieliło skakało, spadalo a później pompa. Pozdrawiam",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -506,7 +567,7 @@
       "url": "https://www.bankier.pl/forum/temat_silniki-juz-odpalone,75313519.html",
       "body": "jak się mówi a to wypada powiedzieć b",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -562,8 +623,8 @@
       "url": "https://www.bankier.pl/forum/temat_silniki-juz-odpalone,75313519.html",
       "body": "Współczuję Short pozycji.Mam nadzieje otwarcie 315-317 i rakieta na 330-340.",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 1,
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1584,7 +1645,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-dadza-nikomu-sie-zabezpieczyc-przed-inflacja,73362461.html",
       "body": "dzis kevin nic nie zrobil stopa bez zmian w oswiadczeniu napisali że dostacza stabilnosc cenowa sluchalem jego konferencji ale musialem przestac bo mnie koles zmeczyl to jest pajac juz sam sposob wypowiedzi na to wskazuje , akcentuje koncowke slów chcac uzyskać efekt dosadności wypowiedzi ,powagi przekazywanej informacji ale nie da sie tego uzyskac lejąc wode , czy mówiac nie na temat jego wypowiedzi to stek bzdur nie na temat dziennikarz zadaje pytanie :powiedzial pan że dostarczycie stabilnosc cenowa ale dane o nflacji wskazuja że jest powyzej waszego celu, stop % nie podniesliscie dzisiaj , na co czekacie ?i tu kevin leje wode, same bzdury to jest dzieciak , mysli że madrze mowi ale dla znawcow tematu jego wypowiedzi to stek bzdur fakt jest taki że nic nie robi, przejal schede po pinokiu i kontynuuje jego plan bo zresszta pinokio calyczas siedzi obok i steruje kevinem bedzie tak:sprzedaz producentow scalakow spadnie na spadajacych zamowieniach od tych co chca rozwijac psedo inteligencje wraz ze spadkiem sprzedazy spadnie cena akcji jednych i drugich to spowoduje zalamanie na gieldach i wpadna w besse a wtedy zaden bankier centralny nie pomoze , bedą bierni bo nie dostarcza sie plynosci kiedy rynki fianansowe są w takich stratach że koszt ich ratowania jest zbyt ogromny beda czekac az wszystko spadnie na dno po drodze obnizajac stopy % ale obnizki nie dostarczaja zbyt wiele plynnosci wiec są pozorowanymi ruchami bankierow centralnych udajacych ze pomagaja zwalczyc kryzysnie dotykajcie akcji akcje producentow scalakow juz mocno spadly , to juz nie wroci na szczyty a do dna maja jeszcze sporo trzymac sie od akcji z dalekadebiut spolki od rakiet okazal sie porazka , akcje na debiucie po 135usd, wzrost na 220 usd anstapenie spadek na 115 usd czyli strata wątpie że nabiora kolejnych frajerow na debiut open ai albo antropictu maja problem bo chcieliby dociagnac rynki akcji wysoko do czasu tych debiutow ale obecnie juz widac ze sektor zwiazany z pseudo intelogencja sie sypie dlatego kevin nie podnosi stop bo chce jako tako ich tam podratowac pozyjemy zobaczymy",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -1,
@@ -1612,7 +1673,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-dadza-nikomu-sie-zabezpieczyc-przed-inflacja,73362461.html",
       "body": "ale mnie nie interesuje ropa bo ten rynek jest rozgrywany przez czapke i za nim nie trafiszzapamietaja sobie raz na zawszegruby portfel nigdy nie obstawia w ciemno i tez tego nie rob moze jutro zbombarduja iran , moze iran zbombarduje bazy usa , po co komu bawic sie w kotka i myszke wiesz skad czapka ma pieniadze ?zabuera takim jak wy bo obstawiacie w ciemno a on zgarnia tą pule dajcie se spokoj z ropa bo tam sa rolowania co miesiac i spread , to nie jest rynek dla zwyklego spekulanta",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2065,118 +2126,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75259569",
-      "author": "Lis",
-      "postedAt": "2026-07-28 11:03",
-      "threadTitle": "Re: Możliwe",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe,75252805.html",
-      "body": "> KGHM zarobi w tym roku około 60 pln na akcję to da c/z 5 i duuużą dywidendę aby rezim Tuska nie zbankrutował. Mam nadzieję że zarząd wie jak zabezpiecza się kurs miedzi i srebra... bo jeżeli zabezpieczyli srebro za 110 USd to powinno byc 80pln zysku na akcje... Obajtek wójt z Pcimia zabezpieczył CO2 na ponad 2 lata to chyba intelektualista z PO tez chyba potrafi ???jakie 110 największe kopalnie sprzedawały średnio po 82$ w 1qw 2q już nie będzie tak wysoko koło ok 15% może być niżej ceny miedzi mogły być wyższe ok 8%za to koszty wzrosły ropa gaz ok 40% i świadczenia pracownicze ok 10%",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75259435",
-      "author": "starynowy",
-      "postedAt": "2026-07-28 10:56",
-      "threadTitle": "Re: Możliwe",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe,75252805.html",
-      "body": "Przypomnę tylko, że wyniki za pierwsze półrocze 19 sierpnia. Przy tych cenach miedzi wyniki będą raczej satysfakcjonujące. Ci co teraz skupują po całkiem dobrych cenach to wiedzą.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75258759",
-      "author": "koperytko",
-      "postedAt": "2026-07-28 10:12",
-      "threadTitle": "Re: Możliwe",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe,75252805.html",
-      "body": "KGHM zarobi w tym roku około 60 pln na akcję to da c/z 5 i duuużą dywidendę aby rezim Tuska nie zbankrutował. Mam nadzieję że zarząd wie jak zabezpiecza się kurs miedzi i srebra... bo jeżeli zabezpieczyli srebro za 110 USd to powinno byc 80pln zysku na akcje... Obajtek wójt z Pcimia zabezpieczył CO2 na ponad 2 lata to chyba intelektualista z PO tez chyba potrafi ???",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75258731",
-      "author": "marek",
-      "postedAt": "2026-07-28 10:10",
-      "threadTitle": "Re: Możliwe",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe,75252805.html",
-      "body": "dzisiejszy ruch jest w granicach 1 % a dalej to już ryzyko.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75258409",
-      "author": "YorX",
-      "postedAt": "2026-07-28 09:53",
-      "threadTitle": "Re: Możliwe",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe,75252805.html",
-      "body": "Nie wiem w jakim biurze masz, ale prowizje są zazwyczaj w granicach 0,3-0,4% wiec nawet przy ruchach 3-5% spokojnie sobie zarobisz.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75257629",
-      "author": "marek",
-      "postedAt": "2026-07-28 09:12",
-      "threadTitle": "Re: Możliwe",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe,75252805.html",
-      "body": "poniekąd się zgadza ale zapomniałeś o prowizji a to są na tyle słabe ruchy że ledwie na nią starcza.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75257581",
-      "author": "YorX",
-      "postedAt": "2026-07-28 09:10",
-      "threadTitle": "Re: Możliwe",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe,75252805.html",
-      "body": "> Zanosi się na solidną lukę na otwarcie.Niestety nie, ale jeszcze może doczekamy się solidnego spadku",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75257147",
-      "author": "YorX",
-      "postedAt": "2026-07-28 08:38",
-      "threadTitle": "Re: Możliwe",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe,75252805.html",
-      "body": "Zanosi się na solidną lukę na otwarcie.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
