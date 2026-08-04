@@ -3,11 +3,11 @@
   "companyName": "JSW SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=JSW",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_jsw-sa,6,21,10000000176.html",
-  "updatedAt": "2026-08-03T19:57:02.505Z",
+  "updatedAt": "2026-08-04T03:36:41.168Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-03T19:57:02.505Z",
+    "fetchedAt": "2026-08-04T03:36:41.168Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.052,
+    "score": 0.065,
     "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 66,
-      "negative": 47,
-      "neutral": 87
+      "positive": 69,
+      "negative": 45,
+      "neutral": 86
     },
     "trend": [
       {
         "date": "2026-07-31",
-        "score": -0.061,
-        "count": 19
+        "score": -0.083,
+        "count": 25
       },
       {
         "date": "2026-08-01",
@@ -41,56 +41,355 @@
       },
       {
         "date": "2026-08-03",
-        "score": 0.026,
-        "count": 158
+        "score": 0.03,
+        "count": 148
+      },
+      {
+        "date": "2026-08-04",
+        "score": 0.491,
+        "count": 4
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (66 pozytywnych, 47 negatywnych, 87 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (69 pozytywnych, 45 negatywnych, 86 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "wegla",
-        "count": 22
+        "word": "roku",
+        "count": 18
       },
       {
-        "word": "roku",
-        "count": 19
+        "word": "wegla",
+        "count": 17
       },
       {
         "word": "koksowego",
-        "count": 15
-      },
-      {
-        "word": "https",
-        "count": 15
-      },
-      {
-        "word": "ceny",
-        "count": 14
-      },
-      {
-        "word": "wegiel",
         "count": 13
       },
       {
-        "word": "cena",
+        "word": "ceny",
         "count": 12
       },
       {
-        "word": "nikt",
+        "word": "short",
         "count": 12
       },
       {
-        "word": "pozdrawiam",
-        "count": 12
+        "word": "fundusze",
+        "count": 11
       },
       {
-        "word": "kupowac",
+        "word": "https",
+        "count": 11
+      },
+      {
+        "word": "koniec",
+        "count": 11
+      },
+      {
+        "word": "straty",
+        "count": 11
+      },
+      {
+        "word": "zeby",
         "count": 11
       }
     ]
   },
   "comments": [
+    {
+      "id": "75324989",
+      "author": "Kontroler",
+      "postedAt": "2026-08-04 05:31",
+      "threadTitle": "Re: JSW na kursie wzrostowym, czyli Żabka:)",
+      "url": "https://www.bankier.pl/forum/temat_jsw-na-kursie-wzrostowym-czyli-zabka,75324971.html",
+      "body": "Może nawet odważy się wyznaczyć termin przymusowego odkupu?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75324985",
+      "author": "nieuniknione",
+      "postedAt": "2026-08-04 05:20",
+      "threadTitle": "Re: JSW na kursie wzrostowym, czyli Żabka:)",
+      "url": "https://www.bankier.pl/forum/temat_jsw-na-kursie-wzrostowym-czyli-zabka,75324971.html",
+      "body": "Tusk od miesiąca piszesz że na ortex raport jest spóźniony o 5 dni. I że prawdopodobnie utyl.na dzisiaj wynosi 100%",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75324981",
+      "author": "Kontroler",
+      "postedAt": "2026-08-04 04:19",
+      "threadTitle": "Re: JSW na kursie wzrostowym, czyli Żabka:)",
+      "url": "https://www.bankier.pl/forum/temat_jsw-na-kursie-wzrostowym-czyli-zabka,75324971.html",
+      "body": "Czyli victoria jak 14 czerwca?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75324971",
+      "author": "Tusk",
+      "postedAt": "2026-08-04 02:42",
+      "threadTitle": "JSW na kursie wzrostowym, czyli Żabka:)",
+      "url": "https://www.bankier.pl/forum/temat_jsw-na-kursie-wzrostowym-czyli-zabka,75324971.html",
+      "body": "Ostatnie wydarzenia na spółce Żabka pokazują, że szorciarze często dostają sromotne lanie przy okazji szortowania. Pisałem o tym wielokrotnie, że szorciarze wbrew pozorom nie są niepokonani, a ich przeciwnikami są inne fundusze, longerzy oraz agresywne fundusze inwestycyjne (AFI). Pisałem wielokrotnie, że nie istnieje bezwględna solidarność między funduszami, ponieważ ze względu na strukturę handlu, najczęściej grają one przeciwko sobie - na naszej giełdzie występuje to zjawisko w szczególnie jaskrawej formie. 70-80% całego handlu na GPW dokonuje się właśnie między funduszami, a zatem reszta graczy, drobni inwestorzy, nie są w stanie obsłużyć ewentualnych zysków funduszy.Jak wygląda sytuacja na JSW? Zaczął się 30 miesiąc szortowania, czosnkowe fundusze są zadłużone na rekordowe 6,94 mln akcji, a zważywszy 5-dniowe opóźnienie w raportowaniu (ortex), prawdopodobnie pożyczyli już wszystko, co oficjalnie było w ofercie.Tu: https://x.com/GPW_Trader2022/status/2084236610871189990/photo/1Kurs jest >27% powyżej minimum w całym okresie szortowania (19,66 złotych, 7 kwietnia 2025). Średni kurs w całym okresie wynosi 26,41 złotych. Średni dzienny wolumen obrotów wynosi 0,502 mln akcji, a całkowity wolumen obrotów >302 mln sztuk. Przy FF, która wynosi teoretycznie 52,6 mln akcji, wolne walory JSW w całym okresie mogły teoretycznie obrócić się ok. 6 razy. W praktyce musiały obrócić się jeszcze więcej razy, nawet kilkanaście razy. To pokazuje całkowitą bezskuteczność wysiłków szorciarzy, którą powierdza ogromny, rosnący wolumen otwartych pozycji krótkich oraz utrzymujący się od 23 miesięcy, mimo zmasowanej podaży akcji, brak postępów w trwałym zmniejszeniu wartości JSW czy zmniejszeniu zadłużenia w ogóle. Ponad 78% całkowitego wolumenu obrotów w całym okresie szortowania powstało właśnie w ciągu w/w 23 miesięcy. W pierwszym okresie szortowania, marzec-sierpień 2024, szorciarzom udało się stłuc kurs z ok. 43 złotych do około 23 złotych (-43%) i na tym koniec. Dalszych sukcesów brak! Średni kurs transakcyjny w kolejnych 23 miesiącach wynosi 25,16 złotych:). Ten brak sukcesów potwierdza istnienie masowego oporu pospolitego ruszenia drobnych akcjonariuszy skupionych pod sztandarem 100+ oraz agresywnych funduszy inwestycyjnych, które zwykle zajmują pozycje przeciwne szorciarzom. Resumując, zdecydowana większość obrotów (blisko 4/5) powstała w okresie, gdy średni kurs transakcyjny był prawie taki sam, jak wczorajsze zamknięcie notowań. Czy szorciarze mogą zaliczyć ten okres jako udany? Oczywiście, że nie, tym bardziej, że ponoszą ogromne koszty finansowe, które kol. Trader2022 oszacował za okres 2024-2025 na około 100 mln złotych. Ile dołożyły do interesu w tym roku? W sumie ich straty, więc co mnie to obchodzi? Wspominam o tych gigantycznych stratach, żeby zasygnalizować możliwość wyłamania się już obecnie tego, czy innego funduszu szortującego. Każdy z nich ma zapewne inną sytuację i odporność na bieżące straty. Wyczerpuje się oficjalne źródło pożyczek. Według wczorajszego ortexu niewykorzystana oferta pożyczkowa wynosiła około 0,552 mln akcji. Niewiele, czyż nie? Brak kolejnych, znaczących pożyczek uniemożliwa szorciarzom tluczenie kursu. Jak mieliśmy okazję przekonać się w marcu tego roku już niewielki, w stosunku do oficjalnego zadłużenia, odkup akcji skutkuje ogromnym wzrostem kurs. Odkup 0,8 mln akcji spowodował wzrost jej wartości o +65%. Utrzymanie się tego wskaźnika przy odkupie oficjalnych 6,94 mln akcji może przelożyć się na jej wartość jak niżej:6,94 > 6,14 mln akcji, +65%, czyli akcja kosztowałaby 41,41 złotych6,14 > 5,34 mln akcji, +65%, czyli akcja kosztowałaby 68,32 złotych5,34 > 4,54 mln akcji, +65%, czyli akcja kosztowałaby 112,73 złotych4,54 > 3,74 mln akcji, +65%, czyli akcja kosztowałaby 186,01 złotych3,74 > 2,94 mln akcji, +65%, czyli akcja kosztowałaby 306,93 złotych2,94 > 2,14 mln akcji, +65%, czyli akcja kosztowałaby 506,43 złotych2,14 > 1,37 mln akcji, +65%, czyli akcja kosztowałaby 835,62 złotych1,37 > 0,58 mln akcji, +65%, czyli akcja kosztowałaby 1378,77 złotych.Oczywiście ta prosta wyliczanka, oparta na dotychczasowym doświadczeniu, nie musi się sprawdzić, prawdopodobnie rzeczywistość będzie inna, wszak w arkuszu zleceń S mamy do ceny 100 złotych włącznie ofertę na > 9 mln akcji, czyli więcej niż wynosi oficjalne zobowiązanie szorciarzy (ortex). To prawda, ale pamiętajmy, że nawet w trakcie \"wyciskania\" w handlu po stronie popytowej uczestniczyć będą, poza szorciarzami, również inni inwestorzy, na przykład longerzy, drobna spekuła czy agresywne fundusze inwestycyjne. Zwłaszcza te ostatnie będą zainteresowane jak największym wybiciem, ponieważ mają prawdopodobnie do sprzedania całkiem sporo akcji, czyli w pierwszych dniach \"wyciskania\" będą prawdopodobnie masowo kupować walory JSW, żeby jak najmocniej podbić kurs w ramach tzw. \"wirówki\". Longerzy również będą prawdopodobnie uzupełniać portfele w związku z niską wyceną giełdową JSW oraz wyraźną poprawą efektywności działalności z jednej strony oraz rosnącą od kilkunastu miesięcy (trend) ceną CC z drugiej. Obecnie szorciarze zbierają z dziennej oferty S ok. 17,5% wolumenu. Zakładając, że ten wskażnik się więcej niż podwoi w trakcie \"wyciskania\", czyli do ok. 40%, wtedy z w/w 9 mln akcji wystawionych na sprzedaż do ceny 100 złotych włącznie, szorciarze kupią i oddadzą brokerom ok. 3,6 mln akcji. Zatem oficjalny dług zmniejszy się z 6,94 mln do 3,34 mln akcji, ale kurs może przekroczyć 100 złotych. Przy takim poziomie otwartych pozycji krótkich zredukowanie do zera oficjalnego zadłużenia (ortex), może spowodować wzrost kursu JSW do 200 czy więcej złotych, czyż nie?:) A ile może kosztować jeden walor JSW na koniec szortowania, jeśłi zadłużenie jest większe, nawet wielokrotnie większe? Według moich szacunków, które przedstawiłem na forum w ubiegłym roku, całkowite zadłużenie szorciarzy może wynosić nawet 17 mln, czyli około 5 mln wiecej niż wynosi ujawniona oferta sprzedaży, a najwyższa oferta S opiewa na 27 tysięcy złotych/akcja:). Zachęcam każdego do wykonania własnych obliczeń oraz kierowania się tylko nimi przy podejmowaniu decyzji inwestycyjnych, wszak każdy, również ja, może się mylić!:) Czy dojdzie do \"wyciskania\"? Ja uważam, że tak. Trzydzieści miesięcy szortowania, rosnący, a nie malejący poziom oficjalnie otwartych pozycji krótkich, kurs w zasadzie \"stojący\" w miejscu, pokazują, że bez \"wyciskania\" się nie obejdzie.:) Drobni inwestorzy, przewidywania przez szorciarzy na ofiary, na dostawców tanich akcji, walorów JSW nie sprzedają, lecz kupują. Świadczy o tym zwiększająca się niezmiennie liczb akcji zablokowanych w arkuszu zleceń S. Na początku roku inwestorzy, przede wszystkim drobni, blokowali w arkuszu zleceń S ok. 7,4 mln akcji. Obecnie blokują ok. 13,4 mln walorów JSW. Od kogo zatem szorciarze mieliby odkupić akcje JSW po korzystnym dla nich kursie? Od agresywnych funduszy inwestycyjnych, czy może od longerów? Oczywiście, że te fundusze akcji tanio nie sprzedadzą, a longerzy najpewniej nie zrobią tego w najbliższym czasie wcale. Taka jest moja spekulacja! Dobrej zabawy i dużych zysków życzę wszystkim gojom!:)",
+      "votes": {
+        "up": 15,
+        "down": 2
+      },
+      "sentimentScore": 1,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75324865",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-08-03 23:49",
+      "threadTitle": "Re: ⚡️⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI ⭐❤️✅❤️⭐⚡️",
+      "url": "https://www.bankier.pl/forum/temat_czynniki-za-zakupem-akcji,75321995.html",
+      "body": "✅✅✅ CZYNNIKI ZA ZAKUPEM AKCJI ✅✅✅Pełna analiza ✅ JSW 7 lipca 2026 . Doskonałe info Autor: ~Merd [46.134.12.*] 2026-07-07 19:48CZYNNIKI ZA ZAKUPEM AKCJI https://x.com/GPW_Trader2022/status/2074531404705116489",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75324859",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-08-03 23:47",
+      "threadTitle": "Re: ⚡️⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI ⭐❤️✅❤️⭐⚡️",
+      "url": "https://www.bankier.pl/forum/temat_czynniki-za-zakupem-akcji,75321995.html",
+      "body": "16. TFI: Goldman, PKO, Rockbridge, PZU, Uniqua, Millenium, BNP zwiększyły stan posiadania o 756 000 akcji.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75324855",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-08-03 23:46",
+      "threadTitle": "Re: ✅✅✅JSW, CZY TO BĘDZIE KOLEJNE CCC, W 1 ROK 300% UROŚNIE.✅✅✅",
+      "url": "https://www.bankier.pl/forum/temat_jsw-czy-to-bedzie-kolejne-ccc-w-1-rok-300-urosnie,75321981.html",
+      "body": "SHORT skupuje podczas sesji,",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75324849",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-08-03 23:45",
+      "threadTitle": "Re: ❤️ SUROWCE STRATEGICZNE I KRYTYCZNE DLA POLSKI I UE ❤️",
+      "url": "https://www.bankier.pl/forum/temat_surowce-strategiczne-i-krytyczne-dla-polski-i-ue,75321951.html",
+      "body": "Węgiel koksujący i miedź to dwa podstawowe polskie surowce krytyczne potrzebne zarówno krajowej gospodarce, jak też europejskiej - podkreśla Główny Geolog Kraju. Rolą państwa jest ich wskazywanie oraz zainteresowanie nimi inwestorów, którzy poniosą koszty ich bliższego rozpoznania - dodaje Galos.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75324847",
+      "author": "LecimyDoGóry",
+      "postedAt": "2026-08-03 23:43",
+      "threadTitle": "Re: ✅30% CENA AKCJI JSW W GÓRĘ WYBIJE, CZY BĘDZIE WIĘCEJ ZA CHWILĘ, 50%?",
+      "url": "https://www.bankier.pl/forum/temat_30-cena-akcji-jsw-w-gore-wybije-czy-bedzie-wiecej-za-chwile-50,75321935.html",
+      "body": "50% tak na początek",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75324811",
+      "author": "kasa",
+      "postedAt": "2026-08-03 23:32",
+      "threadTitle": "Re: potężne 700 tyś euro obrotu na potężnym blue chipie",
+      "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
+      "body": "~Mario , Odnośnie „Prefinansowanie (czy to na 500 mln zł, czy w wariancie maksymalnym na 2 mld zł) zdejmuje z giełdy jedyny sensowny argument dla shortów: widmo bankructwa.” to warto zauważyć, że kwota 2 mld , która padła na komisji w Sejmie dotyczy ogólnie podsumowania potrzeb do końca roku, a konferencja i wypowiedź min. Balczuna z dnia 27 kwietnia 2026 mówi o pozyskiwaniu finansowania w kwocie 1,5 mld USD.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75324797",
+      "author": "kaz",
+      "postedAt": "2026-08-03 23:28",
+      "threadTitle": "Re: Jak tam shorciki łykacie tą żabkę",
+      "url": "https://www.bankier.pl/forum/temat_jak-tam-shorciki-lykacie-ta-zabke,75324759.html",
+      "body": "Możesz sobie tylko popłakać na forum B.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75324759",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-08-03 23:17",
+      "threadTitle": "Jak tam shorciki łykacie tą żabkę",
+      "url": "https://www.bankier.pl/forum/temat_jak-tam-shorciki-lykacie-ta-zabke,75324759.html",
+      "body": "Mistrzowie giełdy, nieomylne wyrocznie.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75324751",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-08-03 23:13",
+      "threadTitle": "Re: Potężny short potknął się o małą żabkę",
+      "url": "https://www.bankier.pl/forum/temat_potezny-short-potknal-sie-o-mala-zabke,75324637.html",
+      "body": "Makler narazie same straty na odsetkach i miliony do oddania. Idziecie drogą żabki. Ile dostajesz za wpis da się z tego wyżyć.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75324733",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-08-03 23:09",
+      "threadTitle": "Shortowe lenie do roboty.",
+      "url": "https://www.bankier.pl/forum/temat_shortowe-lenie-do-roboty,75324733.html",
+      "body": "Obiecuję kupię trochę po 24 nie musicie od razu zbijać ceny do 20",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75324709",
+      "author": "Makler",
+      "postedAt": "2026-08-03 23:04",
+      "threadTitle": "Re: Potężny short potknął się o małą żabkę",
+      "url": "https://www.bankier.pl/forum/temat_potezny-short-potknal-sie-o-mala-zabke,75324637.html",
+      "body": "Jęczysz , jęczysz i płaczesz na forum. Short odkupi akcje za 2-3 lata i pogódź się z tym. I przestać wylewać krokodyle łzy nad sobą . Jesteś fajtłapa inwestor i pogódź się z tym .",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75324637",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-08-03 22:50",
+      "threadTitle": "Potężny short potknął się o małą żabkę",
+      "url": "https://www.bankier.pl/forum/temat_potezny-short-potknal-sie-o-mala-zabke,75324637.html",
+      "body": "Niech milonery dalej płacą odsetki od pożyczonych. Stać ich przecież kto bogatemu zabroni.",
+      "votes": {
+        "up": 1,
+        "down": 4
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75324499",
+      "author": "Magellan",
+      "postedAt": "2026-08-03 22:33",
+      "threadTitle": "Re: potężne 700 tyś euro obrotu na potężnym blue chipie",
+      "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
+      "body": "bo tyle masz merytoryki w sobie",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75324421",
+      "author": "Brando25",
+      "postedAt": "2026-08-03 22:23",
+      "threadTitle": "Re: Potopieni na tym crapie naganiają, czasu coraz mniej.",
+      "url": "https://www.bankier.pl/forum/temat_potopieni-na-tym-crapie-naganiaja-czasu-coraz-mniej,75317207.html",
+      "body": "+10% Prawie hahahaha",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75324367",
+      "author": "Piękny_Szorciarz",
+      "postedAt": "2026-08-03 22:17",
+      "threadTitle": "Re: potężne 700 tyś euro obrotu na potężnym blue chipie",
+      "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
+      "body": "nie czytam postów chata GPT więc tego typu monologi mariuszków czy tusków zwyczajnie ignoruję",
+      "votes": {
+        "up": 2,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75324339",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-08-03 22:14",
+      "threadTitle": "Re: Jak taki duży obrót to shorciki kiedy odkupicie",
+      "url": "https://www.bankier.pl/forum/temat_jak-taki-duzy-obrot-to-shorciki-kiedy-odkupicie,75322597.html",
+      "body": "Niech się nie spieszą kredyt na 8% akurat dla nich. Ja poczekam jestem na sporym plusie. Zaraz będziecie przekonywać że można zrobić tysiące kółek i zarobić tysiące procent. Shorciki dlaczego do tej pory nie zrobiliście tyś kółek i nie zrobiliście tysiące procent. Mieliście na to 3 lata. Dlatego proszę grzecznie płacić odsetki od pożyczek.",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75324321",
+      "author": "Joanna",
+      "postedAt": "2026-08-03 22:11",
+      "threadTitle": "Re: potężne 700 tyś euro obrotu na potężnym blue chipie",
+      "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
+      "body": "Trzymacie się tego odkupu jak pijany płotu, tymczasem to trochę bardziej skomplikowane niż czarowanie na forum o 14 czerwca i cenach po 390zl",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75324185",
       "author": "Paweł",
@@ -99,8 +398,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "Piękny Szorciarz piękna orka po forumowych wisielcach na hakach.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -113,8 +412,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "Brawo, Mario, mądrego to i przyjemnie poczytać.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -127,7 +426,7 @@
       "url": "https://www.bankier.pl/forum/temat_jsw-czy-to-bedzie-kolejne-ccc-w-1-rok-300-urosnie,75323795.html",
       "body": "To bedzie kolej a zaorana padlina",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -141,8 +440,8 @@
       "url": "https://www.bankier.pl/forum/temat_jsw-czy-to-bedzie-kolejne-ccc-w-1-rok-300-urosnie,75323795.html",
       "body": "JSW, CZY TO BĘDZIE KOLEJNE CCC, W 1 ROK 300% UROŚNIE.TUTAJ MOŻNA DUŻO ZYSKAĆ, CENA AKCJI W TEJ CHWILĘ SZORUJE PO DNIE. A ZAPOWIADAJĄ SIĘ DOBRE WYNIKI KWARTALNE. Z KWARTAŁU NA KWARTAŁ BĘDĄ CORAZ LEPSZE.ZA DOBRYMI WYNIKAMI CENA AKCJI PÓJDZIE W GÓRĘ. A POŻYCZONE AKCJE TRZEBA ODDAĆ BO Z MIESIĄCA NA MIESIĄC BĘDĄ CORAZ DROŻSZE ZA CHWILĘ BĘDĄ KUPOWAĆ WSZYSCY NA WYŚCIGI POD KOREK300% W GÓRĘ JAK NA CCC?● 7 000 000 AKCJI TRZEBA ODDAĆ ILE TO MOŻE TRWAĆ ?SHORT skupuje podczas sesji, UWAGA podkupujemy im akcję. Już 2 rok leci. Dłużej sie nie da,Za chwilę będą kupować wszyscy na wyścigi pod korekJSW WSTAJE Z KOLANCzekamy cierpliwie na 100 zl.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
@@ -155,7 +454,7 @@
       "url": "https://www.bankier.pl/forum/temat_po-co-sprzedawac-ponizej-30-jak-shorty-kupia-po-100-zl-do-konca-roku,75323787.html",
       "body": "PO CO SPRZEDAWAĆ PONIŻEJ 30 JAK SHORTY KUPIĄ PO 100 ZŁ DO KOŃCA ROKUMACIE AKCJE, WYSTAWIAĆ ZLECENIA SPRZEDAŻY PO 100 ZŁ DO KOŃCA ROKUTO NIC NIE KOSZTUJE, W KAŻDEJ CHWILI MOŻNA ZLECENIE ZMIENIĆ / ZMODYFIKOWAĆ.BO JAK NIE WYSTAWICIE ZLECENIA, TO POŻYCZAJĄ WASZE AKCJE I ZBIJAJĄ KURS WASZYMI AKCJAMI.CHYBA NIKT TEGO NIE CHCE.A JAK ZACZNĄ SKUP, BO MUSZĄ ODDAĆ POŻYCZONE AKCJE TO ZAPŁACĄ 100 ZŁ.",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.87,
@@ -169,8 +468,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "SZACHMAT",
       "votes": {
-        "up": 1,
-        "down": 1
+        "up": 5,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -183,8 +482,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "Autor powyższego wpisu zrobił się nadzwyczaj aktywny na forum dokładnie w momencie, gdy kurs JSW przestał reagować na jego zaklinanie rzeczywistości i ubił twarde dno. Ta narracja o „emisji akcji” to klasyczny, podręcznikowy FUD (Fear, Uncertainty, Doubt) i ostatni akt desperacji kogoś, kto siedzi na głębokiej krótkiej pozycji i wie, że za chwilę zostanie zmieciony z planszy.Rozmontujmy te jego „analizy” na czynniki pierwsze, pokazując, gdzie autor ordynarnie manipuluje, a gdzie po prostu wykazuje się kompletnym brakiem wiedzy o mechanice rynkowej.1) Spółka od prawie trzech lat kwartał w kwartał notuje straty.Jaka jest prawda: To bezczelna, łatwa do zweryfikowania manipulacja. Jeszcze w 2023 roku JSW wygenerowała 997 mln zł czystego zysku netto, a rekordowy rok 2022 zamknęła kosmicznym zyskiem 7,6 mld zł! Spółka weszła w okres przejściowych strat netto dopiero niedawno, w wyniku uderzenia podatku od nadzysków (tzw. składki solidarnościowej – blisko 1,6 mld zł ściągnięte z kasy spółki przez państwo) oraz przejściowego letniego dołka cenowego na węglu HCC. Twierdzenie o „trzech latach strat kwartał w kwartał” to ordynarne kłamstwo rzucone pod publiczkę, by przestraszyć mniej doświadczonych inwestorów.Żadna instytucja finansowa nie obejmie emisji ze względu na rating, a pomoc publiczna z budżetu jest nielegalna.Dlaczego się boi: Autor celowo pomija i ignoruje cały alternatywny rynek finansowy, o którym huczy ulica – czyli zagraniczne prefinansowanie dostaw (pre-export finance) połączone z kołnierzem opcyjnym (collar).To nie jest „emisja obligacji o ratingu śmieciowym”. To jest komercyjny kredyt kupiecki/przedpłata pod zastaw fizycznego, strategicznego surowca krytycznego UE.Dla japońskiego konsorcjum bankowego czy huty w Koszycach zabezpieczeniem nie jest „rating JSW”, ale realny węgiel koksowy Premium HCC, który i tak muszą kupić. Kołnierz opcyjny gwarantuje im stałą cenę maksymalną, a JSW daje podłogę finansową i gotówkę. Zero pomocy publicznej, zero unijnych restrykcji, czysty biznes surowcowyDlaczego autor tak krzyczy o cenie węgla? Bo doskonale wie, że struktura kołnierza opcyjnego (Collar) całkowicie odcina ryzyko niewypłacalności JSW, nawet jeśli ceny węgla koksowego nie wzrosną natychmiast! Prefinansowanie (czy to na 500 mln zł, czy w wariancie maksymalnym na 2 mld zł) zdejmuje z giełdy jedyny sensowny argument dla shortów: widmo bankructwa.Gdy ten komunikat uderzy w rynek, dane Ortexowe zapłoną. Fundusze grające krótko (zarówno te duże z rejestru KNF, jak i te poukrywane w podprogowym handlu pod due diligence) będą musiały odkupić miliony akcji od ulicy. A ulica – jak sam autor zauważył („Zjednoczona Ulica”, „Żelazne Jądra”) – przy tych cenach akcji nie odda. Skutek? Kosmiczny Short Squeeze.No i na koniec straszak z emisją akcji (Matematyka z palca)Co twierdzi manipulant: JSW wyemituje 40 mln akcji po bieżącym kursie, żeby zdobyć 1 mld zł, co rozwodni akcjonariat.Dlaczego to bzdura: JSW jest spółką strategiczną, kontrolowaną przez Skarb Państwa (ponad 55% udziałów). Żaden rząd nie dopuści do rozwodnienia swojej kontroli poniżej progu większościowego na rzecz giełdowego kapitału spekulacyjnego w drodze taniej emisji ratunkowej na dnie cyklu! Finansowanie pomostowe z ARP (850 mln zł, które jest w procesie) oraz zagraniczne prefinansowanie surowcowe całkowicie zamykają temat jakichkolwiek nowych akcji. Autor wymyślił „emisję 40 mln akcji”, bo panicznie potrzebuje podaży, od której mógłby odkupić papiery na pokrycie swoich krótkich pozycji.. zmian nicka bo tak jak pisałem w strachu nie ma nic pięknego.",
       "votes": {
-        "up": 3,
-        "down": 1
+        "up": 8,
+        "down": 2
       },
       "sentimentScore": -1,
       "sentimentLabel": "Negative"
@@ -197,8 +496,8 @@
       "url": "https://www.bankier.pl/forum/temat_ludzie-pilnujcie-zlecen-bo-ulatwiacie-krotkim,75323649.html",
       "body": "Znowu 800tys akcji ubyło z arkuszu zleceń. Czas docinąć ich do wrzesnia na 15mln!",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -211,7 +510,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-nie-usuwaja-wpisow-tuska,75323301.html",
       "body": "Na pierwszej stronie są dwa jego wątki, a jak się cofniesz dalej to są ich setki.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -225,8 +524,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "Pisałem już, nie jęcz już leszczyno, zachowuj się jak facet . Hehehehehe",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 5,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -239,7 +538,7 @@
       "url": "https://www.bankier.pl/forum/temat_7-000-000-akcji-trzeba-oddac-ile-to-moze-jeszcze-moze-potrwac,75323419.html",
       "body": "7 000 000 AKCJI TRZEBA ODDAĆ, ILE TO MOŻE JESZCZE MOŻE POTRWAĆ ?SHORT skupuje podczas sesji, UWAGA podkupujemy im akcję. 7 000 000 akcji trzeba oddać ile to może trwać.?Już 2 rok leci. Dłużej sie nie da,Za chwilę będą kupować wszyscy na wyścigi pod korekJSW WSTAJE Z KOLANCzekamy cierpliwie na 100 zl.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -253,7 +552,7 @@
       "url": "https://www.bankier.pl/forum/temat_tfi-kupuja-akcje-jsw-wlasnie-zwiekszyly-stan-posiadania-o-756-000-akcji,75323397.html",
       "body": "TFI: Goldman, PKO, Rockbridge, PZU, Uniqua, Millenium, BNP zwiększyły stan posiadania o 756 000 akcji.https://x.com/GPW_Trader2022/status/207453140",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -267,8 +566,8 @@
       "url": "https://www.bankier.pl/forum/temat_olo-parobasie-usuwaja-usuwaja,75323367.html",
       "body": "W odróżnieniu od was szortów nic jego z bankrutem nie łączy oprócz twoich kłamliwych insynuacji. Zresztą twoje insynuacje na szczęście większość zlewa.",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 1,
+        "down": 4
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -281,8 +580,8 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-nie-usuwaja-wpisow-tuska,75323301.html",
       "body": "skoro rzekomo usuwają wszystkie pozytywne o JSW? Zastanawialiście się nad tym?",
       "votes": {
-        "up": 3,
-        "down": 1
+        "up": 5,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -323,8 +622,8 @@
       "url": "https://www.bankier.pl/forum/temat_jak-taki-duzy-obrot-to-shorciki-kiedy-odkupicie,75322597.html",
       "body": "Myślę, że pytanie jest zasadne i na miejscu, natomiast to zwyczajnie nie ten czas. Szorty dopiero co dopożyczyły akcji, więc nie będą od razu wychodzić. Nie wiem jaki mogą mieć horyzont inwestycyjny, ale taki \"kredyt\" na 8% jaki aktualnie mają nie jest specjalnie drogi, więc nie sądzę, że będą go w pośpiechu spłacać (co nam zresztą ostatnie 2 lata pokazały).",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 4,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -393,8 +692,8 @@
       "url": "https://www.bankier.pl/forum/temat_jak-taki-duzy-obrot-to-shorciki-kiedy-odkupicie,75322597.html",
       "body": "..może odkupię synku przy 15 zł ...no może 20 zl...",
       "votes": {
-        "up": 2,
-        "down": 1
+        "up": 4,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -408,7 +707,7 @@
       "body": "spoko, po obrotach widać że kupują plotki Joki, Mario i Brandony25 z bankiera, a duży kapitał stoi z bokuciekawe kto kogo okiwa - forumowy Jok, upijający się do odcięcia trzy razy dziennie pod żabką, czy może profesjonalni inwestorzy z londyńskiego Cityps. daj znać jak odrobisz sztuczne straty i wyjdziesz na sztuczne zero plus",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -421,7 +720,7 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "damy znaćtylko pamiętaj, że kurs wtedy już nie będzie na 25 zeta :Dkupuj plotki, sprzedawaj fakty :)",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -449,8 +748,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "pięknie skwierczycie, ale dajcie znać jak spółka w końcu pokaże jakiś kwartalny zysk netto lub dodatni bilans płatniczypowiedzcie mi, Zjednoczona Ulico, Żelazne Jądra itp.spółka od prawie trzech lat kwartał w kwartał notuje straty, ujemne bilanse płatniczeskąd wezmą pieniądze na wypłaty, jeżeli ceny węgla koksowego istotnie nie wzrosną?dosypanie miliarda złotych z budżetu? nielegalne - nielegalna pomoc publiczna w rozumieniu UEobjęcie emisji obligacji? żadna instytucja finansowa nie obejmie dużej emisji obligacji o ratingu śmieciowym (JSW generuje ujemne przepływy finansowe)jeżeli CENY WĘGLA KOKSOWEGO ISTOTNIE NIE WZROSNĄ W NAJBLIŻSZYM TERMINIE, tym bardziej prawdopodobna staje się emisja akcji - a teraz policzcie sobie na ile emisja akcji z której pozyskano by 1 mld zł (pół roku?) i jak bardzo rozwodni akcje JSW (aktualnie trochę ponad 100 mln akcji, emisja po bieżącym kursie która miała by dać 1 mld zł to 40 mln akcji - a to ledwie kapitał na pół roku palenia pieniędzmi przy dzisiejszych cenach węgla koksowego)tak wynika z mych analiz",
       "votes": {
-        "up": 2,
-        "down": 3
+        "up": 3,
+        "down": 6
       },
       "sentimentScore": -0.964,
       "sentimentLabel": "Negative"
@@ -463,7 +762,7 @@
       "url": "https://www.bankier.pl/forum/temat_czemu-znowu-minus,75322339.html",
       "body": "bo nikt nie sprzedaje po tej cenie**przynajmniej według zahipnotyzowanej ulicy, zawieszonej na hakach ponad 20% sztucznych spadków",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -477,8 +776,8 @@
       "url": "https://www.bankier.pl/forum/temat_jak-taki-duzy-obrot-to-shorciki-kiedy-odkupicie,75322597.html",
       "body": "to raczej ty codziennie kwiczysz o wzrosty, by jakoś wybrnąć z tej kupy w którą wdepnąłeśps. zamiast martwic się o zyski Świętych Szorciarzy, zacznij martwić się o swoje (sztuczne) stratytak wynika z mych analiz",
       "votes": {
-        "up": 3,
-        "down": 1
+        "up": 6,
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -519,7 +818,7 @@
       "url": "https://www.bankier.pl/forum/temat_zakupy-czas-start-poki-akcje-ponizej-28-zl,75322835.html",
       "body": "Skup shortów trwa, oni wiedzą że im dłużej będą na JSW tym wiecej stracą. Akcje z tygodnia na tydzień będą rosły. A wybicie w górę jest nieuniknione.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -547,7 +846,7 @@
       "url": "https://www.bankier.pl/forum/temat_paliwo-do-wzrostu-gieldy-zostalo-dolane-nasdaq-2-02-sp500-1-40,75322793.html",
       "body": "PALIWO DO WZROSTU GIEŁDY ZOSTAŁO DOLANE NASDAQ +2,02% SP500 +1,40%Od poniedziałku dalsze wzrosty.Giełdy światowe - indeksy https://www.bankier.pl/gielda/gieldy-swiatowe/indeksy",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -575,7 +874,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-japonczycy-zainwestuja-w-jsw,75322761.html",
       "body": "Nippon Steel oficjalnie przejmuje bezpośrednią kontrolę nad hutą w Koszycach. Od 1 października 2026 roku staje się ona Nippon Steel Slovakia.Kryzys surowcowy huty: Do 2026 roku huta w Koszycach sprowadzała węgiel koksowy głównie z sąsiednich Czech, ale tamtejsze kopalnie zostały zamknięte. Ostatnio huta ratowała się drogim importem drogą morską (m.in. z Australii) – koszty frachtu i logistyki generują gigantyczny narzut (szacowany na ok. 83 USD na tonę).Logistyka JSW: Kopalnie JSW znajdują się zaledwie 200 km w linii prostej od Koszyc. Dla Japończyków, którzy słyną z optymalizacji łańcuchów dostaw (i w swoich analizach operacyjnych podkreślają skrócenie logistyki w Europie), JSW to naturalny, najtańszy partner.",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 6
       },
       "sentimentScore": -0.583,
@@ -589,7 +888,7 @@
       "url": "https://www.bankier.pl/forum/temat_36-bylo-i-za-chwile-bedzie-czy-bedzie-45zl,75322749.html",
       "body": "Fundusze wiedzą gdzie można zarobić",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -603,8 +902,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "O czym ty piszesz? Co ty o cenach kocopały piszesz? Odkupcie tylko 1( !!!!) milion akcji na oddanie 1/7 pożyczki to cena akcji zęby ci powybija!",
       "votes": {
-        "up": 4,
-        "down": 2
+        "up": 7,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -618,7 +917,7 @@
       "body": "Twardo możesz płacić odsetki od pożyczek .",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -632,7 +931,7 @@
       "body": "Ja tylko czekam na wasze głupie ataki na kurs. Akcie wystawione wysoko czekają na wasz odkup, bo pożyczone trzeba oddać.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -645,7 +944,7 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "A jak z twoich analiz wynika odkup potężnych pożyczek akcji JSW? Te n niecały milion to mieszanie twoich panów szortów. A straty to wy macie prawdziwe nie sztuczne. I to nie są żadne wydumane analizy tylko fakty. Hehehehehe.",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 2
       },
       "sentimentScore": -0.322,
@@ -659,8 +958,8 @@
       "url": "https://www.bankier.pl/forum/temat_jak-taki-duzy-obrot-to-shorciki-kiedy-odkupicie,75322597.html",
       "body": "Narazie możecie grzecznie płacić odsetki od pożyczek. Pięknie jęczycie o tanie akcje",
       "votes": {
-        "up": 2,
-        "down": 3
+        "up": 3,
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -673,7 +972,7 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "skoro się ktoś żabką za 32 mld zainteresował to uwierz mi w dobie upadającego mitu wiatraków ktoś tą kopalnie zaraz wykupi za marne 3 mld i tak zarządzi, że to będzie drugi kghmuwierz mi, nawet daleki wschód już tu spogląda na durne pały globalistów",
       "votes": {
-        "up": 7,
+        "up": 10,
         "down": 2
       },
       "sentimentScore": 0,
@@ -716,7 +1015,7 @@
       "body": "Dobre, ceny nie ważne, ważna pożyczka!!!! Te 2mld to spółka przeżre do końca roku i co dalej????",
       "votes": {
         "up": 1,
-        "down": 5
+        "down": 8
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -729,25 +1028,11 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "W tym szcztucznym swiecie tylko Wasze dlugi sa realne. Kiedy zaczynacie odkup. Za dwa tygodnie to drzwi z framuga wyrwiecie.",
       "votes": {
-        "up": 8,
+        "up": 10,
         "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75322091",
-      "author": "Ślusarz",
-      "postedAt": "2026-08-03 17:33",
-      "threadTitle": "Re: ⚡️⚡️ 7 000 000 AKCJI TRZEBA ODDAĆ ILE TO MOŻE TRWAĆ ? ⚡️⚡️",
-      "url": "https://www.bankier.pl/forum/temat_7-000-000-akcji-trzeba-oddac-ile-to-moze-trwac,75322013.html",
-      "body": "Tylko , że Acf leci na dół, dolar również. W tym miesiącu wypłata zaległej Barbórki (30%). Brak pozytywów, no może poza urlopami górniczymi (choć wg mnie głupota pozbywać sie ludzi z produkcji, a zostawiać administrację).",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75322055",
@@ -757,39 +1042,11 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "Wystarczy ze sypniecie troche więcej nam na lewo do koszyczka i już będzie wiekszy obrót. W czym problem? Nie krepujcie się. A no tak trzeba mieć akcje... Niski obrót i niemożność zbicia ceny świadczy tylko o jednym. Będzie lampa w górę. Szala sie przechyli mocno na korzyść popytu i juz nawet najlepszy automat wspomagany ejajem nie da rady.",
       "votes": {
-        "up": 6,
+        "up": 9,
         "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75322027",
-      "author": "Brando25",
-      "postedAt": "2026-08-03 17:28",
-      "threadTitle": "⚡️⚡️ 7 000 000 AKCJI TRZEBA ODDAĆ ILE TO MOŻE TRWAĆ ? ⚡️⚡️",
-      "url": "https://www.bankier.pl/forum/temat_7-000-000-akcji-trzeba-oddac-ile-to-moze-trwac,75322013.html",
-      "body": "JSW WSTAJE Z KOLAN⚡️⭐✅❤️⭐ WYNIKI ZA II KWARTAŁ NA PLUSIE. ⭐❤️✅⭐⚡️ II kwartał na plusie (...) Jak mówi analityk Jakub Szkopek z Erste Group, (...) II kwartał tego roku powinien być jeszcze lepszy, bo pojawi się efekt wyższych cen węgla, które przełożą się na formuły cenowe JSW. Co więcej, w Chinach doszło do wypadków górniczych. Część kopalń wstrzymała prace w efekcie kontroli. To przełożyło się na mniejsze wydobycie i wyższe ceny węgla koksującego, które przekroczyły 240 USD za tonę – wskazuje analityk. II kwartał w zakresie wyniku EBITDA powinien już przynieść dodatnie wyniki. – Wstępne prognozy mówią o kilkuset mln zł na plusie. cdn Czekamy cierpliwie na 100 zl.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75322013",
-      "author": "Brando25",
-      "postedAt": "2026-08-03 17:27",
-      "threadTitle": "⚡️⚡️ 7 000 000 AKCJI TRZEBA ODDAĆ ILE TO MOŻE TRWAĆ ? ⚡️⚡️",
-      "url": "https://www.bankier.pl/forum/temat_7-000-000-akcji-trzeba-oddac-ile-to-moze-trwac,75322013.html",
-      "body": "⚡️⚡️ 7 000 000 AKCJI TRZEBA ODDAĆ ILE TO MOŻE TRWAĆ ? ⚡️⚡️ SHORT skupuje podczas sesji, UWAGA podkupujemy im akcję. 7 000 000 akcji trzeba oddać ile to może trwać.? Już 2 rok leci. Dłużej sie nie da, Za chwilę będą kupować wszyscy na wyścigi pod korek JSW WSTAJE Z KOLAN Czekamy cierpliwie na 100 zl.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75322005",
@@ -799,7 +1056,7 @@
       "url": "https://www.bankier.pl/forum/temat_czynniki-za-zakupem-akcji,75321995.html",
       "body": "3. Fundusze muszą odkupić pożyczone ponad 6 000 000 akcji z rynku. Wcześniej odkup 600 000 powodował wzrost kursu o 51%.",
       "votes": {
-        "up": 3,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -813,7 +1070,7 @@
       "url": "https://www.bankier.pl/forum/temat_czynniki-za-zakupem-akcji,75321995.html",
       "body": "Pełna analiza ✅JSW 7 lipca 2026 . Doskonałe info Autor: ~Merd [46.134.12.*]2026-07-07 19:48 https://x.com/GPW_Trader2022/status/2074531404705116489 ⚡️⭐❤️✅❤️⭐ CZYNNIKI ZA ZAKUPEM AKCJI ⭐❤️✅❤️⭐⚡️ CZYNNIKI ZA ZAKUPEM AKCJI 1. Z JSW w 2026 odejdzie około 4270 osób. 526 już odeszło. 2. 26 czerwca 2026 informacja o finansowaniu urlopów górniczych przez Ministerstwo Klimatu dla 3092 pracowników. Nie będą już kosztem firmy. 3. Fundusze muszą odkupić pożyczone ponad 6 000 000 akcji z rynku. Wcześniej odkup 600 000 powodował wzrost kursu o 51%. 4. W połowie lipca Komisja Europejska przedstawi ograniczenie kosztów ETS dla hut stali i przemysłu ciężkiego. Czyli do 16 dni od dziś. 5. Spółka stara się o finansowanie dłużne (np. obligacje), w tym celu musi wykazać dodatnią EBITDA i robi wszystko w tym kierunku. 6. Rynek oczekuje, że wyniki za Q2 mogą już dać dodatnią EBITDA. 7. Chiny zwiększyły import węgla koksowego o prawie +30% w maju z powodu zamknięcia kopalń po eksplozji metanu w jednej z nich. Te które wróciły do pracy, zmniejszyły wydobycie od 20% do nawet 80%. 8. Polska i 14 innych Państw stara się o mocne luzowanie ETS dla przemysłu stalowego. 9. Rosną ceny węgla koksowego. Zamykają się kopalnie na świecie. Są braki surowca. Transporty z Australii przejmują Chiny. 10. Koszt wydobycia w 2026 ma spaść z 730 zł/t na 570 zł/t. 11. JSW to monopolista w UE w wydobyciu węgla koksowego. 12. Koszt transportu tony węgla z Australii/Indonezji do Europy to 70$ na tonie. 13. Skupienie się na najwyższej jakości pokładach i restrukturyzacja. 14. Niemcy i Włochy nadal lobbują za czasowym zawieszeniem ETS. 15. JSW zdobywa 99,7% rynku koksu na Ukrainie. 16. TFI: Goldman, PKO, Rockbridge, PZU, Uniqua, Millenium, BNP zwiększyły stan posiadania o 756 000 akcji. 17. Australia zakazuje nowych kopalni węgla. 18. Mamy prawie 100% utilization na JSW, czyli fundusze atakujące kurs powoli nie mają skąd pożyczać akcji do zaniżania kursu. 19. Wsparcie Ministerstwa Aktywów Państwowych i Ministrów , którzy nadzorują kluczowy podmiot dla polskiego przemysłu oraz 20. Thyssen anuluje sprzedaż hut stali i wraca do produkcji z koksu z powodu pozytywnego otoczenia. 21. ArcelorMittal uruchomił piece w Dąbrowie Górniczej. 22. Indonezja wprowadza podatki eksportowe na węgiel koksowy. Cena surowca rośnie na rynkach o tę wartość. 23. Australijskie kopalnie mają problemy z wydobyciem. Rosną koszty paliw i frachtu. 24. Rosja wstrzymuje eksport koksowego. Ataki dronów na porty. 25. Elektrociepłownia Radlin produkuje i przeszła testy. 26. JSW ma być w łańcuchu firm zbrojeniowych. 27. MAP wyklucza emisję akcji, są chętni do kredytowania.28. Węgiel koksowy na liście surowców strategicznych UE.29. Ministrowie szykują ustawy pod poprawę funkcjonowania JSW. 30. Kryzys energetyczny potrwa długo, nawet po otwarciu cieśniny Ormuz. 31. CBAM – stal importowana drożeje o koszty ETS, produkcja na koks znów opłacalna w Europie. 32. Przez ceny prądu zatrzymują się huty łukowe (przetwarzające złom). 33. Thyssen lobbuje za darmowymi ETS dla hut na koks.34. Upadek stalowni w Iranie. 35. Popyt na stal przy odbudowie Ukrainy. Polskie huty, w tym Arcelor, na to mocno liczą. 36. JSW Nowe Projekty – produkcja dronów morskich (testy WP). 37. Analitycy: w II kwartale możliwa dodatnia EBITDA. 38. Nowe ściany wydobywcze, fokus na najwyższej marży.39. Porozumienie ze związkami – 1,2 mld zł oszczędności.40. Sprzedaż 2 spółek za ponad 1 mld zł. 41. Oczekiwanie na koncesję Dębieńsko (~100 mld zł zasobów 42. Umowa 2,1 mld zł z ArcelorMittal (restart huty w Dąbrowie Górniczej). 43. Europa importuje ~40 mln ton koksowego – lokalna przewaga JSW. 44. Program naprawczy 8,5 mld zł.45. Włosi i Niemcy uruchamiają wygaszone huty na koks, bo produkcja jest opłacalna przez CBAM. 46. Bankructwa hut wodorowych (uzależnionych od dotacji).",
       "votes": {
-        "up": 3,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -827,7 +1084,7 @@
       "url": "https://www.bankier.pl/forum/temat_jsw-czy-to-bedzie-kolejne-ccc-w-1-rok-300-urosnie,75321981.html",
       "body": "ZA CHWILĘ BĘDĄ KUPOWAĆ WSZYSCY NA WYŚCIGI POD KOREK 300% W GÓRĘ JAK NA CCC?",
       "votes": {
-        "up": 2,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -841,7 +1098,7 @@
       "url": "https://www.bankier.pl/forum/temat_jsw-czy-to-bedzie-kolejne-ccc-w-1-rok-300-urosnie,75321981.html",
       "body": "✅✅✅JSW, CZY TO BĘDZIE KOLEJNE CCC, W 1 ROK 300% UROŚNIE.✅✅✅TUTAJ MOŻNA DUŻO ZYSKAĆ, CENA AKCJI W TEJ CHWILĘ SZORUJE PO DNIE. A ZAPOWIADAJĄ SIĘ DOBRE WYNIKI KWARTALNE. Z KWARTAŁU NA KWARTAŁ BĘDĄ CORAZ LEPSZE.ZA DOBRYMI WYNIKAMI CENA AKCJI PÓJDZIE W GÓRĘ. A POŻYCZONE AKCJE TRZEBA ODDAĆ BO Z MIESIĄCA NA MIESIĄC BĘDĄ CORAZ DROŻSZE ZA CHWILĘ BĘDĄ KUPOWAĆ WSZYSCY NA WYŚCIGI POD KOREK 300% W GÓRĘ JAK NA CCC?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ⭐⭐ 7 000 000 AKCJI TRZEBA ODDAĆ ILE TO MOŻE TRWAĆ ? ⭐⭐ SHORT skupuje podczas sesji, UWAGA podkupujemy im akcję. 7 000 000 akcji trzeba oddać ile to może trwać.? Już 2 rok leci. Dłużej sie nie da, Za chwilę będą kupować wszyscy na wyścigi pod korek JSW WSTAJE Z KOLAN Czekamy cierpliwie na 100 zl.",
       "votes": {
-        "up": 2,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.931,
@@ -855,7 +1112,7 @@
       "url": "https://www.bankier.pl/forum/temat_surowce-strategiczne-i-krytyczne-dla-polski-i-ue,75321951.html",
       "body": "Surowce strategiczne dla polskiej gospodarki dzielą się na dwie podgrupy:Surowce strategiczne o podstawowym znaczeniu dla prawidłowego funkcjonowania gospodarki i zaspokojenia potrzeb bytowych społeczeństwa - surowce których trwała podaż musi być zapewniona, zarówno takie, których krajowa baza zasobowa jest duża i które dzięki jej wykorzystaniu są podstawą działania przemysłu, jak i ważne surowce deficytowe.Surowce strategiczne o podstawowym znaczeniu dla bezpieczeństwa narodowego i innowacyjnych technologii - surowce, które nie są w sposób wystarczający (min. 90%) pozyskiwane ze źródeł krajowych lub których możliwości trwałego pozyskania z tych źródeł są ograniczone lub zagrożone, oraz inne surowce niepozyskiwane w kraju (deficytowe) niezbędne dla obronności kraju i bezpieczeństwa narodowego oraz rozwoju innowacyjnych technologii.Surowce krytyczne dla polskiej gospodarki - takie surowce strategiczne, których możliwości pozyskania zarówno ze źródeł pierwotnych, jak i wtórnych, są obarczone albo dużym ryzykiem, albo istnieją bardzo duże trudności ich pozyskania, a możliwości ich substytucji są niewielkie. Są to w szczególności surowce znajdujące się na liście surowców krytycznych dla Unii Europejskiej, ale także takie surowce, które mimo występowania w dużej ilości są niemożliwe do pozyskania np. z powodu uwarunkowań planistycznych, protestów społecznych itp.",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -869,7 +1126,7 @@
       "url": "https://www.bankier.pl/forum/temat_surowce-strategiczne-i-krytyczne-dla-polski-i-ue,75321951.html",
       "body": "❤️ SUROWCE STRATEGICZNE I KRYTYCZNE DLA POLSKI I UE ❤️Węgiel koksujący i miedź to dwa podstawowe polskie surowce krytyczne potrzebne zarówno krajowej gospodarce, jak też europejskiej - podkreśla Główny Geolog Kraju. Rolą państwa jest ich wskazywanie oraz zainteresowanie nimi inwestorów, którzy poniosą koszty ich bliższego rozpoznania - dodaje Galos.WĘGIEL KOKSOWY JEST JEDNAK POTRZEBNYŚWIAT BEZ WĘGLA KOKSOWEGO - TO ŚWIAT BEZ STALI.A TUTAJ STAL BĘDZIE POTRZEBNA ❤️ SUROWCE STRATEGICZNE I KRYTYCZNE DLA POLSKI I UE ❤️W RAMACH OPRACOWANIA POLITYKI SUROWCOWEJ PAŃSTWA OKREŚLONO LISTĘ SUROWCÓW STRATEGICZNYCH I KRYTYCZNYCH DLA POLSKIEJ I UNIJNEJ GOSPODARKI.Surowce strategiczne dla polskiej gospodarki dzielą się na dwie podgrupy:Surowce strategiczne o podstawowym znaczeniu dla prawidłowego funkcjonowania gospodarki i zaspokojenia potrzeb bytowych społeczeństwa - surowce których trwała podaż musi być zapewniona, zarówno takie, których krajowa baza zasobowa jest duża i które dzięki jej wykorzystaniu są podstawą działania przemysłu, jak i ważne surowce deficytowe.Surowce strategiczne o podstawowym znaczeniu dla bezpieczeństwa narodowego i innowacyjnych technologii - surowce, które nie są w sposób wystarczający (min. 90%) pozyskiwane ze źródeł krajowych lub których możliwości trwałego pozyskania z tych źródeł są ograniczone lub zagrożone, oraz inne surowce niepozyskiwane w kraju (deficytowe) niezbędne dla obronności kraju i bezpieczeństwa narodowego oraz rozwoju innowacyjnych technologii.Surowce krytyczne dla polskiej gospodarki - takie surowce strategiczne, których możliwości pozyskania zarówno ze źródeł pierwotnych, jak i wtórnych, są obarczone albo dużym ryzykiem, albo istnieją bardzo duże trudności ich pozyskania, a możliwości ich substytucji są niewielkie. Są to w szczególności surowce znajdujące się na liście surowców krytycznych dla Unii Europejskiej, ale także takie surowce, które mimo występowania w dużej ilości są niemożliwe do pozyskania np. z powodu uwarunkowań planistycznych, protestów społecznych itp. Komisja Europejska przygotowała w 2011 pierwszą listę surowców krytycznych dla Unii Europejskiej kierując się europejską „Inicjatywą na rzecz surowców” z 2008 roku. Lista surowców krytycznych dla UE jest aktualizowana co 3 lata (2011, 2014, 2017, 2020 i 2023). W dniu 16 marca 2023 roku Komisja Europejska opublikowała Wniosek dotyczący rozporządzenia Parlamentu Europejskiego i Rady ustanawiającego ramy zapewniające bezpieczne i zrównoważone dostawy surowców krytycznych wraz z załącznikiem zawierającym 16 surowców strategicznych oraz 34 surowce krytyczne dla Unii Europejskiej. Aktualny wykaz surowców strategicznych i krytycznych można znaleźć na stronie.https://www.gov.pl/photo/c6faa788-e64b-4e59-ab4f-d6899eefc524 https://www.gov.pl/web/klimat/surowce-strategiczne-i-krytyczne-dla-polski-i-ue",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -883,7 +1140,7 @@
       "url": "https://www.bankier.pl/forum/temat_30-cena-akcji-jsw-w-gore-wybije-czy-bedzie-wiecej-za-chwile-50,75321935.html",
       "body": "✅ BARDZO DOBRE WYNIKI za 3Q BĘDĄ: ● CŁO NA STAL Z POZA UE ROŚNIE DO 50% ● REDUKCJA ZATRUDNIENIA W JSW ● CENA WĘGLA KOKSOWEGO W GÓRĘ, A TO NIE KONIEC WZROSTU ● ZBROJENIÓWKA RUSZA Z PRODUKCJĄ BRONI W DRUGIEJ POŁOWIE ROKU 2026r A TO NIE KONIEC DOBRYCH INFORMACJI GEOPOLITYCZNYCH",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.87,
@@ -897,7 +1154,7 @@
       "url": "https://www.bankier.pl/forum/temat_30-cena-akcji-jsw-w-gore-wybije-czy-bedzie-wiecej-za-chwile-50,75321935.html",
       "body": "✅ AKTUALNA SYTUACJA NA RYNKU WĘGLA ✅ CENA AKCJI W GÓRĘ ✅ BARDZO DOBRE WYNIKI za 3Q BĘDĄ: ● CŁO NA STAL Z POZA UE ROŚNIE DO 50% ● REDUKCJA ZATRUDNIENIA W JSW ● CENA WĘGLA KOKSOWEGO W GÓRĘ, A TO NIE KONIEC WZROSTU ● ZBROJENIÓWKA RUSZA Z PRODUKCJĄ BRONI W DRUGIEJ POŁOWIE ROKU 2026r A TO NIE KONIEC DOBRYCH INFORMACJI GEOPOLITYCZNYCH ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,' ✅ AKTUALNA SYTUACJA NA RYNKU WĘGLA (czerwiec 2026)✅CENA AKCJI W GÓRĘ ✅ 30% cena akcji JSW w górę wybije, czy będzie więcej za chwilę, 50%?✅ Za chwilę będą kupować wszyscy na wyścigi pod korek. Na horyzoncie widać 40zł Kluczowe wnioskiKatastrofa w kopalni Liushenyu (Shanxi, maj 2026): ~82 ofiary, zawieszenie 109 kopalń (319 tys. t/dobę ≈ 10% chińskiej produkcji) — największy szok podażowy od ponad dekady.Import węgla do Azji w maju 2026: 76,26 mln t (+23% m/m) — wszystkie główne rynki azjatyckie odnotowują wzrosty.Geopolityka: zastępowanie gazu (kryzys Cieśniny Ormuz) węglem przez azjatyckich odbiorców, wzrost chińskiego importu morskiego do 22,63 mln t w maju 2026.Węgiel koksowy: cena ~218–240 USD/t (marzec–czerwiec 2026), +18% r/r — napędzany przez sektor stalowy w Indiach i odbudowę chińskiego importu. ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,' ✅ OSZCZĘDNOŚCI BĘDĄ GIGANTYCZNE W KOLEJNYCH KWARTAŁACH, ZAPOWIADAJĄ SIĘ BARDZO DOBRE WYNIKI KWARTALNE ✅ ✅ REDUKCJA ZATRUDNIENIA W JSW, OSZCZĘDNOŚCI BĘDĄ GIGANTYCZNE.Z pakietu dobrowolnych odejść w ramach programu Jednorazowych Odpraw Pieniężnych, uruchomionego dzięki umowie dotacyjnej pomiędzy Jastrzębską Spółką Węglową (JSW) a Ministerstwem Energii, skorzystało 526 osób, podała JSW. To pierwszy etap procesu. W sumie z jednorazowych odpraw może skorzystać 1156 pracowników. Każdy pracownik, który zdecyduje się na udział w programie, otrzyma 170 tys. zł. https://isbiznes.pl/2026/05/28/jsw-z-pakietu-dobrowolnych-odejsc-w-ramach-programu-jop-skorzystalo-do-tej-pory-526-osob/ ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zgodnie z założeniami, w roku 2026 z urlopów górniczych w JSW ma skorzystać 3092 pracowników” – czytamy w komunikacie.Program osłonowy obejmujący uruchomione w maju jednorazowe odprawy pieniężne oraz urlopy górnicze i urlopy przeróbkarskie ma objąć łącznie 4248 pracowników JSW. https://isbiznes.pl/2026/07/01/jsw-pierwsza-grupa-1123-pracownikow-skorzystala-z-programu-odejsc-na-urlopy-gornicze/ ✅30% CENA AKCJI JSW W GÓRĘ WYBIJE, CZY BĘDZIE WIĘCEJ ZA CHWILĘ, 50%?✅",
       "votes": {
-        "up": 2,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 1,
@@ -939,7 +1196,7 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "spokojniepapier wybije będzie zysk",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 2
       },
       "sentimentScore": 0.762,
@@ -953,8 +1210,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "o jakiej stracie? oczywiście, że o sztucznejw końcu SZTUCZNE SPADKI = SZTUCZNE STRATY",
       "votes": {
-        "up": 3,
-        "down": 4
+        "up": 4,
+        "down": 5
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -967,7 +1224,7 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "wielu tutaj ma średnią 25-26 zł więc o jakiej ty stracie mowiszpapier jest na dnie i bardzo dobrze ze wig20 robi szczyty",
       "votes": {
-        "up": 6,
+        "up": 8,
         "down": 2
       },
       "sentimentScore": -0.322,
@@ -981,8 +1238,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "informuje mnie jedynie, że WIG20, MWIG40 pobiły dziś rekord wszech czasów, a perełka jest na poziomie z 2014 roku (oczywiście w sztucznym dołku po sztucznych spadkach), a do tego przepotężne obroty (niecały milion sztucznych dolarów)a jak wiadomoSZTUCZNE SPADKI = SZTUCZNE STRATYtak wynika z mych analiz",
       "votes": {
-        "up": 1,
-        "down": 4
+        "up": 2,
+        "down": 5
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -996,7 +1253,7 @@
       "body": "PIĘKNY SZORCIARZ NA TWOIM DEMO NIE POKAZUJE ŻE BYŁA AWRIA NA GPW DO GODZINY 15 ??",
       "votes": {
         "up": 6,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1065,8 +1322,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "Hehehehehe... toś przydeptał peta. Parobas teraz internet przewraca żeby coś znaleźć na byle jaką odpowiedź.",
       "votes": {
-        "up": 8,
-        "down": 2
+        "up": 9,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1093,8 +1350,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "Dopięcie finansowania będzie istotniejsze od cen węgla koksowego, który odbije tradycyjnie we właściwym momencie roku- jak zawsze. Wiedzialbys to gdybyś przeprowadzał jakiekolwiek analizy. Masz też cykle strukturalne, musisz więcej czytać a nie tylko jęczeć na forum, to naprawdę pomaga. Pozdrawiam",
       "votes": {
-        "up": 12,
-        "down": 2
+        "up": 13,
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1121,8 +1378,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "bez wzrostu cen węgla koksowego, wszystkie inne informacje są drugo i trzeciorzędneim dłużej spółka będzie generować straty, tym bliżej do emisji akcjips. SZTUCZNE SPADKI = SZTUCZNE STRATYtak wynika z mych analiz",
       "votes": {
-        "up": 2,
-        "down": 12
+        "up": 3,
+        "down": 14
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
@@ -1163,7 +1420,7 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "Z mych analiz wynika, że jeśli dopna finansowanie do połowy sierpnia to zdmuchnie Twój depozyt. Nie dziękuję, pozdrawiam",
       "votes": {
-        "up": 13,
+        "up": 15,
         "down": 3
       },
       "sentimentScore": 0,
@@ -1191,8 +1448,8 @@
       "url": "https://www.bankier.pl/forum/temat_potezne-700-tys-euro-obrotu-na-poteznym-blue-chipie,75320771.html",
       "body": "duży kapitał dosłownie zabija się o cudowne akcje perełki, walą zleceniami kupna PKC aż FURCZYFRRR... FRRRR... FRRRR ps. WIG20, MWIG40 na historycznie sztucznych szczytachps2. perełka na poziomie listopada 2014 rokutak wynika z mych analiz",
       "votes": {
-        "up": 8,
-        "down": 7
+        "up": 11,
+        "down": 9
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1359,7 +1616,7 @@
       "url": "https://www.bankier.pl/forum/temat_stary-lis-i-taki-glupi-jak-sie-maja-twoje-madrosci-do-shorta-na-zabce,75319715.html",
       "body": "To ty jęczysz najwięcej , że chcesz kupić po 20 , 15 , 9zł",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -1388,7 +1645,7 @@
       "body": "Możecie dalej jęczeć o tanie akcje nieomylne shorciki",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -1506,20 +1763,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75319223",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 14:06",
-      "threadTitle": "Re: Ortex, nowe dane:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Na Żabe dostaja niezły łomot. Strach ich oblecial, dlatego na JSW już nie tłuką kursu z takim zawzieciem jak dawniej. Kto wie, co sie tu wydarzy?:)",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75318909",
       "author": "Paweł",
       "postedAt": "2026-08-03 13:43",
@@ -1532,34 +1775,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75318885",
-      "author": "PREZES",
-      "postedAt": "2026-08-03 13:42",
-      "threadTitle": "Re: Ortex, nowe dane:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "SHORTY BRAWO WASZE OPROCENTOWANIE ROŚNIE",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75318695",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 13:27",
-      "threadTitle": "Ortex, nowe dane:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "https://x.com/GPW_Trader2022/status/2084236610871189990/photo/16,94 mln, 8,65%, UT 92,63%",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75318615",
@@ -1630,20 +1845,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75317867",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 12:17",
-      "threadTitle": "JSW KAPITALIZACJA 3 MLD ZŁ ! ZŁOŻE DĘBIEŃSKO WARTE OKOŁO 100 MLD ZŁ .",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "> SHORTY UTOPIŁY KASĘ NA TEXT XTB ŻABCE TERAZ NA DINO !!! A ZARAZ NA JSW . KUP I BLOKUJ AKCJE NA 100 ZŁ . POZDRAWIAM. .. .Niebawem moderator usunie ten wątek z forum. Prawda w oczy kole, czyż nie?:)Pozdrawiam.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75317841",
@@ -1808,24 +2009,10 @@
       "body": "Tik tak. Potopiono szambo skowyczy ale kierunek obrany i żadne wycie potopionej sfory nie pomoże, ani nie ożywi trupa.",
       "votes": {
         "up": 5,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75316949",
-      "author": "PREZES",
-      "postedAt": "2026-08-03 11:02",
-      "threadTitle": "JSW KAPITALIZACJA 3 MLD ZŁ ! ZŁOŻE DĘBIEŃSKO WARTE OKOŁO 100 MLD ZŁ .",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "SHORTY UTOPIŁY KASĘ NA TEXT XTB ŻABCE TERAZ NA DINO !!! A ZARAZ NA JSW . KUP I BLOKUJ AKCJE NA 100 ZŁ . POZDRAWIAM. .. .",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75316855",
@@ -1868,20 +2055,6 @@
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75316149",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 10:00",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Zablokowanych jest 12,526 mln akcji w 7417 zleceniach S.",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75316001",
@@ -1968,20 +2141,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75315193",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 08:58",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "> Ty jesteś niereformowalny. Nie ogarniasz tematu, 1q2026 to najwyzej odzwierciedlenie cen z 4q2026. Ceny acf stanowią benchmark , ale nie oznacza to po ile faktycznie sprzedawany jest wegiel koksowy. Piszesz o jakichś liczbach losowo wygenerowanych w swojej glowie . Jakie 235 dolarow ? Brałeś pod uwagę dostawe na jaki miesiac z notowan? Skad wiesz jakie kontrakty i kiedy zawiera jsw ?Odpowiem.. nic nie brałeś pod uwagę, bo nic nie wiesz.Szkoda czasu na polemikę z tym gagatkiem, panie Kolego!:)",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75315123",
       "author": "Brando25",
       "postedAt": "2026-08-03 08:52",
@@ -2005,34 +2164,6 @@
       "votes": {
         "up": 5,
         "down": 8
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75315053",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 08:46",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Umowa sprzedaży podpisana:)https://www.bankier.pl/wiadomosc/JSW-S-A-Zawarcie-umowy-sprzedazy-akcji-posiadanych-przez-JSW-S-A-w-Przedsiebiorstwie-Budowy-Szybow-S-A-oraz-udzialow-posiadanych-przez-JSW-S-A-w-Jastrzebskich-Zakladach-Remontowych-Sp-z-o-o-na-rzecz-ARP-S-A-aktualizacja-informacji-9176241.html",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314927",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 08:35",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Numeryczni odkupili i oddali 0,03% akcji. Mieli1,31%, mają 1,28%Tu: https://rss.knf.gov.pl/rss_pub/ 30/31.07.2026",
-      "votes": {
-        "up": 4,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2091,216 +2222,6 @@
         "down": 0
       },
       "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75314357",
-      "author": "Ronnie",
-      "postedAt": "2026-08-03 06:33",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Ty jesteś niereformowalny. Nie ogarniasz tematu, 1q2026 to najwyzej odzwierciedlenie cen z 4q2026. Ceny acf stanowią benchmark , ale nie oznacza to po ile faktycznie sprzedawany jest wegiel koksowy. Piszesz o jakichś liczbach losowo wygenerowanych w swojej glowie . Jakie 235 dolarow ? Brałeś pod uwagę dostawe na jaki miesiac z notowan? Skad wiesz jakie kontrakty i kiedy zawiera jsw ?Odpowiem.. nic nie brałeś pod uwagę, bo nic nie wiesz.",
-      "votes": {
-        "up": 3,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314349",
-      "author": "Jok",
-      "postedAt": "2026-08-03 06:30",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Szulernia jak chciała uwalić kurs płaciła 1% za pożyczki dziś płaci 8,5 % , upadłość ? Ty chyba na łeb upadłeś. Jęcz i kłam dalej akcjonariuszom zwisa co golasy bez akcji kłamią. Hehehehehe",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75314339",
-      "author": "Jok",
-      "postedAt": "2026-08-03 06:26",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Zamknąłeś krótkie? Nie. To nie drzyj tak mordy. A nie są szorty wyciskane? Po ile pożyczki były po ile są, ile pożyczonych akcji było a ile jest. Policz sobie a później wyj .",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314335",
-      "author": "Jok",
-      "postedAt": "2026-08-03 06:23",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Zadłużenie rośnie ale szortów, Ernest zapomniałeś dodać",
-      "votes": {
-        "up": 6,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314309",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 06:12",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Już zlecieli się tu trabanci szorciarzy:)!",
-      "votes": {
-        "up": 12,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314277",
-      "author": "Idiokracja",
-      "postedAt": "2026-08-03 05:59",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Tusk ile lat się bogacisz na jsw?Co Ty robisz z taką ilością kasy?",
-      "votes": {
-        "up": 4,
-        "down": 8
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314267",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 05:41",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "https://x.com/GPW_Trader2022/status/2083966716833419468Interesujące info od kol. Trader2022",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314241",
-      "author": "(usunięty)",
-      "postedAt": "2026-08-03 04:52",
-      "threadTitle": "(wiadomość usunięta przez moderatora)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "(wiadomość usunięta przez moderatora)",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314233",
-      "author": "Kalafior",
-      "postedAt": "2026-08-03 04:13",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Dopisuj który miesiąc wyciskania. Tak będzie bardziej wiarygodnie.",
-      "votes": {
-        "up": 2,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314217",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 03:24",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Warto zauważyć, że zwolnienia oraz odejścia dobrowolne pracowników zaczęły się dopiero w II q tego roku. A zatem znaczący spadek kosztów zobaczymy w II kwartale i następnych. Przypomnę, że MCC 570 złotych to wartość średnia dla całego roku. To oznacza, że w II połowie roku MCC będzie prawdopodobnie znacząco niższy.Skuteczność czarnego PR serwowanego nam na forum przez trabantów szorciarzy jest minimalna i wyraża się najpiej w* spadający wolumen obrotów* spadająca efektywność odkupu akcji brutto* utrzymujaca się niezmiennie w tym roku ujemna efektywność odkupu akcji netto",
-      "votes": {
-        "up": 8,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75314215",
-      "author": "Ernest",
-      "postedAt": "2026-08-03 03:05",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Tymczasem koszt mcc w 1kwartale wynosil 195$ srednia cena wegla koksowego 235$ a i tak pokazali 600mln straty netto",
-      "votes": {
-        "up": 2,
-        "down": 9
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75314209",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 03:00",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Co wchodzi w skład MCCWynagrodzenia i świadczenia: Płace pracowników związane bezpośrednio z produkcją oraz świadczenia na rzecz załogi.Materiały i energia: Koszty zużycia prądu, paliw, stali, drewna i innych materiałów technicznych.Usługi obce i transport: Prace podziemne wykonywane przez firmy zewnętrzne, transport oraz przeróbka węgla.O skuteczności działań naprawczych, przede wszystkim ogromnego spadku kosztów wydobycia (MCC) w JSW czytaj Tu: https://pl.investing.com/news/transcripts/wyniki-finansowe-jsw-sa-mniejsze-straty-w-i-kw-2026-dzieki-cieciu-kosztow-93CH-1434957",
-      "votes": {
-        "up": 10,
-        "down": 2
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75314211",
-      "author": "Ernest",
-      "postedAt": "2026-08-03 03:00",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "zapomnialem dodac oprocz zwiazkow zawodowych rosnie jeszcze zadluzenie.",
-      "votes": {
-        "up": 2,
-        "down": 11
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314207",
-      "author": "Ernest",
-      "postedAt": "2026-08-03 02:37",
-      "threadTitle": "Re: 5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Szkoda tylko ze cena wegla spada podobnie jak wydobycie.Jedynie co faktycznie rosnie w tej spolce to ilosc zwiazkow zawodowych.To ze mcc ma docelowo wynosic 157$ a wegiel bedzie chodzil po 200$ to wcale nie znaczy ze spolka bedzie zarabiac bo koszt mcc uwzglednia tylko koszt wydobycoa a jest jeszcze wiele innych kosztow.Doskonale bylo widac to w 1q .",
-      "votes": {
-        "up": 5,
-        "down": 16
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75314193",
-      "author": "Tusk",
-      "postedAt": "2026-08-03 02:08",
-      "threadTitle": "5,508 mln akcji, czyli minął miesiąc:)",
-      "url": "https://www.bankier.pl/forum/temat_5-508-mln-akcji-czyli-minal-miesiac,75314193.html",
-      "body": "Kolejny miesiąc szortowania JSW za nami. Po 29 miesiącach mamy rekordowe, oficjalne zadłużenie, które wynosi 6,95 mln akcji.Tu: https://x.com/GPW_Trader2022/status/2083196680900411853/photo/1Niezrealizowana oferta poźyczkowa w ostatni piątek opiewała na nieco ponad 0,5 mln akcji. UT wynosiła 92,9%. CTB wynosił 8,51%, czyli był 8,5 razy wyższy niż standardowa stawka. Średni dzienny wolumen obrotów w lipcu wyniósł 0,239 mln akcji i był >2x mniejszy niż miesiąc wcześniej, blisko 3x mniejszy niż jak dotąd w całym roku 2026. W minionym miesiącu szorciarze pożyczyli 0,92 mln akcji, oddali marne 0,4 mln walorów JSW. Saldo pożyczek po raz kolejny było ujemne. Mimo rozpaczliwych starań szorciarzy kurs akcji wzrósł w ubiegłym miesiącu o +2% (24,6>25,1)Wzrosła liczba akcja zablokowanych w arkuszu zleceń S. Na początku miesiąca wyniosła ona 12,459 mln sztuk, w ostatni piątek rano 13,291 mln sztuk, +0,832 mln akcji. Tu: https://x.com/GPW_Trader2022/status/2082819150494196110/photo/1Tu: https://x.com/GPW_Trader2022/status/2072283586481283082/photo/1W ubiegłym miesiącu szorciarze zwiększyli zadłużenie o 0,52 mln akcji netto, nasza strona kupiła i zablokowała w arkuszu zleceń S dodatkowe 0,832 mln akcji. Kto jest lepszym kupcem? Oczywiście, że My!:)Wszystkie wskaźniki są niekorzystne dla szorciarzy. Rośnie kurs akcji (24,6 > 25,1 złotych), rośnie oficjalna liczba otwartych pozycji krótkich (6,34>6,95 ln akcji), rośnie oprocentowanie pożyczek (8,12% > 8,51%). Dramatycznie spada wolumen dziennych obrotów (0,561 mln w czerwcu > 0,239 mln akcji w lipcu). Pamiętamy, że za podażą stoją w około 92% sami szorciarze. Z 5,5 mln akcji, które obróciły się na rynku w lipcu, szorciarze kupili i oddali brokerom 0,4 mln sztuk, czyli 7,26% całego wolumenu. Średni odkup akcji brutto w lipcu, czyli w dniach, kiedy szorciarze faktycznie kupowali i oddawali akcje JSW, wyniósł 17,51%, czyli był niższy niż dotychczasowy w 2026 roku (17,86%) oraz niższy niż w czerwcu (17,91%). Nie idzie szorciarzom, oj nie idzie!:) Pamiętamy, że dane ortexowe mogą mieć opóźnienie sięgające nawet 5 dni. Spodziewam się, że UT już osiągnęła 100%, o czym prawdopodobnie przekonamy się pierwszym tygodniu sierpnia. UT 100% oznacza, że szorciarzom wyschło oficjalne źródło pożyczania akcji. Akcji, których potrzebują do tłuczenia kursu. Być może będą musieli pożyczać akcje od Goldmanów lub innych zaprzyjaźnionych funduszy, ale pod warunkiem, że te faktycznie jeszcze mają co pożyczyć. Wartość oficjalnych otwartych pozycji krótkich wynosi obecnie 174,445 mln złotych. Każdego dnia szorciarze płacą prawdopodobnie około 41 tysięcy złotych samych odsetek plus zapewne drugie tyle prowizji. Rocznie daje to około 30 mln złotych. Przy faktycznym zadłużeniu 2x wyższym koszty finansowe rosną do ok. 60 mln złotych. Przez pierwsze dwa lata szortowania, jak podaje kol. Trader 2022, szorciarze zapłacili brokerom ok. 100 mln złotych. Na koniec roku, przy niezmienionych warunkach, koszty finansowe mogą zatem przekroczyć wartość samego oficjalnego zobowiązania.:) Nie idzie szorciarzom, oj nie idzie!:)Ostatnio pojawiło się info o planowanym wezwaniu na 100% Żabki. To oznacza katastrofę finansową szorciarzy, którzy, uwzględniając tylko dane z KNF RSS, otworzyli pozycje krótkie na 22,4 mln akcji przy szacunkowej cenie 22 złotych. Wezwanie ma zostać ogłoszone po 32 złote, czyli 10 złotych drożej. Szacunkowa strata operacyjna przy założeniu, że szorciarze odkupią miliony akcji po 32 złote, opiewać może zatem 224 mln złotych na pozycjach ujawnionych w rejestrze KNF. A przecież suma otwartych pozycji krótkich może być znacząco większa i prawdopodobnie jest. W czerwcu wg ortexu wynosiła blisko 25 mln sztuk. To obala mit o niezwyciężonych szorciarzach, czyż nie?:)Wracamy jednak do naszych baranów. Kiedy nastąpi \"wyciskanie\" na JSW? Tego nie wie nikt. Nie wiedzą tego nawet sami szorciarze, którzy dobrowolnie raczej nie przystąpią do zmasowanego odkupu akcji po tęgim laniu, które dostali od nas w marcu. Przypomnę, za kol. Trader2022, że wówczas odkup 0,8 mln akcji spowodował wzrost wartości akcji JSW o +65%. Wtedy właśnie szorciarze chcieli sprawdzić naszą gotowość do taniego i masowego sprzedawania walorów JSW. Próba ta zakończyła się niepowodzeniem. Dlaczego akcjonariusze nie sprzedali szorciarzom milionów akcji? Odpowiedź na to pytanie znajdziecie w prostej wyliczance odkupu i ceny akcji przy 65% wskaźniku wzrostu zaczynając od poziomu piątkowego zamknięcia, czyli 25,1 złotych.:)6,95 > 6,15 mln akcji, +65%, czyli akcja kosztowałaby 41,41 złotych6,15 > 5,35 mln akcji, +65%, czyli akcja kosztowałaby 68,32 złotych5,35 > 4,55 mln akcji, +65%, czyli akcja kosztowałaby 112,73 złotych4,55 > 3,75 mln akcji, +65%, czyli akcja kosztowałaby 186,01 złotych3,75 > 2,95 mln akcji, +65%, czyli akcja kosztowałaby 306,93 złotych2,95 > 2,15 mln akcji, +65%, czyli akcja kosztowałaby 506,43 złotych2,15 > 1,38 mln akcji, +65%, czyli akcja kosztowałaby 835,62 złotych1,88 > 0,58 mln akcji, +65%, czyli akcja kosztowałaby 1378,77 złotych.Oczywiście to jest tylko prosta wyliczanka, oparta na dotychczasowym doświadczeniu, a rzeczywistość może i będzie prawdopodobnie inna, wszak w arkuszu zleceń S mamy do ceny 100 złotych włącznie ofertę na > 9 mln akcji, czyli więcej niż wynosi oficjalne zobowiązanie szorciarzy (ortex). To prawda, ale pamiętajmy, że nawet w trakcie \"wyciskania\" w handlu po stronie popytowej uczestniczyć będą, poza szorciarzami, również inni inwestorzy, na przykład longerzy, drobna spekuła czy agresywne fundusze inwestycyjne. Zwłaszcza te ostatnie będą zainteresowane jak największym wybiciem, ponieważ mają prawdopodobnie do sprzedania całkiem sporo akcji, czyli w pierwszych dniach będą również prawdopodobnie masowo kupować walory JSW, żeby jak najmocniej podbić kurs w ramach tzw. \"wirówki\". Longerzy również będą prawdopodobnie uzupełniać portfele w związku z niską wyceną giełdową JSW oraz wyraźną poprawą efektywności działalności z jednej strony oraz rosnącą od kilkunastu miesięcy (trend) ceną CC z drugiej. Obecnie szorciarze zbierają z dziennej oferty S ok. 17,5% wolumenu. Zakładając, że ten wskażnik się więcej niż podwoi w trakcie \"wyciskania\", czyli do ok. 40%, wtedy z w/w 9 mln akcji wystawionych na sprzedaż do ceny 100 złotych włącznie, szorciarze kupią i oddadzą brokerom ok. 3,6 mln akcji. Zatem oficjalny dług zmniejszy się z 6,95 mln do 3,35 mln akcji, ale kurs może przekroczyć 100 złotych. Przy takim zadłużeniu zredukowanie do zera oficjalnego zadłużenia (ortex), może spowodować wzrost kursu JSW do 200 czy więcej złotych, czyż nie?:) Nie zapominajmy o tym, że prawdopodobnie w przypadku szortowania JSW mamy do czynienia ze zjawiskiem wielokrotnego pożyczania jednej i tej samej akcji, zanim zostanie ona ostatecznie oddana prawowitemu właścicielowi. W uproszczeniu polega to na tym, że posiadacz akcji nie blokuje jej w arkuszu zleceń S i jest ona pożyczana przez brokera szorciarzowi. Ten ostatni sprzedaje tę akcję w celu stluczenia kursu i ponownie trafia ona przykładowo do portfela jej pierwotnego właściciela. Sytuacja się powtarza, akcja JSW ponownie jest wstawiana do oferty pożyczkowej, znowu trafia w rece szorciarza, który ponownie ją sprzedaje. Sytuacja powtarza się znowu i na koniec jedna i ta sama akcja zamienia się przykładowo w 5 akcji długu szorciarza. To z kolei oznacza, że szorciarz musi kupić jedną i tą samą akcję 5-krotnie, żeby zlikwidować zadłużenie. I jeśli ta jedna akcja jest wystawiona na S przykładowo po 100 złotych, a zakup od innego akcjonariusza dokonał się po 26 złotych, to odkupiony walor JSW nie trafia do oferty pożyczkowej, ponieważ nadal jest zablokowany po 100 złotych. Jedynym efektem jest tylko zmniejszenie przykładowego zobowiązania z 5 akcji do 4 akcji JSW. Dlatego blokowanie posiadanych akcji JSW jest bardzo ważne, ponieważ odkupione taniej akcje nie zawsze muszą trafiać ponownie do oferty pożyczkowej brokerów, czyli UT mimo odkupu przykładowo 100, 200 czy więcej tysięcy akcji nie musi wpływać na utylizację, która nadal może wynosić przykładowo 100%Ile jednak może kosztować akcja JSW po zamknięciu wszystkich pozycji krótkich, czyli również tych ukrytych? Jak być może pamiętacie, w ubiegłym roku przedstawiłem na forum własne szacunki, według których obecne zadłużenie całkowite szorciarzy może wynosić nawet 17 mln akcji, czyli ok. 10 mln więcej ponad dług ortexowy. Zachęcam każdego do wykonania samodzielnie szacunków zobowiązania szorciarzy, wszak mogłem sie pomylić - jak każdy!:) W arkuszu zleceń S mamy ofertę na ok. 13,3 mln akcji. Do zaspokojenia szacowanego przeze mnie popytu na 17 mln akcji brakuje zatem ok. 3,7 mln akcji. Nawet jeśli szorciarze kupiliby wszystkie oferowane obecnie akcje, nadal nie zamknęliby całkowicie pozycji krótkich, czyż nie?:) Zapalnikiem \"wyciskania\" mogą być pozytywne informacje płynące z rynku lub z samej spółki. Jak wiecie, spółka wdraża z powodzeniem program naprawczy, w rezultacie którego znacząco obniży koszty działalności. Zarząd planuje, że w tym roku koszt wydobycia spadnie średnio do 570 złotych tona, czyli do 151 $. Przy obecnej cenie CC (kontrakty) 215$Tu: https://pl.tradingeconomics.com/commodity/coking-coalspółka, uwzględniając 10% dyskontu, może zarabiać na każdej sprzedanej tonie 42,5 $, czyli ok. 160 złotych.160 złotych x 12 mln ton planowanego na ten rok wydobycia CC = 1,92 mld złotych. Po pierwszym kwartale 2026 MCC wynosił 631 złotych/tona (przed zwolnieniami pracowników). W przyszłym roku, po zakończeniu programu zwolnień i dobrowolnych odejść z pracy, ok. 4,2 tysiąca ludzi, koszty spadną o dodatkowe ponad 1,2 mld złotych, czyli o około 100 złotych na każdej wydobytej tonie.Tu: https://innpoland.pl/229339,jsw-na-skraju-bankructwa Jeśli tak faktycznie będzie, wówczas MCC w 2027 roku może wynieść 531 złotych. Przy utrzymaniu w/w ceny sprzedaży, 215$ - 10% (dyskonto), czyli 193,5$ (729,5 złotych), szacunkowy zysk przy utrzymaniu wydobycia na obecnym poziomie wyniesie prawdopodobnie 729,5 złotych - 531 złotych x 12 mln ton = 2,38 mld złotych. Jednak cena CC może rosnąć, czego zresztą się spodziewam w związku z zbrojeniami w eurokołchozie i na całym świecie. Przy rocznej produkcji stali na poziomie 120-130 mln ton, europejskie huty potrzebują około 85 mln ton CC, czyli 7 więcej niż wynosi obecne wydobycie w JSW. Spółka prawdopodobnie planuje zwiększenie wydobycia. W tym kontekście patrzę na otrzymaną koncesję na złoże Dębieńsko, gdzie szacowane zasoby wynoszą od 100 do 300 mln ton wysokiej klasy węgla koksowego. Czy JSW ma możliwości, żeby zwiększyć wydobycie? Oczywiście, że tak. Przypomnę, że w okresie poprzedniej hossy surowcowej, lata 2021-2023, spółka wydobywała nawet 14 mln ton węgla rocznie, z czego ok. 13 mln ton CC.Policzmy.729,5 złotych - 531 złotych x 13 mln ton = 2,58 mld złotychCzy cena CC może rosnąć? Oczywiście, że tak, tym bardziej, że popyt rośnie, a przykładowo w Chinach i Australii zamykane są kopalnie, z różnych powodów. Tu: https://x.com/GPW_Trader2022/status/2082747900132483099/photo/1Tu: https://x.com/GPW_Trader2022/status/1969743711048278488Zwracam Waszą uwagę na to, że na rynku surowców normą są cykle koniunkturalne, które trwają zwykle kilka lat. Okresy niskich cen powodują brak inwestycji i otwierania nowych złóż. Po kilku latach bessy zwykle następuje wzrost popytu, co przy mniejszej podaży nieuchronnie prowadzi do wzrostu cen surowca. Przykładowo ostatnia hossa surowcowa, lata 2021-2023, wywindowała cenę tony CC nawet na 635 $ (2394 złotych). Średnio w tym okresie tona CC kosztowała ok. 350$ (1320 złotych), czyli ok. 63% więcej niż wskazują obecnie kontrakty. Zachęcam każdego z Was do wykonania szacunków zysku JSW latach kolejnych przy utrzymaniu niskich kosztow wydobycia, przy 12 milionach ton wydobycia CC oraz wzrostu cen surowca do 300, 400 i więcej dolarów amerykańskicj /tona. Czy możemy spodziewać się powtórzenia sytuacji z lat 2021-2023? Ja uważam, że tak. Biliony euro wydane w następnych kilku latach na zbrojenie w EU trafią w części, niewielkiej, to fakt, ale jednak, również do kasy JSW. 0,01% z 1 biliona euro to 10 mld euro.:) Tylko w tym roku rządy krajów-członków eurokołchozu planują wydać na zabrojenia ok. 435 mld euro. Tu: https://defence24.pl/polityka-obronna/wydatki-obronne-ue-bija-kolejne-rekordy-gonia-usa-rosja-daleko-w-tyleWygląda na to, że najgorsze spółka ma już za sobą. Pierwsze dodatnie wyniki finansowe, spodziewam się ich w 3q tego roku, zwrócą prawdopodobnie uwagę analityków kolejnych funduszy inwestycyjnych. Spodziewam się zatem wzrostu popytu na akcje JSW, a ten oznacza wzrost ceny, tym bardziej, że szorciarze mają już bardzo niewiele amunicji, by zdusić ewentualny popyt (UT ~92%). Niska wycena JSW dodatkowo będzie sprzyjać popytowi na tanie akcje. Wszystkie zaprezentowane wyżej dane oraz szacunki doskonale tłumaczą zmasowaną akcję propagandową prowadzoną na forum i w mediach przez szorciarzy. Jej celem jest skłonienie drobnych i mniej doświadczonych inwestorów do sprzedaży posiadanych walorów JSW. To oni są bowiem przewidziani na ofiary szortowania, bez nich odkup wcześniej pożyczonych i sprzedanych akcji nie jest możliwy bez znaczącego wzrostu kursu. Strategia szorciarzy, jak widzimy, poniosła sromotną klęskę. Drobni inwestorzy akcji masowo nie sprzedają, lecz je kupują i blokują w arkuszu zleceń S. Tylko w tym roku liczba akcji zablokowanych zwiększyła się z ok. 7,4 mln do ok. 13,4 mln akcji, czyli o 6 mln sztuk (+81%).W tym optymistycznym nastroju oświadczam, że taka jest moja spekulacja.:)Dobrej zabawy i dużych zysków życzę wszystkim gojom!:)",
-      "votes": {
-        "up": 93,
-        "down": 13
-      },
-      "sentimentScore": 1,
       "sentimentLabel": "Positive"
     },
     {
@@ -2890,6 +2811,90 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75300437",
+      "author": "Braun",
+      "postedAt": "2026-07-31 13:36",
+      "threadTitle": "Re: O r t e x",
+      "url": "https://www.bankier.pl/forum/temat_o-r-t-e-x,75300089.html",
+      "body": "Tak jak pisałem, pożyczą wszystko co jest do pożyczenia i na to właśnie czekamy! szczęść Boże.",
+      "votes": {
+        "up": 31,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75300359",
+      "author": "marol92",
+      "postedAt": "2026-07-31 13:31",
+      "threadTitle": "Re: O r t e x",
+      "url": "https://www.bankier.pl/forum/temat_o-r-t-e-x,75300089.html",
+      "body": "Czyli krótko mówiąc nowy rekord pożyczonych akcji. Te pożyczki to są w tej chwili jak kroplówki dla shortów. Dzisiaj ostatni dzień miesiąca, pamiętajcie sprawdzić stan zleceń w poniedziałek.",
+      "votes": {
+        "up": 18,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75300089",
+      "author": "Ortex",
+      "postedAt": "2026-07-31 13:09",
+      "threadTitle": "O r t e x",
+      "url": "https://www.bankier.pl/forum/temat_o-r-t-e-x,75300089.html",
+      "body": "SOL 6,95mln, CTB 8,51%, Util 92,9%",
+      "votes": {
+        "up": 33,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75295461",
+      "author": "zadziwiony",
+      "postedAt": "2026-07-31 07:02",
+      "threadTitle": "Re: Emisja akcji jak najbardziej by się przydała",
+      "url": "https://www.bankier.pl/forum/temat_emisja-akcji-jak-najbardziej-by-sie-przydala,75294919.html",
+      "body": "Też myślę że 10 ziko",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75295437",
+      "author": "Rysiek",
+      "postedAt": "2026-07-31 06:58",
+      "threadTitle": "Re: Emisja akcji jak najbardziej by się przydała",
+      "url": "https://www.bankier.pl/forum/temat_emisja-akcji-jak-najbardziej-by-sie-przydala,75294919.html",
+      "body": "wtedy fundy okupią a ulica gały wywali co sie stało ,na PKP okradli do dna ludzi",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75294919",
+      "author": "Brando25",
+      "postedAt": "2026-07-31 00:23",
+      "threadTitle": "Emisja akcji jak najbardziej by się przydała",
+      "url": "https://www.bankier.pl/forum/temat_emisja-akcji-jak-najbardziej-by-sie-przydala,75294919.html",
+      "body": "Zrobiliby po 10 zł 500 milionów akcjiI po sprawie",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     }
   ]
 }
