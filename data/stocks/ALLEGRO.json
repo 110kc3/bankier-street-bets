@@ -3,11 +3,11 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-08-04T09:06:02.366Z",
+  "updatedAt": "2026-08-04T14:38:05.182Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-04T09:06:02.366Z",
+    "fetchedAt": "2026-08-04T14:38:05.182Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.011,
-    "confidence": 0.6,
-    "commentCount": 44,
+    "score": 0.055,
+    "confidence": 0.61,
+    "commentCount": 43,
     "breakdown": {
-      "positive": 13,
-      "negative": 13,
+      "positive": 14,
+      "negative": 11,
       "neutral": 18
     },
     "trend": [
       {
         "date": "2026-07-28",
-        "score": -0.054,
-        "count": 6
+        "score": 0,
+        "count": 1
       },
       {
         "date": "2026-07-29",
@@ -51,48 +51,44 @@
       },
       {
         "date": "2026-08-03",
-        "score": -0.002,
-        "count": 14
+        "score": 0.023,
+        "count": 13
       },
       {
         "date": "2026-08-04",
-        "score": -0.291,
-        "count": 2
+        "score": 0.037,
+        "count": 7
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 44 komentarzy z ostatnich 7 dni: nastroje mieszane (13 pozytywnych, 13 negatywnych, 18 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 43 komentarzy z ostatnich 7 dni: nastroje mieszane (14 pozytywnych, 11 negatywnych, 18 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "allegro",
-        "count": 8
-      },
-      {
-        "word": "skup",
+        "word": "skupu",
         "count": 6
       },
       {
-        "word": "skupu",
+        "word": "allegro",
+        "count": 6
+      },
+      {
+        "word": "skup",
         "count": 5
       },
       {
         "word": "szorty",
-        "count": 5
+        "count": 4
       },
       {
         "word": "kase",
         "count": 4
       },
       {
-        "word": "cena",
+        "word": "taka",
         "count": 3
       },
       {
-        "word": "ceny",
-        "count": 3
-      },
-      {
-        "word": "placza",
+        "word": "mialo",
         "count": 3
       },
       {
@@ -100,12 +96,86 @@
         "count": 3
       },
       {
-        "word": "czyta",
+        "word": "chinskich",
         "count": 3
+      },
+      {
+        "word": "poziom",
+        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75333775",
+      "author": "Adi",
+      "postedAt": "2026-08-04 16:36",
+      "threadTitle": "Re: Jednak atak na 50",
+      "url": "https://www.bankier.pl/forum/temat_jednak-atak-na-50,75331765.html",
+      "body": "Myślę że 45 to taka zapora postawiona przez spółkę więc terazczekamy na solidne przebicie do 50zł i ewentualnym podwyższeniu skupu do 60 zł",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75333035",
+      "author": "lol",
+      "postedAt": "2026-08-04 15:55",
+      "threadTitle": "Re: Jednak atak na 50",
+      "url": "https://www.bankier.pl/forum/temat_jednak-atak-na-50,75331765.html",
+      "body": "błąd literówki miało być kurs na poziom 45",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75332915",
+      "author": "lol",
+      "postedAt": "2026-08-04 15:48",
+      "threadTitle": "Re: Jednak atak na 50",
+      "url": "https://www.bankier.pl/forum/temat_jednak-atak-na-50,75331765.html",
+      "body": "Przez 3 tygodnie komputery umiejętnie schładzały RSI z 80,90 na 65,70 a kurs cały czas był na poziomie 50zł. Tak się robi tylko przed kolejnym wybiciem. Teoretycznie 50zł wystarczy ale praktycznie może być za blisko i za mało dla takiego trudu i wysiłku schładzania RSI.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75331765",
+      "author": "Adi",
+      "postedAt": "2026-08-04 14:34",
+      "threadTitle": "Jednak atak na 50",
+      "url": "https://www.bankier.pl/forum/temat_jednak-atak-na-50,75331765.html",
+      "body": "Obstawiałem że będzie cofka skoro nie puszczają bedzie atak na 50",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75329263",
+      "author": "lol",
+      "postedAt": "2026-08-04 11:54",
+      "threadTitle": "Kolejny dzień ujadania szortów jak tracą kasę :). Super.Lecimy na 68",
+      "url": "https://www.bankier.pl/forum/temat_kolejny-dzien-ujadania-szortow-jak-traca-kase-super-lecimy-na-68,75329263.html",
+      "body": "Lecimy na 68",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75327385",
       "author": "Jan",
@@ -128,7 +198,7 @@
       "url": "https://www.bankier.pl/forum/temat_skup-400-mln,75319823.html",
       "body": "Kto sprzedaje?Głównie instytucje, które grały pod skup akcji. Kiedy Allegro ogłosiło program skupu, kupiły akcje z zamiarem odsprzedania ich później spółce.Dlatego kurs jest obecnie przyklejony do poziomu około 45 zł. Instytucje starają się oddawać akcje po maksymalnej cenie przewidzianej w programie skupu.Moim zdaniem taka sytuacja może utrzymać się jeszcze przez około 2-3 tygodnie.Jeżeli więc chcesz grać na spadki, musisz brać pod uwagę, że kurs może pozostać w tym rejonie jeszcze przez jakieś 12-15 dni i przez ten czas nie wykazywać większej zmienności.Co dalej?Warto zauważyć, że obecny skup został nazwany Fazą 1. Z dużym prawdopodobieństwem pojawi się Faza 2. Trudno sobie wyobrazić, aby spółka numerowała etapy programu, gdyby od początku nie brała pod uwagę możliwości jego kontynuacji.Kluczowe pytanie brzmi: na jakich warunkach zostałaby przeprowadzona druga faza? Czy maksymalna cena skupu zostałaby podniesiona do 50 zł, 55 zł, a może nawet 60 zł za akcję? Dodatkowo pytanie co jak pojawi sie chętny na spółkę ? Wtedy mamy to co na żabce ? Wedlug Ortex shorty redukuja mocno pozycję",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -142,7 +212,7 @@
       "url": "https://www.bankier.pl/forum/temat_skup-400-mln,75319823.html",
       "body": "Kolejnego ABB nie bedzie, skup akcji wzmacnia cenę kursu, a na to wszystko rewelacyjne wy iki i prognozy, stop na konkurencje z Chin i odpalenie przychodow rgnkow zagranicznych, wiec sprzedawanie teraz po ok. 45 PLN to głupota.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -156,25 +226,11 @@
       "url": "https://www.bankier.pl/forum/temat_jest-tu-ktos-madrzejszy,75214207.html",
       "body": "Poczytaj raporty sprzedażowe... Chińczycy w odwrocie.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75323857",
-      "author": "Fan",
-      "postedAt": "2026-08-03 21:02",
-      "threadTitle": "Re: Skup 400 mln",
-      "url": "https://www.bankier.pl/forum/temat_skup-400-mln,75319823.html",
-      "body": "Co to za gówniana jeszcze cena?80-90 było kiedyś, a jaka inflacja dziś, pieniądz całkiem stracił na wartości.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75321579",
@@ -255,7 +311,7 @@
       "body": "Jakbym kupił jak ty po 50zł to może i bym ujadał ale mam po 19 zeta więc mam tylko bekę z takich glonojadów jak ty :)",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -338,8 +394,8 @@
       "url": "https://www.bankier.pl/forum/temat_jest-tu-ktos-madrzejszy,75214207.html",
       "body": "Każdy kupuje w chińskich marketach bo jest taniej niż u pazernego pośrednika. Mrzonki, że cła coś załatwią można schować między bajki. Efekt będzie z goła odmienny - taniej i szybsza wysyłka. Poczytaj o nowych centrach, które się budują w Polsce i Europie. Pod Wrocławiem samo Shein będzie miało tyle pracowników co całe Allegro. A gdzie pozostałe centra... Kurs 50, 90, 150 to zwyczajne naganianie. Nie dawajcie się nabierać. Ja od tej fałszywej platformy i jej trollingu trzymam się jak najdalej.",
       "votes": {
-        "up": 1,
-        "down": 6
+        "up": 2,
+        "down": 7
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -352,7 +408,7 @@
       "url": "https://www.bankier.pl/forum/temat_jest-tu-ktos-madrzejszy,75214207.html",
       "body": "Przecież droga wolna na 70 a może nawet 90. Po co sprzedawać za połowę ? Chyba że Ci się spieszy.To pewny biznes długofalowo. A chińskie markiety.... kto kupuje w chińskich markietach ? Gospodynie domowe.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -651,76 +707,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75262275",
-      "author": "Andy",
-      "postedAt": "2026-07-28 14:16",
-      "threadTitle": "Re: Pora przestać bredzić",
-      "url": "https://www.bankier.pl/forum/temat_pora-przestac-bredzic,75261203.html",
-      "body": "Proszę przyjąć do wiadomości ,że Allegro ma w planach skup własnych akcji, ale w cenie max.45 ,zeta, więc pilnują tej ceny aby nie musieli przepłynąć. Proszę to info sprawdzić w komunikatach spółki, koledzy",
-      "votes": {
-        "up": 5,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75262099",
-      "author": "Jola",
-      "postedAt": "2026-07-28 14:05",
-      "threadTitle": "Re: Pora przestać bredzić",
-      "url": "https://www.bankier.pl/forum/temat_pora-przestac-bredzic,75261203.html",
-      "body": "Zgadza się, ale etatowi naganiacze zaraz cię przekrzyczą, że będzie 50, 60, 100. Że to najlepsza spółka i zatrudnia 6tys osób... hehe. Mam wrażenie, że samo allegro opłaca te wpisy, bo żaden normalny człowiek by nie pisał takich bzdur..",
-      "votes": {
-        "up": 8,
-        "down": 11
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75261935",
-      "author": "HRabia",
-      "postedAt": "2026-07-28 13:54",
-      "threadTitle": "Re: Allegro korekta dobiega konca",
-      "url": "https://www.bankier.pl/forum/temat_allegro-korekta-dobiega-konca,75245499.html",
-      "body": "aj dzieci, dzieci, kiedy wy z tej piaskownicy wyrośniecie",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75261203",
-      "author": "nagony_precz",
-      "postedAt": "2026-07-28 13:01",
-      "threadTitle": "Pora przestać bredzić",
-      "url": "https://www.bankier.pl/forum/temat_pora-przestac-bredzic,75261203.html",
-      "body": "Pora przestać bredzić o wzrostach na tej spółce. Jak jest o jaki kierunek się rysuje każdy widzi.",
-      "votes": {
-        "up": 10,
-        "down": 10
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75260461",
-      "author": "lol",
-      "postedAt": "2026-07-28 12:09",
-      "threadTitle": "Następny dzień skamlania szortów jak tracą kasę :).SUPER widok :)",
-      "url": "https://www.bankier.pl/forum/temat_nastepny-dzien-skamlania-szortow-jak-traca-kase-super-widok,75260461.html",
-      "body": "Pięknie się czyta jak szorty płaczą bo bankrutują :)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
