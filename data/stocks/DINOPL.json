@@ -3,11 +3,11 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-08-05T03:31:33.948Z",
+  "updatedAt": "2026-08-05T09:04:32.167Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-05T03:31:33.948Z",
+    "fetchedAt": "2026-08-05T09:04:32.167Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,82 +15,460 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.021,
-    "confidence": 0.71,
+    "score": -0.011,
+    "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 46,
-      "negative": 59,
-      "neutral": 95
+      "positive": 47,
+      "negative": 53,
+      "neutral": 100
     },
     "trend": [
       {
         "date": "2026-08-01",
-        "score": -0.233,
-        "count": 8
-      },
-      {
-        "date": "2026-08-02",
-        "score": -0.034,
-        "count": 9
+        "score": 0,
+        "count": 2
       },
       {
         "date": "2026-08-03",
-        "score": 0.024,
-        "count": 87
+        "score": 0.042,
+        "count": 75
       },
       {
         "date": "2026-08-04",
         "score": -0.046,
         "count": 96
+      },
+      {
+        "date": "2026-08-05",
+        "score": -0.024,
+        "count": 27
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (46 pozytywnych, 59 negatywnych, 95 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (47 pozytywnych, 53 negatywnych, 100 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 26
+        "count": 29
       },
       {
         "word": "hehehe",
-        "count": 16
+        "count": 14
       },
       {
-        "word": "rynek",
-        "count": 9
+        "word": "papier",
+        "count": 8
+      },
+      {
+        "word": "qube",
+        "count": 8
+      },
+      {
+        "word": "przy",
+        "count": 8
+      },
+      {
+        "word": "maja",
+        "count": 8
       },
       {
         "word": "zeby",
         "count": 8
       },
       {
-        "word": "masz",
-        "count": 8
-      },
-      {
-        "word": "koniec",
-        "count": 8
-      },
-      {
-        "word": "przy",
+        "word": "wyniki",
         "count": 7
       },
       {
-        "word": "kazdy",
+        "word": "masz",
         "count": 7
       },
       {
         "word": "prawie",
         "count": 7
-      },
-      {
-        "word": "maja",
-        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75341549",
+      "author": "Lejs",
+      "postedAt": "2026-08-05 10:56",
+      "threadTitle": "Re: albo szybki koniec korekty albo zjazd na 30zł",
+      "url": "https://www.bankier.pl/forum/temat_albo-szybki-koniec-korekty-albo-zjazd-na-30zl,75341253.html",
+      "body": "Dwa tygodnie korekty do 30 PLN.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75340795",
+      "author": "SHORT",
+      "postedAt": "2026-08-05 10:13",
+      "threadTitle": "Re: „Miałeś chamie złoty róg”",
+      "url": "https://www.bankier.pl/forum/temat_miales-chamie-zloty-rog,75328269.html",
+      "body": "> Nic się nie zestarzało bo poniżej 30 już nie kupisz.Jaki pewny \"niewydarzony pelikan\" swego że mu pokarm /akcyjki DINKO/ nie zaszkodzą! Hehehe!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75340561",
+      "author": "Tumbelele",
+      "postedAt": "2026-08-05 09:59",
+      "threadTitle": "Rekomendacja",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja,75340561.html",
+      "body": "Czy oni zakładają 0% LFL za 2kw ???",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75340383",
+      "author": "pzdr",
+      "postedAt": "2026-08-05 09:50",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "co ty opowiadasz na CDprojekcie najwięcej shortów ujawniło się na samym dnie wykresu.a tu analitycy też już widzą dno podobn XD.więc chwila cierpliwości i powinno być lepiej;)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75340377",
+      "author": "Max",
+      "postedAt": "2026-08-05 09:49",
+      "threadTitle": "Re: Nowe reko 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_nowe-reko-40-zl,75338981.html",
+      "body": "Też trzymam ten papier przynajmniej do wyników.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75340355",
+      "author": "ja",
+      "postedAt": "2026-08-05 09:48",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "Polecam zobaczyć pozycję Qube na allegro. Jak zaczął się ruch od okolic 25zł to przy 29-30 zaczynali wchodzić w krótką. Teraz jest ponad 45zł, a oni mają średnią około 34-35zł więc 10zł straty na akcji (teraz mają jeszcze około 17mil akcji do odkupienia), którą zostali zmuszeni zamykać od poziomu 40zł i dalej wychodzą przy 44zł :)",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75340235",
+      "author": "Heisenberg",
+      "postedAt": "2026-08-05 09:44",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "03.08 zwiększyli pozycję <0,5%",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75340051",
+      "author": "Heisenberg",
+      "postedAt": "2026-08-05 09:33",
+      "threadTitle": "Re: Nowe reko 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_nowe-reko-40-zl,75338981.html",
+      "body": "Do znudzenia. CIERPLIWOŚĆ. Do wyników 10 sesji, trzymam nadal",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75339979",
+      "author": "Xxxi",
+      "postedAt": "2026-08-05 09:29",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "Macie rację nie ma w rejestrze",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75339943",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-08-05 09:27",
+      "threadTitle": "Re: Nowe reko 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_nowe-reko-40-zl,75338981.html",
+      "body": "Będzie oni graja w dwie strony na obecną chwilę wyleszczaja jeszcze papier nie dajcie sobie odebrać akcji oni żyją i zarabiają mnóstwo kasy na strachu znudzeniu i na naiwności małych akcjonariuszy bo ci co poznali zasady tu panujące w tej chwili dokupują",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75339933",
+      "author": "Re",
+      "postedAt": "2026-08-05 09:26",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "Fake news Trollu nie ma Qube powyżej 0,5 %. ....prostackie kłamstwo",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75339919",
+      "author": "Alapo",
+      "postedAt": "2026-08-05 09:25",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "Ktoś gdzie TOŚ wyczytł",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75339831",
+      "author": "Buba",
+      "postedAt": "2026-08-05 09:20",
+      "threadTitle": "Re: Nowe reko 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_nowe-reko-40-zl,75338981.html",
+      "body": "Dino 65 powinno byc",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75339787",
+      "author": "Nocwilka",
+      "postedAt": "2026-08-05 09:18",
+      "threadTitle": "Re: Nowe reko 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_nowe-reko-40-zl,75338981.html",
+      "body": "Sami dobrze wiecie że my jako Polacy możemy zrobić nic większość gotówki jest zachodu na giełdzie oni decydują które akcjie idą do góry a które spadają",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75339507",
+      "author": "Re",
+      "postedAt": "2026-08-05 09:01",
+      "threadTitle": "Re: Nowe reko 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_nowe-reko-40-zl,75338981.html",
+      "body": "I to oparte na założeniach, jak będzie progresywna poprawa przy pomocy inflacji w Q3 i Q4 to i będzie reko na ath",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75339377",
+      "author": "Pablo",
+      "postedAt": "2026-08-05 08:52",
+      "threadTitle": "Re: „Miałeś chamie złoty róg”",
+      "url": "https://www.bankier.pl/forum/temat_miales-chamie-zloty-rog,75328269.html",
+      "body": "Nic się nie zestarzało bo poniżej 30 już nie kupisz.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75339361",
+      "author": "Mirek",
+      "postedAt": "2026-08-05 08:50",
+      "threadTitle": "Re: poważne testy powyżej 35 zet",
+      "url": "https://www.bankier.pl/forum/temat_powazne-testy-powyzej-35-zet,75339139.html",
+      "body": "Zagdza się jakby nie sypali była by już wczoraj Jescze chwilę niech dozbierają i bramka otworzą",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75339293",
+      "author": "Radi",
+      "postedAt": "2026-08-05 08:46",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "Jest . Inf z 3 sierpnia",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75339139",
+      "author": "2233608",
+      "postedAt": "2026-08-05 08:29",
+      "threadTitle": "poważne testy powyżej 35 zet",
+      "url": "https://www.bankier.pl/forum/temat_powazne-testy-powyzej-35-zet,75339139.html",
+      "body": "Techniczna spółka dnia: Dino Polska ma jeszcze przestrzeń do odreagowania. Poważny test na 35,6 zł - parkiet.com",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75339059",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-08-05 08:20",
+      "threadTitle": "Czas na zmianę wajchy",
+      "url": "https://www.bankier.pl/forum/temat_czas-na-zmiane-wajchy,75339059.html",
+      "body": "https://www.pb.pl/najblizsze-wyniki-dino-wyznacza-dno-w-cyklu-analityk-radzi-kupuj-1265163",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75339013",
+      "author": "CCC100",
+      "postedAt": "2026-08-05 08:12",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "Nie ma żadnego shorta powyżej 0,5% w rejestrze na Dino.",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75338981",
+      "author": "Olo",
+      "postedAt": "2026-08-05 08:07",
+      "threadTitle": "Nowe reko 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_nowe-reko-40-zl,75338981.html",
+      "body": "2026-08-05 Warszawa (PAP) - Analitycy DM BOŚ, w raporcie z 28 lipca, obniżyli wycenę akcji Dino Polska w horyzoncie 12-miesięcznym do 40,1 zł",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75338909",
+      "author": "Xxxi",
+      "postedAt": "2026-08-05 07:57",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "Ta menda to samo zrobiła na Pepko i gdzie jest kurs dzisiaj",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75338889",
+      "author": "Eustachy",
+      "postedAt": "2026-08-05 07:53",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "Jestem bardzo wdzięczny tobie za podzielenie się tą ważną informacją",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75338827",
+      "author": "Buba",
+      "postedAt": "2026-08-05 07:45",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "UciekamNa otwarciu …qube sie panoszy na calym wig 20 masakra E nic. Tym nie zrobia",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75338671",
+      "author": "Ms",
+      "postedAt": "2026-08-05 07:15",
+      "threadTitle": "Re: Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "Na pepco qube TEŻ mi towarzyszył. Luźna guma .",
+      "votes": {
+        "up": 7,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75338481",
+      "author": "Ktoś",
+      "postedAt": "2026-08-05 06:25",
+      "threadTitle": "Qube- znowu powyzej 0,5 proc",
+      "url": "https://www.bankier.pl/forum/temat_qube-znowu-powyzej-0-5-proc,75338481.html",
+      "body": "Czyli spadki gwarantowane bo beda musieli odkupic przeciez taniej, pewnie znacznie taniej",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75338111",
       "author": "XXL",
@@ -338,7 +716,7 @@
       "body": "Tak zgadza się amator jestem nowy na GPW od wczoraj gram demo czasem za jedną czwartą wypłaty ugram parę grosików ogólnie zajmuje się wywózka śmieci coś ugram na piwko wrzucić ci papier w arkusz zleceń nie wiem czy byłbyś spokojny lepiej nie zarobić ale i nie coafać się na GPW przegrałem i zarobiłem nie mam na to czasu i nerwów albo jedziemy albo nie obserwowałem spółki 4 miesiące widzę sciera jakich mało apropo co jutro co po jutrze to wiadomo że we wrześniu może być po 36 ale lubię pozaczepiać znawców żeby później mieć opinie jak czują temat naganiać na spadki jak Bzymzmk każdy potrafi",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -674,7 +1052,7 @@
       "body": "Faktycznie syf przy takiej zieleni wkoło takie sypanie jakiś dramat Ameryka rakieta wig sufit przebija dobrze że nie siedziałem tu od wiosny byłbym goły i wesoły co za szmelc.",
       "votes": {
         "up": 3,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -911,7 +1289,7 @@
       "url": "https://www.bankier.pl/forum/temat_uwaga-na-portfele,75332461.html",
       "body": "Brednie",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -940,7 +1318,7 @@
       "body": "DINKO gadzina, pomimo panującego upału, szykuje się do chędożenia pasażerów pociągu spokojnie rozsiadłych w wygodnychfotelach i liczących w swoich głowach na spore profity ze wzrostu ceny posiadanych akcyjek DINO, a w pierwszej kolejnościbędzie szukał Dexterka, bo mu się spodobał i nie ma to ani tamto ! Hehehe!",
       "votes": {
         "up": 3,
-        "down": 7
+        "down": 8
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1023,7 +1401,7 @@
       "url": "https://www.bankier.pl/forum/temat_prosze-sie-przedstawic-krotka-long-kolko-hak,75329751.html",
       "body": "Żeby była jasność na tym forumJa mam longa Ms",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.87,
@@ -1065,7 +1443,7 @@
       "url": "https://www.bankier.pl/forum/temat_miales-chamie-zloty-rog,75328269.html",
       "body": "A ty oczywiście zrobiłeś tam od 20 do 60% kupując w dołku i sprzedając na górce...",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -1080,7 +1458,7 @@
       "body": "w czasie, kiedy to było po 28 zł inne spółki dały zarobić od 20 do 60%ale tak to jest jak się gra regonem",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1122,7 +1500,7 @@
       "body": "Podstaw do wzrostów ze strony spółki nie było tylko czynniki zewnętrzne.Wyglada na korektę ABC w trendzie spadkowym choć starają się by wyglądało na impuls.35 PLN nie przebite,gwiazda wieczorna straszy.Jutro może być -7'/. ....",
       "votes": {
         "up": 1,
-        "down": 11
+        "down": 12
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1149,7 +1527,7 @@
       "url": "https://www.bankier.pl/forum/temat_miales-chamie-zloty-rog,75328269.html",
       "body": "Było Dino po 27-29 to była okazja dekady a teraz ślińcie się na korektę która szybko nie nastąpi a nawet jeśli to poniżej 30 już nie zobaczycie Dino",
       "votes": {
-        "up": 9,
+        "up": 12,
         "down": 2
       },
       "sentimentScore": 0,
@@ -1990,7 +2368,7 @@
       "body": "Prrrrr Marzyciele ! A prawe ramię to pies ?28-50 29.00 PLN w sierpniu.",
       "votes": {
         "up": 0,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2143,7 +2521,7 @@
       "url": "https://www.bankier.pl/forum/temat_autostrada-do-40,75317967.html",
       "body": "doładnie, a nawet 65 zł lekko.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -2157,7 +2535,7 @@
       "url": "https://www.bankier.pl/forum/temat_autostrada-do-40,75317967.html",
       "body": "A potem po drabinie na 60",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -2241,7 +2619,7 @@
       "url": "https://www.bankier.pl/forum/temat_autostrada-do-40,75317967.html",
       "body": "J.w teraz tylko wytrwać i nie mięknąć",
       "votes": {
-        "up": 11,
+        "up": 12,
         "down": 1
       },
       "sentimentScore": 0,
@@ -2332,20 +2710,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75316545",
-      "author": "Fredy",
-      "postedAt": "2026-08-03 10:26",
-      "threadTitle": "Ostatnia Poznańska Wirówka żeby długi Kulczykow spłacali franczyzobiorcy",
-      "url": "https://www.bankier.pl/forum/temat_ostatnia-poznanska-wirowka-zeby-dlugi-kulczykow-splacali-franczyzobiorcy,62652237.html",
-      "body": "Cena wezeaniubzabki",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75316497",
       "author": "Dexter",
       "postedAt": "2026-08-03 10:22",
@@ -2402,20 +2766,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75316269",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-08-03 10:07",
-      "threadTitle": "Po to był split",
-      "url": "https://www.bankier.pl/forum/temat_po-to-byl-split,75316269.html",
-      "body": "J.wZebu zrobić tu kołchoz każdy który ma z 50k zaczyna swoją grę jedni w tą drudzy w tamta6balagan się zrobił na spółce ale za nie długo gruby zrobi tu porządek",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75316181",
       "author": "Dexter",
       "postedAt": "2026-08-03 10:02",
@@ -2430,20 +2780,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75316167",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-08-03 10:01",
-      "threadTitle": "Re: Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "Kolego orgr to formacja bycza zwiastuje zmianę trendu na wzrostowy ale musi jeszcze nastąpić potwierdzenie w postaci wybicia z linii ramienia wtedy możemy mówić o zmianie tredu na wzrostowyTakie mam doswiadczenie",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75316133",
       "author": "Ms",
       "postedAt": "2026-08-03 10:00",
@@ -2455,34 +2791,6 @@
         "down": 0
       },
       "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75316065",
-      "author": "Dexter",
-      "postedAt": "2026-08-03 09:56",
-      "threadTitle": "Re: Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "jeszcze dzikie węże i nietoperze wiszące yayami do góry",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75316027",
-      "author": "Dexter",
-      "postedAt": "2026-08-03 09:54",
-      "threadTitle": "Re: Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "short napił sie w łikend taniego alkoholu i jeszcze trzyma haha",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
     },
     {
@@ -2500,20 +2808,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75315999",
-      "author": "Dexter",
-      "postedAt": "2026-08-03 09:52",
-      "threadTitle": "trzymać sie załoga, dojedziemy SHORTA",
-      "url": "https://www.bankier.pl/forum/temat_trzymac-sie-zaloga-dojedziemy-shorta,75315999.html",
-      "body": "do spodu xd",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75315947",
       "author": "Mieszczak",
       "postedAt": "2026-08-03 09:48",
@@ -2523,48 +2817,6 @@
       "votes": {
         "up": 5,
         "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75315941",
-      "author": "Awas",
-      "postedAt": "2026-08-03 09:48",
-      "threadTitle": "Re: Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "Elementarz AT: Odwrocone RGR to formacja bycza. Zmiana trendu ze spadkowego na wzrostowy.",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75315673",
-      "author": "SHORT",
-      "postedAt": "2026-08-03 09:29",
-      "threadTitle": "Re: Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "> Jesteśmy w formacji Cefeusza, przerobiliśmy w ostatnich dniach drogę pomiędzy Delta Cephei, a Zeta Cephei. Teraz lecimy do Alfa Cephei. Ot, taka gwiezdna formacja na wykresie się zapowiada.Zapomniałeś dodać słowa \"prawdopodobnie\" którego użyłem pisząc ten post w kontrze do wypisywanych bzdur w poście\"ORGR\", tam są dopiero zgadywanki, a tak na poważnie każdy widzi wykres subiektywnie pod posiadane walory i ja jako SHORTer tak to widzę, i jest jeszcze coś takiego na giełdzie że tworząca się formacja może się załamać, a także możeprzybrać postać np. \"podwójnego dna\", i wszystko to są tylko przypuszczenia bo to rynek w przyszłości pokaże dokonany rzeczywisty wzór!",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75315271",
-      "author": "JD",
-      "postedAt": "2026-08-03 09:05",
-      "threadTitle": "Dino na Wilanowie przyniesie obroty jak 5 innych sklepów Dino! :DDD",
-      "url": "https://www.bankier.pl/forum/temat_dino-na-wilanowie-przyniesie-obroty-jak-5-innych-sklepow-dino-ddd,75315271.html",
-      "body": "czekamy na 50 zł!",
-      "votes": {
-        "up": 3,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2598,48 +2850,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75315089",
-      "author": "Wojtek",
-      "postedAt": "2026-08-03 08:49",
-      "threadTitle": "Re: Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "Głowa z ramionami , filiżanki i inne pierdoły masakra.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75314809",
-      "author": "Re",
-      "postedAt": "2026-08-03 08:22",
-      "threadTitle": "Re: Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "Jesteśmy w formacji Cefeusza, przerobiliśmy w ostatnich dniach drogę pomiędzy Delta Cephei, a Zeta Cephei. Teraz lecimy do Alfa Cephei. Ot, taka gwiezdna formacja na wykresie się zapowiada.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75314199",
-      "author": "LONG",
-      "postedAt": "2026-08-03 02:21",
-      "threadTitle": "Re: Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "Nie słuchajcie mojego brata. Majaczy coś bo depozyt musiał uzupełnić.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75314085",
       "author": "Andy",
       "postedAt": "2026-08-03 00:06",
@@ -2651,146 +2861,6 @@
         "down": 3
       },
       "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75313301",
-      "author": "SHORT",
-      "postedAt": "2026-08-02 20:23",
-      "threadTitle": "Re: Cena akcji a cena kontraktu DNP",
-      "url": "https://www.bankier.pl/forum/temat_cena-akcji-a-cena-kontraktu-dnp,75272477.html",
-      "body": "> chyba derywatami zajmuje się dłużej od Ciebie szorciku> >> > ,,,,¯⁠\\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯No i co z tego masz, sukcesy finansowe, bo jeśli wisisz dostojnie na kontraktach LONG to ze względu na napisanąwcześniej przeze mnie dźwignię finansową mogę tylko ubolewać rażącej niewiedzy! Hehehe!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75313265",
-      "author": "Dexter",
-      "postedAt": "2026-08-02 20:17",
-      "threadTitle": "Re: Cena akcji a cena kontraktu DNP",
-      "url": "https://www.bankier.pl/forum/temat_cena-akcji-a-cena-kontraktu-dnp,75272477.html",
-      "body": "chyba derywatami zajmuje się dłużej od Ciebie szorciku,,,,¯⁠\\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75313261",
-      "author": "Gocrates",
-      "postedAt": "2026-08-02 20:16",
-      "threadTitle": "Re: Cena akcji a cena kontraktu DNP",
-      "url": "https://www.bankier.pl/forum/temat_cena-akcji-a-cena-kontraktu-dnp,75272477.html",
-      "body": "CDR będzie spadał , ale DINO jutro w góręCDR :Bieżąca pozycja (~252 PLN) — kurs znajduje się wewnątrz Value Area, ale niedawno wrócił do tej strefy po korekcie z okolic 290 PLN. Po dynamicznej fali spadkowej z okolic 290 zł kurs podjął próbę odbicia i wrócił w rejon 233–235 zł, jednak strefa ta wcześniej pełniła rolę wsparcia, a po jej wybiciu stała się pierwszym ważnym oporem.Prognoza na najbliższe sesjeScenariusz byczy (prawdopodobieństwo ~35%): utrzymanie powyżej POC (248 PLN) i powrót w kierunku VAH (264 PLN), z potencjalnym testem 270 PLN przy wzroście wolumenu.Scenariusz niedźwiedzi (prawdopodobieństwo ~55%): wskaźniki techniczne generują sygnał Strong Sell, co w połączeniu z pozycją ceny w dolnej połowie Value Area sugeruje ryzyko testu VAL (232 PLN), a przy wybiciu w dół — powrót ku minimum 52-tygodniowemu (211,30 PLN).",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75313095",
-      "author": "Gocrates",
-      "postedAt": "2026-08-02 19:49",
-      "threadTitle": "Re: Cena akcji a cena kontraktu DNP",
-      "url": "https://www.bankier.pl/forum/temat_cena-akcji-a-cena-kontraktu-dnp,75272477.html",
-      "body": "I tu się jedna rzecz nie zgadza więc uważaj z tym shortem :Co zwiększyłoby wiarygodność scenariusza?Jeżeli wraz z zakończeniem fali B wystąpiło jednocześnie: spadek wolumenu podczas wzrostu B, odbicie od istotnego oporu lub POC z Volume Profile, dywergencja RSI lub MACD, wybicie dołem z krótkoterminowego kanału wzrostowego, to prawdopodobieństwo rozpoczęcia fali C wyraźnie rośnie.Widziałeś co się stało z POC ? Co oznacza kurs 31,99 zł względem Volume Profile?Jeżeli rzeczywiście:* **POC znajduje się niżej (np. w okolicach 29–30 zł)**,* a kurs wzrósł do **31,99 zł**,to oznacza, że:1. **Kurs opuścił strefę Value Area górą (VAH).**2. Rynek zaakceptował wyższy poziom cenowy.3. Popyt jest obecnie silniejszy od podaży – kupujący są skłonni zawierać transakcje po cenach wyższych od historycznie najbardziej akceptowanych.W metodologii Volume Profile jest to sygnał **byczy**, o ile wybicie zostanie utrzymane.Dlatego obstawiam wzrosty....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.999,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75313063",
-      "author": "SHORT",
-      "postedAt": "2026-08-02 19:42",
-      "threadTitle": "Re: Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "> RGR ????> > SMIECHPoczytaj wątek ORGR, dopiero się uśmiejesz co tam \"miszczowie\" analizy technicznej nawypisywali!",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75312975",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-08-02 19:20",
-      "threadTitle": "Re: Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "RGR ????SMIECH",
-      "votes": {
-        "up": 7,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75312801",
-      "author": "SHORT",
-      "postedAt": "2026-08-02 18:33",
-      "threadTitle": "Czyżby formacja odwrócone RGR!",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-formacja-odwrocone-rgr,75312801.html",
-      "body": "Prawdopodobnie rysuje się formacja odwrócone RGR gdzie tzw, linia szyji to poziom około 32,00 zł i jesteśmy wkońcówce kształtowania się lewego ramienia a głowa będzie rysowana na wykresie w najbliższych tygodniach,czyli konkludując cena akcji spadnie ku znaczącej uciesze dostojnie zawieszonych leszczyków! Hehehe!",
-      "votes": {
-        "up": 5,
-        "down": 16
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75312731",
-      "author": "SHORT",
-      "postedAt": "2026-08-02 18:15",
-      "threadTitle": "Re: Cena akcji a cena kontraktu DNP",
-      "url": "https://www.bankier.pl/forum/temat_cena-akcji-a-cena-kontraktu-dnp,75272477.html",
-      "body": "> poczytaj o konstrukcji tego instrumentu No właśnie chyba chcesz się dowiedzieć jak to z tym instrumentem jest, a więc 1 kontrakt kupiony/sprzedany w ceniepiątkowego zamknięcia to 32,40 zł /Seria FDNPU26 która wygasa pod koniec Września/, czyli 32,40 x 100 = 3240,00 zł jako wartość rozliczeniowa za 1 kontrakt i każde 1,00 zł zmiany w wycenie kontraktu to w rozliczeniu jest +/- 100,00 zł, azabezpieczeniem w moim BM jest kwota 460,00 zł czyli 3240,00 : 460,00 = 7,04, taka to jest dźwignia!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75309847",
-      "author": "Dexter",
-      "postedAt": "2026-08-02 01:35",
-      "threadTitle": "Re: Cena akcji a cena kontraktu DNP",
-      "url": "https://www.bankier.pl/forum/temat_cena-akcji-a-cena-kontraktu-dnp,75272477.html",
-      "body": "poczytaj o konstrukcji tego instrumentu",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75309637",
-      "author": "SHORT",
-      "postedAt": "2026-08-01 22:56",
-      "threadTitle": "Re: Cena akcji a cena kontraktu DNP",
-      "url": "https://www.bankier.pl/forum/temat_cena-akcji-a-cena-kontraktu-dnp,75272477.html",
-      "body": "> > > > > > > > Dziękuję za wyjaśnienie zagadnienia, dobrze, że czuwasz nad całością> > >> > > Jeśli podziękowanie było szczere to jako zawodowy inwestor/spekulant z satysfakcją je przyjmuję!> > >> >> > Jeśli mogę być jeszcze w czymś pomocnym, to przedstawię ci moją projekcję przyszłych prawdopodobnych > > wydarzeń, otóż uważam że zakończyliśmy dzisiaj o godz. 11,48 falę B w trójce spadkowej A-B-C, a fala C to> > będzie spadkowa piątka /1-2-3-4-5/, dlatego nadal trzymam SHORTy na Dino, a jutro ubiorę się w SHORTy> > na CDRze czyli FCDRU26 / SHORT!Muszę wprowadzić drobną korektę do mojej wyżej przedstawionej projekcji przyszłych prawdopodobnych wydarzeń,otóż koniec Fali B w trójce spadkowej A-B-C na indeksie WIG wystąpił w Piątek o godz. 10.04. a nie jak sądziłemw poprzednim wpisie że odbyło się to w poprzedzający Czwartek, a obecnie przypuszczam że skończona została podfala 4 i czeka nas w najbliższy Poniedziałek nurkowanie w podfali 5 do poziomu wsparcia czyli około 146 500,00.a jak będzie faktyczne to okaże się w Poniedziałek!",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.995,
       "sentimentLabel": "Negative"
     },
     {
@@ -2816,76 +2886,6 @@
       "body": "Shorcik kończ te wpisy i uzupełniaj depozyt bo zaraz Ci pozycje zamkną.",
       "votes": {
         "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75307021",
-      "author": "Bilbon",
-      "postedAt": "2026-08-01 11:57",
-      "threadTitle": "Re: Po wystrzale",
-      "url": "https://www.bankier.pl/forum/temat_po-wystrzale,75306399.html",
-      "body": "[Nie jest to porada inwestycyjna] Dlaczego 10? Mysle, ze raczej 9:30, ale i tak zlozylem buy market, ze wzgledu ruch o 17:00 i fomo",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75307011",
-      "author": "Dexter",
-      "postedAt": "2026-08-01 11:55",
-      "threadTitle": "Re: Po wystrzale",
-      "url": "https://www.bankier.pl/forum/temat_po-wystrzale,75306399.html",
-      "body": "rynek zauważyłem wybacza błędy i daje szansę z której należy korzystać ...",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75307005",
-      "author": "Dexter",
-      "postedAt": "2026-08-01 11:53",
-      "threadTitle": "Re: Po wystrzale",
-      "url": "https://www.bankier.pl/forum/temat_po-wystrzale,75306399.html",
-      "body": "będziesz dopłacać do mojej paczki elek ¯⁠\\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75306915",
-      "author": "SHORT",
-      "postedAt": "2026-08-01 11:41",
-      "threadTitle": "Re: Po wystrzale",
-      "url": "https://www.bankier.pl/forum/temat_po-wystrzale,75306399.html",
-      "body": "> 17 to nie ale 10 to tak. tam czekaj z plecakiem i prowiantemPierwszy etap zjazdu to mogą być okolice 27,00 zł, i jeśli cena tam zjedzie to z satysfakcją zamknę na tympoziomie swoje kontrakty SHORT! Hehehe!PS. Już raz tam byłem na tym poziomie, ale DEMON chciwości szeptoł, jesce, no jesce wincej! Hehe!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75306417",
-      "author": "Dexter",
-      "postedAt": "2026-08-01 10:10",
-      "threadTitle": "Re: Po wystrzale",
-      "url": "https://www.bankier.pl/forum/temat_po-wystrzale,75306399.html",
-      "body": "17 to nie ale 10 to tak. tam czekaj z plecakiem i prowiantem",
-      "votes": {
-        "up": 9,
         "down": 0
       },
       "sentimentScore": 0,

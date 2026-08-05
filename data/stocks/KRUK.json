@@ -3,11 +3,11 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-08-05T03:32:09.709Z",
+  "updatedAt": "2026-08-05T09:05:11.534Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-05T03:32:09.709Z",
+    "fetchedAt": "2026-08-05T09:05:11.534Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,11 +15,11 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.1,
+    "score": 0.112,
     "confidence": 0.74,
-    "commentCount": 127,
+    "commentCount": 128,
     "breakdown": {
-      "positive": 40,
+      "positive": 41,
       "negative": 23,
       "neutral": 64
     },
@@ -153,10 +153,15 @@
         "date": "2026-08-04",
         "score": 0.125,
         "count": 4
+      },
+      {
+        "date": "2026-08-05",
+        "score": 0.583,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 127 komentarzy z ostatnich 30 dni: nastroje pozytywne (40 pozytywnych, 23 negatywnych, 64 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 128 komentarzy z ostatnich 30 dni: nastroje pozytywne (41 pozytywnych, 23 negatywnych, 64 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wrona",
@@ -180,6 +185,10 @@
       },
       {
         "word": "znowu",
+        "count": 7
+      },
+      {
+        "word": "kupilem",
         "count": 6
       },
       {
@@ -193,14 +202,24 @@
       {
         "word": "jestes",
         "count": 6
-      },
-      {
-        "word": "wyniki",
-        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75341239",
+      "author": "Wrona",
+      "postedAt": "2026-08-05 10:39",
+      "threadTitle": "Re: Wrona i tO 1 akcja. Cytujemy :)))",
+      "url": "https://www.bankier.pl/forum/temat_ciekawe-jak-sie-adas-czuje,75249367.html",
+      "body": "Cześć bajkopisarz znowu kupiłem i zostało na lizaki.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75332465",
       "author": "XD",
@@ -209,8 +228,8 @@
       "url": "https://www.bankier.pl/forum/temat_ciekawe-jak-sie-adas-czuje,75249367.html",
       "body": "~Wrona odpowiada ~XD2026-07-27 14:24IP 37.109.32.*Ja swoje zrealizowałem na dzisiaj chyba że Ameryka się otworzy po mojej myśli i będzie okazja rozpocząć kolejne kółeczko, a jak nie to jutro będę znowu polował na to 1 akcję, żeby nie umniejszać....",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -223,8 +242,8 @@
       "url": "https://www.bankier.pl/forum/temat_ciekawe-jak-sie-adas-czuje,75249367.html",
       "body": "Powiadasz, ze 380 kupiles 50%. Buhahahaha. Tak, wrona, ty sprzedales nawet po 446. A ja kupilem 8 tys akcji po 380,20 jak radziles. Leki zacznij brac. Nie odstawiaj.",
       "votes": {
-        "up": 4,
-        "down": 0
+        "up": 5,
+        "down": 1
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -238,7 +257,7 @@
       "body": "480 piszesz? O szkoda że dzisiaj sprzedałem po 445,2 . Pewnie dlatego spadło . Czekam na promocję.",
       "votes": {
         "up": 1,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
