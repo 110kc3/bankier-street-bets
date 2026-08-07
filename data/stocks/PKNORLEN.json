@@ -3,94 +3,668 @@
   "companyName": "Orlen SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKNORLEN",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_orlen-sa,6,21,201.html",
-  "updatedAt": "2026-08-07T07:41:38.830Z",
+  "updatedAt": "2026-08-07T13:40:00.402Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-07T07:41:38.830Z",
+    "fetchedAt": "2026-08-07T13:40:00.402Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 64
+    "threadsScanned": 65
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.075,
+    "score": 0.083,
     "confidence": 0.73,
     "commentCount": 200,
     "breakdown": {
-      "positive": 64,
-      "negative": 36,
-      "neutral": 100
+      "positive": 75,
+      "negative": 42,
+      "neutral": 83
     },
     "trend": [
       {
         "date": "2026-08-04",
-        "score": -0.13,
-        "count": 2
+        "score": 0.113,
+        "count": 16
       },
       {
         "date": "2026-08-05",
-        "score": 0.014,
-        "count": 24
+        "score": 0.068,
+        "count": 31
       },
       {
         "date": "2026-08-06",
-        "score": 0.097,
-        "count": 153
+        "score": 0.091,
+        "count": 93
       },
       {
         "date": "2026-08-07",
-        "score": -0.032,
-        "count": 21
+        "score": 0.039,
+        "count": 60
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (64 pozytywnych, 36 negatywnych, 100 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (75 pozytywnych, 42 negatywnych, 83 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "orlen",
-        "count": 18
+        "count": 27
       },
       {
         "word": "roku",
-        "count": 14
+        "count": 15
       },
       {
         "word": "wyniki",
-        "count": 13
+        "count": 15
       },
       {
-        "word": "raport",
-        "count": 9
-      },
-      {
-        "word": "jego",
-        "count": 9
-      },
-      {
-        "word": "rano",
-        "count": 9
+        "word": "zysk",
+        "count": 14
       },
       {
         "word": "masz",
-        "count": 9
+        "count": 12
       },
       {
-        "word": "kwartal",
-        "count": 8
+        "word": "cena",
+        "count": 11
+      },
+      {
+        "word": "rano",
+        "count": 11
       },
       {
         "word": "dzis",
-        "count": 8
+        "count": 10
       },
       {
-        "word": "https",
-        "count": 8
+        "word": "orlenu",
+        "count": 9
+      },
+      {
+        "word": "paliwa",
+        "count": 9
       }
     ]
   },
   "comments": [
+    {
+      "id": "75372253",
+      "author": "Obserwator",
+      "postedAt": "2026-08-07 15:39",
+      "threadTitle": "Re: Jak PIS robił Tarczę i urealniał cenę..to jest ścigany.!",
+      "url": "https://www.bankier.pl/forum/temat_jak-pis-robil-tarcze-i-urealnial-cene-to-jest-scigany,75370991.html",
+      "body": "A ty chłopski filozofie \"re\" jesteś chyba zwolennikiem teoretyków w krótkich spodenkach z Konfederacji? Ostatnio takie same dyrdymały jak ty opowiadali m.in. posłowie Mulawa i Tumanowicz w Polsat News. Prowadząca debatę red. Gozdyra rozjechała ich jak walec.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75371543",
+      "author": "re",
+      "postedAt": "2026-08-07 14:46",
+      "threadTitle": "Re: Jak PIS robił Tarczę i urealniał cenę..to jest ścigany.!",
+      "url": "https://www.bankier.pl/forum/temat_jak-pis-robil-tarcze-i-urealnial-cene-to-jest-scigany,75370991.html",
+      "body": "inne sukcesy mateuszkaklamczuszka to np kredt 2% - 35% marzy netto dla dewelouperow ceny nieruchomosci 20% w gore, 200 mld dla komikow, zaproszenie calej hordy ze wschodu do leczenia w polin a nawet oferowanie transportu medycznego itd itd. Oczywiscie nie twierdze ze obecna bandaoszolomow jest lepsza. Cel - lupic polaczkow",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75371351",
+      "author": "re",
+      "postedAt": "2026-08-07 14:35",
+      "threadTitle": "Re: Jak PIS robił Tarczę i urealniał cenę..to jest ścigany.!",
+      "url": "https://www.bankier.pl/forum/temat_jak-pis-robil-tarcze-i-urealnial-cene-to-jest-scigany,75370991.html",
+      "body": "gdyby pisiory akonkretnie(krzywypysk) nie zrobili monopolu to by tak fajnie sie ceny nie podnosilo",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75371177",
+      "author": "Prawda",
+      "postedAt": "2026-08-07 14:24",
+      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
+      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
+      "body": "Nie kwestionuję tego, że w 2022 roku Orlen korzystał z dużej różnicy cen między ropą Urals a Brent i że warunki dla rafinerii były wtedy bardzo korzystne. Problem polega na tym, że przedstawiasz kilka różnych pojęć tak, jakby oznaczały to samo: różnicę cen ropy, dyferencjał Brent/Urals, marżę rafineryjną i zysk całej firmy. To nie są synonimy.To, że ropa była kupowana taniej, miało wpływ na wyniki Orlenu, ale nie oznacza, że cała różnica między ceną ropy a ceną paliwa była zyskiem firmy. Do wyniku końcowego dochodzą koszty przerobu, energii, transportu, kurs walut (w tym kurs dolara USD/PLN), podatki i sytuacja na rynku produktów gotowych.Czyli masz rację, że tańsza rosyjska ropa i wysokie marże były jednym z czynników bardzo dobrych wyników Orlenu. Ale z tego nie wynika automatycznie cała przedstawiona przez Ciebie interpretacja. Trzeba rozróżnić fakt, że firma miała korzystne warunki, od wniosku, że sam ten fakt wyjaśnia całość cen paliw i zysków, bo wpływały na to również kurs dolara oraz inne czynniki makroekonomiczne i rynkowe.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75370805",
+      "author": "Obserwator",
+      "postedAt": "2026-08-07 13:57",
+      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
+      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
+      "body": "To niezwykle błyskotliwy i fachowy komentarz absolwenta szkoły specjalnej niejakiego \"xyz\". Takie same tępaki oklaskiwały wczoraj Vetomana w czasie jego stand-up zorganizowanego z pieniędzy podatników.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75370697",
+      "author": "Goonzo",
+      "postedAt": "2026-08-07 13:49",
+      "threadTitle": "Mam schorta.tu już niezobaczycie 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_mam-schorta-tu-juz-niezobaczycie-150-pln,75370697.html",
+      "body": "Mam schorta",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75370537",
+      "author": "xyz",
+      "postedAt": "2026-08-07 13:42",
+      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
+      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
+      "body": "kupywali taniej to i na stacjach było taniej .Teraz gdyby orlen za darmo dostawał ropę to paliwa byłyby jeszcze droższe .Przecież szpitale trzeba dofinansować żeby hieny i sępy z koalicji mogli się uwłaszczyć na majątku",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75370093",
+      "author": "Oserwator",
+      "postedAt": "2026-08-07 13:18",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Chłopie do szkoły najpierw bo pytania masz z dupy ! Będzie tym bardziej bolało jak się nie wie nic o giełdzie !",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75370037",
+      "author": "Obserwator",
+      "postedAt": "2026-08-07 13:14",
+      "threadTitle": "Re: no i co?",
+      "url": "https://www.bankier.pl/forum/temat_no-i-co,75367857.html",
+      "body": "W Polsce jest tylko jedna autentyczna partia prawicowa i jest nią PSL. Ani PIS Kaczyńskiego ani PIS Morawieckiego nie są poważną prawicą tylko są to partie quasi-bolszewickie co było widać doskonale w latach 2015-2023 w czasie ich rządów. Konfederacja Brauna to faszyzująca partia antysystemowa. Konfederacja Mentzena i Bosaka czyli tzw. liberałowie i narodowcy to tzw. gadające głowy czyli teoretycy głoszący program Polski całkowicie suwerennej od Unii Europejskiej, gospodarki wolnorynkowej, niskich podatków i wrogiej cudzoziemcom \"zabierającym\" pracę Polakom i korzystającym z przywilejów socjalnych.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75369735",
+      "author": "Mambo",
+      "postedAt": "2026-08-07 12:54",
+      "threadTitle": "Re: no i co?",
+      "url": "https://www.bankier.pl/forum/temat_no-i-co,75367857.html",
+      "body": "Prawica stała się populistyczna i socjalna a liberałowie pilnują rynku i gospodarki. Odwrócenie ról.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75369697",
+      "author": "Mambo",
+      "postedAt": "2026-08-07 12:51",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "I na tym wiedza o shortach się kończy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75369673",
+      "author": "Venom",
+      "postedAt": "2026-08-07 12:50",
+      "threadTitle": "Na DGE macie początek wybicia, w przyszlym tygodniu premiera gry",
+      "url": "https://www.bankier.pl/forum/temat_na-dge-macie-poczatek-wybicia-w-przyszlym-tygodniu-premiera-gry,75369673.html",
+      "body": "Ważna premiera przed spółką. Rezenzje sa bardzo dobre, a kurs może na stałe wrócić powyżej 30 zł",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75369385",
+      "author": "endrzej",
+      "postedAt": "2026-08-07 12:28",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Prostaku napisz po ile?Jakaś dźwignia?Będzie śmiech pisz",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75369329",
+      "author": "endrzej",
+      "postedAt": "2026-08-07 12:23",
+      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
+      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
+      "body": "Macie amatorzy Żyjecie propaganda PiS i ja powtarzacie.2022 roku Grupa Orlen kupowała rosyjską ropę typu Urals z dyskontem (tzw. dyferencjałem Brent/Urals), który w skrajnych momentach po wybuchu wojny w Ukrainie osiągał rekordowe wartości od blisko 30 do nawet 40 dolarów na baryłce. Oznacza to, że przy rynkowych cenach globalnego benchmarku Brent przekraczających w pierwszej połowie roku 100–120 USD/bbl, Orlen nabywał rosyjski surowiec w szacunkowej cenie ok. 70–80 dolarów za baryłkę (a pod koniec roku, w grudniu 2022, gdy wprowadzono unijny limit cenowy, cena rosyjskiej ropy rynkowo spadła w okolice limitu 60 USD lub poniżej).Kluczowe fakty o dyskoncie na rosyjską ropę w 2022 rokuRekordowy dyferencjał: Przed inwazją na Ukrainę standardowa różnica w cenie między ropą Brent a gorszą jakościowo ropą Urals wynosiła zaledwie ok. 1–2 dolary na baryłce. W marcu 2022 roku, w wyniku bojkotu rosyjskich surowców przez część zachodnich odbiorców, Trigon DM odnotował wzrost dyferencjału do poziomu aż 28,5 USD na baryłce.Wpływ na wyniki Orlenu: Przetwarzanie taniej, kupowanej z dużym upustem ropy, połączone z wysokimi światowymi cenami gotowych paliw, przełożyło się na gigantyczny wzrost tzw. modelowej marży rafineryjnej. Jak podawał portal Business Insider, w samym trzecim kwartale 2022 roku średni zysk z dyferencjału w Grupie Orlen wynosił rekordowe 32$ na baryłce.Stosunek ropy Ural to 80% w stosunku do całego roku.Macie amatorzy czytać wasz największy mit Obajtka",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.99,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75368739",
+      "author": "Prawda",
+      "postedAt": "2026-08-07 11:50",
+      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
+      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
+      "body": "Ja akurat zdania nie zmieniłem. Za PiS uważałem, że Obajtek zaniżał cenę paliwa, mimo że KO twierdziła coś przeciwnego, i zwracałem uwagę, że nawet w krajach dawnego bloku wschodniego paliwo bywało droższe przy niższych średnich zarobkach. Nadal uważam, że paliwo powinno mieć cenę, która pozwala Orlenowi dobrze zarabiać, ale oczywiście z uwzględnieniem tego, żeby zbyt wysoka cena nie szkodziła gospodarce. Powinny działać prawa rynku, a w strategicznych obszarach trzeba też brać pod uwagę interes gospodarki i rentowność strategicznych polskich firm.Dlatego argument „baryłka była po 410 zł, a dziś jest po 310 zł” sam w sobie niczego nie rozstrzyga. Cena baryłki to tylko jeden z elementów ceny paliwa, podobnie jak kurs walut. Ciekawi mnie natomiast, czy dziś ktoś z KO mówi, że paliwo jest drogie dlatego, że baryłka poszła w górę? Bo jeśli wtedy był to argument przeciwko wysokim cenom, to warto stosować tę samą miarę również dzisiaj.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75368649",
+      "author": "szkapa1980",
+      "postedAt": "2026-08-07 11:43",
+      "threadTitle": "petrda",
+      "url": "https://www.bankier.pl/forum/temat_petrda,75368649.html",
+      "body": "Ale tu będzie petard... A POSTY WCZEŚNIEJ O 130 ZŁ ---- wyleszczeni",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75368641",
+      "author": "XD",
+      "postedAt": "2026-08-07 11:43",
+      "threadTitle": "Znów 15mld ukradną Akcjonariuszom???",
+      "url": "https://www.bankier.pl/forum/temat_znow-15mld-ukradna-akcjonariuszom,75368641.html",
+      "body": "Doskonale pamiętam co zrobili grudniowcy pod postacią tzw. domiaru gazowego!!!",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75368589",
+      "author": "nelor",
+      "postedAt": "2026-08-07 11:40",
+      "threadTitle": "Re: no i co?",
+      "url": "https://www.bankier.pl/forum/temat_no-i-co,75367857.html",
+      "body": "Ciemnogród, dajesz rękę, że ropa nie będzie po 200 za baryłkę? Wy byście chcieli wszystko na raz przeżreć. Jedli, pili lulki palili. Co się z tą prawicą porobiło?",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75368587",
+      "author": "DrugiMilion",
+      "postedAt": "2026-08-07 11:40",
+      "threadTitle": "Re: Paliwo dla Ukrainy",
+      "url": "https://www.bankier.pl/forum/temat_paliwo-dla-ukrainy,75367159.html",
+      "body": "Orlen najdroższa stacja benzynowa A szlachta tankuje i jeździ bez celu w swoich gruchotach wypalone katalizatory itp bo niestac na wymianęZwiększając tym samym efekt cieplarniany Ale kto bogatemu zabroni",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75368437",
+      "author": "boro",
+      "postedAt": "2026-08-07 11:32",
+      "threadTitle": "Re: Dlaczego 2q taki słaby względem 1q???",
+      "url": "https://www.bankier.pl/forum/temat_jutro-realizacja-zyskow-i-3-na-koniec,75361123.html",
+      "body": "Słowem czasy hajpu na ORLEN dobiegły końca.Teraz powrót do szerokiej strefy \"bezpiecznej\" 90-120, a w którym jej rejonie dłużej zakotwiczymy to czas pokaże.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75368303",
+      "author": "Fish007",
+      "postedAt": "2026-08-07 11:24",
+      "threadTitle": "Re: Paliwo dla Ukrainy",
+      "url": "https://www.bankier.pl/forum/temat_paliwo-dla-ukrainy,75367159.html",
+      "body": "Dlaczego wprowadzasz w błąd inwestorów trollu. Oficjalne stanowisko spółki Orlen ostatnia informacja z sierpnia 2026 r. jasno wskazuje, że wszystkie rozliczenia mają charakter czysto komercyjny, rynkowy i przynoszą firmie zysk. Ukraina traktowana jest jako kluczowy, piąty pod względem wielkości przychodów rynek eksportowy koncernu. Nie jest transakcja na wieczny kredyt i jest rozliczana na bieżąco.",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75368027",
+      "author": "Obserwator",
+      "postedAt": "2026-08-07 11:07",
+      "threadTitle": "Re: jutro 160",
+      "url": "https://www.bankier.pl/forum/temat_jutro-160,75360781.html",
+      "body": "Jak na razie idealnie , jak pisałem wczoraj rano zamknąłem L i obróciłem na S. Teraz trzymam do 138!",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75367975",
+      "author": "Wiadomo",
+      "postedAt": "2026-08-07 11:03",
+      "threadTitle": "Tak jak pisałem wcześniej, akcje mocno przewartosciowane",
+      "url": "https://www.bankier.pl/forum/temat_tak-jak-pisalem-wczesniej-akcje-mocno-przewartosciowane,75367975.html",
+      "body": "I lecą",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75367881",
+      "author": "Niedouczony",
+      "postedAt": "2026-08-07 10:58",
+      "threadTitle": "Re: Paliwo dla Ukrainy",
+      "url": "https://www.bankier.pl/forum/temat_paliwo-dla-ukrainy,75367159.html",
+      "body": "Co za roznica p ile jak i tak nie placa. Beda odpisy",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75367859",
+      "author": "Niedouczony",
+      "postedAt": "2026-08-07 10:56",
+      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
+      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
+      "body": "I to zdrowe podejscie. Zycze zarobku na druga polowe i odjazd rowerem",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75367857",
+      "author": "Kazik",
+      "postedAt": "2026-08-07 10:56",
+      "threadTitle": "no i co?",
+      "url": "https://www.bankier.pl/forum/temat_no-i-co,75367857.html",
+      "body": "Jak tam komuszki ? Gdzie 5,19 PLN, oszuści i złodzieje! To wy Okradacie całe społeczeństwo, nie Obajtek, nie prawica. Wy jesteście największymi złodziejami. Przy obecnej cenie dolara i baryłki ropy paliwo powinno być poniżej 5,-PLN.",
+      "votes": {
+        "up": 6,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75367839",
+      "author": "Niestety",
+      "postedAt": "2026-08-07 10:55",
+      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
+      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
+      "body": "te 9zł ci się odwróciło i chyba stąd masz szóstkę",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75367815",
+      "author": "Niedouczony",
+      "postedAt": "2026-08-07 10:54",
+      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
+      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
+      "body": "Nie pisz glupot w 2022 spoza Rosji bylo ok. 70% w 2023 90%. Jak taki madrala to napisz po ile placil Rosjanom bo cena z Rosji zmienna bazowala na cenach swiatowych",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75367519",
+      "author": "xxx",
+      "postedAt": "2026-08-07 10:37",
+      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
+      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
+      "body": "lata mi cena baryłki, więcej jeżdżę na rowerze a na akcjach pkn od ubiegłego roku zarobiłem na pół kawalerki w dużym mieście...",
+      "votes": {
+        "up": 5,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75367435",
+      "author": "zorro",
+      "postedAt": "2026-08-07 10:33",
+      "threadTitle": "Re: Sami optymiści na forum",
+      "url": "https://www.bankier.pl/forum/temat_sami-optymisci-na-forum,75367277.html",
+      "body": "Szkapa nie wprowadzaj w błąd bo takich rzeczy nikt nie wie, zaznacz że to życzenie urodzinowe lub masz szklaną kule",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75367315",
+      "author": "szkapa1980",
+      "postedAt": "2026-08-07 10:26",
+      "threadTitle": "Re: Sami optymiści na forum",
+      "url": "https://www.bankier.pl/forum/temat_sami-optymisci-na-forum,75367277.html",
+      "body": "Tu bedzie 160 zł nastepny tydzień ... leciuttkkooooo",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75367279",
+      "author": "Obserwator",
+      "postedAt": "2026-08-07 10:23",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Tak mam . Zamknięte 30 szt L i otwarcie 15 S.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75367277",
+      "author": "Yogibaboo",
+      "postedAt": "2026-08-07 10:23",
+      "threadTitle": "Sami optymiści na forum",
+      "url": "https://www.bankier.pl/forum/temat_sami-optymisci-na-forum,75367277.html",
+      "body": "Okazuje się, że sami optymiści na forum. Miała być podbitka z rana i minus 3 na koniec dnia, a tu żadnej podbitki i minus 3 na początek. Ciekawe jak nisko to się dziś skończy?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75367235",
+      "author": "zdziwiony",
+      "postedAt": "2026-08-07 10:21",
+      "threadTitle": "balon spompowany to moze dzis dolne beda",
+      "url": "https://www.bankier.pl/forum/temat_balon-spompowany-to-moze-dzis-dolne-beda,75367235.html",
+      "body": "porazka",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75367195",
+      "author": "endrzej",
+      "postedAt": "2026-08-07 10:19",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Już masz shorta?Tak pytam żeby się później nie okazało że będziesz coś zamyślał",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75367159",
+      "author": "Fish007",
+      "postedAt": "2026-08-07 10:17",
+      "threadTitle": "Paliwo dla Ukrainy",
+      "url": "https://www.bankier.pl/forum/temat_paliwo-dla-ukrainy,75367159.html",
+      "body": "Cena paliwa po 3zl dla Ukrainy to była czysta manipulacja trolli internetowych sprzyjających Rosji oraz shorty próbujące zbic cenę. Ukraina płaci Orlenowi pełną hurtową cenę rynkową (bez polskich podatków, ponieważ eksport jest z nich zwolniony) wynoszącą obecnie około 5,27 zł za litr benzyny oraz około 6,21 zł za litr oleju napędowego. To bardzo dobra cena. Nie dajcie nabrać się na manipulacje i sprawdzajcie informacje sami.",
+      "votes": {
+        "up": 3,
+        "down": 3
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75367049",
+      "author": "Ator",
+      "postedAt": "2026-08-07 10:13",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "W domu wszyscy są? Marzyciel na peronie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75366581",
+      "author": "Obserwator",
+      "postedAt": "2026-08-07 09:49",
+      "threadTitle": "138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Pierwszy przystanek. Następnie 125. Tak jak pisałem rano podbitka i pięknie obrócone L na S",
+      "votes": {
+        "up": 1,
+        "down": 6
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75366539",
+      "author": "Godoj",
+      "postedAt": "2026-08-07 09:48",
+      "threadTitle": "Re: Jutro realizacja zyskow i -3% na koniec",
+      "url": "https://www.bankier.pl/forum/temat_jutro-realizacja-zyskow-i-3-na-koniec,75361123.html",
+      "body": "Już takiego kwartału nie powtórzą.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75366503",
+      "author": "Orlenik",
+      "postedAt": "2026-08-07 09:46",
+      "threadTitle": "Re: Dziś na minus",
+      "url": "https://www.bankier.pl/forum/temat_dzis-na-minus,75364111.html",
+      "body": "Pod koniec sesji jak już wszyscy wyprzedadzą się na weekend.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75366427",
+      "author": "Abc",
+      "postedAt": "2026-08-07 09:43",
+      "threadTitle": "Re: Dziś na minus",
+      "url": "https://www.bankier.pl/forum/temat_dzis-na-minus,75364111.html",
+      "body": "Realizacja zysków.Dziś może być 146-147",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75365969",
       "author": "Ppp",
@@ -99,8 +673,8 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-realizacja-zyskow-i-3-na-koniec,75361123.html",
       "body": "To nie chodzi o wyniki, a projekt nowego podatku.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -114,7 +688,7 @@
       "body": "100zł",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -127,8 +701,8 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-realizacja-zyskow-i-3-na-koniec,75361123.html",
       "body": "Słabo im poszło kwartał do kwartału, nie ma się co mamić",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -141,8 +715,8 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
       "body": "Tankuj na innych stacjach jak ci drogo na Orlenie",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -156,7 +730,7 @@
       "body": "Dolar chrzanisz zamiast jasno pisać o co Tobie tu na forum chodzi...",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -169,8 +743,8 @@
       "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
       "body": "Już ty nie błaźnij się .Cena baryłki ustala cenę na stacjach .Po ataku Trampa u nas cena skoczyła następnego dnia chociaż zapasy były na 3 miesiące .Cena baryłki spada a na stacjach jeszcze podwyżki robią bo PO traktuje budżet jak bankomar ,je....pijawki .",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 8,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -183,25 +757,11 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
       "body": "Obajtek ustawił Orlen mocno dał mu twarde podstawy , dlatego niełatwo go z tej pozycji ruszyć , dopiero po czasie wszystko co zrobił Prezes Obajtek procentuje w postaci coraz większych dochodów i zysków",
       "votes": {
-        "up": 4,
-        "down": 5
+        "up": 5,
+        "down": 7
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75364713",
-      "author": "Ann",
-      "postedAt": "2026-08-07 07:37",
-      "threadTitle": "Już Niemcy nie narzekają na tanie paliwo w Polsce",
-      "url": "https://www.bankier.pl/forum/temat_juz-niemcy-nie-narzekaja-na-tanie-paliwo-w-polsce,75364713.html",
-      "body": "Czy o to chodzi ?",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75364711",
@@ -216,6 +776,20 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75364713",
+      "author": "Ann",
+      "postedAt": "2026-08-07 07:37",
+      "threadTitle": "Już Niemcy nie narzekają na tanie paliwo w Polsce",
+      "url": "https://www.bankier.pl/forum/temat_juz-niemcy-nie-narzekaja-na-tanie-paliwo-w-polsce,75364713.html",
+      "body": "Czy o to chodzi ?",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "75364543",
@@ -239,8 +813,8 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
       "body": "Niech będzie + tankowałeś po 5,19 /l To czegoś nie rozumiesz. Wytrzeźwiej + brak wiedzy nosi cię. Co byś nie napisał to doją nas na potęgę. A Rudy wiedział co zrobić by było taniej.Dajesz się mu?",
       "votes": {
-        "up": 2,
-        "down": 2
+        "up": 3,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -260,20 +834,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75364399",
-      "author": "Skok",
-      "postedAt": "2026-08-07 06:34",
-      "threadTitle": "Re: Kto kupił paliwo po 5,19 zł/l +czy ta bańka kłamstwa się kiedyś skoń",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupil-paliwo-po-5-19-zl-l-czy-ta-banka-klamstwa-sie-kiedys-skonczy,75350865.html",
-      "body": "Premier Donald Tusk na ,,X,, przyznał że raport ORLEN wykazał ,że DOJĄ NAS NA POTĘGĘ -- to jego LUDZIE w Orlen , on rządzi nimi, a my tankujemy po 8+ I chciał by prezydent podpisał ustawę z opodatkowaniem spółki wstecz.Przecież jest możliwość wypłaty dodatkowej dywidendy + nie wie czy leń patentowany Nie powiedział ,, Łyso WAM,,",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75364347",
       "author": "endrzej",
       "postedAt": "2026-08-07 06:25",
@@ -282,7 +842,7 @@
       "body": "Mercadio takich jak ty tuod roku na pęczki było.Pisali bohaterzy jak ty a potem cichutko znikali z utraconą kasa.SzybiMefedron",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -295,24 +855,10 @@
       "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
       "body": "Pisząc w skrócie Orlen nigdy nie kupił w 22 roku ropy po 120 ani 100 ani 90 może 80$80% ropy szło wtedy jeszcze z ruskiej rury.Więc to kit czyli mit",
       "votes": {
-        "up": 1,
-        "down": 1
+        "up": 5,
+        "down": 6
       },
       "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75364329",
-      "author": "Wiadomo",
-      "postedAt": "2026-08-07 06:16",
-      "threadTitle": "Gigantyczny spadek poparcia",
-      "url": "https://www.bankier.pl/forum/temat_gigantyczny-spadek-poparcia,75364329.html",
-      "body": "2,5 roku temu we wyborach 35% a obecnie zaledwie 17%,suweren przejrzal na oczy",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     },
     {
@@ -323,8 +869,8 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
       "body": "Otworzyłem wątek z intencją że Orlen nas doi na cenie paliwa Już jesne bo Donek na ,,X,, przyznał się że tak wynika z raportu. (śmieszny ten gość) Jego banda w spółce doi ludzi (hamuje) gospodarkę . A w rządzie myślą że opodatkują ORLEN za okres wstecz i w trakcie roku podatkowego.Nie już odejdzie - zbierać grzyby, czy biegać - jak przed wczoraj+ do tego się naddaje.Na woźnego w szkole musiałby egzamin zdawać. Brak kwalifikacji.",
       "votes": {
-        "up": 4,
-        "down": 1
+        "up": 5,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -337,7 +883,7 @@
       "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
       "body": "To Rudy największy komik",
       "votes": {
-        "up": 1,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -351,7 +897,7 @@
       "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
       "body": "komiki potrzebuja coraz wiecej tylko kasy coraz mniej. Ot i cala tajemnica wiary",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -365,8 +911,8 @@
       "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
       "body": "Pjajt forma wcale nie łupi na paliwie i jest praworzadna",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 4,
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -379,7 +925,7 @@
       "url": "https://www.bankier.pl/forum/temat_dzis-na-minus,75364111.html",
       "body": "Nie kupujcie",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 5
       },
       "sentimentScore": -0.583,
@@ -394,7 +940,7 @@
       "body": "173zl do końca miesiąca",
       "votes": {
         "up": 6,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -421,8 +967,8 @@
       "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
       "body": "teraz są dobre bo łupi znacznie bardziej :DDDDDDDDDDbaryłka za PiS po 410zł a dziś po 310zł tak że \"uśmiechnijcie się brygada! co tacy smutni jesteście\" :DDDD",
       "votes": {
-        "up": 8,
-        "down": 1
+        "up": 16,
+        "down": 4
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -442,34 +988,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75363643",
-      "author": "Wiadomo",
-      "postedAt": "2026-08-06 22:32",
-      "threadTitle": "Z 17-oma %ami kwaczor",
-      "url": "https://www.bankier.pl/forum/temat_z-17-oma-ami-kwaczor,75363643.html",
-      "body": "Ma przekichane",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363625",
-      "author": "nelor",
-      "postedAt": "2026-08-06 22:29",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Apelowanie do narodu upadłego o jakąś ocenę, to jak zapytanie świni czy widziała niebo.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75363569",
       "author": "Magellan",
       "postedAt": "2026-08-06 22:24",
@@ -479,62 +997,6 @@
       "votes": {
         "up": 2,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363543",
-      "author": "PatriaMea",
-      "postedAt": "2026-08-06 22:21",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "https://www.youtube.com/watch?v=oxSwWc3v1DU&list=RDoxSwWc3v1DU&index=1 i rozwiniecie : https://suno.com/song/572c6de2-7f90-44a3-86e4-3811e3e26e49",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363549",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 22:21",
-      "threadTitle": "Re: Ostatni moment na wprowadzenie EUR, inaczej ruski rubel",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-moment-na-wprowadzenie-eur-inaczej-ruski-rubel,75363129.html",
-      "body": "Jest jeszcze polski złoty.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363533",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 22:20",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "W rocznicowym przemówieniu przed Pałacem Prezydenckim Karol Nawrocki zadeklarował bycie głosem obywateli, krytykując Sejm za zamrażanie jego prospołecznych ustaw i broniąc prawa weta wobec szkodliwych przepisów.Podsumowując rok, prezydent przedstawił bilans 259 podpisanych ustaw oraz 41 wet, apelując do obywateli o ocenę jego działań.",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363513",
-      "author": "nelor",
-      "postedAt": "2026-08-06 22:17",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Narodzie upadły, o co się licytujesz?",
-      "votes": {
-        "up": 0,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -552,20 +1014,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75363297",
-      "author": "ed",
-      "postedAt": "2026-08-06 21:51",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Zabiłeś ćwieka w głowę Dawajpisa i nie wie czy go chwalisz, czy krytykujesz, więc dalej będzie zachwycony pustakami.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75363287",
@@ -596,48 +1044,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75363213",
-      "author": "Cc",
-      "postedAt": "2026-08-06 21:42",
-      "threadTitle": "Re: Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": "Dokładnie, całe szczecie ze nie wybrali Rafałka",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363187",
-      "author": "vp",
-      "postedAt": "2026-08-06 21:38",
-      "threadTitle": "Re: Ostatni moment na wprowadzenie EUR, inaczej ruski rubel",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-moment-na-wprowadzenie-eur-inaczej-ruski-rubel,75363129.html",
-      "body": "Pomyliłeś fora.",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363179",
-      "author": "czytelnik",
-      "postedAt": "2026-08-06 21:37",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Panegiryki wciąż żywe?",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75363169",
       "author": "Magellan",
       "postedAt": "2026-08-06 21:36",
@@ -645,25 +1051,11 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
       "body": "nie nie, orlenem sobie tylko pogrywam... dla mnie już odpłynął ale uważam, że i tak pierwsze będą banki lecieć",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75363173",
-      "author": "Kk",
-      "postedAt": "2026-08-06 21:36",
-      "threadTitle": "Re: Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": "Elity są mniejszością w każdym społeczeństwie. Masy są masami.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75363167",
@@ -708,20 +1100,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75363129",
-      "author": "Wiadomo",
-      "postedAt": "2026-08-06 21:32",
-      "threadTitle": "Ostatni moment na wprowadzenie EUR, inaczej ruski rubel",
-      "url": "https://www.bankier.pl/forum/temat_ostatni-moment-na-wprowadzenie-eur-inaczej-ruski-rubel,75363129.html",
-      "body": "Rosja wygrywa",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75363079",
       "author": "Skok",
       "postedAt": "2026-08-06 21:26",
@@ -736,48 +1114,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75363077",
-      "author": "PiSosyf",
-      "postedAt": "2026-08-06 21:26",
-      "threadTitle": "Re: Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": "Chodzę:) sektor ultras. Nie wszyscy są w twoim typie.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363067",
-      "author": "Prawda",
-      "postedAt": "2026-08-06 21:25",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Można dyskutować o nieprawidłowościach przy liczeniu głosów, bo takie przypadki były zgłaszane. Dotyczyły one jednak obu kandydatów – były komisje, w których błędy działały zarówno na korzyść Nawrockiego, jak i Trzaskowskiego. Ostatecznie wynik wyborów został ogłoszony, a Sąd Najwyższy stwierdził ważność wyboru prezydenta, podobnie jak wcześniej stwierdzał ważność wyborów do Sejmu. Jeśli ktoś kwestionuje skład sędziowski tego orzeczenia, powinien konsekwentnie wyjaśnić, dlaczego nie podważa również wcześniejszych rozstrzygnięć dotyczących innych wyborów. Można mieć swoje oceny prawne, ale nie można przedstawiać ich jako bezspornych faktów, że „nie znamy wyniku” albo że „nie ma wyroku SN”.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363069",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 21:25",
-      "threadTitle": "Re: Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": "56% popracia dla Prezydenta RP Karola Nawrockiego i 29 dia rządu. I oni uważają się za lepszych.",
-      "votes": {
-        "up": 1,
-        "down": 4
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75363065",
       "author": "Petrol",
       "postedAt": "2026-08-06 21:25",
@@ -785,50 +1121,8 @@
       "url": "https://www.bankier.pl/forum/temat_merytoryczna-ocena-raportu,75362493.html",
       "body": "Im większa cena paliwa tym mniej wartościowy twój zarobek na tych akcjach. Przetrawiony przez inflacje. Niestety za te wyniki orlenu zapłacimy w przyszłości wszyscy.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363045",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 21:23",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Dziękuję za błyskotliwy wpis. Kolejny, który nie chce się ze mną bawić. Ale ja już kilkadziesiąt lat temu wyrosłem z takich dziecinnych zagrywek.",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363021",
-      "author": "Kk",
-      "postedAt": "2026-08-06 21:20",
-      "threadTitle": "Re: Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": "Ależ oczywiście że lepsi. Pod każdym względem.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363013",
-      "author": "Citro1",
-      "postedAt": "2026-08-06 21:19",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Po co karmicie trolla?",
-      "votes": {
-        "up": 5,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -855,8 +1149,8 @@
       "url": "https://www.bankier.pl/forum/temat_wyniki,75360875.html",
       "body": "batyr, batyrem na razie mają na kogo zwalać ale społeczeństwo jest coraz bardziej świadome i zjazd ropy w okolice 75 nie będzie długo tolerowany rolnicy i transport są na granicy wytrzymalości , tak więc przed końcem żniw CPN 2.0 wejdzie z hukiem co wpłynie na wartość akcji PKN który robi społeczeństwo bez wazeliny.",
       "votes": {
-        "up": 1,
-        "down": 4
+        "up": 2,
+        "down": 5
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -876,20 +1170,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75362919",
-      "author": "re",
-      "postedAt": "2026-08-06 21:06",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "a tusek dalej grabi polakow i wysyla do komikow",
-      "votes": {
-        "up": 3,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75362911",
       "author": "Magellan",
       "postedAt": "2026-08-06 21:06",
@@ -899,20 +1179,6 @@
       "votes": {
         "up": 1,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362891",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 21:03",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": ">Zaprzysiężenie było niezgodne prawem.<<Kto tak stwierdził, ty? A któż ty taki? To o co tuski podsyłają mu ustawy do podpisu?",
-      "votes": {
-        "up": 2,
-        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -932,20 +1198,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75362865",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 21:00",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": ">Witaj masz rację że nie muszę czytać Twoich przemyśleń i dlatego proszę wszystkich o różnych poglądach o ignorowanie tego człowieka który pisze że jest Polakiem w co ja wątpię<<I to nas różni. Jeżeli czegoś nie muszę to albo to robię albo nie. Nigdy nikogo nie namawiam, by robił to co ja, licząc że każdy dorosły sam o sobie decyduje.To strasznie paskudny zwyczaj namawiać innych, by się ze mną nie bawili. To takie dziecinne i niedojrzałe. Podkolanówki mamusia wyprała? Zupkę zjadłeś? Siku zrobiłeś? Paciorek odmówiłeś, a sorry, ty nie z tych. To czas do łóżka.",
-      "votes": {
-        "up": 2,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75362861",
       "author": "Magellan",
       "postedAt": "2026-08-06 20:59",
@@ -958,20 +1210,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362825",
-      "author": "tiopepe",
-      "postedAt": "2026-08-06 20:56",
-      "threadTitle": "Re: Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": "Jak oni się tym upajają Dewajtis, kibole, stręczyciele itp. PiSosyf. Oni, lepsi. Przypomnę tum lepszym, że ponad 80% kryminalistów w zakładach karnych głosowło na Dupiarza. Jest czym się chwalić.",
-      "votes": {
-        "up": 2,
-        "down": 4
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75362761",
@@ -988,20 +1226,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75362725",
-      "author": "lila",
-      "postedAt": "2026-08-06 20:45",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Witaj masz rację że nie muszę czytać Twoich przemyśleń i dlatego proszę wszystkich o różnych poglądach o ignorowanie tego człowieka który pisze że jest Polakiem w co ja wątpię",
-      "votes": {
-        "up": 3,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75362673",
       "author": "Hyy",
       "postedAt": "2026-08-06 20:40",
@@ -1014,118 +1238,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75362647",
-      "author": "Maciek",
-      "postedAt": "2026-08-06 20:38",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "I jeszcze jedno Nie znamy ostatecznego wyniku wyborów.Nie mamy wyroku SN.Zaprzysiężenie było niezgodne prawem.",
-      "votes": {
-        "up": 4,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362619",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 20:36",
-      "threadTitle": "Re: Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": "Ty to pewnie boisz się chodzić na mecze.",
-      "votes": {
-        "up": 1,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362599",
-      "author": "Kk",
-      "postedAt": "2026-08-06 20:34",
-      "threadTitle": "Re: Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": "Najtępsi z nich.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362589",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 20:33",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "To dobrze, że prosisz. Ale niestety nie mogę spełnić twoich próśb. Piszę o sprawach ważnych dla Polski i Polaków. Dodam, że nikt nie zmusza cię ani do czytania ani do reagowania na moje wpisy. Możesz je najzwyczajniej w świecie zignorować.",
-      "votes": {
-        "up": 0,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362577",
-      "author": "Maciek",
-      "postedAt": "2026-08-06 20:31",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Drobna poprawka nie Polska, a Wolska. Tak wolska ma swojego rezydenta. Polska go nie ma. Nawet nie wiadomo ile to coś głosów zdobyło.",
-      "votes": {
-        "up": 7,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362575",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 20:31",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Nie rób sztucznego tłumu ~ed. Nie odpowiedziałeś cóż złego zrobił ci konkretnie Prezydent RP Karol Nawrocki?",
-      "votes": {
-        "up": 3,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362569",
-      "author": "lila",
-      "postedAt": "2026-08-06 20:30",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Witaj kolego czy mógłbyś zmienić pisanie swoich przemyśleń na tym forum i pisać gdzieś gdzie piszą o polityce Bardzo cię proszę",
-      "votes": {
-        "up": 6,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362543",
-      "author": "viteek",
-      "postedAt": "2026-08-06 20:23",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "K.N to prymityw z przerośnietym ego...podobnie jak jego idol i guru Trump.Wiekszego wstydu niz wybranie tego złodzieja i alfonsa(chyba nikt nie ma co do tego wątpliwosci) nie moglismy sobie zafundować..",
-      "votes": {
-        "up": 6,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75362535",
@@ -1150,7 +1262,7 @@
       "body": "Właśnie, wiara ludzka ma dość drogiego paliwa coraz głośniej się robi, trzeba pamiętać że Orlen kupuje coraz droższą ropę a rząd patrzy i wie że jak nic nie zrobi to przesraja wybory , poza tym jak ludzie widzą że Orlen zarabia coraz więcej to przy wsparciu prasy rząd nie wytłumaczy się i naciśnie na Orlen i zgasi marże . Gołym okiem widać że nie mogą tego tak ciągnąć bo jak wytłumaczą się z najdroższego w historii paliwa i rekordowych zysków państwowej spółki . Kasa nie ważna tzn. Zysk liczy się „koryto polityczne „",
       "votes": {
         "up": 1,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
@@ -1168,34 +1280,6 @@
       },
       "sentimentScore": 0.997,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75362501",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 20:16",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Takiego Prezydenta RP potrzebowała Polska. Brawo Panie Prezydencie!",
-      "votes": {
-        "up": 4,
-        "down": 8
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362505",
-      "author": "Skok",
-      "postedAt": "2026-08-06 20:16",
-      "threadTitle": "Morawiecki zabierze Tuskowi Peło zobaczycie .",
-      "url": "https://www.bankier.pl/forum/temat_morawiecki-zabierze-tuskowi-pelo-zobaczycie,75362505.html",
-      "body": "Mam dowody",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75362493",
@@ -1254,20 +1338,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75362391",
-      "author": "PiSosyf",
-      "postedAt": "2026-08-06 20:07",
-      "threadTitle": "Re: Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": "PiS owski pustostanie. Na każdym meczu na sektorach kiboli masz takich prawdziwych facetów setki. Snus w każdej kieszeni. Idź wieczorem na miasto, dziesiątki chłopaków na bramce. A w knajpach dziesiątki stręczycieli. Także zasoby ludzi bliskich twoim ideałom są niezmierzone.",
-      "votes": {
-        "up": 10,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75362347",
       "author": "Niedouczony",
       "postedAt": "2026-08-06 20:02",
@@ -1290,77 +1360,7 @@
       "body": "Oby! To zaladuje sie po same jajca..",
       "votes": {
         "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362287",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 19:59",
-      "threadTitle": "Re: Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": ">Według krytyków efektem pierwszego roku urzędowania jest dalsza polaryzacja polityczna<<Rafałek Zalewajka byłby idealnym długopisem. A tu klops, Polacy zdecydowali inaczej. Mamy prawdziwego faceta, nie Prince Polo.",
-      "votes": {
-        "up": 6,
-        "down": 9
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362225",
-      "author": "Podsumowanie",
-      "postedAt": "2026-08-06 19:53",
-      "threadTitle": "Batyr na stolcu.",
-      "url": "https://www.bankier.pl/forum/temat_batyr-na-stolcu,75362225.html",
-      "body": "Pierwszy rok prezydentury Karola Nawrockiego upłynął przede wszystkim pod znakiem konfliktów konstytucyjnych, sporów z rządem oraz decyzji blokujących część zapowiadanych reform.Jednym z najpoważniejszych zarzutów wobec prezydenta jest sposób podejścia do kryzysu wokół Trybunału Konstytucyjnego i reformy wymiaru sprawiedliwości.Krytycy wskazują, że odmowa przyjęcia ślubowania od sędziów wybranych przez Sejm pogłębiła spór o legalność funkcjonowania Trybunału. Według części konstytucjonalistów prezydent nie ma kompetencji do trwałego blokowania wykonania uchwał Sejmu dotyczących wyboru sędziów TK, a jego działania przyczyniają się do dalszego paraliżu instytucji konstytucyjnych.Podobne zarzuty pojawiły się po zawetowaniu zmian dotyczących Krajowej Rady Sądownictwa. Reforma miała przywrócić model wyboru sędziowskich członków KRS przez środowisko sędziowskie, co było jednym z postulatów środowisk prawniczych i instytucji europejskich krytykujących zmiany wprowadzone po 2017 roku. Krytycy decyzji Nawrockiego twierdzą, że veto utrwaliło problem upolitycznienia KRS i przedłużyło kryzys praworządności.Kolejną kontrowersyjną decyzją było zawetowanie ustawy dotyczącej udziału Polski w europejskim instrumencie SAFE, który miał umożliwić korzystanie z unijnych pożyczek na cele obronne. Krytycy argumentowali, że decyzja ograniczała możliwość szybkiego pozyskania środków na modernizację armii i wsparcie krajowego przemysłu obronnego. Zwolennicy prezydenta wskazywali natomiast na argumenty dotyczące zadłużenia i suwerenności.Duże kontrowersje wywołało również veto wobec ustawy o związkach partnerskich. Ustawa miała wprowadzić rozwiązania dotyczące m.in. praw majątkowych, dostępu do informacji medycznej czy reprezentacji partnera. Krytycy decyzji ocenili ją jako odmowę zapewnienia podstawowych zabezpieczeń prawnych osobom żyjącym poza małżeństwem.Krytycy pierwszego roku prezydentury zarzucają Karolowi Nawrockiemu przede wszystkim trzy rzeczy.Po pierwsze, wykorzystywanie prawa weta nie jako narzędzia korekty ustaw, ale jako środka blokowania programu większości parlamentarnej.Po drugie, utrwalanie sporów instytucjonalnych zamiast ich rozwiązywania, szczególnie w obszarze sądownictwa.Po trzecie, podporządkowanie decyzji prezydenckich konserwatywnej agendzie światopoglądowej kosztem zmian popieranych przez część społeczeństwa.Według krytyków efektem pierwszego roku urzędowania jest dalsza polaryzacja polityczna, przedłużenie konfliktu wokół wymiaru sprawiedliwości oraz zahamowanie części reform zapowiadanych przez rząd.",
-      "votes": {
-        "up": 10,
-        "down": 3
-      },
-      "sentimentScore": -0.981,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75362181",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 19:48",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Na czym polega jego próżność, możesz to uzasadnić?",
-      "votes": {
-        "up": 3,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362163",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 19:46",
-      "threadTitle": "Wasyl...",
-      "url": "https://www.bankier.pl/forum/temat_wasyl,75362163.html",
-      "body": "... Bodnar, ustępujący ambasador Ukrainy w Polsce:Ukraiński dyplomata przekonywał, że spory historyczne powinny być rozwiązywane przez historyków, a nie polityków. Opowiedział się także za kontynuowaniem ekshumacji po obu stronach granicy. – Poszanowanie ofiar, ekshumacje po obu stronach granicy, przedmiotowa, a nie polityczna współpraca historyków – mówił. Bodnar przyznał jednocześnie, że po stronie ukraińskiej dochodziło do zbrodni na Polakach. – Prawda jest taka, że i wśród członków UPA byli zbrodniarze, którzy zabijali Polaków, ale i wśród Polaków i w polskim podziemiu była duża ilość tak samo zbrodniczych aktów – stwierdził.Czy on naprawdę wie co mówi? On stawia na równi systemowe planowe zbrodnie ludobójstwa etnicznego na Polakach z jakimiś pojedynczymi samowolnymi ekscesami pojedynczych oddziałów partyzanckich poza wiedzą dowódców.",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362123",
-      "author": "ed",
-      "postedAt": "2026-08-06 19:41",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "to wstyd, że tak próżna osobowość ma reprezentować nasz naród",
-      "votes": {
-        "up": 7,
-        "down": 4
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1380,20 +1380,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75362101",
-      "author": "tiopepe",
-      "postedAt": "2026-08-06 19:39",
-      "threadTitle": "Re: Kto kupił paliwo po 5,19 zł/l +czy ta bańka kłamstwa się kiedyś skoń",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupil-paliwo-po-5-19-zl-l-czy-ta-banka-klamstwa-sie-kiedys-skonczy,75350865.html",
-      "body": "Gdyby obecnie nam rządzący nie wycofali się z projektu, to może.... . A tak nie będzie Izery, CPK, PCK i innych nazw.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75362085",
       "author": "Xyz",
       "postedAt": "2026-08-06 19:38",
@@ -1402,63 +1388,7 @@
       "body": "Wydoili kierowców cenami paliw a Chyży Rój chciał podatkiem od nadzwyczajnych zysków do budżetu miliardy przekierować .To nasza krwawica pajace z KO .",
       "votes": {
         "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362071",
-      "author": "tiopepe",
-      "postedAt": "2026-08-06 19:37",
-      "threadTitle": "Re: Kto kupił paliwo po 5,19 zł/l +czy ta bańka kłamstwa się kiedyś skoń",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupil-paliwo-po-5-19-zl-l-czy-ta-banka-klamstwa-sie-kiedys-skonczy,75350865.html",
-      "body": "A pryszczaty Motyka, który dokopał się do gila w nosie, kupił za 5,19 i to przed wojną.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75362073",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 19:37",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "https://youtu.be/qB0nUilyw4E?si=l8pvLX85rfgTuyQR",
-      "votes": {
-        "up": 4,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75361985",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 19:30",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Dlaczego używasz tak obraźliwych określeń wobec urzędującego Prezydenta RP Karola Nawrockiego?",
-      "votes": {
-        "up": 6,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75361967",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 19:28",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Dlaczego używasz wobec Prezydenta RP takich brzydkich określeń?",
-      "votes": {
-        "up": 7,
-        "down": 6
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1492,20 +1422,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75361897",
-      "author": "endrzej",
-      "postedAt": "2026-08-06 19:18",
-      "threadTitle": "Re: Słaby raport ORLEN link",
-      "url": "https://www.bankier.pl/forum/temat_slaby-raport-orlen-link,75360613.html",
-      "body": "Pajac",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75361875",
       "author": "endrzej",
       "postedAt": "2026-08-06 19:16",
@@ -1527,95 +1443,11 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-realizacja-zyskow-i-3-na-koniec,75361123.html",
       "body": "Ci co znali lub domyślali się wyników wchodzili wcześniej by teraz z satysfakcją oddać leszczowi i wiecznemu inwestorowi.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 3
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75361843",
-      "author": "ed",
-      "postedAt": "2026-08-06 19:13",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "KN to samo zło i obciach taki sam, jak jego idol",
-      "votes": {
-        "up": 11,
-        "down": 9
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75361777",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 19:08",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Cóż złego zrobił ci Prezydent RP Karol Nawrocki, że nazwałeś go podłym człowiekiem? To bardzo mocne określenie.",
-      "votes": {
-        "up": 10,
-        "down": 8
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75361765",
-      "author": "ed",
-      "postedAt": "2026-08-06 19:07",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Dawajpis - znamy już twoje poglądy i bezkrytyczne uwielbienie ludzi podłych.",
-      "votes": {
-        "up": 14,
-        "down": 8
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75361769",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 19:07",
-      "threadTitle": "Daniel rozsierdziłsja",
-      "url": "https://www.bankier.pl/forum/temat_daniel-rozsierdzilsja,75361769.html",
-      "body": "Poczułem się jak w najczarniejszych czasach systemów totalitarnych. To jest naplucie mi w twarz — mówi Daniel Olbrychski po tym, jak zablokowano jego udział w jury Festiwalu Filmowego w Gdyni za krytykę byłej minister kultury, i ujawnia, że w tej sprawie napisał już ostry list do premiera Donalda Tuska.",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75361705",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 19:00",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Karol Nawrocki cieszy się bardzo wysokim zaufaniem, ponieważ Polacy postrzegają go jako wyrazistego lidera, który dotrzymuje wyborczych obietnic i nie boi się twardego konfliktu z rządem Donalda Tuska. Dla wyborców prawicy i centrum stał się on głównym obrońcą przed decyzjami nowej większości sejmowej, co udowadnia masowym wetowaniem ustaw podnoszących podatki czy zmieniających prawo. Ludziom podoba się jego wizerunek człowieka dbającego o finanse zwykłych obywateli oraz o wielkie projekty rozwojowe, takie jak Centralny Port Komunikacyjny. Ponadto zyskuje w sondażach dzięki budowaniu bardzo bliskich, partnerskich relacji z USA i prezydentem Donaldem Trumpem, co daje wielu osobom poczucie realnego bezpieczeństwa militarnego. Jego styl bycia jest jednocześnie stanowczy w sprawach polskiej historii i godności, ale na tyle wyważony i merytoryczny, że nie wywołuje tak silnych negatywnych emocji jak inni liderzy partyjni, przez co naturalnie zjednoczył wokół siebie całą konserwatywną stronę sceny politycznej.",
-      "votes": {
-        "up": 10,
-        "down": 9
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75361645",
-      "author": "ed",
-      "postedAt": "2026-08-06 18:55",
-      "threadTitle": "Re: Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Karol- WIELKI WSTYD.",
-      "votes": {
-        "up": 15,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75361639",
@@ -1626,7 +1458,7 @@
       "body": "i to wszystko dzieki pisowi i morawieckiemu ktory w polin wprowadzil monopol i zezwolil na lupienie kierowcow. Brawo kaczor , brawo morawiecki",
       "votes": {
         "up": 2,
-        "down": 9
+        "down": 10
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1653,7 +1485,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyniki,75360875.html",
       "body": "Przecież drugi kwartał zdecydowanie słabszy od pierwszego kwartału tego roku. Słabo, nie dowieźli nawet tego samego. Względem zeszłego roku to oczywiste, że kosmicznie wyższe bo przecież baryłka kosmicznie wyżej.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 6
       },
       "sentimentScore": -0.583,
@@ -1667,8 +1499,8 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-realizacja-zyskow-i-3-na-koniec,75361123.html",
       "body": "Byłem przekonany, że poprawią wyniki z pierwszego kwartału :/ Co oni tam namotali, że przy takim rynku sprzyjającym nawet nie utrzymali tego co było w pierwszym kwartale.",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 4,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1702,20 +1534,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75361301",
-      "author": "Yogibaboo",
-      "postedAt": "2026-08-06 18:29",
-      "threadTitle": "Re: WYNIKI",
-      "url": "https://www.bankier.pl/forum/temat_wyniki,75360875.html",
-      "body": "> Do konca roku 200 a dlej sie zobaczy ida wybory moze byc roznie175 to wszytko co będzie w tym roku",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75361311",
       "author": "ANIA",
       "postedAt": "2026-08-06 18:29",
@@ -1730,6 +1548,20 @@
       "sentimentLabel": "Negative"
     },
     {
+      "id": "75361301",
+      "author": "Yogibaboo",
+      "postedAt": "2026-08-06 18:29",
+      "threadTitle": "Re: WYNIKI",
+      "url": "https://www.bankier.pl/forum/temat_wyniki,75360875.html",
+      "body": "> Do konca roku 200 a dlej sie zobaczy ida wybory moze byc roznie175 to wszytko co będzie w tym roku",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "75361261",
       "author": "Yogibaboo",
       "postedAt": "2026-08-06 18:26",
@@ -1738,7 +1570,7 @@
       "body": "> Jutro klasyka, rano podbitka , następnie dystrybucja . Rano wystawiam zamknięcie L i obrót na S .Dokładnie tak będzie",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1751,7 +1583,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-realizacja-zyskow-i-3-na-koniec,75361123.html",
       "body": "> czesty przypadek Zgadzam się. Na Orlenie bardzo częsty",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -1766,24 +1598,10 @@
       "body": "Jutro klasyka, rano podbitka , następnie dystrybucja . Rano wystawiam zamknięcie L i obrót na S .",
       "votes": {
         "up": 1,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75361179",
-      "author": "Dewajtis",
-      "postedAt": "2026-08-06 18:19",
-      "threadTitle": "Karol I Wielki",
-      "url": "https://www.bankier.pl/forum/temat_karol-i-wielki,75361179.html",
-      "body": "Pierwszy rok prezydentury Karola Nawrockiego upłynął pod znakiem ogromnej aktywności, silnego przywództwa oraz bezkompromisowej obrony własnego programu politycznego. Prezydent udowodnił, że jest niezwykle wyrazistym liderem, który potrafi twardo i skutecznie walczyć o swoje racje w trudnych warunkach współpracy z rządem. W ciągu pierwszych dwunastu miesięcy urzędowania podpisał i skierował do Sejmu aż dwadzieścia dwie własne inicjatywy ustawodawcze. Wśród nich znalazły się bardzo dobrze przygotowane i wyczekiwane przez wielu Polaków projekty, takie jak propozycja obniżenia cen energii elektrycznej, program wsparcia podatkowego dla rodzin oraz wsparcie wielkich projektów rozwojowych z Centralnym Portem Komunikacyjnym na czele. Choć sejmowa większość zablokowała te pomysły, prezydent pokazał, że potrafi wyjść do obywateli z konkretną, pozytywną alternatywą. Jednocześnie bardzo sprawnie korzystał z konstytucyjnego prawa weta, skutecznie chroniąc Polaków przed podwyżkami podatków, w tym akcyzy czy opłaty cukrowej.W dziedzinie obronności kraju Karol Nawrocki wykazał się pełnym profesjonalizmem, wzmacniając pozycję Polski na wschodniej flance NATO i dbając o stabilność armii poprzez uroczyste mianowanie ponad sześciu tysięcy osób na pierwszy stopień oficerski oraz wręczenie czterdziestu awansów generalskich. Prezydent odniósł także wielkie sukcesy na arenie międzynarodowej, gdzie odbył aż dwadzieścia dziewięć wizyt zagranicznych i zbudował wyjątkowo bliskie, obiecujące relacje z prezydentem Stanów Zjednoczonych Donaldem Trumpem, co znacząco podniosło nasze bezpieczeństwo. Dał się również poznać jako polityk niezwykle pryncypialny w sprawach godności i historii narodowej, potrafiący podejmować bardzo odważne i twarde decyzje dyplomatyczne w relacjach z sąsiadami. Aby stworzyć nowoczesne zaplecze eksperckie dla państwa, powołał siedemnaście specjalistycznych rad prezydenckich, w tym Radę Nowej Konstytucji. Ten niezwykle pracowity i dynamiczny rok sprawił, że Karol Nawrocki utrzymał bardzo wysokie poparcie społeczne i umocnił swoją pozycję jako niekwestionowany, cieszący się ogromnym zaufaniem lider całej polskiej prawicy.",
-      "votes": {
-        "up": 14,
-        "down": 29
-      },
-      "sentimentScore": 0.964,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75361155",
@@ -1807,8 +1625,8 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-realizacja-zyskow-i-3-na-koniec,75361123.html",
       "body": "czesty przypadek",
       "votes": {
-        "up": 4,
-        "down": 2
+        "up": 6,
+        "down": 4
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1850,7 +1668,7 @@
       "body": "Do konca roku 200 a dlej sie zobaczy ida wybory moze byc roznie",
       "votes": {
         "up": 4,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1878,7 +1696,7 @@
       "body": "Główne wyniki finansowe Orlenu: Czyste liczby Rzeczywisty raport finansowy pokazał, że spółka w pełni wykorzystała świetną koniunkturę na rynku paliw. Wyniki pobiły konsensus analityków w każdym kluczowym punkcie:Zysk Netto (II kwartał): Wyniósł ok. 7,79 miliarda złotych. To potężne zaskoczenie – przebicie rynkowych oczekiwań (6,79 mld zł) o równy miliard złotych.Zysk Netto (całe I półrocze 2026 r.): Zamknął się kwotą 15,87 miliarda złotych (w porównaniu do 5,67 mld zł w analogicznym okresie ubiegłego roku).Skorygowana EBITDA LIFO (I półrocze): Osiągnęła poziom 28,72 miliarda złotych. Pokazuje to, że rdzeń biznesu naftowego Orlenu działa niezwykle efektywnie.",
       "votes": {
         "up": 6,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
@@ -1891,22 +1709,8 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-160,75360781.html",
       "body": "Jestem od 50 zł i kiedyś sobie powiedzialem, że poniżej 200 zł nie oddam i słowa dotrzymam",
       "votes": {
-        "up": 11,
+        "up": 13,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75360853",
-      "author": "XD",
-      "postedAt": "2026-08-06 17:52",
-      "threadTitle": "Hochsztapler od leczenia raka Wit C u Batyra",
-      "url": "https://www.bankier.pl/forum/temat_hochsztapler-od-leczenia-raka-wit-c-u-batyra,75360853.html",
-      "body": "Brawo, Batyrze",
-      "votes": {
-        "up": 2,
-        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2122,20 +1926,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75358693",
-      "author": "Prezydęt",
-      "postedAt": "2026-08-06 15:28",
-      "threadTitle": "Re: Kto kupił paliwo po 5,19 zł/l +czy ta bańka kłamstwa się kiedyś skoń",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupil-paliwo-po-5-19-zl-l-czy-ta-banka-klamstwa-sie-kiedys-skonczy,75350865.html",
-      "body": "Jeżdżę Izerą wiec nie zwracam uwagi na ceny paliw",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75358465",
       "author": "mezen",
       "postedAt": "2026-08-06 15:17",
@@ -2248,20 +2038,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75355731",
-      "author": "Skok",
-      "postedAt": "2026-08-06 12:10",
-      "threadTitle": "Re: Kto kupił paliwo po 5,19 zł/l +czy ta bańka kłamstwa się kiedyś skoń",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupil-paliwo-po-5-19-zl-l-czy-ta-banka-klamstwa-sie-kiedys-skonczy,75350865.html",
-      "body": "Nie obrażaj innych , chyba że myślisz o sobie.Wiem co pisałeś za Obajteka , Doi i doi. A dziś to co?Możesz być w bandzie oszustów. Twoja sprawa",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75355433",
       "author": "qwert",
       "postedAt": "2026-08-06 11:49",
@@ -2274,20 +2050,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75354665",
-      "author": "123",
-      "postedAt": "2026-08-06 11:01",
-      "threadTitle": "Re: Kto kupił paliwo po 5,19 zł/l +czy ta bańka kłamstwa się kiedyś skoń",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupil-paliwo-po-5-19-zl-l-czy-ta-banka-klamstwa-sie-kiedys-skonczy,75350865.html",
-      "body": "Każda spółka ma swoich debi.... na forum.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75353567",
@@ -2360,20 +2122,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75352595",
-      "author": "Skok",
-      "postedAt": "2026-08-06 09:13",
-      "threadTitle": "Re: Kto kupił paliwo po 5,19 zł/l +czy ta bańka kłamstwa się kiedyś skoń",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupil-paliwo-po-5-19-zl-l-czy-ta-banka-klamstwa-sie-kiedys-skonczy,75350865.html",
-      "body": "Ja szukam i prawie 9 zeta + to co wieszcz miał na myśli ,, pół litra,, - ale Kierwa tego nie mówił ?",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75352539",
       "author": "Skok",
       "postedAt": "2026-08-06 09:11",
@@ -2400,20 +2148,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75352075",
-      "author": "Ann",
-      "postedAt": "2026-08-06 08:40",
-      "threadTitle": "Re: Kto kupił paliwo po 5,19 zł/l +czy ta bańka kłamstwa się kiedyś skoń",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupil-paliwo-po-5-19-zl-l-czy-ta-banka-klamstwa-sie-kiedys-skonczy,75350865.html",
-      "body": "Do Argentyny ?",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75351583",
@@ -2472,20 +2206,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75351387",
-      "author": "Ann",
-      "postedAt": "2026-08-06 07:20",
-      "threadTitle": "Re: Kto kupił paliwo po 5,19 zł/l +czy ta bańka kłamstwa się kiedyś skoń",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupil-paliwo-po-5-19-zl-l-czy-ta-banka-klamstwa-sie-kiedys-skonczy,75350865.html",
-      "body": "Czy zwieje przed odpowiedzialnością ?",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75351131",
       "author": "Ppp",
       "postedAt": "2026-08-06 06:43",
@@ -2512,20 +2232,6 @@
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75350865",
-      "author": "Skok",
-      "postedAt": "2026-08-06 05:56",
-      "threadTitle": "Kto kupił paliwo po 5,19 zł/l +czy ta bańka kłamstwa się kiedyś skończy?",
-      "url": "https://www.bankier.pl/forum/temat_kto-kupil-paliwo-po-5-19-zl-l-czy-ta-banka-klamstwa-sie-kiedys-skonczy,75350865.html",
-      "body": "Ile można żyć w bańce kłamstwa ? 29% na sto% nie wie jak jest okłamywane.",
-      "votes": {
-        "up": 6,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75350429",
@@ -2836,6 +2542,34 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "75341603",
+      "author": "endrzej",
+      "postedAt": "2026-08-05 10:59",
+      "threadTitle": "Re: Konsensus za 2 kwartał",
+      "url": "https://www.bankier.pl/forum/temat_konsensus-za-2-kwartal,75301619.html",
+      "body": "Wg.consensusu oczyszczony zysk netto to 8.6 mldTo najważniejsze i jeszcze Ebidta lifo 13.3 mld",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75341385",
+      "author": "krzysiekapkn",
+      "postedAt": "2026-08-05 10:46",
+      "threadTitle": "Re: Konsensus za 2 kwartał",
+      "url": "https://www.bankier.pl/forum/temat_konsensus-za-2-kwartal,75301619.html",
+      "body": "niestety nie przeobije 8 mld",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "75340445",
       "author": "Sss",
       "postedAt": "2026-08-05 09:53",
@@ -2847,6 +2581,62 @@
         "down": 0
       },
       "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75340309",
+      "author": "endrzej",
+      "postedAt": "2026-08-05 09:46",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Ok sory przepraszam coś mnie musiało mnie zdekoncentrować masz rację to do skupu.Co do reszty podtrzymuje zdanie swoje,gadać populistyczne rzeczy każdy może.Co do polityki to fakt dewaitis niech pisze.Nigdzie cię nie obraziłem.Przechodzac do meritum czyli skupu,w uchwale walnego zgromadzenia nie musi być zawarty przymus kupowania czy sztywny termin,nie chodzi o to aby sztucztpodbijac kurs dla spekuly aby za miesiąc spadl o20% tylko żeby mieć możliwość kupna w dobrej cenie.Co do inwestycji do Tusek pisząc windfall tax nie przejmował się inwestycjami Orlenu tak więc teraz gdyby tylko chcieli to też nie jest problem żaden.Też pozdrawiam i jeszcze raz przepraszam za źle zrozumiałem",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75339049",
+      "author": "Laik",
+      "postedAt": "2026-08-05 08:19",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Ale od pozostałych 50,1 19% podatku",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75338955",
+      "author": "Fish007",
+      "postedAt": "2026-08-05 08:04",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Szanowny kolego Endrzej jeśli przeczytasz dokładnie to zauważysz, że napisałem o wzroście kursu od 160 do 175, może więcej trochę bo te 10, 15% musieliby dołożyć, natomiast przyczyny, dla których prawdopodobnie nie będzie skupu też opisałem- inwestycje. Co do państwa jest ono teoretyczne że wzgledu na rząd, nie ważne czy pisowski czy peowski. Bo w państwo prawa prawa jest stabilne i przewidywalne. Niezależnie czy chodzi o podatki, służbę zdrowia, czy prawo w ogólnym tego słowa znaczeniu. Dyskusja nie polega na obrażaniu lecz na argumentacji. Czytaj dokładnie komentarze, to taka prośba. Nie zamierzam dyskutować o polityce, od tego jest Dewajtis, a wstawka o Batustanie dotyczy i ma ogromny wplyw również na Orlen. Miłego dnia i zysków.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75338491",
+      "author": "Jan",
+      "postedAt": "2026-08-05 06:27",
+      "threadTitle": "Re: Konsensus za 2 kwartał",
+      "url": "https://www.bankier.pl/forum/temat_konsensus-za-2-kwartal,75301619.html",
+      "body": "Jakie są wasze oczekiwania wobec zysku netto?. Moja szklana kula przemówiła. Analitycy niedoszacowali i zysk netto wynosi w drugim kwartale 8 miliardów.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
     },
     {
@@ -2864,6 +2654,62 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "75338447",
+      "author": "endrzej",
+      "postedAt": "2026-08-05 06:14",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Owszem napisałeś \"dokładnie\" pod jego bredzniaki o spadku kursu przez skup.Poza tym to teoretyczne państwo jest marzeniem ludzi z połowy globu,więc zbastuj trochę a jak ci się państwo nie podoba to droga wolna Algieria Mali Kirgistan czekają na CV ciebie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75338117",
+      "author": "Fish007",
+      "postedAt": "2026-08-04 23:49",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "W nic nie uwierzyłem. Wierzę tylko w to co sam sprawdzę. \"Dokładnie\" napisałem o dywidendzie. Jednak wiem, że wbrew pozorom wywołałaby ogromne spadki. Gdybyś doczytał do końca to wiedziałbyś, że nie piszę nic o spadkach z powodu skupu, a wręcz przeciwnie jego cenę określam na 160 - 175zl. Piszę również, że skup akcji określam jako niemożliwy z uwagi ogromnych inwestycji orlenu oraz strategiczny charakter firmy. Jednak, jak zaznaczam, z uwagi na Batustan i teoretyczne panstwo w którym mieszkamy wszystko jest możliwe. Jedno za czym jestem, to działanie spółki nastawione na rozwój i zysk dla akcjonariuszy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75337667",
+      "author": "Hillela",
+      "postedAt": "2026-08-04 22:24",
+      "threadTitle": "Całe GPW 20 czeka na rekordy przebicie 4000 tys",
+      "url": "https://www.bankier.pl/forum/temat_cale-gpw-20-czeka-na-rekordy-przebicie-4000-tys,75337667.html",
+      "body": "Jedziemy jedziemy",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75337429",
+      "author": "endrzej",
+      "postedAt": "2026-08-04 21:53",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Fish ty tego posiekać nie czytaj to klamca i manipulator.naprawde uwierzyłeś że skup akcji własnych spowoduje spadek kursu???Pomysl chłopie trochę,jak nie wiesz poszukaj w necie a nie słuchaj się oszołomów bez akcji.Poza tym Skup akcji w 26 nie wyklucza dywidendy w 27 jeśli już po pół roku jest prawie 15 zysku netto",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75336983",
       "author": "nelor",
       "postedAt": "2026-08-04 21:06",
@@ -2876,6 +2722,160 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75336653",
+      "author": "Fish007",
+      "postedAt": "2026-08-04 20:31",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Dokładnie. W pewnym sensie skłaniałbym się do dywidendy, chociażWszystko jest możliwe i w każdej chwili coś może się zmienić. Dywidenda dla skarbu państwa również nie jest zbyt korzysta bo dostaliby jedynie 49,9%.Jednak Orlen jest zobowiązany prowadzić swoją politykę biznesową, strategię zatwierdzoną przez walne zgromadzenie na rok, jak i dlugoterminową na lata. Mają ogromne inwestycje w chemię i off shore. Skup akcji jest możliwy, musieliby dać cenę 160-175pln za akcję, ale nie realny w przypadku strategicznej spółki",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75336289",
+      "author": "Laik",
+      "postedAt": "2026-08-04 19:45",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "A co z tego mieliby pozostali akcjonariusze,którzy w akcje swoją kasę zainwestowali. ? Pewno straty (spadek kursu i niższa dywidenda). Rozwiązaniem +miłym) wypłacenie sutej dywidendy. Państwo 50% plus podatek belki od pozostałych 50%",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75335499",
+      "author": "endrzej",
+      "postedAt": "2026-08-04 18:32",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Tusek miałby swój windfall tax",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75335199",
+      "author": "Sjjehe",
+      "postedAt": "2026-08-04 18:09",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Ciekawe jak by to wplynelo na kurs... chyba ze bylo by to poza gieldowym rynkiem.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75334675",
+      "author": "endrzej",
+      "postedAt": "2026-08-04 17:28",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Naprawdę wszystko trzeba wam tłumaczyć???W formule pół na pół Czyli np.za 3 mld skupił Orlen z rynku 1,2% to od SP kupuję za 3 mld 1,2% W tej formule SP nadala 49.99%",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75334399",
+      "author": "Fish007",
+      "postedAt": "2026-08-04 17:12",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Skup akcji podniósłby wartość udziałów państwa, ale nie dałby natychmiastowej gotówki, chyba że państwo samo odpowiedziałoby na wezwanie, co zmniejszyłoby jego władztwo w spółce",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75333943",
+      "author": "Sjjehe",
+      "postedAt": "2026-08-04 16:44",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Jak to skup? Rzedzacym jest nie na reke by SP mial wiecej niz 50% udzialow.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75332805",
+      "author": "endrzej",
+      "postedAt": "2026-08-04 15:41",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Fish ew.windfill tax od Stycznia Do tego czasu mogą wybuchną. 3 wojny a 4 się skończyćPo 2 któryś wice minister mówił że chcą zrobić jak w wielkiej Brytanii Od 90$ baryłka automatycznie podatek w ustalonej kwocie.bez znacznia dla Orlenu.Moje zdanie nt zaliczkowej dywidendy się zmieniło,była by niekorzystna bo było by jej max 6-7 zł i 0 w 27Natomiast normalnie w 27 będzie 12 8+4Najkorzystniejsze było by rozwiązanie skup akcji własnych za kwotę wyliczonego teoretycznie windfall tax dla wszystkich.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75332633",
+      "author": "Fish007",
+      "postedAt": "2026-08-04 15:30",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Niestety orlen boczniak lub spadek pod własnym ciężarem do czasu wyjaśnienia kwestii podatku od nadmiarowych zysków, możliwości dywidendy zaliczkowej albo informacji o pracach nad nią.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75330313",
+      "author": "endrzej",
+      "postedAt": "2026-08-04 13:04",
+      "threadTitle": "Re: Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "I się człowiek ośmieszył",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75329851",
+      "author": "Goonzo",
+      "postedAt": "2026-08-04 12:35",
+      "threadTitle": "Nie przebije 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_nie-przebije-150-pln,75329851.html",
+      "body": "Nie przebije",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "75324919",
