@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-08-08T13:12:30.685Z",
+  "updatedAt": "2026-08-08T18:58:54.730Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-08T13:12:30.685Z",
+    "fetchedAt": "2026-08-08T18:58:54.730Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.11,
+    "score": 0.106,
     "confidence": 0.6,
-    "commentCount": 39,
+    "commentCount": 40,
     "breakdown": {
       "positive": 14,
       "negative": 6,
-      "neutral": 19
+      "neutral": 20
     },
     "trend": [
       {
@@ -48,10 +48,15 @@
         "date": "2026-08-07",
         "score": 0.053,
         "count": 11
+      },
+      {
+        "date": "2026-08-08",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 39 komentarzy z ostatnich 7 dni: nastroje pozytywne (14 pozytywnych, 6 negatywnych, 19 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 40 komentarzy z ostatnich 7 dni: nastroje pozytywne (14 pozytywnych, 6 negatywnych, 20 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dobrze",
@@ -82,20 +87,34 @@
         "count": 3
       },
       {
+        "word": "korekcie",
+        "count": 2
+      },
+      {
         "word": "troche",
         "count": 2
       },
       {
         "word": "jestem",
         "count": 2
-      },
-      {
-        "word": "gore",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75379289",
+      "author": "Sebilla",
+      "postedAt": "2026-08-08 16:04",
+      "threadTitle": "Re: Wyniki ok, idziemy w kierunku 26k",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-ok-idziemy-w-kierunku-26k,75366299.html",
+      "body": "Pisałem o tej korekcie na 18 tyś, co już za nami",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75372773",
       "author": "Magellan",
@@ -231,7 +250,7 @@
       "body": "wg mnie 28tys do końca sierpnia",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

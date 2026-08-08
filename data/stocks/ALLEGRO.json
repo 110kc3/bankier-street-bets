@@ -3,32 +3,27 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-08-08T13:11:11.593Z",
+  "updatedAt": "2026-08-08T18:57:33.046Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-08T13:11:11.593Z",
+    "fetchedAt": "2026-08-08T18:57:33.046Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 15
+    "threadsScanned": 16
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.003,
+    "score": 0.001,
     "confidence": 0.7,
-    "commentCount": 75,
+    "commentCount": 76,
     "breakdown": {
-      "positive": 22,
+      "positive": 21,
       "negative": 25,
-      "neutral": 28
+      "neutral": 30
     },
     "trend": [
-      {
-        "date": "2026-08-01",
-        "score": 0.762,
-        "count": 1
-      },
       {
         "date": "2026-08-03",
         "score": 0.023,
@@ -53,18 +48,23 @@
         "date": "2026-08-07",
         "score": -0.029,
         "count": 13
+      },
+      {
+        "date": "2026-08-08",
+        "score": 0,
+        "count": 2
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 75 komentarzy z ostatnich 7 dni: nastroje mieszane (22 pozytywnych, 25 negatywnych, 28 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 76 komentarzy z ostatnich 7 dni: nastroje mieszane (21 pozytywnych, 25 negatywnych, 30 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
-      {
-        "word": "allegro",
-        "count": 9
-      },
       {
         "word": "skupu",
         "count": 9
+      },
+      {
+        "word": "allegro",
+        "count": 8
       },
       {
         "word": "qube",
@@ -101,6 +101,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75380227",
+      "author": "Jurek",
+      "postedAt": "2026-08-08 20:11",
+      "threadTitle": "Re: Za chwilę będzie bieda.",
+      "url": "https://www.bankier.pl/forum/temat_za-chwile-bedzie-bieda,75379525.html",
+      "body": "Jesteś żałosna",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75379525",
+      "author": "Jola",
+      "postedAt": "2026-08-08 16:58",
+      "threadTitle": "Za chwilę będzie bieda.",
+      "url": "https://www.bankier.pl/forum/temat_za-chwile-bedzie-bieda,75379525.html",
+      "body": "Się dzieci jarają chwilową górką. Za chwilę tym papierkiem będziecie sobie wycierać ręce, jak się obudzicie i wyciągniecie je z nocnika.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75372843",
       "author": "ALL",
@@ -305,7 +333,7 @@
       "url": "https://www.bankier.pl/forum/temat_jest-dobrze,75347583.html",
       "body": "Jak CCC zjechało poniżej 40, potem podeszło na 60 to już mlaskali że za drogie. Za chwilę były po 95. Też byli malkontenci wtedy. A CCC urosło ponad 200 wbrew tzw. logice.",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1135,20 +1163,6 @@
         "down": 0
       },
       "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75309049",
-      "author": "Jola",
-      "postedAt": "2026-08-01 20:11",
-      "threadTitle": "Re: Jest tu ktoś mądrzejszy",
-      "url": "https://www.bankier.pl/forum/temat_jest-tu-ktos-madrzejszy,75214207.html",
-      "body": "Każdy kupuje w chińskich marketach bo jest taniej niż u pazernego pośrednika. Mrzonki, że cła coś załatwią można schować między bajki. Efekt będzie z goła odmienny - taniej i szybsza wysyłka. Poczytaj o nowych centrach, które się budują w Polsce i Europie. Pod Wrocławiem samo Shein będzie miało tyle pracowników co całe Allegro. A gdzie pozostałe centra... Kurs 50, 90, 150 to zwyczajne naganianie. Nie dawajcie się nabierać. Ja od tej fałszywej platformy i jej trollingu trzymam się jak najdalej.",
-      "votes": {
-        "up": 2,
-        "down": 7
-      },
-      "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
     }
   ]
