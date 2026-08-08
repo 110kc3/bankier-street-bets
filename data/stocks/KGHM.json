@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-08-07T19:15:30.253Z",
+  "updatedAt": "2026-08-08T02:22:08.480Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-07T19:15:30.253Z",
+    "fetchedAt": "2026-08-08T02:22:08.480Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.056,
+    "score": 0.052,
     "confidence": 0.72,
-    "commentCount": 162,
+    "commentCount": 160,
     "breakdown": {
-      "positive": 57,
-      "negative": 34,
-      "neutral": 71
+      "positive": 56,
+      "negative": 35,
+      "neutral": 69
     },
     "trend": [
-      {
-        "date": "2026-07-31",
-        "score": 0.107,
-        "count": 3
-      },
       {
         "date": "2026-08-01",
         "score": -0.043,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-08-07",
-        "score": 0.05,
-        "count": 32
+        "score": 0.039,
+        "count": 33
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 162 komentarzy z ostatnich 7 dni: nastroje mieszane (57 pozytywnych, 34 negatywnych, 71 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 160 komentarzy z ostatnich 7 dni: nastroje mieszane (56 pozytywnych, 35 negatywnych, 69 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "miedzi",
@@ -77,12 +72,12 @@
         "count": 14
       },
       {
-        "word": "srebro",
+        "word": "miedz",
         "count": 12
       },
       {
-        "word": "miedz",
-        "count": 11
+        "word": "srebro",
+        "count": 12
       },
       {
         "word": "dzis",
@@ -111,6 +106,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75376111",
+      "author": "MobilisA075",
+      "postedAt": "2026-08-07 22:36",
+      "threadTitle": "Re: sprzedane 348,50",
+      "url": "https://www.bankier.pl/forum/temat_sprzedane-348-50,75339991.html",
+      "body": "W poniedziałek. Wszystkie metale w górę, a miedź w dół",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75373459",
       "author": "boluś",
@@ -189,7 +198,7 @@
       "url": "https://www.bankier.pl/forum/temat_skup-pod-wyniki-i-wzrosty,75369829.html",
       "body": "Zaraz będzie wysyp cfaniaków...Trzeba było kupić/sprzedać/kupić/sprzedać/kupić.... i zarobić 45% w 2 tygodnie.Jakkolwiek, ładnie rozegrana sesja.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -2336,48 +2345,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75305019",
-      "author": "YorX",
-      "postedAt": "2026-07-31 22:18",
-      "threadTitle": "Re: Lisku, wyznwacy wołają, prowadź wodzu !",
-      "url": "https://www.bankier.pl/forum/temat_lisku-wyznwacy-wolaja-prowadz-wodzu,75301277.html",
-      "body": "Brzmisz, jakbyś zainwestował pod Lisa dyktando, i nie pykło",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75304983",
-      "author": "Trzas-wawa",
-      "postedAt": "2026-07-31 22:09",
-      "threadTitle": "Re: prognoza wf",
-      "url": "https://www.bankier.pl/forum/temat_prognoza-wf,75304081.html",
-      "body": "Jak masz rudego na plecach, to i 7 mld. PLN zysku to może być mało.",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75304729",
-      "author": "Inwestorstrategiczny",
-      "postedAt": "2026-07-31 21:25",
-      "threadTitle": "Re: prognoza wf",
-      "url": "https://www.bankier.pl/forum/temat_prognoza-wf,75304081.html",
-      "body": "Myślę, że będzie więcej, czymże jest nędzne 4,5 mld?",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
