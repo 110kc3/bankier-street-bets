@@ -3,31 +3,31 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-08-08T02:22:08.480Z",
+  "updatedAt": "2026-08-08T07:15:00.991Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-08T02:22:08.480Z",
+    "fetchedAt": "2026-08-08T07:15:00.991Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 53
+    "threadsScanned": 54
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.052,
+    "score": 0.053,
     "confidence": 0.72,
-    "commentCount": 160,
+    "commentCount": 159,
     "breakdown": {
       "positive": 56,
-      "negative": 35,
+      "negative": 34,
       "neutral": 69
     },
     "trend": [
       {
         "date": "2026-08-01",
-        "score": -0.043,
-        "count": 6
+        "score": 0.081,
+        "count": 4
       },
       {
         "date": "2026-08-02",
@@ -58,10 +58,15 @@
         "date": "2026-08-07",
         "score": 0.039,
         "count": 33
+      },
+      {
+        "date": "2026-08-08",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 160 komentarzy z ostatnich 7 dni: nastroje mieszane (56 pozytywnych, 35 negatywnych, 69 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 159 komentarzy z ostatnich 7 dni: nastroje mieszane (56 pozytywnych, 34 negatywnych, 69 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "miedzi",
@@ -84,12 +89,12 @@
         "count": 8
       },
       {
-        "word": "wyniki",
+        "word": "wszystko",
         "count": 8
       },
       {
-        "word": "wszystko",
-        "count": 8
+        "word": "wyniki",
+        "count": 7
       },
       {
         "word": "mnie",
@@ -106,6 +111,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75377169",
+      "author": "Arek",
+      "postedAt": "2026-08-08 08:49",
+      "threadTitle": "Na scanway i creotech od poniedziałku short squezze jak na spacex",
+      "url": "https://www.bankier.pl/forum/temat_na-scanway-i-creotech-od-poniedzialku-short-squezze-jak-na-spacex,75377169.html",
+      "body": "Wraca hossa na spolki new space.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75376111",
       "author": "MobilisA075",
@@ -380,7 +399,7 @@
       "url": "https://www.bankier.pl/forum/temat_kto-wczoraj-kupil-350tys-akcji-w-niecala-godzine,75368449.html",
       "body": "po infie o zakazie eksportu DRKPisałem to wczoraj ale znamy te banksterowe forum że blokuje merytoryczne wpisy a trolli publikuje spam nic nie wnoszące informacje że sprzedałem boje się i czekam tam a tam trzeba otworzyć konkurencyjne forum giełdowe",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -450,7 +469,7 @@
       "url": "https://www.bankier.pl/forum/temat_mam-nadzieje-ze-jeszcze-dzisiaj-wig20-nie-spadnie,75366243.html",
       "body": "Heh..Żegnam.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -647,7 +666,7 @@
       "body": "kongo bongo",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2317,34 +2336,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75305821",
-      "author": "kus",
-      "postedAt": "2026-08-01 07:51",
-      "threadTitle": "Re: prognoza wf",
-      "url": "https://www.bankier.pl/forum/temat_prognoza-wf,75304081.html",
-      "body": "Za I kwartał już były wyniki 3,5mld",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75305681",
-      "author": "Trzas-wawa",
-      "postedAt": "2026-08-01 06:47",
-      "threadTitle": "Re: Lisku, wyznwacy wołają, prowadź wodzu !",
-      "url": "https://www.bankier.pl/forum/temat_lisku-wyznwacy-wolaja-prowadz-wodzu,75301277.html",
-      "body": "To raczej wygląda na ironię. Ja odradzam sugerowanie się wpisami innych forumowiczów.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }
