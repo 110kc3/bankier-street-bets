@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-08-08T18:58:54.730Z",
+  "updatedAt": "2026-08-09T02:28:32.218Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-08T18:58:54.730Z",
+    "fetchedAt": "2026-08-09T02:28:32.218Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.106,
-    "confidence": 0.6,
-    "commentCount": 40,
+    "score": 0.098,
+    "confidence": 0.61,
+    "commentCount": 42,
     "breakdown": {
-      "positive": 14,
-      "negative": 6,
+      "positive": 15,
+      "negative": 7,
       "neutral": 20
     },
     "trend": [
@@ -52,11 +52,11 @@
       {
         "date": "2026-08-08",
         "score": 0,
-        "count": 1
+        "count": 3
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 40 komentarzy z ostatnich 7 dni: nastroje pozytywne (14 pozytywnych, 6 negatywnych, 20 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 42 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 7 negatywnych, 20 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dobrze",
@@ -87,20 +87,48 @@
         "count": 3
       },
       {
-        "word": "korekcie",
+        "word": "zobaczymy",
         "count": 2
       },
       {
-        "word": "troche",
+        "word": "sprzedalem",
         "count": 2
       },
       {
-        "word": "jestem",
+        "word": "czekam",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75380817",
+      "author": "Magellan",
+      "postedAt": "2026-08-08 22:42",
+      "threadTitle": "Re: Wyniki ok, idziemy w kierunku 26k",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-ok-idziemy-w-kierunku-26k,75366299.html",
+      "body": "może. rzadko to widuje.na tym papierze śledząc RSI powinno zaraz iść w dół.jak będzie - zobaczymy. ja sprzedałem. czekam niżej. jak się nie doczekam, to lepiej stracić okazję niż kapitał.zarobku życzę.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75380745",
+      "author": "Sebilla",
+      "postedAt": "2026-08-08 22:05",
+      "threadTitle": "Re: Wyniki ok, idziemy w kierunku 26k",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-ok-idziemy-w-kierunku-26k,75366299.html",
+      "body": "Rsi na poziomie 70-80pkt może się utrzymywać 2-4 tygodnie w silnym trendzie wzrostowym",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75379289",
       "author": "Sebilla",
@@ -446,7 +474,7 @@
       "body": "Ognia",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
