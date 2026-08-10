@@ -3,11 +3,11 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-08-10T02:33:39.112Z",
+  "updatedAt": "2026-08-10T08:03:10.881Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-10T02:33:39.112Z",
+    "fetchedAt": "2026-08-10T08:03:10.881Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,8 +15,8 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.004,
-    "confidence": 0.7,
+    "score": 0.019,
+    "confidence": 0.71,
     "commentCount": 79,
     "breakdown": {
       "positive": 21,
@@ -26,8 +26,8 @@
     "trend": [
       {
         "date": "2026-08-03",
-        "score": 0.023,
-        "count": 13
+        "score": -0.002,
+        "count": 12
       },
       {
         "date": "2026-08-04",
@@ -58,14 +58,23 @@
         "date": "2026-08-09",
         "score": 0,
         "count": 3
+      },
+      {
+        "date": "2026-08-10",
+        "score": 0.583,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 79 komentarzy z ostatnich 7 dni: nastroje mieszane (21 pozytywnych, 25 negatywnych, 33 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 79 komentarzy z ostatnich 7 dni: nastroje mieszane (21 pozytywnych, 25 negatywnych, 33 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "skupu",
         "count": 9
+      },
+      {
+        "word": "kolejne",
+        "count": 8
       },
       {
         "word": "allegro",
@@ -80,15 +89,7 @@
         "count": 8
       },
       {
-        "word": "temu",
-        "count": 7
-      },
-      {
-        "word": "kolejne",
-        "count": 7
-      },
-      {
-        "word": "ktos",
+        "word": "kase",
         "count": 7
       },
       {
@@ -96,16 +97,34 @@
         "count": 7
       },
       {
-        "word": "ponizej",
+        "word": "temu",
         "count": 7
       },
       {
-        "word": "kase",
+        "word": "ktos",
+        "count": 7
+      },
+      {
+        "word": "ponizej",
         "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75386889",
+      "author": "lol",
+      "postedAt": "2026-08-10 08:50",
+      "threadTitle": "Kolejny dzień ujadania szortów.Fajnie że skamlecie i tracicie kasę :)",
+      "url": "https://www.bankier.pl/forum/temat_kolejny-dzien-ujadania-szortow-fajnie-ze-skamlecie-i-tracicie-kase,75386889.html",
+      "body": "Płacz i skamlanie szortów to najpiękniejszy widok tutaj. Super że tracicie kasę i kolejne depozyty. Trend jest wzrostowy ale zawsze znajdą się dawcy kapitału co biorą szorty :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75385539",
       "author": "technik",
@@ -1197,20 +1216,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75315577",
-      "author": "lol",
-      "postedAt": "2026-08-03 09:25",
-      "threadTitle": "Szorty ujadają kolejny dzień tracąc kasę :).SUPER że tracicie i ujadacie",
-      "url": "https://www.bankier.pl/forum/temat_szorty-ujadaja-kolejny-dzien-tracac-kase-super-ze-tracicie-i-ujadacie,75315577.html",
-      "body": "Pięknie się czyta jak szorty płaczą i wymyślają powody do spadków bo tracą kasę i depozyty :). Kurs pięknie rośnie i jest zbierany przed kolejnym wybiciem a szorty załamane :). Piękny widok, płaczcie dalej dawcy kapitałów :)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
