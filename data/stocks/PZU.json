@@ -3,20 +3,20 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-08-10T19:17:27.859Z",
+  "updatedAt": "2026-08-11T02:28:29.876Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-10T19:17:27.859Z",
+    "fetchedAt": "2026-08-11T02:28:29.876Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 23
+    "threadsScanned": 24
   },
   "analysis": {
-    "signal": "HOLD",
-    "score": 0.146,
-    "confidence": 0.75,
+    "signal": "BUY",
+    "score": 0.169,
+    "confidence": 0.76,
     "commentCount": 73,
     "breakdown": {
       "positive": 33,
@@ -24,11 +24,6 @@
       "neutral": 27
     },
     "trend": [
-      {
-        "date": "2026-08-03",
-        "score": 0.322,
-        "count": 1
-      },
       {
         "date": "2026-08-04",
         "score": 0.214,
@@ -61,8 +56,8 @@
       },
       {
         "date": "2026-08-10",
-        "score": 0.208,
-        "count": 9
+        "score": 0.28,
+        "count": 10
       }
     ],
     "trendDirection": "stable",
@@ -81,6 +76,18 @@
         "count": 4
       },
       {
+        "word": "sierpnia",
+        "count": 3
+      },
+      {
+        "word": "wrzesnia",
+        "count": 3
+      },
+      {
+        "word": "wyniki",
+        "count": 3
+      },
+      {
         "word": "https",
         "count": 3
       },
@@ -95,22 +102,24 @@
       {
         "word": "stop",
         "count": 3
-      },
-      {
-        "word": "profit",
-        "count": 3
-      },
-      {
-        "word": "korekty",
-        "count": 3
-      },
-      {
-        "word": "wydaje",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75397125",
+      "author": "Cashofarianin",
+      "postedAt": "2026-08-10 22:43",
+      "threadTitle": "Akumulacji na szczycie",
+      "url": "https://www.bankier.pl/forum/temat_akumulacji-na-szczycie,75397125.html",
+      "body": "Jeśli mój scenariusz się spełni i kurs dobije do 80 PLN, a zarząd da silne ESPI, w okresie pomiędzy 20 sierpnia (publikacja wyników) a 15 września (ostatni dzień z prawem do dywidendy) może dojść do tzw. akumulacji na szczycie i zabetonowania kursu przed spadkami. Taka spekulacja: wyniki biją konsensus, wpadnie info oficjalne potwierdzenie rozpoczęcia procesu reorganizacji relacji PZU-Pekao ... I zaczniemy wierzyć w stówkę na 2027...ze mną nie zginiecie :)",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75395917",
       "author": "zmowa",
@@ -217,7 +226,7 @@
       "url": "https://www.bankier.pl/forum/temat_dywidenda-juz-naprawde-niedaleko-rozgrzewa-inwestorow,75385569.html",
       "body": "Widać po kursie że to jest rozgrzane do czerwoności",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -231,7 +240,7 @@
       "url": "https://www.bankier.pl/forum/temat_dywidenda-juz-naprawde-niedaleko-rozgrzewa-inwestorow,75385569.html",
       "body": "Ja jestem rozgrzany na maksa.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -1118,20 +1127,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75324403",
-      "author": "Insurance",
-      "postedAt": "2026-08-03 22:21",
-      "threadTitle": "Re: Sprzedaż Żabki uwolni miliardy PLN",
-      "url": "https://www.bankier.pl/forum/temat_sprzedaz-zabki-uwolni-miliardy-pln,75306697.html",
-      "body": "Pieniądz płynie jutro odcięcie dywidendy z PKO BP",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
