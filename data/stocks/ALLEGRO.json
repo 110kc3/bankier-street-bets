@@ -3,31 +3,31 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-08-11T02:26:30.622Z",
+  "updatedAt": "2026-08-11T07:36:01.268Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-11T02:26:30.622Z",
+    "fetchedAt": "2026-08-11T07:36:01.268Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 16
+    "threadsScanned": 15
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.011,
-    "confidence": 0.7,
+    "score": 0.017,
+    "confidence": 0.71,
     "commentCount": 69,
     "breakdown": {
       "positive": 17,
-      "negative": 21,
-      "neutral": 31
+      "negative": 20,
+      "neutral": 32
     },
     "trend": [
       {
         "date": "2026-08-04",
-        "score": -0.018,
-        "count": 13
+        "score": 0.029,
+        "count": 12
       },
       {
         "date": "2026-08-05",
@@ -58,18 +58,23 @@
         "date": "2026-08-10",
         "score": 0.194,
         "count": 3
+      },
+      {
+        "date": "2026-08-11",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 69 komentarzy z ostatnich 7 dni: nastroje mieszane (17 pozytywnych, 21 negatywnych, 31 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 69 komentarzy z ostatnich 7 dni: nastroje mieszane (17 pozytywnych, 20 negatywnych, 32 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
-      {
-        "word": "allegro",
-        "count": 8
-      },
       {
         "word": "qube",
         "count": 8
+      },
+      {
+        "word": "allegro",
+        "count": 7
       },
       {
         "word": "kolejne",
@@ -81,10 +86,6 @@
       },
       {
         "word": "ponizej",
-        "count": 7
-      },
-      {
-        "word": "skupu",
         "count": 7
       },
       {
@@ -100,12 +101,30 @@
         "count": 6
       },
       {
-        "word": "cena",
+        "word": "skupu",
         "count": 6
+      },
+      {
+        "word": "kase",
+        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75399029",
+      "author": "Pilot",
+      "postedAt": "2026-08-11 09:13",
+      "threadTitle": "Re: Jest tu ktoś mądrzejszy",
+      "url": "https://www.bankier.pl/forum/temat_jest-tu-ktos-madrzejszy,75214207.html",
+      "body": "Jak ma skupować gdy cenę ustawili na 45zl teraz trzeba nowy komunikat o nowej cenie 52",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75391975",
       "author": "Jan",
@@ -1057,20 +1076,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75325799",
-      "author": "luk",
-      "postedAt": "2026-08-04 08:28",
-      "threadTitle": "Re: Skup 400 mln",
-      "url": "https://www.bankier.pl/forum/temat_skup-400-mln,75319823.html",
-      "body": "Kto sprzedaje?Głównie instytucje, które grały pod skup akcji. Kiedy Allegro ogłosiło program skupu, kupiły akcje z zamiarem odsprzedania ich później spółce.Dlatego kurs jest obecnie przyklejony do poziomu około 45 zł. Instytucje starają się oddawać akcje po maksymalnej cenie przewidzianej w programie skupu.Moim zdaniem taka sytuacja może utrzymać się jeszcze przez około 2-3 tygodnie.Jeżeli więc chcesz grać na spadki, musisz brać pod uwagę, że kurs może pozostać w tym rejonie jeszcze przez jakieś 12-15 dni i przez ten czas nie wykazywać większej zmienności.Co dalej?Warto zauważyć, że obecny skup został nazwany Fazą 1. Z dużym prawdopodobieństwem pojawi się Faza 2. Trudno sobie wyobrazić, aby spółka numerowała etapy programu, gdyby od początku nie brała pod uwagę możliwości jego kontynuacji.Kluczowe pytanie brzmi: na jakich warunkach zostałaby przeprowadzona druga faza? Czy maksymalna cena skupu zostałaby podniesiona do 50 zł, 55 zł, a może nawet 60 zł za akcję? Dodatkowo pytanie co jak pojawi sie chętny na spółkę ? Wtedy mamy to co na żabce ? Wedlug Ortex shorty redukuja mocno pozycję",
-      "votes": {
-        "up": 6,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }
