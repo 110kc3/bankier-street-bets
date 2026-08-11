@@ -3,41 +3,46 @@
   "companyName": "Orlen SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKNORLEN",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_orlen-sa,6,21,201.html",
-  "updatedAt": "2026-08-11T07:38:02.578Z",
+  "updatedAt": "2026-08-11T13:43:33.222Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-11T07:38:02.578Z",
+    "fetchedAt": "2026-08-11T13:43:33.222Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 75
+    "threadsScanned": 72
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.063,
-    "confidence": 0.72,
+    "score": 0.013,
+    "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 61,
-      "negative": 29,
-      "neutral": 110
+      "positive": 36,
+      "negative": 34,
+      "neutral": 130
     },
     "trend": [
       {
+        "date": "2026-08-06",
+        "score": 0.124,
+        "count": 11
+      },
+      {
         "date": "2026-08-07",
-        "score": 0.154,
-        "count": 45
+        "score": -0.039,
+        "count": 38
       },
       {
         "date": "2026-08-08",
-        "score": 0.171,
-        "count": 34
+        "score": -0.028,
+        "count": 21
       },
       {
         "date": "2026-08-09",
-        "score": 0.044,
-        "count": 34
+        "score": 0.035,
+        "count": 29
       },
       {
         "date": "2026-08-10",
@@ -46,56 +51,364 @@
       },
       {
         "date": "2026-08-11",
-        "score": -0.047,
-        "count": 25
+        "score": -0.044,
+        "count": 39
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (61 pozytywnych, 29 negatywnych, 110 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (36 pozytywnych, 34 negatywnych, 130 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "orlen",
         "count": 20
       },
       {
-        "word": "cena",
-        "count": 18
-      },
-      {
         "word": "roku",
-        "count": 16
-      },
-      {
-        "word": "paliwa",
-        "count": 14
-      },
-      {
-        "word": "przy",
-        "count": 14
-      },
-      {
-        "word": "zeby",
-        "count": 13
-      },
-      {
-        "word": "ceny",
-        "count": 13
-      },
-      {
-        "word": "paliwo",
         "count": 12
       },
       {
+        "word": "przy",
+        "count": 9
+      },
+      {
+        "word": "chodzi",
+        "count": 8
+      },
+      {
+        "word": "chce",
+        "count": 8
+      },
+      {
         "word": "orlenu",
-        "count": 11
+        "count": 8
+      },
+      {
+        "word": "zeby",
+        "count": 8
       },
       {
         "word": "paliw",
-        "count": 11
+        "count": 7
+      },
+      {
+        "word": "polsce",
+        "count": 7
+      },
+      {
+        "word": "jego",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75404637",
+      "author": "Miodek",
+      "postedAt": "2026-08-11 15:22",
+      "threadTitle": "Energa SA praktycznie w Orlenu sii z Eslinersem sie piekli",
+      "url": "https://www.bankier.pl/forum/temat_energa-sa-praktycznie-w-orlenu-sii-z-eslinersem-sie-piekli,75138181.html",
+      "body": "Na kernerze zalatwili super wykup po przegranej sprawie 19,93 platne w grudniu az mnie brzuh bolize smiechu",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75404635",
+      "author": "Miodek",
+      "postedAt": "2026-08-11 15:22",
+      "threadTitle": "Buczek z Edskinersem sprzedali milionerom tera wyjom hee",
+      "url": "https://www.bankier.pl/forum/temat_buczek-z-edlinersem-sprzedali-milionerom-tera-wyjom-hee,73230071.html",
+      "body": "Piszcie poprawnie pzdr",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75404451",
+      "author": "RudyDoBudy",
+      "postedAt": "2026-08-11 15:09",
+      "threadTitle": "Re: Paliwa muszą być drogie, aby ludzie mogli je oszczędzać.",
+      "url": "https://www.bankier.pl/forum/temat_paliwa-musza-byc-drogie-aby-ludzie-mogli-je-oszczedzac,75392129.html",
+      "body": "Konie wydzielają dwutlenek węgla, więc są nieekologiczne, wręcz zabójcze dla klimatu.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75404449",
+      "author": "czuwaj",
+      "postedAt": "2026-08-11 15:09",
+      "threadTitle": "CBA i prokuratura podobno od maja prowadzą sprawę nienależnych",
+      "url": "https://www.bankier.pl/forum/temat_cba-i-prokuratura-podobno-od-maja-prowadza-sprawe-nienaleznych,75404449.html",
+      "body": "odszkodowań dla działaczy KO z Karkonoszy no to ile czasu potrzeba tym super agentom na zobaczenie że dom stoi na wzgórzu i w ogóle nie był zalany? bo minęły już 3 miesiace i gdyby nie media to byłaby cisza!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75404325",
+      "author": "Dewajtis",
+      "postedAt": "2026-08-11 14:58",
+      "threadTitle": "Re: Paliwa muszą być drogie, aby ludzie mogli je oszczędzać.",
+      "url": "https://www.bankier.pl/forum/temat_paliwa-musza-byc-drogie-aby-ludzie-mogli-je-oszczedzac,75392129.html",
+      "body": "A może chodzi o globalne ocieplenie? Przecież odchodzi się w polityce klimatycznej UE od paliw kopalnych. Może celowo nas łupią, byśmy nie spalali paliw. Może wróćmy do koników i furmanek, bogatsi do karet.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75404277",
+      "author": "Dewajtis",
+      "postedAt": "2026-08-11 14:55",
+      "threadTitle": "Re: Bezczelny trump",
+      "url": "https://www.bankier.pl/forum/temat_bezczelny-trump,75397763.html",
+      "body": "Argument z Malborkiem jest całkowicie chybiony, bo o dzisiejszych granicach państw nie decyduje to, kto kilkaset lat temu wybudował jakiś zamek. Gdyby iść tym tropem, to Włosi mogliby dziś żądać Londynu albo Paryża, bo przecież budowało je Imperium Rzymskie. Poza tym warto pamiętać, że choć Krzyżacy wznieśli ten zamek, to potem przegrali wojnę z Polską i Malbork przez ponad 300 lat legalnie należał do polskich królów, aż do rozbiorów.Przejęcie tych ziem przez Polskę po 1945 roku nie było żadnym okradaniem Niemców, tylko bezpośrednim skutkiem wojny, którą sami wywołali i sromotnie przegrali. Nowe granice wyznaczyły wielkie mocarstwa. Dla Polski te tereny były wyłącznie rekompensatą terytorialną za Kresy Wschodnie, które zabrał nam Związek Radziecki. Straciliśmy wtedy ogromne obszary, w tym Lwów i Wilno, które przecież budowali Polacy. Obszarowo wyszliśmy na tej zamianie na minus, więc nie ma tu mowy o żadnym wzbogaceniu się.Trzeba też wyraźnie oddzielić zmianę granic od reparacji finansowych. Ziemie Zachodnie dostaliśmy za utracone Kresy, a nie jako odszkodowanie za spaloną Warszawę, zniszczone fabryki czy miliony ofiar. Niemcy nigdy nie wypłaciły Polsce prawdziwych reparacji za te potężne zniszczenia wojenne. A jeśli chodzi o rzekome zrzeczenie się odszkodowań w 1953 roku, to nie była to wolna decyzja Polaków, tylko nakaz z Moskwy wymuszony na niesuwerennych władzach PRL. Dlatego Polska wciąż ma pełne prawo mówić o braku sprawiedliwego rozliczenia.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75404233",
+      "author": "Dan",
+      "postedAt": "2026-08-11 14:52",
+      "threadTitle": "Re: Czy to w ogóle prawda z tym złotem?",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-w-ogole-prawda-z-tym-zlotem,75397951.html",
+      "body": "To dopiero są problemy hahah",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75404197",
+      "author": "RudyDoBudy",
+      "postedAt": "2026-08-11 14:49",
+      "threadTitle": "Re: Paliwa muszą być drogie, aby ludzie mogli je oszczędzać.",
+      "url": "https://www.bankier.pl/forum/temat_paliwa-musza-byc-drogie-aby-ludzie-mogli-je-oszczedzac,75392129.html",
+      "body": "Wczoraj rudy pojawił się na planie nowej serii Rancza. Podobno ma zagrać Czerepacha, bo Barciś już nie chce. Wizualnie podobny, no i charakterem wyśmienicie pasuje. Nie będzie musiał się wysilać, grając. To będzie hicior. A w Małym Pałacu zastąpi go godnie ktoś odpowiedni, np. Jachira albo Wcisło.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75404145",
+      "author": "Wielki",
+      "postedAt": "2026-08-11 14:44",
+      "threadTitle": "Re: Bezczelny trump",
+      "url": "https://www.bankier.pl/forum/temat_bezczelny-trump,75397763.html",
+      "body": "Malbork też był przejęty za złotówkę A za ile ty myślisz? Za tyle ile kosztowało jego wybudowanie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75403969",
+      "author": "RAFF",
+      "postedAt": "2026-08-11 14:27",
+      "threadTitle": "Re: Bezczelny trump",
+      "url": "https://www.bankier.pl/forum/temat_bezczelny-trump,75397763.html",
+      "body": "Widzę że bez zrozumienia, ale tu chyba jakas choroba występuje:) Głównie przejęte za 1 zł, celem rozwalenia konkurencji i przejęcia rynków zbytu, ale prowokacyjnie zwracasz uwagę i chyba dyskusja nie ma sensu. To forum Orlenu nie polityczne.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75403333",
+      "author": "endrzej",
+      "postedAt": "2026-08-11 13:39",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "No nie.Sektor jest kupowany to rośnie.A jest kupowany bo crack jest potężny Crack jest potężny bo brakuje gotowych paliw Gotowych paliw brakuje bo są rozbite ruskie i arabskie rafineriie",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75403253",
+      "author": "Wielki",
+      "postedAt": "2026-08-11 13:33",
+      "threadTitle": "Re: Bezczelny trump",
+      "url": "https://www.bankier.pl/forum/temat_bezczelny-trump,75397763.html",
+      "body": "A Niemcy odkupili od Polaków wiele fabryk za długi w całej Polsce więc cała Polska jest niemiecka",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75402489",
+      "author": "akcja_JSW",
+      "postedAt": "2026-08-11 12:38",
+      "threadTitle": "Re: Jedyny legalny i sprawiedliwy podatek to dywidenda",
+      "url": "https://www.bankier.pl/forum/temat_jedyny-legalny-i-sprawiedliwy-podatek-to-dywidenda,75399377.html",
+      "body": "Dodatkowym plusem dla rządu jest to, że nie są zdani na prezydenta - robimy nie gadamy?",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75402371",
+      "author": "JarekzBydzi",
+      "postedAt": "2026-08-11 12:28",
+      "threadTitle": "Re: Rżną nas na paliwie .",
+      "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
+      "body": "Aż mi głupio, że tacy jak Laik są akcjonariuszami... Zamiast się cieszyć, że Orlen działa na rynku ukraińskim to zakłada onuce i gada po rusku...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75402159",
+      "author": "Zyrkif",
+      "postedAt": "2026-08-11 12:15",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Zobaczcie wykresy D1 od początku lipca dla Orlen, BP, Shell, Chevron czy Equinor, wszystkie wyglądają identycznie. Niech mi ktoś powie, że to nie automaty steruja rynkiem",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75401417",
+      "author": "endrzej",
+      "postedAt": "2026-08-11 11:29",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Jak tam panie przemądrzały shorty?",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75401363",
+      "author": "endrzej",
+      "postedAt": "2026-08-11 11:25",
+      "threadTitle": "Re: Mam schorta.tu już niezobaczycie 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_mam-schorta-tu-juz-niezobaczycie-150-pln,75370697.html",
+      "body": "Jak tak gonzo short",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75401343",
+      "author": "endrzej",
+      "postedAt": "2026-08-11 11:25",
+      "threadTitle": "Re: endrzej -merytorycznie obaliłem twoje wypociny o propagandzie",
+      "url": "https://www.bankier.pl/forum/temat_endrzej-merytorycznie-obalilem-twoje-wypociny-o-propagandzie,75377713.html",
+      "body": "Ty jednak jesteś dechilem na maxa Pisanie było o roku 22 gdy wybuchła wojna a dechil wyskoczył z 23 masakra",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75401277",
+      "author": "endrzej",
+      "postedAt": "2026-08-11 11:21",
+      "threadTitle": "Re: Podbitka i solidna korekta.",
+      "url": "https://www.bankier.pl/forum/temat_podbitka-i-solidna-korekta,75399411.html",
+      "body": "Dwa dechile od roku piszą o korekcję Brawo wy",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75401045",
+      "author": "RAFF",
+      "postedAt": "2026-08-11 11:08",
+      "threadTitle": "Re: Bezczelny trump",
+      "url": "https://www.bankier.pl/forum/temat_bezczelny-trump,75397763.html",
+      "body": "A wiedziałeś,że może i nie budowali, ale odkupili od Czechów, za długi Krzyżaków wobec Wojsk zaciężnych Czeskich.Więc to było zaplacone",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75400023",
+      "author": "Olka",
+      "postedAt": "2026-08-11 10:06",
+      "threadTitle": "Re: Podbitka i solidna korekta.",
+      "url": "https://www.bankier.pl/forum/temat_podbitka-i-solidna-korekta,75399411.html",
+      "body": "Do ily orzwidujesz?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75399859",
+      "author": "Wielki",
+      "postedAt": "2026-08-11 09:55",
+      "threadTitle": "Re: Bezczelny trump",
+      "url": "https://www.bankier.pl/forum/temat_bezczelny-trump,75397763.html",
+      "body": "A to nie wiedziałem że Polacy zbudowali Malbork,",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75399489",
       "author": "Wielki",
@@ -105,7 +418,7 @@
       "body": "Bo za 2 lata koniec kadencji i następny prezes będzie miał problem jak spieniężyc ten złom żeby za dużo nie stracić",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -118,7 +431,7 @@
       "url": "https://www.bankier.pl/forum/temat_bezczelny-trump,75397763.html",
       "body": "Nie bądź bezczelny. Polska wróciła na swoje po przegranej Niemców w wojnie, którą sami wywołali. Akt sprawiedliwości dziejowej. Jedyny problem, to ile za to policzyć?",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -133,7 +446,7 @@
       "body": "jak w/w",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -146,8 +459,8 @@
       "url": "https://www.bankier.pl/forum/temat_jedyny-legalny-i-sprawiedliwy-podatek-to-dywidenda,75399377.html",
       "body": "Nawet Tusk przyznał, że bierze go pod uwagę.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -167,20 +480,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75399275",
-      "author": "nelor",
-      "postedAt": "2026-08-11 09:25",
-      "threadTitle": "Re: Batyr realizuje interesy kremla",
-      "url": "https://www.bankier.pl/forum/temat_batyr-realizuje-interesy-kremla,75397681.html",
-      "body": "Przecież i tak pójdą. Tylko się ośmieszył.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75399217",
       "author": "Laik",
       "postedAt": "2026-08-11 09:22",
@@ -188,7 +487,7 @@
       "url": "https://www.bankier.pl/forum/temat_miliardy-dla-polski,75393257.html",
       "body": "Racja.Motłoch jachtami się nie rozbija.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -202,49 +501,7 @@
       "url": "https://www.bankier.pl/forum/temat_znow-15mld-ukradna-akcjonariuszom,75368641.html",
       "body": "najpierw okradl ludzi ze skladek ofe a teraz chce okrasc akcjonariuszy orlenu taki mamy klimat",
       "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75399199",
-      "author": "Wielki",
-      "postedAt": "2026-08-11 09:22",
-      "threadTitle": "PiS =17,5%",
-      "url": "https://www.bankier.pl/forum/temat_pis-17-5,75399199.html",
-      "body": "Dramat kaczki",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75399159",
-      "author": "Laik",
-      "postedAt": "2026-08-11 09:20",
-      "threadTitle": "Re: Batyr realizuje interesy kremla",
-      "url": "https://www.bankier.pl/forum/temat_batyr-realizuje-interesy-kremla,75397681.html",
-      "body": "Np.na dotacje dla francuskiej firmy Orange. Ok.700 mln zl",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75399137",
-      "author": "Laik",
-      "postedAt": "2026-08-11 09:18",
-      "threadTitle": "Re: Batyr realizuje interesy kremla",
-      "url": "https://www.bankier.pl/forum/temat_batyr-realizuje-interesy-kremla,75397681.html",
-      "body": "I tu się zgadzam. Kradną inaczej i więcej. Popytaj p.premierabi p. Sikorskiego o ich kontakty. Spacerki po molo,papieroski na balkonach",
-      "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -272,7 +529,7 @@
       "url": "https://www.bankier.pl/forum/temat_znow-15mld-ukradna-akcjonariuszom,75368641.html",
       "body": "Cyt: Gazeta (Rzepa) podała, że dzięki temu do budżetu mogłoby wpłynąć nawet wedle różnych szacunków 7-8 lub 8-10 mld zł. Gaz+paliwa ciekłe i juz się nazbierało 15mld - pamiętajcie przy wyborach kto okradł!",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -286,7 +543,7 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Budują port kontenerowy czy tylko udają ?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -301,7 +558,7 @@
       "body": "Jest złoto, ale Glapa się wystraszył, bo to ma być na obronę złotego a nie na armaty i czołgi. Dopiero teraz dotarło do niego a tu prezydent wraca do tematu Safe0 i ma problem.",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -315,7 +572,7 @@
       "body": "Widzę stacje Orlenu i jadam tam konkretburgery chociaż tankuje na Leclercu",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -328,8 +585,8 @@
       "url": "https://www.bankier.pl/forum/temat_czy-to-w-ogole-prawda-z-tym-zlotem,75397951.html",
       "body": "A ty widzisz akcje Orlenu?Może pod poduszką trzymasz?",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 1,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -349,29 +606,15 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75398079",
-      "author": "Alibaba",
-      "postedAt": "2026-08-11 07:53",
-      "threadTitle": "Re: Batyr realizuje interesy kremla",
-      "url": "https://www.bankier.pl/forum/temat_batyr-realizuje-interesy-kremla,75397681.html",
-      "body": "Dobrze,że zawetował Bo nie wiadomo, na co by te miliardy poszły.",
+      "id": "75397951",
+      "author": "Wielki",
+      "postedAt": "2026-08-11 07:32",
+      "threadTitle": "Czy to w ogóle prawda z tym złotem?",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-w-ogole-prawda-z-tym-zlotem,75397951.html",
+      "body": "Kto go widział w skarbcu, może jak u Plichty tylko 1 sztabka na wystawie",
       "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75397907",
-      "author": "re",
-      "postedAt": "2026-08-11 07:26",
-      "threadTitle": "Re: Batyr realizuje interesy kremla",
-      "url": "https://www.bankier.pl/forum/temat_batyr-realizuje-interesy-kremla,75397681.html",
-      "body": "no przeciez kradna jak KO czyli po calosci i niewazne czy to szpital czy fundusz powodziowy",
-      "votes": {
-        "up": 7,
-        "down": 0
+        "up": 2,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -385,7 +628,7 @@
       "body": "Chce odszkodowania od Iranu jak kaczka od Niemców których Polacy wypedzili i okradli",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -398,50 +641,8 @@
       "url": "https://www.bankier.pl/forum/temat_przegrzany-walor,75396773.html",
       "body": "Moszna ci się przegrzała . Zalecam chłodną kąpiel.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75397699",
-      "author": "Alewasturuchaja",
-      "postedAt": "2026-08-11 06:10",
-      "threadTitle": "Re: Batyr realizuje interesy kremla",
-      "url": "https://www.bankier.pl/forum/temat_batyr-realizuje-interesy-kremla,75397681.html",
-      "body": "Nie mają szemranych charakterów nie zawetowali 180 mld dla armii , nie maja kontaktów z moskwą i nie kradną jak pisowcy",
-      "votes": {
-        "up": 0,
-        "down": 8
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75397695",
-      "author": "Wlad",
-      "postedAt": "2026-08-11 06:03",
-      "threadTitle": "Re: Batyr realizuje interesy kremla",
-      "url": "https://www.bankier.pl/forum/temat_batyr-realizuje-interesy-kremla,75397681.html",
-      "body": "Kosiniak i Tomczyk to są prawdziwi wodzowie. Za nich żołnierze pójdą w ogień.",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75397681",
-      "author": "Alewasturuchaja",
-      "postedAt": "2026-08-11 05:48",
-      "threadTitle": "Batyr realizuje interesy kremla",
-      "url": "https://www.bankier.pl/forum/temat_batyr-realizuje-interesy-kremla,75397681.html",
-      "body": "Na wizerunku prezydenta Nawrockiego pojawiło się sporo rys. Rozmawiając z oficerami, podoficerami i szeregowymi, coraz częściej słyszę w ich głosach rozczarowanie zwierzchnikiem sił zbrojnych.Wojskowi zarzucają Nawrockiemu, że w jego działaniu brakuje decyzji realnie poprawiających warunki ich służby i że zamiast dobrem armii kieruje się politycznym interesem.",
-      "votes": {
-        "up": 0,
-        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -482,7 +683,7 @@
       "url": "https://www.bankier.pl/forum/temat_miliardy-dla-polski,75393257.html",
       "body": "A syf jak zwykle bełkocze. O pomocy dla powodzian najlepiej dowodzi to, że te rejony głosują na KO.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -511,7 +712,7 @@
       "body": "Nieuzasadniona cena",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -524,8 +725,8 @@
       "url": "https://www.bankier.pl/forum/temat_miliardy-dla-polski,75393257.html",
       "body": "Nelor, zapomniałeś o co najmniej takich ministrach jak Radosław Sikorski, Krzysztof Gawkowski, Agnieszka Dziemianowicz-Bąk. Natomiast nie dyskutuj z tym nieukiem i miernotą \"Luksus\". On nie potrafi od wielu dni wymienić nawet jednej pozytywnej dla Polaków decyzji rezydenta Vetomana.",
       "votes": {
-        "up": 1,
-        "down": 1
+        "up": 2,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -594,8 +795,8 @@
       "url": "https://www.bankier.pl/forum/temat_miliardy-dla-polski,75393257.html",
       "body": "Może ja za niego. Kamysz, Kloska, Żurek itd. PiS przez 8 lat nie mógł posadzić formalnie Nowaka a teraz ci tak spieszno?",
       "votes": {
-        "up": 0,
-        "down": 5
+        "up": 1,
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -636,7 +837,7 @@
       "url": "https://www.bankier.pl/forum/temat_miliardy-dla-polski,75393257.html",
       "body": "Obserwator podaj 3 kumatych obecnych ministrów. Proszę od 3 dni. Dodaj jeszcze efekty komisji sejmowych i kto z Pisu siedzi za zlodziejśtwo ?????",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 1
       },
       "sentimentScore": 0,
@@ -650,7 +851,7 @@
       "url": "https://www.bankier.pl/forum/temat_miliardy-dla-polski,75393257.html",
       "body": "5 zł od ministerstwa finansów dla gminy Telatyn i 4,5 mln zl dla swoich na remont po powodzi, gdzie woda nie dotarła w Jeleniej Górze.https://x.com/TZielinski1967/status/2081778923717726565https://wiadomosci.wp.pl/miliony-dla-powodzian-dostali-maz-i-sasiedzi-polityczki-ko-za-wode-po-ktorej-nie-ma-sladu-7315852286773248a",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 4
       },
       "sentimentScore": 0,
@@ -665,7 +866,7 @@
       "body": "Jeszcze zapomniałeś wymienić ś.p. Pawła Adamowicza, którego szczujnia Kurskiego atakowała przez lata oraz Tomasza Grodzkiego, który zaczął być wściekle atakowany przez PIS-owską telewizję partyjną jak został marszałkiem senatu. Na tym m.in. polegały rządy sitwy Kaczyńskiego.",
       "votes": {
         "up": 3,
-        "down": 6
+        "down": 8
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -678,7 +879,7 @@
       "url": "https://www.bankier.pl/forum/temat_miliardy-dla-polski,75393257.html",
       "body": "Przypomnij nam co robił Roman Giertych? Co się dzieje z zarzutami dla Wojciecha K? Itd...",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 3
       },
       "sentimentScore": 0,
@@ -693,7 +894,7 @@
       "body": "Nie, nie okradło. Powtarzasz bełkot za pisowskimi gadzinówami, które sterują umysłami motłochu, do którego należysz.",
       "votes": {
         "up": 5,
-        "down": 8
+        "down": 9
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -706,7 +907,7 @@
       "url": "https://www.bankier.pl/forum/temat_miliardy-dla-polski,75393257.html",
       "body": "Tak, to pieniądze na jachty dla K0lesi. Towarzystwo nawet powodzian okradło.",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 5
       },
       "sentimentScore": 0,
@@ -735,7 +936,7 @@
       "body": "Kolesie Kaczyńskiego już dawno uciekli jak szczury przed wymiarem sprawiedliwości. Ale przynajmniej wiemy na czym polegała ta \"dobra zmiana\".",
       "votes": {
         "up": 9,
-        "down": 12
+        "down": 15
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -762,8 +963,8 @@
       "url": "https://www.bankier.pl/forum/temat_paliwa-musza-byc-drogie-aby-ludzie-mogli-je-oszczedzac,75392129.html",
       "body": "To prawda.plebsowi socjalnemu wystarczy rower zeby dojechać po bełta mózgojeba",
       "votes": {
-        "up": 4,
-        "down": 3
+        "up": 5,
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -776,7 +977,7 @@
       "url": "https://www.bankier.pl/forum/temat_paliwa-nie-moga-byc-tansze-na-stacjach-bo-wykupia-je-kierowcy-z,75387399.html",
       "body": "Panie prawda widzę czytam i nie wierzę.Normalnie muszę tym razem przyznać że napisałeś prawdę.Z tym zastrzeżeniem że za Obajtka paliwa były tańsze przez ogólnoe cały okres a nie po wybuchy wojny.ale luz masz od swojego przeciwnika odemnie zielony kciuk.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -790,7 +991,7 @@
       "url": "https://www.bankier.pl/forum/temat_miliardy-dla-polski,75393257.html",
       "body": "Będzie czym się dzielić. K0lesie już zacierają ręce.",
       "votes": {
-        "up": 14,
+        "up": 16,
         "down": 9
       },
       "sentimentScore": 0,
@@ -832,7 +1033,7 @@
       "url": "https://www.bankier.pl/forum/temat_paliwa-musza-byc-drogie-aby-ludzie-mogli-je-oszczedzac,75392129.html",
       "body": "To kolejny Oskar dla bolszewików..",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -1252,7 +1453,7 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "A co to było z rozpoczęciem budowy portu kontenerowego ?",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1469,20 +1670,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75384239",
-      "author": "Buahaha",
-      "postedAt": "2026-08-09 19:22",
-      "threadTitle": "Re: straty OBAJTKA TO PIKUS DO...!!!",
-      "url": "https://www.bankier.pl/forum/temat_straty-obajtka-to-pikus-do,75374121.html",
-      "body": "Porownaj do strat przez srovid... przypomnij kto wtedy rzadzil ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75384233",
       "author": "Skok",
       "postedAt": "2026-08-09 19:21",
@@ -1495,20 +1682,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75384227",
-      "author": "Skok",
-      "postedAt": "2026-08-09 19:18",
-      "threadTitle": "Re: straty OBAJTKA TO PIKUS DO...!!!",
-      "url": "https://www.bankier.pl/forum/temat_straty-obajtka-to-pikus-do,75374121.html",
-      "body": "Doją nas na potęgę",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75384215",
@@ -1679,34 +1852,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75381735",
-      "author": "Prawda",
-      "postedAt": "2026-08-09 09:58",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Endrzej, zarzucasz mi „czytanie bez zrozumienia”, a sam chyba nie zrozumiałeś tego, co Ci napisałem.Napisałem: „Za PiS uważałem, że paliwo było za tanie”. To znaczy dokładnie tyle, że w okresie rządów PiS uważałem, że cena paliwa była zbyt niska. Nie napisałem ani nie zasugerowałem, że „teraz już tak nie uważam i paliwo jest w sam raz”.To Ty dopisałeś sobie ciąg dalszy: „Zaraz napiszesz, że tak już nie uważasz i było w sam raz”, a następnie traktujesz własne przypuszczenie jako dowód na zmianę mojego stanowiska.Więc skoro tak często powołujesz się na „czytanie ze zrozumieniem”, zacznijmy od czytania dokładnie tego, co rzeczywiście zostało napisane, a nie tego, co według Ciebie autor dopiero „zaraz napisze”.I nadal czekam na konkretny cytat, w którym rzekomo zmieniłem swoje stanowisko.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75381627",
-      "author": "Prawda",
-      "postedAt": "2026-08-09 09:32",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Dobrze, tutaj akurat masz rację — zdanie o „drugorzędnym znaczeniu” odnosiłeś do obecnej sytuacji. Nie o to już chodzi.Chodzi natomiast o Twoją wypowiedź dotyczącą 2022 roku: „Obajtek kupując ruską tanią ropę zawyżał cenę paliw, a nie zaniżał”.I właśnie tego nadal nie uzasadniłeś. Sam fakt, że Orlen kupował ropę z dużym dyskontem, nie oznacza jeszcze, że cena gotowego paliwa była zawyżona. Ropa jest tylko jednym z elementów kosztu paliwa, a Orlen jako firma nie ma obowiązku przekazywać całego uzyskanego dyskonta klientowi w postaci niższej ceny przy dystrybutorze.Jeżeli twierdzisz, że w 2022 roku cena paliwa była zawyżona, pokaż konkretnie: względem jakiej ceny rynkowej i na podstawie jakich danych to wyliczasz.I nadal pozostaje drugie pytanie: gdzie konkretnie zmieniłem swoje stanowisko? Cytat i uzasadnienie.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75381581",
       "author": "Ann",
       "postedAt": "2026-08-09 09:19",
@@ -1735,20 +1880,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75381447",
-      "author": "Prawda",
-      "postedAt": "2026-08-09 08:41",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Endrzej, odpowiedz mi na jedno proste pytanie: kto napisał „cena ropy naftowej ma drugorzędne znaczenie dla ceny”? Ty. Napisałeś to w swoim wpisie. A teraz powołujesz się na tanią rosyjską ropę i dyskonto jako argument przeciwko cenom paliwa za Obajtka.To jak w końcu jest? Skoro sam twierdzisz, że ropa ma drugorzędne znaczenie, to dlaczego dyskonto na zakupie ropy ma być dowodem, że Orlen zawyżał cenę paliwa?I druga sprawa: ciągle twierdzisz, że zmieniłem zdanie. To wskaż konkretny fragment mojej wypowiedzi, w którym rzekomo zmieniłem stanowisko, i napisz, na czym ta zmiana polega. Nie ogólnikami — konkretny cytat i uzasadnienie.Ja ciągle mówiłem to samo: paliwo powinno mieć cenę rynkową, przy której Orlen może dobrze zarabiać, ale jednocześnie nie powinna być sztucznie zawyżana do poziomu, który szkodzi gospodarce i konsumentom. Orlen ma zarabiać, żeby móc inwestować, rozwijać się i wzmacniać bezpieczeństwo energetyczne Polski.Jeżeli twierdzisz, że moje stanowisko było inne, pokaż dokładnie gdzie. Bo „zmieniłeś zdanie” to tylko hasło — teraz pokaż dowód.A wyzwiska typu „oszołom” czy „cichutko siedzisz” nie są odpowiedzią na żadne z tych pytań.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75381121",
       "author": "Sfuj",
       "postedAt": "2026-08-09 06:39",
@@ -1771,7 +1902,7 @@
       "body": "ALE NAS DOJĄ NA PALIWIE I W DETALU i W HURCIE A RZĄD MÓWI ŻE ORLEN JEDZIE NA MINIMALNEJ MARŻY.MOTYKA UCZY SIĘ OD TUSKA",
       "votes": {
         "up": 5,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1798,7 +1929,7 @@
       "url": "https://www.bankier.pl/forum/temat_endrzej-merytorycznie-obalilem-twoje-wypociny-o-propagandzie,75377713.html",
       "body": "No ale głupki budzą się dopiero jak maja rękę w nocniku.....a czasami w ogóle..!!!",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0,
@@ -1819,20 +1950,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75380823",
-      "author": "Orlenik",
-      "postedAt": "2026-08-08 22:49",
-      "threadTitle": "Re: Uczciwiej by było wypłacić dywidendę.",
-      "url": "https://www.bankier.pl/forum/temat_uczciwiej-by-bylo-wyplacic-dywidende,75372411.html",
-      "body": "Nie ma znaczenia. Jak będą chcieli to przez dywidendę wyciągną nawet więcej niż z podatku bo jeszcze Belka od drobnych dojdzie..",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75380685",
       "author": "nelor",
       "postedAt": "2026-08-08 21:47",
@@ -1840,7 +1957,7 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "To, dlaczego bronisz innym aby robili, to co im przynosi dochód? Przeoczyłeś, że to już nie PRL, tylko kapitalizm? Ktoś cię zmusza do jazdy samochodem?",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 4
       },
       "sentimentScore": 0,
@@ -1868,7 +1985,7 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Dyzma Nawrocki i jego odpust pod Pałacem https://www.youtube.com/watch?v=P8ISJ1JvGxw",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 5
       },
       "sentimentScore": 0,
@@ -1883,7 +2000,7 @@
       "body": "Niczym.Całe życie byłem Niebieskim Ptakiem.Robiłem to co przynosiło dochód .I nie płaciłem podatków,tylko w benzynie i to mnie wkurza .",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1896,7 +2013,7 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Przepraszam, możesz napisać czym się zajmujesz zawodowo?",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 4
       },
       "sentimentScore": 0,
@@ -1924,8 +2041,8 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Ty zdrowy?Nie daj tylko normalne ceny bez dutkania wszystkich .Teraz na nic piniędzy nie ma.Tylko audyty na wszystko żeby swoim kaskę wypłacać.Szarańcza lewacka i Tuskowa obsiadła spółki państwowe,samodządowe i co tylko można i doją ile wlezie .Co mówił Hyży Rój przed wyborami?Że pisowcy kradli.Nic nie możecie udowodnić kłamliwe trutnie.",
       "votes": {
-        "up": 8,
-        "down": 1
+        "up": 9,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1938,53 +2055,11 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Jak żebraki się zachowuja wyborcy PiS.Daj tarcze daj daj daj paliwoKiedyś prąd daj daj Żebraki",
       "votes": {
-        "up": 2,
-        "down": 10
+        "up": 4,
+        "down": 11
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75380161",
-      "author": "endrzej",
-      "postedAt": "2026-08-08 19:51",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Szefie macherów politycznych czytanie ze zrozumieniem się kłania.podpowiadam skoro cała wypowiedź że w czasie teraźniejszym to znaczy dziś,teraz nie w 2022 roku to przeszłość w 2030 to będzie to przyszłość.Czytamy że zrozumieniem",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75380117",
-      "author": "endrzej",
-      "postedAt": "2026-08-08 19:44",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Czyli jednak mu nie odpowiedziałeś skoro już cichutko nt.siedzisz",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75380103",
-      "author": "endrzej",
-      "postedAt": "2026-08-08 19:42",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Ty oszołomie dziś ropa naftowa ma drugorzędne znaczenie dla ceny,ogarnij dupę chłopie nie osmieszaj sie",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75379869",
@@ -1994,7 +2069,7 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Niemieckie stacje przy granicy z Polska narzekali, że nie mają klientów, bo kierowcy jeździli do Polski tankowac,i Polacy zarabiali, a teraz hyże zdziałało, ze już przygraniczne stacje odżyły, bo ceny w Polsce stały się wysokie.",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 1
       },
       "sentimentScore": 0,
@@ -2009,66 +2084,10 @@
       "body": "Napisz ile paliwa Orlen wysłał na Ukrainę i za ile zapłacili?",
       "votes": {
         "up": 3,
-        "down": 1
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75379693",
-      "author": "Laik",
-      "postedAt": "2026-08-08 17:41",
-      "threadTitle": "Re: Uczciwiej by było wypłacić dywidendę.",
-      "url": "https://www.bankier.pl/forum/temat_uczciwiej-by-bylo-wyplacic-dywidende,75372411.html",
-      "body": "Problem w tym,że rząd chciałby na cały zysk zysk łapę położyć. Brawo prezydent",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75378765",
-      "author": "Skok",
-      "postedAt": "2026-08-08 13:38",
-      "threadTitle": "Re: Uczciwiej by było wypłacić dywidendę.",
-      "url": "https://www.bankier.pl/forum/temat_uczciwiej-by-bylo-wyplacic-dywidende,75372411.html",
-      "body": "Doją nas na potęgę Donald przyznał że ORLEN nas doi grubo - na ,,X,,-sie na wyładował i winny KAROL bo mu fatalnej ustawy nie podpisał (podatku wstecz się nie nakłada a jeszcze w roku podatkowym!) i Rudy tego nie wie (albo robią wrzutki żeby skompromitować)Do dymisji.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75378705",
-      "author": "Prawda",
-      "postedAt": "2026-08-08 13:30",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Endrzej, zarzucasz mi zmianę zdania, a tymczasem to Twoja argumentacja zmienia się jak chorągiewka. Najpierw sam napisałeś, że „cena ropy naftowej ma drugorzędne znaczenie”, a teraz nagle tanią rosyjską ropę przedstawiasz jako dowód, że Obajtek zawyżał ceny paliwa. To w końcu cena ropy ma znaczenie czy nie?Dyskonto przy zakupie ropy oznacza, że Orlen kupił surowiec taniej od ceny rynkowej. I co z tego? Orlen jest przedsiębiorstwem, a nie instytucją charytatywną. Ma zarabiać. Jeżeli gotowe paliwo ma swoją cenę rynkową, to firma nie ma obowiązku oddawać klientom całej korzyści uzyskanej na zakupie surowca. Zysk może przeznaczyć na inwestycje, rozwój i bezpieczeństwo energetyczne.I właśnie to jest dla mnie ważne. Im bardziej rentowny jest Orlen, tym więcej środków może przeznaczać na rozwój energetyki, nowe technologie, infrastrukturę i bezpieczeństwo energetyczne. Państwo również może korzystać z tego poprzez podatki. Nie zawsze najlepszym rozwiązaniem jest więc wyciąganie ze strategicznej spółki każdej nadwyżki w formie dywidendy czy innych obciążeń. Czasami większą wartość dla państwa daje pozostawienie pieniędzy w firmie, żeby mogła dzięki nim inwestować i rosnąć.Tania ropa sama w sobie nie jest więc dowodem na zawyżanie ceny paliwa. Żeby to udowodnić, trzeba wykazać, że Orlen sprzedawał paliwo powyżej porównywalnych cen rynkowych, a nie tylko pokazać, że kupił ropę taniej.A moje stanowisko jest cały czas takie samo: paliwo powinno mieć cenę, która pozwala Orlenowi dobrze zarabiać. Nie zmieniłem tutaj zdania. Uważam, że strategiczny koncern ma być rentowny właśnie po to, żeby mógł inwestować, rozwijać się i wzmacniać bezpieczeństwo energetyczne Polski.Więc zanim kolejny raz nazwiesz moje stanowisko „populistyczną odpowiedzią”, odpowiedz na prostą rzecz: skoro sam twierdziłeś, że cena ropy ma drugorzędne znaczenie, to dlaczego teraz właśnie ceną rosyjskiej ropy próbujesz udowodnić, że paliwo było za drogie?I jeszcze jedno — nazwanie mnie „machrem politycznym” nie zastąpi argumentu. Tak samo jak etykietki i wyzwiska nie dowodzą, że ma się rację. W dyskusji liczą się argumenty, nie obrażanie rozmówcy.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.99,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75378647",
-      "author": "Skok",
-      "postedAt": "2026-08-08 13:24",
-      "threadTitle": "Re: Uczciwiej by było wypłacić dywidendę.",
-      "url": "https://www.bankier.pl/forum/temat_uczciwiej-by-bylo-wyplacic-dywidende,75372411.html",
-      "body": "A co zarządzi napisz .Dywidenda to na ten rok logiczny sposób na kasę dla rządu. To też trwa no cóż! Rząd może puścić obligacje dla Orlenu. PEWNIE można.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75378613",
@@ -2078,8 +2097,8 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Jakiś tęczowy się dołączył lubi od tyłu.RUDY znawca rynku paliw powiedział że będzie PREMIEREM to paliwo będzie po 5, 19 To była dla niego prosta sprawa . Już sądził i wie jak się to robi.ŁYSO WAM ????) HAHAHA głosować trzeba umieć z głową. Jak się ją ma.A ja nie chcę robić na es'beckie emerytury.",
       "votes": {
-        "up": 13,
-        "down": 1
+        "up": 14,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2092,8 +2111,8 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Rznie cie prawactwo w dupe na zmianę z watykanczykami od lat.",
       "votes": {
-        "up": 8,
-        "down": 11
+        "up": 9,
+        "down": 12
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2107,21 +2126,7 @@
       "body": "Byleby dywidenda byla odpowiednia :) ... i tak sie bardziej oplaca niz benzyna tansza 2 czy 3 zl",
       "votes": {
         "up": 0,
-        "down": 6
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75378281",
-      "author": "Fuel",
-      "postedAt": "2026-08-08 12:24",
-      "threadTitle": "Re: Uczciwiej by było wypłacić dywidendę.",
-      "url": "https://www.bankier.pl/forum/temat_uczciwiej-by-bylo-wyplacic-dywidende,75372411.html",
-      "body": "Ryby głosu nie mają tak to już jest. Większościowym zarządzi być może już to zrobił. Zobaczymy po kursie akcji w najbliższych dniach i tygodniach.",
-      "votes": {
-        "up": 0,
-        "down": 0
+        "down": 7
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -2134,25 +2139,11 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Tak ci wychodzi z twego podejścia do Ulubieńców.Gdy zrobili obniżkę wat i akcyzy to niech to będzie obniżka a nie pozorowana obniżka .Pozwolili dla Orlenu na orżnięcie nas a później chcieli od Orlenu odebrać na swoje nieudolne rządy i pchanie kasy dla swoich kolesi uwłaszczonych na majątku skarbu państwa jak na swoim .Gaz LPG mówi swoimi cenami jaka powinna być cena benzyn.Gdy obniżali ceny benzyn gaz był po 3,80a cena benzyn jak przed obniżką obecnie jest po 3,00 .Kumaty wyciąga wnioski,zacietrzewiony będzie swoje wciskał .",
       "votes": {
-        "up": 8,
-        "down": 1
+        "up": 9,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75378165",
-      "author": "mezen",
-      "postedAt": "2026-08-08 12:00",
-      "threadTitle": "Re: Uczciwiej by było wypłacić dywidendę.",
-      "url": "https://www.bankier.pl/forum/temat_uczciwiej-by-bylo-wyplacic-dywidende,75372411.html",
-      "body": "jak miałem akcje też subiektywnie tak postulowałem, teraz uważam ,że pkn powinien kasę spożytkować na plany ,które ma ogromne,a dywidendę w wys.ok 10zł z zysków 2026 roku wypłacić planowo za rok",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75377901",
@@ -2176,25 +2167,11 @@
       "url": "https://www.bankier.pl/forum/temat_endrzej-merytorycznie-obalilem-twoje-wypociny-o-propagandzie,75377713.html",
       "body": "ale tutejszy moderator wolał usunąć cały wątek i polemikę , więc 2gi raz pisał nie będę. Napiszę jednak w skrócie , że w roku 2023 Orlen nie kupował rosyjskiej ropy (śladowe ilości w styczniu 2023) w sierpniu 2023 baryłka była po 375zł a ON był na stacjach Orlen po nawet 6,12zł na innych był o ok 30-50 gr droższy dziś baryłka jest po 300zł a paliwo jest po 8,2xzł . Na Slowacji jest 1 zł taniej , w Czechach 80gr taniej oba kraje nie przetwarzają już rosyjskiej ropy , (przetwarza ją wciąż rafineria w Schwedt którą Obajtek chciał kupić ) dociekliwi łatwo odkryją kto z nas kieruje się propagandą a kto obiektywnymi faktami Nawet wyborcy PO muszą głębiej sięgać do kieszeni , a na baku 70L to 140zł drożej niż za tego złego PiS. Coraz mniej z nich zadowala się hasłem \"ale PiS nie rządzi\" czy narracją , że to wina Prezydenta \"bo zawetował podatek\" :DDDKryterium obiektywnym jest cena baryłki dziś 300zł i 375zł w sierpniu 2023 . Obecna Koalicja podniosła o kilkanaście % opłatę paliwową w roku 2024 .",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 5
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75377425",
-      "author": "endrzej",
-      "postedAt": "2026-08-08 09:41",
-      "threadTitle": "Re: Uczciwiej by było wypłacić dywidendę.",
-      "url": "https://www.bankier.pl/forum/temat_uczciwiej-by-bylo-wyplacic-dywidende,75372411.html",
-      "body": "Żadnych podatkow w tym roku nie będzie.Popatrz w kalendarz pomyśl potem pisz.Najuczciwsze rozwiązanie to dywidenda i skup akcji własnych za kwotę odpowiadającą windfall tax.",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75377415",
@@ -2204,8 +2181,8 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Jak pewnie nie wiesz rząd chciał wziąć windfall tax od Orlenu.Wniosek dla wszystkich normalnie myślącym jest taki że już nikt z Orlenu nie bierze lewych pieniędzy jak za PiS na różne chore iwenty,akcję sędziowskie itpOt taka różnica między propagandą a lądem korporacyjnym",
       "votes": {
-        "up": 2,
-        "down": 9
+        "up": 3,
+        "down": 10
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2218,39 +2195,11 @@
       "url": "https://www.bankier.pl/forum/temat_rzna-nas-na-paliwie,75377381.html",
       "body": "Na potęgę .W Szwecji jest 95 aż o 2 zł tańsza niż w Polsce .W Europie jesteśmy około 12 miejsca .Jesteśmy dojeni .Na rozrzutność bęcwałów skądś trzeba brać .",
       "votes": {
-        "up": 11,
-        "down": 1
+        "up": 12,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75377307",
-      "author": "Orlenik",
-      "postedAt": "2026-08-08 09:16",
-      "threadTitle": "Re: Uczciwiej by było wypłacić dywidendę.",
-      "url": "https://www.bankier.pl/forum/temat_uczciwiej-by-bylo-wyplacic-dywidende,75372411.html",
-      "body": "Jak podatek nie przejdzie to będzie dywidenda i to być może zaliczkowa za 2026. Budżet swoje musi ściągnąć.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75377293",
-      "author": "endrzej",
-      "postedAt": "2026-08-08 09:13",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Czyli jednak nie odpiedziales jemu.nie kłam,odpiedziales mi i to jeszcze niejednoznacznie.Bo co znaczy za PiS uważałem że paliwo bylo za tanie?To masło maślane Zaraz napiszesz że tak już nie uważasz i było w sam raz Jutro będzie wsmiankoa że jednak dziś uważam że było drogie w sam raz populistyczne odpowiedzi.Ty idź do polityki masz zadatki na machera politycznego.Przez 30 godz wisi post fałszywy ty go ignorujesz a na końcu że jednak gdzieś tam kiedyś odpowiedziałem.Jeszcze jeszcze inne meritum z całego tego wątku wychodzi na to że Obajtek kupując ruską tania ropę zawyżał cenę paliw a nie zaniżał.To że nazwałeś się prawda nie znaczy automatycznie że piszesz prawdę",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75376533",
@@ -2265,62 +2214,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75375841",
-      "author": "Prawda",
-      "postedAt": "2026-08-07 21:54",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "„Za PiS uważałem, że Obajtek zaniżał cenę paliwa…” – to fragment mojej odpowiedzi do JD. Czyli jednak odpowiedziałem. A teraz możemy wrócić do meritum.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75375641",
-      "author": "endrzej",
-      "postedAt": "2026-08-07 21:20",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Gdzie odpowiedziałeś jd?????????Może w swojej wyobraźni na napewno nie tutaj.od jego wpisu do mojego minęła dobaOd 2 mojego wpisu 30 godz twój 2 godz później to gdzie ta odpowiedź przez całą dobę?",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75375525",
-      "author": "PiSosyf",
-      "postedAt": "2026-08-07 21:02",
-      "threadTitle": "Re: straty OBAJTKA TO PIKUS DO...!!!",
-      "url": "https://www.bankier.pl/forum/temat_straty-obajtka-to-pikus-do,75374121.html",
-      "body": "Łubu dubu. PiS betony.",
-      "votes": {
-        "up": 1,
-        "down": 6
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75375397",
-      "author": "łowca_Buraków",
-      "postedAt": "2026-08-07 20:41",
-      "threadTitle": "Re: straty OBAJTKA TO PIKUS DO...!!!",
-      "url": "https://www.bankier.pl/forum/temat_straty-obajtka-to-pikus-do,75374121.html",
-      "body": "GPW to pikuś. Pokaż mi dziedzinę której nie zniszczyli. Gdyby nie PIS to nie byłoby F35, Stawiaczy min, Baltic-Pipe, mostów, dróg, Sł. Zdrowia, Bezpieczeństwa, ochrony nauki, ochrony dzieci przed tymi zbokami z PO..",
-      "votes": {
-        "up": 8,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75375329",
@@ -2365,48 +2258,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75374703",
-      "author": "bilioner",
-      "postedAt": "2026-08-07 19:13",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Gdzie wy mieszkacie, bo czytajac Wasze wypociny , a zwlaszcza analizujac Wasze bzdety gospodarcze ,to jazda do KOREI POLNOCNEJ , tam nie bedzie PIS i rynkowej gospodarki , ale bida i zamordyzm gospodarczo-polityczny , a szkopy to nie dla kazdego kielbasa i to by bylo na tyle!!!!!!!!!!!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75374627",
-      "author": "Hehe",
-      "postedAt": "2026-08-07 18:58",
-      "threadTitle": "Re: Uczciwiej by było wypłacić dywidendę.",
-      "url": "https://www.bankier.pl/forum/temat_uczciwiej-by-bylo-wyplacic-dywidende,75372411.html",
-      "body": "I na to liczymy",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75374591",
-      "author": "Prawda",
-      "postedAt": "2026-08-07 18:54",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Przecież odpowiedziałem zarówno Tobie, jak i JD, więc nie wiem, skąd zarzut, że „siedzę cichutki”. Tobie odpowiedziałem wcześniej, a JD również dostał ode mnie odpowiedź.A co do paliw, to właśnie sam napisałeś, że cena ropy ma obecnie drugorzędne znaczenie, bo ważna jest dostępność gotowych paliw i sytuacja w rafineriach. I dokładnie o to mi chodziło: nie można brać samej ceny baryłki i na jej podstawie oceniać ceny paliwa czy zysków Orlenu. Cena ropy jest ważnym elementem, ale nie jedynym. Tak samo było w 2022 roku – dyferencjał, marże rafineryjne, kurs dolara, koszty i ceny gotowych produktów również miały znaczenie.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75374505",
       "author": "Xyz",
       "postedAt": "2026-08-07 18:44",
@@ -2435,34 +2286,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75374447",
-      "author": "Xyz",
-      "postedAt": "2026-08-07 18:37",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "A ty nie widzisz czytelnego manewru Tuska ?Po obniżeniu podatków i akcyzy o 1,16 paliwo mimo wszystko było o złotówkę wyższe jak być powinno . Przecież rząd ustalał cenę po ile stacje mogą sprzedawać . To o jakich nadmiarowych zyskach koncernów mówimy? Specjalnie rząd kazał zawyżać ceny z planem wyciągnięcia tych zysków do budżetu .Takie to proste a wy tak bronicie złodziei i machlarów że aż dziwne .Otwórzcie wyobraźnię jak można nas doić .",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75374299",
-      "author": "endrzej",
-      "postedAt": "2026-08-07 18:17",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Prawda dlaczego nie skomentujesz wpisu niejakiego jd?Jego fałszu i propagandy i siedzisz cichutki.malutki polityczny zakładnik byłego nierzadu.Odpowiadam reszcie holoty pisowskie co dalej z paliwami bo w republice nie mówią.Brakuje gotowych paliw dzięki zniszczeniu ruskich i arabskich rafineriie.Cena ropy naftowej ma drugorzędne znacznie i będzie tak jeszcze bardzo długo.",
-      "votes": {
-        "up": 4,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75374271",
       "author": "Xx",
       "postedAt": "2026-08-07 18:14",
@@ -2489,20 +2312,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75374121",
-      "author": "bilioner",
-      "postedAt": "2026-08-07 17:52",
-      "threadTitle": "straty OBAJTKA TO PIKUS DO...!!!",
-      "url": "https://www.bankier.pl/forum/temat_straty-obajtka-to-pikus-do,75374121.html",
-      "body": "STRAT polskiej gospodarki za wladzy RUDEGO.okrada WAS z marzen kazdego dnia, a GPW ZNISZCZYC TO CEL TEJ BANDY!!!!!!!!!!",
-      "votes": {
-        "up": 6,
-        "down": 4
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75374075",
@@ -2701,102 +2510,74 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75372541",
-      "author": "xyz",
-      "postedAt": "2026-08-07 15:58",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Kurs dolara był powyżej 4,20 zł . Teraz kurs dolara nie może dobić do 3,80 a baryłka jest po 80 dolarów , więc jaki problem żeby benzyna była po 5,19 gdy za Obajtka dolar 4,30 a baryłka po 95 dolarów ?W Szwecji benzyna po 5, 60 , w Hiszpanii po 6,60 , ludzie Hyże Roje doją nas równo . Chcieli podatkiem od nadmiarowych zysków wyciągnąć z firm paliwowych kasę którą za ich zgodą i ustawianiem cen złupili z nas kierowców .",
+      "id": "75372297",
+      "author": "PiSosyf",
+      "postedAt": "2026-08-07 15:41",
+      "threadTitle": "Re: Mam schorta.tu już niezobaczycie 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_mam-schorta-tu-juz-niezobaczycie-150-pln,75370697.html",
+      "body": "Będzie płacz. Spytaj mefedrona.",
       "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75372411",
-      "author": "henry",
-      "postedAt": "2026-08-07 15:51",
-      "threadTitle": "Uczciwiej by było wypłacić dywidendę.",
-      "url": "https://www.bankier.pl/forum/temat_uczciwiej-by-bylo-wyplacic-dywidende,75372411.html",
-      "body": "Akcjonariusze też są współwłaścicielami i też powinni z tego zarobić. Skarb Państwa dostał by dywidendę i podatki.",
-      "votes": {
-        "up": 5,
+        "up": 3,
         "down": 0
       },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "75371177",
-      "author": "Prawda",
-      "postedAt": "2026-08-07 14:24",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Nie kwestionuję tego, że w 2022 roku Orlen korzystał z dużej różnicy cen między ropą Urals a Brent i że warunki dla rafinerii były wtedy bardzo korzystne. Problem polega na tym, że przedstawiasz kilka różnych pojęć tak, jakby oznaczały to samo: różnicę cen ropy, dyferencjał Brent/Urals, marżę rafineryjną i zysk całej firmy. To nie są synonimy.To, że ropa była kupowana taniej, miało wpływ na wyniki Orlenu, ale nie oznacza, że cała różnica między ceną ropy a ceną paliwa była zyskiem firmy. Do wyniku końcowego dochodzą koszty przerobu, energii, transportu, kurs walut (w tym kurs dolara USD/PLN), podatki i sytuacja na rynku produktów gotowych.Czyli masz rację, że tańsza rosyjska ropa i wysokie marże były jednym z czynników bardzo dobrych wyników Orlenu. Ale z tego nie wynika automatycznie cała przedstawiona przez Ciebie interpretacja. Trzeba rozróżnić fakt, że firma miała korzystne warunki, od wniosku, że sam ten fakt wyjaśnia całość cen paliw i zysków, bo wpływały na to również kurs dolara oraz inne czynniki makroekonomiczne i rynkowe.",
+      "id": "75370697",
+      "author": "Goonzo",
+      "postedAt": "2026-08-07 13:49",
+      "threadTitle": "Mam schorta.tu już niezobaczycie 150 pln",
+      "url": "https://www.bankier.pl/forum/temat_mam-schorta-tu-juz-niezobaczycie-150-pln,75370697.html",
+      "body": "Mam schorta",
       "votes": {
-        "up": 1,
-        "down": 2
+        "up": 0,
+        "down": 3
       },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "75370805",
-      "author": "Obserwator",
-      "postedAt": "2026-08-07 13:57",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "To niezwykle błyskotliwy i fachowy komentarz absolwenta szkoły specjalnej niejakiego \"xyz\". Takie same tępaki oklaskiwały wczoraj Vetomana w czasie jego stand-up zorganizowanego z pieniędzy podatników.",
+      "id": "75370093",
+      "author": "Oserwator",
+      "postedAt": "2026-08-07 13:18",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Chłopie do szkoły najpierw bo pytania masz z dupy ! Będzie tym bardziej bolało jak się nie wie nic o giełdzie !",
       "votes": {
-        "up": 10,
+        "up": 0,
         "down": 0
       },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "75370537",
-      "author": "xyz",
-      "postedAt": "2026-08-07 13:42",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "kupywali taniej to i na stacjach było taniej .Teraz gdyby orlen za darmo dostawał ropę to paliwa byłyby jeszcze droższe .Przecież szpitale trzeba dofinansować żeby hieny i sępy z koalicji mogli się uwłaszczyć na majątku",
+      "id": "75369697",
+      "author": "Mambo",
+      "postedAt": "2026-08-07 12:51",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "I na tym wiedza o shortach się kończy",
       "votes": {
-        "up": 2,
-        "down": 8
+        "up": 0,
+        "down": 0
       },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
     },
     {
-      "id": "75369329",
+      "id": "75369385",
       "author": "endrzej",
-      "postedAt": "2026-08-07 12:23",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Macie amatorzy Żyjecie propaganda PiS i ja powtarzacie.2022 roku Grupa Orlen kupowała rosyjską ropę typu Urals z dyskontem (tzw. dyferencjałem Brent/Urals), który w skrajnych momentach po wybuchu wojny w Ukrainie osiągał rekordowe wartości od blisko 30 do nawet 40 dolarów na baryłce. Oznacza to, że przy rynkowych cenach globalnego benchmarku Brent przekraczających w pierwszej połowie roku 100–120 USD/bbl, Orlen nabywał rosyjski surowiec w szacunkowej cenie ok. 70–80 dolarów za baryłkę (a pod koniec roku, w grudniu 2022, gdy wprowadzono unijny limit cenowy, cena rosyjskiej ropy rynkowo spadła w okolice limitu 60 USD lub poniżej).Kluczowe fakty o dyskoncie na rosyjską ropę w 2022 rokuRekordowy dyferencjał: Przed inwazją na Ukrainę standardowa różnica w cenie między ropą Brent a gorszą jakościowo ropą Urals wynosiła zaledwie ok. 1–2 dolary na baryłce. W marcu 2022 roku, w wyniku bojkotu rosyjskich surowców przez część zachodnich odbiorców, Trigon DM odnotował wzrost dyferencjału do poziomu aż 28,5 USD na baryłce.Wpływ na wyniki Orlenu: Przetwarzanie taniej, kupowanej z dużym upustem ropy, połączone z wysokimi światowymi cenami gotowych paliw, przełożyło się na gigantyczny wzrost tzw. modelowej marży rafineryjnej. Jak podawał portal Business Insider, w samym trzecim kwartale 2022 roku średni zysk z dyferencjału w Grupie Orlen wynosił rekordowe 32$ na baryłce.Stosunek ropy Ural to 80% w stosunku do całego roku.Macie amatorzy czytać wasz największy mit Obajtka",
-      "votes": {
-        "up": 6,
-        "down": 2
-      },
-      "sentimentScore": 0.99,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75368739",
-      "author": "Prawda",
-      "postedAt": "2026-08-07 11:50",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Ja akurat zdania nie zmieniłem. Za PiS uważałem, że Obajtek zaniżał cenę paliwa, mimo że KO twierdziła coś przeciwnego, i zwracałem uwagę, że nawet w krajach dawnego bloku wschodniego paliwo bywało droższe przy niższych średnich zarobkach. Nadal uważam, że paliwo powinno mieć cenę, która pozwala Orlenowi dobrze zarabiać, ale oczywiście z uwzględnieniem tego, żeby zbyt wysoka cena nie szkodziła gospodarce. Powinny działać prawa rynku, a w strategicznych obszarach trzeba też brać pod uwagę interes gospodarki i rentowność strategicznych polskich firm.Dlatego argument „baryłka była po 410 zł, a dziś jest po 310 zł” sam w sobie niczego nie rozstrzyga. Cena baryłki to tylko jeden z elementów ceny paliwa, podobnie jak kurs walut. Ciekawi mnie natomiast, czy dziś ktoś z KO mówi, że paliwo jest drogie dlatego, że baryłka poszła w górę? Bo jeśli wtedy był to argument przeciwko wysokim cenom, to warto stosować tę samą miarę również dzisiaj.",
+      "postedAt": "2026-08-07 12:28",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Prostaku napisz po ile?Jakaś dźwignia?Będzie śmiech pisz",
       "votes": {
         "up": 1,
         "down": 0
       },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
     },
     {
       "id": "75368641",
@@ -2806,67 +2587,67 @@
       "url": "https://www.bankier.pl/forum/temat_znow-15mld-ukradna-akcjonariuszom,75368641.html",
       "body": "Doskonale pamiętam co zrobili grudniowcy pod postacią tzw. domiaru gazowego!!!",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75367859",
-      "author": "Niedouczony",
-      "postedAt": "2026-08-07 10:56",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "I to zdrowe podejscie. Zycze zarobku na druga polowe i odjazd rowerem",
+      "id": "75367279",
+      "author": "Obserwator",
+      "postedAt": "2026-08-07 10:23",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Tak mam . Zamknięte 30 szt L i otwarcie 15 S.",
       "votes": {
         "up": 0,
         "down": 0
       },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "75367839",
-      "author": "Niestety",
-      "postedAt": "2026-08-07 10:55",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "te 9zł ci się odwróciło i chyba stąd masz szóstkę",
+      "id": "75367195",
+      "author": "endrzej",
+      "postedAt": "2026-08-07 10:19",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Już masz shorta?Tak pytam żeby się później nie okazało że będziesz coś zamyślał",
       "votes": {
         "up": 0,
-        "down": 3
+        "down": 0
       },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
     },
     {
-      "id": "75367815",
-      "author": "Niedouczony",
-      "postedAt": "2026-08-07 10:54",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Nie pisz glupot w 2022 spoza Rosji bylo ok. 70% w 2023 90%. Jak taki madrala to napisz po ile placil Rosjanom bo cena z Rosji zmienna bazowala na cenach swiatowych",
+      "id": "75367049",
+      "author": "Ator",
+      "postedAt": "2026-08-07 10:13",
+      "threadTitle": "Re: 138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "W domu wszyscy są? Marzyciel na peronie.",
       "votes": {
-        "up": 5,
-        "down": 3
+        "up": 3,
+        "down": 0
       },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "75367519",
-      "author": "xxx",
-      "postedAt": "2026-08-07 10:37",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "lata mi cena baryłki, więcej jeżdżę na rowerze a na akcjach pkn od ubiegłego roku zarobiłem na pół kawalerki w dużym mieście...",
+      "id": "75366581",
+      "author": "Obserwator",
+      "postedAt": "2026-08-07 09:49",
+      "threadTitle": "138!",
+      "url": "https://www.bankier.pl/forum/temat_138,75366581.html",
+      "body": "Pierwszy przystanek. Następnie 125. Tak jak pisałem rano podbitka i pięknie obrócone L na S",
       "votes": {
-        "up": 6,
-        "down": 2
+        "up": 1,
+        "down": 7
       },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "75365065",
@@ -2883,18 +2664,242 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75365019",
-      "author": "Xyz",
-      "postedAt": "2026-08-07 08:23",
-      "threadTitle": "Re: za PiS zyski Orlenu były złe bo łupił Polaków paliwem po 6zł !",
-      "url": "https://www.bankier.pl/forum/temat_za-pis-zyski-orlenu-byly-zle-bo-lupil-polakow-paliwem-po-6zl,75363715.html",
-      "body": "Już ty nie błaźnij się .Cena baryłki ustala cenę na stacjach .Po ataku Trampa u nas cena skoczyła następnego dnia chociaż zapasy były na 3 miesiące .Cena baryłki spada a na stacjach jeszcze podwyżki robią bo PO traktuje budżet jak bankomar ,je....pijawki .",
+      "id": "75364989",
+      "author": "kruczek",
+      "postedAt": "2026-08-07 08:20",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Obajtek ustawił Orlen mocno dał mu twarde podstawy , dlatego niełatwo go z tej pozycji ruszyć , dopiero po czasie wszystko co zrobił Prezes Obajtek procentuje w postaci coraz większych dochodów i zysków",
       "votes": {
         "up": 10,
-        "down": 7
+        "down": 9
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75364713",
+      "author": "Ann",
+      "postedAt": "2026-08-07 07:37",
+      "threadTitle": "Już Niemcy nie narzekają na tanie paliwo w Polsce",
+      "url": "https://www.bankier.pl/forum/temat_juz-niemcy-nie-narzekaja-na-tanie-paliwo-w-polsce,75364713.html",
+      "body": "Czy o to chodzi ?",
+      "votes": {
+        "up": 8,
+        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75364517",
+      "author": "Skok",
+      "postedAt": "2026-08-07 06:57",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Niech będzie + tankowałeś po 5,19 /l To czegoś nie rozumiesz. Wytrzeźwiej + brak wiedzy nosi cię. Co byś nie napisał to doją nas na potęgę. A Rudy wiedział co zrobić by było taniej.Dajesz się mu?",
+      "votes": {
+        "up": 4,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75364433",
+      "author": "endrzej",
+      "postedAt": "2026-08-07 06:39",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Jeszcze jedno patrząc po wcześniejszym zamknięciu bp, Shell, exxon, schevron To Orlen dziś bez raportu będzie na+",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75364347",
+      "author": "endrzej",
+      "postedAt": "2026-08-07 06:25",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Mercadio takich jak ty tuod roku na pęczki było.Pisali bohaterzy jak ty a potem cichutko znikali z utraconą kasa.SzybiMefedron",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75364251",
+      "author": "Skok",
+      "postedAt": "2026-08-07 05:30",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Otworzyłem wątek z intencją że Orlen nas doi na cenie paliwa Już jesne bo Donek na ,,X,, przyznał się że tak wynika z raportu. (śmieszny ten gość) Jego banda w spółce doi ludzi (hamuje) gospodarkę . A w rządzie myślą że opodatkują ORLEN za okres wstecz i w trakcie roku podatkowego.Nie już odejdzie - zbierać grzyby, czy biegać - jak przed wczoraj+ do tego się naddaje.Na woźnego w szkole musiałby egzamin zdawać. Brak kwalifikacji.",
+      "votes": {
+        "up": 5,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75363733",
+      "author": "Obserwator",
+      "postedAt": "2026-08-06 22:51",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Rano jak podałem podbitka 155, ja L obracam na S , zarobione wystarczająco , kopią Kgh i innych, na fw też obracam bo za chwilę pewnie korekta . Prosta sprawa , bardziej prawdopodobne 3500 niż 4500 .",
+      "votes": {
+        "up": 2,
+        "down": 3
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75363651",
+      "author": "Mercadio",
+      "postedAt": "2026-08-06 22:34",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Prawda jest taka, że jutro może być albo +7% albo -7%. Albo i jedno i drugie :) Niby dobry raport, ale to już jest dawno w cenie no i perspektywa dealu na Bliskim Wschodzie. Jak dojdzie do 158-160 zł, to warto uzbroić się w S.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75363569",
+      "author": "Magellan",
+      "postedAt": "2026-08-06 22:24",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "zarobku życzę",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75363231",
+      "author": "Skok",
+      "postedAt": "2026-08-06 21:44",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Ja czekam na Fw20 i szukam szczytu Tam pisałem na forum jak widzę W20 4050 do 4100 wychodzi szczyt po mojemu I nasza chemia musi 24 + 25 podejść. Ale info dobre musi być.Czekamy . A jak będzie. ? . USA dziś się nie sypnie to jutro Fut na + . To Trump coś powie. 48 godzin i Ormuz odblokowana i co czas minął . Jak w lotka.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75363169",
+      "author": "Magellan",
+      "postedAt": "2026-08-06 21:36",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "nie nie, orlenem sobie tylko pogrywam... dla mnie już odpłynął ale uważam, że i tak pierwsze będą banki lecieć",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75363167",
+      "author": "Skok",
+      "postedAt": "2026-08-06 21:35",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Poplątal'em ma być. Stare palce :-)",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75363159",
+      "author": "Hillela",
+      "postedAt": "2026-08-06 21:34",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Kto to kupuje bolszewik",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75363141",
+      "author": "Skok",
+      "postedAt": "2026-08-06 21:34",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "Popłakałem wcześniej Nasz spółka chemicza to idzie na końcu i musi rosnąć do raportu we wrześniu.A tu wkleiłem cytat z oceny raportu + mówiący że Orlen nas doi na stacjach i na hucie Zdrówka. Jak wytrzymałes' do dziś na Orlenie i dywidendę wziąłeś to gratuluję",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75363079",
+      "author": "Skok",
+      "postedAt": "2026-08-06 21:26",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "I naszej spółce chemicznej też -:),,Orlen podała w czwartek skorygowany zysk bazowy za drugi kwartał, który przebił oczekiwania analityków, ponieważ wyższe marże rafineryjne i petrochemiczne wsparły jej działalność w segmencie downstream,,Akurat Orlen po 134 sprzedałem",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75362861",
+      "author": "Magellan",
+      "postedAt": "2026-08-06 20:59",
+      "threadTitle": "Re: Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "jutro będzie ogień.... i prawdopodobnie sesja odwrotu trendu krótkoterminowego",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75362761",
+      "author": "Skok",
+      "postedAt": "2026-08-06 20:50",
+      "threadTitle": "Jutro ORLEN + 8%",
+      "url": "https://www.bankier.pl/forum/temat_jutro-orlen-8,75362761.html",
+      "body": "I spadek",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
     }
   ]
 }

@@ -3,11 +3,11 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-08-11T07:37:22.675Z",
+  "updatedAt": "2026-08-11T13:42:52.899Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-11T07:37:22.675Z",
+    "fetchedAt": "2026-08-11T13:42:52.899Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.11,
+    "score": 0.119,
     "confidence": 0.74,
-    "commentCount": 119,
+    "commentCount": 121,
     "breakdown": {
-      "positive": 36,
+      "positive": 37,
       "negative": 20,
-      "neutral": 63
+      "neutral": 64
     },
     "trend": [
       {
@@ -138,10 +138,15 @@
         "date": "2026-08-10",
         "score": 0.081,
         "count": 4
+      },
+      {
+        "date": "2026-08-11",
+        "score": 0.291,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 119 komentarzy z ostatnich 30 dni: nastroje pozytywne (36 pozytywnych, 20 negatywnych, 63 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 121 komentarzy z ostatnich 30 dni: nastroje pozytywne (37 pozytywnych, 20 negatywnych, 64 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wrona",
@@ -164,6 +169,10 @@
         "count": 7
       },
       {
+        "word": "mnie",
+        "count": 6
+      },
+      {
         "word": "czekam",
         "count": 6
       },
@@ -178,14 +187,38 @@
       {
         "word": "jestes",
         "count": 6
-      },
-      {
-        "word": "koleczka",
-        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75404603",
+      "author": "EXpertka",
+      "postedAt": "2026-08-11 15:20",
+      "threadTitle": "Re: rekomendacja",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
+      "body": "Za 6 stów to trzeba się zapakować na Maxa, bo to za półdurno.Z resztą dla mnie i dla Ciebie już jest zaplanowane 1200",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75404551",
+      "author": "EXpertka",
+      "postedAt": "2026-08-11 15:17",
+      "threadTitle": "Re: rekomendacja",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
+      "body": "\"potencjał wzrostu o 30 proc. względem ostatniego kursu\" w jakim okresie czasu?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75396725",
       "author": "EXpertka",
@@ -1440,7 +1473,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
       "body": "To sobie długo poczekasz Wrona Spóźniłeś się niedawno przy 380.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
