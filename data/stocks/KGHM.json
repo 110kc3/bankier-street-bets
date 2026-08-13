@@ -3,31 +3,31 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-08-13T02:47:29.671Z",
+  "updatedAt": "2026-08-13T07:52:47.051Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-13T02:47:29.671Z",
+    "fetchedAt": "2026-08-13T07:52:47.051Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 28
+    "threadsScanned": 27
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.027,
+    "score": -0.028,
     "confidence": 0.71,
-    "commentCount": 116,
+    "commentCount": 115,
     "breakdown": {
-      "positive": 36,
-      "negative": 24,
-      "neutral": 56
+      "positive": 34,
+      "negative": 27,
+      "neutral": 54
     },
     "trend": [
       {
         "date": "2026-08-06",
-        "score": -0.035,
-        "count": 25
+        "score": -0.06,
+        "count": 20
       },
       {
         "date": "2026-08-07",
@@ -53,10 +53,15 @@
         "date": "2026-08-12",
         "score": -0.096,
         "count": 26
+      },
+      {
+        "date": "2026-08-13",
+        "score": -0.798,
+        "count": 4
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 116 komentarzy z ostatnich 7 dni: nastroje mieszane (36 pozytywnych, 24 negatywnych, 56 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 115 komentarzy z ostatnich 7 dni: nastroje mieszane (34 pozytywnych, 27 negatywnych, 54 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
@@ -71,6 +76,10 @@
         "count": 12
       },
       {
+        "word": "metalach",
+        "count": 7
+      },
+      {
         "word": "trzeba",
         "count": 7
       },
@@ -80,10 +89,6 @@
       },
       {
         "word": "wszystko",
-        "count": 6
-      },
-      {
-        "word": "metalach",
         "count": 6
       },
       {
@@ -102,6 +107,62 @@
   },
   "comments": [
     {
+      "id": "75423819",
+      "author": "Szczery",
+      "postedAt": "2026-08-13 09:39",
+      "threadTitle": "Re: Tąpniecie cen metali po naszym zamknięciu",
+      "url": "https://www.bankier.pl/forum/temat_tapniecie-cen-metali-po-naszym-zamknieciu,75419807.html",
+      "body": "Wczoraj już było tąpniecie. Max się uśmiał , ja zarobiłem krocie na S. Wszyscy zadowoleni",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75423491",
+      "author": "Godoj",
+      "postedAt": "2026-08-13 09:22",
+      "threadTitle": "Re: Tąpniecie cen metali po naszym zamknięciu",
+      "url": "https://www.bankier.pl/forum/temat_tapniecie-cen-metali-po-naszym-zamknieciu,75419807.html",
+      "body": "No więc wyszło na twoje. I to rano, zamiast podbitki było tąpnięcie na metalach...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75423191",
+      "author": "Szczery",
+      "postedAt": "2026-08-13 09:01",
+      "threadTitle": "Re: Tąpniecie cen metali po naszym zamknięciu",
+      "url": "https://www.bankier.pl/forum/temat_tapniecie-cen-metali-po-naszym-zamknieciu,75419807.html",
+      "body": "35x miało być i jest.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75422851",
+      "author": "Szczery",
+      "postedAt": "2026-08-13 08:31",
+      "threadTitle": "Re: Tąpniecie cen metali po naszym zamknięciu",
+      "url": "https://www.bankier.pl/forum/temat_tapniecie-cen-metali-po-naszym-zamknieciu,75419807.html",
+      "body": "Dalszy ciąg spadków moi drodzy. Wygląda to słabiutko. . 3-6% obsuwy się szykuje .",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75421313",
       "author": "Godoj",
       "postedAt": "2026-08-12 22:32",
@@ -109,7 +170,7 @@
       "url": "https://www.bankier.pl/forum/temat_tapniecie-cen-metali-po-naszym-zamknieciu,75419807.html",
       "body": "Na razie to żadne tąpnięcie. Do rana metale będą się bujać w tych rejonach, a rano może być różnie...",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -138,7 +199,7 @@
       "body": "Jutro ciekawa sesja. 35x na otwarciu",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -235,7 +296,7 @@
       "url": "https://www.bankier.pl/forum/temat_gdzie-jest-bialonosy-gracz-trzas-wawa-gracz-cpac-i,75414901.html",
       "body": "Reszta musieli nieźle wtopić, oni wynurzają się jak są spadki",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -1648,76 +1709,6 @@
       "threadTitle": "Ale wzrost",
       "url": "https://www.bankier.pl/forum/temat_ale-wzrost,75354679.html",
       "body": "Co się dzieje z miedźią, ATH. Kghm dziś pod 360",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75353163",
-      "author": "Kuna",
-      "postedAt": "2026-08-06 09:40",
-      "threadTitle": "Re: Wyczyścili stop loss",
-      "url": "https://www.bankier.pl/forum/temat_wyczyscili-stop-loss,75352623.html",
-      "body": "jak już to chwilowo pomarańczowe, zaraz może być zielone deal blisko iran oman i trampekwprowadzą jakieś tam opłaty ale ropa będzie płynąć trampek ogłosi zwycięstwo tak samo jak iran",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75353013",
-      "author": "Pikador",
-      "postedAt": "2026-08-06 09:33",
-      "threadTitle": "Re: Wyczyścili stop loss",
-      "url": "https://www.bankier.pl/forum/temat_wyczyscili-stop-loss,75352623.html",
-      "body": "Już jechałeś 15%. Teraz masz czerwone światło.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75352645",
-      "author": "Pszczółka-majek",
-      "postedAt": "2026-08-06 09:16",
-      "threadTitle": "Re: Wkrótce wielka zwala na WIG. Powtórka z 2008",
-      "url": "https://www.bankier.pl/forum/temat_wkrotce-wielka-zwala-na-wig-powtorka-z-2008,75308275.html",
-      "body": "Oby nie słodki Lolku Wpisz w Google LOV111VOL com to zobaczysz czemu",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75352623",
-      "author": "Kuna",
-      "postedAt": "2026-08-06 09:15",
-      "threadTitle": "Wyczyścili stop loss",
-      "url": "https://www.bankier.pl/forum/temat_wyczyscili-stop-loss,75352623.html",
-      "body": "możemy teraz jechać up",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75350715",
-      "author": "władek",
-      "postedAt": "2026-08-06 05:06",
-      "threadTitle": "Re: Wkrótce wielka zwala na WIG. Powtórka z 2008",
-      "url": "https://www.bankier.pl/forum/temat_wkrotce-wielka-zwala-na-wig-powtorka-z-2008,75308275.html",
-      "body": "Indeksy rosną a wycena akcji coraz niższa. Raczej wyciąganie kursów na siłę.",
       "votes": {
         "up": 0,
         "down": 0

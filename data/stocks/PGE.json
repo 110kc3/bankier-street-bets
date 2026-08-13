@@ -3,11 +3,11 @@
   "companyName": "PGE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PGE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pge-sa,6,21,10000000641.html",
-  "updatedAt": "2026-08-13T02:48:08.465Z",
+  "updatedAt": "2026-08-13T07:53:15.546Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-13T02:48:08.465Z",
+    "fetchedAt": "2026-08-13T07:53:15.546Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.011,
+    "score": 0,
     "confidence": 0.7,
-    "commentCount": 129,
+    "commentCount": 127,
     "breakdown": {
-      "positive": 15,
+      "positive": 16,
       "negative": 16,
-      "neutral": 98
+      "neutral": 95
     },
     "trend": [
       {
         "date": "2026-08-06",
-        "score": 0.016,
-        "count": 20
+        "score": 0.019,
+        "count": 17
       },
       {
         "date": "2026-08-07",
@@ -53,14 +53,19 @@
         "date": "2026-08-12",
         "score": -0.016,
         "count": 40
+      },
+      {
+        "date": "2026-08-13",
+        "score": 0.87,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 129 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 16 negatywnych, 98 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 127 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 16 negatywnych, 95 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "czarny",
-        "count": 15
+        "count": 14
       },
       {
         "word": "black",
@@ -79,10 +84,6 @@
         "count": 8
       },
       {
-        "word": "caly",
-        "count": 7
-      },
-      {
         "word": "czekam",
         "count": 7
       },
@@ -97,10 +98,28 @@
       {
         "word": "dobrze",
         "count": 6
+      },
+      {
+        "word": "jestes",
+        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75423625",
+      "author": "Marik1234",
+      "postedAt": "2026-08-13 09:30",
+      "threadTitle": "Re: sytuacja sprzyja wzrostowi na 12zł to \"tylko\" 8%",
+      "url": "https://www.bankier.pl/forum/temat_sytuacja-sprzyja-wzrostowi-na-12zl-to-tylko-8,75411547.html",
+      "body": "Automaty czy nie automaty.Spółka pokazuje kolejmy kwartał pod rząd z zyskiem i to liczonym w setki milionów złotych. U analityków domów maklerskich czy firm obserwujących rynek od razu objawia się to wzrostem ceny docelowej PGE do poziomów pewnie 17-18zl/akcje w perspektywie roku.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75420971",
       "author": "Inwestor",
@@ -109,7 +128,7 @@
       "url": "https://www.bankier.pl/forum/temat_pge-energetyka-kolejowa,75089495.html",
       "body": "PGE ma praktycznie monopol na koleji.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -291,7 +310,7 @@
       "url": "https://www.bankier.pl/forum/temat_pge-energetyka-kolejowa,75089495.html",
       "body": "Tauron już odwrócił odpisy na aktywa powiązane z węglem. Teraz kolej na PGE, te 3zł lub 3.5zł zysku na akcje w 2026 faktycznie zaczyna wyglądać realnie",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -1861,48 +1880,6 @@
       "votes": {
         "up": 3,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75353015",
-      "author": "black944",
-      "postedAt": "2026-08-06 09:33",
-      "threadTitle": "oj, ty płaczek nr 1 !!!",
-      "url": "https://www.bankier.pl/forum/temat_do-black944,75244791.html",
-      "body": "> Lelas, on ci nie odpiwie przed. ================A co, ja jestem wróżka ?",
-      "votes": {
-        "up": 2,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75352517",
-      "author": "XD",
-      "postedAt": "2026-08-06 09:10",
-      "threadTitle": "Re: błaczek nr 1 !!!",
-      "url": "https://www.bankier.pl/forum/temat_do-black944,75244791.html",
-      "body": "Lelas, on ci nie odpiwie przed. On odpowiada post factum. Caly czarny. Zaklada milion watkow, a potem sobie wybiera. Obserwuj h4, rsi, wpg, cdu, nfz, hpv i takie tam :))))))))",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75352175",
-      "author": "black944",
-      "postedAt": "2026-08-06 08:48",
-      "threadTitle": "H4 . . .",
-      "url": "https://www.bankier.pl/forum/temat_do-black944,75244791.html",
-      "body": "> Czyli jutro zawraca czy premia górska?================= Obserwuj volumeny i H4 . . .",
-      "votes": {
-        "up": 0,
-        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
