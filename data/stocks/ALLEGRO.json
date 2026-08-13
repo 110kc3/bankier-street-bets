@@ -3,20 +3,20 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-08-13T13:45:54.393Z",
+  "updatedAt": "2026-08-13T19:19:00.883Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-13T13:45:54.393Z",
+    "fetchedAt": "2026-08-13T19:19:00.883Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 19
+    "threadsScanned": 18
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.083,
-    "confidence": 0.73,
+    "score": 0.058,
+    "confidence": 0.72,
     "commentCount": 60,
     "breakdown": {
       "positive": 19,
@@ -26,8 +26,8 @@
     "trend": [
       {
         "date": "2026-08-06",
-        "score": 0,
-        "count": 3
+        "score": 0.161,
+        "count": 2
       },
       {
         "date": "2026-08-07",
@@ -61,8 +61,8 @@
       },
       {
         "date": "2026-08-13",
-        "score": -0.355,
-        "count": 6
+        "score": -0.429,
+        "count": 7
       }
     ],
     "trendDirection": "stable",
@@ -77,8 +77,16 @@
         "count": 7
       },
       {
+        "word": "korekta",
+        "count": 5
+      },
+      {
+        "word": "ponad",
+        "count": 5
+      },
+      {
         "word": "mnie",
-        "count": 6
+        "count": 5
       },
       {
         "word": "dopiero",
@@ -93,24 +101,30 @@
         "count": 4
       },
       {
-        "word": "korekta",
-        "count": 4
-      },
-      {
         "word": "wszystko",
         "count": 4
       },
       {
         "word": "kolejne",
         "count": 4
-      },
-      {
-        "word": "ponad",
-        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75430749",
+      "author": "Robo",
+      "postedAt": "2026-08-13 17:35",
+      "threadTitle": "Re: korekta do nawet 42zł nie zaszkodzi",
+      "url": "https://www.bankier.pl/forum/temat_korekta-do-nawet-42zl-nie-zaszkodzi,75424397.html",
+      "body": "Słuchaj pomyśl logicznie do 42 zł to jest korekta ponad 10% a tu w planach jest skup akcji a z drugiej strony to jeżeli wczoraj sprzedałeś to Gdzie dzisiaj byłeś jak akcje spadły prawie do 46 zł",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75429195",
       "author": "Kaso",
@@ -161,7 +175,7 @@
       "url": "https://www.bankier.pl/forum/temat_korekta-do-nawet-42zl-nie-zaszkodzi,75424397.html",
       "body": "oczywiście nie mam tych akcji od wczoraj więc naganiam na spadek :DDD",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -176,7 +190,7 @@
       "body": "Do południa podciągną a później znowu zjazd",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -190,7 +204,7 @@
       "body": "Dystrybucja od wczoraj się zaczęła",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -936,20 +950,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75362969",
-      "author": "ABB",
-      "postedAt": "2026-08-06 21:13",
-      "threadTitle": "Re: QUBE odkupuje akcje księgując MEGA stratę bo musi oddać",
-      "url": "https://www.bankier.pl/forum/temat_qube-odkupuje-akcje-ksiegujac-mega-strate-bo-musi-oddac,75277773.html",
-      "body": "Zawsze są tacy , którzy grają przeciw obowiązującym trendom ( co mnie nieustannie zadziwia ). Niedouczeni, :) czy co?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
