@@ -3,11 +3,11 @@
   "companyName": "Tauron PE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=TAURONPE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_tauron-pe-sa,6,21,10000000421.html",
-  "updatedAt": "2026-08-13T19:20:50.946Z",
+  "updatedAt": "2026-08-14T02:47:20.611Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-13T19:20:50.946Z",
+    "fetchedAt": "2026-08-14T02:47:20.611Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.065,
-    "confidence": 0.72,
+    "score": 0.081,
+    "confidence": 0.73,
     "commentCount": 84,
     "breakdown": {
-      "positive": 24,
-      "negative": 15,
+      "positive": 25,
+      "negative": 14,
       "neutral": 45
     },
     "trend": [
-      {
-        "date": "2026-08-06",
-        "score": -0.762,
-        "count": 1
-      },
       {
         "date": "2026-08-07",
         "score": 0.065,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-08-13",
-        "score": -0.129,
-        "count": 5
+        "score": 0.038,
+        "count": 6
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 84 komentarzy z ostatnich 7 dni: nastroje mieszane (24 pozytywnych, 15 negatywnych, 45 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 84 komentarzy z ostatnich 7 dni: nastroje mieszane (25 pozytywnych, 14 negatywnych, 45 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "tauron",
@@ -101,16 +96,30 @@
         "count": 6
       },
       {
-        "word": "dobrze",
-        "count": 6
+        "word": "enei",
+        "count": 5
       },
       {
-        "word": "enei",
+        "word": "roku",
         "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75433117",
+      "author": "Ppp",
+      "postedAt": "2026-08-13 22:27",
+      "threadTitle": "Re: PGE 8% a tu spekulant ciągnie dalej",
+      "url": "https://www.bankier.pl/forum/temat_pge-8-a-tu-spekulant-ciagnie-dalej,75330139.html",
+      "body": "Już niżej nie spadnie więc jak kupiłeś teraz to się nie martw",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75430787",
       "author": "eldealeros",
@@ -119,8 +128,8 @@
       "url": "https://www.bankier.pl/forum/temat_pge-8-a-tu-spekulant-ciagnie-dalej,75330139.html",
       "body": "Trudny związek... Ale nie ma miękkiej gry. Zero odpuszczania. Do końca.",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -133,7 +142,7 @@
       "url": "https://www.bankier.pl/forum/temat_pge-8-a-tu-spekulant-ciagnie-dalej,75330139.html",
       "body": "dziad znowu się końcówce popisał,jakieś fatum wisi na tej spółce, dobrałem, ale teraz mam wątpliwości czy to była dobra decyzja.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 2
       },
       "sentimentScore": 0,
@@ -1272,20 +1281,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75363657",
-      "author": "Ppp",
-      "postedAt": "2026-08-06 22:36",
-      "threadTitle": "Re: WYNIK ZA II kwartał",
-      "url": "https://www.bankier.pl/forum/temat_wynik-za-ii-kwartal,75330269.html",
-      "body": "Ja to chyba to.wywale z dużą strata jak srebro spadnie bo to już od marca tutaj siedzę i się dobrze nie zapowiada ,porazka energetyki nie teraz",
-      "votes": {
-        "up": 2,
-        "down": 10
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     }
   ]
 }
