@@ -3,31 +3,31 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-08-14T07:50:26.456Z",
+  "updatedAt": "2026-08-14T13:42:51.539Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-14T07:50:26.456Z",
+    "fetchedAt": "2026-08-14T13:42:51.539Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 10
+    "threadsScanned": 11
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.133,
-    "confidence": 0.75,
-    "commentCount": 126,
+    "score": 0.123,
+    "confidence": 0.74,
+    "commentCount": 125,
     "breakdown": {
       "positive": 42,
       "negative": 18,
-      "neutral": 66
+      "neutral": 65
     },
     "trend": [
       {
         "date": "2026-07-15",
-        "score": 0.319,
-        "count": 6
+        "score": 0.624,
+        "count": 4
       },
       {
         "date": "2026-07-16",
@@ -138,10 +138,15 @@
         "date": "2026-08-13",
         "score": 0,
         "count": 2
+      },
+      {
+        "date": "2026-08-14",
+        "score": -0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 126 komentarzy z ostatnich 30 dni: nastroje pozytywne (42 pozytywnych, 18 negatywnych, 66 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 125 komentarzy z ostatnich 30 dni: nastroje pozytywne (42 pozytywnych, 18 negatywnych, 65 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wrona",
@@ -164,10 +169,6 @@
         "count": 7
       },
       {
-        "word": "zeby",
-        "count": 7
-      },
-      {
         "word": "jestes",
         "count": 6
       },
@@ -180,12 +181,30 @@
         "count": 6
       },
       {
-        "word": "znowu",
+        "word": "zeby",
+        "count": 6
+      },
+      {
+        "word": "kupilem",
         "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75436321",
+      "author": "Poter",
+      "postedAt": "2026-08-14 10:11",
+      "threadTitle": "buja mimo słonecznej prognozy",
+      "url": "https://www.bankier.pl/forum/temat_buja-mimo-slonecznej-prognozy,75436321.html",
+      "body": "słabość waloru czy siła funduszu ,który buja kursem jak chce?co sie może zmienić w wynikach do 26?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75426755",
       "author": "GUpi",
@@ -1921,34 +1940,6 @@
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75141331",
-      "author": "URAN",
-      "postedAt": "2026-07-15 15:10",
-      "threadTitle": "Re: Ciezko byx akcjonariuszem Kruka",
-      "url": "https://www.bankier.pl/forum/temat_ciezko-byx-akcjonariuszem-kruka,75126073.html",
-      "body": "stockwatch.pl/wiadomosci/hanetf-etf-gpw-obronnosc-uran-drony-miedz-debiut",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75138429",
-      "author": "Wrona",
-      "postedAt": "2026-07-15 11:52",
-      "threadTitle": "Re: Ciezko byx akcjonariuszem Kruka",
-      "url": "https://www.bankier.pl/forum/temat_ciezko-byx-akcjonariuszem-kruka,75126073.html",
-      "body": "Ciężko albo i nie, WIG20 to loteria niezależnie od trendu poszczególne walory albo rosną albo spadają chyba że news przyjdzie nie do zakwestionowania. Niektórzy na tych wahnięciach i wytrząsaniu przez szorta słabych rąk robią kółeczka i też parę groszy dorabiają tylko trzeba śledzić częściej i można dorobić. Może podbić w jeden dzień a może miesiącami być sinusoida. Niestety szorty mają przewagę bo nie płacą prowizji od transakcji tak jak my dla biura maklerskiego i tutaj my musimy brać pod uwagę żeby prowizja nie przewyższyła zysku z kółeczka i nie przeszła w straty. Na Allegro też trolle pisały że to kłam że spadnie jeszcze dwa , trzy miesiące temu a teraz bije nowe rekordy jak będzie z kółkiem zobaczymy póki co mamy to co mamy podbitka po tym spadek ktoś na tym zarabia . Czy teraz spadnie znowu do 410 czy 400 nikt tego nie wie czy wzrośnie powyżej 420 od razu bez korekty też tego nikt nie wie. Albo z tego korzystamy albo czekamy do wyników. Faluje niech faluje oby nie spadło poniżej 400.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }
