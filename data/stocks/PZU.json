@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-08-15T06:58:22.848Z",
+  "updatedAt": "2026-08-15T13:00:13.838Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-15T06:58:22.848Z",
+    "fetchedAt": "2026-08-15T13:00:13.838Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -17,18 +17,13 @@
     "signal": "BUY",
     "score": 0.198,
     "confidence": 0.77,
-    "commentCount": 67,
+    "commentCount": 66,
     "breakdown": {
       "positive": 36,
       "negative": 8,
-      "neutral": 23
+      "neutral": 22
     },
     "trend": [
-      {
-        "date": "2026-08-08",
-        "score": 0,
-        "count": 1
-      },
       {
         "date": "2026-08-09",
         "score": 0.176,
@@ -60,8 +55,8 @@
         "count": 4
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 67 komentarzy z ostatnich 7 dni: nastroje pozytywne (36 pozytywnych, 8 negatywnych, 23 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 66 komentarzy z ostatnich 7 dni: nastroje pozytywne (36 pozytywnych, 8 negatywnych, 22 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
@@ -241,7 +236,7 @@
       "body": "Nie ma takiego Banku jak PKO SA",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -296,7 +291,7 @@
       "url": "https://www.bankier.pl/forum/temat_zmiana-koni-na-wigulcu,75428639.html",
       "body": "Trzeba odebrać trochę akcji żeby później pójść w górę. Wszystko na chłodno i czekać.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -338,7 +333,7 @@
       "url": "https://www.bankier.pl/forum/temat_zmiana-koni-na-wigulcu,75428639.html",
       "body": "Z orzełka i miedzi na pkobp i pzu.Start",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1029,20 +1024,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75378501",
-      "author": "Dzida",
-      "postedAt": "2026-08-08 12:58",
-      "threadTitle": "Szklana kula",
-      "url": "https://www.bankier.pl/forum/temat_szklana-kula,75378501.html",
-      "body": "Widze i mam nadzieje że sie zatrzyma na 62 zl oby",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
