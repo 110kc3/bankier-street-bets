@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-08-14T19:13:39.491Z",
+  "updatedAt": "2026-08-15T01:49:50.312Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-14T19:13:39.491Z",
+    "fetchedAt": "2026-08-15T01:49:50.312Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,7 +15,7 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.003,
+    "score": -0.007,
     "confidence": 0.7,
     "commentCount": 107,
     "breakdown": {
@@ -24,11 +24,6 @@
       "neutral": 48
     },
     "trend": [
-      {
-        "date": "2026-08-07",
-        "score": -0.322,
-        "count": 1
-      },
       {
         "date": "2026-08-08",
         "score": 0,
@@ -56,20 +51,24 @@
       },
       {
         "date": "2026-08-14",
-        "score": -0.019,
-        "count": 18
+        "score": -0.035,
+        "count": 19
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 107 komentarzy z ostatnich 7 dni: nastroje mieszane (31 pozytywnych, 28 negatywnych, 48 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 107 komentarzy z ostatnich 7 dni: nastroje mieszane (31 pozytywnych, 28 negatywnych, 48 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
-        "count": 12
+        "count": 13
       },
       {
         "word": "miedzi",
         "count": 11
+      },
+      {
+        "word": "srebro",
+        "count": 8
       },
       {
         "word": "drogo",
@@ -77,10 +76,6 @@
       },
       {
         "word": "metalach",
-        "count": 7
-      },
-      {
-        "word": "srebro",
         "count": 7
       },
       {
@@ -106,6 +101,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75444765",
+      "author": "Godoj",
+      "postedAt": "2026-08-14 22:55",
+      "threadTitle": "Re: Czy ta wiadomość wywoła spadek?",
+      "url": "https://www.bankier.pl/forum/temat_czy-ta-wiadomosc-wywola-spadek,75443485.html",
+      "body": "Eee tam. Takie zmiany nikogo nie obchodzą. Nad ranem 13 sierpnia tąpnęło srebro i miedź. Mimo, że było nieduże, wywołało impuls sprzedażowy zarobionych. Później i dzisiaj uspokoiły się metale - uspokoił się też KGHM. Teraz powiązane rynki produkcyjno-konsumpcyjne czekają na coś nowego, co wskaże kierunek. W mojej ocenie, niestety 50:50, bo produkcja, popyt, zapasy są podlane polityką i nie ma już łatwego przełożenia na kurs spółki...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75443485",
       "author": "Zawiedziony",
@@ -143,7 +152,7 @@
       "body": "kevin zmneijszyl dodruk chlopcy dostali sygnal do przekrecania na krotkie",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1589,20 +1598,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75376111",
-      "author": "MobilisA075",
-      "postedAt": "2026-08-07 22:36",
-      "threadTitle": "Re: sprzedane 348,50",
-      "url": "https://www.bankier.pl/forum/temat_sprzedane-348-50,75339991.html",
-      "body": "W poniedziałek. Wszystkie metale w górę, a miedź w dół",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
