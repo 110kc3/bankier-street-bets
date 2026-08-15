@@ -3,32 +3,27 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-08-15T01:49:50.312Z",
+  "updatedAt": "2026-08-15T06:57:39.575Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-15T01:49:50.312Z",
+    "fetchedAt": "2026-08-15T06:57:39.575Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 21
+    "threadsScanned": 20
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.007,
+    "score": -0.012,
     "confidence": 0.7,
     "commentCount": 107,
     "breakdown": {
       "positive": 31,
-      "negative": 28,
-      "neutral": 48
+      "negative": 29,
+      "neutral": 47
     },
     "trend": [
-      {
-        "date": "2026-08-08",
-        "score": 0,
-        "count": 1
-      },
       {
         "date": "2026-08-10",
         "score": 0.157,
@@ -53,10 +48,15 @@
         "date": "2026-08-14",
         "score": -0.035,
         "count": 19
+      },
+      {
+        "date": "2026-08-15",
+        "score": -0.322,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 107 komentarzy z ostatnich 7 dni: nastroje mieszane (31 pozytywnych, 28 negatywnych, 48 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 107 komentarzy z ostatnich 7 dni: nastroje mieszane (31 pozytywnych, 29 negatywnych, 47 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
@@ -101,6 +101,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75445547",
+      "author": "Gracz",
+      "postedAt": "2026-08-15 08:23",
+      "threadTitle": "Re: Czy ta wiadomość wywoła spadek?",
+      "url": "https://www.bankier.pl/forum/temat_czy-ta-wiadomosc-wywola-spadek,75443485.html",
+      "body": "Ta moze wywołać. Trump znowu szaleje. Był pump, a tera dump. Schematyczni są Jankesi.https://wiadomosci.wp.pl/dzialo-sie-w-nocy-trump-grozi-aneksja-ormuzu-i-atakiem-na-iran-7318577684527296a",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75444765",
       "author": "Godoj",
@@ -1581,20 +1595,6 @@
       "votes": {
         "up": 0,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75377169",
-      "author": "Arek",
-      "postedAt": "2026-08-08 08:49",
-      "threadTitle": "Na scanway i creotech od poniedziałku short squezze jak na spacex",
-      "url": "https://www.bankier.pl/forum/temat_na-scanway-i-creotech-od-poniedzialku-short-squezze-jak-na-spacex,75377169.html",
-      "body": "Wraca hossa na spolki new space.",
-      "votes": {
-        "up": 2,
-        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
