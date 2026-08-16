@@ -3,11 +3,11 @@
   "companyName": "CD Projekt Red SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-red-sa,6,21,353.html",
-  "updatedAt": "2026-08-16T01:56:41.987Z",
+  "updatedAt": "2026-08-16T06:58:07.356Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-16T01:56:41.987Z",
+    "fetchedAt": "2026-08-16T06:58:07.356Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.018,
+    "score": -0.016,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
       "positive": 50,
-      "negative": 60,
-      "neutral": 90
+      "negative": 59,
+      "neutral": 91
     },
     "trend": [
       {
         "date": "2026-08-12",
-        "score": 0.051,
-        "count": 33
+        "score": 0.062,
+        "count": 32
       },
       {
         "date": "2026-08-13",
@@ -43,18 +43,19 @@
         "date": "2026-08-15",
         "score": -0.096,
         "count": 25
+      },
+      {
+        "date": "2026-08-16",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (50 pozytywnych, 60 negatywnych, 90 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (50 pozytywnych, 59 negatywnych, 91 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "hehe",
-        "count": 21
-      },
-      {
-        "word": "jestes",
-        "count": 11
+        "count": 20
       },
       {
         "word": "mnie",
@@ -62,6 +63,10 @@
       },
       {
         "word": "https",
+        "count": 10
+      },
+      {
+        "word": "jestes",
         "count": 10
       },
       {
@@ -91,6 +96,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75450131",
+      "author": "Jupit",
+      "postedAt": "2026-08-16 07:00",
+      "threadTitle": "Re: W niedzielę analiza",
+      "url": "https://www.bankier.pl/forum/temat_w-niedziele-analiza,75441975.html",
+      "body": "Wstałem wcześniej, bo nie mogę się doczekać. O której opublikujesz?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75449847",
       "author": "nagan",
@@ -2876,20 +2895,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75409561",
-      "author": "PIOTR",
-      "postedAt": "2026-08-12 06:12",
-      "threadTitle": "Re: Trolle spadziowe to półgłówki",
-      "url": "https://www.bankier.pl/forum/temat_trolle-spadziowe-to-polglowki,75368895.html",
-      "body": "Myślisz że jesteś w Czarnogórze, a tak na prawdę jesteś w czarnej dziurze hehe półgłówku",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
