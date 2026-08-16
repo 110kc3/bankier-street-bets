@@ -3,25 +3,25 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-08-16T06:59:48.657Z",
+  "updatedAt": "2026-08-16T13:01:42.230Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-16T06:59:48.658Z",
+    "fetchedAt": "2026-08-16T13:01:42.230Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 18
+    "threadsScanned": 19
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.201,
+    "score": 0.208,
     "confidence": 0.77,
-    "commentCount": 66,
+    "commentCount": 68,
     "breakdown": {
-      "positive": 36,
+      "positive": 37,
       "negative": 8,
-      "neutral": 22
+      "neutral": 23
     },
     "trend": [
       {
@@ -53,10 +53,15 @@
         "date": "2026-08-14",
         "score": 0,
         "count": 4
+      },
+      {
+        "date": "2026-08-16",
+        "score": 0.291,
+        "count": 2
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 66 komentarzy z ostatnich 7 dni: nastroje pozytywne (36 pozytywnych, 8 negatywnych, 22 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 68 komentarzy z ostatnich 7 dni: nastroje pozytywne (37 pozytywnych, 8 negatywnych, 23 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
@@ -101,6 +106,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75452089",
+      "author": "szakal",
+      "postedAt": "2026-08-16 14:56",
+      "threadTitle": "Autokar z wypadku ubezpieczony w Pzu",
+      "url": "https://www.bankier.pl/forum/temat_autokar-z-wypadku-ubezpieczony-w-pzu,75452089.html",
+      "body": "Grube miliony bedzie musiał pzu wypłacić choć to i tak nie zwróci życia.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75451083",
+      "author": "inwestycjesa",
+      "postedAt": "2026-08-16 11:07",
+      "threadTitle": "Re: Hurtowe obligacje stałokuponowe",
+      "url": "https://www.bankier.pl/forum/temat_hurtowe-obligacje-stalokuponowe,75434263.html",
+      "body": "A za ile tych obligacji kupili, bo może to są jakieś nieznaczące dla skali działalności sumy?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75441245",
       "author": "Lukas",
@@ -249,7 +282,7 @@
       "url": "https://www.bankier.pl/forum/temat_po-wynikach-moze-byc-ponizej-70,75430917.html",
       "body": "Jest to możliwe o ile wyniki będą bardzo dobre. Jak będą złe to walor pójdzie w górę o 5-7 %. To jest GPW. Tutaj nie ma logiki a wykresy techniczne toMagia.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -291,7 +324,7 @@
       "url": "https://www.bankier.pl/forum/temat_zmiana-koni-na-wigulcu,75428639.html",
       "body": "Trzeba odebrać trochę akcji żeby później pójść w górę. Wszystko na chłodno i czekać.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -992,7 +1025,7 @@
       "body": "https://www.bankier.pl/wiadomosc/Kawaleria-nie-nadciaga-Chiny-przygotowuja-sie-na-potezny-krach-finansowy-9178740.html",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
