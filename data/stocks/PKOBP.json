@@ -3,11 +3,11 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-08-17T18:58:23.382Z",
+  "updatedAt": "2026-08-18T01:51:36.759Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-17T18:58:23.382Z",
+    "fetchedAt": "2026-08-18T01:51:36.759Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.369,
-    "confidence": 0.64,
-    "commentCount": 32,
+    "score": 0.305,
+    "confidence": 0.63,
+    "commentCount": 33,
     "breakdown": {
-      "positive": 23,
-      "negative": 4,
-      "neutral": 5
+      "positive": 22,
+      "negative": 3,
+      "neutral": 8
     },
     "trend": [
       {
         "date": "2026-08-11",
-        "score": 0.316,
-        "count": 4
+        "score": 0.542,
+        "count": 2
       },
       {
         "date": "2026-08-12",
@@ -53,18 +53,23 @@
         "date": "2026-08-16",
         "score": 0.583,
         "count": 2
+      },
+      {
+        "date": "2026-08-17",
+        "score": 0,
+        "count": 3
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 32 komentarzy z ostatnich 7 dni: nastroje pozytywne (23 pozytywnych, 4 negatywnych, 5 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 33 komentarzy z ostatnich 7 dni: nastroje pozytywne (22 pozytywnych, 3 negatywnych, 8 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
-      {
-        "word": "gory",
-        "count": 4
-      },
       {
         "word": "bank",
         "count": 4
+      },
+      {
+        "word": "wzrosl",
+        "count": 3
       },
       {
         "word": "dlaczego",
@@ -72,6 +77,10 @@
       },
       {
         "word": "dywidende",
+        "count": 3
+      },
+      {
+        "word": "gory",
         "count": 3
       },
       {
@@ -83,24 +92,62 @@
         "count": 3
       },
       {
-        "word": "wszystkie",
+        "word": "info",
         "count": 2
       },
       {
-        "word": "podatki",
+        "word": "wynikach",
         "count": 2
       },
       {
-        "word": "zaokraglone",
-        "count": 2
-      },
-      {
-        "word": "dywidenda",
+        "word": "wczesniej",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75465927",
+      "author": "Ok",
+      "postedAt": "2026-08-17 23:12",
+      "threadTitle": "Re: Dziwny jest ten swiat",
+      "url": "https://www.bankier.pl/forum/temat_dziwny-jest-ten-swiat,75465503.html",
+      "body": "Miło z ich strony, że info po wynikach:)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75465705",
+      "author": "Joe",
+      "postedAt": "2026-08-17 22:23",
+      "threadTitle": "Re: Dziwny jest ten swiat",
+      "url": "https://www.bankier.pl/forum/temat_dziwny-jest-ten-swiat,75465503.html",
+      "body": "KNF decyzję nakładającą kary wydała 5 sierpnia… Ważniejsi jak widać wiedzieli wcześniej ..",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75465503",
+      "author": "mabmab",
+      "postedAt": "2026-08-17 21:50",
+      "threadTitle": "Dziwny jest ten swiat",
+      "url": "https://www.bankier.pl/forum/temat_dziwny-jest-ten-swiat,75465503.html",
+      "body": "Jedna z najwyzszych kar nalozonych przez UOKiK a kurs wzrosl....",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75452241",
       "author": "Stefan",
@@ -520,34 +567,6 @@
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75397503",
-      "author": "jacek303",
-      "postedAt": "2026-08-11 00:37",
-      "threadTitle": "Już niedługo PeKaO BePe odrobi dywidendę",
-      "url": "https://www.bankier.pl/forum/temat_juz-niedlugo-pekao-bepe-odrobi-dywidende,75397503.html",
-      "body": "Jeszcze tylko kilka złotych do góry. W kilka dni do zrobienia.",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75397469",
-      "author": "ewa",
-      "postedAt": "2026-08-11 00:27",
-      "threadTitle": "Problem z wpłatą gotówki w PKO BP – brakujące 600 zł",
-      "url": "https://www.bankier.pl/forum/temat_problem-z-wplata-gotowki-w-pko-bp-brakujace-600-zl,75397469.html",
-      "body": "W oddziale PKO BP w Olecku podczas wpłaty 20 200 zł poinformowano mnie o rzekomym braku 600 zł, mimo że pieniądze były wcześniej kilkakrotnie przeliczone i pogrupowane. W trakcie wpłaty poproszono mnie o wypełnianie dokumentów, przez co nie widziałam liczenia gotówki. Pracownica wspomniała, że jeden banknot spadł, ale został doliczony, mimo to nadal „brakowało” pieniędzy. Uważam tę sytuację za bardzo nieprofesjonalną i budzącą poważne wątpliwości co do standardów obsługi oraz bezpieczeństwa transakcji gotówkowych w tej placowce. Złożyłam reklamację i oczekuję wyjaśnienia sprawy. Klient powinien mieć pełną kontrolę nad procesem wpłaty, a tutaj zostało to uniemożliwione.",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }
