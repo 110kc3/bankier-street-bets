@@ -3,36 +3,41 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-08-18T07:03:43.838Z",
+  "updatedAt": "2026-08-18T13:07:17.976Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-18T07:03:43.838Z",
+    "fetchedAt": "2026-08-18T13:07:17.976Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 81
+    "threadsScanned": 86
   },
   "analysis": {
-    "signal": "SELL",
-    "score": -0.166,
-    "confidence": 0.76,
+    "signal": "HOLD",
+    "score": -0.088,
+    "confidence": 0.73,
     "commentCount": 200,
     "breakdown": {
-      "positive": 23,
-      "negative": 77,
-      "neutral": 100
+      "positive": 33,
+      "negative": 64,
+      "neutral": 103
     },
     "trend": [
       {
+        "date": "2026-08-12",
+        "score": -0.381,
+        "count": 2
+      },
+      {
         "date": "2026-08-13",
-        "score": -0.118,
-        "count": 22
+        "score": -0.291,
+        "count": 5
       },
       {
         "date": "2026-08-14",
-        "score": -0.177,
-        "count": 75
+        "score": -0.171,
+        "count": 25
       },
       {
         "date": "2026-08-15",
@@ -51,12 +56,12 @@
       },
       {
         "date": "2026-08-18",
-        "score": -0.516,
-        "count": 3
+        "score": 0.005,
+        "count": 68
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje negatywne (23 pozytywnych, 77 negatywnych, 100 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (33 pozytywnych, 64 negatywnych, 103 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
@@ -64,43 +69,953 @@
       },
       {
         "word": "wyniki",
-        "count": 25
-      },
-      {
-        "word": "qube",
-        "count": 18
+        "count": 20
       },
       {
         "word": "przy",
         "count": 18
       },
       {
+        "word": "qube",
+        "count": 16
+      },
+      {
         "word": "mnie",
         "count": 15
-      },
-      {
-        "word": "trzeba",
-        "count": 11
-      },
-      {
-        "word": "slabe",
-        "count": 11
-      },
-      {
-        "word": "maja",
-        "count": 10
       },
       {
         "word": "hehehe",
         "count": 10
       },
       {
-        "word": "zeby",
+        "word": "maja",
         "count": 9
+      },
+      {
+        "word": "dinko",
+        "count": 9
+      },
+      {
+        "word": "masz",
+        "count": 8
+      },
+      {
+        "word": "zeby",
+        "count": 8
       }
     ]
   },
   "comments": [
+    {
+      "id": "75473479",
+      "author": "Cma",
+      "postedAt": "2026-08-18 15:01",
+      "threadTitle": "Re: Nie zaryzykuję kupna przed wynikami.",
+      "url": "https://www.bankier.pl/forum/temat_nie-zaryzykuje-kupna-przed-wynikami,75465729.html",
+      "body": "Jakie sa metody uwalania kursu wiem, ale tak pewnie pisesz, ze Qube je stosuje, wiec myslalem, ze wiesz ktore.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75473475",
+      "author": "Dexter",
+      "postedAt": "2026-08-18 15:01",
+      "threadTitle": "Re: Przyjdzie większy i po Qube",
+      "url": "https://www.bankier.pl/forum/temat_przyjdzie-wiekszy-i-po-qube,75470421.html",
+      "body": "cena musi stac sie ujemna jak na ropie, albo zerowa jak wycena lotosu",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75473469",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-08-18 15:00",
+      "threadTitle": "Re: Idziemy na 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_idziemy-na-40-zl,75469493.html",
+      "body": "Kolego sami sprzedają i odkupują prowokując ruchy u leszczy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75473441",
+      "author": "ja",
+      "postedAt": "2026-08-18 14:58",
+      "threadTitle": "Re: Dzisiaj 33??",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-33,75472703.html",
+      "body": "co za różnica jak wkrótce i tak 50 pęknie będą się zabijać o te akcje",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75473223",
+      "author": "aaa",
+      "postedAt": "2026-08-18 14:43",
+      "threadTitle": "Re: Idziemy na 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_idziemy-na-40-zl,75469493.html",
+      "body": "i masz na 0 + prowizje",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75473237",
+      "author": "Radi",
+      "postedAt": "2026-08-18 14:43",
+      "threadTitle": "Re: Dzisiaj 33??",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-33,75472703.html",
+      "body": "prędzej 32. po 16 tradycyjny wysyp i uwalanie kursu. Pamietaj ze qube musi zarobic wiec nie ma prawa rosnac.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75473145",
+      "author": "Ziutek",
+      "postedAt": "2026-08-18 14:36",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "> Oj ZIUTA ZIUTAco Ty czytasz i jaki program Tv.Jak to jaki? Polski! A ty czytasz i oglądasz polskojęzyczne teksty niemieckie, albo pod wpływem Sorosa. Przejdź na polskie media, to może otworzą ci się te twoje mocno zaślepione oczy!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75473039",
+      "author": "Alapo",
+      "postedAt": "2026-08-18 14:29",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "Oj ZIUTA ZIUTAco Ty czytasz i jaki program Tv.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472883",
+      "author": "Ziutek",
+      "postedAt": "2026-08-18 14:17",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "> \"2024 -> 82 mld PLNPO\"- zależy jak leży. Kiedy mowa o deficycie to \"odziedziczyliśmy budżet po poprzednikach, wina PiSu\", ale kiedy mowa o zasługach to pierwsi wypinają pierś po order. Bawi mnie ta polityczna wojenka, w której większość społeczeństwa nie dostrzega, że obydwie strony są siebie warte, różnią się tylko pomysłem na kreowanie swojego wizerunku.Nie ma żadnej symetrii! Ja nie mogę wyjść z podziwu, jak ktoś może wierzyć w prawdziwość intencji Tuska, że tak dba o bezpieczeństwo Polski, skoro jeszcze niedawno obściskiwał się z Putinem, chciał sprzedać ruskim Rafinerię Gdańską i grzmiał, że \"nikt nie będzie mu sypał piasku w tryby współpracy Polski z Rosją\". Prawdziwą intencją Tuska jest takie zadłużenie Polski, żeby już nie nie dała rady się wydostać z niemieckich wpływów i z Unii Europejskiej.",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75472839",
+      "author": "misiad",
+      "postedAt": "2026-08-18 14:14",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "dawać pana Biernackiego na premiera :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472775",
+      "author": "Cma",
+      "postedAt": "2026-08-18 14:07",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "Masz racje. Przepraszam. Ponoslo mnie.Ale to bardziej uwga do autora watku.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472721",
+      "author": "Zorro2",
+      "postedAt": "2026-08-18 14:05",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "Premier czy prezyd.. .po co był w Moskwie. Nie wiem czy wiesz o kim mówisz.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472703",
+      "author": "Polll",
+      "postedAt": "2026-08-18 14:04",
+      "threadTitle": "Dzisiaj 33??",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-33,75472703.html",
+      "body": "Tak mi to wygląda...",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472485",
+      "author": "Eustachy",
+      "postedAt": "2026-08-18 13:51",
+      "threadTitle": "Re: A po 16ej tradycyjna zwała",
+      "url": "https://www.bankier.pl/forum/temat_a-po-16ej-tradycyjna-zwala,75472271.html",
+      "body": "Poproś dziewczynę, może coś zmienicie",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472369",
+      "author": "Tumbelele",
+      "postedAt": "2026-08-18 13:44",
+      "threadTitle": "Re: A po 16ej tradycyjna zwała",
+      "url": "https://www.bankier.pl/forum/temat_a-po-16ej-tradycyjna-zwala,75472271.html",
+      "body": "Oj tak tak czekam czekam",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472307",
+      "author": "Eustachy",
+      "postedAt": "2026-08-18 13:41",
+      "threadTitle": "Re: Dino ma 3000tys sklepów i nie jest zadłużone",
+      "url": "https://www.bankier.pl/forum/temat_dino-ma-3000tys-sklepow-i-nie-jest-zadluzone,75470765.html",
+      "body": "Trochę ciasno",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75472305",
+      "author": "Tumbelele",
+      "postedAt": "2026-08-18 13:40",
+      "threadTitle": "Artykuł",
+      "url": "https://www.bankier.pl/forum/temat_artykul,75472305.html",
+      "body": "https://www.wiadomoscihandlowe.pl/handel-i-dystrybucja/dino-szuka-wzrostow-co-osiagnie-w-najblizszych-latach-2537286",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75472271",
+      "author": "Radi",
+      "postedAt": "2026-08-18 13:38",
+      "threadTitle": "A po 16ej tradycyjna zwała",
+      "url": "https://www.bankier.pl/forum/temat_a-po-16ej-tradycyjna-zwala,75472271.html",
+      "body": "strasznie zrobilo sie nudno . codziennie to samo",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472267",
+      "author": "rysorl",
+      "postedAt": "2026-08-18 13:38",
+      "threadTitle": "Re: Dino ma 3000tys sklepów i nie jest zadłużone",
+      "url": "https://www.bankier.pl/forum/temat_dino-ma-3000tys-sklepow-i-nie-jest-zadluzone,75470765.html",
+      "body": "to wychodzi że w każdej wiosce i mieście jest po 54 sklepy DINA",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75472199",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-08-18 13:34",
+      "threadTitle": "Re: Idziemy na 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_idziemy-na-40-zl,75469493.html",
+      "body": "Shorty zarabiają jak rośnie i jak spada mają otwarte S. I L",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75472147",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-08-18 13:30",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "Po co to piszesz na tym forum Jaki to ma związek z firmą Dino?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472121",
+      "author": "Cma",
+      "postedAt": "2026-08-18 13:27",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "1. Z czego składa się Borsuk i jak rozkładają się koszty?Najważniejsze (i najdroższe) komponenty pojazdu to:Zdalnie Sterowany System Wieżowy (ZSSW-30) – ok. 40–50% wartości wozu: Polska bezzałogowa wieża opracowana przez Hutę Stalowa Wola i WB Electronics. Wyposażona w optoelektronikę, żyrokompasy, automatyczną armatę Bushmaster Mk.44S 30 mm, karabin UKM-2000C oraz podwójną wyrzutnię przeciwpancernych pocisków kierowanych (Spike LR).Zespół napędowy (Powerpack) i zawieszenie – ok. 15–20% wartości: Serce wozu stanowi szybko-wymienny moduł Powerpack (silnik wysokoprężny MTU 8V199 TE22 o mocy ~720 KM połączony z automatyczną przekładnią Allison) integrowany i modyfikowany w Wojskowych Zakładach Motoryzacyjnych (WZM) w Poznaniu. Zawieszenie hydropneumatyczne projektowane i montowane jest w kraju.Kadłub, pancerz i pływalność – ok. 15–20% wartości: Specjalny kadłub wykonany ze stali pancernej z dołączanym opancerzeniem kompozytowym/modułowym zapewniającym wymaganą odporność balistyczną i przeciwminową przy zachowaniu zdolności pływania.Elektronika, BMS, łączność i systemy samoobrony – ok. 10–15% wartości: Zintegrowany system zarządzania polem walki (BMS), radiostacje cyfrowe z PCO i WB Group oraz systemy wykrywania promieniowania laserowego Obra-3 połączone z wyrzutniami granatów dymnych.2. Jaka część to produkcja polska (polonizacja)?Borsuk w około 70–80% jest produkcją krajową (polski wkład technologiczny i przemysłowy).Co jest produkcją POLSKĄ:Lider i montaż końcowy: Huta Stalowa Wola S.A. (rozbudowująca moce produkcyjne również w zakładach Bumar-Łabędy w Gliwicach i Autosanie w Sanoku).System wieżowy (ZSSW-30): Projekt i produkcja – HSW S.A. oraz Grupa WB.Optoelektronika i kierowanie ogniem: PCO S.A. (kamery termowizyjne, celowniki) oraz WB Electronics.Łączność i systemy cyfrowe: Grupa WB.Kadłub i zawieszenie: HSW S.A. oraz polskie spółki hutnicze/obróbcze.Grupowa kooperacja: Rosomak S.A., WZM Poznań.3.Co pochodzi z IMPORTU (komponenty zagraniczne):Silnik bazowy: MTU (Niemcy).Przekładnia/Skrzynia biegów: Allison Transmission (USA).Główne uzbrojenie artyleryjskie: Armata Northrop Grumman Bushmaster Mk.44S 30 mm (USA).Pociski przeciwpancerne: System Spike LR (konstrukcja izraelska firmy Rafael, choć licencjonowana i częściowo wytwarzana w Mesko w Skarżysku-Kamiennej).Wzialem losowo jeden z produktow.Dodatkowo: VAT - placony w Polsce Pensje pracownikow - w Polsce ZUS, podatek, Skladka zdrowotna - w Posce.Pieniadze na takie produkty zainwestowana w Polsce, zwracaja sie do skarbu panstwa w 10 lat.Teraz napisz jak czesc sprzetu kupowanego w Koreii i USA jest produkowana w Polsce i po jakim czasie taka inwestycja sie zwraca.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75472065",
+      "author": "Bzzz",
+      "postedAt": "2026-08-18 13:23",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "\"2024 -> 82 mld PLNPO\"- zależy jak leży. Kiedy mowa o deficycie to \"odziedziczyliśmy budżet po poprzednikach, wina PiSu\", ale kiedy mowa o zasługach to pierwsi wypinają pierś po order. Bawi mnie ta polityczna wojenka, w której większość społeczeństwa nie dostrzega, że obydwie strony są siebie warte, różnią się tylko pomysłem na kreowanie swojego wizerunku.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472013",
+      "author": "Witold",
+      "postedAt": "2026-08-18 13:18",
+      "threadTitle": "Re: Przyjdzie większy i po Qube",
+      "url": "https://www.bankier.pl/forum/temat_przyjdzie-wiekszy-i-po-qube,75470421.html",
+      "body": "Zdjeli 23zl w rok I jeszcze I'm malo? Kolejne 25zl spadku przed nami?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75471959",
+      "author": "Witold",
+      "postedAt": "2026-08-18 13:14",
+      "threadTitle": "Zdieli 23zl z kursu w rok bez zalamania wynikow",
+      "url": "https://www.bankier.pl/forum/temat_zdieli-23zl-z-kursu-w-rok-bez-zalamania-wynikow,75471959.html",
+      "body": "Dopiero po takim spadku pojawiaja sie shorciarze? Czego oni jeszcze chca? Kolejnych 25 zl nizej?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75471943",
+      "author": "doniek88",
+      "postedAt": "2026-08-18 13:13",
+      "threadTitle": "Re: Wyniki będą bardzo dobre...",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-beda-bardzo-dobre,75471527.html",
+      "body": "Trzeba miec taki plan jeszcze, maja wschód do zagęszczenia a z centrum dystrybucji w Sieroniowicach do Ostrawy jest 110 km, na Czechy mogliby sie już pchać",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75471729",
+      "author": "Polll",
+      "postedAt": "2026-08-18 13:03",
+      "threadTitle": "Re: Wyniki będą bardzo dobre...",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-beda-bardzo-dobre,75471527.html",
+      "body": "Wszystko zależy czy i kiedy wejdą na rynek czesko-słowacki. Jeśli tam rozpoczną ekspansję to kurs wystrzeli",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75471709",
+      "author": "Ziutek",
+      "postedAt": "2026-08-18 13:01",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "> Łącznie na zakupy sprzętu wojskowego i inwestycje w obronnosc w polskim sektorze obronnym: PIS razem przez lata 2015-2022 -> 100 mld PLN> PO 2024 -> 82 mld PLN> PO 2025 -> 110 mld PLN> PO 2026 -> 126 mld PLN>> Przez rok PO inwestuje w POLSKI przemysl obronny wiecej niz PIS przez 8 lat.> Widac kto jest polskim premierem a kto koreanskim.Inwestuje w polski przemysł nie całe 100% SAFE, tylko chyba ok 80%. Poza tym tak chętnie inwestuje w przemysł obronny, bo wszystkie silniki są niemieckie, lufy są brytyjskie, podwozia gąsiennicowe były kiedyś koreańskie (teraz może już częściowo polskie), wszystkie elementy elektroniczne też są przecież importowane. Także \"polskie\" wyroby dla wojska są tylko składakami z części zagranicznych, głównie niemieckich. Przecież inaczej Niemcy nie daliby na SEJF złamanego euro. Poza tym \"klucze do tego \"sejfu\" nie należą do Polski. I nie jest to jakaś ekstra pomoc gospodarcza, tylko kredyt na komercyjnych warunkach, który spłacać będą nasze wnuki. Taki to jest ten \"polski\" premier.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75471673",
+      "author": "griszunia",
+      "postedAt": "2026-08-18 12:57",
+      "threadTitle": "Re: Idziemy na 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_idziemy-na-40-zl,75469493.html",
+      "body": "Gdyby szorty rządziły rynkiem to by nie moczyły w takim stopniu Orlen kghm allegro żabka pepco. Wszędzie wtopa Gpw i benefit również w plecy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75471651",
+      "author": "doniek88",
+      "postedAt": "2026-08-18 12:56",
+      "threadTitle": "Re: Wyniki będą bardzo dobre...",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-beda-bardzo-dobre,75471527.html",
+      "body": "Marża i lfl wszystko powie jak kurs się zachowa, nie liczy się że jest zysk sam w sobie, jak odbudowują parametry i rynek zobaczy że idzie lepsze to wyskoczy kurs jak nie to qube dołoży i łącznie mamy -5/-10",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75471569",
+      "author": "zeXon",
+      "postedAt": "2026-08-18 12:51",
+      "threadTitle": "Re: Wyniki będą bardzo dobre...",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-beda-bardzo-dobre,75471527.html",
+      "body": "zaklinanie.Jakie beda wyniki zobaczymy po wynikach",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75471527",
+      "author": "Polll",
+      "postedAt": "2026-08-18 12:46",
+      "threadTitle": "Wyniki będą bardzo dobre...",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-beda-bardzo-dobre,75471527.html",
+      "body": "Nie ma co do tego wątpliwości. Liczba sklepów stale rośnie, przychody i zysk również... Obenca wycena tośmiech na sali",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75471383",
+      "author": "doniek88",
+      "postedAt": "2026-08-18 12:34",
+      "threadTitle": "Re: Przyjdzie większy i po Qube",
+      "url": "https://www.bankier.pl/forum/temat_przyjdzie-wiekszy-i-po-qube,75470421.html",
+      "body": "Ja nie wiem co się tak na to qube uparli, jak dino szło na ath to standardowo długi czas były krótkie otwarte na 1.5-3%, jak ma pójść do góry to poszybuje.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75471347",
+      "author": "bilbon",
+      "postedAt": "2026-08-18 12:32",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "Nie wazne kto ile wydaje, wazne jak wydaje.. tutaj jedni i drudzy na podobnym poziomie :( Pis=Po",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75470853",
+      "author": "Eustachy",
+      "postedAt": "2026-08-18 12:01",
+      "threadTitle": "Re: Dino ma 3000tys sklepów i nie jest zadłużone",
+      "url": "https://www.bankier.pl/forum/temat_dino-ma-3000tys-sklepow-i-nie-jest-zadluzone,75470765.html",
+      "body": "Trzy miliony? Nie może być..",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75470587",
+      "author": "Cma",
+      "postedAt": "2026-08-18 11:45",
+      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
+      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
+      "body": "Łącznie na zakupy sprzętu wojskowego i inwestycje w obronnosc w polskim sektorze obronnym:PIS razem przez lata 2015-2022 -> 100 mld PLNPO 2024 -> 82 mld PLNPO 2025 -> 110 mld PLNPO 2026 -> 126 mld PLNPrzez rok PO inwestuje w POLSKI przemysl obronny wiecej niz PIS przez 8 lat.Widac kto jest polskim premierem a kto koreanskim.",
+      "votes": {
+        "up": 2,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75470563",
+      "author": "Dexter",
+      "postedAt": "2026-08-18 11:43",
+      "threadTitle": "Re: Przyjdzie większy i po Qube",
+      "url": "https://www.bankier.pl/forum/temat_przyjdzie-wiekszy-i-po-qube,75470421.html",
+      "body": "dokładnie",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75470421",
+      "author": "Pablo",
+      "postedAt": "2026-08-18 11:32",
+      "threadTitle": "Przyjdzie większy i po Qube",
+      "url": "https://www.bankier.pl/forum/temat_przyjdzie-wiekszy-i-po-qube,75470421.html",
+      "body": "Kwestia czasu",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75470331",
+      "author": "Cma",
+      "postedAt": "2026-08-18 11:27",
+      "threadTitle": "Re: Idziemy na 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_idziemy-na-40-zl,75469493.html",
+      "body": "Qube najwiecej krotkich na GPW ma w Allegro - ponad 2.5 razy wiecej niz w Dino.I co? Zobacz wzrosty na Allegro - olbrzymie. Qube nie mial nic do gadania.",
+      "votes": {
+        "up": 8,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75470309",
+      "author": "Radi",
+      "postedAt": "2026-08-18 11:26",
+      "threadTitle": "Re: Zamek 31.80 pln",
+      "url": "https://www.bankier.pl/forum/temat_zamek-31-80-pln,75469193.html",
+      "body": "tak. i po 16ej tradycyjna zwała",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75470249",
+      "author": "JAEGER",
+      "postedAt": "2026-08-18 11:23",
+      "threadTitle": "Re: Zamek 31.80 pln",
+      "url": "https://www.bankier.pl/forum/temat_zamek-31-80-pln,75469193.html",
+      "body": "Koleś, ty masz coś nie hallo z główką, radzę wizytę u DERMAOLOGA bo może jesteś zarażony paskudą bakteriąprzywiezioną przez Hiszpanów jak wracali na statkach z podboju nowych nieznanych wcześniej EUROPIE lądów, a ten twój PROBEM miał również zwycięzca spod Wiednia nasz KRÓL JAN SOBIESKI i smarował się maścią zdodatkiem rtęci co przyczyniło się do jego przedwczesnego zgonu, ale na szczęście dzisiaj mamy dobrodziejstwowynalezionych w XX wieku antybiotyków! !",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75470181",
+      "author": "Ccc",
+      "postedAt": "2026-08-18 11:19",
+      "threadTitle": "Re: Zamek 31.80 pln",
+      "url": "https://www.bankier.pl/forum/temat_zamek-31-80-pln,75469193.html",
+      "body": "Dokładnie. Śmieszne te wykresy - z rana wystrzał, a reszta dnia spadki",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75469909",
+      "author": "TwojPodpis",
+      "postedAt": "2026-08-18 11:00",
+      "threadTitle": "Re: Idziemy na 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_idziemy-na-40-zl,75469493.html",
+      "body": "To czy będzie 40zl zależy tylko i wyłącznie od tego, czy qube pozwoliBiernacki nie ma za dużo do gadania",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75469493",
+      "author": "kris",
+      "postedAt": "2026-08-18 10:39",
+      "threadTitle": "Idziemy na 40 zł",
+      "url": "https://www.bankier.pl/forum/temat_idziemy-na-40-zl,75469493.html",
+      "body": "Ceny na rynku produktów rolnych rosną jak szalone a Dino powienien na tym mega skorzystać....",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75469101",
+      "author": "Dexter",
+      "postedAt": "2026-08-18 10:19",
+      "threadTitle": "Re: Po transakcjach widac ze short handluje sam ze soba",
+      "url": "https://www.bankier.pl/forum/temat_po-transakcjach-widac-ze-short-handluje-sam-ze-soba,75467727.html",
+      "body": "z Energą wiązałem swoją giełdowa emeryturę tyle tego miałem. piękne dywidendy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75469027",
+      "author": "Przemo",
+      "postedAt": "2026-08-18 10:16",
+      "threadTitle": "Fenomenalne wyniki spółki BSH. Jedna z lepszych spółek.",
+      "url": "https://www.bankier.pl/forum/temat_fenomenalne-wyniki-spolki-bsh-jedna-z-lepszych-spolek,75469027.html",
+      "body": "Spółka śmiesznie tania, warto przeanalizować, bo tutaj jest naprawdę pięknie.Kurs rośnie, wyniki coraz lepsze.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75469013",
+      "author": "Marek",
+      "postedAt": "2026-08-18 10:16",
+      "threadTitle": "Re: Czy to już jutro +20%",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-juz-jutro-20,75465177.html",
+      "body": "W punkt",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75468929",
+      "author": "Misiu",
+      "postedAt": "2026-08-18 10:12",
+      "threadTitle": "Re: Nie zaryzykuję kupna przed wynikami.",
+      "url": "https://www.bankier.pl/forum/temat_nie-zaryzykuje-kupna-przed-wynikami,75465729.html",
+      "body": "No tak. Raz tylko zarobiłem na Dino na 4 próby. Może tak być, że i tym razem zrobi mi na złość. :D",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75468835",
+      "author": "Misiu",
+      "postedAt": "2026-08-18 10:06",
+      "threadTitle": "Re: Nie zaryzykuję kupna przed wynikami.",
+      "url": "https://www.bankier.pl/forum/temat_nie-zaryzykuje-kupna-przed-wynikami,75465729.html",
+      "body": "Cma, jest to wiedza ogólnodostępna. Wystarczy trochę poszukać, albo nawet zapytać Aj Waja.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75468753",
+      "author": "Cma",
+      "postedAt": "2026-08-18 10:00",
+      "threadTitle": "Re: Nie zaryzykuję kupna przed wynikami.",
+      "url": "https://www.bankier.pl/forum/temat_nie-zaryzykuje-kupna-przed-wynikami,75465729.html",
+      "body": "1. Jak sadzisz, jakiego mechanizmu uzywaja do dolowania kursu?2. Gdyby do odkupienia mieli nie 1% akcji ale np 50%, to bylby to czynnik raczej powodujacy w przyszlosci (niedalekiej) wzrosty czy spadki, wedlug Ciebie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75468591",
+      "author": "Ziutek",
+      "postedAt": "2026-08-18 09:52",
+      "threadTitle": "Re: Po transakcjach widac ze short handluje sam ze soba",
+      "url": "https://www.bankier.pl/forum/temat_po-transakcjach-widac-ze-short-handluje-sam-ze-soba,75467727.html",
+      "body": "> Żyjemy nadal w komunistycznym państwie. Cały okrągły stół to jedna wielka szopka. Ten to ma kasę rządzi. My mamy być cicho. Posiadam akcje Energa i to co mnie tam spotkała sprawiło że nie wierzę z jakąkolwiek uczciwość.A słyszałeś o Sorosie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75468531",
+      "author": "Ziutek",
+      "postedAt": "2026-08-18 09:49",
+      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
+      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
+      "body": "> Do bio re, czujesz różnicę? Wiszę na 37,xx...Dobra, dobra. Spokój. Tak, czy inaczej wszyscy chcą kupować poniżej 30 zł.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75468347",
+      "author": "Eustachy",
+      "postedAt": "2026-08-18 09:41",
+      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
+      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
+      "body": "Do bio re, czujesz różnicę? Wiszę na 37,xx...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75468315",
+      "author": "Ziutek",
+      "postedAt": "2026-08-18 09:39",
+      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
+      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
+      "body": "> Zacytuj moje zdanie o wartości Dino...Swoją opinię o wartości Dino wyraziłeś przez deklarację, że kupisz poniżej 30 zł. Znaczy że sprzedałeś, bo masz pieniądze. Nie wiem co pisaleś wcześniej, ale jeśli pisałeś, że Dino jest warte więcej, to oszukiwałeś, bo naprawdę tak nie uważasz.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75468127",
+      "author": "bilbon",
+      "postedAt": "2026-08-18 09:30",
+      "threadTitle": "Re: Nie zaryzykuję kupna przed wynikami.",
+      "url": "https://www.bankier.pl/forum/temat_nie-zaryzykuje-kupna-przed-wynikami,75465729.html",
+      "body": "Nieprawda, patrza czy Misiu kupil czy sprzedal zeby zrobic mu na zlosc :D",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75468131",
+      "author": "Eustachy",
+      "postedAt": "2026-08-18 09:30",
+      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
+      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
+      "body": "Zacytuj moje zdanie o wartości Dino...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75468081",
+      "author": "Darek",
+      "postedAt": "2026-08-18 09:27",
+      "threadTitle": "Re: Po transakcjach widac ze short handluje sam ze soba",
+      "url": "https://www.bankier.pl/forum/temat_po-transakcjach-widac-ze-short-handluje-sam-ze-soba,75467727.html",
+      "body": "Żyjemy nadal w komunistycznym państwie. Cały okrągły stół to jedna wielka szopka. Ten to ma kasę rządzi. My mamy być cicho. Posiadam akcje Energa i to co mnie tam spotkała sprawiło że nie wierzę z jakąkolwiek uczciwość.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75468061",
+      "author": "Ziutek",
+      "postedAt": "2026-08-18 09:26",
+      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
+      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
+      "body": "> Kiedyś się to skończy, cierpliwości, a jak zleci poniżej 30, to dobioręJak ma się to skończyć, jak tacy jak ty uważaja, że Dino jest warte mniej niż 30 zł? Przecież szorty mogą stosować sprzedaż krótką za każdym razem, jak kurs choć trochę odbije. Ja zaczynam myśleć, że to się szybko, albo nawet nigdy nie skończy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75467975",
+      "author": "Wojtek",
+      "postedAt": "2026-08-18 09:22",
+      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
+      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
+      "body": "Tu jest fundysz i jeżeli wyniki będa lipa to zrobi zwałe . A otwarcie zielone to nie prognostyk na całą sesje .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75467909",
+      "author": "Eustachy",
+      "postedAt": "2026-08-18 09:18",
+      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
+      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
+      "body": "Kiedyś się to skończy, cierpliwości, a jak zleci poniżej 30, to dobiorę",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75467843",
+      "author": "Lejs",
+      "postedAt": "2026-08-18 09:14",
+      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
+      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
+      "body": "W piątek widzę 29 PLN... Zresztą dolny knot czarnej sierpniowej tam powinien sięgnąć.....Myślałem o tym jak kurs był pow.32 PLN Myślę :\"nie zrobią tego\" a jednak ...!!!",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75467799",
+      "author": "Radi",
+      "postedAt": "2026-08-18 09:11",
+      "threadTitle": "Re: Po transakcjach widac ze short handluje sam ze soba",
+      "url": "https://www.bankier.pl/forum/temat_po-transakcjach-widac-ze-short-handluje-sam-ze-soba,75467727.html",
+      "body": "grube transakcje leca od rana, komedia. swoja droga handlowanie pozyczonymi akcjami to jawna szulernia , jak to mozliwe ze takie cos jest dpuszxczone",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75467727",
+      "author": "Radi",
+      "postedAt": "2026-08-18 09:08",
+      "threadTitle": "Po transakcjach widac ze short handluje sam ze soba",
+      "url": "https://www.bankier.pl/forum/temat_po-transakcjach-widac-ze-short-handluje-sam-ze-soba,75467727.html",
+      "body": "leca po 1 2 5 akcji , smieszne",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75467737",
+      "author": "Ziutek",
+      "postedAt": "2026-08-18 09:08",
+      "threadTitle": "Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
+      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
+      "body": "Czyli sprzedawaniem pożyczonych akcji. W wielu krajach jest to zabronione.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75467703",
+      "author": "Lejs",
+      "postedAt": "2026-08-18 09:07",
+      "threadTitle": "Re: Short kieruje kursem",
+      "url": "https://www.bankier.pl/forum/temat_short-kieruje-kursem,75466155.html",
+      "body": "Minus za prawdę?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75467521",
       "author": "Ziutek",
@@ -110,7 +1025,7 @@
       "body": "W dodatku spekulant giełdowy i przestępca, ścigany w wielu krajach w Europie i Azji, działa w Polsce bez przeszkód, promując za pomocą wysoko postawionych (m. Inn. w rządzie) agentów, swoją ideę \"społeczeństwa otwartego\".",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -123,7 +1038,7 @@
       "url": "https://www.bankier.pl/forum/temat_short-kieruje-kursem,75466155.html",
       "body": "Dziś zamek 31.80..pln...",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -151,8 +1066,8 @@
       "url": "https://www.bankier.pl/forum/temat_marza-bedzie-wyzsza-bo-ceny-poszly-srednio,75466061.html",
       "body": "5% do góry. A im tem miś jest droższy tym.......",
       "votes": {
-        "up": 0,
-        "down": 3
+        "up": 1,
+        "down": 5
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -333,7 +1248,7 @@
       "url": "https://www.bankier.pl/forum/temat_6-862-800-akcji-do-odkupu-ma-qube,75460009.html",
       "body": "Ja wyszedlem 33,50zl pisalem dlaczego to mnie minusowali i musialem zamknac sie w sobie xD",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1271,8 +2186,8 @@
       "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
       "body": "Bo to nie jest polski premier ha ha",
       "votes": {
-        "up": 6,
-        "down": 1
+        "up": 14,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1495,8 +2410,8 @@
       "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
       "body": "nie uczestniczy w uroczystościach państwowych, na przykład nie składa wieńca na Grobie Nieznanego Żołnierza.",
       "votes": {
-        "up": 14,
-        "down": 2
+        "up": 18,
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1852,356 +2767,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75442117",
-      "author": "Tata1",
-      "postedAt": "2026-08-14 17:12",
-      "threadTitle": "Re: Bedzie taniej??",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej,75441213.html",
-      "body": "Niewiele te liczby zmieniają z tym tylko ,że koszty ogromne , zyski zapewne w przyszlosci",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75441971",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-08-14 17:00",
-      "threadTitle": "Re: Nie będzie taniej jak 31.90-32.00 PLN",
-      "url": "https://www.bankier.pl/forum/temat_nie-bedzie-taniej-jak-31-90-32-00-pln,75441593.html",
-      "body": "Naciągają sprężynę tez tak myślę że jeszcze poniedziałek obroty juz słabną",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75441951",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-08-14 16:58",
-      "threadTitle": "Re: Bedzie taniej??",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej,75441213.html",
-      "body": "Co ty pitolisz do czerwca otworzył około 146 sklepów",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75441593",
-      "author": "Lejs",
-      "postedAt": "2026-08-14 16:33",
-      "threadTitle": "Nie będzie taniej jak 31.90-32.00 PLN",
-      "url": "https://www.bankier.pl/forum/temat_nie-bedzie-taniej-jak-31-90-32-00-pln,75441593.html",
-      "body": ".czyli spadek do poniedziałku włącznie",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75441537",
-      "author": "Tata1",
-      "postedAt": "2026-08-14 16:29",
-      "threadTitle": "Re: Bedzie taniej??",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej,75441213.html",
-      "body": "Myślę, że kiepskie wyniki .Firma super i świetlana przyszłość natomiast ten rok: 134 nowe sklepy , to wysokie koszty inwestycji ogromną konkurencja powoduje obniżenie marży .Ogromne obroty ale ten rok beż większych zyskow",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75441507",
-      "author": "doniek88",
-      "postedAt": "2026-08-14 16:26",
-      "threadTitle": "Re: Bedzie taniej??",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej,75441213.html",
-      "body": "Może nawet dopłaca żeby zabrać?",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75441389",
-      "author": "Ccc",
-      "postedAt": "2026-08-14 16:17",
-      "threadTitle": "Re: Bedzie taniej??",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej,75441213.html",
-      "body": "Zbiją i na 25. Słabe wyniki to i 20 zobaczymy",
-      "votes": {
-        "up": 1,
-        "down": 6
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75441381",
-      "author": "Radi",
-      "postedAt": "2026-08-14 16:16",
-      "threadTitle": "Re: Bedzie taniej??",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej,75441213.html",
-      "body": "narazie zblili o 1zl. to jakies 3 proc. to z pewnoscia za malo bo prozije od pozyczki pewnie cos kolo tego. wydaje sie ze te 10 proc to minimum czyli wychodzi kolo 30 zl.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75441371",
-      "author": "Heisenberg",
-      "postedAt": "2026-08-14 16:15",
-      "threadTitle": "Re: Bedzie taniej??",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej,75441213.html",
-      "body": "Albo w Katowicach-Załężu na szaberplacu…Urlop, powodzenia i cierpliwości",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75441291",
-      "author": "tuur",
-      "postedAt": "2026-08-14 16:08",
-      "threadTitle": "Re: Bedzie taniej??",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej,75441213.html",
-      "body": "Teraz bawi się kursem i próbuje wciągnąć innych do gry. Jak szulernia w 3 kubki na Różyckiego w 90 latach.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75441213",
-      "author": "Radi",
-      "postedAt": "2026-08-14 16:02",
-      "threadTitle": "Bedzie taniej??",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej,75441213.html",
-      "body": "pytanie ile chce zbic qube?? 31? 30 ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75441073",
-      "author": "Eustachy",
-      "postedAt": "2026-08-14 15:50",
-      "threadTitle": "Re: Przed 15 kolejny odbior waszych akcji",
-      "url": "https://www.bankier.pl/forum/temat_przed-15-kolejny-odbior-waszych-akcji,75438225.html",
-      "body": "Chyba tylko polemika z nimi....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75440859",
-      "author": "Bruno",
-      "postedAt": "2026-08-14 15:32",
-      "threadTitle": "Re: Przed 15 kolejny odbior waszych akcji",
-      "url": "https://www.bankier.pl/forum/temat_przed-15-kolejny-odbior-waszych-akcji,75438225.html",
-      "body": "Pytanie retoryczne. Czy może być coś słabszego od twoich wpisów @Ccc?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75440795",
-      "author": "Marek",
-      "postedAt": "2026-08-14 15:28",
-      "threadTitle": "Re: Przed 15 kolejny odbior waszych akcji",
-      "url": "https://www.bankier.pl/forum/temat_przed-15-kolejny-odbior-waszych-akcji,75438225.html",
-      "body": "To się ratuj. Chyba jednak twoje 50 akcji rynku nie załamie.",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75440249",
-      "author": "Lejs",
-      "postedAt": "2026-08-14 14:44",
-      "threadTitle": "Re: Kolejki",
-      "url": "https://www.bankier.pl/forum/temat_kolejki,75439195.html",
-      "body": "Bo jutro Matki Bożej Zielnej i Niedziela . Zaopatrują się",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75440209",
-      "author": "doniek88",
-      "postedAt": "2026-08-14 14:41",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "A jeżeli mówisz o samych funduszach, to prawda jak zaczynaja się zlatywać to faktycznie czasami pozostaje tylko albo wpasowanie i mądre wejścia albo ewakuacja bo potrafią narobić syfu",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75440179",
-      "author": "doniek88",
-      "postedAt": "2026-08-14 14:40",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Wiadomo, nic na to nie poradzimy. My możemy się co najwyżej wpasować. Mówię o samej sytuacji od kwietnia i shortowaniu przez qube",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75440169",
-      "author": "Ccc",
-      "postedAt": "2026-08-14 14:39",
-      "threadTitle": "Re: Przed 15 kolejny odbior waszych akcji",
-      "url": "https://www.bankier.pl/forum/temat_przed-15-kolejny-odbior-waszych-akcji,75438225.html",
-      "body": "Niestety, wyniki słabe - 25 zł",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75440109",
-      "author": "Wojtek",
-      "postedAt": "2026-08-14 14:34",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Ale ile bałaganu narobił na allego od debjutu ? Ile czasu fundusze tam siedziały .",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75439871",
-      "author": "doniek88",
-      "postedAt": "2026-08-14 14:15",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Ta, popatrz na allegro qube to nie jest wyrocznia, wchodzili w kwietniu przy allegro po 25? I gdzie jesteśmy teraz? 47? I uzupełniali pozycje i dokładali, co dalej, na szczycie zaczęli redukować. W Dino w akcjonariacie też masz potężne firmy, jak rynek będzie sprzyjał to qube może straszyć.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75439641",
-      "author": "doniek88",
-      "postedAt": "2026-08-14 14:01",
-      "threadTitle": "Re: Kolejki",
-      "url": "https://www.bankier.pl/forum/temat_kolejki,75439195.html",
-      "body": "O kolejkach, to jak zarzucę tematem o Dino to ludzie lubią, ale właśnie znalazły się głosy, że kupują w innym miejscu właście przez kolejki i brak kas samoobsługowych. 4 kasy na sklep samoobsługowe poprawiłyby komfort zakupów.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75439489",
-      "author": "Wojtek",
-      "postedAt": "2026-08-14 13:50",
-      "threadTitle": "Re: Przed 15 kolejny odbior waszych akcji",
-      "url": "https://www.bankier.pl/forum/temat_przed-15-kolejny-odbior-waszych-akcji,75438225.html",
-      "body": "Pablo tj fundusz a on jest tylko w jednym celu szortować szortować i jeszcze raz szortować . Módl się o dobre wyniki bo jak będą chu..we to zobaczysz co zrobi. A cały czas zbiera .",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75439291",
-      "author": "Ccc",
-      "postedAt": "2026-08-14 13:38",
-      "threadTitle": "Re: Przed 15 kolejny odbior waszych akcji",
-      "url": "https://www.bankier.pl/forum/temat_przed-15-kolejny-odbior-waszych-akcji,75438225.html",
-      "body": "Niestety kurs zmierza na 30. Ratować się póki można",
-      "votes": {
-        "up": 0,
-        "down": 9
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75439195",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-08-14 13:30",
-      "threadTitle": "Kolejki",
-      "url": "https://www.bankier.pl/forum/temat_kolejki,75439195.html",
-      "body": "Dzisiaj ogromne kolejki do kas",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75439201",
-      "author": "mabmab",
-      "postedAt": "2026-08-14 13:30",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Nadal nie zrozumiałeś znaków zapytania over . I sprawdz jak zmieniają się koszty pozyczkowe informacja dostepna. Over",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75438913",
       "author": "doniek88",
       "postedAt": "2026-08-14 13:09",
@@ -2242,426 +2807,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75438623",
-      "author": "Edek",
-      "postedAt": "2026-08-14 12:47",
-      "threadTitle": "Re: Qube znowu w DINO !!!!!",
-      "url": "https://www.bankier.pl/forum/temat_qube-znowu-w-dino,75421113.html",
-      "body": "Myślę że część może być pod progiem ale to spekulacja. Tylko czy realnie to o czymś świadczy. Bo dla mnie jeśli wyniki będą słabe lecimy a jak dobre up. Kwestia co będzie jak wyjdziemy na 0 bo tylko tak generujemy zysk",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75438607",
-      "author": "Edek",
-      "postedAt": "2026-08-14 12:45",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Unikając niedomówień to procent wszystkich akcji emitowanych przez podmiot. Pozdrawiam",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75438515",
-      "author": "Edek",
-      "postedAt": "2026-08-14 12:39",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "W celu edukacyjnym powiem że obowiązek stanowi obliczanie pozycji netto a % to ilość dostępnych akcji",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75438495",
-      "author": "Edek",
-      "postedAt": "2026-08-14 12:37",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Ziomek gratulacje pytać na forum o coś co przeciętny człowiek może sprawdzić w dokumentach i przepisach. Takich ludzi nam trzeba",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75438455",
-      "author": "Edek",
-      "postedAt": "2026-08-14 12:34",
-      "threadTitle": "Re: Qube znowu w DINO !!!!!",
-      "url": "https://www.bankier.pl/forum/temat_qube-znowu-w-dino,75421113.html",
-      "body": "Głupota roku sprawdź raportowanie KNF. Pozycja netto jest raportowana uczyć się trzeba kolego",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75438439",
-      "author": "mabmab",
-      "postedAt": "2026-08-14 12:33",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Przeczytaj wpis ze z r o z u m i e n i e m i zrozum po co byly znaki zapytania",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75438427",
-      "author": "mabmab",
-      "postedAt": "2026-08-14 12:32",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "A co innego wynika z mojego wpisu?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75438341",
-      "author": "Edek",
-      "postedAt": "2026-08-14 12:26",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Boże widzisz a nie grzmisz i tyle powiem. Nie dziwi mnie że ludzie przegrywają kasę życia jak nie znają mechaniki giełdy gratulacje",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75438225",
-      "author": "Pablo",
-      "postedAt": "2026-08-14 12:18",
-      "threadTitle": "Przed 15 kolejny odbior waszych akcji",
-      "url": "https://www.bankier.pl/forum/temat_przed-15-kolejny-odbior-waszych-akcji,75438225.html",
-      "body": "Bardzo tanich akcji",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75437287",
-      "author": "doniek88",
-      "postedAt": "2026-08-14 11:07",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Pożyczone. Pożyczasz, sprzedajesz, czekasz na spadek, kupujesz niżej, zwracasz. Ponosisz koszty „pożyczkowe”",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75436607",
-      "author": "mabmab",
-      "postedAt": "2026-08-14 10:28",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "A skad siw bierze pozycja krotka w rejestrze? Z akcji z wlasnego portfela czy pozyczonych? Mam na mysli fundusze grajace na spadki. Ale w przypadku CCC/Modivo ten sam fundusz gral po obu stronach",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75436123",
-      "author": "kuur",
-      "postedAt": "2026-08-14 10:00",
-      "threadTitle": "Re: Ķiedy pojddzie na 5⁰zł?",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pojddzie-na-5-zl,75435867.html",
-      "body": "Jutro. Już teraz powinieneś stać w swoim banku po kredyt.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75436075",
-      "author": "Radi",
-      "postedAt": "2026-08-14 09:59",
-      "threadTitle": "Re: Ķiedy pojddzie na 5⁰zł?",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pojddzie-na-5-zl,75435867.html",
-      "body": "zaraz. 10.08 i 25 sekund",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75435941",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-08-14 09:52",
-      "threadTitle": "Re: Ķiedy pojddzie na 5⁰zł?",
-      "url": "https://www.bankier.pl/forum/temat_kiedy-pojddzie-na-5-zl,75435867.html",
-      "body": "A jak myślisz?",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75435637",
-      "author": "doniek88",
-      "postedAt": "2026-08-14 09:39",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Możliwości mają mnóstwo, pytanie tylko jaki jest plan rozwoju.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75435559",
-      "author": "Wojtek",
-      "postedAt": "2026-08-14 09:35",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Jeżeli gdzieś pojawja się fundusz to zamykaj i zmykaj .",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75435437",
-      "author": "Ma_adim",
-      "postedAt": "2026-08-14 09:29",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Wystarczy ze podpiszą umowę z aramco i kurs skoczyć x3",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75435411",
-      "author": "astac",
-      "postedAt": "2026-08-14 09:28",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Raczej nie, to dobra spółka",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75434853",
-      "author": "doniek88",
-      "postedAt": "2026-08-14 08:56",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Nikt nie zna odpowiedzi. Jakby zarząd Dino był bardziej elastyczny, a może mają to w planach w przyszłości to mogliby naprawdę wejść na grubo, kapitał mają, wyobraź sobie sklepy dino, dinolandy dla dzieciaków, jakieś dinohousy resorty rodzinne, dinocampy glampingi dla rodzin, dinoclub łączący jakieś benefity z połączeń. Potencjał mają wielki, kwestia wizjonerstwa i odwagi wejścia, na chwilę obecną zarząd trochę postępuje na zasadzie jest ok, daje zyski, jedziemy dalej ze sklepami. Ale kolejną noga firmy zrobiłaby robotę",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75434701",
-      "author": "Roman_RR",
-      "postedAt": "2026-08-14 08:45",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Jakiej ceny Dino można się spodziwać w kwiecień 2027r. ? Czy lepiej zostać jeśli chodzi o mnie z Allegro kupowane po 35zł , i też czekać do kwiecień 2027r. Jak myślisz do ilu dojdzie wtedy Allegro ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75434535",
-      "author": "doniek88",
-      "postedAt": "2026-08-14 08:32",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Nie. Wtedy była wycena spółki z dynamicznym rozwojem, dobrymi zyskami. Za to płacił rynek. Ale minęły lata i tak dynamicznie już się nie da rozwijać. Ale skumulowana inflacja przez te kilka lat ile wyniosła? 40%? To jest dodatkowy spadek wyceny poza wyceną akcji. Teraz można prowadzić zdrowy, dalej dający porządny zysk biznes i nadal go rozwijać. Jak dla mnie wtedy płaciło się za przyszłość. Teraz przy problemach medialno-deflacyjnych żywności cena podupadła, ale jak dla mnie jest niedoszacowana. Przy ruchu cen w górę jakie muszą siłą rzeczy wcześniej czy później się zdarzyć, znajdzie to odzwierciedlenie w raportach i cena wskoczy. Oczywiście pewnie inne spółki pojedyncze dadzą większy zwrot. Problem tylko jeden- znaleźć taką spółkę i zainwestować tam wlasny kapitał. Takie spółki mam wytypowane, ale nie wpłacę tam potężnej kasy, bo to jest zaklad ze spółka odpali albo nie. Dino daje na chwile obecną dobry balans, można w miarę bezpiecznie włączyć kase i oczekiwać przyzoitego upside’u. Moją własna opinia, każdy myśli coś innego",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75434541",
-      "author": "Wojtek",
-      "postedAt": "2026-08-14 08:32",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Dlatego fundusz zbierał cierpliwie . I jeżeli wyniki będą bardzo słabe będzie zjazd bolesny oby nie.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75434311",
-      "author": "Nicponim",
-      "postedAt": "2026-08-14 08:06",
-      "threadTitle": "Re: Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Ale teraz sa problemy z marza i pracownikami, pod to sa te spadki. Chwilowe zawirowanie, ktore mozna wykorzystac przeciez. Pamietac trzeba ze 900zl podwyzki to okolo 600mln rocznie kosztow pracowniczych. To nie jakies drobne.",
-      "votes": {
-        "up": 2,
-        "down": 5
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75433625",
-      "author": "Re",
-      "postedAt": "2026-08-14 00:34",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Dokładnie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75433611",
-      "author": "Misiu",
-      "postedAt": "2026-08-14 00:25",
-      "threadTitle": "Czy 5 lat temu Dino było już przewartościowane?",
-      "url": "https://www.bankier.pl/forum/temat_czy-5-lat-temu-dino-bylo-juz-przewartosciowane,75433611.html",
-      "body": "Bo taki mamy teraz mniej więcej kurs.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75433261",
-      "author": "Monia",
-      "postedAt": "2026-08-13 22:53",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "To nie jest info, ile akcji pożyczyli. To jest info, jaką mają pozycję krótką na dany dzień, czyli ile akcji już sprzedali.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75432575",
-      "author": "Ppp",
-      "postedAt": "2026-08-13 21:13",
-      "threadTitle": "Re: Qube znowu w DINO !!!!!",
-      "url": "https://www.bankier.pl/forum/temat_qube-znowu-w-dino,75421113.html",
-      "body": "A może, Pozycji krótkich jest sporo. Różnych. Myślę że shorty liczą na globalny kryzys. Bliski Wschód Ukraina, sądzę że pod to shortują. tym razem nie pod wyniki.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.964,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75432495",
-      "author": "SHORT",
-      "postedAt": "2026-08-13 21:04",
-      "threadTitle": "Re: Qube znowu w DINO !!!!!",
-      "url": "https://www.bankier.pl/forum/temat_qube-znowu-w-dino,75421113.html",
-      "body": "> Wywołać panikę na ulicy > > Trochę od dołka urósło więc czemu nie spróbować tym bardziej że kolarze pomogą > > Przerabiałem już takie ujawniania sięDziadek, żadnej paniki nie będzie, bo perfidia giełdy jest taka żeby tobie podobne pelikany uwierzyły w chwilową korektę i rzuciły się na kupowanie nieznacznie przecenionych akcji, i aby grubasy mogli chociaż częściowo pozbyć sięgorącego towaru, i dlatego przypuszczam że po porannym niewielkim spadku cały dzień będzie pozorowanywzrost ceny akcji zainicjowany, a jakże przez tychże grubasów!",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.964,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75432253",
-      "author": "Marek",
-      "postedAt": "2026-08-13 20:35",
-      "threadTitle": "Re: Qube znowu w DINO !!!!!",
-      "url": "https://www.bankier.pl/forum/temat_qube-znowu-w-dino,75421113.html",
-      "body": "Poważnie? Przypomnę ci to wieszczenie 30 zł. Co jeśli nawet do 32 nie zejdzie? Co wtedy napiszesz? Poczekam… Tu jest hossa a Dino nawet nie jest na jej początku ignorancie.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75432087",
-      "author": "niedźwiadek",
-      "postedAt": "2026-08-13 20:04",
-      "threadTitle": "Re: Qube znowu w DINO !!!!!",
-      "url": "https://www.bankier.pl/forum/temat_qube-znowu-w-dino,75421113.html",
-      "body": "QUBE powiększył krótką pozycją na DINO. Dziś ma już 0,70 % akcji ( wczoraj 0,65%).A więc wszystko idzie swoim torem. Za tydzień po ogłoszeniu wyników może mieć nawet 1% i wtedy, gdy kurs zjedzie poniżej 30 zł zacznie powoli kupować. To takie proste - prawda ?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75431811",
@@ -2706,26 +2851,12 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75429863",
-      "author": "Radi",
-      "postedAt": "2026-08-13 16:29",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "info jest ze pozyczyli dodatkowo 0,05 . a nie ze sprzedali wczoraj",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75429187",
-      "author": "Misiu",
-      "postedAt": "2026-08-13 15:36",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Dobrze.",
+      "id": "75424241",
+      "author": "bilbon",
+      "postedAt": "2026-08-13 10:01",
+      "threadTitle": "Re: Zaczęło się!",
+      "url": "https://www.bankier.pl/forum/temat_zaczelo-sie,75419489.html",
+      "body": "kolega pyta o link, bo nie moge nigdzie znalezc",
       "votes": {
         "up": 0,
         "down": 0
@@ -2734,171 +2865,45 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75429057",
-      "author": "Monia",
-      "postedAt": "2026-08-13 15:25",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Odjęlam 0,65 (stan szorta we wtorek) od 0,70 (stan szorta wczoraj) i pomnożyłam 0,05% x 980 milionów akcji. Chyba, że coś źle policzyłam?",
+      "id": "75424061",
+      "author": "Dexter",
+      "postedAt": "2026-08-13 09:52",
+      "threadTitle": "Re: Zaczęło się!",
+      "url": "https://www.bankier.pl/forum/temat_zaczelo-sie,75419489.html",
+      "body": "mam nadzieje że wszedłeś grubo w te shorty",
       "votes": {
-        "up": 0,
+        "up": 6,
         "down": 0
       },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75428965",
-      "author": "Radi",
-      "postedAt": "2026-08-13 15:19",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "skad wiesz ze wczoraj sprzedali 500.000?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
+      "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75428881",
-      "author": "Monia",
-      "postedAt": "2026-08-13 15:14",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Aha, czyli wczoraj sprzedali prawie 500 000 dodatkowych akcji. Ostro idą :DJa zamierzam ich przeczekać.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75428709",
-      "author": "asd",
-      "postedAt": "2026-08-13 15:03",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "QUBE RESEARCH & TECHNOLOGIES LIMITEDDINOPLPLDINPL000110.72026-08-122026-08-13Rejestr z krótkiej sprzedaży",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75428653",
-      "author": "Red",
-      "postedAt": "2026-08-13 14:59",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Maksymalnie do luki mogą zejść ./30/",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75428581",
-      "author": "Monia",
-      "postedAt": "2026-08-13 14:54",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Poza tym chyba nikt nie ma wątpliwości, że na Dino żeruje nie tylko Qube, ale cale stado innych grubasów, algorytmy HFT i inne podobne paskudy. Nienawidzę ich z całego serca, ale trzeba uczciwie powiedzieć, że dają też czasem człowiekowi zarobić",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75428391",
-      "author": "Monia",
-      "postedAt": "2026-08-13 14:39",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Teraz właśnie zwalają kurs, żeby zastraszyć ulicę i żeby ulica akcje sprzedała po taniości",
-      "votes": {
-        "up": 7,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75428147",
+      "id": "75421595",
       "author": "Re",
-      "postedAt": "2026-08-13 14:22",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Pewnie Qube przyczynił się do wolnego wzrostu",
+      "postedAt": "2026-08-12 23:54",
+      "threadTitle": "Re: Zaczęło się!",
+      "url": "https://www.bankier.pl/forum/temat_zaczelo-sie,75419489.html",
+      "body": "Pokój bez klamek",
       "votes": {
-        "up": 2,
+        "up": 0,
         "down": 0
       },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "75427357",
-      "author": "Monia",
-      "postedAt": "2026-08-13 13:30",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Ale uderzenie czym? Nowymi pożyczonymi akcjami i zwiększenie pozycji? Bo te 6370000 to już sprzedali skoro jest to w wykazie KNF. Teraz mogą wrzucać kolejne nowo pożyczone sztuki lub manipulować kursem wrzucając zlecenia-straszaki. Lub oczywiście mogą zacząć skup, ale to chyba jeszcze nie ten moment.",
+      "id": "75421121",
+      "author": "ja",
+      "postedAt": "2026-08-12 22:02",
+      "threadTitle": "Re: Zaczęło się!",
+      "url": "https://www.bankier.pl/forum/temat_zaczelo-sie,75419489.html",
+      "body": "Dokładnie, to informacja na stan 30 czerwca, więc podsumowanie całego 1 półrocza. Równie dobrze mogli zredukować pozycje przy 40+ przed wynikami w marcu. Natomiast ewidentnie widać po obrotach, że od dołka 26.89 ktoś namiętnie skupuje, bo ulica takiego obrotu nie robi jak sentyment był tragiczny przy poziomie 26-28 ;] Jeden fundusz wyszedł, inny wszedł i to za znacznie większą ilość niż te 7mil od Norwegów",
       "votes": {
-        "up": 4,
-        "down": 0
+        "up": 0,
+        "down": 1
       },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75426953",
-      "author": "Cma",
-      "postedAt": "2026-08-13 12:59",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Czyli Qube tyle akcji sprzedal na GPW, powodujac spadki ceny.Teraz tyle samo bedzie musial kupic, powodujac wzrosty.",
-      "votes": {
-        "up": 7,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75426945",
-      "author": "mabmab",
-      "postedAt": "2026-08-13 12:59",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Lejsiku nie mam konsekwentnie Dino zgodnie z zasada kupuj w cenie po ktorej chcesz kupic . I rozwiazanie 0.65%xilosc akcji w obrocie. Ale dla okreslenia wplywu trzeba to odniesc tylko do najwyzej 50% akcji w obrocie....czekam na moment w ktorym Q zdecyduje sie uderzenie w 1 sesji.Jak pisalem dla mnie XTB porownaj stopy zwrotu 3M dla DNP i XTB. Nawet na kolkach takiej stopy jak na XTB nie realizowales.",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75426383",
-      "author": "Lejs",
-      "postedAt": "2026-08-13 12:10",
-      "threadTitle": "Re: 6 370 000",
-      "url": "https://www.bankier.pl/forum/temat_6-370-000,75422867.html",
-      "body": "Wyniki mogą być słabe jak ostatnie na Jeronimo ale kurs wtedy zareagował na opak.??? Zależy od fantazji grubych portfeli",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
+      "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
     }
   ]
