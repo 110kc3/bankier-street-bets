@@ -3,11 +3,11 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-08-19T07:05:54.205Z",
+  "updatedAt": "2026-08-19T13:08:14.138Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-19T07:05:54.205Z",
+    "fetchedAt": "2026-08-19T13:08:14.138Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.158,
-    "confidence": 0.76,
-    "commentCount": 118,
+    "score": 0.152,
+    "confidence": 0.75,
+    "commentCount": 119,
     "breakdown": {
       "positive": 39,
       "negative": 17,
-      "neutral": 62
+      "neutral": 63
     },
     "trend": [
       {
@@ -128,10 +128,15 @@
         "date": "2026-08-17",
         "score": 0.453,
         "count": 2
+      },
+      {
+        "date": "2026-08-19",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 118 komentarzy z ostatnich 30 dni: nastroje pozytywne (39 pozytywnych, 17 negatywnych, 62 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 119 komentarzy z ostatnich 30 dni: nastroje pozytywne (39 pozytywnych, 17 negatywnych, 63 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wrona",
@@ -176,6 +181,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75485617",
+      "author": "Misiek",
+      "postedAt": "2026-08-19 14:18",
+      "threadTitle": "Re: I tak będzie 7 z przodu",
+      "url": "https://www.bankier.pl/forum/temat_i-tak-bedzie-7-z-przodu,75228273.html",
+      "body": "Coś trzyma kurs za ryło...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75464611",
       "author": "Misiek",
@@ -604,7 +623,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekomendacja,74959355.html",
       "body": "12 mcy wg analittka citi. A czy to bedzie za miesiac czy za 10 to nawet ten analityk pewnie nie wie.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,

@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-08-19T07:05:59.193Z",
+  "updatedAt": "2026-08-19T13:08:19.372Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-19T07:05:59.193Z",
+    "fetchedAt": "2026-08-19T13:08:19.372Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.008,
-    "confidence": 0.7,
-    "commentCount": 107,
+    "score": -0.016,
+    "confidence": 0.71,
+    "commentCount": 108,
     "breakdown": {
-      "positive": 31,
-      "negative": 20,
-      "neutral": 56
+      "positive": 32,
+      "negative": 22,
+      "neutral": 54
     },
     "trend": [
       {
         "date": "2026-07-20",
         "score": 0,
-        "count": 3
+        "count": 1
       },
       {
         "date": "2026-07-21",
@@ -143,17 +143,26 @@
         "date": "2026-08-18",
         "score": -0.118,
         "count": 7
+      },
+      {
+        "date": "2026-08-19",
+        "score": -0.107,
+        "count": 3
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 107 komentarzy z ostatnich 30 dni: nastroje mieszane (31 pozytywnych, 20 negatywnych, 56 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 108 komentarzy z ostatnich 30 dni: nastroje mieszane (32 pozytywnych, 22 negatywnych, 54 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "sierpnia",
-        "count": 7
+        "count": 8
       },
       {
         "word": "dobrze",
+        "count": 7
+      },
+      {
+        "word": "papier",
         "count": 6
       },
       {
@@ -161,7 +170,15 @@
         "count": 6
       },
       {
-        "word": "papier",
+        "word": "obroty",
+        "count": 5
+      },
+      {
+        "word": "rynek",
+        "count": 5
+      },
+      {
+        "word": "proc",
         "count": 5
       },
       {
@@ -175,22 +192,52 @@
       {
         "word": "mysle",
         "count": 4
-      },
-      {
-        "word": "sprzedalem",
-        "count": 4
-      },
-      {
-        "word": "proc",
-        "count": 4
-      },
-      {
-        "word": "roku",
-        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75482839",
+      "author": "Qwerty",
+      "postedAt": "2026-08-19 11:26",
+      "threadTitle": "Re: Czemu to spada?",
+      "url": "https://www.bankier.pl/forum/temat_czemu-to-spada,75482331.html",
+      "body": "Dzięki za odpowiedź. W sumie racja z konsolidacja.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75482631",
+      "author": "Kurator",
+      "postedAt": "2026-08-19 11:15",
+      "threadTitle": "Re: Czemu to spada?",
+      "url": "https://www.bankier.pl/forum/temat_czemu-to-spada,75482331.html",
+      "body": "Prawdopodobnie konsolidacja. Przecież odbiło od 18010 do 22600 w miesiąc. Papier jeszcze ma potencjał moim zdaniem. Słabiutkie teraz obroty. W drugiej połowie sierpnia mieli uruchomić nową platformę sprzedażową Jest szansa że jeśli to potwierdzą i powiedzą coś więcej rynek przyjmie to dobrze i się zainteresuje. Czytaj wzrost obrotów i wzrost kursu. Bardziej jednak obecnie skłaniałbym się w kierunku głębszej korekty. I dopiero od 20k zaczniemy we wrześniu odbijać po publikacji pełnego raportu za pierwsze półrocze. Jeśli marzowość potwierdzą w widełkach 56-57proc będzie dobrze.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75482331",
+      "author": "Qwerty",
+      "postedAt": "2026-08-19 10:59",
+      "threadTitle": "Czemu to spada?",
+      "url": "https://www.bankier.pl/forum/temat_czemu-to-spada,75482331.html",
+      "body": "Nie do końca rozumiem?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75475553",
       "author": "halusia54",
@@ -1657,34 +1704,6 @@
       "votes": {
         "up": 5,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75185701",
-      "author": "Krystian",
-      "postedAt": "2026-07-20 15:08",
-      "threadTitle": "2q 650 mln wpadnie!",
-      "url": "https://www.bankier.pl/forum/temat_2q-650-mln-wpadnie,75185701.html",
-      "body": "Spółka tania przy żabce czy allegro....",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75185647",
-      "author": "gordon555",
-      "postedAt": "2026-07-20 15:04",
-      "threadTitle": "Re: Lpp w 2026r zarobi 2.2 mld pln",
-      "url": "https://www.bankier.pl/forum/temat_lpp-w-2026r-zarobi-2-2-mld-pln,75059149.html",
-      "body": "mi wystarczy 2,2mld pln.....",
-      "votes": {
-        "up": 0,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
