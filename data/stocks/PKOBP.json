@@ -3,32 +3,27 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-08-19T18:54:28.721Z",
+  "updatedAt": "2026-08-20T01:52:12.326Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-19T18:54:28.721Z",
+    "fetchedAt": "2026-08-20T01:52:12.326Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 16
+    "threadsScanned": 17
   },
   "analysis": {
-    "signal": "BUY",
-    "score": 0.156,
-    "confidence": 0.61,
-    "commentCount": 39,
+    "signal": "HOLD",
+    "score": 0.141,
+    "confidence": 0.6,
+    "commentCount": 37,
     "breakdown": {
-      "positive": 23,
-      "negative": 5,
+      "positive": 22,
+      "negative": 4,
       "neutral": 11
     },
     "trend": [
-      {
-        "date": "2026-08-12",
-        "score": 0,
-        "count": 3
-      },
       {
         "date": "2026-08-13",
         "score": 0.43,
@@ -63,14 +58,27 @@
         "date": "2026-08-19",
         "score": 0,
         "count": 6
+      },
+      {
+        "date": "2026-08-20",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 39 komentarzy z ostatnich 7 dni: nastroje pozytywne (23 pozytywnych, 5 negatywnych, 11 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 37 komentarzy z ostatnich 7 dni: nastroje pozytywne (22 pozytywnych, 4 negatywnych, 11 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "bank",
         "count": 4
+      },
+      {
+        "word": "konca",
+        "count": 3
+      },
+      {
+        "word": "roku",
+        "count": 3
       },
       {
         "word": "zysk",
@@ -93,24 +101,30 @@
         "count": 3
       },
       {
-        "word": "wyniki",
-        "count": 3
+        "word": "zaczyna",
+        "count": 2
       },
       {
         "word": "zagranica",
-        "count": 2
-      },
-      {
-        "word": "ponad",
-        "count": 2
-      },
-      {
-        "word": "info",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75492207",
+      "author": "Herman",
+      "postedAt": "2026-08-20 03:36",
+      "threadTitle": "Pięknie",
+      "url": "https://www.bankier.pl/forum/temat_pieknie,75492207.html",
+      "body": "170 zł do końca roku ,zaczyna robić się ciekawie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75490531",
       "author": "Mateks",
@@ -119,7 +133,7 @@
       "url": "https://www.bankier.pl/forum/temat_bedzie-ciekawy-ten-krach,75490531.html",
       "body": "Zaczyna się od obligacji",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -190,7 +204,7 @@
       "body": "U Gozdyry tak beda finsnsowac zmiane progów",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -613,48 +627,6 @@
         "down": 0
       },
       "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75421525",
-      "author": "Ribbentrop",
-      "postedAt": "2026-08-12 23:19",
-      "threadTitle": "Re: wyniki za półrocze 26",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-polrocze-26,75420729.html",
-      "body": "jutro petarda, sciana sie jeszxze nie zawali, wspinaczka po scianie strachu ciagle trwa",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75421305",
-      "author": "Rg",
-      "postedAt": "2026-08-12 22:30",
-      "threadTitle": "Re: wyniki za półrocze 26",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-polrocze-26,75420729.html",
-      "body": "Jutro jazda w dół",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75420729",
-      "author": "akcjonariusz",
-      "postedAt": "2026-08-12 21:08",
-      "threadTitle": "wyniki za półrocze 26",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-polrocze-26,75420729.html",
-      "body": "Jutro wyniki za półrocze 26 i dywidenda.Czy po 2 kwartałach będzie 5 mld zysku?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
     }
   ]
