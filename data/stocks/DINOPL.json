@@ -3,94 +3,864 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-08-20T07:05:59.630Z",
+  "updatedAt": "2026-08-20T13:10:40.041Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-20T07:05:59.630Z",
+    "fetchedAt": "2026-08-20T13:10:40.041Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 82
+    "threadsScanned": 83
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.022,
+    "score": 0.014,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
       "positive": 52,
-      "negative": 39,
-      "neutral": 109
+      "negative": 38,
+      "neutral": 110
     },
     "trend": [
       {
         "date": "2026-08-17",
-        "score": 0.022,
-        "count": 7
-      },
-      {
-        "date": "2026-08-18",
-        "score": 0.004,
-        "count": 98
-      },
-      {
-        "date": "2026-08-19",
-        "score": 0.031,
-        "count": 88
-      },
-      {
-        "date": "2026-08-20",
-        "score": 0.046,
-        "count": 7
-      }
-    ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (52 pozytywnych, 39 negatywnych, 109 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
-    "topKeywords": [
-      {
-        "word": "dino",
-        "count": 24
-      },
-      {
-        "word": "qube",
-        "count": 16
-      },
-      {
-        "word": "wyniki",
-        "count": 11
-      },
-      {
-        "word": "polski",
+        "score": 0.015,
         "count": 10
       },
       {
+        "date": "2026-08-18",
+        "score": 0.036,
+        "count": 57
+      },
+      {
+        "date": "2026-08-19",
+        "score": 0.03,
+        "count": 71
+      },
+      {
+        "date": "2026-08-20",
+        "score": -0.003,
+        "count": 62
+      }
+    ],
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (52 pozytywnych, 38 negatywnych, 110 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "topKeywords": [
+      {
+        "word": "dino",
+        "count": 27
+      },
+      {
+        "word": "qube",
+        "count": 17
+      },
+      {
+        "word": "wyniki",
+        "count": 16
+      },
+      {
         "word": "dzis",
-        "count": 9
+        "count": 10
       },
       {
         "word": "piatek",
         "count": 9
       },
       {
-        "word": "albo",
+        "word": "gory",
         "count": 8
       },
       {
-        "word": "jaki",
-        "count": 8
+        "word": "tyle",
+        "count": 7
       },
       {
-        "word": "maja",
-        "count": 8
+        "word": "rynku",
+        "count": 7
       },
       {
-        "word": "wiecej",
-        "count": 8
+        "word": "raport",
+        "count": 7
+      },
+      {
+        "word": "wynikow",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75500011",
+      "author": "Ccc",
+      "postedAt": "2026-08-20 15:01",
+      "threadTitle": "Re: POD RAPORT",
+      "url": "https://www.bankier.pl/forum/temat_pod-raport,75498699.html",
+      "body": "Dokładnie, jeszcze na 31 się zamknie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75499767",
+      "author": "doniek88",
+      "postedAt": "2026-08-20 14:48",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Skoro tak uważasz, to się już nie produkuj.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75499679",
+      "author": "Misiu",
+      "postedAt": "2026-08-20 14:43",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Szkoda kontynuować rozmowę z tobą. Sam bełkot. Zero logiki.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75499673",
+      "author": "doniek88",
+      "postedAt": "2026-08-20 14:43",
+      "threadTitle": "Re: Ja obstawiam wyniki lekko na plus, ale spadek kursu mimo to.",
+      "url": "https://www.bankier.pl/forum/temat_ja-obstawiam-wyniki-lekko-na-plus-ale-spadek-kursu-mimo-to,75499453.html",
+      "body": "To jesteś w ciąży, czy tylko trochę?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75499647",
+      "author": "doniek88",
+      "postedAt": "2026-08-20 14:41",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Taaa, powiedział co wiedział, wspiął się na swój szczyt i tyle w temacie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75499621",
+      "author": "Ziutek",
+      "postedAt": "2026-08-20 14:40",
+      "threadTitle": "Skasowali mój wątek, bo prawda strasznie w ocy kole.",
+      "url": "https://www.bankier.pl/forum/temat_skasowali-moj-watek-bo-prawda-strasznie-w-ocy-kole,75499621.html",
+      "body": "Teraz będą chcieli mnie aresztować za dziadka w Powstaniu Warszawskim.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75499593",
+      "author": "Lejs",
+      "postedAt": "2026-08-20 14:39",
+      "threadTitle": "Re: Ja obstawiam wyniki lekko na plus, ale spadek kursu mimo to.",
+      "url": "https://www.bankier.pl/forum/temat_ja-obstawiam-wyniki-lekko-na-plus-ale-spadek-kursu-mimo-to,75499453.html",
+      "body": "...ale będę szczery.60/40 że jutro wzrost !!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75499559",
+      "author": "klozetowa",
+      "postedAt": "2026-08-20 14:38",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Piekne podsumowanie inwestorow na forum z goralami pozdrawiam",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75499497",
+      "author": "Lejs",
+      "postedAt": "2026-08-20 14:34",
+      "threadTitle": "Re: Ja obstawiam wyniki lekko na plus, ale spadek kursu mimo to.",
+      "url": "https://www.bankier.pl/forum/temat_ja-obstawiam-wyniki-lekko-na-plus-ale-spadek-kursu-mimo-to,75499453.html",
+      "body": "Zdrowiej by było dla analizy gdyby zaliczyli jutro 30 PLN ...",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75499251",
+      "author": "doniek88",
+      "postedAt": "2026-08-20 14:21",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Zdziwisz się, z myfund obecnie cagr 108,64Aż bym ci screena strzelił jakby się dało, to może byś przemyślał logikę.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75499225",
+      "author": "Misiu",
+      "postedAt": "2026-08-20 14:20",
+      "threadTitle": "Re: Pełne sterowanie kursem",
+      "url": "https://www.bankier.pl/forum/temat_pelne-sterowanie-kursem,75495703.html",
+      "body": "Tyle razy ci mówiłem co to jest. Niektórzy są nieedukowalni.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75499199",
+      "author": "Misiu",
+      "postedAt": "2026-08-20 14:18",
+      "threadTitle": "Re: POD RAPORT",
+      "url": "https://www.bankier.pl/forum/temat_pod-raport,75498699.html",
+      "body": "Założę się, że nic takiego się dzisiaj nie wydarzy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75499143",
+      "author": "Misiu",
+      "postedAt": "2026-08-20 14:16",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Może i nie rozumiem, ale na koncie inwestycyjnym jestem na dużym plusie, a ty jak? Więc może lepiej, żebym nie rozumiał twojej pokrętnej logiki.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75499097",
+      "author": "doniek88",
+      "postedAt": "2026-08-20 14:12",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Nie wiem gdzie tu brak logiki, może nie rozumiesz, trudno.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75498775",
+      "author": "Misiu",
+      "postedAt": "2026-08-20 13:52",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Jak wyniki będą lekko na plus, niektórzy mogą je uznać za zbyt słabe, i będą sprzedawać, do czego chętnie dołączy się short zbijając kurs, żeby potem nisko odkupić.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75498771",
+      "author": "rysorl",
+      "postedAt": "2026-08-20 13:51",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "górale mówili, że 26.10.2026 bedzie padać lub nie będzie padać.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75498727",
+      "author": "Misiu",
+      "postedAt": "2026-08-20 13:48",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Brak logiki w tym rozumowaniu: \"Jakby mieli przeciek, to by zbili.\" Bez przecieku tak samo powinni próbować zbijać. Wg mnie wyniki będą lekko na plus. Stąd reakcja rynku jest trudna do określenia.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75498699",
+      "author": "rekuM",
+      "postedAt": "2026-08-20 13:47",
+      "threadTitle": "POD RAPORT",
+      "url": "https://www.bankier.pl/forum/temat_pod-raport,75498699.html",
+      "body": "Zaraz gra pod raport na 35.xx",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75498269",
+      "author": "doniek88",
+      "postedAt": "2026-08-20 13:19",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Jakby mieli przeciek to już dawno by zbili na 31, mi to trochę wygląda jak zrzucanie akcji i odbieranie niżej, może shorty próbują zbalansować pozycję, okaże się za kilka godzin",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75497901",
+      "author": "Ccc",
+      "postedAt": "2026-08-20 13:00",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Pora ewakuować się. Ktoś dostał przeciek i powoli kurs się załamuje. Wczoraj na kghm było na odwrót, co świadczy o tym, że dino bedzie miało tragiczne wyniki",
+      "votes": {
+        "up": 1,
+        "down": 6
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75497667",
+      "author": "xyz",
+      "postedAt": "2026-08-20 12:45",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Moim zdaniem wynik będzie dobry albo taki, który w poniedziałek da zieleń.Za mały dziś ruch i nie ma paniki, a piniądz lubi spokój",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75497475",
+      "author": "Monia",
+      "postedAt": "2026-08-20 12:34",
+      "threadTitle": "Re: 32.4/31.80/30.40 Pln",
+      "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
+      "body": "Ale nie wszystkie grube ryby grają do jednej bramki. Więc szorty mogą redukować pozycje, bo inne grubasy mogą grać przeciwko nim.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75497423",
+      "author": "Monia",
+      "postedAt": "2026-08-20 12:31",
+      "threadTitle": "Re: 32.4/31.80/30.40 Pln",
+      "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
+      "body": "No tak, wiadomo, że dobre wyniki to pretekst to wzrostów lub spadków, wszystko zależy, co grubasy zadecydują",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75497025",
+      "author": "Kurator",
+      "postedAt": "2026-08-20 12:05",
+      "threadTitle": "Re: 32.4/31.80/30.40 Pln",
+      "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
+      "body": "Ja dobrałem. Może stracę. Trudno. To jest gra.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75496967",
+      "author": "Lejs",
+      "postedAt": "2026-08-20 12:03",
+      "threadTitle": "Re: 32.4/31.80/30.40 Pln",
+      "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
+      "body": "Jakie widły? Do perzu czy do siana ?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75496923",
+      "author": "Kurator",
+      "postedAt": "2026-08-20 12:00",
+      "threadTitle": "Re: 32.4/31.80/30.40 Pln",
+      "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
+      "body": "Nastroje na konsensus za 2Q w dino anale już schłodziły. Tu odbicie w Dino może mieć korzystne rozstrzygnięcie np. W procesie sprzedaży w Żabka Polska. Zatem ulica może się przyglądać co misie przygotują i karawana pojedzie na północ lub południe. Być dziś z grubą kasą w Dino to trzeba mieć kohones. Jutro zobaczymy bo samo pokazanie wyników nic tu nie przesadzi. Jutro na otwarciu mogą być widły.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75496831",
+      "author": "Monia",
+      "postedAt": "2026-08-20 11:51",
+      "threadTitle": "Re: 32.4/31.80/30.40 Pln",
+      "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
+      "body": "A moja teoria jest taka, że short manipuluje kursem, bo odkupuje akcje przed wynikami, i chce zakończyć dziś do końca dnia, gdyż ryzyko jest za duże w przypadku dobrych wyników. A spanikowana ulica podaje Qube akcje na tacy widząc, że kurs spada. Oczywiście mogę się mylić :D",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75496815",
+      "author": "Cma",
+      "postedAt": "2026-08-20 11:50",
+      "threadTitle": "Re: 32.4/31.80/30.40 Pln",
+      "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
+      "body": "Wczoraj nawet kierunku nie odgadles. Mial byc spadek a byl wzrost.Wiec co znaczy, ze jak po sznurku?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75496813",
+      "author": "Squeez",
+      "postedAt": "2026-08-20 11:50",
+      "threadTitle": "Re: 32.4/31.80/30.40 Pln",
+      "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
+      "body": "Idź stąd",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75496699",
+      "author": "mabmab",
+      "postedAt": "2026-08-20 11:43",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "podrzucam pomysl - kupcie sobie takie torby z dawnego Media Markt tylko zmiencie haslo na only for iDinotow",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75496663",
+      "author": "mabmab",
+      "postedAt": "2026-08-20 11:41",
+      "threadTitle": "Re: Dino partnerem Zero/Dexter",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "Dexsiu zatem nie placz ,że Dino na czerwono wszak liczy sie dokladanie kasy . A poczekaj no na skutki puszki pandory i się bardzo zdziwisz oj zdziwisz moj ty \"prawiczku\"",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75496553",
+      "author": "Wojtek",
+      "postedAt": "2026-08-20 11:35",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "A kogo to interesuje .",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75496563",
+      "author": "Wojtek",
+      "postedAt": "2026-08-20 11:35",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "Bilbon",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75496503",
+      "author": "Lejs",
+      "postedAt": "2026-08-20 11:31",
+      "threadTitle": "Re: 32.4/31.80/30.40 Pln",
+      "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
+      "body": "Idzie jak po sznurku.Dzis 31.80 wg.planu Lejsa ..",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75496265",
+      "author": "bilbon",
+      "postedAt": "2026-08-20 11:15",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "Problem z Kanałem Zero polega na tym, że moim zdaniem często nie pokazują odbiorcy pełnego obrazu, tylko selekcjonują informacje i podają je w określonej interpretacji. Dobrym przykładem jest wywiad z Jaszczurem. Całe nagranie zostało zrealizowane, ale widzom pokazano jedynie wybrane fragmenty, a następnie przedstawiono własną interpretację tego, co w jego wypowiedziach jest prawdą, a co fałszem. W efekcie odbiorca nie ma możliwości samodzielnie ocenić całej rozmowy i wyrobić sobie zdania na podstawie pełnego kontekstu.I właśnie tutaj pojawia się największy problem. Manipulacja nie zawsze polega na powiedzeniu nieprawdy. Czasami wystarczy odpowiednio dobrać prawdziwe informacje, pominąć inne i narzucić odbiorcy sposób ich interpretowania.Podobnie jest w przypadku niektórych tematów geopolitycznych. Przykładowo, gdy poruszany jest temat laboratoriów biologicznych związanych z Rosją, można odnieść wrażenie, że przedstawiany jest tylko jeden fragment większej historii, podczas gdy kwestia laboratoriów biologicznych na Ukrainie i współpracy z USA wymaga szerszego przedstawienia i odpowiedniego kontekstu. Nie chodzi o to, żeby automatycznie uznawać którąkolwiek wersję za prawdziwą, ale żeby pokazać wszystkie istotne fakty i pozwolić odbiorcy samemu wyciągnąć wnioski.I co ważne moim zdaniem można być naprawdę niezależnym. Pokazał to choćby Żurnalista, który udowodnił, że można prowadzić rozmowy bez konieczności wpisywania ich w z góry przyjętą narrację i bez wyręczania odbiorcy w decydowaniu, co ma uznać za prawdę, a co za fałsz.Dlatego mam problem z przedstawianiem Kanału Zero jako medium całkowicie niezależnego. Niezależność to nie tylko odejście od narracji mainstreamowych. To również gotowość do pokazania niewygodnych faktów wtedy, gdy nie pasują do własnej narracji. Można krytykować jedne media za manipulację, a jednocześnie samemu popaść w podobny mechanizm tylko z innym zestawem poglądów.",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75496193",
+      "author": "Sprytna_Kasia",
+      "postedAt": "2026-08-20 11:09",
+      "threadTitle": "Re: Popyt daje popis . Qube dostanie kolejną lekcję",
+      "url": "https://www.bankier.pl/forum/temat_popyt-daje-popis-qube-dostanie-kolejna-lekcje,75494791.html",
+      "body": "Ale tylko jego cześć zahacza o akcje.)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75496037",
+      "author": "zeXon",
+      "postedAt": "2026-08-20 11:00",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "w calym zachodnim swiecie, nikogo nie trzeba przekonywac, zeby kupowac wlasne produkty a nie zagraniczne. Troche po swiecie pojezdzilem i widze: Wloch woli wloskie, Francuz francuskie, Niemiec niemieckie produkty. Tylko Polakom tak wyprali mozgi, ze polowa ludzi woli zagraniczne. OK, samochodu polskiej marki nie da sie kupic i wielu innech rzeczy. Ale przynajmniej spozywke ZAWSZE bede kupowal w polskim sklepie zamiast Lidlow, boedronkow, kauflandow auchanow czY innych Aldi. Mam nadzieje, ze kiedys i lewacy to zrozumieją. Tymczasem, kanal ZERO uważam za mega przydatny w naswietlaniu wszelkich bzdur. czy lewej czY prawej strony. tak 3mać",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75496013",
+      "author": "Geniusz",
+      "postedAt": "2026-08-20 10:59",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Skąd wiesz że na taki się zanosi?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75495843",
+      "author": "Eustachy",
+      "postedAt": "2026-08-20 10:49",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "Jedziemy z lewactwem, Biernacki - super decyzja",
+      "votes": {
+        "up": 3,
+        "down": 4
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75495703",
+      "author": "Radi",
+      "postedAt": "2026-08-20 10:41",
+      "threadTitle": "Pełne sterowanie kursem",
+      "url": "https://www.bankier.pl/forum/temat_pelne-sterowanie-kursem,75495703.html",
+      "body": "od kilkunastu sesji caly czas leca jakies smieszne transakcje po 1 2 5 czy 7 akcji. zabawa czy jakies znaki, nie wiem ale kurs jest ewidentnie sterowany i caly czas pod kontola",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75495471",
+      "author": "Dexter",
+      "postedAt": "2026-08-20 10:27",
+      "threadTitle": "Re: Szału zakupowego nie ma. Nastroje średnie jak widać .",
+      "url": "https://www.bankier.pl/forum/temat_szalu-zakupowego-nie-ma-nastroje-srednie-jak-widac,75484239.html",
+      "body": "tragedia, stąd statystyki dlaczego tylu traci",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75495457",
+      "author": "Józef",
+      "postedAt": "2026-08-20 10:26",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "Marketingowo świetna decyzja z kanałem Zero. Co do polityki i Kanału Zero...nie ma medium neutralnego politycznie , w Kanale Zero widzę najwięcej zdrowego rozsądku.",
+      "votes": {
+        "up": 8,
+        "down": 6
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75495447",
+      "author": "Dexter",
+      "postedAt": "2026-08-20 10:26",
+      "threadTitle": "Re: Szału zakupowego nie ma. Nastroje średnie jak widać .",
+      "url": "https://www.bankier.pl/forum/temat_szalu-zakupowego-nie-ma-nastroje-srednie-jak-widac,75484239.html",
+      "body": "Black rock budując longa nie musi nic raportować",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75495409",
+      "author": "Dexter",
+      "postedAt": "2026-08-20 10:23",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "lewactwo to rak",
+      "votes": {
+        "up": 8,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75495373",
+      "author": "Dexter",
+      "postedAt": "2026-08-20 10:21",
+      "threadTitle": "Re: Dino partnerem Zero/Ms",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "tam jeszcze mają zdrowy rozum nie wyprany przez lewackie bzdety",
+      "votes": {
+        "up": 10,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75495343",
+      "author": "Dexter",
+      "postedAt": "2026-08-20 10:20",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "dobrze że nie w TVN i TVNbis dość popisu. tylko KKP!",
+      "votes": {
+        "up": 9,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75495157",
+      "author": "Kurator",
+      "postedAt": "2026-08-20 10:13",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Biedna ma wskaźniki zadłużenie dużo wyższe niż dino. Rynek obecnie w rozkroku. Bank mają się dobrze i wszystko wskazuje że będą mieć jeszcze lepiej bo stopy utrzymają się a nawet wzrosną. Rosnące stopy to szansa dla dino względem konkurencji ale już dla konsumentów gorzej. Ogolnie wiele sieci handlowych w europie chciało by być na miejscu dino, niskie zadłużenie, jest jeszcze spory bufor na rozwój (Polska wschodnia plus mazowsze). Trochę gotowych działek do odpalenia stacji paliw. Czego chcieć więcej. Cena akcji to dla właściciela obecnie rzecz drugorzędna (niestety dla akcjonariuszy) bo nie zestawu na wartości akcji. Tak to wygląda.",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75494905",
+      "author": "Yan",
+      "postedAt": "2026-08-20 10:01",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Czy Wy potraficie zrobic tak podstawoową rzeczy jak czytanie wyników? Wyniki biedry w kontekscie rynku były bardzo pozytywne - chroni marze przy zmniejszonej sorzedazy.. a dino - tu jest wlasnie dramat bo rosnie niby ale realnie EBITDA leci i to pokazuje ze nie umieja przelozyc wzrostu na zysk...",
+      "votes": {
+        "up": 2,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75494791",
+      "author": "griszunia",
+      "postedAt": "2026-08-20 09:55",
+      "threadTitle": "Popyt daje popis . Qube dostanie kolejną lekcję",
+      "url": "https://www.bankier.pl/forum/temat_popyt-daje-popis-qube-dostanie-kolejna-lekcje,75494791.html",
+      "body": "Pieniądz zawsze silniejszy od akcjii, jest go ilość nieograniczona",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75494575",
+      "author": "Bart",
+      "postedAt": "2026-08-20 09:45",
+      "threadTitle": "Re: Dziś raport",
+      "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
+      "body": "Wyniki Biedronki i spekulacje medialne nie wróżą niczego dobregoA nie jest tak przypadkiem że wyniki Biedry są gorsze bo Dino wygryza Biedrę z rynku? I co dla jednych jest problemem dla drugich jest sukcesem ;)",
+      "votes": {
+        "up": 8,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75494391",
+      "author": "Ppp",
+      "postedAt": "2026-08-20 09:38",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "Chyba przesadzasz. Każda marka kogoś faworyzuje choćby przez to u kogo się reklamuje, a to przecież są niemałe pieniądze. Każda marka ma preferencje polityczne, które eksponuje na różny sposób. Jedni na lewo drudzy na prawo. Tak jest w całym zachodnim świecie.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75494289",
+      "author": "Ms",
+      "postedAt": "2026-08-20 09:33",
+      "threadTitle": "Re: Dino partnerem Zero/Ms",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "Elektorat prawicowy jest w małych i miastach i wsiach... resztę dopowiedz sb sam",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75494223",
+      "author": "mabmab",
+      "postedAt": "2026-08-20 09:30",
+      "threadTitle": "Re: Dino partnerem Zero/Ms",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "labelled\"not for sale\"! zadaj sobie pytanie dlaczego konkurencja Dino nie ryzykuje reputacyjnie wystawiajac sie na 0",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75494169",
+      "author": "Ms",
+      "postedAt": "2026-08-20 09:28",
+      "threadTitle": "Re: Dino partnerem Zero",
+      "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
+      "body": "Biernacki to mój mentor i kupił ny Cie do 5 pokolenia wstecz . Tylko po co mu ,,takie zera\"",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75494115",
+      "author": "Przemo",
+      "postedAt": "2026-08-20 09:25",
+      "threadTitle": "Re: Fenomenalne wyniki spółki BSH. Jedna z lepszych spółek.",
+      "url": "https://www.bankier.pl/forum/temat_fenomenalne-wyniki-spolki-bsh-jedna-z-lepszych-spolek,75469027.html",
+      "body": "A jescze idzie EL NINO, które zapewne mocno podkręci temat chłodzenia.Warto pomyśleć o tym wcześniej :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75493613",
       "author": "mabmab",
@@ -100,7 +870,7 @@
       "body": "Poczekaj co przyniesie puszka pandory po aresztowaniu Stuu",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -113,7 +883,7 @@
       "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
       "body": "Bardzo dobre posuniecie, zobacz ile kanal zero ma subow",
       "votes": {
-        "up": 1,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -127,7 +897,7 @@
       "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
       "body": "Tym bardziej że jeżeli mówimy o ostatnich wynikach to Dino wypadło lepiej od Biedry",
       "votes": {
-        "up": 0,
+        "up": 11,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -141,8 +911,8 @@
       "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
       "body": "Bezsensu posunięcie aby promować Dino przez 0... Nie ma złudzeń kto to Biernacki. Ale adekwatnie do wartości Dino zero ciąży ku zeru",
       "votes": {
-        "up": 2,
-        "down": 2
+        "up": 3,
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -155,7 +925,7 @@
       "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
       "body": "Bardzo rzeczowa analiza, dużo wnosi do dyskusji na forum, w skrócie: będzie, albo nie",
       "votes": {
-        "up": 0,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -169,8 +939,8 @@
       "url": "https://www.bankier.pl/forum/temat_dzis-raport,75493077.html",
       "body": "Po 17 Dino pokaże wyniki za I półrocze. Wielu spekulantów tu piszących zastanawia się jaki on będzie.. Wyniki Biedronki i spekulacje medialne nie wróżą niczego dobrego. Jeśli zysk będzie poniżej konsensusu - a na taki się zanosi, to nie będzie wykluczone ,że znowu zobaczymu kurs z 2 ... z przodu. QUBE już o to zadba.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 9
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -183,8 +953,8 @@
       "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
       "body": "To będziesz musiał wyjść ze stratą,twoja wola",
       "votes": {
-        "up": 2,
-        "down": 1
+        "up": 9,
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -197,8 +967,8 @@
       "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
       "body": "Dino na pewno zmartwi się twoją decyzją.",
       "votes": {
-        "up": 6,
-        "down": 2
+        "up": 14,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -211,39 +981,11 @@
       "url": "https://www.bankier.pl/forum/temat_dino-partnerem-zero,75491831.html",
       "body": "Moje zaniepokojenie wynika z faktu, że wspomniane medium regularnie dotyka tematów stricte politycznych i manipulujacych społeczeństwo. Jako akcjonariusz uważam, że marka Dino powinna pozostać w 100% neutralna, aby nie zrażać do siebie żadnej grupy klientów ani inwestorów instytucjonalnych.Tego typu kampanie wizerunkowe oceniam jako działanie na szkodę stabilnego postrzegania spółki. Jeżeli intencją spółki jest trwałe wejście w obszar marketingu zaangażowanego politycznie, z żalem podejmę decyzję o wycofaniu całego mojego kapitału i sprzedaży akcji Dino.Będę wdzięczny za informację, czy zarząd planuje rewizję polityki sponsoringowej pod kątem unikania projektów budzących kontrowersje światopoglądowe.",
       "votes": {
-        "up": 7,
-        "down": 4
+        "up": 12,
+        "down": 8
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75491631",
-      "author": "MK",
-      "postedAt": "2026-08-19 22:38",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Dziwny ten wątek…",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75491499",
-      "author": "Misiu",
-      "postedAt": "2026-08-19 22:19",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "To Batyr tam składał. :D",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75491429",
@@ -254,7 +996,7 @@
       "body": "Jakie 5 dni? Jeden dzień.",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -283,20 +1025,6 @@
       "votes": {
         "up": 0,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75490795",
-      "author": "mabmab",
-      "postedAt": "2026-08-19 20:57",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Szkoda czasu Rewizor zaproponował prosty test dla ziutka moj jeszcze prostszy ulica na której jego dziadek byl komendantem. Zbiory archiwum Muzeum Powstania Warszawskiego są w pełni zdigitalizowane odnalezienie kto to 5 sec. Ale koniec z polityka na tym forum",
-      "votes": {
-        "up": 1,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -407,7 +1135,7 @@
       "url": "https://www.bankier.pl/forum/temat_raport-o-ktorej,75488547.html",
       "body": "Oczywiście to grosze w skali, ale znam ludzi kupujących w innych sklepach napoje a butelki jadą oddawać do Dino, nie trzeba wrzucać pojedynczo plus bodajże nieograniczony czasowo kwit na zakupy, a nie jak u konkurencji 3o dni",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -421,7 +1149,7 @@
       "url": "https://www.bankier.pl/forum/temat_raport-o-ktorej,75488547.html",
       "body": "zyski z butelkomatów tego jest sporo .Dino pobiera opłatę od operatora systemu kaucyjnego za każdą zebraną sztukę ,Za obsługę , transport ,magazynowanie , prąd prace pracowników i jest tego więcej , Nawet jak butelkę do butelkomatu wkładasz dostajesz wydruk a jak popatrzysz na niego są na nim reklamy to też kosztuje i dino ma z tego profity . Dino jako jedyny chyba ma tak że nie ma terminu by zrealizować ten świstek więc można zrobić to np za 6 miesięcy biedronka czy lidl ma chyba 1 miesiąc i przepada. Dino ma też miejsca gdzie postawiła 2 a słyszałem że też 3 maszyny do butelek w nadmorskich miejscowościach i tam ogromny ruch bo mało jest butelkomatów a dino ma 24 na dobe więc ludzie masowo tam oddają . Transport dino nie wraca na pusto koszty paliwa itd. Oczywiście zarobiek na butelkach jest też taki że jak oddasz butelki to idziesz do sklepu i coś kupisz więc to też zysk przywiązanie do sklepu i podbieranie kliętów innym sklepom bo wiele nie ma butelkomatów a dino ma też takie co można cały worek wsypać i szybko Tomra r1 i tomra r 2 . Można pisać i pisać ale zysku jest z tego sporo dla dino",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -477,7 +1205,7 @@
       "url": "https://www.bankier.pl/forum/temat_szalu-zakupowego-nie-ma-nastroje-srednie-jak-widac,75484239.html",
       "body": "Jak nie ma szału zakupowego, codziennie fundusze pożyczają kilka milionów akcji do shortowania a kurs na zielono. Popyt jest duży, gdyby nie to to przez takie shortowanie spółki kurs byłby na czerwono.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": -0.87,
@@ -510,20 +1238,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75488835",
-      "author": "Cma",
-      "postedAt": "2026-08-19 17:48",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "20 października 2006 r.podczas nieformalnego szczytu Unii Europejskiej w Lahti Lech Kaczyński podszedł do Władimira Putina i wymienił z nim uścisk dłoni.A wasz idlol Trump juz po wbuchu wojny w Ukrainie, wital Putina na czerwonym dywanie, sciskal sie z nim i nazywa Putina przyjacielem. Pisze wasz idlol, bo to idol Republiki, PISu wiec zakladam, ze i Twoj.Ale juz sie nie denerwoj, juz niedlugo, PIS wroci do wladzy i zrealizuje polski punkt widzenia:zakupy broni nie w Polsce ale w Koreiii nie na 3% ale na 5-6%znowu wybuduja Ostroleke i ja zburza.w Radomi zburza lotnisko i wybuduja super-lotnisko.i przez kolejne 8 lat znow znajda lokalizacje na Izere, CPK, elektrownie atomowe, stocznie z zardzewiala stepka, Via Carpatie.I wszystko to zrobia tylko ci ludzie, ktorzy wlasnych dokonan nie maja, ale ich przodkowie walczyli w Powstaniu Warszawskim.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75488763",
@@ -568,62 +1282,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75488505",
-      "author": "tarfu",
-      "postedAt": "2026-08-19 17:23",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "> nie uczestniczy w uroczystościach państwowych, na przykład nie składa wieńca na Grobie Nieznanego Żołnierza.Woli składać na grobach obrońców Monte Casino :))))",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75488481",
-      "author": "mabmab",
-      "postedAt": "2026-08-19 17:21",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Nie do ciebie ten post oczywiście ale do Cma. A spisy pseudonimem są w Archiwum Powstania Warszawskiego . Dodatkowo wystarczy podać ulice na której jak piszesz twoj dziadek byl komendantem budynku aby poznać kto nim był. Nie sil się na odpowiedź. Słowo ijkofobia wywodzi się od greckiego oikos.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75488441",
-      "author": "mabmab",
-      "postedAt": "2026-08-19 17:17",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Pełna zgoda jak napisałem kazdy Mokotowianin dzis składa hold pamięci Wandzie ps.powstanczy Pączek...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75488431",
-      "author": "mabmab",
-      "postedAt": "2026-08-19 17:15",
-      "threadTitle": "Re: Ze trolle z PKN",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Powinno być Pączka...spoczywaj Wando w spokoju takich jak TY już nie ma i nie będzie.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75488215",
       "author": "Lejs",
       "postedAt": "2026-08-19 17:01",
@@ -650,20 +1308,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75488149",
-      "author": "Ziutek",
-      "postedAt": "2026-08-19 16:56",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "> To wlasnie ojkofobia, widzisz tylko zle rzeczy. W wiekszosci, te przestepstwa ktore opisales, to drobiazgi. Czy myslisz ze gdziekolwiek na swiecie nie ma lapowek, przkretow z panstwowymi pieniedzmi?> Te wszystkie afery, ktore wymieniles to promil, w porownaniu ze 2 miliardami strat na Ostrolece, 4 miliardami strat na sprzedazy czesci Lotosu, milionami z ustawianych przetargow z funduszu sprawiedliwosci czy chociaz ze zburzeniu lotniska w Radomiu, bo bylo deficytowe i wybudowaniu wiekszego, ktore jest bardziej deficytowe (ok miliarda w bloto) - choc tu moze jeszcze cos z tego wyjdzie.>> Tusk sie sciskal z Putinem w czasach gdy byla nadzieja na ucywilizowanie Rosji. Teraz uwaza go za przestepce i zbrodniarza. Ale wasz idol Trump ciagle sciska sie z Putinem i nazywa swoim przyjacielem.>> Moi kumple wlasnie wrocili z Niemiec (sympatycy PO).> Polska bije Niemcy na glowe: siecia drog ekspresowych, czystoscia, bespieczenstwem, cyfryzacja.> Jak mozna tak ciagle krytykowac Polske, gdy byc moze jest nasz najlepszy okres rozwoju w historii?> A rozwoj bedzie jeszcze lepszy, jak najpierw bedziemy kupowac produky polskie ewentualnie europejskie a nie koreanskie i amerykanskie.>Czy ty naprawdę sam nie widzisz, jakie ty bzdury wypisujesz? Przecież ja nie krytykuję Polski! Ja kocham Polskę! A takim, jak ty słowo \"Polska\" nawet nie przechodzi przez gardło, tylko mówią \"Tenkraj\". Jarosław Kaczyński, pochodzący tak jak ja, ze sprawdzonej w Powstaniu Warszawskim rodziny (jego ojciec uczestniczył w Powstaniu) nigdy nawet nie podał ręki Putinowi i nawet wtedy, kiedy Tusk się z Putinem ściskał, to nazywał Putina zbrodniarzem. Bo Putin już wtedy miał na sumieniu dziesiątki, a może setki otrutych i zastrzelonych swoich przeciwników. Próbował też zanektować Gruzję, w czym przeszkodił mu Lech Kaczyński. Nie będę już kontynuował jej dyskusji, z kimś kto nie rozumie i nie podziela polskiego punktu widzenia na politykę międzynarodową i na to, co się dzieje w kraju.. Pocieszam się, że takich jak ja jest jednak w Polsce wiekszość, a ty należysz do mniejszości. I to napawa optymizmem i wiarą w siłę polskiego narodu, mimo, że utacił w czasie wojny najlepszych i najbardziej patriotycznych swoich przedstawicieli.",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75488083",
@@ -701,7 +1345,7 @@
       "url": "https://www.bankier.pl/forum/temat_szalu-zakupowego-nie-ma-nastroje-srednie-jak-widac,75484239.html",
       "body": "W piątek o 9.00 górne widły, i cały dzień mega obroty. Przypomnę się",
       "votes": {
-        "up": 14,
+        "up": 15,
         "down": 0
       },
       "sentimentScore": 0,
@@ -743,7 +1387,7 @@
       "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
       "body": "No ba, jak będzie bardzo lichy raport to zaliczy wszystkie progi w 1 dzień, jak będzie ok idziemy do góry, nie trzeba się fatygować z fusami, to jest oczywiste",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -757,7 +1401,7 @@
       "url": "https://www.bankier.pl/forum/temat_32-4-31-80-30-40-pln,75484383.html",
       "body": "Lej. ....nikt cię tutaj nie traktuje poważnie taki byle jaki...wyluzuj pomyliłeś forum",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -792,20 +1436,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75486741",
-      "author": "mabmab",
-      "postedAt": "2026-08-19 15:29",
-      "threadTitle": "Re: Ze trolle z PKN",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Dziś jest dzień żałoby dla każdego Mokotowianina...uszanuj Pączku R.S.P",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75485973",
       "author": "doniek88",
       "postedAt": "2026-08-19 14:41",
@@ -827,22 +1457,8 @@
       "url": "https://www.bankier.pl/forum/temat_szorcik,75485227.html",
       "body": "Szorcik 12- go pożyczył akcyjki do dziś za bardzo mu ten kurs nie spadł",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75485115",
-      "author": "Cma",
-      "postedAt": "2026-08-19 13:48",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "To wlasnie ojkofobia, widzisz tylko zle rzeczy. W wiekszosci, te przestepstwa ktore opisales, to drobiazgi. Czy myslisz ze gdziekolwiek na swiecie nie ma lapowek, przkretow z panstwowymi pieniedzmi?Te wszystkie afery, ktore wymieniles to promil, w porownaniu ze 2 miliardami strat na Ostrolece, 4 miliardami strat na sprzedazy czesci Lotosu, milionami z ustawianych przetargow z funduszu sprawiedliwosci czy chociaz ze zburzeniu lotniska w Radomiu, bo bylo deficytowe i wybudowaniu wiekszego, ktore jest bardziej deficytowe (ok miliarda w bloto) - choc tu moze jeszcze cos z tego wyjdzie.Tusk sie sciskal z Putinem w czasach gdy byla nadzieja na ucywilizowanie Rosji. Teraz uwaza go za przestepce i zbrodniarza. Ale wasz idol Trump ciagle sciska sie z Putinem i nazywa swoim przyjacielem.Moi kumple wlasnie wrocili z Niemiec (sympatycy PO).Polska bije Niemcy na glowe: siecia drog ekspresowych, czystoscia, bespieczenstwem, cyfryzacja.Jak mozna tak ciagle krytykowac Polske, gdy byc moze jest nasz najlepszy okres rozwoju w historii?A rozwoj bedzie jeszcze lepszy, jak najpierw bedziemy kupowac produky polskie ewentualnie europejskie a nie koreanskie i amerykanskie.",
-      "votes": {
-        "up": 5,
-        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -898,7 +1514,7 @@
       "body": "Oto ceny zamknięcia od dziś do piątku...Korekta ABC.",
       "votes": {
         "up": 0,
-        "down": 5
+        "down": 8
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -974,20 +1590,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75483449",
-      "author": "Ziutek",
-      "postedAt": "2026-08-19 12:01",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "> Chcesz zobaczyc ojkofobie wejdz na Republike.> Tam dobrego slowa nie uslyszysz o Polsce.> Mowia ze: kraj sie wali, Polska upada - klamstwo - PKB +3.8> straszne bezrobocie - klamstwo - Eurostatu podaje 3.1% (UE 6%) > galopujace ceny - klamstwo - 3,0% i to pomimo trumpflacji i putinflacji> polskie zaklady nie moga wyprodukowac broni - klamstwo> Tusk zabierze 13 i 14 emeryture - klamstwo> Tusk zabieze 500+ - klamstwo - dal 800+> Safe to niemiecki program dla niemieckich zakladow - klamstwo> KPO poszlo na kluby swingerskie - klamstwo - ani zlotowka na to nie poszla> Polska ochrona zdrowia upada - klamstwo - nigdy nie robiono tylu zabiegow co teraz> Strasznie droga benzyna i ropa - klamstwo - nigdy nie mozna bylo kupic tak duzo benzyny za srednia pensje> Zaraz po objeciu rzadow Tusk wpusci do Polski mnostwo nielegalnych imigrantow - klamstwo - nie przyjelismy nikogo> Czesc tych klamst odkreca Glapinski, ktory sytuacje w Polsce nzywa cudem gospodarczym.Znalazłeś 11 \"kłamstw\" Republiki. Ale nic nie piszesz o 100 kłamstwach Tuska. Nie piszesz o uściskach Tuska z Putinem. Nie piszesz co się stało z tymi wszystkimi \"komisjami sejmowymi\", które miały doprowadzić do masowych aresztowań \"przestępców\" z PiSu. Nie piszesz o gigantycznym zadłużeniu kraju, o aferach PO z aferą w szpitalu południowym, aferą z pieniędzmi dla powodzian, aferą z posłem, którego za łapówki ściga prokuratura europejska. Nie piszesz o prawdziwych złodziejach w szeregach PO, których nie trzeba nawet tu wymieniać. Nie piszesz, że jedynie dwóch oskarżonych fałszywie przez nielegalną prokuraturę \"złodziei\" z PiSu, którzy nic nie wzięli dla siebie, tylko wszystko oddali strażakom i gospodyniom wiejskim. Nie piszesz, że w Polsce nie obowiązuje prawo, bo nie działają legalne instytucje , a inne są nielegalnie praejęte. Naprawdę trzeba być ślepcem, żeby tego nie widzieć!",
-      "votes": {
-        "up": 2,
-        "down": 9
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75483415",
       "author": "doniek88",
       "postedAt": "2026-08-19 11:59",
@@ -1042,20 +1644,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75483073",
-      "author": "Ziutek",
-      "postedAt": "2026-08-19 11:38",
-      "threadTitle": "Re: Ze trolle z PKN",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "> Chodzi o ruskie trolle nie odpowiadać same odejdą. Ten wpis gostka co to z powstańców familii łatwo sfalsyfikowac niech poda pseudonim członka rodziny w Powstaniu. CzekamZnasz pseudonimy wszystkich uczestników powstania? Żałosny jesteś! Stoisz po tej stronie barykady, gdzie stało ZOM albo po tej, gdzie w Powstaniu stały szwaby. Jeden mój dziadek walczył na barykadzie w Śródmieściu, drugi był komendantem budynku w Śródmieściu. Brat dziadka zginął i niewiadomo gdzie i jak. Ja jestem na tym świecie, bo mój dziadek trafił do oflagu, wyzwolili go amerykanie, po kilku latach wrócił do Polski, Babcia przekupiła esesmana i uciekła z ciotkami z konwoju do Pruszkowa. Losy daszej rodziny, też związane są z Powstaniem.",
-      "votes": {
-        "up": 1,
-        "down": 5
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75483083",
@@ -1254,34 +1842,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75481025",
-      "author": "Rewizor",
-      "postedAt": "2026-08-19 09:41",
-      "threadTitle": "Re: Ze trolle z PKN",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Chodzi o ruskie trolle nie odpowiadać same odejdą. Ten wpis gostka co to z powstańców familii łatwo sfalsyfikowac niech poda pseudonim członka rodziny w Powstaniu. Czekam",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75480977",
-      "author": "Alapo",
-      "postedAt": "2026-08-19 09:39",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Nie zwracaj uwagi na ZIUTĘ bo tylko ON jest PATRY-IDJOTĄ.",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75480979",
       "author": "Monia",
       "postedAt": "2026-08-19 09:39",
@@ -1333,34 +1893,6 @@
       "votes": {
         "up": 1,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75480787",
-      "author": "Rewizor",
-      "postedAt": "2026-08-19 09:31",
-      "threadTitle": "Ze trolle z PKN",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Zagospodarowaly forum Dino ...",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75480437",
-      "author": "Cma",
-      "postedAt": "2026-08-19 09:16",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Chcesz zobaczyc ojkofobie wejdz na Republike.Tam dobrego slowa nie uslyszysz o Polsce.Mowia ze:kraj sie wali, Polska upada - klamstwo - PKB +3.8straszne bezrobocie - klamstwo - Eurostatu podaje 3.1% (UE 6%) galopujace ceny - klamstwo - 3,0% i to pomimo trumpflacji i putinflacjipolskie zaklady nie moga wyprodukowac broni - klamstwoTusk zabierze 13 i 14 emeryture - klamstwoTusk zabieze 500+ - klamstwo - dal 800+Safe to niemiecki program dla niemieckich zakladow - klamstwoKPO poszlo na kluby swingerskie - klamstwo - ani zlotowka na to nie poszlaPolska ochrona zdrowia upada - klamstwo - nigdy nie robiono tylu zabiegow co terazStrasznie droga benzyna i ropa - klamstwo - nigdy nie mozna bylo kupic tak duzo benzyny za srednia pensjeZaraz po objeciu rzadow Tusk wpusci do Polski mnostwo nielegalnych imigrantow - klamstwo - nie przyjelismy nikogoCzesc tych klamst odkreca Glapinski, ktory sytuacje w Polsce nzywa cudem gospodarczym.",
-      "votes": {
-        "up": 5,
-        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1632,20 +2164,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75475703",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 17:35",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "> Oczywiście wierzysz że putin\"zamordował\" PREZYDENTA KACZYŃSKIEGO! Pozdrawiam.A dlaczego ty wierzysz w ustalenia ruskiej komisji? Ja jestem ze sprawdzonej w Powstaniu Warszawskim rodziny. I wierzę innym sprawdzonym Polakom, a nie takim, co mieli dziadka w Wehrmachcie i ściskali się z Putinem. Nie wierzę ruskim.",
-      "votes": {
-        "up": 4,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75475411",
       "author": "Re",
       "postedAt": "2026-08-18 17:15",
@@ -1655,20 +2173,6 @@
       "votes": {
         "up": 3,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75475405",
-      "author": "Alapo",
-      "postedAt": "2026-08-18 17:14",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Oczywiście wierzysz że putin\"zamordował\" PREZYDENTA KACZYŃSKIEGO! Pozdrawiam.",
-      "votes": {
-        "up": 5,
-        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1697,20 +2201,6 @@
       "votes": {
         "up": 5,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75474925",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 16:43",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "> Słusznie pisdzielcu tylko republiką.Słusznie uważasz, że jestem zwolennikiem PiSu. I jestem z tego dumny. Ty natomiast jesteś niekulturalny, bo używasz niecenzuralnego słowa. Oprócz braku kultury jesteś jeszcze ojkofobem. Nie mogę zupełnie tego pojąć. Skąd się biorą tacy ludzie jak ty?",
-      "votes": {
-        "up": 4,
-        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1772,20 +2262,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75474525",
-      "author": "Alapo",
-      "postedAt": "2026-08-18 16:17",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Słusznie pisdzielcu tylko republiką.",
-      "votes": {
-        "up": 4,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75474277",
       "author": "griszunia",
       "postedAt": "2026-08-18 16:01",
@@ -1794,34 +2270,6 @@
       "body": "Zaraz qube dostanie łomot jak na alegro a ty odkupuj nie biadol",
       "votes": {
         "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75474103",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 15:50",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "> Ziuta zawsze słuchałem i oglądam w języku polskim między innymi RADIO WOLNA EUROPA w latach 70 ,ale Ty tego nie ogarniesz.No i co z tego, że słuchałeś Wolnej Europy? Już bardzo dawno nie nadawje. Teraz polskojęzyczne, niemieckie stacje to nie jest to samo. Wolna Europa była amerykańska, nie niemiecka. Ja słucham i oglądam po polsku, czysto polskich stacji. Ja nie wiem dlaczego myślisz, że posiadłeś jakąś wiedzę tajemną w związku ze słuchaniem amerykańskiej Wolnej Europy. To, że nie chcesz słuchać Polaków w polskich stacjach to jest ewidentnie jakaś odchyłka umysłowa.",
-      "votes": {
-        "up": 2,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75473611",
-      "author": "Alapo",
-      "postedAt": "2026-08-18 15:09",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Ziuta zawsze słuchałem i oglądam w języku polskim między innymi RADIO WOLNA EUROPA w latach 70 ,ale Ty tego nie ogarniesz.",
-      "votes": {
-        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1920,90 +2368,6 @@
       "body": "i masz na 0 + prowizje",
       "votes": {
         "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75473145",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 14:36",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "> Oj ZIUTA ZIUTAco Ty czytasz i jaki program Tv.Jak to jaki? Polski! A ty czytasz i oglądasz polskojęzyczne teksty niemieckie, albo pod wpływem Sorosa. Przejdź na polskie media, to może otworzą ci się te twoje mocno zaślepione oczy!",
-      "votes": {
-        "up": 4,
-        "down": 5
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75473039",
-      "author": "Alapo",
-      "postedAt": "2026-08-18 14:29",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Oj ZIUTA ZIUTAco Ty czytasz i jaki program Tv.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75472883",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 14:17",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "> \"2024 -> 82 mld PLNPO\"- zależy jak leży. Kiedy mowa o deficycie to \"odziedziczyliśmy budżet po poprzednikach, wina PiSu\", ale kiedy mowa o zasługach to pierwsi wypinają pierś po order. Bawi mnie ta polityczna wojenka, w której większość społeczeństwa nie dostrzega, że obydwie strony są siebie warte, różnią się tylko pomysłem na kreowanie swojego wizerunku.Nie ma żadnej symetrii! Ja nie mogę wyjść z podziwu, jak ktoś może wierzyć w prawdziwość intencji Tuska, że tak dba o bezpieczeństwo Polski, skoro jeszcze niedawno obściskiwał się z Putinem, chciał sprzedać ruskim Rafinerię Gdańską i grzmiał, że \"nikt nie będzie mu sypał piasku w tryby współpracy Polski z Rosją\". Prawdziwą intencją Tuska jest takie zadłużenie Polski, żeby już nie nie dała rady się wydostać z niemieckich wpływów i z Unii Europejskiej.",
-      "votes": {
-        "up": 7,
-        "down": 6
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75472839",
-      "author": "misiad",
-      "postedAt": "2026-08-18 14:14",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "dawać pana Biernackiego na premiera :)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75472775",
-      "author": "Cma",
-      "postedAt": "2026-08-18 14:07",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Masz racje. Przepraszam. Ponoslo mnie.Ale to bardziej uwga do autora watku.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75472721",
-      "author": "Zorro2",
-      "postedAt": "2026-08-18 14:05",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Premier czy prezyd.. .po co był w Moskwie. Nie wiem czy wiesz o kim mówisz.",
-      "votes": {
-        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2122,48 +2486,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75472147",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-08-18 13:30",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Po co to piszesz na tym forum Jaki to ma związek z firmą Dino?",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75472121",
-      "author": "Cma",
-      "postedAt": "2026-08-18 13:27",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "1. Z czego składa się Borsuk i jak rozkładają się koszty?Najważniejsze (i najdroższe) komponenty pojazdu to:Zdalnie Sterowany System Wieżowy (ZSSW-30) – ok. 40–50% wartości wozu: Polska bezzałogowa wieża opracowana przez Hutę Stalowa Wola i WB Electronics. Wyposażona w optoelektronikę, żyrokompasy, automatyczną armatę Bushmaster Mk.44S 30 mm, karabin UKM-2000C oraz podwójną wyrzutnię przeciwpancernych pocisków kierowanych (Spike LR).Zespół napędowy (Powerpack) i zawieszenie – ok. 15–20% wartości: Serce wozu stanowi szybko-wymienny moduł Powerpack (silnik wysokoprężny MTU 8V199 TE22 o mocy ~720 KM połączony z automatyczną przekładnią Allison) integrowany i modyfikowany w Wojskowych Zakładach Motoryzacyjnych (WZM) w Poznaniu. Zawieszenie hydropneumatyczne projektowane i montowane jest w kraju.Kadłub, pancerz i pływalność – ok. 15–20% wartości: Specjalny kadłub wykonany ze stali pancernej z dołączanym opancerzeniem kompozytowym/modułowym zapewniającym wymaganą odporność balistyczną i przeciwminową przy zachowaniu zdolności pływania.Elektronika, BMS, łączność i systemy samoobrony – ok. 10–15% wartości: Zintegrowany system zarządzania polem walki (BMS), radiostacje cyfrowe z PCO i WB Group oraz systemy wykrywania promieniowania laserowego Obra-3 połączone z wyrzutniami granatów dymnych.2. Jaka część to produkcja polska (polonizacja)?Borsuk w około 70–80% jest produkcją krajową (polski wkład technologiczny i przemysłowy).Co jest produkcją POLSKĄ:Lider i montaż końcowy: Huta Stalowa Wola S.A. (rozbudowująca moce produkcyjne również w zakładach Bumar-Łabędy w Gliwicach i Autosanie w Sanoku).System wieżowy (ZSSW-30): Projekt i produkcja – HSW S.A. oraz Grupa WB.Optoelektronika i kierowanie ogniem: PCO S.A. (kamery termowizyjne, celowniki) oraz WB Electronics.Łączność i systemy cyfrowe: Grupa WB.Kadłub i zawieszenie: HSW S.A. oraz polskie spółki hutnicze/obróbcze.Grupowa kooperacja: Rosomak S.A., WZM Poznań.3.Co pochodzi z IMPORTU (komponenty zagraniczne):Silnik bazowy: MTU (Niemcy).Przekładnia/Skrzynia biegów: Allison Transmission (USA).Główne uzbrojenie artyleryjskie: Armata Northrop Grumman Bushmaster Mk.44S 30 mm (USA).Pociski przeciwpancerne: System Spike LR (konstrukcja izraelska firmy Rafael, choć licencjonowana i częściowo wytwarzana w Mesko w Skarżysku-Kamiennej).Wzialem losowo jeden z produktow.Dodatkowo: VAT - placony w Polsce Pensje pracownikow - w Polsce ZUS, podatek, Skladka zdrowotna - w Posce.Pieniadze na takie produkty zainwestowana w Polsce, zwracaja sie do skarbu panstwa w 10 lat.Teraz napisz jak czesc sprzetu kupowanego w Koreii i USA jest produkowana w Polsce i po jakim czasie taka inwestycja sie zwraca.",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75472065",
-      "author": "Bzzz",
-      "postedAt": "2026-08-18 13:23",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "\"2024 -> 82 mld PLNPO\"- zależy jak leży. Kiedy mowa o deficycie to \"odziedziczyliśmy budżet po poprzednikach, wina PiSu\", ale kiedy mowa o zasługach to pierwsi wypinają pierś po order. Bawi mnie ta polityczna wojenka, w której większość społeczeństwa nie dostrzega, że obydwie strony są siebie warte, różnią się tylko pomysłem na kreowanie swojego wizerunku.",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75472013",
       "author": "Witold",
       "postedAt": "2026-08-18 13:18",
@@ -2192,48 +2514,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75471943",
-      "author": "doniek88",
-      "postedAt": "2026-08-18 13:13",
-      "threadTitle": "Re: Wyniki będą bardzo dobre...",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-beda-bardzo-dobre,75471527.html",
-      "body": "Trzeba miec taki plan jeszcze, maja wschód do zagęszczenia a z centrum dystrybucji w Sieroniowicach do Ostrawy jest 110 km, na Czechy mogliby sie już pchać",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75471729",
-      "author": "Polll",
-      "postedAt": "2026-08-18 13:03",
-      "threadTitle": "Re: Wyniki będą bardzo dobre...",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-beda-bardzo-dobre,75471527.html",
-      "body": "Wszystko zależy czy i kiedy wejdą na rynek czesko-słowacki. Jeśli tam rozpoczną ekspansję to kurs wystrzeli",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75471709",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 13:01",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "> Łącznie na zakupy sprzętu wojskowego i inwestycje w obronnosc w polskim sektorze obronnym: PIS razem przez lata 2015-2022 -> 100 mld PLN> PO 2024 -> 82 mld PLN> PO 2025 -> 110 mld PLN> PO 2026 -> 126 mld PLN>> Przez rok PO inwestuje w POLSKI przemysl obronny wiecej niz PIS przez 8 lat.> Widac kto jest polskim premierem a kto koreanskim.Inwestuje w polski przemysł nie całe 100% SAFE, tylko chyba ok 80%. Poza tym tak chętnie inwestuje w przemysł obronny, bo wszystkie silniki są niemieckie, lufy są brytyjskie, podwozia gąsiennicowe były kiedyś koreańskie (teraz może już częściowo polskie), wszystkie elementy elektroniczne też są przecież importowane. Także \"polskie\" wyroby dla wojska są tylko składakami z części zagranicznych, głównie niemieckich. Przecież inaczej Niemcy nie daliby na SEJF złamanego euro. Poza tym \"klucze do tego \"sejfu\" nie należą do Polski. I nie jest to jakaś ekstra pomoc gospodarcza, tylko kredyt na komercyjnych warunkach, który spłacać będą nasze wnuki. Taki to jest ten \"polski\" premier.",
-      "votes": {
-        "up": 7,
-        "down": 6
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75471673",
       "author": "griszunia",
       "postedAt": "2026-08-18 12:57",
@@ -2246,48 +2526,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75471651",
-      "author": "doniek88",
-      "postedAt": "2026-08-18 12:56",
-      "threadTitle": "Re: Wyniki będą bardzo dobre...",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-beda-bardzo-dobre,75471527.html",
-      "body": "Marża i lfl wszystko powie jak kurs się zachowa, nie liczy się że jest zysk sam w sobie, jak odbudowują parametry i rynek zobaczy że idzie lepsze to wyskoczy kurs jak nie to qube dołoży i łącznie mamy -5/-10",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75471569",
-      "author": "zeXon",
-      "postedAt": "2026-08-18 12:51",
-      "threadTitle": "Re: Wyniki będą bardzo dobre...",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-beda-bardzo-dobre,75471527.html",
-      "body": "zaklinanie.Jakie beda wyniki zobaczymy po wynikach",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75471527",
-      "author": "Polll",
-      "postedAt": "2026-08-18 12:46",
-      "threadTitle": "Wyniki będą bardzo dobre...",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-beda-bardzo-dobre,75471527.html",
-      "body": "Nie ma co do tego wątpliwości. Liczba sklepów stale rośnie, przychody i zysk również... Obenca wycena tośmiech na sali",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75471383",
@@ -2304,20 +2542,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75471347",
-      "author": "bilbon",
-      "postedAt": "2026-08-18 12:32",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Nie wazne kto ile wydaje, wazne jak wydaje.. tutaj jedni i drudzy na podobnym poziomie :( Pis=Po",
-      "votes": {
-        "up": 12,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75470853",
       "author": "Eustachy",
       "postedAt": "2026-08-18 12:01",
@@ -2330,20 +2554,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75470587",
-      "author": "Cma",
-      "postedAt": "2026-08-18 11:45",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "Łącznie na zakupy sprzętu wojskowego i inwestycje w obronnosc w polskim sektorze obronnym:PIS razem przez lata 2015-2022 -> 100 mld PLNPO 2024 -> 82 mld PLNPO 2025 -> 110 mld PLNPO 2026 -> 126 mld PLNPrzez rok PO inwestuje w POLSKI przemysl obronny wiecej niz PIS przez 8 lat.Widac kto jest polskim premierem a kto koreanskim.",
-      "votes": {
-        "up": 10,
-        "down": 16
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75470563",
@@ -2458,18 +2668,18 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75469101",
-      "author": "Dexter",
-      "postedAt": "2026-08-18 10:19",
-      "threadTitle": "Re: Po transakcjach widac ze short handluje sam ze soba",
-      "url": "https://www.bankier.pl/forum/temat_po-transakcjach-widac-ze-short-handluje-sam-ze-soba,75467727.html",
-      "body": "z Energą wiązałem swoją giełdowa emeryturę tyle tego miałem. piękne dywidendy",
+      "id": "75469027",
+      "author": "Przemo",
+      "postedAt": "2026-08-18 10:16",
+      "threadTitle": "Fenomenalne wyniki spółki BSH. Jedna z lepszych spółek.",
+      "url": "https://www.bankier.pl/forum/temat_fenomenalne-wyniki-spolki-bsh-jedna-z-lepszych-spolek,75469027.html",
+      "body": "Spółka śmiesznie tania, warto przeanalizować, bo tutaj jest naprawdę pięknie.Kurs rośnie, wyniki coraz lepsze.",
       "votes": {
         "up": 0,
         "down": 0
       },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
     },
     {
       "id": "75469013",
@@ -2484,20 +2694,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75469027",
-      "author": "Przemo",
-      "postedAt": "2026-08-18 10:16",
-      "threadTitle": "Fenomenalne wyniki spółki BSH. Jedna z lepszych spółek.",
-      "url": "https://www.bankier.pl/forum/temat_fenomenalne-wyniki-spolki-bsh-jedna-z-lepszych-spolek,75469027.html",
-      "body": "Spółka śmiesznie tania, warto przeanalizować, bo tutaj jest naprawdę pięknie.Kurs rośnie, wyniki coraz lepsze.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75468929",
@@ -2542,62 +2738,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75468591",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 09:52",
-      "threadTitle": "Re: Po transakcjach widac ze short handluje sam ze soba",
-      "url": "https://www.bankier.pl/forum/temat_po-transakcjach-widac-ze-short-handluje-sam-ze-soba,75467727.html",
-      "body": "> Żyjemy nadal w komunistycznym państwie. Cały okrągły stół to jedna wielka szopka. Ten to ma kasę rządzi. My mamy być cicho. Posiadam akcje Energa i to co mnie tam spotkała sprawiło że nie wierzę z jakąkolwiek uczciwość.A słyszałeś o Sorosie?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75468531",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 09:49",
-      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
-      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
-      "body": "> Do bio re, czujesz różnicę? Wiszę na 37,xx...Dobra, dobra. Spokój. Tak, czy inaczej wszyscy chcą kupować poniżej 30 zł.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75468347",
-      "author": "Eustachy",
-      "postedAt": "2026-08-18 09:41",
-      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
-      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
-      "body": "Do bio re, czujesz różnicę? Wiszę na 37,xx...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75468315",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 09:39",
-      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
-      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
-      "body": "> Zacytuj moje zdanie o wartości Dino...Swoją opinię o wartości Dino wyraziłeś przez deklarację, że kupisz poniżej 30 zł. Znaczy że sprzedałeś, bo masz pieniądze. Nie wiem co pisaleś wcześniej, ale jeśli pisałeś, że Dino jest warte więcej, to oszukiwałeś, bo naprawdę tak nie uważasz.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75468127",
       "author": "bilbon",
       "postedAt": "2026-08-18 09:30",
@@ -2610,188 +2750,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75468131",
-      "author": "Eustachy",
-      "postedAt": "2026-08-18 09:30",
-      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
-      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
-      "body": "Zacytuj moje zdanie o wartości Dino...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75468081",
-      "author": "Darek",
-      "postedAt": "2026-08-18 09:27",
-      "threadTitle": "Re: Po transakcjach widac ze short handluje sam ze soba",
-      "url": "https://www.bankier.pl/forum/temat_po-transakcjach-widac-ze-short-handluje-sam-ze-soba,75467727.html",
-      "body": "Żyjemy nadal w komunistycznym państwie. Cały okrągły stół to jedna wielka szopka. Ten to ma kasę rządzi. My mamy być cicho. Posiadam akcje Energa i to co mnie tam spotkała sprawiło że nie wierzę z jakąkolwiek uczciwość.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75468061",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 09:26",
-      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
-      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
-      "body": "> Kiedyś się to skończy, cierpliwości, a jak zleci poniżej 30, to dobioręJak ma się to skończyć, jak tacy jak ty uważaja, że Dino jest warte mniej niż 30 zł? Przecież szorty mogą stosować sprzedaż krótką za każdym razem, jak kurs choć trochę odbije. Ja zaczynam myśleć, że to się szybko, albo nawet nigdy nie skończy.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75467975",
-      "author": "Wojtek",
-      "postedAt": "2026-08-18 09:22",
-      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
-      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
-      "body": "Tu jest fundysz i jeżeli wyniki będa lipa to zrobi zwałe . A otwarcie zielone to nie prognostyk na całą sesje .",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75467909",
-      "author": "Eustachy",
-      "postedAt": "2026-08-18 09:18",
-      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
-      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
-      "body": "Kiedyś się to skończy, cierpliwości, a jak zleci poniżej 30, to dobiorę",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75467843",
-      "author": "Lejs",
-      "postedAt": "2026-08-18 09:14",
-      "threadTitle": "Re: Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
-      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
-      "body": "W piątek widzę 29 PLN... Zresztą dolny knot czarnej sierpniowej tam powinien sięgnąć.....Myślałem o tym jak kurs był pow.32 PLN Myślę :\"nie zrobią tego\" a jednak ...!!!",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75467799",
-      "author": "Radi",
-      "postedAt": "2026-08-18 09:11",
-      "threadTitle": "Re: Po transakcjach widac ze short handluje sam ze soba",
-      "url": "https://www.bankier.pl/forum/temat_po-transakcjach-widac-ze-short-handluje-sam-ze-soba,75467727.html",
-      "body": "grube transakcje leca od rana, komedia. swoja droga handlowanie pozyczonymi akcjami to jawna szulernia , jak to mozliwe ze takie cos jest dpuszxczone",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75467727",
-      "author": "Radi",
-      "postedAt": "2026-08-18 09:08",
-      "threadTitle": "Po transakcjach widac ze short handluje sam ze soba",
-      "url": "https://www.bankier.pl/forum/temat_po-transakcjach-widac-ze-short-handluje-sam-ze-soba,75467727.html",
-      "body": "leca po 1 2 5 akcji , smieszne",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75467737",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 09:08",
-      "threadTitle": "Uwalanie kursu odbywa się za pomocą \"sprzedaży krótkiej\"",
-      "url": "https://www.bankier.pl/forum/temat_uwalanie-kursu-odbywa-sie-za-pomoca-sprzedazy-krotkiej,75467737.html",
-      "body": "Czyli sprzedawaniem pożyczonych akcji. W wielu krajach jest to zabronione.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75467703",
-      "author": "Lejs",
-      "postedAt": "2026-08-18 09:07",
-      "threadTitle": "Re: Short kieruje kursem",
-      "url": "https://www.bankier.pl/forum/temat_short-kieruje-kursem,75466155.html",
-      "body": "Minus za prawdę?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75467521",
-      "author": "Ziutek",
-      "postedAt": "2026-08-18 08:56",
-      "threadTitle": "Re: Wszysko zaczyna się od tego, że premier rządu polskiego",
-      "url": "https://www.bankier.pl/forum/temat_wszysko-zaczyna-sie-od-tego-ze-premier-rzadu-polskiego,75446205.html",
-      "body": "W dodatku spekulant giełdowy i przestępca, ścigany w wielu krajach w Europie i Azji, działa w Polsce bez przeszkód, promując za pomocą wysoko postawionych (m. Inn. w rządzie) agentów, swoją ideę \"społeczeństwa otwartego\".",
-      "votes": {
-        "up": 6,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75466747",
-      "author": "Lejs",
-      "postedAt": "2026-08-18 07:45",
-      "threadTitle": "Re: Short kieruje kursem",
-      "url": "https://www.bankier.pl/forum/temat_short-kieruje-kursem,75466155.html",
-      "body": "Dziś zamek 31.80..pln...",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75466155",
-      "author": "Gładź_spadziowa",
-      "postedAt": "2026-08-18 00:53",
-      "threadTitle": "Short kieruje kursem",
-      "url": "https://www.bankier.pl/forum/temat_short-kieruje-kursem,75466155.html",
-      "body": "Będą chcieli to zrobią tu jutro 30 bez trudu, gawiedź na tym walorze bardzo wystraszona, parę % w dół tylko przycisnęli a lament jakby krach na gniocie. Mają tego gniota gada w garści i zrobią co będą chcieli. Już robią.",
-      "votes": {
-        "up": 4,
-        "down": 5
-      },
-      "sentimentScore": -0.964,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75466061",
@@ -2890,6 +2848,48 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75465245",
+      "author": "Lejs",
+      "postedAt": "2026-08-17 21:09",
+      "threadTitle": "Re: Czy to już jutro +20%",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-juz-jutro-20,75465177.html",
+      "body": ".. podejrzewa już jaki zamek w piątek w reakcji na wyniki ale jeszcze tego nie zdradzę...",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75465217",
+      "author": "Lejs",
+      "postedAt": "2026-08-17 21:06",
+      "threadTitle": "Re: Czy to już jutro +20%",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-juz-jutro-20,75465177.html",
+      "body": "Będzie niżej .Już się Qube postara .Tymczasem jutro zamek 31.80 PLN",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75465177",
+      "author": "Ted",
+      "postedAt": "2026-08-17 20:59",
+      "threadTitle": "Czy to już jutro +20%",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-juz-jutro-20,75465177.html",
+      "body": "Dino ma ponad 3000 sklepów a kurs jest jak za osiedlowego warzywniaka.",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     }
   ]
 }
