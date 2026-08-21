@@ -3,36 +3,36 @@
   "companyName": "PGE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PGE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pge-sa,6,21,10000000641.html",
-  "updatedAt": "2026-08-21T01:58:10.893Z",
+  "updatedAt": "2026-08-21T07:08:17.115Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-21T01:58:10.893Z",
+    "fetchedAt": "2026-08-21T07:08:17.115Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 27
+    "threadsScanned": 30
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.023,
+    "score": -0.028,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 27,
-      "negative": 35,
-      "neutral": 138
+      "positive": 30,
+      "negative": 38,
+      "neutral": 132
     },
     "trend": [
       {
         "date": "2026-08-17",
-        "score": 0,
-        "count": 3
+        "score": 0.161,
+        "count": 4
       },
       {
         "date": "2026-08-18",
-        "score": 0.013,
-        "count": 46
+        "score": 0.015,
+        "count": 39
       },
       {
         "date": "2026-08-19",
@@ -43,30 +43,31 @@
         "date": "2026-08-20",
         "score": -0.031,
         "count": 130
+      },
+      {
+        "date": "2026-08-21",
+        "score": -0.238,
+        "count": 6
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (27 pozytywnych, 35 negatywnych, 138 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (30 pozytywnych, 38 negatywnych, 132 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "black",
         "count": 19
       },
       {
-        "word": "masz",
-        "count": 17
-      },
-      {
         "word": "jestes",
         "count": 17
       },
       {
-        "word": "roku",
-        "count": 12
+        "word": "masz",
+        "count": 16
       },
       {
-        "word": "bidony",
-        "count": 10
+        "word": "roku",
+        "count": 11
       },
       {
         "word": "ciebie",
@@ -77,20 +78,108 @@
         "count": 9
       },
       {
-        "word": "przy",
-        "count": 9
-      },
-      {
         "word": "wiesz",
         "count": 8
       },
       {
         "word": "bedziesz",
         "count": 8
+      },
+      {
+        "word": "fumio",
+        "count": 8
+      },
+      {
+        "word": "bidony",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75507541",
+      "author": "knp7",
+      "postedAt": "2026-08-21 09:00",
+      "threadTitle": "Re: Tu zaraz jakiś trup wypadnie z szafy?",
+      "url": "https://www.bankier.pl/forum/temat_tu-zaraz-jakis-trup-wypadnie-z-szafy,75486205.html",
+      "body": "PGE bez wungla udzieliła pożyczki 12mld dla PGE z wunglem. Takie zwykłe przesunięcie kasy to tego chyba nie będą odpisywać.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75507415",
+      "author": "Gaudi",
+      "postedAt": "2026-08-21 08:52",
+      "threadTitle": "11,00",
+      "url": "https://www.bankier.pl/forum/temat_11-00,75507415.html",
+      "body": "Dobrane ostatnio po 11 pięknie daje zarabiać i ciekawe ile dzisiaj pójdzie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75507007",
+      "author": "xxx",
+      "postedAt": "2026-08-21 08:24",
+      "threadTitle": "Re: Rudy pozamiatł",
+      "url": "https://www.bankier.pl/forum/temat_rudy-pozamiatl,75506679.html",
+      "body": "A co przez 8 lat zrobiły rządy piSSmafii ? To dopiero była piękna katastrofa finansowa i gospodarcza, z której będziemy wychodzić przez dekady.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75506949",
+      "author": "Irek",
+      "postedAt": "2026-08-21 08:19",
+      "threadTitle": "Czy 9,60 zl dzis wytrzyma? Moze byc ciezko.",
+      "url": "https://www.bankier.pl/forum/temat_czy-9-60-zl-dzis-wytrzyma-moze-byc-ciezko,75506949.html",
+      "body": "Spolka dramat",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75506723",
+      "author": "6205145",
+      "postedAt": "2026-08-21 07:57",
+      "threadTitle": "Re: Rudy pozamiatł",
+      "url": "https://www.bankier.pl/forum/temat_rudy-pozamiatl,75506679.html",
+      "body": "I ta słynna jego wypowiedź odnośnie chyba wzrostu kursu Orlenu - \"wystarczy nie kraść\"",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75506679",
+      "author": "Tomas",
+      "postedAt": "2026-08-21 07:51",
+      "threadTitle": "Rudy pozamiatł",
+      "url": "https://www.bankier.pl/forum/temat_rudy-pozamiatl,75506679.html",
+      "body": "Premier tysiąclecia, w trzy lata zrujnował budżet państwa.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75505671",
       "author": "Jk",
@@ -113,7 +202,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-po-tej-podwyzce-cit-do-30-pogrom-tutaj,75504093.html",
       "body": "A dla mnie podobnie jak ostatnim razem z bankami- wręcz dowód że zysk za rok 2026 będzie genialny dla PGE, a 2026 jeszcze sie nie wlicza pod ten podatek, więc zakładam zysk na akcje na poziomie powyżej 2.7zł/akcje dla PGE, czyli handluje sie za niecałą czterokrotność roczych zysków. Jak nic wyczuwam w przyszłyn roku wreszcie dywidende. W bankach mi sie opłaciło zaufać podobnej analizie.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -184,7 +273,7 @@
       "body": "jutro 5-10% w dół",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 3
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
@@ -295,7 +384,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-po-tej-podwyzce-cit-do-30-pogrom-tutaj,75504093.html",
       "body": "Policz sobie ile TPE mialo zysku z dystrybucji.Na czyms trzeba oprzec analize.Mozesz to zrobic procentowo jezeli potrafisz, nie musisz znac przyszlych wynikow.Czemu wy jestescie tak malo ogarnieci?Potem sie dziwia ze traca kase na gieldzie.:)",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -365,7 +454,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-po-tej-podwyzce-cit-do-30-pogrom-tutaj,75504093.html",
       "body": "Nie siej paniki,wyrzuca takie glaby jak Ty.Przeczytaj dokladnie kto ile zaplaciPodatku.Orlen najwiecej Tauron okolo 360mlnEnea 126 mlnPGE 22 mlnPo drugie nie wiadomo czy przejdzie.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -394,7 +483,7 @@
       "body": "Współczuję ale jest jak zawsze",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -1072,20 +1161,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75499479",
-      "author": "Gaudi",
-      "postedAt": "2026-08-20 14:32",
-      "threadTitle": "Re: oj, ty błaczek nr 1 !!!",
-      "url": "https://www.bankier.pl/forum/temat_euforia-na-zlocie,75488179.html",
-      "body": "Szczekaj, PL moze w tym wc zawiadomienie ze steachu zlozysz. Ba Brzeska zapraszam, boidudku :))))",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75499477",
       "author": "Oko",
       "postedAt": "2026-08-20 14:32",
@@ -1098,6 +1173,20 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75499479",
+      "author": "Gaudi",
+      "postedAt": "2026-08-20 14:32",
+      "threadTitle": "Re: oj, ty błaczek nr 1 !!!",
+      "url": "https://www.bankier.pl/forum/temat_euforia-na-zlocie,75488179.html",
+      "body": "Szczekaj, PL moze w tym wc zawiadomienie ze steachu zlozysz. Ba Brzeska zapraszam, boidudku :))))",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "75499289",
@@ -2472,82 +2561,12 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75472633",
-      "author": "black944",
-      "postedAt": "2026-08-18 14:00",
-      "threadTitle": "Re: Baja . . .",
-      "url": "https://www.bankier.pl/forum/temat_rsi-h4-79,75330603.html",
-      "body": "Masz racje Bajo...hmmmm....lubie pisac. Wrzucam 100 watkow i zawsze ktoryms trafie. Tak juz mam. Dlatego jestem góru tutaj. Pij duzo wody Bajobongo. Hmmmmmmm....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75472635",
-      "author": "black944",
-      "postedAt": "2026-08-18 14:00",
-      "threadTitle": "Sporo ich już tu było . . .",
-      "url": "https://www.bankier.pl/forum/temat_bidony-zalane-na-fixie,73911467.html",
-      "body": "> Czekamy na następna premię górską . . .",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75472599",
       "author": "black944",
       "postedAt": "2026-08-18 13:58",
       "threadTitle": "Re: Catfight ? Czy Black jest bi?",
       "url": "https://www.bankier.pl/forum/temat_pora-powoli-szykowac-bidony,75366965.html",
       "body": "W sumie masz racje Gaudi. Jestem bi, a ten fumio to jakis dziwny kolo...hmmmmm...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75472527",
-      "author": "BajaBongo",
-      "postedAt": "2026-08-18 13:54",
-      "threadTitle": "Re: Baja . . .",
-      "url": "https://www.bankier.pl/forum/temat_rsi-h4-79,75330603.html",
-      "body": "Takimi ogólnikami rzucasz że generalnie to wszystko można pod to podpiąć i zawsze wyjdzie na Twoje, bez urazy. :)",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75472107",
-      "author": "black944",
-      "postedAt": "2026-08-18 13:27",
-      "threadTitle": "Baja . . .",
-      "url": "https://www.bankier.pl/forum/temat_rsi-h4-79,75330603.html",
-      "body": "Te bidony też dały ładnie zarobić . . .https://www.bankier.pl/forum/temat_rsi-h4-26,74907201.html",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75471899",
-      "author": "flcn",
-      "postedAt": "2026-08-18 13:11",
-      "threadTitle": "Dlaczego inwestycje PGE są zawsze 2x droższe ??",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-inwestycje-pge-sa-zawsze-2x-drozsze,75471899.html",
-      "body": "Zasadniczo to standard spółek SP. To co prywatna spółka zrealizuje za 100 mln PLN to państwowa potrzebuje 200-250 mln PLN i znacznie dłuższych terminów. Przykład magazynu energii. Magazyn o mocy 200 MW zrealizowany przez prywatną spółkę kosztował niecałe 500 mln PLN a magazyn o mocy 262 MW realizowany przez PGE ma kosztować prawie 1,3 mld PLN ! Prywatny inwestor za taką kwotę zrealizowałby 2x większe magazyn. Co więcej, PGE realizuje inwestycje u siebie a prywatny inwestor musiał nabyć grunt i przygotować dodatkową infrastrukturę. Czy kogoś dziwią cykliczne odpisy aktualizujące wartość majątku PGE ? Tu co roku wydawanych jest kilka mld PLN na \"inwestycje\" z ujemną stopą zwrotu. Dzięki temu po wydaniu 50 mld PLN na inwestycje w ciągu ostatnich 6 lat, wartość spółki wynosi niecałe 25 mld PLN. Tak oto znikają mld PLN ze spółek. Scenariusz znany ze służby zdrowia.",
       "votes": {
         "up": 0,
         "down": 0
@@ -2593,20 +2612,6 @@
       "votes": {
         "up": 1,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75471373",
-      "author": "black944",
-      "postedAt": "2026-08-18 12:34",
-      "threadTitle": "Baja . . .",
-      "url": "https://www.bankier.pl/forum/temat_rsi-h4-79,75330603.html",
-      "body": "> Ja to chyba pierwsze wpisy o bidonach przy 10,80 widziałem :D Tak to można i do 2pln ustawiać te bidony, krótko mówiąc nigdy nie tracisz :D----------------------------To teraz dodaj do każdego zalanego bidona min +3,5% zysku i go wypróżniam wtedy aby znowu z nimi czekać na następne kółko, chyba że jest wyrażna zmiana nastroju i wtedy podnoszę S/L za kursem . . .ps.Ja nie jestem inwestorem tutaj i długo nie trzymam . . .",
-      "votes": {
-        "up": 0,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2822,20 +2827,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75469239",
-      "author": "BajaBongo",
-      "postedAt": "2026-08-18 10:26",
-      "threadTitle": "Re: Baja . . .",
-      "url": "https://www.bankier.pl/forum/temat_rsi-h4-79,75330603.html",
-      "body": "Ja to chyba pierwsze wpisy o bidonach przy 10,80 widziałem :D Tak to można i do 2pln ustawiać te bidony, krótko mówiąc nigdy nie tracisz :D",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75467763",
       "author": "Gaudi",
       "postedAt": "2026-08-18 09:09",
@@ -2878,18 +2869,32 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75465727",
-      "author": "black944",
-      "postedAt": "2026-08-17 22:27",
-      "threadTitle": "Baja . . .",
-      "url": "https://www.bankier.pl/forum/temat_rsi-h4-79,75330603.html",
-      "body": "Na tą chwilę to tylko -1,5% ale jeszcze sporo niższych bidonów świeci pustką, a czym niżej tym większe są,więc chętnie poczekam aby i je też zalali wkrótce . . .ps.zapraszam na 9,95 pln . . .",
+      "id": "75465291",
+      "author": "JD",
+      "postedAt": "2026-08-17 21:14",
+      "threadTitle": "Re: Brawo !!!",
+      "url": "https://www.bankier.pl/forum/temat_10-4-10-7zl-tu-sprobuje-odkupic,75340845.html",
+      "body": "> No i jest okazja . . .taniej się udało , ale dopiero 50% tego co planuję :DDD",
       "votes": {
         "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75462185",
+      "author": "black944",
+      "postedAt": "2026-08-17 16:05",
+      "threadTitle": "Brawo !!!",
+      "url": "https://www.bankier.pl/forum/temat_10-4-10-7zl-tu-sprobuje-odkupic,75340845.html",
+      "body": "No i jest okazja . . .",
+      "votes": {
+        "up": 4,
         "down": 1
       },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
     }
   ]
 }
