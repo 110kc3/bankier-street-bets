@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-08-21T18:56:27.663Z",
+  "updatedAt": "2026-08-22T01:50:26.162Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-21T18:56:27.663Z",
+    "fetchedAt": "2026-08-22T01:50:26.162Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.041,
+    "score": 0.034,
     "confidence": 0.71,
-    "commentCount": 191,
+    "commentCount": 195,
     "breakdown": {
-      "positive": 62,
-      "negative": 45,
-      "neutral": 84
+      "positive": 63,
+      "negative": 46,
+      "neutral": 86
     },
     "trend": [
-      {
-        "date": "2026-08-14",
-        "score": -0.322,
-        "count": 1
-      },
       {
         "date": "2026-08-15",
         "score": 0.152,
@@ -61,16 +56,21 @@
       },
       {
         "date": "2026-08-21",
-        "score": 0.091,
-        "count": 39
+        "score": 0.062,
+        "count": 43
+      },
+      {
+        "date": "2026-08-22",
+        "score": 0.322,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 191 komentarzy z ostatnich 7 dni: nastroje mieszane (62 pozytywnych, 45 negatywnych, 84 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 195 komentarzy z ostatnich 7 dni: nastroje mieszane (63 pozytywnych, 46 negatywnych, 86 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
-        "count": 26
+        "count": 25
       },
       {
         "word": "miedzi",
@@ -78,11 +78,15 @@
       },
       {
         "word": "miedz",
-        "count": 12
+        "count": 11
+      },
+      {
+        "word": "przy",
+        "count": 10
       },
       {
         "word": "srebro",
-        "count": 11
+        "count": 10
       },
       {
         "word": "wyniki",
@@ -93,24 +97,76 @@
         "count": 10
       },
       {
-        "word": "ceny",
+        "word": "zysk",
         "count": 9
       },
       {
-        "word": "dzis",
-        "count": 8
+        "word": "wszystko",
+        "count": 9
       },
       {
-        "word": "metali",
-        "count": 8
-      },
-      {
-        "word": "roku",
-        "count": 8
+        "word": "ceny",
+        "count": 9
       }
     ]
   },
   "comments": [
+    {
+      "id": "75518683",
+      "author": "samuraj_84",
+      "postedAt": "2026-08-22 00:33",
+      "threadTitle": "Re: wygląda na transakcję planowaną ponad 1mln wolumenu",
+      "url": "https://www.bankier.pl/forum/temat_wyglada-na-transakcje-planowana-ponad-1mln-wolumenu,75515765.html",
+      "body": "Zakładając taki sam zysk za drugie półrocze jak za pierwsze czyli cały rok 11 mld to C/Z na poziomie 8 byłby przy cenie akcji 440 zł.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75518449",
+      "author": "starynowy",
+      "postedAt": "2026-08-21 22:37",
+      "threadTitle": "Re: wygląda na transakcję planowaną ponad 1mln wolumenu",
+      "url": "https://www.bankier.pl/forum/temat_wyglada-na-transakcje-planowana-ponad-1mln-wolumenu,75515765.html",
+      "body": "Pytanie przy jakiej cenie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75518417",
+      "author": "starynowy",
+      "postedAt": "2026-08-21 22:30",
+      "threadTitle": "Re: wygląda na transakcję planowaną ponad 1mln wolumenu",
+      "url": "https://www.bankier.pl/forum/temat_wyglada-na-transakcje-planowana-ponad-1mln-wolumenu,75515765.html",
+      "body": "Po wynikach za cały 2026 rok wskaźnik C/Z może się kształtować na poziomie 7 - 8.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75517891",
+      "author": "starynowy",
+      "postedAt": "2026-08-21 21:01",
+      "threadTitle": "Re: DZISIAJ BYŁA MANIPULACJA NA KGH",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-byla-manipulacja-na-kgh,75517439.html",
+      "body": "I jeszcze jedna sprawa. Takie możliwości jakie mają duzi spekulanci-manipulanci podważa sens istnienia dogrywki.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75517841",
       "author": "starynowy",
@@ -119,10 +175,24 @@
       "url": "https://www.bankier.pl/forum/temat_dzisiaj-byla-manipulacja-na-kgh,75517439.html",
       "body": "Są coraz bardziej bezczelni ale nie ma co liczyć na KNF. Ten urząd ma inne sprawy na głowie.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75517439",
+      "author": "SWIR",
+      "postedAt": "2026-08-21 19:48",
+      "threadTitle": "DZISIAJ BYŁA MANIPULACJA NA KGH",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-byla-manipulacja-na-kgh,75517439.html",
+      "body": "nie mozna tak robic i to jest jawna manipulacja gdzie knf ,to naprawde wypacza notowania i swiadczy ze duzy moze zrobbic wszystko w obie strony ,jezeli juz to powinna byc pakietówka a nie takie cos na fixie",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
     },
     {
@@ -134,7 +204,7 @@
       "body": "Kurs KGHM to kosmos tu potrzebny jest split jak kiedyś na Dino",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 5
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -147,7 +217,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyglada-na-transakcje-planowana-ponad-1mln-wolumenu,75515765.html",
       "body": "Podaż powynikowa nie docisnęła kursu. Idziemy na przebicie 400",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -190,7 +260,7 @@
       "body": "kilka kontraktów FKGHU26/SHORT w średniej cenie 342,00 zł/szt. uznając że jest kolejna okazja do zajęciazyskownej pozycji!",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -553,7 +623,7 @@
       "url": "https://www.bankier.pl/forum/temat_dokad-to-zmierza,75503275.html",
       "body": "Zawsze do tego samego , wystarczy sprawdzić historie na forum , tu będzie non stop podbicie do 380 spadek do 300 , potem zjazd do 200 i rajd na 400 - nic się nie zmienia . Każda dobrze prosperująca spółka będzie nominalnie więcej warta niż gowniany pieniądz który dodrukują",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -918,7 +988,7 @@
       "body": "> Nazewnictwo nieważne. Jeżeli już podajesz operację, to by być wiarygodnym melduj chwilę po. Inaczej to dziecinada.Spoko, trend spadkowy na miedzi jest nie zagrożony, dlategom kupiłem kilka SHORTów i na podbitkach będę jeszczeFKGHU26/SHORT dokupywał! Hehehe!",
       "votes": {
         "up": 1,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -1029,7 +1099,7 @@
       "url": "https://www.bankier.pl/forum/temat_udalo-sie,75498441.html",
       "body": "Aha i piszesz o tym o 13:30 jak już kurs jest dużo dużo niżej",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1086,7 +1156,7 @@
       "body": "na początku sesji kupić kilka FKGHU26/SHORT w średniej cenie około 350,00 zł/szt!",
       "votes": {
         "up": 0,
-        "down": 6
+        "down": 7
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -2767,20 +2837,6 @@
       "votes": {
         "up": 0,
         "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75444765",
-      "author": "Godoj",
-      "postedAt": "2026-08-14 22:55",
-      "threadTitle": "Re: Czy ta wiadomość wywoła spadek?",
-      "url": "https://www.bankier.pl/forum/temat_czy-ta-wiadomosc-wywola-spadek,75443485.html",
-      "body": "Eee tam. Takie zmiany nikogo nie obchodzą. Nad ranem 13 sierpnia tąpnęło srebro i miedź. Mimo, że było nieduże, wywołało impuls sprzedażowy zarobionych. Później i dzisiaj uspokoiły się metale - uspokoił się też KGHM. Teraz powiązane rynki produkcyjno-konsumpcyjne czekają na coś nowego, co wskaże kierunek. W mojej ocenie, niestety 50:50, bo produkcja, popyt, zapasy są podlane polityką i nie ma już łatwego przełożenia na kurs spółki...",
-      "votes": {
-        "up": 1,
-        "down": 0
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"

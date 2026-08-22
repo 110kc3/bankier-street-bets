@@ -3,24 +3,24 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-08-21T18:56:34.407Z",
+  "updatedAt": "2026-08-22T01:50:32.890Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-21T18:56:34.407Z",
+    "fetchedAt": "2026-08-22T01:50:32.890Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 6
+    "threadsScanned": 7
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.236,
-    "confidence": 0.58,
-    "commentCount": 30,
+    "score": -0.296,
+    "confidence": 0.62,
+    "commentCount": 33,
     "breakdown": {
       "positive": 4,
-      "negative": 16,
+      "negative": 19,
       "neutral": 10
     },
     "trend": [
@@ -46,12 +46,17 @@
       },
       {
         "date": "2026-08-21",
-        "score": -0.419,
-        "count": 6
+        "score": -0.46,
+        "count": 8
+      },
+      {
+        "date": "2026-08-22",
+        "score": -0.762,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 30 komentarzy z ostatnich 7 dni: nastroje negatywne (4 pozytywnych, 16 negatywnych, 10 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 33 komentarzy z ostatnich 7 dni: nastroje negatywne (4 pozytywnych, 19 negatywnych, 10 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "sprzedala",
@@ -66,6 +71,22 @@
         "count": 3
       },
       {
+        "word": "powyzej",
+        "count": 2
+      },
+      {
+        "word": "dopiero",
+        "count": 2
+      },
+      {
+        "word": "mnie",
+        "count": 2
+      },
+      {
+        "word": "raczej",
+        "count": 2
+      },
+      {
         "word": "dino",
         "count": 2
       },
@@ -76,26 +97,52 @@
       {
         "word": "wrzesniu",
         "count": 2
-      },
-      {
-        "word": "zrobia",
-        "count": 2
-      },
-      {
-        "word": "przy",
-        "count": 2
-      },
-      {
-        "word": "tysiecy",
-        "count": 2
-      },
-      {
-        "word": "pani",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75518813",
+      "author": "Zorro2",
+      "postedAt": "2026-08-22 02:24",
+      "threadTitle": "Na 20500 dołek a potem",
+      "url": "https://www.bankier.pl/forum/temat_na-20500-dolek-a-potem,75518813.html",
+      "body": "Z powrotem do 22 500 pln i tyle żadnych sensacji fajerwerków filozofii. Takie życie jak się pomieli powyżej 22 to dopiero będzie ruch wyżej ale ile to potrwa i czy zdąży przed wielkim tąpnięciem to nie wiem",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75517951",
+      "author": "Hillela",
+      "postedAt": "2026-08-21 21:07",
+      "threadTitle": "Re: Dzisiaj korekta w spadku.",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-korekta-w-spadku,75514893.html",
+      "body": "Dziadostwo się robi",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75517903",
+      "author": "Kurator",
+      "postedAt": "2026-08-21 21:02",
+      "threadTitle": "Re: Dzisiaj korekta w spadku.",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-korekta-w-spadku,75514893.html",
+      "body": "Lpp w czerecu po reko JP też poleciało na18k potem JP dało reko kupuj z ceną 19,8k i dobiliśmy do 22,6k teraz mamy boczniaka w konsolidacji. Wg mnie może jeszcze trochę zejść ale raczej już nie do 18k no chyba że zrobi się dramat na bazowych lub drastycznie wzmocniłby się dolar. Do wyborów w US nie zakładam tych scenariuszy. Ale jeśli uważasz żeby czekać z zakupem do 18k lub niżej to twoja sprawa. Może masz rację. Giełda to w dużej mierze gra. Różne sytuacje mogą się wydarzyć.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75517489",
       "author": "Holokosz",
@@ -118,7 +165,7 @@
       "url": "https://www.bankier.pl/forum/temat_dzisiaj-korekta-w-spadku,75514893.html",
       "body": "Dobre. Dzisiaj na dino które pokazało marżowość 6,7% i lfl 0,3% rosło 8%. Tutaj we wrześniu jeśli marżowość będzie dowiezione na 56-57proc to będzie pompka. Raczej nie naganiaj na spadki. Grubaski i tak zrobią jak chcą a po prostu każdy wg swojego rozsądku niech dobiera.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": -0.762,
@@ -132,7 +179,7 @@
       "url": "https://www.bankier.pl/forum/temat_dzisiaj-korekta-w-spadku,75514893.html",
       "body": "Przy 18000 można myśleć o kupnie",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 2
       },
       "sentimentScore": -0.583,
