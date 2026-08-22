@@ -3,11 +3,11 @@
   "companyName": "JSW SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=JSW",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_jsw-sa,6,21,10000000176.html",
-  "updatedAt": "2026-08-22T01:50:17.443Z",
+  "updatedAt": "2026-08-22T06:59:20.706Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-22T01:50:17.443Z",
+    "fetchedAt": "2026-08-22T06:59:20.706Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,24 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.044,
+    "score": -0.061,
     "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 53,
-      "negative": 62,
-      "neutral": 85
+      "positive": 50,
+      "negative": 61,
+      "neutral": 89
     },
     "trend": [
       {
+        "date": "2026-08-16",
+        "score": 0,
+        "count": 1
+      },
+      {
         "date": "2026-08-17",
         "score": 0,
-        "count": 2
+        "count": 5
       },
       {
         "date": "2026-08-18",
@@ -41,34 +46,42 @@
       },
       {
         "date": "2026-08-20",
-        "score": 0.102,
-        "count": 14
+        "score": 0.135,
+        "count": 13
       },
       {
         "date": "2026-08-21",
-        "score": -0.074,
-        "count": 154
+        "score": -0.082,
+        "count": 139
       },
       {
         "date": "2026-08-22",
-        "score": -0.254,
-        "count": 3
+        "score": -0.221,
+        "count": 15
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (53 pozytywnych, 62 negatywnych, 85 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (50 pozytywnych, 61 negatywnych, 89 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "wegla",
+        "count": 17
+      },
       {
         "word": "roku",
         "count": 17
       },
       {
-        "word": "wegla",
-        "count": 16
+        "word": "maja",
+        "count": 13
       },
       {
-        "word": "maja",
-        "count": 12
+        "word": "chwile",
+        "count": 11
+      },
+      {
+        "word": "chinach",
+        "count": 11
       },
       {
         "word": "ceny",
@@ -89,18 +102,178 @@
       {
         "word": "wiecej",
         "count": 10
-      },
-      {
-        "word": "chinach",
-        "count": 10
-      },
-      {
-        "word": "kopaln",
-        "count": 10
       }
     ]
   },
   "comments": [
+    {
+      "id": "75519295",
+      "author": "zadziwiony",
+      "postedAt": "2026-08-22 08:51",
+      "threadTitle": "Re: Jakbym czytał posty z marca.",
+      "url": "https://www.bankier.pl/forum/temat_jakbym-czytal-posty-z-marca,75518947.html",
+      "body": "Szorty mają analitykow. Pisanie że to gupki to ośmieszanie się. Mają plan B i C. Wybitny analityk jok nie ma racji że tam sami nieudacznicy. Gsyby tak było to dawno ich by już nie było.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75519175",
+      "author": "ZjednoczonaUlica",
+      "postedAt": "2026-08-22 08:22",
+      "threadTitle": "Re: Jakbym czytał posty z marca.",
+      "url": "https://www.bankier.pl/forum/temat_jakbym-czytal-posty-z-marca,75518947.html",
+      "body": "Teraz szorty uduszą się same, na własne życzenie... kto bogatemu zabroni?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75519135",
+      "author": "Brando25_dwubiegunow",
+      "postedAt": "2026-08-22 08:07",
+      "threadTitle": "Re: W poniedziałek 31 zł ale raczej wyżej",
+      "url": "https://www.bankier.pl/forum/temat_w-poniedzialek-31-zl-ale-raczej-wyzej,75519115.html",
+      "body": "wypuścili cię ??? cieszymy się.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75519115",
+      "author": "Brando25",
+      "postedAt": "2026-08-22 08:02",
+      "threadTitle": "W poniedziałek 31 zł ale raczej wyżej",
+      "url": "https://www.bankier.pl/forum/temat_w-poniedzialek-31-zl-ale-raczej-wyzej,75519115.html",
+      "body": "Spokojnie będzie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75519105",
+      "author": "Brando25",
+      "postedAt": "2026-08-22 08:00",
+      "threadTitle": "DCE Coking Coal ( 1,609.0s +38.0 (+2.42%) 08/24/26 [DCE]",
+      "url": "https://www.bankier.pl/forum/temat_dce-coking-coal-1-609-0s-38-0-2-42-08-24-26-dce,75519105.html",
+      "body": "Pięknie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75519023",
+      "author": "zadziwiony",
+      "postedAt": "2026-08-22 07:34",
+      "threadTitle": "Re: Jakbym czytał posty z marca.",
+      "url": "https://www.bankier.pl/forum/temat_jakbym-czytal-posty-z-marca,75518947.html",
+      "body": "Poczekam jeszcze. W marcu przebiło 35 na chwilę. Może tym razem też się uda. A pakiet niewielki 4K to wywalić zawsze zdążę.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75519021",
+      "author": "Doktor",
+      "postedAt": "2026-08-22 07:34",
+      "threadTitle": "Re: Wyleszczeni wystąp! 1. Inwestor, 2. Brando25",
+      "url": "https://www.bankier.pl/forum/temat_wyleszczeni-wystap-1-inwestor-2-brando25,75394919.html",
+      "body": "Mario, ja się kółek nie wyrzekam. Ale to prawda, że zmieniłem narrację, bo i sytuacja spółki jest inna, niż była np. rok temu w sierpniu. Tylko ślepy tego nie zauważy. No i może jeszcze Paweł, Olo i Maksiu tego nie widzą, ale wiemy dlaczego. To w końcu ich praca.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75519005",
+      "author": "Ronnie",
+      "postedAt": "2026-08-22 07:27",
+      "threadTitle": "Re: Wyleszczeni wystąp! 1. Inwestor, 2. Brando25",
+      "url": "https://www.bankier.pl/forum/temat_wyleszczeni-wystap-1-inwestor-2-brando25,75394919.html",
+      "body": "Inwestując warto tez spróbować postawić sie sytuacji swojego oponenta, czyli funduszy short. Zadać sobie pytanie, czy na ta chwile , przy tym kursie i tym otoczeniu rynkowym , jest jakikolwiek sens shortowania tej spolki ? Short stara sie ewakuować, bo po 30 miesiącach shortowania , jest to juz bez sensu totalnie. Mieli szansę wyjścia przed podpisaniem porozumienia, niecale 3 mln akcji do oddania i kurs 32 , woleli zwiększać krotka az do rekordowych rozmiarów docelowo. Dzis beda zbierali tego owoce. Zgniłe owoce. Niespodziewali sie takiej katastrofy w Chinach skutkującej brakiem podaży, winduje to siła rzeczy acf, gdzie trzeba wybrać sie na zakupy. Shortowanie jsw teraz jest absurdalnie niemądre, a wysypanie po 29 teraz i czekanie na kółko na 25, jest rownie pozbawione logiki. My to rozumiemy i mysle ze wielu wielu innych tutaj podobnie",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -1,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75518989",
+      "author": "Ronnie",
+      "postedAt": "2026-08-22 07:17",
+      "threadTitle": "Re: Jakbym czytał posty z marca.",
+      "url": "https://www.bankier.pl/forum/temat_jakbym-czytal-posty-z-marca,75518947.html",
+      "body": "Masz juz fajny kurs na wyjscie dla siebie. Bez strat , bo podobno brałeś po 29. Moze czas pożegnać spolke i forum? Uważasz ze decyzja shorta o zwiększeniu krotkiej w marcu wyszła im.na dobre ? W lutym mieli kurs 32 i poniżej 3mln akcji do oddania. Trzeba bylo sie wtedy ewakuować. Przed podpisaniem porozumienia. Zwiększyli krótką, ich inwestycja .. I czas pokazuje ze ich strata. Mozesz sie śmiać z ulicy, za to short konczy z 6mln długiem, postępującą restrukturyzacją i najwyższymi cenami wegla od czasu shortowania. Warto bylo ? Nie mamy wpływu na to kiedy kto zagra shorta, ale jak widac ich inwestowanie naznaczone pazernością tez bywa mocno chybione",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.964,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75518947",
+      "author": "zadziwiony",
+      "postedAt": "2026-08-22 06:58",
+      "threadTitle": "Jakbym czytał posty z marca.",
+      "url": "https://www.bankier.pl/forum/temat_jakbym-czytal-posty-z-marca,75518947.html",
+      "body": "Wtedy też uduszono szorty.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75518915",
+      "author": "Wawwa",
+      "postedAt": "2026-08-22 06:41",
+      "threadTitle": "Re: Nie pijcie za dużo , w poniedziałek realizacja",
+      "url": "https://www.bankier.pl/forum/temat_nie-pijcie-za-duzo-w-poniedzialek-realizacja,75518493.html",
+      "body": "Pierdo…nie takie 22 zobaczysz jak świnia gwiazdy",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75518875",
+      "author": "Mario",
+      "postedAt": "2026-08-22 06:12",
+      "threadTitle": "Re: Weekendowe ujadanie szorta czas rozpocząć.",
+      "url": "https://www.bankier.pl/forum/temat_weekendowe-ujadanie-szorta-czas-rozpoczac,75516771.html",
+      "body": "Droga redakcjo, to już trochę przekracza granice absurdu. Co do kierunku ruchu jestem spokojny ale akurat powyższy post nie jest mój. Fabrykować treści z takim samym IP to już przesada.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75518827",
       "author": "LecimyDoGóry",
@@ -109,7 +282,7 @@
       "url": "https://www.bankier.pl/forum/temat_shorty-skupujecie-od-29-czy-czekacie-na-40,75518827.html",
       "body": "✅ SHORTY SKUPUJECIE od 29 czy czekacie na 40 ✅Akcje po 100 zł czekają na was.⚡️⭐✅❤️⭐ WYNIKI ZA II KWARTAŁ NA PLUSIE. ⭐❤️✅⭐⚡️II kwartał na plusie(...)Jak mówi analityk Jakub Szkopek z Erste Group,(...)II kwartał tego roku powinien być jeszcze lepszy, bo pojawi się efekt wyższych cen węgla, które przełożą się na formuły cenowe JSW. Co więcej, w Chinach doszło do wypadków górniczych. Część kopalń wstrzymała prace w efekcie kontroli. To przełożyło się na mniejsze wydobycie i wyższe ceny węgla koksującego, które przekroczyły 240 USD za tonę – wskazuje analityk. II kwartał w zakresie wyniku EBITDA powinien już przynieść dodatnie wyniki. – Wstępne prognozy mówią o kilkuset mln zł na plusie.cdn",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -123,7 +296,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-pijcie-za-duzo-w-poniedzialek-realizacja,75518493.html",
       "body": "A po23 już się nie opłaca?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -151,7 +324,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-pijcie-za-duzo-w-poniedzialek-realizacja,75518493.html",
       "body": "Jak będzie po 22 to dokupuje 3000 akcji .Pozdrawiam",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -165,7 +338,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-pisalem-wam-2-tyg-temu-ze-acf-217-to-sezonowy-dolek,75518245.html",
       "body": "Masz rację, pisałeś, cieszę sie ze sie to sprawdziło. Mario tez tak mówił",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -193,7 +366,7 @@
       "url": "https://www.bankier.pl/forum/temat_weekendowe-ujadanie-szorta-czas-rozpoczac,75516771.html",
       "body": "Gilafa myli fakty. Fakty są takie: lecimy do góry to Wy Panie Pawle i każdy to wie",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -207,7 +380,7 @@
       "url": "https://www.bankier.pl/forum/temat_szorty-i-brak-akcji-do-pozyczenia-30-zl-za-chwile-bedzie,75518041.html",
       "body": "⭐PO CO SPRZEDAWAĆ PONIŻEJ 35 JAK SHORTY KUPIĄ PO 100 ZŁ.⭐⭐MACIE AKCJE, WYSTAWIAĆ ZLECENIA SPRZEDAŻY PO 100 ZŁ DO KOŃCA ROKU⭐TO NIC NIE KOSZTUJE, W KAŻDEJ CHWILI MOŻNA ZLECENIE ZMIENIĆ / ZMODYFIKOWAĆ.BO JAK NIE WYSTAWICIE ZLECENIA, TO POŻYCZAJĄ WASZE AKCJE I ZBIJAJĄ KURS WASZYMI AKCJAMI.CHYBA NIKT TEGO NIE CHCE.A JAK ZACZNĄ SKUP, BO MUSZĄ ODDAĆ POŻYCZONE AKCJE TO ZAPŁACĄ 100 ZŁ.",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -221,7 +394,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyleszczeni-wystap-1-inwestor-2-brando25,75394919.html",
       "body": "Czas już na zmianę nika kolego. Zapamiętaj: James i Paweł już skompromitowane.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -249,7 +422,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyleszczeni-wystap-1-inwestor-2-brando25,75394919.html",
       "body": "@Doktor ,z kolkowicza stałeś się inwestorem..Nie chodzi o to, że ktoś się myli. Chodzi o schemat.Na forum w kółko powtarza się ten sam mechanizm: wybieranie informacji pasujących do tezy, pomijanie niewygodnych faktów, sianie strachu, a gdy rzeczywistość nie potwierdza prognozy -dorabianie kolejnego wyjaśnienia.To nie jest analiza, tylko narracja odporna na fakty.Najprostszy test jest brutalny: zapiszmy jego prognozy, daty i oczekiwane poziomy, a potem porównajmy je z rzeczywistym kursem i wynikami. Bez „może”, „wydaje mi się” i dopisywania historii po fakcie.Bo inwestora ocenia się nie po tym, jak przekonująco mówi, tylko po tym, czy jego tezy zarabiają pieniądze.Jeżeli ktoś konsekwentnie przegrywa z trendem, a mimo to cały czas występuje w roli eksperta i produkuje kolejne powody do strachu, to warto przestać słuchać narracji i zacząć liczyć.Liczby są odporne na manipulację.To jest moja teza inwestycyjna. Czytam Was ale coraz mniej mi się chce komentować. Jsw to mój zakład po Asbisie, kghm-mie itp. To cykliczny Feniks a otoczenie..to naprawdę nie czy ale kiedy. Na palcach jednej ręki policzylbym sensowne wypowiedzi na tym forum. Ja już nie muszę grać ale lubie. Jeszcze tylko Jasia brakuje z kotwiczeniem na 37. Jest strukturalny niedobór i będzie udana restrukturyzacja to będzie grubo. Bo jest grubo cyklicznie i tyle. Max, Gilafa i Olo już stracili entuzjazm a numeric i Arrow wychodzą.. nie dlatego, że muszę tylko dlatego, że to się już nie opłaca.Niech każdy robi co chce ale nie mówcie innym co robić z pieniędzmi.Proste?Pozdrawiam",
       "votes": {
-        "up": 5,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -277,7 +450,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-pijcie-za-duzo-w-poniedzialek-realizacja,75518493.html",
       "body": "22 nie bylo od stycznia, jestes pewien?",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0,
@@ -305,7 +478,7 @@
       "url": "https://www.bankier.pl/forum/temat_rejestr-ks-knf-kapitulacja-szortow,75518505.html",
       "body": "1 ARROWSTREET CAPITAL, LIMITED PARTNERSHIP JSW PLJSW0000015 0.59 2026-08-20 2026-08-212 NUMERIC INVESTORS LLC JSW PLJSW0000015 1.14 2026-08-20 2026-08-213 QUBE RESEARCH & TECHNOLOGIES LIMITED JSW PLJSW0000015 1.49 2026-08-11 2026-08-12",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -320,7 +493,7 @@
       "body": "I wracamy do 22 Ziko , odkupili sobie milion akcji będą wywalać poniedziałek,",
       "votes": {
         "up": 1,
-        "down": 4
+        "down": 7
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -375,8 +548,8 @@
       "url": "https://www.bankier.pl/forum/temat_weekendowe-ujadanie-szorta-czas-rozpoczac,75516771.html",
       "body": "Hehehehehe. Jakie nerwy misiek. Mnie faktora nie potrzeba. Zajmij się ochroną własnej dooopy. A jeszcze, na jednej płycie wszystkie parobasy od dwóch lat już jedą. Nudą wieje.",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -389,7 +562,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-pisalem-wam-2-tyg-temu-ze-acf-217-to-sezonowy-dolek,75518245.html",
       "body": "margin call! margin call! XD",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -403,7 +576,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-pisalem-wam-2-tyg-temu-ze-acf-217-to-sezonowy-dolek,75518245.html",
       "body": "... I najlepsze juz wkrótce nastąpi. Tutajhttps://tradingeconomics.com/commodity/coking-coal",
       "votes": {
-        "up": 6,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -417,7 +590,7 @@
       "url": "https://www.bankier.pl/forum/temat_jadymy-bracia-nagony,75518137.html",
       "body": "Aleś kiciarzowi piękny temat sprzedał. Hahahahaha",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -431,7 +604,7 @@
       "url": "https://www.bankier.pl/forum/temat_nowa-sciana,75518207.html",
       "body": "Jak myslicie w ktora dziure beda bardziej fedrowac w O czy o wychodzi Olo caly wekend bedzie musial straty odrabiav",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -445,7 +618,7 @@
       "url": "https://www.bankier.pl/forum/temat_jadymy-bracia-nagony,75518137.html",
       "body": "Olo a Cie bedzie caly wekennd pieklo od fedrowania hah",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -459,7 +632,7 @@
       "url": "https://www.bankier.pl/forum/temat_jadymy-bracia-nagony,75518137.html",
       "body": "Idac Twoim tokiem, to jutro shorty wykupuja wszystkie pozyczone akcje z rynku nie podnoszac kursu i zwracaja je wlascicielom. Konczy sie zmartwienie o odsetki i minus na koncie z tej akcji.",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -530,7 +703,7 @@
       "body": "Jutro tradycyjnie skłiz i wyciskanie City, w niedzielę ATH. W poniedziałek ubierania łosia cd. Tik tak.",
       "votes": {
         "up": 0,
-        "down": 4
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -656,7 +829,7 @@
       "body": "To jak? Zakład? Bo ~idzieDogóry się właśnie rozkręca.",
       "votes": {
         "up": 0,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -669,7 +842,7 @@
       "url": "https://www.bankier.pl/forum/temat_szorty-i-brak-akcji-do-pozyczenia-30-zl-za-chwile-bedzie,75518041.html",
       "body": "SZORTY I BRAK AKCJI DO POŻYCZENIA",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -683,7 +856,7 @@
       "url": "https://www.bankier.pl/forum/temat_szorty-i-brak-akcji-do-pozyczenia-30-zl-za-chwile-bedzie,75518041.html",
       "body": "❤️❤️ SZORTY I BRAK AKCJI DO POŻYCZENIA. 30 zł ZA CHWILĘ BĘDZIE? ❤️❤️Nie ma akcji do zbijania, To już koniec uwalania.. Szorty siły już nie mają. Opluwaniem się wspierają. Już ustawia się kolejka A kolejka będzie wielka. Wszyscy będą kupowali Nawet Ci co opluwali.",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -1075,8 +1248,8 @@
       "url": "https://www.bankier.pl/forum/temat_weekendowe-ujadanie-szorta-czas-rozpoczac,75516771.html",
       "body": "Jok szort siedzi na spółce bo sytuacja jsw jest naprawdę kiepska , acf-y coś drgnęło Ale $ spada , zz już się szykują do \"roboty\" no stary nerwy na bok, myśl!",
       "votes": {
-        "up": 1,
-        "down": 7
+        "up": 2,
+        "down": 8
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1089,7 +1262,7 @@
       "url": "https://www.bankier.pl/forum/temat_weekendowe-ujadanie-szorta-czas-rozpoczac,75516771.html",
       "body": "Mowa o szulerni szortowskiej.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 2
       },
       "sentimentScore": 0,
@@ -1103,7 +1276,7 @@
       "url": "https://www.bankier.pl/forum/temat_do-trzech-razy-sztuka-forsujemy-opor-na-28-94,75503411.html",
       "body": "Rsi to nie wszystko Ale ryzyko roszczeń związkowych bardziej realne",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 5
       },
       "sentimentScore": -0.322,
@@ -1117,8 +1290,8 @@
       "url": "https://www.bankier.pl/forum/temat_weekendowe-ujadanie-szorta-czas-rozpoczac,75516771.html",
       "body": "Policz do poniedziałku wszystkie wątki i posty ~LecimyDoGóry a zaręczam Cię, że 1000 to będzie za mało.Flaszkę sobie sam wybierzesz.Stoi ? ;)",
       "votes": {
-        "up": 1,
-        "down": 5
+        "up": 2,
+        "down": 7
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1216,7 +1389,7 @@
       "body": "No i pokazałeś, tak przypuszczałem, że nie ma się co w dyskusje wdawać bo z thebillem rozmawiam i się nie myliłem",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -1299,7 +1472,7 @@
       "url": "https://www.bankier.pl/forum/temat_weekendowe-ujadanie-szorta-czas-rozpoczac,75516771.html",
       "body": "Proszę mi tutaj przez weekend 1000postów naklepać.Dziękuję.",
       "votes": {
-        "up": 12,
+        "up": 13,
         "down": 2
       },
       "sentimentScore": 0,
@@ -1516,132 +1689,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75516331",
-      "author": "Paweł",
-      "postedAt": "2026-08-21 17:37",
-      "threadTitle": "Re: A można było sprzedać po 35 niedawno",
-      "url": "https://www.bankier.pl/forum/temat_a-mozna-bylo-sprzedac-po-35-niedawno,74901159.html",
-      "body": "No właśnie, z ust mi to wyjąłeś.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75516301",
-      "author": "PPP",
-      "postedAt": "2026-08-21 17:35",
-      "threadTitle": "Re: Urośnie do 30 i do 150 i wyżej",
-      "url": "https://www.bankier.pl/forum/temat_re-urosnie-do-30-i-do-150-i-wyzej,75516245.html",
-      "body": "Tak mi mów. Generalnie jest dobrze. Sufity pekają. Shorty zaczęły odkup, bo widzą, że to już nie są przelewki ze \"zjednoczoną ulicą\", kiedy dołączył fundusz norweski. Niech się biją o akcje. Jest ich dużo po 100 zł",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75516245",
-      "author": "Paweł",
-      "postedAt": "2026-08-21 17:31",
-      "threadTitle": "Re: Urośnie do 30 i do 150 i wyżej",
-      "url": "https://www.bankier.pl/forum/temat_re-urosnie-do-30-i-do-150-i-wyzej,75516245.html",
-      "body": "i wtedy będzie można sprzedać",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75516233",
-      "author": "Matematyk",
-      "postedAt": "2026-08-21 17:29",
-      "threadTitle": "Re: A można było sprzedać po 35 niedawno",
-      "url": "https://www.bankier.pl/forum/temat_a-mozna-bylo-sprzedac-po-35-niedawno,74901159.html",
-      "body": "A mogli odkupic po 25:)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75516223",
-      "author": "Paweł",
-      "postedAt": "2026-08-21 17:29",
-      "threadTitle": "Gdy natarczywie i uparcie naganiają na sprzedaż - kupuj.",
-      "url": "https://www.bankier.pl/forum/temat_gdy-natarczywie-i-uparcie-naganiaja-na-sprzedaz-kupuj,75516223.html",
-      "body": "zaowocuje",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75516213",
-      "author": "Paweł",
-      "postedAt": "2026-08-21 17:28",
-      "threadTitle": "można było sprzedać kiedy po 130",
-      "url": "https://www.bankier.pl/forum/temat_mozna-bylo-sprzedac-kiedy-po-130,75516213.html",
-      "body": "teraz będzie można sprzedać po 100 i wyżej",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75516191",
-      "author": "Paweł",
-      "postedAt": "2026-08-21 17:27",
-      "threadTitle": "Re: Poprzedni tydzień kończyliśmy na 28,28.....",
-      "url": "https://www.bankier.pl/forum/temat_poprzedni-tydzien-konczylismy-na-28-28,75506733.html",
-      "body": "super",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75516133",
-      "author": "Paweł",
-      "postedAt": "2026-08-21 17:21",
-      "threadTitle": "Re: A można było sprzedać po 35 niedawno",
-      "url": "https://www.bankier.pl/forum/temat_a-mozna-bylo-sprzedac-po-35-niedawno,74901159.html",
-      "body": "Forum spekulantów.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75516089",
-      "author": "PPP",
-      "postedAt": "2026-08-21 17:18",
-      "threadTitle": "Re: Poprzedni tydzień kończyliśmy na 28,28.....",
-      "url": "https://www.bankier.pl/forum/temat_poprzedni-tydzien-konczylismy-na-28-28,75506733.html",
-      "body": "W ubiegłym tygodniu pokonaliśmy ważny sufit 28,20 zł. Dzisiaj, dużo ważniejszy sufit 29,50 gdzie przecinały się dwie linie trendu spadkowego. Zrobiliśmy to na dużych obrotach i z cieniem górnym 29,85Otwiera się droga na 30, 32 i 36 i w przyszłym tygodniu to osiągniemy.",
-      "votes": {
-        "up": 9,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75516049",
       "author": "Max",
       "postedAt": "2026-08-21 17:14",
@@ -1650,20 +1697,6 @@
       "body": "To tylko jeden ze \"wskaźników\", aczkolwiek oddaje jakieś tam nastroje..Forum z przymróżeniem oka.;)",
       "votes": {
         "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75515971",
-      "author": "Paweł",
-      "postedAt": "2026-08-21 17:08",
-      "threadTitle": "Gdy natarczywie i uparcie naganiają na sprzedaż - kupuj.",
-      "url": "https://www.bankier.pl/forum/temat_gdy-natarczywie-i-uparcie-naganiaja-na-sprzedaz-kupuj,75515971.html",
-      "body": "i tak dzieje się tutaj",
-      "votes": {
-        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -1682,20 +1715,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75515905",
-      "author": "qwerty-1",
-      "postedAt": "2026-08-21 17:04",
-      "threadTitle": "Re: Poprzedni tydzień kończyliśmy na 28,28.....",
-      "url": "https://www.bankier.pl/forum/temat_poprzedni-tydzien-konczylismy-na-28-28,75506733.html",
-      "body": "No fajnie....kończymy tydzień wyżej o ponad 4,5%.......na 29,59 czyli 1,31zł wyżej",
-      "votes": {
-        "up": 6,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75515857",
@@ -1719,7 +1738,7 @@
       "url": "https://www.bankier.pl/forum/temat_smiec-nawet-jak-rosnie-to-spada,75515191.html",
       "body": "Chyba twój.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -1734,7 +1753,7 @@
       "body": "No nie poleciał już na ryj 1%?",
       "votes": {
         "up": 0,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -1747,7 +1766,7 @@
       "url": "https://www.bankier.pl/forum/temat_smiec-nawet-jak-rosnie-to-spada,75515191.html",
       "body": "Tak tak, oczekuj lada chwila.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -1762,7 +1781,7 @@
       "body": "Śmieć juz leci",
       "votes": {
         "up": 1,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": -0.931,
       "sentimentLabel": "Negative"
@@ -1776,7 +1795,7 @@
       "body": "Zobacz sobie co miałem na myśli",
       "votes": {
         "up": 1,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -1873,7 +1892,7 @@
       "url": "https://www.bankier.pl/forum/temat_smiec-nawet-jak-rosnie-to-spada,75515191.html",
       "body": "(wiadomość usunięta przez moderatora)",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1887,7 +1906,7 @@
       "url": "https://www.bankier.pl/forum/temat_smiec-nawet-jak-rosnie-to-spada,75515191.html",
       "body": "To jakaś choroba ? Idź z synem do lekarza",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -1902,7 +1921,7 @@
       "body": "Hahahahaha",
       "votes": {
         "up": 1,
-        "down": 7
+        "down": 8
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -2034,20 +2053,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75512473",
-      "author": "Olo",
-      "postedAt": "2026-08-21 13:22",
-      "threadTitle": "Re: A można było sprzedać po 35 niedawno",
-      "url": "https://www.bankier.pl/forum/temat_a-mozna-bylo-sprzedac-po-35-niedawno,74901159.html",
-      "body": "Dobry ruch.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75512423",
       "author": "Paweł",
       "postedAt": "2026-08-21 13:20",
@@ -2160,20 +2165,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75511837",
-      "author": "Paweł",
-      "postedAt": "2026-08-21 12:46",
-      "threadTitle": "Re: A można było sprzedać po 35 niedawno",
-      "url": "https://www.bankier.pl/forum/temat_a-mozna-bylo-sprzedac-po-35-niedawno,74901159.html",
-      "body": "Współczuję.",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75510847",
       "author": "Doktor",
       "postedAt": "2026-08-21 11:45",
@@ -2228,34 +2219,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75506915",
-      "author": "Oj",
-      "postedAt": "2026-08-21 08:18",
-      "threadTitle": "Re: Poprzedni tydzień kończyliśmy na 28,28.....",
-      "url": "https://www.bankier.pl/forum/temat_poprzedni-tydzien-konczylismy-na-28-28,75506733.html",
-      "body": "25.Biore bankruta.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75506733",
-      "author": "qwerty-1",
-      "postedAt": "2026-08-21 07:59",
-      "threadTitle": "Poprzedni tydzień kończyliśmy na 28,28.....",
-      "url": "https://www.bankier.pl/forum/temat_poprzedni-tydzien-konczylismy-na-28-28,75506733.html",
-      "body": "Dziś niby piątek a ten zwykle tradycyjnie kończy się dla JSW na minusie ale w ten poniedziałek nie było tradycyjnego wzrostu więc może i dziś nie będzie tradycji ?(albo będzie ale podobnie jak poprzedni tydzień i ten zakończy wyżej niż ubiegły-argumenty są chociażby pod nazwą ACF-1 )",
-      "votes": {
-        "up": 12,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75506511",
@@ -2410,20 +2373,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75499811",
-      "author": "zadziwiony",
-      "postedAt": "2026-08-20 14:50",
-      "threadTitle": "Re: Kto nie oddał po 34 ten frajer pompka.",
-      "url": "https://www.bankier.pl/forum/temat_kto-nie-oddal-po-34-ten-frajer-pompka,74035303.html",
-      "body": "Ojtam",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75499769",
@@ -2756,7 +2705,7 @@
       "body": "Taka nagonka ubranych trolli wiąże się tylko z jednym - obkupili się papierem na górce, łkają o wzrosty i zdjęcie z haka.Do tego jak jakiś grubszy mocniej sypnie, to katastrofa na miesiące bądź lata gotowa.",
       "votes": {
         "up": 11,
-        "down": 19
+        "down": 20
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -2897,6 +2846,62 @@
       "votes": {
         "up": 0,
         "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75455611",
+      "author": "Olo",
+      "postedAt": "2026-08-17 08:44",
+      "threadTitle": "Re: Łkanie ubranych na forum o kurs 30 zł.",
+      "url": "https://www.bankier.pl/forum/temat_lkanie-ubranych-na-forum-o-kurs-30-zl,75397141.html",
+      "body": "Realne.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75455305",
+      "author": "Paweł",
+      "postedAt": "2026-08-17 08:13",
+      "threadTitle": "Re: Łkanie ubranych na forum o kurs 30 zł.",
+      "url": "https://www.bankier.pl/forum/temat_lkanie-ubranych-na-forum-o-kurs-30-zl,75397141.html",
+      "body": "Dzisiaj kurs 27,xx ?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75455299",
+      "author": "Paweł",
+      "postedAt": "2026-08-17 08:13",
+      "threadTitle": "Re: Łkanie ubranych na forum o kurs 30 zł.",
+      "url": "https://www.bankier.pl/forum/temat_lkanie-ubranych-na-forum-o-kurs-30-zl,75397141.html",
+      "body": "27 dzisiaj ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75454257",
+      "author": "Olo",
+      "postedAt": "2026-08-16 22:56",
+      "threadTitle": "Re: Łkanie ubranych na forum o kurs 30 zł.",
+      "url": "https://www.bankier.pl/forum/temat_lkanie-ubranych-na-forum-o-kurs-30-zl,75397141.html",
+      "body": "Cierpliwości.",
+      "votes": {
+        "up": 0,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
