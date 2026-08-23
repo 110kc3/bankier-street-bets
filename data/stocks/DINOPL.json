@@ -3,27 +3,32 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-08-22T18:48:47.344Z",
+  "updatedAt": "2026-08-23T01:59:23.765Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-22T18:48:47.344Z",
+    "fetchedAt": "2026-08-23T01:59:23.765Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 150
+    "threadsScanned": 151
   },
   "analysis": {
     "signal": "HOLD",
     "score": -0.014,
-    "confidence": 0.7,
+    "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 57,
-      "negative": 57,
-      "neutral": 86
+      "positive": 58,
+      "negative": 59,
+      "neutral": 83
     },
     "trend": [
+      {
+        "date": "2026-08-17",
+        "score": 0,
+        "count": 1
+      },
       {
         "date": "2026-08-18",
         "score": 0.054,
@@ -41,17 +46,22 @@
       },
       {
         "date": "2026-08-21",
-        "score": -0.039,
-        "count": 139
+        "score": -0.04,
+        "count": 134
       },
       {
         "date": "2026-08-22",
-        "score": 0.067,
-        "count": 29
+        "score": 0.026,
+        "count": 32
+      },
+      {
+        "date": "2026-08-23",
+        "score": 0.322,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (57 pozytywnych, 57 negatywnych, 86 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (58 pozytywnych, 59 negatywnych, 83 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
@@ -59,7 +69,7 @@
       },
       {
         "word": "dzis",
-        "count": 14
+        "count": 13
       },
       {
         "word": "ponad",
@@ -75,7 +85,7 @@
       },
       {
         "word": "zeby",
-        "count": 8
+        "count": 9
       },
       {
         "word": "dalej",
@@ -90,12 +100,68 @@
         "count": 7
       },
       {
-        "word": "trend",
+        "word": "taka",
         "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75523535",
+      "author": "doniek88",
+      "postedAt": "2026-08-23 00:09",
+      "threadTitle": "Re: Teraz ważna walka z związkami",
+      "url": "https://www.bankier.pl/forum/temat_teraz-wazna-walka-z-zwiazkami,75523059.html",
+      "body": "Strajk 58k pracowników na terenie całej Polski, jak kilku macha transparentami. Dziwię się że im 300 dali, może mieli akurat podwyżkę robić i się zbiegło. Nierealny jest strajk na taką skalę w handlu. Jak dostaną 150 i fundusz świadczeń to dla pracowników będzie zwycięstwo dekady. To jest totalny szczyt. Chociaż liczę, że na samym funduszu się skończy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75523311",
+      "author": "Tr",
+      "postedAt": "2026-08-22 22:07",
+      "threadTitle": "Re: Teraz ważna walka z związkami",
+      "url": "https://www.bankier.pl/forum/temat_teraz-wazna-walka-z-zwiazkami,75523059.html",
+      "body": "Pół o jakich strajkach ty piszesz???",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75523269",
+      "author": "Lejs",
+      "postedAt": "2026-08-22 21:58",
+      "threadTitle": "Re: Teraz ważna walka z związkami",
+      "url": "https://www.bankier.pl/forum/temat_teraz-wazna-walka-z-zwiazkami,75523059.html",
+      "body": "Jakiś kij się znajdzie by udupić kurs.Bądźmy realistami urosło 30'/..Korekta za rogiem .Pytanie jak głęboka...Do 31 PLN a może do 25 ?Czemu nie jeśli kurs nie wybije się z kanału spadkowego ?",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75523059",
+      "author": "Pol",
+      "postedAt": "2026-08-22 21:00",
+      "threadTitle": "Teraz ważna walka z związkami",
+      "url": "https://www.bankier.pl/forum/temat_teraz-wazna-walka-z-zwiazkami,75523059.html",
+      "body": "Wszystko się rozstrzygnie, jak strajki doprowadza do unieruchomienie sklepow to będzie lipa",
+      "votes": {
+        "up": 0,
+        "down": 5
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75522443",
       "author": "Gerwazy",
@@ -258,7 +324,7 @@
       "url": "https://www.bankier.pl/forum/temat_jest-dobrze-i-jest-optymizm,75509261.html",
       "body": "co z tymi kupionymi wcześniej , poturbowały portfel? nie igraj z Dinusiem on nie ma poczucia humoru, ma tylko ochotę na ciebie i bez gry wstępnej hehedziękuje za pieniążki :))",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -272,7 +338,7 @@
       "url": "https://www.bankier.pl/forum/temat_jest-dobrze-i-jest-optymizm,75509261.html",
       "body": "Mam dokladnie to samo podejscie co Ty. Na te chwile mam 21proc na plus od wejscia wiec mam luz czy spadnie czy nie. Jesli spelni sie to co mowil czlonek zarzadu to za 6 mies bedzie 50 jak nic i wtedy zastanowie sie czy sprzedac. pozdro",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -300,7 +366,7 @@
       "url": "https://www.bankier.pl/forum/temat_jest-dobrze-i-jest-optymizm,75509261.html",
       "body": "Swoją drogą, rynek kupuje przyszłość, nie zdziwi mnie jak wyjdą ponad opór 35,6 dojadą lukę z marca na 40, a wyniki q3 pokażą czy Dino dowiozło w raporcie czy nie, jak deflacja dalej będzie wisiała, wtedy może będzie spadek, ale rynek gra pod zakończenie trendu",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -314,7 +380,7 @@
       "url": "https://www.bankier.pl/forum/temat_jest-dobrze-i-jest-optymizm,75509261.html",
       "body": "+19,05% od średniej wejścia, także mam gdzieś czy spadnie czy nie, mam bufor, a wyniki mogą być tylko lepsze, za to czuję dym spod waszych piór :) pozdro",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -2071,20 +2137,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75511477",
-      "author": "Eustachy",
-      "postedAt": "2026-08-21 12:21",
-      "threadTitle": "Re: Ja sie pytam gdzie mistrzz Warszawy lejs magellan",
-      "url": "https://www.bankier.pl/forum/temat_ja-sie-pytam-gdzie-mistrzz-warszawy-lejs-magellan,75510411.html",
-      "body": "Stoperan? Hmmm...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75511449",
       "author": "Fakt",
       "postedAt": "2026-08-21 12:19",
@@ -2099,20 +2151,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75511375",
-      "author": "Eustachy",
-      "postedAt": "2026-08-21 12:15",
-      "threadTitle": "Re: Ja sie pytam gdzie mistrzz Warszawy lejs magellan",
-      "url": "https://www.bankier.pl/forum/temat_ja-sie-pytam-gdzie-mistrzz-warszawy-lejs-magellan,75510411.html",
-      "body": "Stoperan?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75511323",
       "author": "Elczapo",
       "postedAt": "2026-08-21 12:12",
@@ -2125,20 +2163,6 @@
       },
       "sentimentScore": 0.995,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75511315",
-      "author": "Magellan",
-      "postedAt": "2026-08-21 12:11",
-      "threadTitle": "Re: Ja sie pytam gdzie mistrzz Warszawy lejs magellan",
-      "url": "https://www.bankier.pl/forum/temat_ja-sie-pytam-gdzie-mistrzz-warszawy-lejs-magellan,75510411.html",
-      "body": "Jestem. Wziąłem dziś S.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75511237",
@@ -2183,20 +2207,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75510499",
-      "author": "Dexter",
-      "postedAt": "2026-08-21 11:27",
-      "threadTitle": "Re: Ja sie pytam gdzie mistrzz Warszawy lejs magellan",
-      "url": "https://www.bankier.pl/forum/temat_ja-sie-pytam-gdzie-mistrzz-warszawy-lejs-magellan,75510411.html",
-      "body": "daj spokój harcerzom",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75510483",
       "author": "Dexter",
       "postedAt": "2026-08-21 11:26",
@@ -2209,20 +2219,6 @@
       },
       "sentimentScore": -0.99,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75510411",
-      "author": "Ms",
-      "postedAt": "2026-08-21 11:22",
-      "threadTitle": "Ja sie pytam gdzie mistrzz Warszawy lejs magellan",
-      "url": "https://www.bankier.pl/forum/temat_ja-sie-pytam-gdzie-mistrzz-warszawy-lejs-magellan,75510411.html",
-      "body": ". Dawać chlopcy swoje przemyślenia",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75509661",
@@ -2261,7 +2257,7 @@
       "body": "bo pelikany łyknęły moje zdradziecko zatrute kontrakty FDNPU236/SHORT po 34,20 zł/szt! Hehehe!",
       "votes": {
         "up": 0,
-        "down": 6
+        "down": 7
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -2895,6 +2891,20 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75465825",
+      "author": "Misiu",
+      "postedAt": "2026-08-17 22:49",
+      "threadTitle": "Re: Nie zaryzykuję kupna przed wynikami.",
+      "url": "https://www.bankier.pl/forum/temat_nie-zaryzykuje-kupna-przed-wynikami,75465729.html",
+      "body": "Uwalają kurs, żeby taniej odkupić.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     }
   ]
 }
