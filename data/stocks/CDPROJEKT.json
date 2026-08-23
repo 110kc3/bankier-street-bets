@@ -3,11 +3,11 @@
   "companyName": "CD Projekt Red SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-red-sa,6,21,353.html",
-  "updatedAt": "2026-08-23T01:59:04.613Z",
+  "updatedAt": "2026-08-23T07:00:30.755Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-23T01:59:04.613Z",
+    "fetchedAt": "2026-08-23T07:00:30.755Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,15 +15,20 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.026,
-    "confidence": 0.71,
+    "score": -0.007,
+    "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 53,
-      "negative": 62,
-      "neutral": 85
+      "positive": 55,
+      "negative": 58,
+      "neutral": 87
     },
     "trend": [
+      {
+        "date": "2026-08-18",
+        "score": -0.181,
+        "count": 5
+      },
       {
         "date": "2026-08-19",
         "score": -0.004,
@@ -31,8 +36,8 @@
       },
       {
         "date": "2026-08-20",
-        "score": -0.155,
-        "count": 71
+        "score": -0.105,
+        "count": 63
       },
       {
         "date": "2026-08-21",
@@ -43,10 +48,15 @@
         "date": "2026-08-22",
         "score": -0.092,
         "count": 25
+      },
+      {
+        "date": "2026-08-23",
+        "score": 0.194,
+        "count": 3
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (53 pozytywnych, 62 negatywnych, 85 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (55 pozytywnych, 58 negatywnych, 87 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "hehe",
@@ -57,20 +67,20 @@
         "count": 17
       },
       {
-        "word": "zeby",
-        "count": 16
-      },
-      {
-        "word": "roku",
-        "count": 13
-      },
-      {
         "word": "mnie",
         "count": 13
       },
       {
         "word": "premiery",
         "count": 13
+      },
+      {
+        "word": "zeby",
+        "count": 13
+      },
+      {
+        "word": "gamescom",
+        "count": 12
       },
       {
         "word": "https",
@@ -81,16 +91,58 @@
         "count": 12
       },
       {
-        "word": "masz",
-        "count": 12
+        "word": "edgerunners",
+        "count": 11
       },
       {
-        "word": "edgerunners",
+        "word": "roku",
         "count": 11
       }
     ]
   },
   "comments": [
+    {
+      "id": "75523875",
+      "author": "Nowy",
+      "postedAt": "2026-08-23 08:47",
+      "threadTitle": "reko mBanku na 313 zł",
+      "url": "https://www.bankier.pl/forum/temat_reko-mbanku-na-313-zl,75523875.html",
+      "body": "Wycena CD Projektu w góręKrótko przed rozpoczęcia branżowych targów Gamescom Piotr Ponitowski, analityk BM mBanku, zaktualizował rekomendacje dla akcji czterech spółek notowanych na GPW, poinformowała agencja Bloomberg.Zalecenie dla CD Projektu nadal brzmi \"kupuj\", a cena docelowa została podniesiona z 294 do 313 zł. Źródło: Puls Biznesu",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75523687",
+      "author": "PIOTR",
+      "postedAt": "2026-08-23 06:59",
+      "threadTitle": "Re: Tymczasem",
+      "url": "https://www.bankier.pl/forum/temat_tymczasem,75523223.html",
+      "body": "Wydaje mi się,że trolle spadziowe z pejsami jeżdżą na takie rytuały co weekend. Później cały tydzień piszą jakieś dziwne wypociny hehe Chyba są jeszcze na fazie hehe",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75523663",
+      "author": "vilus",
+      "postedAt": "2026-08-23 06:19",
+      "threadTitle": "Re: Tymczasem",
+      "url": "https://www.bankier.pl/forum/temat_tymczasem,75523223.html",
+      "body": "Co jakiś czas wraca ten artykuł. Chcą powiązać go w jakiś sposób ze śmiercią tej kobiety. Zawsze się pojawia jak kurs zaczyna rosnąć....",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75523255",
       "author": "Daro",
@@ -99,7 +151,7 @@
       "url": "https://www.bankier.pl/forum/temat_tymczasem,75523223.html",
       "body": "Ciekawe czy w czasie takich obrzędów były tworzone przygody Geralta",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -127,7 +179,7 @@
       "url": "https://www.bankier.pl/forum/temat_zalozmy-ze-bos-ma-racje,75521855.html",
       "body": "Serio? Mamy Edgerunners 2 jesienią, które znowu rozpali Night City, w 2027 duże DLC do 65-milionowego Wiedźmina, a dopiero potem wchodzi nowa saga. I na tej podstawie ktoś maluje scenariusze z kursem pod 200? CD Projekt nie jest już spółką, która musi błagać o uwagę. Ma dwie potężne marki, generuje kasę nawet w „pustych” latach i właśnie układa sobie ładny, przewidywalny pipeline. Jakby ktoś naprawdę wierzył, że rynek wyrzuci to wszystko do kosza tylko dlatego, że Wiedźmin 4 wyjdzie pół roku później niż najbardziej optymistyczne fantazje – to ja już wolę kupić popcorn i patrzeć.Pod 200 to nie bazowy scenariusz. To raczej wishful thinking niedźwiedzi.",
       "votes": {
-        "up": 8,
+        "up": 10,
         "down": 1
       },
       "sentimentScore": 0,
@@ -170,7 +222,7 @@
       "body": "Ogólnie historia piękna ale jeśli W4 w 2028 to na kursie widzimy się na <200",
       "votes": {
         "up": 7,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -225,7 +277,7 @@
       "url": "https://www.bankier.pl/forum/temat_zalozmy-ze-bos-ma-racje,75521855.html",
       "body": "Night City nie śpi, a Biały Wilk jeszcze nie poszedł na emeryturęSą takie momenty, kiedy patrzysz na CD Projekt i zamiast nerwowo liczyć kwartały do kolejnej dużej premiery, po prostu się uśmiechasz. Bo nagle wszystko zaczyna układać się w sensowną, prawie elegancką całość.Jesienią 2026 na Netfliksa wjeżdża Cyberpunk: Edgerunners 2. Dziesięć nowych odcinków, nowa ekipa, ta sama bezlitosna Night City. Gra, która kiedyś ledwo stała na nogach, znów będzie na ustach wszystkich. A kto wie – może przy okazji ktoś w RED-zie jednak znajdzie pretekst, żeby dorzucić graczom jeszcze odrobinę nowego contentu. Oficjalnie „nie planujemy”, ale formuła „jeśli coś się zmieni – damy znać” wciąż żyje.Rok później, w 2027, wracamy do Kontynentu. Songs of the Past – trzecie, duże rozszerzenie do Wiedźmina 3. Załóżmy rozsądne 35 dolarów i ambitne, ale realne 10 milionów sprzedanych kopii w pierwszym roku. To nie tylko sentymentalny powrót Geralta. To most. Porządny, stabilny most między przeszłością a przyszłością. Coś, co utrzyma markę w rozmowie, da inwestorom konkretne liczby i graczom powód, żeby znowu odpalić Ulisses a.A potem, w 2028 – Wiedźmin 4. Nawet jeśli BOŚ i inni analitycy mają rację i zobaczymy go dopiero w drugiej połowie roku, to nie wygląda to na tragedię. Wręcz przeciwnie. Mamy przed sobą trzy lata, w których CD Projekt nie musi bić rekordów co kwartał, tylko konsekwentnie dokłada kolejne cegiełki. Anime, duże DLC, a na końcu nowa saga. Stabilny, przewidywalny wzrost zamiast jazdy bez trzymanki.To nie jest już spółka, która musi udowadniać, że potrafi wyjść z kryzysu. To spółka, która może sobie pozwolić na cierpliwość. I właśnie ta cierpliwość – połączona z wciąż żywymi markami – wygląda dziś naprawdę dobrze.Night City płonie od nowa. Geralt jeszcze raz siada na konia. A Ciri czeka na swój moment.Brzmi jak całkiem niezły plan na najbliższe lata.A co jeśli W4 jednak Q4 2027?",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 6
       },
       "sentimentScore": 0.762,
@@ -2108,20 +2160,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75501633",
-      "author": "Pkc",
-      "postedAt": "2026-08-20 16:44",
-      "threadTitle": "Re: Ale to się zrobiła żenująca spółka",
-      "url": "https://www.bankier.pl/forum/temat_ale-to-sie-zrobila-zenujaca-spolka,75494479.html",
-      "body": "Zgadzam się z wpisem.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75501529",
       "author": "PIOTR",
       "postedAt": "2026-08-20 16:39",
@@ -2416,34 +2454,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75495985",
-      "author": "ttbb",
-      "postedAt": "2026-08-20 10:57",
-      "threadTitle": "Re: Ale to się zrobiła żenująca spółka",
-      "url": "https://www.bankier.pl/forum/temat_ale-to-sie-zrobila-zenujaca-spolka,75494479.html",
-      "body": "Lud może i miał faktycznie duże oczekiwania oraz jest rozpuszczony, ale jak klikniesz na wykres roczny to pojawia się zmiana kursu o 1,08%. Więc nie ma kokosów biorąc pod uwagę szeroki rynek. Zawód trochę jest usprawiedliwiony. Może przyszły tydzień odmieni nasz los.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75495509",
-      "author": "Nie",
-      "postedAt": "2026-08-20 10:29",
-      "threadTitle": "Re: Ale to się zrobiła żenująca spółka",
-      "url": "https://www.bankier.pl/forum/temat_ale-to-sie-zrobila-zenujaca-spolka,75494479.html",
-      "body": "Zupełnie się nie zgadzam, CDR dowozi a dodatek w 2027 to dobry plan. Lud jest tu po prostu rozpuszczony i chce jak kiedyś 400 na lata przed premierą.",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75495247",
       "author": "cdr",
       "postedAt": "2026-08-20 10:16",
@@ -2458,20 +2468,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75495243",
-      "author": "ttbb",
-      "postedAt": "2026-08-20 10:16",
-      "threadTitle": "Re: Ale to się zrobiła żenująca spółka",
-      "url": "https://www.bankier.pl/forum/temat_ale-to-sie-zrobila-zenujaca-spolka,75494479.html",
-      "body": "Niestety mamy wielkie rozczarowanie, co ma odzwierciedlenie w kursie spółki. Chłopaki po prostu nie dowieźli, pomimo zatrudnienia setek ludzi za miliony euro. w uproszczeniu My obstawiliśmy, że gra będzie, a gry nie ma i tym samy przegraliśmy zakład. Równocześnie przespaliśmy największą hossę jaka miała miejsce w Polsce. Ale winni jesteśmy My (akcjonariusze), a nie ONI. Trzeba spojrzeć prawdzie w oczy i nie szukać winnych wszędzie tylko nie w sobie. Mogliśmy zawierać winne zakłady ( w innych spółkach). Potencjał był duży, ale jak to bywa i ryzyko duże. Tym razem przegrana, co nie znaczy, że jeszcze nie wygramy w przyszłości.",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75495033",
       "author": "Prawda",
       "postedAt": "2026-08-20 10:07",
@@ -2484,62 +2480,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75494987",
-      "author": "Zawiedziony",
-      "postedAt": "2026-08-20 10:04",
-      "threadTitle": "Re: Ale to się zrobiła żenująca spółka",
-      "url": "https://www.bankier.pl/forum/temat_ale-to-sie-zrobila-zenujaca-spolka,75494479.html",
-      "body": "To też trzeba mieć coś z banią, żeby siedzieć na forum i odpisywać na każdy komentarz. Jeśli na gamescome podadzą datę wydania dodatku na luty, to jest to element prowzrostowy, jeśli na maj to mamy wodospad. W ogóle jak można zapowiedzieć dodatek w maju i przez tyle miesięcy go nie wydać, tak zapowiada się pełnoprawne gry, a nie dodatki... Liczę, że tym niezapowiedzianym projektem zaskoczą, bo póki co to dno i wodorosty. Gdyby nie akcje xtb, to byłby to dla mnie stracony rok...",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75494623",
-      "author": "PIOTR",
-      "postedAt": "2026-08-20 09:48",
-      "threadTitle": "Re: Ale to się zrobiła żenująca spółka",
-      "url": "https://www.bankier.pl/forum/temat_ale-to-sie-zrobila-zenujaca-spolka,75494479.html",
-      "body": "A ty masz coś z glową? Sierpień jest ,wszyscy na urlopach. Tobie pejsy kaza pracowac hehe Widzisz jakim jestes sprzedawczykiem hehe",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75494621",
-      "author": "Hmm",
-      "postedAt": "2026-08-20 09:48",
-      "threadTitle": "Re: Ale to się zrobiła żenująca spółka",
-      "url": "https://www.bankier.pl/forum/temat_ale-to-sie-zrobila-zenujaca-spolka,75494479.html",
-      "body": "Oj tam żenująca odrazu, wszystkie decyzje podejmowane przez władców cdr są po to żeby zwiększyć wartość firmy, a że ta się nie zwiększa od półtora roku to przecież nie ich wina :):):):)",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75494479",
-      "author": "Zawiedziony",
-      "postedAt": "2026-08-20 09:41",
-      "threadTitle": "Ale to się zrobiła żenująca spółka",
-      "url": "https://www.bankier.pl/forum/temat_ale-to-sie-zrobila-zenujaca-spolka,75494479.html",
-      "body": "Żeby przed najważniejszą imprezą, nawet nie roku, a od wydania dodatku do CP 2077 kurs akcji nie był w stanie ruszyć do góry to to są czyste jaja. Obroty jak na bazarze Różyckiego...",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75494401",
@@ -2889,6 +2829,76 @@
         "down": 0
       },
       "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75474075",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-08-18 15:47",
+      "threadTitle": "Re: Ciepłe ubranka rozdane",
+      "url": "https://www.bankier.pl/forum/temat_cieple-ubranka-rozdane,75469135.html",
+      "body": "Czeba Ci przyznać chłopie że dobry jesteś a my się nie znamy. Do kiedy bendziesz krencił te kułka?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472665",
+      "author": "Mocarz",
+      "postedAt": "2026-08-18 14:01",
+      "threadTitle": "Re: Ciepłe ubranka rozdane",
+      "url": "https://www.bankier.pl/forum/temat_cieple-ubranka-rozdane,75469135.html",
+      "body": "Za tydzień napisz jak jest sytuacja.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75472611",
+      "author": "Prawda",
+      "postedAt": "2026-08-18 13:58",
+      "threadTitle": "Re: Ciepłe ubranka rozdane",
+      "url": "https://www.bankier.pl/forum/temat_cieple-ubranka-rozdane,75469135.html",
+      "body": "No już już, ubrane konie, 258. 3,5k netto w 4 godziny. Prawie jak lekarz heheheheh.Chłopaki wyżej pytają czy nie będzie już drożej. Może będzie, mnie interesuje że dziś już jest taniej niż upychałem.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75471417",
+      "author": "Mocarz",
+      "postedAt": "2026-08-18 12:37",
+      "threadTitle": "Re: Ciepłe ubranka rozdane",
+      "url": "https://www.bankier.pl/forum/temat_cieple-ubranka-rozdane,75469135.html",
+      "body": "On nie posiada żadnych akcji to trol spadziowy.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75471137",
+      "author": "Jupit",
+      "postedAt": "2026-08-18 12:19",
+      "threadTitle": "Re: Ciepłe ubranka rozdane",
+      "url": "https://www.bankier.pl/forum/temat_cieple-ubranka-rozdane,75469135.html",
+      "body": "Piszesz, że napchałeś innym po 265. Twierdzisz, że to granica której wycena nie przebije?Kupowałem akcje po 104 zł., ale kupowałem też po 237 i 257, gdy uśredniałem. Twoim zdaniem każdy, komu sprzedałeś swoje udziały, straci?",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
     }
   ]
