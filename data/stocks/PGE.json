@@ -3,11 +3,11 @@
   "companyName": "PGE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PGE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pge-sa,6,21,10000000641.html",
-  "updatedAt": "2026-08-25T13:12:28.017Z",
+  "updatedAt": "2026-08-25T18:57:40.677Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-25T13:12:28.017Z",
+    "fetchedAt": "2026-08-25T18:57:40.677Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,24 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.021,
+    "score": 0.025,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 37,
-      "negative": 38,
-      "neutral": 125
+      "positive": 34,
+      "negative": 35,
+      "neutral": 131
     },
     "trend": [
       {
+        "date": "2026-08-19",
+        "score": -0.143,
+        "count": 12
+      },
+      {
         "date": "2026-08-20",
-        "score": -0.025,
-        "count": 114
+        "score": -0.032,
+        "count": 96
       },
       {
         "date": "2026-08-21",
@@ -46,56 +51,140 @@
       },
       {
         "date": "2026-08-25",
-        "score": 0.136,
-        "count": 9
+        "score": 0.125,
+        "count": 15
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (37 pozytywnych, 38 negatywnych, 125 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (34 pozytywnych, 35 negatywnych, 131 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "black",
-        "count": 18
+        "count": 24
       },
       {
         "word": "masz",
-        "count": 16
-      },
-      {
-        "word": "jestes",
-        "count": 12
-      },
-      {
-        "word": "roku",
-        "count": 10
+        "count": 15
       },
       {
         "word": "rosnie",
+        "count": 10
+      },
+      {
+        "word": "znowu",
         "count": 9
       },
       {
-        "word": "https",
-        "count": 8
+        "word": "czarny",
+        "count": 9
       },
       {
-        "word": "tych",
-        "count": 8
+        "word": "jestes",
+        "count": 9
       },
       {
-        "word": "wiesz",
-        "count": 8
-      },
-      {
-        "word": "bedziesz",
+        "word": "roku",
         "count": 8
       },
       {
         "word": "panie",
         "count": 7
+      },
+      {
+        "word": "https",
+        "count": 7
+      },
+      {
+        "word": "wszystko",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75550893",
+      "author": "Aureliano",
+      "postedAt": "2026-08-25 20:36",
+      "threadTitle": "Re: Pge",
+      "url": "https://www.bankier.pl/forum/temat_pge,75539677.html",
+      "body": "To bardzo prawdopodobne. To ma byc kon pociagowy wig20.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75550825",
+      "author": "Aureliano",
+      "postedAt": "2026-08-25 20:31",
+      "threadTitle": "Re: szacunki tauron. Brawo!",
+      "url": "https://www.bankier.pl/forum/temat_pge-energetyka-kolejowa,75089495.html",
+      "body": "Enea kiepskie wyniki lepiej od tpe, a pge znowu pokazal moc. Po wynikach 12 moze byc",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75550063",
+      "author": "black944",
+      "postedAt": "2026-08-25 18:57",
+      "threadTitle": "Hmm, głupia sprawa . . .",
+      "url": "https://www.bankier.pl/forum/temat_skoro,75530405.html",
+      "body": "Tam już nawet silne leki nie dadzą rady . . .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75549701",
+      "author": "black944",
+      "postedAt": "2026-08-25 18:20",
+      "threadTitle": "Mikołaju . . .",
+      "url": "https://www.bankier.pl/forum/temat_bodinek-do-black944,75367047.html",
+      "body": "Szkoda czasu na takich pismaków . . . Pozdrawiam",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75549583",
+      "author": "black944",
+      "postedAt": "2026-08-25 18:09",
+      "threadTitle": "Baja +3,5% . . .",
+      "url": "https://www.bankier.pl/forum/temat_baja-3-5,75549583.html",
+      "body": "Rozumiesz teraz jak to fajnie działa i bez za dużego stresu ?ps.śr. z ostatnich trzech bidonów = 10,24 pln . . .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75547181",
+      "author": "Mikołaj",
+      "postedAt": "2026-08-25 15:18",
+      "threadTitle": "Re: Twoja kasa = Twoja decyzka . . .",
+      "url": "https://www.bankier.pl/forum/temat_bodinek-do-black944,75367047.html",
+      "body": "Wolę zdecydowanie czytać jego wpisy niż twoje, które nic nie pomagają mi w zarabianiu tutaj",
+      "votes": {
+        "up": 3,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75546515",
       "author": "123",
@@ -104,7 +193,7 @@
       "url": "https://www.bankier.pl/forum/temat_bodinek-do-black944,75367047.html",
       "body": "> A gdzie napisał że czeka na 8,50? Napisał kilka tygodni temu jak kurs chodziłw stronę 9, że nie jest to niemożliwehahaha masz swojego guru",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -119,7 +208,7 @@
       "body": "A gdzie napisał że czeka na 8,50? Napisał kilka tygodni temu jak kurs chodziłw stronę 9, że nie jest to niemożliwe",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -132,7 +221,7 @@
       "url": "https://www.bankier.pl/forum/temat_bodinek-do-black944,75367047.html",
       "body": "> No i czarny znowu miałeś dobrego na system odbiciem od 9,95przecież czarny czeka na peronie na 8,50 bo tak kilka tygodni wciskał kit leszczom !",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -147,7 +236,7 @@
       "body": "No i czarny znowu miałeś dobrego na system odbiciem od 9,95",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 4
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -160,7 +249,7 @@
       "url": "https://www.bankier.pl/forum/temat_pge-energetyka-kolejowa,75089495.html",
       "body": "Tauron cwk 0,6...tylko tauron pokazal mega wyniki, a pge na te chwile niewiadoma. Ktos trzyma za ryj kurs tauronu. Kto? Mozna sie domyslac, ale jak przestawia wajche, to cala trojka odpali.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 2
       },
       "sentimentScore": 0.583,
@@ -174,7 +263,7 @@
       "url": "https://www.bankier.pl/forum/temat_pge-energetyka-kolejowa,75089495.html",
       "body": "> chłopaki z PGE będą zazdrościć :Dco jest dzisiaj z tauronem ?( Chłopaki nie zazdroszczą ). PGE CWK - na razie tylko 0,51",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -189,7 +278,7 @@
       "body": "To Polska gangrena elektryczna",
       "votes": {
         "up": 3,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -202,7 +291,7 @@
       "url": "https://www.bankier.pl/forum/temat_pge,75539677.html",
       "body": "Jedyna jeszcze przed 100% wzrostu z wig 20",
       "votes": {
-        "up": 5,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -273,7 +362,7 @@
       "body": "chłopaki z PGE będą zazdrościć :D",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -286,7 +375,7 @@
       "url": "https://www.bankier.pl/forum/temat_pge-energetyka-kolejowa,75089495.html",
       "body": "Tauron szacuje wynik EBITDA w II kw. na 1,606 mld zł, wobec 1,583 mld zł konsensusuPAP - Biznes24 sie 2026, 17:3524.08.2026, Warszawa (PAP) - Tauron szacuje, że w drugim kwartale 2026 r. jego wynik EBITDA wyniósł 1,606 mld zł, a zysk netto sięgnął 586 mln zł. Konsensus PAP Biznes zakładał 1,583 mld zł EBITDA oraz 592,6 mln zł zysku netto.Tauron poinformował w komunikacie, że jego szacunkowe przychody w drugim kwartale 2026 roku sięgnęły 7,755 mld zł, a rynek liczył na 7,606 mld zł.EBIT szacowany jest na 915 mln zł, w porównaniu do 902,8 mln zł oczekiwanych przez rynek.Zgodnie z szacunkami, EBITDA segmentu Dystrybucja wyniosła 1.177 mln zł, segmentu Odnawialne Źródła Energii (OZE) 114 mln zł, segmentu Wytwarzanie 212 mln zł, segmentu Ciepło 30 mln zł, a segmentu Sprzedaż i Handel Hurtowy minus 7 mln zł.Zysk brutto szacowany jest na 853 mln zł. Nakłady inwestycyjne wyniosły 1,275 mld zł.W całym pierwszym półroczu 2026 r. Tauron szacuje, że miał 17,26 mld zł przychodów, 3,697 mld zł EBITDA, EBIT na poziomie 2,328 mld zł i 1,56 mld zł zysku netto.(PAP Biznes)seb/ osz/",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.87,
@@ -328,7 +417,7 @@
       "url": "https://www.bankier.pl/forum/temat_pge-energetyka-kolejowa,75089495.html",
       "body": "grubym plan nie wypalił bo niema korekty na szerokim rynku i dalej rozpaczliwie uwalają jednocześnie stosując psychotechnikę zniechęcania , do wyników coraz bliżej koniecznie od słabych rąk chcą odebrać papier coraz taniej :)))",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -363,6 +452,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "75533987",
+      "author": "Fumio",
+      "postedAt": "2026-08-24 15:20",
+      "threadTitle": "Re: ELO Mordeczko. . .",
+      "url": "https://www.bankier.pl/forum/temat_skoro,75530405.html",
+      "body": "Ten nowy Wynalazca z Aurelią to niezły psychiatryk. Skąd oni wypełzają?",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "75533985",
       "author": "black944",
       "postedAt": "2026-08-24 15:20",
@@ -371,20 +474,6 @@
       "body": "Wręcz przeciwnie . . .ps.napisz coś o tym wpływie euforii na złocie, na kurs akcji PGE . . .",
       "votes": {
         "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75533987",
-      "author": "Fumio",
-      "postedAt": "2026-08-24 15:20",
-      "threadTitle": "Re: ELO Mordeczko. . .",
-      "url": "https://www.bankier.pl/forum/temat_skoro,75530405.html",
-      "body": "Ten nowy Wynalazca z Aurelią to niezły psychiatryk. Skąd oni wypełzają?",
-      "votes": {
-        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -545,20 +634,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75531413",
-      "author": "Aureliano",
-      "postedAt": "2026-08-24 12:08",
-      "threadTitle": "Re: Hmmm ?",
-      "url": "https://www.bankier.pl/forum/temat_zaczyna-sie,75529503.html",
-      "body": "Dalej rosnie, jak omamy.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75531401",
       "author": "Aureliano",
       "postedAt": "2026-08-24 12:08",
@@ -571,6 +646,20 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75531413",
+      "author": "Aureliano",
+      "postedAt": "2026-08-24 12:08",
+      "threadTitle": "Re: Hmmm ?",
+      "url": "https://www.bankier.pl/forum/temat_zaczyna-sie,75529503.html",
+      "body": "Dalej rosnie, jak omamy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
     },
     {
       "id": "75531179",
@@ -636,7 +725,7 @@
       "url": "https://www.bankier.pl/forum/temat_skoro,75530405.html",
       "body": "od tygodnia nie chce spadać, to pora na większe odbicie . . .",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 2
       },
       "sentimentScore": 0.583,
@@ -973,7 +1062,7 @@
       "body": "teraz troszkę potarłem moją szklaną kulę i ta mi pokazuje możliwy poziom 9,95 pln z 18.05.2026,jako poziom odbicia.ps.spytaj się transka, bo podobno ekspertem jest w takich rzeczach . . . :)))))))))))))",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1001,7 +1090,7 @@
       "body": "blacku, myślisz że to już...???",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1015,7 +1104,7 @@
       "body": "> 9,95 nie bylo, bodinku. Z czego sie cieszys====================Szklana kula dalej daje radę . . .",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1357,34 +1446,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75505093",
-      "author": "Gaudi",
-      "postedAt": "2026-08-20 22:09",
-      "threadTitle": "Re: Gierek kiedyś pytał :",
-      "url": "https://www.bankier.pl/forum/temat_w-okolicy-9-7zl,75301101.html",
-      "body": "A jak tam bidony, zalane?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75505033",
-      "author": "black944",
-      "postedAt": "2026-08-20 21:59",
-      "threadTitle": "Gierek kiedyś pytał :",
-      "url": "https://www.bankier.pl/forum/temat_w-okolicy-9-7zl,75301101.html",
-      "body": "Pomożecie ? i kto zna odpowiedź ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75504913",
       "author": "nnn",
       "postedAt": "2026-08-20 21:42",
@@ -1693,174 +1754,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75503515",
-      "author": "fsf",
-      "postedAt": "2026-08-20 19:25",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "https://stooq.pl/n/?f=1819982",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75503319",
-      "author": "Gaudi",
-      "postedAt": "2026-08-20 19:05",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "To zmien kule, Gosciu. Jestem duzo starszy od ciebie, i jak mialem pierwsze akcje Universalu, to ty kiblowales w zawodowce. Wiec ten tego, Gosciu. Nie zgrywaj kogos, kim nie jestes. Slabe to.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75502985",
-      "author": "Gość",
-      "postedAt": "2026-08-20 18:35",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "To jest właśnie ten poziom o którym pisałem. Nie męcz się już. M2? Jak ja inwestowałem pierwsze pieniądze na GPW to ty łapałeś równowagę przy nocniku, więc odpuść już.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75502607",
-      "author": "Gaudi",
-      "postedAt": "2026-08-20 17:54",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "Mogl pis 8 lat nie rsprdalac i okradac kraju? Mogl.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75502543",
-      "author": "Weq",
-      "postedAt": "2026-08-20 17:49",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "Mogło rosnąć jak rosły tauron i enea. A teraz to kicha",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75502489",
-      "author": "Gaudi",
-      "postedAt": "2026-08-20 17:45",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "Skoro niby tyle na gpw jestes i to na plusie. Buhahaha. I nic nie wiesz o gpw. O kgm po 100 i pkn po 45 tez tak pisales?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75502471",
-      "author": "Gaudi",
-      "postedAt": "2026-08-20 17:43",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "I naucz sie, ze nie PGE to bafziew, tylko ci, ktorzy manipuluja kursem przy biernej postawie knf. Zacznij od elementarnej nauki. Pge to mega firma, a badziew to masz u siebie w M-2.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75502455",
-      "author": "Gaudi",
-      "postedAt": "2026-08-20 17:41",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "Fajnie, gosciu, ze piszesz o sobie. To sie projekcja nazywa. Proste pytanie, a ty lecisz jak wiekszosc z kompleksami tutaj. Ty to jestes Gosc!",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75502443",
-      "author": "Myśliciel",
-      "postedAt": "2026-08-20 17:40",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "Nie wiem,do kogo piszesz ale ja w życiu mam swoje cele zraalizowane! i jest ok.Nie poniosłem porażki a na GPW jestem na dużym plusie!Więc pouczenia i rady mni Nie interesują?Ale ogólnie pozdrawiam!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75502307",
-      "author": "Gość",
-      "postedAt": "2026-08-20 17:26",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "W porównaniu z tobą pewnie nic (50+ i 20 lat na gpw). I dzięki że otworzyłeś mi oczy, bo prawie osiągnąłem twój poziom. Baw się dobrze i życzę Ci w końcu sukcesu w życiu np. żebyś się w końcu wyprowadził od mamy, nawet na stancję i zaczął sam na siebie zarabiać. I pamiętaj nigdy nie wiesz kto jest po drugiej stronie, nie oceniaj ludzi nie znając ich - popatrz w lustro i oceń swój sukces, może nawet na podstawie tych zebranych puszek. Pozdrawiam",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75501797",
-      "author": "Tomasz13",
-      "postedAt": "2026-08-20 16:54",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "To zwykła gra na zmęczenie. Gdy wszyscy stracą nadzieję na wzrosty i drobni wyprzedadzą się, to urośnie.Sprawdzony scenariusz na wielu spółkach.",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75501645",
-      "author": "Gaudi",
-      "postedAt": "2026-08-20 16:45",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "A co ty w zyciu osiagnales, gosciu? Z blackim pozbierales puszki, zeby obserwujacy mogl miec na bilet pks.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75501587",
       "author": "Styrany",
       "postedAt": "2026-08-20 16:42",
@@ -1883,48 +1776,6 @@
       "body": "Wyleczyć Wynalazcę?Impossible Mission.",
       "votes": {
         "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75501423",
-      "author": "BajaBongo",
-      "postedAt": "2026-08-20 16:34",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "No budowali bo głupi byli. No i na tym budowaniu teraz stoi system (glupio bo głupio, ale stoi). Potem PiS nie zrobił nic. Aa przepraszam, PGE zamrozili ceny i ograniczyli zdolności realizacji capexu przy wzroście wynagrodzeń, konsumpcji i wysokiej inflacji. Wystarczy wspomnieć Tchórzewskiego. Przecież bez państwa nikt nie wybuduje atomu bo potrzebne są kontrakty różnicowe. Bez kontraktów różnicowych każdy oleje taki projekt.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75501329",
-      "author": "knp7",
-      "postedAt": "2026-08-20 16:27",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "Raczej zapytaj PO dlaczego bloki węglowe budował w Opolu zamiast atom.Malo brakowało a Gierek by pompowo-szcztowa w Młotach wybudował co obecną anemia pis-po nie potrafi.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75501129",
-      "author": "BajaBongo",
-      "postedAt": "2026-08-20 16:12",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "Ale z prywatnego przemysłu? Czy z państw? To czemu PiS nie budował? W tym czasie zajumali prawie 100mld z ETS.",
-      "votes": {
-        "up": 0,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1959,34 +1810,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75500753",
-      "author": "knp7",
-      "postedAt": "2026-08-20 15:49",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "10 lat wstecz cena 1G atom 20mld.Kto miałby budować kolejka chętnych.⁸",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75500703",
-      "author": "BajaBongo",
-      "postedAt": "2026-08-20 15:45",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "To jest w ogóle zabawne, że na forum spółki energetycznej musimy sobie takie kwestie tłumaczyć. Bez urazy. To o czym piszesz/piszecie uderza przede wszystkim w konkurencyjność. Tego też nie jestem fanem. Ale w kwestii transformacji sprawa wygląda inaczej. Naprawdę liczysz, że przy zdjęciu ETS prywatny przemysł zrobi Ci z tych środków transformację? Postawią elektrownie? Nie, po prostu obniżą ceny i będą mieli wyższą konkurencyjność. Transformację musi robić w dużej mierze państwo, które czerpie dochody budżetowe z puli uprawnień ETS i wydaje je na socjal. Tyle.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75500669",
       "author": "Obserwujący",
       "postedAt": "2026-08-20 15:43",
@@ -1999,34 +1822,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75500617",
-      "author": "Gość",
-      "postedAt": "2026-08-20 15:40",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "Ten bedziew nie może 11 przebić na dłużej a Ty liczysz na 21? Bravo Ty!!!",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75500583",
-      "author": "BajaBongo",
-      "postedAt": "2026-08-20 15:38",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "Ta? I kto miałby te środki inwestować? PGE i tak ma Capex do 2040 na poziomie chyba 240mld zł. Chyba nie zrozumiałeś nic z powyższych wpisów. Ty serio myślisz, że PGE płaci 20-30mld zł za CO2? Przecież to z miejsca byłby bankrut. W ogóle ta transformacja to się w Polsce rozpoczęła tak na poważnie? Kiedy? Bo Czesi mieli atom już dawno temu, jakoś wszyscy dookoła mają tylko nam wiatr w oczy i oczywiście naszym górnikom.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75500533",
@@ -2050,7 +1845,7 @@
       "url": "https://www.bankier.pl/forum/temat_pge-energetyka-kolejowa,75089495.html",
       "body": "Mało widocznym ale olbrzymim beneficjentem aktualnej rewolucji w transporcie, ale także projektu CPK jest PGE Energetyka Kolejowa. Kolejna faza elektryfikacji magistral kolejowych właściwie dobiega końca, dalej będą elektryfikowane mniejsze linie. W każdym razie wszystkie spółki kolejowe czy to towarowe czy osobowe kupują głównie tabor elektryczny, który to jest zasilany przez PGE. Źródło bardzo stabilnego i sporego zysku, bo ta spółka córka molocha jest fajnie zarządazana- buduje swoje farmy FV, buduje małe rozproszone magazyny energii. Tan miks ogranicza niesamowicie koszty operacyjne.Ostatnie dni a może i godziny przed rajdem na 16zł za akcje PGE. Kolejny próg to przedział 19-21, i tu zapaszam do dyskusji, bardziej realistyczny jest 19 czy 21 za akcje PGE za rok? Juz wliczając i tę energetykę kolejową i wszystkie pozostałe czynniki",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.87,
@@ -2085,20 +1880,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75500371",
-      "author": "knp7",
-      "postedAt": "2026-08-20 15:25",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "Transformacja byłaby już zakończona gdyby zamiast płacić haracz dla Brukseli te środki by były inwestowane w kraju⁵",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75500349",
       "author": "Blackie",
       "postedAt": "2026-08-20 15:24",
@@ -2108,20 +1889,6 @@
       "votes": {
         "up": 0,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75500327",
-      "author": "6205145",
-      "postedAt": "2026-08-20 15:22",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "To czekaj. A nową strategią jest chyba ubranie ulicy w ten papier",
-      "votes": {
-        "up": 2,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2197,20 +1964,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75499971",
-      "author": "Myśliciel",
-      "postedAt": "2026-08-20 14:59",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": ".8-zl śmiech na sali!Ja swoje mam wystawione 21!I mogę poczekać jeszcze troszkę?Myślę, że po dobrych wynikach i ogłoszeniu w nowej strategi powrotu,do dywidendy spółka wróci,do właściwej wyceny!!!",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75499949",
       "author": "Gaudi",
       "postedAt": "2026-08-20 14:56",
@@ -2251,20 +2004,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75499529",
-      "author": "6205145",
-      "postedAt": "2026-08-20 14:36",
-      "threadTitle": "Re: Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "Będzie - ale zjazd do 8 zł",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75499515",
@@ -2321,48 +2060,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75499133",
-      "author": "BajaBongo",
-      "postedAt": "2026-08-20 14:14",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "O tych rachunkach to w ogóle żart bo nawet na przykładzie PGE i jej detalu widać marazm od lat. Poczytaj sobie na podstawie realnych danych zamiast tego Memcenowego peplenienia. \"Wróćmy jednak do perspektywy ostatnich 20 lat. Średnie całkowite ceny energii elektrycznej z dystrybucją i VAT w płaskiej taryfie G11, dla przeciętnego odbiorcy domowego (2000 kWh rocznego poboru) wzrosły w latach 2005-2025 z 0,42 zł/kWh do 1,23 zł/kWh. Prąd z dystrybucją jest zatem trzykrotnie droższy niż 20 lat temu. Jeżeli jednak obie wartości sprowadzimy do wartości obecnej złotówki, to ceny realne wzrosły z 0,84 zł/kWh do 1,26 zł/kWh, czyli o 50% a nie 200%. Tak działa inflacja w długim okresie czasu.\"\"Zatem wydatki na prąd, podobnie zresztą jak i na inne źródła energii, pochłaniają coraz mniejszą część naszych budżetów domowych. W 2005 roku było to 10%, obecnie ok. 7%.\"https://wysokienapiecie.pl/117471-jak-zmienila-sie-energetyka-i-ceny-pradu-przez-20-lat/",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75498917",
-      "author": "BajaBongo",
-      "postedAt": "2026-08-20 14:02",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "Ponadto kompletnie nie rozumiesz sposobu rozliczania się PGE z ETS. PGE ma w raporcie coś takiego jak \"zadłużenie ekonomiczne\". Wiesz na czym polega zabezpieczenie się? PGE to nie jest warzywniak na bazarze tylko z jednej strony ma zobowiązanie z tytułu ETS, a z drugiej strony należność z tytułu kontraktów ETS którymi się zabezpiecza. Ty masz takie rozumowanie na poziomie Sasina i Mentzena, że jak PGE emituje CO2 to już z tego tytułu nie może sobie kupić kontraktów na rynku terminowym i zabezpieczyć się. Stąd też jest spekulacja na uprawnieniach, o której pisałeś ale chyba nie do końca ją rozumiesz.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75498873",
-      "author": "BajaBongo",
-      "postedAt": "2026-08-20 13:58",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "Za 120mld zł postawisz 4 bloki więc nie wiem o czym Ty tam bredzisz. Blok o mocy 1250MW postawisz za jakieś 50mld. Z Ciebie to taki ekspert. Czytałeś kiedykolwiek raport PGE? Wiesz ile lat ma średnio elektrownia węglowa w Polsce? Wiesz kiedy PGE zamyka swoje odkrywki brunatnego z powodów geologicznych? Co będziesz robił potem? Pływał z tym węglem z Kolumbii i to jest Twoim zdaniem niezależność energetyczna? Chyba nie masz pojęcia o czym piszesz. \"250pln Gdyby nie koszty emisji\" a wiesz ile kosztuje utrzymanie PGG i nierobów na Śląsku? Coś to Cię nie boli, że jako podatnik sypiesz z budżetu 9mld na utrzymanie nierentownych przedsiębiorstw, gdzie średnie zarobki dwukrotnie przebijają średnie zarobki w pozostałej części gospodarki. To jeszcze mi wskaż w takim razie w jaki sposób ETS jest naliczany od wydobycia węgla, że te firmy ledwo zipią. Spoko, zlikwidują Ci w rachunku ETS to będziesz miał \"węglowe\" i zamiast 10zł na rynek mocy to dasz 20zł na ryli ze Śląska.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75498675",
@@ -2533,20 +2230,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75498263",
-      "author": "fsf",
-      "postedAt": "2026-08-20 13:19",
-      "threadTitle": "Poddaje sie",
-      "url": "https://www.bankier.pl/forum/temat_poddaje-sie,75498263.html",
-      "body": "No już nic z tego nie będzie",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75498237",
       "author": "Gaudi",
       "postedAt": "2026-08-20 13:18",
@@ -2559,20 +2242,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75498235",
-      "author": "flcn",
-      "postedAt": "2026-08-20 13:18",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "@BajaBongo czy bongo baja o atomie i innych zielonych technologiach. 100 mld PLN to może połowa pierwszej elektrowni atomowej której planowana moc to 4 GW. Czyli jakieś 20% zapotrzebowania systemu. Cena prądu z tej elektrowni przekroczy 600 PLN/MWh. Koszty wytworzenia 1 MWh z węgla brunatnego to okolice 250 PLN gdyby nie koszty emisji czyli PATOLOGICZNEGO ETS. Problem w tym, że bez ETS nie opłacałoby się stawiać wiatraków bo cena z farmy morskiej Orlenu to ponad 480 PLN/MWh. Jak wiadomo na wiatrakach najwięcej zarabia producent turbin a tych w UE jest raptem trzech.Co do ponoszenia kosztów ETS to każdy płaci to w rachunkach za prąd i cenie każdego produktu ale spokojnie za chwilę będziesz dodatkowo płacił ETS2 a może i ETS3, ETS4, ETS5 czyli podatek od zielonej głupoty.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75497851",
@@ -2643,20 +2312,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75497563",
-      "author": "BajaBongo",
-      "postedAt": "2026-08-20 12:38",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "Ale wiesz, że gdyby ponad 100mld zł które przejadł budżet przez kilkanaście lat z ETS zainwestowano w capex na elektrownię atomową to dzisiaj węglowa flota PGE byłaby w rezerwie lub po wyłączeniu, a my byśmy mieli atom, spadek emisji (czyli kosztów) i PGE po 20pln?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75497433",
@@ -2737,20 +2392,6 @@
       "body": "po fakcie, bajo to kazdy jest madry. juz widze, jak ku[powales orlen po 45 zl, kghm po 100, tauron po 0,87 i siedzisz tak sobie 5 lat (nie ryzykujac Belki) i spokojnie patrzysz jak ta twoja mityczna banka sobie raz rosnie, raz spada, a ty nie masz sl, nie realizujesz zyskow. Tak, to ma sens, jak i te twoje bajania. kolejny mitoman forumowy. szkoda ci odpowiadac. Na czym wisisz, ze taki sfrustrowany jestes?",
       "votes": {
         "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75496993",
-      "author": "knp7",
-      "postedAt": "2026-08-20 12:04",
-      "threadTitle": "Re: Prąd z gazu droższy niż z węgla",
-      "url": "https://www.bankier.pl/forum/temat_prad-z-gazu-drozszy-niz-z-wegla,75484337.html",
-      "body": "Jle mld z darmowych uprawnień otrzymuje SP w skali roku a ile krajowe spólki muszą kupić uprawnień. Zobacz to w danych GUS ,tam widać jak ten interes Brukseli wygląda.",
-      "votes": {
-        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2895,6 +2536,370 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75495115",
+      "author": "Gaudi",
+      "postedAt": "2026-08-20 10:10",
+      "threadTitle": "Re: black znowu w amoku . . .bo to cw.ku",
+      "url": "https://www.bankier.pl/forum/temat_xd-znowu-w-amoku,75330991.html",
+      "body": "Moze ty jakies teleporady dawaj, co? Wiecej w zyciu osiagniesz :))))",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75495085",
+      "author": "Gaudi",
+      "postedAt": "2026-08-20 10:09",
+      "threadTitle": "Re: transek",
+      "url": "https://www.bankier.pl/forum/temat_euforia-na-zlocie,75488179.html",
+      "body": "A co ty, black, masz wspolnego z inwestowaniem w pge?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75494843",
+      "author": "black944",
+      "postedAt": "2026-08-20 09:58",
+      "threadTitle": "transek",
+      "url": "https://www.bankier.pl/forum/temat_euforia-na-zlocie,75488179.html",
+      "body": "I co to ma wspólnego z PGE ?",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75494797",
+      "author": "Transek1975",
+      "postedAt": "2026-08-20 09:55",
+      "threadTitle": "Re: oj, transek",
+      "url": "https://www.bankier.pl/forum/temat_euforia-na-zlocie,75488179.html",
+      "body": "Blakus Gold = GoldiJeżeli uciekają od Dolara to muszą inwetować co raz więcej w ryzykowne.Przecież to jest takie proste.Watpie zeby chodzilo im o kasowanie zysku +3,5% :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75494547",
+      "author": "black944",
+      "postedAt": "2026-08-20 09:44",
+      "threadTitle": "oj, transek",
+      "url": "https://www.bankier.pl/forum/temat_euforia-na-zlocie,75488179.html",
+      "body": "widzę, że Twoja lojalna koleżanka z klasy w ułomny sposób zrobiła to już za Ciebie . . .",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75494353",
+      "author": "black944",
+      "postedAt": "2026-08-20 09:36",
+      "threadTitle": "XD znowu w amoku . . .",
+      "url": "https://www.bankier.pl/forum/temat_xd-znowu-w-amoku,75330991.html",
+      "body": "Odpocznij od szulerni = weź lekarstwa i idź do parku na spacer . . .",
+      "votes": {
+        "up": 1,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75494359",
+      "author": "Gaudi",
+      "postedAt": "2026-08-20 09:36",
+      "threadTitle": "Re: black fumio czyli czarna mamba forum",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "Czekaj, black ci zrobi, fumis. On jest w tym dobry. I emeryt, to bedzie delikatny dla ciebie fumisiu. Masz te swoje fantazje, tylko forum pomyliles czy juz tak odjezdzasz?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75494159",
+      "author": "Fumio",
+      "postedAt": "2026-08-20 09:27",
+      "threadTitle": "Re: oj, ty płaczek nr 1 !!!",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "Jednak 2xprąd a następnie 2xlewatywa.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75494069",
+      "author": "Gaudi",
+      "postedAt": "2026-08-20 09:24",
+      "threadTitle": "Re: oj, ty płaczek nr 1 !!!",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "Fumis, pod zegarem chlopaki gadaja, ze przez modivo dajesz nie tylko po lewatywie. Patrzysz na asseco? To patrz i sie ucz. :))))) Kiedy to 100 i te twoje shorty, przez ktore na mdv wisisz od 180. Karma, fumio, pod łodzka nieddojdo.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75494021",
+      "author": "Gaudi",
+      "postedAt": "2026-08-20 09:22",
+      "threadTitle": "Re: agresja black jest oznaka frustracji",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "Czarny, zajmij sie ziolkami. Badz jakBaba Wanga. Zostaw gpw. Nie idzie ci. To czytac. Tylko ziolka i wrozby z mchu, cezary black944 graf nie jest niemozliwy.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75493965",
+      "author": "Fumio",
+      "postedAt": "2026-08-20 09:20",
+      "threadTitle": "Re: oj, ty płaczek nr 1 !!!",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "Same leki Wynalazcy nie pomogą.Bardzo ważne to prąd + lewatywa.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75493873",
+      "author": "black944",
+      "postedAt": "2026-08-20 09:16",
+      "threadTitle": "oj, ty płaczek nr 1 !!!",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "lekarstwa popijaj dużą ilością wody i może jeszcze wyzdrowiejesz . . .",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75493433",
+      "author": "Gaudi",
+      "postedAt": "2026-08-20 08:51",
+      "threadTitle": "Re: Powoli . . .hmmm?mmmm",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "Czarny to bedzie 8 czy zalewamy bidony, bo znowu bredzisz...",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75493053",
+      "author": "Gaudi",
+      "postedAt": "2026-08-20 08:21",
+      "threadTitle": "Re: Powoli . . .hmmm?mmmm",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "Pytanie otwarte",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75491655",
+      "author": "Gaudi",
+      "postedAt": "2026-08-19 22:44",
+      "threadTitle": "Re: Powoli . . .hmmm?mmmm",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "Nie jest to niemożliwe . . .~black9442026-08-18 18:23IP 84.40.155.* > Do publikacji wyników tu będzie 8 z przodu?",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75491647",
+      "author": "Gaudi",
+      "postedAt": "2026-08-19 22:42",
+      "threadTitle": "Re: oj, transek, znowu się nudzisz ?",
+      "url": "https://www.bankier.pl/forum/temat_euforia-na-zlocie,75488179.html",
+      "body": "Oznacza to, ze nie jest to niemozliwe, ze ci odetna neta, black cezary graf.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75491639",
+      "author": "Gaudi",
+      "postedAt": "2026-08-19 22:40",
+      "threadTitle": "Re: Powoli . . .nie black nie jest niemozliwy",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "Przeciez ty tankujesz co -25 gr cezary black944 graf nie jest to niemozliwe",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75491465",
+      "author": "BajaBongo",
+      "postedAt": "2026-08-19 22:15",
+      "threadTitle": "Re: Powoli . . .",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "19.08.2026, Warszawa (PAP) - Niedługo rząd przedstawi rozwiązania dotyczące cen energii dla przedsiębiorstw - zapowiedział w środę minister finansów i gospodarki Andrzej Domański.Domański odniósł się w środę w TVN24 do stwierdzenia prowadzącego, że ceny energii dla przedsiębiorców w Polsce są jednymi z najwyższych w Unii Europejskiej. - Już niedługo będziemy prezentować rozwiązania dotyczące cen energii dla przedsiębiorców, szczególnie z sektorów energochłonnych - powiedział.Dodał, że rząd prowadzi \"największą transformację energetyczną od wielu lat\". - Inwestujemy dziesiątki miliardów złotych w to, aby prąd w Polsce był tańszy - zaznaczył szef resortu finansów. (PAP)gkc/ mmu/",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75488697",
+      "author": "black944",
+      "postedAt": "2026-08-19 17:39",
+      "threadTitle": "oj, transek, znowu się nudzisz ?",
+      "url": "https://www.bankier.pl/forum/temat_euforia-na-zlocie,75488179.html",
+      "body": "Ta euforia trwa tam już 7 lat, nieprawdaż ?https://stooq.pl/q/?s=gc.f&d=20260819&c=10y&t=l&a=lg&b=1&r=pgehttps://stooq.pl/q/?s=gc.f&d=20260819&c=1y&t=l&a=lg&b=1&r=pgeps.to może wytłumacz co to oznacza dla alcji PGE . . . :))))))))))))))))))",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75488179",
+      "author": "transek1975",
+      "postedAt": "2026-08-19 16:58",
+      "threadTitle": "Euforia na Złocie.",
+      "url": "https://www.bankier.pl/forum/temat_euforia-na-zlocie,75488179.html",
+      "body": "Czarny nawet nie wie co to oznacza dla akcji PGE. :)",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75487235",
+      "author": "Weq",
+      "postedAt": "2026-08-19 16:00",
+      "threadTitle": "Re: Powoli . . .",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "Ależ nie jest to niemożliwe",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75487073",
+      "author": "123",
+      "postedAt": "2026-08-19 15:51",
+      "threadTitle": "Re: PGE Energetyka Kolejowa",
+      "url": "https://www.bankier.pl/forum/temat_pge-energetyka-kolejowa,75089495.html",
+      "body": "cały czas trwa wyleszczanie,nawet dzisiaj gdy rośnie",
+      "votes": {
+        "up": 8,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75486455",
+      "author": "6205145",
+      "postedAt": "2026-08-19 15:13",
+      "threadTitle": "Re: Tu zaraz jakiś trup wypadnie z szafy?",
+      "url": "https://www.bankier.pl/forum/temat_tu-zaraz-jakis-trup-wypadnie-z-szafy,75486205.html",
+      "body": "Wszystko zaczyna iść w górę a ta .urwa jest dobrze zakotwiczona i czeka za spadki!!! Ktoś tego kursu dobrze pilnuje",
+      "votes": {
+        "up": 8,
+        "down": 3
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75486301",
+      "author": "black944",
+      "postedAt": "2026-08-19 15:05",
+      "threadTitle": "Powoli . . .",
+      "url": "https://www.bankier.pl/forum/temat_powoli,75486301.html",
+      "body": "można znowu tankować ale jeszcze nie za wszystko . . .",
+      "votes": {
+        "up": 7,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75486285",
+      "author": "Gość",
+      "postedAt": "2026-08-19 15:04",
+      "threadTitle": "Re: Tu zaraz jakiś trup wypadnie z szafy?",
+      "url": "https://www.bankier.pl/forum/temat_tu-zaraz-jakis-trup-wypadnie-z-szafy,75486205.html",
+      "body": "Ładnie powiesili ludzi na hakach!!! Ciekawe na jak długo?",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75486205",
+      "author": "6205145",
+      "postedAt": "2026-08-19 14:58",
+      "threadTitle": "Tu zaraz jakiś trup wypadnie z szafy?",
+      "url": "https://www.bankier.pl/forum/temat_tu-zaraz-jakis-trup-wypadnie-z-szafy,75486205.html",
+      "body": "Kurs się zachowuje jakby jakiś trup miał wypaść z szafy",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
     }
   ]
 }
