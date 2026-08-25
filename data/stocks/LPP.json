@@ -3,25 +3,25 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-08-25T01:52:48.990Z",
+  "updatedAt": "2026-08-25T07:08:12.870Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-25T01:52:48.990Z",
+    "fetchedAt": "2026-08-25T07:08:12.870Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 8
+    "threadsScanned": 9
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.196,
+    "score": -0.185,
     "confidence": 0.6,
-    "commentCount": 34,
+    "commentCount": 35,
     "breakdown": {
       "positive": 5,
       "negative": 20,
-      "neutral": 9
+      "neutral": 10
     },
     "trend": [
       {
@@ -53,10 +53,15 @@
         "date": "2026-08-24",
         "score": 0.036,
         "count": 5
+      },
+      {
+        "date": "2026-08-25",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 34 komentarzy z ostatnich 7 dni: nastroje negatywne (5 pozytywnych, 20 negatywnych, 9 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 35 komentarzy z ostatnich 7 dni: nastroje negatywne (5 pozytywnych, 20 negatywnych, 10 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "sprzedala",
@@ -102,6 +107,20 @@
   },
   "comments": [
     {
+      "id": "75540401",
+      "author": "alan",
+      "postedAt": "2026-08-25 08:50",
+      "threadTitle": "marketplace",
+      "url": "https://www.bankier.pl/forum/temat_marketplace,75540401.html",
+      "body": "Bez rozgłosu rozpoczął działalność marketplace grupy LPP.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "75538729",
       "author": "on",
       "postedAt": "2026-08-24 22:38",
@@ -138,7 +157,7 @@
       "body": "myślę, że powoli korekta dobiega końcamała konsolidacja i papier nieśmiało będzie szedł w górę",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -194,7 +213,7 @@
       "body": "Dziadostwo się robi tu",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
