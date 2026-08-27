@@ -3,24 +3,24 @@
   "companyName": "Bank Polska Kasa Opieki Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-polska-kasa-opieki-spolka-akcyjna,6,21,18.html",
-  "updatedAt": "2026-08-27T09:47:56.847Z",
+  "updatedAt": "2026-08-27T22:16:55.456Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-27T09:47:56.847Z",
+    "fetchedAt": "2026-08-27T22:16:55.456Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 23
+    "threadsScanned": 25
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.082,
-    "confidence": 0.73,
-    "commentCount": 80,
+    "score": 0.025,
+    "confidence": 0.71,
+    "commentCount": 82,
     "breakdown": {
       "positive": 35,
-      "negative": 11,
+      "negative": 13,
       "neutral": 34
     },
     "trend": [
@@ -168,10 +168,15 @@
         "date": "2026-08-20",
         "score": 0,
         "count": 2
+      },
+      {
+        "date": "2026-08-27",
+        "score": -0.453,
+        "count": 2
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 80 komentarzy z ostatnich 90 dni: nastroje mieszane (35 pozytywnych, 11 negatywnych, 34 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 82 komentarzy z ostatnich 90 dni: nastroje mieszane (35 pozytywnych, 13 negatywnych, 34 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidende",
@@ -180,6 +185,10 @@
       {
         "word": "dzien",
         "count": 6
+      },
+      {
+        "word": "banki",
+        "count": 5
       },
       {
         "word": "pekao",
@@ -194,11 +203,11 @@
         "count": 5
       },
       {
-        "word": "mnie",
+        "word": "bankow",
         "count": 4
       },
       {
-        "word": "banki",
+        "word": "mnie",
         "count": 4
       },
       {
@@ -208,14 +217,38 @@
       {
         "word": "wiecej",
         "count": 4
-      },
-      {
-        "word": "raczej",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75576993",
+      "author": "byłyminister",
+      "postedAt": "2026-08-27 18:32",
+      "threadTitle": "banki",
+      "url": "https://www.bankier.pl/forum/temat_banki,75576993.html",
+      "body": "Jak się żąda 1 miliard złotych od METY to nie ma się co dziwić ,że amerykańskie fundusze sprzedają polskie akcje , w szczególności banków,żeby mieć na zapłatę tej grzywny. Kto tego Gawkowskiego namówił żeby wystosował takie żądanie do amierykańskiej firmy META. Trzeba mieć głupio w głowie żeby w taki sposób wysuwać żądania do tak poważnej firmy i to amerykańskiej",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75575271",
+      "author": "makler",
+      "postedAt": "2026-08-27 16:28",
+      "threadTitle": "sciema",
+      "url": "https://www.bankier.pl/forum/temat_sciema,75575271.html",
+      "body": "nie wierzcie w to że banki leca w dól z powodu jakiejs wizyti emerytowanego byłego szefa cia. równie dobrze można powiedziec ,że putin zmarszczył brwi. po prostu trzepia uluce bo bedzie wiekszA POMPA. TRZYMAĆ NIE GNIEŚĆ ZA DWA MIESIĄCE DA 15% ZYSKU. SPOKO GŁOWA DO GÓRY",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75497099",
       "author": "Awaria",
