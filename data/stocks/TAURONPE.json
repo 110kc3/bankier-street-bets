@@ -1,13 +1,13 @@
 {
   "symbol": "TAURONPE",
-  "companyName": "TAURON Polska Energia Spółka Akcyjna",
+  "companyName": "Tauron PE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=TAURONPE",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_tauron-polska-energia-spolka-akcyjna,6,21,10000000421.html",
-  "updatedAt": "2026-08-29T07:05:55.594Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_tauron-pe-sa,6,21,10000000421.html",
+  "updatedAt": "2026-08-29T16:44:58.540Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-29T07:05:55.594Z",
+    "fetchedAt": "2026-08-29T16:44:58.540Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,29 +15,34 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.042,
-    "confidence": 0.71,
+    "score": 0.062,
+    "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 58,
-      "negative": 38,
-      "neutral": 104
+      "positive": 67,
+      "negative": 39,
+      "neutral": 94
     },
     "trend": [
       {
+        "date": "2026-08-23",
+        "score": 0.176,
+        "count": 16
+      },
+      {
         "date": "2026-08-24",
-        "score": 0.045,
-        "count": 20
+        "score": 0.041,
+        "count": 22
       },
       {
         "date": "2026-08-25",
-        "score": 0.045,
-        "count": 43
+        "score": 0.137,
+        "count": 16
       },
       {
         "date": "2026-08-26",
-        "score": -0.019,
-        "count": 59
+        "score": -0.03,
+        "count": 57
       },
       {
         "date": "2026-08-27",
@@ -51,12 +56,12 @@
       },
       {
         "date": "2026-08-29",
-        "score": 0.474,
-        "count": 4
+        "score": 0.253,
+        "count": 15
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (58 pozytywnych, 38 negatywnych, 104 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (67 pozytywnych, 39 negatywnych, 94 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "zapiekanki",
@@ -64,15 +69,19 @@
       },
       {
         "word": "tauron",
-        "count": 15
+        "count": 16
       },
       {
-        "word": "masz",
-        "count": 14
+        "word": "tauronu",
+        "count": 9
       },
       {
-        "word": "zeby",
-        "count": 10
+        "word": "przy",
+        "count": 9
+      },
+      {
+        "word": "zysku",
+        "count": 9
       },
       {
         "word": "wyniki",
@@ -83,24 +92,174 @@
         "count": 9
       },
       {
-        "word": "przy",
+        "word": "zysk",
+        "count": 8
+      },
+      {
+        "word": "masz",
         "count": 8
       },
       {
         "word": "netto",
         "count": 8
-      },
-      {
-        "word": "tauronu",
-        "count": 8
-      },
-      {
-        "word": "bede",
-        "count": 8
       }
     ]
   },
   "comments": [
+    {
+      "id": "75596105",
+      "author": "eldealeros",
+      "postedAt": "2026-08-29 17:14",
+      "threadTitle": "Re: Wyniki za 1Q zgodne z szacunkami. Zysk 979 mln",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-za-1q-zgodne-z-szacunkami-zysk-979-mln,74529305.html",
+      "body": "Ktoś sprzedaje a ktoś skupuje.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75596089",
+      "author": "eldealeros",
+      "postedAt": "2026-08-29 17:12",
+      "threadTitle": "Re: Wyniki za 1Q zgodne z szacunkami. Zysk 979 mln",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-za-1q-zgodne-z-szacunkami-zysk-979-mln,74529305.html",
+      "body": "Naganiacz łoren bufet pod kolejną nazwą.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75595351",
+      "author": "Wynalazca",
+      "postedAt": "2026-08-29 14:57",
+      "threadTitle": "Re: Wyniki za 1Q zgodne z szacunkami. Zysk 979 mln",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-za-1q-zgodne-z-szacunkami-zysk-979-mln,74529305.html",
+      "body": "Energetyka w odwrocie. Ludzie sprzedają akcje i kurs spada.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75595353",
+      "author": "eldealeros",
+      "postedAt": "2026-08-29 14:57",
+      "threadTitle": "Re: Wyniki za 1Q zgodne z szacunkami. Zysk 979 mln",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-za-1q-zgodne-z-szacunkami-zysk-979-mln,74529305.html",
+      "body": "Akurat w przypadku Tauronu dygresja nietrafiona. Krzywa Laffera bardziej odnosi się to podmiotów posiadających pełną atonomię i swobodę podejmowania decyzji. To one mogą stwierdzić, że przy określonej stawce podatku olewają robotę i dalej nie działają. Tauronem de facto rządzi państwo i tutaj nigdy taka decyzja nie zapadnie. Nawet gdyby mieli CIT 100% będą zmuszeni pracować.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75595229",
+      "author": "reminder",
+      "postedAt": "2026-08-29 14:30",
+      "threadTitle": "Re: Wyniki za 1Q zgodne z szacunkami. Zysk 979 mln",
+      "url": "https://www.bankier.pl/forum/temat_wyniki-za-1q-zgodne-z-szacunkami-zysk-979-mln,74529305.html",
+      "body": "Warto pamiętać o krzywej Laffera.Skoro ustawowo Sejm ustalił podatek od zysków NBP na poziomie 95% - to po co się w ogóle starać o zysk?CIT 19%, 30% albo 70% nadprogramowego zysku (windfall tax) to ma KONSEKWENCJE.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75594683",
+      "author": "Greg585",
+      "postedAt": "2026-08-29 13:09",
+      "threadTitle": "Re: MAP benda wieksze dewidendy SP",
+      "url": "https://www.bankier.pl/forum/temat_map-benda-wieksze-dewidendy-sp,75589837.html",
+      "body": "Ale taką kasę to mają banki i Orlen w kapitałach zapasowych",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75594481",
+      "author": "luzak",
+      "postedAt": "2026-08-29 12:42",
+      "threadTitle": "Re: MAP benda wieksze dewidendy SP",
+      "url": "https://www.bankier.pl/forum/temat_map-benda-wieksze-dewidendy-sp,75589837.html",
+      "body": "Resort finansów planuje, że dochody budżetu z dywidend od udziałów Skarbu Państwa w spółkach wyniosą 13,9 mld zł. To o 76 proc. więcej niż zapisano w tegorocznym planie (6 mld zł). https://biznes.interia.pl/gospodarka/news-zero-zlotych-z-nbp-miliardy-od-spolek-rzad-odslonil-karty-ws,nId,23535749",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75593757",
+      "author": "eldealeros",
+      "postedAt": "2026-08-29 10:55",
+      "threadTitle": "Re: CIT 22%",
+      "url": "https://www.bankier.pl/forum/temat_cit-22,75490417.html",
+      "body": "Jeśli tak się zdarzy to rynek pójdzie w górę. Życzę Ci aby Twoje prognozy się spełniły.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75593715",
+      "author": "Aureliano",
+      "postedAt": "2026-08-29 10:48",
+      "threadTitle": "Re: Ratujmy kurs",
+      "url": "https://www.bankier.pl/forum/temat_ratujmy-kurs,75547551.html",
+      "body": "Zaloz sobie rozowe gogle. Wyjdziesz z depresji.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75593585",
+      "author": "Fugazi",
+      "postedAt": "2026-08-29 10:27",
+      "threadTitle": "Re: CIT 22%",
+      "url": "https://www.bankier.pl/forum/temat_cit-22,75490417.html",
+      "body": "Idę o zakład o to że nie podpisze ze względów politycznych. Podwyżkę dla banków podpisał bo banki to ,, zło wcielone\" dla prawej strony",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75593371",
+      "author": "eldealeros",
+      "postedAt": "2026-08-29 09:55",
+      "threadTitle": "Re: CIT 22%",
+      "url": "https://www.bankier.pl/forum/temat_cit-22,75490417.html",
+      "body": "Ja zakładam, że ten CIT podpisze. Jednocześnie zakładam, że jest on już w cenie akcji. Świadczy o tym wzrost kursu w dniu ujawnienia informacji o CIT 22%. Widać że rynek wiedział o przygotowywaniach do nałożenia dodatkowego CIT'u ale spodziewał się wyższej stawki jak 22% i stąd ten wzrost w dniu ogłoszenia 22%. Jednak następnego dnia rynek mocno spadł bo dowiedział się że jednak będzie więcej i kolejnego dnia poznał stawkę 30%.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75592533",
       "author": "podatki",
@@ -109,7 +268,7 @@
       "url": "https://www.bankier.pl/forum/temat_cit-22,75490417.html",
       "body": "Gdyby prezydent nie podpisał wyższego CIT od banków, to mielibyśmy jasność w temacie.Wymyślenie IKO zamknęło usta krytykom podatku Belki - i o to chodziło.Podobnie z nowym progiem PIT 24% - ma uciszyć domagających się zwiększenia kwoty wolnej od PIT.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -124,7 +283,7 @@
       "body": "A teraz aspekt polityczny !Jeśli wzbogacą się drobni inwestorzy to zagłosują na kogo ?Tacy np którzy dostana wyższe emerytury z OFE to na kogo zagłosują ?w PPK jest 5 mln uczestników a tam każdy może sprawdzić jak wzrasta jego emerytura to gdy ten fundusz wzbogaci się na cenach posiadanych akcji i dywidendach z nich to na kogo zagłosują ???p. Donaldzie !!! Chce pan być dalej premierem ? Bożyszczem całej braci inwestorów ?Każdy emeryt i potencjalny emeryt jak zobaczy, że jego emerytury sie podnoszą to na kogo będzie głosować ?Jak wielki jest potencjal wzrostowy ?Jesli założymy, że średnia pkt na w20 z 20 ostatnich lat wychodzi gdzieś okolo 2000 gdy sp500 20 lat temu to 1500 pkt to gdy teraz sp500 zbliża się do 8 tys to wig20 winien być gdzieś na poziomie 11 000 pkt",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
@@ -137,8 +296,8 @@
       "url": "https://www.bankier.pl/forum/temat_map-benda-wieksze-dewidendy-sp,75589837.html",
       "body": "I to jest lekarstwo na dziurę finansową. Maksymalne dywidendy których połowa idzie do budżetu a z drugiej polowy podatek.Do tego kursy podniosą które wystrzelą jak rakiety i przy wymianie akcjonariatu akcjonariusze którzy sie wzbogacą zapłacą 19% podatku Belki. Policzyłem wstępnie, że z każdej ze spółek skarbu państwa może do państwa wpłynąć pokaźna kwota. UWAGA taka firma jak CEZ ma wk około 40 zł i kosztuje 240 zł. zatem każda zł tu kosztuje 6 zł a na Tauronie musiałoby to być około 70 zł akcja. i teraz policzmy: od 60 zł zwyżki ceny akcji x 1,8 mld akcji = 110 mld x 19% to jest około 20 mld zł. + dywidenda i podatek od niejPANIE TUSK !!! Do roboty !!!",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0.964,
       "sentimentLabel": "Positive"
@@ -166,7 +325,7 @@
       "body": "Czeski koncern energetyczny CEZ po wynikach I półr. podnosi prognozę EBITDA w 2026 roku do 109–114 mld CZK, a skorygowanego zysku netto do 31-35 mld CZK - poinformowała spółka w komunikacie.\"Głównymi przyczynami podniesienia prognoz są lepsze wyniki w segmencie dystrybucji, wyższa produkcja elektrowni jądrowych oraz rosnące ceny sprzedaży wytworzonej energii elektrycznej spowodowane kryzysem w Zatoce Perskiej, który doprowadził do wzrostu rynkowych cen surowców energetycznych\" - napisano w komunikacie.Jak Tauron będzie miał prąd z atomu, będzie podwyższał prognozy i wypłacał coroczne dywidendy to wtedy będzie można go porównać ze spółką CEZ",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -193,8 +352,8 @@
       "url": "https://www.bankier.pl/forum/temat_map-benda-wieksze-dewidendy-sp,75589837.html",
       "body": "Link.www.pb.pl/rzad-szykuje-przetasowania-w-panstwowych-spolkach-chce-wiecej-pieniedzy-z-dywidend-1266195",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -221,7 +380,7 @@
       "url": "https://www.bankier.pl/forum/temat_helo-jestem-tu-nowy-calkiem-przypadkiem,75589709.html",
       "body": "Spoko obecie tred jest spadkowy to wiemy leży na wsparciu to też wiemy wyniki BDB to też jest w cenie nawet skromna dywidenda pytanie poza psychiatrykiem bo nie mogę wyjść ze szpitala czy jest tu bezpiecznie i jaki są szanse na szybki powrót na poziomy 9 zł czy 10 zł. Obecnie bardziej grane jest PGE niż Tauron może właśnie dla tego że dużo urósł jest was tu dużo gracie na zapiekanki czy grubsze zakłady pozdro pytam poważnie i oczekuję merytorycznej odpowiedzi oczywiście grzecznościowej pozdro",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -235,7 +394,7 @@
       "url": "https://www.bankier.pl/forum/temat_map-benda-wieksze-dewidendy-sp,75589837.html",
       "body": "Inaczej nie wyciągną pieniędzy z Tauronu, wiedzą że Nawrocki nie podpisze . Teraz ręce pod tyłek i czekamy , na pewno będą się spieszyć żeby na początku roku wziąć dywidendę .",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -291,7 +450,7 @@
       "url": "https://www.bankier.pl/forum/temat_map-benda-wieksze-dewidendy-sp,75589837.html",
       "body": "Bałczun i Domanski,bendzie sie działo",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -1936,20 +2095,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75554183",
-      "author": "Ira",
-      "postedAt": "2026-08-26 09:16",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "WOW !!!! Już mamy 8.63 !!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75554081",
       "author": "Ira",
       "postedAt": "2026-08-26 09:11",
@@ -1962,20 +2107,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75553605",
-      "author": "Ira",
-      "postedAt": "2026-08-26 08:36",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Dziś na zielono. 8.63 zł !!!",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75553413",
@@ -2020,20 +2151,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75551105",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 20:59",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Anku, nie napisales nam, ile masz akcji tpe?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75551041",
       "author": "eldealeros",
       "postedAt": "2026-08-25 20:52",
@@ -2076,118 +2193,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75550657",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 20:13",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Tylko umiem sie do tego przyznac. Ty nawet kobiete udajesz. Jutro bede na Fabrycznym. Spotkamy sie? Zapraszam na kawe.",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75550651",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 20:13",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Słuchaj, Anku, ty pochodzisz (mieszkasz) z miasta Łodzi, a ja ze Sxrromowa, wiosk8 pod Łodzią. Jestem wioxhmenem.",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75549169",
-      "author": "akcjonariusz",
-      "postedAt": "2026-08-25 17:27",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Prezydent pewnie zawetuje rządowy projekt, dlatego powrót kursu do wyższych poziomów to tylko kwestia czasu.",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75549157",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 17:26",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Nasz \"miejdki\" Anku. Po miejsku piszemy \"9 złotych za akcję\". Po wiosskowatemu \"9 złotych NA akcji\".",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75549141",
-      "author": "Ira",
-      "postedAt": "2026-08-25 17:25",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Mało brakowało. Jutro na pewno przekroczymy 8.5 zł.",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75549107",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 17:21",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Anek, ty masz akcje czy depresje? Ciezko byc facetem i pisac jako kobieta, co?",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75548571",
-      "author": "Magellan",
-      "postedAt": "2026-08-25 16:39",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "czekaj dalej na 7,90",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75548527",
-      "author": "Ania",
-      "postedAt": "2026-08-25 16:36",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Brak mocy żeby rosło, już PGE lepiej się zachowuje. Za miesiąc może będzie 9 złotych na akcji",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75547551",
       "author": "władek",
       "postedAt": "2026-08-25 15:41",
@@ -2209,7 +2214,7 @@
       "url": "https://www.bankier.pl/forum/temat_cit-22,75490417.html",
       "body": "Rząd może wyciągnąć podatkowego asa z rękawa. Spółki czekają na wykładnie nowego CITSpółki energetyczne same jeszcze nie wiedzą jak nowa, wyższa stawka CIT może być liczona, choć niektóre z nich zdradzają, że wyższy CIT mógłby być korzystniejszy niż podatek od zysków. W tle niespodziewanie pojawiła się możliwość wprowadzenia nowego podatku tym razem na poziomie UE, co mogłoby być korzystniejsze dla rządu.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -2252,7 +2257,7 @@
       "body": "3,5 tys transakcji, kilkanaście mln zł obrotu i lekki 1% wzrost dotychczas.",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -2270,20 +2275,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75546013",
-      "author": "Ira",
-      "postedAt": "2026-08-25 14:12",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Będzie dobrze.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75545907",
@@ -2328,216 +2319,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75541561",
-      "author": "Magellan",
-      "postedAt": "2026-08-25 09:56",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Bo pewnie czeka na 6.9",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75541015",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 09:29",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Anku, martwisz sie, najac akcje, ze rosnie, a nie 7,90, co?",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75540483",
-      "author": "Ania",
-      "postedAt": "2026-08-25 08:57",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Słuchaj ja pochodzę z miasta Łodzi, a ty wiesniaku z jakiej wsi?",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75540453",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 08:54",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Jak sie z miasta Łodzi pochodzi, Anku.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75540445",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 08:53",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Zadalem pytanue, czy wystawisz akcje, ktore rzekomo masz, zeby uwiarygodnic to, co piszesz? Anku, czy to tak trudno zrozumiec?",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75540411",
-      "author": "Ania",
-      "postedAt": "2026-08-25 08:51",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Dlatego napisałam 7,90 patrząc na wykres kursu rok temu, był poniżej 8 złotych Patrząc co się dzieje obecnie z kursem myślę że może się powtórzyć taka sytuacja I proszę żebyś nie przekręcał mojego imienia",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75540369",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 08:47",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Anku, skoro gielda jest nieprzewudywalna, dlaczego przewidujesz 7,90? Wystawisz swoj pakiet na gra gieldowa. Sorzedaz po 88,88? Sprawdzimy \"ile nasz akcji, jak piszesz, ze masz\". Ok?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75540365",
-      "author": "Janek",
-      "postedAt": "2026-08-25 08:47",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Oczywiście ze chciałbym żeby kurs był wyżej ale kupowałem na dłuższy okres wic nie zrobi to na mnie szczególnego wrażenia po ile będzie dzisiaj . okolice 8,50 obstawiam mimo dobrych szacunków",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75540213",
-      "author": "Ira",
-      "postedAt": "2026-08-25 08:34",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Tyle 8.46 zł !!!",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75540171",
-      "author": "Ania",
-      "postedAt": "2026-08-25 08:30",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Panowie giełda jest nieprzewidywalna, więc mimo że kurs sporo zleciał, to nie znaczy że jest już dno Wszystko może się zdarzyć",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75540019",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 08:18",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Na te chwile short jak jest jest pod progiem. Goldman bral po 8,9, jak pamietam. Co mieli zbic, raczej juz zbili, ale masz racje to gpw.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75539977",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 08:15",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Ania, ty masz,akcje. Biedronki. Dziekujemy za super wpis. Czy juz sie ogolilas?",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75539881",
-      "author": "Greg585",
-      "postedAt": "2026-08-25 08:02",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Koniec na 8,30. Ostatnie dni wyglądały kiepsko, nie liczę na euforię.Jeśli ktoś gra na spadki może nawet zniżyć kurs poniżej 8,00 zł.Na GWP to częsty scenariusz.",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75539747",
-      "author": "Magellan",
-      "postedAt": "2026-08-25 07:46",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Buhaha",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75539657",
-      "author": "Ania",
-      "postedAt": "2026-08-25 07:32",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "8,09 , a później się zobaczy",
-      "votes": {
-        "up": 3,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75539655",
       "author": "Eksrapolacja",
       "postedAt": "2026-08-25 07:31",
@@ -2550,34 +2331,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75539569",
-      "author": "Magellan",
-      "postedAt": "2026-08-25 07:16",
-      "threadTitle": "Re: Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "8.60 na close i spokojne budowanie kursu na jesień",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75539553",
-      "author": "Aureliano",
-      "postedAt": "2026-08-25 07:11",
-      "threadTitle": "Jaki kurs obstawiacie dzisiaj",
-      "url": "https://www.bankier.pl/forum/temat_jaki-kurs-obstawiacie-dzisiaj,75539553.html",
-      "body": "Typy na dzis.Moim zdaniem 8,58-8,60.",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75539489",
@@ -2897,6 +2650,258 @@
       "votes": {
         "up": 0,
         "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75533367",
+      "author": "Aureliano",
+      "postedAt": "2026-08-24 14:32",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "Chyba z tym ksiazkowo nie do konca. Na razie mielonka 8,23-8,33",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75530139",
+      "author": "Magellan",
+      "postedAt": "2026-08-24 10:38",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "Narazie ksiazkowo",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75526261",
+      "author": "Gustaw",
+      "postedAt": "2026-08-23 19:04",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "W piątek duży obrót , niewielka obniżka ceny . Świadczy to o jednym , papier był bardzo chętnie zbierany , akcjonariusze dobierali wszystkiego w tej cenie pojawiło się na rynku . Sam się skusiłem na spore zakupy . Teraz czekam na znacznie wyższe poziomy .Nawrocki nie podpisze , pieniądze będą mogli wyciągnąć ze spółki tylko przez dywidendę .",
+      "votes": {
+        "up": 6,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75525867",
+      "author": "Magellan",
+      "postedAt": "2026-08-23 17:34",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "w każdym razie robi się okazja do zarobku",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75525647",
+      "author": "Blackie",
+      "postedAt": "2026-08-23 16:31",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "Moze goldman zrobil zrzut pod zamykanie shortow, ktore brali w okolicach 8,86. Ja sprobuje jeszcze usrednic, mam na 8 tys akcji kase. Zobaczymy. Ustawiam sie na 8,18. Czy wejdzie? Kto to wie, ale mam podobne odczucia do ciebie Mag.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75525643",
+      "author": "eldealeros",
+      "postedAt": "2026-08-23 16:31",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "100% to może nie bo Tauron potrzebuje środki na inwestycje ale jeśli Nawrocki tej ustawy nie podpisze to myślę, że ze 30% zysku mogą z Taurona chcieć pociągnąć w formie dywidendy. A wówczas Tauron odpali na kilkanaście złotych.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75525521",
+      "author": "Jaś",
+      "postedAt": "2026-08-23 15:58",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "W przyszłym roku div spółek skarbu państwa będą dużo wyższe, kto wie, może 100%zysku pójdzie na div. Dlatego ssp będą grane pod div",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75525453",
+      "author": "Magellan",
+      "postedAt": "2026-08-23 15:44",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "ucieło...jankesi po 15:00 zrzucili co mieli zrzucićmoże zjadą jeszcze po SL ale generalnie powinno to odbićpowyżej 8,40 dobieram Lto jest moja prywatna opinia, nie rekomendacja",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75525445",
+      "author": "Magellan",
+      "postedAt": "2026-08-23 15:42",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "uważam, że w piątek była sesja odwrotujankesi po 15",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75525405",
+      "author": "Blackie",
+      "postedAt": "2026-08-23 15:32",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "Wyprzedanie, rsi blisko 30, wsparcie 8,20, stochastic ponizej 20, ale jednak trend spadkowy na te chwile (macd). Kreski, kreskami, ale co w kosciach czujesz? W piatek bylo blisko twojej prognozy, na mbank tez sledze twoje wpisy. Co ci nos podpowiada?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75525345",
+      "author": "Magellan",
+      "postedAt": "2026-08-23 15:12",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "coż ci mam powiedziećhttps://zapodaj.net/plik-hF8enLCMrkhttps://zapodaj.net/plik-Eko2ogtyg0co ci mówią wskaźniki :D ??:)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75525315",
+      "author": "Blackie",
+      "postedAt": "2026-08-23 14:59",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "Dokladnie. To taki gimbaziak, ktoremu wydaje sie, ze cos wie, ze jak nie ma akcji, to pisaniem na forum wycisnie te swoje pryszcze kompleksow. Co myslisz Magellan o jutrze?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75525245",
+      "author": "Magellan",
+      "postedAt": "2026-08-23 14:44",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "lubie takie wpisy, wtedy wiem, że dobrze kupiłemjeszcze brakuje reko na 0 i słowa bankrut",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75524949",
+      "author": "Blackie",
+      "postedAt": "2026-08-23 13:16",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "Gaudi to taki dauun tego forum. Szkoda z nim pisac. Terrapie musi gdzie indziej przejsc.",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75524755",
+      "author": "eldealeros",
+      "postedAt": "2026-08-23 12:22",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "\"Nie widać żadnych powodów do wzrostu\"... Szczególnie nie widzą ci, którzy kupili w piątek papiery za 70 mln hehe. Łoren... ty nie widzisz powodów do wzrostów od poziomu 7 zł od kiedy hejtujesz ten papier. W międzyczasie papier dotarł do 11.92. A ty nadl na peronie.... Wiem... Czekasz na 2 zł. Nie przypal się od słońca na peronie.",
+      "votes": {
+        "up": 7,
+        "down": 1
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75524609",
+      "author": "Gaudi",
+      "postedAt": "2026-08-23 11:52",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "Nie widać żadnych powodów do wzrostu. Chyba ostatnia szansa by ci którzy kupowali dawno temu ponizej 4 złotych realizowali zysk ponad 100 procentowy.",
+      "votes": {
+        "up": 2,
+        "down": 6
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75524523",
+      "author": "Www123",
+      "postedAt": "2026-08-23 11:34",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "I moze znawcy z trigon, erste, boś cos na temat swoich reko vs kurs napisza?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75524413",
+      "author": "Www123",
+      "postedAt": "2026-08-23 11:08",
+      "threadTitle": "Re: obiektywnie",
+      "url": "https://www.bankier.pl/forum/temat_obiektywnie,75518757.html",
+      "body": "Co przewidujecie na pon? 8,20 wytrzyma? Powinny byc szacunki lada moment. Odwrocone odpisy, zaledwie projekt ustawy o cit. Kurs nizej niz za walniecia trumpa w iran, a wtedy szybko wrocili pod 9. Kiedy to ruszy na wk chociaz? Ktos cos?",
+      "votes": {
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
