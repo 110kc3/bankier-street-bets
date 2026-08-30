@@ -3,11 +3,11 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-08-29T20:56:26.798Z",
+  "updatedAt": "2026-08-30T05:24:59.319Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-29T20:56:26.798Z",
+    "fetchedAt": "2026-08-30T05:24:59.319Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.172,
-    "confidence": 0.76,
-    "commentCount": 95,
+    "score": 0.152,
+    "confidence": 0.75,
+    "commentCount": 96,
     "breakdown": {
       "positive": 50,
-      "negative": 8,
+      "negative": 9,
       "neutral": 37
     },
     "trend": [
@@ -138,10 +138,15 @@
         "date": "2026-08-27",
         "score": -0.183,
         "count": 3
+      },
+      {
+        "date": "2026-08-29",
+        "score": -0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 95 komentarzy z ostatnich 30 dni: nastroje pozytywne (50 pozytywnych, 8 negatywnych, 37 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 96 komentarzy z ostatnich 30 dni: nastroje pozytywne (50 pozytywnych, 9 negatywnych, 37 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
@@ -187,6 +192,20 @@
   },
   "comments": [
     {
+      "id": "75597903",
+      "author": "Godoj",
+      "postedAt": "2026-08-29 23:42",
+      "threadTitle": "Re: ok zabieramy zator na 116 i jedziemy na 120",
+      "url": "https://www.bankier.pl/forum/temat_ok-zabieramy-zator-na-116-i-jedziemy-na-120,75559665.html",
+      "body": "Papier tak już napompowany, że lada chwila poleci solidniej. Na razie obronili, spróbują wrócić na ATH, ale po nadbiciu jazda w dół...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75577063",
       "author": "Lo21",
       "postedAt": "2026-08-27 18:40",
@@ -194,7 +213,7 @@
       "url": "https://www.bankier.pl/forum/temat_ok-zabieramy-zator-na-116-i-jedziemy-na-120,75559665.html",
       "body": "Kolego nie sprawdzi się.Może być poniżej 111.Jeśli coś wywali się przez weekend to jedziemy na 108-106.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": -0.87,
@@ -251,7 +270,7 @@
       "body": "tak jak pisałem , w piątek na zamknięciu witamy 120",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
