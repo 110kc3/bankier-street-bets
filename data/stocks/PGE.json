@@ -3,11 +3,11 @@
   "companyName": "PGE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PGE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pge-sa,6,21,10000000641.html",
-  "updatedAt": "2026-08-30T16:41:43.176Z",
+  "updatedAt": "2026-08-30T21:05:27.647Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-30T16:41:43.176Z",
+    "fetchedAt": "2026-08-30T21:05:27.647Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.071,
-    "confidence": 0.72,
-    "commentCount": 101,
+    "score": 0.073,
+    "confidence": 0.73,
+    "commentCount": 100,
     "breakdown": {
       "positive": 24,
-      "negative": 12,
+      "negative": 11,
       "neutral": 65
     },
     "trend": [
       {
         "date": "2026-08-23",
-        "score": 0,
-        "count": 2
+        "score": 0.583,
+        "count": 1
       },
       {
         "date": "2026-08-24",
@@ -66,7 +66,7 @@
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 101 komentarzy z ostatnich 7 dni: nastroje mieszane (24 pozytywnych, 12 negatywnych, 65 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 100 komentarzy z ostatnich 7 dni: nastroje mieszane (24 pozytywnych, 11 negatywnych, 65 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "czarny",
@@ -81,12 +81,12 @@
         "count": 9
       },
       {
-        "word": "znowu",
+        "word": "panie",
         "count": 7
       },
       {
-        "word": "panie",
-        "count": 7
+        "word": "znowu",
+        "count": 6
       },
       {
         "word": "temu",
@@ -119,7 +119,7 @@
       "url": "https://www.bankier.pl/forum/temat_10-3-10-4-tu-odkupuje,75562101.html",
       "body": "Brawo Czarny i bardzo dobrze, że wychwytujesz tutaj tych wszystkich niełuków, to pewnie podstawówki nawet nie skończyli",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -133,7 +133,7 @@
       "url": "https://www.bankier.pl/forum/temat_10-3-10-4-tu-odkupuje,75562101.html",
       "body": "Napisal czarny, co podnosil kurs do gory, a opuszczal na dol. I stawial sl w dzien wolny od gpw.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -147,7 +147,7 @@
       "url": "https://www.bankier.pl/forum/temat_10-3-10-4-tu-odkupuje,75562101.html",
       "body": "> takie mam wyłuczone zasady .------------------------------ wracaj do łuczenia się aby się bardziej dołuczyć . . . :)))))))))))))))))))))))))))))))",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -399,7 +399,7 @@
       "url": "https://www.bankier.pl/forum/temat_10-3-10-4-tu-odkupuje,75562101.html",
       "body": "2 dni temu mogles kupic po 10,16. Odkupic to moze bilet na widzew od fumio. Miejsce stojace.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 3
       },
       "sentimentScore": 0,
@@ -1510,20 +1510,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75526441",
-      "author": "Mqrk",
-      "postedAt": "2026-08-23 19:43",
-      "threadTitle": "Re: klamstwo . . .",
-      "url": "https://www.bankier.pl/forum/temat_xd-znowu-w-amoku,75330991.html",
-      "body": "W przyszlym roku bedzie po 5pln znowu jak jebnie wallstreet",
-      "votes": {
-        "up": 1,
-        "down": 4
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }
