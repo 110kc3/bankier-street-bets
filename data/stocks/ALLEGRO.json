@@ -3,23 +3,23 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-08-30T05:22:51.153Z",
+  "updatedAt": "2026-08-30T11:53:29.406Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-30T05:22:51.153Z",
+    "fetchedAt": "2026-08-30T11:53:29.406Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 13
+    "threadsScanned": 14
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.041,
+    "score": -0.021,
     "confidence": 0.71,
-    "commentCount": 63,
+    "commentCount": 64,
     "breakdown": {
-      "positive": 18,
+      "positive": 19,
       "negative": 25,
       "neutral": 20
     },
@@ -48,10 +48,15 @@
         "date": "2026-08-28",
         "score": -0.035,
         "count": 17
+      },
+      {
+        "date": "2026-08-30",
+        "score": 0.583,
+        "count": 1
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 63 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 25 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 64 komentarzy z ostatnich 7 dni: nastroje mieszane (19 pozytywnych, 25 negatywnych, 20 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "szorty",
@@ -62,12 +67,12 @@
         "count": 10
       },
       {
-        "word": "czyta",
+        "word": "allegro",
         "count": 8
       },
       {
-        "word": "allegro",
-        "count": 7
+        "word": "czyta",
+        "count": 8
       },
       {
         "word": "depozyty",
@@ -97,6 +102,20 @@
   },
   "comments": [
     {
+      "id": "75599879",
+      "author": "All",
+      "postedAt": "2026-08-30 13:21",
+      "threadTitle": "Potencjalna luka w systemie prowizji - Allegro Charytatywnie",
+      "url": "https://www.bankier.pl/forum/temat_potencjalna-luka-w-systemie-prowizji-allegro-charytatywnie,75599879.html",
+      "body": "Na zamkniętych grupach sprzedawców Allegro na Facebooku pojawiają się dyskusje dotyczące wykorzystywania ofert charytatywnych przez część firm. Według relacji sprzedawców mechanizm ma polegać na prowadzeniu sprzedaży za pośrednictwem fundacji w ramach Allegro Charytatywni, co może pozwalać na ograniczenie lub uniknięcie standardowych prowizji pobieranych przez platformę.Jeżeli skala tego zjawiska jest istotna, potencjalny ubytek przychodów Allegro z tytułu prowizji mógłby być znaczący. Przy bardzo zgrubnych szacunkach można mówić nawet o kwotach rzędu kilkudziesięciu milionów złotych, choć bez dostępu do danych dotyczących wartości takich transakcji trudno ten wpływ wiarygodnie oszacować.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "75592023",
       "author": "Weq",
       "postedAt": "2026-08-28 22:52",
@@ -118,7 +137,7 @@
       "url": "https://www.bankier.pl/forum/temat_qube-znowu-sie-skraca,75591829.html",
       "body": "Na dziś to 1,19%",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
