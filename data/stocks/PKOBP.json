@@ -1,33 +1,33 @@
 {
   "symbol": "PKOBP",
-  "companyName": "Powszechna Kasa Oszczędności Bank Polski Spółka Akcyjna",
+  "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_powszechna-kasa-oszczednosci-bank-polski-spolka-akcyjna,6,21,10000000062.html",
-  "updatedAt": "2026-08-30T11:55:38.368Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
+  "updatedAt": "2026-08-30T16:41:57.963Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-08-30T11:55:38.368Z",
+    "fetchedAt": "2026-08-30T16:41:57.963Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
     "threadsScanned": 31
   },
   "analysis": {
-    "signal": "BUY",
-    "score": 0.153,
+    "signal": "HOLD",
+    "score": 0.145,
     "confidence": 0.75,
-    "commentCount": 93,
+    "commentCount": 92,
     "breakdown": {
-      "positive": 49,
+      "positive": 47,
       "negative": 9,
-      "neutral": 35
+      "neutral": 36
     },
     "trend": [
       {
         "date": "2026-07-31",
-        "score": 0.651,
-        "count": 3
+        "score": 0.87,
+        "count": 1
       },
       {
         "date": "2026-08-01",
@@ -143,18 +143,19 @@
         "date": "2026-08-29",
         "score": -0.322,
         "count": 1
+      },
+      {
+        "date": "2026-08-30",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 93 komentarzy z ostatnich 30 dni: nastroje pozytywne (49 pozytywnych, 9 negatywnych, 35 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 92 komentarzy z ostatnich 30 dni: nastroje pozytywne (47 pozytywnych, 9 negatywnych, 36 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
         "count": 7
-      },
-      {
-        "word": "dywidende",
-        "count": 6
       },
       {
         "word": "dywidendy",
@@ -173,24 +174,42 @@
         "count": 5
       },
       {
-        "word": "zakupu",
-        "count": 5
-      },
-      {
         "word": "jedziemy",
         "count": 4
       },
       {
-        "word": "dzis",
+        "word": "zysk",
         "count": 4
       },
       {
-        "word": "masz",
+        "word": "kilka",
+        "count": 4
+      },
+      {
+        "word": "dywidenda",
+        "count": 4
+      },
+      {
+        "word": "dywidende",
         "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75601229",
+      "author": "Lunatyk",
+      "postedAt": "2026-08-30 17:41",
+      "threadTitle": "Re: ok zabieramy zator na 116 i jedziemy na 120",
+      "url": "https://www.bankier.pl/forum/temat_ok-zabieramy-zator-na-116-i-jedziemy-na-120,75559665.html",
+      "body": "Tak baranie tak",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75597903",
       "author": "Godoj",
@@ -1463,34 +1482,6 @@
         "down": 0
       },
       "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75302043",
-      "author": "mabmab",
-      "postedAt": "2026-07-31 15:58",
-      "threadTitle": "Re: Dobry ruch",
-      "url": "https://www.bankier.pl/forum/temat_dobry-ruch,75291269.html",
-      "body": "dywidende po podatku Belki",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75301775",
-      "author": "mabmab",
-      "postedAt": "2026-07-31 15:37",
-      "threadTitle": "Re: Dobry ruch",
-      "url": "https://www.bankier.pl/forum/temat_dobry-ruch,75291269.html",
-      "body": "To teraz zrob prosta kalkulacje. Od ceny zakupu odejmij 6.14 zl ×0.19 czyli podatek Belki. Krok 2 od kursu w dniu odciecia odejmij 6.14 zl . Zakladajac ze bedzie to 112 zl w dniu odciecia masz 105.86 zl....dzis kupiles za ponad 112 zl....do odrobienia masz dokladnie dywidende . I jak nadal taki zadowolony? Sierpien i wrzesien to historycznie zle miesiace dla gieldy. No i jeszcze publikacja wynikow 20.08. A z tym moze byc nienajlepiej....",
-      "votes": {
-        "up": 2,
-        "down": 3
-      },
-      "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
     }
   ]
