@@ -3,11 +3,11 @@
   "companyName": "CD PROJEKT RED Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-red-spolka-akcyjna,6,21,353.html",
-  "updatedAt": "2026-09-01T05:06:35.381Z",
+  "updatedAt": "2026-09-01T11:38:21.602Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-01T05:06:35.381Z",
+    "fetchedAt": "2026-09-01T11:38:21.602Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.099,
-    "confidence": 0.73,
+    "score": 0.107,
+    "confidence": 0.74,
     "commentCount": 200,
     "breakdown": {
-      "positive": 69,
-      "negative": 35,
+      "positive": 70,
+      "negative": 34,
       "neutral": 96
     },
     "trend": [
       {
         "date": "2026-08-26",
-        "score": 0.107,
-        "count": 3
+        "score": 0.097,
+        "count": 6
       },
       {
         "date": "2026-08-27",
@@ -46,41 +46,38 @@
       },
       {
         "date": "2026-08-30",
-        "score": 0.273,
-        "count": 52
+        "score": 0.373,
+        "count": 38
       },
       {
         "date": "2026-08-31",
-        "score": 0.045,
-        "count": 117
+        "score": 0.04,
+        "count": 108
+      },
+      {
+        "date": "2026-09-01",
+        "score": 0.074,
+        "count": 20
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (69 pozytywnych, 35 negatywnych, 96 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje pozytywne (70 pozytywnych, 34 negatywnych, 96 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
-        "count": 17
+        "count": 18
+      },
+      {
+        "word": "projekt",
+        "count": 14
       },
       {
         "word": "premiery",
         "count": 14
       },
       {
-        "word": "projekt",
-        "count": 13
-      },
-      {
         "word": "wiedzmina",
         "count": 12
-      },
-      {
-        "word": "wiedzmin",
-        "count": 11
-      },
-      {
-        "word": "https",
-        "count": 11
       },
       {
         "word": "dobrze",
@@ -91,16 +88,304 @@
         "count": 10
       },
       {
-        "word": "redzi",
+        "word": "wiedzmin",
         "count": 10
       },
       {
-        "word": "imgur",
+        "word": "https",
+        "count": 10
+      },
+      {
+        "word": "premiera",
+        "count": 9
+      },
+      {
+        "word": "dodatku",
         "count": 9
       }
     ]
   },
   "comments": [
+    {
+      "id": "75622463",
+      "author": "Twój_podpis",
+      "postedAt": "2026-09-01 13:04",
+      "threadTitle": "Lepiej znać Ciri... większe wpływy ma",
+      "url": "https://www.bankier.pl/forum/temat_powiem-wam-tak,75621111.html",
+      "body": "Lepiej znać Ciri, większe wpływy ma",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75622457",
+      "author": "DaleCooper",
+      "postedAt": "2026-09-01 13:04",
+      "threadTitle": "Re: Zapowiedź nowego remastera do W3 wywołała ogromne zainteresowanie.",
+      "url": "https://www.bankier.pl/forum/temat_zapowiedz-nowego-remastera-do-w3-wywolala-ogromne-zainteresowanie,75621935.html",
+      "body": "Zobaczymy co jutro przy wynikach powie prezes. Może wspomni jak idzie sprzedaż Remastera",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75622139",
+      "author": "Zorro",
+      "postedAt": "2026-09-01 12:46",
+      "threadTitle": "Hmm jak tam oml?",
+      "url": "https://www.bankier.pl/forum/temat_hmm-jak-tam-oml,75622139.html",
+      "body": "Buhahaha. Lider giełdy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75621935",
+      "author": "Mariusz",
+      "postedAt": "2026-09-01 12:35",
+      "threadTitle": "Zapowiedź nowego remastera do W3 wywołała ogromne zainteresowanie.",
+      "url": "https://www.bankier.pl/forum/temat_zapowiedz-nowego-remastera-do-w3-wywolala-ogromne-zainteresowanie,75621935.html",
+      "body": "To jest cytat z AI.Jest to konkretnie podane, dlatego go przytoczę.\"Przed ogłoszeniem remastera globalna sprzedaż W3 wyniosła ponad 65 milionów egzemplarzy. Analitycy rynkowi (między innymi z Erste Group) prognozują że odświeżenie gry i wejście na nowe platformy (między innymi natywna wersja na Nintendo Switch2 oraz debiut w sklepie Battle. net.) pozwoli wywindować łączną sprzedaż gry do poziomu 70-75 milionów kopii przed premierą nowego DLC w 2027 roku.\"Napisałem tylko to, a poczytać o hype W3 i dodatku można wiele więcej.Giełda nie reaguje na remastera, a to jest dziwne bo 5-10 milionów kopi do 2027 to ogromna sprzedaż, jak bym tego nie przeczytał to bym tyle nie prognozował, ale ta prognoza jest od wielu analityków rynkowych i może tak być.To jest całkowicie niespodziewany impuls, mocno pro wzrostowy, sama prezentacja remastera była gwoździem pokazu na targach jako najważniejsze wydarzenie na sam koniec.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75621757",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-09-01 12:25",
+      "threadTitle": "Nagan czy ty masz na imię Kisinski?",
+      "url": "https://www.bankier.pl/forum/temat_nagan-czy-ty-masz-na-imie-kisinski,75621757.html",
+      "body": "Od ilu lat tutaj się kisisz ?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75621111",
+      "author": "Ajax",
+      "postedAt": "2026-09-01 11:49",
+      "threadTitle": "Powiem wam tak....",
+      "url": "https://www.bankier.pl/forum/temat_powiem-wam-tak,75621111.html",
+      "body": "Znam geralta...",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75620955",
+      "author": "Grucha",
+      "postedAt": "2026-09-01 11:41",
+      "threadTitle": "Ja mam czas. Szorty mają terminy",
+      "url": "https://www.bankier.pl/forum/temat_ja-mam-czas-szorty-maja-terminy,75620955.html",
+      "body": "Terminowe kontrakty. Jak będzie dobiegać termin to na wyścigi będą brać papier",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75620799",
+      "author": "janosik_wllstreet",
+      "postedAt": "2026-09-01 11:33",
+      "threadTitle": "Uwaga! Ustawiam duże zlecenie by zatrzymać te spadki !",
+      "url": "https://www.bankier.pl/forum/temat_uwaga-ustawiam-duze-zlecenie-by-zatrzymac-te-spadki,75620799.html",
+      "body": "tylko niebo jest tutaj granicom.",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75620787",
+      "author": "Zdzisław",
+      "postedAt": "2026-09-01 11:33",
+      "threadTitle": "Po wojnie Redzi bardzo urosnom!!!!!",
+      "url": "https://www.bankier.pl/forum/temat_po-wojnie-redzi-bardzo-urosnom,75620787.html",
+      "body": "Bo Polska na pewno wygra a wtedy wszystkie Polskie firmy bardzo urosnom!!!!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75620471",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-09-01 11:18",
+      "threadTitle": "Re: ALEŻ TO IDZIE",
+      "url": "https://www.bankier.pl/forum/temat_alez-to-idzie,75618669.html",
+      "body": "Kolego na 11.17 +0.04% jestem powarzny inwestor",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75620093",
+      "author": "2efx",
+      "postedAt": "2026-09-01 11:00",
+      "threadTitle": "Re: ALEŻ TO IDZIE",
+      "url": "https://www.bankier.pl/forum/temat_alez-to-idzie,75618669.html",
+      "body": "Wiesz ze bankier daje inny punkt odniesienia do kursu u inna godzinę a nie rzeczywistą? Aktualnie to my jesteśmymy -0,40% a nie + o 30% xD",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75619507",
+      "author": "jełopie",
+      "postedAt": "2026-09-01 10:30",
+      "threadTitle": "Re: nie jest źle, na przestrzeni 12 miesięcy tylko 50% gorsi od wig20",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle-na-przestrzeni-12-miesiecy-tylko-50-gorsi-od-wig20,75615719.html",
+      "body": "Przyjdzie czas gdy będziemy 300 % wyżej",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75618821",
+      "author": "Otaaaak",
+      "postedAt": "2026-09-01 10:00",
+      "threadTitle": "Re: nie jest źle, na przestrzeni 12 miesięcy tylko 50% gorsi od wig20",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle-na-przestrzeni-12-miesiecy-tylko-50-gorsi-od-wig20,75615719.html",
+      "body": "Spokojnie, już zaczynają ciągnąć.",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75618669",
+      "author": "Ggg",
+      "postedAt": "2026-09-01 09:55",
+      "threadTitle": "ALEŻ TO IDZIE",
+      "url": "https://www.bankier.pl/forum/temat_alez-to-idzie,75618669.html",
+      "body": "WIG20 na minusie a my +0.30%. Dla takich momentów warto mieć akcje tej spółki!!!",
+      "votes": {
+        "up": 6,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75618653",
+      "author": "Zenon",
+      "postedAt": "2026-09-01 09:54",
+      "threadTitle": "Re: nie jest źle, na przestrzeni 12 miesięcy tylko 50% gorsi od wig20",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle-na-przestrzeni-12-miesiecy-tylko-50-gorsi-od-wig20,75615719.html",
+      "body": "Za dwa lata, albo sześć",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75617809",
+      "author": "Art",
+      "postedAt": "2026-09-01 09:17",
+      "threadTitle": "Re: nie jest źle, na przestrzeni 12 miesięcy tylko 50% gorsi od wig20",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle-na-przestrzeni-12-miesiecy-tylko-50-gorsi-od-wig20,75615719.html",
+      "body": "A po co jak będzie 400, nie spieszy się",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75617167",
+      "author": "Zygfryd",
+      "postedAt": "2026-09-01 08:33",
+      "threadTitle": "Re: nie jest źle, na przestrzeni 12 miesięcy tylko 50% gorsi od wig20",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle-na-przestrzeni-12-miesiecy-tylko-50-gorsi-od-wig20,75615719.html",
+      "body": "Nie sprzedałem, poszedłem tutaj na forum a tu pisali marzyciele ile to niby będzie, także górka przegapiona",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75617153",
+      "author": "Gracz",
+      "postedAt": "2026-09-01 08:32",
+      "threadTitle": "Re: nie jest źle, na przestrzeni 12 miesięcy tylko 50% gorsi od wig20",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle-na-przestrzeni-12-miesiecy-tylko-50-gorsi-od-wig20,75615719.html",
+      "body": "I nie sprzedaliście po 290? No geniusze giełdy po prostu.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75616965",
+      "author": "Art",
+      "postedAt": "2026-09-01 08:13",
+      "threadTitle": "Re: nie jest źle, na przestrzeni 12 miesięcy tylko 50% gorsi od wig20",
+      "url": "https://www.bankier.pl/forum/temat_nie-jest-zle-na-przestrzeni-12-miesiecy-tylko-50-gorsi-od-wig20,75615719.html",
+      "body": "Większość ma średnia 120-150 kolego kochany",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75616867",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-09-01 08:02",
+      "threadTitle": "Uwaga na spadzi bo znuw się podszywajom pod kogoś co ja nim jestem!!!",
+      "url": "https://www.bankier.pl/forum/temat_uwaga-na-spadzi-bo-znuw-sie-podszywajom-pod-kogos-co-ja-nim-jestem,75616867.html",
+      "body": "A to nie jestem ja.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75615719",
       "author": "Hmm",
@@ -109,7 +394,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-jest-zle-na-przestrzeni-12-miesiecy-tylko-50-gorsi-od-wig20,75615719.html",
       "body": "na spokojnie, to się rozkręci :D:Dhttps://i.imgur.com/fx0ulmA.png",
       "votes": {
-        "up": 2,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -123,7 +408,7 @@
       "url": "https://www.bankier.pl/forum/temat_aleto-beda-piekne-2-lata,75592329.html",
       "body": "W grudniu są święta i to jest pewne",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -137,7 +422,7 @@
       "url": "https://www.bankier.pl/forum/temat_aleto-beda-piekne-2-lata,75592329.html",
       "body": "Skończcie wreszcie już fantazjować, wzrosty już były, kto przegapił no coż hmm peszek",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 3
       },
       "sentimentScore": 0.322,
@@ -151,8 +436,8 @@
       "url": "https://www.bankier.pl/forum/temat_mam-nadzieje-ze-to-po-wynikach-nie-jebnie,75615113.html",
       "body": "dwiesta musi wkońcu pęknąć !!!",
       "votes": {
-        "up": 0,
-        "down": 2
+        "up": 2,
+        "down": 3
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -166,7 +451,7 @@
       "body": "też się nie mogę doczekać game awards w grudniu !! i tego jak w ten grudniowy tydzień akcje spadną 10% !!!!",
       "votes": {
         "up": 3,
-        "down": 2
+        "down": 6
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -179,7 +464,7 @@
       "url": "https://www.bankier.pl/forum/temat_zart-o-cdr,75614157.html",
       "body": "Tak nic nie wyciekło że od dawna sporo ludzi w branży wiedziało że CDPR szykuje dodatek a tylko Borys z Rockiem odważyli się o tym powiedzieć.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -207,24 +492,10 @@
       "url": "https://www.bankier.pl/forum/temat_zapowiedz-wiedzmin-remaster-wplynie-dodatnio-na-finanse-redow,75615297.html",
       "body": "Zapowiedź gry Wiedźmin 3: Dziki Gon – Remaster oraz nowego płatnego dodatku Pieśni przeszłości podczas targów Gamescom w sierpniu 2026 roku wywołała ogromne poruszenie na rynku. Strategia finansowa Redów w tym przypadku jest genialnie przemyślana i wpłynie na finanse firmy oraz samej gry w kilku podstawowych obszarach: 1. Podniesienie ceny bazowej (Szybki wzrost przychodów)Choć sam Remaster (zaplanowany na 29 września 2026 roku) będzie darmową aktualizacją dla obecnych posiadaczy gry, CD PROJEKT RED tuż po zapowiedzi po cichu podniósł standardową cenę wersji Complete Edition na Steam z 39,99 USD do 49,99 USD.Dlaczego to działa? Gracze, którzy jeszcze nie mają Wiedźmina, spieszą się z zakupem przed premierą odświeżenia, generując natychmiastowy skok przychodów. Wyższa cena bazowa oznacza też, że przyszłe promocje (np. -75%) będą naliczane od wyższej kwoty.Gracze na całym świecie ruszyli do masowego wykupywania fizycznych wydań gry. Powodem tego zjawiska są oficjalne zapowiedzi CD Projektu, które wywołały ogromną falę nostalgii oraz chęć zabezpieczenia fizycznych nośników.2. Drastyczne powiększenie bazy graczy (\"Installed Base\")Analitycy rynkowi (m.in. z Erste Group) prognozują, że darmowy upgrade oraz dołączenie starych dodatków (Serca z Kamienia oraz Krew i Wino) za darmo do podstawowej wersji gry, przyciągnie miliony nowych użytkowników. Szacuje się, że całkowita sprzedaż Wiedźmina 3 wzrośnie z obecnych 65 milionów do nawet 70–75 milionów egzemplarzy przed premierą nowego DLC.3. Zwiększenie przychodów w IV kwartale 2026 r.Wejście gry na nowe platformy, w tym dedykowane wydanie na Nintendo Switch 2 oraz pecetowy Battle.net (efekt współpracy CDPR z Blizzardem), otworzy całkowicie nowe źródła gotówki od graczy, którzy kupią grę ponownie dla lepszej grafiki czy nowej platformy. Zapewni to firmie potężny zastrzyk finansowy na koniec roku, który może pozwoli nawet zrealizować cele pakietu motywacyjnego?4. Budowanie gruntu pod płatne DLC w 2027 rokuRemaster i darmowe pakiety to tzw. loss leader – produkt mający przyciągnąć uwagę. Prawdziwą bombą finansową będą zapowiedziane na 2027 rok Pieśni przeszłości. To nowe, pełnoprawne, płatne rozszerzenie fabularne. Dzięki zremasterowaniu gry w 2026 roku, CD PROJEKT stworzy bazę kilkudziesięciu milionów aktywnych graczy, z których ogromna część bez wahania kupi nowy dodatek w dniu premiery, generując czysty zysk przy relatywnie niskich kosztach produkcji (gra korzysta z gotowego już silnika i assetów).Podsumowując: Zapowiedź ta zamienia 11-letni, uśpiony hit w nowoczesną machinę do zarabiania pieniędzy, która zabezpieczy budżet studia przed premierami Wiedźmina 4 i Cyberpunka 2.",
       "votes": {
-        "up": 3,
-        "down": 0
+        "up": 6,
+        "down": 1
       },
       "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75615293",
-      "author": "Jebak",
-      "postedAt": "2026-08-31 21:53",
-      "threadTitle": "Re: Mam nadzieje, że to po wynikach nie jebnie!!!!",
-      "url": "https://www.bankier.pl/forum/temat_mam-nadzieje-ze-to-po-wynikach-nie-jebnie,75615113.html",
-      "body": "Jebnie to jebnie",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
     },
     {
@@ -235,8 +506,8 @@
       "url": "https://www.bankier.pl/forum/temat_mam-nadzieje-ze-to-po-wynikach-nie-jebnie,75615113.html",
       "body": "Bo kiedyś była taka tradycja, że Redzi po dobrych wynikach spadali. I starzy akcjonariusze to pamientajom. Ale teraz już długo chłodzom papier to liczę że to nie jebnie w duł tym razem.",
       "votes": {
-        "up": 2,
-        "down": 1
+        "up": 5,
+        "down": 3
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -305,7 +576,7 @@
       "url": "https://www.bankier.pl/forum/temat_zart-o-cdr,75614157.html",
       "body": "Wiecie dlaczego Redzi są taką dobrą spółką? bo z niej to nic nie wycieka... nie to co TTWO i GTA VI. U nas jak pojawia się info to zwala z nóg. Tylko CDR potrafi przesunąć premierę gry nie ogłaszając wcześniej jej daty. CDR to taki nasz rodzimy Chuck Norris. A tak na poważnie (bo jestem bullish). Redzi potrafią zakoczyć, przecież remaster jest zaskoczeniem. DLC do W3 też poniekąd. Jeszcze nie raz nas zaskoczą.",
       "votes": {
-        "up": 7,
+        "up": 9,
         "down": 1
       },
       "sentimentScore": 0,
@@ -340,20 +611,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75613727",
-      "author": "meoowu77",
-      "postedAt": "2026-08-31 18:49",
-      "threadTitle": "Re: ❤️ CD Projekt jest bezsporną gwiazdą Gamescomu.❗️",
-      "url": "https://www.bankier.pl/forum/temat_cd-projekt-jest-bezsporna-gwiazda-gamescomu,75562745.html",
-      "body": "Analizując polskie dyskusje o kasynach online, zauważyłem, że gracze coraz częściej podkreślają znaczenie przejrzystości i prostoty w obsłudze platformy. Nie chodzi tylko o efektowną grafikę czy liczbę gier, ale o to, jak intuicyjnie można poruszać się po stronie i jak jasno przedstawione są zasady. W wielu wątkach pojawia się kasyno na żywo Parimatch Black jako przykład miejsca, które oferuje realistyczne doświadczenia i profesjonalną obsługę.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75613647",
       "author": "Janusz_biznesu",
       "postedAt": "2026-08-31 18:43",
@@ -363,20 +620,6 @@
       "votes": {
         "up": 0,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75613569",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-08-31 18:35",
-      "threadTitle": "Re: CDR ukradł show❗❤️ Szał, owacje 5-tys widowni oraz 4-godzinne kolejk",
-      "url": "https://www.bankier.pl/forum/temat_cdr-ukradl-show-szal-owacje-5-tys-widowni-oraz-4-godzinne-kolejki,75591053.html",
-      "body": "Oni wtedy też skradli szoł bo to się nagrało!",
-      "votes": {
-        "up": 1,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -394,48 +637,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75613531",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-08-31 18:32",
-      "threadTitle": "Re: ❤️ CD Projekt jest bezsporną gwiazdą Gamescomu.❗️",
-      "url": "https://www.bankier.pl/forum/temat_cd-projekt-jest-bezsporna-gwiazda-gamescomu,75562745.html",
-      "body": "Nie ma lepszej Spułki jak Redzi!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75613529",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-08-31 18:32",
-      "threadTitle": "Re: CDR ukradł show❗❤️ Szał, owacje 5-tys widowni oraz 4-godzinne kolejk",
-      "url": "https://www.bankier.pl/forum/temat_cdr-ukradl-show-szal-owacje-5-tys-widowni-oraz-4-godzinne-kolejki,75591053.html",
-      "body": "Mi kiedyś dziewczyna z kolegom klaskali na golasa z pokoju jak wruciłem z jagud że tak dużo uzbierałem. Ale tak długo nie klaskali jak Redom. Ledwie 2 minuty!",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75613539",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-08-31 18:32",
-      "threadTitle": "Re: ❤️ CD Projekt jednym ze studiów mających szacunek dla swoich fanów⁉️",
-      "url": "https://www.bankier.pl/forum/temat_cd-projekt-jednym-ze-studiow-majacych-szacunek-dla-swoich-fanow,75564299.html",
-      "body": "Czekam jutro na wyszczał po tej informacji!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75613513",
@@ -460,7 +661,7 @@
       "body": "Tak mi się zdaje ale mogę się mylić. [to są moje przeczucia, nie porada inwestycyjna*]",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -472,34 +673,6 @@
       "threadTitle": "Re: ❤️ Aż osiem potęg z TOP 10 indeksu NASDAQ ściśle współpracuje z Reda",
       "url": "https://www.bankier.pl/forum/temat_az-osiem-poteg-z-top-10-indeksu-nasdaq-scisle-wspolpracuje-z-redami,75309399.html",
       "body": "Kocham informacje od Nagana bo som zawsze pozytywne. On jest pozytywny chłopak i za to go kocham.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75613497",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-08-31 18:30",
-      "threadTitle": "Re: ‼️❤️ Kalendarium wydarzeń o potencjale wzrostowym na CD Projekt‼️",
-      "url": "https://www.bankier.pl/forum/temat_kalendarium-wydarzen-o-potencjale-wzrostowym-na-cd-projekt,75600873.html",
-      "body": "Kocham te informacje i one mnie podbudowujom.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75613493",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-08-31 18:29",
-      "threadTitle": "Re: ❤️ CD Projekt otrzymał kilka nagród na targach Gamescom❗️",
-      "url": "https://www.bankier.pl/forum/temat_cd-projekt-otrzymal-kilka-nagrod-na-targach-gamescom,75612023.html",
-      "body": "Kocham Reduw I Nagana!!!",
       "votes": {
         "up": 1,
         "down": 0
@@ -711,11 +884,25 @@
       "url": "https://www.bankier.pl/forum/temat_az-osiem-poteg-z-top-10-indeksu-nasdaq-scisle-wspolpracuje-z-redami,75309399.html",
       "body": "super !!! dzięki tym współpracom jesteśmy najlepszą spółką na gpw który codziennie wybija swoje ath !!",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75612087",
+      "author": "Nowy",
+      "postedAt": "2026-08-31 17:03",
+      "threadTitle": "obrót na fixingu większy niż przez cały dzień do 16;50",
+      "url": "https://www.bankier.pl/forum/temat_obrot-na-fixingu-wiekszy-niz-przez-caly-dzien-do-16-50,75612087.html",
+      "body": "szorty?",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "75612095",
@@ -744,20 +931,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75612087",
-      "author": "Nowy",
-      "postedAt": "2026-08-31 17:03",
-      "threadTitle": "obrót na fixingu większy niż przez cały dzień do 16;50",
-      "url": "https://www.bankier.pl/forum/temat_obrot-na-fixingu-wiekszy-niz-przez-caly-dzien-do-16-50,75612087.html",
-      "body": "szorty?",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75612023",
@@ -1684,20 +1857,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75603049",
-      "author": "Aro",
-      "postedAt": "2026-08-31 05:12",
-      "threadTitle": "Demo dodatku Pieśni Przeszłości już jest na YT !",
-      "url": "https://www.bankier.pl/forum/temat_demo-dodatku-piesni-przeszlosci-juz-jest-na-yt,75603049.html",
-      "body": "https://www.gry-online.pl/newsroom/12-minut-z-geraltem-w-letten-rozgrywka-z-dodatku-wiedzmin-3-piesn/z5319bf",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75603043",
       "author": "Pazdziernik",
       "postedAt": "2026-08-31 05:01",
@@ -1796,20 +1955,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75602327",
-      "author": "lol",
-      "postedAt": "2026-08-30 21:57",
-      "threadTitle": "Re: Na którym miejscu wiedzmin na steam?",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "Niestety, z szukaniem w \"Playstory\" raczej nikt poza tobą sobie nie poradzi, nasz ty znawco. Jeszcze może coś znajdziesz w Playmobil. Trzymam kciuki... Buahaha.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75602317",
       "author": "lol",
       "postedAt": "2026-08-30 21:53",
@@ -1864,48 +2009,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75602107",
-      "author": "Fnd",
-      "postedAt": "2026-08-30 21:01",
-      "threadTitle": "Re: Wyniki",
-      "url": "https://www.bankier.pl/forum/temat_wyniki,75602027.html",
-      "body": "Nie ma znaczenia czy dobre czy zle, huy wie jak bedzie.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75602073",
-      "author": "Spadziożerca",
-      "postedAt": "2026-08-30 20:55",
-      "threadTitle": "Re: Wyniki",
-      "url": "https://www.bankier.pl/forum/temat_wyniki,75602027.html",
-      "body": "Tym razem na odwrót",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75602027",
-      "author": "Gładź_spadziowa",
-      "postedAt": "2026-08-30 20:48",
-      "threadTitle": "Wyniki",
-      "url": "https://www.bankier.pl/forum/temat_wyniki,75602027.html",
-      "body": "Jak nastroje przed wynikami. Będą spadki?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75601979",
@@ -2118,62 +2221,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75600727",
-      "author": "Mikołaj",
-      "postedAt": "2026-08-30 15:49",
-      "threadTitle": "Re: Na którym miejscu wiedzmin na steam?",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "Czytaj ze zrozumieniem, pisałem o PS4 w Playstory PlayStation w kategorii bestselling w pełnej cenie w zasadzie większość krajów ścisły TOP m.in. USA, Niemcy, Francja, Polska itd. Może lol poradzisz sobie z wyszukaniem tych danych w Playstory powodzenia, bo na Steam widzę, że umiesz, albo ktoś ci powiedział, trzymam kciuki...",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75600703",
-      "author": "nagan",
-      "postedAt": "2026-08-30 15:46",
-      "threadTitle": "❤️ A na którym miejscu byś chciała - blondynko❗️ xD",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "> Jest juz w pierwszej setce? BuhahahaDroga loluJak zwykle popisałaś się kolejną dawką ignorancji..!Mówimy o tytule wydanym ponad dekadę temu! Fakt, że gra z 2015 roku zarabia codziennie przynajmniej kilkadziesiąt tysięcy dolarów w \"martwym\" dla siebie okresie marketingowym - stanowi ewenement w branży i taki sukces jest „marzeniem ściętej głowy\" każdego wydawcy.Pozycja tylko na przełomie pierwszej i drugiej setki globalnych bestsellerów Steam - oznacza, że gra generuje około 40 000 – 60 000 dolarów przychodu dziennie (to nawet ćwierć miliona PLN DZIENNIE!! za tzw damski ch..!) na samej platformie Steam. A gra jest obecnie (pozycja ruchoma) w pierwszej 50-tce..!Z tego co widać.. Ostro są wyprzedawane edycje fizyczne (np w Polsce są one już niemal niedostępne)..! A na konsole https://i.imgur.com/vAeGWze.pngAktualnie gra jest (w pewnym sensie) w „pełnej cenie\".. Ale gdy tylko Steam uruchamia festiwal zniżek i cena wersji Complete Edition spada o ca 60-70% - gra błyskawicznie wraca w okolice 7–20 miejsca w TOP30. Wtedy jej dzienne przychody potrafią wzrosnąć nawet ponad 10-krotnie.",
-      "votes": {
-        "up": 10,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75600419",
-      "author": "lol",
-      "postedAt": "2026-08-30 14:52",
-      "threadTitle": "Re: Na którym miejscu wiedzmin na steam?",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "Na Steam poza pierwszą setką. Dziwne to \"odrodzenie\".",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75600313",
-      "author": "Mikołaj",
-      "postedAt": "2026-08-30 14:32",
-      "threadTitle": "Re: Na którym miejscu wiedzmin na steam?",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "Wpis jw. dotyczy sprzedaży na PS5, bo na PS4 w sklepie PlayStation Playstory w USA w kategorii \"bestselling\" jest na poz. 7 za cenę 49,99$ ! Niestety sprzedaż dla każdego kraju trzeba filtrować... więc po Gamescom W3 przeżywa prawdziwe odrodzenie!",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75600231",
       "author": "Ste",
       "postedAt": "2026-08-30 14:21",
@@ -2200,20 +2247,6 @@
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75600225",
-      "author": "Mikołaj",
-      "postedAt": "2026-08-30 14:19",
-      "threadTitle": "Re: Na którym miejscu wiedzmin na steam?",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "Ja mam za cenę ok 30 zł, a podstawa były najtaniej chyba po 9,99zl ... To też pluniecie w twarz - nie - po prostu trafilem na promocję i kupiłem. Poza tym kalendarz wyprzedaży na Steam jest ogolno dostępny w sieci i naprawdę gry można kupić o wiele taniej, tylko trzeba poszukać, wiele osób tak kupuje gry na wyprzedażach! Na marginesie w PlayStation Playstory USA masz W3 za 49,99$ i aktualnie okolice gra jest na poz. ok. 110 w kategorii bestselling a były okolice poz. 300, więc jakiś ruch do przodu jest.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75600195",
@@ -2244,48 +2277,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75600135",
-      "author": "lll",
-      "postedAt": "2026-08-30 14:04",
-      "threadTitle": "Re: Na którym miejscu wiedzmin na steam?",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "Tak wiem, ale trochę plunięcie w twarz ludziom którzy kupili 2x drożej przez te ostatnie kilka dni.",
-      "votes": {
-        "up": 2,
-        "down": 4
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75600039",
-      "author": "Phealot",
-      "postedAt": "2026-08-30 13:51",
-      "threadTitle": "Re: Na którym miejscu wiedzmin na steam?",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "Na Gog nie płacą olbrzymiej prowizji jak ma Steam, więc mogą sobie pozwolić na niższą cenę",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75599957",
-      "author": "lll",
-      "postedAt": "2026-08-30 13:33",
-      "threadTitle": "Re: Na którym miejscu wiedzmin na steam?",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "o kurde, szybko polecieli z przeceną xd tego sie nie spodziewałem",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75599839",
       "author": "mabmab",
       "postedAt": "2026-08-30 13:13",
@@ -2298,20 +2289,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75599829",
-      "author": "Mikołaj",
-      "postedAt": "2026-08-30 13:11",
-      "threadTitle": "Re: Na którym miejscu wiedzmin na steam?",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "Kup sobie na GOG masz Witcher 3 Complet w promocji za 74,99 zł, więc po co przepłacać...",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75599763",
@@ -2340,20 +2317,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75599561",
-      "author": "Lolo",
-      "postedAt": "2026-08-30 12:23",
-      "threadTitle": "Na którym miejscu wiedzmin na steam?",
-      "url": "https://www.bankier.pl/forum/temat_na-ktorym-miejscu-wiedzmin-na-steam,75599561.html",
-      "body": "Jest juz w pierwszej setce? Buhahaha",
-      "votes": {
-        "up": 1,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75599417",
@@ -2475,7 +2438,7 @@
       "url": "https://www.bankier.pl/forum/temat_czego-redzi-nie-dotkna-to-sukces-i-hype,75595279.html",
       "body": "A kolejnym wielkim sukcesem był Gwint, tak wielkim że postanowili zamknąć projekt bo świat by stanął, ludzie nic by nie robili tylko grali w Gwinta.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 3
       },
       "sentimentScore": 0.583,
@@ -2489,8 +2452,8 @@
       "url": "https://www.bankier.pl/forum/temat_aleto-beda-piekne-2-lata,75592329.html",
       "body": "Jeszcze pare razy zabuja. Na jesieni raz, potem po premierze DLC, potem pompa bo pokazy w4, wakacje znowu dołek, potem dołki coraz mniej znaczące. Idzie zarobić jeszcze na bujaniu ale ogolnie na W4 4 stówki tutaj pękną, skoro wczesniej pekaly 3, a to w dwa lata przepiękny zysk.",
       "votes": {
-        "up": 12,
-        "down": 1
+        "up": 13,
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -2629,7 +2592,7 @@
       "url": "https://www.bankier.pl/forum/temat_aleto-beda-piekne-2-lata,75592329.html",
       "body": "No chyba że przyjdzie bessa, to bedą dwa lata płaczu i zgrzytania zębów",
       "votes": {
-        "up": 4,
+        "up": 6,
         "down": 17
       },
       "sentimentScore": -0.583,
@@ -2643,8 +2606,8 @@
       "url": "https://www.bankier.pl/forum/temat_aleto-beda-piekne-2-lata,75592329.html",
       "body": "To, jak robi to CDR…Ten marketing, zawsze zaskoczenie, zawsze coś niesamowitego…Już nie mogę się doczekać Gameawards w grudniu - wtedy podadzą dokładną datę.Będzie rosło teraz spokojnie, po 1/2%, ale to co się zadzieje w przyszłym roku…Trzymajcie się i do zobaczenia na nowych szczytach!",
       "votes": {
-        "up": 18,
-        "down": 5
+        "up": 21,
+        "down": 6
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -2897,6 +2860,48 @@
       "votes": {
         "up": 1,
         "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75564755",
+      "author": "JohnDoe",
+      "postedAt": "2026-08-26 20:57",
+      "threadTitle": "Re: ❤️ CD Projekt jednym ze studiów mających szacunek dla swoich",
+      "url": "https://www.bankier.pl/forum/temat_cd-projekt-jednym-ze-studiow-majacych-szacunek-dla-swoich-fanow,75564299.html",
+      "body": "CD Projekt jednym ze studiów mających szacunek dla swoich fanówO, tutaj świetny przykład tego szacunku:https://x.com/thewitcher/status/2090086615792115783",
+      "votes": {
+        "up": 2,
+        "down": 4
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75564739",
+      "author": "nagan",
+      "postedAt": "2026-08-26 20:54",
+      "threadTitle": "Re: ❤️ CD Projekt jednym ze studiów mających szacunek dla swoich fanów⁉️",
+      "url": "https://www.bankier.pl/forum/temat_cd-projekt-jednym-ze-studiow-majacych-szacunek-dla-swoich-fanow,75564299.html",
+      "body": "> Znowu halucynujesz naganku, o jakim szacunku ty piszesz? Wszystko jest grą i manipulacją.Zenuś znowu zażyłeś?Przecież to nie ja piszę - tylko na Xie - pisze jeden z największych znawców/recenzentów tego biznesu..xDD",
+      "votes": {
+        "up": 6,
+        "down": 4
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75564669",
+      "author": "lol",
+      "postedAt": "2026-08-26 20:41",
+      "threadTitle": "Re: ❤️ CD Projekt jednym ze studiów mających szacunek dla swoich fanów⁉️",
+      "url": "https://www.bankier.pl/forum/temat_cd-projekt-jednym-ze-studiow-majacych-szacunek-dla-swoich-fanow,75564299.html",
+      "body": "Może za kilka lat wrócimy do kursu z 2020 roku, kiedy to spółka wydała ostatnią \"grę najwyższej jakości\".",
+      "votes": {
+        "up": 6,
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
