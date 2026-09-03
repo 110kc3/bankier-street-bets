@@ -3,23 +3,23 @@
   "companyName": "Powszechna Kasa Oszczędności Bank Polski Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_powszechna-kasa-oszczednosci-bank-polski-spolka-akcyjna,6,21,10000000062.html",
-  "updatedAt": "2026-09-03T04:23:37.286Z",
+  "updatedAt": "2026-09-03T11:14:14.340Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-03T04:23:37.286Z",
+    "fetchedAt": "2026-09-03T11:14:14.340Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 30
+    "threadsScanned": 31
   },
   "analysis": {
-    "signal": "HOLD",
-    "score": 0.117,
-    "confidence": 0.74,
-    "commentCount": 80,
+    "signal": "BUY",
+    "score": 0.156,
+    "confidence": 0.75,
+    "commentCount": 81,
     "breakdown": {
-      "positive": 39,
+      "positive": 40,
       "negative": 9,
       "neutral": 32
     },
@@ -138,18 +138,23 @@
         "date": "2026-09-01",
         "score": -0.161,
         "count": 2
+      },
+      {
+        "date": "2026-09-03",
+        "score": 0.931,
+        "count": 1
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 80 komentarzy z ostatnich 30 dni: nastroje pozytywne (39 pozytywnych, 9 negatywnych, 32 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 81 komentarzy z ostatnich 30 dni: nastroje pozytywne (40 pozytywnych, 9 negatywnych, 32 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "bank",
+        "word": "jedziemy",
         "count": 5
       },
       {
-        "word": "jedziemy",
-        "count": 4
+        "word": "bank",
+        "count": 5
       },
       {
         "word": "czas",
@@ -187,6 +192,20 @@
   },
   "comments": [
     {
+      "id": "75653311",
+      "author": "boss",
+      "postedAt": "2026-09-03 11:16",
+      "threadTitle": "No dawaj w końcu mocno do góry,nie śpij",
+      "url": "https://www.bankier.pl/forum/temat_no-dawaj-w-koncu-mocno-do-gory-nie-spij,75653311.html",
+      "body": "Nie widzisz wig-u 20 ? czy jak ? no co ty wyprawiasz na najlepszym POLSKIM BANKU,jedziemy na północ i to ostro z kopyta- nie śpij",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "75620901",
       "author": "Wolealior",
       "postedAt": "2026-09-01 11:39",
@@ -194,7 +213,7 @@
       "url": "https://www.bankier.pl/forum/temat_120-zl-do-piatku-na-zamkniecie,75540555.html",
       "body": "108 pewniak",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
@@ -320,7 +339,7 @@
       "url": "https://www.bankier.pl/forum/temat_120-zl-do-piatku-na-zamkniecie,75540555.html",
       "body": "Będzie poniżej 112.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0,
@@ -335,7 +354,7 @@
       "body": "pozdrawiam",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
