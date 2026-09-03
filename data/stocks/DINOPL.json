@@ -3,46 +3,31 @@
   "companyName": "Dino Polska Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-spolka-akcyjna,6,21,10000001632.html",
-  "updatedAt": "2026-09-02T21:02:30.067Z",
+  "updatedAt": "2026-09-03T04:22:24.580Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-02T21:02:30.067Z",
+    "fetchedAt": "2026-09-03T04:22:24.580Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 75
+    "threadsScanned": 76
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.073,
-    "confidence": 0.73,
+    "score": 0.042,
+    "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 73,
-      "negative": 32,
-      "neutral": 95
+      "positive": 60,
+      "negative": 39,
+      "neutral": 101
     },
     "trend": [
       {
-        "date": "2026-08-28",
-        "score": 0.281,
-        "count": 8
-      },
-      {
-        "date": "2026-08-29",
-        "score": 0.215,
-        "count": 3
-      },
-      {
-        "date": "2026-08-30",
-        "score": 0.322,
-        "count": 2
-      },
-      {
         "date": "2026-08-31",
-        "score": 0.447,
-        "count": 28
+        "score": 0.148,
+        "count": 38
       },
       {
         "date": "2026-09-01",
@@ -52,55 +37,102 @@
       {
         "date": "2026-09-02",
         "score": 0.003,
-        "count": 119
+        "count": 120
+      },
+      {
+        "date": "2026-09-03",
+        "score": -0.161,
+        "count": 2
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (73 pozytywnych, 32 negatywnych, 95 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (60 pozytywnych, 39 negatywnych, 101 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 25
+        "count": 19
+      },
+      {
+        "word": "przy",
+        "count": 13
       },
       {
         "word": "ktos",
-        "count": 14
-      },
-      {
-        "word": "sklepow",
         "count": 12
       },
       {
         "word": "zeby",
-        "count": 12
+        "count": 11
       },
       {
-        "word": "przy",
-        "count": 11
+        "word": "sklepow",
+        "count": 10
+      },
+      {
+        "word": "masz",
+        "count": 10
       },
       {
         "word": "wiecej",
         "count": 10
       },
       {
-        "word": "widac",
+        "word": "qube",
         "count": 9
       },
       {
-        "word": "wzrost",
+        "word": "trzeba",
         "count": 8
       },
       {
         "word": "podwyzki",
         "count": 8
-      },
-      {
-        "word": "masz",
-        "count": 8
       }
     ]
   },
   "comments": [
+    {
+      "id": "75648077",
+      "author": "Dingo",
+      "postedAt": "2026-09-03 04:47",
+      "threadTitle": "Re: Zwałka",
+      "url": "https://www.bankier.pl/forum/temat_zwalka,75647659.html",
+      "body": "Buahaha",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75647959",
+      "author": "Re",
+      "postedAt": "2026-09-03 01:20",
+      "threadTitle": "Re: Qube juz ma 0,94% krotkiej",
+      "url": "https://www.bankier.pl/forum/temat_qube-juz-ma-0-94-krotkiej,75640673.html",
+      "body": "Z wami trolami spadkowymi tylko tak trzeba pisać,waszym językiem nic innego do was nie przemawia Misiakilejsowate",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75647659",
+      "author": "Benerozi",
+      "postedAt": "2026-09-02 23:16",
+      "threadTitle": "Zwałka",
+      "url": "https://www.bankier.pl/forum/temat_zwalka,75647659.html",
+      "body": "jutro -8%?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75647049",
       "author": "gme",
@@ -109,7 +141,7 @@
       "url": "https://www.bankier.pl/forum/temat_przyznane-dzisiaj-podwyzki,75644545.html",
       "body": "czy wam ta sytuacja nie przypomina sporów z biedronki siec zaczęła się rozwijać to kapciuchy związkowe wyczuły kasę",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 2
       },
       "sentimentScore": 0,
@@ -123,7 +155,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-do-plac,75640867.html",
       "body": "Czy Ty tak na poważnie odjąłeś te 700mln dodatkowych kosztów operacyjnych brutto od ubiegłorocznego wyniku netto 1,5mld, i myślisz, że na sztywno wynik będzie o 50% niższy? Nie wiem czy te bzdury to zła wola czy dyletanctwo, ale przyjmując, że marża brutto wynosiła u Dino ok23% i tak zostanie, wzrost sieci wyniesie 300-350 sklepów (10-12%), i nastąpi inflacja koszyka LfL, to oni nie muszą w zasadzie za wiele robić, żeby organiczny wzrost przychodów zaabsorbował te koszty.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -151,7 +183,7 @@
       "url": "https://www.bankier.pl/forum/temat_przyznane-dzisiaj-podwyzki,75644545.html",
       "body": "Dokładnie",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -179,7 +211,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-34-pln,75642845.html",
       "body": "Hahahaha i tyle w temacie",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -207,7 +239,7 @@
       "url": "https://www.bankier.pl/forum/temat_przyznane-dzisiaj-podwyzki,75644545.html",
       "body": "Nikogo na siłę nie trzymają droga wolnaWolny kraj",
       "votes": {
-        "up": 6,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -264,7 +296,7 @@
       "body": "To tyle z tego damy im 900„ IMPAS W DINO, ZARZĄD SCHOWAŁ GŁOWĘ W PIASEK. Porozumienie albo Strajk!Pierwsza tura mediacji w sporze zbiorowym zakończyła się całkowitym brakiem porozumienia. Zarząd Dino Polska S.A. po raz kolejny zademonstrował brak szacunku do załogi – ludzi, którzy są prawdziwym fundamentem tej firmy. Na spotkaniu nie pojawił się nikt z władz spółki. Zamiast nich wysłano prawniczą obstawę, w tym dwóch pełnomocników z kancelarii PCS Paruch, znanej ze stosowania brudnych metod i taktyk typu SLAPP w Dino i Kauflandzie. którzy mieli zaszczuć przedstawicieli pracowników. Hańba! Skład dopełnili radca prawny Dino oraz dyrektor BHP.Skandaliczny skład reprezentacji pracodawcy jednoznacznie pokazuje, że zarząd unika odpowiedzialności za warunki pracy swojej załogi.Zewnętrzni prawnicy, którzy zdominowali dyskusję, nie mają pojęcia o tym, jak wygląda prawdziwa praca w Dino. Ostro to wypunktowaliśmy – prowadzenie rozmów w ten sposób wyklucza wypracowanie jakiegokolwiek kompromisu.W związku z impasem zyskaliśmy prawo do strajku ostrzegawczego – w drugim sporze zbiorowymŻądamy zmiany składu i prawdziwego dialogu: Będziemy kategorycznie domagać się zmiany reprezentacji ze strony spółki. Wysłani prawnicy z PCS Paruch zamiast dążyć do rozwiązania sporu, jedynie zaostrzają konflikt. Domagamy się realnego porozumienia z ludźmi, którzy mają decyzyjność.Kolejny termin rozmów: Spotkanie w sporze zbiorowym odbędzie się 24 września 2026 r. Będziemy twardo domagać się obecności osób decyzyjnych z Zarządu i pilnej poprawy warunków pracy. Przeciążenia pracą, biedne pensje, to tylko część problemów z którymi borykają się pracownicy spółki. Manipulacja kwotą 700 milionów: Dzisiejsze medialne doniesienia spółki o setkach milionów na podwyżki to zasłona dymna. Kwota ta obejmuje już przyznaną w maju podwyżkę 300 zł, która została wywalczona i przyznana w okresie strajku ostrzegawczego. To nie są żadne nowe, dodatkowe środki.”",
       "votes": {
         "up": 4,
-        "down": 3
+        "down": 5
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -347,7 +379,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-do-plac,75640867.html",
       "body": "Jakie 40% ekstra skąd ta matematyka XD ludzie nie dostają pieniędzy za nic tylko pracując w sklepie który na siebie zarabia poza tym pracownicy to nie tylko Ci którzy siedzą na kasie tylko też regionalne, „trenerzy” logistyka i ktoś też pewnie siedzi w biurze proste",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -375,7 +407,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-do-plac,75640867.html",
       "body": "Coraz słabsze miejsca? Dobre sobie. Otwierają sklepy już nie tylko w Polsce \"prowincjonalnej\", ale coraz odważniej wchodzą do miast wojewódzkich. Przy takim modelu działania i obecnym tempie ekspansji w ciągu 2-3 lat zaczną wypychać Biedronki, Lidle i inne zagraniczne markety z największych miast Polski.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -445,25 +477,11 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-34-pln,75642845.html",
       "body": "Lejs odpowiedz na proste pytanie czy korzystasz ze swoich prognoz inwestujac swoje pieniadze na gieldzie? Z moich prostych wyliczen wynika ze gdybys inwestowal 100 k zl i kierowal sie swoimi prognozami bylbys na stracie rzedu 23 tys zl liczac od ATL",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75643689",
-      "author": "doniek88",
-      "postedAt": "2026-09-02 17:53",
-      "threadTitle": "Re: Co do płac",
-      "url": "https://www.bankier.pl/forum/temat_co-do-plac,75640867.html",
-      "body": "Nie do końca, masz pojęcie marży brutto, mogą pobić zysk z 2025, jeśli tylko deflacja puści, pszenica w górę a to też z zapłonem opóźnionym działa",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75643687",
@@ -480,6 +498,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "75643689",
+      "author": "doniek88",
+      "postedAt": "2026-09-02 17:53",
+      "threadTitle": "Re: Co do płac",
+      "url": "https://www.bankier.pl/forum/temat_co-do-plac,75640867.html",
+      "body": "Nie do końca, masz pojęcie marży brutto, mogą pobić zysk z 2025, jeśli tylko deflacja puści, pszenica w górę a to też z zapłonem opóźnionym działa",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "75643607",
       "author": "Re",
       "postedAt": "2026-09-02 17:49",
@@ -487,7 +519,7 @@
       "url": "https://www.bankier.pl/forum/temat_qube-juz-ma-0-94-krotkiej,75640673.html",
       "body": "Qube ma niecałe 1 mln a nie 10 mln naucz się liczyć",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 2
       },
       "sentimentScore": 0,
@@ -614,7 +646,7 @@
       "body": "Wymiana zleceń przed atakiem na 38 pln",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1216,7 +1248,7 @@
       "body": "Prawie 10000000 akcji",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2566,6 +2598,272 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "75612597",
+      "author": "Wow",
+      "postedAt": "2026-08-31 17:24",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Mocno facet, serio nie masz nic innego w życiu?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75611009",
+      "author": "Bzzz",
+      "postedAt": "2026-08-31 16:03",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Świetny był zarzut, że Dino ma monitoring i przez to pracownicy czują się inwigilowani. Te rzekome strajki i rzekome setki milionów kosztów wynikających z podwyżek to była po prostu nagonka na zbicie kursu, kto się obłowił poniżej 30 zł ten już dzisiaj jest zarobiony.",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75610907",
+      "author": "Paulus",
+      "postedAt": "2026-08-31 15:57",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Masz rację, że strajku raczej nic nie wyjdzie. Komunikat o zamiarze przeprowadzenia w terminie 5 dni może być tylko elementem negocjacji i formą nacisku. Gdyby tak było kurs mocno spadnie i jeszcze mocniej odbije. Zobaczymy.",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75610767",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-08-31 15:49",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Paulus o czym ty mówisz jaki strajk ???? Przecież tam jest trzech związkowców nieudaczników jedna kierowniczka była dino która wrzucili z niekompetencje ochłoń",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75610735",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-08-31 15:47",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Misiu napewno zbije qube kurs z 40 na 39 40",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75610475",
+      "author": "Paulus",
+      "postedAt": "2026-08-31 15:29",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Szansą dla Qube jest możliwość tąpnięcia kursu w przypadku zgłoszenia przez komitet zamiaru przeprowadzenia strajku na 5 dni przed jego rozpoczęciem. Niezależnie od tego czy strajk w ogóle się uda przeprowadzić w większej skali, taki komunikat może być mocno odczuwalny na kursie.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75610267",
+      "author": "Misiu",
+      "postedAt": "2026-08-31 15:16",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Ja nie namawiam. Piszę, co sam robię i tak myślę. Aktualnie martwi mnie Qube, bo na pewno będzie próbował zbić kurs. Pytanie kiedy i czy mu się uda. Na pewno będą wahania jeszcze.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75610233",
+      "author": "Lejs",
+      "postedAt": "2026-08-31 15:14",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Na szczęście jest dyżurny satyryk @Lejs co owija zimnym ręcznikiem ich rozgrzane łby hi,hi,hi.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75610167",
+      "author": "Gość",
+      "postedAt": "2026-08-31 15:11",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Radi, Dyzio i Misiu opanowali to forum i namawiają na kupno bo wiadomo, że jak jest popyt to cena rośnie a że później spadnie i ludzie stracą to ich nie obchodzi",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75609685",
+      "author": "Dexter",
+      "postedAt": "2026-08-31 14:44",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "śmieci na wejściu = śmieci na wyjściu",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75609649",
+      "author": "Dexter",
+      "postedAt": "2026-08-31 14:42",
+      "threadTitle": "Re: Szorcik, żyjesz? DINKO nie poturbował Cię?",
+      "url": "https://www.bankier.pl/forum/temat_szorcik-zyjesz-dinko-nie-poturbowal-cie,75590561.html",
+      "body": "serio?Opublikowano przy kursie: 35,56 zł , zmiana od tamtej pory: 2,45%x mnożnik 100 chyba, płyniesz",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75609549",
+      "author": "Grzeniu",
+      "postedAt": "2026-08-31 14:35",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Cały czas ten lejscslejs pisze bzdury... Byle co zje i byle co pisze",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75609277",
+      "author": "Tumbelele",
+      "postedAt": "2026-08-31 14:18",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "To już Ci mówię co będzie pisał, schowa się do nory znów na kilka dni i jak urośnie o tylko „0,5% danego dnia to znów wyjdzie z nory na tydzień",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75608911",
+      "author": "Misiu",
+      "postedAt": "2026-08-31 13:53",
+      "threadTitle": "Re: Kto rano wstaje, temu Pan Bóg daje. :D",
+      "url": "https://www.bankier.pl/forum/temat_kto-rano-wstaje-temu-pan-bog-daje-d,75604747.html",
+      "body": "Zarobiłem. 1,5% przy dużym wolumenie to też coś.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75608761",
+      "author": "heh",
+      "postedAt": "2026-08-31 13:42",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Wszystko jak zawsze leci w prawo, średnie się schładzają, zapowiadają poprawę wyników.Prędzej czy później kurs zmieni rozkład z 3 na 4.Co Ty będziesz ślusarzu od zamków wtedy pisał, masakra.",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75608655",
+      "author": "Radi",
+      "postedAt": "2026-08-31 13:37",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "tlumaczyc to ty mozesz ..... spuscili kurs i polecialy dwa pakiety po 251 000 qakcji. i tyle i teraz w gore . a tlumacz to cty sobie jak chcesz a daruj sobie swoje wyklady dla innych . sprawdz zamek nalepiej w spodenkach",
+      "votes": {
+        "up": 9,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75608639",
+      "author": "Ms",
+      "postedAt": "2026-08-31 13:36",
+      "threadTitle": "Re: Kto rano wstaje, temu Pan Bóg daje. :D",
+      "url": "https://www.bankier.pl/forum/temat_kto-rano-wstaje-temu-pan-bog-daje-d,75604747.html",
+      "body": "Na prowizje noe zarobiłeś",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75608613",
+      "author": "Ms",
+      "postedAt": "2026-08-31 13:34",
+      "threadTitle": "Re: Kto rano wstaje, temu Pan Bóg daje. :D",
+      "url": "https://www.bankier.pl/forum/temat_kto-rano-wstaje-temu-pan-bog-daje-d,75604747.html",
+      "body": "Jak twój stop loss",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75608581",
+      "author": "Lejs",
+      "postedAt": "2026-08-31 13:32",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Dziś 36.30 jutro 36.10 środa 36.30 i czwartek tąpnięcie po info o strajkach np .",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75608553",
       "author": "Misiu",
       "postedAt": "2026-08-31 13:30",
@@ -2580,326 +2878,18 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75606067",
-      "author": "Ziutek",
-      "postedAt": "2026-08-31 10:45",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "> Akcje 4 lata temu czyli 31.08,22 r kosztowały na zamknięciu 34,37 zł a były już w sierpniu 2022 r po 38 zł przychody po pierwszym półroczu wyniosły 8,7 mld zł teraz po pierwszym półroczu ponad 18 mld zł no i w tym czasie otwarto 1200 nowych sklepów a kurs parę procent większy niż w sierpniu 2022r. Dwa czynniki powinny wspierać kurs w drugiej połowie roku wzrost cen żywności i bardzo prawdopodobny napływ uchodźców z Ukrainy przed zimą i w trakcie zimy z powodu zniszczenia sieci ciepłowniczych i energetycznych na Ukrainie a jak wpłynął napływ uchodźców w 2022 r to było widać po wynikach za 2022r największy procentowy wzrost przychodów w historii spółki rok do roku wzrost o 47% za 2022r i ten sam scenariusz szykuje się na drugą połowę roku jak w 2022r czyli wzrost cen żywności i napływ uchodźców z Ukrainy pod koniec roku.Bardzo ciekawe spostrzeżenie z tymi Ukraińcami. Nie myślałem o tym w ten sposób do tej pory. Ale faktycznie może być armagedon. Nie tylko z powodu zimy, ale też z tego, że ruscy planują bezpośredni atak na Kijów i jego zdobycie.",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75605959",
-      "author": "Radi",
-      "postedAt": "2026-08-31 10:38",
-      "threadTitle": "Ciekawe to podbicie o złotówke do góry",
-      "url": "https://www.bankier.pl/forum/temat_ciekawe-to-podbicie-o-zlotowke-do-gory,75605959.html",
-      "body": "Mogl ktos dalej zbierac po 35.5 to podbil o zlotowke do gory . troche to dziwne bo duzo nie zebrał",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75605781",
-      "author": "Tom",
-      "postedAt": "2026-08-31 10:26",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Akcje 4 lata temu czyli 31.08,22 r kosztowały na zamknięciu 34,37 zł a były już w sierpniu 2022 r po 38 zł przychody po pierwszym półroczu wyniosły 8,7 mld zł teraz po pierwszym półroczu ponad 18 mld zł no i w tym czasie otwarto 1200 nowych sklepów a kurs parę procent większy niż w sierpniu 2022r. Dwa czynniki powinny wspierać kurs w drugiej połowie roku wzrost cen żywności i bardzo prawdopodobny napływ uchodźców z Ukrainy przed zimą i w trakcie zimy z powodu zniszczenia sieci ciepłowniczych i energetycznych na Ukrainie a jak wpłynął napływ uchodźców w 2022 r to było widać po wynikach za 2022r największy procentowy wzrost przychodów w historii spółki rok do roku wzrost o 47% za 2022r i ten sam scenariusz szykuje się na drugą połowę roku jak w 2022r czyli wzrost cen żywności i napływ uchodźców z Ukrainy pod koniec roku.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.931,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75604995",
-      "author": "Misiu",
-      "postedAt": "2026-08-31 09:41",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Racja. Ale ostatnio staram się grać ostrożnie, szczególnie na Dino.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75604809",
-      "author": "Misiu",
-      "postedAt": "2026-08-31 09:31",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "A kupuje się przyszłość na giełdzie, a nie teraźniejszość, która wcale nie jest zła zresztą.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75604693",
-      "author": "Misiu",
-      "postedAt": "2026-08-31 09:27",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Kolejne wyniki to ta podstawa. A będą na pewno lepsze od obecnych, które miały być słabe z założenia, a okazaly się ciut lepsze. Poza tym pamiętasz co działo się z Dino w Covidzie, albo podczas wojny. Na horyzoncie wzrost cen nawozów i cen żywności.",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75604465",
-      "author": "Gość",
-      "postedAt": "2026-08-31 09:15",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Dyzio z Misiem dość agresywnie namawiają na kupno.Dlaczego nie przedstawią żadnych argumentów na to? Bo żadnych nie mają, na razie nie ma podstaw do hurraoptymizmu na większe wzrosty.",
-      "votes": {
-        "up": 4,
-        "down": 2
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75604381",
-      "author": "Radi",
-      "postedAt": "2026-08-31 09:11",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Troche pózno sie zdecydowales. mozna bylo brac z nizszych poziomów",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75604323",
-      "author": "Misiu",
-      "postedAt": "2026-08-31 09:08",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Myślę, że po kolejnych wynikach zaliczymy ATH.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75604275",
-      "author": "Misiu",
-      "postedAt": "2026-08-31 09:06",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Tak jak mówiłem, tak zrobiłem. Płynę z wami. Przynajmniej do kolejnych wyników.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75599931",
-      "author": "wert",
-      "postedAt": "2026-08-30 13:29",
-      "threadTitle": "Re: stanowski biega po dino z kamerami",
-      "url": "https://www.bankier.pl/forum/temat_stanowski-biega-po-dino-z-kamerami,75514633.html",
-      "body": "Budować , otwierać , zarabiać . Centrum dystrybucyjne ładnie rośnie https://jaw.pl/artykul/kiedy-otwarcie-dino-na-n1853130https://jaslo.info/kolejny-market-dino-w-naszym-powiecie-znamy-lokalizacje/https://www.youtube.com/watch?v=XNpH8eOKqzM",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75599835",
-      "author": "Misiu",
-      "postedAt": "2026-08-30 13:12",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Bo liczyłem ja to, że Qube zaniży kurs, ale jak widać sentyment do Dino na szerokim rynku się zmienił na plus.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75596117",
-      "author": "Orim",
-      "postedAt": "2026-08-29 17:16",
-      "threadTitle": "Re: stanowski biega po dino z kamerami",
-      "url": "https://www.bankier.pl/forum/temat_stanowski-biega-po-dino-z-kamerami,75514633.html",
-      "body": "No żeby nie skończyło się jak z Z. w Republika....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75594997",
-      "author": "wert",
-      "postedAt": "2026-08-29 13:51",
-      "threadTitle": "Re: stanowski biega po dino z kamerami",
-      "url": "https://www.bankier.pl/forum/temat_stanowski-biega-po-dino-z-kamerami,75514633.html",
-      "body": "I znowu biega kanał zero po Dino dziś i reklamuje . Ciekawe czy Dino na tym zyska bo oglądalność zero ma spore .",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75592425",
-      "author": "doniek88",
-      "postedAt": "2026-08-29 01:49",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Dla mnie decyzja ok. Gdybym miał wolne środki też bym jeszcze wszedl, ale serio weź dopracuj swoją strategie, decyzje, bo jak czytam co wypisujesz to jak dzieciak. Weź okresl sobie cel i się tego trzymaj- po analizie fundamentalnej i wykresu w jakim momencie jesteśmy. Bo to co wypisujesz jest sprzeczne. Obierz cel i tego sie trzymaj",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75591711",
-      "author": "Misiu",
-      "postedAt": "2026-08-28 21:46",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Ja w poniedziałek kupuję z samego rana. Dłużej nie czekam.",
+      "id": "75608531",
+      "author": "Lejs",
+      "postedAt": "2026-08-31 13:29",
+      "threadTitle": "Re: 0,5 mln akcji poleciało",
+      "url": "https://www.bankier.pl/forum/temat_0-5-mln-akcji-polecialo,75608433.html",
+      "body": "Tłumaczę jak krowie na rowie .KOREKTA !",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 5
       },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75590955",
-      "author": "Miras",
-      "postedAt": "2026-08-28 19:39",
-      "threadTitle": "Re: 31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Twoja prośba jest dla mnie rozkazem Dyzio. Chociaż nie wiem czy tak wysoko zostanie na fiksingu ale postaram się:)",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75590357",
-      "author": "Dyzio",
-      "postedAt": "2026-08-28 18:15",
-      "threadTitle": "31.08 w górę na 37,-",
-      "url": "https://www.bankier.pl/forum/temat_31-08-w-gore-na-37,75590357.html",
-      "body": "Spoko, będzie wzrost.",
-      "votes": {
-        "up": 8,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75590003",
-      "author": "wert",
-      "postedAt": "2026-08-28 17:41",
-      "threadTitle": "Re: stanowski biega po dino z kamerami",
-      "url": "https://www.bankier.pl/forum/temat_stanowski-biega-po-dino-z-kamerami,75514633.html",
-      "body": "i kolejne sklepy tak dalej , ciekawe czy ta duża transakcja na ponad milion akcji to ucieczka szorta ??https://www.infoprzasnysz.com/rusza-budowa-dino-w-bartnikach-siec-szuka-juz-pracownikow-do-nowego-marketu/https://www.igryfino.pl/artykul/56432,nowy-sklep-dino-na-ukonczeniu-ma-juz-panele-i-trwaja-prace-wewnatrz-obiektu",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75588043",
-      "author": "mabmab",
-      "postedAt": "2026-08-28 15:39",
-      "threadTitle": "Re: stanowski biega po dino z kamerami",
-      "url": "https://www.bankier.pl/forum/temat_stanowski-biega-po-dino-z-kamerami,75514633.html",
-      "body": "Mizeria to brzmi dumnie....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75587053",
-      "author": "Gerwazy",
-      "postedAt": "2026-08-28 14:35",
-      "threadTitle": "Re: stanowski biega po dino z kamerami",
-      "url": "https://www.bankier.pl/forum/temat_stanowski-biega-po-dino-z-kamerami,75514633.html",
-      "body": "Dino planuje wprowadzić krajalnice do ogórków - na mizerię. To będzie rewolucja.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75586565",
-      "author": "mabmab",
-      "postedAt": "2026-08-28 13:59",
-      "threadTitle": "Re: stanowski biega po dino z kamerami",
-      "url": "https://www.bankier.pl/forum/temat_stanowski-biega-po-dino-z-kamerami,75514633.html",
-      "body": "Dinobus dobre naprawde dobre....a krajalnice do chleba juz sa?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75586039",
-      "author": "wert",
-      "postedAt": "2026-08-28 13:24",
-      "threadTitle": "Re: stanowski biega po dino z kamerami",
-      "url": "https://www.bankier.pl/forum/temat_stanowski-biega-po-dino-z-kamerami,75514633.html",
-      "body": "Kanał zero znów biega po sklepie Dino tym razem w mieście Gniezno , fajnie się to ogląda jak to reklamują bo nawet jak parkowali autobus to tak by było widać baner z reklamą Dino aż chłopek co siedziałw autobusie dostał sygnał by się cofnąć eheh . Autobus ma też reklamy Dino z tyłu autobusu więc jak ktoś jedzie za nimi to widzi Dino . Niech reklamują to dla spółki ok Ktoś pisał że jak żabka zniknie z gpw to Dino zyska i to prawda .https://strefabiznesu.pl/miliardy-z-zabki-moga-trafic-do-rajow-podatkowych-zyska-dino/ar/c3p2-29294561",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
     }
   ]
 }
