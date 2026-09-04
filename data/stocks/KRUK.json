@@ -3,11 +3,11 @@
   "companyName": "Kruk Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-spolka-akcyjna,6,21,10000001000.html",
-  "updatedAt": "2026-09-04T11:17:25.812Z",
+  "updatedAt": "2026-09-04T16:21:21.401Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-04T11:17:25.812Z",
+    "fetchedAt": "2026-09-04T16:21:21.401Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.013,
-    "confidence": 0.7,
-    "commentCount": 75,
+    "score": -0.023,
+    "confidence": 0.71,
+    "commentCount": 70,
     "breakdown": {
-      "positive": 24,
-      "negative": 26,
-      "neutral": 25
+      "positive": 21,
+      "negative": 23,
+      "neutral": 26
     },
     "trend": [
-      {
-        "date": "2026-08-28",
-        "score": -0.042,
-        "count": 8
-      },
       {
         "date": "2026-08-29",
         "score": 0.99,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-09-04",
-        "score": -0.271,
-        "count": 4
+        "score": -0.192,
+        "count": 7
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 75 komentarzy z ostatnich 7 dni: nastroje mieszane (24 pozytywnych, 26 negatywnych, 25 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 70 komentarzy z ostatnich 7 dni: nastroje mieszane (21 pozytywnych, 23 negatywnych, 26 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruk",
@@ -77,22 +72,6 @@
         "count": 9
       },
       {
-        "word": "roku",
-        "count": 6
-      },
-      {
-        "word": "zarzad",
-        "count": 6
-      },
-      {
-        "word": "kruka",
-        "count": 5
-      },
-      {
-        "word": "ponizej",
-        "count": 5
-      },
-      {
         "word": "ktos",
         "count": 5
       },
@@ -101,16 +80,74 @@
         "count": 5
       },
       {
-        "word": "portfeli",
+        "word": "roku",
         "count": 4
       },
       {
-        "word": "wzrost",
+        "word": "rentownosci",
         "count": 4
+      },
+      {
+        "word": "kruka",
+        "count": 4
+      },
+      {
+        "word": "przy",
+        "count": 3
+      },
+      {
+        "word": "maja",
+        "count": 3
+      },
+      {
+        "word": "poziomie",
+        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75675797",
+      "author": "Aaa",
+      "postedAt": "2026-09-04 17:54",
+      "threadTitle": "Re: 350 zł",
+      "url": "https://www.bankier.pl/forum/temat_350-zl,75674351.html",
+      "body": "Przy 300 idę vabank",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75674351",
+      "author": "Mn",
+      "postedAt": "2026-09-04 16:24",
+      "threadTitle": "350 zł",
+      "url": "https://www.bankier.pl/forum/temat_350-zl,75674351.html",
+      "body": "Jak spadnie do 350 zł to pomyślę, przy 330 kupuje juz czekam",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75673019",
+      "author": "MAT",
+      "postedAt": "2026-09-04 15:07",
+      "threadTitle": "Re: Chyba zacny short tu siedzi",
+      "url": "https://www.bankier.pl/forum/temat_chyba-zacny-short-tu-siedzi,75636169.html",
+      "body": "Odkupi jak zniży cenę.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75667459",
       "author": "tt",
@@ -119,7 +156,7 @@
       "url": "https://www.bankier.pl/forum/temat_pora-zaczac-odrabiac-spadek,75580051.html",
       "body": "Fundusze grającę na krótko zbili kurs, wczoraj mieli pożyczone 260tys akcji, dlatego taki obrót i spadek. Nikt normalny po takich wynikach nie sprzedał. C/Z mają na bardzo dobrym poziomie",
       "votes": {
-        "up": 5,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -427,7 +464,7 @@
       "url": "https://www.bankier.pl/forum/temat_chyba-zacny-short-tu-siedzi,75636169.html",
       "body": "Jak obserwuje to forum to chyba nigdy żadna spółka nie spadła z innego powodu.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -1048,118 +1085,6 @@
       },
       "sentimentScore": 0.99,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75589535",
-      "author": "ForteMax",
-      "postedAt": "2026-08-28 17:06",
-      "threadTitle": "Re: Czemu to spada ?",
-      "url": "https://www.bankier.pl/forum/temat_czemu-to-spada,75570795.html",
-      "body": "No nie wiem czy „zarząd sprzedaje jak tylko może” to akurat argument za zachowaniem spokoju xd ale szczerze wątpię że tak jest z resztą dało by się to w większości potwierdzić raportami MAR",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75588229",
-      "author": "jw",
-      "postedAt": "2026-08-28 15:51",
-      "threadTitle": "Re: Wycena",
-      "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
-      "body": "mulenie .....a już powinno rosnąć :(((( czy szort już wywalił wszystko do zera?",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75587273",
-      "author": "ForteMax",
-      "postedAt": "2026-08-28 14:51",
-      "threadTitle": "Re: Wycena",
-      "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
-      "body": "Jeśli niski C/Z to dla ciebie wyznacznik to na STALEXPORT autostrady , mas, okazje życia C/Z 4,3",
-      "votes": {
-        "up": 1,
-        "down": 7
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75587199",
-      "author": "MAT91",
-      "postedAt": "2026-08-28 14:45",
-      "threadTitle": "Re: Wycena",
-      "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
-      "body": "Zgadzam się z Panami w stu procentach. Kapitalizacja jest zaniżona zdecydowanie . Przy zyskach netto 1.1mld firma jest warta 7.9 mld zł :O :O :O XTB przy zyskach optymistycznie 1,6mld jest warta 21 miliardów. Gdzie sens gdzie logika. Agresywny skup 100 tys akcji zdusiłby podaż. Po prostu mamy do czynienia z dużą promocją , gdyż każda cena poniżej 500zł taką jest.",
-      "votes": {
-        "up": 16,
-        "down": 2
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75587005",
-      "author": "ForteMax",
-      "postedAt": "2026-08-28 14:31",
-      "threadTitle": "Re: Wycena",
-      "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
-      "body": "Wzrost z 8 miliardów na 10 miliardów to 25% Uchwała spółki pozwala na skup akcji własnych dopiero poniżej 400 zł.IRR brutto portfeli kupionych w 2025 wynosił 20,9%, w 2024 22,7%, a zarząd mówi teraz, że dla 2026 oczekuje raczej czegoś około 20%.",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75586719",
-      "author": "dwc",
-      "postedAt": "2026-08-28 14:08",
-      "threadTitle": "Re: Wycena",
-      "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
-      "body": "Popieram, spółka co roku kręci miliard zysku, płacą co roku prawie 400mln dywidendy, ponad 600mln zostaje w kasie, na dalszy rozwój. Są liderem rynku, a kapitalizacja śmieszna.",
-      "votes": {
-        "up": 20,
-        "down": 1
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75586459",
-      "author": "Michal",
-      "postedAt": "2026-08-28 13:52",
-      "threadTitle": "Wycena",
-      "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
-      "body": "Ostre spadki Kruka przy dobrych wynikach (nie fantastycznych) i to przy bardzo slabej wycenie. Spolka ktora robi 1mld plus co roku, ma konserwatywne zadluzenie w swoim sektorze, mocne cash flowy i jest wyceniana ponizej 8 mld to jest patologia. Nie wiem na co czeka zarzad szczerze mowiac. Pownien agresywnie skupowac wlasne akcje po tych cenach. Konserwatywna wycena Kruka to 10 mld czyli obcenie jest sprzedawany z 30% obnizka. Na co czeka zarzad? Czy portfele w ktore inwestuja dadza wiecej niz 30% zysku?",
-      "votes": {
-        "up": 27,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75586305",
-      "author": "MamaNaga",
-      "postedAt": "2026-08-28 13:42",
-      "threadTitle": "Re: Czemu to spada ?",
-      "url": "https://www.bankier.pl/forum/temat_czemu-to-spada,75570795.html",
-      "body": "okres zamknięty się skończył, zarząd i kadra sprzedaje - jak zawsze... spokój zachować",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     }
   ]
 }
