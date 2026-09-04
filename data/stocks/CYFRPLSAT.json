@@ -3,11 +3,11 @@
   "companyName": "Cyfrowy Polsat Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CYFRPLSAT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cyfrowy-polsat-spolka-akcyjna,6,21,10000000415.html",
-  "updatedAt": "2026-09-04T16:20:47.810Z",
+  "updatedAt": "2026-09-04T20:45:11.048Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-04T16:20:47.810Z",
+    "fetchedAt": "2026-09-04T20:45:11.049Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.074,
-    "confidence": 0.73,
-    "commentCount": 160,
+    "score": -0.067,
+    "confidence": 0.72,
+    "commentCount": 158,
     "breakdown": {
       "positive": 28,
-      "negative": 43,
-      "neutral": 89
+      "negative": 42,
+      "neutral": 88
     },
     "trend": [
-      {
-        "date": "2026-08-28",
-        "score": -0.203,
-        "count": 3
-      },
       {
         "date": "2026-08-29",
         "score": 0.054,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-09-04",
-        "score": -0.161,
-        "count": 14
+        "score": -0.129,
+        "count": 15
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 160 komentarzy z ostatnich 7 dni: nastroje mieszane (28 pozytywnych, 43 negatywnych, 89 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 158 komentarzy z ostatnich 7 dni: nastroje mieszane (28 pozytywnych, 42 negatywnych, 88 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -74,7 +69,7 @@
       },
       {
         "word": "ktos",
-        "count": 8
+        "count": 7
       },
       {
         "word": "widac",
@@ -82,10 +77,6 @@
       },
       {
         "word": "cyfrowego",
-        "count": 7
-      },
-      {
-        "word": "wyniki",
         "count": 7
       },
       {
@@ -97,20 +88,38 @@
         "count": 6
       },
       {
-        "word": "nizej",
-        "count": 6
-      },
-      {
         "word": "roku",
         "count": 6
       },
       {
         "word": "rynku",
         "count": 6
+      },
+      {
+        "word": "wyniki",
+        "count": 6
+      },
+      {
+        "word": "dystrybucja",
+        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75677529",
+      "author": "Greg585",
+      "postedAt": "2026-09-04 21:50",
+      "threadTitle": "Re: Czemu tu tak słabo?",
+      "url": "https://www.bankier.pl/forum/temat_czemu-tu-tak-slabo,75622565.html",
+      "body": "Trzymam trochę pieniędzy poza giełdą, ale jak zejdzie poniżej 15 to kupię. Ciekawi mnie opcja powtórki z poprzednich 3 wiedźm. Wtedy spadało chyba do środy potem odbicie z najwyższą kwotą w piątek w 3 wiedźmy, a od poniedziałku spadek. Podobnie jak wtedy jest sporo kontraktów terminowy. Nawet gdyby tak nie było to kurs 15 wydaje się niski.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75672781",
       "author": "Kangoorrz",
@@ -148,7 +157,7 @@
       "body": "Aż oko cieszy",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -189,7 +198,7 @@
       "url": "https://www.bankier.pl/forum/temat_jest-10-33-a-my-stoimy-o-wielki-hiobi,75668163.html",
       "body": "Dystrybucja aż strach się bać, volumen 40k w połowie sesji hehe karmią ulicę",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -203,7 +212,7 @@
       "url": "https://www.bankier.pl/forum/temat_jest-10-33-a-my-stoimy-o-wielki-hiobi,75668163.html",
       "body": "Wciąż nie chce spadać. Dlaczego tak nas sprawdzasz o wielki Hiobi. Nikt nie chce dystrybuować. Rusz kursem o wielki Hiobi.",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -301,8 +310,8 @@
       "url": "https://www.bankier.pl/forum/temat_piatek-piatunio-polsatowy-spadziunio-gotowi-na-czerwone-grzmoty,75664987.html",
       "body": "Kolejki do ustępów zajęte ? Żeby potem płaczu nie było. Cięzko będzie się dostać . Pieluchy mogą pomóc.",
       "votes": {
-        "up": 2,
-        "down": 1
+        "up": 3,
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -2305,48 +2314,6 @@
       "votes": {
         "up": 2,
         "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75591981",
-      "author": "Irek",
-      "postedAt": "2026-08-28 22:45",
-      "threadTitle": "Liga Europy z Lechem i Jagielonia w Polsat.",
-      "url": "https://www.bankier.pl/forum/temat_liga-europy-z-lechem-i-jagielonia-w-polsat,75591981.html",
-      "body": "Dobry ruch, ze zrezygnowali z LM na rzecz LE. Powinno to poprawić rynek reklamy i abonentow na jesien. A Polsat ma wyłączne prawa do całej LE. Oba zespoły graja w aż 8 zespołowych grupach, o ile dobrze pamiętam.",
-      "votes": {
-        "up": 3,
-        "down": 3
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75590553",
-      "author": "Irek",
-      "postedAt": "2026-08-28 18:34",
-      "threadTitle": "Re: cyfrowy",
-      "url": "https://www.bankier.pl/forum/temat_cyfrowy,75583291.html",
-      "body": "Jak tam z wora do wora? Ja sobie dobralem dzisiaj i wczoraj. Dzisiaj nawet po 15.69 sie udalo, im nizej tym wiecej papieru.Przeciez wyniki byly dobre, to niech sie shorty martwią. Ktoś się bawi z shortami. Tak to widze.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.931,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75590439",
-      "author": "kangoorrz",
-      "postedAt": "2026-08-28 18:22",
-      "threadTitle": "Re: cyfrowy",
-      "url": "https://www.bankier.pl/forum/temat_cyfrowy,75583291.html",
-      "body": "męczą, bardzo męczą ten kurs cierpliwość wskazana",
-      "votes": {
-        "up": 2,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
