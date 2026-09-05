@@ -3,11 +3,11 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-09-04T20:44:41.005Z",
+  "updatedAt": "2026-09-05T04:26:15.325Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-04T20:44:41.005Z",
+    "fetchedAt": "2026-09-05T04:26:15.325Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.131,
-    "confidence": 0.75,
+    "score": -0.127,
+    "confidence": 0.74,
     "commentCount": 82,
     "breakdown": {
       "positive": 22,
-      "negative": 32,
-      "neutral": 28
+      "negative": 31,
+      "neutral": 29
     },
     "trend": [
-      {
-        "date": "2026-08-28",
-        "score": -0.322,
-        "count": 1
-      },
       {
         "date": "2026-08-30",
         "score": 0.409,
@@ -58,10 +53,15 @@
         "date": "2026-09-04",
         "score": -0.292,
         "count": 12
+      },
+      {
+        "date": "2026-09-05",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 82 komentarzy z ostatnich 7 dni: nastroje negatywne (22 pozytywnych, 32 negatywnych, 28 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 82 komentarzy z ostatnich 7 dni: nastroje negatywne (22 pozytywnych, 31 negatywnych, 29 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "allegro",
@@ -76,7 +76,7 @@
         "count": 7
       },
       {
-        "word": "przy",
+        "word": "wyniki",
         "count": 6
       },
       {
@@ -84,7 +84,7 @@
         "count": 6
       },
       {
-        "word": "wyniki",
+        "word": "przy",
         "count": 5
       },
       {
@@ -107,6 +107,20 @@
   },
   "comments": [
     {
+      "id": "75678181",
+      "author": "TwojPodpis",
+      "postedAt": "2026-09-05 05:23",
+      "threadTitle": "Re: Bardzo dobre wyniki i kolejny skup akcji. Cel 60zł",
+      "url": "https://www.bankier.pl/forum/temat_bardzo-dobre-wyniki-i-kolejny-skup-akcji-cel-60zl,75671511.html",
+      "body": "Pewnie to bait Ale wytłumacz nam kolego, jakby to miało się stać, skoro wstepne wyniki były powyżej oczekiwań?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "75675633",
       "author": "dede",
       "postedAt": "2026-09-04 17:42",
@@ -115,7 +129,7 @@
       "body": "przy wynikach bedzie -7% na start",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1239,20 +1253,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75592023",
-      "author": "Weq",
-      "postedAt": "2026-08-28 22:52",
-      "threadTitle": "Re: Qube znowu się skraca",
-      "url": "https://www.bankier.pl/forum/temat_qube-znowu-sie-skraca,75591829.html",
-      "body": "I jakimś cudem przy spadającym kursie odkupili i oddali... zastanawiające.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
