@@ -1,13 +1,13 @@
 {
   "symbol": "KRUK",
-  "companyName": "Kruk SA",
+  "companyName": "Kruk Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-09-06T04:37:42.519Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-spolka-akcyjna,6,21,10000001000.html",
+  "updatedAt": "2026-09-06T10:55:52.801Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-06T04:37:42.519Z",
+    "fetchedAt": "2026-09-06T10:55:52.801Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.051,
+    "score": -0.047,
     "confidence": 0.72,
-    "commentCount": 73,
+    "commentCount": 75,
     "breakdown": {
-      "positive": 20,
-      "negative": 26,
+      "positive": 21,
+      "negative": 27,
       "neutral": 27
     },
     "trend": [
@@ -58,10 +58,15 @@
         "date": "2026-09-05",
         "score": -0.453,
         "count": 2
+      },
+      {
+        "date": "2026-09-06",
+        "score": 0,
+        "count": 2
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 73 komentarzy z ostatnich 7 dni: nastroje mieszane (20 pozytywnych, 26 negatywnych, 27 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 75 komentarzy z ostatnich 7 dni: nastroje mieszane (21 pozytywnych, 27 negatywnych, 27 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruk",
@@ -80,6 +85,10 @@
         "count": 5
       },
       {
+        "word": "widac",
+        "count": 4
+      },
+      {
         "word": "roku",
         "count": 4
       },
@@ -92,20 +101,44 @@
         "count": 4
       },
       {
-        "word": "spadlo",
+        "word": "obawiam",
         "count": 3
       },
       {
-        "word": "przy",
-        "count": 3
-      },
-      {
-        "word": "maja",
+        "word": "takich",
         "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75684759",
+      "author": "Magellan",
+      "postedAt": "2026-09-06 10:48",
+      "threadTitle": "Re: 350 zł",
+      "url": "https://www.bankier.pl/forum/temat_350-zl,75674351.html",
+      "body": "a ja się obawiam, że jesteśmy max 10 miesięcy przed 2009 rokiem... i wszelkie long trzymania są dla mnie o kant rozbić.mało tego, znam takich, co tylko już kupują i sprzedają tego samego dnia i nigdy nie zostają z akcjami na weekend.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75684635",
+      "author": "MAT",
+      "postedAt": "2026-09-06 10:27",
+      "threadTitle": "Re: 350 zł",
+      "url": "https://www.bankier.pl/forum/temat_350-zl,75674351.html",
+      "body": "Obawiam się, że może być powtórka z Dino, tam pocisnęli w dwa miesiące z 42 na 28, pomimo tego, że spółka dobrze się rozwija i zarabia kilkaset milionów na kwartał. Z shortami tak bywa, stosują widać te same zagrywki co tam m.in. zbijając na fixingu.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75679779",
       "author": "Yt",
@@ -142,7 +175,7 @@
       "url": "https://www.bankier.pl/forum/temat_350-zl,75674351.html",
       "body": "Ale zawory nie trzymają",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 2
       },
       "sentimentScore": 0,
@@ -157,7 +190,7 @@
       "body": "Zapomnij frajerze",
       "votes": {
         "up": 2,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -170,7 +203,7 @@
       "url": "https://www.bankier.pl/forum/temat_350-zl,75674351.html",
       "body": "Przy 300 idę vabank",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -184,7 +217,7 @@
       "url": "https://www.bankier.pl/forum/temat_350-zl,75674351.html",
       "body": "Jak spadnie do 350 zł to pomyślę, przy 330 kupuje juz czekam",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 2
       },
       "sentimentScore": 0.322,
