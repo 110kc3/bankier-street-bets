@@ -3,11 +3,11 @@
   "companyName": "Tauron PE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=TAURONPE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_tauron-pe-sa,6,21,10000000421.html",
-  "updatedAt": "2026-09-06T15:29:23.043Z",
+  "updatedAt": "2026-09-06T20:25:15.838Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-06T15:29:23.043Z",
+    "fetchedAt": "2026-09-06T20:25:15.838Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.012,
+    "score": 0.013,
     "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 53,
+      "positive": 49,
       "negative": 44,
-      "neutral": 103
+      "neutral": 107
     },
     "trend": [
       {
         "date": "2026-09-02",
-        "score": 0.075,
-        "count": 57
+        "score": 0.039,
+        "count": 50
       },
       {
         "date": "2026-09-03",
@@ -46,28 +46,36 @@
       },
       {
         "date": "2026-09-06",
-        "score": 0,
-        "count": 2
+        "score": 0.085,
+        "count": 9
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (53 pozytywnych, 44 negatywnych, 103 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (49 pozytywnych, 44 negatywnych, 107 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "tauron",
-        "count": 30
+        "count": 28
       },
       {
         "word": "enea",
-        "count": 12
+        "count": 10
       },
       {
         "word": "tyle",
-        "count": 8
+        "count": 9
       },
       {
         "word": "wyglada",
         "count": 8
+      },
+      {
+        "word": "goldman",
+        "count": 7
+      },
+      {
+        "word": "dlaczego",
+        "count": 7
       },
       {
         "word": "wiem",
@@ -84,18 +92,108 @@
       {
         "word": "dzis",
         "count": 7
-      },
-      {
-        "word": "masz",
-        "count": 7
-      },
-      {
-        "word": "dlaczego",
-        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75688073",
+      "author": "poznaniak",
+      "postedAt": "2026-09-06 21:20",
+      "threadTitle": "Re: Goldman zwiększył udział do 8.28%... Żeby stracić?",
+      "url": "https://www.bankier.pl/forum/temat_goldman-zwiekszyl-udzial-do-8-28-zeby-stracic,75673353.html",
+      "body": "Goldman zdaje sobie sprawę z tego ze bez mocnej energetyki nie ruszy gospodarka i AI w Polsce, bez tego nie będzie rozwoju . Dlatego kupują Taurn, wiedza ze wsparcie rzadu nastąpi i kupują teraz bo jest tanio , wola to zrobić teraz po 8 z haczykiem niż po 12.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75687619",
+      "author": "eldealeros",
+      "postedAt": "2026-09-06 20:07",
+      "threadTitle": "Re: wstępne szacunki",
+      "url": "https://www.bankier.pl/forum/temat_wstepne-szacunki,75535923.html",
+      "body": "Ale żadna wartość przyszłych przychodów nie została wcześniej zaksięgowana. Więc co chcesz odpisywać?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75687607",
+      "author": "eldealeros",
+      "postedAt": "2026-09-06 20:05",
+      "threadTitle": "Re: mogą być odpisy",
+      "url": "https://www.bankier.pl/forum/temat_moga-byc-odpisy,75687049.html",
+      "body": "Ale co mają odpisywać skoro ich wcześniej nie zaksięgowali?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75687561",
+      "author": "Orim",
+      "postedAt": "2026-09-06 19:55",
+      "threadTitle": "Re: wstępne szacunki",
+      "url": "https://www.bankier.pl/forum/temat_wstepne-szacunki,75535923.html",
+      "body": "Obowiązuje regula ostroznosciowa zatem zgodnie z MSR Zjesli zdarzenie na które tworzysz odpis zostalu uprawdopodobnione odpis tworzysz. Nie ziści się przeslanka odpisu rozwiazujesz",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75687547",
+      "author": "Orim",
+      "postedAt": "2026-09-06 19:53",
+      "threadTitle": "Re: mogą być odpisy",
+      "url": "https://www.bankier.pl/forum/temat_moga-byc-odpisy,75687049.html",
+      "body": "Obowiązuje regula ostroznosciowa a nie ex post.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75687301",
+      "author": "eldealeros",
+      "postedAt": "2026-09-06 19:12",
+      "threadTitle": "Re: mogą być odpisy",
+      "url": "https://www.bankier.pl/forum/temat_moga-byc-odpisy,75687049.html",
+      "body": "A dlaczego mieliby tworzyć odpisy za drugi kwartał skoro rozporządzenie wchodzi w trzecim kwartale to po pierwsze. A po drugie to rozporządzenie uderza w ewentualne przychody, które jeśli faktycznie się zmniejszą to się zmniejszą w przyszłych kwartałach. Więc niby co mielibyśmy odpisywać? Po prostu zmniejszą się przychody w przyszłych kwartałach i tyle.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75687049",
+      "author": "RRRrrr",
+      "postedAt": "2026-09-06 18:10",
+      "threadTitle": "mogą być odpisy",
+      "url": "https://www.bankier.pl/forum/temat_moga-byc-odpisy,75687049.html",
+      "body": "jeden forumowicz ma rację.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75686649",
       "author": "eldealeros",
@@ -104,8 +202,8 @@
       "url": "https://www.bankier.pl/forum/temat_wstepne-szacunki,75535923.html",
       "body": "A niby dlaczego mieliby tworzyć odpisy za drugi kwartał skoro rozporządzenie wchodzi w trzecim kwartale to po pierwsze. A po drugie to rozporządzenie uderza w ewentualne przychody, które jeśli faktycznie się zmniejszą to się zmniejszą w przyszłych kwartałach. Więc niby co mielibyśmy odpisywać? Po prostu zmniejszą się przychody w przyszłych kwartałach i tyle.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -118,8 +216,8 @@
       "url": "https://www.bankier.pl/forum/temat_wstepne-szacunki,75535923.html",
       "body": "Audytorzy (wewnętrzni i zewnętrzni) muszą odpowiedzieć na pytanie: czy uwzględniać w wynikach 2 kwartału 2026 odpis na negatywne skutki rozporządzenia o ulgach taryfowych dla 143 odbiorców energochłonnych w kwocie ok 500 mln zł na wszystkich dystrybutorów energii. Już 9/09 dowiemy się czy oficjalny i rzeczywisty wynik będzie bliski czy oddalony od szacowanego.",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -132,7 +230,7 @@
       "url": "https://www.bankier.pl/forum/temat_opor-10-60-pln-nie-do-przejscia,72599785.html",
       "body": "Siedzisz tu cały czas i obgryzasz pazury gryzmoląc pod innym nickami nieudaczniku , palenie głupa też nie za bardzo wychodzi ,nie mówiąc o reszcie.",
       "votes": {
-        "up": 12,
+        "up": 14,
         "down": 1
       },
       "sentimentScore": 0,
@@ -328,7 +426,7 @@
       "url": "https://www.bankier.pl/forum/temat_goldman-zwiekszyl-udzial-do-8-28-zeby-stracic,75673353.html",
       "body": "Przyznam, że odpał PGE mnie nie zaskoczył. Bardzo dobrze wyglądał na analizie technicznej. Do tego stopnia dobrze, że w grze giełdowej na Bankierze, która zakończyła się tydzień temu cały portfel postawiłem właśnie na PGE biorąc go po 9.45 za całą kasę. Szkoda, że konkurs nie potrwał tydzień dłużej :) Przyznam jednak, że sądziłem, że za PGE pójdzie również Tauron. Niestety wygląda na to, że rynek po wynikach zwyczajnie postanowił doszacować PGE, które do tej pory pozostawało w tyle z wyceną za Tauronem i Eneą. Wyceny się do siebie zbliżyły i mam nadzieję, że od teraz nie będzie już takich anomalii w wycenie pomiędzy energetykami jak w tym tygodniu. Optymistycznie (choć skromnie) wygląda ten tydzień na Tauronie. Mamy drugi wzrostowy tydzień i drugą białą świeczkę na wykresie tygodniowym. Może coś się urodzi w najbliższym czasie. Zobaczymy.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -2253,34 +2351,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75645123",
-      "author": "Aureliano",
-      "postedAt": "2026-09-02 19:24",
-      "threadTitle": "Re: 9.09.26",
-      "url": "https://www.bankier.pl/forum/temat_9-09-26,75643267.html",
-      "body": "Za malo na to czasu. Niczym nowym nie zaskocza. Zaskoczyli lepszym wynikiem od szacunkow. Nie to co enea.https://chabad.org.pl/szkola-hillela-szkola-szammaja/",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75645087",
-      "author": "Aureliano",
-      "postedAt": "2026-09-02 19:22",
-      "threadTitle": "Re: 9.09.26",
-      "url": "https://www.bankier.pl/forum/temat_9-09-26,75643267.html",
-      "body": "Za malo na to czasu. Niczym nowym nie zaskocza. Zaskoczyli lepszym wynikiem od szacunkow. Nie to co enea.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75644935",
       "author": "Rewizor",
       "postedAt": "2026-09-02 19:11",
@@ -2290,34 +2360,6 @@
       "votes": {
         "up": 0,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75644917",
-      "author": "Rewizor",
-      "postedAt": "2026-09-02 19:10",
-      "threadTitle": "Re: 9.09.26",
-      "url": "https://www.bankier.pl/forum/temat_9-09-26,75643267.html",
-      "body": "Skarb laknie dywidend zawsze moze nagle okazac sie jakas rezerwa juz nie ma uzasadnienia. 3 sesje do9.09",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75644891",
-      "author": "Rewizor",
-      "postedAt": "2026-09-02 19:07",
-      "threadTitle": "Re: 9.09.26",
-      "url": "https://www.bankier.pl/forum/temat_9-09-26,75643267.html",
-      "body": "Zaden peys polityczny dyzurny na Orlenie",
-      "votes": {
-        "up": 0,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2379,20 +2421,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75644333",
-      "author": "Aureliano",
-      "postedAt": "2026-09-02 18:33",
-      "threadTitle": "Re: 9.09.26",
-      "url": "https://www.bankier.pl/forum/temat_9-09-26,75643267.html",
-      "body": "Hillela nauczyles sie peysie juz pisac po polsku? Czy pkn jest juz po 20 zeta jak wiele lat pisales? Dla innych - sprawdzcie sobie wyraz Hillela szkola. To peys od GS.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75644287",
       "author": "Greg585",
       "postedAt": "2026-09-02 18:31",
@@ -2421,20 +2449,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75644247",
-      "author": "Hillela",
-      "postedAt": "2026-09-02 18:28",
-      "threadTitle": "Re: 9.09.26",
-      "url": "https://www.bankier.pl/forum/temat_9-09-26,75643267.html",
-      "body": "Kupowałem kiedyś za 2 Zeta",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75644241",
       "author": "Aureliano",
       "postedAt": "2026-09-02 18:27",
@@ -2447,20 +2461,6 @@
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75644189",
-      "author": "Aureliano",
-      "postedAt": "2026-09-02 18:24",
-      "threadTitle": "Re: 9.09.26",
-      "url": "https://www.bankier.pl/forum/temat_9-09-26,75643267.html",
-      "body": "To sa szacunki, tak jak tauron. 09.09 tauron poda wyniki, a pge 15.09. Czym tauron ma zaskoczyc?",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75644111",
@@ -2559,20 +2559,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75643267",
-      "author": "Rewizor",
-      "postedAt": "2026-09-02 17:28",
-      "threadTitle": "9.09.26",
-      "url": "https://www.bankier.pl/forum/temat_9-09-26,75643267.html",
-      "body": "Zostaly 3 sesje....PGE pokazal wyniki lepsze od konsensusu dzieki zdarzeniom jednorazowym a rynek to kupil Czy Tauron zaskoczy czyms rynek?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75643183",
@@ -2895,6 +2881,20 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75637313",
+      "author": "Józef",
+      "postedAt": "2026-09-02 12:26",
+      "threadTitle": "Zastanawiałem sie czy wejść w PGE czy w Tauron...i głupi wybrałem drugie",
+      "url": "https://www.bankier.pl/forum/temat_zastanawialem-sie-czy-wejsc-w-pge-czy-w-tauron-i-glupi-wybralem-drugie,75637313.html",
+      "body": "Życie.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     }
   ]
 }

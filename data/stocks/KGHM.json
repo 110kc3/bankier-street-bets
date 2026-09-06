@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-09-06T15:28:09.552Z",
+  "updatedAt": "2026-09-06T20:24:07.108Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-06T15:28:09.552Z",
+    "fetchedAt": "2026-09-06T20:24:07.108Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.115,
+    "score": 0.113,
     "confidence": 0.74,
-    "commentCount": 148,
+    "commentCount": 149,
     "breakdown": {
       "positive": 54,
       "negative": 22,
-      "neutral": 72
+      "neutral": 73
     },
     "trend": [
       {
@@ -58,14 +58,19 @@
         "date": "2026-09-05",
         "score": 0.322,
         "count": 2
+      },
+      {
+        "date": "2026-09-06",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 148 komentarzy z ostatnich 7 dni: nastroje pozytywne (54 pozytywnych, 22 negatywnych, 72 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 149 komentarzy z ostatnich 7 dni: nastroje pozytywne (54 pozytywnych, 22 negatywnych, 73 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
-        "count": 11
+        "count": 12
       },
       {
         "word": "srebro",
@@ -107,6 +112,20 @@
   },
   "comments": [
     {
+      "id": "75687393",
+      "author": "Wig",
+      "postedAt": "2026-09-06 19:29",
+      "threadTitle": "Re: Brak miedzi w kopalniach",
+      "url": "https://www.bankier.pl/forum/temat_brak-miedzi-w-kopalniach,75667333.html",
+      "body": "Cena miedzi i srebra pójdzie o kolejne 25% . Kurs KGHM w następnym roku 600pln",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "75683417",
       "author": "Pinokio",
       "postedAt": "2026-09-05 22:47",
@@ -129,7 +148,7 @@
       "body": "35 złotych dywidendy za 2026",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
