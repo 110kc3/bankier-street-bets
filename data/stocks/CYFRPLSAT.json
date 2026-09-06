@@ -3,24 +3,24 @@
   "companyName": "Cyfrowy Polsat SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CYFRPLSAT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cyfrowy-polsat-sa,6,21,10000000415.html",
-  "updatedAt": "2026-09-05T20:19:28.538Z",
+  "updatedAt": "2026-09-06T04:37:08.939Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-05T20:19:28.538Z",
+    "fetchedAt": "2026-09-06T04:37:08.939Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 53
+    "threadsScanned": 54
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.083,
+    "score": -0.086,
     "confidence": 0.73,
-    "commentCount": 159,
+    "commentCount": 160,
     "breakdown": {
       "positive": 27,
-      "negative": 46,
+      "negative": 47,
       "neutral": 86
     },
     "trend": [
@@ -58,17 +58,22 @@
         "date": "2026-09-05",
         "score": -0.259,
         "count": 7
-      }
-    ],
-    "trendDirection": "stable",
-    "summary": "Analiza 159 komentarzy z ostatnich 7 dni: nastroje mieszane (27 pozytywnych, 46 negatywnych, 86 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
-    "topKeywords": [
-      {
-        "word": "roku",
-        "count": 7
       },
       {
+        "date": "2026-09-06",
+        "score": -0.322,
+        "count": 1
+      }
+    ],
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 160 komentarzy z ostatnich 7 dni: nastroje mieszane (27 pozytywnych, 47 negatywnych, 86 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "topKeywords": [
+      {
         "word": "https",
+        "count": 8
+      },
+      {
+        "word": "roku",
         "count": 7
       },
       {
@@ -100,12 +105,26 @@
         "count": 6
       },
       {
-        "word": "przy",
+        "word": "poziomie",
         "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75683863",
+      "author": "Kakałowiec",
+      "postedAt": "2026-09-06 05:38",
+      "threadTitle": "Rentowność obligacji przekroczyła 5 %. Nie muszę wam chyba tłumaczyć...",
+      "url": "https://www.bankier.pl/forum/temat_rentownosc-obligacji-przekroczyla-5-nie-musze-wam-chyba-tlumaczyc,75683863.html",
+      "body": "Co to oznacza ,moje dziubaski. Oj, będzie sromotny płacz !7 zł.https://www.bankier.pl/wiadomosc/Rentownosc-obligacji-na-poziomie-5-proc-to-sygnal-do-ciecia-ryzyka-Alarm-na-Wall-Street-9192311.html",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75680689",
       "author": "Biegunka",
@@ -1696,7 +1715,7 @@
       "url": "https://www.bankier.pl/forum/temat_czemu-tu-tak-slabo,75622565.html",
       "body": "Sprzedalem po 17.25zl niedawno.Chyba zacznę od kupować ,czy zejdzie poniżej 15zl? Niewiadomo.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 2
       },
       "sentimentScore": 0,
