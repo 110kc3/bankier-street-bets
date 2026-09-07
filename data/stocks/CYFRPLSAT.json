@@ -3,11 +3,11 @@
   "companyName": "Cyfrowy Polsat SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CYFRPLSAT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cyfrowy-polsat-sa,6,21,10000000415.html",
-  "updatedAt": "2026-09-06T20:23:26.466Z",
+  "updatedAt": "2026-09-07T04:39:25.816Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-06T20:23:26.466Z",
+    "fetchedAt": "2026-09-07T04:39:25.816Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.084,
+    "score": -0.093,
     "confidence": 0.73,
-    "commentCount": 157,
+    "commentCount": 156,
     "breakdown": {
       "positive": 27,
-      "negative": 46,
-      "neutral": 84
+      "negative": 47,
+      "neutral": 82
     },
     "trend": [
       {
         "date": "2026-08-31",
-        "score": 0.019,
-        "count": 14
+        "score": 0.022,
+        "count": 12
       },
       {
         "date": "2026-09-01",
@@ -58,10 +58,15 @@
         "date": "2026-09-06",
         "score": -0.107,
         "count": 3
+      },
+      {
+        "date": "2026-09-07",
+        "score": -0.583,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 157 komentarzy z ostatnich 7 dni: nastroje mieszane (27 pozytywnych, 46 negatywnych, 84 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 156 komentarzy z ostatnich 7 dni: nastroje mieszane (27 pozytywnych, 47 negatywnych, 82 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -88,10 +93,6 @@
         "count": 6
       },
       {
-        "word": "wyniki",
-        "count": 6
-      },
-      {
         "word": "buuuuuaaaaa",
         "count": 5
       },
@@ -102,10 +103,28 @@
       {
         "word": "przy",
         "count": 5
+      },
+      {
+        "word": "sprzedazy",
+        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75688859",
+      "author": "Kuponek",
+      "postedAt": "2026-09-07 05:12",
+      "threadTitle": "Poniedziałek - soczysty spadek ! Are you ready?",
+      "url": "https://www.bankier.pl/forum/temat_poniedzialek-soczysty-spadek-are-you-ready,75688859.html",
+      "body": "Od spadziu aż oczy popuchną",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75684515",
       "author": "Ojo",
@@ -2275,34 +2294,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75602969",
-      "author": "Andy",
-      "postedAt": "2026-08-31 01:58",
-      "threadTitle": "Re: Juz zeszlo 65%",
-      "url": "https://www.bankier.pl/forum/temat_juz-zeszlo-65-zniesienia-fibo-od-ostatniej-fali-i-perspektywy-strategii,75583179.html",
-      "body": "Od kiedy zarządowi zależy na akcjonariuszach? Najpierw dobre wyniki potem wztrosty",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75602959",
-      "author": "Andy",
-      "postedAt": "2026-08-31 01:55",
-      "threadTitle": "Re: Wsparcia pękają niczym przeterminowane zapałki. 11 zł czy niżej ?",
-      "url": "https://www.bankier.pl/forum/temat_wsparcia-pekaja-niczym-przeterminowane-zapalki-11-zl-czy-nizej,75596767.html",
-      "body": "Myślę ze dadzą darmo i jeszcze dopłacą za trzymanie papiera. Zmień lekarza",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
