@@ -3,11 +3,11 @@
   "companyName": "Kruk Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-spolka-akcyjna,6,21,10000001000.html",
-  "updatedAt": "2026-09-08T16:38:01.815Z",
+  "updatedAt": "2026-09-08T21:09:20.080Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-08T16:38:01.815Z",
+    "fetchedAt": "2026-09-08T21:09:20.080Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.013,
-    "confidence": 0.7,
+    "score": -0.035,
+    "confidence": 0.71,
     "commentCount": 64,
     "breakdown": {
-      "positive": 18,
-      "negative": 22,
-      "neutral": 24
+      "positive": 16,
+      "negative": 23,
+      "neutral": 25
     },
     "trend": [
-      {
-        "date": "2026-09-01",
-        "score": 0.583,
-        "count": 2
-      },
       {
         "date": "2026-09-02",
         "score": -0.072,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-09-08",
-        "score": -0.022,
-        "count": 12
+        "score": -0.06,
+        "count": 14
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 64 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 22 negatywnych, 24 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 64 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 23 negatywnych, 25 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wyniki",
@@ -89,6 +84,10 @@
         "count": 4
       },
       {
+        "word": "analiza",
+        "count": 3
+      },
+      {
         "word": "jaki",
         "count": 3
       },
@@ -103,14 +102,38 @@
       {
         "word": "przy",
         "count": 3
-      },
-      {
-        "word": "dolek",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75711941",
+      "author": "Folmans",
+      "postedAt": "2026-09-08 22:13",
+      "threadTitle": "Re: analiza graficzna szortoow na Kruku 06-09",
+      "url": "https://www.bankier.pl/forum/temat_analiza-graficzna-szortoow-na-kruku-06-09,75686351.html",
+      "body": "Dzieje sie duzo na króty, analiza to pokazała.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75711753",
+      "author": "Takitam",
+      "postedAt": "2026-09-08 21:47",
+      "threadTitle": "Re: jak wyprowazic w pole sztuczną inteligencję hokeisty?",
+      "url": "https://www.bankier.pl/forum/temat_analiza-graficzna-szortoow-na-kruku-06-09,75686351.html",
+      "body": "Ten short to tylko na jakieś 42 mln malutki bez większego znaczenia by się mogło wydawać",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75709973",
       "author": "Aureliano",
@@ -413,7 +436,7 @@
       "url": "https://www.bankier.pl/forum/temat_analiza-graficzna-szortoow-na-kruku-06-09,75686351.html",
       "body": "Zobacie co sie wydarzylo pod koniec sierpniahttps://x.com/GPW_Trader2022/status/2096591507000095154",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -978,34 +1001,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75630303",
-      "author": "Magellan",
-      "postedAt": "2026-09-01 21:18",
-      "threadTitle": "Re: Wycena",
-      "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
-      "body": "Ja dziś kupiłem lpp pierwsze kęsy",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75630241",
-      "author": "Kurator",
-      "postedAt": "2026-09-01 21:13",
-      "threadTitle": "Re: Wycena",
-      "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
-      "body": "Giełda to gra . Ja dzisiaj dokupiłem.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }
