@@ -3,11 +3,11 @@
   "companyName": "CD PROJEKT RED Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-red-spolka-akcyjna,6,21,353.html",
-  "updatedAt": "2026-09-09T16:37:45.355Z",
+  "updatedAt": "2026-09-09T20:55:35.879Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-09T16:37:45.355Z",
+    "fetchedAt": "2026-09-09T20:55:35.879Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,77 +15,516 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.086,
-    "confidence": 0.73,
+    "score": 0.028,
+    "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 67,
-      "negative": 45,
-      "neutral": 88
+      "positive": 59,
+      "negative": 54,
+      "neutral": 87
     },
     "trend": [
       {
+        "date": "2026-09-03",
+        "score": 0.327,
+        "count": 3
+      },
+      {
         "date": "2026-09-07",
-        "score": 0.095,
-        "count": 18
+        "score": 0.167,
+        "count": 11
       },
       {
         "date": "2026-09-08",
-        "score": 0.096,
-        "count": 65
+        "score": 0.04,
+        "count": 38
       },
       {
         "date": "2026-09-09",
-        "score": 0.044,
-        "count": 117
+        "score": -0.01,
+        "count": 148
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (67 pozytywnych, 45 negatywnych, 88 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (59 pozytywnych, 54 negatywnych, 87 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
+        "word": "roku",
+        "count": 15
+      },
+      {
         "word": "wiedzmina",
-        "count": 16
-      },
-      {
-        "word": "przy",
-        "count": 16
-      },
-      {
-        "word": "zeby",
         "count": 15
       },
       {
         "word": "projekt",
-        "count": 15
-      },
-      {
-        "word": "roku",
         "count": 13
       },
       {
-        "word": "swiecie",
-        "count": 11
+        "word": "przy",
+        "count": 12
       },
       {
-        "word": "gier",
-        "count": 11
+        "word": "zeby",
+        "count": 12
       },
       {
         "word": "milionow",
+        "count": 11
+      },
+      {
+        "word": "ktos",
         "count": 10
       },
       {
-        "word": "rynek",
+        "word": "mial",
         "count": 10
       },
       {
-        "word": "projektu",
+        "word": "remaster",
         "count": 10
+      },
+      {
+        "word": "premiery",
+        "count": 9
       }
     ]
   },
   "comments": [
+    {
+      "id": "75725057",
+      "author": "wyrocznia_z_wall",
+      "postedAt": "2026-09-09 22:27",
+      "threadTitle": "Re: Obroty na dogrywce",
+      "url": "https://www.bankier.pl/forum/temat_obroty-na-dogrywce,75723823.html",
+      "body": "dlatego wygląda mi to na +3 jutro",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75724863",
+      "author": "Mariusz",
+      "postedAt": "2026-09-09 22:02",
+      "threadTitle": "Re: Obroty na dogrywce",
+      "url": "https://www.bankier.pl/forum/temat_obroty-na-dogrywce,75723823.html",
+      "body": "Ktoś delikatnie broni kurs, woli kupić taniej, ale wie że taka okazja jest dobra.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75724785",
+      "author": "Ggg",
+      "postedAt": "2026-09-09 21:50",
+      "threadTitle": "Re: Boje sie że to jebnie na 150!",
+      "url": "https://www.bankier.pl/forum/temat_boje-sie-ze-to-jebnie-na-150,75723205.html",
+      "body": "Na tej spółce to już dosłownie im gorzej tym lepiej XD",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75724697",
+      "author": "Mariusz",
+      "postedAt": "2026-09-09 21:38",
+      "threadTitle": "Re: Typowy spadek na akcjach CDR przed i po premierze",
+      "url": "https://www.bankier.pl/forum/temat_typowy-spadek-na-akcjach-cdr-przed-i-po-premierze,75723055.html",
+      "body": "Ja mam akcje i tym się różnimy.Ale Was tu się namnożyło, im bardziej spadnie to po 29 urośnie i do 2030 może być ponad 1000.Ta górka 266 nie zrobiła na mnie wrażenia i jakby było po 350 to bym sprzedał, bo korekta na szybko mogľa by być koło 300 lub trochę niżej, bo wiem jakie macie ciśnienie szhorciki. Teraz to możecie odkup robić.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75724685",
+      "author": "Banan",
+      "postedAt": "2026-09-09 21:36",
+      "threadTitle": "Re: to samo było w marcu 2026 na wykresie co teraz",
+      "url": "https://www.bankier.pl/forum/temat_to-samo-bylo-w-marcu-2026-na-wykresie-co-teraz,75723163.html",
+      "body": "Hahahahaha klepu kelpu po PLECACH :)Leci o leci i pewnie jeszcze poleci.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75724447",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-09-09 21:08",
+      "threadTitle": "Re: Boje sie że to jebnie na 150!",
+      "url": "https://www.bankier.pl/forum/temat_boje-sie-ze-to-jebnie-na-150,75723205.html",
+      "body": "Masz racje. Tylko czy nie lepiej to pogonić i czekać przy 150 a puźniej przy 80 złoty? Wience akcji byśmy mieli kolego. Tak muwie ale ja Reduw akcji nie umiem sprzedać. To jak bym kogoś z rodziny sprzedał. Chyba że bendom po 5 tysiency.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75724449",
+      "author": "bessa",
+      "postedAt": "2026-09-09 21:08",
+      "threadTitle": "Re: Typowy spadek na akcjach CDR przed i po premierze",
+      "url": "https://www.bankier.pl/forum/temat_typowy-spadek-na-akcjach-cdr-przed-i-po-premierze,75723055.html",
+      "body": "Wsparcie trzeszczy i 200 będzie złamane to tylko kwestia czasu kiedy",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75724313",
+      "author": "Cirianka",
+      "postedAt": "2026-09-09 20:55",
+      "threadTitle": "Re: Boje sie że to jebnie na 150!",
+      "url": "https://www.bankier.pl/forum/temat_boje-sie-ze-to-jebnie-na-150,75723205.html",
+      "body": "Czego sie tu bac? Raczej spadek na 150 jeszcze przed premiera Songs Of The Past i Witcher 4 bylby nielada prezentem dla akcjonariuszy, ja bym dobierał pod korek. Takze zamiast sie bac polecalbym sie cieszyc wtedy ;d",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75724301",
+      "author": "Jdksks",
+      "postedAt": "2026-09-09 20:53",
+      "threadTitle": "Re: Typowy spadek na akcjach CDR przed i po premierze",
+      "url": "https://www.bankier.pl/forum/temat_typowy-spadek-na-akcjach-cdr-przed-i-po-premierze,75723055.html",
+      "body": "Aj kabys juz kipil to by wyszlo, ze rezygnują z silnika UE, wracaja do swojego przez co premiery przesunięte o X lat. Akcje dalej w dol o kolejne 50 procent i w perspektywie wieloletnia nieufnośc inwestorów do cdp z brakiem szans na dawne maksyma. a ty umoczony na kolejne kilka lat z kredytem do spłaty xd",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75724255",
+      "author": "Cirianka",
+      "postedAt": "2026-09-09 20:50",
+      "threadTitle": "Re: Obroty na dogrywce",
+      "url": "https://www.bankier.pl/forum/temat_obroty-na-dogrywce,75723823.html",
+      "body": "\"realizacja zysków\" z czego XD predzej ktos juz nie wytrzymal tej konsoli po ponad roku i oddal na stracie",
+      "votes": {
+        "up": 3,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75724239",
+      "author": "Cirianka",
+      "postedAt": "2026-09-09 20:48",
+      "threadTitle": "Re: Typowy spadek na akcjach CDR przed i po premierze",
+      "url": "https://www.bankier.pl/forum/temat_typowy-spadek-na-akcjach-cdr-przed-i-po-premierze,75723055.html",
+      "body": "Pięknie by było... zastawillbym dom i ładował do wora. Nawet nie potrzebuje 90% nizej wystarczy mi 120-130 cena.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75723975",
+      "author": "Dddd",
+      "postedAt": "2026-09-09 20:22",
+      "threadTitle": "Re: Typowy spadek na akcjach CDR przed i po premierze",
+      "url": "https://www.bankier.pl/forum/temat_typowy-spadek-na-akcjach-cdr-przed-i-po-premierze,75723055.html",
+      "body": "Tak bedzie pon 2zł , bo Ty tak mowisz :D",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75723941",
+      "author": "Zdzisław_Męczywór",
+      "postedAt": "2026-09-09 20:16",
+      "threadTitle": "Re: Obroty na dogrywce",
+      "url": "https://www.bankier.pl/forum/temat_obroty-na-dogrywce,75723823.html",
+      "body": "realizacja zysków :)ty to jesteś śmieszek",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75723823",
+      "author": "niedźwiadek",
+      "postedAt": "2026-09-09 20:01",
+      "threadTitle": "Obroty na dogrywce",
+      "url": "https://www.bankier.pl/forum/temat_obroty-na-dogrywce,75723823.html",
+      "body": "Obroty na dogrywce są bardzo duże - 50 milionów zł. Szczególnie rzuca się w oczy jedna transakcja - prawie 100 tys akcji.Ciekaw jestem co będzie jutro, gdyż dzisiejsza sesja nie zapowiada nic dobrego. To nie jest tylko realizacja zysków.",
+      "votes": {
+        "up": 3,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75723805",
+      "author": "Ggg",
+      "postedAt": "2026-09-09 19:58",
+      "threadTitle": "Re: 240 no to szorciki",
+      "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
+      "body": "No no, a spadek o 7% kolejnego dnia jak to ogłosili to zbieg okoliczności był po prostu. Jest mi przykro że muszę dorosłym ludziom takie rzeczy tłumaczyć - to że oficjalnie nie ogłosili na social mediach roku premiery nie znaczy że nie mieli pewnych założeń… na podstawie programu motywacyjnego, informacji z wewnątrz firmy i innych źródeł można łatwo połączyć kropki ze W4 miał być początkowo w 2027. To już nawet nie jest jakaś insiderska wiedza - co drugi portal inwestycyjny i gamingowy o tym pisze. Aż dziwne że ktoś się jeszcze uchował kto twardo twierdzi że “nigdy nie mówili że będzie w 2027”. Jeśli masz takie rozumienie otaczającej Cię rzeczywistości to serio współczuję",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75723677",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-09-09 19:46",
+      "threadTitle": "Re: Ja mam czas i czekam na 5 tysiency!!!!!!!!",
+      "url": "https://www.bankier.pl/forum/temat_ja-mam-czas-i-czekam-na-5-tysiency,75723473.html",
+      "body": "Ja się boje Zdzisław że to jebnie na 150 bo tak muwiom i śmiali się na innym forum z tego ostatniego wzrostu Reduw.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75723473",
+      "author": "Zdzisław",
+      "postedAt": "2026-09-09 19:25",
+      "threadTitle": "Ja mam czas i czekam na 5 tysiency!!!!!!!!",
+      "url": "https://www.bankier.pl/forum/temat_ja-mam-czas-i-czekam-na-5-tysiency,75723473.html",
+      "body": "Jestem longiem i mam 16 akcji i sprzedam je za naj mniej za 80 tysiency albo wiencej i ja mam czas a brałem po 420 złotych a ci co sie nie znajom brali po 470 złotych a ja sie znam i brałem taniej i ja sie z nich teraz śmiejem!!!!!!!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75723457",
+      "author": "Ehh",
+      "postedAt": "2026-09-09 19:24",
+      "threadTitle": "Re: Czuć już że chłodkiem powiewa - 150 za rogiem ?",
+      "url": "https://www.bankier.pl/forum/temat_czuc-juz-ze-chlodkiem-powiewa-150-za-rogiem,75723279.html",
+      "body": "Będzie 20..m czuć nawozem w twoich gaciach.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75723421",
+      "author": "Ehh",
+      "postedAt": "2026-09-09 19:19",
+      "threadTitle": "Re: 240 no to szorciki",
+      "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
+      "body": "Daj spokój trolliszczu.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75723319",
+      "author": "Jupit",
+      "postedAt": "2026-09-09 19:07",
+      "threadTitle": "Re: 240 no to szorciki",
+      "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
+      "body": "Ggg, opóźnienie to Ty chyba masz, ale w rozwoju.Nie było daty premiery i nadal jej nie ma (poza przybliżoną).",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75723311",
+      "author": "TriAmigos",
+      "postedAt": "2026-09-09 19:06",
+      "threadTitle": "Re: Typowy spadek na akcjach CDR przed i po premierze",
+      "url": "https://www.bankier.pl/forum/temat_typowy-spadek-na-akcjach-cdr-przed-i-po-premierze,75723055.html",
+      "body": "Ty jesteś taki śmieszny od urodzenia czy ktoś Ci za to płaci?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75723299",
+      "author": "Jupit",
+      "postedAt": "2026-09-09 19:05",
+      "threadTitle": "Re: 240 no to szorciki",
+      "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
+      "body": "Mariusz, \"chandel\", bój się Boga.Jak te 65 milionów osób, które zakupiły W3, mają według Ciebie nakręcić sprzedaż W3? Kupią jeszcze raz?Dostaną gratis dodatki i może sięgną po Pieśni Przeszłości, ale nie po podstawkę.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75723279",
+      "author": "Koko",
+      "postedAt": "2026-09-09 19:02",
+      "threadTitle": "Czuć już że chłodkiem powiewa - 150 za rogiem ?",
+      "url": "https://www.bankier.pl/forum/temat_czuc-juz-ze-chlodkiem-powiewa-150-za-rogiem,75723279.html",
+      "body": "Jak już wczesniej pisałem jestem bardzo cierpliwy . A czasy promocji juz powoli odciskają swoje piętno . To jak po niżej 200zł dacie ? JASNE ze tak .... Czekam .",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75723205",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-09-09 18:54",
+      "threadTitle": "Boje sie że to jebnie na 150!",
+      "url": "https://www.bankier.pl/forum/temat_boje-sie-ze-to-jebnie-na-150,75723205.html",
+      "body": "Na prawdę się boje tych silnych ronk.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75723201",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-09-09 18:53",
+      "threadTitle": "A wiecie że ten Re: Master bendzie za darmo?",
+      "url": "https://www.bankier.pl/forum/temat_a-wiecie-ze-ten-re-master-bendzie-za-darmo,75723201.html",
+      "body": "I Redzi na tym pewnie nic nie zarobiom na tym. Oni som dziwni i ja już czekam prawie 12 lat na Wiedźmina 4 i boję się że oni bendom robić go kolejne 12 lat.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75723165",
+      "author": "Mariusz",
+      "postedAt": "2026-09-09 18:50",
+      "threadTitle": "na akcjach CDR szykuje się bomba w górę po 29 września",
+      "url": "https://www.bankier.pl/forum/temat_typowy-spadek-na-akcjach-cdr-przed-i-po-premierze,75723055.html",
+      "body": "Ta twoja sekta pismaków o spadkach to z domu wariatów uciekła?",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75723163",
+      "author": "Nowy",
+      "postedAt": "2026-09-09 18:50",
+      "threadTitle": "to samo było w marcu 2026 na wykresie co teraz",
+      "url": "https://www.bankier.pl/forum/temat_to-samo-bylo-w-marcu-2026-na-wykresie-co-teraz,75723163.html",
+      "body": "te same zabawy, te same kicanie wokół 230 zł. Jeszcze chwila, jeszcze kilka dni, a może dzień i definitywnie ruszamy w górę pod remaster W3 i pod Edgerunners.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75723151",
+      "author": "AkcjoMariusz",
+      "postedAt": "2026-09-09 18:48",
+      "threadTitle": "Re: Mogłem sprzedać po 240. Muj kolega mi muwił że to jebnie",
+      "url": "https://www.bankier.pl/forum/temat_moglem-sprzedac-po-240-muj-kolega-mi-muwil-ze-to-jebnie,75717877.html",
+      "body": "W sumie racja. Poczekam aż podbijom pod 240 i sprzedaje to. Odkupiem poniżej 220. A w międzyczasie zarobiem na azotach i modivo.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75723125",
+      "author": "Mb",
+      "postedAt": "2026-09-09 18:45",
+      "threadTitle": "Re: Mogłem sprzedać po 240. Muj kolega mi muwił że to jebnie",
+      "url": "https://www.bankier.pl/forum/temat_moglem-sprzedac-po-240-muj-kolega-mi-muwil-ze-to-jebnie,75717877.html",
+      "body": "Albo najpierw jedno potem drugie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75723055",
+      "author": "AkcjoPatryk",
+      "postedAt": "2026-09-09 18:39",
+      "threadTitle": "Typowy spadek na akcjach CDR przed i po premierze",
+      "url": "https://www.bankier.pl/forum/temat_typowy-spadek-na-akcjach-cdr-przed-i-po-premierze,75723055.html",
+      "body": "Uprzedzałem, że tutaj możliwy spadek 90%, już jest ok 20% od górki, a będzie tylko lepiej, więc zapnijcie pasy, bo czeka nas jazda bez trzymanki",
+      "votes": {
+        "up": 5,
+        "down": 5
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75723029",
+      "author": "pies",
+      "postedAt": "2026-09-09 18:36",
+      "threadTitle": "No to jutro misiaczki rozmieniamy 230 i hop na 200.",
+      "url": "https://www.bankier.pl/forum/temat_no-to-jutro-misiaczki-rozmieniamy-230-i-hop-na-200,75723029.html",
+      "body": "Nie ma zmiłuj się, pan shorcik da wam nauczkę że was powyrywa że skarpet. Pójdziecie boso.",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75722977",
       "author": "Mb",
@@ -108,7 +547,7 @@
       "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
       "body": "Bzdury piszesz i nie znasz się na chandlu.65 000 000 ta banda jest nie do pokonania i ona nakręcić dodatkową ogromną sprzedaż W3.Na razie niema remastera, ale zrozumiesz po 29 września.",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -165,7 +604,7 @@
       "body": "Chyba co powiem czas trzeba przypominać - rynek ma w dpie tego remastera do 12 letniej gry i marketingowego belkotu ile streamerow bedzie to pokazywało. To wszystko jest po to żeby lepiej sprzedał sie dodatek i W4. A żeby się sprzedał to musi zostać wyprodukowany. I tu dochodzimy do sedna - rynek widzi opóźnienia i wciąż brak nawet kwartału wydania.",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -178,8 +617,8 @@
       "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
       "body": "Remaster darmowy i wszyscy co mają W3 go pobiorą to jakieś 65milionów odbiorców.Będą się chwalić tym jak im działa W3 z nowym remasterem, będą o tym niezliczone ilości filmów itdTo jest prawie 12 letnia gra i już urosło nowe pokolenie które może kupić W3 z darmowym remasterem.Nie znasz się na chandlu te 65 milionów posiadaczy W3 zrobi takie hype na W3 że jego dalsza sprzedaż może być ogromną!",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 5,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -192,7 +631,7 @@
       "url": "https://www.bankier.pl/forum/temat_redzi-sprzedali-ponad-130-milionow-kopii-swoich-gier,75712301.html",
       "body": "Fajnie się rzuca hasłami o „spisku szorciarzy” i „naiwnym Sony”, ale ten wywód leży merytorycznie na każdym możliwym poziomie. Rozbierzmy te mity na czynniki pierwsze:​1. Certyfikacja Sony to nie jest test jakości gry (QA)Certyfikacja TRC (Technical Requirements Checklist) na konsolach PlayStation sprawdza wyłącznie podstawową kompatybilność z systemem: czy gra nie zawiesza systemu operacyjnego konsoli, czy trofea wpadają poprawnie, a zapisy w chmurze i profile sieciowe działają bez błędów. Testerzy certyfikujący platformy nie oceniają, czy gra trzyma 30 klatek w centrum miasta i czy doczytują się tekstury.​Co więcej — sam zarząd CD Projektu przyznał to publicznie podczas telekonferencji z inwestorami 14 grudnia 2020 roku. Padło tam wprost stwierdzenie, że Sony i Microsoft dopuściły grę na kredyt zaufania, wierząc zapewnieniom Redów, że błędy wydajnościowe zostaną naprawione w premierowej łatce. Zarząd nadużył tego zaufania, więc robienie teraz z Sony współwinnego to czyste zaklinanie rzeczywistości.​2. Wycofanie z PlayStation Store było reakcją na cwaniactwo, a nie na same bugiNiedopracowane produkcje wychodzą na konsole regularnie i nikt ich z tego powodu ze sklepów nie wyrzuca. Cyberpunk 2077 wyleciał z PS Store jako jedyny tytuł AAA w historii z zupełnie innego powodu: zarząd CDPR w oficjalnym komunikacie odesłał miliony wściekłych graczy po zwroty pieniędzy bezpośrednio do Sony i Microsoftu — robiąc to całkowicie za plecami właścicieli platform i bez żadnego porozumienia z nimi. Zepchnęli gigantyczne koszty operacyjne, logistyczne i wizerunkowe na cudzy sklep, łamiąc restrykcyjną politykę zwrotów PlayStation. Sony po prostu zamknęło ten cyrk i zablokowało sprzedaż, żeby odciąć falę roszczeń.​3. „Zwykłe błędy premierowe”? LitościTypowy błąd premierowy to przenikający przez ścianę NPC, lewitujący kubek albo zglitchowana animacja. Stan techniczny na konsolach poprzedniej generacji to była agonia: spadki do kilkunastu klatek na PS4, dynamiczna rozdzielczość szorująca po 720p, geometria budynków doczytująca się po kilkudziesięciu sekundach i regularne crashe co godzinę.​W testach Digital Foundry na bazowym Xboxie One gra w jednej z alejek dosłownie zamarła w miejscu na niemal pełną minutę, bo silnik streamingu nie był w stanie przepchnąć danych przez powolny dysk. Konsola wisiała na okrągłym 0 FPS, zanim w ogóle ruszyła dalej. Nazywanie kompletnego paraliżu gry „zwykłym błędem premierowym” to kpina z graczy — zwłaszcza że tytuł zapowiedziano w maju 2012 roku, jeszcze zanim PS4 i Xbox One w ogóle trafiły do sklepów. Mieli całą generację sprzętu na zoptymalizowanie silnika.​4. Mit o „nagonce dla klików i szortowaniu spółki”Gdyby stan techniczny gry był zmyśloną medialną nagonką, zarząd nie stosowałby bezprecedensowej cenzury przedpremierowej. Recenzenci na całym świecie dostali wyłącznie kody na potężne pecety i bezwzględny zakaz publikowania własnych materiałów wideo — wolno było pokazywać tylko wyselekcjonowane fragmenty dostarczone przez samo CDPR. Wersje konsolowe ukrywano celowo aż do momentu, gdy zeszły pierwsze miliony preorderów, podczas gdy prezes Kiciński zapewniał akcjonariuszy, że wersje na starą generację działają „zaskakująco dobrze”.​Dorabianie teorii spiskowych o „ataku na jedyną solidną spółkę” w sytuacji, gdy zarząd cynicznie wypchnął na rynek produkt niegotowy, byle zdążyć na świąteczne żniwa i zamknąć rok finansowy, to nie jest obrona polskiego gamedevu — to czysty syndrom sztokholmski.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -220,7 +659,7 @@
       "url": "https://www.bankier.pl/forum/temat_do-29-wrzesnia-coraz-blizej,75721343.html",
       "body": "Podmioty zrzucają nerwowo kurs bo za 3 tygodnie darmowy remaster. Tak było, nie zmyślam.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -248,25 +687,11 @@
       "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
       "body": "Mariuszek już szaleje, premiera darmowego remastera to i kurs to dyskontuje. 232 heheheh. Pamiętam, że wyłeś przed gamescom jaki będzie wystrzał, ależ bawi.",
       "votes": {
-        "up": 1,
-        "down": 1
+        "up": 2,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75722155",
-      "author": "Ggg",
-      "postedAt": "2026-09-09 17:23",
-      "threadTitle": "Re: Do 29 września coraz bliżej...",
-      "url": "https://www.bankier.pl/forum/temat_do-29-wrzesnia-coraz-blizej,75721343.html",
-      "body": "Miara sukcesu dla Hmm to zakup lambo. I jak Ciebie szanować skoro Ty jesteś tak małym umysłem? Mało Cię było przez ostatnie dwa dni (zielone). Liczyłeś ile stuleci pisać będziesz posty na bankierze aby iść moc zamówić lambo?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75722159",
@@ -283,6 +708,20 @@
       "sentimentLabel": "Negative"
     },
     {
+      "id": "75722155",
+      "author": "Ggg",
+      "postedAt": "2026-09-09 17:23",
+      "threadTitle": "Re: Do 29 września coraz bliżej...",
+      "url": "https://www.bankier.pl/forum/temat_do-29-wrzesnia-coraz-blizej,75721343.html",
+      "body": "Miara sukcesu dla Hmm to zakup lambo. I jak Ciebie szanować skoro Ty jesteś tak małym umysłem? Mało Cię było przez ostatnie dwa dni (zielone). Liczyłeś ile stuleci pisać będziesz posty na bankierze aby iść moc zamówić lambo?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "75722151",
       "author": "Makarov",
       "postedAt": "2026-09-09 17:22",
@@ -291,7 +730,7 @@
       "body": "Łap dalej łap , łapy wam pourywa. +3? Jutro hahahahah lepiej zapnij pasy.",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -360,7 +799,7 @@
       "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
       "body": "Ty bránku kwadratowy, widziałeś kiedyś taką kasę jak wczoraj poszło o około 11:30 żeby zjeść ten wodospad.Tak bez powodu ktoś te akcje kupił w około minutę, chociaż mógł kupić taniej.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -430,7 +869,7 @@
       "url": "https://www.bankier.pl/forum/temat_jakos-dziwnie-jestem-spokojny-ze-jutro-odbicie-3,75721715.html",
       "body": "ja dokupiłem na fixingu :)",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0.762,
@@ -472,7 +911,7 @@
       "url": "https://www.bankier.pl/forum/temat_do-29-wrzesnia-coraz-blizej,75721343.html",
       "body": "tak tak misiu, tak jak wszystkie eventy w maju czerwcu lipcu sierpniu :D:D:D:D każdy kolejny podbija notowania że w salonie z lambo mają zamówienia do 2029 tak zarobiony akcjonariat cdr jest :D:D:D",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 2
       },
       "sentimentScore": 0,
@@ -487,7 +926,7 @@
       "body": "Hmm to obecnie jeden z naczelnych płatnych spadzi, trollisko.",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -500,7 +939,7 @@
       "url": "https://www.bankier.pl/forum/temat_do-29-wrzesnia-coraz-blizej,75721343.html",
       "body": "Jakbym miał tylko przez ostatnie 2 miesiące zapisywać te momenty po których już “lecimy na pincet” to chyba już bym cały zeszyt zapisał XD",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 2
       },
       "sentimentScore": -0.322,
@@ -515,7 +954,7 @@
       "body": "Oho, nerwy puszczają",
       "votes": {
         "up": 3,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -528,7 +967,7 @@
       "url": "https://www.bankier.pl/forum/temat_do-29-wrzesnia-coraz-blizej,75721343.html",
       "body": "Tak bedzie, zapisz sobie ten post. Hype na wiedzmina jest ogromny.",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -543,7 +982,7 @@
       "body": "> Przestańmy udawać, że wierzymy, że zarząd nie wiedział jaką grę puszczają na konsole. Jest to skrajnie naiwne. Z drugiej strony jeżeli nie wiedzieli to jeszcze gorzej o nich świadczy. Tyle w tym temacie. Zarząd musiał wiedzieć bo miał narzędzie do sprawdzenia tego.Droga mamoA co powiesz, że np równie naiwnie „nie wiedziało Sony\", które wydaje certyfikacje nowym grom na PS?xDPrzecież na premierę WSZYSCY WIEDZĄ, że były, są i zawsze będą - tzw „błędy premierowe\" - bo wszystkie duże gry zawsze je mają! No a udawanie, że wierzymy właścicielom platform - dającym zezwolenie/certyfikat na rzekomo „niegrywalną\" wersję - to już komedia skrajnie naiwnej hipokryzji i to dla niepełnosprawnych umysłowo!Sony mówi: Dałem zgodę... i nawet się z nią NIE ZGADZAM! xDDDDDPrzecież wszyscy wiedzą, że to była dość prymitywna i grubymi nićmi szyta nagonka! A teraz wszyscy udają, że nastąpiło jakieś „odkupienie\" byle nie przyznać się do winy w przyłączeniu się do ataku na Redów dla klikalności ! Albo dla oszukańczego czerpania zysków giełdowych na szortowaniu jedynej solidnej spółki w WIG20.. Tutaj dopiero można mówić o oszustwie!xD",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 4
       },
       "sentimentScore": -0.964,
       "sentimentLabel": "Negative"
@@ -571,7 +1010,7 @@
       "body": "Ja Baranku wspomne że jestesmy po gamescom i rewelacyjnych wynikach i szorujemuy po dnie... a zaraz jest przebitka na nowe dno xD",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -584,7 +1023,7 @@
       "url": "https://www.bankier.pl/forum/temat_do-29-wrzesnia-coraz-blizej,75721343.html",
       "body": "Widać, że to zrzucanie kursu w takich nerwowych ruchach, to podrygi podmiotów, ktore są świadome co wydarzy się 29 września, a w tym dniu Wiedzmin pobije wszystkie gry z tego roku w ilości graczy na steam, a sprzedaż wystrzeli. To bedzie preludium do tego co wydarzy się po premierze dodatku do W3.",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -626,7 +1065,7 @@
       "url": "https://www.bankier.pl/forum/temat_klasyczek,75721013.html",
       "body": "Nie zesraj sie",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 3
       },
       "sentimentScore": 0,
@@ -641,7 +1080,7 @@
       "body": "Klasycznie perełka pierwsza do spadków przy słabym rynku i ostatnia do wzrostów przy mocnym. Myślę że już chyba jasne po dzisiaj że spotkanie z 200 nieuniknione w tym roku.",
       "votes": {
         "up": 5,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -654,7 +1093,7 @@
       "url": "https://www.bankier.pl/forum/temat_redzi-sprzedali-ponad-130-milionow-kopii-swoich-gier,75712301.html",
       "body": "Przestańmy udawać, że wierzymy, że zarząd nie wiedział jaką grę puszczają na konsole. Jest to skrajnie naiwne. Z drugiej strony jeżeli nie wiedzieli to jeszcze gorzej o nich świadczy. Tyle w tym temacie. Zarząd musiał wiedzieć bo miał narzędzie do sprawdzenia tego.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 4
       },
       "sentimentScore": -0.583,
@@ -668,7 +1107,7 @@
       "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
       "body": "Nie udało się Wam miało spaść do 220 niestety ktoś połknoł ten pakiecik 247 kilo spadających akcji i przestawić wajchę.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -696,7 +1135,7 @@
       "url": "https://www.bankier.pl/forum/temat_czym-jest-dom-medialny-ktorym-staje-sie-cd-projekt,75663435.html",
       "body": "Płatny cyniczny nagan-iaczu :-)Zapoznałeś się już z artykułem w PB czy podesłać linka ?",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -710,7 +1149,7 @@
       "url": "https://www.bankier.pl/forum/temat_redzi-sprzedali-ponad-130-milionow-kopii-swoich-gier,75712301.html",
       "body": "Płatny cyniczny nagan-iaczu :-) Bo miotasz się - dwa proste pytania:Czy to prawda co napisał Puls Biznesu odnośnie premiery CP2077?\"Rynek zrozumiał, że wcześniejszy, sterylnie zarządzany przekaz marketingowy zupełnie rozmijał się ze stanem faktycznym. Inwestorzy uświadomili sobie, że brak recenzji wersji konsolowych przed premierą był celowym zabiegiem – miał ukryć skalę problemów technicznych.\"Czytałeś? Czy podesłać linka? :-)Czyżby firma świadomie sprzedawała półbubla w kwestii technicznej a brała pieniądze jak za pełnowartościowy produkt?Czy to prawda że Marcin Iwiński przepraszał za fatalny stan gry CP2077?Czy podesłać linka? :-)Wszędzie spekulanci, drobne złodziejaszki i oszuści? Prawda cyniczny nagan-iaczu? :-)Może podesłać linki jak na premierze wyglądała wersja na konsole?",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 4
       },
       "sentimentScore": -0.762,
@@ -724,7 +1163,7 @@
       "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
       "body": "Skąd się Was tyłu wzięło na tym blogu.Odpowiem, braloście krótkie bo nie miało być remastera i teraz nie wiecie co dalej robić, bo czasu do premiery 29 tego miesiąca jest coraz mniej.Wpis za wpisem, chcecie zaczarować rzeczywistość.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0,
@@ -738,7 +1177,7 @@
       "url": "https://www.bankier.pl/forum/temat_news-redzi-biora-udzial-w-konferencji-goldman-sachs-communacopia,75712357.html",
       "body": "Płatny cyniczny nagan-iaczu :-) Może warto było by na tej konferencji \"pochwalić się\"Co napisał Puls Biznesu odnośnie premiery CP2077?\"Rynek zrozumiał, że wcześniejszy, sterylnie zarządzany przekaz marketingowy zupełnie rozmijał się ze stanem faktycznym. Inwestorzy uświadomili sobie, że brak recenzji wersji konsolowych przed premierą był celowym zabiegiem – miał ukryć skalę problemów technicznych.\"Czytałeś? Czy podesłać linka? :-)Czy to prawda że Marcin Iwiński przepraszał za fatalny stan gry CP2077?Czy podesłać linka? :-)Wszędzie spekulanci, drobne złodziejaszki i oszuści? Prawda cyniczny nagan-iaczu? :-)Może podesłać linki jak na premierze wyglądała wersja na konsole?",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 3
       },
       "sentimentScore": -0.583,
@@ -753,7 +1192,7 @@
       "body": "> Po takim info, to podobno na Książecej już pracują, żeby zrobić ewenement WWIIGG1 , gdzie notowany będzie tylko CDR !> Od 2027 roku....> a poważniej gorszego waloru na WIG20 nie ma w tym roku, oh ah i eh. Pisałem kilka razy, że gdyby byli w WIG40 to byłyby szczyty szczytów, a tak obrywa walor za wszystkie notowane perły SP, rykoszet \"zazdrości\" :)> pozdrawiam cierpliwych co widzą to ATH za rok,może dwa :)@bywalecWWIIGG1 brzmi dumnie.... ale z dwojga złego wolę CDR w WIG20 niż kiszenie się w WIG40. Na ATH poczekamy, aż wejdzie marketing Wiedźmina 4 na pełnej ku*wie. Do tego czasu można po prostu dokupować na dołkach i polecam melisę pić.xD",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -850,7 +1289,7 @@
       "url": "https://www.bankier.pl/forum/temat_naganowa-konferencja-u-goldmanow-jak-widze-idzie-fantastycznie-d-d,75720337.html",
       "body": "naczelny troll wzrostowy znowu robi z siebie pośmiewisko, a jego wyznawcy mu przyklaskują :):):):) nawet mi was nie żal",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 2
       },
       "sentimentScore": 0.322,
@@ -949,7 +1388,7 @@
       "body": "> To Ci co pożyczajom akcje szortom? Nie spodziewał bym się nic dobrego po tym spotkaniu. Boje się że znowu dadzom pożyczki szortom.Drogi mariuszku..Na GPW tylko CD Projekt ma „złoty bilet” na takiej klasy wydarzenie..!!Pewnie wszystkich Was zaskoczę? xD Ale warto wiedzieć, że CDR jest wyjątkiem na polskiej giełdzie, ponieważ jako jedyny spełnia wszystkie kluczowe warunki, na których spełnienie polscy potentaci paliwowi czy bankowi nie mają żadnych szans..!Udział to tylko pozorne zderzenie interesów, a CD Projekt bierze udział w tych konferencjach, ponieważ dla spółki giełdowej fundusze szortujące i inwestujące to dwie strony tego samego medalu.Występowanie przed analitykami Goldman Sachs w San Francisco nie jest formą „bratania się z wrogiem”, lecz realizacją precyzyjnych i chłodnych celów biznesowych.Za udziałem w konferencji przemawiają następujące argumenty: 1. Goldman Sachs to nie tylko „szorty”, to globalna brama do kapitału (Long)Chociaż ramię pożyczkowe banku obsługuje szorciarzy, jego kluczową rolą na konferencji jest pośrednictwo między spółkami a funduszami typu „Long” (które kupują akcje na lata, licząc na wzrosty).Konferencja Goldman Sachs to dla CD Projektu najlepsza możliwa okazja, by spotkać się w jednym miejscu z setkami największych funduszy emerytalnych i inwestycyjnych z USA.Zarząd „Redów” jedzie tam, by przekonać tych gigantów (np. BlackRock czy Fidelity) do kupowania akcji CDR. Im więcej dużych, stabilnych funduszy kupi akcje, tym kurs będzie stabilniejszy, a to automatycznie uderzy w szorciarzy. 2. Najlepsza obrona przed szortami to... dobra prezentacja dla rynkuParadoksalnie, najlepszym sposobem na walkę z funduszami grającymi na spadek cen akcji CD Projektu jest wyjście do tablicy i pokazanie twardych danych.Jeśli zarząd (Co-CEO Michał Nowakowski i CFO Piotr Nielubowicz) podczas paneli udowodnią, że produkcja Wiedźmina 4 (Polaris) idzie zgodnie z planem, a nadchodzący na 2027 rok dodatek Pieśni przeszłości ma już potężną trakcję, analitycy Goldman Sachs mogą podnieść rekomendację dla spółki.Gdy bank publikuje pozytywny raport (tzw. „Kupuj”), inwestorzy rzucają się na akcje. Wtedy fundusze szortujące wpadają w pułapkę (tzw. short squeeze) i muszą masowo odkupywać akcje ze stratą, co jeszcze bardziej winduje kurs CD Projektu. 3. Obowiązki informacyjne spółki publicznejJako spółka z indeksu WIG20, CD Projekt ma prawny i wizerunkowy obowiązek prowadzenia tzw. Relacji Inwestorskich (IR) na najwyższym światowym poziomie. Ignorowanie konferencji organizowanych przez jednego z trzech najważniejszych brokerów na globie byłoby uznane przez Wall Street za sygnał: „Mają coś do ukrycia, boją się trudnych pytań”. Transparentność i otwartość na dialog (nawet z instytucjami, które ułatwiają szortowanie) buduje długoterminowe zaufanie do marki.4. Myślenie o przyszłości (Potencjalne finansowanie lub akwizycje)CD Projekt ma obecnie gigantyczną poduszkę finansową, ale ich plany zakładają jednoczesne rozwijanie wielu uniwersów (w tym nowego IP Hadar czy bostońskiego Cyberpunka 2). Gdyby w przyszłości firma potrzebowała dokonać zakupu dużego, zagranicznego studia deweloperskiego lub wydać obligacje, to właśnie relacje zbudowane na konferencjach Goldman Sachs pozwolą im błyskawicznie pozyskać na to miliardy dolarów od amerykańskich partnerów.",
       "votes": {
         "up": 7,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.999,
       "sentimentLabel": "Positive"
@@ -962,8 +1401,8 @@
       "url": "https://www.bankier.pl/forum/temat_redzi-sprzedali-ponad-130-milionow-kopii-swoich-gier,75712301.html",
       "body": "Piękny festiwal zaklinania rzeczywistości, ale rzucanie mądrze brzmiącymi pojęciami z Wall Street nie zastąpi elementarnej wiedzy rynkowej. Sprowadźmy tę laurkę na ziemię:​1. To nie jest żaden „Attach Rate”Mylisz podstawowe pojęcia ekonomiczne. Attach rate to stosunek sprzedaży gry lub dodatku do bazy sprzętowej (np. konsol) albo do posiadaczy wersji podstawowej (Widmo Wolności do Cyberpunka), a nie suma ludzi, którzy kiedykolwiek przez ponad dekadę kupili cokolwiek od studia. Ktoś, kto kupił Wiedźmina 3 na wyprzedaży za 29 zł w 2019 roku, nie poleci automatycznie do sklepu po nową grę w dniu premiery za 350 zł. Statystyki osiągnięć na Steamie i PSN bezlitośnie pokazują, że niemal połowa nabywców nawet nie ukończyła głównego wątku fabularnego.​2. Mydlenie oczu ogonem sprzedażowym (back-catalogue)Liczba 130 milionów kopii ładnie wygląda na slajdzie, ale diabeł tkwi w cenie jednostkowej. Ten „ogon” to w znakomitej większości egzemplarze kupowane na przecenach rzędu -75% czy -85%. Odejmij od tego 30% marży platform (Steam, Sony, Microsoft) oraz podatki, a z tych milionów zostaje skromny ułamek kwoty premierowej. Back-catalogue stabilizuje bieżące funkcjonowanie, ale przy kosztach utrzymania setek deweloperów w Warszawie i Bostonie sam z siebie nie sfinansuje wieloletnich budżetów produkcyjnych.​3. 28 mln USD z Kickstartera to nie zysk CD ProjektuPodniecasz się zbiórką na karciankę Cyberpunk TCG, kompletnie ignorując konstrukcję umów licencyjnych. Te 28 milionów dolarów to przychód zewnętrznej firmy (WeirdCo), która musi z tego opłacić produkcję ton plastiku i papieru, logistykę, cła, platformę i marketing. CD Projekt dostaje z tego wyłącznie tantiemy – w branży standardowo w granicach 8–15%. Przestań przypisywać Redom cudze obroty jako czysty zysk.​4. Wishlista to nie zaksięgowana fakturaEkscytowanie się liczbą zapisów na liście życzeń dodatku to sprzedawanie marzeń zamiast twardych danych. Dodanie gry do wishlisty jest darmowe i kosztuje jedno kliknięcie myszką. Średnia rynkowa konwersja z wishlisty na realny zakup w premierowym tygodniu wynosi w branży raptem 10–20%.​5. Bzdura o „marginesie bezpieczeństwa”Twierdzenie, że baza sprzedanych gier uchroni kurs przed tąpnięciem, to ordynarne zakłamywanie faktów. W grudniu 2020 roku CD Projekt miał za sobą gigantyczny kult Wiedźmina 3 i dziesiątki milionów fanów na całym świecie. Wystarczyła jedna skopana premiera na konsole starej generacji, by kurs runął z 464 zł w okolice 80 zł – spadek o ponad 80%. Żadna „historyczna baza”, koszulki ani planszówki nie uchroniły wtedy inwestorów przed rzezią.​Wycena powyżej 230 zł za akcję dyskontuje bezbłędny, potężny sukces kolejnego hitu AAA, a nie sprzedaż przecenionych staroci, remasterów czy breloczków. Jeśli przy kolejnym dużym tytule pojawi się potknięcie, rynek zmiecie ten papier bez mrugnięcia okiem.",
       "votes": {
-        "up": 4,
-        "down": 7
+        "up": 5,
+        "down": 8
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -977,7 +1416,7 @@
       "body": "Każdy inwestor zastanawia się.. czy łączna ilość sprzedanych gier (ponad 130 mln) ma jakeś znaczenie - poza symboliczno-prestiżowym - dla akcji CD Projektu?A odpowiedź jest prozaiczna.. Tak!! Ta gigantyczna baza sprzedanych gier ma fundamentalne znaczenie dla wyceny giełdowej CD Projektu i dla profesjonalnych inwestorów jest czymś znacznie ważniejszym niż tylko prestiżowym „pucharem”. W świecie finansów i analiz giełdowych ta liczba przekłada się na konkretne, mierzalne korzyści ekonomiczne, które stabilizują kurs akcji i budują fundamenty pod przyszłe zyski.Dlaczego 130+ mln sprzedanych gier to twardy biznes dla Wall Street? 1. Potężny generator gotówki bez ponoszenia kosztów.W branży gier kluczowy dla inwestorów jest tzw. ogon sprzedażowy (back-catalogue). CD Projekt udowodnił, że ich gry nie umierają po premierze. Ponad 65 milionów sprzedanych sztuk samego Wiedźmina 3 oraz ponad 40 milionów Cyberpunka 2077 sprawiają, że firma generuje setki milionów złotych zysku w okresach, kiedy... nie wydaje żadnych nowych, dużych gier!!Wyniki z I połowy 2026 roku: CD Projekt wypracował 249 mln zł zysku netto (wzrost o 37% r/r), bazując niemal wyłącznie na ciągłej sprzedaży starszych gier.Dla akcjonariuszy to sygnał bezpieczeństwa: spółka ma stały dopływ gotówki, z której finansuje obecne, kosztowne produkcje - bez konieczności zadłużania się. 2. Gwarancja gigantycznego „Attach Rate” przy kolejnych premierach130 milionów sprzedanych licencji oznacza, że na całym świecie żyją dziesiątki milionów graczy, którzy już znają i cenią te marki. Dla analityków budujących modele wyceny akcji (np. przed premierą Wiedźmina 4 w zapowiadanym oknie na 2028 rok) ta baza to „rozgrzany rynek”.Gdy CD Projekt ogłasza nowy projekt, nie musi budować zaufania od zera. Przykładem jest zapowiedziany niedawno dodatek Songs of the Past do Wiedźmina 3 (premiera w 2027), który w zaledwie tydzień zebrał ponad 900 tysięcy zapisów na listach życzeń (wishlists). 3. Przejście na model licencjonowania IP (Wysokomarżowy strumień)Tak ogromna popularność gier pozwoliła wyjść markom CD Projektu daleko poza komputery i konsole. Dyrektor finansowy, Piotr Nielubowicz, podkreślił, że w I połowie 2026 roku przychody z licencjonowania IP (własności intelektualnej) osiągnęły aż 95 mln zł.Inwestorzy instytucjonalni uwielbiają ten segment: współprace komercyjne (np. z Apex Legends), gry planszowe, karciane (Kickstarter Cyberpunk TCG zebrał rekordowe 28 mln USD) czy nadchodzące anime Cyberpunk: Edgerunners 2 na Netflixie generują czysty zysk. Koszt produkcji ponosi partner, a CD Projekt odcina kupony od bazy swoich 130 milionów fanów. 4. Redukcja ryzyka inwestycyjnego („Margin of Safety”)Gdyby CD Projekt sprzedał łącznie 10–20 milionów gier, każda wpadka w nowym tytule mogłaby doprowadzić spółkę do bankructwa. Przy bazie 130 milionów, nawet jeśli następna gra zaliczy potknięcie, siła marek gwarantuje, że gracze i tak kupią ulepszenia, remastery (np. nadchodzący Wiedźmin 3 Remaster na Nintendo Switch 2) czy dodatki. A to drastycznie zmniejsza ryzyko inwestycyjne w oczach funduszy zarządzających miliardami dolarów!",
       "votes": {
         "up": 8,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
@@ -1018,7 +1457,7 @@
       "url": "https://www.bankier.pl/forum/temat_news-redzi-biora-udzial-w-konferencji-goldman-sachs-communacopia,75712357.html",
       "body": "To Ci co pożyczajom akcje szortom? Nie spodziewał bym się nic dobrego po tym spotkaniu. Boje się że znowu dadzom pożyczki szortom.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 7
       },
       "sentimentScore": 0,
@@ -1033,7 +1472,7 @@
       "body": "Udział CD Projektu w trwającej obecnie prestiżowej konferencji Goldman Sachs Communacopia + Technology Conference w San Francisco (8–11 września 2026 r) to wydarzenie o charakterze stricte biznesowo-inwestorskim. Nie należy spodziewać się tam widowiskowych zwiastunów nowych gier czy konkretnych dat premier dla graczy. Zamiast tego należy oczekiwać aktualizacji strategii finansowej, planów produkcyjnych oraz deklaracji biznesowych skierowanych do globalnych funduszy inwestycyjnych i analityków.Czego zatem można się spodziewać i na co zwracają uwagę inwestorzy?1. Potwierdzenie planów „studia wielo-projektowego”: Zarząd CD Projekt (w tym CFO Piotr Nielubowicz) tuż przed konferencją głośno zadeklarował, że dzięki ogromnym mocom kapitałowym firma chce rozwijać więcej niż trzy uniwersa jednocześnie. Na konferencji będą rozwijać ten temat, przekonując Wall Street, że potrafią sprawnie zarządzać wieloma dużymi projektami naraz (tzw. produkcja równoległa).Ukazanie statusu produkcyjny kluczowych projektów (bez detali fabularnych): Inwestorzy będą pytać o postępy prac i podział zespołów. Oczekuje się potwierdzenia statusu prac nad: Projektem Polaris (Wiedźmin 4), który jest obecnie głównym priorytetem produkcyjnym w Warszawie. Projektem Orion (Cyberpunk 2) rozwijanym w nowym studiu w Bostonie. Innymi markami, jak autorski Projekt Hadar czy wieloosobowy Syriusz.2. Strategia alokacji gigantycznej gotówki: CD Projekt posiada ogromne rezerwy finansowe po sukcesach Wiedźmina 3 i Cyberpunka 2077. Podczas rozmów z Goldman Sachs analitycy będą badać, czy spółka planuje ewentualne akwizycje innych studiów, czy też skupi się wyłącznie na organicznym wzroście i własnych markach. 3. Wzrost zainteresowania zagranicznego kapitału: Konferencje organizowane przez Goldman Sachs gromadzą największych graczy finansowych świata. Udane wystąpienie „Redów” i dobra prezentacja ich długoterminowego rurociągu wydawniczego (pipeline) mogą przełożyć się na większe zaangażowanie funduszy z USA w akcje spółki (CDR) notowane na GPW. Podsumowując: dla graczy wydarzenie przyniesie co najwyżej ogólne wzmianki o fazach produkcji, natomiast dla rynku finansowego będzie to kluczowy sprawdzian tego, jak CD Projekt zamierza monetyzować swoje marki w nadchodzących latach!",
       "votes": {
         "up": 10,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -1271,7 +1710,7 @@
       "body": "235, po ogromnym wzroście z 227 na 240 należy się korekta, 212 pierwszy przystanek.",
       "votes": {
         "up": 4,
-        "down": 2
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -1592,7 +2031,7 @@
       "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
       "body": "I już spada. Zielony matoooł się odpalił, bredzi o xtb potwierdzając że nie ma pojęcia o krótkich pozycjach.Zero zdziwienia, nic dziwnego że taki intelekt brał cdr po 290 bo za chwilę ath",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 2
       },
       "sentimentScore": 0.583,
@@ -1761,7 +2200,7 @@
       "body": "Właśnie teraz (W dniach 8–11 IX 2026 r) CD Projekt weźmie udział w konferencji Goldman Sachs Communacopia + Technology Conference w San Francisco (Kalifornia, USA). Wydarzenie ma charakter biznesowo-inwestorski, a spotkania i panele dla uczestników są realizowane m.in. w hotelu The Palace Hotel.Podczas tego wydarzenia biznesowego studio skupi się przede wszystkim na tematach korporacyjnych i relacjach inwestorskich. W przeciwieństwie do imprez stricte konsumenckich (takich jak zbliżający się BlizzCon 2026, na którym firma zaprezentuje szczegóły współpracy z Blizzardem), to w San Francisco przedstawiane będą: Strategia rozwoju i plany finansowe – w tym podsumowanie wyników oraz omówienie rekordowych nakładów na nowe projekty deweloperskie zaplanowane na najbliższe lata.Postępy nad nadchodzącymi grami – omówienie perspektyw dotyczących zapowiedzianego trzeciego dodatku do Wiedźmina 3 (Pieśni Przeszłości) oraz kolejnych odsłon z uniwersum Wiedźmina i Cyberpunka. Perspektywy biznesowe franczyz – prezentacja potencjału komercyjnego marek studia, w tym sukcesów projektów pobocznych, takich jak karcianka Cyberpunk Trading Card Game czy może anime Edgerunner 2.",
       "votes": {
         "up": 19,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
@@ -1774,8 +2213,8 @@
       "url": "https://www.bankier.pl/forum/temat_redzi-sprzedali-ponad-130-milionow-kopii-swoich-gier,75712301.html",
       "body": "Tyle się mówi o CD Projekt RED, ale inwestorzy chyba nie mają świadomości, jaki to jest gigant z globalnymi sukcesami na koncie. Oni sprzedali ponad 130 milionów kopii swoich gier.!Jest to absolutne światowe TOP10 i to z aspiracjami do podium. Poniższe zestawienie idealnie oddaje skalę, o jakiej rozmawiamy. Zgodnie z najnowszymi raportami finansowymi grupy CD Projekt, ich łączna sprzedaż przekroczyła już barierę 130 milionów sprzedanych egzemplarzy. Ta polska spółka to bezdyskusyjnie globalny gigant, który dwiema swoimi głównymi markami wywalczył miejsce w absolutnej elicie branży.65 mln - The Witcher 3: Wild Hunt 40 mln - Cyberpunk 2077 15 mln - The Witcher 2: Assassins of Kings 10 mln - The Witcher A zestawienie nie uwzględnia spinoffów The Witcher Adventure Game, Gwint: Mag Renegat i Thronebreaker: The Witcher Tales (to może być nawet parę milionów). Nie uwzględnia też dwóch DLC Wiedźmina 3 i jednego do Cyberpunka 2077 .Same DLC mogły wygenerować pokaźną ilość sprzedanych sztuk. Serca z Kamienia i Krew i Wino (w pakiecie GOTY oraz osobno): Mogły rozejść się w łącznym nakładzie od 35 do 45 milionów sztuk.A to oznacza, że ponad połowa wszystkich posiadaczy trzeciego Wiedźmina na świecie miała okazję zagrać w te genialne rozszerzenia o walorach pełnoprawnych gier.Natomiast DLC Cyberpunka: Phantom Liberty - wygenerował sprzedaż na poziomie 15 mln egzemplarzy. A to by oznaczało że Redzi sprzedali dodatkowo około 50-60 kopii DLC (łącznie).Co ciekawe, machina CD Projektu wcale nie zwalnia. Bowiem ta gigantyczna baza generuje niesamowity potencjał dla studia. CD Projekt ogłosił właśnie premierę Wiedźmin 3: Wild Hunt – Remaster (29 września) oraz zupełnie nowe, trzecie rozszerzenie zatytułowane Pieśni przeszłości (Songs of the Past), które ukaże się w 2027 roku. Analitycy giełdowi już teraz prognozują, że to nowe DLC sprzeda się w nakładzie od 7,5 do nawet 11 milionów kopii w zaledwie rok od debiutu, co pokazuje, jak potężny głód wiedźmińskich opowieści wciąż panuje na rynku.",
       "votes": {
-        "up": 14,
-        "down": 4
+        "up": 16,
+        "down": 5
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -2089,20 +2528,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75708355",
-      "author": "ToWisnia",
-      "postedAt": "2026-09-08 16:26",
-      "threadTitle": "Czujecie?",
-      "url": "https://www.bankier.pl/forum/temat_czujecie,75708355.html",
-      "body": "To smród desperacji shortow. Produkują sie jak nigdy. Pali im sie pod tyłkiem ewidentnie. To bardzo dobra prognoza",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75708283",
       "author": "Gocrates",
       "postedAt": "2026-09-08 16:22",
@@ -2115,216 +2540,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75708225",
-      "author": "Gocrates",
-      "postedAt": "2026-09-08 16:19",
-      "threadTitle": "Możliwe przejęcie CDR przez Microsoft",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe-przejecie-cdr-przez-microsoft,75708225.html",
-      "body": "Tak mówi Rokicki Longterm w dzisiejszym Lube o 15.30 o hossie pokoleniowej . Takie są plotki a jest to związane z tym że doszło do porozumienia z Blizzardem CDR A z kolei Blizzard został przety.przez Microsoft",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75708201",
-      "author": "Zenon",
-      "postedAt": "2026-09-08 16:18",
-      "threadTitle": "Re: Mam nadzieję że na zamku to nie jebnie znowu!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_mam-nadzieje-ze-na-zamku-to-nie-jebnie-znowu,75707743.html",
-      "body": "Ono moderator, co to ma znaczyć? Jak możesz publikować takie posty? Może ciebie też jebło?",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75708151",
-      "author": "Gocrates",
-      "postedAt": "2026-09-08 16:16",
-      "threadTitle": "Możliwe przejęcie CDR przez Microsoft",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe-przejecie-cdr-przez-microsoft,75708151.html",
-      "body": "Longterm mówił że możliwe jest przejcie i stąd to porpzumienie z Blizzardem bo Blizard zostal przejęty przez Microsoft i dlatego może to być podjęcie Mocrosoftu do przejcia CDR. Takie są podobno plotki tak mówi Rokicki https://www.youtube.com/live/o2URSk-tK8Q?is=vwrPbnFqzUIojpa1",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75707865",
-      "author": "Prezes_Reduf",
-      "postedAt": "2026-09-08 15:59",
-      "threadTitle": "Re: Niebo jest tutaj granicom!!!",
-      "url": "https://www.bankier.pl/forum/temat_niebo-jest-tutaj-granicom,75707481.html",
-      "body": "Witam sługo Mariuszu, już niebawem czysta dla każdego. Przygotowujemy dla was coś specjalnego.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75707831",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-09-08 15:58",
-      "threadTitle": "Silne rence som podrażnione jak po domestosie!!!",
-      "url": "https://www.bankier.pl/forum/temat_silne-rence-som-podraznione-jak-po-domestosie,75707831.html",
-      "body": "Pewnie nam chcom zwalić ale nie majom siły!!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75707773",
-      "author": "Oman",
-      "postedAt": "2026-09-08 15:55",
-      "threadTitle": "Re: Będą próbowali dusić, ale wzrosty są nieuniknione. Trzymać!",
-      "url": "https://www.bankier.pl/forum/temat_beda-probowali-dusic-ale-wzrosty-sa-nieuniknione-trzymac,75707545.html",
-      "body": "Nie ma nic co by mogło ten kurs obniżyć",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75707743",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-09-08 15:53",
-      "threadTitle": "Mam nadzieję że na zamku to nie jebnie znowu!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_mam-nadzieje-ze-na-zamku-to-nie-jebnie-znowu,75707743.html",
-      "body": "Bo wczoraj zwalili kurs jak gruche!!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75707721",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-09-08 15:52",
-      "threadTitle": "Re: Niebo jest tutaj granicom!!!",
-      "url": "https://www.bankier.pl/forum/temat_niebo-jest-tutaj-granicom,75707481.html",
-      "body": "Dzien dobry. Kiedy bendzie atak na czysta?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75707603",
-      "author": "Zdzisław",
-      "postedAt": "2026-09-08 15:46",
-      "threadTitle": "Trzymać papier bo idziemy na 3 tysionce!!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_trzymac-papier-bo-idziemy-na-3-tysionce,75707603.html",
-      "body": "Mocne wzrosty dopiero sie zacznom!!!!!!!!!!!",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75707569",
-      "author": "Prezes_Reduf",
-      "postedAt": "2026-09-08 15:43",
-      "threadTitle": "Re: Możliwe że Prezes Reduw znuw coś napisze na forum!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe-ze-prezes-reduw-znuw-cos-napisze-na-forum,75707247.html",
-      "body": "Zawsze czytam twoje posty do poduszki, sługo Zdzisławie.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75707247",
-      "author": "Zdzisław",
-      "postedAt": "2026-09-08 15:24",
-      "threadTitle": "Możliwe że Prezes Reduw znuw coś napisze na forum!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_mozliwe-ze-prezes-reduw-znuw-cos-napisze-na-forum,75707247.html",
-      "body": "Bo on kiedyś tu pisał ale ostatnio przestał ale myślem że znuw zacznie pisać i wtedy ja mu odpiszm bo jak wysłałem do Reduw list polecony za 13 złotych to mi nie odpisali i ja go sie spytam czemu mi nie odpisali!!!!!!!!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75707175",
-      "author": "Zdzisław",
-      "postedAt": "2026-09-08 15:20",
-      "threadTitle": "Zaczyna brakować papieru!!!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_zaczyna-brakowac-papieru,75707175.html",
-      "body": "Widać że popyt jest wienkszy niż podarz i tak sie pisze zawodowo jak zaczyna brakować papieru!!!!!!!!",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75707125",
-      "author": "Zdzisław",
-      "postedAt": "2026-09-08 15:16",
-      "threadTitle": "Re: Widać mocne odbicie i atak na 245 złotych!!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_widac-mocne-odbicie-i-atak-na-245-zlotych,75704911.html",
-      "body": "Atak na 245 złotych możliwy już dzisiaj a 1500 złotych na Święta Umarłych pewne na 100 procend bo to widać na wykresach i analizach logicznych!!!!!!!",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75706295",
-      "author": "bart",
-      "postedAt": "2026-09-08 14:22",
-      "threadTitle": "a BlizzCon 2026 zapowiada się na jakąś marketingową eksplozję",
-      "url": "https://www.bankier.pl/forum/temat_news-na-blizzcon-2026-zapowiada-sie-na-jakas-marketingowa-eksplozje,75680633.html",
-      "body": "oby to była współpraca z diablo immortal, i coś w widmowej galerii, ale by kasy zgarnęli",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75705991",
-      "author": "Zenon",
-      "postedAt": "2026-09-08 14:00",
-      "threadTitle": "Re: ❤️ Na BlizzConie 2026 zapowiada się na marketingową eksplozję Redów❗",
-      "url": "https://www.bankier.pl/forum/temat_news-na-blizzcon-2026-zapowiada-sie-na-jakas-marketingowa-eksplozje,75680633.html",
-      "body": "Dobrze, że zadałeś sobie trud i obnarzasz indolencję umysłową nagana i jego halucynacje. Brawo",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75705817",
@@ -2341,110 +2556,12 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75705761",
-      "author": "lol",
-      "postedAt": "2026-09-08 13:43",
-      "threadTitle": "Re: ❤️ Na BlizzConie 2026 zapowiada się na marketingową eksplozję Redów❗",
-      "url": "https://www.bankier.pl/forum/temat_news-na-blizzcon-2026-zapowiada-sie-na-jakas-marketingowa-eksplozje,75680633.html",
-      "body": "Zabawny jest ten twój nagły odwrót w stronę podręczników od marketingu i bezrefleksyjnego przeklejania slajdów ze strategii zarządu. Jeszcze przed chwilą z wypiekami na twarzy pompowałeś wątek „przeciekami” o tym, że Microsoft przesuwa BlizzCon pod prezesów z Warszawy, Redzi robią strzelankę w uniwersum StarCrafta, a Geralt ma reanimować uśmiercone Heroes of the Storm. Kiedy te fantazje zostały bezlitośnie obnażone, po cichu zakopałeś je w piasku i teraz próbujesz uczyć forum ekonomii skali, transmediów i budowania franczyzy na wzór Riot Games czy Marvela.​Zastosowałeś najbardziej prymitywny chwyt erystyczny, stawiając chochoła i z nim walcząc. Rozłóżmy te twoje nowe mądrości na czynniki pierwsze:​1. Mylisz transmedia z mikropłatnościami w cudzym sklepieNikt nie neguje strategii franczyzowej CD Projektu – od lat widzimy komiksy z Dark Horse, zapowiedzi projektów aktorskich czy znakomite Cyberpunk: Edgerunners, które napędziło sprzedaż gry. Tyle że ty próbujesz pod ten wielki parasol „domu multimedialnego” podciągnąć... kosmetyczną skórkę do Diablo IV i wrzucenie jedenastoletniego Wiedźmina na Battle.net. Zrównanie wysokobudżetowego serialu anime otwierającego markę na nowe rynki ze zwykłym crossoverem wewnątrz cudzego launchera to groteska. Skórka w mikropłatnościach Blizzarda nie buduje żadnego nowego medium – to czysty, powszechny cross-licensing, z którego spółka dostanie zwykły procent od sprzedaży wirtualnych ciuszków.​2. Odkrycie Ameryki w postaci „długiego ogona”Wmawianie mi, że uważam Wiedźmina 3 za grę „bezwartościową”, to szczyt manipulacji. Każdy, kto czyta raporty finansowe spółki, doskonale wie, czym jest długi ogon i jak monetyzuje się back-catalog Redów na kolejnych wyprzedażach Steama czy konsol. Tyle że długi ogon to stabilna, przewidywalna, powtarzalna księgowość i rutynowe dojenie stworzonego lata temu IP, a nie żadna „marketingowa eksplozja na BlizzConie”, którą zapowiadałeś wielkimi literami w tytule swojego wątku. Próbujesz ubrać nudną, biznesową codzienność w szaty przełomowej sensacji, żeby ratować twarz po wcześniejszych kompromitacjach.​3. Gdzie te „dziesiątki milionów dolarów na Hollywood”?Rzucasz hasłami o „zabezpieczaniu dziesiątek milionów dolarów budżetów marketingowych”, jakby Blizzard z Microsoftem właśnie sfinansowali Redom pełnometrażowy hit kinowy. Zejdźmy na ziemię z tych wizerunkowych chmur: mowa o 45 minutach pogadanki na scenie pobocznej w Anaheim przy okazji 30-lecia Battle.netu. Blizzard potrzebuje taniego paliwa do podtrzymania zaangażowania graczy w Diablo, a CD Projekt korzysta z darmowego dotarcia do bazy użytkowników cudzego launchera. To jest dokładnie definicja standardowej umowy B2B.​Podsumowując: zacząłeś od kosmicznych bredni o tajnych projektach w świecie StarCrafta i przesuwaniu kalendarzy korporacji, a skończyłeś na przepisywaniu definicji transmediów z Wikipedii i wmawianiu rozmówcy rzeczy, których nie napisał. Za kilka dni panel się odbędzie, zobaczymy prezentację skórki, wzajemne poklepywanie po plecach na scenie i sprawa ucichnie – a twoja „marketingowa eksplozja” okaże się dokładnie tym, czym była od początku: forumowym biciem piany.",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75705507",
-      "author": "Księgowy",
-      "postedAt": "2026-09-08 13:24",
-      "threadTitle": "Re: Leszcz ubrany",
-      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany,75701479.html",
-      "body": "Jak mażysz o 220 to oczy zamknij .",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75705323",
       "author": "AkcjoPatryk",
       "postedAt": "2026-09-08 13:11",
       "threadTitle": "Czy dzisiaj możliwy atak na 600PLN?",
       "url": "https://www.bankier.pl/forum/temat_czy-dzisiaj-mozliwy-atak-na-600pln,75705323.html",
       "body": "Tak tylko pytam, bo nie wiem czy te papiery trzymać czy nie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75705329",
-      "author": "zielony_guzik",
-      "postedAt": "2026-09-08 13:11",
-      "threadTitle": "Re: Leszcz ubrany",
-      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany,75701479.html",
-      "body": "To jak to w końcu jest? Jeszcze niedawno miało być 180 zł, a teraz już tylko 220 zł? Inflacja w Polsce faktycznie spora, ale tempo podnoszenia tych poziomów robi wrażenie.Jak tak dalej pójdzie, to za kilka tygodni będziemy straszyć spadkiem do 250",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75705201",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-09-08 12:59",
-      "threadTitle": "Re: Widać mocne odbicie i atak na 245 złotych!!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_widac-mocne-odbicie-i-atak-na-245-zlotych,75704911.html",
-      "body": "Sine rence narazie przy 240 walom nas jak gruche!!!! Ale papier się tu skonsoliduje i możliwe że pujdzie atak na 245.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75705065",
-      "author": "Zorro",
-      "postedAt": "2026-09-08 12:50",
-      "threadTitle": "Re: analiza wybicie na 240 i wyżej",
-      "url": "https://www.bankier.pl/forum/temat_analiza-wybicie-na-240-i-wyzej,75704267.html",
-      "body": "Podejrzewam, że pomiędzy 240 a 241 możemy jeszcze zahaczyć 240,50 a może i 240,70",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75704911",
-      "author": "Zdzisław",
-      "postedAt": "2026-09-08 12:42",
-      "threadTitle": "Widać mocne odbicie i atak na 245 złotych!!!!!!",
-      "url": "https://www.bankier.pl/forum/temat_widac-mocne-odbicie-i-atak-na-245-zlotych,75704911.html",
-      "body": "Tego rajdu już nic nie zatrzyma i żeby dobrać papier za mniej niż 500 złotych to juz ostatni moment",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75704927",
-      "author": "Marian",
-      "postedAt": "2026-09-08 12:42",
-      "threadTitle": "Re: Co mowi ORTEX?",
-      "url": "https://www.bankier.pl/forum/temat_co-mowi-ortex,75688165.html",
-      "body": "Ile to pokazuje dzis?",
       "votes": {
         "up": 0,
         "down": 0
@@ -2467,20 +2584,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75704501",
-      "author": "anonim",
-      "postedAt": "2026-09-08 12:17",
-      "threadTitle": "Re: analiza wybicie na 240 i wyżej",
-      "url": "https://www.bankier.pl/forum/temat_analiza-wybicie-na-240-i-wyzej,75704267.html",
-      "body": "Jak będzie rosło to będzie rosło, a jak nie będzie to nie będzie. Nie ma to jak porządna analiza.",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75704479",
       "author": "lol",
       "postedAt": "2026-09-08 12:15",
@@ -2492,20 +2595,6 @@
         "down": 7
       },
       "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75704455",
-      "author": "Ggg",
-      "postedAt": "2026-09-08 12:13",
-      "threadTitle": "Re: analiza wybicie na 240 i wyżej",
-      "url": "https://www.bankier.pl/forum/temat_analiza-wybicie-na-240-i-wyzej,75704267.html",
-      "body": "Niezła analiza - jak wbije 240 to potem241, po 241 - 242 a następnie widzę poziomy 243 i 244 Xd",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
     },
     {
@@ -2523,20 +2612,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75704267",
-      "author": "Gocrates",
-      "postedAt": "2026-09-08 12:01",
-      "threadTitle": "analiza wybicie na 240 i wyżej",
-      "url": "https://www.bankier.pl/forum/temat_analiza-wybicie-na-240-i-wyzej,75704267.html",
-      "body": "eraz kluczowe są 241–242 zł241 zł jest obecnie pierwszym lokalnym poziomem do obserwacji. Jeśli CDR utrzyma się nad 240,70–241,00 i zacznie budować kolejne wyższe dołki, następny cel widziałbym w:241,50 → 242,00 złA 242 zł jest znacznie ważniejszym oporem. Jego przełamanie może uruchomić kolejny impuls:242 → 244–245 → 248 → 250 zł.Co szczególnie mi się podobaNajwiększy wolumen sesji pojawił się podczas wybicia 239,80 → 240,60, a następnie cena nie oddała tego ruchu.",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75704159",
       "author": "Mariusz",
       "postedAt": "2026-09-08 11:54",
@@ -2544,7 +2619,7 @@
       "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
       "body": "A widziałeś jakich saperów ma CDP.",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2558,25 +2633,11 @@
       "url": "https://www.bankier.pl/forum/temat_240-no-to-szorciki,75702853.html",
       "body": "Nie dla leszcza 240, leszcz będzie buczał kilkadziesiąt złotych niżej.",
       "votes": {
-        "up": 2,
-        "down": 15
+        "up": 3,
+        "down": 16
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75701479",
-      "author": "Prawda",
-      "postedAt": "2026-09-08 09:11",
-      "threadTitle": "Leszcz ubrany",
-      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany,75701479.html",
-      "body": "Można lecieć na 220 na początek",
-      "votes": {
-        "up": 0,
-        "down": 7
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75701253",
@@ -2635,20 +2696,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75699735",
-      "author": "Zenon",
-      "postedAt": "2026-09-07 22:50",
-      "threadTitle": "Re: NEWS❗❤️ Na BlizzCon 2026 zapowiada się na jakąś marketingową eksploz",
-      "url": "https://www.bankier.pl/forum/temat_news-na-blizzcon-2026-zapowiada-sie-na-jakas-marketingowa-eksplozje,75680633.html",
-      "body": "Niestey jest twórcą tych głupot",
-      "votes": {
-        "up": 1,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75699701",
       "author": "Zenon",
       "postedAt": "2026-09-07 22:44",
@@ -2691,20 +2738,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75699597",
-      "author": "nagan",
-      "postedAt": "2026-09-07 22:29",
-      "threadTitle": "❤️ Na BlizzConie 2026 zapowiada się na marketingową eksplozję Redów❗",
-      "url": "https://www.bankier.pl/forum/temat_news-na-blizzcon-2026-zapowiada-sie-na-jakas-marketingowa-eksplozje,75680633.html",
-      "body": "Droga lolu..Znowu dajesz infantylny i pozbawiony podstaw komentarz, ponieważ sprowadza on wielopoziomową, długofalową strategię biznesową do poziomu zwykłego \"wrzucenia skórki do gry\". Świadczy to o braku zrozumienia, jak działa współczesny rynek rozrywki i ekonomia skali w branży gier wideo.A oto zasadnicze przyczyny dla których twój wpis (spreparowany w Ai) jest merytorycznie błędny:1. Mylisz budowanie franczyzy z \"dojeniem back-catalogu\"!Porównuje działania CD Projektu do Bethesdy portującej Skyrima na kolejną lodówkę. Tymczasem strategia „domu multimedialnego” to model, który z sukcesem stosuje np Riot Games, Marvell czy nawet Cyberpunk: Edgerunners od samego CD Projektu.To nie jest odgrzewanie starego kotleta, ale rozszerzanie uniwersum na seriale, filmy, komiksy i planszówki, merch itp.Każdy taki krok wprowadza do ekosystemu zupełnie nowych klientów, którzy prawdopodobnie nigdy nie kupiliby samej gry, a teraz kupią książkę i gadżet a nawet przyszły sequel.https://i.imgur.com/OXnjXNz.jpeg2. Spłycasz umowy partnerskie do zwykłego B2BKpisz z „wiekopomnego sojuszu”, ale przecież w świecie globalnych mediów współprace z gigantami (np. z Netfliksem, Apple czy topowymi studiami anime) to kamienie milowe dla kapitalizacji każdej spółki. Zwłaszcza, że nie każdy może je zastosować.Wejście na nowe platformy dystrybucyjne lub współpraca w Hollywood to nie jest \"standardowa umowa\" z małym podwykonawcą.To zabezpieczenie budżetów marketingowych rzędu dziesiątek milionów dolarów, które współfinansują partnerzy, a nie sam CD Projekt.3. W tym wpisie ignorujesz też \"efekt długiego ogona\"Dla ciebie 11-letnia gra (pewnie nawiązujesz do Wiedźmina 3?) jest stara, więc bezwartościowa. Natomiast w nowoczesnym biznesie silne IP (własność intelektualna) nie starzeje się tak jak np technologia.Dzięki nowym impulsem multimedialnym, starsze gry generują stały, wysokomarżowy zysk.Ten zysk pozwala studiu zachować niezależność finansową i finansować kolejne produkcje (jak Project Polaris czy Orion) bez presji ze strony zewnętrznych inwestorów.4. Prezentujesz emocjonalny, a nie biznesowy punkt widzeniaUżywanie sformułowań typu \"komedia rozpaczy\" czy \"dojenie\" to czysta erystyka i granie na emocjach. Biznes nie kieruje się sentymentem, tylko maksymalizacją wartości marki. Z perspektywy akcjonariuszy, niedorabianie filozofii do posiadanych marek i unikanie ich rozwoju w innych mediach byłoby rażącym zaniedbaniem ze strony zarządu.",
-      "votes": {
-        "up": 9,
-        "down": 8
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75699533",
       "author": "Gocrates",
       "postedAt": "2026-09-07 22:20",
@@ -2713,7 +2746,7 @@
       "body": "\"Wmawianie czytelnikom, że 95 mln zł półrocznych wpływów z licencji „drastycznie zmienia wycenę” i uniezależnia CDPR od cyklu produkcyjnego, to zaklinanie rzeczywistości\".tu się jednak farmazonisz bo 95 mln przychodów z licencji za 1 półrocze 2026przy zysku netto półrocznym na poziomie 245,3 mln zł TO JEDNAK NIE JEST WARTOŚĆ POMIJALNA",
       "votes": {
         "up": 6,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -2761,20 +2794,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75698557",
-      "author": "lol",
-      "postedAt": "2026-09-07 20:16",
-      "threadTitle": "Re: NEWS❗❤️ Na BlizzCon 2026 zapowiada się na jakąś marketingową eksploz",
-      "url": "https://www.bankier.pl/forum/temat_news-na-blizzcon-2026-zapowiada-sie-na-jakas-marketingowa-eksplozje,75680633.html",
-      "body": "Gdy brakuje argumentów, a cała lista napompowanych „przecieków” okazuje się stertą internetowych bzdur, na placu boju zostaje już tylko forumowy klasyk: żałosne wycieczki osobiste i krzyk bezsilności w stylu „to pisało AI!”. Przypomnimy \"demo przemysłowe\", nasz ty znawco? Diagnozowanie cudzej inteligencji i opowiadanie o pierogach to u ciebie sprawdzony mechanizm obronny za każdym razem, gdy ktoś bezlitośnie obnaży twoje oderwanie od rynkowych realiów.​Fascynujące jest to twoje nagłe zredukowanie tonu. Jeszcze przed chwilą z wypiekami na twarzy serwowałeś bajki o tym, jak to Microsoft przesuwa daty imprezy pod prezesów z Warszawy, a Redzi po godzinach reanimują trupa Heroes of the Storm i dłubią przy strzelance w świecie StarCrafta. Dziś, przyparty do muru, posłusznie chowasz głowę w piasek i piszczysz: „przecież to były tylko cudze, optymistyczne plotki, co ty ode mnie chcesz?”. Skoro z własnej woli obsadziłeś się w roli bezrefleksyjnej tuby powielającej wyssane z palca konfabulacje, to nie płacz teraz, że ktoś te brednie brutalnie weryfikuje.​Próba dorobienia wielkiej filozofii do faktu, że jedenastoletnia gra ląduje na kolejnym launcherze („ciekawe, że tylko nielicznym udaje się taka monetyzacja!”), to już czysta komedia rozpaczy. Od Capcomu przez Square Enix po Bethesdę – każdy większy wydawca od lat doi swój back-catalog i wrzuca gościnne skórki do cudzych gier. Tyle że nikt trzeźwo myślący nie dorabia do standardowej umowy B2B ideologii wiekopomnego sojuszu, przed którym klęka Kalifornia.",
-      "votes": {
-        "up": 7,
-        "down": 11
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75698197",
       "author": "nagan",
       "postedAt": "2026-09-07 19:34",
@@ -2787,20 +2806,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75698001",
-      "author": "nagan",
-      "postedAt": "2026-09-07 19:10",
-      "threadTitle": "NEWS❗❤️ Na BlizzCon 2026 zapowiada się na jakąś marketingową eksplozję❗❓",
-      "url": "https://www.bankier.pl/forum/temat_news-na-blizzcon-2026-zapowiada-sie-na-jakas-marketingowa-eksplozje,75680633.html",
-      "body": "Droga trollu loluGdy obierze się ten tekst z pseudointeligentnie brzmiących piórek, zostaje standardowa, agresywna kontra na być może zbyt optymistyczne plotki. (Co z tego że podkreślam, że nie moje - skoro nawet nie byłaś w stanie tego pojąć?)xDPunktujesz tamto możliwe „pompowanie balona” (czyjeś teorie o współpracy CDR z Microsoftem/Blizzardem przy StarCrafcie czy HotS), sprowadzając działania spółki do wyrobniczej, nudnej, giełdowej codzienności (zwykła monetyzacja back-catalogu, czyli starszych gier, na nowych platformach). Ciekawe, że tylko nielicznym na świecie udaje się taka „banalna\" monetyzacja?Jeśli zabrakło własnej inteligencji - użyłaś sztucznej?xDPodsumowując - ten wpis stworzony przez kilka sekund - to agresywna publicystyka algorytmiczna. Nie potrafisz nawet ująć swoich racji w argumenty, więc kazałaś AI napisać „inteligentny odwet”, który w rzeczywistości brzmi (jak zwykle u ciebie) niczym pretensjonalny referat pensjonarki... o pierogach.!xD",
-      "votes": {
-        "up": 12,
-        "down": 10
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75697745",
@@ -2845,46 +2850,46 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75695985",
-      "author": "ANALytyk_GEJmingowy",
-      "postedAt": "2026-09-07 16:06",
-      "threadTitle": "Re: NEWS❗❤️ Na BlizzCon 2026 zapowiada się na jakąś marketingową eksploz",
-      "url": "https://www.bankier.pl/forum/temat_news-na-blizzcon-2026-zapowiada-sie-na-jakas-marketingowa-eksplozje,75680633.html",
-      "body": "No mangan żeby przypadkiem od tej współpracy to nie jebło.... xd",
+      "id": "75664381",
+      "author": "nagan",
+      "postedAt": "2026-09-03 23:26",
+      "threadTitle": "❤️ Czym jest „Dom Medialny”, którym staje się CD Projekt⁉️❓",
+      "url": "https://www.bankier.pl/forum/temat_czym-jest-dom-medialny-ktorym-staje-sie-cd-projekt,75663435.html",
+      "body": "> A kiedy coś z tego będą mieli akcjonariusze?@hektorWtedy jak zrozumieją, że to nie jest już pospolite studio, które zrobiło przypadkiem jakąś jedną gierkę..xD",
       "votes": {
-        "up": 2,
-        "down": 11
+        "up": 11,
+        "down": 10
       },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
-      "id": "75692639",
-      "author": "lol",
-      "postedAt": "2026-09-07 11:57",
-      "threadTitle": "Re: NEWS❗❤️ Na BlizzCon 2026 zapowiada się na jakąś marketingową eksploz",
-      "url": "https://www.bankier.pl/forum/temat_news-na-blizzcon-2026-zapowiada-sie-na-jakas-marketingowa-eksplozje,75680633.html",
-      "body": "Kiedy brakuje argumentów merytorycznych, a cała misterna konstrukcja sypie się jak domek z kart, na placu boju zostaje już tylko prymitywne ad personam, krzyk bezsilności kogoś, komu właśnie bezlitośnie zweryfikowano rynkowe fantazje. ​Fascynująca jest zresztą ta twoja błyskawiczna rejterada. Jeszcze post wcześniej budowałeś na tych rewelacjach wielopiętrowe teorie o „dowodzie potęgi”, o rzekomym przesuwaniu kalendarza całego BlizzConu przez korporację pokroju Microsoftu pod widzimisię prezesów z Warszawy, o wskrzeszaniu uśmierconego od lat Heroes of the Storm czy wspólnej strzelance w świecie StarCrafta. Teraz, gdy te rojenia zostały obnażone, następuje gwałtowne hamowanie i dziecinna linia obrony: „Przecież to nie ja wymyśliłem, to cudze plotki!”. Każdy może sobie wyżej przeczytać twoje bzdety.​Zasłanianie się wyświechtanym banałem, że „w każdej plotce jest ziarno prawdy”, to zwykła kapitulacja logiczna. W bajkach o tym, że zawalony własnymi projektami CD Projekt dłubie po godzinach przy tytule Blizzarda, albo że założyciele spółki wylądują w Kalifornii promować kosmetyczną skórkę do Diablo, nie ma ani ziarna, ani pyłku prawdy. To w stu procentach konfabulacja, która pasowała ci pod pompowanie taniego entuzjazmu. A wydanie Wiedźmina z rozszerzeniem na kolejnym launcherze? To po prostu kolejny kanał dystrybucji z back-catalogu – standardowy ruch handlowy, a nie żaden „historyczny przełom”, pod który ktokolwiek przemeblowuje harmonogramy w Anaheim.",
+      "id": "75663671",
+      "author": "Hektor",
+      "postedAt": "2026-09-03 21:55",
+      "threadTitle": "Re: ❤️ Czym jest „Dom Medialny”, którym staje się CD Projekt⁉️❓",
+      "url": "https://www.bankier.pl/forum/temat_czym-jest-dom-medialny-ktorym-staje-sie-cd-projekt,75663435.html",
+      "body": "A kiedy coś z tego będą mieli akcjonariusze?",
       "votes": {
-        "up": 17,
+        "up": 7,
+        "down": 6
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75663435",
+      "author": "nagan",
+      "postedAt": "2026-09-03 21:34",
+      "threadTitle": "❤️ Czym jest „Dom Medialny”, którym staje się CD Projekt⁉️❓",
+      "url": "https://www.bankier.pl/forum/temat_czym-jest-dom-medialny-ktorym-staje-sie-cd-projekt,75663435.html",
+      "body": "DOM MEDIALNY to strategia oparta na kołowrotku franczyzowym oraz działaniach transmedialnych - co drastycznie zmienia potencjał i wycenę CD Projekt RED, ponieważ zdejmuje ze spółki klątwę spółki jednego produktu (tzw. one-product company) i generuje wysokomarżowe, powtarzalne strumienie przychodów pomiędzy premierami głównych gier AAA. Zamiast gigantycznych wahań kursu akcji uzależnionych wyłącznie od sukcesu lub porażki jednej gry wydawanej raz na 4–5 lat, CD Projekt buduje ekosystem „DOMU MEDIALNEGO\", w którym gry, seriale, komiksy, planszówki i licencje napędzają się wzajemnie. Efekty tego podejścia widać bezpośrednio w obecnych rekordowych wynikach finansowych spółki.1. Zmiana struktury przychodów: Od gracza do licencjodawcyZ punktu widzenia tabeli finansowej (rachunku zysków i strat), dom medialny generuje wysokomarżowe przychody z licencji, które niemal w całości wpadają do zysku operacyjnego (EBIT), ponieważ nie wymagają ponoszenia kosztów produkcji gry od zera.Doskonałym dowodem były wyniki spółki: wpływy z licencjonowania własnych marek (IP) urosły do 94,8 mln zł w skali półrocza. Inwestorzy widzą, że znaki towarowe Wiedźmin i Cyberpunk zarabiają same z siebie.2. Własna kontrola nad dystrybucją popkulturowąJako dom medialny, CD Projekt nie czeka biernie, aż Hollywood zgłosi się po prawa do ekranizacji. Spółka sama inicjuje i współprodukuje projekty transmedialne, dyktując warunki gigantom streamingowym.Partnerstwo z platformą Netflix (nadchodzący drugi sezon Cyberpunk: Edgerunners) czy zacieśnienie współpracy z Blizzard Entertainment (wejście z produkcjami na platformę Battle.net) to decyzje stricte o charakterze wydawniczo-medialnym. Zamiast płacić pośrednikom, CD Projekt staje się samodzielnym hubem dystrybucyjnym swoich światów. 3. Redukcja ryzyka produkcyjnego (Risk Mitigation)W klasycznym gamingu opóźnienie gry o rok potrafi załamać kurs akcji i wyczyścić poduszkę finansową spółki. Gdy działasz jak dom medialny, opóźnienie głównego projektu (np. przesunięcie Wiedźmina 4 na 2028 rok) jest amortyzowane przez inne premiery medialne:Remastery (Wiedźmin 3 Remaster na PC, PS5 i Nintendo Switch 2).Projekty komiksowe i gry planszowe (np. gigantyczny sukces Cyberpunk TCG).Seriale i animacje.Dzięki temu biznes staje się przewidywalny, co pozwala funduszom inwestycyjnym na stabilne, długoterminowe prognozowanie przepływów pieniężnych (model DCF).4. Ekstremalna rentowność i gotówka na koncieInwestorzy giełdowi kochają spółki, które generują gotówkę, zamiast ciągle jej potrzebować. Strategia domu medialnego pozwala utrzymać rentowność netto Grupy na poziomie aż 57,2%. CD Projekt nie musi zadłużać się na produkcję nowych tytułów, ponieważ bieżąca działalność licencyjna i okołogrowa generuje setki milionów złotych czystego zysku kwartalnie.",
+      "votes": {
+        "up": 19,
         "down": 14
       },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75692413",
-      "author": "nagan",
-      "postedAt": "2026-09-07 11:41",
-      "threadTitle": "NEWS❗❤️ Na BlizzCon 2026 zapowiada się na jakąś marketingową eksplozję❓",
-      "url": "https://www.bankier.pl/forum/temat_news-na-blizzcon-2026-zapowiada-sie-na-jakas-marketingowa-eksplozje,75680633.html",
-      "body": "Droga loluPociągnij majki z falbankami, popraw blond-loczki i wysmarkaj nosek!Znowu próbujesz mi wciskać swoje fantasmagorie na mój temat oraz CD Projektu..Jeżeli cytuję plotki (cudzego autorstwa - co zanaczyłem) to nie wmawiaj sobie i innym, że powstały w mojej głowie.. xDNa dodatek - niemal każda plotka - ma w sobie ziarno prawdy.. Dlatego potępianie wyrzucanie jej w całości do kosza. - bo bardziej to co bełkocesz ośmiesza ciebie - niż kogoś kto uczciwie powiedział że to plotka i ją tylko powtórzył..!Zwłaszcza, że już za kilka dni - okaże się kto ma rację - i byłbym na twoim miejscu bardzo ostrożny w twierdzeniu, że na BlizzConie nie ukaże się jakaś marketingowa eksplozja..!XD",
-      "votes": {
-        "up": 15,
-        "down": 16
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
+      "sentimentScore": 0.981,
+      "sentimentLabel": "Positive"
     }
   ]
 }
