@@ -3,11 +3,11 @@
   "companyName": "mBank Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-spolka-akcyjna,6,21,31.html",
-  "updatedAt": "2026-09-09T11:22:06.926Z",
+  "updatedAt": "2026-09-09T16:38:48.371Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-09T11:22:06.926Z",
+    "fetchedAt": "2026-09-09T16:38:48.371Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.209,
-    "confidence": 0.65,
-    "commentCount": 42,
+    "score": -0.204,
+    "confidence": 0.62,
+    "commentCount": 38,
     "breakdown": {
       "positive": 0,
-      "negative": 24,
+      "negative": 20,
       "neutral": 18
     },
     "trend": [
-      {
-        "date": "2026-06-11",
-        "score": -0.432,
-        "count": 4
-      },
       {
         "date": "2026-06-12",
         "score": -0.215,
@@ -131,15 +126,11 @@
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 42 komentarzy z ostatnich 90 dni: nastroje negatywne (0 pozytywnych, 24 negatywnych, 18 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 38 komentarzy z ostatnich 90 dni: nastroje negatywne (0 pozytywnych, 20 negatywnych, 18 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "huknie",
         "count": 5
-      },
-      {
-        "word": "przy",
-        "count": 4
       },
       {
         "word": "dziala",
@@ -155,6 +146,10 @@
       },
       {
         "word": "banki",
+        "count": 3
+      },
+      {
+        "word": "przy",
         "count": 3
       },
       {
@@ -704,62 +699,6 @@
       "votes": {
         "up": 2,
         "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74768543",
-      "author": "Kasztan",
-      "postedAt": "2026-06-11 17:14",
-      "threadTitle": "Re: spadek W20 nawet na 3200 pkt , ktoś jeszcze",
-      "url": "https://www.bankier.pl/forum/temat_spadek-w20-nawet-na-3200-pkt-ktos-jeszcze,74746665.html",
-      "body": "https://stooq.pl/q/?s=mbk&d=20260611&c=5m&t=c&a=ln&r=pko+mil+peo",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74768489",
-      "author": "Kasztan",
-      "postedAt": "2026-06-11 17:11",
-      "threadTitle": "Re: spadek W20 nawet na 3200 pkt , ktoś jeszcze",
-      "url": "https://www.bankier.pl/forum/temat_spadek-w20-nawet-na-3200-pkt-ktos-jeszcze,74746665.html",
-      "body": "Tko 1366 na stooq.pl chyba żeby podbić przed wysypaniem. Pachnie jak poznańska wirówka na większą skalę.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74768325",
-      "author": "RWG",
-      "postedAt": "2026-06-11 16:58",
-      "threadTitle": "Re: spadek W20 nawet na 3200 pkt , ktoś jeszcze",
-      "url": "https://www.bankier.pl/forum/temat_spadek-w20-nawet-na-3200-pkt-ktos-jeszcze,74746665.html",
-      "body": "Otworzyłem na ok. 1150 i zamknąłem na ok. 1200 ze stratą. Od przebicia 1300 znowu wszedłem - drzewa nie rosną do nieba :) Zwłaszcza, że chyba od czerwca schodzą z lock up zeszłoroczne darmowe akcje z systemu motywacyjnego, przy tym kursie warte grube kilkadziesiąt milionów...",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74768105",
-      "author": "Kasztan",
-      "postedAt": "2026-06-11 16:46",
-      "threadTitle": "Re: spadek W20 nawet na 3200 pkt , ktoś jeszcze",
-      "url": "https://www.bankier.pl/forum/temat_spadek-w20-nawet-na-3200-pkt-ktos-jeszcze,74746665.html",
-      "body": "Ja jeszcze szortuje",
-      "votes": {
-        "up": 2,
-        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
