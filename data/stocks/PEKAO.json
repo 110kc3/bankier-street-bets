@@ -3,32 +3,27 @@
   "companyName": "Bank Polska Kasa Opieki Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-polska-kasa-opieki-spolka-akcyjna,6,21,18.html",
-  "updatedAt": "2026-09-10T11:19:28.893Z",
+  "updatedAt": "2026-09-10T16:24:14.635Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-10T11:19:28.893Z",
+    "fetchedAt": "2026-09-10T16:24:14.635Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 17
+    "threadsScanned": 16
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.005,
-    "confidence": 0.6,
-    "commentCount": 44,
+    "score": 0.008,
+    "confidence": 0.59,
+    "commentCount": 43,
     "breakdown": {
       "positive": 12,
-      "negative": 7,
+      "negative": 6,
       "neutral": 25
     },
     "trend": [
-      {
-        "date": "2026-06-12",
-        "score": -0.583,
-        "count": 1
-      },
       {
         "date": "2026-06-13",
         "score": 0,
@@ -135,8 +130,8 @@
         "count": 2
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 44 komentarzy z ostatnich 90 dni: nastroje mieszane (12 pozytywnych, 7 negatywnych, 25 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 43 komentarzy z ostatnich 90 dni: nastroje mieszane (12 pozytywnych, 6 negatywnych, 25 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "banki",
@@ -782,20 +777,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74781095",
-      "author": "Tomek",
-      "postedAt": "2026-06-12 16:45",
-      "threadTitle": "Re: WIG Banki dzis + 5-6%",
-      "url": "https://www.bankier.pl/forum/temat_wig-banki-dzis-5-6,74777687.html",
-      "body": "Ropa w dół",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }
