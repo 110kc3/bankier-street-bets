@@ -3,31 +3,31 @@
   "companyName": "Bank Polska Kasa Opieki Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-polska-kasa-opieki-spolka-akcyjna,6,21,18.html",
-  "updatedAt": "2026-09-10T04:42:10.632Z",
+  "updatedAt": "2026-09-10T11:19:28.893Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-10T04:42:10.632Z",
+    "fetchedAt": "2026-09-10T11:19:28.893Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 18
+    "threadsScanned": 17
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.009,
-    "confidence": 0.64,
-    "commentCount": 50,
+    "score": 0.005,
+    "confidence": 0.6,
+    "commentCount": 44,
     "breakdown": {
-      "positive": 14,
-      "negative": 8,
-      "neutral": 28
+      "positive": 12,
+      "negative": 7,
+      "neutral": 25
     },
     "trend": [
       {
         "date": "2026-06-12",
-        "score": -0.037,
-        "count": 7
+        "score": -0.583,
+        "count": 1
       },
       {
         "date": "2026-06-13",
@@ -135,20 +135,20 @@
         "count": 2
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 50 komentarzy z ostatnich 90 dni: nastroje mieszane (14 pozytywnych, 8 negatywnych, 28 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 44 komentarzy z ostatnich 90 dni: nastroje mieszane (12 pozytywnych, 7 negatywnych, 25 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "banki",
-        "count": 5
-      },
-      {
-        "word": "dlaczego",
         "count": 4
       },
       {
         "word": "mnie",
         "count": 4
+      },
+      {
+        "word": "dlaczego",
+        "count": 3
       },
       {
         "word": "moga",
@@ -163,10 +163,6 @@
         "count": 3
       },
       {
-        "word": "dywidende",
-        "count": 3
-      },
-      {
         "word": "kursie",
         "count": 2
       },
@@ -176,6 +172,10 @@
       },
       {
         "word": "obecnie",
+        "count": 2
+      },
+      {
+        "word": "nadzwyczajnego",
         "count": 2
       }
     ]
@@ -796,90 +796,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74777687",
-      "author": "westi",
-      "postedAt": "2026-06-12 13:09",
-      "threadTitle": "WIG Banki dzis + 5-6%",
-      "url": "https://www.bankier.pl/forum/temat_wig-banki-dzis-5-6,74777687.html",
-      "body": "Co to się zadziała że wig banki wywaliło na plus ?",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "74776725",
-      "author": "Zoja",
-      "postedAt": "2026-06-12 12:06",
-      "threadTitle": "Re: Kto to dziś wysypał Skarb państwa ?",
-      "url": "https://www.bankier.pl/forum/temat_kto-to-dzis-wysypal-skarb-panstwa,74774699.html",
-      "body": "Co to jest pomylili daty .",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74775989",
-      "author": "Janusz",
-      "postedAt": "2026-06-12 10:57",
-      "threadTitle": "Re: Dywidenda",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda,74751099.html",
-      "body": "Czy dzisiaj mogę sprzedać zachowując dywidendę?",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74775961",
-      "author": "Skok",
-      "postedAt": "2026-06-12 10:55",
-      "threadTitle": "Re: Kto to dziś wysypał Skarb państwa ?",
-      "url": "https://www.bankier.pl/forum/temat_kto-to-dzis-wysypal-skarb-panstwa,74774699.html",
-      "body": "Dzięki + zeszły rok mi wyskoczył + stąd zamotanie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "74774851",
-      "author": "spokojny",
-      "postedAt": "2026-06-12 10:00",
-      "threadTitle": "Re: Kto to dziś wysypał Skarb państwa ?",
-      "url": "https://www.bankier.pl/forum/temat_kto-to-dzis-wysypal-skarb-panstwa,74774699.html",
-      "body": "nikt nie wysypał. Odcięcie od dywidendy. Ktoś ładnie skupuje po niższej cenie.",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74774699",
-      "author": "Skok",
-      "postedAt": "2026-06-12 09:52",
-      "threadTitle": "Kto to dziś wysypał Skarb państwa ?",
-      "url": "https://www.bankier.pl/forum/temat_kto-to-dzis-wysypal-skarb-panstwa,74774699.html",
-      "body": "CIEKAWE dlaczego ? Taka presja",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
