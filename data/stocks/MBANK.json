@@ -3,11 +3,11 @@
   "companyName": "mBank Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-spolka-akcyjna,6,21,31.html",
-  "updatedAt": "2026-09-11T04:39:26.607Z",
+  "updatedAt": "2026-09-11T11:20:33.296Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-11T04:39:26.607Z",
+    "fetchedAt": "2026-09-11T11:20:33.296Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.203,
-    "confidence": 0.6,
-    "commentCount": 35,
+    "score": -0.237,
+    "confidence": 0.63,
+    "commentCount": 37,
     "breakdown": {
       "positive": 0,
-      "negative": 18,
+      "negative": 20,
       "neutral": 17
     },
     "trend": [
@@ -118,14 +118,23 @@
         "date": "2026-09-03",
         "score": -0.107,
         "count": 3
+      },
+      {
+        "date": "2026-09-11",
+        "score": -0.453,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 35 komentarzy z ostatnich 90 dni: nastroje negatywne (0 pozytywnych, 18 negatywnych, 17 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 37 komentarzy z ostatnich 90 dni: nastroje negatywne (0 pozytywnych, 20 negatywnych, 17 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "huknie",
         "count": 5
+      },
+      {
+        "word": "https",
+        "count": 3
       },
       {
         "word": "dziala",
@@ -148,24 +157,48 @@
         "count": 3
       },
       {
-        "word": "placic",
+        "word": "finance",
         "count": 2
       },
       {
-        "word": "mnie",
+        "word": "yahoo",
         "count": 2
       },
       {
-        "word": "niestety",
-        "count": 2
-      },
-      {
-        "word": "skoro",
+        "word": "quote",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75743861",
+      "author": "Kasztan",
+      "postedAt": "2026-09-11 10:22",
+      "threadTitle": "Re: 1400 zł za 1 akcję od dołka 1400% :DDD",
+      "url": "https://www.bankier.pl/forum/temat_1400-zl-za-1-akcje-od-dolka-1400-ddd,75654795.html",
+      "body": "https://finance.yahoo.com/quote/MBK.WA/",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75743857",
+      "author": "Kasztan",
+      "postedAt": "2026-09-11 10:22",
+      "threadTitle": "Re: 1400 zł za 1 akcję od dołka 1400% :DDD",
+      "url": "https://www.bankier.pl/forum/temat_1400-zl-za-1-akcje-od-dolka-1400-ddd,75654795.html",
+      "body": "https://finance.yahoo.com/quote/MBK.WA/Kiedy balon pęknie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75661307",
       "author": "jatonieja",
