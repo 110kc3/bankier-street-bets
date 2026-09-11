@@ -3,11 +3,11 @@
   "companyName": "Kruk Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-spolka-akcyjna,6,21,10000001000.html",
-  "updatedAt": "2026-09-10T20:52:30.885Z",
+  "updatedAt": "2026-09-11T04:39:20.827Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-10T20:52:30.885Z",
+    "fetchedAt": "2026-09-11T04:39:20.827Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.26,
-    "confidence": 0.78,
-    "commentCount": 58,
+    "score": -0.267,
+    "confidence": 0.79,
+    "commentCount": 59,
     "breakdown": {
       "positive": 9,
-      "negative": 28,
+      "negative": 29,
       "neutral": 21
     },
     "trend": [
@@ -58,10 +58,15 @@
         "date": "2026-09-10",
         "score": -0.497,
         "count": 15
+      },
+      {
+        "date": "2026-09-11",
+        "score": -0.583,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 58 komentarzy z ostatnich 7 dni: nastroje negatywne (9 pozytywnych, 28 negatywnych, 21 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 59 komentarzy z ostatnich 7 dni: nastroje negatywne (9 pozytywnych, 29 negatywnych, 21 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "short",
@@ -70,6 +75,10 @@
       {
         "word": "dino",
         "count": 5
+      },
+      {
+        "word": "widac",
+        "count": 4
       },
       {
         "word": "jakie",
@@ -98,14 +107,24 @@
       {
         "word": "cene",
         "count": 3
-      },
-      {
-        "word": "maja",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75741051",
+      "author": "Aureliano",
+      "postedAt": "2026-09-11 00:00",
+      "threadTitle": "Re: Chyba zacny short tu siedzi",
+      "url": "https://www.bankier.pl/forum/temat_chyba-zacny-short-tu-siedzi,75636169.html",
+      "body": "Prawnik bierze odp za opinie. Fund nie. Jak widac.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75740107",
       "author": "Wp",
@@ -115,7 +134,7 @@
       "body": "Z rekomendacjami jest jak z opiniami pisanymi przez prawników",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"

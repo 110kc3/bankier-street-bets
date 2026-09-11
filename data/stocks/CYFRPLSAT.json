@@ -3,25 +3,25 @@
   "companyName": "Cyfrowy Polsat Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CYFRPLSAT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cyfrowy-polsat-spolka-akcyjna,6,21,10000000415.html",
-  "updatedAt": "2026-09-10T20:51:50.272Z",
+  "updatedAt": "2026-09-11T04:38:46.566Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-10T20:51:50.272Z",
+    "fetchedAt": "2026-09-11T04:38:46.566Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 60
+    "threadsScanned": 63
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.009,
+    "score": 0,
     "confidence": 0.7,
-    "commentCount": 151,
+    "commentCount": 155,
     "breakdown": {
       "positive": 23,
-      "negative": 32,
-      "neutral": 96
+      "negative": 34,
+      "neutral": 98
     },
     "trend": [
       {
@@ -58,14 +58,19 @@
         "date": "2026-09-10",
         "score": 0.049,
         "count": 46
+      },
+      {
+        "date": "2026-09-11",
+        "score": -0.226,
+        "count": 4
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 151 komentarzy z ostatnich 7 dni: nastroje mieszane (23 pozytywnych, 32 negatywnych, 96 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 155 komentarzy z ostatnich 7 dni: nastroje mieszane (23 pozytywnych, 34 negatywnych, 98 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
-        "count": 10
+        "count": 11
       },
       {
         "word": "leszcza",
@@ -78,6 +83,10 @@
       {
         "word": "wiadomosc",
         "count": 8
+      },
+      {
+        "word": "spadz",
+        "count": 6
       },
       {
         "word": "karpaczu",
@@ -98,14 +107,66 @@
       {
         "word": "dzialo",
         "count": 5
-      },
-      {
-        "word": "spadz",
-        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75741375",
+      "author": "Kloaka",
+      "postedAt": "2026-09-11 06:17",
+      "threadTitle": "Re: Dewastacja infrastruktury telekomunikacyjnej. Nie wygląda to dobrze.",
+      "url": "https://www.bankier.pl/forum/temat_dewastacja-infrastruktury-telekomunikacyjnej-nie-wyglada-to-dobrze,75741245.html",
+      "body": "Uuu, grubo. Trolle wzrostowe w szoku. Spadź nadchodzi...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75741369",
+      "author": "Kloaka",
+      "postedAt": "2026-09-11 06:15",
+      "threadTitle": "Najsajmprzód 13 zł potem 11 i 7 zł w mojej ocenie",
+      "url": "https://www.bankier.pl/forum/temat_najsajmprzod-13-zl-potem-11-i-7-zl-w-mojej-ocenie,75741369.html",
+      "body": "Kryzys przed nami. Tylko gotówka.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75741245",
+      "author": "Biegunka",
+      "postedAt": "2026-09-11 04:16",
+      "threadTitle": "Dewastacja infrastruktury telekomunikacyjnej. Nie wygląda to dobrze.",
+      "url": "https://www.bankier.pl/forum/temat_dewastacja-infrastruktury-telekomunikacyjnej-nie-wyglada-to-dobrze,75741245.html",
+      "body": "https://wiadomosci.wp.pl/trwa-seria-tajemniczych-podpalen-cel-infrastruktura-telekomunikacyjna-7327928559921312a",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75741237",
+      "author": "Biegunka",
+      "postedAt": "2026-09-11 03:54",
+      "threadTitle": "Piątunio - soczysty spadziunio. Gotowi ? Nowa metoda - nowa czerwień",
+      "url": "https://www.bankier.pl/forum/temat_piatunio-soczysty-spadziunio-gotowi-nowa-metoda-nowa-czerwien,75741237.html",
+      "body": "Nowi Wy. 7 zł.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75740361",
       "author": "zibi",
@@ -129,7 +190,7 @@
       "body": "Kolejny matoł, któremu się wydaje, że ryczenie na forum ma wpływ na kapitał spekulacyjny.",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -143,7 +204,7 @@
       "body": "Twój już słychać. Informacja w trakcie sesji była znana. Mały wpływ, kredyt CP w Euro po drugiej już podwyżce o 25pp - 10mln zł odsetek.",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -170,7 +231,7 @@
       "url": "https://www.bankier.pl/forum/temat_pilne-ebc-podnosi-stopy-czytac,75739481.html",
       "body": "https://businessinsider.com.pl/gospodarka/stopy-procentowe-w-strefie-euro-rosna-ebc-reaguje-na-inflacje-i-ceny-ropy/65b8ng3Oj będzie płacz",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 2
       },
       "sentimentScore": 0.322,
@@ -198,8 +259,8 @@
       "url": "https://www.bankier.pl/forum/temat_porozumienie-w-rodzinie-solorz-zak-ogloszone-dzisiaj,75737847.html",
       "body": "Przecież info wyszlo po sesji, więc jak kurs miałby na to zareagować?",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -212,7 +273,7 @@
       "url": "https://www.bankier.pl/forum/temat_porozumienie-w-rodzinie-solorz-zak-ogloszone-dzisiaj,75737847.html",
       "body": "Powiem jedno zgoda buduje i tyle w temacie",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -269,7 +330,7 @@
       "body": "Teraz jest najnowsza metoda \"na ugodę\"... Nie bez przyczyny podana przed jutrzejszym połowem leszcza.Oj, będzie się działo. Obserwujcie, obowiązkowo z ćczćcipsami.",
       "votes": {
         "up": 2,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -296,7 +357,7 @@
       "url": "https://www.bankier.pl/forum/temat_porozumienie-w-rodzinie-solorz-zak-ogloszone-dzisiaj,75737847.html",
       "body": "Chłopcy jeszcze próbują zaklinać rzeczywistość no ale jutro się zdziwią. Sama zgoda w rodzinie jest warta ze 20 złotych . Prąd po 1.000 złotych i nowa strategia daje kierunek na ATH. Miłej nocy",
       "votes": {
-        "up": 5,
+        "up": 7,
         "down": 1
       },
       "sentimentScore": 0,
@@ -310,7 +371,7 @@
       "url": "https://www.bankier.pl/forum/temat_porozumienie-w-rodzinie-solorz-zak-ogloszone-dzisiaj,75737847.html",
       "body": "Jeśli rentowność 10latek usa przełamie 5%, u nas 7% duży kapitał będzie się wycofywać z ryzyka (akcji). To akurat zaserwował król blaznów Trump.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": -0.322,
@@ -339,7 +400,7 @@
       "body": "No to wracamy na 35zl",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -422,8 +483,8 @@
       "url": "https://www.bankier.pl/forum/temat_ubrani-metoda-na-ugode-wystomp,75738011.html",
       "body": "Czego to jeszcze wesoła rodzinka nie wypuści żeby tylko ubrać",
       "votes": {
-        "up": 1,
-        "down": 2
+        "up": 3,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -492,7 +553,7 @@
       "url": "https://www.bankier.pl/forum/temat_gdzie-podaja-najlepiej-wypatroszonego-najsmaczniejszego-leszcza,75736755.html",
       "body": "Karolku, leszcze najśmieszniejsze tylko w Karczmie u Zdzisia w Karpaczu.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0,
@@ -506,7 +567,7 @@
       "url": "https://www.bankier.pl/forum/temat_gdzie-podaja-najlepiej-wypatroszonego-najsmaczniejszego-leszcza,75736755.html",
       "body": "No,dziubaski moje, gdzie ?Za przepotężnie trafną odpowiedź mam przygotowaną nagrodę, dziubaski.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
