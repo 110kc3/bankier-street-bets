@@ -3,11 +3,11 @@
   "companyName": "Kruk Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-spolka-akcyjna,6,21,10000001000.html",
-  "updatedAt": "2026-09-11T16:28:14.941Z",
+  "updatedAt": "2026-09-11T20:57:55.630Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-11T16:28:14.941Z",
+    "fetchedAt": "2026-09-11T20:57:55.630Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.309,
-    "confidence": 0.81,
-    "commentCount": 63,
+    "score": -0.337,
+    "confidence": 0.82,
+    "commentCount": 65,
     "breakdown": {
       "positive": 9,
-      "negative": 34,
-      "neutral": 20
+      "negative": 37,
+      "neutral": 19
     },
     "trend": [
-      {
-        "date": "2026-09-04",
-        "score": -0.161,
-        "count": 2
-      },
       {
         "date": "2026-09-05",
         "score": -0.453,
@@ -61,16 +56,20 @@
       },
       {
         "date": "2026-09-11",
-        "score": -0.404,
-        "count": 12
+        "score": -0.46,
+        "count": 16
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 63 komentarzy z ostatnich 7 dni: nastroje negatywne (9 pozytywnych, 34 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 65 komentarzy z ostatnich 7 dni: nastroje negatywne (9 pozytywnych, 37 negatywnych, 19 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
         "count": 6
+      },
+      {
+        "word": "ktos",
+        "count": 5
       },
       {
         "word": "widac",
@@ -81,6 +80,10 @@
         "count": 5
       },
       {
+        "word": "chce",
+        "count": 4
+      },
+      {
         "word": "kruk",
         "count": 4
       },
@@ -89,28 +92,76 @@
         "count": 4
       },
       {
-        "word": "ktos",
-        "count": 4
-      },
-      {
         "word": "jakies",
         "count": 4
       },
       {
-        "word": "analiza",
+        "word": "opinii",
         "count": 3
       },
       {
-        "word": "maja",
-        "count": 3
-      },
-      {
-        "word": "shorta",
+        "word": "rynek",
         "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75753013",
+      "author": "Wp",
+      "postedAt": "2026-09-11 22:35",
+      "threadTitle": "Re: Chyba zacny short tu siedzi",
+      "url": "https://www.bankier.pl/forum/temat_chyba-zacny-short-tu-siedzi,75636169.html",
+      "body": "Nie AI tylko dziesiątki opinii, które zleciłem przed podjęciem decyzji i jak ktoś mi mówi o odpowiedzialności radcy prawnego to mi się śmiać chce. PozdrawiamP.S. jakiś mam problem z publikacją postów, sorki jeżeli pojawia się odpowiedź kilka razy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75752937",
+      "author": "Aureliano",
+      "postedAt": "2026-09-11 22:21",
+      "threadTitle": "Re: Chyba zacny short tu siedzi",
+      "url": "https://www.bankier.pl/forum/temat_chyba-zacny-short-tu-siedzi,75636169.html",
+      "body": "Musisz sie jeszcze doksztalcic, wp. Ai wszystkiego za ciebie nie zrobi. Uwierz, ze jedno to nienalezyte (da sie wykazac przed SD), a drugie to blad merytoryczny. Wszystko sie da, zalezy jaka waga sprawy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75752901",
+      "author": "Aureliano",
+      "postedAt": "2026-09-11 22:18",
+      "threadTitle": "Re: Chyba zacny short tu siedzi",
+      "url": "https://www.bankier.pl/forum/temat_chyba-zacny-short-tu-siedzi,75636169.html",
+      "body": "Mozesz obstawiac. Kto zabroni. Eski wez, skoro tak sadzisz.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75751295",
+      "author": "Magellan",
+      "postedAt": "2026-09-11 18:44",
+      "threadTitle": "Re: Chyba zacny short tu siedzi",
+      "url": "https://www.bankier.pl/forum/temat_chyba-zacny-short-tu-siedzi,75636169.html",
+      "body": "generalnie rynek śmierdzi zwałą, ale na kruku akurat wskaźniki zaczynają wołać buy",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75751027",
       "author": "Fulman",
@@ -162,7 +213,7 @@
       "body": "obstawiam, że po wiedźmach będziemy niżej niż dziś.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -483,7 +534,7 @@
       "url": "https://www.bankier.pl/forum/temat_analiza-graficzna-szortoow-na-kruku-06-09,75686351.html",
       "body": "wypad z baru. nie naganiaj na płatną platwormę !!!!! brak gotówki ? coż ....",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -963,34 +1014,6 @@
         "down": 1
       },
       "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75677103",
-      "author": "Mn",
-      "postedAt": "2026-09-04 20:43",
-      "threadTitle": "Re: 350 zł",
-      "url": "https://www.bankier.pl/forum/temat_350-zl,75674351.html",
-      "body": "Ale zawory nie trzymają",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75676887",
-      "author": "Pułtusk",
-      "postedAt": "2026-09-04 20:19",
-      "threadTitle": "Re: 350 zł",
-      "url": "https://www.bankier.pl/forum/temat_350-zl,75674351.html",
-      "body": "Zapomnij frajerze",
-      "votes": {
-        "up": 8,
-        "down": 6
-      },
-      "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     }
   ]
