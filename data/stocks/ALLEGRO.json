@@ -3,32 +3,27 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-09-11T11:19:09.392Z",
+  "updatedAt": "2026-09-11T16:26:59.508Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-11T11:19:09.392Z",
+    "fetchedAt": "2026-09-11T16:26:59.508Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 18
+    "threadsScanned": 16
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.003,
+    "score": 0.011,
     "confidence": 0.7,
-    "commentCount": 65,
+    "commentCount": 59,
     "breakdown": {
-      "positive": 22,
-      "negative": 18,
+      "positive": 20,
+      "negative": 14,
       "neutral": 25
     },
     "trend": [
-      {
-        "date": "2026-09-04",
-        "score": -0.333,
-        "count": 7
-      },
       {
         "date": "2026-09-05",
         "score": 0.29,
@@ -58,30 +53,35 @@
         "date": "2026-09-10",
         "score": -0.048,
         "count": 10
+      },
+      {
+        "date": "2026-09-11",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 65 komentarzy z ostatnich 7 dni: nastroje mieszane (22 pozytywnych, 18 negatywnych, 25 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 59 komentarzy z ostatnich 7 dni: nastroje mieszane (20 pozytywnych, 14 negatywnych, 25 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wyniki",
-        "count": 10
+        "count": 9
       },
       {
         "word": "allegro",
         "count": 7
       },
       {
-        "word": "szorty",
-        "count": 7
-      },
-      {
         "word": "tauron",
-        "count": 6
+        "count": 5
       },
       {
         "word": "skup",
-        "count": 6
+        "count": 5
+      },
+      {
+        "word": "szorty",
+        "count": 5
       },
       {
         "word": "temu",
@@ -100,12 +100,26 @@
         "count": 4
       },
       {
-        "word": "wtedy",
+        "word": "trzeba",
         "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75750981",
+      "author": "mabmab",
+      "postedAt": "2026-09-11 18:10",
+      "threadTitle": "Re: Jest dobrze- nie jest dobrze",
+      "url": "https://www.bankier.pl/forum/temat_jest-dobrze,75722491.html",
+      "body": "wsparcie 45 zl naruszone......",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75740675",
       "author": "Mirek",
@@ -226,7 +240,7 @@
       "url": "https://www.bankier.pl/forum/temat_w-koncu-widac-ze-ktos-to-zbiera-i-ustawia-sie-pod-wyniki,75729365.html",
       "body": "Może Lol po ciuchu wszystko łyka dzisiaj obraz jest czytelny ostatnie dni tygodnie były nudne i bez entuzjazmu obojętne mieli czas.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -917,104 +931,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75675633",
-      "author": "dede",
-      "postedAt": "2026-09-04 17:42",
-      "threadTitle": "Re: Bardzo dobre wyniki i kolejny skup akcji. Cel 60zł",
-      "url": "https://www.bankier.pl/forum/temat_bardzo-dobre-wyniki-i-kolejny-skup-akcji-cel-60zl,75671511.html",
-      "body": "przy wynikach bedzie -7% na start",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75674493",
-      "author": "Jan",
-      "postedAt": "2026-09-04 16:31",
-      "threadTitle": "Re: Bardzo dobre wyniki i kolejny skup akcji. Cel 60zł",
-      "url": "https://www.bankier.pl/forum/temat_bardzo-dobre-wyniki-i-kolejny-skup-akcji-cel-60zl,75671511.html",
-      "body": "Jedyny optymistyczny",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75673705",
-      "author": "Mirek",
-      "postedAt": "2026-09-04 15:48",
-      "threadTitle": "Re: Czemu ten badziew nie rośnie",
-      "url": "https://www.bankier.pl/forum/temat_czemu-ten-badziew-nie-rosnie,75672361.html",
-      "body": "Możliwe koksu mu podsypać nie zarabiam stoję w miejscu inni kasę robią Modivo odjeżdża, PGE może i Tauron a tu wakacje oby to było zbieranie pod wystrzał a nie dystrybucja pod korektę zamknąć lukę na 38-40 bo wtedy już nie poradzę sobie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75672483",
-      "author": "Jan",
-      "postedAt": "2026-09-04 14:38",
-      "threadTitle": "Re: Czemu ten badziew nie rośnie",
-      "url": "https://www.bankier.pl/forum/temat_czemu-ten-badziew-nie-rosnie,75672361.html",
-      "body": "Bo nimo mleka i nierośnie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75672361",
-      "author": "Mirek",
-      "postedAt": "2026-09-04 14:31",
-      "threadTitle": "Czemu ten badziew nie rośnie",
-      "url": "https://www.bankier.pl/forum/temat_czemu-ten-badziew-nie-rosnie,75672361.html",
-      "body": "I w poniedziałek będzie po 44,60 znów mnie kusi wyskoczyć nie mam cierpliwości do noego",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75671511",
-      "author": "lol",
-      "postedAt": "2026-09-04 13:44",
-      "threadTitle": "Bardzo dobre wyniki i kolejny skup akcji. Cel 60zł",
-      "url": "https://www.bankier.pl/forum/temat_bardzo-dobre-wyniki-i-kolejny-skup-akcji-cel-60zl,75671511.html",
-      "body": "Zbliżają się bardzo dobre wyniki. Zaraz będzie ogłoszony kolejny skup akcji za 800mln zł w przedziale 50-60 zł. Szorty załamane :)",
-      "votes": {
-        "up": 5,
-        "down": 3
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75671137",
-      "author": "lol",
-      "postedAt": "2026-09-04 13:23",
-      "threadTitle": "Re: Kolejny dzień jak szorty tracą kasę i płaczą:).Cel 60",
-      "url": "https://www.bankier.pl/forum/temat_kolejny-dzien-jak-szorty-traca-kase-i-placza-cel-60,75649295.html",
-      "body": "Pięknie się czyta jak płaczecie mając szorty i tracicie pieniądze. Super :). Zostańcie z nami jak najdłużej. Dawcy zawsze się przydadzą :). Najpiękniejszy widok jak szorty tracą kasę i kolejne depozyt. Cel 60zł :)",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
