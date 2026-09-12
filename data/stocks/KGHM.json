@@ -1,13 +1,13 @@
 {
   "symbol": "KGHM",
-  "companyName": "KGHM Polska Miedź Spółka Akcyjna",
+  "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-spolka-akcyjna,6,21,116.html",
-  "updatedAt": "2026-09-12T10:45:03.889Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
+  "updatedAt": "2026-09-12T15:31:39.171Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-12T10:45:03.889Z",
+    "fetchedAt": "2026-09-12T15:31:39.171Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.004,
+    "score": -0.01,
     "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 40,
-      "negative": 44,
+      "positive": 39,
+      "negative": 45,
       "neutral": 116
     },
     "trend": [
       {
         "date": "2026-09-08",
-        "score": 0.088,
-        "count": 27
+        "score": 0.079,
+        "count": 26
       },
       {
         "date": "2026-09-09",
@@ -46,12 +46,12 @@
       },
       {
         "date": "2026-09-12",
-        "score": 0.087,
-        "count": 3
+        "score": -0.125,
+        "count": 4
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (40 pozytywnych, 44 negatywnych, 116 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (39 pozytywnych, 45 negatywnych, 116 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "miedz",
@@ -59,11 +59,11 @@
       },
       {
         "word": "kghm",
-        "count": 18
+        "count": 19
       },
       {
         "word": "dzis",
-        "count": 17
+        "count": 16
       },
       {
         "word": "dalej",
@@ -96,6 +96,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75755805",
+      "author": "Styrany",
+      "postedAt": "2026-09-12 15:55",
+      "threadTitle": "Re: Rekomendacja.",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja,75754427.html",
+      "body": "Koszty operacyjne przy drogim gazie, energii,paliwie skoczą kosmicznie, a przychód spadnie bo metale przestały rosnąć a nawet spadają. Cel 250zł za akcje kghm, bo będzie masakryczny spadek zysku.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75754427",
       "author": "starynowy",
@@ -2880,20 +2894,6 @@
         "down": 1
       },
       "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75705247",
-      "author": "Realista",
-      "postedAt": "2026-09-08 13:03",
-      "threadTitle": "Re: eSki ponownie zapakowane średnia 367.1",
-      "url": "https://www.bankier.pl/forum/temat_eski-ponownie-zapakowane-srednia-367-1,75704379.html",
-      "body": "Mi jeszcze wpadło kolejne 4 szt. Średnia 368,2Technicznie mogą iść nawet na 380, ale liczę że jak Jankesi wstaną i zobaczą po ile ulica chce dziś od nich odkupić, to skorzystają z okazji…",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     }
   ]
