@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-09-13T16:17:18.260Z",
+  "updatedAt": "2026-09-13T20:50:13.883Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-13T16:17:18.260Z",
+    "fetchedAt": "2026-09-13T20:50:13.883Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.13,
+    "score": 0.131,
     "confidence": 0.75,
-    "commentCount": 117,
+    "commentCount": 115,
     "breakdown": {
       "positive": 48,
       "negative": 24,
-      "neutral": 45
+      "neutral": 43
     },
     "trend": [
       {
         "date": "2026-09-06",
-        "score": 0.107,
-        "count": 3
+        "score": 0.322,
+        "count": 1
       },
       {
         "date": "2026-09-07",
@@ -66,7 +66,7 @@
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 117 komentarzy z ostatnich 7 dni: nastroje pozytywne (48 pozytywnych, 24 negatywnych, 45 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 115 komentarzy z ostatnich 7 dni: nastroje pozytywne (48 pozytywnych, 24 negatywnych, 43 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
@@ -93,10 +93,6 @@
         "count": 5
       },
       {
-        "word": "korekta",
-        "count": 5
-      },
-      {
         "word": "trzeba",
         "count": 5
       },
@@ -106,6 +102,10 @@
       },
       {
         "word": "https",
+        "count": 4
+      },
+      {
+        "word": "dlugu",
         "count": 4
       }
     ]
@@ -119,8 +119,8 @@
       "url": "https://www.bankier.pl/forum/temat_najlepszy-walor-do-oki-ike-igze,75760013.html",
       "body": "tylko kupowac trzymac zbierac dywidendy",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -1720,34 +1720,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75688315",
-      "author": "Max",
-      "postedAt": "2026-09-06 22:07",
-      "threadTitle": "Za oceanem czerwień i nie zapowiada się zielony kolor",
-      "url": "https://www.bankier.pl/forum/temat_za-oceanem-czerwien-i-nie-zapowiada-sie-zielony-kolor,75688315.html",
-      "body": "Gigantyczna korekta przed nami.",
-      "votes": {
-        "up": 2,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75688199",
-      "author": "Zoja",
-      "postedAt": "2026-09-06 21:43",
-      "threadTitle": "Re: Czy w tym miesiącu 100/dr",
-      "url": "https://www.bankier.pl/forum/temat_czy-w-tym-miesiacu-100,75599661.html",
-      "body": "Wszyscy marzymy .",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
