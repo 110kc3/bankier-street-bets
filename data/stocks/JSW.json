@@ -3,11 +3,11 @@
   "companyName": "JSW SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=JSW",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_jsw-sa,6,21,10000000176.html",
-  "updatedAt": "2026-09-12T20:33:17.098Z",
+  "updatedAt": "2026-09-13T04:46:31.852Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-12T20:33:17.098Z",
+    "fetchedAt": "2026-09-13T04:46:31.852Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.009,
+    "score": 0.013,
     "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 35,
+      "positive": 36,
       "negative": 34,
-      "neutral": 131
+      "neutral": 130
     },
     "trend": [
       {
-        "date": "2026-09-06",
-        "score": 0.107,
-        "count": 3
-      },
-      {
         "date": "2026-09-07",
-        "score": 0.182,
-        "count": 8
+        "score": 0.226,
+        "count": 5
       },
       {
         "date": "2026-09-08",
@@ -41,13 +36,13 @@
       },
       {
         "date": "2026-09-09",
-        "score": 0.583,
-        "count": 2
+        "score": 0.345,
+        "count": 6
       },
       {
         "date": "2026-09-10",
-        "score": 0.168,
-        "count": 17
+        "score": 0.159,
+        "count": 18
       },
       {
         "date": "2026-09-11",
@@ -56,12 +51,17 @@
       },
       {
         "date": "2026-09-12",
-        "score": 0.024,
+        "score": 0.033,
         "count": 67
+      },
+      {
+        "date": "2026-09-13",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (35 pozytywnych, 34 negatywnych, 131 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (36 pozytywnych, 34 negatywnych, 130 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dalej",
@@ -69,7 +69,11 @@
       },
       {
         "word": "trader",
-        "count": 9
+        "count": 8
+      },
+      {
+        "word": "swietne",
+        "count": 7
       },
       {
         "word": "taka",
@@ -85,11 +89,7 @@
       },
       {
         "word": "status",
-        "count": 6
-      },
-      {
-        "word": "swietne",
-        "count": 6
+        "count": 5
       },
       {
         "word": "wiadomosc",
@@ -106,6 +106,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75757821",
+      "author": "Inwestor",
+      "postedAt": "2026-09-13 06:26",
+      "threadTitle": "Re: Decyzja Komisji Europejskiej - dla JSW. Huty w Europie wracają -link",
+      "url": "https://www.bankier.pl/forum/temat_decyzja-komisji-europejskiej-dla-jsw-huty-w-europie-wracaja-link,75685219.html",
+      "body": "Poprostu korba bedzie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75757495",
+      "author": "Zuzam",
+      "postedAt": "2026-09-12 22:49",
+      "threadTitle": "Re: Analiza odkupu akcji. Dobre dane dla inwerstorów JSW.",
+      "url": "https://www.bankier.pl/forum/temat_analiza-odkupu-akcji-dobre-dane-dla-inwerstorow-jsw,75723243.html",
+      "body": "Warto to przeanalizować. Wartot.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75757337",
       "author": "Andy",
@@ -128,7 +156,7 @@
       "url": "https://www.bankier.pl/forum/temat_decyzja-komisji-europejskiej-dla-jsw-huty-w-europie-wracaja-link,75685219.html",
       "body": "Bardzo dobra analiza.",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -255,7 +283,7 @@
       "body": "shorcie, my wiemy ze nie masz 12 złinwestor i nie ma 12 zł ludzieeeee",
       "votes": {
         "up": 2,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -283,7 +311,7 @@
       "body": "Też zamkną",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -296,7 +324,7 @@
       "url": "https://www.bankier.pl/forum/temat_financial-times-o-jsw-widzieliscie-to,75756707.html",
       "body": "Oczywiście wiedza kosztuje ale to chyba jest naganianie na subskrypcje.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -310,7 +338,7 @@
       "url": "https://www.bankier.pl/forum/temat_mowie-juz-kolejny-raz,75753469.html",
       "body": "... i stasio zamknął dziób.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -352,8 +380,8 @@
       "url": "https://www.bankier.pl/forum/temat_financial-times-o-jsw-widzieliscie-to,75756707.html",
       "body": "Cos mnie skloniło zeby sprzedac , ajajajaj. Niedobrze.",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 5,
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -394,7 +422,7 @@
       "url": "https://www.bankier.pl/forum/temat_financial-times-o-jsw-widzieliscie-to,75756707.html",
       "body": "Oj się bedzie działo :https://x.com/GPW_Trader2022/status/2098821451348406766",
       "votes": {
-        "up": 9,
+        "up": 11,
         "down": 0
       },
       "sentimentScore": 0,
@@ -450,7 +478,7 @@
       "url": "https://www.bankier.pl/forum/temat_pod-co-teraz,75756049.html",
       "body": "Dziękuję",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -464,7 +492,7 @@
       "url": "https://www.bankier.pl/forum/temat_pod-co-teraz,75756049.html",
       "body": "Poproszę o kulturalne i merytoryczne odpowiedzi===================Poproście kogoś mądrzejszego od siebie, aby wam wytłumaczył sens mojej prośby, bo widzę, że to była zbyt trudna prośba do zrozumienia przez wasze móżdżki . . .",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -479,7 +507,7 @@
       "body": "Black wisi na cargo A jsw kupił odemnie za 65 podczas ostatniej hossy na weglu",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
@@ -493,7 +521,7 @@
       "body": "Szorta pod emisję można brac",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -563,7 +591,7 @@
       "body": "No i super",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -773,7 +801,7 @@
       "body": "JSW pozbywa się konkurencjihttps://x.com/GPW_Trader2022/status/2098688560035479631",
       "votes": {
         "up": 5,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -788,20 +816,6 @@
       "votes": {
         "up": 0,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75754901",
-      "author": "Olo",
-      "postedAt": "2026-09-12 12:18",
-      "threadTitle": "Zewsząd słychać tu nagonów kwiczenie.",
-      "url": "https://www.bankier.pl/forum/temat_zewszad-slychac-tu-nagonow-kwiczenie,75754901.html",
-      "body": "Oznacza to niechybnie nowych topienie.",
-      "votes": {
-        "up": 3,
-        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -884,7 +898,7 @@
       "url": "https://www.bankier.pl/forum/temat_mowie-juz-kolejny-raz,75753469.html",
       "body": "No popatrz a kurs ciebie nie słucha i kilkadziesiąt procent w górę hehe",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -899,7 +913,7 @@
       "body": "Pisałem pół roku temu, 3 miesiące temu, miesiąc temu tu nic nie będzie bo nie ma pod co wzrastać chwilowy wzrost na węglu i potem zjazd aż będzie coś co pomoże na wzrosty",
       "votes": {
         "up": 0,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -912,7 +926,7 @@
       "url": "https://www.bankier.pl/forum/temat_mowie-juz-kolejny-raz,75753469.html",
       "body": "A kiedy już to pisałeś ? Miałeś inny nick ? Bo nie kojarzę",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -969,7 +983,7 @@
       "body": "Huty, eksport węgla jest na poziomie mini.Chwilowy wzrost węgla tylko chwilowy i powrót. Tu przez najbliższe lata nic a nic.",
       "votes": {
         "up": 1,
-        "down": 8
+        "down": 10
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1654,7 +1668,7 @@
       "url": "https://www.bankier.pl/forum/temat_decyzja-komisji-europejskiej-dla-jsw-huty-w-europie-wracaja-link,75685219.html",
       "body": "Swietne informajce.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -2235,6 +2249,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "75737925",
+      "author": "resza",
+      "postedAt": "2026-09-10 18:00",
+      "threadTitle": "Re: Analiza odkupu akcji. Dobre dane dla inwerstorów JSW.",
+      "url": "https://www.bankier.pl/forum/temat_analiza-odkupu-akcji-dobre-dane-dla-inwerstorow-jsw,75723243.html",
+      "body": "Wiele sie dzieje, wiele.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "75737855",
       "author": "Fdolkamn",
       "postedAt": "2026-09-10 17:56",
@@ -2242,7 +2270,7 @@
       "url": "https://www.bankier.pl/forum/temat_decyzja-komisji-europejskiej-dla-jsw-huty-w-europie-wracaja-link,75685219.html",
       "body": "Swietne dane, i jedziemy",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -2457,6 +2485,62 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75725465",
+      "author": "MarekM",
+      "postedAt": "2026-09-09 23:52",
+      "threadTitle": "Re: Analiza odkupu akcji. Dobre dane dla inwerstorów JSW.",
+      "url": "https://www.bankier.pl/forum/temat_analiza-odkupu-akcji-dobre-dane-dla-inwerstorow-jsw,75723243.html",
+      "body": "Mops to dlatego ze znasz juz swoja przyszlosc i wiesz, ze bez pomocy z mops-u sie nie obejdzie shorciarzu?",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75724977",
+      "author": "Sekszo",
+      "postedAt": "2026-09-09 22:15",
+      "threadTitle": "Re: Analiza odkupu akcji. Dobre dane dla inwerstorów JSW.",
+      "url": "https://www.bankier.pl/forum/temat_analiza-odkupu-akcji-dobre-dane-dla-inwerstorow-jsw,75723243.html",
+      "body": "Znakomita analiza.",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75723317",
+      "author": "mops",
+      "postedAt": "2026-09-09 19:07",
+      "threadTitle": "Re: Analiza odkupu akcji. Dobre dane dla inwerstorów JSW.",
+      "url": "https://www.bankier.pl/forum/temat_analiza-odkupu-akcji-dobre-dane-dla-inwerstorow-jsw,75723243.html",
+      "body": "Wczoraj miał być odkup i co?? Ktoś tu mocno czaruje i to przełożenie terminu raportu.",
+      "votes": {
+        "up": 2,
+        "down": 13
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75723243",
+      "author": "Kopers",
+      "postedAt": "2026-09-09 18:57",
+      "threadTitle": "Analiza odkupu akcji. Dobre dane dla inwerstorów JSW.",
+      "url": "https://www.bankier.pl/forum/temat_analiza-odkupu-akcji-dobre-dane-dla-inwerstorow-jsw,75723243.html",
+      "body": "Ciekawa analiza, swietne dane.https://x.com/GPW_Trader2022/status/2097394682196001108",
+      "votes": {
+        "up": 9,
+        "down": 4
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
     },
     {
       "id": "75723215",
@@ -2820,90 +2904,6 @@
         "down": 0
       },
       "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75692873",
-      "author": "driller",
-      "postedAt": "2026-09-07 12:16",
-      "threadTitle": "Re: Decyzja Komisji Europejskiej - dla JSW. Huty w Europie wracają -link",
-      "url": "https://www.bankier.pl/forum/temat_decyzja-komisji-europejskiej-dla-jsw-huty-w-europie-wracaja-link,75685219.html",
-      "body": "link nie działa , może ten będzie okhttps://x.com/GPW_Trader2022/status/2096529513228247532",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75689481",
-      "author": "JSWtorpeda",
-      "postedAt": "2026-09-07 08:20",
-      "threadTitle": "Re: Decyzja Komisji Europejskiej - dla JSW. Huty w Europie wracają -link",
-      "url": "https://www.bankier.pl/forum/temat_decyzja-komisji-europejskiej-dla-jsw-huty-w-europie-wracaja-link,75685219.html",
-      "body": "NIezle sie dzieje, niezle.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75689301",
-      "author": "Rysiek",
-      "postedAt": "2026-09-07 07:50",
-      "threadTitle": "Re: Decyzja Komisji Europejskiej - dla JSW. Huty w Europie wracają -link",
-      "url": "https://www.bankier.pl/forum/temat_decyzja-komisji-europejskiej-dla-jsw-huty-w-europie-wracaja-link,75685219.html",
-      "body": "super",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75688701",
-      "author": "Rysiu",
-      "postedAt": "2026-09-06 23:57",
-      "threadTitle": "Re: Decyzja Komisji Europejskiej - dla JSW. Huty w Europie wracają -link",
-      "url": "https://www.bankier.pl/forum/temat_decyzja-komisji-europejskiej-dla-jsw-huty-w-europie-wracaja-link,75685219.html",
-      "body": "Będzie się działo. Ale zalecam pełen spokoj i bez podniety.",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75688675",
-      "author": "Sasa",
-      "postedAt": "2026-09-06 23:41",
-      "threadTitle": "Re: Decyzja Komisji Europejskiej - dla JSW. Huty w Europie wracają -link",
-      "url": "https://www.bankier.pl/forum/temat_decyzja-komisji-europejskiej-dla-jsw-huty-w-europie-wracaja-link,75685219.html",
-      "body": "No to sie bedzie działo.",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75688649",
-      "author": "Folam",
-      "postedAt": "2026-09-06 23:30",
-      "threadTitle": "analiza graficzna szortoow na JSW 07-09",
-      "url": "https://www.bankier.pl/forum/temat_analiza-graficzna-szortoow-na-jsw-07-09,75688649.html",
-      "body": "Jutro czy pojutrze przebijamy 40 zł ?https://x.com/GPW_Trader2022/status/2096692964991160628",
-      "votes": {
-        "up": 26,
-        "down": 3
-      },
-      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     }
   ]
