@@ -3,41 +3,36 @@
   "companyName": "Dino Polska Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-spolka-akcyjna,6,21,10000001632.html",
-  "updatedAt": "2026-09-14T12:44:46.256Z",
+  "updatedAt": "2026-09-14T21:48:57.625Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-14T12:44:46.256Z",
+    "fetchedAt": "2026-09-14T21:48:57.626Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 101
+    "threadsScanned": 98
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.03,
-    "confidence": 0.71,
+    "score": 0.014,
+    "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 52,
-      "negative": 54,
-      "neutral": 94
+      "positive": 49,
+      "negative": 55,
+      "neutral": 96
     },
     "trend": [
       {
-        "date": "2026-09-08",
-        "score": 0,
+        "date": "2026-09-09",
+        "score": -0.281,
         "count": 3
       },
       {
-        "date": "2026-09-09",
-        "score": -0.259,
-        "count": 10
-      },
-      {
         "date": "2026-09-10",
-        "score": -0.197,
-        "count": 60
+        "score": -0.236,
+        "count": 55
       },
       {
         "date": "2026-09-11",
@@ -56,20 +51,20 @@
       },
       {
         "date": "2026-09-14",
-        "score": 0.024,
-        "count": 27
+        "score": -0.035,
+        "count": 42
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (52 pozytywnych, 54 negatywnych, 94 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (49 pozytywnych, 55 negatywnych, 96 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 18
+        "count": 21
       },
       {
         "word": "inflacja",
-        "count": 15
+        "count": 14
       },
       {
         "word": "korekta",
@@ -84,10 +79,6 @@
         "count": 9
       },
       {
-        "word": "masz",
-        "count": 8
-      },
-      {
         "word": "qube",
         "count": 8
       },
@@ -96,16 +87,230 @@
         "count": 8
       },
       {
-        "word": "https",
+        "word": "wiecej",
         "count": 7
       },
       {
-        "word": "zywnosci",
+        "word": "zeby",
+        "count": 7
+      },
+      {
+        "word": "https",
         "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75773197",
+      "author": "All",
+      "postedAt": "2026-09-14 23:06",
+      "threadTitle": "Re: Kara dla dino",
+      "url": "https://www.bankier.pl/forum/temat_kara-dla-dino,75772761.html",
+      "body": "Brawo",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75773147",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-09-14 22:57",
+      "threadTitle": "Re: Kara dla dino",
+      "url": "https://www.bankier.pl/forum/temat_kara-dla-dino,75772761.html",
+      "body": "Bredzisz spadziu",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75772863",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 21:55",
+      "threadTitle": "Re: Wg mnie, leci na 33zl",
+      "url": "https://www.bankier.pl/forum/temat_wg-mnie-leci-na-33zl,75763673.html",
+      "body": "Jak to wyliczyłeś? A może 25zł?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75772799",
+      "author": "Pol",
+      "postedAt": "2026-09-14 21:45",
+      "threadTitle": "Re: Wg mnie, leci na 33zl",
+      "url": "https://www.bankier.pl/forum/temat_wg-mnie-leci-na-33zl,75763673.html",
+      "body": "To niestety spadnie poniżej 30zl",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75772761",
+      "author": "Pol",
+      "postedAt": "2026-09-14 21:40",
+      "threadTitle": "Kara dla dino",
+      "url": "https://www.bankier.pl/forum/temat_kara-dla-dino,75772761.html",
+      "body": "Raczej nie unikniona, biedronka dostała a dino bylo najbardziej zamieszane ,więc kara pewna",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75772315",
+      "author": "Paweł",
+      "postedAt": "2026-09-14 20:39",
+      "threadTitle": "Re: Inflacja a Dino",
+      "url": "https://www.bankier.pl/forum/temat_inflacja-a-dino,75744145.html",
+      "body": "Będzie coraz drożnej wiec klienci wybiorą Tanie zakupy w Dino !!!!!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75772173",
+      "author": "Miras",
+      "postedAt": "2026-09-14 20:17",
+      "threadTitle": "Re: Wg mnie, leci na 33zl",
+      "url": "https://www.bankier.pl/forum/temat_wg-mnie-leci-na-33zl,75763673.html",
+      "body": "35 pyk 35 pyk 35 pyk i 38 pyk pyk pyk następnie 42 i dzida i się obudziłem :)",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75772099",
+      "author": "Miras",
+      "postedAt": "2026-09-14 20:09",
+      "threadTitle": "Re: Plan dla kursu Dino na wrzesień",
+      "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
+      "body": "Kto dzisiaj sprzedaje to raczej nie zarobi.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75771237",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 18:18",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Ja myślę, że więcej. Tylko Qube musi się obłowić.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75770817",
+      "author": "Pablo",
+      "postedAt": "2026-09-14 17:36",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Te poziomy co napisałeś będą do końca roku ! Cierpliwośći ludzie",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75770783",
+      "author": "Obludnicy",
+      "postedAt": "2026-09-14 17:33",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "To co juz nie bedzie 42 -45 .tak krzyczeliscie i naganialiscie ....",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75770685",
+      "author": "Roman",
+      "postedAt": "2026-09-14 17:26",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Niewinni jak dziewicza łzaChyba 8 lat byłeś zahibernowany",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75769851",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 16:23",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "pis jak dojdzie do władzy to też nikogo nie będzie sądził. Za stary już jestem żeby się tym fascynować. Wszyscy tam są umoczeni.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75769829",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 16:22",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Bo nie o to chodzi, żeby sądzić złodziei. Przecież wiedzą że za 4 lata role się zmienią. Co się tam będą po sądach włóczyć.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75769631",
+      "author": "Osa",
+      "postedAt": "2026-09-14 16:10",
+      "threadTitle": "Re: Żywność drożeje",
+      "url": "https://www.bankier.pl/forum/temat_zywnosc-drozeje,75767967.html",
+      "body": "Żywność drożeje Dino tanieje hehe",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75768215",
       "author": "Misiu",
@@ -114,7 +319,7 @@
       "url": "https://www.bankier.pl/forum/temat_zywnosc-drozeje,75767967.html",
       "body": "Dopiero się zacznie. Niedobór nawozów i wysokie koszty energii.",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -128,7 +333,7 @@
       "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
       "body": "Znając życie włączy się po 16 i na dogrywce, ale na spokojnie, trzeba przetrzymać.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -142,7 +347,7 @@
       "url": "https://www.bankier.pl/forum/temat_zywnosc-drozeje,75767967.html",
       "body": "https://www.bankier.pl/wiadomosc/Globalne-ceny-zywnosci-ponownie-poszly-w-gore-Zbliza-sie-koniec-spozywczej-deflacji-9194420.html",
       "votes": {
-        "up": 1,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -156,8 +361,8 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Sęk w tym, że obecna banda nic nie umie zrobić jak poprzednią władza. I nie złapała żadnego złodzieja z PiSu. A tych dwóch, których ściga, są Bogu ducha winni",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 7,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -170,8 +375,8 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Może powinni zacząć kraść jak poprzednia władza i drukować kasęZrobią 20% inflacji i zasypia dziurę w budżecieNa wszystko będzie jak za poprzedników",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 8,
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -184,8 +389,8 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "> To dobrze, uśredni się.W tym rozumowaniu tkwi poważny błąd. Bo nie ma żadnej gwarancji, że po spadku kursu nasąpi ponowny jego wzrost. Sytuacja polityczna w Polsce może zniweczyć wszelkie kalkulacje na wzrosty na giełdzie. Obecna władza miota się jak dziki zwierz złapany w sidła i może w najbliższym czasie narobić niewyobrażalnego bałaganu.",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 5,
+        "down": 4
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -212,7 +417,7 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Mysle ze czeka nas boczniak do listopada do wyników",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -254,7 +459,7 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Kosze mam nawet na ponad 30, więc będę mega zadowolony",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -268,7 +473,7 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "To dobrze, uśredni się.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -283,7 +488,7 @@
       "body": "Smutno mi",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -338,7 +543,7 @@
       "url": "https://www.bankier.pl/forum/temat_zamek-36-40,75764745.html",
       "body": "Obroty na to nie wskazują. Chyba, że jakieś info poleci.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -352,7 +557,7 @@
       "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
       "body": "Póki co mizerne obroty. Gdyby teraz Qube sie włączył, to może nieźle uwalić kurs.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -366,7 +571,7 @@
       "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
       "body": "Ja czekam do jakichś dawnych szczytów przynajmniej, czyli 54 zł",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -394,7 +599,7 @@
       "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
       "body": "Tutaj długoterminowo będzie około 100zl za papier ale w krótkim terminie może być różnie ..",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -409,7 +614,7 @@
       "body": "Bez paniki, może być drobna korekta - nawet do 33zł, lub w przypadku, gdyby shorty znalazły jakąś zaczepkę typu spadająca rakieta do 31zł.. Potem myślę, że jest szansa powrócić na stałe powyżej 40zł, zwłaszcza gdy inflacja uderzy.",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -436,7 +641,7 @@
       "url": "https://www.bankier.pl/forum/temat_wg-mnie-leci-na-33zl,75763673.html",
       "body": "Fusy, szklana kula, sufit czy szeptucha ?",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -464,8 +669,8 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-dzida-inflacja-gwarantowana-przez-pomaranczowego-na-dlugo,75761707.html",
       "body": "Nie zapominaj o Qube. Na pewno będzie przeszkadzał.",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -492,7 +697,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-wzrost-2-3,75761091.html",
       "body": "Na pewno Qube będzie przeszkadzał we wzrostach. Trzeba być na to przygotowanym.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -520,7 +725,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-wzrost-2-3,75761091.html",
       "body": "Zgoda. Ale nie to, że jakiś dron wywoła panikę na giełdzie. Inflacja jest nieuchronna z powodu kosztu energii. a inflacja żywności dodatkowo z powodu kosztu nawozów.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -534,7 +739,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-dzida-inflacja-gwarantowana-przez-pomaranczowego-na-dlugo,75761707.html",
       "body": "do końca roku powrót na szczyt",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -548,7 +753,7 @@
       "url": "https://www.bankier.pl/forum/temat_kurs-dino-w-poniedzialek,75761505.html",
       "body": "Kurs Dino jutro kolejne 1-2% na plus, wchodzimy w fazę zakupów co się przekłada na rekordowe zyski.Starjku nie będzie podpytywałem już osoby co pracują w Dino!",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 3
       },
       "sentimentScore": 0.583,
@@ -590,7 +795,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-wzrost-2-3,75761091.html",
       "body": "Jaja sobie robisz? Dron na upa-dlinie ma wpłynąć na kurs?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -646,7 +851,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-wzrost-2-3,75761091.html",
       "body": "Inflacja we wrześniu wzrost do 5 % , paliwo w następnym tygodniu do 9,5 za l. Nie ma wątpliwości, że to musi iść w ceny spożywcze.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -702,7 +907,7 @@
       "url": "https://www.bankier.pl/forum/temat_trzymamy-i-podziwiamy-jak-szort-sie-wije,75703159.html",
       "body": "posiadasz szorty? czy nago plywasz?",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -1024,7 +1229,7 @@
       "url": "https://www.bankier.pl/forum/temat_inflacja-a-dino,75744145.html",
       "body": "Jak narazie to jest deflacja żywności a koszty rosna wnowym roku",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -1094,7 +1299,7 @@
       "url": "https://www.bankier.pl/forum/temat_inflacja-a-dino,75744145.html",
       "body": "Inflacja z czasem zrobi swoje. Szukajmy pozytywów. Tankowanie do pełna zaczyna być ciekawe, niczym ATH na giełdzie. Odnośnie Dino, pomału zaczynam zmieniać mentalność. Krótko jestem na giełdzie wiec codziennie śledzę kurs z emocjami widząc tylko zysk krótkoterminowy, zastanawiam się tylko po co? Dino jest w przecenie do Ath daleka droga, ma mocne fundamenty, w 2027/28 będziemy znacznie, znacznie wyżej. Dochodzę do wniosku że ostatnie spadki są dobra okazja do zakupu, co oczywiście uczyniłem. Dla mnie możne tak kurs się bujać jeszcze tygodniami.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -2557,34 +2762,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75734501",
-      "author": "Ppp",
-      "postedAt": "2026-09-10 15:01",
-      "threadTitle": "Re: biorę kontrakty seria grudniowa",
-      "url": "https://www.bankier.pl/forum/temat_biore-kontrakty-seria-grudniowa,75732531.html",
-      "body": "Dzieki",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75734189",
-      "author": "markol",
-      "postedAt": "2026-09-10 14:43",
-      "threadTitle": "Re: biorę kontrakty seria grudniowa",
-      "url": "https://www.bankier.pl/forum/temat_biore-kontrakty-seria-grudniowa,75732531.html",
-      "body": "Kontrakty terminowe na Tauron seria grudniowa. Każdy kontrakt to 1K akcji. Koszt ok. 1,3 K PLN za kontrakt. Kupując kontrakt korzystasz z dźwigni.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75734095",
       "author": "Misiu",
       "postedAt": "2026-09-10 14:37",
@@ -2625,48 +2802,6 @@
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75733685",
-      "author": "Ppp",
-      "postedAt": "2026-09-10 14:13",
-      "threadTitle": "Re: biorę kontrakty seria grudniowa",
-      "url": "https://www.bankier.pl/forum/temat_biore-kontrakty-seria-grudniowa,75732531.html",
-      "body": "Jeśli by ci się chciało… Napisz coś więcej, nigdy w to nie wchodziłem. Może się skuszę.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75733429",
-      "author": "markol",
-      "postedAt": "2026-09-10 13:55",
-      "threadTitle": "Re: biorę kontrakty seria grudniowa",
-      "url": "https://www.bankier.pl/forum/temat_biore-kontrakty-seria-grudniowa,75732531.html",
-      "body": "Otwarłem też 7 FTPEZ26 - polecam.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75733347",
-      "author": "markol",
-      "postedAt": "2026-09-10 13:51",
-      "threadTitle": "Re: biorę kontrakty seria grudniowa",
-      "url": "https://www.bankier.pl/forum/temat_biore-kontrakty-seria-grudniowa,75732531.html",
-      "body": "Ja też. Na razie mam 14. Poczekamy-zobaczymy.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75727863",
@@ -2762,146 +2897,6 @@
       "votes": {
         "up": 0,
         "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75714999",
-      "author": "rradny",
-      "postedAt": "2026-09-09 09:59",
-      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
-      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
-      "body": "Ale to co mają mogą mieć już dawno odkupione przez firmę zależną należąca do Quebe. Bo to oddzielny podmiot więc teoretycznie mogą mieć to odkupione już wcześniej. I tak prawdopodobnie jest.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75714781",
-      "author": "Radi",
-      "postedAt": "2026-09-09 09:48",
-      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
-      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
-      "body": "poczytaj. po pozyczeniu akcji podmiot ma obowiazek sprzedac go niezwlocznie i powiadomic do 15.30 dnia nastepnego . czyli jesli jestw pisane to pozycji sprzedazy krotkich to znaczy ze akcje zostaly pozyczone i niezwlocznie sprzedane . czyli te liczby ktore podajesz te akcje zostaly juz sprzedane .",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75714601",
-      "author": "Mateusz",
-      "postedAt": "2026-09-09 09:41",
-      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
-      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
-      "body": "To nie znaczy, że jej wywalili w rynek, mogą to zrobić o to widać co się dziś dzieje.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75714553",
-      "author": "Radi",
-      "postedAt": "2026-09-09 09:38",
-      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
-      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
-      "body": "nie, to znaczy ze tyle juz lacznie wszyscy pozyczyli i w rynek wywalili. a teraz beda kiedys tyle musieli odkupic i oddac",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75714419",
-      "author": "Mateusz",
-      "postedAt": "2026-09-09 09:32",
-      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
-      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
-      "body": "To znaczy, że pojawiła się taka liczba na rynku którą można pożyczyć. Więc ma skąd brać i rzucać",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75714201",
-      "author": "Radi",
-      "postedAt": "2026-09-09 09:20",
-      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
-      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
-      "body": "ale co 56 mln akcji??qube ma 10 mln plus to co wczoraj pozyczyli i wywalili w rynek. dzis sie dowiemy do 15.30 ile pozyczyli",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75714167",
-      "author": "Mateusz",
-      "postedAt": "2026-09-09 09:18",
-      "threadTitle": "Ortex pokazuje 56,74 mil akcji",
-      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
-      "body": "Szykują się do walnięcia? Co się tam szykuje jak myślicie?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75704579",
-      "author": "doniek88",
-      "postedAt": "2026-09-08 12:22",
-      "threadTitle": "Re: trzymamy i podziwiamy jak szort się wije",
-      "url": "https://www.bankier.pl/forum/temat_trzymamy-i-podziwiamy-jak-szort-sie-wije,75703159.html",
-      "body": "Nawet jak nie będą dobre, to spadnie kilka procent jeśli w ogóle spadnie i później znowu do góry bo rynek uzna że inflacja za rogiem i to musi być dno.",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75703629",
-      "author": "Radi",
-      "postedAt": "2026-09-08 11:19",
-      "threadTitle": "Re: trzymamy i podziwiamy jak szort się wije",
-      "url": "https://www.bankier.pl/forum/temat_trzymamy-i-podziwiamy-jak-szort-sie-wije,75703159.html",
-      "body": "to beda musieli pozyczyc kolejne 10 mln, bo te o ktorych piszesz wywalili juz skoro jest w raporcie . a wyniki za 3 q beda dobre wiec niech pozyczja byloby super , rynek odbierze z nawiazka a oni kiedys beda musieli odkupic . pieknie",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75703597",
-      "author": "Misiu",
-      "postedAt": "2026-09-08 11:14",
-      "threadTitle": "Re: trzymamy i podziwiamy jak szort się wije",
-      "url": "https://www.bankier.pl/forum/temat_trzymamy-i-podziwiamy-jak-szort-sie-wije,75703159.html",
-      "body": "Przecież oni pożyczyli 10mln akcji. Tutaj masz raptem 1,5mln obrotu. Jak będą chcieli to uwalą kurs jak przed wnikami za Q1.",
-      "votes": {
-        "up": 0,
-        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
