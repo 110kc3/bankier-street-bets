@@ -1,38 +1,43 @@
 {
   "symbol": "DINOPL",
-  "companyName": "Dino Polska SA",
+  "companyName": "Dino Polska Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-09-14T04:54:38.712Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-spolka-akcyjna,6,21,10000001632.html",
+  "updatedAt": "2026-09-14T12:44:46.256Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-14T04:54:38.712Z",
+    "fetchedAt": "2026-09-14T12:44:46.256Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 100
+    "threadsScanned": 101
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.02,
+    "score": 0.03,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 53,
-      "negative": 60,
-      "neutral": 87
+      "positive": 52,
+      "negative": 54,
+      "neutral": 94
     },
     "trend": [
       {
+        "date": "2026-09-08",
+        "score": 0,
+        "count": 3
+      },
+      {
         "date": "2026-09-09",
-        "score": -0.317,
-        "count": 12
+        "score": -0.259,
+        "count": 10
       },
       {
         "date": "2026-09-10",
-        "score": -0.147,
-        "count": 87
+        "score": -0.197,
+        "count": 60
       },
       {
         "date": "2026-09-11",
@@ -51,31 +56,23 @@
       },
       {
         "date": "2026-09-14",
-        "score": 0,
-        "count": 1
+        "score": 0.024,
+        "count": 27
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (53 pozytywnych, 60 negatywnych, 87 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (52 pozytywnych, 54 negatywnych, 94 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 23
+        "count": 18
       },
       {
         "word": "inflacja",
-        "count": 13
+        "count": 15
       },
       {
-        "word": "mnie",
-        "count": 12
-      },
-      {
-        "word": "wiecej",
-        "count": 10
-      },
-      {
-        "word": "przy",
+        "word": "korekta",
         "count": 10
       },
       {
@@ -83,24 +80,396 @@
         "count": 9
       },
       {
-        "word": "korekta",
+        "word": "mnie",
         "count": 9
+      },
+      {
+        "word": "masz",
+        "count": 8
       },
       {
         "word": "qube",
         "count": 8
       },
       {
-        "word": "gieldzie",
+        "word": "przy",
         "count": 8
       },
       {
-        "word": "jakis",
-        "count": 6
+        "word": "https",
+        "count": 7
+      },
+      {
+        "word": "zywnosci",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75768215",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 14:26",
+      "threadTitle": "Re: Żywność drożeje",
+      "url": "https://www.bankier.pl/forum/temat_zywnosc-drozeje,75767967.html",
+      "body": "Dopiero się zacznie. Niedobór nawozów i wysokie koszty energii.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75768059",
+      "author": "MAT",
+      "postedAt": "2026-09-14 14:12",
+      "threadTitle": "Re: Plan dla kursu Dino na wrzesień",
+      "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
+      "body": "Znając życie włączy się po 16 i na dogrywce, ale na spokojnie, trzeba przetrzymać.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75767967",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-09-14 14:05",
+      "threadTitle": "Żywność drożeje",
+      "url": "https://www.bankier.pl/forum/temat_zywnosc-drozeje,75767967.html",
+      "body": "https://www.bankier.pl/wiadomosc/Globalne-ceny-zywnosci-ponownie-poszly-w-gore-Zbliza-sie-koniec-spozywczej-deflacji-9194420.html",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75767725",
+      "author": "yu",
+      "postedAt": "2026-09-14 13:50",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Sęk w tym, że obecna banda nic nie umie zrobić jak poprzednią władza. I nie złapała żadnego złodzieja z PiSu. A tych dwóch, których ściga, są Bogu ducha winni",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75767533",
+      "author": "Roman",
+      "postedAt": "2026-09-14 13:36",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Może powinni zacząć kraść jak poprzednia władza i drukować kasęZrobią 20% inflacji i zasypia dziurę w budżecieNa wszystko będzie jak za poprzedników",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75767463",
+      "author": "ev",
+      "postedAt": "2026-09-14 13:33",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "> To dobrze, uśredni się.W tym rozumowaniu tkwi poważny błąd. Bo nie ma żadnej gwarancji, że po spadku kursu nasąpi ponowny jego wzrost. Sytuacja polityczna w Polsce może zniweczyć wszelkie kalkulacje na wzrosty na giełdzie. Obecna władza miota się jak dziki zwierz złapany w sidła i może w najbliższym czasie narobić niewyobrażalnego bałaganu.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75767007",
+      "author": "Pablo",
+      "postedAt": "2026-09-14 13:11",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Skoro masz taką średnią to ja już bym tego nie tykał i latami czerpał zyski",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75766969",
+      "author": "Radi",
+      "postedAt": "2026-09-14 13:09",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Mysle ze czeka nas boczniak do listopada do wyników",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75766953",
+      "author": "Radi",
+      "postedAt": "2026-09-14 13:08",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Ja mam w b dobrej cenie 28.5 ale gdyby zeszlo do 31 tez bym jeszcze dopakowal. Niestety mysle ze to nierealne",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75766715",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 12:49",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Ja nie mam już za co, ale kredyt wtedy wezmę.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75766265",
+      "author": "Eustachy",
+      "postedAt": "2026-09-14 12:17",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Kosze mam nawet na ponad 30, więc będę mega zadowolony",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75766179",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 12:11",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "To dobrze, uśredni się.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75765835",
+      "author": "Kamil",
+      "postedAt": "2026-09-14 11:46",
+      "threadTitle": "Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Smutno mi",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75765235",
+      "author": "Lejs",
+      "postedAt": "2026-09-14 11:09",
+      "threadTitle": "Re: Zamek 36.40",
+      "url": "https://www.bankier.pl/forum/temat_zamek-36-40,75764745.html",
+      "body": "...jutro 35.70 i mamy falę B",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75765189",
+      "author": "Lejs",
+      "postedAt": "2026-09-14 11:07",
+      "threadTitle": "Re: Zamek 36.40",
+      "url": "https://www.bankier.pl/forum/temat_zamek-36-40,75764745.html",
+      "body": "35.35 dziś.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75765017",
+      "author": "Buba",
+      "postedAt": "2026-09-14 10:55",
+      "threadTitle": "Re: Zamek 36.40",
+      "url": "https://www.bankier.pl/forum/temat_zamek-36-40,75764745.html",
+      "body": "Przygotowują sie…",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75764903",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 10:47",
+      "threadTitle": "Re: Zamek 36.40",
+      "url": "https://www.bankier.pl/forum/temat_zamek-36-40,75764745.html",
+      "body": "Obroty na to nie wskazują. Chyba, że jakieś info poleci.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75764873",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 10:45",
+      "threadTitle": "Re: Plan dla kursu Dino na wrzesień",
+      "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
+      "body": "Póki co mizerne obroty. Gdyby teraz Qube sie włączył, to może nieźle uwalić kurs.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75764831",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 10:42",
+      "threadTitle": "Re: Plan dla kursu Dino na wrzesień",
+      "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
+      "body": "Ja czekam do jakichś dawnych szczytów przynajmniej, czyli 54 zł",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75764745",
+      "author": "Buba",
+      "postedAt": "2026-09-14 10:38",
+      "threadTitle": "Zamek 36.40",
+      "url": "https://www.bankier.pl/forum/temat_zamek-36-40,75764745.html",
+      "body": "Nie moze byc inaczej",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75764595",
+      "author": "Pablo",
+      "postedAt": "2026-09-14 10:29",
+      "threadTitle": "Re: Plan dla kursu Dino na wrzesień",
+      "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
+      "body": "Tutaj długoterminowo będzie około 100zl za papier ale w krótkim terminie może być różnie ..",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75764507",
+      "author": "MAT",
+      "postedAt": "2026-09-14 10:23",
+      "threadTitle": "Re: Plan dla kursu Dino na wrzesień",
+      "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
+      "body": "Bez paniki, może być drobna korekta - nawet do 33zł, lub w przypadku, gdyby shorty znalazły jakąś zaczepkę typu spadająca rakieta do 31zł.. Potem myślę, że jest szansa powrócić na stałe powyżej 40zł, zwłaszcza gdy inflacja uderzy.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75764257",
+      "author": "Pablo",
+      "postedAt": "2026-09-14 10:09",
+      "threadTitle": "Plan dla kursu Dino na wrzesień",
+      "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
+      "body": "Utrzymać 35-34 a będzie dobrze !",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75763933",
+      "author": "jm",
+      "postedAt": "2026-09-14 09:48",
+      "threadTitle": "Re: Wg mnie, leci na 33zl",
+      "url": "https://www.bankier.pl/forum/temat_wg-mnie-leci-na-33zl,75763673.html",
+      "body": "Fusy, szklana kula, sufit czy szeptucha ?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75763751",
+      "author": "Eustachy",
+      "postedAt": "2026-09-14 09:34",
+      "threadTitle": "Re: Wg mnie, leci na 33zl",
+      "url": "https://www.bankier.pl/forum/temat_wg-mnie-leci-na-33zl,75763673.html",
+      "body": "Masz opóźnienie 15 min?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75763029",
+      "author": "Misiu",
+      "postedAt": "2026-09-14 08:35",
+      "threadTitle": "Re: jutro dzida! inflacja gwarantowana przez pomarańczowego na długo",
+      "url": "https://www.bankier.pl/forum/temat_jutro-dzida-inflacja-gwarantowana-przez-pomaranczowego-na-dlugo,75761707.html",
+      "body": "Nie zapominaj o Qube. Na pewno będzie przeszkadzał.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75762213",
       "author": "Dexter",
@@ -123,7 +492,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-wzrost-2-3,75761091.html",
       "body": "Na pewno Qube będzie przeszkadzał we wzrostach. Trzeba być na to przygotowanym.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -165,7 +534,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-dzida-inflacja-gwarantowana-przez-pomaranczowego-na-dlugo,75761707.html",
       "body": "do końca roku powrót na szczyt",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -179,8 +548,8 @@
       "url": "https://www.bankier.pl/forum/temat_kurs-dino-w-poniedzialek,75761505.html",
       "body": "Kurs Dino jutro kolejne 1-2% na plus, wchodzimy w fazę zakupów co się przekłada na rekordowe zyski.Starjku nie będzie podpytywałem już osoby co pracują w Dino!",
       "votes": {
-        "up": 4,
-        "down": 0
+        "up": 7,
+        "down": 3
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -193,7 +562,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-wzrost-2-3,75761091.html",
       "body": "Ropa zdrożeje to każdy wie , atakowane paliwa w Rosji na Ukrainie cieśniny blokowane a władze Arabii Saudyjskiej zdecydowały o czasowym, prewencyjnym wyłączeniu strategicznego rurociągu Wschód-Zachód po tym, jak infrastruktura (stacje pomp) została uszkodzona w wyniku ataku dronów.. Teraz straszą dronami na kolej hmm, dzieje się . Dino to zyska na zakupach bo warto kupić sobie ryby w puszce jest promocja i polecam zapasy tuńczyka zrobić . Inflacja ruszy to i lfl wzrośnie taka prawda",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.964,
@@ -207,7 +576,7 @@
       "url": "https://www.bankier.pl/forum/temat_inflacja-zywnosci-ostro-w-gore,75759951.html",
       "body": "Przypominam, że w Covidzie gdy wszystko dołowało, to Dino radziło sobie świetnie.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -235,7 +604,7 @@
       "url": "https://www.bankier.pl/forum/temat_inflacja-zywnosci-ostro-w-gore,75759951.html",
       "body": "Pisałem o inflacji parę dni temu będzie dobrze tylko cierpliwości",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -277,7 +646,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-wzrost-2-3,75761091.html",
       "body": "Inflacja we wrześniu wzrost do 5 % , paliwo w następnym tygodniu do 9,5 za l. Nie ma wątpliwości, że to musi iść w ceny spożywcze.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -291,7 +660,7 @@
       "url": "https://www.bankier.pl/forum/temat_inflacja-zywnosci-ostro-w-gore,75759951.html",
       "body": "Również sądziłem, że zejdzie w okolice 32 wg. kresek tak wychodzi ale kupuję wyżej.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -305,7 +674,7 @@
       "url": "https://www.bankier.pl/forum/temat_inflacja-zywnosci-ostro-w-gore,75759951.html",
       "body": "Lecimy na 38zł",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -977,7 +1346,7 @@
       "url": "https://www.bankier.pl/forum/temat_lejs,75750115.html",
       "body": "Chłopczyno, przeżuć się na zdrapki, bo o giełdzie nie masz zielonego pojęcia",
       "votes": {
-        "up": 15,
+        "up": 16,
         "down": 1
       },
       "sentimentScore": -0.322,
@@ -2202,34 +2571,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75734495",
-      "author": "Ted",
-      "postedAt": "2026-09-10 15:01",
-      "threadTitle": "Re: Fundusze połamią sobie zęby na Dino",
-      "url": "https://www.bankier.pl/forum/temat_fundusze-polamia-sobie-zeby-na-dino,75724817.html",
-      "body": "Spokojnie będzie dzień gdzie kurs Dino pójdzie +25% a Cube i inne pasożyty pójdą z torbami",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75734399",
-      "author": "ubrany",
-      "postedAt": "2026-09-10 14:55",
-      "threadTitle": "dino podly podstepny smiec",
-      "url": "https://www.bankier.pl/forum/temat_dino-podly-podstepny-smiec,75734399.html",
-      "body": "tak chyba dobrze sie wyrazam o tej spolce i tym co to sie wyprawia",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75734189",
       "author": "markol",
       "postedAt": "2026-09-10 14:43",
@@ -2242,20 +2583,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75734195",
-      "author": "ubrany",
-      "postedAt": "2026-09-10 14:43",
-      "threadTitle": "papier toaletowy dino",
-      "url": "https://www.bankier.pl/forum/temat_papier-toaletowy-dino,75734195.html",
-      "body": "zalamka co za smiec",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75734095",
@@ -2292,48 +2619,6 @@
       "threadTitle": "popelnilem blad po 37 bylop smiecia sie pozbyc",
       "url": "https://www.bankier.pl/forum/temat_popelnilem-blad-po-37-bylop-smiecia-sie-pozbyc,75733905.html",
       "body": "mysle ze nie tylko ja popelnilem",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75733897",
-      "author": "Sjjehe",
-      "postedAt": "2026-09-10 14:26",
-      "threadTitle": "Re: Znowu z wami płynę.",
-      "url": "https://www.bankier.pl/forum/temat_znowu-z-wami-plyne,75718799.html",
-      "body": "Rozwiazniem moze byc twz chodzenie pakietami nie jednego dnia by miec jakies pole manewru... na chlodno bez chytrosci",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75733903",
-      "author": "Misiu",
-      "postedAt": "2026-09-10 14:26",
-      "threadTitle": "Re: Znowu z wami płynę.",
-      "url": "https://www.bankier.pl/forum/temat_znowu-z-wami-plyne,75718799.html",
-      "body": "Tak robiłem ostatnio, że odrabiałem straty u Jankesów. Tym razem jednak tam się Eldorado skończyło. Teraz trzeba kisić stratę.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75733767",
-      "author": "Ppp",
-      "postedAt": "2026-09-10 14:19",
-      "threadTitle": "Re: Znowu z wami płynę.",
-      "url": "https://www.bankier.pl/forum/temat_znowu-z-wami-plyne,75718799.html",
-      "body": "Takie spółki zawsze wrócą na swoje ATH. Jeśli wpadniesz w dołek, jeśli nie musisz - nie sprzedawaj. Cięcie strat ma tylko sens jeśli jest wyraźna alternatywa.",
       "votes": {
         "up": 0,
         "down": 0
@@ -2382,300 +2667,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75733287",
-      "author": "Opa",
-      "postedAt": "2026-09-10 13:48",
-      "threadTitle": "Re: Sprzedane. Widziny sie przy 28",
-      "url": "https://www.bankier.pl/forum/temat_sprzedane-widziny-sie-przy-28,75732907.html",
-      "body": "Nie dość że jesteś niebystry to jeszcze się z tym obnosisz",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75732935",
-      "author": "an",
-      "postedAt": "2026-09-10 13:29",
-      "threadTitle": "Re: Sprzedane. Widziny sie przy 28",
-      "url": "https://www.bankier.pl/forum/temat_sprzedane-widziny-sie-przy-28,75732907.html",
-      "body": "do zobaczenia przy 48",
-      "votes": {
-        "up": 7,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75732907",
-      "author": "Buba",
-      "postedAt": "2026-09-10 13:27",
-      "threadTitle": "Sprzedane. Widziny sie przy 28",
-      "url": "https://www.bankier.pl/forum/temat_sprzedane-widziny-sie-przy-28,75732907.html",
-      "body": "Powodzenia!",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75732639",
-      "author": "Misiu",
-      "postedAt": "2026-09-10 13:10",
-      "threadTitle": "Re: Znowu z wami płynę.",
-      "url": "https://www.bankier.pl/forum/temat_znowu-z-wami-plyne,75718799.html",
-      "body": "Następnym razem jak podejmę jakąś decyzję, to zrobię odwrotnie. :D",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75732597",
-      "author": "Dexter",
-      "postedAt": "2026-09-10 13:08",
-      "threadTitle": "Re: Znowu z wami płynę.",
-      "url": "https://www.bankier.pl/forum/temat_znowu-z-wami-plyne,75718799.html",
-      "body": "chyba jesteś antywskaznikiem :)",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75732535",
-      "author": "doniek88",
-      "postedAt": "2026-09-10 13:04",
-      "threadTitle": "Re: Bedzie taniej -widac ze tymn razem wzieli sie na ostro",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej-widac-ze-tymn-razem-wzieli-sie-na-ostro,75731925.html",
-      "body": "Mistrzu z bagien, wybacz lol",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75732357",
-      "author": "ToForumToŻenada",
-      "postedAt": "2026-09-10 12:54",
-      "threadTitle": "Re: Bedzie taniej -widac ze tymn razem wzieli sie na ostro",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej-widac-ze-tymn-razem-wzieli-sie-na-ostro,75731925.html",
-      "body": "Ziomek, myślenie nie jest twoją mocną stroną.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75732223",
-      "author": "Misiu",
-      "postedAt": "2026-09-10 12:46",
-      "threadTitle": "Re: Znowu z wami płynę.",
-      "url": "https://www.bankier.pl/forum/temat_znowu-z-wami-plyne,75718799.html",
-      "body": "To już chyba 4-ty raz. Przywykłem. Tym razem będę kisił stratę.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75732175",
-      "author": "doniek88",
-      "postedAt": "2026-09-10 12:44",
-      "threadTitle": "Re: Bedzie taniej -widac ze tymn razem wzieli sie na ostro",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej-widac-ze-tymn-razem-wzieli-sie-na-ostro,75731925.html",
-      "body": "Popatrz stosunek redukcja shorta do kursu jsw, ale czerwiec shortowali ile wlezie, ciekawe czy Dino się obroni",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75731925",
-      "author": "Radi",
-      "postedAt": "2026-09-10 12:30",
-      "threadTitle": "Bedzie taniej -widac ze tymn razem wzieli sie na ostro",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-taniej-widac-ze-tymn-razem-wzieli-sie-na-ostro,75731925.html",
-      "body": "zasypuja kazdy opyt na poziomie na jakim chca. bedzie taniej pytanie ile taniej bo bym chetnie dokupil. ale wez tu traf",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75731787",
-      "author": "Xtb",
-      "postedAt": "2026-09-10 12:23",
-      "threadTitle": "Re: Znowu z wami płynę.",
-      "url": "https://www.bankier.pl/forum/temat_znowu-z-wami-plyne,75718799.html",
-      "body": "Misiek sprzedaj bo nie ruszy",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75731127",
-      "author": "bilbon",
-      "postedAt": "2026-09-10 11:48",
-      "threadTitle": "Re: Znowu z wami płynę.",
-      "url": "https://www.bankier.pl/forum/temat_znowu-z-wami-plyne,75718799.html",
-      "body": "i znowu Qube robi na złość Misiowi, który to już raz? 10? :D",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75731091",
-      "author": "Roman",
-      "postedAt": "2026-09-10 11:46",
-      "threadTitle": "Re: Fundusze połamią sobie zęby na Dino",
-      "url": "https://www.bankier.pl/forum/temat_fundusze-polamia-sobie-zeby-na-dino,75724817.html",
-      "body": "Sprawdź teraz jak Qube radzi sobie z budimexem",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75731061",
-      "author": "Roman",
-      "postedAt": "2026-09-10 11:45",
-      "threadTitle": "Re: Zmiana trendu",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu,75727877.html",
-      "body": "Każdy kupuje ile moze",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75730405",
-      "author": "Rewizor",
-      "postedAt": "2026-09-10 11:19",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "Wprawdzie wcinam siemiedzy wad ale zapominacie o depo zabezpieczajacym jakie pozyczajacy bierze od pozyczkobiorcy. Najczesciej gotowka depo wylicza sie na podstawie indexu volatility stad pozyczajacy w momencie gdy gra krotko sprzedaje akcje natychmiast co nie oznacza ze w jednej transzy.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75728975",
-      "author": "MSI",
-      "postedAt": "2026-09-10 10:17",
-      "threadTitle": "Re: Qube - jak obstawiacie",
-      "url": "https://www.bankier.pl/forum/temat_qube-jak-obstawiacie,75728903.html",
-      "body": "Moze byc, mi sie to uklada w calosc za tydzien mamy Trzy Wiedzmy wiec uwalenie akcji ladnie sie synchronizuje z cyklem spadkow na gieldzie",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75728903",
-      "author": "Radi",
-      "postedAt": "2026-09-10 10:14",
-      "threadTitle": "Qube - jak obstawiacie",
-      "url": "https://www.bankier.pl/forum/temat_qube-jak-obstawiacie,75728903.html",
-      "body": "dzis przed 15.30 dowiemy sie ile wczoraj sprzedali pozyczonych akcji. obstawiam wzrosty z 1,12 na 1.30",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75728339",
-      "author": "Misiu",
-      "postedAt": "2026-09-10 09:53",
-      "threadTitle": "Re: Zmiana trendu",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu,75727877.html",
-      "body": "Jeszcze dzisiaj na zielono.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75728177",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-09-10 09:47",
-      "threadTitle": "Re: Zmiana trendu",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu,75727877.html",
-      "body": "Nie za dużo kupiłeś",
-      "votes": {
-        "up": 2,
-        "down": 4
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75728031",
-      "author": "Żorzanka",
-      "postedAt": "2026-09-10 09:40",
-      "threadTitle": "Re: Zmiana trendu",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu,75727877.html",
-      "body": "No ja właśnie mam 850 akcji kupione za 36,45 i też trzymam bo myślę że to pójdzie do góry długofalowo",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75727877",
-      "author": "Zwykły_inwestor",
-      "postedAt": "2026-09-10 09:36",
-      "threadTitle": "Zmiana trendu",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu,75727877.html",
-      "body": "Chciałbym jedynie powiedzieć tak zupełnie na spokojnie (szczególnie do tych, którzy mają wątpliwości, bo czytają te posty na tym forum) że trend się zmienił właśnie na wzrostowy po sporej korekcie z okolic 55 zł do 30 i teraz oczywiście z małymi korektami po drodze, ale będzie musiało iść do góry, bo:1. Dino ma bardzo silne fundamenty: niskie zadłużenie, własne nieruchomości, które są niesamowitą dźwignią, otwiera regularnie coraz więcej sklepów i zaraz dogoni biedronkę pod tym względem i tak można długo2. Już zaczynają głośno mówić o podwyższaniu stóp procentowych, aby zareagować na nadchodzącą podwyższoną inflację co powoduje automatyczne podwyższenie cen podstawowych produktów i w efekcie większe obroty i zyski Dino3. Biznes odporny na bezpośrednie zaburzenia w łańcuchu dostaw tj. ropa i inne surowceTakże jeszcze raz do tych którzy się wahają - trzymajcie i nie patrzcie codziennie na kurs to zarobicie przez kolejne 1-2 lata",
-      "votes": {
-        "up": 9,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75727863",
@@ -2734,54 +2725,138 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75725119",
-      "author": "Buba",
-      "postedAt": "2026-09-09 22:36",
-      "threadTitle": "Re: Fundusze połamią sobie zęby na Dino",
-      "url": "https://www.bankier.pl/forum/temat_fundusze-polamia-sobie-zeby-na-dino,75724817.html",
-      "body": "Dzisiaj wlasnie widzialem jak fundusze sobie radza z dino…",
+      "id": "75718019",
+      "author": "SHORT",
+      "postedAt": "2026-09-09 13:11",
+      "threadTitle": "Re: Short atakuje, żadnej litości nie czuje.",
+      "url": "https://www.bankier.pl/forum/temat_short-atakuje-zadnej-litosci-nie-czuje,75715963.html",
+      "body": "> Rumakowanie na DINKO odtrąbiono, bo jaszczur się wściekł! Hehehe!Takie są skutki nadmiernego rumakowania, zajechaliśta DINKO wczoraj to dzisiaj zrzuca każdego kto próbujena niego wskoczyć, bez litości czy się połamie! Hehehe!",
       "votes": {
-        "up": 6,
-        "down": 1
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75717341",
+      "author": "SHORT",
+      "postedAt": "2026-09-09 12:25",
+      "threadTitle": "Re: Short atakuje, żadnej litości nie czuje.",
+      "url": "https://www.bankier.pl/forum/temat_short-atakuje-zadnej-litosci-nie-czuje,75715963.html",
+      "body": "Rumakowanie na DINKO odtrąbiono, bo jaszczur się wściekł! Hehehe!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75715021",
+      "author": "Misiu",
+      "postedAt": "2026-09-09 10:00",
+      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
+      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
+      "body": "Zmienili strategię. Dołują od rana. Lepszy efekt psychologiczny.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75714999",
+      "author": "rradny",
+      "postedAt": "2026-09-09 09:59",
+      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
+      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
+      "body": "Ale to co mają mogą mieć już dawno odkupione przez firmę zależną należąca do Quebe. Bo to oddzielny podmiot więc teoretycznie mogą mieć to odkupione już wcześniej. I tak prawdopodobnie jest.",
+      "votes": {
+        "up": 0,
+        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75724817",
-      "author": "Ted",
-      "postedAt": "2026-09-09 21:53",
-      "threadTitle": "Fundusze połamią sobie zęby na Dino",
-      "url": "https://www.bankier.pl/forum/temat_fundusze-polamia-sobie-zeby-na-dino,75724817.html",
-      "body": "Im większa będzie ich strata tym większy będzie nasz zysk. Dino ma 3100 sklepów to nie jakiś warzywniak którym można manipulować.",
+      "id": "75714781",
+      "author": "Radi",
+      "postedAt": "2026-09-09 09:48",
+      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
+      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
+      "body": "poczytaj. po pozyczeniu akcji podmiot ma obowiazek sprzedac go niezwlocznie i powiadomic do 15.30 dnia nastepnego . czyli jesli jestw pisane to pozycji sprzedazy krotkich to znaczy ze akcje zostaly pozyczone i niezwlocznie sprzedane . czyli te liczby ktore podajesz te akcje zostaly juz sprzedane .",
       "votes": {
-        "up": 10,
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75714601",
+      "author": "Mateusz",
+      "postedAt": "2026-09-09 09:41",
+      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
+      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
+      "body": "To nie znaczy, że jej wywalili w rynek, mogą to zrobić o to widać co się dziś dzieje.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75714553",
+      "author": "Radi",
+      "postedAt": "2026-09-09 09:38",
+      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
+      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
+      "body": "nie, to znaczy ze tyle juz lacznie wszyscy pozyczyli i w rynek wywalili. a teraz beda kiedys tyle musieli odkupic i oddac",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75714419",
+      "author": "Mateusz",
+      "postedAt": "2026-09-09 09:32",
+      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
+      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
+      "body": "To znaczy, że pojawiła się taka liczba na rynku którą można pożyczyć. Więc ma skąd brać i rzucać",
+      "votes": {
+        "up": 0,
         "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75724017",
-      "author": "doniek88",
-      "postedAt": "2026-09-09 20:26",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "Dla mnie to ma większy sens. Inaczej pożyczyłbyś milion u od razu musiałbyś marketem przywalić milion. Jak dla mnie pożyczają i mają od ręki do wykorzystania, są pożyczone, a co wywalili i kiedy w rynek to ich sprawa, płacą za pożyczenie i tyle, a co wrzucili w rynek jest kalkulowane na pozycję krótka netto.Tak — Gemini opisuje typowy schemat operacyjny shorta, ale słowo „natychmiast” nie wynika z przepisów. Jeśli przedstawił to jako obowiązek prawny, to jest to zbyt daleko idące uproszczenie.Klasyczny short rzeczywiście często wygląda tak:broker/prime broker lokalizuje akcje → fundusz zapewnia sobie możliwość pożyczki → sprzedaje akcje na giełdzie → później odkupuje → oddaje akcje pożyczkodawcy.Ale rozporządzenie UE 236/2012 mówi w definicji krótkiej sprzedaży, że może ona nastąpić, gdy w chwili sprzedaży sprzedający:„pożyczył akcje (…) lub uzgodnił ich pożyczenie”na potrzeby dostawy przy rozrachunku. Jeszcze ważniejszy jest art. 12 ust. 1. Dopuszcza on trzy warianty przed krótką sprzedażą: inwestor może już mieć akcje pożyczone, może mieć umowę ich pożyczenia, albo odpowiednie uzgodnienie z osobą trzecią („locate”), pozwalające racjonalnie oczekiwać dostarczenia akcji do rozrachunku.",
+      "id": "75714201",
+      "author": "Radi",
+      "postedAt": "2026-09-09 09:20",
+      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
+      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
+      "body": "ale co 56 mln akcji??qube ma 10 mln plus to co wczoraj pozyczyli i wywalili w rynek. dzis sie dowiemy do 15.30 ile pozyczyli",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
-      "sentimentScore": -0.997,
+      "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75723987",
-      "author": "Misiu",
-      "postedAt": "2026-09-09 20:23",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "No przecież pisałem, że byłoby bez sensu jakby moglo sprzedać później.",
+      "id": "75714167",
+      "author": "Mateusz",
+      "postedAt": "2026-09-09 09:18",
+      "threadTitle": "Ortex pokazuje 56,74 mil akcji",
+      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
+      "body": "Szykują się do walnięcia? Co się tam szykuje jak myślicie?",
       "votes": {
         "up": 1,
         "down": 0
@@ -2790,116 +2865,46 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75723301",
-      "author": "Orim",
-      "postedAt": "2026-09-09 19:05",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "Sell High Buy Low.. magicy. Czyli aby transakcja miała sens pożyczone akcje sprzedawane są w dacie zawarcia umowy pożyczki akcjo",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75722933",
-      "author": "Radi",
-      "postedAt": "2026-09-09 18:26",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "Dokladnie. Czyli te 1.2 mln poleciało wczoraj . Nic nie dało więc dzis poleciało duzo więcej o ilości dowiemy się jutro przed 15.30",
+      "id": "75704579",
+      "author": "doniek88",
+      "postedAt": "2026-09-08 12:22",
+      "threadTitle": "Re: trzymamy i podziwiamy jak szort się wije",
+      "url": "https://www.bankier.pl/forum/temat_trzymamy-i-podziwiamy-jak-szort-sie-wije,75703159.html",
+      "body": "Nawet jak nie będą dobre, to spadnie kilka procent jeśli w ogóle spadnie i później znowu do góry bo rynek uzna że inflacja za rogiem i to musi być dno.",
       "votes": {
         "up": 3,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75722377",
-      "author": "Tom",
-      "postedAt": "2026-09-09 17:40",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "Jeżeli akcje trafiają do rejestru krótkiej sprzedaży to znaczy że zostały wywalone w rynek tzn short pożycza np 1 mln akcji wywala je w rynek i dopiero po tym zgłasza w KNF że zwiększył pozycję o 1 mln akcji .",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": -0.964,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75722343",
-      "author": "Misiu",
-      "postedAt": "2026-09-09 17:38",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "Wg Gemini:Tak, trafiają od razu.W przypadku krótkiej sprzedaży (grania na spadki) inwestor najpierw pożycza akcje od brokera, a następnie natychmiast sprzedaje je na giełdzie po aktualnej cenie rynkowej. Transakcja trafia na rynek od razu, tworząc standardową ofertę sprzedaży.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75722305",
-      "author": "Misiu",
-      "postedAt": "2026-09-09 17:34",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "To by nie miałoby sensu.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75722263",
-      "author": "doniek88",
-      "postedAt": "2026-09-09 17:30",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "Całkowity wolumen to 11, normalnie byłoby ze 3 wolumenu. Zrzucili ze 3 mln, popyt zrobił drugie 3 to razem 9. Reszta realizacja zysków i panika. Także myślę że rzucili z 2,5-3",
-      "votes": {
-        "up": 0,
-        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75722201",
-      "author": "doniek88",
-      "postedAt": "2026-09-09 17:26",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "U mnie tak twierdzi Nie ma przepisu, który mówi wprost: „po pożyczeniu akcji należy je sprzedać w ciągu X dni”. Najważniejszy zapis to art. 12 ust. 1 rozporządzenia UE 236/2012:„Osoba fizyczna lub prawna może dokonać krótkiej sprzedaży akcji dopuszczonej do obrotu w systemie obrotu tylko wówczas, gdy spełniony jest jeden z następujących warunków:a) osoba fizyczna lub prawna pożyczyła daną akcję lub poczyniła inne postanowienia wywołujące podobny skutek prawny (…)” Dalej w lit. b):„(…) zawarła umowę pożyczki danej akcji (…) w związku z czym możliwe jest dokonanie rozrachunku w odpowiednim terminie”. I lit. c):„(…) podjęła (…) środki niezbędne do tego, aby (…) mogła racjonalnie oczekiwać, że rozrachunek może zostać dokonany w odpowiednim terminie.” Co z tego dokładnie wynikaPrzepis wiąże pożyczkę z możliwością rozliczenia już zawartej krótkiej sprzedaży, a nie ustanawia terminu, w którym po pożyczeniu akcji trzeba je sprzedać.",
+      "id": "75703629",
+      "author": "Radi",
+      "postedAt": "2026-09-08 11:19",
+      "threadTitle": "Re: trzymamy i podziwiamy jak szort się wije",
+      "url": "https://www.bankier.pl/forum/temat_trzymamy-i-podziwiamy-jak-szort-sie-wije,75703159.html",
+      "body": "to beda musieli pozyczyc kolejne 10 mln, bo te o ktorych piszesz wywalili juz skoro jest w raporcie . a wyniki za 3 q beda dobre wiec niech pozyczja byloby super , rynek odbierze z nawiazka a oni kiedys beda musieli odkupic . pieknie",
       "votes": {
-        "up": 1,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75722199",
-      "author": "Tom",
-      "postedAt": "2026-09-09 17:26",
-      "threadTitle": "Re: Qube z 1% na 1,12%",
-      "url": "https://www.bankier.pl/forum/temat_qube-z-1-na-1-12,75719037.html",
-      "body": "Nie ma co tak patrzeć na nasz rejestr krótkiej sprzedaży który pokazuje teraz 1,12% w rzeczywistości jak pokazuje historia shortow podprogowo siedzi tutaj więcej około 2-3 razy więcej niż oficjalnie pokazuje rejestr krótkiej sprzedaży a co widać dokładnie na ortexie ale według mnie instytucje które tutaj są w akcjonariacie doskonałe orientują się jakie jest zaangażowanie shortow i w swoim czasie zrobią z nimi porządek przypomnę tylko że Qube jest tutaj nieprzerwanie od 2 lat i jak kurs wybijał swoje Max historyczne to Qube też tu był dlatego ja bym mimo wszystko nie przywiązywał takiej wagi do pozycji shortow bo wcześniej czy później i tak zostaną wycisnieci tym bardziej że perspektywy na następne kwartały są bardzo dobre. Ile by nie wrzucili w rynek czy jest to 10,20 czy 30 mln to i tak w ostateczności muszą to wszystko odkupić.",
+      "id": "75703597",
+      "author": "Misiu",
+      "postedAt": "2026-09-08 11:14",
+      "threadTitle": "Re: trzymamy i podziwiamy jak szort się wije",
+      "url": "https://www.bankier.pl/forum/temat_trzymamy-i-podziwiamy-jak-szort-sie-wije,75703159.html",
+      "body": "Przecież oni pożyczyli 10mln akcji. Tutaj masz raptem 1,5mln obrotu. Jak będą chcieli to uwalą kurs jak przed wnikami za Q1.",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 0,
+        "down": 1
       },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
     }
   ]
 }
