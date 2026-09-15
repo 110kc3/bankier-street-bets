@@ -1,43 +1,38 @@
 {
   "symbol": "DINOPL",
-  "companyName": "Dino Polska Spółka Akcyjna",
+  "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-spolka-akcyjna,6,21,10000001632.html",
-  "updatedAt": "2026-09-15T04:53:12.485Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
+  "updatedAt": "2026-09-15T11:43:11.843Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-15T04:53:12.485Z",
+    "fetchedAt": "2026-09-15T11:43:11.843Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 97
+    "threadsScanned": 98
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.014,
-    "confidence": 0.7,
+    "score": 0.046,
+    "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 49,
-      "negative": 55,
-      "neutral": 96
+      "positive": 60,
+      "negative": 39,
+      "neutral": 101
     },
     "trend": [
       {
-        "date": "2026-09-09",
-        "score": -0.211,
-        "count": 4
-      },
-      {
         "date": "2026-09-10",
-        "score": -0.254,
-        "count": 51
+        "score": -0.544,
+        "count": 3
       },
       {
         "date": "2026-09-11",
-        "score": -0.024,
-        "count": 61
+        "score": -0.005,
+        "count": 58
       },
       {
         "date": "2026-09-12",
@@ -56,24 +51,20 @@
       },
       {
         "date": "2026-09-15",
-        "score": 0,
-        "count": 3
+        "score": 0.016,
+        "count": 58
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (49 pozytywnych, 55 negatywnych, 96 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (60 pozytywnych, 39 negatywnych, 101 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 21
+        "count": 18
       },
       {
         "word": "inflacja",
-        "count": 14
-      },
-      {
-        "word": "korekta",
-        "count": 10
+        "count": 13
       },
       {
         "word": "mnie",
@@ -84,7 +75,7 @@
         "count": 8
       },
       {
-        "word": "qube",
+        "word": "masz",
         "count": 8
       },
       {
@@ -92,20 +83,794 @@
         "count": 8
       },
       {
+        "word": "ponizej",
+        "count": 7
+      },
+      {
         "word": "przy",
-        "count": 8
-      },
-      {
-        "word": "wiecej",
         "count": 7
       },
       {
-        "word": "https",
-        "count": 7
+        "word": "zysk",
+        "count": 6
+      },
+      {
+        "word": "pewnie",
+        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75779513",
+      "author": "Ms",
+      "postedAt": "2026-09-15 13:39",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Znajdź post w ktorym powiedziałem żeby ktokolwiek kupił... ehh z Tb Miś.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75779429",
+      "author": "Radi",
+      "postedAt": "2026-09-15 13:33",
+      "threadTitle": "Re: ależ dzisiaj zwroty na Spółce Dino",
+      "url": "https://www.bankier.pl/forum/temat_alez-dzisiaj-zwroty-na-spolce-dino,75779035.html",
+      "body": "po 16 ej zjazd i minus 1 proc na fixingu",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75779367",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 13:27",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "I tak, uważam, że lepszy niewielki zysk, niż duża strata.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75779199",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 13:15",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Nie jesteś. Wielu tu naganiało na wzrosty. Ale ty najbardziej.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75779183",
+      "author": "jm",
+      "postedAt": "2026-09-15 13:14",
+      "threadTitle": "Re: ależ dzisiaj zwroty na Spółce Dino",
+      "url": "https://www.bankier.pl/forum/temat_alez-dzisiaj-zwroty-na-spolce-dino,75779035.html",
+      "body": "Ruszamy na północ ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75779035",
+      "author": "Nowy",
+      "postedAt": "2026-09-15 13:05",
+      "threadTitle": "ależ dzisiaj zwroty na Spółce Dino",
+      "url": "https://www.bankier.pl/forum/temat_alez-dzisiaj-zwroty-na-spolce-dino,75779035.html",
+      "body": "ale jaja... walka grubasów ze szmaciarzami (czyli szorciarzami)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75778973",
+      "author": "doniek88",
+      "postedAt": "2026-09-15 13:00",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Pewnie tak, ale taki qube to na viaplay w kryzysie miał dwukrotnie wyższą pozycję, raczej to szczyt agresji jest poniżej 2. Kwestia jak rynek wchłonie to co zrzucają. Masz strąk w kaufie w grudniu 2025We wczorajszym strajku ostrzegawczym wzięło udział 280 osób z około 16 tys. pracowników Kaufland Polska, co stanowi mniej niż 2 proc. załogi. Protest odbył się w 34 marketach z 257, czyli w około 13 proc. placówek. W wielu lokalizacjach przedstawiciele OPZZ podejmowali próby bezpośredniej agitacji pracowników do udziału w strajku, które w większości przypadków okazały się nieskuteczne\" - przekazało nam biuro prasowe Kaufland Polska.Dostali 200 brutto i od nowego roku coś znalazłem że koło 100. Dino i tak już 300 dało, może trzeba było przeciągać i trzymać to do momentu info o strajku. W każdym razie strajk w handlu, generalny to ściema.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75778945",
+      "author": "Paweł",
+      "postedAt": "2026-09-15 12:57",
+      "threadTitle": "Słabiutko, 30 zł za akcje będzie",
+      "url": "https://www.bankier.pl/forum/temat_slabiutko-30-zl-za-akcje-bedzie,75778945.html",
+      "body": "A jednak spadek",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75778925",
+      "author": "Paweł",
+      "postedAt": "2026-09-15 12:56",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Byle nie spadło poniżej 28 zł",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75778765",
+      "author": "Radi",
+      "postedAt": "2026-09-15 12:44",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Shorty shorty shorty. tu na dino o wszystkim decyduja shorty ktorych tu jest kilka czy kilkanascie?/ w kazdym razie wystarczajaco duzo zeby decydowac czy rosnie czy spada . tu inwestowanie to pomylka raczej dopasowywanie sie do tego co robia fundy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.99,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75778719",
+      "author": "doniek88",
+      "postedAt": "2026-09-15 12:41",
+      "threadTitle": "Re: Wsparcie 34 zl bezpieczne nie ma mowy o przełamaniu.",
+      "url": "https://www.bankier.pl/forum/temat_wsparcie-34-zl-bezpieczne-nie-ma-mowy-o-przelamaniu,75777347.html",
+      "body": "Nie wierzę, że dostaną podwyżki. A przynajmniej nie jakieś znaczące. Błąd że dali 300 i nie zagwarantowali sobie spokoju. Krzyczą dalej. Ale związki pokazują że chcą wyciągnąć od wszystkich byle ludzie się wpisali do nich i naganiają. Teraz akcja z lidlem, tysiączka. Widziałem gdzieś ich post, jak to pisali że z biedronki przynależy do nich KILKADZIESIĄT osób. Także teges, sami próbują kasę wyciągnąć",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75778709",
+      "author": "Ms",
+      "postedAt": "2026-09-15 12:40",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Aaaaa i dziękuję ze uważasz mnie za swojego mentora",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75778659",
+      "author": "Ms",
+      "postedAt": "2026-09-15 12:38",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Jestem czy ja Ci mówiłem żebyś kupił czy komu kolwoek mowilem . Ja mam po 29 i sie przyglądam. Poza tym misiu jestem spokojny o kurs Nie ma pionowych wykresów. Przypominam Ci tylko ze naganiales na spadki przy 30 ....",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75778663",
+      "author": "bilbon",
+      "postedAt": "2026-09-15 12:38",
+      "threadTitle": "Misiu",
+      "url": "https://www.bankier.pl/forum/temat_misiu,75778663.html",
+      "body": "Czekamy na Ciebie :D",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75778643",
+      "author": "doniek88",
+      "postedAt": "2026-09-15 12:37",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Nie naganiam, w życiu, wręcz jest naszym talizmanem, sprzedaje to rośnie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75778591",
+      "author": "doniek88",
+      "postedAt": "2026-09-15 12:33",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Nie zapomniałem. Rynek to wie. Żeby biedne skasować zajęło im ponad rok, także jeszcze kilka miesięcy spokoju, btw reakcja jeronimo na karę uokik na rynku? Brak",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75777855",
+      "author": "Radi",
+      "postedAt": "2026-09-15 11:50",
+      "threadTitle": "Re: Wsparcie 34 zl bezpieczne nie ma mowy o przełamaniu.",
+      "url": "https://www.bankier.pl/forum/temat_wsparcie-34-zl-bezpieczne-nie-ma-mowy-o-przelamaniu,75777347.html",
+      "body": "niabawem info o podwyzkach izobaczysz wtedy swoje 40 co shorty tu zrobia.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75777787",
+      "author": "Pablo",
+      "postedAt": "2026-09-15 11:45",
+      "threadTitle": "Re: Wsparcie 34 zl bezpieczne nie ma mowy o przełamaniu.",
+      "url": "https://www.bankier.pl/forum/temat_wsparcie-34-zl-bezpieczne-nie-ma-mowy-o-przelamaniu,75777347.html",
+      "body": "Bo Radi tak sobie ubzdurał ? Po wynikach 40 kolo",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75777763",
+      "author": "Grzeniu",
+      "postedAt": "2026-09-15 11:44",
+      "threadTitle": "Re: What's going on",
+      "url": "https://www.bankier.pl/forum/temat_what-s-going-on,75776691.html",
+      "body": "Przecież w drugą stronę mogą też ciągnąć...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75777723",
+      "author": "Radi",
+      "postedAt": "2026-09-15 11:42",
+      "threadTitle": "Re: Wsparcie 34 zl bezpieczne nie ma mowy o przełamaniu.",
+      "url": "https://www.bankier.pl/forum/temat_wsparcie-34-zl-bezpieczne-nie-ma-mowy-o-przelamaniu,75777347.html",
+      "body": "nie wroci na 36 przynajmniej do listopada , po co piszesz te glupoty",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75777481",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 11:26",
+      "threadTitle": "Re: Wsparcie 34 zl bezpieczne nie ma mowy o przełamaniu.",
+      "url": "https://www.bankier.pl/forum/temat_wsparcie-34-zl-bezpieczne-nie-ma-mowy-o-przelamaniu,75777347.html",
+      "body": "Spada przynajmniej mniej niż wig20.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75777451",
+      "author": "Pablo",
+      "postedAt": "2026-09-15 11:24",
+      "threadTitle": "Re: Wsparcie 34 zl bezpieczne nie ma mowy o przełamaniu.",
+      "url": "https://www.bankier.pl/forum/temat_wsparcie-34-zl-bezpieczne-nie-ma-mowy-o-przelamaniu,75777347.html",
+      "body": "Obroni 34 to lecimy na 42",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75777425",
+      "author": "Radi",
+      "postedAt": "2026-09-15 11:23",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "zapomniales o kilku drobnych szczególach. sprawa w uokiku , biedra dostala o,5 mld kary . , wkoncu jaks forma ugody ze zwiazkami czyli podwyzki pytanie o ile i wyniki za 3 q inflacji jak narazie nie bylo a kwartal konczy sie za 2 tyg. tak ze jest tu duzo ryzyka w przewidywaniu tych wzrostow kazda ze zlych inf spowoduje spadek . wiec nie naganiaj tego biednego misia na trzymanie bo moze z trego byc wieksza strata chociaz nie musi",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75777427",
+      "author": "Lejs",
+      "postedAt": "2026-09-15 11:23",
+      "threadTitle": "Re: Wsparcie 34 zl bezpieczne nie ma mowy o przełamaniu.",
+      "url": "https://www.bankier.pl/forum/temat_wsparcie-34-zl-bezpieczne-nie-ma-mowy-o-przelamaniu,75777347.html",
+      "body": "W tym tygodniu tak.Dojdzie do 34 i wróci na 36 PLN..Potem zobaczymy...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75777347",
+      "author": "ZarajFan",
+      "postedAt": "2026-09-15 11:18",
+      "threadTitle": "Wsparcie 34 zl bezpieczne nie ma mowy o przełamaniu.",
+      "url": "https://www.bankier.pl/forum/temat_wsparcie-34-zl-bezpieczne-nie-ma-mowy-o-przelamaniu,75777347.html",
+      "body": "Jestem tego pewien",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75777321",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 11:17",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Dzięki za radę ale nie zamknę rachunku. Trudno poczekam dłużej. Za jakiś rok pewnie będzie fajny zysk.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75777261",
+      "author": "doniek88",
+      "postedAt": "2026-09-15 11:14",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Moje przeczucia to walka w okolicy 34,5 +/-0,5zeta, poruszanie się po dolnej kresce trendu wzrostowego, później budowanie kursu pod info o ilości sklepów i wtedy powrót na 37, po wynikach próba zamknięcia luki",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75777203",
+      "author": "Radi",
+      "postedAt": "2026-09-15 11:11",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Ty dalej pytasz na forum tu co zrobic? Ty jestes powazny?/ masz mozg to zacznij go uzywac i podejmuj swiadomie decyzje sam. dostales po lapach pare razy i dalej to robisz sorry ale najlepiej jak sprzedasz i zamkniesz rachunek bedzie to dla Ciebie najlepsze . Serio",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75777179",
+      "author": "Miś",
+      "postedAt": "2026-09-15 11:10",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Dzisiaj lub jutro zahaczy o 33,x",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75777137",
+      "author": "Pablo",
+      "postedAt": "2026-09-15 11:07",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "A będzie !? Moim zdaniem 34 się obroni",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75777093",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 11:04",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Do piątku to tu może być i 32 zeta. To chyba lepiej wyjść po 35 i kupić po 32.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75776835",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 10:49",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Myślałem, że trend będzie dalej wzrostowy po tej pierwszej korekcie. A tu zabawa w uwalanie jak poprzednio dopiero się zaczyna.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75776833",
+      "author": "Radi",
+      "postedAt": "2026-09-15 10:49",
+      "threadTitle": "Re: What's going on",
+      "url": "https://www.bankier.pl/forum/temat_what-s-going-on,75776691.html",
+      "body": "czysta spekulacja. shorty obsiadly spolke i robia co chca , uwalaja kurs i do jakichs przelomowych pozytywnych informacji sytuacja sie nie zmieni. moze wyniki za 3 q dadza impuls ale tego nie wiemy",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75776811",
+      "author": "Pablo",
+      "postedAt": "2026-09-15 10:47",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "W piątek koniec korekty. Pokaż , że masz jaja",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75776741",
+      "author": "Radi",
+      "postedAt": "2026-09-15 10:44",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "bedzaie taniej niz teraz ale nie sadze zby zeszlo ponizej 32. do wynikow bedzie osuwajacy sie boczniak a potem w zaleznosci od wynikow ja akurat obstawiam ze dosc dobrych bedzie podjazd do fóry pewnie znowu w okolice 36 37 . tak ja to widze ale jest jeszcze troche shortow ktore maja swoj plan wiec pewnosci nie ma",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75776735",
+      "author": "PanAndrzej",
+      "postedAt": "2026-09-15 10:43",
+      "threadTitle": "Re: Kurs Dino w Poniedziałek",
+      "url": "https://www.bankier.pl/forum/temat_kurs-dino-w-poniedzialek,75761505.html",
+      "body": "Hahahaha No i mocno dziś do góry???",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75776703",
+      "author": "Radi",
+      "postedAt": "2026-09-15 10:42",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "teraz gdsyby sie tak zdarzylo ze cofnie sie do 32 a najlepiej 31 bedzie mozna znowu dokupic taki mam zamiar, niestety mysle ze juz tam nie zejdzie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75776687",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 10:41",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Kupiłem już po pierwszej korekcie po 36.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75776691",
+      "author": "Grzeniu",
+      "postedAt": "2026-09-15 10:41",
+      "threadTitle": "What's going on",
+      "url": "https://www.bankier.pl/forum/temat_what-s-going-on,75776691.html",
+      "body": "Co tu się kurka dzieje? Naprawdę zaczynam tego nie rozumieć.Spółka ma tysiące sklepów, sprzedaje polskie produkty, w wielu kwestiach jest niezależna, wyniki kolejny raz wyglądają dobrze… kurs przez chwilę idzie w górę, po czym nagle zawrót i zjazd w dół.To czego rynek właściwie oczekuje? Jakich wyników? Jakich informacji?Bo człowiek patrzy na fundamenty, patrzy na wyniki, patrzy na rozwój spółki i wydaje się, że wszystko idzie w dobrą stronę, a kurs zachowuje się momentami tak, jakby właśnie wydarzyło się coś katastrofalnego.Serio pytam — o co tu chodzi? Co rynek widzi, czego ja nie widzę? Bo naprawdę już tego nie rozumiem.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.964,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75776661",
+      "author": "Radi",
+      "postedAt": "2026-09-15 10:40",
+      "threadTitle": "Re: Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Ty podejmujesz decyzje o kupnie lub sprzedazy na podstawie tego co ktos tu pisze??? serio?? kupowac trzeba bylo ponizej 30 a nie po 30 proc wzroscie . jprd ludzie wy macie mozgi?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75776585",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 10:37",
+      "threadTitle": "Ms, gdzie jesteś naganiaczu?",
+      "url": "https://www.bankier.pl/forum/temat_ms-gdzie-jestes-naganiaczu,75776585.html",
+      "body": "Przez ciebie mam konto znowu na czerwono i będę kisił stratę niewiadomo jak długo. Obyś sczezł.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75776517",
+      "author": "All",
+      "postedAt": "2026-09-15 10:33",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Tak,tak",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75776047",
+      "author": "Roman",
+      "postedAt": "2026-09-15 10:09",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Sprawdź to co napisałemZacznij od dziadka ruskiego pulkownikaPotem poczytaj o expresie wieczornym8 lat i kogo posadził piss??Zawladzczyli sady, prokuratury,trybunał i co??Na razie to lapowkarz i malwersant Ziobro z piss ucieka przed wymiarem sprawiedliwościTakze tenSpokojnie... Morawiecki też będzie siedziećPrzestępca obajtek też",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75775779",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 09:55",
+      "threadTitle": "Re: Dziwne tu sie rzeczy dzieją",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-tu-sie-rzeczy-dzieja,75775399.html",
+      "body": "Nikt nie broni właśnie, ale chętnych na kupno więcej niż wczoraj.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75775769",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 09:54",
+      "threadTitle": "Re: Dziwne tu sie rzeczy dzieją",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-tu-sie-rzeczy-dzieja,75775399.html",
+      "body": "Przynajmniej jakieś obroty większe dzisiaj.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75775609",
+      "author": "ja",
+      "postedAt": "2026-09-15 09:44",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Do Romana. Cały jesteś przesiąknięty kłamstwami i pomówieniami tej chołoty i bandy od Tuska. Kaczyński nic nie wyłudził i sobie nie przywłaszczył. Nie wziął też żadnej łapówki, co stwierdził nawet tuskowy sąd. Powtarzasz te kłamstwa, jak papuga, bo nie używasz własnego rozumu. Gdzie są te wszystkie sejmowe komisję śledcze, co miały być jak Norymberga dla PiSu. Podaj choć jeden fakt zamiast kłamstwa. Podaj choć jedno nazwisko pisowca skazanego przez sąd za złodziejstwo. Prawdziwi złodzieje, to twoi partyjni koledzy. Ja podam ci fakty tylko z ostatnich tygodni: Kasprzyk i Król.",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75775573",
+      "author": "Lejs",
+      "postedAt": "2026-09-15 09:42",
+      "threadTitle": "Re: Dziwne tu sie rzeczy dzieją",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-tu-sie-rzeczy-dzieja,75775399.html",
+      "body": "Bronią kursu jak Niepodległości..",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75775399",
+      "author": "Radi",
+      "postedAt": "2026-09-15 09:31",
+      "threadTitle": "Dziwne tu sie rzeczy dzieją",
+      "url": "https://www.bankier.pl/forum/temat_dziwne-tu-sie-rzeczy-dzieja,75775399.html",
+      "body": "Niby taka duza spolka z wig 20 a spekula bawi sie na calego.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75775325",
+      "author": "Roman",
+      "postedAt": "2026-09-15 09:28",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "Doczytaj jeszcze jak to było z dziadkiem TuskaZostał, siła wcielony do wermahtu i uciekł przy pierwszej możliwości a potem działał w ruchu oporuMniej bzdur więcej faktówPoczytaj sobie o operacji BuŚ Jak Kaczyński na wacie migdalil się z porucznikiem P z wsiWszystko w sieci",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75775175",
+      "author": "Roman",
+      "postedAt": "2026-09-15 09:19",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "HahaDziadek Kaczyńskiego był carskim pulkownikiem i mówił po ruskuOjcu pierwszego dnia powstania urwało palec i zakończył walkeMatka nie brała udziału w powstaniu i była zarejestrowana jako rw BalbinaTak pilnował polski że wyludzil Express wieczorny i nieruchomościA potem jeszcze laoowke id burgfellbera wziąłDo tego Kaczyński miał 1,5roczny romans z pulkownikiem KGB niejakim wasinem I jest gejem obrońca rodziny i wartości przeslsadujacym innych gejów Pobudka... Doczytaj prawdziwy życiorys",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75774823",
+      "author": "allal",
+      "postedAt": "2026-09-15 08:58",
+      "threadTitle": "Re: BIEDRA dostała 0,5 mld zł kary od UOKIKU",
+      "url": "https://www.bankier.pl/forum/temat_biedra-dostala-0-5-mld-zl-kary-od-uokiku-za-te-praktyki-w-ktorych-dino,75773733.html",
+      "body": "szkoda że kasa, która może popłynąć do nas popłynie do skarbu państwa. Oczywiście jeżeli zarzuty się potwierdzą i",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75774653",
+      "author": "Grzeniu",
+      "postedAt": "2026-09-15 08:48",
+      "threadTitle": "Re: BIEDRA dostała 0,5 mld zł kary od UOKIKU za te praktyki w których DI",
+      "url": "https://www.bankier.pl/forum/temat_biedra-dostala-0-5-mld-zl-kary-od-uokiku-za-te-praktyki-w-ktorych-dino,75773733.html",
+      "body": "Nie siej fermentu ❗❗❗",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75774595",
+      "author": "Pol",
+      "postedAt": "2026-09-15 08:43",
+      "threadTitle": "Re: BIEDRA dostała 0,5 mld zł kary od UOKIKU za te praktyki w których DI",
+      "url": "https://www.bankier.pl/forum/temat_biedra-dostala-0-5-mld-zl-kary-od-uokiku-za-te-praktyki-w-ktorych-dino,75773733.html",
+      "body": "Uokik zrobił kontrolę niezapowiedziana z asysta policji tak zwany nalot i znaleźli dowody ktore potwierdzają zarzuty ,więc kara ich nie minie",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75774347",
+      "author": "mirek",
+      "postedAt": "2026-09-15 08:21",
+      "threadTitle": "Re: BIEDRA dostała 0,5 mld zł kary od UOKIKU za te praktyki w których DI",
+      "url": "https://www.bankier.pl/forum/temat_biedra-dostala-0-5-mld-zl-kary-od-uokiku-za-te-praktyki-w-ktorych-dino,75773733.html",
+      "body": "skad wiadomo niby że jest umoczony?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75773987",
+      "author": "Misiu",
+      "postedAt": "2026-09-15 07:37",
+      "threadTitle": "Re: Zachacz/dotknie na chwilę 30 zł",
+      "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
+      "body": "A kto pierwszy powiedział \"Polskość to nienormalność? Piłsudski.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75773733",
       "author": "allal",
@@ -115,7 +880,7 @@
       "body": "też jest umoczony",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -128,8 +893,8 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Jarosław Kaczyński pochodzi z rodziny zweryfikowanej pod kątem uczciwości i patriotyzmu w Powstaniu Warszawskim. I w duchu tych wartości został wychowany i ich przestrzega. Pilnuje też całego PiSu, żeby uczciwość i patriotyzm były przestrzegane. Na odstępstwa reaguje natychmiast i z całą surowością. A Tusk pochodzi z rodziny od strony matki, która w Powstaniu Warszawskim stała po drugiej stronie barykady. Po stronie niemieckich zwyrodnialców, bandytów i złodziei. I Tusk sam się przyznał, że dla niego \"polskość to nienormalność\". Jak można tego nie widzieć i nie pojmować?",
       "votes": {
-        "up": 1,
-        "down": 3
+        "up": 2,
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -170,7 +935,7 @@
       "url": "https://www.bankier.pl/forum/temat_kara-dla-dino,75772761.html",
       "body": "Bredzisz spadziu",
       "votes": {
-        "up": 2,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -213,7 +978,7 @@
       "body": "Raczej nie unikniona, biedronka dostała a dino bylo najbardziej zamieszane ,więc kara pewna",
       "votes": {
         "up": 1,
-        "down": 4
+        "down": 9
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -269,7 +1034,7 @@
       "body": "Ja myślę, że więcej. Tylko Qube musi się obłowić.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -283,7 +1048,7 @@
       "body": "Te poziomy co napisałeś będą do końca roku ! Cierpliwośći ludzie",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -296,7 +1061,7 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "To co juz nie bedzie 42 -45 .tak krzyczeliscie i naganialiscie ....",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -310,7 +1075,7 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Niewinni jak dziewicza łzaChyba 8 lat byłeś zahibernowany",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -324,7 +1089,7 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "pis jak dojdzie do władzy to też nikogo nie będzie sądził. Za stary już jestem żeby się tym fascynować. Wszyscy tam są umoczeni.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -338,7 +1103,7 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Bo nie o to chodzi, żeby sądzić złodziei. Przecież wiedzą że za 4 lata role się zmienią. Co się tam będą po sądach włóczyć.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -408,8 +1173,8 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Sęk w tym, że obecna banda nic nie umie zrobić jak poprzednią władza. I nie złapała żadnego złodzieja z PiSu. A tych dwóch, których ściga, są Bogu ducha winni",
       "votes": {
-        "up": 8,
-        "down": 4
+        "up": 11,
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -422,8 +1187,8 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Może powinni zacząć kraść jak poprzednia władza i drukować kasęZrobią 20% inflacji i zasypia dziurę w budżecieNa wszystko będzie jak za poprzedników",
       "votes": {
-        "up": 8,
-        "down": 5
+        "up": 9,
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -436,7 +1201,7 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "> To dobrze, uśredni się.W tym rozumowaniu tkwi poważny błąd. Bo nie ma żadnej gwarancji, że po spadku kursu nasąpi ponowny jego wzrost. Sytuacja polityczna w Polsce może zniweczyć wszelkie kalkulacje na wzrosty na giełdzie. Obecna władza miota się jak dziki zwierz złapany w sidła i może w najbliższym czasie narobić niewyobrażalnego bałaganu.",
       "votes": {
-        "up": 6,
+        "up": 9,
         "down": 4
       },
       "sentimentScore": 0.322,
@@ -464,7 +1229,7 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Mysle ze czeka nas boczniak do listopada do wyników",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -479,7 +1244,7 @@
       "body": "Ja mam w b dobrej cenie 28.5 ale gdyby zeszlo do 31 tez bym jeszcze dopakowal. Niestety mysle ze to nierealne",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -493,7 +1258,7 @@
       "body": "Ja nie mam już za co, ale kredyt wtedy wezmę.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -507,7 +1272,7 @@
       "body": "Kosze mam nawet na ponad 30, więc będę mega zadowolony",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -520,8 +1285,8 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "To dobrze, uśredni się.",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -534,8 +1299,8 @@
       "url": "https://www.bankier.pl/forum/temat_zachacz-dotknie-na-chwile-30-zl,75765835.html",
       "body": "Smutno mi",
       "votes": {
-        "up": 0,
-        "down": 2
+        "up": 2,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -618,7 +1383,7 @@
       "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
       "body": "Ja czekam do jakichś dawnych szczytów przynajmniej, czyli 54 zł",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -646,7 +1411,7 @@
       "url": "https://www.bankier.pl/forum/temat_plan-dla-kursu-dino-na-wrzesien,75764257.html",
       "body": "Tutaj długoterminowo będzie około 100zl za papier ale w krótkim terminie może być różnie ..",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -688,7 +1453,7 @@
       "url": "https://www.bankier.pl/forum/temat_wg-mnie-leci-na-33zl,75763673.html",
       "body": "Fusy, szklana kula, sufit czy szeptucha ?",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -787,7 +1552,7 @@
       "body": "do końca roku powrót na szczyt",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1906,7 +2671,7 @@
       "url": "https://www.bankier.pl/forum/temat_inflacja-a-dino,75744145.html",
       "body": "Jak wiecie inflacja przyspiesza więc no no ?",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2011,20 +2776,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75742789",
-      "author": "Dexter",
-      "postedAt": "2026-09-11 09:21",
-      "threadTitle": "inflacja uderzy to pewne",
-      "url": "https://www.bankier.pl/forum/temat_inflacja-uderzy-to-pewne,75742789.html",
-      "body": "jak afery u uśmiechniętych",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75742355",
       "author": "Eustachy",
       "postedAt": "2026-09-11 08:52",
@@ -2081,20 +2832,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75741239",
-      "author": "Squeez",
-      "postedAt": "2026-09-11 03:57",
-      "threadTitle": "Re: Short atakuje, żadnej litości nie czuje.",
-      "url": "https://www.bankier.pl/forum/temat_short-atakuje-zadnej-litosci-nie-czuje,75715963.html",
-      "body": "Nie zesraj się",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75741219",
       "author": "Misiu",
       "postedAt": "2026-09-11 02:05",
@@ -2121,34 +2858,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75741147",
-      "author": "Re",
-      "postedAt": "2026-09-11 00:43",
-      "threadTitle": "Re: Short atakuje, żadnej litości nie czuje.",
-      "url": "https://www.bankier.pl/forum/temat_short-atakuje-zadnej-litosci-nie-czuje,75715963.html",
-      "body": "Klasyczny trolling",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75740399",
-      "author": "SHORT",
-      "postedAt": "2026-09-10 22:02",
-      "threadTitle": "Re: Short atakuje, żadnej litości nie czuje.",
-      "url": "https://www.bankier.pl/forum/temat_short-atakuje-zadnej-litosci-nie-czuje,75715963.html",
-      "body": "> > > Rumakowanie na DINKO odtrąbiono, bo jaszczur się wściekł! Hehehe!>> Takie są skutki nadmiernego rumakowania, zajechaliśta DINKO wczoraj to dzisiaj zrzuca każdego kto próbuje> na niego wskoczyć, bez litości czy się połamie! Hehehe!>DINKO nadal jest mocno wścieknięty! Hehehe!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75740139",
@@ -2191,720 +2900,6 @@
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75739549",
-      "author": "Pablo",
-      "postedAt": "2026-09-10 20:30",
-      "threadTitle": "Re: Jutro 33.20 zamek.",
-      "url": "https://www.bankier.pl/forum/temat_jutro-33-20-zamek,75739473.html",
-      "body": "Buahaha Leszek jutro to lepiej kupuj bo poniżej 34 nie będzie",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75739505",
-      "author": "Lejs",
-      "postedAt": "2026-09-10 20:25",
-      "threadTitle": "Re: Jutro 33.20 zamek.",
-      "url": "https://www.bankier.pl/forum/temat_jutro-33-20-zamek,75739473.html",
-      "body": "..miało być dziś 35.6 a jest 35....Korekta ABC..jutro będzie A",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75739473",
-      "author": "Lejs",
-      "postedAt": "2026-09-10 20:21",
-      "threadTitle": "Jutro 33.20 zamek.",
-      "url": "https://www.bankier.pl/forum/temat_jutro-33-20-zamek,75739473.html",
-      "body": "Za duży impuls spadkowy by zatrzymać się na 34 pln",
-      "votes": {
-        "up": 1,
-        "down": 5
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75739179",
-      "author": "Jakzwykle",
-      "postedAt": "2026-09-10 19:49",
-      "threadTitle": "Re: 30 jeszcze w tym miejscu będzie",
-      "url": "https://www.bankier.pl/forum/temat_30-jeszcze-w-tym-miejscu-bedzie,75738921.html",
-      "body": "Dwie sesje spadkowe i juz sievl zmienia ekipa z narracja . teraz bedzie nagonka na sprzedaz bo juz jest beznadziejnie i pewnie upadlosc i bankructwo i wogole nie warto kupowac . to jest wlasnie forum troli...a zapomnieliscie ostatnie reko kupuj 42.9.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.99,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75739163",
-      "author": "Józef",
-      "postedAt": "2026-09-10 19:48",
-      "threadTitle": "Re: 30 jeszcze w tym miejscu będzie",
-      "url": "https://www.bankier.pl/forum/temat_30-jeszcze-w-tym-miejscu-bedzie,75738921.html",
-      "body": "To akurat prawda ze wychodza ale nie tylko z Dino. tutaj jeszcze dodatkowo shorty sie rozgaszczają",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75739149",
-      "author": "Ms",
-      "postedAt": "2026-09-10 19:46",
-      "threadTitle": "Re: 30 jeszcze w tym miejscu będzie",
-      "url": "https://www.bankier.pl/forum/temat_30-jeszcze-w-tym-miejscu-bedzie,75738921.html",
-      "body": "A skad masz taka wiedzę",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75738921",
-      "author": "Grzegorz",
-      "postedAt": "2026-09-10 19:25",
-      "threadTitle": "30 jeszcze w tym miejscu będzie",
-      "url": "https://www.bankier.pl/forum/temat_30-jeszcze-w-tym-miejscu-bedzie,75738921.html",
-      "body": "Zagraniczne fundusze inwestycyjne wychodzą",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75738775",
-      "author": "Eustachy",
-      "postedAt": "2026-09-10 19:11",
-      "threadTitle": "Re: Lipiec/sierpien",
-      "url": "https://www.bankier.pl/forum/temat_lipiec-sierpien,75736173.html",
-      "body": "Ja jestem jeszcze na czerwono, za tydzień będę miał środki na dobranie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75738765",
-      "author": "doniek88",
-      "postedAt": "2026-09-10 19:10",
-      "threadTitle": "Re: Short bez zmian.",
-      "url": "https://www.bankier.pl/forum/temat_short-bez-zmian,75735281.html",
-      "body": "Trochę tak, jednak uważam że wykorzystują nagonkę medialną żeby wyciąć papier. W dłuższym horyzoncie czeka więcej pozytywnych info. Jak dojdzie do 34 realizuje Asseco i biorę dino, trudno raz się żyje.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75738573",
-      "author": "Józef",
-      "postedAt": "2026-09-10 18:55",
-      "threadTitle": "Re: Nie powinno spasc ponizej 34 zl chyba ze strajk",
-      "url": "https://www.bankier.pl/forum/temat_nie-powinno-spasc-ponizej-34-zl-chyba-ze-strajk,75735037.html",
-      "body": "Źle to wygląda....mam jeszcze zapas do swojej ceny zakupu ale zastanawiam się co zrobić... jakis grubas wywala , shorty zrobiły się wyjątkowo aktywne, presja związków we wszystkich sieciach, żądania placowe, groźba strajku. Dużo rzeczy sie nakłada...",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75738451",
-      "author": "Radi",
-      "postedAt": "2026-09-10 18:47",
-      "threadTitle": "Re: Short bez zmian.",
-      "url": "https://www.bankier.pl/forum/temat_short-bez-zmian,75735281.html",
-      "body": "Nie wiem dlaczego. Ale wyglada ze to nie qube tylko ktoś grubszy wysypuje na potęgę. A grubszy zawsze wie wcześniej. Slabo to wygląda i tyle",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75738431",
-      "author": "Radi",
-      "postedAt": "2026-09-10 18:45",
-      "threadTitle": "Re: Lipiec/sierpien",
-      "url": "https://www.bankier.pl/forum/temat_lipiec-sierpien,75736173.html",
-      "body": "Mam po 28.5 . 34 mnie nie interesuje. Ale 28 29 biorę w ciemno",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75738311",
-      "author": "Misiu",
-      "postedAt": "2026-09-10 18:34",
-      "threadTitle": "Re: Short bez zmian.",
-      "url": "https://www.bankier.pl/forum/temat_short-bez-zmian,75735281.html",
-      "body": "Dlaczego złej? Raczej same dobre 8 fo będą spływać.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75737697",
-      "author": "doniek88",
-      "postedAt": "2026-09-10 17:47",
-      "threadTitle": "Re: Short bez zmian.",
-      "url": "https://www.bankier.pl/forum/temat_short-bez-zmian,75735281.html",
-      "body": "Nie wiem, dzień wcześniej qube zwiększyło, mimo wszystko ktoś to odbiera, raczej spodziewałbym się zejścia w dół żeby spanikować tłum, coś mi się wydaje że chcą dobrze wytrzepać papier zanim zaczną zbierać po 40, a okazja znakomita przed info o ilości sklepów i wynikami za q3 i potencjalną info o inflacji żywności, lfl w wynikach może być nawet ujemny, jak tylko inflacja wskoczy lfl zostanie olany, a rynek kupi przyszłość",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75737599",
-      "author": "Lejs",
-      "postedAt": "2026-09-10 17:41",
-      "threadTitle": "Re: Lipiec/sierpien",
-      "url": "https://www.bankier.pl/forum/temat_lipiec-sierpien,75736173.html",
-      "body": "Jutro 34 Radosław ...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75737581",
-      "author": "Radi",
-      "postedAt": "2026-09-10 17:39",
-      "threadTitle": "Re: Short bez zmian.",
-      "url": "https://www.bankier.pl/forum/temat_short-bez-zmian,75735281.html",
-      "body": "Skoro to nie short znaczy qube. To jakiś mega grubas wczoraj u dzis wywalił z 10mln akcji jak nie więcej. Obawiam się jakiegos podłego info na dniach",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75737525",
-      "author": "Radi",
-      "postedAt": "2026-09-10 17:35",
-      "threadTitle": "Re: Lipiec/sierpien",
-      "url": "https://www.bankier.pl/forum/temat_lipiec-sierpien,75736173.html",
-      "body": "Ja za 28 biorę każda ilosc i całuję w rączkę",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75737257",
-      "author": "Eustachy",
-      "postedAt": "2026-09-10 17:19",
-      "threadTitle": "Re: Lipiec/sierpien",
-      "url": "https://www.bankier.pl/forum/temat_lipiec-sierpien,75736173.html",
-      "body": "A niech zjedzie, chętnie dokupie",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75737097",
-      "author": "Misiu",
-      "postedAt": "2026-09-10 17:11",
-      "threadTitle": "Re: Lipiec/sierpien",
-      "url": "https://www.bankier.pl/forum/temat_lipiec-sierpien,75736173.html",
-      "body": "Bez jaj. Do 28zl po dobrych wynikach to już nie dojdzie. Ja w to nawet nie wierzę, a poprzednio chciałem kupić po 25.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75737001",
-      "author": "doniek88",
-      "postedAt": "2026-09-10 17:06",
-      "threadTitle": "Re: Nie powinno spasc ponizej 34 zl chyba ze strajk",
-      "url": "https://www.bankier.pl/forum/temat_nie-powinno-spasc-ponizej-34-zl-chyba-ze-strajk,75735037.html",
-      "body": "Spoko z tym strajkiem, teraz lidla się czepili, a w artykule jak pisali z biedronki do związku należy kilkadziesiąt osób. To rozumiem że na 60k pracowników z Dino strajk generalny zrobi ee 200? 300? Dla nich strajk generalny to ostateczność bo wiedzą że się nie uda",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75736339",
-      "author": "Pablo",
-      "postedAt": "2026-09-10 16:32",
-      "threadTitle": "Re: Ciekawe dokąd zbija kurs … 30 ? Niżej ?",
-      "url": "https://www.bankier.pl/forum/temat_ciekawe-dokad-zbija-kurs-30-nizej,75727061.html",
-      "body": "34 - tam się zatrzyma nie wiem ile dokaldnie ale 34 nie pęknie",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75736305",
-      "author": "Józef",
-      "postedAt": "2026-09-10 16:30",
-      "threadTitle": "Re: Ciekawe dokąd zbija kurs … 30 ? Niżej ?",
-      "url": "https://www.bankier.pl/forum/temat_ciekawe-dokad-zbija-kurs-30-nizej,75727061.html",
-      "body": "No chyba może być ciekawie...Spadek na dużym obrocie i duża aktywność shortów...30 zł ?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75736273",
-      "author": "MK",
-      "postedAt": "2026-09-10 16:29",
-      "threadTitle": "Re: Lipiec/sierpien",
-      "url": "https://www.bankier.pl/forum/temat_lipiec-sierpien,75736173.html",
-      "body": "To jak widać bez znaczenia, właśnie widzimy ostatnie konwulsje przed kolejnym zjazdem na 28zł, wierzyłem w tę spółkę blisko rok, dzisiaj otrzeźwiałem...",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75736173",
-      "author": "Tumbelele",
-      "postedAt": "2026-09-10 16:24",
-      "threadTitle": "Lipiec/sierpien",
-      "url": "https://www.bankier.pl/forum/temat_lipiec-sierpien,75736173.html",
-      "body": "W lipcu i sierpniu na 43dni robocze otwrzyli 68 sklepów czyli 2 sklepy na każdy dzień roboczy :) ciekawe jak wrzesień czy przebije 100sklepow na kwartał",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75735787",
-      "author": "doniek88",
-      "postedAt": "2026-09-10 16:09",
-      "threadTitle": "Re: Short bez zmian.",
-      "url": "https://www.bankier.pl/forum/temat_short-bez-zmian,75735281.html",
-      "body": "Kij ich wie. Jedynie chyba wolę że to oni wytrzepują słabe ręce niż short. Wydaje się że powoli niżej nie chcą schodzić, opór jest przy 35 widoczny, jednak dalej schody psychologiczne wydaje się 34,8 i 34,2, tam już było mam nadzieję że nie będą tam ponownie swych przyjemności dokonywać",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.931,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75735675",
-      "author": "Misiu",
-      "postedAt": "2026-09-10 16:03",
-      "threadTitle": "Re: Short bez zmian.",
-      "url": "https://www.bankier.pl/forum/temat_short-bez-zmian,75735281.html",
-      "body": "Długo tak jeszcze będą sypać?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75735347",
-      "author": "doniek88",
-      "postedAt": "2026-09-10 15:44",
-      "threadTitle": "Re: Short bez zmian.",
-      "url": "https://www.bankier.pl/forum/temat_short-bez-zmian,75735281.html",
-      "body": "Też patrzyłem, grubaski sobie dym zrobiły żeby zebrać, brzydko",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75735281",
-      "author": "Misiu",
-      "postedAt": "2026-09-10 15:39",
-      "threadTitle": "Short bez zmian.",
-      "url": "https://www.bankier.pl/forum/temat_short-bez-zmian,75735281.html",
-      "body": "Przed chwilą sprawdzałem. 1,12%",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75735089",
-      "author": "Cv",
-      "postedAt": "2026-09-10 15:29",
-      "threadTitle": "Re: Związki zawodowe w Lidlu żądają 1 tysiąc podwyżki. LiNK:",
-      "url": "https://www.bankier.pl/forum/temat_zwiazki-zawodowe-w-lidlu-zadaja-1-tysiac-podwyzki-link,75734615.html",
-      "body": "I to większych niż w Dino. Wychodzi na to, że Dino płaci lepiej niż Lidl.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75735073",
-      "author": "Pablo",
-      "postedAt": "2026-09-10 15:28",
-      "threadTitle": "Re: popelnilem blad po 37 bylop smiecia sie pozbyc",
-      "url": "https://www.bankier.pl/forum/temat_popelnilem-blad-po-37-bylop-smiecia-sie-pozbyc,75733905.html",
-      "body": "Brawo Zenus to Ty mądry chłop jesteś. Same zyski masz.",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75735037",
-      "author": "Ziomal7",
-      "postedAt": "2026-09-10 15:27",
-      "threadTitle": "Nie powinno spasc ponizej 34 zl chyba ze strajk",
-      "url": "https://www.bankier.pl/forum/temat_nie-powinno-spasc-ponizej-34-zl-chyba-ze-strajk,75735037.html",
-      "body": "O kase bedzie.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75735011",
-      "author": "Pablo",
-      "postedAt": "2026-09-10 15:26",
-      "threadTitle": "Re: Koniec korekty?",
-      "url": "https://www.bankier.pl/forum/temat_koniec-korekty,75734693.html",
-      "body": "Od dołka urosło 30% Korekta naturalna i dalej hop do przodu",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75734995",
-      "author": "Zenek",
-      "postedAt": "2026-09-10 15:25",
-      "threadTitle": "Re: popelnilem blad po 37 bylop smiecia sie pozbyc",
-      "url": "https://www.bankier.pl/forum/temat_popelnilem-blad-po-37-bylop-smiecia-sie-pozbyc,75733905.html",
-      "body": "Ja kupione przed strzałem za 32.1 potem sprzedane za 36.22, odkupione za 35.7 i sprzedane za 37. Czekam na 34 na zakup i opierdzielam za 40",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75734813",
-      "author": "Miś",
-      "postedAt": "2026-09-10 15:17",
-      "threadTitle": "Re: Koniec korekty?",
-      "url": "https://www.bankier.pl/forum/temat_koniec-korekty,75734693.html",
-      "body": "Pablo, obyś się nie zdziwił",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75734793",
-      "author": "Mateusz",
-      "postedAt": "2026-09-10 15:16",
-      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
-      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
-      "body": "A pisałem, ja wyszedłem przy 37,09",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75734781",
-      "author": "Miś",
-      "postedAt": "2026-09-10 15:15",
-      "threadTitle": "Re: Związki zawodowe w Lidlu żądają 1 tysiąc podwyżki. LiNK:",
-      "url": "https://www.bankier.pl/forum/temat_zwiazki-zawodowe-w-lidlu-zadaja-1-tysiac-podwyzki-link,75734615.html",
-      "body": "w Lidlu też związki zaw. zażądały podwyżek",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75734761",
-      "author": "Mateusz",
-      "postedAt": "2026-09-10 15:14",
-      "threadTitle": "Re: popelnilem blad po 37 bylop smiecia sie pozbyc",
-      "url": "https://www.bankier.pl/forum/temat_popelnilem-blad-po-37-bylop-smiecia-sie-pozbyc,75733905.html",
-      "body": "Ale jak pisałem wczoraj rano, że Ortex pokazuje 57 mil akcji na krótkim to tu mądrale dyskutowali. Ja wyszedłem przy 37.09, patrzę ile zbija i wejdę znowu.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75734751",
-      "author": "Pablo",
-      "postedAt": "2026-09-10 15:14",
-      "threadTitle": "Re: Koniec korekty?",
-      "url": "https://www.bankier.pl/forum/temat_koniec-korekty,75734693.html",
-      "body": "Mogą 34 pozbierać jeszcze ale więcej to nie :)",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75734711",
-      "author": "Planki",
-      "postedAt": "2026-09-10 15:12",
-      "threadTitle": "Re: Związki zawodowe w Lidlu żądają 1 tysiąc podwyżki. LiNK:",
-      "url": "https://www.bankier.pl/forum/temat_zwiazki-zawodowe-w-lidlu-zadaja-1-tysiac-podwyzki-link,75734615.html",
-      "body": "Dla takich podmiotów z miliardowymi zyskami ten tysiąc to pikuś.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75734693",
-      "author": "Planki",
-      "postedAt": "2026-09-10 15:11",
-      "threadTitle": "Koniec korekty?",
-      "url": "https://www.bankier.pl/forum/temat_koniec-korekty,75734693.html",
-      "body": "Wyglada na to że mała korekta własnie dobiega końca. Teraz odbijanko ?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75734615",
-      "author": "ak",
-      "postedAt": "2026-09-10 15:07",
-      "threadTitle": "Związki zawodowe w Lidlu żądają 1 tysiąc podwyżki. LiNK:",
-      "url": "https://www.bankier.pl/forum/temat_zwiazki-zawodowe-w-lidlu-zadaja-1-tysiac-podwyzki-link,75734615.html",
-      "body": "https://www.msn.com/pl-pl/finanse/og%C3%B3lne/zwi%C4%85zek-zawodowy-zaczyna-dzia%C5%82a%C4%87-w-lidlu-wybuch%C5%82-skandal/ar-AA2bWKDZ?ocid=msedgdhp&pc=DCTS&cvid=0b2fb0c3cde546c3df37613c98212b5a&cvpid=a156c4e9fab9426dd90f8a229d65ae4e&ei=80",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75734003",
-      "author": "Lejs",
-      "postedAt": "2026-09-10 14:32",
-      "threadTitle": "Re: popelnilem blad po 37 bylop smiecia sie pozbyc",
-      "url": "https://www.bankier.pl/forum/temat_popelnilem-blad-po-37-bylop-smiecia-sie-pozbyc,75733905.html",
-      "body": "Jest takie przysłowie.Lepsze wrogiem dobrego.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75733905",
-      "author": "ubrany",
-      "postedAt": "2026-09-10 14:26",
-      "threadTitle": "popelnilem blad po 37 bylop smiecia sie pozbyc",
-      "url": "https://www.bankier.pl/forum/temat_popelnilem-blad-po-37-bylop-smiecia-sie-pozbyc,75733905.html",
-      "body": "mysle ze nie tylko ja popelnilem",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75727863",
-      "author": "Pablo",
-      "postedAt": "2026-09-10 09:35",
-      "threadTitle": "Re: Ciekawe dokąd zbija kurs … 30 ? Niżej ?",
-      "url": "https://www.bankier.pl/forum/temat_ciekawe-dokad-zbija-kurs-30-nizej,75727061.html",
-      "body": "Pisałem Ci wczoraj żebyś rano kupował bo będą straszyć a Ty znowu będziesz miotał ..",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75727699",
-      "author": "Lejs",
-      "postedAt": "2026-09-10 09:30",
-      "threadTitle": "Re: Ciekawe dokąd zbija kurs … 30 ? Niżej ?",
-      "url": "https://www.bankier.pl/forum/temat_ciekawe-dokad-zbija-kurs-30-nizej,75727061.html",
-      "body": "DokładnieMożliwa korekta ABC jak dwa lata temu Do 34 a potem się zobaczy...",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75727335",
-      "author": "Miś",
-      "postedAt": "2026-09-10 09:15",
-      "threadTitle": "Re: Ciekawe dokąd zbija kurs … 30 ? Niżej ?",
-      "url": "https://www.bankier.pl/forum/temat_ciekawe-dokad-zbija-kurs-30-nizej,75727061.html",
-      "body": "na początek 34 - 34,50 a później zobaczymy",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75727061",
-      "author": "Gustaw",
-      "postedAt": "2026-09-10 09:02",
-      "threadTitle": "Ciekawe dokąd zbija kurs … 30 ? Niżej ?",
-      "url": "https://www.bankier.pl/forum/temat_ciekawe-dokad-zbija-kurs-30-nizej,75727061.html",
-      "body": "Fundy zagięły parol na Dino . Będzie się działo",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75718019",
-      "author": "SHORT",
-      "postedAt": "2026-09-09 13:11",
-      "threadTitle": "Re: Short atakuje, żadnej litości nie czuje.",
-      "url": "https://www.bankier.pl/forum/temat_short-atakuje-zadnej-litosci-nie-czuje,75715963.html",
-      "body": "> Rumakowanie na DINKO odtrąbiono, bo jaszczur się wściekł! Hehehe!Takie są skutki nadmiernego rumakowania, zajechaliśta DINKO wczoraj to dzisiaj zrzuca każdego kto próbujena niego wskoczyć, bez litości czy się połamie! Hehehe!",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75717341",
-      "author": "SHORT",
-      "postedAt": "2026-09-09 12:25",
-      "threadTitle": "Re: Short atakuje, żadnej litości nie czuje.",
-      "url": "https://www.bankier.pl/forum/temat_short-atakuje-zadnej-litosci-nie-czuje,75715963.html",
-      "body": "Rumakowanie na DINKO odtrąbiono, bo jaszczur się wściekł! Hehehe!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75715021",
-      "author": "Misiu",
-      "postedAt": "2026-09-09 10:00",
-      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
-      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
-      "body": "Zmienili strategię. Dołują od rana. Lepszy efekt psychologiczny.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75714999",
-      "author": "rradny",
-      "postedAt": "2026-09-09 09:59",
-      "threadTitle": "Re: Ortex pokazuje 56,74 mil akcji",
-      "url": "https://www.bankier.pl/forum/temat_ortex-pokazuje-56-74-mil-akcji,75714167.html",
-      "body": "Ale to co mają mogą mieć już dawno odkupione przez firmę zależną należąca do Quebe. Bo to oddzielny podmiot więc teoretycznie mogą mieć to odkupione już wcześniej. I tak prawdopodobnie jest.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
