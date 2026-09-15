@@ -3,31 +3,31 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-09-15T11:42:30.807Z",
+  "updatedAt": "2026-09-15T16:57:53.962Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-15T11:42:30.808Z",
+    "fetchedAt": "2026-09-15T16:57:53.962Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 10
+    "threadsScanned": 8
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.056,
-    "confidence": 0.55,
+    "score": 0.042,
+    "confidence": 0.54,
     "commentCount": 34,
     "breakdown": {
-      "positive": 6,
-      "negative": 9,
-      "neutral": 19
+      "positive": 8,
+      "negative": 8,
+      "neutral": 18
     },
     "trend": [
       {
         "date": "2026-09-08",
-        "score": -0.194,
-        "count": 6
+        "score": -0.583,
+        "count": 1
       },
       {
         "date": "2026-09-09",
@@ -61,24 +61,36 @@
       },
       {
         "date": "2026-09-15",
-        "score": 0,
-        "count": 1
+        "score": 0.199,
+        "count": 6
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 34 komentarzy z ostatnich 7 dni: nastroje mieszane (6 pozytywnych, 9 negatywnych, 19 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 34 komentarzy z ostatnich 7 dni: nastroje mieszane (8 pozytywnych, 8 negatywnych, 18 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "allegro",
+        "count": 6
+      },
       {
         "word": "wyniki",
         "count": 5
       },
       {
-        "word": "allegro",
-        "count": 4
+        "word": "zobaczymy",
+        "count": 3
       },
       {
-        "word": "troche",
-        "count": 4
+        "word": "dzien",
+        "count": 3
+      },
+      {
+        "word": "wynikow",
+        "count": 3
+      },
+      {
+        "word": "wynikach",
+        "count": 3
       },
       {
         "word": "skup",
@@ -89,28 +101,86 @@
         "count": 3
       },
       {
+        "word": "troche",
+        "count": 3
+      },
+      {
         "word": "tyle",
         "count": 3
-      },
-      {
-        "word": "wtedy",
-        "count": 3
-      },
-      {
-        "word": "trzeba",
-        "count": 2
-      },
-      {
-        "word": "dobrze",
-        "count": 2
-      },
-      {
-        "word": "konta",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75783283",
+      "author": "Mirek",
+      "postedAt": "2026-09-15 17:48",
+      "threadTitle": "Re: Gdzie lol nie nagania ?mirek",
+      "url": "https://www.bankier.pl/forum/temat_gdzie-lol-nie-nagania-na-wzrosty-takie-wyniki-dobre,75775813.html",
+      "body": "A ni jak jak to znaczy co chcesz powiedzieć bo nie kumam",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75783265",
+      "author": "Mirek",
+      "postedAt": "2026-09-15 17:47",
+      "threadTitle": "Re: Gdzie lol nie nagania ?mirek",
+      "url": "https://www.bankier.pl/forum/temat_gdzie-lol-nie-nagania-na-wzrosty-takie-wyniki-dobre,75775813.html",
+      "body": "Ok, wyniki 17 nastego przed czy po sesji zobaczymy co ten wasz gniot wykręci sam jestem tu grubo zapakowany.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75782637",
+      "author": "mabmab",
+      "postedAt": "2026-09-15 17:01",
+      "threadTitle": "Re: Gdzie lol nie nagania ?mirek",
+      "url": "https://www.bankier.pl/forum/temat_gdzie-lol-nie-nagania-na-wzrosty-takie-wyniki-dobre,75775813.html",
+      "body": "nie mieszaj dwoch porządków walutowych - Allegro ma sie nijak do PZU i CD PR.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75781409",
+      "author": "Mirek",
+      "postedAt": "2026-09-15 15:54",
+      "threadTitle": "Re: Gdzie lol nie nagania na wzrosty takie wyniki dobre",
+      "url": "https://www.bankier.pl/forum/temat_gdzie-lol-nie-nagania-na-wzrosty-takie-wyniki-dobre,75775813.html",
+      "body": "Są dwa teraz w jednym czasie tematy na 17 września ciekawego który bardziej się opłaca PZU dywidenda 4,8 PLN za akcję czy Allegro w dzień wyników w portfelu CD Projekt po wynikach poleciał PZU odcięcie ale dywidenda na konto wejdzie oby tu nie było zjazdu dowiemy się w krótce",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75779837",
+      "author": "TwojPodpis",
+      "postedAt": "2026-09-15 14:01",
+      "threadTitle": "Re: Gdzie lol nie nagania na wzrosty takie wyniki dobre",
+      "url": "https://www.bankier.pl/forum/temat_gdzie-lol-nie-nagania-na-wzrosty-takie-wyniki-dobre,75775813.html",
+      "body": "I w listopadzie kolejny raport : )",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75777455",
       "author": "lol",
@@ -119,7 +189,7 @@
       "url": "https://www.bankier.pl/forum/temat_gdzie-lol-nie-nagania-na-wzrosty-takie-wyniki-dobre,75775813.html",
       "body": "Skupuję akcje. Wyniii lada chwila bardzo dobre będą. Kolejne cło na chińskie platformy w listopadzie. Skup akcji za kolejne 800mln lada chwila i to na wyższym poziomie jak 45zł. Szorty muszą odkupić łącznie około 15mln akcji (dane z Bloomberg). Co trzeba mieć w głowie by grać teraz na spadki na allegro ?",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -516,76 +586,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75708541",
-      "author": "mabmab",
-      "postedAt": "2026-09-08 16:36",
-      "threadTitle": "Re: Zapinajmy pasy. Skup prawdopodobnie zakończony.",
-      "url": "https://www.bankier.pl/forum/temat_zapinajmy-pasy-skup-prawdopodobnie-zakonczony,75681493.html",
-      "body": "Ciekawe a na wykresy notowania od połowy lipca popatrzył",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75708527",
-      "author": "mabmab",
-      "postedAt": "2026-09-08 16:35",
-      "threadTitle": "Re: Tu są jakieś kpiny",
-      "url": "https://www.bankier.pl/forum/temat_tu-sa-jakies-kpiny,75707771.html",
-      "body": "Co ty tu robisz....po co się frustrujesz Sprzedaj i idź na lizaka",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75707771",
-      "author": "Mirek",
-      "postedAt": "2026-09-08 15:54",
-      "threadTitle": "Tu są jakieś kpiny",
-      "url": "https://www.bankier.pl/forum/temat_tu-sa-jakies-kpiny,75707771.html",
-      "body": "Nie idzie na to patrzeć",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75706255",
-      "author": "ABB",
-      "postedAt": "2026-09-08 14:20",
-      "threadTitle": "Re: Zapinajmy pasy. Skup prawdopodobnie zakończony.",
-      "url": "https://www.bankier.pl/forum/temat_zapinajmy-pasy-skup-prawdopodobnie-zakonczony,75681493.html",
-      "body": "Dlatego że będą trzymać kurs w pobliżu 45,- do momentu aż skupią. Od 15 lipca kurs praktycznie stoi w miejscu ( jak trochę się podniesie to z powrotem wraca ). Może wyniki coś zmienią.....???",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75706015",
-      "author": "Mirek",
-      "postedAt": "2026-09-08 14:03",
-      "threadTitle": "Re: Nagony wzrostowe marzyciele wystąp",
-      "url": "https://www.bankier.pl/forum/temat_nagony-wzrostowe-marzyciele-wystap,75690337.html",
-      "body": "To się ciesz, inni też się cieszą ale jak stracisz wtedy jesteś najlepszym kolegą",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }

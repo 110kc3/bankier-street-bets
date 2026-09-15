@@ -3,32 +3,27 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-09-15T11:44:47.261Z",
+  "updatedAt": "2026-09-15T16:59:35.085Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-15T11:44:47.261Z",
+    "fetchedAt": "2026-09-15T16:59:35.085Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 23
+    "threadsScanned": 25
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.011,
-    "confidence": 0.7,
-    "commentCount": 60,
+    "score": 0.017,
+    "confidence": 0.71,
+    "commentCount": 62,
     "breakdown": {
-      "positive": 16,
-      "negative": 13,
+      "positive": 17,
+      "negative": 14,
       "neutral": 31
     },
     "trend": [
-      {
-        "date": "2026-08-16",
-        "score": 0.583,
-        "count": 1
-      },
       {
         "date": "2026-08-17",
         "score": 0,
@@ -136,12 +131,12 @@
       },
       {
         "date": "2026-09-15",
-        "score": -0.435,
-        "count": 2
+        "score": -0.057,
+        "count": 5
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 60 komentarzy z ostatnich 30 dni: nastroje mieszane (16 pozytywnych, 13 negatywnych, 31 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 62 komentarzy z ostatnich 30 dni: nastroje mieszane (17 pozytywnych, 14 negatywnych, 31 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
@@ -154,6 +149,10 @@
       {
         "word": "jedziemy",
         "count": 5
+      },
+      {
+        "word": "zielonych",
+        "count": 4
       },
       {
         "word": "kilka",
@@ -178,14 +177,52 @@
       {
         "word": "robic",
         "count": 4
-      },
-      {
-        "word": "koniec",
-        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75782061",
+      "author": "Boss",
+      "postedAt": "2026-09-15 16:29",
+      "threadTitle": "121 zł na zamknięciu",
+      "url": "https://www.bankier.pl/forum/temat_121-zl-na-zamknieciu,75782061.html",
+      "body": "I nie ma marudzenia, to jest walor dla wytrawnych inteligentnych graczy a nie dla zielonych amatorów",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75780463",
+      "author": "Wald",
+      "postedAt": "2026-09-15 14:47",
+      "threadTitle": "Re: Nie sądzę żeby tu była korekta ?",
+      "url": "https://www.bankier.pl/forum/temat_nie-sadze-zeby-tu-byla-korekta,75778917.html",
+      "body": "Ludki...korekta nadchodzi. Akcje urosly z 18 zł na 122zl. Obligacje 10letnie usa powyzej 5%. 80% kupujacych banki to duzi inwestorzy zagraniczni. Radzę być madrym.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75779811",
+      "author": "Janekzwagrowca",
+      "postedAt": "2026-09-15 13:59",
+      "threadTitle": "W górę dalej ?",
+      "url": "https://www.bankier.pl/forum/temat_w-gore-dalej,75779811.html",
+      "body": "Kontrakty chcą wzrostów i są pewne ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75778917",
       "author": "Janekzwagrowca",
@@ -1011,20 +1048,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75452241",
-      "author": "Stefan",
-      "postedAt": "2026-08-16 15:27",
-      "threadTitle": "Re: Dywidenda w XTB",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-w-xtb,75432097.html",
-      "body": "Ale mówię, że wszystkie podatki od dywidend w XTB nie były zaokrąglone, tylko ten z PKO.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }
