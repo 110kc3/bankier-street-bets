@@ -3,32 +3,27 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-09-16T16:55:15.450Z",
+  "updatedAt": "2026-09-16T21:18:47.127Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-16T16:55:15.450Z",
+    "fetchedAt": "2026-09-16T21:18:47.127Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 25
+    "threadsScanned": 26
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.001,
-    "confidence": 0.7,
-    "commentCount": 63,
+    "score": -0.015,
+    "confidence": 0.71,
+    "commentCount": 61,
     "breakdown": {
       "positive": 17,
-      "negative": 15,
-      "neutral": 31
+      "negative": 16,
+      "neutral": 28
     },
     "trend": [
-      {
-        "date": "2026-08-17",
-        "score": 0,
-        "count": 3
-      },
       {
         "date": "2026-08-18",
         "score": 0.02,
@@ -133,10 +128,15 @@
         "date": "2026-09-15",
         "score": -0.101,
         "count": 6
+      },
+      {
+        "date": "2026-09-16",
+        "score": -0.322,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 63 komentarzy z ostatnich 30 dni: nastroje mieszane (17 pozytywnych, 15 negatywnych, 31 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 61 komentarzy z ostatnich 30 dni: nastroje mieszane (17 pozytywnych, 16 negatywnych, 28 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
@@ -181,6 +181,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75798171",
+      "author": "JD",
+      "postedAt": "2026-09-16 21:30",
+      "threadTitle": "drodzy powiem tylko , że tu jest bardzo drogo , ale",
+      "url": "https://www.bankier.pl/forum/temat_drodzy-powiem-tylko-ze-tu-jest-bardzo-drogo-ale,75798171.html",
+      "body": "może będzie jeszcze drożej chociaż mocno w to wątpię nie mam i naganiam na spadek :DD",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75783921",
       "author": "Magellan",
@@ -1020,48 +1034,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75465927",
-      "author": "Ok",
-      "postedAt": "2026-08-17 23:12",
-      "threadTitle": "Re: Dziwny jest ten swiat",
-      "url": "https://www.bankier.pl/forum/temat_dziwny-jest-ten-swiat,75465503.html",
-      "body": "Miło z ich strony, że info po wynikach:)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75465705",
-      "author": "Joe",
-      "postedAt": "2026-08-17 22:23",
-      "threadTitle": "Re: Dziwny jest ten swiat",
-      "url": "https://www.bankier.pl/forum/temat_dziwny-jest-ten-swiat,75465503.html",
-      "body": "KNF decyzję nakładającą kary wydała 5 sierpnia… Ważniejsi jak widać wiedzieli wcześniej ..",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75465503",
-      "author": "mabmab",
-      "postedAt": "2026-08-17 21:50",
-      "threadTitle": "Dziwny jest ten swiat",
-      "url": "https://www.bankier.pl/forum/temat_dziwny-jest-ten-swiat,75465503.html",
-      "body": "Jedna z najwyzszych kar nalozonych przez UOKiK a kurs wzrosl....",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
