@@ -3,31 +3,31 @@
   "companyName": "Cyfrowy Polsat SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CYFRPLSAT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cyfrowy-polsat-sa,6,21,10000000415.html",
-  "updatedAt": "2026-09-16T04:47:57.508Z",
+  "updatedAt": "2026-09-16T11:31:18.528Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-16T04:47:57.508Z",
+    "fetchedAt": "2026-09-16T11:31:18.528Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 67
+    "threadsScanned": 62
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.091,
+    "score": -0.09,
     "confidence": 0.73,
-    "commentCount": 196,
+    "commentCount": 192,
     "breakdown": {
       "positive": 19,
-      "negative": 50,
-      "neutral": 127
+      "negative": 51,
+      "neutral": 122
     },
     "trend": [
       {
         "date": "2026-09-09",
         "score": 0,
-        "count": 13
+        "count": 3
       },
       {
         "date": "2026-09-10",
@@ -58,10 +58,15 @@
         "date": "2026-09-15",
         "score": -0.072,
         "count": 23
+      },
+      {
+        "date": "2026-09-16",
+        "score": -0.024,
+        "count": 6
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 196 komentarzy z ostatnich 7 dni: nastroje mieszane (19 pozytywnych, 50 negatywnych, 127 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 192 komentarzy z ostatnich 7 dni: nastroje mieszane (19 pozytywnych, 51 negatywnych, 122 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "https",
@@ -69,11 +74,19 @@
       },
       {
         "word": "wiadomosc",
-        "count": 11
+        "count": 12
       },
       {
         "word": "buuuuuaaaaa",
         "count": 9
+      },
+      {
+        "word": "usunieta",
+        "count": 7
+      },
+      {
+        "word": "moderatora",
+        "count": 7
       },
       {
         "word": "placz",
@@ -94,18 +107,94 @@
       {
         "word": "leszcza",
         "count": 6
-      },
-      {
-        "word": "usunieta",
-        "count": 6
-      },
-      {
-        "word": "moderatora",
-        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75792083",
+      "author": "1Andy",
+      "postedAt": "2026-09-16 13:29",
+      "threadTitle": "Re: 16,20",
+      "url": "https://www.bankier.pl/forum/temat_16-20,75783089.html",
+      "body": "Dziś jeszcze teatrzyk i możliwe zamknięcie na czerwono. Od jutra i piątek muszą sporo zebrać a że rodzinka zrobiła im psikusa to 18 zł zobaczymy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75791257",
+      "author": "Greg585",
+      "postedAt": "2026-09-16 12:35",
+      "threadTitle": "Re: 16,20",
+      "url": "https://www.bankier.pl/forum/temat_16-20,75783089.html",
+      "body": "Kupiłem ale średnia 16.56. Zastanawialem się czy będzie niżej, ale źe od rana nie spadło ponizej 16,40 to stwierdziłam, że nie będę stać na peronie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75788531",
+      "author": "Wychowawca",
+      "postedAt": "2026-09-16 09:47",
+      "threadTitle": "Re: Powiem krótko i konkretnie",
+      "url": "https://www.bankier.pl/forum/temat_powiem-krotko-i-konkretnie,75783985.html",
+      "body": "W przedszkolu bo niezjadanie podwieczorka",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75788433",
+      "author": "(usunięty)",
+      "postedAt": "2026-09-16 09:40",
+      "threadTitle": "(wiadomość usunięta przez moderatora)",
+      "url": "https://www.bankier.pl/forum/temat_powiem-krotko-i-konkretnie,75783985.html",
+      "body": "(wiadomość usunięta przez moderatora)",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75788327",
+      "author": "Qwerty",
+      "postedAt": "2026-09-16 09:34",
+      "threadTitle": "Re: Powiem krótko i konkretnie",
+      "url": "https://www.bankier.pl/forum/temat_powiem-krotko-i-konkretnie,75783985.html",
+      "body": "Od ilu miesięcy już ma on być? Czterech? Pięciu? Czy dobijamy już do pół roku?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75787349",
+      "author": "kangoorrz",
+      "postedAt": "2026-09-16 08:20",
+      "threadTitle": "Re: Powiem krótko i konkretnie",
+      "url": "https://www.bankier.pl/forum/temat_powiem-krotko-i-konkretnie,75783985.html",
+      "body": "może kiedyś ale teraz z korektami idziemy na 30",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75784177",
       "author": "Kakałowiec",
@@ -115,7 +204,7 @@
       "body": "MałyPawełek, dobry wieczór Tobie. Ja bym dołóż jeszcze słowo - sromotny ! Oj, będzie sromotny płacz ! 7 zł.",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -143,7 +232,7 @@
       "body": "Oj będzie płacz. Obserwować",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -199,7 +288,7 @@
       "body": "Ja myślę że już nie znajdują tylko grają na wymeczenie. Tylko glupi oddaje w tej cenie. Szczurki to wiedzą i nie mogą popuścić bo i tak już są grubo w plecy.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -213,7 +302,7 @@
       "body": "Obroty jak w kiosku, a i tak reżyserowane. Nadal jednak znajdują jakichś drobnych darczyńców. Trzymają więc te śmieszne poziomy. Spokojnie trzeba czekać. Krok po kroku do 100 zł.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -296,7 +385,7 @@
       "url": "https://www.bankier.pl/forum/temat_jadwisiu-kochana-dziekuje-ci-zes-mnie-ostrzegla,75776607.html",
       "body": "Jadzia dzięki że wyleszczylas tego dzbanka.jednego szczurka mniej.Buuuuuaaaaa",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -338,7 +427,7 @@
       "url": "https://www.bankier.pl/forum/temat_jadwisiu-kochana-dziekuje-ci-zes-mnie-ostrzegla,75776607.html",
       "body": "Ale łeb jakbyś miał akcje to nie naganiał byś na spadki. Jakbyś grał na spadki to byś się cieszył że spada i siedział cicho.Po prostu jesteś pusty jak dzwon w kościele",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -1360,8 +1449,8 @@
       "url": "https://www.bankier.pl/forum/temat_rozpoczynamy-nowy-rozdzial-100zl,75745523.html",
       "body": "Wątek zasypali gnojem ale tego już nic nie zatrzyma. Step by step up to 100!",
       "votes": {
-        "up": 6,
-        "down": 1
+        "up": 7,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1654,8 +1743,8 @@
       "url": "https://www.bankier.pl/forum/temat_rozpoczynamy-nowy-rozdzial-100zl,75745523.html",
       "body": "100 zł w przyszłym roku czy później? Bo że, osiniemy to nie mam złudzeń. Wszystko sie klaruje. Papier wyzbierany przez lata dociskania.",
       "votes": {
-        "up": 12,
-        "down": 1
+        "up": 13,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2703,146 +2792,6 @@
       "threadTitle": "Re: 3 wiedźmy, tylko 10 sesji do nich..",
       "url": "https://www.bankier.pl/forum/temat_3-wiedzmy-tylko-10-sesji-do-nich,75692171.html",
       "body": "8....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75717703",
-      "author": "Mmm",
-      "postedAt": "2026-09-09 12:48",
-      "threadTitle": "Re: Jak to wszystko zaraz GRUCHNIE",
-      "url": "https://www.bankier.pl/forum/temat_jak-to-wszystko-zaraz-gruchnie,75717389.html",
-      "body": "Łby obiecywali po 7 zł a jest 17 zł szok ile milionów przez te łby ludzi straciło",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75717565",
-      "author": "johnnyhigh",
-      "postedAt": "2026-09-09 12:39",
-      "threadTitle": "Re: Jak to wszystko zaraz GRUCHNIE",
-      "url": "https://www.bankier.pl/forum/temat_jak-to-wszystko-zaraz-gruchnie,75717389.html",
-      "body": "Zdzisiek, ogarnij się...",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75717389",
-      "author": "Jadwiga",
-      "postedAt": "2026-09-09 12:28",
-      "threadTitle": "Jak to wszystko zaraz GRUCHNIE",
-      "url": "https://www.bankier.pl/forum/temat_jak-to-wszystko-zaraz-gruchnie,75717389.html",
-      "body": "To nie chce nawet mówić",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75717149",
-      "author": "Mmm",
-      "postedAt": "2026-09-09 12:10",
-      "threadTitle": "Re: Ubrani metodą \" na częstotliwości dla służb \" WYSTOMPUJCIE!!",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-metoda-na-czestotliwosci-dla-sluzb-wystompujcie,75716973.html",
-      "body": "Nabrani na obiecanki 7 zł przez łby wystap",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75716973",
-      "author": "KakałowySong",
-      "postedAt": "2026-09-09 11:59",
-      "threadTitle": "Ubrani metodą \" na częstotliwości dla służb \" WYSTOMPUJCIE!!",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-metoda-na-czestotliwosci-dla-sluzb-wystompujcie,75716973.html",
-      "body": "Po kolei... Spokojnie, nie na raz !",
-      "votes": {
-        "up": 4,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75716861",
-      "author": "11845682",
-      "postedAt": "2026-09-09 11:51",
-      "threadTitle": "Re: 3 wiedźmy, tylko 10 sesji do nich..",
-      "url": "https://www.bankier.pl/forum/temat_3-wiedzmy-tylko-10-sesji-do-nich,75692171.html",
-      "body": "Coraz bliżej swieta",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75715261",
-      "author": "KOKO",
-      "postedAt": "2026-09-09 10:10",
-      "threadTitle": "Re: Koniec rumakowania",
-      "url": "https://www.bankier.pl/forum/temat_koniec-rumakowania,75714933.html",
-      "body": "Zdecydowanie zalecane jest przyjecie pominiętej dawki leku - lepiej dla osła bo na rumaka to mi nie wyglądasz .",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75714933",
-      "author": "Zonk",
-      "postedAt": "2026-09-09 09:55",
-      "threadTitle": "Koniec rumakowania",
-      "url": "https://www.bankier.pl/forum/temat_koniec-rumakowania,75714933.html",
-      "body": "? Przynajmniej na razie",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75714899",
-      "author": "KakałowySong",
-      "postedAt": "2026-09-09 09:54",
-      "threadTitle": "Za chwilę czerwioności stanie się zadość . Gotowi ?",
-      "url": "https://www.bankier.pl/forum/temat_za-chwile-czerwionosci-stanie-sie-zadosc-gotowi,75714899.html",
-      "body": "Czy jesteście gotowi , dziubaski ?",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75714097",
-      "author": "Kibic",
-      "postedAt": "2026-09-09 09:12",
-      "threadTitle": "Re: 3 wiedźmy, tylko 10 sesji do nich..",
-      "url": "https://www.bankier.pl/forum/temat_3-wiedzmy-tylko-10-sesji-do-nich,75692171.html",
-      "body": "No chłopaki.. 8 dni",
       "votes": {
         "up": 0,
         "down": 0
