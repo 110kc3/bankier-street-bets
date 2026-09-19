@@ -3,11 +3,11 @@
   "companyName": "mBank Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-spolka-akcyjna,6,21,31.html",
-  "updatedAt": "2026-09-19T04:37:01.489Z",
+  "updatedAt": "2026-09-19T10:58:22.118Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-19T04:37:01.489Z",
+    "fetchedAt": "2026-09-19T10:58:22.118Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,11 +15,11 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.279,
-    "confidence": 0.63,
-    "commentCount": 35,
+    "score": -0.237,
+    "confidence": 0.62,
+    "commentCount": 36,
     "breakdown": {
-      "positive": 0,
+      "positive": 1,
       "negative": 19,
       "neutral": 16
     },
@@ -118,10 +118,15 @@
         "date": "2026-09-16",
         "score": -0.322,
         "count": 1
+      },
+      {
+        "date": "2026-09-19",
+        "score": 0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 35 komentarzy z ostatnich 90 dni: nastroje negatywne (0 pozytywnych, 19 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 36 komentarzy z ostatnich 90 dni: nastroje negatywne (1 pozytywnych, 19 negatywnych, 16 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "huknie",
@@ -166,6 +171,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75823785",
+      "author": "Magellan",
+      "postedAt": "2026-09-19 07:06",
+      "threadTitle": "Re: 1400 zł za 1 akcję od dołka 1400% :DDD",
+      "url": "https://www.bankier.pl/forum/temat_1400-zl-za-1-akcje-od-dolka-1400-ddd,75654795.html",
+      "body": "Agencja Moody’s obniżyła rating Polski do \"A3\" z \"A2\", perspektywa stabilnaPAP - Biznes18 wrz 2026, 23:33",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75798223",
       "author": "JD",
