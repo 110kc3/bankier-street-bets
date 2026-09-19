@@ -3,20 +3,20 @@
   "companyName": "KGHM Polska Miedź Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-spolka-akcyjna,6,21,116.html",
-  "updatedAt": "2026-09-18T20:54:31.513Z",
+  "updatedAt": "2026-09-19T04:36:48.554Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-18T20:54:31.513Z",
+    "fetchedAt": "2026-09-19T04:36:48.554Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 56
+    "threadsScanned": 55
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.014,
-    "confidence": 0.7,
+    "score": -0.021,
+    "confidence": 0.71,
     "commentCount": 188,
     "breakdown": {
       "positive": 51,
@@ -26,8 +26,8 @@
     "trend": [
       {
         "date": "2026-09-12",
-        "score": -0.271,
-        "count": 4
+        "score": -0.254,
+        "count": 3
       },
       {
         "date": "2026-09-13",
@@ -58,14 +58,19 @@
         "date": "2026-09-18",
         "score": 0.052,
         "count": 36
+      },
+      {
+        "date": "2026-09-19",
+        "score": -0.762,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 188 komentarzy z ostatnich 7 dni: nastroje mieszane (51 pozytywnych, 57 negatywnych, 80 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 188 komentarzy z ostatnich 7 dni: nastroje mieszane (51 pozytywnych, 57 negatywnych, 80 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
-        "count": 26
+        "count": 25
       },
       {
         "word": "trzeba",
@@ -80,15 +85,11 @@
         "count": 11
       },
       {
-        "word": "dalej",
+        "word": "dzis",
         "count": 9
       },
       {
-        "word": "miedzi",
-        "count": 8
-      },
-      {
-        "word": "dzis",
+        "word": "dalej",
         "count": 8
       },
       {
@@ -96,16 +97,34 @@
         "count": 7
       },
       {
+        "word": "miedzi",
+        "count": 7
+      },
+      {
         "word": "albo",
         "count": 7
       },
       {
-        "word": "https",
-        "count": 7
+        "word": "przy",
+        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75823609",
+      "author": "Rafał",
+      "postedAt": "2026-09-19 01:34",
+      "threadTitle": "Re: manipulacja",
+      "url": "https://www.bankier.pl/forum/temat_manipulacja,75821673.html",
+      "body": "Mieli otwarte shorty, a dziś rolowanie to co się dziwisz. W poniedziałek wróci up",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75822837",
       "author": "Mied",
@@ -128,7 +147,7 @@
       "url": "https://www.bankier.pl/forum/temat_manipulacja,75821673.html",
       "body": "O figura jesteś....a o czym chcesz rozmawiać",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": -0.322,
@@ -254,7 +273,7 @@
       "url": "https://www.bankier.pl/forum/temat_to-forum-jest-wlasnie-do-rozmow-o-kursie-w-kazdej-chwili,75819361.html",
       "body": "Oby nikt nie walił wazeliny lub wróżył ze szklanej kuli.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
@@ -2723,20 +2742,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75753443",
-      "author": "Paweł",
-      "postedAt": "2026-09-12 06:16",
-      "threadTitle": "Cena miedzi gwałtownie spadła. Akcje KGHM mocno tanieją",
-      "url": "https://www.bankier.pl/forum/temat_cena-miedzi-gwaltownie-spadla-akcje-kghm-mocno-tanieja,75753443.html",
-      "body": "Cena miedzi gwałtownie spadła. Akcje KGHM mocno taniejąCeny miedzi w Londynie spadły o ponad 3 proc. po tym, jak agencja Reuters poinformowała, że decyzja rządu USA w sprawie wprowadzenia ceł została wstrzymana z powodu obaw o inflację. Na GPW tanieją akcje KGHM.Czytaj dalej :https://www.pb.pl/cena-miedzi-gwaltownie-spadla-akcje-kghm-mocno-tanieja-1266838",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
