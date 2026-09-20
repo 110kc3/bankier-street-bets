@@ -1,13 +1,13 @@
 {
   "symbol": "KRUK",
-  "companyName": "Kruk SA",
+  "companyName": "Kruk Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-09-20T04:53:49.723Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-spolka-akcyjna,6,21,10000001000.html",
+  "updatedAt": "2026-09-20T11:22:23.311Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-20T04:53:49.723Z",
+    "fetchedAt": "2026-09-20T11:22:23.311Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.136,
+    "score": -0.142,
     "confidence": 0.75,
     "commentCount": 200,
     "breakdown": {
       "positive": 48,
-      "negative": 89,
-      "neutral": 63
+      "negative": 90,
+      "neutral": 62
     },
     "trend": [
       {
         "date": "2026-08-27",
-        "score": -0.241,
-        "count": 18
+        "score": -0.256,
+        "count": 17
       },
       {
         "date": "2026-08-28",
@@ -123,10 +123,15 @@
         "date": "2026-09-17",
         "score": -0.726,
         "count": 2
+      },
+      {
+        "date": "2026-09-20",
+        "score": -0.583,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 30 dni: nastroje negatywne (48 pozytywnych, 89 negatywnych, 63 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 30 dni: nastroje negatywne (48 pozytywnych, 90 negatywnych, 62 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruk",
@@ -165,12 +170,26 @@
         "count": 8
       },
       {
-        "word": "ponizej",
+        "word": "rynek",
         "count": 8
       }
     ]
   },
   "comments": [
+    {
+      "id": "75830705",
+      "author": "Alfa",
+      "postedAt": "2026-09-20 12:49",
+      "threadTitle": "Re: Short squeeze przed trzema wiedźmami?",
+      "url": "https://www.bankier.pl/forum/temat_short-squeeze-przed-trzema-wiedzmami,75793663.html",
+      "body": "Łapiemy łapiemy bo szort musi odkupić co brali powyżej 400",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75805463",
       "author": "Magellan",
@@ -277,7 +296,7 @@
       "url": "https://www.bankier.pl/forum/temat_kiedy-powrot-na-400,75791037.html",
       "body": "Nigdy juz nie wroci",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 7
       },
       "sentimentScore": 0,
@@ -291,7 +310,7 @@
       "url": "https://www.bankier.pl/forum/temat_kiedy-powrot-na-400,75791037.html",
       "body": "Po wynikach za q3",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2953,20 +2972,6 @@
       "votes": {
         "up": 7,
         "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75568403",
-      "author": "xd",
-      "postedAt": "2026-08-27 09:28",
-      "threadTitle": "Re: Wyniki za 1 półrocze 2026",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-1-polrocze-2026,75565933.html",
-      "body": "no i jest ogień że ho ho ciekawe czy zejdzie poniżej 400",
-      "votes": {
-        "up": 4,
-        "down": 9
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
