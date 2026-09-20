@@ -3,11 +3,11 @@
   "companyName": "JSW SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=JSW",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_jsw-sa,6,21,10000000176.html",
-  "updatedAt": "2026-09-19T20:39:20.450Z",
+  "updatedAt": "2026-09-20T04:53:30.639Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-19T20:39:20.450Z",
+    "fetchedAt": "2026-09-20T04:53:30.639Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,24 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.049,
+    "score": 0.054,
     "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
       "positive": 47,
-      "negative": 38,
-      "neutral": 115
+      "negative": 34,
+      "neutral": 119
     },
     "trend": [
       {
+        "date": "2026-09-13",
+        "score": 0,
+        "count": 1
+      },
+      {
         "date": "2026-09-14",
-        "score": 0.106,
-        "count": 11
+        "score": 0.078,
+        "count": 15
       },
       {
         "date": "2026-09-15",
@@ -36,27 +41,32 @@
       },
       {
         "date": "2026-09-16",
-        "score": -0.122,
-        "count": 27
+        "score": -0.129,
+        "count": 23
       },
       {
         "date": "2026-09-17",
-        "score": 0.063,
-        "count": 34
+        "score": 0.108,
+        "count": 30
       },
       {
         "date": "2026-09-18",
-        "score": 0.12,
-        "count": 47
+        "score": 0.162,
+        "count": 37
       },
       {
         "date": "2026-09-19",
-        "score": 0.037,
-        "count": 60
+        "score": 0.035,
+        "count": 64
+      },
+      {
+        "date": "2026-09-20",
+        "score": 0,
+        "count": 9
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (47 pozytywnych, 38 negatywnych, 115 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (47 pozytywnych, 34 negatywnych, 119 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "shorciki",
@@ -64,7 +74,11 @@
       },
       {
         "word": "dalej",
-        "count": 6
+        "count": 8
+      },
+      {
+        "word": "https",
+        "count": 5
       },
       {
         "word": "wysoko",
@@ -79,28 +93,206 @@
         "count": 5
       },
       {
-        "word": "zeta",
-        "count": 5
-      },
-      {
-        "word": "wiedzmy",
-        "count": 5
-      },
-      {
-        "word": "taka",
+        "word": "dobrze",
         "count": 4
       },
       {
-        "word": "poniedzialek",
+        "word": "jeden",
         "count": 4
       },
       {
-        "word": "util",
+        "word": "tyle",
+        "count": 4
+      },
+      {
+        "word": "roku",
         "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75829049",
+      "author": "Inwestor",
+      "postedAt": "2026-09-20 06:21",
+      "threadTitle": "Re: no cóż,jutro 42 ,czy więcej?",
+      "url": "https://www.bankier.pl/forum/temat_no-coz-jutro-42-czy-wiecej,75808857.html",
+      "body": "Kupuje 10k po 42",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75828987",
+      "author": "zadziwiony",
+      "postedAt": "2026-09-20 04:49",
+      "threadTitle": "Re: no cóż,jutro 42 ,czy więcej?",
+      "url": "https://www.bankier.pl/forum/temat_no-coz-jutro-42-czy-wiecej,75808857.html",
+      "body": "Jutro oczywiście słowo klucz",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75828985",
+      "author": "zadziwiony",
+      "postedAt": "2026-09-20 04:48",
+      "threadTitle": "Re: zadziwiony",
+      "url": "https://www.bankier.pl/forum/temat_zadziwiony,75824939.html",
+      "body": "He he oczywiście sprawdzisz IP i dobrze trolu",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75828983",
+      "author": "zadziwiony",
+      "postedAt": "2026-09-20 04:47",
+      "threadTitle": "Re: Zadziwiony",
+      "url": "https://www.bankier.pl/forum/temat_zadziwiony,75824237.html",
+      "body": "Przytocz jeden mój post gdzie napisałem o tych 9 5 czy 15. Tacy z was oszuści trole",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75828981",
+      "author": "zadziwiony",
+      "postedAt": "2026-09-20 04:44",
+      "threadTitle": "Re: 800k kwita i -2pln. Kiedyś to 17% potrafiliście wyciągnąć.",
+      "url": "https://www.bankier.pl/forum/temat_800k-kwita-i-2pln-kiedys-to-17-potrafiliscie-wyciagnac,75826599.html",
+      "body": "Hehe codziennie miliony akcji wrzucają w rynek? Ale was tusku omamił biedacy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75828965",
+      "author": "Alex",
+      "postedAt": "2026-09-20 03:36",
+      "threadTitle": "Re: 800k kwita i -2pln. Kiedyś to 17% potrafiliście wyciągnąć.",
+      "url": "https://www.bankier.pl/forum/temat_800k-kwita-i-2pln-kiedys-to-17-potrafiliscie-wyciagnac,75826599.html",
+      "body": "Tobie synu jeszcze na internet starcza? Hehe",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75828933",
+      "author": "Valuś",
+      "postedAt": "2026-09-20 01:39",
+      "threadTitle": "MILIONY NA ZWIĄZKI ZAWODOWE. TYLE ZARABIA SZEF „Solidarności”",
+      "url": "https://www.bankier.pl/forum/temat_miliony-na-zwiazki-zawodowe-tyle-zarabia-szef-solidarnosci,75828933.html",
+      "body": "MILIONY NA ZWIĄZKI ZAWODOWE. TYLE ZARABIA SZEF „Solidarności”2026-09-18Nawet kilkadziesiąt milionów złotych rocznie przeznaczają największe spółki na działalność związków zawodowych. W 2025 r. Polska Grupa Górnicza wydała na ten cel 48 mln zł, Jastrzębska Spółka Węglowa – 34,3 mln zł, a Grupa Kapitałowa KGHM – 21 mln zł. Sprawdziliśmy jakie koszty ponoszą przedsiębiorstwa na ten cel, kto może korzystać z tzw. etatu związkowego i na jakich zasadach wynagradzani są działacze.Związki zawodowe reprezentują pracowników w relacjach z pracodawcą, uczestniczą w negocjacjach dotyczących warunków zatrudnienia i wynagrodzeń, a także w sporach zbiorowych. Prowadzenie działalności związkowej wymaga jednak czasu i pieniędzy. Może być ona finansowana przez przedsiębiorstwa, w których działają związki, ale też ze składek członków tych organizacji. Nie wszędzie jednak można ustalić skalę takich kosztów.Ile spółki wydają na związki zawodowe?Przedsiębiorstwa niechętnie dzielą się informacjami dotyczącymi nakładów ponoszonych na cele związkowe.Jak przekazał Bankier.pl dział prasowy Orlen S.A. w spółce funkcjonuje 25 organizacji związkowych. Natomiast 8 pracowników firmy korzysta ze zwolnienia z obowiązku świadczenia pracy z zachowaniem prawa do wynagrodzenia.– Spółka nie udostępnia informacji na temat kosztów poniesionych na rzecz związków zawodowych – przekazali przedstawiciele Orlenu.Polskiej S.A., w spółce tej obecnie działa 80 zakładowych organizacji związkowych, choć liczba ta jest zmienna.– Dokładne dane dotyczące liczby przedstawicieli związków zawodowych oraz formy ich zatrudnienia i wysokości wynagrodzeń są danymi szczególnie wrażliwymi, których Spółka nie udostępnia – poinformowało Bankier.pl biuro prasowe Poczty Polskiej S.A.CZYTAJ DALEJ:https://www.bankier.pl/wiadomosc/Zwiazki-zawodowe-za-miliony-Nie-wszystkie-spolki-chca-ujawniac-dane-9198781.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Firma",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75828865",
+      "author": "Matematyk",
+      "postedAt": "2026-09-20 00:21",
+      "threadTitle": "Re: Napiszę wam PRAWDE JSW po 26 zł",
+      "url": "https://www.bankier.pl/forum/temat_napisze-wam-prawde-jsw-po-26-zl,75828533.html",
+      "body": "Zostałeś na peronie? Jeszcze możesz wskoczyć ale nie czekaj.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75828845",
+      "author": "Brigida",
+      "postedAt": "2026-09-20 00:01",
+      "threadTitle": "Re: Napiszę wam PRAWDE JSW po 26 zł",
+      "url": "https://www.bankier.pl/forum/temat_napisze-wam-prawde-jsw-po-26-zl,75828533.html",
+      "body": "Jest prawda i gówno prawda !",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75828821",
+      "author": "Jpdl",
+      "postedAt": "2026-09-19 23:49",
+      "threadTitle": "Re: nazizm się szerzy w warszawce",
+      "url": "https://www.bankier.pl/forum/temat_nazizm-sie-szerzy-w-warszawce,75828773.html",
+      "body": "Chodowanie żmij na własnej piersi .",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75828815",
+      "author": "Nikos",
+      "postedAt": "2026-09-19 23:45",
+      "threadTitle": "Re: nazizm się szerzy w warszawce",
+      "url": "https://www.bankier.pl/forum/temat_nazizm-sie-szerzy-w-warszawce,75828773.html",
+      "body": "Szok, UKROPOL powstaje na naszych oczach.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75828773",
+      "author": "TYLKOprawdaJSW",
+      "postedAt": "2026-09-19 23:29",
+      "threadTitle": "nazizm się szerzy w warszawce",
+      "url": "https://www.bankier.pl/forum/temat_nazizm-sie-szerzy-w-warszawce,75828773.html",
+      "body": "Szokujące doniesienia. Weterani z Azow otwierają placówkę w Warszawie",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75828631",
+      "author": "qwardian",
+      "postedAt": "2026-09-19 22:46",
+      "threadTitle": "Docelowo przynajmniej 2600 zł..",
+      "url": "https://www.bankier.pl/forum/temat_napisze-wam-prawde-jsw-po-26-zl,75828533.html",
+      "body": "260 w przeciągu kilku miesięcy, ale raczej nie w tym roku..",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75828537",
       "author": "Brando25",
@@ -124,7 +316,7 @@
       "body": "Niebawem niestety taka prawda",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -138,7 +330,7 @@
       "body": "Wysoko chodzą hahahaha co za dziecko",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -151,8 +343,8 @@
       "url": "https://www.bankier.pl/forum/temat_zadziwiony,75824237.html",
       "body": "Gielda jest dla cierpliwych. Wzrosty przyjda",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -165,7 +357,7 @@
       "url": "https://www.bankier.pl/forum/temat_nawet-tusku-nie-pisze-o-util,75824431.html",
       "body": "nie widzę nikogo innego - w ten smutny dla szorta weekend pracuje tylko zadziwiony - chyba ma najniższą stawkę hahahaha",
       "votes": {
-        "up": 5,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0,
@@ -179,7 +371,7 @@
       "url": "https://www.bankier.pl/forum/temat_analiza-graficzna-szortoow-na-jsw-trader-19-09-link,75827287.html",
       "body": "Wychodzi ze leocmy na 50 złhttps://x.com/GPW_Trader2022/status/2100937802724565332",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -193,7 +385,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-domino-juz-kupil-po-9-pln,75801323.html",
       "body": "Pamiętacie Domino i jego 9 PLN?",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -207,7 +399,7 @@
       "url": "https://www.bankier.pl/forum/temat_800k-kwita-i-2pln-kiedys-to-17-potrafiliscie-wyciagnac,75826599.html",
       "body": "Dawać bo kontrakty bardzo wysoko chodzą. Czekamy",
       "votes": {
-        "up": 10,
+        "up": 12,
         "down": 0
       },
       "sentimentScore": 0,
@@ -221,7 +413,7 @@
       "url": "https://www.bankier.pl/forum/temat_nawet-tusku-nie-pisze-o-util,75824431.html",
       "body": "Pożyczajcie i sypcie, nie mam żadnego z tym problemu, ale straciliście ostatnio entuzjazm ..",
       "votes": {
-        "up": 9,
+        "up": 11,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -263,7 +455,7 @@
       "url": "https://www.bankier.pl/forum/temat_nawet-tusku-nie-pisze-o-util,75824431.html",
       "body": "Ostatnio juz skorzystali z niskiego util, wrzucili 800k i kurs zbity o złotówkę. Jak sie zrobil popyt na akcje ktory chłonie podaz na ubijaniach kursu to moze byc i util 0% I short fundy nie beda takiej spolki tykac. Wciaz jest bardzo tanio.",
       "votes": {
-        "up": 15,
+        "up": 17,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -277,7 +469,7 @@
       "url": "https://www.bankier.pl/forum/temat_zadziwiony,75824237.html",
       "body": "Jak było po 20 to wmawiali ze spadnie do 9 a nawet 5. Anale shortowe od siedmiu boleści.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -291,7 +483,7 @@
       "url": "https://www.bankier.pl/forum/temat_nawet-tusku-nie-pisze-o-util,75824431.html",
       "body": "Ale czego nie rozumiesz? Szorty odkupiły parę milionow akcji to UTIL spadł. Znowu mogą pożyczać i zbijać kurs. Tyle tylko, że będzie to z ich strony rytualne sepuku. Ich problem jak to rozwiążą.",
       "votes": {
-        "up": 14,
+        "up": 15,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -319,7 +511,7 @@
       "url": "https://www.bankier.pl/forum/temat_util-50-macie-duzo-akcji-do-pozyczenia-smialo,75824453.html",
       "body": "Do tego kurs 38 - co oni by teraz oddali za kurs poniżej 30 - a gdy był po 26 mówili że jest za drogo",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -333,7 +525,7 @@
       "url": "https://www.bankier.pl/forum/temat_zadziwiony,75824939.html",
       "body": "Urlop przed monitorem 20 godzin na dobe:) Każdy orze jak może. Nie ma słów. Baw się dobrze zadziwiony vel jeszcze 3 nicki.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -347,7 +539,7 @@
       "url": "https://www.bankier.pl/forum/temat_zadziwiony,75824237.html",
       "body": "Szrotem to jesteś ty, nic nie wnoszący do społeczeństwa procz zaciemniania rzeczywistosci",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -376,7 +568,7 @@
       "body": "hehehehe rozumiesz? I wystarczy",
       "votes": {
         "up": 1,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -390,7 +582,7 @@
       "body": "zadziwiony punktuje bajki drużyny tusku tak, że płacz i inwektywy w odpowiedzi. Mam akcje i nimi obracam. Choć na te ostatnie kółka czekałem bardzo długo ze średnią 29. Ale zarobiłem na powiększenie pakietu i na urlop niedługo. Po IP dowiecie się gdzie i ile. Nie omieszkam napisać kilka postów z urlopu ku pokrzepieniu serc. jok nie komentuj. Już to zrobiłem za ciebie hehehehe",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -417,7 +609,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-ja-dalej-mysle-o-40-bo-to-po-drodze-na-41,75802403.html",
       "body": "No co się czepiasz. Korzystam z waszego poziomu bo inaczej byś nie rozumiał o czym piszę. Hehehehe. Tak ocipiony, taka prawda. Chyba skumasz oczyma napisałem. Jak nie to powtórzę.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -460,7 +652,7 @@
       "body": "Wiedziałem że z myśleniem ci nie po drodze.",
       "votes": {
         "up": 1,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -473,7 +665,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-ja-dalej-mysle-o-40-bo-to-po-drodze-na-41,75802403.html",
       "body": "Hehehehe, ocipiony co ty taki cichuteńki sam bez hołoty szulerskiej?. Ty, jak to jest jak wszyscy łacha drą z waszych spekulanckich wpisów i durniów z was robią? To co golas, niedługo przeniosą was na ruską giełdę? Tam z durniami będziecie współgracc i będziecie się czuć jak w domu. Hehehehe",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0,
@@ -515,7 +707,7 @@
       "url": "https://www.bankier.pl/forum/temat_zadziwiony,75824237.html",
       "body": "ocipiony ,buda parobasie spekulancie.",
       "votes": {
-        "up": 5,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0,
@@ -558,7 +750,7 @@
       "body": "Ciekawe gdzie nie widzisz szrotów? Hmmm?",
       "votes": {
         "up": 0,
-        "down": 8
+        "down": 9
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -572,7 +764,7 @@
       "body": "Ostatnio było 98%. Ktoś coś? joka nie pytam bo znam odpowiedź hehehe",
       "votes": {
         "up": 0,
-        "down": 10
+        "down": 12
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -614,7 +806,7 @@
       "body": "ty myślisz? Nie wierzę.",
       "votes": {
         "up": 1,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -669,7 +861,7 @@
       "url": "https://www.bankier.pl/forum/temat_no-coz-jutro-42-czy-wiecej,75808857.html",
       "body": "Było? Bo się zagapiłem.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -711,7 +903,7 @@
       "url": "https://www.bankier.pl/forum/temat_zadziwiony,75824237.html",
       "body": "Kupować będą twoi mocodawcy, mając 4M długu w orteksie plus 10M ukrytego. Dziękuję.Mozesz pisać o 3 rano, 7 i 23 swoje śmieszne glodne kawalki. Jedziemy wysoko, ale ty w te podróż nie wyruszasz. A kolka to robisz wokoło bloku",
       "votes": {
-        "up": 13,
+        "up": 15,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -1110,20 +1302,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75822249",
-      "author": "Andy",
-      "postedAt": "2026-09-18 20:16",
-      "threadTitle": "Re: Ubrani po 38",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-38,75796197.html",
-      "body": "3 wiedzmy zrobiły swoje na większości spółek w tym na JSW, ale w poniedziałek wracamy do nowego bardziej optymistycznego otwarcia na JSW",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75822227",
       "author": "Wyjadacz",
       "postedAt": "2026-09-18 20:14",
@@ -1138,48 +1316,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75822133",
-      "author": "MoniKardio",
-      "postedAt": "2026-09-18 20:03",
-      "threadTitle": "Re: Ubrani po 38",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-38,75796197.html",
-      "body": "No i się doigrali.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75821959",
-      "author": "qwardian",
-      "postedAt": "2026-09-18 19:44",
-      "threadTitle": "Re: Atak",
-      "url": "https://www.bankier.pl/forum/temat_atak,75820021.html",
-      "body": "> Coś mi się wydaje, że toto jedzie do dołu.To biegunka spływa Twoimi nogawkami..",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75821853",
-      "author": "Andy",
-      "postedAt": "2026-09-18 19:31",
-      "threadTitle": "Re: Atak",
-      "url": "https://www.bankier.pl/forum/temat_atak,75820021.html",
-      "body": "Dodać należy, że wówczas nie było mocno podażowych sesji z 3 wiedzmami.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75821803",
       "author": "KOlak",
       "postedAt": "2026-09-18 19:23",
@@ -1188,20 +1324,6 @@
       "body": "Wszystko tutaj :https://x.com/GPW_Trader2022/status/2100937802724565332",
       "votes": {
         "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75821767",
-      "author": "Matematyk",
-      "postedAt": "2026-09-18 19:18",
-      "threadTitle": "Re: Atak",
-      "url": "https://www.bankier.pl/forum/temat_atak,75820021.html",
-      "body": "Zeszły tydzień skończył się na 37.00 czy na 36.99? Nie ma znaczenia - było niżej. Spójrz na piątkowe zamknięcia z ostatniego miesiąca albo dwóch.",
-      "votes": {
-        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1222,62 +1344,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75821121",
-      "author": "Paweł",
-      "postedAt": "2026-09-18 18:09",
-      "threadTitle": "Re: Atak",
-      "url": "https://www.bankier.pl/forum/temat_atak,75820021.html",
-      "body": "jak ci schodzi do dołu,to już nic nie poradzisz:)",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75821109",
-      "author": "Matematyk",
-      "postedAt": "2026-09-18 18:08",
-      "threadTitle": "Re: Atak",
-      "url": "https://www.bankier.pl/forum/temat_atak,75820021.html",
-      "body": "Masz rację...wydaje Ci się.",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75821059",
-      "author": "Edek",
-      "postedAt": "2026-09-18 18:04",
-      "threadTitle": "Re: Atak",
-      "url": "https://www.bankier.pl/forum/temat_atak,75820021.html",
-      "body": "Coś mi się wydaje, że toto jedzie do dołu.",
-      "votes": {
-        "up": 1,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75820759",
-      "author": "Andy",
-      "postedAt": "2026-09-18 17:38",
-      "threadTitle": "Re: Atak ,3 wiedzmy..",
-      "url": "https://www.bankier.pl/forum/temat_atak,75820021.html",
-      "body": "Dziś 3 wiedzmy mówi ci to coś. Kto mądry dziś dobierał akcje na dużym prawie -4% spadku, a 42 zeta możliwe w przyszłym tygodniu kolego",
-      "votes": {
-        "up": 11,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75820601",
       "author": "Wyjadacz",
       "postedAt": "2026-09-18 17:29",
@@ -1290,20 +1356,6 @@
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75820021",
-      "author": "nawiedzony",
-      "postedAt": "2026-09-18 17:02",
-      "threadTitle": "Atak",
-      "url": "https://www.bankier.pl/forum/temat_atak,75820021.html",
-      "body": "Brawo , udany atak na 42",
-      "votes": {
-        "up": 2,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75819681",
@@ -1509,7 +1561,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-domino-juz-kupil-po-9-pln,75801323.html",
       "body": "O moder usunął mój wpis!",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -1621,7 +1673,7 @@
       "url": "https://www.bankier.pl/forum/temat_no-coz-jutro-42-czy-wiecej,75808857.html",
       "body": "Drugi jaś zapomnij o 42 zł. Spadek , spadek cen akcji !",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 3
       },
       "sentimentScore": -0.583,
@@ -1635,7 +1687,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-domino-juz-kupil-po-9-pln,75801323.html",
       "body": "(wiadomość usunięta przez moderatora)",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1705,7 +1757,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-domino-juz-kupil-po-9-pln,75801323.html",
       "body": "Domino jak ci teraz zdzwonimy",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -1733,7 +1785,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-domino-juz-kupil-po-9-pln,75801323.html",
       "body": "Do końca roku będzie bliżej do 100 niż do 9 bezrozumna istoto",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -1824,20 +1876,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75809491",
-      "author": "Olo",
-      "postedAt": "2026-09-17 19:14",
-      "threadTitle": "Re: Bredzisz chlopie...",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-38,75796197.html",
-      "body": "Dobry wątek.",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75809289",
       "author": "zadziwiony",
       "postedAt": "2026-09-17 18:47",
@@ -1859,7 +1897,7 @@
       "url": "https://www.bankier.pl/forum/temat_no-coz-jutro-42-czy-wiecej,75808857.html",
       "body": "Wsiadam 42",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 2
       },
       "sentimentScore": 0,
@@ -1922,20 +1960,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75803163",
-      "author": "MrOdleżyna",
-      "postedAt": "2026-09-17 12:01",
-      "threadTitle": "Re: Bredzisz chlopie...",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-38,75796197.html",
-      "body": "To jest fenomen. Ciuszki coraz droższe a chętnych nie brakuje. Ta jesień zima będzie was drogo kosztować. Opamiętajcie się, nie idźcie tą drogą.",
-      "votes": {
-        "up": 1,
-        "down": 6
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75802403",
       "author": "Jok",
       "postedAt": "2026-09-17 11:10",
@@ -1943,7 +1967,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-ja-dalej-mysle-o-40-bo-to-po-drodze-na-41,75802403.html",
       "body": "...i to też nic nadzwyczajnego na ten czas.",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1958,7 +1982,7 @@
       "body": "A jak tam sprzedaż po 100? Bezrozumne ameby",
       "votes": {
         "up": 1,
-        "down": 15
+        "down": 16
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -1971,7 +1995,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-domino-juz-kupil-po-9-pln,75801323.html",
       "body": "Max dalej liczy powieszonych na haku po 24 zlote:) Liga najglupszych dzentelmenow...",
       "votes": {
-        "up": 11,
+        "up": 12,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -1999,7 +2023,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-domino-juz-kupil-po-9-pln,75801323.html",
       "body": "Czeka na 7",
       "votes": {
-        "up": 10,
+        "up": 11,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -2018,34 +2042,6 @@
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75799513",
-      "author": "M84ck",
-      "postedAt": "2026-09-17 07:38",
-      "threadTitle": "Re: Bredzisz chlopie...",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-38,75796197.html",
-      "body": "Smutne. Pozdro Cierpliwi .",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75799379",
-      "author": "SSPS",
-      "postedAt": "2026-09-17 07:13",
-      "threadTitle": "Re: Bredzisz chlopie...",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-38,75796197.html",
-      "body": "On sie martwi o tych co jeszcze nie maja akcji aby nie wpadli w szał zakupów. Tutaj bedzie dno dna. Zaraz będa związki działac na rzecz podwyżek, premii, dodatków...",
-      "votes": {
-        "up": 1,
-        "down": 6
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "75799199",
@@ -2104,34 +2100,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75798093",
-      "author": "Tom",
-      "postedAt": "2026-09-16 21:21",
-      "threadTitle": "Re: Bredzisz chlopie...",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-38,75796197.html",
-      "body": "A czym ty chlopie sie szczycisz?Ze sie martwisz o tych co mają akcje? Miłosierny Samarytanin sie znalazł",
-      "votes": {
-        "up": 11,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75797875",
-      "author": "MrOdleżyna",
-      "postedAt": "2026-09-16 20:54",
-      "threadTitle": "Re: Bredzisz chlopie...",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-38,75796197.html",
-      "body": "Chłopie robisz kółeczka się tym szczycisz. Prędzej czy później się ubierzesz a taniej by było w second bandzie.",
-      "votes": {
-        "up": 2,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75796643",
       "author": "STRZĄSAMY-CZOSNEK",
       "postedAt": "2026-09-16 18:37",
@@ -2144,34 +2112,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75796225",
-      "author": "Andy",
-      "postedAt": "2026-09-16 17:58",
-      "threadTitle": "Bredzisz chlopie...",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-38,75796197.html",
-      "body": "Sprzedane po 39,7x zeta odkup planuje na 32 zeta może dadzą",
-      "votes": {
-        "up": 3,
-        "down": 20
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75796197",
-      "author": "MrOdleżyna",
-      "postedAt": "2026-09-16 17:55",
-      "threadTitle": "Ubrani po 38",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-38,75796197.html",
-      "body": "Opady deszczu a za deszczami chłodny front. Ciepłe dzianko w postaci akcji JSW za 38 zeta za sztukę odzieje ciało. Zima ma być ponoć sroga więcej trzeba kupić akcji JSW ale ciepło organizmu nie uciekało.",
-      "votes": {
-        "up": 2,
-        "down": 11
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75794795",
@@ -2475,7 +2415,7 @@
       "url": "https://www.bankier.pl/forum/temat_analityk-6-do-40zl-potem-od-razu-45-zl-i-next-62-zl,75786297.html",
       "body": "Obserwujcie jutro i w czwartek jak przechodzimy na 45.",
       "votes": {
-        "up": 33,
+        "up": 34,
         "down": 3
       },
       "sentimentScore": 0,
@@ -2896,6 +2836,76 @@
       "body": "ubiór doskonały,da zarobić",
       "votes": {
         "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75767005",
+      "author": "Marian",
+      "postedAt": "2026-09-14 13:11",
+      "threadTitle": "Re: Parobasy ubrani po 39 wystąp!",
+      "url": "https://www.bankier.pl/forum/temat_parobasy-ubrani-po-39-wystap,75708143.html",
+      "body": "Wracamy na 24 zł",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75765415",
+      "author": "Olo",
+      "postedAt": "2026-09-14 11:20",
+      "threadTitle": "Re: Parobasy ubrani po 39 wystąp!",
+      "url": "https://www.bankier.pl/forum/temat_parobasy-ubrani-po-39-wystap,75708143.html",
+      "body": "IPO ptokach. 25 na horyzoncie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75763215",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-09-14 08:52",
+      "threadTitle": "Re: Ubrani po 24,20 wystąp !",
+      "url": "https://www.bankier.pl/forum/temat_ubrani-po-24-20-wystap,72110793.html",
+      "body": "Dalej piszecie o ubraniach",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75762459",
+      "author": "STRZĄSAMY-CZOSNEK",
+      "postedAt": "2026-09-14 06:34",
+      "threadTitle": "Re: Ubrani po 24,20 wystąp !",
+      "url": "https://www.bankier.pl/forum/temat_ubrani-po-24-20-wystap,72110793.html",
+      "body": "Temat wiecznie żywy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75761799",
+      "author": "Paweł",
+      "postedAt": "2026-09-13 21:51",
+      "threadTitle": "Re: Ubrani po 24,20 wystąp !",
+      "url": "https://www.bankier.pl/forum/temat_ubrani-po-24-20-wystap,72110793.html",
+      "body": "dobra inwestycja nigdy nie jest zła",
+      "votes": {
+        "up": 0,
         "down": 0
       },
       "sentimentScore": 0,
