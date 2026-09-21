@@ -3,36 +3,31 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-09-20T20:49:45.008Z",
+  "updatedAt": "2026-09-21T04:56:17.277Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-20T20:49:45.008Z",
+    "fetchedAt": "2026-09-21T04:56:17.277Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 36
+    "threadsScanned": 35
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.095,
+    "score": 0.086,
     "confidence": 0.73,
     "commentCount": 192,
     "breakdown": {
-      "positive": 77,
-      "negative": 36,
-      "neutral": 79
+      "positive": 76,
+      "negative": 38,
+      "neutral": 78
     },
     "trend": [
       {
-        "date": "2026-09-13",
-        "score": 0,
-        "count": 1
-      },
-      {
         "date": "2026-09-14",
-        "score": -0.109,
-        "count": 49
+        "score": -0.117,
+        "count": 48
       },
       {
         "date": "2026-09-15",
@@ -61,12 +56,17 @@
       },
       {
         "date": "2026-09-20",
-        "score": 0.048,
-        "count": 6
+        "score": -0.005,
+        "count": 7
+      },
+      {
+        "date": "2026-09-21",
+        "score": -0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 192 komentarzy z ostatnich 7 dni: nastroje mieszane (77 pozytywnych, 36 negatywnych, 79 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 192 komentarzy z ostatnich 7 dni: nastroje mieszane (76 pozytywnych, 38 negatywnych, 78 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
@@ -112,6 +112,34 @@
   },
   "comments": [
     {
+      "id": "75834467",
+      "author": "Heh",
+      "postedAt": "2026-09-21 05:52",
+      "threadTitle": "Re: 55 w przyszłym tygodniu",
+      "url": "https://www.bankier.pl/forum/temat_55-w-przyszlym-tygodniu,75819893.html",
+      "body": "To spadaj",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75834219",
+      "author": "Valuś",
+      "postedAt": "2026-09-20 23:43",
+      "threadTitle": "Re: 55 w przyszłym tygodniu",
+      "url": "https://www.bankier.pl/forum/temat_55-w-przyszlym-tygodniu,75819893.html",
+      "body": "Spadamy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75833431",
       "author": "Jon",
       "postedAt": "2026-09-20 20:36",
@@ -119,7 +147,7 @@
       "url": "https://www.bankier.pl/forum/temat_100-zl,75833431.html",
       "body": "Na koniec roku jutro + OBLIGACJE REKORDOWE POZIOMY I ZAROBEK DLA PZU",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -175,7 +203,7 @@
       "url": "https://www.bankier.pl/forum/temat_warto-przeczytac-dywidenda-5-5-60,75830331.html",
       "body": "https://strefainwestorow.pl/dywidendy/dywidendy-spolek-skarbu-panstwa-szacunki-2027",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.87,
@@ -2767,34 +2795,6 @@
       "votes": {
         "up": 2,
         "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75762295",
-      "author": "marcinl0",
-      "postedAt": "2026-09-14 01:07",
-      "threadTitle": "jutro podciągamy pod 80 ostatni dzień pod dywidendę",
-      "url": "https://www.bankier.pl/forum/temat_jutro-podciagamy-pod-80-ostatni-dzien-pod-dywidende,75762295.html",
-      "body": "ciekawe czy zamknie się na > 80.xx",
-      "votes": {
-        "up": 7,
-        "down": 12
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75762167",
-      "author": "Haha",
-      "postedAt": "2026-09-13 23:52",
-      "threadTitle": "Re: najlepszy walor do OKi IKE IKZE",
-      "url": "https://www.bankier.pl/forum/temat_najlepszy-walor-do-oki-ike-igze,75760013.html",
-      "body": "I to porada od gościa który nawet nie potrafi napisać poprawnie typu rachunku IKZE!!!",
-      "votes": {
-        "up": 2,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
