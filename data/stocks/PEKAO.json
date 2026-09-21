@@ -3,24 +3,24 @@
   "companyName": "Bank Polska Kasa Opieki Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-polska-kasa-opieki-spolka-akcyjna,6,21,18.html",
-  "updatedAt": "2026-09-21T12:47:36.294Z",
+  "updatedAt": "2026-09-21T21:59:13.844Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-21T12:47:36.294Z",
+    "fetchedAt": "2026-09-21T21:59:13.844Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 17
+    "threadsScanned": 18
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.067,
+    "score": 0.033,
     "confidence": 0.58,
-    "commentCount": 39,
+    "commentCount": 40,
     "breakdown": {
       "positive": 12,
-      "negative": 7,
+      "negative": 8,
       "neutral": 20
     },
     "trend": [
@@ -118,10 +118,15 @@
         "date": "2026-09-20",
         "score": 0.583,
         "count": 1
+      },
+      {
+        "date": "2026-09-21",
+        "score": -0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 39 komentarzy z ostatnich 90 dni: nastroje mieszane (12 pozytywnych, 7 negatywnych, 20 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 40 komentarzy z ostatnich 90 dni: nastroje mieszane (12 pozytywnych, 8 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "banki",
@@ -167,6 +172,20 @@
   },
   "comments": [
     {
+      "id": "75844871",
+      "author": "taksowkarz",
+      "postedAt": "2026-09-21 20:14",
+      "threadTitle": "czy to wogole jeszcze kiedys spadnie",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-wogole-jeszcze-kiedys-spadnie,75844871.html",
+      "body": "czy tylko bedzie roslo i roslo",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75833529",
       "author": "NiewidzialnaRękaRyn",
       "postedAt": "2026-09-20 20:57",
@@ -202,7 +221,7 @@
       "url": "https://www.bankier.pl/forum/temat_peo-280,75804439.html",
       "body": "Dzień dobry,Czy PEO ma szansę przebić 280 PLN do końca tygodnia?",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0,
@@ -216,7 +235,7 @@
       "url": "https://www.bankier.pl/forum/temat_akcje-pekao,75803611.html",
       "body": "jpan ktory przewidywal zjazd W-20 niech zmieni braze np ceny paliw",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
