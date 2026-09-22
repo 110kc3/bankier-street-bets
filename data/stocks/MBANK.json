@@ -3,23 +3,23 @@
   "companyName": "mBank Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-spolka-akcyjna,6,21,31.html",
-  "updatedAt": "2026-09-21T21:58:58.860Z",
+  "updatedAt": "2026-09-22T04:55:22.528Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-21T21:58:58.861Z",
+    "fetchedAt": "2026-09-22T04:55:22.528Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 8
+    "threadsScanned": 9
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.239,
-    "confidence": 0.61,
-    "commentCount": 34,
+    "score": -0.172,
+    "confidence": 0.59,
+    "commentCount": 35,
     "breakdown": {
-      "positive": 1,
+      "positive": 2,
       "negative": 19,
       "neutral": 14
     },
@@ -118,10 +118,15 @@
         "date": "2026-09-19",
         "score": 0.322,
         "count": 1
+      },
+      {
+        "date": "2026-09-22",
+        "score": 0.583,
+        "count": 1
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 34 komentarzy z ostatnich 90 dni: nastroje negatywne (1 pozytywnych, 19 negatywnych, 14 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 35 komentarzy z ostatnich 90 dni: nastroje negatywne (2 pozytywnych, 19 negatywnych, 14 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "huknie",
@@ -166,6 +171,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "75846591",
+      "author": "WTF",
+      "postedAt": "2026-09-22 00:20",
+      "threadTitle": "Kto to goowno kupuje?",
+      "url": "https://www.bankier.pl/forum/temat_kto-to-goowno-kupuje,75846591.html",
+      "body": "luuuudzie",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75823785",
       "author": "Magellan",
@@ -328,7 +347,7 @@
       "url": "https://www.bankier.pl/forum/temat_e-makler-w-mbanku-nie-dziala,75617391.html",
       "body": "U mnie niestety też...",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -342,7 +361,7 @@
       "url": "https://www.bankier.pl/forum/temat_e-makler-w-mbanku-nie-dziala,75617391.html",
       "body": "Niestety, ale potwierdzam.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -356,7 +375,7 @@
       "url": "https://www.bankier.pl/forum/temat_e-makler-w-mbanku-nie-dziala,75617391.html",
       "body": "U nas też :/",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -370,7 +389,7 @@
       "url": "https://www.bankier.pl/forum/temat_e-makler-w-mbanku-nie-dziala,75617391.html",
       "body": "u Was też?",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
