@@ -3,11 +3,11 @@
   "companyName": "Dino Polska Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-spolka-akcyjna,6,21,10000001632.html",
-  "updatedAt": "2026-09-23T21:29:54.636Z",
+  "updatedAt": "2026-09-24T04:49:02.800Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-23T21:29:54.636Z",
+    "fetchedAt": "2026-09-24T04:49:02.800Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,29 +15,24 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.013,
+    "score": -0.005,
     "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 52,
-      "negative": 55,
-      "neutral": 93
+      "positive": 56,
+      "negative": 52,
+      "neutral": 92
     },
     "trend": [
       {
-        "date": "2026-09-18",
-        "score": -0.381,
-        "count": 2
-      },
-      {
         "date": "2026-09-19",
-        "score": -0.048,
-        "count": 8
+        "score": 0.448,
+        "count": 3
       },
       {
         "date": "2026-09-20",
-        "score": 0,
-        "count": 6
+        "score": 0.117,
+        "count": 10
       },
       {
         "date": "2026-09-21",
@@ -53,22 +48,23 @@
         "date": "2026-09-23",
         "score": 0.006,
         "count": 59
+      },
+      {
+        "date": "2026-09-24",
+        "score": 0,
+        "count": 3
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (52 pozytywnych, 55 negatywnych, 93 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (56 pozytywnych, 52 negatywnych, 92 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 24
+        "count": 22
       },
       {
         "word": "qube",
         "count": 11
-      },
-      {
-        "word": "dzis",
-        "count": 10
       },
       {
         "word": "wyniki",
@@ -79,12 +75,8 @@
         "count": 8
       },
       {
-        "word": "kasy",
+        "word": "dzis",
         "count": 8
-      },
-      {
-        "word": "niech",
-        "count": 7
       },
       {
         "word": "ktos",
@@ -97,10 +89,60 @@
       {
         "word": "trzeba",
         "count": 7
+      },
+      {
+        "word": "kupilem",
+        "count": 6
+      },
+      {
+        "word": "nadzieje",
+        "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75872983",
+      "author": "Józef",
+      "postedAt": "2026-09-24 06:35",
+      "threadTitle": "Re: Wyszlo dzis nowe reko- - 32 zł",
+      "url": "https://www.bankier.pl/forum/temat_wyszlo-dzis-nowe-reko-32-zl,75866079.html",
+      "body": "Na zamówienie .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75872767",
+      "author": "Dexter",
+      "postedAt": "2026-09-24 03:19",
+      "threadTitle": "Re: Wyszlo dzis nowe reko- - 32 zł",
+      "url": "https://www.bankier.pl/forum/temat_wyszlo-dzis-nowe-reko-32-zl,75866079.html",
+      "body": "Nie znam go",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75872689",
+      "author": "ZielonyWał",
+      "postedAt": "2026-09-24 01:07",
+      "threadTitle": "Od czwartego kwartalu skok cen żywności. Link",
+      "url": "https://www.bankier.pl/forum/temat_od-czwartego-kwartalu-skok-cen-zywnosci-link,75872689.html",
+      "body": "https://www.bankier.pl/wiadomosc/Idzie-kolejna-fala-drozyzny-Eksperci-podaja-date-kolejnego-skoku-cen-9200697.html",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75872029",
       "author": "Lejs",
@@ -172,6 +214,20 @@
       "sentimentLabel": "Negative"
     },
     {
+      "id": "75871121",
+      "author": "Weq",
+      "postedAt": "2026-09-23 20:32",
+      "threadTitle": "Re: Wyszlo dzis nowe reko- - 32 zł",
+      "url": "https://www.bankier.pl/forum/temat_wyszlo-dzis-nowe-reko-32-zl,75866079.html",
+      "body": "Nie chciało za bardzo spadać to wydali takie reko",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75871117",
       "author": "Pablo",
       "postedAt": "2026-09-23 20:32",
@@ -186,20 +242,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75871121",
-      "author": "Weq",
-      "postedAt": "2026-09-23 20:32",
-      "threadTitle": "Re: Wyszlo dzis nowe reko- - 32 zł",
-      "url": "https://www.bankier.pl/forum/temat_wyszlo-dzis-nowe-reko-32-zl,75866079.html",
-      "body": "Nie chciało za bardzo spadać to wydali takie reko",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "75871067",
       "author": "mabmab",
       "postedAt": "2026-09-23 20:28",
@@ -207,7 +249,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyszlo-dzis-nowe-reko-32-zl,75866079.html",
       "body": "Kto wydal te rekomendacje nigdzie nie ma nowej rekomendacji dla Dino. Musisz zrozumiec ze nawet na bankier pl nie mozesz podawac fejkow",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -222,7 +264,7 @@
       "body": "Jutro będzie obrona owszem ale 35 PLN .W piątek wywali ponad 37 .Zakład ?",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -347,7 +389,7 @@
       "url": "https://www.bankier.pl/forum/temat_male-obroty-na-spadkach-dacie-nizej,75861679.html",
       "body": "O jakie klucze chodzi ?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -487,7 +529,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyszlo-dzis-nowe-reko-32-zl,75866079.html",
       "body": "Duża szansa że wrzesień w końcu delikatna inflacja cen żywności a nie deflacja a jak nie wrzesień to październik i listopad, będzie dobrze :)",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -515,8 +557,8 @@
       "url": "https://www.bankier.pl/forum/temat_wyszlo-dzis-nowe-reko-32-zl,75866079.html",
       "body": "nic miszczu poza tym ze informuje ze dzis wyszlo reko na 32. tylko tyle i az tyle . zwykla informacja miszczu",
       "votes": {
-        "up": 0,
-        "down": 3
+        "up": 1,
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -529,7 +571,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyszlo-dzis-nowe-reko-32-zl,75866079.html",
       "body": "Jasne, ktoś wydał żeby tanio się obkupić. Podobna sytuacja jak na lpp , niejaki Morgan wydał ręki na 18 k, wielu sprzedało w panice a po dwóch miesiącach kurs ponad 24 k. No i co miszczu?",
       "votes": {
-        "up": 12,
+        "up": 13,
         "down": 0
       },
       "sentimentScore": 0,
@@ -543,7 +585,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyszlo-dzis-nowe-reko-32-zl,75866079.html",
       "body": "Ale bzdura :-)",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -558,7 +600,7 @@
       "body": "tak ze w najblizszym czasie jedziemy na poludnie. oby doszlo do tych 32 mozna bedzie sie zapakowac a shorcik sobie odkupi po taniosci",
       "votes": {
         "up": 1,
-        "down": 10
+        "down": 12
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -571,7 +613,7 @@
       "url": "https://www.bankier.pl/forum/temat_male-obroty-na-spadkach-dacie-nizej,75861679.html",
       "body": "w tym wlasnie problem Ze ani 34 ani 38 . stoimy jak gówn w przereblu.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -585,7 +627,7 @@
       "url": "https://www.bankier.pl/forum/temat_male-obroty-na-spadkach-dacie-nizej,75861679.html",
       "body": "Pawełku.Jedziemy pod 34 PLN do końca tygodnia",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 2
       },
       "sentimentScore": -0.322,
@@ -1972,7 +2014,7 @@
       "body": "12 mln do odkupienia przy FF 431 mln, ale to wywali do gory jak zaczna odkupowac",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2692,6 +2734,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "75833981",
+      "author": "Misiu",
+      "postedAt": "2026-09-20 22:22",
+      "threadTitle": "Re: Coś się dzieje jak tak sprzedają",
+      "url": "https://www.bankier.pl/forum/temat_cos-sie-dzieje-jak-tak-sprzedaja,75819939.html",
+      "body": "Chyba z autopsji piszesz, co nie? Ile już w plecy jesteś?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75833307",
       "author": "Bzzz",
       "postedAt": "2026-09-20 20:21",
@@ -2704,6 +2760,48 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75831581",
+      "author": "jm",
+      "postedAt": "2026-09-20 15:31",
+      "threadTitle": "Re: w poniedziałek zamek na zielono",
+      "url": "https://www.bankier.pl/forum/temat_w-poniedzialek-zamek-na-zielono,75827313.html",
+      "body": "Sufit,szklana kula, fusy czy szeptucha ?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75831425",
+      "author": "Aaa",
+      "postedAt": "2026-09-20 15:02",
+      "threadTitle": "Re: w poniedziałek zamek na zielono",
+      "url": "https://www.bankier.pl/forum/temat_w-poniedzialek-zamek-na-zielono,75827313.html",
+      "body": "Zamek Zamkiem 25 nieuchronne",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75831383",
+      "author": "Lejs",
+      "postedAt": "2026-09-20 14:54",
+      "threadTitle": "Re: w poniedziałek zamek na zielono",
+      "url": "https://www.bankier.pl/forum/temat_w-poniedzialek-zamek-na-zielono,75827313.html",
+      "body": "Ja zamawiam czerwień.34.40 PLN !",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
     },
     {
       "id": "75830471",
@@ -2762,6 +2860,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "75828387",
+      "author": "Eustachy",
+      "postedAt": "2026-09-19 21:43",
+      "threadTitle": "Re: w poniedziałek zamek na zielono",
+      "url": "https://www.bankier.pl/forum/temat_w-poniedzialek-zamek-na-zielono,75827313.html",
+      "body": "Rano możliwa okazja na zakupy, potem zieleń razem z zamkiem",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "75828105",
       "author": "tumbelele",
       "postedAt": "2026-09-19 20:53",
@@ -2785,118 +2897,6 @@
       "votes": {
         "up": 2,
         "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75827303",
-      "author": "wert",
-      "postedAt": "2026-09-19 17:46",
-      "threadTitle": "Re: Ruch w sklepach",
-      "url": "https://www.bankier.pl/forum/temat_ruch-w-sklepach,75826747.html",
-      "body": "a tu nowe sklepy wchodzą do miast i spoko niech Dnio się rozwija . Kanał zero jak co tydzień biega po sklepie dino i robi zakupy ładnie reklamują https://www.portalspozywczy.pl/handel/wiadomosci/dino-wchodzi-do-kolejnego-duzego-miasta-siec-zlozyla-wniosek-o-budowe,293174.htmlhttps://www.telewizjagorzow.pl/artykul/17386,kolejny-sklep-znanej-sieci-powstaje-w-gorzowie",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75827157",
-      "author": "mabmab",
-      "postedAt": "2026-09-19 17:10",
-      "threadTitle": "Re: Ruch w sklepach",
-      "url": "https://www.bankier.pl/forum/temat_ruch-w-sklepach,75826747.html",
-      "body": "Lejs a niech spadnie i wreszcie trafisz w cel tego tobie zycze. W poniedzialek pod noz pojdzie sektor finansowy zapakowany w obligacje ponad uszy. Szczerze odpowiedz jakich obrotow sie spodziewales 2 czy 3 cyfrowych?",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75827025",
-      "author": "Lejs",
-      "postedAt": "2026-09-19 16:45",
-      "threadTitle": "Re: Ruch w sklepach",
-      "url": "https://www.bankier.pl/forum/temat_ruch-w-sklepach,75826747.html",
-      "body": "Ciekawe ile spadnie w poniedziałek ? 34.40 ?",
-      "votes": {
-        "up": 0,
-        "down": 6
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75826903",
-      "author": "Eustachy",
-      "postedAt": "2026-09-19 16:25",
-      "threadTitle": "Re: Ruch w sklepach",
-      "url": "https://www.bankier.pl/forum/temat_ruch-w-sklepach,75826747.html",
-      "body": "Sklepy mające kasy samoobsługowe narzekają na kradzieże, złe typowaniem towaru i konieczność ciągłego wspomagania że strony kasjera, więc każdy medal ma dwie strony, fakt, że obsługi przydałoby się więcej, uważam jednak, że jest to skalkulowane",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75826881",
-      "author": "abc",
-      "postedAt": "2026-09-19 16:20",
-      "threadTitle": "Re: Ruch w sklepach",
-      "url": "https://www.bankier.pl/forum/temat_ruch-w-sklepach,75826747.html",
-      "body": "Odwiedziłem dziś nowo otwarty sklep DINO.. Towar niezły ceny też. Natomiast przy płatności za zakupy bardzo duże rozczarowanie. Tylko jedna kasa i kolejka licząca prawe i dwadzieścia osób. Ani jednego automatu. U konkurencji w każdym markecie jest ich minimum cztery. Parking przed sklepem mógłby być być dużo większy. Trudne parkowanie i stanie w kolejce z koszykiem do kasy przez 20 minut odstręczy wielu klientów.",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75826747",
-      "author": "Eustachy",
-      "postedAt": "2026-09-19 16:03",
-      "threadTitle": "Ruch w sklepach",
-      "url": "https://www.bankier.pl/forum/temat_ruch-w-sklepach,75826747.html",
-      "body": "Dziś mijałem na 10 kilometrach 3 sklepy: Kołczewo, Międzywodzie i Dziwnów - parkingi pełne do ostatniego miejsca, a dwa pierwsze sklepu są poza miejscowością",
-      "votes": {
-        "up": 16,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75821295",
-      "author": "mabmab",
-      "postedAt": "2026-09-18 18:26",
-      "threadTitle": "Re: Się gnie",
-      "url": "https://www.bankier.pl/forum/temat_sie-gnie,75816411.html",
-      "body": "Dziadek.....a co Kazik to dla dziadersow? A wiesz jak się skonczyl Big Short? Przeczytaj albo oglądnij film to zrozumiesz o czym pisze. Mam taką swoja sprawdzona zasadę gdy przd 3W rośnie sprzedaj i przyczaj się z gotówką",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75820823",
-      "author": "BIG_SHORT",
-      "postedAt": "2026-09-18 17:44",
-      "threadTitle": "Re: Się gnie",
-      "url": "https://www.bankier.pl/forum/temat_sie-gnie,75816411.html",
-      "body": "> Lusiu....I co z tym gięciem ? I gdzie 34 zl! Jak u Kazika tylko nie Wałęsa ale Lejs oddaj mi miliony....żart nie bierz tego powaznieDziadek, spokojnie doczekasz się niebawem, być może już w Poniedziałek! Hehehe!",
-      "votes": {
-        "up": 2,
-        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
