@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-spolka-akcyjna,6,21,116.html",
-  "updatedAt": "2026-09-24T21:31:00.038Z",
+  "updatedAt": "2026-09-25T04:56:54.741Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-24T21:31:00.038Z",
+    "fetchedAt": "2026-09-25T04:56:54.741Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.029,
+    "score": 0.026,
     "confidence": 0.71,
-    "commentCount": 199,
+    "commentCount": 200,
     "breakdown": {
       "positive": 54,
-      "negative": 40,
+      "negative": 41,
       "neutral": 105
     },
     "trend": [
@@ -58,10 +58,15 @@
         "date": "2026-09-24",
         "score": 0.008,
         "count": 26
+      },
+      {
+        "date": "2026-09-25",
+        "score": -0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 199 komentarzy z ostatnich 7 dni: nastroje mieszane (54 pozytywnych, 40 negatywnych, 105 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (54 pozytywnych, 41 negatywnych, 105 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
@@ -107,6 +112,20 @@
   },
   "comments": [
     {
+      "id": "75886937",
+      "author": "mabmab",
+      "postedAt": "2026-09-25 06:38",
+      "threadTitle": "Re: Dobra informacja i…spadki. Tak wygląda ostatnia faza Dystrybucji",
+      "url": "https://www.bankier.pl/forum/temat_dobra-informacja-i-spadki-tak-wyglada-ostatnia-faza-dystrybucji,75884765.html",
+      "body": "Nie Wickoff ....Wyckoff tak może",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "75885937",
       "author": "WWa",
       "postedAt": "2026-09-24 22:31",
@@ -142,7 +161,7 @@
       "url": "https://www.bankier.pl/forum/temat_dobra-informacja-i-spadki-tak-wyglada-ostatnia-faza-dystrybucji,75884765.html",
       "body": "Szeroki rynek trzeszczy już bardzo mocno. Wyciągają WIG20 bankami. A nasz czempion osuwa się z dnia na dzień. Każda dobra informacja, czy wzrost cen metali, są wykorzystywane do lekkiej podbitki i wciskania akcji ulicy.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -184,7 +203,7 @@
       "url": "https://www.bankier.pl/forum/temat_projekt-wiktoria-kghm,75881529.html",
       "body": "Na liscie inwestycji strategicznych Ontario a kurs spada....to jest naprawde dziwna gielda ta GPW...",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": -0.322,

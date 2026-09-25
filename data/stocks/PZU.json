@@ -3,31 +3,31 @@
   "companyName": "Powszechny Zakład Ubezpieczeń Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_powszechny-zaklad-ubezpieczen-spolka-akcyjna,6,21,10000000081.html",
-  "updatedAt": "2026-09-24T21:31:57.013Z",
+  "updatedAt": "2026-09-25T04:57:43.248Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-24T21:31:57.013Z",
+    "fetchedAt": "2026-09-25T04:57:43.248Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 25
+    "threadsScanned": 26
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.091,
-    "confidence": 0.73,
+    "score": 0.069,
+    "confidence": 0.72,
     "commentCount": 84,
     "breakdown": {
       "positive": 26,
-      "negative": 15,
-      "neutral": 43
+      "negative": 16,
+      "neutral": 42
     },
     "trend": [
       {
         "date": "2026-09-18",
-        "score": 0.179,
-        "count": 14
+        "score": 0.192,
+        "count": 13
       },
       {
         "date": "2026-09-19",
@@ -58,17 +58,22 @@
         "date": "2026-09-24",
         "score": -0.024,
         "count": 11
-      }
-    ],
-    "trendDirection": "stable",
-    "summary": "Analiza 84 komentarzy z ostatnich 7 dni: nastroje mieszane (26 pozytywnych, 15 negatywnych, 43 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
-    "topKeywords": [
-      {
-        "word": "dywidende",
-        "count": 6
       },
       {
+        "date": "2026-09-25",
+        "score": -0.87,
+        "count": 1
+      }
+    ],
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 84 komentarzy z ostatnich 7 dni: nastroje mieszane (26 pozytywnych, 16 negatywnych, 42 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "topKeywords": [
+      {
         "word": "roku",
+        "count": 7
+      },
+      {
+        "word": "dywidende",
         "count": 6
       },
       {
@@ -100,12 +105,26 @@
         "count": 4
       },
       {
-        "word": "https",
+        "word": "alicji",
         "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75886919",
+      "author": "mabmab",
+      "postedAt": "2026-09-25 06:34",
+      "threadTitle": "Raport OECD Rynki akcji",
+      "url": "https://www.bankier.pl/forum/temat_raport-oecd-rynki-akcji,75886919.html",
+      "body": "W 2027 roku przewidują topnienie głębsze niż w czasie kryzysu subprime....",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75885999",
       "author": "Mistral",
@@ -506,7 +525,7 @@
       "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
       "body": "Obroty na bankach i dołowanie PLN raczej świadczą o realizacji zysków przez zagranice .Ja osobiście bede zamieniał USD w akcje Prudential financial .Dywidenda jak w PZU 4.7 %/rok i 1.40 $ kwartalnie .Do emeryckiego portela zasysał dólary od Trupa.ps.Ciekawe ile Dyzma Wetomat razem z Glapinskim zawiezli polskiego złota do USA? Kto wie? Czy ta \"Polonia\" w USA ufundowała chociaz 1 drona dla polskiego wojska. ? Kto wie ? Może zamiast 100 tys $ za spotkanie podarować drona",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 4
       },
       "sentimentScore": 0,
@@ -1267,20 +1286,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75811727",
-      "author": "Insurance",
-      "postedAt": "2026-09-18 06:24",
-      "threadTitle": "Średnio 25% podwyżki Ubezpieczeń",
-      "url": "https://www.bankier.pl/forum/temat_srednio-25-podwyzki-ubezpieczen,75811727.html",
-      "body": "https://ubezpieczenia-magro.pl/blog/podwyzki-oc-2026-srednia-cena-jak-zaoszczedzic",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
