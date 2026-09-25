@@ -3,11 +3,11 @@
   "companyName": "Kruk Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-spolka-akcyjna,6,21,10000001000.html",
-  "updatedAt": "2026-09-25T11:50:21.684Z",
+  "updatedAt": "2026-09-25T17:10:36.416Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-25T11:50:21.684Z",
+    "fetchedAt": "2026-09-25T17:10:36.416Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.09,
-    "confidence": 0.73,
+    "score": -0.115,
+    "confidence": 0.74,
     "commentCount": 200,
     "breakdown": {
       "positive": 55,
-      "negative": 88,
-      "neutral": 57
+      "negative": 90,
+      "neutral": 55
     },
     "trend": [
       {
         "date": "2026-08-27",
-        "score": -0.219,
-        "count": 8
+        "score": -0.291,
+        "count": 6
       },
       {
         "date": "2026-08-28",
@@ -148,10 +148,15 @@
         "date": "2026-09-24",
         "score": -0.274,
         "count": 2
+      },
+      {
+        "date": "2026-09-25",
+        "score": -0.762,
+        "count": 2
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 30 dni: nastroje mieszane (55 pozytywnych, 88 negatywnych, 57 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 30 dni: nastroje negatywne (55 pozytywnych, 90 negatywnych, 55 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruk",
@@ -196,6 +201,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "75895449",
+      "author": "Aureliano",
+      "postedAt": "2026-09-25 18:54",
+      "threadTitle": "Re: analiza graficzna szortoow na Kruku 06-09",
+      "url": "https://www.bankier.pl/forum/temat_analiza-graficzna-szortoow-na-kruku-06-09,75686351.html",
+      "body": "Nie warto. To nagony wyciagajace kase. Trader21 to oszust z jsw i platnych subskrypcji. Uwazajcie na te spoldzielnie...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75895447",
+      "author": "Aureliano",
+      "postedAt": "2026-09-25 18:53",
+      "threadTitle": "Re: analiza graficzna szortoow na Kruku 06-09",
+      "url": "https://www.bankier.pl/forum/temat_analiza-graficzna-szortoow-na-kruku-06-09,75686351.html",
+      "body": "Nie warto. To nagony wyciagajace kase. Trader21 to oszust z jsw i platnych subskrypcji. Uwazajcie na te spoldzielnie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75885129",
       "author": "Anna21",
@@ -415,7 +448,7 @@
       "body": "Dokładnie. Rsi jest na takim poziomie że odbicie praktycznie już puka do drzwi.",
       "votes": {
         "up": 11,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -527,7 +560,7 @@
       "body": "Kruk zachowuje się jakby zaraz miał spać na 100-200 codziennie spadki to raczej potwierdzają, Cóż widać biznes się kończy",
       "votes": {
         "up": 2,
-        "down": 17
+        "down": 18
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -2967,34 +3000,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75572819",
-      "author": "ff",
-      "postedAt": "2026-08-27 13:40",
-      "threadTitle": "Re: Czemu to spada ?",
-      "url": "https://www.bankier.pl/forum/temat_czemu-to-spada,75570795.html",
-      "body": "Czy wy jesteście normalni? Przecież rośnie cały czas od tygodnia xD",
-      "votes": {
-        "up": 1,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75572809",
-      "author": "(usunięty)",
-      "postedAt": "2026-08-27 13:39",
-      "threadTitle": "(wiadomość usunięta przez moderatora)",
-      "url": "https://www.bankier.pl/forum/temat_czemu-to-spada,75570795.html",
-      "body": "(wiadomość usunięta przez moderatora)",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
