@@ -1,13 +1,13 @@
 {
   "symbol": "PZU",
-  "companyName": "Powszechny Zakład Ubezpieczeń Spółka Akcyjna",
+  "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_powszechny-zaklad-ubezpieczen-spolka-akcyjna,6,21,10000000081.html",
-  "updatedAt": "2026-09-26T11:25:52.260Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
+  "updatedAt": "2026-09-26T16:24:23.306Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-26T11:25:52.260Z",
+    "fetchedAt": "2026-09-26T16:24:23.306Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.144,
+    "score": 0.146,
     "confidence": 0.75,
-    "commentCount": 82,
+    "commentCount": 83,
     "breakdown": {
-      "positive": 28,
-      "negative": 15,
-      "neutral": 39
+      "positive": 29,
+      "negative": 14,
+      "neutral": 40
     },
     "trend": [
       {
         "date": "2026-09-19",
-        "score": -0.107,
-        "count": 3
+        "score": 0,
+        "count": 2
       },
       {
         "date": "2026-09-20",
@@ -61,16 +61,24 @@
       },
       {
         "date": "2026-09-26",
-        "score": 0.879,
-        "count": 2
+        "score": 0.52,
+        "count": 4
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 82 komentarzy z ostatnich 7 dni: nastroje pozytywne (28 pozytywnych, 15 negatywnych, 39 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 83 komentarzy z ostatnich 7 dni: nastroje pozytywne (29 pozytywnych, 14 negatywnych, 40 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
         "count": 9
+      },
+      {
+        "word": "podwyzki",
+        "count": 5
+      },
+      {
+        "word": "dywidende",
+        "count": 5
       },
       {
         "word": "stop",
@@ -85,19 +93,7 @@
         "count": 5
       },
       {
-        "word": "podwyzki",
-        "count": 4
-      },
-      {
-        "word": "dywidende",
-        "count": 4
-      },
-      {
-        "word": "oczywiscie",
-        "count": 4
-      },
-      {
-        "word": "rentownosci",
+        "word": "balczun",
         "count": 4
       },
       {
@@ -107,10 +103,42 @@
       {
         "word": "kilka",
         "count": 4
+      },
+      {
+        "word": "dunskiego",
+        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75900429",
+      "author": "Simple",
+      "postedAt": "2026-09-26 17:41",
+      "threadTitle": "Re: Batyr vel Wetomat zaszachowany",
+      "url": "https://www.bankier.pl/forum/temat_batyr-vel-wetomat-zaszachowany,75896193.html",
+      "body": "Jak z czego, podwyżki oc i majątkowych zrobią 30-50% i będzie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75900189",
+      "author": "mabmab",
+      "postedAt": "2026-09-26 16:57",
+      "threadTitle": "Re: Batyr vel Wetomat zaszachowany",
+      "url": "https://www.bankier.pl/forum/temat_batyr-vel-wetomat-zaszachowany,75896193.html",
+      "body": "Skoro Balczun wycofal sie z realizacji kompromisu dunskiego to nie ma mowy o szach mat....ciekawe z czego PZU bedzie wyplacac zaplanowana w budzecie 2027 dywidende. Pomysl holdingu jest po prostu chory bo zadnych korzysci nie daje.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75899059",
       "author": "HedgeLord",
@@ -1244,20 +1272,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75826567",
-      "author": "mabmab",
-      "postedAt": "2026-09-19 15:27",
-      "threadTitle": "Re: Obniżka ratingu Neutralna dla Rynku",
-      "url": "https://www.bankier.pl/forum/temat_obnizka-ratingu-neutralna-dla-rynku,75825725.html",
-      "body": "Oczywiscie ze nie byla rating Moody s odstawal od Fitcha i musial zostac wyrownany. Czwartek i spadek rentownosci polskich obligacji na dlugim krancu wynikal jedynie z decyzji FEDu. Agencje widza co sie dzieje w polskie polityce wewnwtrznej i reaguja. Rozbawil mnie Morawiecki i Bosak pni obnosza sie ze swoja ignorancja jak Brezniew z orderami",
-      "votes": {
-        "up": 1,
-        "down": 5
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
