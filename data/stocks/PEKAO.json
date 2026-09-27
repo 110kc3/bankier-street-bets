@@ -1,13 +1,13 @@
 {
   "symbol": "PEKAO",
-  "companyName": "Bank Polska Kasa Opieki Spółka Akcyjna",
+  "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-polska-kasa-opieki-spolka-akcyjna,6,21,18.html",
-  "updatedAt": "2026-09-27T12:01:56.113Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
+  "updatedAt": "2026-09-27T16:58:46.760Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-27T12:01:56.113Z",
+    "fetchedAt": "2026-09-27T16:58:46.760Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.006,
-    "confidence": 0.57,
-    "commentCount": 40,
+    "score": -0.009,
+    "confidence": 0.56,
+    "commentCount": 39,
     "breakdown": {
-      "positive": 8,
+      "positive": 7,
       "negative": 9,
       "neutral": 23
     },
     "trend": [
-      {
-        "date": "2026-06-29",
-        "score": 0.583,
-        "count": 1
-      },
       {
         "date": "2026-06-30",
         "score": 0,
@@ -135,8 +130,8 @@
         "count": 2
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 40 komentarzy z ostatnich 90 dni: nastroje mieszane (8 pozytywnych, 9 negatywnych, 23 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 39 komentarzy z ostatnich 90 dni: nastroje mieszane (7 pozytywnych, 9 negatywnych, 23 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "banki",
@@ -725,20 +720,6 @@
         "down": 0
       },
       "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "74956013",
-      "author": "koperytko",
-      "postedAt": "2026-06-29 17:56",
-      "threadTitle": "Re: Dywidenda",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda,74950525.html",
-      "body": "macie na rachunku dywidendę ?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
     }
   ]
