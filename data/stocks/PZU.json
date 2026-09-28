@@ -3,36 +3,31 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-09-27T21:22:35.767Z",
+  "updatedAt": "2026-09-28T05:25:49.598Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-27T21:22:35.767Z",
+    "fetchedAt": "2026-09-28T05:25:49.598Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 23
+    "threadsScanned": 22
   },
   "analysis": {
-    "signal": "HOLD",
-    "score": 0.142,
+    "signal": "BUY",
+    "score": 0.156,
     "confidence": 0.75,
     "commentCount": 76,
     "breakdown": {
-      "positive": 27,
-      "negative": 12,
-      "neutral": 37
+      "positive": 28,
+      "negative": 10,
+      "neutral": 38
     },
     "trend": [
       {
-        "date": "2026-09-20",
-        "score": -0.322,
-        "count": 1
-      },
-      {
         "date": "2026-09-21",
-        "score": 0.134,
-        "count": 17
+        "score": 0.162,
+        "count": 16
       },
       {
         "date": "2026-09-22",
@@ -58,14 +53,24 @@
         "date": "2026-09-26",
         "score": 0.416,
         "count": 5
+      },
+      {
+        "date": "2026-09-27",
+        "score": 0.583,
+        "count": 1
+      },
+      {
+        "date": "2026-09-28",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 76 komentarzy z ostatnich 7 dni: nastroje pozytywne (27 pozytywnych, 12 negatywnych, 37 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 76 komentarzy z ostatnich 7 dni: nastroje pozytywne (28 pozytywnych, 10 negatywnych, 38 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
-        "count": 8
+        "count": 9
       },
       {
         "word": "podwyzki",
@@ -96,16 +101,44 @@
         "count": 4
       },
       {
-        "word": "dunskiego",
+        "word": "jaki",
         "count": 3
       },
       {
-        "word": "ciekawe",
+        "word": "wzrost",
         "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75906001",
+      "author": "Insurance",
+      "postedAt": "2026-09-28 07:02",
+      "threadTitle": "Re: A pisalem",
+      "url": "https://www.bankier.pl/forum/temat_a-pisalem,75875283.html",
+      "body": "Jaki jest twój cel pisania i co chcesz osiągnąć?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75905567",
+      "author": "Cashofarianin",
+      "postedAt": "2026-09-27 23:34",
+      "threadTitle": "Re: A pisalem",
+      "url": "https://www.bankier.pl/forum/temat_a-pisalem,75875283.html",
+      "body": "Wzrost kwotowy: Cena litra paliwa premium skoczyła w rok ok. 6,15 zł na 9,29 zł Wzrost procentowy 51%. Ubezpieczenia majątkowe, oc, ac, stopy czekają w kolejce. PZU115 a później +3+5% rok do roku w zależności od tego co gęś opublikuje. Udanego poniedziałku:) wkrótce coś podlinkuje",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75900881",
       "author": "Insurance",
@@ -1141,34 +1174,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75834467",
-      "author": "Heh",
-      "postedAt": "2026-09-21 05:52",
-      "threadTitle": "Re: 55 w przyszłym tygodniu",
-      "url": "https://www.bankier.pl/forum/temat_55-w-przyszlym-tygodniu,75819893.html",
-      "body": "To spadaj",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75834219",
-      "author": "Valuś",
-      "postedAt": "2026-09-20 23:43",
-      "threadTitle": "Re: 55 w przyszłym tygodniu",
-      "url": "https://www.bankier.pl/forum/temat_55-w-przyszlym-tygodniu,75819893.html",
-      "body": "Spadamy",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
