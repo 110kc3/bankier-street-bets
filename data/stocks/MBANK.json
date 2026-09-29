@@ -3,25 +3,25 @@
   "companyName": "mBank Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-spolka-akcyjna,6,21,31.html",
-  "updatedAt": "2026-09-29T05:44:13.482Z",
+  "updatedAt": "2026-09-29T12:52:22.923Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-29T05:44:13.482Z",
+    "fetchedAt": "2026-09-29T12:52:22.923Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 10
+    "threadsScanned": 11
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.175,
-    "confidence": 0.65,
-    "commentCount": 43,
+    "score": -0.152,
+    "confidence": 0.66,
+    "commentCount": 46,
     "breakdown": {
       "positive": 1,
       "negative": 21,
-      "neutral": 21
+      "neutral": 24
     },
     "trend": [
       {
@@ -128,14 +128,19 @@
         "date": "2026-09-28",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-09-29",
+        "score": 0,
+        "count": 3
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 43 komentarzy z ostatnich 90 dni: nastroje negatywne (1 pozytywnych, 21 negatywnych, 21 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 46 komentarzy z ostatnich 90 dni: nastroje negatywne (1 pozytywnych, 21 negatywnych, 24 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dziala",
-        "count": 8
+        "count": 10
       },
       {
         "word": "https",
@@ -176,6 +181,48 @@
     ]
   },
   "comments": [
+    {
+      "id": "75919379",
+      "author": "Ghalibaf",
+      "postedAt": "2026-09-29 12:31",
+      "threadTitle": "Re: Działa wam emakler???",
+      "url": "https://www.bankier.pl/forum/temat_dziala-wam-emakler,75919345.html",
+      "body": "Nie działa.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75919373",
+      "author": "Oki",
+      "postedAt": "2026-09-29 12:31",
+      "threadTitle": "Re: mforex jest likwidowany",
+      "url": "https://www.bankier.pl/forum/temat_mforex-jest-likwidowany,75652977.html",
+      "body": "w CMC bez swapow nazywa się Forward",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75919345",
+      "author": "Dolar",
+      "postedAt": "2026-09-29 12:28",
+      "threadTitle": "Działa wam emakler???",
+      "url": "https://www.bankier.pl/forum/temat_dziala-wam-emakler,75919345.html",
+      "body": "działa wam konto maklerskie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75910501",
       "author": "ns",
@@ -296,7 +343,7 @@
       "url": "https://www.bankier.pl/forum/temat_e-makler-w-mbanku-nie-dziala,75617391.html",
       "body": "Znów wracamy do problemów nie działa znów ile można sie denerwować",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.322,
