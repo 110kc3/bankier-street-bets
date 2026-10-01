@@ -3,11 +3,11 @@
   "companyName": "Powszechny Zakład Ubezpieczeń Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_powszechny-zaklad-ubezpieczen-spolka-akcyjna,6,21,10000000081.html",
-  "updatedAt": "2026-09-30T22:17:14.368Z",
+  "updatedAt": "2026-10-01T05:52:52.112Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-09-30T22:17:14.368Z",
+    "fetchedAt": "2026-10-01T05:52:52.112Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.138,
+    "score": 0.132,
     "confidence": 0.75,
     "commentCount": 83,
     "breakdown": {
-      "positive": 28,
+      "positive": 27,
       "negative": 13,
-      "neutral": 42
+      "neutral": 43
     },
     "trend": [
       {
         "date": "2026-09-24",
-        "score": -0.024,
-        "count": 11
+        "score": -0.058,
+        "count": 10
       },
       {
         "date": "2026-09-25",
@@ -58,10 +58,15 @@
         "date": "2026-09-30",
         "score": 0.107,
         "count": 18
+      },
+      {
+        "date": "2026-10-01",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 83 komentarzy z ostatnich 7 dni: nastroje pozytywne (28 pozytywnych, 13 negatywnych, 42 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 83 komentarzy z ostatnich 7 dni: nastroje pozytywne (27 pozytywnych, 13 negatywnych, 43 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "rentownosci",
@@ -107,6 +112,20 @@
   },
   "comments": [
     {
+      "id": "75939499",
+      "author": "Newil",
+      "postedAt": "2026-10-01 07:07",
+      "threadTitle": "Re: Mabmab jaki jest cel Twoich wpisów?/insurance",
+      "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
+      "body": "Dołuje bo tak ma być .Jak dobierać to po jak najniższej cenie.Cel jest taki że ma spaść do 08.10. ile się da",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "75938545",
       "author": "PIOTR",
       "postedAt": "2026-09-30 23:11",
@@ -115,7 +134,7 @@
       "body": "PZU dołuje, bo musi. Dywidenda wzięta, perspektywy słabe i w Polsce i globalnie, to dlaczego miałoby rosnąć. Myślę, że już niedługo zobaczymy kurs z 6 z przodu.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -128,7 +147,7 @@
       "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
       "body": "Czasami trzeba powiedzieć prawdę anty wskaźniku...życzeniowo z pewnością jesteś niedoścignionym wzorem do naśladowania...",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
@@ -184,7 +203,7 @@
       "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
       "body": "Edukować sobie możesz bliskich w rodzinie o ile takowych posiadasz samozwańczy expercie:⁠-⁠)",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0,
@@ -254,7 +273,7 @@
       "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
       "body": "Ale patrząc na PZU to tak samo podnoszono kwestie rentowności w 2022 i 2023 a kurs wzrósł o 100%.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -283,7 +302,7 @@
       "body": "taki sam jak twoich ... edukacyjny abys wiedzial co oznacza wysoka rentownośc obligacji a co niska dla bankow i ubezpieczycieli posiadajacych obligacje w swoich portfelach",
       "votes": {
         "up": 0,
-        "down": 3
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -338,7 +357,7 @@
       "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
       "body": "Toczysz bitwę o której nie mamy pojęcia i ci chcesz Ugrać?",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 3
       },
       "sentimentScore": 0,
@@ -1253,20 +1272,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75873125",
-      "author": "Insurance",
-      "postedAt": "2026-09-24 07:11",
-      "threadTitle": "Re: PZU ma dużo do nadrobienia",
-      "url": "https://www.bankier.pl/forum/temat_pzu-ma-duzo-do-nadrobienia,75872285.html",
-      "body": "PKO BP już dawno odrobił dywidendę z ogromną nadwyżką",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
