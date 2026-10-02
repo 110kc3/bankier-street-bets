@@ -3,25 +3,25 @@
   "companyName": "Kruk Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-spolka-akcyjna,6,21,10000001000.html",
-  "updatedAt": "2026-10-02T05:36:12.576Z",
+  "updatedAt": "2026-10-02T12:33:56.533Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-02T05:36:12.576Z",
+    "fetchedAt": "2026-10-02T12:33:56.533Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 9
+    "threadsScanned": 12
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.04,
-    "confidence": 0.53,
-    "commentCount": 32,
+    "score": -0.025,
+    "confidence": 0.63,
+    "commentCount": 48,
     "breakdown": {
-      "positive": 9,
-      "negative": 8,
-      "neutral": 15
+      "positive": 14,
+      "negative": 18,
+      "neutral": 16
     },
     "trend": [
       {
@@ -36,75 +36,326 @@
       },
       {
         "date": "2026-10-01",
-        "score": 0.029,
-        "count": 9
+        "score": 0.043,
+        "count": 6
+      },
+      {
+        "date": "2026-10-02",
+        "score": -0.1,
+        "count": 19
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 32 komentarzy z ostatnich 7 dni: nastroje mieszane (9 pozytywnych, 8 negatywnych, 15 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 48 komentarzy z ostatnich 7 dni: nastroje mieszane (14 pozytywnych, 18 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "zarzad",
+        "count": 3
+      },
+      {
+        "word": "dzieje",
+        "count": 3
+      },
       {
         "word": "sens",
         "count": 3
       },
       {
-        "word": "moim",
+        "word": "wszystko",
         "count": 2
       },
       {
-        "word": "dobre",
+        "word": "dziekuje",
         "count": 2
       },
       {
-        "word": "wskazniki",
+        "word": "mialo",
         "count": 2
       },
       {
-        "word": "pewnie",
+        "word": "cena",
         "count": 2
       },
       {
-        "word": "kruka",
+        "word": "kupuje",
         "count": 2
       },
       {
-        "word": "dokupie",
+        "word": "wiecej",
         "count": 2
       },
       {
-        "word": "dzieje",
+        "word": "przy",
         "count": 2
       }
     ]
   },
   "comments": [
     {
-      "id": "75950707",
-      "author": "Kurator",
-      "postedAt": "2026-10-01 21:08",
-      "threadTitle": "Re: KRUK — celne analizy na stół, co dalej według was?.",
-      "url": "https://www.bankier.pl/forum/temat_kruk-celne-analizy-na-stol-co-dalej-wedlug-was,75948585.html",
-      "body": "Moim zdaniem dobre infa niedługo się pojawią",
+      "id": "75959797",
+      "author": "bark",
+      "postedAt": "2026-10-02 14:33",
+      "threadTitle": "Re: KRUK to bankrut...",
+      "url": "https://www.bankier.pl/forum/temat_kruk-to-bankrut,75957535.html",
+      "body": "O kurde, dobry jesteś. Mam nadzieję, że już nasprzedawałeś na dźwigni i teraz czekasz na kurs 17 zł za akcję :)",
       "votes": {
-        "up": 1,
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75959701",
+      "author": "Maro",
+      "postedAt": "2026-10-02 14:25",
+      "threadTitle": "Re: KRUK to bankrut...",
+      "url": "https://www.bankier.pl/forum/temat_kruk-to-bankrut,75957535.html",
+      "body": "O ku masz rację wywaliłem wszystko dziękuję",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75959227",
+      "author": "bark",
+      "postedAt": "2026-10-02 13:55",
+      "threadTitle": "Re: 350",
+      "url": "https://www.bankier.pl/forum/temat_350,75958377.html",
+      "body": "Ja jestem już 8% na minusie. Ja prdl, a miało być tak pięknie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75958881",
+      "author": "ToblaKai",
+      "postedAt": "2026-10-02 13:36",
+      "threadTitle": "Re: 350",
+      "url": "https://www.bankier.pl/forum/temat_350,75958377.html",
+      "body": "Też myślałem, że doleci na 352 pln ale teraz mam wątpliwości. W każdym razie stosuję DCA i może, może. Obecna cena i tak już jest świetną promocją.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75958377",
+      "author": "Mn",
+      "postedAt": "2026-10-02 13:04",
+      "threadTitle": "350",
+      "url": "https://www.bankier.pl/forum/temat_350,75958377.html",
+      "body": "350 i tankuję",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75958095",
+      "author": "TrollXD",
+      "postedAt": "2026-10-02 12:47",
+      "threadTitle": "Re: Czy to koniec wytrząsania?",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-koniec-wytrzasania,75957055.html",
+      "body": "Takiej ceny od lat nie było. Czas na zieleń po ulewie",
+      "votes": {
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75949645",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-10-01 19:50",
-      "threadTitle": "Re: KRUK — celne analizy na stół, co dalej według was?.",
-      "url": "https://www.bankier.pl/forum/temat_kruk-celne-analizy-na-stol-co-dalej-wedlug-was,75948585.html",
-      "body": "Cisza nawet w temacie zakupu portfeli. Zostalo 3 miesiace.",
+      "id": "75957551",
+      "author": "ToblaKai",
+      "postedAt": "2026-10-02 12:10",
+      "threadTitle": "Re: Czy to koniec wytrząsania?",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-koniec-wytrzasania,75957055.html",
+      "body": "Ładowanie do worka trzeba zacząć:-). Może jeszcze głupim rzutem coś spadnie ale raczej teraz akumulacja a potem jazda w górę.",
       "votes": {
-        "up": 3,
+        "up": 2,
         "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75957511",
+      "author": "gall",
+      "postedAt": "2026-10-02 12:08",
+      "threadTitle": "Re: ponoć terapia czerwonym jest zdrowa",
+      "url": "https://www.bankier.pl/forum/temat_ponoc-terapia-czerwonym-jest-zdrowa,75941475.html",
+      "body": "JA KUpuje i nie trzymam, bo chce dokupic wiecej, niech leci i do 300 pln, fundamenty sie zawsze obronią.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75957099",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-10-02 11:40",
+      "threadTitle": "Re: ponoć terapia czerwonym jest zdrowa",
+      "url": "https://www.bankier.pl/forum/temat_ponoc-terapia-czerwonym-jest-zdrowa,75941475.html",
+      "body": "Tez dokupuje. Przy okazji trzymajcie swoje akcje na aktywnych zleceniach sprzedaży. Nie pomagajcie grubym.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75957055",
+      "author": "TrollXD",
+      "postedAt": "2026-10-02 11:37",
+      "threadTitle": "Czy to koniec wytrząsania?",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-koniec-wytrzasania,75957055.html",
+      "body": "Historycznie po takich spadkach Kruk podnosił się 10-15% w dwa tygodnie, jak będzie teraz?? Zarząd powinien ogłosić skup, albo dać dobre info , bo chyba cisza nie jest dobra.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75956187",
+      "author": "Magellan",
+      "postedAt": "2026-10-02 10:50",
+      "threadTitle": "Re: ponoć terapia czerwonym jest zdrowa",
+      "url": "https://www.bankier.pl/forum/temat_ponoc-terapia-czerwonym-jest-zdrowa,75941475.html",
+      "body": "kupuje kupujepowolutkuale faktycznie dziwnie tu",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75956079",
+      "author": "Kurator",
+      "postedAt": "2026-10-02 10:42",
+      "threadTitle": "Re: ponoć terapia czerwonym jest zdrowa",
+      "url": "https://www.bankier.pl/forum/temat_ponoc-terapia-czerwonym-jest-zdrowa,75941475.html",
+      "body": "Magdalen po eksplozji rsi --na kupuj co zazwyczaj się dzieje na naszym bananie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75955975",
+      "author": "Magellan",
+      "postedAt": "2026-10-02 10:38",
+      "threadTitle": "Re: Zapowiada się chyba 8 sesja z rzędu na minus",
+      "url": "https://www.bankier.pl/forum/temat_zapowiada-sie-chyba-8-sesja-z-rzedu-na-minus,75954907.html",
+      "body": "może tu być trup w szafie ?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75955887",
+      "author": "Magellan",
+      "postedAt": "2026-10-02 10:33",
+      "threadTitle": "Re: ponoć terapia czerwonym jest zdrowa",
+      "url": "https://www.bankier.pl/forum/temat_ponoc-terapia-czerwonym-jest-zdrowa,75941475.html",
+      "body": "rsi eksplodowałerror",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75955631",
+      "author": "lotar7",
+      "postedAt": "2026-10-02 10:20",
+      "threadTitle": "Re: ponoć terapia czerwonym jest zdrowa",
+      "url": "https://www.bankier.pl/forum/temat_ponoc-terapia-czerwonym-jest-zdrowa,75941475.html",
+      "body": "tak do 350 pln to jeszcze da się samooszukiwać, ale poniżej będzie mi trudniej...",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75955637",
+      "author": "superfan_xtb",
+      "postedAt": "2026-10-02 10:20",
+      "threadTitle": "Re: ponoć terapia czerwonym jest zdrowa",
+      "url": "https://www.bankier.pl/forum/temat_ponoc-terapia-czerwonym-jest-zdrowa,75941475.html",
+      "body": "od poniedziałku wystawianie takich zleceń nie będzie już możliwe",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75955349",
+      "author": "Heniek",
+      "postedAt": "2026-10-02 10:06",
+      "threadTitle": "Re: ponoć terapia czerwonym jest zdrowa",
+      "url": "https://www.bankier.pl/forum/temat_ponoc-terapia-czerwonym-jest-zdrowa,75941475.html",
+      "body": "Dlatego lepiej wystawić zlecenie sprzedaży po 600 zł (fikcyjnie) w ten sposób banki mają mniejszą możliwość pożyczania naszych akcji. Ale ludzie mają to gdzieś więc na tym się traci",
+      "votes": {
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75955009",
+      "author": "UfajRudemu",
+      "postedAt": "2026-10-02 09:49",
+      "threadTitle": "Re: Zapowiada się chyba 8 sesja z rzędu na minus",
+      "url": "https://www.bankier.pl/forum/temat_zapowiada-sie-chyba-8-sesja-z-rzedu-na-minus,75954907.html",
+      "body": "Największa hossa w historii na GPW, a Kruk szoruje po dnie. Masakra ta spółka i zarząd",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75954907",
+      "author": "MartinMix",
+      "postedAt": "2026-10-02 09:44",
+      "threadTitle": "Zapowiada się chyba 8 sesja z rzędu na minus",
+      "url": "https://www.bankier.pl/forum/temat_zapowiada-sie-chyba-8-sesja-z-rzedu-na-minus,75954907.html",
+      "body": "Coraz bardziej żenująco jest na tej spółce. Obecnie to chyba najgorsza spółka w WIG20 jeśli chodzi o stopę zwrotu w perspektywie zarówno tygodniowej, miesięcznej, rocznej czy nawet dwuletniej. Totalna beznadzieja.",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
     },
     {
       "id": "75948733",
@@ -114,25 +365,11 @@
       "url": "https://www.bankier.pl/forum/temat_ponoc-terapia-czerwonym-jest-zdrowa,75941475.html",
       "body": "To zwykły atak spekulacyjny. Wskaźniki świetne , spółka zdrowa.Tylko czekać.",
       "votes": {
-        "up": 6,
-        "down": 0
+        "up": 11,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75948585",
-      "author": "Karolina17",
-      "postedAt": "2026-10-01 17:54",
-      "threadTitle": "KRUK — celne analizy na stół, co dalej według was?.",
-      "url": "https://www.bankier.pl/forum/temat_kruk-celne-analizy-na-stol-co-dalej-wedlug-was,75948585.html",
-      "body": "On... Co myślicie o tej sytuacji na KRUK, widzicie tu potwierdzenie? jak to widzicie na dziś? https://x.com/GPW_Trader2022/status/2105646513699311966",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75948417",
@@ -143,7 +380,7 @@
       "body": "Duży FF. Szorty mogą mieszać.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -184,8 +421,8 @@
       "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
       "body": "Ale Was poubierali w futerka na zimę.:-) Oby tylko na jedną. Mam ochotę wejść do gry przy 372 ale coś mi mówi, że za chwilę będzie 352. Chyba poczekam :-). Rentowność obligacji w USA idzie na rekord, rynki napompowane do granic możliwości, jak to zaraz wszystko huknie to tylko ziemia zadrży. Lepiej cierpliwie poczekać z gotówką na zakupy 10-lecia.",
       "votes": {
-        "up": 4,
-        "down": 4
+        "up": 6,
+        "down": 7
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -506,7 +743,7 @@
       "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
       "body": "info z 28.09.....znowu wrzucili w rynek 2000 sztuk....... // czy inwestowanie ma tutaj jeszcze sens ?",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
