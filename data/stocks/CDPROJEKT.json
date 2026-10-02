@@ -3,11 +3,11 @@
   "companyName": "CD PROJEKT RED Spółka Akcyjna",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-red-spolka-akcyjna,6,21,353.html",
-  "updatedAt": "2026-10-02T12:32:51.271Z",
+  "updatedAt": "2026-10-02T22:13:07.115Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-02T12:32:51.271Z",
+    "fetchedAt": "2026-10-02T22:13:07.115Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,29 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.041,
-    "confidence": 0.71,
+    "score": 0.07,
+    "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 58,
-      "negative": 55,
+      "positive": 60,
+      "negative": 53,
       "neutral": 87
     },
     "trend": [
       {
+        "date": "2026-09-28",
+        "score": 0.784,
+        "count": 5
+      },
+      {
         "date": "2026-09-29",
-        "score": 0.203,
-        "count": 21
+        "score": 0.36,
+        "count": 7
       },
       {
         "date": "2026-09-30",
-        "score": 0.074,
-        "count": 38
+        "score": 0.209,
+        "count": 14
       },
       {
         "date": "2026-10-01",
@@ -41,56 +46,518 @@
       },
       {
         "date": "2026-10-02",
-        "score": -0.056,
-        "count": 30
+        "score": 0,
+        "count": 63
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (58 pozytywnych, 55 negatywnych, 87 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (60 pozytywnych, 53 negatywnych, 87 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dobrze",
         "count": 12
       },
       {
-        "word": "przy",
+        "word": "kilka",
         "count": 11
       },
       {
-        "word": "kilka",
+        "word": "projekt",
+        "count": 10
+      },
+      {
+        "word": "graczy",
+        "count": 10
+      },
+      {
+        "word": "wiedzmina",
         "count": 10
       },
       {
         "word": "wszystko",
-        "count": 10
-      },
-      {
-        "word": "masz",
         "count": 9
-      },
-      {
-        "word": "albo",
-        "count": 9
-      },
-      {
-        "word": "steam",
-        "count": 8
-      },
-      {
-        "word": "wiedzmina",
-        "count": 8
-      },
-      {
-        "word": "graczy",
-        "count": 8
       },
       {
         "word": "remaster",
         "count": 8
+      },
+      {
+        "word": "cdpr",
+        "count": 8
+      },
+      {
+        "word": "roku",
+        "count": 8
+      },
+      {
+        "word": "studio",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "75964319",
+      "author": "RaV",
+      "postedAt": "2026-10-02 22:57",
+      "threadTitle": "Re: Piękna sprzedaż CP77",
+      "url": "https://www.bankier.pl/forum/temat_piekna-sprzedaz-cp77,75952989.html",
+      "body": "CP77 awansował na drugą pozycję!! kosmos!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75964271",
+      "author": "Ehh",
+      "postedAt": "2026-10-02 22:40",
+      "threadTitle": "Re: A już ładnie wam rosło, a tu nagan przyszedł",
+      "url": "https://www.bankier.pl/forum/temat_a-juz-ladnie-wam-roslo-a-tu-nagan-przyszedl,75963395.html",
+      "body": "Czeba gonić zezonowe trolle",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75964163",
+      "author": "Zenon",
+      "postedAt": "2026-10-02 22:17",
+      "threadTitle": "Re: A już ładnie wam rosło, a tu nagan przyszedł",
+      "url": "https://www.bankier.pl/forum/temat_a-juz-ladnie-wam-roslo-a-tu-nagan-przyszedl,75963395.html",
+      "body": "Czeba gonić akcje",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75963993",
+      "author": "jdjss",
+      "postedAt": "2026-10-02 21:48",
+      "threadTitle": "Re: A już ładnie wam rosło, a tu nagan przyszedł",
+      "url": "https://www.bankier.pl/forum/temat_a-juz-ladnie-wam-roslo-a-tu-nagan-przyszedl,75963395.html",
+      "body": "ja tam wyszedłem, wygląda na koniec górki i od nowa cykl.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75963667",
+      "author": "Ehh",
+      "postedAt": "2026-10-02 20:52",
+      "threadTitle": "Re: A już ładnie wam rosło, a tu nagan przyszedł",
+      "url": "https://www.bankier.pl/forum/temat_a-juz-ladnie-wam-roslo-a-tu-nagan-przyszedl,75963395.html",
+      "body": "Hmm, wylazł z nory, trolliszcze spadziowe",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75963507",
+      "author": "Lolo",
+      "postedAt": "2026-10-02 20:33",
+      "threadTitle": "Re: A już ładnie wam rosło, a tu nagan przyszedł",
+      "url": "https://www.bankier.pl/forum/temat_a-juz-ladnie-wam-roslo-a-tu-nagan-przyszedl,75963395.html",
+      "body": "Lecimy na 100, wiadomo przeta",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75963395",
+      "author": "Hmm",
+      "postedAt": "2026-10-02 20:14",
+      "threadTitle": "A już ładnie wam rosło, a tu nagan przyszedł",
+      "url": "https://www.bankier.pl/forum/temat_a-juz-ladnie-wam-roslo-a-tu-nagan-przyszedl,75963395.html",
+      "body": "Chyba nie muszę wam mówić co będzie od poniedzialku",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75963367",
+      "author": "J23",
+      "postedAt": "2026-10-02 20:09",
+      "threadTitle": "Re: ❗️❤️ Redzi z nominacją do nagrody Heros Rynku Kapitałowego 2026. ⁉️",
+      "url": "https://www.bankier.pl/forum/temat_redzi-z-nominacja-do-nagrody-heros-rynku-kapitalowego-2026,75962445.html",
+      "body": "Cenię Redów bardzo ale za komunikację z inwestorem indywidualnym należy się bat.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75963347",
+      "author": "nagan",
+      "postedAt": "2026-10-02 20:08",
+      "threadTitle": "❗️❤️ A jednak okładka Jeux Vidéo Magazine jest w 100% autentyczna⁉️",
+      "url": "https://www.bankier.pl/forum/temat_a-jednak-okladka-jeux-video-magazine-jest-w-100-autentyczna,75963347.html",
+      "body": "Nawet specjaliści nie dowierzaliby własnym oczom.. Gdyby taka okładka pojawiła się w kioskach? A jednak ta okładka jest w 100% autentyczna!To oficjalny, październikowy (numer 309) francuskiego magazynu (papierowego) Jeux Vidéo Magazine.Trzeba przyznać, że rzeczywiście - studio CD Projekt zaskoczyło całą branżę i spekulantów - wydając oficjalną, kompleksową wersję The Witcher 3: Wild Hunt — Remastered.https://i.imgur.com/ky2z0gG.jpegW kontekście tego, że to oficjalne wydanie prasowe towarzyszące rynkowemu debiutowi remastera, oto jak należy skomentować tę okładkę:Prawdziwy przełom i powrót legendy: Skoro remaster właśnie miał premierę, ta okładka to absolutny hit sprzedażowy. Umieszczenie Geralta na pierwszym planie w tak ikonicznej, odświeżonej oprawie idealnie celebruje powrót jednej z najlepszych gier RPG w historii.Zaskakująca strategia CDPR: Zapowiedź zawarta w nagłówku mówiąca o „Extension” (dodatku) nabiera zupełnie innego znaczenia. Jak ujawnili twórcy, projekt remastera narodził się w trakcie prac nad nowym, fabularnym rozszerzeniem o tytule „Songs of the Past” (które ma wyjść w przyszłym roku). Okładka idealnie uchwyciła ten moment, w którym studio postanowiło najpierw gruntownie odświeżyć całą bazową grę.Potężny numer dla fanów Fantasy: Dół okładki, okazuje się świetnie przemyślanym przeglądem gatunkowym redakcji. Powrót The Witcher 3 stał się dla dziennikarzy świetnym pretekstem do analizy kultowych dzieł fantasy – od klasycznego Zelda: Ocarina of Time, przez nadchodzące Fable, aż po uniwersum Dungeons & Dragons.To świetny przykład na to, jak dynamiczny potrafi być rynek gier i jak pilnie strzeżone tajemnice deweloperów potrafią zszokować nawet najbardziej doświadczonych graczy w dniu oficjalnej premiery.",
+      "votes": {
+        "up": 6,
+        "down": 2
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75963343",
+      "author": "Ogolona_Malpa",
+      "postedAt": "2026-10-02 20:07",
+      "threadTitle": "Re: 248 za akcję",
+      "url": "https://www.bankier.pl/forum/temat_248-za-akcje,75959785.html",
+      "body": "Aha i zamknięcie 253.50 ale reszta sie zgadza.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75963323",
+      "author": "Ogolona_Malpa",
+      "postedAt": "2026-10-02 20:05",
+      "threadTitle": "Re: 248 za akcję",
+      "url": "https://www.bankier.pl/forum/temat_248-za-akcje,75959785.html",
+      "body": "Od wczoraj zmiana z \"mieszane\" na \"większości pozytywne\" wiec musi być powyżej 69%. Metacritic 8.6/10 jeśli chodzi o graczy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75963069",
+      "author": "Twardzi",
+      "postedAt": "2026-10-02 19:32",
+      "threadTitle": "Podrażnili nam zwieracze",
+      "url": "https://www.bankier.pl/forum/temat_podraznili-nam-zwieracze,75963069.html",
+      "body": "ale utrzymaliśmy ciśnienie i nie popuściliśmy",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75962997",
+      "author": "nagan",
+      "postedAt": "2026-10-02 19:24",
+      "threadTitle": "❗️❤️ Specjaliści branżowi wiele piszą/mówią o nowej strategii Redów. ⁉️",
+      "url": "https://www.bankier.pl/forum/temat_specjalisci-branzowi-wiele-pisza-mowia-o-nowej-strategii-redow,75962997.html",
+      "body": "Analitycy i specjaliści branżowi wiele piszą/mówią o nowej strategii Redów.. tzw „Domu Mediowego\"Ogłoszenie nowej linii Dark Horse Compact Editions i umieszczenie w jej pierwszej fali flagowych marek CD Projekt RED – Wiedźmina oraz Cyberpunka 2077 – to podręcznikowy przykład przemyślanej i globalnej ekspansji transmedialnej.https://i.imgur.com/zyuL13t.pngTego typu ruchy ze strony „Redów” możemy oceniać na kilku płaszczyznach:1. Budowanie pozycji marek obok popkulturowych gigantówFakt, że zbiorcze wydania The Witcher oraz Cyberpunk 2077 debiutują w nowym formacie ramię w ramię z tak uznanymi, autorskimi seriami jak nagradzane Black Hammer Jeffa Lemire'a czy kultowy The Goon, pokazuje status tych uniwersów. CD Projekt RED nie jest już postrzegany na świecie wyłącznie jako studio deweloperskie, ale jako właściciel potężnych marek popkulturowych (IP), które na stałe weszły do mainstreamu obok amerykańskich ikon komiksu.2. Format skrojony pod masowego i nowego odbiorcęInicjatywa Compact Editions – oferująca grube, kieszonkowe wydania (format ok. 14 x 21.5 cm) w bardzo niskiej cenie 9,99 USD – to bezpośrednia odpowiedź na ogromny sukces rynkowy linii DC Compact Comics. Dla uniwersów CDPR to świetna decyzja biznesowa:Niski próg wejścia: Osoby, które znają Geralta z gier lub serialu, ale dotychczas nie chciały wydawać dużych kwot na pojedyncze zeszyty komiksowe, chętniej sięgną po tani, zbiorczy tom próbny. [1]Dłuższy cykl życia produktów: Historie takie jak The Bear and the Butterfly czy cenione Trauma Teamzyskują drugie życie i trafiają do tradycyjnych księgarń oraz sieci sprzedaży masowej, a nie tylko do wyspecjalizowanych sklepów komiksowych.3. Idealne podtrzymywanie zainteresowania uniwersamiW okresach między premierami kolejnych gier wideo, Redzi skutecznie „karmią” fanów alternatywnymi mediami. Komiksy tworzone we współpracy z Dark Horse od lat stoją na wysokim poziomie, ponieważ nie są tanimi zapychaczami marketingowymi, lecz pełnoprawnymi historiami uzupełniającymi lore świata (jak choćby eksplorowanie mechanik korporacyjnych w Cyberpunk 2077: Trauma Team). Tanie wydania kieszonkowe idealnie zagospodarują czas oczekiwania na kolejne zapowiedziane projekty growe i serialowe studia.",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75962903",
+      "author": "Zenon",
+      "postedAt": "2026-10-02 19:13",
+      "threadTitle": "Re: 260 jest nieosiągalne!",
+      "url": "https://www.bankier.pl/forum/temat_260-jest-nieosiagalne,75955403.html",
+      "body": "Obroty słabe, bo nie ma kupujących.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75962445",
+      "author": "nagan",
+      "postedAt": "2026-10-02 18:10",
+      "threadTitle": "❗️❤️ Redzi z nominacją do nagrody Heros Rynku Kapitałowego 2026. ⁉️",
+      "url": "https://www.bankier.pl/forum/temat_redzi-z-nominacja-do-nagrody-heros-rynku-kapitalowego-2026,75962445.html",
+      "body": "W obliczu nieustannego ataku trolli i spekulantów na Redów - co powiecie na taki obrazek?https://i.imgur.com/EwjBq7G.pngWłaśnie CD PROJEKT otrzymał oficjalną nominację do nagrody Heros Rynku Kapitałowego 2026. Wyróżnienie zostało przyznane przez Stowarzyszenie Inwestorów Indywidualnych w kategorii „Relacje inwestorskie – spółki duże (WIG20 + mWIG40)”.Tego typu formalne uznanie ze strony instytucji finansowych (a nawet samych inwestorów) stanowi mocny, merytoryczny kontrargument dla internetowych ataków. Pokazuje to, że na profesjonalnym poziomie biznesowym i komunikacyjnym działania spółki są oceniane wysoko.",
+      "votes": {
+        "up": 8,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75962141",
+      "author": "nagan",
+      "postedAt": "2026-10-02 17:37",
+      "threadTitle": "WOW❗️❤️ CD Projekt po mistrzowsku zarządza cyklem życia swoich marek⁉️",
+      "url": "https://www.bankier.pl/forum/temat_wow-cd-projekt-po-mistrzowsku-zarzadza-cyklem-zycia-swoich-marek,75962141.html",
+      "body": "CD Projekt znajduje się obecnie w bardzo silnej pozycji na platformie Steam, co wyraźnie widać na załączonym zrzucie ekranu z listy globalnych bestsellerów top sellers.https://i.imgur.com/5brzPx1.pngOto wnioski dotyczące sytuacji gier od studia Redów:Cyberpunk 2077 w ścisłej czołówce: Podstawowa wersja gry Cyberpunk 2077 zajmuje DRUGIE miejsce na liście, wyprzedzając wiele nowości i hitów. Co pokazuje, że gra wciąż generuje gigantyczne zainteresowanie, gdy tylko pojawia się na wyprzedaży.Sukces dodatku Phantom Liberty: Oficjalne rozszerzenie do Cyberpunka zajmuje 10. miejsce. Obniżka skutecznie przyciąga zarówno nowych graczy kupujących kompletny zestaw, jak i osoby wracające do tego uniwersum. Obecność dwóch produktów z tej samej franczyzy w pierwszej dziesiątce to ogromny sukces komercyjny.No i zaskakująco niesłabnąca popularność Wiedźmina: The Witcher 3: Wild Hunt – Remastered plasuje się teraz na 13. miejscu. To niesamowite, że gra z 2015 roku, wciąż utrzymuje status absolutnego klasyka, po którego stale sięgają nowi odbiorcy.Podsumowanie: CD Projekt po mistrzowsku zarządza cyklem życia swoich kluczowych marek (tzw. long tail sales). Dzięki dobrze skrojonym promocjom cenowym, studio potrafi nawet zdominować listę bestsellerów Steam, generując stabilne i wysokie przychody z tytułów, które miały swoje premiery nawet kilka lat temu.",
+      "votes": {
+        "up": 12,
+        "down": 1
+      },
+      "sentimentScore": 0.964,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75962039",
+      "author": "Zenon",
+      "postedAt": "2026-10-02 17:27",
+      "threadTitle": "Re: 248 za akcję",
+      "url": "https://www.bankier.pl/forum/temat_248-za-akcje,75959785.html",
+      "body": "248 dopiero w przyszłym tygodniu.",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75962029",
+      "author": "Romek",
+      "postedAt": "2026-10-02 17:26",
+      "threadTitle": "Re: 260 jest nieosiągalne!",
+      "url": "https://www.bankier.pl/forum/temat_260-jest-nieosiagalne,75955403.html",
+      "body": "K....a, wy chcecie od razu 340. Spokojnie. Nie od razu. Wszyscy chcą się obkupić w tej cenie. A że obroty słabe ....bo nie ma sprzedających. Ale guma naciąga się. Przyjdzie dzień i poleci w górę",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75962013",
+      "author": "Zenon",
+      "postedAt": "2026-10-02 17:26",
+      "threadTitle": "Bardzo udana sesja, niewielki spadek, a mógł być wodospad",
+      "url": "https://www.bankier.pl/forum/temat_bardzo-udana-sesja-niewielki-spadek-a-mogl-byc-wodospad,75962013.html",
+      "body": "W poniedziałek zjazd",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75961965",
+      "author": "Zenon",
+      "postedAt": "2026-10-02 17:21",
+      "threadTitle": "Re: 260 jest nieosiągalne!",
+      "url": "https://www.bankier.pl/forum/temat_260-jest-nieosiagalne,75955403.html",
+      "body": "Myślisz, że wszyscy tak jak ty klękają i ostrzą komuś ołowek?",
+      "votes": {
+        "up": 0,
+        "down": 5
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75961923",
+      "author": "zielony_guzik",
+      "postedAt": "2026-10-02 17:17",
+      "threadTitle": "Re: tu się szykuje szybki skot na 320zł",
+      "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
+      "body": "\"Sprzeż nie ma znaczenia\" dalej przestałem czytać lol. Nowy dzień, nowy nick te same bzdury. Będą zielone i czerwone sesje. Ale kurs jest obrany a czas działa na korzyść.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75961847",
+      "author": "Badyl",
+      "postedAt": "2026-10-02 17:11",
+      "threadTitle": "Re: 260 jest nieosiągalne!",
+      "url": "https://www.bankier.pl/forum/temat_260-jest-nieosiagalne,75955403.html",
+      "body": "Wstań z kolan i wytrzyj brodę, Zenonie.",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75961833",
+      "author": "Pkc",
+      "postedAt": "2026-10-02 17:09",
+      "threadTitle": "Re: Czy warto wchodzić w to?",
+      "url": "https://www.bankier.pl/forum/temat_czy-warto-wchodzic-w-to,75950701.html",
+      "body": "Ela, cokolwiek masz na myśli wchodź w to.Co do akcji CDP to się nie wypowiem.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75961565",
+      "author": "Phealot",
+      "postedAt": "2026-10-02 16:46",
+      "threadTitle": "Re: Dobre info na dziś tj. 02/10",
+      "url": "https://www.bankier.pl/forum/temat_dobre-info-na-dzis-tj-02-10,75959567.html",
+      "body": "Sorki źle spojrzałem. Było 13 ale wishlist activity",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75961561",
+      "author": "ss",
+      "postedAt": "2026-10-02 16:46",
+      "threadTitle": "Re: To chyba dzisiaj będzie rekord w liczbie graczy W3",
+      "url": "https://www.bankier.pl/forum/temat_to-chyba-dzisiaj-bedzie-rekord-w-liczbie-graczy-w3,75959831.html",
+      "body": "dzisiaj gramy dłużej..weekend...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75961521",
+      "author": "Klif",
+      "postedAt": "2026-10-02 16:41",
+      "threadTitle": "Re: To chyba dzisiaj będzie rekord w liczbie graczy W3",
+      "url": "https://www.bankier.pl/forum/temat_to-chyba-dzisiaj-bedzie-rekord-w-liczbie-graczy-w3,75959831.html",
+      "body": "100k+ jest",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75961441",
+      "author": "TB",
+      "postedAt": "2026-10-02 16:33",
+      "threadTitle": "Re: tu się szykuje szybki skot na 320zł",
+      "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
+      "body": "Sprzedaż nie ma znaczenia. Po prostu poleci w dół i tyle. Nikt nie zaryzykuje. Za dużo akcji w rękach ulicy. Kto potem od funduszy odkupi. Trzeba wiać do Ameryki, Tam się nie p.. w tańcu.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75961375",
+      "author": "TB",
+      "postedAt": "2026-10-02 16:29",
+      "threadTitle": "Re: tu się szykuje szybki skot na 320zł",
+      "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
+      "body": "Masz literówkę w tytule , pewnie myślałeś o 220",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75961159",
+      "author": "Zenon",
+      "postedAt": "2026-10-02 16:13",
+      "threadTitle": "Re: 260 jest nieosiągalne!",
+      "url": "https://www.bankier.pl/forum/temat_260-jest-nieosiagalne,75955403.html",
+      "body": "Wsadźcie sobie te kciuki do ust i possijcie dzieciaki. Taka jest rzeczywistość, potęga funduszy shortujacych jest ogromna.Dzisiaj zamknięcie poniżej 250 zl",
+      "votes": {
+        "up": 1,
+        "down": 7
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75961127",
+      "author": "Zenon",
+      "postedAt": "2026-10-02 16:10",
+      "threadTitle": "Re: 260 na zamku",
+      "url": "https://www.bankier.pl/forum/temat_260-na-zamku,75954297.html",
+      "body": "Tak, ja też tak myślę że jesteś piękną sześćdziesięciolatką",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75960193",
+      "author": "ss",
+      "postedAt": "2026-10-02 15:08",
+      "threadTitle": "Re: Dobre info na dziś tj. 02/10",
+      "url": "https://www.bankier.pl/forum/temat_dobre-info-na-dzis-tj-02-10,75959567.html",
+      "body": "daj link bo ja widze 18 na steamdb",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75960047",
+      "author": "123",
+      "postedAt": "2026-10-02 14:53",
+      "threadTitle": "Re: 260 na zamku",
+      "url": "https://www.bankier.pl/forum/temat_260-na-zamku,75954297.html",
+      "body": "@Ania, jesteś bardzo mądrą i ładna inwestorką. tak myślę. serio.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75959831",
+      "author": "Klif",
+      "postedAt": "2026-10-02 14:35",
+      "threadTitle": "To chyba dzisiaj będzie rekord w liczbie graczy W3",
+      "url": "https://www.bankier.pl/forum/temat_to-chyba-dzisiaj-bedzie-rekord-w-liczbie-graczy-w3,75959831.html",
+      "body": "Tak coś czuję, że przebijemy 122k",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75959785",
       "author": "Pytanie",
@@ -100,7 +567,7 @@
       "body": "Na zamknięciu? A jak tam opinie, jeszcze powyżej 60% pozytywów czy już mniej?",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -113,7 +580,7 @@
       "url": "https://www.bankier.pl/forum/temat_dobre-info-na-dzis-tj-02-10,75959567.html",
       "body": "Songs of the past już 13 na wishlist. Masywny skok.Opinie Steam na dziś 02/10 już tylko 19% negatywnych na ten moment, także widać że spółka poprawia jakość Remastera kolejnymi fixami.",
       "votes": {
-        "up": 1,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -127,8 +594,8 @@
       "url": "https://www.bankier.pl/forum/temat_260-na-zamku,75954297.html",
       "body": "Nie żebym nie chciał ale trochę przekornie spytam: którego? :)",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -141,8 +608,8 @@
       "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
       "body": "Masz racje, na spokojnie. Nasze oczekiwania tu są mało istotne oby analitycy przy konsensusie nie zaprognozowali znów, Pieśni Przeszłości na styczeń i wiedzmina 4 na luty. Bo te ich ostatnie oczekiwania z czapy były zaróno powodem początkowych wzrostów jak i późniejszych spadków. Powoli do góry pierwszy plan 250+ zrealizowany kilka dni i oby odhaczonyli 264, pózniej kolejne tegoroczne szczyty. Pozdrawiam",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -155,7 +622,7 @@
       "url": "https://www.bankier.pl/forum/temat_widziano-morgana-frimana-w-bialej-peruce-i-surducie,75958749.html",
       "body": "Wchodziłem na amerykański internet i tam piszom że go widzieli jak ćwiczył karate w tym stroju w Holiwood czyli atak na 3 tysionce albo wiencej zaraz sie zacznie jak napiszom o tym u nas!!!!!",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -170,7 +637,7 @@
       "body": "Ale na konfie wynikowej zarząd może podać wstępne dane sprzedażowe",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -183,7 +650,7 @@
       "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
       "body": "Liczę, że raport za III kwartał w niewielkim stopniu pokaże sprzedaż remastera, bo jednak weekend przed nami, już z IV kwartału.Dlatego na spokojnie z tymi wynikami za III kwartał, nie pompujmy balonika.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -197,8 +664,8 @@
       "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
       "body": "Kurs jest na dnie i nie ma z czego spadać.Tu teraz powinno skoczyć mocno do góry nawet powyżej 360 i wtedy nawet spory zjazd byłby możliwy, na tej hazardowej giełdzie jakoś tak się to kręci, tylko pewne zasady są nie do ruszenia i duzi inwestorzy na całe szczęście potrafią się bronić.To w jakiej jest teraz sytuacji spółka, jest teraz bardzo optymistyczne i ja obstawiam zdecydowanie do góry.To jest dla wielu trudna lekcja, bo nie spodziewali się tego remastera, prawda jest taka że łatwiej się płynie z prądem rzeki, a nie odwrotnie.Spiskowe teorie o przesunięciach premier są bez wartości. Firma CDP przyjęła ostatnio racjonalną zasadę ogłaszania dat premier na dużych imprezach branżowych z nie odległym terminem ze względów ekonomicznych i ze względów samej skuteczności takiej zapowiedzi i jednocześnie reklamy.",
       "votes": {
-        "up": 3,
-        "down": 0
+        "up": 4,
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -225,7 +692,7 @@
       "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
       "body": "Na XTB na 4 zł też jest do domknięcia.",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -239,8 +706,8 @@
       "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
       "body": "Luka na 220 wciąż do zamknięcia...",
       "votes": {
-        "up": 0,
-        "down": 5
+        "up": 1,
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -267,8 +734,8 @@
       "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
       "body": "Ten Twój zjazd na 220 to oczywiście z powodu świetnej sprzedaży Remastera.Który jednak dla nowych graczy nie jest już tak zupełnie darmowy, bo trzeba go po prostu kupić.A może przez Cyberpunka, który mimo upływu lat nadal się świetnie sprzedaje?Nie, już wiem!Kurs spadnie pod premierę nowego anime, które startuje 20 października. Potem dojdzie „Pieśń przeszłości” w 2027, a następnie coraz mocniejsza kampania marketingowa wokół Wiedźmina 4. CDPR oficjalnie zakłada jedną dużą premierę wiedźmińską rocznie aż do Wiedźmina 4.No tak… teraz już wszystko jasne.220 zł jak nic.To przecież ma sens.A na poważnie — 320 zł to około 8% powyżej ostatnich szczytów. Czy jest możliwe? Oczywiście, że tak.Przydałby się kolejny impuls albo nałożenie się kilku katalizatorów w krótkim czasie. Remaster, Cyberpunk, anime, a później „Pieśń przeszłości” i coraz mocniejsza narracja wokół Wiedźmina 4.Do tego raport za III kwartał 24 listopada, który pokaże m.in. faktyczną sprzedaż Remastera i wyniki Cyberpunka.Czy 320 zł wymaga więc jakiegoś cudu?Moim zdaniem nie. Wystarczy, że kilka rzeczy zadziała jednocześnie i rynek zacznie wyceniać nie tylko to, co CDPR sprzedał dzisiaj, ale również kolejne lata rozwoju obu franczyz. Kto wie, kto wie.",
       "votes": {
-        "up": 6,
-        "down": 0
+        "up": 11,
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -295,25 +762,11 @@
       "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
       "body": "Raczej zjazd na 220",
       "votes": {
-        "up": 1,
-        "down": 10
+        "up": 2,
+        "down": 14
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75955419",
-      "author": "JD",
-      "postedAt": "2026-10-02 10:09",
-      "threadTitle": "tu się szykuje szybki skot na 320zł",
-      "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
-      "body": "nie mam tego ale planuję się załapać",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75955403",
@@ -323,8 +776,22 @@
       "url": "https://www.bankier.pl/forum/temat_260-jest-nieosiagalne,75955403.html",
       "body": "Potężne fundusze utrzymują kurs pod kontrolą.",
       "votes": {
-        "up": 0,
-        "down": 2
+        "up": 3,
+        "down": 10
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75955419",
+      "author": "JD",
+      "postedAt": "2026-10-02 10:09",
+      "threadTitle": "tu się szykuje szybki skot na 320zł",
+      "url": "https://www.bankier.pl/forum/temat_tu-sie-szykuje-szybki-skot-na-320zl,75955419.html",
+      "body": "nie mam tego ale planuję się załapać",
+      "votes": {
+        "up": 8,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -365,7 +832,21 @@
       "url": "https://www.bankier.pl/forum/temat_cyberpunk-wooowwww,75950705.html",
       "body": "Ojjj byłoby klawo. W końcu są jezcze niezapowiedziane projekty w tym roku .",
       "votes": {
-        "up": 1,
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75954913",
+      "author": "Janek",
+      "postedAt": "2026-10-02 09:44",
+      "threadTitle": "Re: Piękna sprzedaż CP77",
+      "url": "https://www.bankier.pl/forum/temat_piekna-sprzedaz-cp77,75952989.html",
+      "body": "5 i 19 miejsce",
+      "votes": {
+        "up": 0,
         "down": 0
       },
       "sentimentScore": 0,
@@ -384,20 +865,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75954913",
-      "author": "Janek",
-      "postedAt": "2026-10-02 09:44",
-      "threadTitle": "Re: Piękna sprzedaż CP77",
-      "url": "https://www.bankier.pl/forum/temat_piekna-sprzedaz-cp77,75952989.html",
-      "body": "5 i 19 miejsce",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75954773",
@@ -435,7 +902,7 @@
       "url": "https://www.bankier.pl/forum/temat_260-na-zamku,75954297.html",
       "body": "264 na koniec tygodnia.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -449,7 +916,7 @@
       "url": "https://www.bankier.pl/forum/temat_260-na-zamku,75954297.html",
       "body": "Ile obstawiacie?",
       "votes": {
-        "up": 2,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -463,7 +930,7 @@
       "url": "https://www.bankier.pl/forum/temat_juz-75-pozytywnych-opinii-i-rosnie,75953915.html",
       "body": "w weekend bijemy peak 120 tys...i skaczemy na wishliście o jedna pozycję",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -477,7 +944,7 @@
       "url": "https://www.bankier.pl/forum/temat_juz-75-pozytywnych-opinii-i-rosnie,75953915.html",
       "body": "Pamiętacie ten moment, kiedy remaster Wiedźmina 3 wylądował na Steamie i zamiast owacji rozległ się zbiorowy jęk? Czarne kwadraty zamiast drzew, znikające tekstury, padające klatki i recenzje, które w jeden dzień spadły do okolic 64 procent pozytywnych. Wyglądało to jak klasyczny scenariusz „darmowa aktualizacja, droga do piekła”. Wielu od razu wyciągnęło stare sejwy i cofnęło się do wersji sprzed liftingu, jakby Geralt nagle dostał zadyszki po jedenastu latach biegania po Kontynencie.A potem stało się coś, czego w dzisiejszych czasach coraz rzadziej doświadczamy: studio zareagowało. Szybko, konkretnie i bez wielkich deklaracji o „najważniejszej aktualizacji w historii”. Sterowniki AMD wreszcie weszły, hotfixy poleciały jeden za drugim, poprawiono zapisy, kolory w Velen, HairWorks, głośność dialogów. I nagle okazało się, że te same recenzje, które jeszcze przedwczoraj wyglądały jak czarna dziura, zaczęły piąć się w górę. 75 procent. Potem jeszcze wyżej. Nie „Przytłaczająco pozytywne”, ale już zdecydowanie „W większości pozytywne” – i rośnie.To nie jest tylko sucha statystyka. To dowód, że Wiedźmin 3 wciąż ma w sobie coś, czego nie da się zepsuć nawet chwilowym technicznym potknięciem. Gracze wracają. Niektórzy po raz pierwszy, inni po latach. Rekord concurrent players przekroczony. Krytycy dają 94. A community, zamiast bezlitośnie kopać leżącego, zaczyna pisać: „Po hotfixie gra wygląda jak należy”, „Wreszcie mogę cieszyć się nowym oświetleniem”, „To wciąż najlepsza gra, jaką znam”.W branży, w której premiery coraz częściej kończą się review bombingiem i wieloletnim „naprawianiem w postprodukcji”, CD Projekt Red pokazał coś ważnego. Że da się. Że można słuchać, reagować i nie chować się za komunikatami PR-owymi. Że nawet legenda po jedenastu latach potrafi jeszcze zaskoczyć – nie tylko grafiką i nowym drzewkiem umiejętności, ale przede wszystkim postawą.Oczywiście nie wszystko jest idealne. Optymalizacja wciąż bywa kapryśna, a nie każdy polubił nową kolorystykę. Ale to już szczegóły. Najważniejsze jest to, że Geralt nie upadł. Tylko chwilowo się potknął. A teraz znów idzie przed siebie – z uniesionym mieczem, poprawionym bloomem i rosnącą liczbą pozytywnych recenzji.I wiecie co? To właśnie takie momenty przypominają, dlaczego w ogóle gramy. Bo czasem, nawet po latach, okazuje się, że Path wciąż jest otwarta. A my – razem z Geraltem – wciąż chcemy nią iść.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.964,
@@ -519,7 +986,7 @@
       "url": "https://www.bankier.pl/forum/temat_cyberpunk-wooowwww,75950705.html",
       "body": "Spokojnie to jeszcze pójdzie do góry przed animacją + pewnie ogłoszą DLC",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -548,7 +1015,7 @@
       "body": "Jak masz średnie to wejde",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -561,7 +1028,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-warto-wchodzic-w-to,75950701.html",
       "body": "No pewno",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -575,7 +1042,7 @@
       "url": "https://www.bankier.pl/forum/temat_cyberpunk-wooowwww,75950705.html",
       "body": "https://store.steampowered.com/charts/topselling/global",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -590,7 +1057,7 @@
       "body": "ale o co chodzi? co ruszyło?",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -603,7 +1070,7 @@
       "url": "https://www.bankier.pl/forum/temat_cyberpunk-wooowwww,75950705.html",
       "body": "promka pod edge runners 2 a $ zaraz 3.90pln. Ciekawy kwartał będzie.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -617,7 +1084,7 @@
       "url": "https://www.bankier.pl/forum/temat_cyberpunk-wooowwww,75950705.html",
       "body": "Czemu tak to ruszyło ?",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 1
       },
       "sentimentScore": 0,
@@ -631,7 +1098,7 @@
       "url": "https://www.bankier.pl/forum/temat_cyberpunk-wooowwww,75950705.html",
       "body": "Patrzcie na sprzedaż :)",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 2
       },
       "sentimentScore": 0,
@@ -757,7 +1224,7 @@
       "url": "https://www.bankier.pl/forum/temat_dolar,75948023.html",
       "body": "wreszcie wiatr w żagle dla cdp....",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -855,7 +1322,7 @@
       "url": "https://www.bankier.pl/forum/temat_remaster-wiedzmina-3-zawstydzil-branze,75946023.html",
       "body": "Przesłuchałem obejrzałem widzę potencjał to był dobry ruch ze strony spółki dać teraz coś za darmo aby potem zebrać z tego kokosy",
       "votes": {
-        "up": 9,
+        "up": 11,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -897,7 +1364,7 @@
       "url": "https://www.bankier.pl/forum/temat_remaster-wiedzmina-3-zawstydzil-branze,75946023.html",
       "body": "podsumowanie i wnioskihttps://www.youtube.com/watch?v=Iu_LhJtkkto",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2122,20 +2589,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "75938155",
-      "author": "Zenon",
-      "postedAt": "2026-09-30 22:23",
-      "threadTitle": "Re: Slyszałem",
-      "url": "https://www.bankier.pl/forum/temat_slyszalem,75876295.html",
-      "body": "Obyś miał rację, tym niemniej lepiej było kupić Cdpr półtora roku temu i kupić KGHM czy XTB i ostatnio odkupić Cdpr i mialbyś ponad dwa razy tyle akcji.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75938091",
       "author": "Zenon",
       "postedAt": "2026-09-30 22:15",
@@ -2150,62 +2603,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75938047",
-      "author": "zielony_guzik",
-      "postedAt": "2026-09-30 22:11",
-      "threadTitle": "Re: Slyszałem",
-      "url": "https://www.bankier.pl/forum/temat_slyszalem,75876295.html",
-      "body": "Lol napisz że wzrost jest tylko techniczny i od poniedziałku wodospad.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75937909",
-      "author": "Ogolona_Malpa",
-      "postedAt": "2026-09-30 21:57",
-      "threadTitle": "Problemy z AMD",
-      "url": "https://www.bankier.pl/forum/temat_problemy-z-amd,75937909.html",
-      "body": "Radeon RX 9000 i RX 7000 otrzymały poprawki The Witcher 3 Remastered w Adrenalinie 26.9.2 https://share.google/523SkYWj2w7ILoOlR",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75937749",
-      "author": "M84ck",
-      "postedAt": "2026-09-30 21:43",
-      "threadTitle": "Re: Slyszałem",
-      "url": "https://www.bankier.pl/forum/temat_slyszalem,75876295.html",
-      "body": "\"słusznie się nabijają z trzymających akcje i czekających na 300\" hehe przypomnij się tym wpisem za jakiś rok , będzie zabawny.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75937729",
-      "author": "M84ck",
-      "postedAt": "2026-09-30 21:41",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Depozyt uzupełniasz?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75937575",
       "author": "Lolo",
       "postedAt": "2026-09-30 21:30",
@@ -2215,62 +2612,6 @@
       "votes": {
         "up": 4,
         "down": 4
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75937527",
-      "author": "Gracz",
-      "postedAt": "2026-09-30 21:26",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Spadło na 64% pozytywnych. Patrzcie na 30 września na wykresie Steama. 1163 pozytywów, 661 negatywów na ten moment.Niestety dość zabugowany ten Remaster, choć na szczęście nie aż tak jak Cyberpunk na premierę. Mogli go jednak doszlifować.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75937453",
-      "author": "Miras",
-      "postedAt": "2026-09-30 21:19",
-      "threadTitle": "Re: Dolar rośnie miód na moje oczy",
-      "url": "https://www.bankier.pl/forum/temat_dolar-rosnie-miod-na-moje-oczy,75936083.html",
-      "body": "Tak trzymać",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75937263",
-      "author": "Zenon",
-      "postedAt": "2026-09-30 21:01",
-      "threadTitle": "Re: Slyszałem",
-      "url": "https://www.bankier.pl/forum/temat_slyszalem,75876295.html",
-      "body": "Czasami przeginają, jak każdy na tym forum, w tym ja sam.To że mają odmienny punkt widzenia i stoją po przeciwnej stronie zakładu najprawdopodobniej, nie przeszkadza mi zupełnie.Słusznie się nabijają z trzymających akcje i czekających na 300 od półtora roku i tych wszystkich emocji i oczekiwań przy okazji nadchodzących wydarzeń pro wzrostowych jakie nagan wynajduje.W sumie to ich lubię.Fakt jest taki, że kurs jest w trendzie bocznym, a na wielu spółkach można było podwoić kapitał.",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75937137",
-      "author": "Lolo",
-      "postedAt": "2026-09-30 20:51",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Ty się z choinki urwales czy udajesz? Nikt nie kupuje tej gry",
-      "votes": {
-        "up": 1,
-        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -2304,118 +2645,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75936913",
-      "author": "Baca",
-      "postedAt": "2026-09-30 20:34",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Pokazałeś średnią z 11 lat. Zobacz dzienne i tzw. ostatnio. Zresztą nie ważne co tu napiszesz. Każdy sobie na Steam może sprawdzić.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75936495",
-      "author": "Lolo",
-      "postedAt": "2026-09-30 20:00",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "I tak nikt nie kupuje 11 letniej gry",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75936459",
-      "author": "Lolo",
-      "postedAt": "2026-09-30 19:58",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Co to za różnica jakie są %",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75936117",
-      "author": "płaku-płaku",
-      "postedAt": "2026-09-30 19:29",
-      "threadTitle": "Re: Slyszałem",
-      "url": "https://www.bankier.pl/forum/temat_slyszalem,75876295.html",
-      "body": "\"lol ty już nic nie pisz, bo w sumie g. mnie obchodzi co masz do powiedzenia\"Ojojoj, dziecko się spłakało i rozkręca fekaliadę. Troll nam się obraził. Hahaha.",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75936109",
-      "author": "oppai",
-      "postedAt": "2026-09-30 19:29",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "ciekawe historie opowiadasz...Recent Reviews:Very Positive 81%(9,517)English Reviews:Overwhemingly Positive 96%(244,184)",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75936083",
-      "author": "Mentor",
-      "postedAt": "2026-09-30 19:26",
-      "threadTitle": "Dolar rośnie miód na moje oczy",
-      "url": "https://www.bankier.pl/forum/temat_dolar-rosnie-miod-na-moje-oczy,75936083.html",
-      "body": "Hehe Dodatkowo taketwo odbija. Gaming hossana",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75935851",
-      "author": "zielony_guzik",
-      "postedAt": "2026-09-30 19:04",
-      "threadTitle": "Re: Slyszałem",
-      "url": "https://www.bankier.pl/forum/temat_slyszalem,75876295.html",
-      "body": "Kiedyś pisałem, że najbardziej lubię pewne siebie shorty z dużym kapitałem, które nie boją się postawić przeciwko rynkowi jak Zaorski. A może po prostu lubie ich kapitał? Zenon kazdy ma jakąś klasę. Szkoda że oni taką słabą. A co do poczucia humoru to lubie kpić z hipokryzji. Przeczytaj komentarze Pkc i Hmm i pomyśl jaką mam radochę przy Ringersie",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75935591",
-      "author": "Zenon",
-      "postedAt": "2026-09-30 18:41",
-      "threadTitle": "Re: Slyszałem",
-      "url": "https://www.bankier.pl/forum/temat_slyszalem,75876295.html",
-      "body": "Mi się podoba jak piszą lol, Ggg i Hmm.Bardzo często piszą bardzo racjonalnie i rozsądnie. Mają klasę, nie to co PIOTER .",
-      "votes": {
-        "up": 0,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75935485",
       "author": "PIOTR",
       "postedAt": "2026-09-30 18:30",
@@ -2428,90 +2657,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75935337",
-      "author": "zielony_guzik",
-      "postedAt": "2026-09-30 18:14",
-      "threadTitle": "Re: Slyszałem",
-      "url": "https://www.bankier.pl/forum/temat_slyszalem,75876295.html",
-      "body": "Zejście powtórz jaki jest kierunek i o czym bredze? lol ty już nic nie pisz, bo w sumie g. mnie obchodzi co masz do powiedzenia. Ggg Hmm - to forum zasługuje na lepszych troli niż wy",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75935077",
-      "author": "Baca",
-      "postedAt": "2026-09-30 17:43",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Haki rozdane!...albo Atak na ATH!!.... jutro się okaże. Pogodę Ci przepowiedzieć jeszcze? Włączcie myślenie. Pokazuję Wam różne aspekty. Przyszłości nie zna nikt! Ci co myślą, że ją znają srogo będą zaskoczeni! Życzę zysków bez zbędnych emocji. I szanujmy się na wzajem mimo różnicy zdań.",
-      "votes": {
-        "up": 3,
-        "down": 3
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75934875",
-      "author": "Baca",
-      "postedAt": "2026-09-30 17:22",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Źle. Patrzysz na średnią za cały okres. Z dzisiejszego dnia to jeszcze gorzej niż wczoraj bo 63%!. Ponieważ od dwóch dni są tak źłe oceny to średnia spadła z 94% na obecnie 81% i dalej leci. Po 24:OO będą wpadać oceny użytkowników z Metacritic i wtedy się wyjaśni co dalej. Na razie to jest cacsus Cyberpunka. Oceny krytyków super, sprzedaż super, grających rekord a oceny bardzo słabe. Tak duża ilość graczy może się paradoksalnie przełożyć na dużą liczbę negatywów i znaczny spadek oceny marki. Także do jutra! Pozdrawiam",
-      "votes": {
-        "up": 3,
-        "down": 7
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75934853",
-      "author": "Trg",
-      "postedAt": "2026-09-30 17:19",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 93% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Kup se amige 500, mnie chodzi płynnie, co prawda zajmuje to pierdyliard dyskietek, ale coz",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75934417",
-      "author": "Badyl",
-      "postedAt": "2026-09-30 16:41",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Dobrze widzę, że już 88% pozytywnych?",
-      "votes": {
-        "up": 4,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75934371",
-      "author": "Mietek_Męczywór",
-      "postedAt": "2026-09-30 16:39",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "istotnie to był sądny dzień, baca znafco podwozia swojej starej",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75933905",
@@ -2570,20 +2715,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75932529",
-      "author": "Romek",
-      "postedAt": "2026-09-30 14:32",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "~Baca, napisz coś. Tak fajnie piszesz",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75930743",
       "author": "PIOTR",
       "postedAt": "2026-09-30 12:10",
@@ -2598,188 +2729,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75924505",
-      "author": "Mocarz",
-      "postedAt": "2026-09-29 20:03",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 93% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Baca lepiej niech się skraca, bo nadchodzą wzrosty.",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75924307",
-      "author": "M84ck",
-      "postedAt": "2026-09-29 19:47",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 93% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Nie masz akcji to co cię to obchodzi? Po co marnujesz czas na to forum.",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75924255",
-      "author": "re",
-      "postedAt": "2026-09-29 19:42",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 93% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Baca może lty lepiej wróć na zielone pastwiska , owce beczą, że baran im się zagubił",
-      "votes": {
-        "up": 9,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75924099",
-      "author": "zielony_guzik",
-      "postedAt": "2026-09-29 19:28",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 93% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Ja pobrałem na pegasusa 54GB aktualizacji w 15 minut bo przez 14 śmiałem się z waszych wpisów pozniej wszystko poszło w ultra hd na 200fps",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75923949",
-      "author": "AkcjoMariusz",
-      "postedAt": "2026-09-29 19:12",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 93% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Mi na commodore 64 nie działa",
-      "votes": {
-        "up": 13,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75923933",
-      "author": "Baca",
-      "postedAt": "2026-09-29 19:11",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 93% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Ale znów została nadszarpnięta reputacja, że nie potrafią na premierę dowieźć sprawnej, stabilnej wersji.",
-      "votes": {
-        "up": 1,
-        "down": 14
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75923887",
-      "author": "Jadzia",
-      "postedAt": "2026-09-29 19:06",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 93% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Recenzje są bardzo pozytywne. Jedny problem pojawiłsię przy publikacji sterowników przez AMD. Zrobili to poprostu później. Można już pobierać i gierka śmiga.",
-      "votes": {
-        "up": 10,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75923843",
-      "author": "ss",
-      "postedAt": "2026-09-29 19:01",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "90 proc skamlenia to albo stary sprze t albo procesory AMD ....tu sterowniki dopiero dodadza za moment...",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75923767",
-      "author": "Mariusz",
-      "postedAt": "2026-09-29 18:52",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "To nie ma dużego znaczenia.Liczy się ilość, głównie filmów i to się dopiero zaczyna rozkręcać.",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75923675",
-      "author": "Baca",
-      "postedAt": "2026-09-29 18:43",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "To lepiej zajrzyj na statystyki na Steam. Przy Cyberpunku też na metacritic były wysokie noty ale na steam słabe. Co było dalej wiadomo.",
-      "votes": {
-        "up": 4,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75923475",
-      "author": "Wiesiu",
-      "postedAt": "2026-09-29 18:21",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Skomlenie spadziuchow bez akcji jest dla mnie miodem na uszy xd bardzo są tu kreatywni...",
-      "votes": {
-        "up": 8,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75923409",
-      "author": "ss",
-      "postedAt": "2026-09-29 18:11",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "masz podane wymagania...a jak sprzęt spełnia wymogi moze minmalne a żadaja efektów jak na maksach..no to lepiej grać na starej wersji...",
-      "votes": {
-        "up": 9,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75923337",
-      "author": "lol",
-      "postedAt": "2026-09-29 18:02",
-      "threadTitle": "Re: Slyszałem",
-      "url": "https://www.bankier.pl/forum/temat_slyszalem,75876295.html",
-      "body": "Nie, akcji nie ma w pokoju jak u ciebie, tylko na rachunku. Nie wiem, co to jest BTC, ale dla dobra twojego zdrowia psychicznego nie będę zaprzeczać, że to mam, żeby nie burzyć wizji, którą stworzyłeś w swojej główce.",
-      "votes": {
-        "up": 0,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "75923287",
       "author": "PIOTR",
       "postedAt": "2026-09-29 17:57",
@@ -2792,48 +2741,6 @@
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75923265",
-      "author": "M84ck",
-      "postedAt": "2026-09-29 17:56",
-      "threadTitle": "Re: Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "No i co ma lecieć? Heh wina sterowników AMD , wyjdą i będzie pięknie. Nie wij sie tam, tanio już było. Pozdro Longi.",
-      "votes": {
-        "up": 25,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75923193",
-      "author": "Baca",
-      "postedAt": "2026-09-29 17:49",
-      "threadTitle": "Recenzje klientów na Steam tylko 73% pozytywne",
-      "url": "https://www.bankier.pl/forum/temat_recenzje-klientow-na-steam-tylko-73-pozytywne,75923193.html",
-      "body": "Dziś sądny dzień na recenzjach. godz. 17:50: 1395 pozytywnych i 503 negatywnych!",
-      "votes": {
-        "up": 5,
-        "down": 39
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75923141",
-      "author": "zielony_guzik",
-      "postedAt": "2026-09-29 17:45",
-      "threadTitle": "Re: Slyszałem",
-      "url": "https://www.bankier.pl/forum/temat_slyszalem,75876295.html",
-      "body": "Tak, tak masz cdprojekt od 2013 & BTC z 2005. Już dobrze, spokojnie te akcje na pewno są teraz z tobą w pokoju i się uśmiechają",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "75922957",
@@ -2890,6 +2797,104 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75920885",
+      "author": "antynaganiacz",
+      "postedAt": "2026-09-29 14:25",
+      "threadTitle": "Re: W3 remaster przebije najwyższy all-time-peak na steam 3257248?",
+      "url": "https://www.bankier.pl/forum/temat_w3-remaster-przebije-najwyzszy-all-time-peak-na-steam-3257248,75899711.html",
+      "body": "ATH tuż tuż, a to dopiero 165 minut po udostępnieniu remastera...",
+      "votes": {
+        "up": 8,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75915033",
+      "author": "antynaganiacz",
+      "postedAt": "2026-09-29 04:07",
+      "threadTitle": "Re: W3 remaster przebije najwyższy all-time-peak na steam 3257248?",
+      "url": "https://www.bankier.pl/forum/temat_w3-remaster-przebije-najwyzszy-all-time-peak-na-steam-3257248,75899711.html",
+      "body": "najpóźniej w niedzilę? ....",
+      "votes": {
+        "up": 8,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75912331",
+      "author": "PIOTR",
+      "postedAt": "2026-09-28 17:26",
+      "threadTitle": "Re: AT na H1 wyraźnie narysowana bycza flaga, wyjście góra ?",
+      "url": "https://www.bankier.pl/forum/temat_at-na-h1-wyraznie-narysowana-bycza-flaga-wyjscie-gora,75911397.html",
+      "body": "Jak kupowałem akcje po 4 PLN to na nocnikach siedzieliście trolle spadziowe",
+      "votes": {
+        "up": 9,
+        "down": 2
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75912311",
+      "author": "PIOTR",
+      "postedAt": "2026-09-28 17:24",
+      "threadTitle": "Re: AT na H1 wyraźnie narysowana bycza flaga, wyjście góra ?",
+      "url": "https://www.bankier.pl/forum/temat_at-na-h1-wyraznie-narysowana-bycza-flaga-wyjscie-gora,75911397.html",
+      "body": "Moja wina ,moja wina ... wołam brauna,niech pogoni małe czapeczki z naszej spoleczki hehe",
+      "votes": {
+        "up": 9,
+        "down": 1
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75912265",
+      "author": "Neee",
+      "postedAt": "2026-09-28 17:20",
+      "threadTitle": "Re: AT na H1 wyraźnie narysowana bycza flaga, wyjście góra ?",
+      "url": "https://www.bankier.pl/forum/temat_at-na-h1-wyraznie-narysowana-bycza-flaga-wyjscie-gora,75911397.html",
+      "body": "Na pewno, na pewno",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75912159",
+      "author": "Gracz",
+      "postedAt": "2026-09-28 17:12",
+      "threadTitle": "Re: AT na H1 wyraźnie narysowana bycza flaga, wyjście góra ?",
+      "url": "https://www.bankier.pl/forum/temat_at-na-h1-wyraznie-narysowana-bycza-flaga-wyjscie-gora,75911397.html",
+      "body": "On przynajmniej wykonuje uczciwy i przydatny społecznie zawód, a ty spamujesz za 50 groszy od komentarza. Nie wstyd Ci Piotrze?",
+      "votes": {
+        "up": 3,
+        "down": 12
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75912033",
+      "author": "PIOTR",
+      "postedAt": "2026-09-28 17:03",
+      "threadTitle": "Re: AT na H1 wyraźnie narysowana bycza flaga, wyjście góra ?",
+      "url": "https://www.bankier.pl/forum/temat_at-na-h1-wyraznie-narysowana-bycza-flaga-wyjscie-gora,75911397.html",
+      "body": "Uderz w stół ,nożyce się odezwą hehe płoty już pomalowałes w tej Norwegii? Nie marnuj czasu ,Wikingowie dobrze zapłacą tobie od sztachety hehe",
+      "votes": {
+        "up": 13,
+        "down": 2
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
     }
   ]
 }
