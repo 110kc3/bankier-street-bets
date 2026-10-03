@@ -3,23 +3,23 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-10-02T22:12:41.175Z",
+  "updatedAt": "2026-10-03T05:16:55.194Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-02T22:12:41.175Z",
+    "fetchedAt": "2026-10-03T05:16:55.194Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 14
+    "threadsScanned": 15
   },
   "analysis": {
-    "signal": "SELL",
-    "score": -0.166,
+    "signal": "HOLD",
+    "score": -0.139,
     "confidence": 0.7,
-    "commentCount": 51,
+    "commentCount": 52,
     "breakdown": {
-      "positive": 6,
+      "positive": 7,
       "negative": 22,
       "neutral": 23
     },
@@ -58,10 +58,15 @@
         "date": "2026-10-02",
         "score": -0.205,
         "count": 6
+      },
+      {
+        "date": "2026-10-03",
+        "score": 0.583,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 51 komentarzy z ostatnich 7 dni: nastroje negatywne (6 pozytywnych, 22 negatywnych, 23 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 52 komentarzy z ostatnich 7 dni: nastroje negatywne (7 pozytywnych, 22 negatywnych, 23 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "skupu",
@@ -78,6 +83,10 @@
       {
         "word": "skup",
         "count": 6
+      },
+      {
+        "word": "allegro",
+        "count": 5
       },
       {
         "word": "super",
@@ -98,14 +107,24 @@
       {
         "word": "znowu",
         "count": 5
-      },
-      {
-        "word": "cena",
-        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75964651",
+      "author": "Hanna1",
+      "postedAt": "2026-10-03 01:47",
+      "threadTitle": "ALLEGRO: zobaczcie to ważne, świetnie...",
+      "url": "https://www.bankier.pl/forum/temat_allegro-zobaczcie-to-wazne-swietnie,75964651.html",
+      "body": "No wy. Jak to ocenić na chłodno na ALLEGRO, jak to rozumiecie? co o tym sądzicie? https://0.mk/gielda_Notowania",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "75964415",
       "author": "Godoj",
@@ -115,7 +134,7 @@
       "body": "O rety! Zwykłe wyrażenie opinii wywołało u was taką nerwówkę? No to współczuję looserzy, współczuję...",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -129,7 +148,7 @@
       "body": "@lolNie bądź tym co ryje... Też należy się cieszyć, gdy z kolei ty tracisz kasę na spadkach? Giełda faluje, więc dla każdego jest szansa...",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -156,7 +175,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-trzeba-miec-w-glowie-by-grac-teraz-szorty-jak-jedziemy-na-65zl,75921637.html",
       "body": "Z kapelusza Ciebie wyjęli hahaha",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -198,7 +217,7 @@
       "url": "https://www.bankier.pl/forum/temat_beda-spadki,75945825.html",
       "body": "Inwestor uzupełniaj szybko kolejny depozyt :). Fajnie się czyta jak płaczesz że kurs nie chce spadać i ty tracisz całą kasę :). Super że tracisz :)",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -213,7 +232,7 @@
       "body": "Musiał czy nie musiał nieistotne. Kurs się jeszcze trzyma ale niech blackrock popuści trochę to dopiero zobaczymy wodospad. Oni się nie bawią, jak zaczną sprzedawać to żaden skup nie pomoże utrzymać kursu.",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -240,7 +259,7 @@
       "url": "https://www.bankier.pl/forum/temat_beda-spadki,75945825.html",
       "body": "A jednak sprzedał, ale sądzę że musiał:Allegro wyemitowało łącznie ponad 1,05 miliarda akcji. Jeżeli NN OFE zredukowało pozycję o nieco ponad 1 milion sztuk, oznacza to upłynnienie mniej niż 0,1% kapitału zakładowego spółki. Dla podmiotu takiego jak NN OFE (jednego z największych funduszy emerytalnych na rynku), jest to redukcja marginalna, a nie całkowita ewakuacja z akcjonariatu.Drastyczny wzrost kursu Allegro w ostatnich tygodniach (z okolic 35 zł na ponad 50 zł) spowodował skokowy wzrost wartości tej spółki w portfelach funduszy. Fundusze emerytalne obowiązują rygorystyczne, ustawowe limity maksymalnego zaangażowania kapitału (wagi procentowej) w pojedynczą spółkę lub sektor. Gdy akcje szybko rosną, ich waga przekracza dozwolony próg ryzyka i zarządzający muszą mechanicznie zredukować pozycję na rynku. To standardowy proces rebalansowania portfela i wymuszonej realizacji zysków, a nie oznaka strachu przed przyszłymi fundamentami firmy. Nazywanie tej systemowej korekty \"wyprzedażą grubasów\" to klasyczny błąd informacyjny tak zwanej \"ulicy\".",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -254,7 +273,7 @@
       "url": "https://www.bankier.pl/forum/temat_beda-spadki,75945825.html",
       "body": "bzduraNN niczego nie sprzedał",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -296,7 +315,7 @@
       "url": "https://www.bankier.pl/forum/temat_obroty-i-skup-po-65,75925057.html",
       "body": "Październik rozpoczęty z przytupem",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -324,7 +343,7 @@
       "url": "https://www.bankier.pl/forum/temat_obroty-i-skup-po-65,75925057.html",
       "body": "Inwestor super że płaczesz mając szorty i tracisz wszystkie pieniądze :). Podaj mnie o nas wszystkich do sądu :). Jak ja się cieszę że bankrutujesz na szortach :). Nawet nie wiesz jaką radość mi sprawiasz :). Jedziemy na 100zł a skup jest podniesiony do 65zł. Uzupełniaj kolejne depozyty :).",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -408,7 +427,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-trzeba-miec-w-glowie-by-grac-teraz-szorty-jak-jedziemy-na-65zl,75921637.html",
       "body": "Dziecko naucz się najpierw giełdy a potem znowu zacznij tutaj cokolwiek pisać. Tak bierz szorty :). Super :) każdy kolejny dawca jest zawsze mile widziany :)",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -437,7 +456,7 @@
       "body": "Jeżeli brać shorty, to właśnie na takich pinach, a nie jak papier po dnie szoruje. Jak wybije to można ucieć z małymi stratami.A 65 to z kapelusza wyciągnąłeś, nie?",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
