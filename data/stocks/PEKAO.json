@@ -1,13 +1,13 @@
 {
   "symbol": "PEKAO",
-  "companyName": "Bank Pekao SA",
+  "companyName": "PEKAO",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-10-04T05:52:08.548Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_pekao,6,21,18.html",
+  "updatedAt": "2026-10-04T12:21:17.724Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-04T05:52:08.548Z",
+    "fetchedAt": "2026-10-04T12:21:17.724Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -16,19 +16,14 @@
   "analysis": {
     "signal": "HOLD",
     "score": -0.01,
-    "confidence": 0.54,
-    "commentCount": 35,
+    "confidence": 0.52,
+    "commentCount": 33,
     "breakdown": {
       "positive": 6,
       "negative": 8,
-      "neutral": 21
+      "neutral": 19
     },
     "trend": [
-      {
-        "date": "2026-07-06",
-        "score": 0,
-        "count": 2
-      },
       {
         "date": "2026-07-09",
         "score": 0.583,
@@ -120,8 +115,8 @@
         "count": 2
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 35 komentarzy z ostatnich 90 dni: nastroje mieszane (6 pozytywnych, 8 negatywnych, 21 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 33 komentarzy z ostatnich 90 dni: nastroje mieszane (6 pozytywnych, 8 negatywnych, 19 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "banki",
@@ -129,10 +124,6 @@
       },
       {
         "word": "raczej",
-        "count": 3
-      },
-      {
-        "word": "wrzesnia",
         "count": 3
       },
       {
@@ -161,6 +152,10 @@
       },
       {
         "word": "moody",
+        "count": 2
+      },
+      {
+        "word": "obnizyla",
         "count": 2
       }
     ]
@@ -627,34 +622,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75037323",
-      "author": "Tomek",
-      "postedAt": "2026-07-06 09:54",
-      "threadTitle": "Re: Jazda na 250 Pln",
-      "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
-      "body": "Ja już zapiołem pasy. Czekamy na 8 lipca. Co Glapiński wymyśli",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75036579",
-      "author": "transakcjusz",
-      "postedAt": "2026-07-06 09:04",
-      "threadTitle": "Jazda na 250 Pln",
-      "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
-      "body": "Ciekawe kiedy ponownie dojedzie do 250zł. Bo że dojedzie to pewne, tylko pytanie kiedy? :) Przypuszczam że okolice sierpnia/września. A Wy co sądzicie?",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
