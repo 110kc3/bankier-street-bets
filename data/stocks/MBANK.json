@@ -1,27 +1,27 @@
 {
   "symbol": "MBANK",
-  "companyName": "mBank SA",
+  "companyName": "MBANK",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-10-05T05:38:39.883Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank,6,21,31.html",
+  "updatedAt": "2026-10-05T14:36:47.389Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-05T05:38:39.883Z",
+    "fetchedAt": "2026-10-05T14:36:47.389Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 13
+    "threadsScanned": 15
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.101,
-    "confidence": 0.68,
-    "commentCount": 51,
+    "score": -0.094,
+    "confidence": 0.71,
+    "commentCount": 56,
     "breakdown": {
       "positive": 4,
-      "negative": 22,
-      "neutral": 25
+      "negative": 23,
+      "neutral": 29
     },
     "trend": [
       {
@@ -143,14 +143,19 @@
         "date": "2026-10-04",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-10-05",
+        "score": -0.064,
+        "count": 5
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 51 komentarzy z ostatnich 90 dni: nastroje negatywne (4 pozytywnych, 22 negatywnych, 25 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 56 komentarzy z ostatnich 90 dni: nastroje mieszane (4 pozytywnych, 23 negatywnych, 29 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dziala",
-        "count": 10
+        "count": 12
       },
       {
         "word": "https",
@@ -169,6 +174,10 @@
         "count": 4
       },
       {
+        "word": "mstatica",
+        "count": 3
+      },
+      {
         "word": "naganianie",
         "count": 3
       },
@@ -183,14 +192,80 @@
       {
         "word": "yahoo",
         "count": 3
-      },
-      {
-        "word": "quote",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75976547",
+      "author": "green",
+      "postedAt": "2026-10-05 10:50",
+      "threadTitle": "Re: czy działa wam platforma minwestor?",
+      "url": "https://www.bankier.pl/forum/temat_czy-dziala-wam-platforma-minwestor,75976181.html",
+      "body": "już po problemie i wszystko działa:)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75976181",
+      "author": "green",
+      "postedAt": "2026-10-05 10:25",
+      "threadTitle": "czy działa wam platforma minwestor?",
+      "url": "https://www.bankier.pl/forum/temat_czy-dziala-wam-platforma-minwestor,75976181.html",
+      "body": "mam problem ze złożeniem zlecenia w momencie wpisywania daty.a jak jest u was? bez problemu składacie zlecenia przez minwestor.pl?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75975995",
+      "author": "monty",
+      "postedAt": "2026-10-05 10:10",
+      "threadTitle": "mstatica",
+      "url": "https://www.bankier.pl/forum/temat_mstatica,75975995.html",
+      "body": "dziala wam mstatica?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75975969",
+      "author": "monty",
+      "postedAt": "2026-10-05 10:08",
+      "threadTitle": "Re: Działa wam emakler???",
+      "url": "https://www.bankier.pl/forum/temat_dziala-wam-emakler,75919345.html",
+      "body": "nie mam aktualnych notowan w mstatica",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75975937",
+      "author": "monty",
+      "postedAt": "2026-10-05 10:06",
+      "threadTitle": "Re: Działa wam emakler???",
+      "url": "https://www.bankier.pl/forum/temat_dziala-wam-emakler,75919345.html",
+      "body": "mstatica pokazuje notowania z 17 w piatek",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75971461",
       "author": "Janek",
