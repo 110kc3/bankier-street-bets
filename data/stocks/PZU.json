@@ -3,36 +3,31 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-10-04T21:25:45.612Z",
+  "updatedAt": "2026-10-05T05:39:17.570Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-04T21:25:45.612Z",
+    "fetchedAt": "2026-10-05T05:39:17.570Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 20
+    "threadsScanned": 22
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.088,
+    "score": 0.083,
     "confidence": 0.73,
     "commentCount": 127,
     "breakdown": {
-      "positive": 39,
+      "positive": 38,
       "negative": 20,
-      "neutral": 68
+      "neutral": 69
     },
     "trend": [
       {
-        "date": "2026-09-27",
-        "score": 0.583,
-        "count": 1
-      },
-      {
         "date": "2026-09-28",
-        "score": 0.123,
-        "count": 8
+        "score": 0.14,
+        "count": 7
       },
       {
         "date": "2026-09-29",
@@ -63,10 +58,15 @@
         "date": "2026-10-04",
         "score": 0.065,
         "count": 4
+      },
+      {
+        "date": "2026-10-05",
+        "score": 0,
+        "count": 2
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 127 komentarzy z ostatnich 7 dni: nastroje mieszane (39 pozytywnych, 20 negatywnych, 68 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 127 komentarzy z ostatnich 7 dni: nastroje mieszane (38 pozytywnych, 20 negatywnych, 69 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "obligacji",
@@ -77,7 +77,7 @@
         "count": 9
       },
       {
-        "word": "roku",
+        "word": "https",
         "count": 8
       },
       {
@@ -85,11 +85,15 @@
         "count": 8
       },
       {
+        "word": "roku",
+        "count": 7
+      },
+      {
         "word": "dywidendy",
         "count": 7
       },
       {
-        "word": "https",
+        "word": "polsce",
         "count": 6
       },
       {
@@ -103,14 +107,38 @@
       {
         "word": "nizsza",
         "count": 5
-      },
-      {
-        "word": "inflacja",
-        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75974263",
+      "author": "Insurance",
+      "postedAt": "2026-10-05 07:20",
+      "threadTitle": "Ciekawostka z Italii",
+      "url": "https://www.bankier.pl/forum/temat_ciekawostka-z-italii,75974263.html",
+      "body": ",https://www.money.pl/mobility/wlosi-rejestruja-auta-w-polsce-jest-ich-juz-60-tys-oto-powod-7336480860039456a.html",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75974261",
+      "author": "Insurance",
+      "postedAt": "2026-10-05 07:20",
+      "threadTitle": "Ciekawostka z Italii",
+      "url": "https://www.bankier.pl/forum/temat_ciekawostka-z-italii,75974261.html",
+      "body": ".https://www.money.pl/mobility/wlosi-rejestruja-auta-w-polsce-jest-ich-juz-60-tys-oto-powod-7336480860039456a.html",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75971603",
       "author": "Newil",
@@ -1860,34 +1888,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75906001",
-      "author": "Insurance",
-      "postedAt": "2026-09-28 07:02",
-      "threadTitle": "Re: A pisalem",
-      "url": "https://www.bankier.pl/forum/temat_a-pisalem,75875283.html",
-      "body": "Jaki jest twój cel pisania i co chcesz osiągnąć?",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75905567",
-      "author": "Cashofarianin",
-      "postedAt": "2026-09-27 23:34",
-      "threadTitle": "Re: A pisalem",
-      "url": "https://www.bankier.pl/forum/temat_a-pisalem,75875283.html",
-      "body": "Wzrost kwotowy: Cena litra paliwa premium skoczyła w rok ok. 6,15 zł na 9,29 zł Wzrost procentowy 51%. Ubezpieczenia majątkowe, oc, ac, stopy czekają w kolejce. PZU115 a później +3+5% rok do roku w zależności od tego co gęś opublikuje. Udanego poniedziałku:) wkrótce coś podlinkuje",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }
