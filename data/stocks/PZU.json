@@ -3,11 +3,11 @@
   "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
-  "updatedAt": "2026-10-05T14:37:36.729Z",
+  "updatedAt": "2026-10-06T00:04:25.717Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-05T14:37:36.729Z",
+    "fetchedAt": "2026-10-06T00:04:25.717Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.116,
+    "score": 0.111,
     "confidence": 0.74,
-    "commentCount": 128,
+    "commentCount": 131,
     "breakdown": {
-      "positive": 40,
-      "negative": 19,
-      "neutral": 69
+      "positive": 42,
+      "negative": 21,
+      "neutral": 68
     },
     "trend": [
-      {
-        "date": "2026-09-28",
-        "score": 0,
-        "count": 2
-      },
       {
         "date": "2026-09-29",
         "score": 0.114,
@@ -61,12 +56,17 @@
       },
       {
         "date": "2026-10-05",
-        "score": 0.314,
-        "count": 8
+        "score": 0.182,
+        "count": 12
+      },
+      {
+        "date": "2026-10-06",
+        "score": 0.583,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 128 komentarzy z ostatnich 7 dni: nastroje pozytywne (40 pozytywnych, 19 negatywnych, 69 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 131 komentarzy z ostatnich 7 dni: nastroje pozytywne (42 pozytywnych, 21 negatywnych, 68 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "obligacji",
@@ -77,16 +77,16 @@
         "count": 9
       },
       {
+        "word": "https",
+        "count": 8
+      },
+      {
         "word": "roku",
         "count": 8
       },
       {
         "word": "obligacje",
         "count": 8
-      },
-      {
-        "word": "https",
-        "count": 7
       },
       {
         "word": "dywidendy",
@@ -97,20 +97,90 @@
         "count": 6
       },
       {
+        "word": "ludzie",
+        "count": 5
+      },
+      {
         "word": "dywidenda",
         "count": 5
       },
       {
         "word": "polsce",
         "count": 5
-      },
-      {
-        "word": "nizsza",
-        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "75985039",
+      "author": "Cashofarianin",
+      "postedAt": "2026-10-06 00:43",
+      "threadTitle": "Re: Komputer kupiłem",
+      "url": "https://www.bankier.pl/forum/temat_komputer-kupilem,75979287.html",
+      "body": "Ludzie czekają co powiem2",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75984787",
+      "author": "Insurance",
+      "postedAt": "2026-10-05 23:07",
+      "threadTitle": "Re: RSi 41 jeszcze Sprzedaj...",
+      "url": "https://www.bankier.pl/forum/temat_rsi-41-jeszcze-sprzedaj,75965005.html",
+      "body": "Się wjeżdża...",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75983181",
+      "author": "mabmab",
+      "postedAt": "2026-10-05 19:40",
+      "threadTitle": "Re: Komputer kupiłem",
+      "url": "https://www.bankier.pl/forum/temat_komputer-kupilem,75979287.html",
+      "body": "Gratulacje",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75982333",
+      "author": "Alstom",
+      "postedAt": "2026-10-05 17:48",
+      "threadTitle": "Re: korekta",
+      "url": "https://www.bankier.pl/forum/temat_korekta,75969441.html",
+      "body": "Wysadzeni na peronie przed startem wats : https://zapodaj.net/plik-WQihRzhdHa",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75981723",
+      "author": "hihihi",
+      "postedAt": "2026-10-05 16:54",
+      "threadTitle": "Re: Denis",
+      "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
+      "body": "> Dzisiaj niewielki pobór akcjii PZU po 69.50 ale stopy obronne na najnizszym i wyzerowanie LL FUSDotwórz swój wątek będzie prościej i zaproś janka",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75981465",
       "author": "okk",
@@ -118,6 +188,20 @@
       "threadTitle": "Re: Denis",
       "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
       "body": "i juz bez PZU Teraz za zarobione $$ rozpoczynam polowanie na PRUdential Przy 112 pierwsze delikatne wejscie ale celuje poniżej 100 Wskazniki i dywidenda lepsze niż pzu No i dobra przechowalnia USD. A dla portfelu dziadka to obowiazek . Sami sobie policzcie. A tymczasem Dyzma Wetomat na kuniu jezdzi za nasze podatki Kibol na kuniu to jak dyzma na kajaku w Oxfordzie.",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75980323",
+      "author": "Master",
+      "postedAt": "2026-10-05 15:28",
+      "threadTitle": "Re: Komputer kupiłem",
+      "url": "https://www.bankier.pl/forum/temat_komputer-kupilem,75979287.html",
+      "body": "Pentujma to jedno, dwa grube światłowody bo chude kable sie grzeją:)",
       "votes": {
         "up": 0,
         "down": 0
@@ -138,20 +222,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75980323",
-      "author": "Master",
-      "postedAt": "2026-10-05 15:28",
-      "threadTitle": "Re: Komputer kupiłem",
-      "url": "https://www.bankier.pl/forum/temat_komputer-kupilem,75979287.html",
-      "body": "Pentujma to jedno, dwa grube światłowody bo chude kable sie grzeją:)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75979287",
@@ -175,7 +245,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprzedawac-czy-czekac,75978893.html",
       "body": "Przemyśl co chcesz osiągnąć, jeśli szybki zysk to sprzedaj, ja zostawiam to na emeryturę, w przyszłym roku dywidenda raczej wyższa niż w tym roku ( i co za tym idzie kurs), moim zdaniem kurs za rok minimum 20% wyżej, decyduj",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -203,7 +273,7 @@
       "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
       "body": "~Rhett, napisałbyś kilka słów jak widzisz najbliższy tydzień jeśli chodzi o rynek + PZU",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -274,7 +344,7 @@
       "body": "Chyba będziemy testować poziom 64 zł",
       "votes": {
         "up": 1,
-        "down": 3
+        "down": 7
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -567,7 +637,7 @@
       "url": "https://www.bankier.pl/forum/temat_we-wtorek-kaska-z-dywidendy,75957487.html",
       "body": "Piękna sprawa .",
       "votes": {
-        "up": 10,
+        "up": 12,
         "down": 2
       },
       "sentimentScore": 0.322,
@@ -582,7 +652,7 @@
       "body": "Dzisiaj niewielki pobór akcjii PZU po 69.50 ale stopy obronne na najnizszym i wyzerowanie LL FUSD",
       "votes": {
         "up": 2,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -623,8 +693,8 @@
       "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
       "body": "W oczekiwaniu na krach (te interwencje na amerykanskim długu to \"czas sie bać\" ) troche kultury i wysokiej klasy sztuki filmowej : Historia genialnej ,ponadczasowej produkcji : \"Kariera Nikodema Dyzmy\" https://www.youtube.com/watch?v=EyvQY4YpCaY No to może nadszedł czas na współczesną wersje ; \"Kariera Wetomata Dyzmy\" Historia osiedlowego kibola co idzie w \"prezydenty\"",
       "votes": {
-        "up": 3,
-        "down": 5
+        "up": 4,
+        "down": 7
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -665,8 +735,8 @@
       "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
       "body": "Dyzma Wetomat i Gold Dyzma a dac im po te 100 tys $ i niech nam nie szkodza .Prudential już po 112 $/akcja to szykować połowe rezerw złota co leżą u Trupa i w okolicach 100 $ kupować pod dywidendy kwartalne. Maja realną szanse cos zarobić na swoje utrzymanie.",
       "votes": {
-        "up": 1,
-        "down": 5
+        "up": 2,
+        "down": 7
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1253,7 +1323,7 @@
       "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
       "body": "Biore to co wczesniej brałem Biore SS F banki i stop profit Biore tez $$ aby po krachu kpować ubezpieczeniowe dywidendowe np. Prudential w ok 100 a pzu z okolic 61 .Obligacje US 30Y BOND YIELD https://stooq.pl/q/?s=30yusy.b&c=1y&t=c&a=lg&b=0 dynamicznie w kierunku 6 a potem może byc Krach na akcjach !",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 3
       },
       "sentimentScore": -0.762,
@@ -1561,7 +1631,7 @@
       "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
       "body": "> Ludzie Jaka masa głupich ludzi w Polsce Oni oskazaja Tuska za cene paliw ? Czy moi Rodacy sa aż tak głupi? No i powrót do akcji PZU to po zdecydowanej przecenie Szanse PLN na jakies umocnienie nminimalne .No bo niby pod co m sie umocnic . Moze pod rekordowe długi do płacenia w USD dla Trupa za cały ten szmelc Jakies czołgi ,smigłowce Teraz nikt nie prowadzi wojny czołgami. Rakiety . drony odrzutowe A ludzie jako mieso armatnie co zajmuje jakies ruiny ...tylko po co ?chłopie ,co ty bierzesz?",
       "votes": {
-        "up": 16,
+        "up": 18,
         "down": 6
       },
       "sentimentScore": 0.583,
@@ -1603,8 +1673,8 @@
       "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
       "body": "Ludzie Jaka masa głupich ludzi w Polsce Oni oskazaja Tuska za cene paliw ? Czy moi Rodacy sa aż tak głupi? No i powrót do akcji PZU to po zdecydowanej przecenie Szanse PLN na jakies umocnienie nminimalne .No bo niby pod co m sie umocnic . Moze pod rekordowe długi do płacenia w USD dla Trupa za cały ten szmelc Jakies czołgi ,smigłowce Teraz nikt nie prowadzi wojny czołgami. Rakiety . drony odrzutowe A ludzie jako mieso armatnie co zajmuje jakies ruiny ...tylko po co ?",
       "votes": {
-        "up": 8,
-        "down": 8
+        "up": 9,
+        "down": 9
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -1842,7 +1912,7 @@
       "body": "Dzisiaj to juz ciezko powtorzyc schemat .Para powoli ulatuje i czas na głebsza przecene.Pozostaje ustawic stop wejscie w SS i ewentualnie podbijac do góry Powrót do PZU wyłącznie po mocnej korekcie.Zbieram $$ jako bezpiecznik i zakup amerykanskich ubezpieczeniowych(wyłącznie kwartalna dywidenda np Prudential) ale po głebokiej przecenie która zaczyna się https://stooq.pl/q/?s=pru.us",
       "votes": {
         "up": 4,
-        "down": 6
+        "down": 7
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -1871,34 +1941,6 @@
       "votes": {
         "up": 1,
         "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75912817",
-      "author": "mabmab",
-      "postedAt": "2026-09-28 18:29",
-      "threadTitle": "Re: Batyr vel Wetomat zaszachowany",
-      "url": "https://www.bankier.pl/forum/temat_batyr-vel-wetomat-zaszachowany,75896193.html",
-      "body": "Istnieje wiele alternatyw w ramach istniejącego prawa ale żadna nie daje tych korzyści co kompromis duński. AlfaWons ma teraz to co lubi najbardziej czyli bordello i kaska kaska.",
-      "votes": {
-        "up": 4,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75912237",
-      "author": "ventura",
-      "postedAt": "2026-09-28 17:18",
-      "threadTitle": "Re: Batyr vel Wetomat zaszachowany",
-      "url": "https://www.bankier.pl/forum/temat_batyr-vel-wetomat-zaszachowany,75896193.html",
-      "body": "NIe będzie żadnej fuzji",
-      "votes": {
-        "up": 1,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
