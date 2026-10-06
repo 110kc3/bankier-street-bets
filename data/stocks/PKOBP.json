@@ -3,31 +3,31 @@
   "companyName": "PKO BP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp,6,21,10000000062.html",
-  "updatedAt": "2026-10-06T06:20:29.575Z",
+  "updatedAt": "2026-10-06T18:22:26.867Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-06T06:20:29.575Z",
+    "fetchedAt": "2026-10-06T18:22:26.867Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 36
+    "threadsScanned": 35
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.08,
+    "score": 0.086,
     "confidence": 0.73,
-    "commentCount": 80,
+    "commentCount": 81,
     "breakdown": {
-      "positive": 26,
-      "negative": 11,
-      "neutral": 43
+      "positive": 25,
+      "negative": 10,
+      "neutral": 46
     },
     "trend": [
       {
         "date": "2026-09-29",
-        "score": -0.015,
-        "count": 8
+        "score": 0,
+        "count": 2
       },
       {
         "date": "2026-09-30",
@@ -58,14 +58,23 @@
         "date": "2026-10-05",
         "score": 0.009,
         "count": 4
+      },
+      {
+        "date": "2026-10-06",
+        "score": 0.083,
+        "count": 7
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 80 komentarzy z ostatnich 7 dni: nastroje mieszane (26 pozytywnych, 11 negatywnych, 43 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 81 komentarzy z ostatnich 7 dni: nastroje mieszane (25 pozytywnych, 10 negatywnych, 46 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "zakladam",
         "count": 8
+      },
+      {
+        "word": "banki",
+        "count": 5
       },
       {
         "word": "gore",
@@ -76,11 +85,15 @@
         "count": 5
       },
       {
-        "word": "musze",
+        "word": "normalnie",
         "count": 4
       },
       {
-        "word": "banki",
+        "word": "bankow",
+        "count": 4
+      },
+      {
+        "word": "musze",
         "count": 4
       },
       {
@@ -94,18 +107,108 @@
       {
         "word": "nasz",
         "count": 4
-      },
-      {
-        "word": "trzeba",
-        "count": 4
-      },
-      {
-        "word": "wzrosty",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "75989917",
+      "author": "MAXIMUS",
+      "postedAt": "2026-10-06 13:15",
+      "threadTitle": "Re: Jak zawsze czyli standard",
+      "url": "https://www.bankier.pl/forum/temat_jak-zawsze-czyli-standard,75989047.html",
+      "body": "To już norma bo przecież nie może być normalnie ,zgadza się?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75989047",
+      "author": "MAXIMUS",
+      "postedAt": "2026-10-06 12:19",
+      "threadTitle": "Jak zawsze czyli standard",
+      "url": "https://www.bankier.pl/forum/temat_jak-zawsze-czyli-standard,75989047.html",
+      "body": "mBank trzyma ciśnienie,Erste Bank również ale na królu banków jak zawsze zwieracze z podażą puszczają jak zawsze",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75988273",
+      "author": "Waldek",
+      "postedAt": "2026-10-06 11:13",
+      "threadTitle": "Dzisiaj ath 4300 a może nawet 4400 ?",
+      "url": "https://www.bankier.pl/forum/temat_dzisiaj-ath-4300-a-moze-nawet-4400,75988273.html",
+      "body": "Banki są kupowane jakby złoto znalazły",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75988197",
+      "author": "MAXIMUS",
+      "postedAt": "2026-10-06 11:09",
+      "threadTitle": "A dzisiaj jedziemy na walorze na 124",
+      "url": "https://www.bankier.pl/forum/temat_a-dzisiaj-jedziemy-na-walorze-na-124,75988197.html",
+      "body": "i przestań w końcu pajacować kolego",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75987895",
+      "author": "MAXIMUS",
+      "postedAt": "2026-10-06 10:45",
+      "threadTitle": "Re: 131 w tym ruchu",
+      "url": "https://www.bankier.pl/forum/temat_131-w-tym-ruchu,75986957.html",
+      "body": "Tak ale na koniec miesiąca kolego",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75987205",
+      "author": "Zenon",
+      "postedAt": "2026-10-06 10:05",
+      "threadTitle": "Re: 131 w tym ruchu",
+      "url": "https://www.bankier.pl/forum/temat_131-w-tym-ruchu,75986957.html",
+      "body": "140 ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75986957",
+      "author": "MAXIMUS",
+      "postedAt": "2026-10-06 09:52",
+      "threadTitle": "131 w tym ruchu",
+      "url": "https://www.bankier.pl/forum/temat_131-w-tym-ruchu,75986957.html",
+      "body": "Pozdrawiam inteligentnych akcjonariuszy",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75981369",
       "author": "Bart",
@@ -1137,90 +1240,6 @@
       "body": "Czy szykują się na 5000 i 170 na tym walorze? Donald wziął się za rentowności obligacji.",
       "votes": {
         "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75922641",
-      "author": "Janekzwagrowca",
-      "postedAt": "2026-09-29 17:05",
-      "threadTitle": "Ale was zrobili w balona",
-      "url": "https://www.bankier.pl/forum/temat_ale-was-zrobili-w-balona,75922641.html",
-      "body": "Przyznawać się kto sprzedawał a kto dokupił ?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75921975",
-      "author": "Janekzwagrowca",
-      "postedAt": "2026-09-29 16:01",
-      "threadTitle": "No i powrót i to by było na tyle",
-      "url": "https://www.bankier.pl/forum/temat_no-i-powrot-i-to-by-bylo-na-tyle,75921975.html",
-      "body": "Niebo",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75916787",
-      "author": "Janekzwagrowca",
-      "postedAt": "2026-09-29 09:41",
-      "threadTitle": "Re: Nie widzę żadnej opcji",
-      "url": "https://www.bankier.pl/forum/temat_nie-widze-zadnej-opcji,75916287.html",
-      "body": "Miller wyraźnie powiedział że Rosja nie zaatakuje a pozostali widać kłamią i naciągają Was po to chyba żebyście pozbyli się akcji ?",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75916515",
-      "author": "Janekzwagrowca",
-      "postedAt": "2026-09-29 09:22",
-      "threadTitle": "Re: Nie widzę żadnej opcji",
-      "url": "https://www.bankier.pl/forum/temat_nie-widze-zadnej-opcji,75916287.html",
-      "body": "Wbrew wszystkim analitykom wrzesień i październik mogą byc najlepszymi miesiącami a potem jazda Mikołaja i jesteśmy na 5000 bez żadnych korekt itd",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75916385",
-      "author": "Janekzwagrowca",
-      "postedAt": "2026-09-29 09:15",
-      "threadTitle": "Wczoraj 3000 L ? na wig20 to nie",
-      "url": "https://www.bankier.pl/forum/temat_wczoraj-3000-l-na-wig20-to-nie,75916385.html",
-      "body": "Nie może być przypadek",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75916287",
-      "author": "Janekzwagrowca",
-      "postedAt": "2026-09-29 09:06",
-      "threadTitle": "Nie widzę żadnej opcji",
-      "url": "https://www.bankier.pl/forum/temat_nie-widze-zadnej-opcji,75916287.html",
-      "body": "Tylko niebo",
-      "votes": {
-        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,

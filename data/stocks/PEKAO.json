@@ -3,25 +3,25 @@
   "companyName": "PEKAO",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pekao,6,21,18.html",
-  "updatedAt": "2026-10-06T06:20:08.341Z",
+  "updatedAt": "2026-10-06T18:22:03.090Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-06T06:20:08.341Z",
+    "fetchedAt": "2026-10-06T18:22:03.090Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 17
+    "threadsScanned": 19
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.014,
-    "confidence": 0.52,
-    "commentCount": 33,
+    "score": -0.06,
+    "confidence": 0.55,
+    "commentCount": 35,
     "breakdown": {
       "positive": 6,
-      "negative": 8,
-      "neutral": 19
+      "negative": 9,
+      "neutral": 20
     },
     "trend": [
       {
@@ -113,14 +113,27 @@
         "date": "2026-09-25",
         "score": 0,
         "count": 2
+      },
+      {
+        "date": "2026-10-06",
+        "score": -0.291,
+        "count": 2
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 33 komentarzy z ostatnich 90 dni: nastroje mieszane (6 pozytywnych, 8 negatywnych, 19 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 35 komentarzy z ostatnich 90 dni: nastroje mieszane (6 pozytywnych, 9 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "banki",
         "count": 4
+      },
+      {
+        "word": "trzeba",
+        "count": 3
+      },
+      {
+        "word": "lata",
+        "count": 3
       },
       {
         "word": "raczej",
@@ -139,28 +152,48 @@
         "count": 3
       },
       {
+        "word": "dzien",
+        "count": 2
+      },
+      {
+        "word": "jakies",
+        "count": 2
+      },
+      {
         "word": "dziala",
-        "count": 2
-      },
-      {
-        "word": "warszawa",
-        "count": 2
-      },
-      {
-        "word": "agencja",
-        "count": 2
-      },
-      {
-        "word": "moody",
-        "count": 2
-      },
-      {
-        "word": "obnizyla",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "75992805",
+      "author": "kolarz",
+      "postedAt": "2026-10-06 16:54",
+      "threadTitle": "Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "W ogóle ofert nie widać na dogrywce. Już drugi dzień . Wykresy szwankują, jakieś dziwne komunikaty , itd..Jednym słowem dramat.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75988209",
+      "author": "adam",
+      "postedAt": "2026-10-06 11:10",
+      "threadTitle": "Wszystkie arkusze puste - o co tu chodzi",
+      "url": "https://www.bankier.pl/forum/temat_wszystkie-arkusze-puste-o-co-tu-chodzi,75988209.html",
+      "body": "Trzeba na stare lata nauczyc sie w zime angielskiego i przejsc na inne rynki",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75891559",
       "author": "Asia",
