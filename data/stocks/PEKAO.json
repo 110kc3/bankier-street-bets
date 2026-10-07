@@ -3,11 +3,11 @@
   "companyName": "PEKAO",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pekao,6,21,18.html",
-  "updatedAt": "2026-10-07T05:59:21.415Z",
+  "updatedAt": "2026-10-07T13:22:31.904Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-07T05:59:21.415Z",
+    "fetchedAt": "2026-10-07T13:22:31.904Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.06,
-    "confidence": 0.55,
-    "commentCount": 35,
+    "score": -0.121,
+    "confidence": 0.59,
+    "commentCount": 37,
     "breakdown": {
       "positive": 6,
-      "negative": 9,
-      "neutral": 20
+      "negative": 10,
+      "neutral": 21
     },
     "trend": [
       {
@@ -118,14 +118,43 @@
         "date": "2026-10-06",
         "score": -0.291,
         "count": 2
+      },
+      {
+        "date": "2026-10-07",
+        "score": -0.435,
+        "count": 2
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 35 komentarzy z ostatnich 90 dni: nastroje mieszane (6 pozytywnych, 9 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 37 komentarzy z ostatnich 90 dni: nastroje negatywne (6 pozytywnych, 10 negatywnych, 21 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "banki",
         "count": 4
+      },
+      {
+        "word": "dzien",
+        "count": 3
+      },
+      {
+        "word": "dzis",
+        "count": 3
+      },
+      {
+        "word": "dziala",
+        "count": 3
+      },
+      {
+        "word": "pekao",
+        "count": 3
+      },
+      {
+        "word": "dotyczace",
+        "count": 3
+      },
+      {
+        "word": "ponizej",
+        "count": 3
       },
       {
         "word": "trzeba",
@@ -138,34 +167,38 @@
       {
         "word": "raczej",
         "count": 3
-      },
-      {
-        "word": "dlaczego",
-        "count": 3
-      },
-      {
-        "word": "moga",
-        "count": 3
-      },
-      {
-        "word": "bankow",
-        "count": 3
-      },
-      {
-        "word": "dzien",
-        "count": 2
-      },
-      {
-        "word": "jakies",
-        "count": 2
-      },
-      {
-        "word": "dziala",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76002065",
+      "author": "eT",
+      "postedAt": "2026-10-07 12:04",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Tak. Ja też mam trzeci dzień (od 05 paź 2026) problemy z eTrader 2.1.1 (2.1.1N). Po wczorajszym 10 minutowym, bezproduktywnym i bezkontaktowym oczekiwaniu na infolinii, napisałem maila. Dostałem odpowiedź, dziś (07 paź) o po 08:30, że wszystko już działa. Nie, nie działa! Przerzucam się zrzutami ekranu (wraz z wersja 2.1.1 jest zablokowana możliwość robienia zrzutów ale...) i udowadniam \"punkt po punkcie\", że eTrader nie działa poprawnie. A już na pewno nie działa, w sposób w jaki działał przed 02 października. Moje problemy, od poniedziałku, dotyczyły i/lub dotyczą: braku wyświetlania zleceń w arkuszu zleceń (już rozwiązane), \"wiecznego pobierania\" danych dla części okienek dotyczących konkretnych spółek, powiększonej czcionki utrudniającej właściwe wyświetlanie danych, zmienionej formy lub braku danych w przypadku: \"wielkości obrotu, \"zakresu dziennego\",..., wyskakującego co jakiś czas komunikatu o \"przekroczeniu 80% pamięci dostępnej dla aplikacji\",...Przesłano mi rozwiązanie odnośnie automatycznego wylogowywania. Wraz z aktualizacją 2.1.1 zostało domyślnie ustawione na 15 minut:\"Wylogowanie z systemu można prosto przedłużyć przekazujemy ścieżkę: ustawienia w etrader prawy górny róg --> ustawienia -- w tabelce ponownie ustawienia---> automatyczne wylogowanie --->\"07 października 11:36 i nadal problemy występują.Jestem niezadowolony, że nie ma żadnego komunikatu ze strony banku (trzeci dzień) odnośnie problemów technicznych. Żadnego komunikatu na stronie banku (w aktualnościach), podstronie biura maklerskiego, smsa czy w kanale komunikacji za pomocą platformy eTrader.Oczywiście, \"na dzień dobry\" nie uświadczyłem słowa \"przepraszam\" ze strony banku (instytucji \"zaufania publicznego\"). Choć wiedzą, że problemy \"były\" i jak widać nie dotyczą/yły pojedynczych osób > //downdetector pl/status/bank-pekao/ i że trzeci dzień nie można w normalny (jak przed 02 października), z zaufaniem i komfortem korzystać z platformy eTrader.Używam Windowsa 11 Pro 64 bity. Z bardzo dużym zapasem pokrywam wymagania minimalne dotyczące sprzętu a wymagane przez aplikację eTrader do poprawnego działania. Przed 02 października działało. Od 05 października nie działa (nie działa poprawnie więc w przypadku platformy do handlu elektronicznego należy uznać że nie działa wcale). No ale może do piątku... No ale po 3 minutach wysłuchiwania o handlu i przetwarzaniu danych \"można\" złożyć zlecenie poprzez infolinię lub bezpośrednio w biurze :) Viva la DayTrading! Viva la Scalping! Viva la Pekao!Sposób prowadzenia oficjalnej korespondencji ze strony Biura Maklerskiego Pekao pozostawia wiele do życzenia.Nawet nie wiem kto odpowiada na moje maile, bo wiadomości z oficjalnego maila Biura Maklerskiego Pekao są podpisywane:\"Z wyrazami szacunku Biuro Maklerskie Pekao\"Jak widać, trzeci dzień cały zespół Biura Maklerskiego Pekao walczy z moimi problemami. Bo chyba nie problemami, które oni mają?! Skoro na oficjalnych kanałach komunikacji Banku Pekao, nie ma żadnej wzmianki o trudnościach a jak PAP podawało po stronie klientów GPW cały proces migracji z UTP do WATS przebieg bez problemów. Jak to dobrze, że dzienna zmienność WIGu20 w dniach 05, 06, 07 października \"nie przekracza +/- 0,1% i dzienne obroty są poniżej 100 mln zł\" :) Proponuję motto do propagowania w mediach społecznościowych banku: Nic się nie dziej. Nic się nie stało. Ważne, że prowizje się pobrało!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75999319",
+      "author": "Młody",
+      "postedAt": "2026-10-07 09:29",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Dziś znowu wisi",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75992805",
       "author": "kolarz",
@@ -174,7 +207,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "W ogóle ofert nie widać na dogrywce. Już drugi dzień . Wykresy szwankują, jakieś dziwne komunikaty , itd..Jednym słowem dramat.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -426,7 +459,7 @@
       "url": "https://www.bankier.pl/forum/temat_etrader-nie-chodzi,74257145.html",
       "body": "To nie jest normalne biuro - stale jakies problemy",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.322,
