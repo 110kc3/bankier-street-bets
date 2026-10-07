@@ -3,11 +3,11 @@
   "companyName": "LPP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp,6,21,134.html",
-  "updatedAt": "2026-10-07T13:22:10.726Z",
+  "updatedAt": "2026-10-07T23:05:16.300Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-07T13:22:10.726Z",
+    "fetchedAt": "2026-10-07T23:05:16.300Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.008,
-    "confidence": 0.5,
-    "commentCount": 30,
+    "score": 0.056,
+    "confidence": 0.53,
+    "commentCount": 32,
     "breakdown": {
-      "positive": 10,
+      "positive": 12,
       "negative": 10,
       "neutral": 10
     },
     "trend": [
-      {
-        "date": "2026-09-30",
-        "score": -0.435,
-        "count": 2
-      },
       {
         "date": "2026-10-01",
         "score": 0.02,
@@ -61,56 +56,112 @@
       },
       {
         "date": "2026-10-07",
-        "score": -0.322,
-        "count": 1
+        "score": 0.104,
+        "count": 5
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 30 komentarzy z ostatnich 7 dni: nastroje mieszane (10 pozytywnych, 10 negatywnych, 10 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 32 komentarzy z ostatnich 7 dni: nastroje mieszane (12 pozytywnych, 10 negatywnych, 10 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "dywidenda",
+        "count": 4
+      },
       {
         "word": "ktos",
         "count": 4
+      },
+      {
+        "word": "dzis",
+        "count": 3
+      },
+      {
+        "word": "dzien",
+        "count": 3
+      },
+      {
+        "word": "dywidendy",
+        "count": 3
       },
       {
         "word": "zyskow",
         "count": 3
       },
       {
-        "word": "dywidenda",
-        "count": 3
-      },
-      {
-        "word": "raczej",
+        "word": "ostatni",
         "count": 2
       },
       {
-        "word": "czwartek",
+        "word": "zakup",
         "count": 2
       },
       {
-        "word": "oznacza",
+        "word": "zasadzie",
         "count": 2
       },
       {
-        "word": "moim",
-        "count": 2
-      },
-      {
-        "word": "zdaniem",
-        "count": 2
-      },
-      {
-        "word": "fundow",
-        "count": 2
-      },
-      {
-        "word": "erste",
+        "word": "roku",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76006803",
+      "author": "PCK",
+      "postedAt": "2026-10-07 19:00",
+      "threadTitle": "Re: dywidenda 9 października",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-9-pazdziernika,76005459.html",
+      "body": "Dziś był ostatni dzień na zakup...jutro odcięcie dywidendy",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76005459",
+      "author": "Magellan",
+      "postedAt": "2026-10-07 16:34",
+      "threadTitle": "dywidenda 9 października",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-9-pazdziernika,76005459.html",
+      "body": "w zasadzie dziś jest ostatni dzień przed dywidendą ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76005273",
+      "author": "Dzidek",
+      "postedAt": "2026-10-07 16:15",
+      "threadTitle": "Re: mBank Rekomendacja",
+      "url": "https://www.bankier.pl/forum/temat_mbank-rekomendacja,75993617.html",
+      "body": "Napisali w którym roku?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76004711",
+      "author": "Lppuś",
+      "postedAt": "2026-10-07 15:22",
+      "threadTitle": "Re: Wyprzedaż",
+      "url": "https://www.bankier.pl/forum/temat_wyprzedaz,75987683.html",
+      "body": "8.10 to tu jeszcze nikt nie będzie miał zaliczonej dywidendy na moje",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75997783",
       "author": "Kurator",
@@ -148,7 +199,7 @@
       "body": "Nawet jeśli to będzie chwilowe. Moim zdaniem papier wymarzony na longa. Bez pseudo managerów tak jak w państwowych championach:), no i ta marżowość z ostatnich 5 kwartałów. To rozpala wyobraźnię fundow. A już niedługo budowanie portfeli OKI. Branża handel napewno będzie grana. Żabka wypada, dino ma potencjał do wzrostów ale lpp i allegro to będą pewniaki.",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -161,7 +212,7 @@
       "url": "https://www.bankier.pl/forum/temat_mbank-rekomendacja,75993617.html",
       "body": "28700",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": 0,
@@ -175,7 +226,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyprzedaz,75987683.html",
       "body": "No to gruba wyprzedaż się szykuje 8 października",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 2
       },
       "sentimentScore": -0.87,
@@ -502,34 +553,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75937667",
-      "author": "Analitykdomowy",
-      "postedAt": "2026-09-30 21:37",
-      "threadTitle": "Nowa dyrektywa UE",
-      "url": "https://www.bankier.pl/forum/temat_nowa-dyrektywa-ue,75937667.html",
-      "body": "UE stawia na ekologię tzn. będzie sprzyjać modzie \"second hands\" a nie modzie \"new brand\"",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75933249",
-      "author": "Mikesz",
-      "postedAt": "2026-09-30 15:24",
-      "threadTitle": "Re: Nowe info o Heindenburgu short. Zobaczcie co sie stlao teraz na LPP",
-      "url": "https://www.bankier.pl/forum/temat_nowe-info-o-heindenburgu-short-zobaczcie-co-sie-stlao-teraz-na-lpp,75904605.html",
-      "body": "Wszystkie pozytywne komentarze z jednego ipTraderX to naciągacz",
-      "votes": {
-        "up": 9,
-        "down": 1
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
     }
   ]
 }
