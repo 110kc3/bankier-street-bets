@@ -3,11 +3,11 @@
   "companyName": "KRUK",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk,6,21,10000001000.html",
-  "updatedAt": "2026-10-06T18:21:36.973Z",
+  "updatedAt": "2026-10-07T05:58:51.946Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-06T18:21:36.973Z",
+    "fetchedAt": "2026-10-07T05:58:51.946Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -17,18 +17,13 @@
     "signal": "HOLD",
     "score": -0.121,
     "confidence": 0.74,
-    "commentCount": 108,
+    "commentCount": 109,
     "breakdown": {
-      "positive": 27,
+      "positive": 28,
       "negative": 42,
       "neutral": 39
     },
     "trend": [
-      {
-        "date": "2026-09-29",
-        "score": -0.291,
-        "count": 2
-      },
       {
         "date": "2026-09-30",
         "score": 0.042,
@@ -61,12 +56,17 @@
       },
       {
         "date": "2026-10-06",
-        "score": -0.234,
-        "count": 13
+        "score": -0.228,
+        "count": 15
+      },
+      {
+        "date": "2026-10-07",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 108 komentarzy z ostatnich 7 dni: nastroje negatywne (27 pozytywnych, 42 negatywnych, 39 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 109 komentarzy z ostatnich 7 dni: nastroje negatywne (28 pozytywnych, 42 negatywnych, 39 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruk",
@@ -77,12 +77,24 @@
         "count": 8
       },
       {
+        "word": "shorty",
+        "count": 7
+      },
+      {
         "word": "przy",
         "count": 7
       },
       {
         "word": "roku",
         "count": 7
+      },
+      {
+        "word": "kruka",
+        "count": 6
+      },
+      {
+        "word": "troche",
+        "count": 6
       },
       {
         "word": "zdaniem",
@@ -93,24 +105,54 @@
         "count": 6
       },
       {
-        "word": "shorty",
-        "count": 6
-      },
-      {
         "word": "maja",
-        "count": 6
-      },
-      {
-        "word": "cena",
-        "count": 6
-      },
-      {
-        "word": "dlatego",
         "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "75997815",
+      "author": "Kurator",
+      "postedAt": "2026-10-07 07:16",
+      "threadTitle": "Re: czy ktoś może połaczyć kropki?",
+      "url": "https://www.bankier.pl/forum/temat_czy-ktos-moze-polaczyc-kropki,75979221.html",
+      "body": "Dobre pytanie. Mysle jednak że OKI na początku zrobią i szum będzie napływ. Zadbają o to grube ryby z za ocena które teraz nawet jakby chciały wyjśc/ograniczyć posiadane papiery na gpw to za bardzo nie mogą a nie chcą robić zwały. Po za tym przyszły rok to wypory w Polsce:)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75995797",
+      "author": "Abecadlo",
+      "postedAt": "2026-10-06 22:09",
+      "threadTitle": "Re: czy ktoś może połaczyć kropki?",
+      "url": "https://www.bankier.pl/forum/temat_czy-ktos-moze-polaczyc-kropki,75979221.html",
+      "body": "W Kruka i Prezesa Krupe osobiscie wierze ale co do OKI to czy to nie jest troche tak ze my oceniamy potencjal naplywow na GPW dzieki OKI na podstawie naszej bańki informacyjnej(czyli giełdowej) ktora jest optymistyczna co do naplywow ktore sie jeszcze nie zadzialy wiec tak wlasciwie to moze ich nie byc, nie skonczyla sie nawet kampania marketingowa DM przed OKI ani nawet nie mozna jeszcze ich zakladac, wiadomo ze glupota bylo by niekorzystac z OKI ale tak samo glupota jest nie oszczedzac nie inwestowac nie uczyc sie... itp itd a jednak ludzie wielu z tych rzeczy nie robia, mimo wszystko zycze nam koledzy i kolezanki fajnych naplywow na GPW bo imo nawet jak nie bedzie nowych to \"gruby\" zalozy pare kont OKI na inne osoby w celu unikniecia podatku.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75995395",
+      "author": "Kurator",
+      "postedAt": "2026-10-06 21:16",
+      "threadTitle": "Re: OGŁASZAM WYŚCIGI SHORTÓW",
+      "url": "https://www.bankier.pl/forum/temat_oglaszam-wyscigi-shortow,75988445.html",
+      "body": "To co piszesz jest oczywistą oczywistością. Shorty robią swoją robotę, ale zadaj sobie pytanie kto im na to pozwala, a przede wszystkim kto im pożycza akcje i jakie on tak naprawdę ma intencje. Czy chce tylko zarobić na warunkach z umowy z shortem",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.964,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "75994733",
       "author": "xyz",
@@ -133,7 +175,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-ktos-moze-polaczyc-kropki,75979221.html",
       "body": "Luzik. Głupotą byłoby nie wyczekać do wyników za 3q. Będą podnosić trole że ostatnio po wynikach short dołował kurs. Każdy ma jednak swoją strategię i wycenę. Moim zdaniem Kruk jest spółką mega niedoszacowaną i jak wejda OKI to będzie jedną z najbardziej wygranych bo będzie pasować wielu do strategii ich portfeli. Zatam radzę trzymać conajmniej do połowy stycznia lub dłużej.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0,
@@ -175,7 +217,7 @@
       "url": "https://www.bankier.pl/forum/temat_oglaszam-wyscigi-shortow,75988445.html",
       "body": "Poniżej 400 to jest cały czas promocja.",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -428,7 +470,7 @@
       "body": "Jak połączyłem dzisiaj kropki i dokupiłem Kruka. Giełda to gra. Nie ma co za dużo analizować. Choć nie ukrywam że wskaźniki techniczne też czasami trzeba uwzględniać. Ja wyczekam do pełnych wyników za 3q.",
       "votes": {
         "up": 7,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -483,7 +525,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-ktos-moze-polaczyc-kropki,75979221.html",
       "body": "27 sierpnia walneło w dół bo się okazało że Rumunia cienko przędzie i dlatego ich waluta RON mocno staniała co miało duży wpływ na wynik -59milionów PLNTeraz czytam ,że w Hiszpani przedterminowe wybory a we Francji burdy . Euro spada a dollar rośnie .Kto zagłębił się w wyniki finasowe niech powie jaki to może mieć wpływ na na końcówkę roku dla KRUK SAMoim zdaniem to coś nowego . Tego nie było rok temu .Kruk ma dużo biznesu w Hiszpani i Francji",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 2
       },
       "sentimentScore": -0.322,
@@ -1591,34 +1633,6 @@
       "votes": {
         "up": 1,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75925139",
-      "author": "Magellan",
-      "postedAt": "2026-09-29 21:08",
-      "threadTitle": "Re: moja cena docelowa ciągle 730zł",
-      "url": "https://www.bankier.pl/forum/temat_moja-cena-docelowa-ciagle-730zl,75916595.html",
-      "body": "Sens taki że to co się tu dzieje z kursem nie jest spowodowane realnymi przesłankami chyba że będzie trup w szafie",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75924801",
-      "author": "weryfikujący",
-      "postedAt": "2026-09-29 20:28",
-      "threadTitle": "Re: moja cena docelowa ciągle 730zł",
-      "url": "https://www.bankier.pl/forum/temat_moja-cena-docelowa-ciagle-730zl,75916595.html",
-      "body": "Jaki sens ma porównywanie C/Z dla tak różnych branż? Żaden.",
-      "votes": {
-        "up": 1,
-        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

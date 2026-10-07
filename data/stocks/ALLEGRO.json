@@ -3,11 +3,11 @@
   "companyName": "ALLEGRO.EU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu,6,21,10000001753.html",
-  "updatedAt": "2026-10-06T18:20:28.290Z",
+  "updatedAt": "2026-10-07T05:57:15.531Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-06T18:20:28.290Z",
+    "fetchedAt": "2026-10-07T05:57:15.531Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.3,
-    "confidence": 0.65,
-    "commentCount": 36,
+    "score": -0.302,
+    "confidence": 0.63,
+    "commentCount": 34,
     "breakdown": {
       "positive": 3,
-      "negative": 18,
-      "neutral": 15
+      "negative": 17,
+      "neutral": 14
     },
     "trend": [
-      {
-        "date": "2026-09-29",
-        "score": -0.161,
-        "count": 2
-      },
       {
         "date": "2026-09-30",
         "score": 0.064,
@@ -61,7 +56,7 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 36 komentarzy z ostatnich 7 dni: nastroje negatywne (3 pozytywnych, 18 negatywnych, 15 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 34 komentarzy z ostatnich 7 dni: nastroje negatywne (3 pozytywnych, 17 negatywnych, 14 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "szorty",
@@ -73,18 +68,6 @@
       },
       {
         "word": "ktos",
-        "count": 5
-      },
-      {
-        "word": "cene",
-        "count": 5
-      },
-      {
-        "word": "skup",
-        "count": 5
-      },
-      {
-        "word": "robic",
         "count": 4
       },
       {
@@ -96,11 +79,23 @@
         "count": 4
       },
       {
+        "word": "cene",
+        "count": 4
+      },
+      {
         "word": "inwestor",
         "count": 4
       },
       {
         "word": "super",
+        "count": 4
+      },
+      {
+        "word": "skup",
+        "count": 4
+      },
+      {
+        "word": "sprzedal",
         "count": 4
       }
     ]
@@ -114,7 +109,7 @@
       "url": "https://www.bankier.pl/forum/temat_gdzie-jest-alkoholik-buhahaa,75994381.html",
       "body": "Wlasnje, gdzie on się podział? Odezwij się. Zapiłeś ?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -352,7 +347,7 @@
       "url": "https://www.bankier.pl/forum/temat_beda-spadki,75945825.html",
       "body": "Inwestor uzupełniaj szybko kolejny depozyt :). Fajnie się czyta jak płaczesz że kurs nie chce spadać i ty tracisz całą kasę :). Super że tracisz :)",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -578,34 +573,6 @@
       "votes": {
         "up": 4,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75926105",
-      "author": "Godoj",
-      "postedAt": "2026-09-29 23:52",
-      "threadTitle": "Re: Co trzeba mieć w głowie by grać szorty jak jedziemy na 65zł :)?",
-      "url": "https://www.bankier.pl/forum/temat_co-trzeba-miec-w-glowie-by-grac-teraz-szorty-jak-jedziemy-na-65zl,75921637.html",
-      "body": "Jeżeli brać shorty, to właśnie na takich pinach, a nie jak papier po dnie szoruje. Jak wybije to można ucieć z małymi stratami.A 65 to z kapelusza wyciągnąłeś, nie?",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75925057",
-      "author": "Mat",
-      "postedAt": "2026-09-29 21:00",
-      "threadTitle": "Obroty i skup po 65",
-      "url": "https://www.bankier.pl/forum/temat_obroty-i-skup-po-65,75925057.html",
-      "body": "Dzisiaj poszlo 200 baniek i to powyżej 50zl skup zapewne podniosą jesli faktycznie cena utrzyma sie ponad to 50zl. Zastanawia mnie jednak odrazu sugestia by skupić po 65. Pytanie sie nasuwa czy szwagier juz cos wie ze ktoś będzie robić tu skup akcji na jakimś wezwaniu i juz szykują grunt. Ja w najlepszym scenariuszu zakładałem że podniosą cene do 60zl. 65 to mi wygląda jak konkretne ustawianie sie pod coś.",
-      "votes": {
-        "up": 4,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

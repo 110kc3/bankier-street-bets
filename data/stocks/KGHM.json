@@ -3,11 +3,11 @@
   "companyName": "KGHM POLSKA MIEDZ SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-10-06T18:21:31.340Z",
+  "updatedAt": "2026-10-07T05:58:44.665Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-06T18:21:31.340Z",
+    "fetchedAt": "2026-10-07T05:58:44.665Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.056,
+    "score": -0.053,
     "confidence": 0.72,
-    "commentCount": 93,
+    "commentCount": 94,
     "breakdown": {
       "positive": 24,
-      "negative": 21,
-      "neutral": 48
+      "negative": 20,
+      "neutral": 50
     },
     "trend": [
-      {
-        "date": "2026-09-29",
-        "score": -0.87,
-        "count": 1
-      },
       {
         "date": "2026-09-30",
         "score": 0.087,
@@ -61,12 +56,17 @@
       },
       {
         "date": "2026-10-06",
-        "score": -0.141,
-        "count": 18
+        "score": -0.134,
+        "count": 19
+      },
+      {
+        "date": "2026-10-07",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 93 komentarzy z ostatnich 7 dni: nastroje mieszane (24 pozytywnych, 21 negatywnych, 48 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 94 komentarzy z ostatnich 7 dni: nastroje mieszane (24 pozytywnych, 20 negatywnych, 50 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
@@ -85,6 +85,14 @@
         "count": 7
       },
       {
+        "word": "niech",
+        "count": 5
+      },
+      {
+        "word": "dzis",
+        "count": 5
+      },
+      {
         "word": "strajk",
         "count": 5
       },
@@ -99,18 +107,38 @@
       {
         "word": "centinela",
         "count": 4
-      },
-      {
-        "word": "pazdziernika",
-        "count": 4
-      },
-      {
-        "word": "roku",
-        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "75997873",
+      "author": "Daw",
+      "postedAt": "2026-10-07 07:24",
+      "threadTitle": "Re: Zagrożenie strajkiem ...ale u konkurencji",
+      "url": "https://www.bankier.pl/forum/temat_zagrozenie-strajkiem-ale-u-konkurencji,75994433.html",
+      "body": "To pozdrawiam i niech rosną. Dziś przynajmniej o 2 procent. Dobrego dnia.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75995213",
+      "author": "PADAKA",
+      "postedAt": "2026-10-06 20:53",
+      "threadTitle": "Re: Te SPADKI to przez",
+      "url": "https://www.bankier.pl/forum/temat_te-spadki-to-przez,75987693.html",
+      "body": "A to nie spadło dziś?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "75994771",
       "author": "hehe",
@@ -274,7 +302,7 @@
       "body": "Chiny mają wole więc od czwartku możliwy zwiększony popyt na miedź do tego ceny ropy spadają to pozytywna informacja dla KGHM",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -315,7 +343,7 @@
       "url": "https://www.bankier.pl/forum/temat_te-spadki-to-przez,75987693.html",
       "body": "gdzie ty tu widzisz spadki ? tragedia kto tu gra.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": -0.87,
@@ -330,7 +358,7 @@
       "body": "te strajki czy, że azjaci nie chcą już kupować miedźi? Jaki ich powód?",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -497,7 +525,7 @@
       "url": "https://www.bankier.pl/forum/temat_rekomendacja,75974787.html",
       "body": "SPRZEDAJ , PONIŻEJ RYNKU od Macguire cena docelowa 250 pln",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 8
       },
       "sentimentScore": -0.583,
@@ -1398,20 +1426,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75925839",
-      "author": "c-h",
-      "postedAt": "2026-09-29 22:49",
-      "threadTitle": "Re: Dlaczego Longi są dobre, a shorty złe ?",
-      "url": "https://www.bankier.pl/forum/temat_dlaczego-longi-sa-dobre-a-shorty-zle,75902783.html",
-      "body": "w mojej ocenie głównym problemem jaki wprowadza short jest asymetria. Pozycje long mogą zajmować duzi (fundy) + drobni (my), shortowanie na bazowym jest praktycznie dostępne tylko dla dużych. Trochę inaczej wygląda mechanika strachu od mechaniki chciwości, przez brak drobnych inwestorów po stronie short, rynek jest asymetryczny. Jednym słowem brakuje wzrostów kursu wywołanych strachem zbiorowym drobnych akcjonariuszy.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
     }
   ]
 }
