@@ -3,11 +3,11 @@
   "companyName": "LPP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp,6,21,134.html",
-  "updatedAt": "2026-10-08T13:28:18.716Z",
+  "updatedAt": "2026-10-08T23:22:22.555Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-08T13:28:18.716Z",
+    "fetchedAt": "2026-10-08T23:22:22.555Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.101,
-    "confidence": 0.55,
-    "commentCount": 32,
+    "score": 0.143,
+    "confidence": 0.56,
+    "commentCount": 31,
     "breakdown": {
       "positive": 12,
-      "negative": 10,
+      "negative": 9,
       "neutral": 10
     },
     "trend": [
-      {
-        "date": "2026-10-01",
-        "score": -0.13,
-        "count": 2
-      },
       {
         "date": "2026-10-02",
         "score": 0.201,
@@ -61,20 +56,24 @@
       },
       {
         "date": "2026-10-08",
-        "score": 0.762,
-        "count": 1
+        "score": 0.672,
+        "count": 2
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 32 komentarzy z ostatnich 7 dni: nastroje pozytywne (12 pozytywnych, 10 negatywnych, 10 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 31 komentarzy z ostatnich 7 dni: nastroje pozytywne (12 pozytywnych, 9 negatywnych, 10 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidenda",
         "count": 4
       },
       {
-        "word": "ktos",
-        "count": 4
+        "word": "rekomendacja",
+        "count": 3
+      },
+      {
+        "word": "rekomendacji",
+        "count": 3
       },
       {
         "word": "erste",
@@ -103,14 +102,24 @@
       {
         "word": "zyskow",
         "count": 3
-      },
-      {
-        "word": "rekomendacji",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76015427",
+      "author": "IL",
+      "postedAt": "2026-10-08 15:46",
+      "threadTitle": "Re: mBank Rekomendacja",
+      "url": "https://www.bankier.pl/forum/temat_mbank-rekomendacja,75993617.html",
+      "body": "Jest rekomendacja z 25.09.2026 mBank Janusz Pięta - kupuj 28 700 - cena docelowa. Kurs z dnia rekomendacji 24 640",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76014031",
       "author": "Antoni",
@@ -119,7 +128,7 @@
       "url": "https://www.bankier.pl/forum/temat_mbank-rekomendacja,75993617.html",
       "body": "Mam konto w mMaklerze, ale nie znalazłem tej rekomendacji. Wciąż czekam na upublicznienie rekomendacji wydanych po raporcie za Q2. Erste wydało rekomendację z wyceną ok. 34 500 zł., to jeszcze sprzed raportu, ale założenia z rekomendacji pokrywają się z wynikami z raportu oraz z założonymi przez zarząd wynikami w najbliższych kwartałach. Uważam, że każda kolejna rekomendacja będzie już wyceniała akcję LPP na co najmniej 30 000 zł. Obecnie mamy cofnięcie na szerokim rynku, które może potrwać kilka dni, ale nie sądzę, żeby kurs LPP zszedł poniżej wsparcia, które obecnie jest na poziomie 23 800 zł. Na początku listopada zobaczymy dane o sprzedaży w Q3, a początek grudnia to już raport. Jeżeli Q3 rzeczywiście będzie tak dobry jak pokazywały to cząstkowe dane o sprzedaży podane przez zarząd przy okazji publikacji raportu za Q2, to jeszcze w grudniu możemy zobaczyć kurs z trójką z przodu, w pesymistycznej wersji 28 000. W perspektywie początku 2027 roku interesujące będzie, ile z oszczędności 1,6 biliona złotych ulokowanych na lokatach zostanie przeniesiona na giełdę (czy to bezpośrednio na akcje, czy fundusze akcyjne) poprzez OKI. To może być mocny impuls wzrostowy dla GPW.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -231,7 +240,7 @@
       "url": "https://www.bankier.pl/forum/temat_mbank-rekomendacja,75993617.html",
       "body": "28700",
       "votes": {
-        "up": 10,
+        "up": 12,
         "down": 0
       },
       "sentimentScore": 0,
@@ -358,7 +367,7 @@
       "body": "Na lpp zobaczycie jak zleca jak boś do 10 zł",
       "votes": {
         "up": 1,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -530,34 +539,6 @@
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75950633",
-      "author": "Analitykdomowy",
-      "postedAt": "2026-10-01 21:02",
-      "threadTitle": "Nowy trend w wodzie",
-      "url": "https://www.bankier.pl/forum/temat_nowy-trend-w-wodzie,75950633.html",
-      "body": "Ostatnio pojawiły się dwie nowe adaptacje filmowe powieści \"Lalka\".A co najciekawsze to główna bohaterka pani Łęcka i jej koleżanki codziennie kilka razy zmieniały kreacje. Czyli trzeba liczyć na 4× wzrost obrotów w LPP !",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75947699",
-      "author": "Kurator",
-      "postedAt": "2026-10-01 16:44",
-      "threadTitle": "Ponad 500 szt akcji jednym strzałem o 16.39",
-      "url": "https://www.bankier.pl/forum/temat_ponad-500-szt-akcji-jednym-strzalem-o-16-39,75947699.html",
-      "body": "Za 24640. Jak obstawiacie: zbijanie kursu? Wywalanie bo ktoś już wie że luki po odcięciu szybko nie zamkną?czy po prostu jakieś rozliczenia między misiami? Jakoś dzisiaj nerwowo zachowywał się kurs.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }

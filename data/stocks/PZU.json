@@ -3,32 +3,27 @@
   "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
-  "updatedAt": "2026-10-08T13:29:26.834Z",
+  "updatedAt": "2026-10-08T23:23:38.241Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-08T13:29:26.834Z",
+    "fetchedAt": "2026-10-08T23:23:38.241Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 23
+    "threadsScanned": 25
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.212,
-    "confidence": 0.77,
-    "commentCount": 109,
+    "score": 0.226,
+    "confidence": 0.78,
+    "commentCount": 103,
     "breakdown": {
-      "positive": 53,
-      "negative": 16,
-      "neutral": 40
+      "positive": 54,
+      "negative": 14,
+      "neutral": 35
     },
     "trend": [
-      {
-        "date": "2026-10-01",
-        "score": -0.022,
-        "count": 12
-      },
       {
         "date": "2026-10-02",
         "score": 0.21,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-10-08",
-        "score": 0.334,
-        "count": 19
+        "score": 0.324,
+        "count": 25
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 109 komentarzy z ostatnich 7 dni: nastroje pozytywne (53 pozytywnych, 16 negatywnych, 40 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 103 komentarzy z ostatnich 7 dni: nastroje pozytywne (54 pozytywnych, 14 negatywnych, 35 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
@@ -74,26 +69,14 @@
       },
       {
         "word": "https",
-        "count": 6
-      },
-      {
-        "word": "rhett",
-        "count": 5
-      },
-      {
-        "word": "dywidenda",
-        "count": 5
+        "count": 7
       },
       {
         "word": "kupowac",
         "count": 5
       },
       {
-        "word": "inflacja",
-        "count": 5
-      },
-      {
-        "word": "prudential",
+        "word": "rhett",
         "count": 5
       },
       {
@@ -101,16 +84,112 @@
         "count": 5
       },
       {
-        "word": "raczej",
+        "word": "rynek",
         "count": 4
       },
       {
         "word": "mysle",
         "count": 4
+      },
+      {
+        "word": "dywidenda",
+        "count": 4
+      },
+      {
+        "word": "jaki",
+        "count": 4
+      },
+      {
+        "word": "prudential",
+        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "76019145",
+      "author": "krasnalina",
+      "postedAt": "2026-10-08 23:38",
+      "threadTitle": "Działanie na obniżenie kursu",
+      "url": "https://www.bankier.pl/forum/temat_dzialanie-na-obnizenie-kursu,76019145.html",
+      "body": "Zauważyłam że na zakończenie dogrywki przez parę zlecen/ najczęściej 3/ są wystawiane duze zlecenia sprzedaży po kursie zamknięcia. Są to wielkości rzędu kilkudziesięciu tysiecy/ naczęściej około 40 000/ Ma to stwarzać wrażenie że kurs bedzie spadał. Rano następnego przed otwarciem notowań zlecenia znikają. Czyżby powstała spóldzielnia grająca na spadki?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76018665",
+      "author": "Newil",
+      "postedAt": "2026-10-08 21:30",
+      "threadTitle": "Re: drugie odciecie dywidendy....",
+      "url": "https://www.bankier.pl/forum/temat_drugie-odciecie-dywidendy,76010545.html",
+      "body": "Co za bełkot dzień w dzień.Za każdy wpis masz płacone ?",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76017949",
+      "author": "Tomy",
+      "postedAt": "2026-10-08 19:48",
+      "threadTitle": "Re: Fantastyczne informacje",
+      "url": "https://www.bankier.pl/forum/temat_fantastyczne-informacje,76017321.html",
+      "body": "Do tego kasa z dywidendy jutro będą kupować.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76017423",
+      "author": "Cnc",
+      "postedAt": "2026-10-08 18:40",
+      "threadTitle": "Uwaga nadchodzę dywidenda wpłynęła",
+      "url": "https://www.bankier.pl/forum/temat_uwaga-nadchodze-dywidenda-wplynela,76017423.html",
+      "body": "Jutro dokupuję akcje PZU .Polecam gorąco",
+      "votes": {
+        "up": 3,
+        "down": 2
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76017321",
+      "author": "Insurance",
+      "postedAt": "2026-10-08 18:31",
+      "threadTitle": "Fantastyczne informacje",
+      "url": "https://www.bankier.pl/forum/temat_fantastyczne-informacje,76017321.html",
+      "body": "https://www.samar.pl/rynek-w-liczbach/raport-ubezpieczen-2026-wrzesien-2026",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76016803",
+      "author": "Antydebil",
+      "postedAt": "2026-10-08 17:38",
+      "threadTitle": "Re: do końca roku ponad 80 zł",
+      "url": "https://www.bankier.pl/forum/temat_do-konca-roku-ponad-80-zl,76012669.html",
+      "body": "Czemu 80? Jak napiszesz 200 to mocniej urosnie!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76014691",
       "author": "Jamik",
@@ -119,7 +198,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-wplynela-juz-dywidenda-w-bm-w-erste-nie-widze,76012923.html",
       "body": "Mbank zawsze na końcu, nawet w PKO IKE juz jest",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -176,7 +255,7 @@
       "body": "Te wpisy o tym czy dywidenda jest juz na rachunku....",
       "votes": {
         "up": 0,
-        "down": 4
+        "down": 6
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -203,7 +282,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-wplynela-juz-dywidenda-w-bm-w-erste-nie-widze,76012923.html",
       "body": "mbank nie ma",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -259,7 +338,7 @@
       "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
       "body": "Może będzie, a może nie będzie",
       "votes": {
-        "up": 4,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -274,7 +353,7 @@
       "body": "nie rozumiem dlaczego dzisiaj kupować26 10.2026 będzie 67-68",
       "votes": {
         "up": 3,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -288,7 +367,7 @@
       "body": "8 października jak nic tak wygląda... i jak tam snucie opowieści o 79 zł? Nadal Alicja w krainie czarów",
       "votes": {
         "up": 1,
-        "down": 8
+        "down": 14
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -512,7 +591,7 @@
       "body": "Dyzma wetomat i dyzma gold dawac te złote kónie i kupowac dywidendowe w $$ takie jak np. Prudential. Czas zarabiać i zabezpieczyć nasz majatek od tych cwaniaków TRupa. Ograc ich ich własna bronia To akurat Polacy potrafią .Policzcie sobie sami ! Ja już zarabiam i za 3 wygenerowane dywidendy z Pzu w tym roku czas na listopadowe dywidendu Z amerykanskiej ubezpieczeniowej Tak dziadki zabezpieczac swój majatek ale zrobicie jak bedziecie chcieli . Jeszcze żyjemy w wolnej Polsce.",
       "votes": {
         "up": 2,
-        "down": 2
+        "down": 4
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -554,7 +633,7 @@
       "body": "Liczyc w USD to nie jest juz tanio było 3.50 w styczniu teraz idzie na 4 Ja tu nie widze taniosci Teraz jestem emerytem i ma 1000 $ emerytury ale jako 25 latek w latch 80 tych PRLu podejmowałem prace po studiach za ok 20 $ Policzcie sobie sami na jakim poziomie jest Polska po tych 30 latach..Emerytura na Ukrainie to 300 zł /msc .Policzcie sobie sami",
       "votes": {
         "up": 2,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -651,8 +730,8 @@
       "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
       "body": "Jaki sens kupowac akcje pzu gdy Prudential płaciy lepsze dywidendy i to kwartalnie . Wawskazniki C/Z C/WK lepsze..Proponuje tak przechowywac zielone na wypadek wojny z \"mongołęm\" z Kremla.Szanse na umocnienie PLN do USD małe a płacic za szmelc od TRupa to w USD i musimy kupowac te dólary.Może Kibol WEtomat podaruje mu swoja szkape to wreszcie coś z pożytkiem .może jakis bonus dla nas tu w Polsce.",
       "votes": {
-        "up": 4,
-        "down": 2
+        "up": 5,
+        "down": 3
       },
       "sentimentScore": 0.981,
       "sentimentLabel": "Positive"
@@ -945,7 +1024,7 @@
       "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
       "body": "> Dzisiaj niewielki pobór akcjii PZU po 69.50 ale stopy obronne na najnizszym i wyzerowanie LL FUSDotwórz swój wątek będzie prościej i zaproś janka",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": 0,
@@ -1468,174 +1547,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75951807",
-      "author": "Insurance",
-      "postedAt": "2026-10-01 22:44",
-      "threadTitle": "Re: Mabmab jaki jest cel Twoich wpisów?/insurance",
-      "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
-      "body": ".Będzie niższa inflacja więc obligacje podrożeją :⁠-⁠)",
-      "votes": {
-        "up": 1,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75951803",
-      "author": "Insurance",
-      "postedAt": "2026-10-01 22:44",
-      "threadTitle": "Re: Mabmab jaki jest cel Twoich wpisów?/insurance",
-      "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
-      "body": "Będzie niższa inflacja więc obligacje podrożeją :⁠-⁠)",
-      "votes": {
-        "up": 1,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75951445",
-      "author": "okk",
-      "postedAt": "2026-10-01 22:02",
-      "threadTitle": "Re: Denis",
-      "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
-      "body": "Dyzma Wetomat i Gold Dyzma a dac im po te 100 tys $ i niech nam nie szkodza .Prudential już po 112 $/akcja to szykować połowe rezerw złota co leżą u Trupa i w okolicach 100 $ kupować pod dywidendy kwartalne. Maja realną szanse cos zarobić na swoje utrzymanie.",
-      "votes": {
-        "up": 2,
-        "down": 11
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75951447",
-      "author": "PIOTR",
-      "postedAt": "2026-10-01 22:02",
-      "threadTitle": "Re: Mabmab jaki jest cel Twoich wpisów?/insurance",
-      "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
-      "body": "Nie wydaje mi się. Raczej widać odpływ kapitału z parkietu, co jutrzejsze notowania Orlenu zapewne potwierdzą. Polska staje się znowu ryzykownym rynkiem.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75950901",
-      "author": "highprobability",
-      "postedAt": "2026-10-01 21:21",
-      "threadTitle": "Re: Mabmab jaki jest cel Twoich wpisów?/insurance",
-      "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
-      "body": "Chyba, że PZU zyska kapitałowo na skutek relokacji środków po orędziu prezydenta.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75949381",
-      "author": "PIOTR",
-      "postedAt": "2026-10-01 19:25",
-      "threadTitle": "Re: Mabmab jaki jest cel Twoich wpisów?/insurance",
-      "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
-      "body": "Dziś PZU jeszcze obroniło poziom 70 zł, może nawet jutro obroni, ale kierunek wyznaczony i 6 z przodu jest kwestią dni, nie tygodni.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75947785",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 16:49",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Potwierdzam, miotają się, źle to wygląda a jak tam pójdzie korekta to u nas x 2 , wiadomo na korekcie zarobi USA dostępność aplikacji inwestycyjnych w telefonach zdrenuje pieniądze za ocean.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75947611",
-      "author": "mabmab",
-      "postedAt": "2026-10-01 16:39",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Amerykanie to takie duze dzieci ktore nigdy nie dorastaja.wysluchalem dzis Hegsetha ktory mial wystapienie dla zolnierzy....nie ma zludzen w jakim kierunku to zmierza fanatyzm religijny przeniesiony do wojska on powolywal sie na Izajasza...slepe posluszenstwo i nic ponadto. Dzis Rubio wykopal delegacje Iranu z obrad ONZ. W dobrym kierunku to nie zmierza. Eskalacja to inflacja",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75947127",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 16:05",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "W USA sytuacja jest na końcu gospodarki wolnorynkowej, teraz albo bardzo poważny kryzys inflacyjny pozbawiający amerykanów oszczędności i emerytur albo jakaś wojna domowa albo model japoński, niestety system polityczny w którym grupa ludzi posiadająca banki rządzi z tylnego fotela się nie sprawdził a obecna czołówka dziesięciu wiodących spółek nie płaci podatków , tak więc nie aż tacy mądrzy i sprytni ci Amerykanie dali się owinąć wokół palca jednej wiadomej narodowości, niestety.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75947091",
-      "author": "Warcraft",
-      "postedAt": "2026-10-01 16:01",
-      "threadTitle": "Re: Ogromne wzrosty cen polis OC",
-      "url": "https://www.bankier.pl/forum/temat_ogromne-wzrosty-cen-polis-oc,75945043.html",
-      "body": "Wódz Czarna Skała z plemienia dolaroców od wczoraj mówi,że będą obniżki oc:) i słaba dywidenda :)",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75946821",
-      "author": "Mode",
-      "postedAt": "2026-10-01 15:41",
-      "threadTitle": "Re: Mabmab jaki jest cel Twoich wpisów?/insurance",
-      "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
-      "body": "Spokojnie bez pośpiechu, narazie pchają pge",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75946675",
-      "author": "Malina",
-      "postedAt": "2026-10-01 15:30",
-      "threadTitle": "Re: Batyr vel Wetomat zaszachowany",
-      "url": "https://www.bankier.pl/forum/temat_batyr-vel-wetomat-zaszachowany,75896193.html",
-      "body": "I trąba powietrza i powódź, hahahaba",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
