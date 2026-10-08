@@ -3,31 +3,31 @@
   "companyName": "KRUK",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk,6,21,10000001000.html",
-  "updatedAt": "2026-10-08T06:03:16.682Z",
+  "updatedAt": "2026-10-08T13:28:13.805Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-08T06:03:16.682Z",
+    "fetchedAt": "2026-10-08T13:28:13.805Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 22
+    "threadsScanned": 23
   },
   "analysis": {
-    "signal": "SELL",
-    "score": -0.151,
+    "signal": "HOLD",
+    "score": -0.14,
     "confidence": 0.75,
     "commentCount": 100,
     "breakdown": {
-      "positive": 25,
+      "positive": 23,
       "negative": 42,
-      "neutral": 33
+      "neutral": 35
     },
     "trend": [
       {
         "date": "2026-10-01",
-        "score": 0.043,
-        "count": 6
+        "score": -0.107,
+        "count": 3
       },
       {
         "date": "2026-10-02",
@@ -58,10 +58,15 @@
         "date": "2026-10-07",
         "score": -0.151,
         "count": 6
+      },
+      {
+        "date": "2026-10-08",
+        "score": -0.107,
+        "count": 3
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 100 komentarzy z ostatnich 7 dni: nastroje negatywne (25 pozytywnych, 42 negatywnych, 33 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 100 komentarzy z ostatnich 7 dni: nastroje negatywne (23 pozytywnych, 42 negatywnych, 35 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruk",
@@ -80,11 +85,15 @@
         "count": 8
       },
       {
-        "word": "przy",
-        "count": 8
+        "word": "ponizej",
+        "count": 7
       },
       {
         "word": "cena",
+        "count": 7
+      },
+      {
+        "word": "przy",
         "count": 7
       },
       {
@@ -96,16 +105,54 @@
         "count": 6
       },
       {
-        "word": "ponizej",
-        "count": 6
-      },
-      {
         "word": "troche",
         "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "76011881",
+      "author": "xyz",
+      "postedAt": "2026-10-08 11:13",
+      "threadTitle": "Re: OGŁASZAM WYŚCIGI SHORTÓW",
+      "url": "https://www.bankier.pl/forum/temat_oglaszam-wyscigi-shortow,75988445.html",
+      "body": "do KuratorPrzepraszam ale nie rozumiem Twojego pytania dotyczacego pozyczjacego akcje i jego intencji. Czy moglbys to rozwinac? Dla mnie pojawienie sie shortow jest malo istotnym zdarzeniem, czasem nawet pomocnym patrzac jak reaguje na to kurs akcji. Jesli spolke uwazam za atrakcyjna to wtedy moge kupic ja jeszcze taniej, a to czy jest atrakcyjna zweryfikuje raport finansowy a nie ilosc shortow. Kurs rzadko pokazuje wartosc spolki a na fluktuacjach mozna zarobic. Ja chce zarobic na wzrostach ktos inny na spadkach.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76011303",
+      "author": "Gekon",
+      "postedAt": "2026-10-08 10:38",
+      "threadTitle": "Pod co leci ?",
+      "url": "https://www.bankier.pl/forum/temat_pod-co-leci,76011303.html",
+      "body": "Okazja do kupna ,czy za wcześnie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76009433",
+      "author": "xyk",
+      "postedAt": "2026-10-08 08:18",
+      "threadTitle": "NADAL SPOKOJNIE",
+      "url": "https://www.bankier.pl/forum/temat_nadal-spokojnie,76009433.html",
+      "body": "Jeśli spadnie poniżej 370 można dokupić...",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76007747",
       "author": "Mat",
@@ -114,8 +161,8 @@
       "url": "https://www.bankier.pl/forum/temat_buyback-akcji,76007747.html",
       "body": "Właśnie w sytuacji: duże ceny portfeli, IRR zaczyna spadać, akcje KRUK-a mają P/E ~7x, kupowanie własnych akcji staje się atrakcyjniejszym wykorzystaniem marginalnego kapitału niż kupowanie portfeli po zbyt wysokich cenach.",
       "votes": {
-        "up": 2,
-        "down": 1
+        "up": 9,
+        "down": 2
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
@@ -143,7 +190,7 @@
       "body": "https://shorty.pl/emitent/kruk/ quebe na razie w plecy",
       "votes": {
         "up": 5,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -170,8 +217,8 @@
       "url": "https://www.bankier.pl/forum/temat_teraz-panowie-spokojnie,75998715.html",
       "body": "...shorty będą dziś zbijać kurs żeby pokazać, że wyższej ceny nie będzie.. ale one mają na odwrót jak my... jeśli cena wzrośnie, to będą musiały czekać ze skupem miesiąc aż spadnie, tak samo jak my mamy, kiedy cena spadnie i mamy zamrożoną kasę do wzrostu. KRUK może wypuścić jakąś informację o wynikach za 3 kwartał w każdej chwili także z każdym dniem Shorty będą się bardziej pociły i podnosiły cenę. - Ci co kupili za 370 zł mogą sprzedać przy 400... rozumiem, że 10% zysku w tydzień, to dobry wynik... i tak oszukacie shorty, bo kupicie taniej i sprzedacie drożej, czyli wyciągniecie kasę z Shortów.- Ci co kupili poniżej 400 zł to muszą zaczekać w okolice raportu kwartalnego.. cena powinna podnieść się do 420 zł- Ci co chcą widzieć na cenie akcji 5 z przodu muszą zaczekać dużej... pewnie do maja, kiedy będzie decyzja o dywidendzie, ale i tak 25-30 % w parę miesięcy, to dobry wynik...Powodzenia!",
       "votes": {
-        "up": 18,
-        "down": 0
+        "up": 20,
+        "down": 1
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
@@ -226,7 +273,7 @@
       "url": "https://www.bankier.pl/forum/temat_oglaszam-wyscigi-shortow,75988445.html",
       "body": "A skad wiesz ze juz nie zarobily? Na ile sie orientuje to te fundusze bazuja na algorytmach. W trakcie sesji moga wielokrotnie otwierac i zamykac pozycje zarabiajac na tym i na koniec dnia miec caly czas krotka pozycje. Moim zdaniem jesli uwazasz ze po otwarciu pozycji caly czas czekaja na spadek kursu aby zarobic to jestes w bledzie.Powodzenia zycze.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -283,7 +330,7 @@
       "body": "Poniżej 400 to jest cały czas promocja.",
       "votes": {
         "up": 9,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -311,7 +358,7 @@
       "body": "Pamiętajcie, żeby sprzedawać drogo...niech Shorty nie mają łatwego zysku:- TWO SIGMA INVESTMENTS, LP - ujawnił się przy cenie - 397.90 zł... niżej nie ma co im sprzedawać...",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
@@ -339,7 +386,7 @@
       "body": "Czy wygra TWO SIGMA INVESTMENTS, LP z Nowego Jorku, czy też QUBE RESEARCH & TECHNOLOGIES LIMITED z Londynu? Który szort szybciej wykupi akcje i zostawi drugiego ze stratą?Na razie lepiej wyglądają Sigmy, weszły na wyższym poziomie ceny akcji i zarobiły. QUBE nie wiem po co tu jest, chyba, żeby pozbyć się gotówki…ale może zawalczyć w wykupie…",
       "votes": {
         "up": 12,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -1460,48 +1507,6 @@
       "votes": {
         "up": 0,
         "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75943845",
-      "author": "Kurator",
-      "postedAt": "2026-10-01 12:01",
-      "threadTitle": "Re: gdzie zarząd?",
-      "url": "https://www.bankier.pl/forum/temat_gdzie-zarzad,75703421.html",
-      "body": "Może się ogarną i zaczną kupować? Pewnie marzenia?...... ale co tam",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75942257",
-      "author": "ToblaKai",
-      "postedAt": "2026-10-01 10:26",
-      "threadTitle": "Re: Wycena",
-      "url": "https://www.bankier.pl/forum/temat_wycena,75586459.html",
-      "body": "Ale Was poubierali w futerka na zimę.:-) Oby tylko na jedną. Mam ochotę wejść do gry przy 372 ale coś mi mówi, że za chwilę będzie 352. Chyba poczekam :-). Rentowność obligacji w USA idzie na rekord, rynki napompowane do granic możliwości, jak to zaraz wszystko huknie to tylko ziemia zadrży. Lepiej cierpliwie poczekać z gotówką na zakupy 10-lecia.",
-      "votes": {
-        "up": 7,
-        "down": 7
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75941475",
-      "author": "superfan_xtb",
-      "postedAt": "2026-10-01 09:43",
-      "threadTitle": "ponoć terapia czerwonym jest zdrowa",
-      "url": "https://www.bankier.pl/forum/temat_ponoc-terapia-czerwonym-jest-zdrowa,75941475.html",
-      "body": "a zdrowi ludzie dłużej żyją",
-      "votes": {
-        "up": 3,
-        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"

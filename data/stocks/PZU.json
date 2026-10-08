@@ -3,31 +3,31 @@
   "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
-  "updatedAt": "2026-10-08T06:04:14.417Z",
+  "updatedAt": "2026-10-08T13:29:26.834Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-08T06:04:14.417Z",
+    "fetchedAt": "2026-10-08T13:29:26.834Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 19
+    "threadsScanned": 23
   },
   "analysis": {
-    "signal": "HOLD",
-    "score": 0.146,
-    "confidence": 0.75,
-    "commentCount": 125,
+    "signal": "BUY",
+    "score": 0.212,
+    "confidence": 0.77,
+    "commentCount": 109,
     "breakdown": {
-      "positive": 43,
-      "negative": 21,
-      "neutral": 61
+      "positive": 53,
+      "negative": 16,
+      "neutral": 40
     },
     "trend": [
       {
         "date": "2026-10-01",
-        "score": 0.008,
-        "count": 47
+        "score": -0.022,
+        "count": 12
       },
       {
         "date": "2026-10-02",
@@ -58,54 +58,325 @@
         "date": "2026-10-07",
         "score": 0.167,
         "count": 24
+      },
+      {
+        "date": "2026-10-08",
+        "score": 0.334,
+        "count": 19
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 125 komentarzy z ostatnich 7 dni: nastroje pozytywne (43 pozytywnych, 21 negatywnych, 61 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 109 komentarzy z ostatnich 7 dni: nastroje pozytywne (53 pozytywnych, 16 negatywnych, 40 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
-        "count": 10
-      },
-      {
-        "word": "roku",
         "count": 8
       },
       {
         "word": "https",
-        "count": 8
-      },
-      {
-        "word": "prudential",
         "count": 6
       },
       {
-        "word": "obligacji",
-        "count": 6
+        "word": "rhett",
+        "count": 5
+      },
+      {
+        "word": "dywidenda",
+        "count": 5
+      },
+      {
+        "word": "kupowac",
+        "count": 5
       },
       {
         "word": "inflacja",
         "count": 5
       },
       {
-        "word": "stop",
+        "word": "prudential",
         "count": 5
       },
       {
-        "word": "zysk",
+        "word": "roku",
         "count": 5
       },
       {
-        "word": "rhett",
+        "word": "raczej",
         "count": 4
       },
       {
-        "word": "wiadomo",
+        "word": "mysle",
         "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "76014691",
+      "author": "Jamik",
+      "postedAt": "2026-10-08 14:43",
+      "threadTitle": "Re: czy wpłynęła już dywidenda w bm w erste nie widzę",
+      "url": "https://www.bankier.pl/forum/temat_czy-wplynela-juz-dywidenda-w-bm-w-erste-nie-widze,76012923.html",
+      "body": "Mbank zawsze na końcu, nawet w PKO IKE juz jest",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76014201",
+      "author": "Mistral",
+      "postedAt": "2026-10-08 14:08",
+      "threadTitle": "Re: czy wpłynęła już dywidenda w bm w erste nie widzę",
+      "url": "https://www.bankier.pl/forum/temat_czy-wplynela-juz-dywidenda-w-bm-w-erste-nie-widze,76012923.html",
+      "body": "Alior nie ma",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76013823",
+      "author": "Mario_az",
+      "postedAt": "2026-10-08 13:36",
+      "threadTitle": "Re: czy wpłynęła już dywidenda w bm w erste nie widzę",
+      "url": "https://www.bankier.pl/forum/temat_czy-wplynela-juz-dywidenda-w-bm-w-erste-nie-widze,76012923.html",
+      "body": "Bossa jest. Ing i Saxo jeszcze nie :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76013683",
+      "author": "janek",
+      "postedAt": "2026-10-08 13:25",
+      "threadTitle": "Re: Denis Drump wywraca pokerowy stolik \"rynków kapitałowych\"",
+      "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
+      "body": "rhett, KGHM nie dal rady wyjsc powyzej 340 wiec mamy nizszy sufit wiec teraz 320 raczej nie wytrzyma i bedzie zejscie mysle min na 310 a pewnie i 300. No chyba ze oszukuja i po 15 wyciagna... Czekam z L na fw20 4030-4060 zobaczymy czy dadzą na dniach...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76013581",
+      "author": "mabmab",
+      "postedAt": "2026-10-08 13:16",
+      "threadTitle": "Nikt wam dywidendy nie ukradnie",
+      "url": "https://www.bankier.pl/forum/temat_nikt-wam-dywidendy-nie-ukradnie,76013581.html",
+      "body": "Te wpisy o tym czy dywidenda jest juz na rachunku....",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76013163",
+      "author": "Ator",
+      "postedAt": "2026-10-08 12:47",
+      "threadTitle": "Re: czy wpłynęła już dywidenda w bm w erste nie widzę",
+      "url": "https://www.bankier.pl/forum/temat_czy-wplynela-juz-dywidenda-w-bm-w-erste-nie-widze,76012923.html",
+      "body": "Pekao na obecną chwilę tez jeszcze nie ma. Pewnie po 15 sie zaksięguje jak zwykle zresztą.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76013001",
+      "author": "pzq1",
+      "postedAt": "2026-10-08 12:36",
+      "threadTitle": "Re: czy wpłynęła już dywidenda w bm w erste nie widzę",
+      "url": "https://www.bankier.pl/forum/temat_czy-wplynela-juz-dywidenda-w-bm-w-erste-nie-widze,76012923.html",
+      "body": "mbank nie ma",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76012923",
+      "author": "marcinl0",
+      "postedAt": "2026-10-08 12:29",
+      "threadTitle": "czy wpłynęła już dywidenda w bm w erste nie widzę",
+      "url": "https://www.bankier.pl/forum/temat_czy-wplynela-juz-dywidenda-w-bm-w-erste-nie-widze,76012923.html",
+      "body": "a jak jest w innych bm",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76012331",
+      "author": "Czerwi",
+      "postedAt": "2026-10-08 11:44",
+      "threadTitle": "Re: Dywidenda dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
+      "body": "Już jest",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76011749",
+      "author": "Xxx",
+      "postedAt": "2026-10-08 11:04",
+      "threadTitle": "Re: Dywidenda dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
+      "body": "22 października raport uni credit a 26 października to już po frytkach a czasu niewiele na decyzję Można powiedzieć ze ta data nakreśli kurs przynajmniej tak myślę",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76011565",
+      "author": "Olo",
+      "postedAt": "2026-10-08 10:53",
+      "threadTitle": "Re: Dywidenda dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
+      "body": "Może będzie, a może nie będzie",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76011539",
+      "author": "maciek",
+      "postedAt": "2026-10-08 10:50",
+      "threadTitle": "Re: Dywidenda dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
+      "body": "nie rozumiem dlaczego dzisiaj kupować26 10.2026 będzie 67-68",
+      "votes": {
+        "up": 3,
+        "down": 4
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76010545",
+      "author": "mabmab",
+      "postedAt": "2026-10-08 09:48",
+      "threadTitle": "drugie odciecie dywidendy....",
+      "url": "https://www.bankier.pl/forum/temat_drugie-odciecie-dywidendy,76010545.html",
+      "body": "8 października jak nic tak wygląda... i jak tam snucie opowieści o 79 zł? Nadal Alicja w krainie czarów",
+      "votes": {
+        "up": 1,
+        "down": 8
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76010183",
+      "author": "Olo",
+      "postedAt": "2026-10-08 09:26",
+      "threadTitle": "Re: Dywidenda dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
+      "body": "Ja też kupuję, powinna być koło południa.",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76010121",
+      "author": "bankier69",
+      "postedAt": "2026-10-08 09:21",
+      "threadTitle": "Re: Dywidenda dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
+      "body": "myśle że lekko po południ, do 17 zdążysz kupić",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76010093",
+      "author": "Heh",
+      "postedAt": "2026-10-08 09:18",
+      "threadTitle": "Re: Dywidenda dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
+      "body": "A kiedy to na konta wchodzi? Koło południa, wieczorem? Jutro?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76009923",
+      "author": "Pomocnikkowala",
+      "postedAt": "2026-10-08 09:06",
+      "threadTitle": "Re: Dywidenda dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
+      "body": "A my nie .",
+      "votes": {
+        "up": 4,
+        "down": 4
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76009515",
+      "author": "bankier69",
+      "postedAt": "2026-10-08 08:27",
+      "threadTitle": "Re: Dywidenda dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
+      "body": "wierzę, ze powinna spokojnie chodzic po 90-100 pln",
+      "votes": {
+        "up": 6,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76009491",
+      "author": "bankier69",
+      "postedAt": "2026-10-08 08:24",
+      "threadTitle": "Dywidenda dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_dywidenda-dzisiaj,76009491.html",
+      "body": "ja wszysko co dostaje wkladam ponownie w pzua wy inwestory?",
+      "votes": {
+        "up": 6,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76004977",
       "author": "janek",
@@ -199,7 +470,7 @@
       "body": "Ostatecznie może i odkupie akcje PZU w ok 60 zł To i tak dużo Poczekamy zobaczymy Koncze tutaj bo raczej inne kierunki .Powodzenia",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -241,7 +512,7 @@
       "body": "Dyzma wetomat i dyzma gold dawac te złote kónie i kupowac dywidendowe w $$ takie jak np. Prudential. Czas zarabiać i zabezpieczyć nasz majatek od tych cwaniaków TRupa. Ograc ich ich własna bronia To akurat Polacy potrafią .Policzcie sobie sami ! Ja już zarabiam i za 3 wygenerowane dywidendy z Pzu w tym roku czas na listopadowe dywidendu Z amerykanskiej ubezpieczeniowej Tak dziadki zabezpieczac swój majatek ale zrobicie jak bedziecie chcieli . Jeszcze żyjemy w wolnej Polsce.",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -283,7 +554,7 @@
       "body": "Liczyc w USD to nie jest juz tanio było 3.50 w styczniu teraz idzie na 4 Ja tu nie widze taniosci Teraz jestem emerytem i ma 1000 $ emerytury ale jako 25 latek w latch 80 tych PRLu podejmowałem prace po studiach za ok 20 $ Policzcie sobie sami na jakim poziomie jest Polska po tych 30 latach..Emerytura na Ukrainie to 300 zł /msc .Policzcie sobie sami",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -339,7 +610,7 @@
       "body": "No to przynajmniej Ci co dostaną dywidendy z PZU pozabezpieczać ta dywidenda swoj kapital w USD w np .PRU . Tak na wszelki wypadek .W portfelu muszą być dólary Takie czasy.",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -381,7 +652,7 @@
       "body": "Jaki sens kupowac akcje pzu gdy Prudential płaciy lepsze dywidendy i to kwartalnie . Wawskazniki C/Z C/WK lepsze..Proponuje tak przechowywac zielone na wypadek wojny z \"mongołęm\" z Kremla.Szanse na umocnienie PLN do USD małe a płacic za szmelc od TRupa to w USD i musimy kupowac te dólary.Może Kibol WEtomat podaruje mu swoja szkape to wreszcie coś z pożytkiem .może jakis bonus dla nas tu w Polsce.",
       "votes": {
         "up": 4,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.981,
       "sentimentLabel": "Positive"
@@ -395,7 +666,7 @@
       "body": "No przeciz pisze zamiast PZU Prudential To najlepszy schowek dla posiadaczy USD.Moje pierwsze wejscie na 112 $ ale czekam cierpliwie na ok 100",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -492,7 +763,7 @@
       "url": "https://www.bankier.pl/forum/temat_jak-to-jest-ze-zawsze-jak-sprzedam-do-idzie-w-gore,75991927.html",
       "body": "Masz ci los",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": 0,
@@ -689,7 +960,7 @@
       "body": "i juz bez PZU Teraz za zarobione $$ rozpoczynam polowanie na PRUdential Przy 112 pierwsze delikatne wejscie ale celuje poniżej 100 Wskazniki i dywidenda lepsze niż pzu No i dobra przechowalnia USD. A dla portfelu dziadka to obowiazek . Sami sobie policzcie. A tymczasem Dyzma Wetomat na kuniu jezdzi za nasze podatki Kibol na kuniu to jak dyzma na kajaku w Oxfordzie.",
       "votes": {
         "up": 2,
-        "down": 5
+        "down": 6
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -744,7 +1015,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprzedawac-czy-czekac,75978893.html",
       "body": "Przemyśl co chcesz osiągnąć, jeśli szybki zysk to sprzedaj, ja zostawiam to na emeryturę, w przyszłym roku dywidenda raczej wyższa niż w tym roku ( i co za tym idzie kurs), moim zdaniem kurs za rok minimum 20% wyżej, decyduj",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1151,7 +1422,7 @@
       "body": "Dzisiaj niewielki pobór akcjii PZU po 69.50 ale stopy obronne na najnizszym i wyzerowanie LL FUSD",
       "votes": {
         "up": 2,
-        "down": 6
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1193,7 +1464,7 @@
       "body": "W oczekiwaniu na krach (te interwencje na amerykanskim długu to \"czas sie bać\" ) troche kultury i wysokiej klasy sztuki filmowej : Historia genialnej ,ponadczasowej produkcji : \"Kariera Nikodema Dyzmy\" https://www.youtube.com/watch?v=EyvQY4YpCaY No to może nadszedł czas na współczesną wersje ; \"Kariera Wetomata Dyzmy\" Historia osiedlowego kibola co idzie w \"prezydenty\"",
       "votes": {
         "up": 4,
-        "down": 10
+        "down": 11
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -1235,7 +1506,7 @@
       "body": "Dyzma Wetomat i Gold Dyzma a dac im po te 100 tys $ i niech nam nie szkodza .Prudential już po 112 $/akcja to szykować połowe rezerw złota co leżą u Trupa i w okolicach 100 $ kupować pod dywidendy kwartalne. Maja realną szanse cos zarobić na swoje utrzymanie.",
       "votes": {
         "up": 2,
-        "down": 10
+        "down": 11
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -1365,496 +1636,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75946359",
-      "author": "Insurance",
-      "postedAt": "2026-10-01 15:05",
-      "threadTitle": "Re: Batyr vel Wetomat zaszachowany",
-      "url": "https://www.bankier.pl/forum/temat_batyr-vel-wetomat-zaszachowany,75896193.html",
-      "body": ",Fuzji nie będzie ale kilka mld kapitałów prawdopodobnie zostanie uwolnionych pod Solvency 2",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75946353",
-      "author": "Insurance",
-      "postedAt": "2026-10-01 15:05",
-      "threadTitle": "Re: Batyr vel Wetomat zaszachowany",
-      "url": "https://www.bankier.pl/forum/temat_batyr-vel-wetomat-zaszachowany,75896193.html",
-      "body": "Fuzji nie będzie ale kilka mld kapitałów prawdopodobnie zostanie uwolnionych pod Solvency 2",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75945765",
-      "author": "Newil",
-      "postedAt": "2026-10-01 14:18",
-      "threadTitle": "Re: Mabmab jaki jest cel Twoich wpisów?/insurance",
-      "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
-      "body": "Bo wtedy będę miał znaczne środki na dobranie.Podejrzewam że CzarnyRok tez",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75945463",
-      "author": "Pinki",
-      "postedAt": "2026-10-01 13:59",
-      "threadTitle": "Re: Ogromne wzrosty cen polis OC",
-      "url": "https://www.bankier.pl/forum/temat_ogromne-wzrosty-cen-polis-oc,75945043.html",
-      "body": "Zaczyna sie. Wywózka śmieci, energia... teraz to. Przestrzeni jest na OC + 100 procent",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75945043",
-      "author": "Insurance",
-      "postedAt": "2026-10-01 13:32",
-      "threadTitle": "Ogromne wzrosty cen polis OC",
-      "url": "https://www.bankier.pl/forum/temat_ogromne-wzrosty-cen-polis-oc,75945043.html",
-      "body": "https://www.money.pl/mobility/ceny-oc-gwaltownie-w-gore-takich-podwyzek-nie-bylo-od-lat-7335296970074400a-komentarze.html?utm_medium=bottombar&utm_source=comments",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75945037",
-      "author": "Oneway",
-      "postedAt": "2026-10-01 13:31",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Pamiętam paliwo po 5 i kWh po 0.5 . Pora na PZU.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75944857",
-      "author": "Insurance",
-      "postedAt": "2026-10-01 13:17",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Pamiętajmy że do końca roku jest zapowiadane uwolnienie kapitałów które \"dopisze\" kilka mld PLN...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75944795",
-      "author": "Takilajf",
-      "postedAt": "2026-10-01 13:12",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Średnia cena w 2026 roku samego oc 650 zł, szybciitko może być 1200, bo to tylko jedno tankowanie więcej a reszta, będzie gonić średnią ue.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75944603",
-      "author": "mabmab",
-      "postedAt": "2026-10-01 12:58",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Bo piewcy nie widzą powiazan na rynkach finansowych. A Warsh juz pokazał jak widzi politykę stop w USA pr,ed midterm bez podwyżek a w grudniu kolejną podwyżka najmniej 25 bps",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75944553",
-      "author": "mabmab",
-      "postedAt": "2026-10-01 12:54",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "A skąd to Newil na wątku Dystrybucji i wplywu rentowności obligacji na kurs? 69.96 zaliczone teraz podbicie i zjazd jak w klasycznym schemacie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75944257",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 12:30",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Odnośnie zwiększenia wpływów z składek ubezpieczeniowych, mam 10letnie A6 i składka OC,AC w PZU to 7-8 tyś PLN a Link4 2.2 tyś. biorę wiadomo w Link4 a jak wiadomo Link4 to spółka PZU która chronicznie jest na minusie. Nie przesadzałbym z hura-optymizmem jeśli PZU walczy na rynku nierentowną spółką.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75944079",
-      "author": "Iknowit",
-      "postedAt": "2026-10-01 12:16",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Czuje, że zaraz szlag trafi\" ciche porozumienie lub pewną solidarność między funduszami i zacznie sie początek ostrej walki na kursie.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75944063",
-      "author": "Zic",
-      "postedAt": "2026-10-01 12:15",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Wyzbierane.Ktoś te pakiety luppwał. Przecież na wiosnę przed wyborami powinna być dywid.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75943991",
-      "author": "Mat",
-      "postedAt": "2026-10-01 12:11",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Dołek już był",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75943871",
-      "author": "Naraju",
-      "postedAt": "2026-10-01 12:03",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "I o to idzie cała zabawa, bo podwyżki będą pytanie czy na raz czy serial w odcinkach. Zresztą pkb per capita Polski to już 82% średniej unijnej. Łatwo oszacować gdzie zmierzamy. W 2026 roku ubezpieczenia w Polsce są średnio od 2 do nawet 5 razy tańsze niż w krajach Starej Unii. Wszystko będzie wsparte na PZU wpływami z sektora bankowego i obligacyjnego. Zresztą jak wpisali w budżet wpływu z wpływy total na poziomie 13,9 mld zł wyższe o blisko 76% jak w poprzednim to coś jest na rzeczy. Fajnie, że coś sie ruszyło i jest podwyższona zmienność, rynki to uwielbiają. A ludzie, jak to ludzie, rzuca sie na końcu tak jak na PGE dopiero w momencie gdy dostaną kwit od listonosza.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75943867",
-      "author": "skk",
-      "postedAt": "2026-10-01 12:03",
-      "threadTitle": "Mam pytanko",
-      "url": "https://www.bankier.pl/forum/temat_mam-pytanko,75943867.html",
-      "body": "Jak dostajecie pit 8c od swojego maklera. To on wlicza również prowizje oraz koszt prowadzenia rachunku maklerskiego ? czy mam coś sam z tym kombinować. słyszałem również, że wliczają czasami tylko koszty prowizji kupna-sprzedaży, a prowadzenie rachunku nie wliczają, jak jest u was ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75943619",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 11:46",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Dokładnie tak, też czekam na dołek obecnej korekty mamy na PZU już -10% a do ilu dojedzie??? Domy maklerskie -20% traktują jako zmianę trendu.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75943571",
-      "author": "Light",
-      "postedAt": "2026-10-01 11:42",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Powiem tylko tyle : paliw i energii już sie nie da pchać, nie chodzi o cene nominalną a o nastroje społeczne a ubezpieczenia OC, AC, majątkowe i korporacyjne, na luzie można.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75943435",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 11:32",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Lotos, miłe wspomnienie był zysk:) PKN wiadomo rozegrany przez obecną władzę pod siebie, płakali, narzekali, dramatyzowali z tymi olefinami, robili odpisy i straty że mało brakowało a Orlen by zbankrutował:) tak raportowali że zjechali na 45-50 nie pamiętam ,pod zakupy i następnie niekończąca się seria sukcesów ?!? Nie jeden pewnie się dorobił legalnie milionów nie kiwnąwszy palcem w bucie:)",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75943297",
-      "author": "Newil",
-      "postedAt": "2026-10-01 11:24",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Podobnie było na Lotosie ,Orlenie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75943267",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 11:22",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Zależy jaka kto ma strategie, ja liczyłem, że do dywidendy PZU dojedzie do 85 i nie dojechało, ważne żeby być tym core a nie skórką i małymi krokami na takich spółkach podnosić wynik na +.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75943165",
-      "author": "Soczek",
-      "postedAt": "2026-10-01 11:18",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Jest core - rdzeń pomarańczy, której się nie rusza i jest skórka, którą sie animuje i gra aby zebrać doczesną i przyszłą rentowność.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75943159",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 11:18",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "dokładnie tak, po tak dużych wzrostach w 2026r teraz wszyscy po dywidendach siedzą z palcem na enterze.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75943089",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 11:15",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "I patrzcie, godzina 10.45 baton 140K akcji rzucony z ręki do ręki że niby ktoś nagle uznał że można już zabierać i powolny wzrost na małych wolumenach , taka sama sytuacja kopiuj-wklej na innych bankach.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75943079",
-      "author": "PIOTR",
-      "postedAt": "2026-10-01 11:14",
-      "threadTitle": "Re: Mabmab jaki jest cel Twoich wpisów?/insurance",
-      "url": "https://www.bankier.pl/forum/temat_mabmab-jaki-jest-cel-twoich-wpisow,75926913.html",
-      "body": "A dlaczego akurat do 08.10 ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75943025",
-      "author": "Jorg",
-      "postedAt": "2026-10-01 11:12",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "PZU od początku giełdowej historii zaliczało 50% spadku po szczytach. Tym razem nie będzie inaczej. PE warszawskiej giełdy prędzej czy później dostosuje sie do kuponu 10letnich obligacji. Tam jest ponad 6% bez ryzyka więc akcje muszą dawac przynajmniej 8% rocznie",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75942899",
-      "author": "Ryś",
-      "postedAt": "2026-10-01 11:03",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Dokładnie. Do końca listopada zjadą w przedział 61-63. Niestety Straszenie wojną jeszcze im pomagaTakże trzymać kasę.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75942451",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 10:36",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "W PZU siedzi Black Rock i to on rozgrywa kurs, nikt ich nie przyciśnie i nie zrobi żadnego rajdu bez ich zgody, GS ani BoA ani PKOBP .",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75942329",
-      "author": "janek",
-      "postedAt": "2026-10-01 10:30",
-      "threadTitle": "Re: Denis",
-      "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
-      "body": "Połowa S na fw20 sprzedana...",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75942265",
-      "author": "Xxx",
-      "postedAt": "2026-10-01 10:26",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Dociśniecie jak przy kghm i rajd",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75942003",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 10:11",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Prawie cały WIG20 spada, fundusze już nie udają uciekają do obligacji USA widać to po walutach, do tej pory dystrybucja była łagodna i zakamuflowana , dzisiaj wszystko jasne a jeśli ok. 15.00 zacznie mocno rosnąc to tym bardziej sygnał do zamykania pozycji.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75941743",
-      "author": "Antydebil",
-      "postedAt": "2026-10-01 09:56",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "Czemu piewcy 100 nie rownowaza podazy??? 30 zeta to mega okazja przeciez...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75941545",
-      "author": "okk",
-      "postedAt": "2026-10-01 09:46",
-      "threadTitle": "Re: Denis",
-      "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
-      "body": "Biore to co wczesniej brałem Biore SS F banki i stop profit Biore tez $$ aby po krachu kpować ubezpieczeniowe dywidendowe np. Prudential w ok 100 a pzu z okolic 61 .Obligacje US 30Y BOND YIELD https://stooq.pl/q/?s=30yusy.b&c=1y&t=c&a=lg&b=0 dynamicznie w kierunku 6 a potem może byc Krach na akcjach !",
-      "votes": {
-        "up": 9,
-        "down": 6
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75941249",
-      "author": "mabmab",
-      "postedAt": "2026-10-01 09:32",
-      "threadTitle": "Re: Dystrybucja/dolar",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "oczywiście i to na całego . Cala ta mitologia ,że po 08.10 pieniadze z dywidendy poplyna na zakupy PZU nie ma podstaw . Październik tradycyjnie słaby - kiedys mowilo sie październik miesiącem oszczędzania - dzis zlamane zostanie 71 zł no a potem 68 zł bardzo prawdopodobne",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75941051",
-      "author": "Dolar",
-      "postedAt": "2026-10-01 09:23",
-      "threadTitle": "Re: Dystrybucja",
-      "url": "https://www.bankier.pl/forum/temat_dystrybucja,75893841.html",
-      "body": "oscylator A/D nadal od 5 sesji wskazuje na silną dystrybucję, 68PLN zobaczymy co tam będzie się działo?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
