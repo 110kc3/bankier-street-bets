@@ -3,11 +3,11 @@
   "companyName": "TAURON POLSKA ENERGIA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=TAURONPE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_tauron-polska-energia,6,21,10000000421.html",
-  "updatedAt": "2026-10-08T23:23:44.685Z",
+  "updatedAt": "2026-10-09T06:09:49.797Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-08T23:23:44.685Z",
+    "fetchedAt": "2026-10-09T06:09:49.797Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.01,
+    "score": 0.009,
     "confidence": 0.7,
-    "commentCount": 99,
+    "commentCount": 101,
     "breakdown": {
       "positive": 18,
       "negative": 17,
-      "neutral": 64
+      "neutral": 66
     },
     "trend": [
       {
@@ -58,10 +58,15 @@
         "date": "2026-10-08",
         "score": 0.05,
         "count": 26
+      },
+      {
+        "date": "2026-10-09",
+        "score": 0,
+        "count": 2
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 99 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 17 negatywnych, 64 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 101 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 17 negatywnych, 66 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "tauron",
@@ -70,6 +75,10 @@
       {
         "word": "tauronu",
         "count": 6
+      },
+      {
+        "word": "wiecej",
+        "count": 5
       },
       {
         "word": "enea",
@@ -98,14 +107,38 @@
       {
         "word": "jestes",
         "count": 4
-      },
-      {
-        "word": "miejscu",
-        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "76021289",
+      "author": "Bratmoj",
+      "postedAt": "2026-10-09 08:02",
+      "threadTitle": "Re: Alemamy tani prund",
+      "url": "https://www.bankier.pl/forum/temat_alemamy-tani-prund,76010611.html",
+      "body": "Więcej rozmów o rynku znajdziecie tutaj https://discord.gg/34PX8vZE9",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76020781",
+      "author": "Leopard2a5",
+      "postedAt": "2026-10-09 06:53",
+      "threadTitle": "Re: GoldCross",
+      "url": "https://www.bankier.pl/forum/temat_goldcross,75948121.html",
+      "body": "Więcej informacji z rynku publikujemy tutaj https://discord.gg/34PX8vZE9",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76018699",
       "author": "Gaudi",
