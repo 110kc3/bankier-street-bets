@@ -1,13 +1,13 @@
 {
   "symbol": "ALLEGRO",
-  "companyName": "ALLEGRO.EU",
+  "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu,6,21,10000001753.html",
-  "updatedAt": "2026-10-10T12:29:36.087Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
+  "updatedAt": "2026-10-10T21:42:33.384Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-10T12:29:36.087Z",
+    "fetchedAt": "2026-10-10T21:42:33.384Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.007,
-    "confidence": 0.58,
-    "commentCount": 42,
+    "score": 0.005,
+    "confidence": 0.57,
+    "commentCount": 41,
     "breakdown": {
-      "positive": 10,
-      "negative": 14,
-      "neutral": 18
+      "positive": 11,
+      "negative": 11,
+      "neutral": 19
     },
     "trend": [
-      {
-        "date": "2026-10-03",
-        "score": -0.583,
-        "count": 4
-      },
       {
         "date": "2026-10-05",
         "score": -0.931,
@@ -53,10 +48,15 @@
         "date": "2026-10-09",
         "score": 0.003,
         "count": 8
+      },
+      {
+        "date": "2026-10-10",
+        "score": -0.087,
+        "count": 3
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 42 komentarzy z ostatnich 7 dni: nastroje mieszane (10 pozytywnych, 14 negatywnych, 18 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 41 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 11 negatywnych, 19 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "szorty",
@@ -67,12 +67,24 @@
         "count": 5
       },
       {
+        "word": "zobaczymy",
+        "count": 4
+      },
+      {
         "word": "dzis",
         "count": 4
       },
       {
         "word": "trzeba",
         "count": 4
+      },
+      {
+        "word": "koleczko",
+        "count": 3
+      },
+      {
+        "word": "spadki",
+        "count": 3
       },
       {
         "word": "miec",
@@ -85,22 +97,52 @@
       {
         "word": "koniec",
         "count": 3
-      },
-      {
-        "word": "sesji",
-        "count": 3
-      },
-      {
-        "word": "najpierw",
-        "count": 3
-      },
-      {
-        "word": "erste",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "76038793",
+      "author": "Andy",
+      "postedAt": "2026-10-10 19:37",
+      "threadTitle": "Re: Totalne brednie..",
+      "url": "https://www.bankier.pl/forum/temat_spolka-spekulacyjna,76010803.html",
+      "body": "Ty szczawiu umiesz czytać ze zrozumieniem, przecież nie spałem na ostatnich sesjach i sporo zarobiłem na kółeczkach .W poniedziałek następne kółeczko zalicze",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76038763",
+      "author": "Andy",
+      "postedAt": "2026-10-10 19:32",
+      "threadTitle": "Re: Totalne brednie..",
+      "url": "https://www.bankier.pl/forum/temat_spolka-spekulacyjna,76010803.html",
+      "body": "Synuś ty tyle wiesz co na misce zjesz ostatnio zrobiłem zyskowne kółeczko na kilku kolach akcji ,tak więc nie narzekam. W poniedziałek następne kółeczko Synuś",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76038733",
+      "author": "Andy",
+      "postedAt": "2026-10-10 19:25",
+      "threadTitle": "Re: Buyback: 50 -> 65 a ryzyko pozycji",
+      "url": "https://www.bankier.pl/forum/temat_buyback-50-65-a-ryzyko-pozycji,76016965.html",
+      "body": "Szczawiu jak ja zaczynałem przygodę z giełdą to mam przekonanie graniczące z pewnością że ty majtki w zebach nosiłeś. Na naszej szulerni wszystko się rotuje zmienia ,zobaczymy w przyszłym tygodniu spadki",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76034027",
       "author": "Bishop",
@@ -208,7 +250,7 @@
       "body": "Buahahahaha papa „Andy”. Kurs odjechał i teraz łykaj z podaży :). Dziecko naucz się najpierw giełdy a później pisz cokolwiek :).",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -631,62 +673,6 @@
         "down": 1
       },
       "sentimentScore": -0.931,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75968665",
-      "author": "Kaso",
-      "postedAt": "2026-10-03 19:49",
-      "threadTitle": "Re: Dzisiejsza analiza graficzna szortoow na Allegro. ucieczka shorts",
-      "url": "https://www.bankier.pl/forum/temat_dzisiejsza-analiza-graficzna-szortoow-na-allegro-ucieczka-shorts,75905415.html",
-      "body": "A podbijcie sobie te wciskanie tej subskrypcji tak jeszcze ze sto razy, może kto się nabierze...",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75968351",
-      "author": "mabmab",
-      "postedAt": "2026-10-03 18:40",
-      "threadTitle": "Re: Dzisiejsza analiza graficzna szortoow na Allegro. ucieczka shorts",
-      "url": "https://www.bankier.pl/forum/temat_dzisiejsza-analiza-graficzna-szortoow-na-allegro-ucieczka-shorts,75905415.html",
-      "body": "Po wniosku o podniesienie ceny skupu do 62 zl innej reakcji nie może być.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75968211",
-      "author": "Jan18",
-      "postedAt": "2026-10-03 18:10",
-      "threadTitle": "Re: Dzisiejsza analiza graficzna szortoow na Allegro. ucieczka shorts",
-      "url": "https://www.bankier.pl/forum/temat_dzisiejsza-analiza-graficzna-szortoow-na-allegro-ucieczka-shorts,75905415.html",
-      "body": "Pożyteczny materiał widzicie inną stronę medalu?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75967655",
-      "author": "Piotr15",
-      "postedAt": "2026-10-03 15:52",
-      "threadTitle": "Re: Dzisiejsza analiza graficzna szortoow na Allegro. ucieczka shorts",
-      "url": "https://www.bankier.pl/forum/temat_dzisiejsza-analiza-graficzna-szortoow-na-allegro-ucieczka-shorts,75905415.html",
-      "body": "Trafne spostrzeżenia zgadzacie się z wnioskiem?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
     }
   ]
