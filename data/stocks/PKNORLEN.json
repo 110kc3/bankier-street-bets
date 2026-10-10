@@ -3,46 +3,41 @@
   "companyName": "ORLEN",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKNORLEN",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_orlen,6,21,201.html",
-  "updatedAt": "2026-10-09T22:39:22.959Z",
+  "updatedAt": "2026-10-10T05:52:35.951Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-09T22:39:22.959Z",
+    "fetchedAt": "2026-10-10T05:52:35.951Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 42
+    "threadsScanned": 45
   },
   "analysis": {
-    "signal": "SELL",
-    "score": -0.154,
+    "signal": "HOLD",
+    "score": -0.133,
     "confidence": 0.75,
     "commentCount": 200,
     "breakdown": {
-      "positive": 37,
+      "positive": 34,
       "negative": 72,
-      "neutral": 91
+      "neutral": 94
     },
     "trend": [
       {
-        "date": "2026-10-03",
-        "score": 0.326,
-        "count": 5
-      },
-      {
         "date": "2026-10-04",
-        "score": 0.065,
-        "count": 9
+        "score": 0.113,
+        "count": 8
       },
       {
         "date": "2026-10-05",
-        "score": 0.025,
-        "count": 33
+        "score": 0.016,
+        "count": 32
       },
       {
         "date": "2026-10-06",
-        "score": 0.065,
-        "count": 24
+        "score": 0.028,
+        "count": 21
       },
       {
         "date": "2026-10-07",
@@ -56,56 +51,229 @@
       },
       {
         "date": "2026-10-09",
-        "score": -0.314,
-        "count": 72
+        "score": -0.307,
+        "count": 70
+      },
+      {
+        "date": "2026-10-10",
+        "score": 0.065,
+        "count": 12
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje negatywne (37 pozytywnych, 72 negatywnych, 91 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje negatywne (34 pozytywnych, 72 negatywnych, 94 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "ceny",
-        "count": 19
-      },
-      {
-        "word": "przy",
         "count": 17
-      },
-      {
-        "word": "dlatego",
-        "count": 15
-      },
-      {
-        "word": "orlen",
-        "count": 15
-      },
-      {
-        "word": "paliw",
-        "count": 15
       },
       {
         "word": "paliwa",
         "count": 15
       },
       {
+        "word": "przy",
+        "count": 14
+      },
+      {
+        "word": "dlatego",
+        "count": 14
+      },
+      {
+        "word": "orlen",
+        "count": 14
+      },
+      {
+        "word": "paliw",
+        "count": 14
+      },
+      {
         "word": "inflacji",
-        "count": 13
+        "count": 12
       },
       {
         "word": "inflacja",
-        "count": 13
-      },
-      {
-        "word": "cena",
-        "count": 13
+        "count": 12
       },
       {
         "word": "tyle",
-        "count": 12
+        "count": 11
+      },
+      {
+        "word": "tusk",
+        "count": 11
       }
     ]
   },
   "comments": [
+    {
+      "id": "76035789",
+      "author": "Elka",
+      "postedAt": "2026-10-10 07:50",
+      "threadTitle": "Re: Trybunał dla NBP i osłabienie PLN, czy jest związek?",
+      "url": "https://www.bankier.pl/forum/temat_trybunal-dla-nbp-i-oslabienie-pln-czy-jest-zwiazek,76033317.html",
+      "body": "Paradoksalnie osłabienie PLN poprawia wynik NBP - tak robił glapa, gdy rządził PiS.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76035783",
+      "author": "Orim",
+      "postedAt": "2026-10-10 07:46",
+      "threadTitle": "Re: Elity vs lud. Czy równi?",
+      "url": "https://www.bankier.pl/forum/temat_elity-vs-lud-czy-rowni,76030955.html",
+      "body": "Jakis komentarz po dogadaniu się Trumpa i Putina w sprawie diesla? Kto wspiera zbrodniarza wojennego staje wspolwinnym . I jeszcze jedno nadal chcecie baz amerykańskich za pieniądze nasze w sytuacji gdy Trump powiedział ze liczą się przede wszystkim Amerykanie .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76035775",
+      "author": "Elka",
+      "postedAt": "2026-10-10 07:43",
+      "threadTitle": "Re: Trump oglosil dostawy oleju napędowego z Rosji....",
+      "url": "https://www.bankier.pl/forum/temat_trump-oglosil-dostawy-oleju-napedowego-z-rosji,76035763.html",
+      "body": "To przedwyborcza interwencja słowna. Rosja kupuje gotowe paliwa od byłych republik.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76035765",
+      "author": "Orim",
+      "postedAt": "2026-10-10 07:41",
+      "threadTitle": "Re: Trump oglosil dostawy oleju napędowego z Rosji....",
+      "url": "https://www.bankier.pl/forum/temat_trump-oglosil-dostawy-oleju-napedowego-z-rosji,76035763.html",
+      "body": "Krew w bakach Amerykanów obniży ceny diesla. A co na to nasi rodzimi wyznawcy Trumpa...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76035763",
+      "author": "mabmab",
+      "postedAt": "2026-10-10 07:35",
+      "threadTitle": "Trump oglosil dostawy oleju napędowego z Rosji....",
+      "url": "https://www.bankier.pl/forum/temat_trump-oglosil-dostawy-oleju-napedowego-z-rosji,76035763.html",
+      "body": "zostawiam bez komentarza .... wnioski wyciagnijcie sami",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76035753",
+      "author": "Elka",
+      "postedAt": "2026-10-10 07:33",
+      "threadTitle": "Re: Tramp z putinem sie dogadali? Bedzie mialo wplyw na kurs? Blef?",
+      "url": "https://www.bankier.pl/forum/temat_tramp-z-putinem-sie-dogadali-bedzie-mialo-wplyw-na-kurs-blef,76033749.html",
+      "body": "Zobaczymy już za 3 tygodnie czy Amerykańscy wyborcy to kupią. Obietnice Putlera są tyle warte co zeszłoroczny śnieg. Obecnie Rosja sama kupuje gotowe paliwa od byłych republik.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76035723",
+      "author": "Buhahahaha",
+      "postedAt": "2026-10-10 07:21",
+      "threadTitle": "Re: Za co TUSK bierze naszą KASĘ ?? Jak nie rządzi ??",
+      "url": "https://www.bankier.pl/forum/temat_za-co-tusk-bierze-nasza-kase-jak-nie-rzadzi,76035659.html",
+      "body": "Zebys ty nie mial.to dla twojego dobra bo bys dal sakiewiczowi albo watykanczykom.a tak to pojdzie na biedne dzieci",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76035719",
+      "author": "Kaczyński",
+      "postedAt": "2026-10-10 07:20",
+      "threadTitle": "Czy kwacor dostanie wyrównanie dla aktorów za film",
+      "url": "https://www.bankier.pl/forum/temat_czy-kwacor-dostanie-wyrownanie-dla-aktorow-za-film,76035719.html",
+      "body": "O ukradnietym księżycu?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76035659",
+      "author": "Skok",
+      "postedAt": "2026-10-10 06:52",
+      "threadTitle": "Za co TUSK bierze naszą KASĘ ?? Jak nie rządzi ??",
+      "url": "https://www.bankier.pl/forum/temat_za-co-tusk-bierze-nasza-kase-jak-nie-rzadzi,76035659.html",
+      "body": "O resecie nie wspomnę - za co?Pytanie na weekend Dawno temu dwa razy obiecał podarek liniowy i co ?Może PALIWO po 5,19 zł będzie jak mu Putin pomoże. Rosja ma wolną rękę na sprzedaż od Trumpa.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76035653",
+      "author": "PiSosyf",
+      "postedAt": "2026-10-10 06:51",
+      "threadTitle": "Re: Tramp z putinem sie dogadali? Bedzie mialo wplyw na kurs? Blef?",
+      "url": "https://www.bankier.pl/forum/temat_tramp-z-putinem-sie-dogadali-bedzie-mialo-wplyw-na-kurs-blef,76033749.html",
+      "body": "Truskawkowy agent Rosji zrobił coming out. Patusy z prawicy dalej klaszczą uszami. Jak wygrają wybory+snus znowu będziemy kolonią morderców.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76035521",
+      "author": "Skok",
+      "postedAt": "2026-10-10 03:40",
+      "threadTitle": "Re: Trybunał dla NBP i osłabienie PLN, czy jest związek?",
+      "url": "https://www.bankier.pl/forum/temat_trybunal-dla-nbp-i-oslabienie-pln-czy-jest-zwiazek,76033317.html",
+      "body": "Ty masz ROZUM ? Jest bardzo dobrym presesem NBP i rządowi nic do kadencji. Sam zrezygnuj z np. samochodu bo ci ,,Tusk,, karze.To co i w jaki sposób NBP pomagał i robi to dalej skutecznie ty nie zrozumiesz .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76035519",
+      "author": "Skok",
+      "postedAt": "2026-10-10 03:39",
+      "threadTitle": "Re: Trybunał dla NBP i osłabienie PLN, czy jest związek?",
+      "url": "https://www.bankier.pl/forum/temat_trybunal-dla-nbp-i-oslabienie-pln-czy-jest-zwiazek,76033317.html",
+      "body": "Ty masz ROZUM ? Jest bardzo dobrym presesem NBP i rządowi nic do kadencji. Sam zrezygnuj z np. samochodu bo ci ,,Tusk,, karze.To co i w jaki sposób NBP pomagał i robi to dalej skutecznie ty nie zrozumiesz .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76034429",
       "author": "Dewajtis",
@@ -114,7 +282,7 @@
       "url": "https://www.bankier.pl/forum/temat_elity-vs-lud-czy-rowni,76030955.html",
       "body": "Doskonale zrozumiałem i wiem co ci w głowie siedzi. Twój ranking prezydentów po 1945 doskonale mi to uświadomił. Do przykładów dołożyłbym jeszcze Singapur, RPA przed 1994, Hongkong pod wpływem Chin, systemy cenzusowe XIX wiecznej Europy.",
       "votes": {
-        "up": 1,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -129,7 +297,7 @@
       "body": "Nic nie zrozumiałeś. Jął zawsze.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -143,7 +311,7 @@
       "body": "Fantastyczne stwierdzenie. Nigdy mi, to do głowy nie przyszło, ale to może być lekarstwem na wszelkie wady demokracji. Zwłaszcza na wpływy interesów biznesowych a nie społecznych. Losowy wybór posłów. To chyba najbardziej demokratyczny i niezależny wybór.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -157,7 +325,7 @@
       "body": "Sam ustąpić żeby nie doprowadzić do kilkumiesiącznego kryzysu walutowego",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -170,7 +338,7 @@
       "url": "https://www.bankier.pl/forum/temat_elity-vs-lud-czy-rowni,76030955.html",
       "body": "Trafienie w sedno jest takie, że marzy ci się państwo oligarchiczne, jak np. Rosja.",
       "votes": {
-        "up": 3,
+        "up": 8,
         "down": 1
       },
       "sentimentScore": 0,
@@ -185,23 +353,9 @@
       "body": "Po pierwsze okreslenie czy rzeczywistość była fatalna, to można stwierdzić przeżywszy rzeczywistość równoległą zgoła odmienna. Po drugie nie prowadzimy dysputy o PRL a o mentalności wyborców PiS. Mniemam, że waszmość wypisujesz swoje dyrdymały, tylko po to aby wzmacniać przekonania pisowców w swojej wierze. Zwykły prowokator.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76033993",
-      "author": "Kaczyński",
-      "postedAt": "2026-10-09 22:22",
-      "threadTitle": "Re: Trybunał dla NBP i osłabienie PLN, czy jest związek?",
-      "url": "https://www.bankier.pl/forum/temat_trybunal-dla-nbp-i-oslabienie-pln-czy-jest-zwiazek,76033317.html",
-      "body": "Gdyby sam ustąpił i pozwolił komuś innemu to by go nie musieli zawieszac siłą, jak taki patriota to niech nie paraliżuje instytucji",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     },
     {
@@ -226,8 +380,8 @@
       "url": "https://www.bankier.pl/forum/temat_elity-vs-lud-czy-rowni,76030955.html",
       "body": "Dewajtis, trzy akapity i ani jednego trafienia w sedno.Nikt nie twierdzi, że profesor ekonomii ma decydować, komu należy się pomoc. Teza jest taka, że **wiedza ma znaczenie przy ocenie skutków decyzji**. Ty odpowiadasz, że ludzie mają różne interesy. Owszem. Tylko że sprzeczność interesów nie sprawia, że ignorancja staje się kompetencją.Sprzątaczka doskonale wie, jak żyje się za minimalną pensję. Nie czyni jej to automatycznie ekspertem od inflacji, energetyki czy polityki monetarnej. Tak samo profesor ekonomii nie musi być ekspertem od każdej życiowej sprawy. Dlatego potrzebujemy i doświadczenia obywateli, i wiedzy specjalistów. To nie jest trudne do zrozumienia.Najlepszy jest argument o oligarchii. Z faktu, że eksperci mogą dbać o własne interesy, nie wynika, że kompetencje są bez znaczenia. Politycy też dbają o własne interesy, a jakoś nie proponujesz zastąpić wyborów losowaniem. Problemem nie jest wiedza, tylko brak kontroli nad władzą.I jeszcze jedno: tekst wyraźnie mówi o odbudowie prestiżu wiedzy, a nie o odbieraniu praw wyborczych. Ty polemizujesz z ostrzejszą wersją, którą sama sobie dopisałaś. To wygodne, ale intelektualnie dość tanie.**Demokracja daje obywatelom równe prawa, nie gwarantuje im równej wiedzy.** Można uważać, że każdy głos powinien ważyć tyle samo. Nie trzeba jednak udawać, że każdy pogląd jest równie dobrze uzasadniony, a każda opinia ma taką samą wartość poznawczą.Równość obywateli nie wymaga kultu niewiedzy. I właśnie tego rozróżnienia konsekwentnie nie potrafisz obalić.",
       "votes": {
-        "up": 1,
-        "down": 3
+        "up": 2,
+        "down": 7
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -240,7 +394,7 @@
       "url": "https://www.bankier.pl/forum/temat_elity-vs-lud-czy-rowni,76030955.html",
       "body": "Prezentowany tekst to klasyczny przykład epistokracji – koncepcji, według której władzę powinni sprawować ci, którzy mają największą wiedzę. Choć na pierwszy rzut oka argument o „kompetencjach” brzmi logicznie, autor popełnia fundamentalny błąd w rozumieniu tego, czym jest państwo i demokracja.Po pierwsze, autor myli wiedzę techniczną z mądrością życiową i moralną. Profesor ekonomii może świetnie wyliczyć PKB, ale nie ma pojęcia, jak żyje się za minimalną pensję na wsi. Państwo to nie korporacja, którą zarządza się tylko Excelem. Decyzje polityczne to przede wszystkim wybory moralne: komu pomóc, jak dzielić wspólne pieniądze i jakie wartości są dla nas ważne. W tych kwestiach głos sprzątaczki czy rolnika jest dokładnie tak samo ważny jak głos profesora, ponieważ to oni na własnej skórze odczuwają skutki tych decyzji.Po drugie, propozycja uzależnienia siły głosu od wykształcenia czy podatków to prosta droga do dyskryminacji i oligarchii. Historia pokazuje, że kiedy elity zamykały się w swoim świecie i decydowały za resztę, szybko zaczynały dbać wyłącznie o własne interesy, ignorując potrzeby uboższych. Bogaty przedsiębiorca z dużego miasta głosowałby na rozwiązania wygodne dla siebie, co pogłębiłoby nierówności i doprowadziło do buntu społecznego.Po trzecie, porównanie państwa do samolotu czy operacji chirurgicznej jest całkowicie nietrafione. Pasażerowie samolotu mają jeden, wspólny cel: bezpiecznie wylądować. W państwie obywatele mają sprzeczne interesy – pracownik chce zarabiać więcej, a pracodawca chce płacić niższe podatki. Nie ma jednej „naukowej” drogi, która zadowoli wszystkich, dlatego o kierunku musimy decydować wspólnie. Demokracja i równość głosów nie są idealne, ale chronią nas przed sytuacją, w której jedna, samozwańcza grupa „mądrych” decyduje o życiu całej reszty.",
       "votes": {
-        "up": 4,
+        "up": 10,
         "down": 1
       },
       "sentimentScore": 0.762,
@@ -254,8 +408,8 @@
       "url": "https://www.bankier.pl/forum/temat_trybunal-dla-nbp-i-oslabienie-pln-czy-jest-zwiazek,76033317.html",
       "body": "Jaki tgz grubas po twojemu jest każdy widzi. TYLKO że gdyby nie Glapinski to dwa kryzysy za czasów PiS (kowid i ruchy cen w czasie wojny na Ukrainie) nie przeżylibyśmy tak łagodnie (wręcz perfekcyjnie) nie było bezrobocia i załamania systemu bankowego. Skutkiem tych kryzysów była inflacja ale nie było bezrobocia które prowadziłoby do gorszych skutków. Za rządów Tuska 2008 upadł bank w USA Lehman Brothers zachęcam do porównania do jakich kłopotów doprowadził ten kryzys w Polsce. Glapinski i ta RPP są wyjątkowym składem jakiego Polska nie miała bo ich decyzje do dziś nawet ratują gospodarkę i 4-litery Tuskowi (inflację).Po za glupkowatymi wypowiedziami Glapinski znalazł się w odpowiednim czasie i miejscu.",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": -0.999,
       "sentimentLabel": "Negative"
@@ -296,7 +450,7 @@
       "url": "https://www.bankier.pl/forum/temat_drozyzna-tuska,76030933.html",
       "body": "A to jeszcze nie zlikwidowali najwiekszego przekrętu III RP?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -310,25 +464,11 @@
       "url": "https://www.bankier.pl/forum/temat_drozyzna-tuska,76030933.html",
       "body": "ciekawe kiedy tusek zajuma reszte ofe???",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76033317",
-      "author": "Kaczyński",
-      "postedAt": "2026-10-09 20:59",
-      "threadTitle": "Trybunał dla NBP i osłabienie PLN, czy jest związek?",
-      "url": "https://www.bankier.pl/forum/temat_trybunal-dla-nbp-i-oslabienie-pln-czy-jest-zwiazek,76033317.html",
-      "body": "Kryzys na tym odcinku przekłada się na rozdygotanie walut, grozi paraliż po zawieszeniu grubasa",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "76033301",
@@ -590,7 +730,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-to-starcy-lapia-sie-na-przekrety-na-wnuczka,76030781.html",
       "body": "Stary ubol Xx (Hmm) nieskutecznie udaje wykształconego. Jego całym życiem jest to forum, wyje tu przez 24 h/dobę przez 7 dni w tygodniu, zakładając niezliczone pozbawione sensu wątki. Czy jest naiwny? Z pewnością, bo wydaje mu się, że ma na cokolwiek wpływ.",
       "votes": {
-        "up": 11,
+        "up": 12,
         "down": 5
       },
       "sentimentScore": -0.762,
@@ -633,7 +773,7 @@
       "body": "Przez 8 lat Kur-wizja wmawiała motłochowi, że jest równy elitom.Nie jest. Jest gorszy.",
       "votes": {
         "up": 4,
-        "down": 7
+        "down": 13
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -689,7 +829,7 @@
       "body": "Rafinerie w Rosji to problem Rosjan a nie nasz. U nas już Tusk dba o to by Orlen za dużo nie zarobił. KGHM też pompują żeby WIG20 nie spadł.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -801,7 +941,7 @@
       "body": "# Elity vs ludJest pewien fakt, którego współczesna demokracja panicznie nie chce przyjąć do wiadomości: nie wszyscy obywatele są równie dobrze przygotowani do podejmowania decyzji o państwie.Brzmi brutalnie? Być może. Jest jednak trudno udawać, że człowiek z doktoratem, przedsiębiorca zatrudniający kilkadziesiąt osób, lekarz, inżynier czy prawnik i człowiek, którego całe źródło wiedzy o świecie stanowi kilka filmików na TikToku oraz przekaz partyjnej telewizji, dysponują identycznym kapitałem intelektualnym.Nie dysponują.Widać to również w danych. Według CBOS elektorat PiS jest najsłabiej wykształconym spośród największych elektoratów. Wyższe wykształcenie ma zaledwie 19 proc. jego wyborców, wobec 31 proc. w całej populacji i 41 proc. w elektoracie KO. Wśród wyborców PiS aż 46 proc. ma wykształcenie podstawowe lub zasadnicze zawodowe. W elektoracie KO jest ich 21 proc.Różnica nie kończy się na dyplomie. Elektorat PiS jest wyraźnie starszy i bardziej wiejski. 53 proc. jego wyborców mieszka na wsi, a 40 proc. ma co najmniej 65 lat. Elektorat KO jest bardziej miejski i zamożniejszy.To oczywiście nie oznacza, że każdy wyborca PiS jest głupi, a każdy wyborca KO jest geniuszem. Statystyka nie działa w ten sposób.Pokazuje jednak coś znacznie bardziej interesującego: polska polityka jest również konfliktem kapitału kulturowego.Z jednej strony mamy ludzi, którzy w większości ukończyli studia, pracują w zawodach wymagających specjalistycznej wiedzy, funkcjonują w dużych miastach, znają języki, podróżują, pracują w międzynarodowym środowisku i są przyzwyczajeni do świata, w którym decyzje mają konsekwencje.Z drugiej strony mamy znaczną część społeczeństwa, która znacznie częściej czerpie wiedzę z telewizji, Facebooka i politycznych emocji, a następnie oczekuje, że skomplikowane problemy gospodarcze zostaną rozwiązane jednym prostym hasłem.I właśnie ta druga grupa stała się paliwem populizmu.Populizm zawsze działa według tego samego mechanizmu. Mówi ludziom, że świat jest prosty, elity są złe, eksperci kłamią, a wszystkie problemy można rozwiązać pieniędzmi zabranymi komuś innemu.To jest polityka dostosowana do możliwości percepcyjnych odbiorcy.Problem polega na tym, że państwo nie jest komentarzem na Facebooku. Gospodarka, energetyka, prawo, demografia, bezpieczeństwo czy polityka zagraniczna wymagają wiedzy, której nie da się zdobyć z pięciominutowego filmu.A mimo to człowiek, który nie potrafiłby przeczytać bilansu spółki, ma dokładnie taki sam wpływ na wybór polityki gospodarczej jak ekonomista. Człowiek, który nie odróżnia inflacji od cen, ma taki sam głos w sprawach monetarnych jak profesor ekonomii. Człowiek, który nie wie, gdzie leży Ukraina, współdecyduje o polityce bezpieczeństwa państwa.Demokracja uznaje, że jest to sprawiedliwe.Może więc problemem nie jest demokracja jako taka, lecz jej archaiczna wersja.Wyobraźmy sobie system, w którym głos nie jest automatycznie równy, lecz zależy od kompetencji. Wyższe wykształcenie, aktywność zawodowa, płacenie podatków, znajomość podstaw ekonomii, wiedza o konstytucji i instytucjach państwa. Im większa odpowiedzialność obywatela za funkcjonowanie wspólnoty, tym większy wpływ na jej decyzje.Brzmi niedemokratycznie?Oczywiście.I właśnie dlatego ten pomysł jest tak interesujący.Bo może największym paradoksem współczesnej demokracji jest to, że najbardziej skomplikowany system polityczny w historii powierzamy często ludziom najmniej przygotowanym do jego rozumienia.Nie chodzi jednak o pogardę dla biednych. Nie chodzi o to, że robotnik jest gorszym człowiekiem od profesora. Nie jest.Chodzi o kompetencje.Nie dajemy prowadzić samolotu wszystkim pasażerom w imię równości. Nie powierzamy operacji chirurgicznej przypadkowym ludziom. Nie zatrudniamy mechanika dlatego, że jego zdanie o silniku jest „równie ważne” jak zdanie inżyniera.Dlaczego więc przy zarządzaniu państwem nagle uznajemy, że wiedza nie ma żadnego znaczenia?Być może odpowiedzią na narastający populizm nie powinno być kolejne schlebianie ludowi. Być może powinno być dokładnie odwrotnie: odbudowanie prestiżu kompetencji, wiedzy, wykształcenia i odpowiedzialności.Nie poprzez odebranie ludziom praw, lecz poprzez stworzenie takiej kultury politycznej, w której niewiedza nie będzie powodem do dumy, antyintelektualizm nie będzie przedstawiany jako „zdrowy rozsądek”, a krzykliwy populista nie będzie automatycznie traktowany jako równorzędny przeciwnik dla człowieka, który przez trzydzieści lat zajmował się danym problemem.Bo przyszłość państwa nie powinna należeć do tych, którzy najgłośniej krzyczą.Powinna należeć do tych, którzy najlepiej rozumieją, co robią.",
       "votes": {
         "up": 6,
-        "down": 7
+        "down": 12
       },
       "sentimentScore": -0.931,
       "sentimentLabel": "Negative"
@@ -828,7 +968,7 @@
       "url": "https://www.bankier.pl/forum/temat_dlaczego-to-starcy-lapia-sie-na-przekrety-na-wnuczka,76030781.html",
       "body": "Na rudego, bo wierzą w to co im obiecuje",
       "votes": {
-        "up": 12,
+        "up": 13,
         "down": 6
       },
       "sentimentScore": -0.583,
@@ -857,7 +997,7 @@
       "body": "Bo starcy są naiwni.Na kogo głosują starcy?",
       "votes": {
         "up": 8,
-        "down": 12
+        "down": 13
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -2137,20 +2277,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "75990063",
-      "author": "mapa",
-      "postedAt": "2026-10-06 13:28",
-      "threadTitle": "\"Daniel Obajtek nazywa to sukcesem.",
-      "url": "https://www.bankier.pl/forum/temat_daniel-obajtek-nazywa-to-sukcesem,75990063.html",
-      "body": "Kodeks karny nazywa to wyrządzeniem szkody majątkowej wielkich rozmiarów\" — twierdzi minister Żurek\" (?!?) / by the way: a jak nazwać doprowadzenie do stanu, gdy dług Polski codziennie przyrasta o miliard PLN, a spłata tylko samych odsetek od tego długu codziennie kosztuje Polaków 300 milionów złotych (?!?) - w sumie codziennie wychodzi 1,3 mld PLN (!?!)https://businessinsider.com.pl/prawo/zatrzymania-w-orlenie-prokuratura-ujawnia-zarzuty-wobec-menadzerow/5pnvq6h",
-      "votes": {
-        "up": 7,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75989629",
       "author": "habmar",
       "postedAt": "2026-10-06 12:56",
@@ -2193,20 +2319,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "75989397",
-      "author": "Skok",
-      "postedAt": "2026-10-06 12:42",
-      "threadTitle": "Re: Czy jak ceny mąki pójdą w górę, to tusk opodatkuje wstecz piekarnie?",
-      "url": "https://www.bankier.pl/forum/temat_czy-jak-ceny-maki-pojda-w-gore-to-tusk-opodatkuje-wstecz-piekarnie,75978401.html",
-      "body": "W rzeczy samej + jemu powinni zabrać emeryturę bo robi zadymę. Na pewno miał by uśmiech. Jak każdy.",
-      "votes": {
-        "up": 2,
-        "down": 3
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "75988387",
       "author": "RudyDoBudy",
       "postedAt": "2026-10-06 11:22",
@@ -2233,20 +2345,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75985331",
-      "author": "Der",
-      "postedAt": "2026-10-06 07:11",
-      "threadTitle": "Czas na zamianę W20 na sektor małych spółek",
-      "url": "https://www.bankier.pl/forum/temat_czas-na-zamiane-w20-na-sektor-malych-spolek,75985331.html",
-      "body": "Tak tak.Zwłaszcza na te na minimalnym kursie NC .Przed nami powtórka wzrostów ponad 1000 % - 3000%.",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "75984107",
@@ -2484,20 +2582,6 @@
         "down": 10
       },
       "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75978401",
-      "author": "ventura",
-      "postedAt": "2026-10-05 13:05",
-      "threadTitle": "Czy jak ceny mąki pójdą w górę, to tusk opodatkuje wstecz piekarnie?",
-      "url": "https://www.bankier.pl/forum/temat_czy-jak-ceny-maki-pojda-w-gore-to-tusk-opodatkuje-wstecz-piekarnie,75978401.html",
-      "body": "kluczowe pytanie",
-      "votes": {
-        "up": 6,
-        "down": 7
-      },
-      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     },
     {
@@ -2821,90 +2905,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75969601",
-      "author": "pytanie",
-      "postedAt": "2026-10-04 06:42",
-      "threadTitle": "Re: Ceny paliw",
-      "url": "https://www.bankier.pl/forum/temat_ceny-paliw,75930151.html",
-      "body": "Mamy najniższe ceny paliw w Europie. Czy Polaków na to stać przy deficycie 271 mld zł na 2026?Wcześniej Niemcy obniżyli cenę benzyny o 17 centów z 2,27 do 2,10 €/litr ( 9,20 PLN/litr ).Prof. G. Kołodko ostro skrytykował rządzących za deficyt i zadłużanie przyszłych pokoleń Polaków.",
-      "votes": {
-        "up": 16,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75969369",
-      "author": "Won",
-      "postedAt": "2026-10-03 23:28",
-      "threadTitle": "Re: Uwzględniając inflację benzyna jest dziś po mniej więcej 5,19 z 2022",
-      "url": "https://www.bankier.pl/forum/temat_uwzgledniajac-inflacje-benzyna-jest-dzis-po-mniej-wiecej-5-19-z-2022-r,75966737.html",
-      "body": "Prawda, właśnie sam się zapętliłeś.Cała Twoja obrona sprowadza się teraz do tego, że „to nie ja napisałem, że Tusk doprowadził”. Świetnie. Tylko że dyskusja dotyczyła przede wszystkim prostego faktu: **dzisiejsza benzyna, po uwzględnieniu inflacji, kosztuje mniej więcej tyle, ile 5,19 zł w 2022 r.** I tego faktu nie obaliłeś. Ani trochę.Zamiast tego robisz chochoła z tezy, której nikt poza Brawo nie postawił, a potem triumfalnie go obalasz.Jeszcze zabawniejsze jest Twoje czepianie się słowa „obietnica”. Tusk powiedział: **„Wiem, jak to zrobić”** oraz „to jest kwestia decyzji o charakterze administracyjnym”. To nie jest wykład o tym, że benzyna „powinna” być tańsza. To jest deklaracja polityka, że zna konkretne administracyjne narzędzie pozwalające osiągnąć wskazany poziom ceny. Można dzisiaj dyskutować, czy było to ekonomicznie realistyczne, ale udawanie, że Tusk jedynie komentował ówczesną cenę, jest zwyczajnie niepoważne.I właśnie tutaj Twoja argumentacja rozpada się najbardziej.Skoro dzisiaj przypominasz, że cena zależy od ropy, dolara i marż rafineryjnych, to świetnie. **Dlaczego dokładnie tych samych czynników nie uwzględnialiście, gdy Tusk był w opozycji?** Wtedy rząd i Orlen mieli według Tuska i jego środowiska „decyzją administracyjną” doprowadzić paliwo do 5,19. Dzisiaj, kiedy rządzi Tusk, nagle okazuje się, że premier jest bezradnym obserwatorem światowego rynku.To właśnie jest podwójny standard.A Twoje zdanie, że „z ceny nie wynika sprawczość Tuska”, jest oczywiście prawdziwe — tylko kompletnie nie na temat. **Nikt rozsądny nie twierdzi, że samo przeliczenie inflacyjne jest dowodem sprawczości.** Jest natomiast bardzo dobrym wskaźnikiem realnej dostępności paliwa. I jeśli przy dzisiejszej płacy minimalnej można kupić znacząco więcej paliwa niż w okresie, do którego odnosił się Tusk, to jest to fakt ekonomiczny, a nie „narracja”.Możesz oczywiście powiedzieć: „To nie zasługa Tuska, tylko ropy, dolara, marż i sytuacji międzynarodowej”.Ale wtedy bądź konsekwentny i powiedz dokładnie to samo o PiS.Bo nie można jednocześnie mówić:**za PiS:** „rząd i Orlen mają wpływ na cenę, więc odpowiadają za drogie paliwo”,a następnie:**za Tuska:** „rząd nie kontroluje ropy, dolara ani marż, więc nie odpowiada za cenę”.To jest dokładnie ten podwójny standard, którego tak rozpaczliwie próbujesz nie zauważyć.I jeszcze jedna rzecz. Piszesz, że „cena rynkowa” jest dla Ciebie najważniejsza. Doskonale. W takim razie przestań używać samej ceny przy dystrybutorze jako argumentu politycznego. Cena rynkowa może być wyższa albo niższa w zależności od warunków globalnych. **Nie możesz raz traktować ceny jako dowodu nieudolności rządu, a innym razem jako czystego efektu rynku.**A jeśli już chcesz być naprawdę konsekwentny, to porównuj realną cenę paliwa, płace, ropę, kurs dolara, marże rafineryjne, podatki i ceny w Europie. Wtedy dostaniesz analizę.Na razie masz coś znacznie prostszego: rozpaczliwą próbę wmówienia wszystkim, że fakt, iż **dzisiejsza benzyna kosztuje realnie mniej więcej tyle co 5,19 zł z 2022 r., jest nieważny**, bo nie dowodzi, kto tę cenę „spowodował”.Oczywiście, że nie dowodzi.Tak samo jak temperatura na termometrze nie dowodzi, kto włączył ogrzewanie.Tyle że nikt normalny nie twierdzi, że dowodzi.**Ty po prostu obalasz tezę, której nikt poza Tobą nie postawił, żeby nie musieć zmierzyć się z faktem, który faktycznie padł.**I to jest cała Twoja „Prawda”.",
-      "votes": {
-        "up": 11,
-        "down": 8
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75969361",
-      "author": "Won",
-      "postedAt": "2026-10-03 23:25",
-      "threadTitle": "Re: Uwzględniając inflację benzyna jest dziś po mniej więcej 5,19 z 2022",
-      "url": "https://www.bankier.pl/forum/temat_uwzgledniajac-inflacje-benzyna-jest-dzis-po-mniej-wiecej-5-19-z-2022-r,75966737.html",
-      "body": "Tak, to jego słowa. Nie dowodzą niczemu, co próbujesz powiedzieć.Co jednak istotne. Benzyna kosztuje 5,19 przy wartości złotówki z 2022 r.",
-      "votes": {
-        "up": 11,
-        "down": 12
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75969285",
-      "author": "Andrzej61",
-      "postedAt": "2026-10-03 22:42",
-      "threadTitle": "Re: Uwzględniając inflację benzyna jest dziś po mniej więcej 5,19 z 2022",
-      "url": "https://www.bankier.pl/forum/temat_uwzgledniajac-inflacje-benzyna-jest-dzis-po-mniej-wiecej-5-19-z-2022-r,75966737.html",
-      "body": "Tu liczy się cena baryłki i dolara.Nasza inflacja do pominięcia.Więc poproszę po 5,19(Czereśniak na stacji by zapłacił po 5 ,19 i powiedział \"tyle się naleźy\").",
-      "votes": {
-        "up": 4,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75969275",
-      "author": "Dewajtis",
-      "postedAt": "2026-10-03 22:37",
-      "threadTitle": "Re: Uwzględniając inflację benzyna jest dziś po mniej więcej 5,19 z 2022",
-      "url": "https://www.bankier.pl/forum/temat_uwzgledniajac-inflacje-benzyna-jest-dzis-po-mniej-wiecej-5-19-z-2022-r,75966737.html",
-      "body": "Posłuchaj jego słów: \"„Ja nie czaruję nikogo. Wiem, jak to zrobić, to jest kwestia decyzji o charakterze administracyjnym”.To jego słowa.",
-      "votes": {
-        "up": 13,
-        "down": 12
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75969247",
-      "author": "Prawda",
-      "postedAt": "2026-10-03 22:29",
-      "threadTitle": "Re: Uwzględniając inflację benzyna jest dziś po mniej więcej 5,19 z 2022",
-      "url": "https://www.bankier.pl/forum/temat_uwzgledniajac-inflacje-benzyna-jest-dzis-po-mniej-wiecej-5-19-z-2022-r,75966737.html",
-      "body": "Won, zwróć uwagę na sposób, w jaki „przyznałeś” mi rację. Najpierw zarzucasz mi uciekanie od tematu, a dopiero później, niemal mimochodem, piszesz: „Brawo napisał ‘doprowadził’”. Czyli jednak to Brawo postawił tę tezę, a nie ja. Nie sprostowałeś jednak, że wcześniej przypisałeś ją mnie.A teraz druga sprawa. Nie kwestionuję rachunku 442–296. Tylko on pokazuje siłę nabywczą płacy minimalnej, a nie to, czy sama cena paliwa była wysoka czy niska względem rynku.Do tego trzeba porównać ceny z innymi państwami i średnią UE. Przykładowo 11 września 2023 r. średnia UE wynosiła 1,830 euro/l, w Polsce 1,391, a w Czechach 1,626, na Węgrzech 1,681 i na Słowacji 1,690. Nawet w Rumunii było 1,448 euro/l.Czyli w okresie, który przywołujesz, sama liczba litrów możliwych do kupienia za polską płacę minimalną nie mówi nam, czy polska cena była rynkowo wysoka czy niska. W części krajów dawnego bloku wschodniego paliwo było droższe od polskiego, mimo że poziom wynagrodzeń nie był wyższy.Dlatego 442–296 to matematyka, z którą nie polemizuję. Problem w tym, że próbujesz z tej matematyki wyciągnąć wniosek dotyczący czegoś, czego ten rachunek nie mierzy.",
-      "votes": {
-        "up": 5,
-        "down": 8
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
     }
   ]
 }
