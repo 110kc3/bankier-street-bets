@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-10-10T21:45:20.258Z",
+  "updatedAt": "2026-10-11T05:47:21.350Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-10T21:45:20.258Z",
+    "fetchedAt": "2026-10-11T05:47:21.350Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.229,
+    "score": 0.232,
     "confidence": 0.78,
     "commentCount": 92,
     "breakdown": {
-      "positive": 50,
-      "negative": 12,
+      "positive": 51,
+      "negative": 11,
       "neutral": 30
     },
     "trend": [
       {
         "date": "2026-10-04",
-        "score": 0.065,
-        "count": 4
+        "score": 0.194,
+        "count": 3
       },
       {
         "date": "2026-10-05",
@@ -58,10 +58,15 @@
         "date": "2026-10-10",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-10-11",
+        "score": 0.322,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 92 komentarzy z ostatnich 7 dni: nastroje pozytywne (50 pozytywnych, 12 negatywnych, 30 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 92 komentarzy z ostatnich 7 dni: nastroje pozytywne (51 pozytywnych, 11 negatywnych, 30 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
@@ -107,6 +112,20 @@
   },
   "comments": [
     {
+      "id": "76039981",
+      "author": "Newil",
+      "postedAt": "2026-10-11 07:11",
+      "threadTitle": "Re: drugie odciecie dywidendy....",
+      "url": "https://www.bankier.pl/forum/temat_drugie-odciecie-dywidendy,76010545.html",
+      "body": "Za pośrednictwem XTB najlepsze rozwiązanie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "76035881",
       "author": "Insurance",
       "postedAt": "2026-10-10 08:13",
@@ -114,7 +133,7 @@
       "url": "https://www.bankier.pl/forum/temat_79-13-pln-srednia-docelowa-crna,75986929.html",
       "body": "Cierpliwi zostaną wynagrodzeni...",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -128,7 +147,7 @@
       "url": "https://www.bankier.pl/forum/temat_drugie-odciecie-dywidendy,76010545.html",
       "body": "Mam takie wrażenie jakby w akcjonariuszach wywołać niepewność sztywne widełki wzrost spadek aby wymusić jak największą liczbętransakcji gdzie z prowizji największy zysk z różnicy maja biura maklerskie przy zasobie okreslonej ilości akcji sa w stanie sterowaćkursem na dźwigni z której czerpią ogromne zyski a zwykły zjadacz chleba oddaje cały urobek po opłaceniu 0.39 % tak sobie myślę ze xtb lepszym jest rozwiązaniem i zastanawiam się czy nie przenieść wszystkiego ktoś ma jakieś doświadczenia z kosztami plusy -minusy",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.87,
@@ -1379,20 +1398,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75969441",
-      "author": "Rafal",
-      "postedAt": "2026-10-04 00:30",
-      "threadTitle": "korekta",
-      "url": "https://www.bankier.pl/forum/temat_korekta,75969441.html",
-      "body": "Chyba będziemy testować poziom 64 zł",
-      "votes": {
-        "up": 1,
-        "down": 7
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
