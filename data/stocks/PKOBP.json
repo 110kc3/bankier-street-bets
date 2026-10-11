@@ -1,13 +1,13 @@
 {
   "symbol": "PKOBP",
-  "companyName": "PKO BP SA",
+  "companyName": "PKO BP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-10-11T05:47:13.727Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp,6,21,10000000062.html",
+  "updatedAt": "2026-10-11T12:50:09.442Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-11T05:47:13.727Z",
+    "fetchedAt": "2026-10-11T12:50:09.442Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.126,
-    "confidence": 0.59,
-    "commentCount": 37,
+    "score": 0.097,
+    "confidence": 0.57,
+    "commentCount": 36,
     "breakdown": {
-      "positive": 16,
-      "negative": 4,
+      "positive": 14,
+      "negative": 5,
       "neutral": 17
     },
     "trend": [
-      {
-        "date": "2026-10-04",
-        "score": 0.322,
-        "count": 2
-      },
       {
         "date": "2026-10-05",
         "score": 0.009,
@@ -53,10 +48,15 @@
         "date": "2026-10-10",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-10-11",
+        "score": -0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 37 komentarzy z ostatnich 7 dni: nastroje pozytywne (16 pozytywnych, 4 negatywnych, 17 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 36 komentarzy z ostatnich 7 dni: nastroje mieszane (14 pozytywnych, 5 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wzrosty",
@@ -64,10 +64,6 @@
       },
       {
         "word": "baza",
-        "count": 3
-      },
-      {
-        "word": "zrobic",
         "count": 3
       },
       {
@@ -97,10 +93,28 @@
       {
         "word": "dodatnia",
         "count": 2
+      },
+      {
+        "word": "ogromna",
+        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76041775",
+      "author": "ono",
+      "postedAt": "2026-10-11 13:43",
+      "threadTitle": "Re: Dla mnie ta cała szopka z zagrozeniem",
+      "url": "https://www.bankier.pl/forum/temat_dla-mnie-ta-cala-szopka-z-zagrozeniem,76027263.html",
+      "body": "jarosław w desperacji planuje zamach na premiera",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76037223",
       "author": "Hehehe",
@@ -586,34 +600,6 @@
       "body": "A ja nie muszę nic pobierać, bo nie korzystam z żadnej durnej aplikacji. Wchodzę normalnie przez przeglądarkę. A między 9 a 9:30 były ładne skoki to nawet coś sprzedałem i zarobiłem. Na dobry początek tygodnia :)",
       "votes": {
         "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75971537",
-      "author": "Nobojak",
-      "postedAt": "2026-10-04 14:44",
-      "threadTitle": "Re: supermakler",
-      "url": "https://www.bankier.pl/forum/temat_supermakler,75970573.html",
-      "body": "Bedzie tak gotowy jak sobie bieznesmeni zamowili zebys ty i inni nie mogli zrobic zlecenia ani kupna ani sprzedazy w okreslonym czasie i zebys uczyl sie odnowa przez tydzien nowego ..kumasz??? Potrzebne to bylo kolejny raz :((((((((",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75970573",
-      "author": "jaś",
-      "postedAt": "2026-10-04 11:51",
-      "threadTitle": "supermakler",
-      "url": "https://www.bankier.pl/forum/temat_supermakler,75970573.html",
-      "body": "kiedy będzie nowy do pobrania?wszystko to na wariata robione",
-      "votes": {
-        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
