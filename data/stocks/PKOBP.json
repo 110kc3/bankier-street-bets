@@ -1,27 +1,27 @@
 {
   "symbol": "PKOBP",
-  "companyName": "PKO BP",
+  "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp,6,21,10000000062.html",
-  "updatedAt": "2026-10-11T12:50:09.442Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
+  "updatedAt": "2026-10-11T21:59:44.104Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-11T12:50:09.442Z",
+    "fetchedAt": "2026-10-11T21:59:44.104Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 19
+    "threadsScanned": 20
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.097,
-    "confidence": 0.57,
-    "commentCount": 36,
+    "score": 0.118,
+    "confidence": 0.61,
+    "commentCount": 41,
     "breakdown": {
-      "positive": 14,
+      "positive": 17,
       "negative": 5,
-      "neutral": 17
+      "neutral": 19
     },
     "trend": [
       {
@@ -51,12 +51,12 @@
       },
       {
         "date": "2026-10-11",
-        "score": -0.322,
-        "count": 1
+        "score": 0.107,
+        "count": 6
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 36 komentarzy z ostatnich 7 dni: nastroje mieszane (14 pozytywnych, 5 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 41 komentarzy z ostatnich 7 dni: nastroje pozytywne (17 pozytywnych, 5 negatywnych, 19 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "wzrosty",
@@ -83,24 +83,94 @@
         "count": 3
       },
       {
+        "word": "jedziemy",
+        "count": 2
+      },
+      {
+        "word": "blackrock",
+        "count": 2
+      },
+      {
         "word": "jakby",
         "count": 2
       },
       {
         "word": "rentownosci",
         "count": 2
-      },
-      {
-        "word": "dodatnia",
-        "count": 2
-      },
-      {
-        "word": "ogromna",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76043495",
+      "author": "Kolega",
+      "postedAt": "2026-10-11 19:41",
+      "threadTitle": "Re: To jutro 112 zł czy odbicie ?",
+      "url": "https://www.bankier.pl/forum/temat_to-jutro-112-zl-czy-odbicie,76042561.html",
+      "body": "Jedziemy na 112 i niżej. Niestety",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76043093",
+      "author": "podatki",
+      "postedAt": "2026-10-11 18:13",
+      "threadTitle": "Re: To jutro 112 zł czy odbicie ?",
+      "url": "https://www.bankier.pl/forum/temat_to-jutro-112-zl-czy-odbicie,76042561.html",
+      "body": "Trzeba minimalizować podatki",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76042617",
+      "author": "jacek303",
+      "postedAt": "2026-10-11 16:08",
+      "threadTitle": "Re: To jutro 112 zł czy odbicie ?",
+      "url": "https://www.bankier.pl/forum/temat_to-jutro-112-zl-czy-odbicie,76042561.html",
+      "body": "Pomyłka BlackRock sprzedał akcje PEKAO a nie PKO. Ale może jest jakiś związek tego sypania ze zwałką na PKO BP.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76042561",
+      "author": "jacek303",
+      "postedAt": "2026-10-11 15:58",
+      "threadTitle": "To jutro 112 zł czy odbicie ?",
+      "url": "https://www.bankier.pl/forum/temat_to-jutro-112-zl-czy-odbicie,76042561.html",
+      "body": "Ciekawa historia z tym PKO. Ze 123 na 113 zł w 3 sesje bez powodu. Blackrock zmniejszył pakiet ale dlaczego sypie tak brutalnie ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76042251",
+      "author": "tenmarcus",
+      "postedAt": "2026-10-11 14:58",
+      "threadTitle": "Re: Zobaczcie co się dzieje na kghm na PKN na pge",
+      "url": "https://www.bankier.pl/forum/temat_zobaczcie-co-sie-dzieje-na-kghm-na-pkn-na-pge,76027447.html",
+      "body": "a co sądzisz o Bumech?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76041775",
       "author": "ono",
