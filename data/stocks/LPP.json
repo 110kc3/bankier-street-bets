@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-10-12T05:56:51.849Z",
+  "updatedAt": "2026-10-12T15:22:50.223Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-12T05:56:51.849Z",
+    "fetchedAt": "2026-10-12T15:22:50.223Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,11 +15,11 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.101,
+    "score": 0.107,
     "confidence": 0.74,
-    "commentCount": 139,
+    "commentCount": 140,
     "breakdown": {
-      "positive": 54,
+      "positive": 55,
       "negative": 30,
       "neutral": 55
     },
@@ -133,10 +133,15 @@
         "date": "2026-10-08",
         "score": 0.672,
         "count": 2
+      },
+      {
+        "date": "2026-10-12",
+        "score": 0.322,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 139 komentarzy z ostatnich 30 dni: nastroje pozytywne (54 pozytywnych, 30 negatywnych, 55 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 140 komentarzy z ostatnich 30 dni: nastroje pozytywne (55 pozytywnych, 30 negatywnych, 55 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "uwazam",
@@ -181,6 +186,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "76047907",
+      "author": "IleCzekać",
+      "postedAt": "2026-10-12 11:54",
+      "threadTitle": "Re: rekomendacja LPP",
+      "url": "https://www.bankier.pl/forum/temat_rekomendacja-lpp,75972509.html",
+      "body": "Kiedyś pewnie taki pułap to osiągnie, ale w jakiej perspektywie czasowej?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76015427",
       "author": "IL",
@@ -679,7 +698,7 @@
       "url": "https://www.bankier.pl/forum/temat_nowe-info-o-heindenburgu-short-zobaczcie-co-sie-stlao-teraz-na-lpp,75904605.html",
       "body": "Wszystkie pozytywne komentarze z jednego ipTraderX to naciągacz",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 1
       },
       "sentimentScore": -0.87,

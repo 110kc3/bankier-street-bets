@@ -3,11 +3,11 @@
   "companyName": "Erste Bank Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ERSTEPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_erste-bank-polska-sa,6,21,38.html",
-  "updatedAt": "2026-10-12T05:55:47.374Z",
+  "updatedAt": "2026-10-12T15:22:05.326Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-12T05:55:47.374Z",
+    "fetchedAt": "2026-10-12T15:22:05.326Z",
     "windowDays": 365,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.018,
+    "score": -0.001,
     "confidence": 0.55,
-    "commentCount": 36,
+    "commentCount": 37,
     "breakdown": {
       "positive": 6,
-      "negative": 6,
+      "negative": 7,
       "neutral": 24
     },
     "trend": [
@@ -173,10 +173,15 @@
         "date": "2026-10-07",
         "score": 0.161,
         "count": 2
+      },
+      {
+        "date": "2026-10-12",
+        "score": -0.322,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 36 komentarzy z ostatnich 365 dni: nastroje mieszane (6 pozytywnych, 6 negatywnych, 24 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 37 komentarzy z ostatnich 365 dni: nastroje mieszane (6 pozytywnych, 7 negatywnych, 24 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dalej",
@@ -185,6 +190,10 @@
       {
         "word": "https",
         "count": 4
+      },
+      {
+        "word": "nowego",
+        "count": 3
       },
       {
         "word": "erste",
@@ -199,6 +208,10 @@
         "count": 3
       },
       {
+        "word": "zlecen",
+        "count": 2
+      },
+      {
         "word": "niech",
         "count": 2
       },
@@ -209,18 +222,24 @@
       {
         "word": "analizy",
         "count": 2
-      },
-      {
-        "word": "gpwtrader",
-        "count": 2
-      },
-      {
-        "word": "infoco",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76047113",
+      "author": "jacek303",
+      "postedAt": "2026-10-12 10:44",
+      "threadTitle": "Re: Nie dziala Erste BM",
+      "url": "https://www.bankier.pl/forum/temat_nie-dziala-erste-bm,75980149.html",
+      "body": "Były problemy ale teraz system działa. Wyeksportowana do nowego okna tabela z notowaniami online była pusta. Naprawiłem to sam wyłączając \"Zapobieganie śledzeniu tej witryny\" w ustawieniach strony. Zlecenia wchodzą teraz szybciej ale wciąż występują \"błędy techniczne\" i trzeba się wylogować i zalogować ponownie żeby odzyskać podgląd listy zleceń i portfela.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76005697",
       "author": "black944",

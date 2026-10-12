@@ -3,32 +3,27 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-10-12T05:57:15.938Z",
+  "updatedAt": "2026-10-12T15:23:10.889Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-12T05:57:15.938Z",
+    "fetchedAt": "2026-10-12T15:23:10.889Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 19
+    "threadsScanned": 20
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.227,
-    "confidence": 0.65,
-    "commentCount": 40,
+    "score": -0.2,
+    "confidence": 0.62,
+    "commentCount": 38,
     "breakdown": {
-      "positive": 5,
-      "negative": 13,
-      "neutral": 22
+      "positive": 6,
+      "negative": 12,
+      "neutral": 20
     },
     "trend": [
-      {
-        "date": "2026-07-14",
-        "score": -0.107,
-        "count": 3
-      },
       {
         "date": "2026-07-15",
         "score": 0,
@@ -128,10 +123,15 @@
         "date": "2026-10-09",
         "score": -0.583,
         "count": 1
+      },
+      {
+        "date": "2026-10-12",
+        "score": 0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 40 komentarzy z ostatnich 90 dni: nastroje negatywne (5 pozytywnych, 13 negatywnych, 22 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 38 komentarzy z ostatnich 90 dni: nastroje negatywne (6 pozytywnych, 12 negatywnych, 20 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "trader",
@@ -140,6 +140,10 @@
       {
         "word": "dziala",
         "count": 5
+      },
+      {
+        "word": "pekao",
+        "count": 4
       },
       {
         "word": "mnie",
@@ -151,10 +155,6 @@
       },
       {
         "word": "obecnie",
-        "count": 4
-      },
-      {
-        "word": "banki",
         "count": 4
       },
       {
@@ -177,6 +177,20 @@
   },
   "comments": [
     {
+      "id": "76048283",
+      "author": "jacek303",
+      "postedAt": "2026-10-12 12:19",
+      "threadTitle": "260 wytrzyma dzisiaj ?",
+      "url": "https://www.bankier.pl/forum/temat_260-wytrzyma-dzisiaj,76048283.html",
+      "body": "Zobaczymy czy BlackRock wysypie kolejne worki z akcjami superbanku PeKaO.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "76033095",
       "author": "inFidelity",
       "postedAt": "2026-10-09 20:34",
@@ -184,7 +198,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "U mnie po zakończonej sesji w kolumnie zmiana procentowa wyświetla 0,00% przy wszystkich spółkach, wyresy do bani bo w połączeniu pokazuje błąd wykresów, tragedia !",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -268,7 +282,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "W ogóle ofert nie widać na dogrywce. Już drugi dzień . Wykresy szwankują, jakieś dziwne komunikaty , itd..Jednym słowem dramat.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -282,7 +296,7 @@
       "url": "https://www.bankier.pl/forum/temat_wszystkie-arkusze-puste-o-co-tu-chodzi,75988209.html",
       "body": "Trzeba na stare lata nauczyc sie w zime angielskiego i przejsc na inne rynki",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -690,48 +704,6 @@
       "votes": {
         "up": 3,
         "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75127883",
-      "author": "Tomek",
-      "postedAt": "2026-07-14 13:38",
-      "threadTitle": "Re: Jazda na 250 Pln",
-      "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
-      "body": "Ropa w góre banki w dół. Niema tu żadnej filozofi",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75126643",
-      "author": "Nimozja",
-      "postedAt": "2026-07-14 12:07",
-      "threadTitle": "Re: Jazda na 250 Pln",
-      "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
-      "body": "Tylko dlaczego?Stopy procentowe nie ruszone, czyżby wtajemniczeni już wiedzieli o wynikach za II kwartał,?",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75125511",
-      "author": "darius19",
-      "postedAt": "2026-07-14 10:45",
-      "threadTitle": "Re: Jazda na 250 Pln",
-      "url": "https://www.bankier.pl/forum/temat_jazda-na-250-pln,75036579.html",
-      "body": "faktycznie jazda -3,6%",
-      "votes": {
-        "up": 2,
-        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
