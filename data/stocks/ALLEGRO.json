@@ -3,32 +3,27 @@
   "companyName": "ALLEGRO.EU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu,6,21,10000001753.html",
-  "updatedAt": "2026-10-13T14:09:20.900Z",
+  "updatedAt": "2026-10-13T22:43:27.788Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-13T14:09:20.900Z",
+    "fetchedAt": "2026-10-13T22:43:27.788Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 11
+    "threadsScanned": 10
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.044,
+    "score": 0.05,
     "confidence": 0.72,
-    "commentCount": 62,
+    "commentCount": 60,
     "breakdown": {
       "positive": 15,
-      "negative": 11,
-      "neutral": 36
+      "negative": 10,
+      "neutral": 35
     },
     "trend": [
-      {
-        "date": "2026-10-06",
-        "score": -0.29,
-        "count": 3
-      },
       {
         "date": "2026-10-07",
         "score": 0.107,
@@ -61,20 +56,16 @@
       },
       {
         "date": "2026-10-13",
-        "score": 0.161,
-        "count": 4
+        "score": 0.129,
+        "count": 5
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 62 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 11 negatywnych, 36 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 60 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 10 negatywnych, 35 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "allegro",
-        "count": 8
-      },
-      {
-        "word": "szorty",
-        "count": 6
+        "count": 9
       },
       {
         "word": "trzeba",
@@ -91,6 +82,10 @@
       {
         "word": "poniedzialek",
         "count": 5
+      },
+      {
+        "word": "szorty",
+        "count": 4
       },
       {
         "word": "kolka",
@@ -112,6 +107,20 @@
   },
   "comments": [
     {
+      "id": "76067043",
+      "author": "Analitykdomowy",
+      "postedAt": "2026-10-13 18:46",
+      "threadTitle": "News AM 13.10. 2026",
+      "url": "https://www.bankier.pl/forum/temat_news-am-13-10-2026,76067043.html",
+      "body": "W Polsce sklepy Smyk i Biedronka wycofują ze sprzedaży noże. Kto na tym skorzysta- Allegro",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "76059253",
       "author": "lol",
       "postedAt": "2026-10-13 09:50",
@@ -119,8 +128,8 @@
       "url": "https://www.bankier.pl/forum/temat_pomachajmy-peroniarzom-papapa-a-szortom-gratulujemy-cel-100,76059253.html",
       "body": "Piękny widok jak szorty tracą majątek :)",
       "votes": {
-        "up": 3,
-        "down": 0
+        "up": 9,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -133,8 +142,8 @@
       "url": "https://www.bankier.pl/forum/temat_szorty-jak-samopoczucie-mokro-pewnie-macie-cel-100,76059219.html",
       "body": "Kolejne depozyty stracone u szortów :). Super. Pierwszy przystanek 65 a później śmiało do 100",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 5,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -162,7 +171,7 @@
       "body": "Zaczyna się rajd św.Mikołaja :)60zł w tym miesiącu :)",
       "votes": {
         "up": 4,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -204,7 +213,7 @@
       "body": "Andy nie płacz dziecko tyle. Kup sobie nowy cyrkiel i rób kółka w zeszyciku :). Nikt nie ma czasu śmiać się z ciebie tutaj bo lepszy ubaw jest z szortów jak tracą kasę :) a ty tylko zostałeś na peronie i płaczesz że nie jedziesz dalej w pociągu a kurs już tobie odjechał. Mało ważny jesteś :)",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -217,7 +226,7 @@
       "url": "https://www.bankier.pl/forum/temat_spolka-spekulacyjna,76010803.html",
       "body": "Popatrz w lustro a zobaczysz bolka bis jak się patrzy koleś",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -847,7 +856,7 @@
       "url": "https://www.bankier.pl/forum/temat_spolka-spekulacyjna,76010803.html",
       "body": "Za chwilę bardzo wielu drobnych ciułaczy straci bardzo dużo pieniążków.",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 9
       },
       "sentimentScore": -0.322,
@@ -936,48 +945,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75992661",
-      "author": "lol",
-      "postedAt": "2026-10-06 16:42",
-      "threadTitle": "Od 1 listopada kolejne 2€ cła na każdą rzecz z Chin :)",
-      "url": "https://www.bankier.pl/forum/temat_od-1-listopada-kolejne-2-cla-na-kazda-rzecz-z-chin,75992661.html",
-      "body": "Wchodzi kolejna opłata od listopada na Temu i Shein :)",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75992643",
-      "author": "lol",
-      "postedAt": "2026-10-06 16:41",
-      "threadTitle": "Kolejne bardzo dobre wyniki w listopadzie. Szorty już płaczą:)",
-      "url": "https://www.bankier.pl/forum/temat_kolejne-bardzo-dobre-wyniki-w-listopadzie-szorty-juz-placza,75992643.html",
-      "body": "zbliżają się kolejne bardzo dobre wyniki w listopadzie :). Szorty już płaczą z tego powodu :)",
-      "votes": {
-        "up": 7,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75992623",
-      "author": "lol",
-      "postedAt": "2026-10-06 16:39",
-      "threadTitle": "W listopadzie 65zł :). Szorty załamane :)",
-      "url": "https://www.bankier.pl/forum/temat_w-listopadzie-65zl-szorty-zalamane,75992623.html",
-      "body": "Szorty już bankrutują :) a co to będzie w listopadzie :)",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
     }
   ]
 }

@@ -3,11 +3,11 @@
   "companyName": "PEKAO",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pekao,6,21,18.html",
-  "updatedAt": "2026-10-13T14:11:11.921Z",
+  "updatedAt": "2026-10-13T22:45:45.468Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-13T14:11:11.921Z",
+    "fetchedAt": "2026-10-13T22:45:45.468Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.202,
+    "score": -0.19,
     "confidence": 0.61,
-    "commentCount": 36,
+    "commentCount": 37,
     "breakdown": {
       "positive": 6,
       "negative": 12,
-      "neutral": 18
+      "neutral": 19
     },
     "trend": [
       {
@@ -123,10 +123,15 @@
         "date": "2026-10-12",
         "score": 0.322,
         "count": 1
+      },
+      {
+        "date": "2026-10-13",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 36 komentarzy z ostatnich 90 dni: nastroje negatywne (6 pozytywnych, 12 negatywnych, 18 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 37 komentarzy z ostatnich 90 dni: nastroje negatywne (6 pozytywnych, 12 negatywnych, 19 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "trader",
@@ -153,6 +158,10 @@
         "count": 4
       },
       {
+        "word": "etrader",
+        "count": 3
+      },
+      {
         "word": "przy",
         "count": 3
       },
@@ -163,14 +172,24 @@
       {
         "word": "procesor",
         "count": 3
-      },
-      {
-        "word": "energii",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "76065691",
+      "author": "zyga.",
+      "postedAt": "2026-10-13 16:49",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "czy u Was tez nie dziak\\la etrader ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76048283",
       "author": "jacek303",
@@ -347,7 +366,7 @@
       "url": "https://www.bankier.pl/forum/temat_peo-280,75804439.html",
       "body": "PZU w blokach startowych",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
