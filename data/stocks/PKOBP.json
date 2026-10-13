@@ -1,34 +1,29 @@
 {
   "symbol": "PKOBP",
-  "companyName": "PKO BP SA",
+  "companyName": "PKO BP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-10-13T00:40:23.986Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp,6,21,10000000062.html",
+  "updatedAt": "2026-10-13T14:11:30.292Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-13T00:40:23.986Z",
+    "fetchedAt": "2026-10-13T14:11:30.292Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 21
+    "threadsScanned": 17
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.087,
-    "confidence": 0.65,
-    "commentCount": 48,
+    "score": 0.112,
+    "confidence": 0.61,
+    "commentCount": 41,
     "breakdown": {
-      "positive": 19,
-      "negative": 7,
-      "neutral": 22
+      "positive": 18,
+      "negative": 6,
+      "neutral": 17
     },
     "trend": [
-      {
-        "date": "2026-10-06",
-        "score": 0.083,
-        "count": 7
-      },
       {
         "date": "2026-10-08",
         "score": 0.138,
@@ -51,31 +46,32 @@
       },
       {
         "date": "2026-10-12",
-        "score": 0.037,
-        "count": 11
+        "score": 0.165,
+        "count": 9
+      },
+      {
+        "date": "2026-10-13",
+        "score": -0.161,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 48 komentarzy z ostatnich 7 dni: nastroje mieszane (19 pozytywnych, 7 negatywnych, 22 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 41 komentarzy z ostatnich 7 dni: nastroje pozytywne (18 pozytywnych, 6 negatywnych, 17 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
-      {
-        "word": "trzeba",
-        "count": 4
-      },
-      {
-        "word": "kolego",
-        "count": 3
-      },
       {
         "word": "koniec",
         "count": 3
       },
       {
-        "word": "baza",
+        "word": "znowu",
         "count": 3
       },
       {
-        "word": "banki",
+        "word": "trzeba",
+        "count": 3
+      },
+      {
+        "word": "baza",
         "count": 3
       },
       {
@@ -95,12 +91,44 @@
         "count": 3
       },
       {
-        "word": "wydmuszki",
+        "word": "nizej",
+        "count": 2
+      },
+      {
+        "word": "ciekawe",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76062137",
+      "author": "jacek303",
+      "postedAt": "2026-10-13 12:51",
+      "threadTitle": "Re: Żarty się skończyły ,jazda na 170",
+      "url": "https://www.bankier.pl/forum/temat_zarty-sie-skonczyly-jazda-na-170,76046571.html",
+      "body": "Jest 116 a będzie niżej",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76061765",
+      "author": "jacek303",
+      "postedAt": "2026-10-13 12:25",
+      "threadTitle": "Re: Ale zrobili inwestorów w balona",
+      "url": "https://www.bankier.pl/forum/temat_ale-zrobili-inwestorow-w-balona,76052525.html",
+      "body": "Rynek niemrawy dzisiaj. Ciekawe co planują na koniec tygodnia. Czy bankami podjadą po 4400 ? A może podbiją znowu PKN-a ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76054209",
       "author": "Kasztan",
@@ -114,34 +142,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76054193",
-      "author": "Kasztan",
-      "postedAt": "2026-10-12 19:22",
-      "threadTitle": "Re: Ale zrobili inwestorów w balona",
-      "url": "https://www.bankier.pl/forum/temat_ale-zrobili-inwestorow-w-balona,76052525.html",
-      "body": "Lol wydmuszki macie między uszami",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76053029",
-      "author": "Bonga",
-      "postedAt": "2026-10-12 17:39",
-      "threadTitle": "Re: Ale zrobili inwestorów w balona",
-      "url": "https://www.bankier.pl/forum/temat_ale-zrobili-inwestorow-w-balona,76052525.html",
-      "body": "Tu trzeba mieć jaja że stali i mieć czym myśleć czyli mieć mózg zamiast pustaków w dzbanie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "76052929",
@@ -670,104 +670,6 @@
       "body": "Zmiany zwyrodnieniowe postępują....",
       "votes": {
         "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75989917",
-      "author": "MAXIMUS",
-      "postedAt": "2026-10-06 13:15",
-      "threadTitle": "Re: Jak zawsze czyli standard",
-      "url": "https://www.bankier.pl/forum/temat_jak-zawsze-czyli-standard,75989047.html",
-      "body": "To już norma bo przecież nie może być normalnie ,zgadza się?",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75989047",
-      "author": "MAXIMUS",
-      "postedAt": "2026-10-06 12:19",
-      "threadTitle": "Jak zawsze czyli standard",
-      "url": "https://www.bankier.pl/forum/temat_jak-zawsze-czyli-standard,75989047.html",
-      "body": "mBank trzyma ciśnienie,Erste Bank również ale na królu banków jak zawsze zwieracze z podażą puszczają jak zawsze",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75988273",
-      "author": "Waldek",
-      "postedAt": "2026-10-06 11:13",
-      "threadTitle": "Dzisiaj ath 4300 a może nawet 4400 ?",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-ath-4300-a-moze-nawet-4400,75988273.html",
-      "body": "Banki są kupowane jakby złoto znalazły",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75988197",
-      "author": "MAXIMUS",
-      "postedAt": "2026-10-06 11:09",
-      "threadTitle": "A dzisiaj jedziemy na walorze na 124",
-      "url": "https://www.bankier.pl/forum/temat_a-dzisiaj-jedziemy-na-walorze-na-124,75988197.html",
-      "body": "i przestań w końcu pajacować kolego",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75987895",
-      "author": "MAXIMUS",
-      "postedAt": "2026-10-06 10:45",
-      "threadTitle": "Re: 131 w tym ruchu",
-      "url": "https://www.bankier.pl/forum/temat_131-w-tym-ruchu,75986957.html",
-      "body": "Tak ale na koniec miesiąca kolego",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75987205",
-      "author": "Zenon",
-      "postedAt": "2026-10-06 10:05",
-      "threadTitle": "Re: 131 w tym ruchu",
-      "url": "https://www.bankier.pl/forum/temat_131-w-tym-ruchu,75986957.html",
-      "body": "140 ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75986957",
-      "author": "MAXIMUS",
-      "postedAt": "2026-10-06 09:52",
-      "threadTitle": "131 w tym ruchu",
-      "url": "https://www.bankier.pl/forum/temat_131-w-tym-ruchu,75986957.html",
-      "body": "Pozdrawiam inteligentnych akcjonariuszy",
-      "votes": {
-        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
