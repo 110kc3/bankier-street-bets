@@ -3,31 +3,31 @@
   "companyName": "KRUK",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk,6,21,10000001000.html",
-  "updatedAt": "2026-10-14T04:53:02.916Z",
+  "updatedAt": "2026-10-14T11:50:48.865Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-14T04:53:02.916Z",
+    "fetchedAt": "2026-10-14T11:50:48.865Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 56
+    "threadsScanned": 58
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.078,
-    "confidence": 0.73,
+    "score": 0.066,
+    "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 69,
-      "negative": 56,
-      "neutral": 75
+      "positive": 68,
+      "negative": 58,
+      "neutral": 74
     },
     "trend": [
       {
         "date": "2026-10-09",
-        "score": -0.209,
-        "count": 21
+        "score": -0.812,
+        "count": 5
       },
       {
         "date": "2026-10-10",
@@ -48,41 +48,42 @@
         "date": "2026-10-13",
         "score": -0.019,
         "count": 52
+      },
+      {
+        "date": "2026-10-14",
+        "score": -0.081,
+        "count": 16
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (69 pozytywnych, 56 negatywnych, 75 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (68 pozytywnych, 58 negatywnych, 74 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "kruk",
+        "count": 22
+      },
       {
         "word": "kruka",
         "count": 21
       },
       {
-        "word": "kruk",
-        "count": 19
-      },
-      {
         "word": "roku",
-        "count": 13
+        "count": 14
       },
       {
         "word": "dzis",
-        "count": 13
+        "count": 12
+      },
+      {
+        "word": "masz",
+        "count": 10
       },
       {
         "word": "rynek",
-        "count": 11
+        "count": 10
       },
       {
         "word": "zysk",
-        "count": 10
-      },
-      {
-        "word": "przy",
-        "count": 10
-      },
-      {
-        "word": "niestety",
         "count": 10
       },
       {
@@ -90,12 +91,240 @@
         "count": 10
       },
       {
-        "word": "troche",
-        "count": 10
+        "word": "mysle",
+        "count": 9
+      },
+      {
+        "word": "wyniki",
+        "count": 9
       }
     ]
   },
   "comments": [
+    {
+      "id": "76075783",
+      "author": "Ira",
+      "postedAt": "2026-10-14 13:22",
+      "threadTitle": "Re: I po spadkach",
+      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,76059695.html",
+      "body": "Myślę że okolice 400 zł zobaczymy niebawem.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76075649",
+      "author": "MartinMix",
+      "postedAt": "2026-10-14 13:12",
+      "threadTitle": "I ujawnił się trzeci short",
+      "url": "https://www.bankier.pl/forum/temat_i-ujawnil-sie-trzeci-short,76075649.html",
+      "body": "Dzisiaj ujawnił się 3 fundusz szortujący Kruka z wartością 0,51% (MARSHALL WACE LLP), ciekawe ile tych funduszy jest pod progiem.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76075431",
+      "author": "T1000",
+      "postedAt": "2026-10-14 12:54",
+      "threadTitle": "Re: I po spadkach",
+      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,76059695.html",
+      "body": "A propos wiedzy, to Norges Bank od 2023 akurat ogranicza inwestycję w Kruk. Wystarczy spojrzeć na ich stronę i sprawdzić. Simply Wall też podaje redukcję, Quercus nie jest nawet na liście top 25 udziałowców, gdzie Erste na 25 miejscu ma pakiet za 20mln, 0.3% akcji. Co nie zmienia faktu, że spółka jest stabilna.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76075315",
+      "author": "ForteMax",
+      "postedAt": "2026-10-14 12:47",
+      "threadTitle": "Re: Odrobimy czy nie?",
+      "url": "https://www.bankier.pl/forum/temat_odrobimy-czy-nie,76075053.html",
+      "body": "Generalnie nie jest tak świetnie jak tu na tym forum piszą, ale nie ma też tak źle. Można powiedzieć że średnio",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76075125",
+      "author": "Widmo",
+      "postedAt": "2026-10-14 12:33",
+      "threadTitle": "Re: moja cena docelowa ciągle 730zł",
+      "url": "https://www.bankier.pl/forum/temat_moja-cena-docelowa-ciagle-730zl,75916595.html",
+      "body": "Te portfele są tyle warte ale kruk zawsze miał i będzie mial duże dyskonto",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76075053",
+      "author": "odleszczanie",
+      "postedAt": "2026-10-14 12:28",
+      "threadTitle": "Odrobimy czy nie?",
+      "url": "https://www.bankier.pl/forum/temat_odrobimy-czy-nie,76075053.html",
+      "body": "Czy inwestorzy pozwola utopic sie spolce czy kurs odrobi straty? Jak oceniacie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76074501",
+      "author": "EXpertka",
+      "postedAt": "2026-10-14 11:49",
+      "threadTitle": "Re: Kruk dalsze prognozy",
+      "url": "https://www.bankier.pl/forum/temat_kruk-dalsze-prognozy,75777659.html",
+      "body": "Chyba nie jednak. Magazyny mają załadowane na lata",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76074361",
+      "author": "Cykador",
+      "postedAt": "2026-10-14 11:40",
+      "threadTitle": "Re: I po spadkach",
+      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,76059695.html",
+      "body": "336 pewno było okazją ale 344 też najgorsze nie jest. Niedawno było 400. Nadchodzące dni pokażą może co dalej.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76073519",
+      "author": "passenger",
+      "postedAt": "2026-10-14 10:49",
+      "threadTitle": "Re: I po spadkach",
+      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,76059695.html",
+      "body": "> Kruk jest tak wytarmoszony, że prędko nie ruszy. Jeszcze czekają nas spadki po wynikach za III kwartał.Tu mamy długoterminowy boczniak, będzie odbicie i ponowna realizacja zysków w okolicy 450zł.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76073077",
+      "author": "Agata",
+      "postedAt": "2026-10-14 10:19",
+      "threadTitle": "Re: Kruk dalsze prognozy",
+      "url": "https://www.bankier.pl/forum/temat_kruk-dalsze-prognozy,75777659.html",
+      "body": "Decyzję podejmuję sama po analizie, a zapytać nie zaszkodzi.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76072741",
+      "author": "Ynwestor",
+      "postedAt": "2026-10-14 09:55",
+      "threadTitle": "Re: moja cena docelowa ciągle 730zł",
+      "url": "https://www.bankier.pl/forum/temat_moja-cena-docelowa-ciagle-730zl,75916595.html",
+      "body": "A z czym to wg ciebie jest zart? Ty masz, taksy, ograniczony horyzont, co czytac, to w czym problem? Ty jestes niezly zyciowy zart.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76072669",
+      "author": "Ynwestor",
+      "postedAt": "2026-10-14 09:52",
+      "threadTitle": "Re: I po spadkach",
+      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,76059695.html",
+      "body": "Mega mocny biznes. Iv kw bedzie petarda, rynek usa, uk. Zobaczcie akcjonariat kruka. Norges slabiakow nie kupuje. Quercus tez. Tu koniec roku to moze byc powrot na 500. 336 to byla, wg mnie, okazja nad okazje. Gruni wiedza, plankton pisze o \"moczeniu sie\"",
+      "votes": {
+        "up": 7,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76072487",
+      "author": "Ynwestor",
+      "postedAt": "2026-10-14 09:40",
+      "threadTitle": "Re: Kruk dalsze prognozy",
+      "url": "https://www.bankier.pl/forum/temat_kruk-dalsze-prognozy,75777659.html",
+      "body": "Kup rekawki, to wyplyniesz, agata.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76072469",
+      "author": "Ynwestor",
+      "postedAt": "2026-10-14 09:40",
+      "threadTitle": "Re: Kruk dalsze prognozy",
+      "url": "https://www.bankier.pl/forum/temat_kruk-dalsze-prognozy,75777659.html",
+      "body": "Xawery, Bedzie roslo, sporo, bo biznes mega mocny. Przeczytaj to za miesiac, bo wiadomo, ze decyzje inwestycyjne podejmujesz na podstawie forum bankier. Brawo. Kolejna ammmeba z iq szufelki.",
+      "votes": {
+        "up": 7,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76072227",
+      "author": "Agata",
+      "postedAt": "2026-10-14 09:26",
+      "threadTitle": "Re: Kruk dalsze prognozy",
+      "url": "https://www.bankier.pl/forum/temat_kruk-dalsze-prognozy,75777659.html",
+      "body": "Też utopiona. Uśrednianie teraz, czy niżej?",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76071093",
+      "author": "Ira",
+      "postedAt": "2026-10-14 08:14",
+      "threadTitle": "Re: I po spadkach",
+      "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,76059695.html",
+      "body": "Dziś już ruszymy na poważnie. O 9:00 start.",
+      "votes": {
+        "up": 5,
+        "down": 3
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76068259",
       "author": "Xawery",
@@ -132,7 +361,7 @@
       "url": "https://www.bankier.pl/forum/temat_moja-cena-docelowa-ciagle-730zl,75916595.html",
       "body": "Teraz mamy zbieranko.",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -146,7 +375,7 @@
       "url": "https://www.bankier.pl/forum/temat_moja-cena-docelowa-ciagle-730zl,75916595.html",
       "body": "Byli tacy co pissli o pkn po 150 zart, o kghm po 400 zart, o pkobp zart. Wpadnij tu za rok. Poxartujemy sobie. Z ciebie",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -174,7 +403,7 @@
       "url": "https://www.bankier.pl/forum/temat_moja-cena-docelowa-ciagle-730zl,75916595.html",
       "body": "W aktualnej sytuacji pół miliarda zysku to zawrotny wynik a ambicje prezesa są większe ...!",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -244,7 +473,7 @@
       "url": "https://www.bankier.pl/forum/temat_skup-akcji-i-wyzsza-dywidenda,76061015.html",
       "body": "A widelec na to \"expertka to facet bez kasy\".",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -356,7 +585,7 @@
       "url": "https://www.bankier.pl/forum/temat_po-tym-co-powiedzial-prezes-wnioskuje-ze-kolejny-kwartal-tez-slaby,76062093.html",
       "body": "Oto dosłowny cytat z artykułu „Prezes Kruka: Część graczy akceptuje niższe stopy zwrotu. My nie chcemy iść tą drogą”, opublikowanego 13 października 2026 r. w Pulsie Biznesu:„Ale jeśli takich możliwości będzie mniej, a bilans pozostanie bezpieczny, nadwyżka kapitału powinna wracać do akcjonariuszy. To może oznaczać wyższą dywidendę, ale również skup akcji”.Spółka to maszyna do robienia pieniędzy. Matematykę pozostawiam Wam",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -455,7 +684,7 @@
       "body": "Muszą kupować bo na tym polega ten biznes, na tym zarabiają. Jeśli przestaną kupować to konkurencja , która ma niższe koszty na tym zarobić a Kruk będzie tracił rynek. Muszą kupowac",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
@@ -468,7 +697,7 @@
       "url": "https://www.bankier.pl/forum/temat_skup-akcji-i-wyzsza-dywidenda,76061015.html",
       "body": "Ba, części nigdy nie odzyskają. Ale tak to działa, stąd duży bufor bezpieczeństwa, stąd dokupują nowe portfele - ale w odpowiednich cenach, a nie płacąc 30% nominału za coś, co może być nie do odzyskania.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -496,7 +725,7 @@
       "url": "https://www.bankier.pl/forum/temat_kruk,76051675.html",
       "body": "Tylko założenia bereta z aluminium uchroni was przed promieniowaniem kosmicznym odbierającym rozum oraz przed spadkiem kursu akcji :D",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -511,7 +740,7 @@
       "body": "Te 20 mld to chyba przez 15 lat",
       "votes": {
         "up": 1,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -524,7 +753,7 @@
       "url": "https://www.bankier.pl/forum/temat_skup-akcji-i-wyzsza-dywidenda,76061015.html",
       "body": "Tak jak wspominałem - prezes w wywiadzie potwierdził, że jeśli brak będzie portfeli z odpowiednio wysoką stopą zwrotu to gotówka (której mają duży zapas) może zostać zagospodarowana inaczej - oferując wyższą dywidendę, lub skupując akcje. Zamiast panikować polecam się zastanowić - spółka ma ponad 20mld PLN do odzyskania, kapitalizację 6~mld, stopa dywidendy przy obecnym kursie już teraz jest bardzo atrakcyjna, a prawdopodobnie wzrośnie (czy to przez redukcję akcji w obiegu czy podniesienie jej stopy)",
       "votes": {
-        "up": 9,
+        "up": 12,
         "down": 4
       },
       "sentimentScore": 0.931,
@@ -580,8 +809,8 @@
       "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,76059695.html",
       "body": "Matinic ile masz akcji kruka? Skad pewnosc, ze ty cos wiesz?",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 3,
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -595,7 +824,7 @@
       "body": "Skąd wiesz, że po spadkach? Póki co sytuacja bardzo niepewna. Utrzymuje się w okolicach 1% wzrostu, a cały WIG20 walczy o utrzymanie wzrostów i chodzi w paśmie 0,1 - 0,26% na plusie.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -608,8 +837,8 @@
       "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,76059695.html",
       "body": "Kruk jest tak wytarmoszony, że prędko nie ruszy. Jeszcze czekają nas spadki po wynikach za III kwartał.",
       "votes": {
-        "up": 1,
-        "down": 1
+        "up": 3,
+        "down": 3
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -622,8 +851,8 @@
       "url": "https://www.bankier.pl/forum/temat_i-po-spadkach,76059695.html",
       "body": "Ruszamy?",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 4,
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -679,7 +908,7 @@
       "body": "On pojecia nie ma. To trll z zascianka jest.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -791,7 +1020,7 @@
       "body": "Do Xd:Co Ty w ogóle porównujesz? Getback to była spółka od początku stworzona do wyprowadzania kasy. Już w momencie tworzenia przez Czarneckiego, a później to już na pełną skalę. Zakupy wierzytelności były tam tylko przykrywką dla faktycznej działalności tej firmy, choć lepiej opisać ją \"piramidą finansową\".Rynek już ocenił działania Kruka, które zmniejszając skalę zakupów (i to bardzo radykalnie!) spowodował to co mamy obecnie, czyli kolejne wielkie zjazdy ceny akcji.I choćby nawet \"eksperci\" z forum Bankiera argumentowali coś pozytywnego to najważniejsze jest jak odbiera to rynek a co za tym idzie wszyscy poważnie zaangażowani, czyli głównie fundusze inwestycyjne oraz duzi inwestorzy.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -804,7 +1033,7 @@
       "url": "https://www.bankier.pl/forum/temat_mala-ciekawostka,76054799.html",
       "body": "No pewnie getback świetnie się napychał wierzytelnościami no nie?",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -846,7 +1075,7 @@
       "url": "https://www.bankier.pl/forum/temat_mala-ciekawostka,76054799.html",
       "body": "jedno co wiemy to kase na zakupy maja :) jakby chcieli to by kupili, ale się wstrzymują. Może czekają na IV kwartał, aby więcej wydać.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -861,7 +1090,7 @@
       "body": "Sama spółka negatywnie o biznesie się wypowiada, nie ma co się dziwić , że obleciało.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -874,7 +1103,7 @@
       "url": "https://www.bankier.pl/forum/temat_mala-ciekawostka,76054799.html",
       "body": "a może po prostu strategiaa, inne firmy napchaja sie drogimi portfelami, to oni wejdą później z gotówką i zgarną większość :)Strategia jakaś w tym na pewno jest:)",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -1140,7 +1369,7 @@
       "url": "https://www.bankier.pl/forum/temat_kruk,76051675.html",
       "body": "Ja nie widze sensu w takim dzialaniu. Chetnie pozycze im swoje jak przyzwoicie zaplaca i beda chcieli ode mnie wziac. Jesli uwazacie ze spolka jest tania to ja po prostu kupcie. Jesli tak jest to zauwaza to inni i tez zaczna kupowac i shorty zostana zamkniete ciagnac kurs w gore. Nauczcie sie korzystac z okazji jakie daje wam rynek, jesli waszym zdaniem jest tanio. A jak nie to zamknijcie pozycje i szukajcie gdzie indziej.",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 1
       },
       "sentimentScore": 0.762,
@@ -1336,7 +1565,7 @@
       "url": "https://www.bankier.pl/forum/temat_dla-wyrzucajacych-teraz-akcje,76046965.html",
       "body": "Bywało, i to nie raz :) Np. w 2021 czy 2024 roku zakupy w Q4 zblizyly się do tego co w Q1-Q3 sumarycznie. No ale shorty mają teraz pole do popisu przez kilka miesięcy.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -1532,7 +1761,7 @@
       "url": "https://www.bankier.pl/forum/temat_dla-wyrzucajacych-teraz-akcje,76046965.html",
       "body": "szczerze to już bywało że kruk kupował niemal taki pakiet jaki jest potrzebny do realizacji założeń zakupowych w ciągu jednego kwartału więc nie jest to nierealne że w czwartym kwartale zobaczymy taki zakupowy psikus...dało by to miliony do kieszeni tych co wiedzieli. czyli zarządu ,funduszy short i long.tylko ulica zostałaby wyd... a z drugiej strony gdyby kruk kupował byle g to tez nie byłaby dobra wiadomość, dyscyplina zakupowa to jak najbardziej na plus.",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -1574,7 +1803,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyniki-bardzo-bardzo-slabe,76042303.html",
       "body": "Zgadzam się że reakcja przesadzona. Ale widocznie dużo groszolapow na papierze siedziało.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -1616,7 +1845,7 @@
       "url": "https://www.bankier.pl/forum/temat_dla-wyrzucajacych-teraz-akcje,76046965.html",
       "body": "Oczywiście. Sami twierdzą że kasy im nie brakuje. Zaraz w górę.",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1644,7 +1873,7 @@
       "url": "https://www.bankier.pl/forum/temat_dla-wyrzucajacych-teraz-akcje,76046965.html",
       "body": "Niektórzy wychodzą z założenia, że spółka powinna za wszelką cenę kupić byle jaki nierentowny gniot, byle tylko zrealizować plan zakupów. Spółka dba jak widać o swoje pieniądze i nie kupuje byle czego, woli poczekać i kupić coś co rokuje jakiś zysk w przyszłości. Podobnie jak i na giełdzie, czy kupujemy wszystko jak leci, czy raczej analizujemy co bardziej się opłaci.",
       "votes": {
-        "up": 13,
+        "up": 14,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -1700,7 +1929,7 @@
       "url": "https://www.bankier.pl/forum/temat_dla-wyrzucajacych-teraz-akcje,76046965.html",
       "body": "Panikując gracie pod fundusze shortujące. One z wielką radością odkupią akcje za bezcen, gdy Wy je wyrzucacie w panice z powodu mniejszych zakupów. Nawet jeśli zakupy w 4Q nie ruszą z kopyta, jak firma zapowiada, bo sytuacja z dostępnością nie ulegnie poprawie - to zostawia spółce mnóstwo gotówki do dyspozycji, otwierając drogę do skupu przecenionych akcji, wyższej dywidendy, lub zmniejszenia zadłużenia. Tymczasem backlog portfeli do spłaty to ponad 20mld PLN - źródełko nie uschnie od gorszych zakupów przez kilka miesięcy :)",
       "votes": {
-        "up": 22,
+        "up": 23,
         "down": 1
       },
       "sentimentScore": -0.995,
@@ -1742,7 +1971,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyniki-bardzo-bardzo-slabe,76042303.html",
       "body": "nikt nie sprzedajektoś poprostu komuś pożyczył. pewnie GS.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -1756,7 +1985,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyniki-bardzo-bardzo-slabe,76042303.html",
       "body": "NIe panikujcie, przecież oni mają tyle wierzytelności, że na kolejne 4 lata mają co robić. Poki co nie kupują, bo są niezadawalające IRR. Czekają aż się konkurencja wystrzela. To nie wyścig, żeby nakupić jak najwięcej, tylko na właściwych warunkach. Getback kiedyś kupował wszystko jak leci, a wszyscy wiedzą jak skończyli...",
       "votes": {
-        "up": 6,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -1980,7 +2209,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyniki-bardzo-bardzo-slabe,76042303.html",
       "body": "Dokupione!!!",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -1994,7 +2223,7 @@
       "url": "https://www.bankier.pl/forum/temat_wyniki-bardzo-bardzo-slabe,76042303.html",
       "body": "Przesadna reakcja. Z jednej strony mniejsze zakupy wierzytelności = mniejsze przychody w przyszłości, ale co jest alternatywą. Przepłacanie za wierzytelności? Kupowanie kiepskiej jakości portfeli i płacenie za dużo? Pamiętam jak po Getbacku mówili, że kolejny będzie Kruk. Tak się jednak nie stało, bo zachowali dyscyplinę zakupową. Dzięki temu kupując na długi termin ja jestem spokojny.",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -2645,118 +2874,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "76033297",
-      "author": "CzwartaWiedźma",
-      "postedAt": "2026-10-09 20:57",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "Firma jest finansowo bardzo zdrowa. Wskaźniki zadłużenia superbezpieczne. Kwartał zakupowo słaby, ale jest jeszcze kolejny. A że rynek zrobił się konkurencyjny, może to nie jest zły pomysł, żeby nie przepłacać za aktywa. I chyba w dłużej perspektywie inwazja na USA nieunikniona....",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76033193",
-      "author": "Magellan",
-      "postedAt": "2026-10-09 20:45",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "uważam na 75% że przetestujemy 320 złto wynika z dzisiejszej sesjimoja subiektywna ocena. akcje zbieram.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76033125",
-      "author": "Cykador",
-      "postedAt": "2026-10-09 20:38",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "Byłob pięknie, ale prawdopodobieństwo niewielkie.Histeria, histerią, ale ktoś te 168M obrotu zrobił. Pewnie część ”z wora do wora”, ale sporo SL też zostało zabrane. Inna sprawa, że ktos to kupił. Ciężko uwierzyć w przypadek że komunikat poszedł jak już stany byly obudzone i mogly sobie dzialać i odkupować.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76033087",
-      "author": "Apollo",
-      "postedAt": "2026-10-09 20:33",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "Wszyscy którzy myślą, że być może się spóźnili z dokupieniem na przysłowiowym dołku, będą mieli jeszcze okazję. Jeśli dziś był krótkoterminowy, średnio- lub długoterminowy dołek, to prawie na pewno będzie on jeszcze testowany w najbliższych dniach i kurs zejdzie w okolice 340zł. Jeśli chcecie dokupić i macie jaja to wystawcie zlecenia. Potencjał do zarobku duży, a ryzyko straty? Jest... to giełda....,ale zawsze można sprzedać poniżej 320zł i już tylko obserwować tą piękną katastrofę:)",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76033005",
-      "author": "Apollo",
-      "postedAt": "2026-10-09 20:25",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "A tu wspomniany link: https://stooq.pl/q/?s=kru&c=10y&t=c&a=lg&b=0",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76032949",
-      "author": "Apollo",
-      "postedAt": "2026-10-09 20:19",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "Ja tez dziś dokupiłem. Ze 100 akcji zrobiło się 120. Średnia 366zł. Trzymam spółkę już z 5 lat więc w międzyczasie jakieś dywidendy wpadły. Trochę się pospieszyłem z dokupowaniem, bo zacząłem to robić w okolicach 400zł... Wydawało się rozsądnie... Rynek ocenił inaczej:) Jeśli spadną w okolice 320zł to dokupię jeszcze trochę... jeśli dalej będą spadać, to chyba wiedzą coś więcej niż ja... I być może mnie wyleszczą:) Tu link do wykresu Kruka uwzględniającego dywidendy, w którym widać szczyty z 2021 i dołki z 2025. Poziom 320zł powinien wytrzymać... no chyba, że bardzo źle się dzieje w spółce, ale o tym wiedzą nieliczni... i sprzedają...",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76032929",
-      "author": "ToblaKai",
-      "postedAt": "2026-10-09 20:17",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "Kupić w tej cenie.Szok, nie sądziłem że to sìę wydarzy. Spółka o tak mocnych korzeniach w tej cenie,,,",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76032719",
-      "author": "Pzdr",
-      "postedAt": "2026-10-09 19:54",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "Będzie niezły żart jak się okaże że rok dowiozą jednak lub minimalnie się rozjadą z tym co zakładali. Co za problem zakupy na 4 przełożyć. Grubi nakarmieni. Ulica wyd...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "76032329",
       "author": "Mojo",
       "postedAt": "2026-10-09 19:19",
@@ -2782,118 +2899,6 @@
         "down": 0
       },
       "sentimentScore": -0.99,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76032047",
-      "author": "Cykador",
-      "postedAt": "2026-10-09 18:56",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "Ale akcjonariusze w stanach zawałowych. Współczuję tym ze średnimi 400+",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76032027",
-      "author": "Magellan",
-      "postedAt": "2026-10-09 18:54",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "nie dowieźli. a giełda to wycenia.szort wiedział, więc ma dostęp do ich insajderów",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76032005",
-      "author": "Pzdr",
-      "postedAt": "2026-10-09 18:52",
-      "threadTitle": "Re: Publikacja danych",
-      "url": "https://www.bankier.pl/forum/temat_publikacja-danych,76031107.html",
-      "body": "Dla wywołania histerii...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76031981",
-      "author": "Pzdr",
-      "postedAt": "2026-10-09 18:49",
-      "threadTitle": "Re: dokupione",
-      "url": "https://www.bankier.pl/forum/temat_dokupione,76030477.html",
-      "body": "Rekorodowo niskie c/z jak na kruka. Wycena jak z 2023 a spółka o 1/3 większa.Dzisiejsza sesja to histeria.",
-      "votes": {
-        "up": 12,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76031951",
-      "author": "Cykador",
-      "postedAt": "2026-10-09 18:46",
-      "threadTitle": "Re: Publikacja danych",
-      "url": "https://www.bankier.pl/forum/temat_publikacja-danych,76031107.html",
-      "body": "Kurka, było by niedobrze zawisnąć na haku na długi czas....",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76031931",
-      "author": "Janek",
-      "postedAt": "2026-10-09 18:45",
-      "threadTitle": "Kwartalnie wykres wygląda tragicznie",
-      "url": "https://www.bankier.pl/forum/temat_kwartalnie-wykres-wyglada-tragicznie,76031931.html",
-      "body": "Scenariusz spadkowy się rozkręca. Będzie gaz w podłogę ale niestety na wstecznym. Nie ruszać tego",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76031811",
-      "author": "Magellan",
-      "postedAt": "2026-10-09 18:32",
-      "threadTitle": "Re: Publikacja danych",
-      "url": "https://www.bankier.pl/forum/temat_publikacja-danych,76031107.html",
-      "body": "albo 3 kolejne kruki... uważam, że po takiej świeczce statystycznie jeszcze będzie niżej. także jak ktoś zbiera dobrze mieć siano na uśrednienie.to moja prywatna opinia",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76031669",
-      "author": "Ira",
-      "postedAt": "2026-10-09 18:21",
-      "threadTitle": "Re: Publikacja danych",
-      "url": "https://www.bankier.pl/forum/temat_publikacja-danych,76031107.html",
-      "body": "W poniedziałek emocje opadną. Przy takim spadku odreagowanie i skok 360-380 zł jak nic.",
-      "votes": {
-        "up": 4,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     }
   ]

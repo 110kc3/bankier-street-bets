@@ -3,11 +3,11 @@
   "companyName": "ALLEGRO.EU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu,6,21,10000001753.html",
-  "updatedAt": "2026-10-14T04:51:16.269Z",
+  "updatedAt": "2026-10-14T11:49:37.408Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-14T04:51:16.270Z",
+    "fetchedAt": "2026-10-14T11:49:37.408Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.03,
+    "score": 0.042,
     "confidence": 0.71,
-    "commentCount": 61,
+    "commentCount": 64,
     "breakdown": {
-      "positive": 15,
-      "negative": 11,
-      "neutral": 35
+      "positive": 16,
+      "negative": 12,
+      "neutral": 36
     },
     "trend": [
       {
@@ -61,12 +61,12 @@
       },
       {
         "date": "2026-10-14",
-        "score": -0.583,
-        "count": 1
+        "score": -0.036,
+        "count": 4
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 61 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 11 negatywnych, 35 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 64 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 12 negatywnych, 36 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "allegro",
@@ -74,7 +74,11 @@
       },
       {
         "word": "trzeba",
-        "count": 6
+        "count": 7
+      },
+      {
+        "word": "szorty",
+        "count": 5
       },
       {
         "word": "andy",
@@ -89,7 +93,11 @@
         "count": 5
       },
       {
-        "word": "szorty",
+        "word": "miec",
+        "count": 4
+      },
+      {
+        "word": "gory",
         "count": 4
       },
       {
@@ -99,18 +107,52 @@
       {
         "word": "kase",
         "count": 4
-      },
-      {
-        "word": "masz",
-        "count": 4
-      },
-      {
-        "word": "koleczko",
-        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "76075001",
+      "author": "lol",
+      "postedAt": "2026-10-14 12:25",
+      "threadTitle": "Re: Buyback: 50 -> 65 a ryzyko pozycji",
+      "url": "https://www.bankier.pl/forum/temat_buyback-50-65-a-ryzyko-pozycji,76016965.html",
+      "body": "Co trzeba mieć w głowie by teraz brać szorty skoro rośnie do 65zł. Po drugie sprzedawanie w nadziei że odkupi się niżej jest teraz totalnie bezsensowne bo w każdej chwili kurs ucieka do góry im bliżej 18 listopada (zabawa nie warta ryzyka bo kurs odjedzie, skoro jest ustalone 65zł). Będzie wesoło jak się okaże że poziom 65zł też będzie za nisko gdy kurs przed 18 listopada tam dojdzie i będzie utrzymywany powyżej :).",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76074353",
+      "author": "Ryzyk",
+      "postedAt": "2026-10-14 11:39",
+      "threadTitle": "Re: Buyback: 50 -> 65 a ryzyko pozycji",
+      "url": "https://www.bankier.pl/forum/temat_buyback-50-65-a-ryzyko-pozycji,76016965.html",
+      "body": "Kolejni odczepieni a do finału jeszcze daleko",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76074255",
+      "author": "diogenes",
+      "postedAt": "2026-10-14 11:35",
+      "threadTitle": "Re: News AM 13.10. 2026",
+      "url": "https://www.bankier.pl/forum/temat_news-am-13-10-2026,76067043.html",
+      "body": "Chodzi o noże czy zabawkowe imitacje? Jesteś bote'em z ul.Olgino?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76070165",
       "author": "Analitykdomowy",
@@ -119,7 +161,7 @@
       "url": "https://www.bankier.pl/forum/temat_news-am-13-10-2026,76067043.html",
       "body": "I to skorzysta podwójnie- tzw. efekt paniki, że za jakiś czas i w Allegro nie kupi się noży.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -133,8 +175,8 @@
       "url": "https://www.bankier.pl/forum/temat_news-am-13-10-2026,76067043.html",
       "body": "W Polsce sklepy Smyk i Biedronka wycofują ze sprzedaży noże. Kto na tym skorzysta- Allegro",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -147,7 +189,7 @@
       "url": "https://www.bankier.pl/forum/temat_pomachajmy-peroniarzom-papapa-a-szortom-gratulujemy-cel-100,76059253.html",
       "body": "Piękny widok jak szorty tracą majątek :)",
       "votes": {
-        "up": 9,
+        "up": 12,
         "down": 1
       },
       "sentimentScore": 0,
@@ -161,7 +203,7 @@
       "url": "https://www.bankier.pl/forum/temat_szorty-jak-samopoczucie-mokro-pewnie-macie-cel-100,76059219.html",
       "body": "Kolejne depozyty stracone u szortów :). Super. Pierwszy przystanek 65 a później śmiało do 100",
       "votes": {
-        "up": 5,
+        "up": 8,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -189,7 +231,7 @@
       "url": "https://www.bankier.pl/forum/temat_320733-akcje-po-49-75zl-skupil-miedzy-7-8-pazdziernika-jedziemy-w-gore,76058005.html",
       "body": "Zaczyna się rajd św.Mikołaja :)60zł w tym miesiącu :)",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -203,7 +245,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-dopiero-bedzie-sie-dzialo,76047285.html",
       "body": "No risk, no fun",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -315,7 +357,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-dopiero-bedzie-sie-dzialo,76047285.html",
       "body": "czekam",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
