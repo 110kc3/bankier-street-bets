@@ -3,31 +3,31 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-10-14T21:41:20.911Z",
+  "updatedAt": "2026-10-15T04:37:45.207Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-14T21:41:20.911Z",
+    "fetchedAt": "2026-10-15T04:37:45.207Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 44
+    "threadsScanned": 45
   },
   "analysis": {
     "signal": "HOLD",
     "score": 0.058,
     "confidence": 0.72,
-    "commentCount": 151,
+    "commentCount": 152,
     "breakdown": {
       "positive": 46,
-      "negative": 23,
-      "neutral": 82
+      "negative": 22,
+      "neutral": 84
     },
     "trend": [
       {
         "date": "2026-10-08",
-        "score": 0.082,
-        "count": 22
+        "score": 0.102,
+        "count": 21
       },
       {
         "date": "2026-10-09",
@@ -58,18 +58,23 @@
         "date": "2026-10-14",
         "score": -0.032,
         "count": 37
+      },
+      {
+        "date": "2026-10-15",
+        "score": 0,
+        "count": 2
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 151 komentarzy z ostatnich 7 dni: nastroje mieszane (46 pozytywnych, 23 negatywnych, 82 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 152 komentarzy z ostatnich 7 dni: nastroje mieszane (46 pozytywnych, 22 negatywnych, 84 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
-        "count": 15
+        "count": 16
       },
       {
         "word": "miedz",
-        "count": 13
+        "count": 14
       },
       {
         "word": "strajk",
@@ -88,12 +93,12 @@
         "count": 8
       },
       {
-        "word": "wzrosty",
+        "word": "mnie",
         "count": 7
       },
       {
-        "word": "mnie",
-        "count": 6
+        "word": "wzrosty",
+        "count": 7
       },
       {
         "word": "srebro",
@@ -106,6 +111,34 @@
     ]
   },
   "comments": [
+    {
+      "id": "76082815",
+      "author": "Zorro2",
+      "postedAt": "2026-10-15 00:18",
+      "threadTitle": "Fala strajków",
+      "url": "https://www.bankier.pl/forum/temat_fala-strajkow,76082815.html",
+      "body": "To nieuniknione. Miedź powyżej 15 tys. Też ale co ze srebrem? To jest pytanie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76082805",
+      "author": "Zorro2",
+      "postedAt": "2026-10-15 00:13",
+      "threadTitle": "Re: PĘKA 60$ NA SREBRZE",
+      "url": "https://www.bankier.pl/forum/temat_peka-60-na-srebrze,76064761.html",
+      "body": "Szach mat na srebrze a ja mam po 60,50 USD pozycje i kghm po 344 pln , a miałem zsjebisty rok i spieprzyłem. Trumpi i wybory mnie trochę uratują, ale zarobku raczej nie będzie",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76082661",
       "author": "darek",
@@ -2204,20 +2237,6 @@
         "down": 0
       },
       "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76008607",
-      "author": "PADAKA",
-      "postedAt": "2026-10-08 00:02",
-      "threadTitle": "Czy jutro nadal będzie leciało?",
-      "url": "https://www.bankier.pl/forum/temat_czy-jutro-nadal-bedzie-lecialo,76008607.html",
-      "body": "Ktoś ma jakieś dobre, sprawdzone informacje?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     }
   ]
