@@ -3,31 +3,31 @@
   "companyName": "PKO BP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp,6,21,10000000062.html",
-  "updatedAt": "2026-10-16T04:31:58.885Z",
+  "updatedAt": "2026-10-16T11:23:13.751Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-16T04:31:58.885Z",
+    "fetchedAt": "2026-10-16T11:23:13.751Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 25
+    "threadsScanned": 22
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.036,
-    "confidence": 0.69,
-    "commentCount": 57,
+    "score": 0.051,
+    "confidence": 0.62,
+    "commentCount": 46,
     "breakdown": {
-      "positive": 23,
-      "negative": 14,
-      "neutral": 20
+      "positive": 18,
+      "negative": 13,
+      "neutral": 15
     },
     "trend": [
       {
         "date": "2026-10-09",
-        "score": 0.144,
-        "count": 16
+        "score": 0.22,
+        "count": 2
       },
       {
         "date": "2026-10-10",
@@ -58,54 +58,101 @@
         "date": "2026-10-15",
         "score": 0.161,
         "count": 2
+      },
+      {
+        "date": "2026-10-16",
+        "score": 0.254,
+        "count": 3
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 57 komentarzy z ostatnich 7 dni: nastroje mieszane (23 pozytywnych, 14 negatywnych, 20 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 46 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 13 negatywnych, 15 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "koniec",
         "count": 4
       },
       {
-        "word": "widac",
-        "count": 4
-      },
-      {
-        "word": "trzymaja",
-        "count": 3
-      },
-      {
-        "word": "albo",
-        "count": 3
-      },
-      {
-        "word": "znowu",
-        "count": 3
-      },
-      {
         "word": "trzeba",
         "count": 3
       },
       {
-        "word": "baza",
-        "count": 3
+        "word": "jestesmy",
+        "count": 2
       },
       {
-        "word": "chca",
-        "count": 3
+        "word": "chce",
+        "count": 2
       },
       {
-        "word": "wzrosty",
-        "count": 3
+        "word": "jedziemy",
+        "count": 2
       },
       {
         "word": "mowi",
+        "count": 2
+      },
+      {
+        "word": "pracodawcy",
+        "count": 2
+      },
+      {
+        "word": "albo",
+        "count": 2
+      },
+      {
+        "word": "stanow",
+        "count": 2
+      },
+      {
+        "word": "systemu",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76096167",
+      "author": "Janzwagrowca",
+      "postedAt": "2026-10-16 08:35",
+      "threadTitle": "Re: Ale wzrosty dzisiaj na Nikkei i cały",
+      "url": "https://www.bankier.pl/forum/temat_ale-wzrosty-dzisiaj-na-nikkei-i-caly,76096015.html",
+      "body": "Ogromny kapitał dzisiaj włazi do Polski ? Wczoraj potężnym obrotem obroniliśmy się i jesteśmy na plusie ? Potęga ? Srebro Złoto. Miedź rośnie ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76096121",
+      "author": "Janzwagrowca",
+      "postedAt": "2026-10-16 08:32",
+      "threadTitle": "Jestem geniuszem inwestycyjnym",
+      "url": "https://www.bankier.pl/forum/temat_jestem-geniuszem-inwestycyjnym,76096121.html",
+      "body": "Wpłaciłem już 100 tys na oki Od dzisiasiaj już chce płacić podatek od kapitału a jeszcze nic nie kupiłem",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76096015",
+      "author": "Janzwagrowca",
+      "postedAt": "2026-10-16 08:22",
+      "threadTitle": "Ale wzrosty dzisiaj na Nikkei i cały",
+      "url": "https://www.bankier.pl/forum/temat_ale-wzrosty-dzisiaj-na-nikkei-i-caly,76096015.html",
+      "body": "Świat na zielono jedziemy na 5000 ? Rozerwiemy dzisiaj wszystko?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76094893",
       "author": "Janzwagrowca",
@@ -114,7 +161,7 @@
       "url": "https://www.bankier.pl/forum/temat_koniec-korekty,76094893.html",
       "body": "Nikt nie chce sprzedawać trzymają twardo",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -707,202 +754,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76026399",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 12:53",
-      "threadTitle": "Re: Nie wiem tego",
-      "url": "https://www.bankier.pl/forum/temat_nie-wiem-tego,76025953.html",
-      "body": "Albo ja już jestem głupi i niczego nie rozumiem",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76025953",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 12:26",
-      "threadTitle": "Nie wiem tego",
-      "url": "https://www.bankier.pl/forum/temat_nie-wiem-tego,76025953.html",
-      "body": "Ale czy naprawdę pismaki myślą że ludzie są tacy głupi ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76025623",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 12:05",
-      "threadTitle": "Re: Dobrze mieć rację",
-      "url": "https://www.bankier.pl/forum/temat_dobrze-miec-racje,76024975.html",
-      "body": "Jak rozpisują się o korekcie bo banki przebiły poziomy wsparcia to przekonuje się że jej nie będzie a będzie odwrotnie. Kłamią jak zawsze",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76023199",
-      "author": "Ada",
-      "postedAt": "2026-10-09 09:58",
-      "threadTitle": "Re: spIsek",
-      "url": "https://www.bankier.pl/forum/temat_spisek,75948393.html",
-      "body": "I do tego zmiany w supermaklerze żeby drobni nie mieli przejrzystego dostępu tak jak wcześniej.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76022795",
-      "author": "Omnibus",
-      "postedAt": "2026-10-09 09:36",
-      "threadTitle": "Już się koleś zesRał",
-      "url": "https://www.bankier.pl/forum/temat_juz-sie-koles-zesral,76022795.html",
-      "body": "Panisko wielkie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76022289",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 09:10",
-      "threadTitle": "Re: Dzisiaj znowu koniec wojny z Iranem i na Ukrainie ?",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-znowu-koniec-wojny-z-iranem-i-na-ukrainie,76021541.html",
-      "body": "Jest wręcz taki optymizm że aż dziwię się tutaj pokazują wskaźnik strachu i optymizmu na portalu a widać na nim na zbliżanie do strachu",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76022227",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 09:06",
-      "threadTitle": "Re: Dzisiaj znowu koniec wojny z Iranem i na Ukrainie ?",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-znowu-koniec-wojny-z-iranem-i-na-ukrainie,76021541.html",
-      "body": "Ta dodatnia i ogromna baza aż kuje w oczy bez dywidend. Poprostu widać że duzi nie chcą spadków i otwierają bez żadnego strachu długie pozycje i baza rośnie",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76022079",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 08:58",
-      "threadTitle": "Re: Dzisiaj znowu koniec wojny z Iranem i na Ukrainie ?",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-znowu-koniec-wojny-z-iranem-i-na-ukrainie,76021541.html",
-      "body": "Dziwię się że krótszy się panicznie nie wyprzedają",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76021945",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 08:51",
-      "threadTitle": "Re: Dzisiaj znowu koniec wojny z Iranem i na Ukrainie ?",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-znowu-koniec-wojny-z-iranem-i-na-ukrainie,76021541.html",
-      "body": "Szykować się na poprawę Ath",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76021911",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 08:48",
-      "threadTitle": "Re: Dzisiaj znowu koniec wojny z Iranem i na Ukrainie ?",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-znowu-koniec-wojny-z-iranem-i-na-ukrainie,76021541.html",
-      "body": "I proszę wzrosty",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76021829",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 08:43",
-      "threadTitle": "Re: Dzisiaj znowu koniec wojny z Iranem i na Ukrainie ?",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-znowu-koniec-wojny-z-iranem-i-na-ukrainie,76021541.html",
-      "body": "Proszę i już artykuł który tłumaczy dzisiejsze wzrosty że wysokie rentowności obligacji wcale nie muszą być złe dla akcji tylko ludzie ich nie będą chcieli bo na nich tracą Proszę przeczytać i się nie dziwić",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76021755",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 08:39",
-      "threadTitle": "Re: Dzisiaj znowu koniec wojny z Iranem i na Ukrainie ?",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-znowu-koniec-wojny-z-iranem-i-na-ukrainie,76021541.html",
-      "body": "To wczoraj było widać jak trzymają. Banki spadki prawie 3procent a WIG20 na zero Oni chcą waszych akcji poprostu",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76021723",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 08:36",
-      "threadTitle": "Re: Dzisiaj znowu koniec wojny z Iranem i na Ukrainie ?",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-znowu-koniec-wojny-z-iranem-i-na-ukrainie,76021541.html",
-      "body": "Boty są tak przewidywalne. Znowu na godzinowce jesteśmy wyprzedani dniowy wskaźnik schłodzony baza bardzo wysoka. Mówiłem że trzymają 3000 L bo chcą zrobić 6000 może dzisiaj",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76021541",
-      "author": "Janzwagrowca",
-      "postedAt": "2026-10-09 08:25",
-      "threadTitle": "Dzisiaj znowu koniec wojny z Iranem i na Ukrainie ?",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-znowu-koniec-wojny-z-iranem-i-na-ukrainie,76021541.html",
-      "body": "Cieszymy się że jest ……. I jedziemy na nowe ath WIG20 sterowany przez boty Analitycy i artykuły dają dużą szansę na ogromne wzrosty bo znowu kłamią",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
