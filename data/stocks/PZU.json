@@ -3,11 +3,11 @@
   "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
-  "updatedAt": "2026-10-15T21:23:36.328Z",
+  "updatedAt": "2026-10-16T04:32:02.135Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-15T21:23:36.328Z",
+    "fetchedAt": "2026-10-16T04:32:02.135Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.067,
+    "score": 0.073,
     "confidence": 0.69,
-    "commentCount": 55,
+    "commentCount": 54,
     "breakdown": {
       "positive": 18,
-      "negative": 5,
+      "negative": 4,
       "neutral": 32
     },
     "trend": [
-      {
-        "date": "2026-10-08",
-        "score": -0.583,
-        "count": 1
-      },
       {
         "date": "2026-10-09",
         "score": 0.256,
@@ -65,8 +60,8 @@
         "count": 14
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 55 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 5 negatywnych, 32 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 54 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 4 negatywnych, 32 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "obligacje",
@@ -82,10 +77,6 @@
       },
       {
         "word": "roku",
-        "count": 3
-      },
-      {
-        "word": "spadki",
         "count": 3
       },
       {
@@ -106,6 +97,10 @@
       },
       {
         "word": "zmiana",
+        "count": 3
+      },
+      {
+        "word": "paradygmatu",
         "count": 3
       }
     ]
@@ -866,20 +861,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76019145",
-      "author": "krasnalina",
-      "postedAt": "2026-10-08 23:38",
-      "threadTitle": "Działanie na obniżenie kursu",
-      "url": "https://www.bankier.pl/forum/temat_dzialanie-na-obnizenie-kursu,76019145.html",
-      "body": "Zauważyłam że na zakończenie dogrywki przez parę zlecen/ najczęściej 3/ są wystawiane duze zlecenia sprzedaży po kursie zamknięcia. Są to wielkości rzędu kilkudziesięciu tysiecy/ naczęściej około 40 000/ Ma to stwarzać wrażenie że kurs bedzie spadał. Rano następnego przed otwarciem notowań zlecenia znikają. Czyżby powstała spóldzielnia grająca na spadki?",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }
