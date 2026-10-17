@@ -3,23 +3,23 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-10-17T15:35:37.755Z",
+  "updatedAt": "2026-10-17T20:37:41.416Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-17T15:35:37.755Z",
+    "fetchedAt": "2026-10-17T20:37:41.416Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 23
+    "threadsScanned": 24
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.031,
-    "confidence": 0.62,
-    "commentCount": 46,
+    "score": 0.057,
+    "confidence": 0.64,
+    "commentCount": 48,
     "breakdown": {
-      "positive": 17,
+      "positive": 19,
       "negative": 13,
       "neutral": 16
     },
@@ -53,11 +53,20 @@
         "date": "2026-10-16",
         "score": 0.073,
         "count": 6
+      },
+      {
+        "date": "2026-10-17",
+        "score": 0.322,
+        "count": 2
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 46 komentarzy z ostatnich 7 dni: nastroje mieszane (17 pozytywnych, 13 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 48 komentarzy z ostatnich 7 dni: nastroje mieszane (19 pozytywnych, 13 negatywnych, 16 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "jedziemy",
+        "count": 3
+      },
       {
         "word": "dlaczego",
         "count": 3
@@ -69,6 +78,10 @@
       {
         "word": "trzeba",
         "count": 3
+      },
+      {
+        "word": "poniedzialek",
+        "count": 2
       },
       {
         "word": "wszystko",
@@ -83,24 +96,44 @@
         "count": 2
       },
       {
-        "word": "jedziemy",
-        "count": 2
-      },
-      {
         "word": "pracodawcy",
         "count": 2
       },
       {
         "word": "albo",
         "count": 2
-      },
-      {
-        "word": "stanow",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76109639",
+      "author": "Janzwagrowca",
+      "postedAt": "2026-10-17 18:40",
+      "threadTitle": "Re: Na zamknięciu dzisiaj zapakowałem się na odbicie do 120",
+      "url": "https://www.bankier.pl/forum/temat_na-zamknieciu-dzisiaj-zapakowalem-sie-na-odbicie-do-120,76109613.html",
+      "body": "Tzn wczoraj",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76109613",
+      "author": "Janzwagrowca",
+      "postedAt": "2026-10-17 18:33",
+      "threadTitle": "Na zamknięciu dzisiaj zapakowałem się na odbicie do 120",
+      "url": "https://www.bankier.pl/forum/temat_na-zamknieciu-dzisiaj-zapakowalem-sie-na-odbicie-do-120,76109613.html",
+      "body": "Jedziemy w poniedziałek",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76104253",
       "author": "Davson",
