@@ -3,11 +3,11 @@
   "companyName": "CD Projekt RED SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=CDPROJEKT",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_cd-projekt-red-sa,6,21,353.html",
-  "updatedAt": "2026-10-18T15:50:44.510Z",
+  "updatedAt": "2026-10-18T20:40:54.290Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-18T15:50:44.510Z",
+    "fetchedAt": "2026-10-18T20:40:54.290Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,24 +15,29 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.024,
+    "score": 0.036,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 44,
-      "negative": 46,
-      "neutral": 110
+      "positive": 48,
+      "negative": 36,
+      "neutral": 116
     },
     "trend": [
       {
+        "date": "2026-10-13",
+        "score": 0.077,
+        "count": 11
+      },
+      {
         "date": "2026-10-14",
-        "score": -0.207,
-        "count": 24
+        "score": -0.092,
+        "count": 12
       },
       {
         "date": "2026-10-15",
-        "score": 0.011,
-        "count": 62
+        "score": 0.061,
+        "count": 58
       },
       {
         "date": "2026-10-16",
@@ -46,56 +51,126 @@
       },
       {
         "date": "2026-10-18",
-        "score": 0.142,
-        "count": 14
+        "score": 0.031,
+        "count": 19
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (44 pozytywnych, 46 negatywnych, 110 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (48 pozytywnych, 36 negatywnych, 116 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "projekt",
-        "count": 21
+        "count": 22
       },
       {
         "word": "hehe",
-        "count": 21
+        "count": 20
       },
       {
         "word": "roku",
-        "count": 15
+        "count": 16
       },
       {
-        "word": "masz",
+        "word": "przy",
         "count": 14
       },
       {
         "word": "wiedzmina",
-        "count": 12
+        "count": 13
       },
       {
-        "word": "przy",
+        "word": "masz",
+        "count": 13
+      },
+      {
+        "word": "cyberpunk",
         "count": 12
       },
       {
         "word": "jestem",
-        "count": 11
+        "count": 12
       },
       {
-        "word": "cyberpunk",
-        "count": 11
-      },
-      {
-        "word": "sprzedaz",
+        "word": "konca",
         "count": 10
       },
       {
-        "word": "graczy",
+        "word": "sprzedaz",
         "count": 10
       }
     ]
   },
   "comments": [
+    {
+      "id": "76115497",
+      "author": "Makarov",
+      "postedAt": "2026-10-18 22:21",
+      "threadTitle": "Re: Teraz czas na lekką korektę na 255",
+      "url": "https://www.bankier.pl/forum/temat_teraz-czas-na-lekka-korekte-na-255,76103351.html",
+      "body": "Tak tak :) Leszcz napalony na wzrosty to wiadomo o co znaczy...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76115221",
+      "author": "nagan",
+      "postedAt": "2026-10-18 21:20",
+      "threadTitle": "NEWS ❗️❤️Szacunki analityków dotyczące sprzedaży 3 DLC do Wiedźmina 3⁉️❓",
+      "url": "https://www.bankier.pl/forum/temat_news-szacunki-analitykow-dotyczace-sprzedazy-3-dlc-do-wiedzmina-3,76115221.html",
+      "body": "Tak wyglądają szacunki analityków dotyczące sprzedaży nowego rozszerzenia do Wiedźmina 3 w ciągu 12 mies. od premiery (zebrane dla @strefainw)Grzegorz Gawkowski (Millennium DM) - 8,5 mln sztuk Piotr Poniatowski (BM mBanku) - 11 mln sztuk Grzegorz Balcerski (Trigon DM) - 11 mln stuk Tomasz Rodak (DM BOŚ) - 11,4 mln sztuk Mateusz Chrzanowski (Noble Securities) - 17 mln sztuk A jaki wynik wy obstawiacie - przy bazie ponad 65 mln sprzedanych egz. podstawki?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76114263",
+      "author": "PIOTR",
+      "postedAt": "2026-10-18 18:39",
+      "threadTitle": "Re: SKUP AKCJI WŁASNYCH ???DOBRA INWESTYCJA",
+      "url": "https://www.bankier.pl/forum/temat_skup-akcji-wlasnych-dobra-inwestycja,76109903.html",
+      "body": "500 mln można spokojnie zainwestować. Przy okazji zrobić SS wysadzić shorty i mamy 460 za rok lub niespodzianka dla wszystkich do końca roku hehe",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76114099",
+      "author": "Miras",
+      "postedAt": "2026-10-18 18:14",
+      "threadTitle": "Re: Teraz czas na lekką korektę na 255",
+      "url": "https://www.bankier.pl/forum/temat_teraz-czas-na-lekka-korekte-na-255,76103351.html",
+      "body": "Jaka korekta, tutaj nie ma czasu na korekty. Jedziemy pomalutku w dobrym kierunku, kółeczek też nie będzie. Kto spróbuje zostanie na peronie.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76114037",
+      "author": "Persen",
+      "postedAt": "2026-10-18 18:02",
+      "threadTitle": "Re: Edgerunners 2",
+      "url": "https://www.bankier.pl/forum/temat_edgerunners-2,76108093.html",
+      "body": "Na PlayStation w PS store 259 zł",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76113763",
       "author": "nagan",
@@ -104,7 +179,7 @@
       "url": "https://www.bankier.pl/forum/temat_edgerunners-2,76108093.html",
       "body": "> 59 zł to pełna cena?@włodekNo nie dosłownie.. Ale obecne zyski generowane przez uniwersum Cyberpunka są niezwykle wysokie i wykazują doskonałą rentownością (61%). Wynika to bezpośrednio ze specyfiki cyfrowej dystrybucji gier oraz udanej długoterminowej strategii zaufania do marki. Na tą wysoką rentowność i umowną „pełną cenę\" składa się:Brak kosztów produkcji (Capex) Olbrzymi budżet deweloperski oraz koszty marketingu zostały rozliczone w latach ubiegłych. Obecna sprzedaż cyfrowa generuje niemal czysty zysk.Efekt „długiego ogona”Gra osiągnęła stabilną sprzedaż długofalową bez kosztów dodatkowego marketingu. Do lipca b.r. roku sprzedano ponad 40 milionów bazowych egzemplarzy.Koło zamachowe franczyzy (IP)Przychody z licencjonowania marki (np. anime, gry planszowe, crossovery) wzrosły w I połowie 2026 roku do 95 mln zł (z zaledwie 9,4 mln zł rok wcześniej).Brak zwrotów i naprawOkres premierowy obciążony był kosztami łatania gry oraz akcjami zwrotów (z dywersyjnym usunięciem z PlayStation Store). Dziś ten problem nie istnieje.",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -118,7 +193,7 @@
       "url": "https://www.bankier.pl/forum/temat_szacunkowa-sprzedaz-dlc,76113261.html",
       "body": "Są takie momenty, kiedy liczby przestają być tylko suchymi cyframi w arkuszach analityków, a stają się zwiastunem czegoś większego. Tak właśnie dzieje się teraz wokół nowego rozszerzenia do Wiedźmina 3.Grzegorz Gawkowski z Millennium DM widzi 8,5 miliona sprzedanych egzemplarzy. Piotr Poniatowski z BM mBanku oraz Grzegorz Balcerski z Trigon DM mówią o 11 milionach. Tomasz Rodak z DM BOŚ podnosi poprzeczkę do 11,4 miliona. A Mateusz Chrzanowski z Noble Securities idzie jeszcze dalej – aż do 17 milionów. To już brzmi imponująco. Ale ja – i nie tylko ja – czuję, że te prognozy są konserwatywne. Lekko, ale zdecydowanie zbyt ostrożne. Bo w powietrzu unosi się coś więcej: potencjał na 20 milionów.Przypomnijmy sobie kontekst. Podstawowa gra przekroczyła już 65 milionów sprzedanych kopii. To nie jest już tylko hit. To fenomen kulturowy, który żyje własnym życiem. Geralt, Ciri, Yennefer i cały ten mroczny, piękny świat stały się częścią popkultury na skalę, o jakiej polskie gry jeszcze dekadę temu mogły tylko pomarzyć. A dobre DLC do takiej produkcji to nie dodatek – to druga młodość.Przy cenie w okolicach 100 złotych za sztukę, 20 milionów egzemplarzy oznacza około 2 miliardów złotych przychodu. Dwa miliardy. Z jednego rozszerzenia. W czasach, gdy wiele studiów walczy o uwagę graczy w przepełnionym rynku, CD Projekt RED znów ma szansę pokazać, że jakość, emocje i szacunek do gracza wciąż wygrywają.Optymizm? Jasne, że tak. Bo skąd miałby się brać pesymizm? Z tego, że gracze nagle znudzą się Wiedźminem? Że historia Ciri i Geralta nagle straci magię? Że po latach wyczekiwania społeczność nie rzuci się na nowe przygody z otwartymi ramionami? Raczej nie.Wręcz przeciwnie. Każdy, kto choć raz zagrał w Dziki Gon, wie, że ten świat wciąga na lata. A nowe rozszerzenie to szansa, by wrócić do Velen, Novigradu i Skellige z nowymi historiami, nowymi emocjami i – miejmy nadzieję – tą samą dbałością o detale, która zrobiła z tej gry legendę.Dlatego zamiast patrzeć na dolne widełki Gawkowskiego czy nawet górną granicę Chrzanowskiego, wolę patrzeć wyżej. Na 20 milionów. Na dwa miliardy złotych. I na kolejny dowód, że polska baśń o białowłosym wiedźminie wciąż potrafi czarować cały świat.Bo jeśli coś w tej branży jest pewne, to fakt, że Geralt z Rivii jeszcze nie powiedział ostatniego słowa.",
       "votes": {
-        "up": 1,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -133,21 +208,21 @@
       "body": "Technicznie na chwile moze dotknie 260 w pn. Na mniej bym raczej nie liczył",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     },
     {
       "id": "76112559",
-      "author": "Zdzisław",
+      "author": "(usunięty)",
       "postedAt": "2026-10-18 13:41",
-      "threadTitle": "Re: Pierwszy raz",
+      "threadTitle": "(wiadomość usunięta przez moderatora)",
       "url": "https://www.bankier.pl/forum/temat_pierwszy-raz,76111101.html",
-      "body": "Ja bardzo lubiem chłopakuw i jestem gejem od roku i tu na forum jest fajnie bo tylko som tu chłopaki i ja poznałem takiego Mariusza ale on mnie okłamał i dwa razy nie przyjechał i nie chce mi oddać 60 złotych a ty napisz do mnie czy mnie lubisz to się poznamy i bendziemy razem grać!!!!!!!",
+      "body": "(wiadomość usunięta przez moderatora)",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -161,7 +236,7 @@
       "body": "Jak chcesz to sie poznamy i bendzuemy razem grać w gry a ja naj bardziej lubiem grać w Sarius Sama w hardzie!!!!!!",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -174,7 +249,7 @@
       "url": "https://www.bankier.pl/forum/temat_figurki-funko-pops-beda-dostepne-wraz-z-premiera-edgerunners-2,76108643.html",
       "body": "> No to jak są figurki to w poniedziałek -5% .Drogi blomkuAle wiesz, że nikogo nie obchodzi - jak pryszczaty miał „mini-orgazm\" - i to jeszcze zanim panienka rozłożyła nogi? xDKrótkoterminowiec to koleś, który wali konia a póżniej się przechwala udanym seksem..!xDDDŻeby zarobić na giełdzie trzeba mieć czas i pieniądze.. No i stabilne nerwy.. Bo zarabiasz na WARTOŚCI firmy i jej PERSPEKTYWACH a nie chwilowych wytryskach - bez kontroli i sensu!xD",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -238,17 +313,17 @@
     },
     {
       "id": "76111423",
-      "author": "Zdzisław",
+      "author": "(usunięty)",
       "postedAt": "2026-10-18 09:44",
-      "threadTitle": "Re: Pierwszy raz",
+      "threadTitle": "(wiadomość usunięta przez moderatora)",
       "url": "https://www.bankier.pl/forum/temat_pierwszy-raz,76111101.html",
-      "body": "Ja jeszcze nie grałem bo mam za słaby komputer ale jak akcje urosnom to kupiłem nowy i wtedy zagram a ty jak masz na imie i jak jesteś też gejem to możemy sie poznać a ja mieszkam w Opatówku!!!!!!",
+      "body": "(wiadomość usunięta przez moderatora)",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     },
     {
       "id": "76111101",
@@ -272,7 +347,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprzedaz-wiedzmina-3-przewyzsza-oczekiwania-spolki,76108707.html",
       "body": "Przed premierą czytałem analizy i prognozy sprzedaży Wiedźmina 3 oraz przyszłego DLC. Forumowi fanatycy spadków przekonywali, że „darmowy remaster” niczego nie zmieni. Na ocenę jego wpływu trzeba jeszcze poczekać — pełniejszy obraz poznamy w raporcie rocznym za 2026 rok.Mój scenariusz? 70–75 mln kopii podstawowej gry do premiery DLC, którą obstawiam na maj 2027 r. Do tego potencjał sprzedaży dodatku szacowany nawet na 15 mln kopii w pierwszym roku.Nawet 10 mln kopii DLC i kolejne 10 mln podstawowej gry to realna szansa na solidne zyski CD Projektu przed premierą Wiedźmina 4.Rynek nie musi uwierzyć w najbardziej optymistyczny scenariusz. Wystarczy, że nie zlekceważy ten realistyczny.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -286,7 +361,7 @@
       "url": "https://www.bankier.pl/forum/temat_edgerunners-2,76108093.html",
       "body": "Jeszcze przy okazji pierwszego sezonu wyszedł patch 1.6 do Cyberpunka. Miło byłoby, gdyby tym razem pojawiło się coś o tym mitycznym DLC",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -300,7 +375,7 @@
       "url": "https://www.bankier.pl/forum/temat_skup-akcji-wlasnych-dobra-inwestycja,76109903.html",
       "body": "Panie Prezesie , czysty zysk . Za rok akcje po 460.",
       "votes": {
-        "up": 4,
+        "up": 7,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -356,7 +431,7 @@
       "url": "https://www.bankier.pl/forum/temat_figurki-funko-pops-beda-dostepne-wraz-z-premiera-edgerunners-2,76108643.html",
       "body": "Pierwsze spojrzenie na nowe figurki Cyberpunk: Edgerunners 2 Funko Pops! Już wkrótce wraz z premierą Edgerunners będą dostępne w przedsprzedaży od wtorku, 20 października, o 9:00 czasu pacyficznego! Znakomity timing!https://i.imgur.com/tkpts1D.jpegNa wszelki wypadek przypominam, że CDR nie dokłada do ich stworzenia pieniędzy ani nakładu pracy..A hasełka typu: niech się lepiej zajmują grami - są niedorzeczne i świadczą o ignorancji..W przypadku marki Cyberpunk: Edgerunners, to samo Funko nawiązało bezpośrednią współpracę z CD Projekt RED. Następnie Funko podpisało umowę licencyjną z CD Projektem. I na jej mocy otrzymuje prawo do tworzenia zabawek i figurek z wizerunkiem postaci z tego uniwersum.Zazwyczaj producent figurek musi wpłacić firmie kwotę gwarantowaną z góry, niezależnie od tego, jak dobrze figurki będą się sprzedawać. A od każdej sprzedanej sztuki figurki Funko odprowadza dodatkowo określony procent (tzw. royalties) na rzecz Redów.Dla CDR jest to bardzo bezpieczny układ – licencjodawca zarabia na samej popularności swojej marki, nie ryzykując nakładu pracy czy własnego kapitału w proces produkcyjny. Z kolei Funko podejmuje ryzyko, ponieważ dzięki swojej potężnej sieci dystrybucji i milionom kolekcjonerów zazwyczaj doskonale wie, jak zbalansować nakład, by na tym zarobić.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -371,7 +446,7 @@
       "body": "No to teraz spadnie do 150",
       "votes": {
         "up": 1,
-        "down": 10
+        "down": 12
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -398,7 +473,7 @@
       "url": "https://www.bankier.pl/forum/temat_edgerunners-2,76108093.html",
       "body": "przy premierze poprzednika we wrześniu 2022 r. ilośc graczy wzrosla do ok 150 tys,,,a kurs z okolic ok 80 zl do ok 150 zl w trakcie emisji serialu...zobaczymy jak teraz wypadnie....",
       "votes": {
-        "up": 7,
+        "up": 12,
         "down": 0
       },
       "sentimentScore": 0,
@@ -455,7 +530,7 @@
       "body": "Heh. Marzenia ściętej głowy, poza tym sypanie pet..tych ku..ew to nie korekta.",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -469,7 +544,7 @@
       "body": "Musicie mi płacić jałmużnę bo inaczej nie przebiję 280 do 2031 roku. Ja tu jestem VIPEM i macie mi płacić do końca życia.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -482,8 +557,8 @@
       "url": "https://www.bankier.pl/forum/temat_teraz-czas-na-lekka-korekte-na-255,76103351.html",
       "body": "Co będziecie pisać w poniedziałek jak będzie po 271?",
       "votes": {
-        "up": 4,
-        "down": 0
+        "up": 5,
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -2463,20 +2538,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "76083489",
-      "author": "Heniek",
-      "postedAt": "2026-10-15 07:49",
-      "threadTitle": "Re: Jak tak będziecie słabo dmuchać to nigdy nie przebijemy 268.",
-      "url": "https://www.bankier.pl/forum/temat_jak-tak-bedziecie-slabo-dmuchac-to-nigdy-nie-przebijemy-268,76076079.html",
-      "body": "Masz skończone 15 lat???",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "76083473",
       "author": "rusałka",
       "postedAt": "2026-10-15 07:47",
@@ -2519,48 +2580,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76083239",
-      "author": "TakaPrawda",
-      "postedAt": "2026-10-15 06:57",
-      "threadTitle": "Re: Stany spadają więc u nas nie będzie rewelacji",
-      "url": "https://www.bankier.pl/forum/temat_stany-spadaja-wiec-u-nas-nie-bedzie-rewelacji,76082017.html",
-      "body": "Tak sprzedają by tu kupić ... ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.931,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76082901",
-      "author": "Koper",
-      "postedAt": "2026-10-15 01:00",
-      "threadTitle": "Re: Stany spadają więc u nas nie będzie rewelacji",
-      "url": "https://www.bankier.pl/forum/temat_stany-spadaja-wiec-u-nas-nie-bedzie-rewelacji,76082017.html",
-      "body": "Zobaczymy w czwartek co się będzie działo. Siedziałem na walorze 4 lata ehhh",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76082787",
-      "author": "Nieznajomy",
-      "postedAt": "2026-10-15 00:06",
-      "threadTitle": "Re: Stany spadają więc u nas nie będzie rewelacji",
-      "url": "https://www.bankier.pl/forum/temat_stany-spadaja-wiec-u-nas-nie-bedzie-rewelacji,76082017.html",
-      "body": "Spadnie na pół dnia i wróci więc spokojnie swoje musi po USA przetrawić a pewnie i grubasy będą miały dobry czas by wyczyścić stopy ☺️",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "76082729",
       "author": "A1",
       "postedAt": "2026-10-14 23:48",
@@ -2573,34 +2592,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76082615",
-      "author": "Ogolona_Malpa",
-      "postedAt": "2026-10-14 23:25",
-      "threadTitle": "Re: Stany spadają więc u nas nie będzie rewelacji",
-      "url": "https://www.bankier.pl/forum/temat_stany-spadaja-wiec-u-nas-nie-bedzie-rewelacji,76082017.html",
-      "body": "Ale np TTWO +0,45%",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76082365",
-      "author": "Phealot",
-      "postedAt": "2026-10-14 22:45",
-      "threadTitle": "Re: Stany spadają więc u nas nie będzie rewelacji",
-      "url": "https://www.bankier.pl/forum/temat_stany-spadaja-wiec-u-nas-nie-bedzie-rewelacji,76082017.html",
-      "body": "Ale mi sprzedaż -1%",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "76082357",
@@ -2631,20 +2622,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "76082017",
-      "author": "Koper",
-      "postedAt": "2026-10-14 22:10",
-      "threadTitle": "Stany spadają więc u nas nie będzie rewelacji",
-      "url": "https://www.bankier.pl/forum/temat_stany-spadaja-wiec-u-nas-nie-bedzie-rewelacji,76082017.html",
-      "body": "Niestety nasza \"mocna\" giełda się musi ugiąć..wmawiają nam, że nasz GPW jest mocna, taaaaa",
-      "votes": {
-        "up": 2,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "76081967",
       "author": "Phealot",
       "postedAt": "2026-10-14 22:03",
@@ -2667,132 +2644,6 @@
       "body": "Chłopie idź na plac zabaw. Co ty możesz nam zrobić",
       "votes": {
         "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76081835",
-      "author": "Bojko",
-      "postedAt": "2026-10-14 21:49",
-      "threadTitle": "Re: Lecimy na 100 będziecie skomlec",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-100-bedziecie-skomlec,76079787.html",
-      "body": "klękniesz",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76081687",
-      "author": "Zenon",
-      "postedAt": "2026-10-14 21:34",
-      "threadTitle": "Re: I kto mi powie ,że trolle spadziowe nie są polglowkami hehe",
-      "url": "https://www.bankier.pl/forum/temat_i-kto-mi-powie-ze-trolle-spadziowe-nie-sa-polglowkami-hehe,76077499.html",
-      "body": "Kolejny dowód jak bardzo bezrozumny jesteś. Nigdy nie napisałem NIGDY nie do przebicia. Każdy rozgarnięty rozumie, że jeśli nie zaznaczam jakichś tam czasowych, to komentuje bieżące zachowanie kursu. Ale komu to tłumaczyć???Nawet gdybyś był dwukrotnie inteligentniejszy, niż jesteś , to chyba ciągle byś tego nie pojął.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76081443",
-      "author": "Miras",
-      "postedAt": "2026-10-14 21:15",
-      "threadTitle": "Re: Lecimy na 100 będziecie skomlec",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-100-bedziecie-skomlec,76079787.html",
-      "body": "Nie spodziewałem się, że można codziennie taką kasę zarabiać.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76080923",
-      "author": "Tokonic",
-      "postedAt": "2026-10-14 20:32",
-      "threadTitle": "Czas spadków to pieśń przeszłości",
-      "url": "https://www.bankier.pl/forum/temat_czas-spadkow-to-piesn-przeszlosci,76080923.html",
-      "body": "Teraz tylko góra, wszystko co sprzedane zaraz odkupione, 20 października Edgerunners 2",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76080211",
-      "author": "PIOTR",
-      "postedAt": "2026-10-14 19:25",
-      "threadTitle": "Re: I kto mi powie ,że trolle spadziowe nie są polglowkami hehe",
-      "url": "https://www.bankier.pl/forum/temat_i-kto-mi-powie-ze-trolle-spadziowe-nie-sa-polglowkami-hehe,76077499.html",
-      "body": "Dobrze , że wyjechałaś ,nie wracaj hehe",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76080107",
-      "author": "PIOTR",
-      "postedAt": "2026-10-14 19:15",
-      "threadTitle": "Re: I kto mi powie ,że trolle spadziowe nie są polglowkami hehe",
-      "url": "https://www.bankier.pl/forum/temat_i-kto-mi-powie-ze-trolle-spadziowe-nie-sa-polglowkami-hehe,76077499.html",
-      "body": "265 nie do przejścia stara babo hehe",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76080055",
-      "author": "Mocarz",
-      "postedAt": "2026-10-14 19:09",
-      "threadTitle": "Re: Lecimy na 100 będziecie skomlec",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-100-bedziecie-skomlec,76079787.html",
-      "body": "Uwielbiam twoje komentarze, są naprawdę super, dołączasz do grona fanatyków 100",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76079787",
-      "author": "Lolo",
-      "postedAt": "2026-10-14 18:39",
-      "threadTitle": "Lecimy na 100 będziecie skomlec",
-      "url": "https://www.bankier.pl/forum/temat_lecimy-na-100-bedziecie-skomlec,76079787.html",
-      "body": "I prosić o laske",
-      "votes": {
-        "up": 0,
-        "down": 7
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76079743",
-      "author": "Zenon",
-      "postedAt": "2026-10-14 18:34",
-      "threadTitle": "Re: I kto mi powie ,że trolle spadziowe nie są polglowkami hehe",
-      "url": "https://www.bankier.pl/forum/temat_i-kto-mi-powie-ze-trolle-spadziowe-nie-sa-polglowkami-hehe,76077499.html",
-      "body": "Podziwiam ciebie, jak na człowieka o niskiej inteligencji, bo przebija się to ze wszystkich swoich wpisów, to jednak założyłeś rachunek maklerski i inwestujesz w akcje. Fakt, nie rozumiesz zasad gry, ani rynku, ale jednak próbujesz.",
-      "votes": {
-        "up": 0,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2827,62 +2678,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "76079251",
-      "author": "PIOTR",
-      "postedAt": "2026-10-14 17:37",
-      "threadTitle": "Re: I kto mi powie ,że trolle spadziowe nie są polglowkami hehe",
-      "url": "https://www.bankier.pl/forum/temat_i-kto-mi-powie-ze-trolle-spadziowe-nie-sa-polglowkami-hehe,76077499.html",
-      "body": "Jakby to powiedział Geralt o zenowefie: \"ZARAZA\" tego forum , \"Co za smród\". Hehehe",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76079189",
-      "author": "PIOTR",
-      "postedAt": "2026-10-14 17:29",
-      "threadTitle": "Re: I kto mi powie ,że trolle spadziowe nie są polglowkami hehe",
-      "url": "https://www.bankier.pl/forum/temat_i-kto-mi-powie-ze-trolle-spadziowe-nie-sa-polglowkami-hehe,76077499.html",
-      "body": "Spadziowa baba udająca longa, do lekarza",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76079137",
-      "author": "PIOTR",
-      "postedAt": "2026-10-14 17:25",
-      "threadTitle": "Re: I kto mi powie ,że trolle spadziowe nie są polglowkami hehe",
-      "url": "https://www.bankier.pl/forum/temat_i-kto-mi-powie-ze-trolle-spadziowe-nie-sa-polglowkami-hehe,76077499.html",
-      "body": "Odezwała się największa polglowka tego forum hehe",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76079073",
-      "author": "Zenon",
-      "postedAt": "2026-10-14 17:19",
-      "threadTitle": "Re: I kto mi powie ,że trolle spadziowe nie są polglowkami hehe",
-      "url": "https://www.bankier.pl/forum/temat_i-kto-mi-powie-ze-trolle-spadziowe-nie-sa-polglowkami-hehe,76077499.html",
-      "body": "I tak nie zrozumiesz, strategii shortów, bo sam jesteś polglowkiem. Shorty nie tylko grają akcjami, ale również na kontraktach. To dla ciebie jest zbyt skomplikowane",
-      "votes": {
-        "up": 0,
-        "down": 12
-      },
-      "sentimentScore": -0.931,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "76078985",
       "author": "bloomber",
       "postedAt": "2026-10-14 17:13",
@@ -2895,6 +2690,216 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76077171",
+      "author": "nagan",
+      "postedAt": "2026-10-14 15:00",
+      "threadTitle": "❤️ Paramount podał CDR jako co-producera sprzedaż Cyberpunka ruszyła❗️❓",
+      "url": "https://www.bankier.pl/forum/temat_paramount-podal-cdr-jako-co-producera-sprzedaz-cyberpunka-ruszyla,76077171.html",
+      "body": "Odkąd CD Projekt został koproducentem (Paramount Pictures) w Hollywood, sześcioletni tytuł Cyberpunk 2077 - wskoczył do pierwszej dziesiątki najlepiej sprzedających się gier na całym świecie (i to jako tytuł w pełnej cenie) na Steam.(uwaga: za kilka dni premiera Edgerunners II)https://i.imgur.com/eXWfNN0.png",
+      "votes": {
+        "up": 13,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76070853",
+      "author": "NagaMama",
+      "postedAt": "2026-10-14 07:47",
+      "threadTitle": "Re: O co tak naprawdę chodzi trollom spadziowym? Proste",
+      "url": "https://www.bankier.pl/forum/temat_o-co-tak-naprawde-chodzi-trollom-spadziowym-proste,75928103.html",
+      "body": "Dokładnie o to samo co trollom NAGANiajacym tylko w drugą stronę. Nie dziękuję",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76070517",
+      "author": "Pikolo",
+      "postedAt": "2026-10-14 06:50",
+      "threadTitle": "Re: O co tak naprawdę chodzi trollom spadziowym? Proste",
+      "url": "https://www.bankier.pl/forum/temat_o-co-tak-naprawde-chodzi-trollom-spadziowym-proste,75928103.html",
+      "body": "A wy ubieracie ulice na szczytach obiecując im złote góry. Nie ładnie naganiaczku:)",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76070427",
+      "author": "PIOTR",
+      "postedAt": "2026-10-14 06:17",
+      "threadTitle": "Re: O co tak naprawdę chodzi trollom spadziowym? Proste",
+      "url": "https://www.bankier.pl/forum/temat_o-co-tak-naprawde-chodzi-trollom-spadziowym-proste,75928103.html",
+      "body": "Trolle spadziowe są pobudzone na maxa tzn. że 300 zobaczymy szybko . Ich pany odkupują pożyczone akcje. Nie warto z trollami dyskutować. To są polglowki, brakuje im argumentów do dyskusji. Jakie argumenty znaleźć przeciwko takiemu gigantowi jakim jest CDPR. Niech piszą sobie sami ze sobą. Śmiesznie podszywają się pod longa hehe Dzieci z podstawówki i booty to są trolle spadziowe",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76062063",
+      "author": "Klasyk",
+      "postedAt": "2026-10-13 12:46",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "260, ależ rośnie.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76060611",
+      "author": "Zenon",
+      "postedAt": "2026-10-13 11:12",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "Nie dawno pisałeś o 3mln, kurs jest w trendzie bocznym, a z 3 zrobiło się 1.6 mln.Ty się nigdy niczego nie nauczysz. Jako Swawolnik_Ogłupły pisałeś tak samo.Zero wyciągania wniosków",
+      "votes": {
+        "up": 0,
+        "down": 3
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76060571",
+      "author": "Zenon",
+      "postedAt": "2026-10-13 11:09",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "Na jakiej podstawie piszesz, że za 2 tyg kurs będzie 280+ ???Nie jestem przeciw, a nawet jestem za, tyle że nie widzę podstaw.Tutaj kurs z mojej perspektywy jest losowy.Są oczywiście trendy, ale bez korelacji",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76060369",
+      "author": "Klasyk",
+      "postedAt": "2026-10-13 10:56",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "Chłopie, przegapiłeś 4 okazje na drogą sprzedaż i się klepiesz po pleckach. Żałosne.",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76059889",
+      "author": "zielony_guzik",
+      "postedAt": "2026-10-13 10:26",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "Dla mnie kurs może być nawet taki jak w sierpniu 2020 roku. Nie ma to większego znaczenia, jeśli zgadza się różnica między moją ceną zakupu a ceną sprzedaży.Jeżeli Twoim argumentem jest to, że nie powinienem uważać sprzedaży akcji z 30% zyskiem za sukces, to świadczy to jedynie o tym, że nie masz żadnych lepszych argumentów.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76059479",
+      "author": "Klasyk",
+      "postedAt": "2026-10-13 10:02",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "Za pewien czas kup sobie dobre nawilżenie, bo cię gruby rozepcha",
+      "votes": {
+        "up": 2,
+        "down": 6
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76059309",
+      "author": "Ty",
+      "postedAt": "2026-10-13 09:53",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "Ja jestem dumny że jestem ubrany po 267 .I za pewien czas będę dalej robił kolejne zakupy Ty możesz sobie tylko pomarzyć . Bo ja mam kapitał a ty zero..",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76059095",
+      "author": "Adi",
+      "postedAt": "2026-10-13 09:42",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "skórka panu nie schodzi?",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76059087",
+      "author": "Klasyk",
+      "postedAt": "2026-10-13 09:42",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "Och, za 2 tygodnie będzie tu taki kurs jaki był ponad rok temu? Ależ sukces, gratulacje!",
+      "votes": {
+        "up": 4,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76058825",
+      "author": "PIOTR",
+      "postedAt": "2026-10-13 09:28",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "Ubrany to jest jego pracodawca w shorta ,jeszcze 1.6 mln akcji do odkupienia. Paliwo na 350 jest od spadzi.",
+      "votes": {
+        "up": 9,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76058641",
+      "author": "zielony_guzik",
+      "postedAt": "2026-10-13 09:20",
+      "threadTitle": "Re: Leszcz ubrany po 268",
+      "url": "https://www.bankier.pl/forum/temat_leszcz-ubrany-po-268,76058385.html",
+      "body": "Za 2 tygodnie będziesz pisał \"leszcz ubrany po 282 klasyk\" klasyk",
+      "votes": {
+        "up": 11,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
     }
   ]
 }

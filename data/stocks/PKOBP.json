@@ -3,11 +3,11 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-10-18T15:52:32.695Z",
+  "updatedAt": "2026-10-18T20:42:48.017Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-18T15:52:32.695Z",
+    "fetchedAt": "2026-10-18T20:42:48.017Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.059,
-    "confidence": 0.61,
-    "commentCount": 44,
+    "score": 0.053,
+    "confidence": 0.6,
+    "commentCount": 42,
     "breakdown": {
-      "positive": 18,
+      "positive": 16,
       "negative": 12,
       "neutral": 14
     },
     "trend": [
-      {
-        "date": "2026-10-11",
-        "score": 0.322,
-        "count": 2
-      },
       {
         "date": "2026-10-12",
         "score": 0.165,
@@ -60,20 +55,16 @@
         "count": 2
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 44 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 12 negatywnych, 14 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 42 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 12 negatywnych, 14 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
-      {
-        "word": "jedziemy",
-        "count": 3
-      },
       {
         "word": "koniec",
         "count": 3
       },
       {
-        "word": "trzeba",
-        "count": 3
+        "word": "jedziemy",
+        "count": 2
       },
       {
         "word": "poniedzialek",
@@ -101,6 +92,10 @@
       },
       {
         "word": "albo",
+        "count": 2
+      },
+      {
+        "word": "stanow",
         "count": 2
       }
     ]
@@ -692,34 +687,6 @@
         "down": 0
       },
       "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76043495",
-      "author": "Kolega",
-      "postedAt": "2026-10-11 19:41",
-      "threadTitle": "Re: To jutro 112 zł czy odbicie ?",
-      "url": "https://www.bankier.pl/forum/temat_to-jutro-112-zl-czy-odbicie,76042561.html",
-      "body": "Jedziemy na 112 i niżej. Niestety",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76043093",
-      "author": "podatki",
-      "postedAt": "2026-10-11 18:13",
-      "threadTitle": "Re: To jutro 112 zł czy odbicie ?",
-      "url": "https://www.bankier.pl/forum/temat_to-jutro-112-zl-czy-odbicie,76042561.html",
-      "body": "Trzeba minimalizować podatki",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
     }
   ]
