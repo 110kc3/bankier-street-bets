@@ -1,33 +1,33 @@
 {
   "symbol": "PKOBP",
-  "companyName": "PKO BP",
+  "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp,6,21,10000000062.html",
-  "updatedAt": "2026-10-18T11:04:52.759Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
+  "updatedAt": "2026-10-18T15:52:32.695Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-18T11:04:52.759Z",
+    "fetchedAt": "2026-10-18T15:52:32.695Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 24
+    "threadsScanned": 22
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.057,
-    "confidence": 0.64,
-    "commentCount": 48,
+    "score": 0.059,
+    "confidence": 0.61,
+    "commentCount": 44,
     "breakdown": {
-      "positive": 19,
-      "negative": 13,
-      "neutral": 16
+      "positive": 18,
+      "negative": 12,
+      "neutral": 14
     },
     "trend": [
       {
         "date": "2026-10-11",
-        "score": 0.107,
-        "count": 6
+        "score": 0.322,
+        "count": 2
       },
       {
         "date": "2026-10-12",
@@ -60,15 +60,11 @@
         "count": 2
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 48 komentarzy z ostatnich 7 dni: nastroje mieszane (19 pozytywnych, 13 negatywnych, 16 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 44 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 12 negatywnych, 14 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "jedziemy",
-        "count": 3
-      },
-      {
-        "word": "dlaczego",
         "count": 3
       },
       {
@@ -81,6 +77,10 @@
       },
       {
         "word": "poniedzialek",
+        "count": 2
+      },
+      {
+        "word": "dlaczego",
         "count": 2
       },
       {
@@ -721,62 +721,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76042617",
-      "author": "jacek303",
-      "postedAt": "2026-10-11 16:08",
-      "threadTitle": "Re: To jutro 112 zł czy odbicie ?",
-      "url": "https://www.bankier.pl/forum/temat_to-jutro-112-zl-czy-odbicie,76042561.html",
-      "body": "Pomyłka BlackRock sprzedał akcje PEKAO a nie PKO. Ale może jest jakiś związek tego sypania ze zwałką na PKO BP.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76042561",
-      "author": "jacek303",
-      "postedAt": "2026-10-11 15:58",
-      "threadTitle": "To jutro 112 zł czy odbicie ?",
-      "url": "https://www.bankier.pl/forum/temat_to-jutro-112-zl-czy-odbicie,76042561.html",
-      "body": "Ciekawa historia z tym PKO. Ze 123 na 113 zł w 3 sesje bez powodu. Blackrock zmniejszył pakiet ale dlaczego sypie tak brutalnie ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76042251",
-      "author": "tenmarcus",
-      "postedAt": "2026-10-11 14:58",
-      "threadTitle": "Re: Zobaczcie co się dzieje na kghm na PKN na pge",
-      "url": "https://www.bankier.pl/forum/temat_zobaczcie-co-sie-dzieje-na-kghm-na-pkn-na-pge,76027447.html",
-      "body": "a co sądzisz o Bumech?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76041775",
-      "author": "ono",
-      "postedAt": "2026-10-11 13:43",
-      "threadTitle": "Re: Dla mnie ta cała szopka z zagrozeniem",
-      "url": "https://www.bankier.pl/forum/temat_dla-mnie-ta-cala-szopka-z-zagrozeniem,76027263.html",
-      "body": "jarosław w desperacji planuje zamach na premiera",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
