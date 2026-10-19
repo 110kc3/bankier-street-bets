@@ -1,13 +1,13 @@
 {
   "symbol": "PEKAO",
-  "companyName": "Bank Pekao SA",
+  "companyName": "PEKAO",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-10-19T04:39:38.158Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_pekao,6,21,18.html",
+  "updatedAt": "2026-10-19T13:12:42.444Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-19T04:39:38.158Z",
+    "fetchedAt": "2026-10-19T13:12:42.444Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.09,
-    "confidence": 0.53,
-    "commentCount": 30,
+    "score": -0.085,
+    "confidence": 0.54,
+    "commentCount": 31,
     "breakdown": {
       "positive": 6,
       "negative": 9,
-      "neutral": 15
+      "neutral": 16
     },
     "trend": [
       {
@@ -93,14 +93,23 @@
         "date": "2026-10-17",
         "score": 0.161,
         "count": 2
+      },
+      {
+        "date": "2026-10-19",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 30 komentarzy z ostatnich 30 dni: nastroje mieszane (6 pozytywnych, 9 negatywnych, 15 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 31 komentarzy z ostatnich 30 dni: nastroje mieszane (6 pozytywnych, 9 negatywnych, 16 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dziala",
         "count": 6
+      },
+      {
+        "word": "etrader",
+        "count": 5
       },
       {
         "word": "mnie",
@@ -109,6 +118,14 @@
       {
         "word": "kilka",
         "count": 5
+      },
+      {
+        "word": "wersja",
+        "count": 4
+      },
+      {
+        "word": "nadal",
+        "count": 4
       },
       {
         "word": "pekao",
@@ -125,22 +142,24 @@
       {
         "word": "wszystko",
         "count": 4
-      },
-      {
-        "word": "etrader",
-        "count": 4
-      },
-      {
-        "word": "nadal",
-        "count": 3
-      },
-      {
-        "word": "problemy",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "76119169",
+      "author": "szejk_1",
+      "postedAt": "2026-10-19 11:00",
+      "threadTitle": "Wersja 2.1.6 eTrader nadal jest do kitu!",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Wersja 2.1.6 eTrader nadal jest do kitu!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76109379",
       "author": "Arkady",
