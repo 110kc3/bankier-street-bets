@@ -3,11 +3,11 @@
   "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
-  "updatedAt": "2026-10-19T22:22:46.241Z",
+  "updatedAt": "2026-10-20T04:50:59.680Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-19T22:22:46.241Z",
+    "fetchedAt": "2026-10-20T04:50:59.680Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,7 +15,7 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.056,
+    "score": 0.054,
     "confidence": 0.67,
     "commentCount": 52,
     "breakdown": {
@@ -26,8 +26,8 @@
     "trend": [
       {
         "date": "2026-10-13",
-        "score": 0.22,
-        "count": 11
+        "score": 0.242,
+        "count": 10
       },
       {
         "date": "2026-10-14",
@@ -58,10 +58,15 @@
         "date": "2026-10-19",
         "score": 0.074,
         "count": 11
+      },
+      {
+        "date": "2026-10-20",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 52 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 9 negatywnych, 27 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 52 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 9 negatywnych, 27 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "listopada",
@@ -84,10 +89,6 @@
         "count": 3
       },
       {
-        "word": "https",
-        "count": 3
-      },
-      {
         "word": "gdyby",
         "count": 3
       },
@@ -102,10 +103,28 @@
       {
         "word": "ludzie",
         "count": 3
+      },
+      {
+        "word": "pozycji",
+        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "76128737",
+      "author": "Początek",
+      "postedAt": "2026-10-20 05:03",
+      "threadTitle": "Re: Fantastyczne informacje",
+      "url": "https://www.bankier.pl/forum/temat_fantastyczne-informacje,76017321.html",
+      "body": "Wojną cenowa też się kończy.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76127513",
       "author": "Antydebil",
@@ -819,20 +838,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76056673",
-      "author": "okk",
-      "postedAt": "2026-10-13 03:58",
-      "threadTitle": "Re: Denis Drump wywraca pokerowy stolik \"rynków kapitałowych\"",
-      "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
-      "body": "https://www.youtube.com/watch?v=IZYJ4eFKFNk",
-      "votes": {
-        "up": 3,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
