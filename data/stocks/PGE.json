@@ -3,31 +3,36 @@
   "companyName": "PGE",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PGE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pge,6,21,10000000641.html",
-  "updatedAt": "2026-10-20T17:03:03.648Z",
+  "updatedAt": "2026-10-20T21:37:27.397Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-20T17:03:03.648Z",
+    "fetchedAt": "2026-10-20T21:37:27.397Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 55
+    "threadsScanned": 59
   },
   "analysis": {
     "signal": "BUY",
-    "score": 0.27,
-    "confidence": 0.79,
+    "score": 0.214,
+    "confidence": 0.77,
     "commentCount": 200,
     "breakdown": {
-      "positive": 100,
-      "negative": 21,
-      "neutral": 79
+      "positive": 82,
+      "negative": 24,
+      "neutral": 94
     },
     "trend": [
       {
+        "date": "2026-10-15",
+        "score": 0.203,
+        "count": 3
+      },
+      {
         "date": "2026-10-16",
-        "score": -0.115,
-        "count": 27
+        "score": -0.067,
+        "count": 36
       },
       {
         "date": "2026-10-17",
@@ -41,61 +46,187 @@
       },
       {
         "date": "2026-10-19",
-        "score": 0.386,
-        "count": 131
+        "score": 0.34,
+        "count": 110
       },
       {
         "date": "2026-10-20",
-        "score": 0.139,
-        "count": 30
+        "score": 0.112,
+        "count": 39
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje pozytywne (100 pozytywnych, 21 negatywnych, 79 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje pozytywne (82 pozytywnych, 24 negatywnych, 94 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dywidendy",
-        "count": 48
+        "count": 41
       },
       {
         "word": "dywidenda",
-        "count": 33
-      },
-      {
-        "word": "zysku",
         "count": 30
       },
       {
+        "word": "zysku",
+        "count": 26
+      },
+      {
         "word": "netto",
-        "count": 25
+        "count": 23
       },
       {
         "word": "strategii",
-        "count": 24
+        "count": 22
+      },
+      {
+        "word": "kursie",
+        "count": 19
       },
       {
         "word": "tyle",
-        "count": 20
+        "count": 19
       },
       {
         "word": "dywidende",
-        "count": 20
+        "count": 19
       },
       {
         "word": "strategia",
         "count": 18
       },
       {
-        "word": "kursie",
-        "count": 18
-      },
-      {
-        "word": "albo",
-        "count": 17
+        "word": "masz",
+        "count": 16
       }
     ]
   },
   "comments": [
+    {
+      "id": "76141951",
+      "author": "Gaudi",
+      "postedAt": "2026-10-20 23:26",
+      "threadTitle": "Re: Black, kiedy te 8,50 będzie?",
+      "url": "https://www.bankier.pl/forum/temat_black-kiedy-te-8-50-bedzie,75500849.html",
+      "body": "Tw9j fan czeka na twoje 8,50. Dlaczego oszukujesz ludzi, black?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76141933",
+      "author": "Gaudi",
+      "postedAt": "2026-10-20 23:24",
+      "threadTitle": "Re: nie masz pojęcia o zarabianiu .",
+      "url": "https://www.bankier.pl/forum/temat_peleton-zawraca-juz,75763543.html",
+      "body": "Ile przeplaciles czarny na demo?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76141915",
+      "author": "Gaudi",
+      "postedAt": "2026-10-20 23:21",
+      "threadTitle": "Re: Hmmm . . .",
+      "url": "https://www.bankier.pl/forum/temat_12-75-pln,75875405.html",
+      "body": "O, tu tez watek o post factum blacka",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76141887",
+      "author": "Gaudi",
+      "postedAt": "2026-10-20 23:18",
+      "threadTitle": "Re: RSI H4 = 83-84 !!!",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-83-84,75672623.html",
+      "body": "Cos o tym black post factum?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76141875",
+      "author": "Oko",
+      "postedAt": "2026-10-20 23:16",
+      "threadTitle": "Re: co znowu sie tu odwala jprd ?",
+      "url": "https://www.bankier.pl/forum/temat_co-znowu-sie-tu-odwala-jprd,76123711.html",
+      "body": "Dostał takie zlecenie i pisze.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76141873",
+      "author": "Gaudi",
+      "postedAt": "2026-10-20 23:16",
+      "threadTitle": "Re: Dobre :))))",
+      "url": "https://www.bankier.pl/forum/temat_oj-black-a-ty-caly-czas-na-rachunku-demo,76094903.html",
+      "body": "Cos dodasz czarny?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76141665",
+      "author": "black944",
+      "postedAt": "2026-10-20 22:46",
+      "threadTitle": "oj, płaczek - nie masz pojęcia o zarabianiu .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
+      "body": "To też było post factum ? :)))))))))))))))))))))))Zobacz wątki dotyczące PGE SA Zobacz profil PGE SA Autor: ~black944 [93.159.36.*] 2026-10-15 16:28 Opublikowano przy kursie: 17,29 zł , zmiana od tamtej pory: -5,18% RSI D1 = 76 . . .Zgłoś do moderatora wysoko . . .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76141211",
+      "author": "Jasta",
+      "postedAt": "2026-10-20 21:43",
+      "threadTitle": "Re: Zdolność spółkido generowania EBITDA",
+      "url": "https://www.bankier.pl/forum/temat_zdolnosc-spolkido-generowania-ebitda,76127517.html",
+      "body": "W strategii nie podano z jakich środków będę finansowane planowane inwestycje. To jest ważna informacja dla akcjonariuszy, która nie została podana. Nie można wykluczyć dodatkowej emisji akcji.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76140971",
+      "author": "DaleCooper",
+      "postedAt": "2026-10-20 21:07",
+      "threadTitle": "Re: Baja . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
+      "body": "Prądozaurom tego świata i tak nie wytłumaczyć co znaczy stopa dywidendy, bo dla nich fakty się nie liczą.Ja sądzę, że w przyszłym roku (wyborczym) wyplacą maksa dywidendy, bo ich rząd pociśnie o kasę. Zysk się w tym roku bardzo zacny zapowiada, więc będą mieli z czego:)",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76139559",
       "author": "BajaBongo",
@@ -104,7 +235,7 @@
       "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
       "body": "PS. A do tego dodaj sobie, że część inwestycji PGE zrobi zapewne w formule project finance z partnerami tak jak robi obecnie Baltice.Mówię, tak serio to albo totalnie nie masz pojęcia albo po prostu piszesz ze złości. Jaki będzie kurs tego nie wie nikt, ale to co wypisujesz to brednie stary :)",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -118,7 +249,7 @@
       "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
       "body": "Powiem więcej , przy skumulowanym zysku netto w latach 2026-2030 na poziomie+/- 25mld zł to nikt by się nawet nie ośmieszał z dywidendą typu 5% kwoty z zysku netto. Dług PGE zaciągnie i tak na projekty które łatwo dostają krechę. Skumulowany Capex do 2035 to 210mld zł. Tyle samo skumulowana EBITDA. To nawet biorąc pod uwagę brak przesunięcia w czasie masz dług na poziomie 1x EBITDA w całym okresie cyklu inwestycyjnego. Nie wiem czy Ty liczyć nie potrafisz czy serio sprzedałeś tanio i teraz takie banialuki wypisujesz.",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -132,7 +263,7 @@
       "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
       "body": "Ty to jesteś dobry agent. W najnowszych rekomendacjach analitycy już zakładają 0,5pln na akcję a Ty dalej sądzisz że 5% to z zysku netto przeznaczą na dywidendę :)Nie wiem, jak ktokolwiek mógł to tak zrozumieć, ale pojęcia to Ty i cash flow i przepływach nie masz za grosz hehe. :)\"In line with the updated strategy, we assume that PGE will start paying a PLN0.5 DPS from 2027 Eonwards and maintain this level in the long term. Still, we note that the company guides for “up to 5% dividend yield”, offering no certain DPS floor threshold for either 2027E or beyond, thus PLN0.5 represents our own assumption.\"https://imgur.com/a/lPZimOF",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.87,
@@ -146,8 +277,8 @@
       "url": "https://www.bankier.pl/forum/temat_pradozaur-inne-spolki,76115113.html",
       "body": "Dobra, napisz lepiej w końcu po ile wychodziłeś :)",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -160,7 +291,7 @@
       "url": "https://www.bankier.pl/forum/temat_pradozaur-inne-spolki,76115113.html",
       "body": "Ile jest kurs prondożarł? Przypomnij nam",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -174,7 +305,7 @@
       "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
       "body": "Czarny zawsze post factum. Podnozek prontozaura. Buhahahaha",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -188,8 +319,8 @@
       "url": "https://www.bankier.pl/forum/temat_jazda-jazda-na-25-50-do-konca-roku,76132331.html",
       "body": "No to jest właśnie sedno tego z czym tu mamy do czynienia... Popatrzcie no wszyscy... Podajesz argumenty, podajesz fakty i wyjaśniasz jak działają instytucję finansowe i co się dzieje i stanie według własnego osądu na podstawie wszystkiego, co widać i można sprawdzić w sprawozdaniach finansowych, ale z drugiej strony masz gienków co sobie mają swój świat i jak kurs spada się trzęsąc kółeczkami, to ogłaszają korektę, bo przecież 2 miesiące dmuchania sztucznego kursu pod strategię i rzekomą dużą dywidendę to jest trend niby (zupełne pomylenie pojęć, bo jak nazwać wieloletnim trendem coś chwilowego) --- A jak strategia okazała się naleśniczkiem płaskim i dywidenda będzie malutka bo cała forsa przez dekady jak ostrzegałem musi iść w moderniazację wszystkiego w PGE, to dalej mają swój świat i ogłaszają sobie że rzeczywistość to głupoty, bo wolą swoje bajki o atomie, AI i kursie do nieba rosnącym... Ehhh co w szkołach z nimi robili, bo uczyć to nie uczyli, no a sami co ze sobą zrobili, to też smutne musi być, bo jak dla nich kilka konkretnych postów to jak tu wielu jęczało... Za długie by czytać, a w praktyce za skomplikowane by zrozumieć i na dodatek uważają, że to trudno w ogóle post wyklikać Prądozaurowi, no to naprawdę u nich obraz nędzy i rozpaczy umysłowej i merytorycznej... Sakiewicz będzie się za nich modlił pod Trybunałem Konstytucyjnym zapewne razem ze św. Antonim od Smoleńska Dżizus --- Do NFZ podania składajcie, bo na kurs MBA to raczej bez podstawówki nie przyjmą nawet w Collegium Humanum i na KUL też wolą mieć mrawszych trochę Czarnków :)",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -203,7 +334,7 @@
       "body": "No czekaj czekaj na 5% dywidendy od kursu akcji na GPW to w kaftanie wywiozą... Tyle razy miałeś tłumoku tłumaczone, że zarząd każdej spółki podaje stopę dywidendy odnosząc się do zysku netto, a sam sobie możesz później liczyć względem ceny co za akcję zapłaciłeś, a dalej jęczysz że dostaniesz niby 1 PLN dywidendy czy ile chcesz ??? 2,5 PLN na akcę chcesz dywidendy bo kurs wydmuchasz do 50 sam ??? No śmiało... A dywidendy dostaniesz w 2027 za rekordowy 2026 niezależnie od tego 0,15 - 0,20 PLN bo tyle wychodzi z 5% przemnożonych przez zakładany optymistycznie zysk netto na poziomie przeszło 8 mld PLN i to pod warunkiem, że drugie półrocze da tyle, co pierwsze, a może być mniej i wtedy nawet 1% względem obecnego kursu nie wyniesie dywidenda, więc co się trzepiesz... Poczekaj i zobaczysz tę dywidendę swoją wymarzoną ekonomiczny gapciu :)",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 3
       },
       "sentimentScore": 0.995,
       "sentimentLabel": "Positive"
@@ -216,7 +347,7 @@
       "url": "https://www.bankier.pl/forum/temat_jazda-jazda-na-25-50-do-konca-roku,76132331.html",
       "body": "Ale żeś się napracował by to napisać chyba trochę jesteś w plecy",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -230,8 +361,8 @@
       "url": "https://www.bankier.pl/forum/temat_jazda-jazda-na-25-50-do-konca-roku,76132331.html",
       "body": "bredzisz jak zwykle pradozaur",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -244,8 +375,8 @@
       "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
       "body": "A ten który kłamie cały czas o 20gr to ma do siebie szacunek ?Jeżeli nie masz do siebie szacunku i sam siebie oklamujesz to masz jakas wartosc ?Smuteczek ze znowu odjechalo :)I tak juz od 2,6.Ciagle te same bzdury na tym forum.",
       "votes": {
-        "up": 1,
-        "down": 1
+        "up": 4,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -258,7 +389,7 @@
       "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
       "body": "Brak szacunku dla czlowieka jest slaba wizytowka.Brak wartosci wywodzi sie zapewne z domu.",
       "votes": {
-        "up": 2,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -273,7 +404,7 @@
       "body": "Może to czas dla Ciebie z tymi kółeczkami po niecałe 2% bo moim zdaniem jak wcześniej w 2 miesiące wydmuchali nienaturalnie kurs ponad 17 to teraz będą osuwać go i właśnie te odbicia zdechłych kotów jeśli ktoś dobrze będzie trafiał ryzykując na własną odpowiedzialność będą dawać możliwości skakania ciągłego w tej płynności kursu opadającego do poziomu uzasadnionego normalnymi dużo niższymi niż tegoroczne zyskami i dywidendą co najwyżej wynoszącą 0,15 - 0,20 PLN na akcję --- No ale to już każdy sam decyduje jak działa i co uważa za sensowne, zatem Darz Bóbr i Z Panem Bobrem wszystkim rozumnym i się nieokłamującym :)",
       "votes": {
         "up": 0,
-        "down": 3
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -286,8 +417,8 @@
       "url": "https://www.bankier.pl/forum/temat_jazda-jazda-na-25-50-do-konca-roku,76132331.html",
       "body": "Nic nie bronicie, bo nie macie dość forsy żeby z kimkolwiek dużym wygrać, więc dziś macie przykład odbicia zdechłego kota, gdzie moim zdaniem pozwolili się znów nagrzanym na wieczne wzrosty napalić na kupowanie nieco drożej i ponownie stopniowo z tymi podrygami będzie opadanie --- Rosło z korektami i będzie z czasem spadało z tymi odbiciami zdechłych kotów (korekta spadkowa) aż się kurs urealni do rzeczywistych corocznych poziomów przewidywanych zysków netto PGE i dywidend mających wynosić po 0,10 - 0,20 PLN na akcję --- Jeśli się mylę to się z czasem okaże... Ale co jeśli mylicie się zakładając ten jak to śmiesznie tu niektórzy określali trend wzrostowy (trend trwający 2 miesiące to nie trend tylko spekulacyjne dmuchanie kursu przez dużych dla pobudzenia wyobraźni nagrzanych małych) i co zrobicie wierząc ciągle, że to tylko korekta w trendzie, gdy będzie jednak tylko chwilowo podskakiwało w górę po stopniowym osuwaniu się w dół... W pewnym momencie wtedy pojawi się panika i kurs się nagle załamie gdy każdy zwątpi we własne zaklęcia... Powodzenia cokolwiek zdecydujecie, ale myślcie o każdym wariancie, bo tylko wariat krzyczy że będzie wiecznie rosło nie patrząc na kapciową strategię i symboliczną dywidendę, no i kurs który odzwierciedlił nieśmiało już rozczarowanie wszystkim, co nie spełniło oczekiwań nagrzanych :)",
       "votes": {
-        "up": 0,
-        "down": 3
+        "up": 1,
+        "down": 7
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -301,7 +432,7 @@
       "body": "Ano w tym miał Prądozaur rację, że strategia do której trzepaliście przez miesiące całe okazała się zgodnie z przewidywaniami rozumnych ludzi mokrym kapiszonem i z tym Prądozaur miał rację, że kurs nie będzie rósł, tylko opadnie po nienaturalnie wysokim dmuchaniu w dwa miesiące i rozumiem, że po dzisiejszym odbiciu zdechłego kota wszyscy znów się napalili na wzrosty nie rozumiejąc, że kilka kółeczek zrobią ich kosztem spekulanty większe... Ehhh, jak dobrze być oszołomem trafnie widzącym sytuację w świecie mooondrali ciągle się mylących --- No i wiadomo, że proponujący mi konkretne namiary na dobrych psychiatrów sam już korzystał wielokrotnie, ale wychodzi na to że nie są dobrzy, skoro ciągle się myląc twierdzi że to mający ciągle rację Prądozaur się ciągle myli :)",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 6
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -315,7 +446,7 @@
       "body": "> a na tą chwilę mamy nowe rozdanie kart na tym poziomie -10% od ostatniego maxa . . .> ps.> korekty są potrzebne i warto z nich korzystać . . .================================ Teraz ponownie będzie następne łatwe min +3,5% na odbiciu . . .",
       "votes": {
         "up": 0,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -328,7 +459,7 @@
       "url": "https://www.bankier.pl/forum/temat_jazda-jazda-na-25-50-do-konca-roku,76132331.html",
       "body": "Nie dać się. Chcą zabrać wszystkie akcje.",
       "votes": {
-        "up": 5,
+        "up": 8,
         "down": 1
       },
       "sentimentScore": 0,
@@ -342,7 +473,7 @@
       "url": "https://www.bankier.pl/forum/temat_jazda-jazda-na-25-50-do-konca-roku,76132331.html",
       "body": "Ładnie wybronili i odbili. Obroty!",
       "votes": {
-        "up": 5,
+        "up": 8,
         "down": 1
       },
       "sentimentScore": 0,
@@ -356,7 +487,7 @@
       "url": "https://www.bankier.pl/forum/temat_pradozaur-inne-spolki,76115113.html",
       "body": "W niczym nie ma racji. To kolejny psyccho fan psychchola.",
       "votes": {
-        "up": 5,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -370,8 +501,8 @@
       "url": "https://www.bankier.pl/forum/temat_ile-powinno-byc-warte-pge,76096057.html",
       "body": "Ostatnie spadki traktuję jako korektę na kursie.Uspokojenie dynamicznych wzrostów i korekta było pożądane.Informacja o planach dywidendy jak najbardziej pozytywna, mocno ograniczy rozgrywanie spółki przez różnego rodzaju spekulantów. Pojawia się pole do wejścia długoterminowego funduszy oraz innych akcjonariuszy. Wartość akcji powinna systematycznie rosnąć, być sporo powyżej stopy zwrotu z lokaty terminowej w banku.",
       "votes": {
-        "up": 9,
-        "down": 0
+        "up": 12,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -384,7 +515,7 @@
       "url": "https://www.bankier.pl/forum/temat_pradozaur-inne-spolki,76115113.html",
       "body": "W czym ma rację? Oszalałeś?",
       "votes": {
-        "up": 6,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0,
@@ -412,7 +543,7 @@
       "url": "https://www.bankier.pl/forum/temat_zdolnosc-spolkido-generowania-ebitda,76127517.html",
       "body": "Nie widzisz tego, że spółka wychodzi z dołka, zwiększa przychody i zyski?",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -427,7 +558,7 @@
       "body": "Tylko że 50% inwestycji PGE to zwykłe wydatki czyli z zerową stopą zwrotu. W ciągu ostatnich 10-ciu lat \"inwestycje\" wyniosły prawie 100 mld PLN i gdzie ten dodatkowy free cash flow ?",
       "votes": {
         "up": 1,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -440,7 +571,7 @@
       "url": "https://www.bankier.pl/forum/temat_wszyscy-zrozumieli-no-to-dolne-widly,76129445.html",
       "body": "I gdzie te widły?",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -454,7 +585,7 @@
       "url": "https://www.bankier.pl/forum/temat_zdolnosc-spolkido-generowania-ebitda,76127517.html",
       "body": "Tutaj na tym forum dominuje taki kult dywidendy. Czyli dywidenda jest cacy, a inwestycje są be. Nic bardziej mylnego. Dywidenda to jednorazowy zastrzyk gotówki dla akcjonariuszy (81%) i skarbu państwa (19%), natomiast inwestycje dają efekt w postaci dodatkowego i trwałego Free Cash Flow (FCF=dodatkowy ZN+dodatkowa amortyzacja), który ujmuje się m. in. w rachunku przepływów pieniężnych. Standardowy okres zwrotu z inwestycji to ok. 7-8 lat, czyli inwestycja o wartości 10 mld zł przynosi dodatkowy FCF rzędu 1,3 mld zł rocznie. Inwestycja na kwotę 100 mld zł to już 13 mld FCF w stosunku rocznym.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -468,7 +599,7 @@
       "url": "https://www.bankier.pl/forum/temat_ile-powinno-byc-warte-pge,76096057.html",
       "body": "na peronie prąciozmarł i te jego 20 groszy",
       "votes": {
-        "up": 7,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0,
@@ -497,7 +628,7 @@
       "body": "Niezły oszołom ale ma rację !! Prądozaur - czapki zg ów.",
       "votes": {
         "up": 1,
-        "down": 6
+        "down": 9
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -524,7 +655,7 @@
       "url": "https://www.bankier.pl/forum/temat_zdolnosc-spolkido-generowania-ebitda,76127517.html",
       "body": "Widzę, że jesteś cieniutki bolek w dziedzinie finansów. Chyba jednak masz świadomość tego, że spółka zainwestowała masę pieniędzy w swój rozwój, i te inwestycje albo już się zwróciły, albo zwrócą w postaci wzrostu przychodów i dodatkowych miliardów zysku operacyjnego - już w 2027 roku. Podobnie rzecz się będzie miała z inwestycjami zaplanowanymi na kolejne lata.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -538,7 +669,7 @@
       "url": "https://www.bankier.pl/forum/temat_pradozaur-inne-spolki,76115113.html",
       "body": "Niezly oszolom ten prontozaur",
       "votes": {
-        "up": 7,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0,
@@ -637,7 +768,7 @@
       "body": "Nie możesz po prostu przemnożyć najfajniejszego kwartału przez 4 i z tego wyciągnąć wniosek, że będzie miało PGE tego typu wyniki, a poza tym ostrzegałem, że tegoroczne są bardzo wyjątkowe przez sytuację wojenną na świecie i rynku gazu i złagodzenie chwilowe ETS i że w kolejnych latach będą wyniku dużo słabsze, to może czas to zaakceptować i zrozumieć, że w prognozie pokazane są normalne zyski po latach i EBITDA i wszystko a nie rekordowe przez nadzwyczajne sytuacje i uwarunkowania... Nosz ile można tłumaczyć, jak to to oświadcza, że nie czyta nawet postów Prądozaura bo za długie i myśleć trzeba, a sam gupoty woli pitolić nieustannie te same niezwiązane z rzeczywistością :)",
       "votes": {
         "up": 1,
-        "down": 7
+        "down": 8
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -909,20 +1040,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76124543",
-      "author": "BajaBongo",
-      "postedAt": "2026-10-19 16:55",
-      "threadTitle": "Re: Hmmm . . .",
-      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
-      "body": "A 12,75? :)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "76124549",
       "author": "Cypisek",
       "postedAt": "2026-10-19 16:55",
@@ -937,6 +1054,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "76124543",
+      "author": "BajaBongo",
+      "postedAt": "2026-10-19 16:55",
+      "threadTitle": "Re: Hmmm . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
+      "body": "A 12,75? :)",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "76124319",
       "author": "black944",
       "postedAt": "2026-10-19 16:38",
@@ -945,7 +1076,7 @@
       "body": "14,55 ?",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1042,8 +1173,8 @@
       "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
       "body": "Bidony 12,75? :))))",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 1,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1483,20 +1614,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "76122797",
-      "author": "PZ",
-      "postedAt": "2026-10-19 15:04",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "ja prdl, czytaj, czytaj, myśl, potem czytaj, a potem znowu myśl i tak do znudzenia, aż zrozumiesz:\"Gdy zarząd spółki giełdowiej podaje parametry dotyczące wypłat z zysku w swojej oficjalnej strategii lub polityce dywidendowej, niemal nigdy nie posługuje się pojęciem „stopy dywidendy” w klasycznym rozumieniu (czyli rentowności rynkowej, np. 5% ceny akcji). Zamiast tego zarządy określają stopę wypłaty dywidendy (ang. dividend payout ratio – DPR).\"i leć od razu do KNF jeśli nie wypłacą Ci dywidendy takiej jak myślisz. Albo od razu do sądu...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.964,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "76122717",
       "author": "PZ",
       "postedAt": "2026-10-19 15:00",
@@ -1525,34 +1642,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "76122657",
-      "author": "zenek",
-      "postedAt": "2026-10-19 14:56",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "tak to pisali czy będzie dywidenda a tera to mało ? najlepiej jak by była 8 zł",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76122637",
-      "author": "DaleCooper",
-      "postedAt": "2026-10-19 14:55",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "W strategii jest wpisana \"stopa dywidendy\", czyli 5% liczone od kapitalizacji (ceny akcji), a nie od zysku. Po co te kłamstwa? Mam nadzieję, że to tylko niewiedza, a nie celowe wprowadzanie ludzi w błąd.... Bo ta druga opcja nadaje się pod zgłoszenie do KNF",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "76122445",
       "author": "Gunfighter",
       "postedAt": "2026-10-19 14:42",
@@ -1561,34 +1650,6 @@
       "body": "Posłuchaj mnie teraz literacie: 5% od kursu 20 zł =1 zł, a od 40 zł = 2 zł. Zrozumiałeś to co napisałem, czy jeszcze raz mam ci to wytłumaczyć?",
       "votes": {
         "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76122447",
-      "author": "Prądozaur",
-      "postedAt": "2026-10-19 14:42",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Dokładnie... 5% od przeszło 8 mld PLN zysku netto (zależnie ile ponad 8 mld PLN) to między 0,15 a 0,20 groszy dywidendy za 2026 więc okolice 1% obecnego kursu... Absolutne dno, zupełnie jak te marzenia o kursie rosnącym dzięki dzisiejszej strategii tutejszych nagrzańców były --- A uciekać to za chwilę stąd będą ostatnie spekulanciki żałosne, co to chciały mieć 50 a będzie za chwilę 15 i pewnie z czasem jeszcze niżej, wiec powodzenia każdemu gupiemu, co własnymi pieniędzmi sobie szkodę robi :)",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76122383",
-      "author": "Transek1975",
-      "postedAt": "2026-10-19 14:37",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Zalosne jest to a moze i nie, ze za pare tygodniu podkulisz ogon i cie juz tu nie bedzie. :)",
-      "votes": {
-        "up": 0,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -1607,20 +1668,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76122329",
-      "author": "Blackie",
-      "postedAt": "2026-10-19 14:34",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Ale bebil 5% to 0,2. No miszcz!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     },
     {
       "id": "76122291",
@@ -1704,48 +1751,6 @@
         "down": 2
       },
       "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76121841",
-      "author": "Prądozaur",
-      "postedAt": "2026-10-19 14:01",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Ludziu... Nie pojmujesz, że każdy zarząd zapowiada dywidendę jako % zysku netto uzyskanego... Dywidendę jako % ceny akcji to sam sobie liczysz po fakcie jej uzyskania albo względem ceny którą zapłaciłeś za akcję i jak robią zestawienia w Forbest, to też to robią po fakcie jako % kapitalizacji spółki, ale zarządu muszą się odnosić do zysku netto... No ileż można tłumaczyć nagrzanym marzycielom, że na dodatek do 5% jest bo może być potrzeba więcej inwestycji czy inne okoliczności nagłe to nawet wtedy 5% zysku netto nie dadzą w dywidendzie, ale ZYSKU NETTO czyli między 0,15 a 0,20 groszy na akcję zakładając że optymistycznie będzie przeszło 8 mld PLN zysku netto w 2026 jak sobie tu wielu marzy :)",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0.997,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76121827",
-      "author": "Kris",
-      "postedAt": "2026-10-19 14:01",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "To i tak najwyższa historycznie",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76121777",
-      "author": "Prądozaur",
-      "postedAt": "2026-10-19 13:57",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "5% od zakładanych tu przez optymistów przeszło 8 mld PLN za 2026 to na akcję wychodzi 0,15 - 0,20 groszy i tyle w temacie dywidendy za 2026 wypłacanej w 2027 --- kolejne lata będą słabsze pod względem dochodów a inwestycje coraz większe i droższe, więc dywidendy będzie po 0,10 groszy dla utrzymania reputacji i tyle co najwyżej --- Przestańcie śnić o ogromnych dywidendach i kursach rosnących do nieba, bo to żałosne jest po prostu :)",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
     },
     {
@@ -1847,34 +1852,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "76121443",
-      "author": "Fff",
-      "postedAt": "2026-10-19 13:35",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Niewyzsza niż 5% a kolejne lata uzależnione od innych czynników:) czyli może być od 0 do 5% i tylko w przyszłym roku :)",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76121421",
-      "author": "Gunfighter",
-      "postedAt": "2026-10-19 13:33",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Czytać ESPI. A następnie policzyć STOPĘ dywidendy.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "76121411",
       "author": "black944",
       "postedAt": "2026-10-19 13:32",
@@ -1898,20 +1875,6 @@
       "votes": {
         "up": 0,
         "down": 2
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76121395",
-      "author": "Xenon",
-      "postedAt": "2026-10-19 13:31",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Czy nie jest przypadkiem zapisane „do 5%”? To bufor bezpieczeństwa jakby kurs wystrzelił ponad możliwości finansowe firmy",
-      "votes": {
-        "up": 2,
-        "down": 0
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -1942,20 +1905,6 @@
         "down": 5
       },
       "sentimentScore": 0.99,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76121351",
-      "author": "Prądozaur",
-      "postedAt": "2026-10-19 13:28",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Zarząd nie może wypłacać dywidendy zależnie od poziomu kursu akcji na GPW, więc 5% oznaczać musi % zysku netto (kwestia czy skonsolidowanego czy jednostkowego pozostaje), zatem jak wspominałem, jeśli w ogóle będzie dywidenda, to bardzo symboliczna, zupełnie jak ta za 2015, bo cała forsa jeszcze przez dekady musi forsownie modernizować absolutnie wszystko, co w PGE jest zacofane względem Zachodu o 10 - 15 lat --- Od kursu to sobie może obliczać poziom dywidendy ktoś akcje kupujący, albo po fakcie redaktorzy w Forbes, ale Zarząd zawsze odnosić się powinien do % zysku netto uzyskanego, bo całkiem niepoważne jest zapowiadanie wypłaty określonego % kapitalizacji giełdowej, która jest nieprzewidywalna i nie jest kategorią, wedle której którykolwiek biznes powinien działać --- Poza tym, nawet przyjmując te absurdalne 5% od kursu akcji, to doczyta niech każdy, że DO 5%, więc mogą sobie po pierwsze ustalić choćby 1% i się wszystkim japy otwierają wtedy zdziwione, a po drugie kluczowe czy zysku skonsolidowanego czy jednostkowego i po trzecie powtarzam, że Zarząd zawsze odnosi się do % zysku netto nie kapitalizacji giełgowej, bo to robić sobie mogą czasopisma i indywidualni kupujący/sprzedający akcje :)",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.997,
       "sentimentLabel": "Positive"
     },
     {
@@ -2155,20 +2104,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "76120527",
-      "author": "PZ",
-      "postedAt": "2026-10-19 12:25",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Ale Ty kolejny który myśli, że ogłoszona stopa dywidendy to 5% wartości kursu akcji,,,? I nie dość że nie doczytałeś i nie przemyślałeś, to już porównujesz to do lokaty? Czyli NIEZALEŻNIE ile spółka zarobi, musi wypłacić 5% ceny akcji..??",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "76120489",
       "author": "DaleCooper",
       "postedAt": "2026-10-19 12:24",
@@ -2190,24 +2125,10 @@
       "url": "https://www.bankier.pl/forum/temat_ile-powinno-byc-warte-pge,76096057.html",
       "body": "Tylko że 10 lat temu płacili 1zł, 1,5 zł dywidendy na akcję. A teraz ile będą płacili, przy zyskach rzędu 8 mld zł netto - zaledwie 20 gr/akcja, czyli... tyle co Tauron i 2x mniej niż Enea. Więc jaka powinna być cena akcji PGE na chwilę obecną ?",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 1,
+        "down": 2
       },
       "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76120431",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-10-19 12:21",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Uczciwa propozycja dywidendy.Możemy wybierać między lokatą a zakupem akcji PGE.Akcje PGE mogą znacząco wzrosnąć, więc ta informacja mocno ustabilizuje kurs.Na pewno wejdą mocniej fundusze i OKI.Akcje na długi termin a będziemy zadowoleni.",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
     },
     {
@@ -2218,7 +2139,7 @@
       "url": "https://www.bankier.pl/forum/temat_ile-powinno-byc-warte-pge,76096057.html",
       "body": "prąciozaułr gdzie się schowałeś ? wyjdz z nory aby ujadać bo mamy ubaw z Ciebie",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2239,90 +2160,6 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "76120241",
-      "author": "PZ",
-      "postedAt": "2026-10-19 12:09",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "czyli spółka w swojej strategii uzależnia wysokość dywidendy od wysokości kursu jej akcji na GPW, tak to rozumiesz..?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76120137",
-      "author": "DaleCooper",
-      "postedAt": "2026-10-19 12:02",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Na pewno to oznacza że wejdą mocno fundusze dywidendowe. Do końca roku cena emisji możliwa, czyli 23 zł.",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76120091",
-      "author": "Kris",
-      "postedAt": "2026-10-19 11:59",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "Super. Trzy takie strzały jak o 11.30 i mamy 25 zł ....",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76119985",
-      "author": "DaleCooper",
-      "postedAt": "2026-10-19 11:53",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "5% wartości akcji, czyli przy obecnym kursie 0.8 zł.",
-      "votes": {
-        "up": 6,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76119895",
-      "author": "PZ",
-      "postedAt": "2026-10-19 11:50",
-      "threadTitle": "Re: Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "tak, całe 5%.. czyli w optymistycznym wariancie.... 0,2 zł. Super info.",
-      "votes": {
-        "up": 1,
-        "down": 5
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76119773",
-      "author": "DaleCooper",
-      "postedAt": "2026-10-19 11:38",
-      "threadTitle": "Dywidenda 5%",
-      "url": "https://www.bankier.pl/forum/temat_dywidenda-5,76119773.html",
-      "body": "I dywidenda już ogłoszona w nowej strategii, od przyszłego roku wpada.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "76116973",
       "author": "potencja",
       "postedAt": "2026-10-19 08:44",
@@ -2330,7 +2167,7 @@
       "url": "https://www.bankier.pl/forum/temat_ile-powinno-byc-warte-pge,76096057.html",
       "body": "Mamy po korekcie ! więc jedziemy dalej na północ , a ten przegryw kółkowiec prąciozrarł sprzedał PGE po 13,50 zostając na peronie zgrzyta zębami i od 22 września regularnie opluwa PGE licząc na powrót ceny do tamtych poziomów. Naiwniaków nie sieją-naiwniacy się rodzą :)))",
       "votes": {
-        "up": 14,
+        "up": 17,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -2344,7 +2181,7 @@
       "url": "https://www.bankier.pl/forum/temat_pradozaur-inne-spolki,76115113.html",
       "body": "Dać ci konkretne namiary? Proste tak lub nie. Czego znowu nie rozumiesz?",
       "votes": {
-        "up": 8,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2359,7 +2196,7 @@
       "body": "Przy ogromie pitoleń, które tu produkujesz na mój temat, nie wątpię, że masz rynek psychiatryczny doskonale rozeznany i pakiet platinum zapewniony przez gpuNFZ, więc dokończ terapię, a teraz nie trzep się za mocno, bo smutno bedzie, jak nakrzyczą na oddziale bez klamek za niebranie leków z logiem PGE :)",
       "votes": {
         "up": 0,
-        "down": 11
+        "down": 13
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -2372,7 +2209,7 @@
       "url": "https://www.bankier.pl/forum/temat_pradozaur-inne-spolki,76115113.html",
       "body": "Polecic ci dobrego psychiatre?",
       "votes": {
-        "up": 12,
+        "up": 14,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2387,7 +2224,7 @@
       "body": "A nie fajniej to argumenty przedstawiać za tymi wyimaginowanymi poziomami kursu, które nocą się mokro śnią niż bidnym Prądozaurem się zajmować, co to jego postów rzekomo ani jedna osoba nie czyta ??? Nie wstyd to jednocześnie twierdzić, że nie czytają postów Prądozaura bez sensu plumkającego, a z drugiej strony całe swe życie od tygodnia przeznaczać na walkę z nim i teraz jeszcze nowe nicki się pojawiają konkretnie wydzielone na walkę z tym ignorowanym rzekomo przez wszystkich Prądozaurem ??? Troszkę dom naganiaczy na ooobłęęęd tu widzę, a nie pewnych siebie spekulancikó modlących się do strategii jako ich ostatniej nadziei przed załamaniem się kursu w wyniku zakulisowych machinacji dużych względem małych --- Trudno zaakceptować, że po prostu za szybko sztucznie urosło, żeby celem dużych nie było później nagłe załamanie tego kosztem małych wierzących w wieczne wzrosty i opowiadających że 2 miesiące to trend --- Róbcie co chcecie ale się przynajmniej nie kompromitujcie niekonsekwencją i gupimi tezami, bo to nie przystoi istotom ludzkim :)",
       "votes": {
         "up": 0,
-        "down": 14
+        "down": 16
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -2400,7 +2237,7 @@
       "url": "https://www.bankier.pl/forum/temat_pradozaur-inne-spolki,76115113.html",
       "body": "Poczytajcie, co to za typ jest. https://m.bankier.pl/forum/temat/16507693",
       "votes": {
-        "up": 11,
+        "up": 13,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2892,6 +2729,174 @@
       "votes": {
         "up": 4,
         "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76098241",
+      "author": "DaleCooper",
+      "postedAt": "2026-10-16 10:53",
+      "threadTitle": "Re: 100 min - 1.1 M vol . . .",
+      "url": "https://www.bankier.pl/forum/temat_100-min-1-1-m-vol,76098135.html",
+      "body": "Ktoś sprzedaje, ktoś kupuje.",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76098135",
+      "author": "black944",
+      "postedAt": "2026-10-16 10:46",
+      "threadTitle": "100 min - 1.1 M vol . . .",
+      "url": "https://www.bankier.pl/forum/temat_100-min-1-1-m-vol,76098135.html",
+      "body": "Sporo uciekło już . . .",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76097457",
+      "author": "Kris",
+      "postedAt": "2026-10-16 10:00",
+      "threadTitle": "Re: Ile powinno byc warte PGE?",
+      "url": "https://www.bankier.pl/forum/temat_ile-powinno-byc-warte-pge,76096057.html",
+      "body": "W poniedziałek juź ogłoszenie strategii to będzie godziwa wycena a dzisiaj skup przed skokiem na 50 zł",
+      "votes": {
+        "up": 20,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76097121",
+      "author": "Kris",
+      "postedAt": "2026-10-16 09:40",
+      "threadTitle": "Re: Ile powinno byc warte PGE?",
+      "url": "https://www.bankier.pl/forum/temat_ile-powinno-byc-warte-pge,76096057.html",
+      "body": "50 zł to cena godziwa według wyceny na podstawie aktualnych przepisów a cena rynkowa zawsze na spółkach energetycznych jest 2 - 5 razy wyższa. U nas tylko tak się zbierają inwestorzy jak sójki za morze. Dlatego największy skup akcji jest zawsze po 15 jak wchodzi USA i co ciekawego codziennie jest skup na koniec i nie ma dystrybucji więc wniosek taki, że faktycznie czekają na niebotyczną cenę...",
+      "votes": {
+        "up": 22,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76096971",
+      "author": "black944",
+      "postedAt": "2026-10-16 09:30",
+      "threadTitle": "Dobre :))))",
+      "url": "https://www.bankier.pl/forum/temat_oj-black-a-ty-caly-czas-na-rachunku-demo,76094903.html",
+      "body": "> Na forum PKP cargo pisałem na początku roku że wchodze w PGE. Wczoraj sprzedałem zwrot 86 procent---------------------------------Widzę, że razem z transek obie lubicie pisać o innych spółka na forach innych spółek . . .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76096773",
+      "author": "black944",
+      "postedAt": "2026-10-16 09:18",
+      "threadTitle": "Sumamed . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
+      "body": "Na to czekam . . .",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76096645",
+      "author": "Sumamed",
+      "postedAt": "2026-10-16 09:11",
+      "threadTitle": "Re: RSI D1 = 76 . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
+      "body": "Black, wg Ciebie kurs w ciągu kilku dni albo nawet dzisiaj dobije do 18 zl?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76096057",
+      "author": "Fakt",
+      "postedAt": "2026-10-16 08:26",
+      "threadTitle": "Ile powinno byc warte PGE?",
+      "url": "https://www.bankier.pl/forum/temat_ile-powinno-byc-warte-pge,76096057.html",
+      "body": "W poszczegolnych kwartalach zysk netto byl nastepujacy: 4Q 2025 => 3 141 0001Q 2026 => 1 938 0002Q 2026 => 2 015 000Razem ok. 7.1 mld PLN, co daje ok. 9.5 mld PLN w skali roku.Obecna wycena spolki to 38.7 mld PLN (0.83 wartosci ksiegowej) co daje C/Z na poziomie 4,07. Malo. Liczac bardzo konserwatywnie to 5 powinno byc czyli mowimy o ok. 23% potencjalnego wzrostu = kurs ok. 21.2 za akcje. A i to przy zalozeniu braku fajerwerkow w strategii, braku dywidendy i stabilnej kontynuacji zysku netto i przychodow. Optymalnie to C/Z spokojnie mozna zalozyc 6 czyli mowimy o kursie na poziomie 25,47 PLN za akcje.I dopiero wtedy bysmy dotarli do ceny akcji PGE z emisji w 2009 roku ale uwzgledniajac skumulowana oficjalna (dane GUS) inflacje od 2009 roku (60% w sumie) to mowimy o realnym kursie odniesienie na poziomie ... 40.75 PLNZmienia sie oblicze energetyki moi drodzy i jestesmy swiadkami przejscia z wytwarzania energii i ciepla tylko wz wegla na bardziej zbilansowany mix z dominujacym udzialem OZE, a samo PGE chce dywersyfikowac zrodla przychodow, gdzie sporo ma juz z samej dystrybucji, a nie wytwarzania pradu, ktorego cena rosnie a wraz z tym wyniki PGE, to wchodza z NASK w budowe centrow danych. Mamy tutaj do czynienia z fundamentalna zmiana nastawienia do sektora, ktory przez lata musial ponosic gigantyczne koszty na capex, a teraz bedzie mogl generowac z tego przychody i zysku. Juz w 2Q 2027 zostanie w pelni uruchomiona farma wiatrowa na baltyku Baltica I, potem dojda nastepne, a jak wiemy Baltyk jest jednam z najlepszych akwenow wodnych na swiecie do takich projektow.",
+      "votes": {
+        "up": 20,
+        "down": 1
+      },
+      "sentimentScore": 0.99,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76095869",
+      "author": "Transek1975",
+      "postedAt": "2026-10-16 08:08",
+      "threadTitle": "Re: 1.3 M na fixie . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
+      "body": "Jaka ty jestes beztalenciem gieldowym.",
+      "votes": {
+        "up": 3,
+        "down": 4
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76094977",
+      "author": "Prądozaur",
+      "postedAt": "2026-10-15 23:19",
+      "threadTitle": "Re: Oj Black a ty cały czas na rachunku demo.",
+      "url": "https://www.bankier.pl/forum/temat_oj-black-a-ty-caly-czas-na-rachunku-demo,76094903.html",
+      "body": "No chociaż jeden moim zdaniem mądry, co faktycznie kupił w miarę tanio i zarobił sprzedając po skrajnie szybkim podskoku kursu spekulacyjnym, a nie pitoli o atomowych wiatrakach na Księżycu i kursie PGE co bozię potrąci po drodze w chmury :)",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": 0.931,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76094903",
+      "author": "nminus",
+      "postedAt": "2026-10-15 23:00",
+      "threadTitle": "Oj Black a ty cały czas na rachunku demo.",
+      "url": "https://www.bankier.pl/forum/temat_oj-black-a-ty-caly-czas-na-rachunku-demo,76094903.html",
+      "body": "Na forum PKP cargo pisałem na początku roku że wchodze w PGE. Wczoraj sprzedałem zwrot 86 procent",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76091567",
+      "author": "black944",
+      "postedAt": "2026-10-15 17:01",
+      "threadTitle": "1.3 M na fixie . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
+      "body": "sporo uciekło . . .",
+      "votes": {
+        "up": 3,
+        "down": 2
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"

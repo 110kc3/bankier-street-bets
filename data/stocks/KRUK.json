@@ -3,11 +3,11 @@
   "companyName": "KRUK",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk,6,21,10000001000.html",
-  "updatedAt": "2026-10-20T17:02:35.321Z",
+  "updatedAt": "2026-10-20T21:37:01.855Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-20T17:02:35.321Z",
+    "fetchedAt": "2026-10-20T21:37:01.855Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,7 +15,7 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.064,
+    "score": -0.062,
     "confidence": 0.72,
     "commentCount": 180,
     "breakdown": {
@@ -24,11 +24,6 @@
       "neutral": 69
     },
     "trend": [
-      {
-        "date": "2026-10-13",
-        "score": 0,
-        "count": 3
-      },
       {
         "date": "2026-10-14",
         "score": -0.173,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-10-20",
-        "score": -0.137,
-        "count": 10
+        "score": -0.105,
+        "count": 13
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 180 komentarzy z ostatnich 7 dni: nastroje mieszane (41 pozytywnych, 70 negatywnych, 69 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 180 komentarzy z ostatnich 7 dni: nastroje mieszane (41 pozytywnych, 70 negatywnych, 69 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kruk",
@@ -89,6 +84,14 @@
         "count": 12
       },
       {
+        "word": "wiecej",
+        "count": 11
+      },
+      {
+        "word": "roku",
+        "count": 11
+      },
+      {
         "word": "maja",
         "count": 11
       },
@@ -97,20 +100,54 @@
         "count": 11
       },
       {
-        "word": "oczywiscie",
-        "count": 10
-      },
-      {
-        "word": "wiecej",
-        "count": 10
-      },
-      {
-        "word": "roku",
+        "word": "wierzytelnosci",
         "count": 10
       }
     ]
   },
   "comments": [
+    {
+      "id": "76140679",
+      "author": "xyz",
+      "postedAt": "2026-10-20 20:44",
+      "threadTitle": "Re: \"...nadwyżka kapitału powinna wracać do akcjonariuszy\" powiedział Kr",
+      "url": "https://www.bankier.pl/forum/temat_nadwyzka-kapitalu-powinna-wracac-do-akcjonariuszy-powiedzial-krupa,76121501.html",
+      "body": "do MojoCzy moglbys wskazac, gdzie widzisz podzial na inwestycje dlugo- i krotkoterminowe. Ja widze w sprawozdaniu na koniec pierwszego polrocza 12 mld w pakietach wierzytelnosci i 0,7 mld w udzielonych pozyczkach. Sumarycznie sklada sie mniej wiecej do tego co piszesz z podzialem na inwestycje krotko- i dlugoterminowe. Ponadto ze sprawozdania wynika, ze na przestrzeni roku zakladaja sciagniecie bodajze 3,7 mld. Dlatego uwazam podobnie jak przedmowca, ze wspomniana przez Ciebie wartosc inwestycji krotkoterminowych to wartosc pakietow wierzytelnosci jakie zostana sciagniete na przestrzeni roku od ostatniego sprawozdania a nie srodki pieniezne ulokowane w jakikolwiek inny sposob.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76140171",
+      "author": "Magellan",
+      "postedAt": "2026-10-20 19:53",
+      "threadTitle": "Re: sprężyna właśnie sie napina",
+      "url": "https://www.bankier.pl/forum/temat_sprezyna-wlasnie-sie-napina,76125559.html",
+      "body": "allegro w maju po 27 zł - widzieli izbę skarbową w biurach",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76139829",
+      "author": "locker",
+      "postedAt": "2026-10-20 19:18",
+      "threadTitle": "Re: sprężyna właśnie sie napina",
+      "url": "https://www.bankier.pl/forum/temat_sprezyna-wlasnie-sie-napina,76125559.html",
+      "body": "Tak samo giełda widziała orlen przed wybiciem, jak był poniżej 50 zł. Shorty wykorzystują bezmózgowość tłumu.",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76139143",
       "author": "Mojo",
@@ -175,7 +212,7 @@
       "url": "https://www.bankier.pl/forum/temat_nadwyzka-kapitalu-powinna-wracac-do-akcjonariuszy-powiedzial-krupa,76121501.html",
       "body": "Mają 9 000 000 000 w inwestycjach długoterminowych czyli w pakietach wierzytelności Mają 3 600 000 000 w inwestycjach krótkoterminowych czyli w gotówce i ekwiwalentach tj, lokaty itp.Maja 250 000 000 w gotówce mają też oczywiscie kredyty i muszą spłacić obligacje A zatem moga spokojnie wydać 20 PLN dywidendy oraz 400 milionów na skup . co się wydaży jeżeli firma skupi 1 milion akcji . To prawdziwy konkurent dla short i zapewne cena pójdzie powyżej 400 PLN",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -315,7 +352,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprezyna-wlasnie-sie-napina,76125559.html",
       "body": "MACD 12, 26 close 9Ostatnim razem akcje KRUK był tak wyprzedane hmmm w marcu 2022 , a wczesnie to w COVID ..Czyli na akcjach KRUK mamy sentyment jak z pierwszych dni ataku Rosji na Ukrainę lub jak z pierwszych dni COVID .Jednocześnie firma :1. zarobi miliard 20262. wypłaci 20 lub więcej dywidendy 3. skupi akcję lub kupi dużo tanich długów .4. ogłosi mocne wejscie do Francji . Już weszli ale na razie powoli dlatego tak cicho5. da sygnał na wejsie do krajów anglosaskich 6. sygnalizuje poprawę sciągalności w Hiszpanii7. potwierdza dobry rozwój we Włoszech /rynek tylko usprawiedliwia tak duże spadki stosując analizę wsteczną . Analityk nie może sie przyznać że jest doorniem i jak mantre powtarza za shortem .1. za mało długów skupili2.rumunia siadła na doopę3. w polsce niższa ściągalność Wydaję mi się że tu odbywa się gruba manipulacja umysłami .",
       "votes": {
-        "up": 10,
+        "up": 11,
         "down": 1
       },
       "sentimentScore": -0.87,
@@ -511,7 +548,7 @@
       "url": "https://www.bankier.pl/forum/temat_no-to-teraz-zgodnie-z-logika-gieldy,76117797.html",
       "body": "Nie widzicie Ceny do Zysku jaką tu mamy?? Mamy wiele napompowanych spółek a tu jest spory potencjał",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 2
       },
       "sentimentScore": 0.583,
@@ -2588,48 +2625,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76068259",
-      "author": "Xawery",
-      "postedAt": "2026-10-13 20:26",
-      "threadTitle": "Re: Kruk dalsze prognozy",
-      "url": "https://www.bankier.pl/forum/temat_kruk-dalsze-prognozy,75777659.html",
-      "body": "Dopiero przeczytałem, twój komentarz. Szkoda ze tak póżno, bo już utopiłem. Nie wiem czy jeszcze to czytasz, masz jakieś dalsze wskazówki, co do dalszego rozwoju, sytuacji?",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76068069",
-      "author": "Taksy",
-      "postedAt": "2026-10-13 20:07",
-      "threadTitle": "Re: moja cena docelowa ciągle 730zł",
-      "url": "https://www.bankier.pl/forum/temat_moja-cena-docelowa-ciagle-730zl,75916595.html",
-      "body": "Ok, teraz wskazales horyzont dla Twojej wyobraźni. Jeszcze większy żart.",
-      "votes": {
-        "up": 0,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76067419",
-      "author": "Ira",
-      "postedAt": "2026-10-13 19:19",
-      "threadTitle": "Re: moja cena docelowa ciągle 730zł",
-      "url": "https://www.bankier.pl/forum/temat_moja-cena-docelowa-ciagle-730zl,75916595.html",
-      "body": "Teraz mamy zbieranko.",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
