@@ -3,11 +3,11 @@
   "companyName": "PEKAO",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pekao,6,21,18.html",
-  "updatedAt": "2026-10-20T11:35:52.854Z",
+  "updatedAt": "2026-10-20T17:02:58.360Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-20T11:35:52.854Z",
+    "fetchedAt": "2026-10-20T17:02:58.360Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.087,
-    "confidence": 0.53,
-    "commentCount": 30,
+    "score": -0.133,
+    "confidence": 0.55,
+    "commentCount": 31,
     "breakdown": {
       "positive": 5,
-      "negative": 9,
+      "negative": 10,
       "neutral": 16
     },
     "trend": [
@@ -93,21 +93,30 @@
         "date": "2026-10-19",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-10-20",
+        "score": -0.762,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 30 komentarzy z ostatnich 30 dni: nastroje mieszane (5 pozytywnych, 9 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 31 komentarzy z ostatnich 30 dni: nastroje negatywne (5 pozytywnych, 10 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "mnie",
+        "count": 6
+      },
       {
         "word": "dziala",
         "count": 6
       },
       {
-        "word": "etrader",
+        "word": "pekao",
         "count": 5
       },
       {
-        "word": "mnie",
+        "word": "etrader",
         "count": 5
       },
       {
@@ -120,10 +129,6 @@
       },
       {
         "word": "nadal",
-        "count": 4
-      },
-      {
-        "word": "pekao",
         "count": 4
       },
       {
@@ -141,6 +146,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "76135997",
+      "author": "Kaso",
+      "postedAt": "2026-10-20 14:53",
+      "threadTitle": "Re: Wersja 2.1.6 eTrader nadal jest do kitu!",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Wiecie, co? Ja nie rozumiem jednego. Rysowanie wykresów polega na pobraniu przez komponet rysujący danych liczbowych: otwarcie, zamknięcie, min, maks, intra itp. i po prostu zobrazowanie ich na wykresie. Tak jak rysowanie wykresu w Excelu. Więc jak mogło się to skiepścić, gdy zmiana systemu giełdowego w ogóle tego nie dotyczyła?!Zarządzanie pamięcią to drugi dramat...Chyba tylko masowa rezygnacja z BM Pekao skłoni kogoś do poważnego potraktowania klientów i usunięcia (jak dla mnie banalnych, ale dla gracza kluczowych) problemów w eTraderze...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76119169",
       "author": "szejk_1",
@@ -415,7 +434,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Ten e-Trader to obecnie kupa dziadostwa!Obecnie bardzo silnie obciąża procesor i w cholerę zużywa energii.Wiele funkcjonalności nie działa, jest bardzo leniwy, aż w końcu się zawiesza i dupa zbita.Czas pomyśleć o innym DM.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -457,7 +476,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "W ogóle ofert nie widać na dogrywce. Już drugi dzień . Wykresy szwankują, jakieś dziwne komunikaty , itd..Jednym słowem dramat.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.583,
