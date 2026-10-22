@@ -3,11 +3,11 @@
   "companyName": "LPP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp,6,21,134.html",
-  "updatedAt": "2026-10-22T17:11:04.921Z",
+  "updatedAt": "2026-10-22T21:35:35.746Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-22T17:11:04.921Z",
+    "fetchedAt": "2026-10-22T21:35:35.746Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.053,
-    "confidence": 0.72,
+    "score": 0.04,
+    "confidence": 0.71,
     "commentCount": 88,
     "breakdown": {
-      "positive": 28,
-      "negative": 23,
+      "positive": 27,
+      "negative": 24,
       "neutral": 37
     },
     "trend": [
       {
         "date": "2026-09-22",
-        "score": 0.161,
-        "count": 2
+        "score": 0,
+        "count": 1
       },
       {
         "date": "2026-09-23",
@@ -151,12 +151,12 @@
       },
       {
         "date": "2026-10-22",
-        "score": 0,
-        "count": 2
+        "score": -0.107,
+        "count": 3
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 88 komentarzy z ostatnich 30 dni: nastroje mieszane (28 pozytywnych, 23 negatywnych, 37 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 88 komentarzy z ostatnich 30 dni: nastroje mieszane (27 pozytywnych, 24 negatywnych, 37 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
@@ -179,6 +179,10 @@
         "count": 6
       },
       {
+        "word": "srednia",
+        "count": 5
+      },
+      {
         "word": "mnie",
         "count": 5
       },
@@ -193,14 +197,24 @@
       {
         "word": "ktos",
         "count": 5
-      },
-      {
-        "word": "dywidendy",
-        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "76167911",
+      "author": "Skit",
+      "postedAt": "2026-10-22 22:00",
+      "threadTitle": "Re: Część sprzedałem dzisiaj",
+      "url": "https://www.bankier.pl/forum/temat_czesc-sprzedalem-dzisiaj,76146317.html",
+      "body": "Pozdrawiam ze średnią 13k ;)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76165517",
       "author": "Mariuszek",
@@ -209,7 +223,7 @@
       "url": "https://www.bankier.pl/forum/temat_30k-na-koniec-roku-coraz-bardziej-realne,75812809.html",
       "body": "> Nie sądzicie, że split akcji mógłby zachęcić \"ulicę\" do akcji LPP?To sami czytałem jak akcje były po 7.300 kto ma kupić to kupi, co właściwie drobni ciułacze tutaj zmienią? A jak chcesz taniej to kup sobie kawałek na xtb",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1418,20 +1432,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75855957",
-      "author": "Kurator",
-      "postedAt": "2026-09-22 21:49",
-      "threadTitle": "Re: 3 zdania podsumowania wspaniałej sesji",
-      "url": "https://www.bankier.pl/forum/temat_3-zdania-podsumowania-wspanialej-sesji,75821367.html",
-      "body": "Podobnie to widzę. Choć gdy dobijemy do 25k będzie jakaś konsolidacja. A po odcięciu warto być czujnym. Widać że teraz nie sensu zaglądać do historycznych notowań lpp bo obecnie nie ma analogi do grudnia25' ani do marca26' . Po prostu lpp pisze swoja nową historię :) Ta spółka, prezes, zarzad naprawdę dają zarobić/pomnażać kapitał cierpliwym.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
