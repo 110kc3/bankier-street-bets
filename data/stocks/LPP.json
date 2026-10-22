@@ -3,11 +3,11 @@
   "companyName": "LPP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp,6,21,134.html",
-  "updatedAt": "2026-10-22T11:51:28.710Z",
+  "updatedAt": "2026-10-22T17:11:04.921Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-22T11:51:28.710Z",
+    "fetchedAt": "2026-10-22T17:11:04.921Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.056,
+    "score": 0.053,
     "confidence": 0.72,
     "commentCount": 88,
     "breakdown": {
       "positive": 28,
-      "negative": 24,
-      "neutral": 36
+      "negative": 23,
+      "neutral": 37
     },
     "trend": [
       {
         "date": "2026-09-22",
-        "score": 0,
-        "count": 4
+        "score": 0.161,
+        "count": 2
       },
       {
         "date": "2026-09-23",
@@ -148,14 +148,19 @@
         "date": "2026-10-21",
         "score": -0.065,
         "count": 4
+      },
+      {
+        "date": "2026-10-22",
+        "score": 0,
+        "count": 2
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 88 komentarzy z ostatnich 30 dni: nastroje mieszane (28 pozytywnych, 24 negatywnych, 36 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 88 komentarzy z ostatnich 30 dni: nastroje mieszane (28 pozytywnych, 23 negatywnych, 37 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
-        "count": 10
+        "count": 9
       },
       {
         "word": "przy",
@@ -197,6 +202,34 @@
   },
   "comments": [
     {
+      "id": "76165517",
+      "author": "Mariuszek",
+      "postedAt": "2026-10-22 17:56",
+      "threadTitle": "Re: 30k na koniec roku coraz bardziej realne",
+      "url": "https://www.bankier.pl/forum/temat_30k-na-koniec-roku-coraz-bardziej-realne,75812809.html",
+      "body": "> Nie sądzicie, że split akcji mógłby zachęcić \"ulicę\" do akcji LPP?To sami czytałem jak akcje były po 7.300 kto ma kupić to kupi, co właściwie drobni ciułacze tutaj zmienią? A jak chcesz taniej to kup sobie kawałek na xtb",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76162421",
+      "author": "cezjas",
+      "postedAt": "2026-10-22 14:53",
+      "threadTitle": "Re: 30k na koniec roku coraz bardziej realne",
+      "url": "https://www.bankier.pl/forum/temat_30k-na-koniec-roku-coraz-bardziej-realne,75812809.html",
+      "body": "tak, ale to raczej nierealne. Firma nie przeprowadziła ani jednego i w ten sposób stała się bardziej dostępna jedynie dla tych z kasą",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "76153965",
       "author": "Huba1",
       "postedAt": "2026-10-21 21:18",
@@ -218,7 +251,7 @@
       "url": "https://www.bankier.pl/forum/temat_czesc-sprzedalem-dzisiaj,76146317.html",
       "body": "Ja mam średnia 18700, nie sprzedałem nic. Być może na tym stracę, ale liczę na przebicie 30 tys",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -1399,34 +1432,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75853889",
-      "author": "Sebilla",
-      "postedAt": "2026-09-22 18:33",
-      "threadTitle": "Re: 3 zdania podsumowania wspaniałej sesji",
-      "url": "https://www.bankier.pl/forum/temat_3-zdania-podsumowania-wspanialej-sesji,75821367.html",
-      "body": "Najpierw 27-28k i wtedy dopiero test 24,5k jako wsparcia",
-      "votes": {
-        "up": 3,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75853689",
-      "author": "Paweł",
-      "postedAt": "2026-09-22 14:57",
-      "threadTitle": "SĄ PIERWSZE DANE Z GUS O SPRZEDAŻY W SIERPNIU",
-      "url": "https://www.bankier.pl/forum/temat_sa-pierwsze-dane-z-gus-o-sprzedazy-w-sierpniu,75853689.html",
-      "body": "SIERPIEŃ - Spadek sprzedaży rok do roku i miesiąc do miesiąca.",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }

@@ -3,11 +3,11 @@
   "companyName": "PEKAO",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pekao,6,21,18.html",
-  "updatedAt": "2026-10-22T11:51:48.649Z",
+  "updatedAt": "2026-10-22T17:11:24.806Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-22T11:51:48.649Z",
+    "fetchedAt": "2026-10-22T17:11:24.806Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.079,
-    "confidence": 0.54,
-    "commentCount": 32,
+    "score": -0.138,
+    "confidence": 0.57,
+    "commentCount": 33,
     "breakdown": {
       "positive": 5,
-      "negative": 9,
+      "negative": 10,
       "neutral": 18
     },
     "trend": [
@@ -96,12 +96,12 @@
       },
       {
         "date": "2026-10-22",
-        "score": 0.583,
-        "count": 1
+        "score": -0.144,
+        "count": 2
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 32 komentarzy z ostatnich 30 dni: nastroje mieszane (5 pozytywnych, 9 negatywnych, 18 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 33 komentarzy z ostatnich 30 dni: nastroje negatywne (5 pozytywnych, 10 negatywnych, 18 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "mnie",
@@ -146,6 +146,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "76161717",
+      "author": "JJ",
+      "postedAt": "2026-10-22 14:03",
+      "threadTitle": "Re: Wersja 2.1.6 eTrader nadal jest do kitu!",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Nie rysuje dobrze wykresow, nie pokazuje dobrze danych w dniu notowania, od czapy kurs otwarcia, najnizszy, najwyższy. Syf totalny. Dodakowo sie zawiesza i trzeba sie wylogowac i zalogowac od nowa. Dramat, Nic tylko trzeba zminiac biuro. Czy ktos wie, czy cos z tym robia i kiedy to naprawia?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76160727",
       "author": "congor",
@@ -196,7 +210,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Wiecie, co? Ja nie rozumiem jednego. Rysowanie wykresów polega na pobraniu przez komponet rysujący danych liczbowych: otwarcie, zamknięcie, min, maks, intra itp. i po prostu zobrazowanie ich na wykresie. Tak jak rysowanie wykresu w Excelu. Więc jak mogło się to skiepścić, gdy zmiana systemu giełdowego w ogóle tego nie dotyczyła?!Zarządzanie pamięcią to drugi dramat...Chyba tylko masowa rezygnacja z BM Pekao skłoni kogoś do poważnego potraktowania klientów i usunięcia (jak dla mnie banalnych, ale dla gracza kluczowych) problemów w eTraderze...",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -210,7 +224,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Wersja 2.1.6 eTrader nadal jest do kitu!",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -252,7 +266,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "eTader nadal ma problemy. Po 2h pracy staje się bardzo leniwy. Jedyne wyjście to siłowe ubicie zadania i nowe jego odpalenie. Tak muszę robić kilka razy na dzień.",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -266,7 +280,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Wersja 2.1.4, która mi się dzisiaj po15-tej zainstalowała jest lepsza od poprzedniej, ale z pewnością NIE JEST wersją ostateczną. Nadal nie działa to jak poprzednio - przed zmianami.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -308,7 +322,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Jeszcze błędy są w zakresie dziennym pokazuje nieprawdziwe dane w niektórych spółkach . Ale jest o niebo lepiej . Zobaczymy co się dalej wysypie",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -323,7 +337,7 @@
       "body": "Jest nowa wersja 2.1.4 Odinstalujcie starą jeśli ktoś ma i zainstalujcie nową. U mnie działa już bez błędów. Zapiszcie ustawienia, powinny się wgrać.",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -336,7 +350,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "nawet nie odbieraja wczoraj nowy dyrektor",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -350,7 +364,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Pisz na adres bm@pekao.com.pl.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -364,7 +378,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "@extbert Tu masz do nich telefon 22 591 2601.Ja dzwoniłem do nich kilka razy ale dałem sobie spokój. Szkoda czasu na jałową dyskusję.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -378,7 +392,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Dzisiaj wywaliło mnie, a po zalogowaniu ponownym we wszystkim zakładkach nie mam żadnych okien. Pusto, po prostu wuj strzeli, Po ostatnich zmianach kilka godzin odtwarzałem swoje zakładki z wykresami i analizami, żeby mieć wszystko na bieżąco, a teraz coś czuję, że będę musiał robić na nowo. Macie do nich jakiś kontakt poza infolinią np. e-mail do IT?",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -392,7 +406,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Zanim oni to wszystko naprawią - o ile dadzą radę, to zejdzie zapewne jeszcze z miesiąc.W czasie sesji muszę etradera ubijać kilka razy, bo nie da się przełączać pomiędzy oknami w etrader.Ten obecny etrader to jest nieporozumienie, to bubel nad bublami.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -406,7 +420,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "czy u Was tez nie dziak\\la etrader ?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -434,7 +448,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "U mnie po zakończonej sesji w kolumnie zmiana procentowa wyświetla 0,00% przy wszystkich spółkach, wyresy do bani bo w połączeniu pokazuje błąd wykresów, tragedia !",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -448,7 +462,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Ja codziennie a czasem kilka razy na dzień dzwonie pod 22 591 2601 i o dziwo się tam dodzwaniam.Nic się tam ciekawego nie dowiaduję. Dzisiaj np powiedziano mi, że już powinno wkrótce zacząć działać wszystko poprawnie.Tu mi czołg jedzie!Nie wydaje mi się, żeby w kodzie programu eTrader zmienić kilka linijek kodu i będzie wszystko śmigać.W nowym oprogramowaniu jest mnóstwo i to bardzo rozległych błędów (problemów).Chwilami u mnie procesor pracuje pod 50% swojej mocy dla eTradera. W RAM e-Trader w tej chwili zajmuje 3.258 GB a zużycie energii Bardzo wysokie.Program nie jest zawieszony bo coś miele ale na ekranie nic się nie zmienia.Przez WiFi mój laptop odbiera w cholerę kB/s. Zauważam też, że procesor jest tak obciążony, że aby dokończyć pisanie tego tekstu musiałem ubić zadanie eTrader.No masakra!",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -462,7 +476,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "> Ten e-Trader to obecnie kupa dziadostwa!> Obecnie bardzo silnie obciąża procesor i w cholerę zużywa energii.> Wiele funkcjonalności nie działa, jest bardzo leniwy, aż w końcu się zawiesza i dupa zbita.> Czas pomyśleć o innym DM.Też zastanawiam się nad zmianą BM. Jeśli komunikaty ESPI wyświetlają się dopiero po \"ręcznym\" odznaczeniu\" i ponownym \"zaznaczeniu\" opcji ESPI, albo \"wszystkie\" to jak na takim czymś można pracować i zarabiać. Szkoda, że mało osób zgłasza pisemnie/emailowo te wszystkie problemy, bo skoro tak mało zgłoszeń to widocznie problem nie jest pilny dla BM i nic z nim nie robią.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -476,7 +490,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Ten e-Trader to obecnie kupa dziadostwa!Obecnie bardzo silnie obciąża procesor i w cholerę zużywa energii.Wiele funkcjonalności nie działa, jest bardzo leniwy, aż w końcu się zawiesza i dupa zbita.Czas pomyśleć o innym DM.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
