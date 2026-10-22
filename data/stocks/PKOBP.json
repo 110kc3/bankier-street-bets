@@ -3,11 +3,11 @@
   "companyName": "PKO BP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp,6,21,10000000062.html",
-  "updatedAt": "2026-10-22T04:44:26.561Z",
+  "updatedAt": "2026-10-22T11:52:11.073Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-22T04:44:26.561Z",
+    "fetchedAt": "2026-10-22T11:52:11.073Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.08,
-    "confidence": 0.63,
-    "commentCount": 46,
+    "score": 0.071,
+    "confidence": 0.65,
+    "commentCount": 49,
     "breakdown": {
       "positive": 14,
       "negative": 6,
-      "neutral": 26
+      "neutral": 29
     },
     "trend": [
       {
         "date": "2026-10-15",
-        "score": 0.161,
-        "count": 2
+        "score": 0.322,
+        "count": 1
       },
       {
         "date": "2026-10-16",
@@ -53,10 +53,15 @@
         "date": "2026-10-21",
         "score": 0.044,
         "count": 20
+      },
+      {
+        "date": "2026-10-22",
+        "score": 0,
+        "count": 4
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 46 komentarzy z ostatnich 7 dni: nastroje mieszane (14 pozytywnych, 6 negatywnych, 26 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 49 komentarzy z ostatnich 7 dni: nastroje mieszane (14 pozytywnych, 6 negatywnych, 29 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "zawsze",
@@ -79,28 +84,84 @@
         "count": 3
       },
       {
+        "word": "ghelamco",
+        "count": 2
+      },
+      {
+        "word": "spokoj",
+        "count": 2
+      },
+      {
+        "word": "nara",
+        "count": 2
+      },
+      {
         "word": "rekomendacje",
         "count": 2
       },
       {
         "word": "magell",
         "count": 2
-      },
-      {
-        "word": "jestes",
-        "count": 2
-      },
-      {
-        "word": "analityk",
-        "count": 2
-      },
-      {
-        "word": "ostatnich",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76160519",
+      "author": "Janzwagrowca",
+      "postedAt": "2026-10-22 12:44",
+      "threadTitle": "Tutaj jest siła i tak na koniec wyciągną ?",
+      "url": "https://www.bankier.pl/forum/temat_tutaj-jest-sila-i-tak-na-koniec-wyciagna,76160519.html",
+      "body": "Tylko L",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76160203",
+      "author": "AnalitykAT",
+      "postedAt": "2026-10-22 12:24",
+      "threadTitle": "Re: Nowe reko wynosi ponad 140",
+      "url": "https://www.bankier.pl/forum/temat_nowe-reko-wynosi-ponad-140,76147689.html",
+      "body": "45 mln euro ghelamco na te chwile. Daj spokoj. To kropla. I szykuja zamiane na oblig senioralne",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76159997",
+      "author": "Elf",
+      "postedAt": "2026-10-22 12:12",
+      "threadTitle": "Re: Ciśnie gnida ciśnie",
+      "url": "https://www.bankier.pl/forum/temat_cisnie-gnida-cisnie,76120105.html",
+      "body": "Dwa kroki do przodu, trzy kroki do tyłu itd.....",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76157363",
+      "author": "Nara",
+      "postedAt": "2026-10-22 09:58",
+      "threadTitle": "Re: Nowe reko wynosi ponad 140",
+      "url": "https://www.bankier.pl/forum/temat_nowe-reko-wynosi-ponad-140,76147689.html",
+      "body": "A w tle sprawa Ghelamco. Idę po autocasco, nara .",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76154649",
       "author": "Magellan",
@@ -109,7 +170,7 @@
       "url": "https://www.bankier.pl/forum/temat_nowe-reko-wynosi-ponad-140,76147689.html",
       "body": "nie wierze. ale uważam, że komunista po korekcie dojdzie do ath. czymś indeks muszą ciągnąć. i tam wysiadam o ile moje założenia są słuszne.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -123,7 +184,7 @@
       "url": "https://www.bankier.pl/forum/temat_warto-obejrzec,76154607.html",
       "body": "https://www.youtube.com/shorts/B22ULPTy2oc",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -137,8 +198,8 @@
       "url": "https://www.bankier.pl/forum/temat_nowe-reko-wynosi-ponad-140,76147689.html",
       "body": "wierzycie w rekomendacje u szczytu hossy? Klap klap klap",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0.762,
       "sentimentLabel": "Positive"
@@ -152,7 +213,7 @@
       "body": "S-ki miałem po 124wyluzuj. korekta na bankach się skończyła. po co tyle jadu. żyj.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -362,7 +423,7 @@
       "body": "a kurs 115.amerykańce zwiększyli zaangażowanie z czarnej skały.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -515,7 +576,7 @@
       "url": "https://www.bankier.pl/forum/temat_cisnie-gnida-cisnie,76120105.html",
       "body": "Idzie zima....teraz z górki.",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0,
@@ -599,7 +660,7 @@
       "url": "https://www.bankier.pl/forum/temat_cisnie-gnida-cisnie,76120105.html",
       "body": "Nie da ani grosza zarobić,kolejny raz PKO BP najgorsze z sektora,",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": 0,
@@ -730,20 +791,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76084847",
-      "author": "MAXIMUS",
-      "postedAt": "2026-10-15 09:41",
-      "threadTitle": "30 MILIARDÓW dla PKO BP",
-      "url": "https://www.bankier.pl/forum/temat_30-miliardow-dla-pko-bp,76084847.html",
-      "body": "Jeszcze jakieś pytania wątpliwej treści co ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
