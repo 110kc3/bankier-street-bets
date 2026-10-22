@@ -3,11 +3,11 @@
   "companyName": "JASTRZEBSKA SPOLKA WEGLOWA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=JSW",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_jastrzebska-spolka-weglowa,6,21,10000000176.html",
-  "updatedAt": "2026-10-21T21:42:23.715Z",
+  "updatedAt": "2026-10-22T04:43:10.978Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-21T21:42:23.716Z",
+    "fetchedAt": "2026-10-22T04:43:10.978Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,76 +15,62 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.045,
+    "score": 0.066,
     "confidence": 0.72,
     "commentCount": 200,
     "breakdown": {
-      "positive": 47,
+      "positive": 45,
       "negative": 30,
-      "neutral": 123
+      "neutral": 125
     },
     "trend": [
       {
-        "date": "2026-10-15",
-        "score": 0.123,
-        "count": 8
-      },
-      {
-        "date": "2026-10-16",
-        "score": 0.112,
-        "count": 11
-      },
-      {
-        "date": "2026-10-17",
-        "score": 0.043,
-        "count": 6
-      },
-      {
         "date": "2026-10-18",
-        "score": 0.117,
-        "count": 5
+        "score": 0.083,
+        "count": 7
       },
       {
         "date": "2026-10-19",
-        "score": 0.197,
-        "count": 25
+        "score": 0.148,
+        "count": 31
       },
       {
         "date": "2026-10-20",
-        "score": 0.053,
-        "count": 22
+        "score": 0.047,
+        "count": 25
       },
       {
         "date": "2026-10-21",
-        "score": 0.018,
-        "count": 123
+        "score": 0.023,
+        "count": 128
+      },
+      {
+        "date": "2026-10-22",
+        "score": 0.385,
+        "count": 9
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (47 pozytywnych, 30 negatywnych, 123 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (45 pozytywnych, 30 negatywnych, 125 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "roku",
-        "count": 13
+        "word": "wegla",
+        "count": 16
       },
       {
-        "word": "wegla",
-        "count": 12
+        "word": "roku",
+        "count": 15
       },
       {
         "word": "koksowego",
-        "count": 11
+        "count": 15
       },
       {
         "word": "https",
-        "count": 9
+        "count": 13
       },
       {
-        "word": "wegiel",
-        "count": 8
-      },
-      {
-        "word": "shorty",
+        "word": "wyniki",
         "count": 8
       },
       {
@@ -92,20 +78,234 @@
         "count": 8
       },
       {
-        "word": "spadkowy",
-        "count": 7
-      },
-      {
-        "word": "trzeba",
-        "count": 6
+        "word": "wegiel",
+        "count": 8
       },
       {
         "word": "chwile",
-        "count": 6
+        "count": 7
+      },
+      {
+        "word": "produkcja",
+        "count": 7
+      },
+      {
+        "word": "stali",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "76155153",
+      "author": "Jagoda",
+      "postedAt": "2026-10-22 05:27",
+      "threadTitle": "Re: TFI Milennium/TFI PKO, czyli fundusze kupują akcje JSW:)",
+      "url": "https://www.bankier.pl/forum/temat_tfi-milennium-tfi-pko-czyli-fundusze-kupuja-akcje-jsw,76155127.html",
+      "body": "Tusk piszesz o cenie sprzedaży 266 $ a w raporcie jest że sprzątają po 200$, a ACF-y w tym roku nie były po 200 $ ani przez chwilę.Byly znacznie droższe.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76155137",
+      "author": "zadziwiony",
+      "postedAt": "2026-10-22 05:12",
+      "threadTitle": "Re: TFI Milennium/TFI PKO, czyli fundusze kupują akcje JSW:)",
+      "url": "https://www.bankier.pl/forum/temat_tfi-milennium-tfi-pko-czyli-fundusze-kupuja-akcje-jsw,76155127.html",
+      "body": "Czyli tzw. blokowanie akcji to był taki twój żarcik i kompletny bezsens?",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76155129",
+      "author": "Tusk",
+      "postedAt": "2026-10-22 04:59",
+      "threadTitle": "TFI Milennium/TFI PKO, czyli fundusze kupują akcje JSW:) cz.2",
+      "url": "https://www.bankier.pl/forum/temat_tfi-milennium-tfi-pko-czyli-fundusze-kupuja-akcje-jsw,76155127.html",
+      "body": "Nieprzypadkowo Hindusi z ArcelorMittal na wiosnę tego roku uruchomili ponownie wielki piec nr. 3 w Dabrowie Górniczej (d. huta Katowice). Zwiększona produkcja stali przełoży się natychmiast na popyt na CC, wszak do wyprodukowania 1 tony stali potrzeba ok. 780 kg węgla koksowego oraz ok. 200 kg węgla energetycznego. Oba są w ofercie handlowej JSW S.A.Jesteśmy na początku hossy surowcowej. Czy będzie ona podobna do tej z lat 2020-2022, gdy za tonę CC płacono nawet 635$, a średnio w całym okresie ok. 350$ (moje szacunki) za tonę? Jeśli tak będzie, wówczas wyżej przedstawiony rachunek może wyglądać następująco:13 mln ton x 144$ = 1,87 mld $13 mln ton x 350$ = 4,56 mld $4,56 mld $ - 1,87 mld $ = 2,75 mld $ czyli ok. 10,7 mld złotych.Przypomnę, że podobne zyski spółka notowała właśnie w tamtym okresie.Tu: https://www.bankier.pl/gielda/notowania/akcje/JSW/wyniki-finansowe/skonsolidowany/rocznyNa rynku surowcowym obowiązuje cykliczność, obecnie jesteśmy w okresie wzrostowym. Fazy cyklu można z powodzeniem przewidywać i dlatego fundusze szortujące wykorzystują je często do tłuczenia kursu. Ten, kto nie wierzy, może zapoznać się z wykresami cen przykładowo miedzi czy ropy naftowej oraz porównać je z kursami KGHM czy Orlenu. Nas najbardziej interesuje oczywiście porównanie kursu JSW oraz ceny CC. Okazuje się, że szorciarze wykorzystali okres sprzed poprzedniej hossy do znaczącego stłuczenia kursu jastrzebskiej spółki. Tu: https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=JSWWtedy za jedną akcję JSW płacono minimalnie nawet 9,13 złotych (12 marca 2020), a potem maksymalnie nawet 83,96 złotych (7 marca 2022). Wzrost kurs: 9,19x. Jeśłi ten wskaźnik zastosujemy teraz do oszacowania możliwego wzrostu kursu, wówczas jedna akcja jastrzębskiej spółki może kosztować nawet >180 złotych (19,65 złotych, minimum z dnia 7 kwietnia 2025, x 9,19). Niemożliwe? A dlaczego? Żeby pogrążyć moich krytyków dodam, że w okresie poprzednim szorciarze nie musieli zmagać się z pospolitym ruszeniem drobnych oinwestorów skupionych pod sztandarem 100+. Teraz już muszą. Przypomnę, że drobni inwestorzy kupili/zablokowali w trakcie obecnego szortowania nawet ok. 13,5 mln akcji, a rozmaite fundusze inwestycyjne dokupiły kolejne kilka milionów akcji rzuconych na rynek przez szorciarzy. Rzuconych, ale wcześniej pożyczonych.:) Czy w takiej sytuacji moja spekulacja o około 16,7 mln akcji maksymalnego zobowiązania szorciarzy (ortex oraz zaprzyjaźnione fundusze) jest uprawniona? Jest.:) Przypomnę, że rozmaite fundusze, krajowe i zagraniczne mają w swoich portfelach ok. 18 mln akcji. Ich zestawienie znajdziecie w kolejnym poście o \"przydatnych linkach\". Było od kogo pożyczyć nawet 16,7 mln akcji? Oczywiście, że było!:) Czy zatem w/w całkowite zobowiązanie, obecnie ok. 14 mln akcji, jest możliwe? Jest!:) Przypomnę, że maksymalna oferta S opiewała ostatnio na ok. 11,5 mln sztuk, a cena 27 tysięcy złotych za akcję. 14 mln akcji to około 25% FF JSW. Wedug teorii pożyczenie w celu szortowania 20+% FF skutkuje najczęściej \"wyciskaniem\".Tu: https://www.liteforex.pl/blog/for-investors/short-squeeze/Jak wygląda \"wyciskanie\" możecie zobaczyć na przykładach historycznych.* Gamestop + ok. 3000%* Eutelsat + ok. 880%* BeynodMeat + ok.1650% Na naszym podwórku zamykanie otwartch pozycji krótkich wygląda równieź dobrze.* JSW +800% (2020-2022)* Tauron +1000% (marzec 2023-czerwiec 2026)Tu: https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=TAURONPETu: https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=JSWPrzyjrzyjcie się również wykresowi kursu KGHM czy PKN Orlen. Obie te spółki były/są szortowane w ostatnich kilku latach.Jak będzie tym razem? Zobaczymy, ja jestem optymistą i spodziewam się powtórzenia sytuacji sprzed kilku lat.:) I w tym nastroju oświadczam, że taka jest moja spekulacja!:)Dobrej zabawy i dużych zysków życzę wszystkim gojom!:)",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 1,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76155127",
+      "author": "Tusk",
+      "postedAt": "2026-10-22 04:58",
+      "threadTitle": "TFI Milennium/TFI PKO, czyli fundusze kupują akcje JSW:)",
+      "url": "https://www.bankier.pl/forum/temat_tfi-milennium-tfi-pko-czyli-fundusze-kupuja-akcje-jsw,76155127.html",
+      "body": "TFI Milennium oraz TFI PKO ujawniły nowy stan portefla akcji JSW.Tu: https://www.biznesradar.pl/akcjonariat/JSW-JASTRZEBSKA-SPOLKA-WEGLOWAMilennium zwiększył w 3q 2026 zangażowanie do 144 727 akcji (+110 k), natomiast TFI PKO do 983 296 akcji (+24 613 sztuk). Oba fundusze konsekwetnie zwiększają zaangażowanie w akcje jastrzębskiej spółki, ponieważ w 1q 2026 dokupiły odpowiednio: 20 k i 0,99 k akcji. W okresie 4q 2025-3q 2026 TFI PKO dokupił w sumie 311 509 akcji. Czekamy na kolejne informacje o zakupach na stronie biznesradar.pl. W ostanich kilkunastu miesiącach fundusze, krajowe i zagraniczne, dokupiły miliony akcji JSW.Ich zestawienie znajdzie w moim kolejnym poście z dopiskiem \"przydatne linki\".Okazało się to, co wszyscy podejrzewaliśmy i nadal podejrzewamy: fundusze inwestycyjne powiększają stan posiadania akcji JSW. Nikogo to nie powinno dziwić, wszak od początku roku wdrażany jest z powodzeniem program naprawczy, którego jednym z głównych celów jest znaczące zmniejszenie zatrudnienia o ponad 4 tysiące etatów i co za tym idzie obniżenie kosztów wydobycia 1 tony wegla do ok. 560 złotych (ok. 144$). Dodatkowo spółka optymalizuje wydobycie węgla, to znaczy wykorzystuje tylko te złoża, które gwarantują najlepszą efektywność. I nie dzieje się to bynajmniej kosztem wydobycia, wszak w najbliższych latach spółka planuje jego zwiększenie do 14 mln ton, z tego ok. 13 mln ton CC. Równolegle spółce sprzyjają rosnące ceny węgla, w tym jej sztandarowego produktu, węgla koksowego.Tu: https://pl.tradingeconomics.com/commodity/coking-coalJuż obecnie spółka zarabia na każdej wydobytej tonie, a w przyszłym roku zobaczymy dawno nie widziane zyski idące nawet w miliardy złotych. Policzmy.:)13 mln ton x 144 $ (koszt wydobycia) = 1,87 mld $13 mln ton x 266 $ (obecna cena) = 3,45 mld $3,45 mld $ - 1,87 mld $ = 1,588 mld $ czyli około 6,16 mld złotych.Wynik przy kursie 1USD/3,88 złotych.Tu: https://www.bankier.pl/waluty/kursy-walut/forex/USDPLNRachunek jest zgrubny, ale pokazuje skalę przyszłych zysków. Oczywiście wiele zależy od cen światowych, a te mogą rosnąć i spadać. Ja spodziewam się wzrostu cen surowca, co wynika z jednej strony ze spadku wydobycia u konkurencji (Australia, Indonezja i Rosja), o czym od wielu miesięcy informuje na X-ie kol. Trader2022, oczywiście z podaniem żródła, a z drugiej strony przykładowo z dodatkowych darmowych ETS dla hut. Dodatkowe darmowe ETS wyniosą w przyszłym roku 130 mld euro, z tego ok. 40% (52 mld euro) trafi prawdopodobnie do Polski, w tym do JSW. To przełoży się na ceny stali oraz na zwiększenie jej produkcji do ok. 130 mln tonu w 2027 roku. Tu: https://ceo.com.pl/europejski-rynek-stali-2026-2027-prognozy-polska-infrastruktura-33674",
+      "votes": {
+        "up": 12,
+        "down": 2
+      },
+      "sentimentScore": 0.981,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76155051",
+      "author": "zadziwiony",
+      "postedAt": "2026-10-22 01:48",
+      "threadTitle": "Re: Nie bać Tuska!",
+      "url": "https://www.bankier.pl/forum/temat_nie-bac-tuska,76152935.html",
+      "body": "3658.59 podobno wywróżył",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76155049",
+      "author": "zadziwiony",
+      "postedAt": "2026-10-22 01:47",
+      "threadTitle": "Re: Tusk w Indiach z delegacja polskich firm",
+      "url": "https://www.bankier.pl/forum/temat_tusk-w-indiach-z-delegacja-polskich-firm,76154613.html",
+      "body": "Z jokiem czy w valusiem poleciał?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76154995",
+      "author": "idzieDOgóry",
+      "postedAt": "2026-10-22 01:01",
+      "threadTitle": "❤️ SUROWCE STRATEGICZNE I KRYTYCZNE DLA POLSKI I UE ❤️",
+      "url": "https://www.bankier.pl/forum/temat_surowce-strategiczne-i-krytyczne-dla-polski-i-ue,76154995.html",
+      "body": "❤️ SUROWCE STRATEGICZNE I KRYTYCZNE DLA POLSKI I UE ❤️W RAMACH OPRACOWANIA POLITYKI SUROWCOWEJ PAŃSTWA OKREŚLONO LISTĘ SUROWCÓW STRATEGICZNYCH I KRYTYCZNYCH DLA POLSKIEJ I UNIJNEJ GOSPODARKI.Surowce strategiczne dla polskiej gospodarki dzielą się na dwie podgrupy:Surowce strategiczne o podstawowym znaczeniu dla prawidłowego funkcjonowania gospodarki i zaspokojenia potrzeb bytowych społeczeństwa - surowce których trwała podaż musi być zapewniona, zarówno takie, których krajowa baza zasobowa jest duża i które dzięki jej wykorzystaniu są podstawą działania przemysłu, jak i ważne surowce deficytowe.Surowce strategiczne o podstawowym znaczeniu dla bezpieczeństwa narodowego i innowacyjnych technologii - surowce, które nie są w sposób wystarczający (min. 90%) pozyskiwane ze źródeł krajowych lub których możliwości trwałego pozyskania z tych źródeł są ograniczone lub zagrożone, oraz inne surowce niepozyskiwane w kraju (deficytowe) niezbędne dla obronności kraju i bezpieczeństwa narodowego oraz rozwoju innowacyjnych technologii.Surowce krytyczne dla polskiej gospodarki - takie surowce strategiczne, których możliwości pozyskania zarówno ze źródeł pierwotnych, jak i wtórnych, są obarczone albo dużym ryzykiem, albo istnieją bardzo duże trudności ich pozyskania, a możliwości ich substytucji są niewielkie. Są to w szczególności surowce znajdujące się na liście surowców krytycznych dla Unii Europejskiej, ale także takie surowce, które mimo występowania w dużej ilości są niemożliwe do pozyskania np. z powodu uwarunkowań planistycznych, protestów społecznych itp. Komisja Europejska przygotowała w 2011 pierwszą listę surowców krytycznych dla Unii Europejskiej kierując się europejską „Inicjatywą na rzecz surowców” z 2008 roku. Lista surowców krytycznych dla UE jest aktualizowana co 3 lata (2011, 2014, 2017, 2020 i 2023). W dniu 16 marca 2023 roku Komisja Europejska opublikowała Wniosek dotyczący rozporządzenia Parlamentu Europejskiego i Rady ustanawiającego ramy zapewniające bezpieczne i zrównoważone dostawy surowców krytycznych wraz z załącznikiem zawierającym 16 surowców strategicznych oraz 34 surowce krytyczne dla Unii Europejskiej. Aktualny wykaz surowców strategicznych i krytycznych można znaleźć na stronie.https://www.gov.pl/photo/6b73a316-f30f-4247-a3ed-a474e33f5095 https://www.gov.pl/web/klimat/surowce-strategiczne-i-krytyczne-dla-polski-i-ue",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76154945",
+      "author": "Olo",
+      "postedAt": "2026-10-22 00:18",
+      "threadTitle": "Re: Tusk w Indiach z delegacja polskich firm",
+      "url": "https://www.bankier.pl/forum/temat_tusk-w-indiach-z-delegacja-polskich-firm,76154613.html",
+      "body": "Nie spada.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76154905",
+      "author": "ZielonyWał",
+      "postedAt": "2026-10-22 00:02",
+      "threadTitle": "Re: Tusk w Indiach z delegacja polskich firm",
+      "url": "https://www.bankier.pl/forum/temat_tusk-w-indiach-z-delegacja-polskich-firm,76154613.html",
+      "body": "Moze jakies info bedzie, kontrakt lub wspolpraca. Mysle ze mogą z czyms przyjrchac",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76154869",
+      "author": "Olo",
+      "postedAt": "2026-10-21 23:50",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "I gitara.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76154853",
+      "author": "Nostradamus",
+      "postedAt": "2026-10-21 23:48",
+      "threadTitle": "✏️Obniżenie gotówkowego kosztu wydobycia poniżej 600 zł za tonę pokaz.✏️",
+      "url": "https://www.bankier.pl/forum/temat_obnizenie-gotowkowego-kosztu-wydobycia-ponizej-600-zl-za-tone-pokaz,76154853.html",
+      "body": "✏️Obniżenie gotówkowego kosztu wydobycia poniżej 600 zł za tonę pokazuje✏️Na korzyść wyników JSW świadczyć mogą także dane dotyczące kosztów wydobycia (mining cash cost). Te systematycznie spadają, a w II kw. koszty te spadły poniżej 600 zł za tonę …. To jeden z najbardziej wymiernych efektów działań restrukturyzacyjnych. Obniżenie gotówkowego kosztu wydobycia poniżej 600 zł za tonę pokazuje, że dyscyplina kosztowa przynosi rezultaty. W pierwszym półroczu największe znaczenie miało ograniczenie kosztów osobowych oraz zakupów materiałowychhttps://www.parkiet.com/surowce-i-paliwa/art45344001-prezes-jsw-program-naprawczy-to-nie-wybor-a-koniecznosc Z KWARTAŁU NA KWARTAŁ BĘDĄ CORAZ LEPSZE WYNIKI KWARTALNE",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76154845",
+      "author": "Nostradamus",
+      "postedAt": "2026-10-21 23:46",
+      "threadTitle": "Re: 270$ za 1 tonę, tyle trzeba zapłacić w JSW za węgiel koksujący.",
+      "url": "https://www.bankier.pl/forum/temat_270-za-1-tone-tyle-trzeba-zaplacic-w-jsw-za-wegiel-koksujacy,76154703.html",
+      "body": "✏️Ceny ✏️ węgla koksowego ✏️ dla cen JSW wzrosły w ostatnim okresie do około 270 dol. za tonę✏️Wyższa cena węgla koksowego chyba pomaga… Oczywiście. Ceny australijskiego węgla koksowego Premium Low Vol, będącego benchmarkiem dla cen JSW wzrosły w ostatnim okresie do około 270 dol. za tonę, a osłabienie złotego dodatkowo nam sprzyja. Wzrost cen nie był jednak spowodowany hossą na rynku, ale jest efektem spadku podaży w wyniku decyzji administracyjnych po wypadkach w chińskich kopalniach.https://www.parkiet.com/surowce-i-paliwa/art45344001-prezes-jsw-program-naprawczy-to-nie-wybor-a-koniecznosc Z KWARTAŁU NA KWARTAŁ BĘDĄ CORAZ LEPSZE WYNIKI KWARTALNE",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76154839",
+      "author": "Nostradamus",
+      "postedAt": "2026-10-21 23:44",
+      "threadTitle": "❤️NORWESKI MEGAFUNDUSZ ZACZNIE INWESTOWAĆ W ZBROJENIA? KUPIŁ TEŻ JSW..❤️",
+      "url": "https://www.bankier.pl/forum/temat_norweski-megafundusz-zacznie-inwestowac-w-zbrojenia-kupil-tez-jsw,76154839.html",
+      "body": "❤️. NORWESKI MEGAFUNDUSZ ZACZNIE INWESTOWAĆ W ZBROJENIA? KUPIŁ TEŻ JSW... ❤️CZY BEDĄ POTRZEBNE DUŻE ILOŚĆ WĘGLA KOKSOWEGO DO PRODUKCJI STALI Z PRZEZNACZENIEM NA ZBROJENIÓWKĘ?❤️NORWESKI MEGAFUNDUSZ ZACZNIE INWESTOWAĆ W ZBROJENIA? Rządowa komisja daje zielone światło.❤️2026-10-15Rządowa komisja zarekomendowała zmianę reguł w polityce inwestycyjnej państwowego funduszu majątkowego Norwegii. Jeden z największych globalnych inwestorów może wkrótce otworzyć portfel dla czołowych zachodnich koncernów zbrojeniowych, które dotychczas były wykluczone pola widzenia funduszu. Propozycją jest też ograniczenie roli Rady Etyki funduszy, który swego czasu wpisał Orlen na listę obserwacyjną.Czytaj całość:https://www.bankier.pl/wiadomosc/Norweski-megafundusz-zacznie-inwestowac-w-zbrojenia-Rzadowa-komisja-daje-zielone-swiatlo-9213220.html",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.964,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76154833",
+      "author": "Nostradamus",
+      "postedAt": "2026-10-21 23:43",
+      "threadTitle": "❤️❤️ Nr 1 na świecie kupuje akcje JSW, CZUJE PIENIĄDŻ ❤️❤️",
+      "url": "https://www.bankier.pl/forum/temat_nr-1-na-swiecie-kupuje-akcje-jsw-czuje-pieniadz,76154833.html",
+      "body": "❤️❤️ Nr 1 na świecie kupuje akcje JSW, CZUJE PIENIĄDŻ ❤️❤️❤️❤️Nr 1 na świecieSPRZEDAŁ AKCJE ŻABKI I KUPIŁ JSW.❤️❤️Największy państwowy fundusz inwestycyjny świata wypracował kosmiczny zysk. Inwestuje także w PolsceNorweski Rządowy Fundusz Emerytalny na koniec 2025 r. dysponował aktywami o wartości przekraczającej 2,22 bln dolarów. Według danych za miniony rok stopa zwrotu z inwestycji wyniosła 15,1 proc., co przyniosło 247 mld dolarów zysku netto.https://www.wnp.pl/rynki/najwiekszy-panstwowy-fundusz-inwestycyjny-swiata-wypracowal-kosmiczny-zysk-inwestuje-takze-w-polsce,1027454.htmlA WIADOMO ŻE BĘDZIE WCHODZIŁ W SEKTOR ZBROJENIOWY.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.995,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76154831",
+      "author": "Nostradamus",
+      "postedAt": "2026-10-21 23:42",
+      "threadTitle": "✏️Nie dajcie się WYLESZCZYĆ z akcji SHORTOM, oni muszą odkupić akcje,✏️",
+      "url": "https://www.bankier.pl/forum/temat_nie-dajcie-sie-wyleszczyc-z-akcji-shortom-oni-musza-odkupic-akcje,76154831.html",
+      "body": "✏️ Nie dajcie się WYLESZCZYĆ z akcji SHORTOM, oni muszą odkupić akcje, BO MUSZĄ ODDAĆ POŻYCZONE AKCJE ✏️Chcą od was odkupić tanio akcje.MACIE AKCJE WYSTAWIAĆ ZLECENIA SPRZEDAŻY PO 100ZŁ. A ZOBACZYCIE ŻE BĘDZIE ROSŁO IM WIĘCEJ AKCJONARIUSZY WYSTAWI ZLECENIE SPRZEDAŻY PO 100ZŁ TYM SZYBCIEJ BĘDZIE ROSŁOA ONI CZASU MAJĄ NA ODKUP CORAZ MNIEJ MUSZĄ SZYBKO I TANIO KUPIĆ BY ODDAĆ POŻYCZONE AKCJE IM DROŻEJ KUPIĄ TYM WIĘKSZĄ STRATĘ MAJĄ",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76154817",
       "author": "Lol",
@@ -128,7 +328,7 @@
       "url": "https://www.bankier.pl/forum/temat_papieru-pod-dostatkiem-miliony,76067501.html",
       "body": "Trzeci z rzędu.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -142,7 +342,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-bac-tuska,76152935.html",
       "body": "Maklakiewicz!",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -171,7 +371,7 @@
       "body": "Wszyscy o tym wiedzą dlatego nie spada a dodatkowo u to uchronili dwie ściany, supet",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -268,7 +468,7 @@
       "url": "https://www.bankier.pl/forum/temat_tusk-w-indiach-z-delegacja-polskich-firm,76154613.html",
       "body": "Forumowy poleciał?Ten od La Niny?",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -296,7 +496,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-bac-tuska,76152935.html",
       "body": "A Tusku +719% od 15 czerwca?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -311,7 +511,7 @@
       "body": "Ciekawe czy z JSW ktos pojechał i z czym wrócą? Linkhttps://www.wnp.pl/rynki/premier-tusk-leci-do-indii-na-pokladzie-nawet-80-polskich-firm,1110634.html",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -352,7 +552,7 @@
       "url": "https://www.bankier.pl/forum/temat_ale-pilnujecie-forum,76153741.html",
       "body": "Smutne życie? Kto ma smutne życie i dlaczego?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -534,7 +734,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-bac-tuska,76152935.html",
       "body": "Film taki jest. Dobry.;)",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -660,7 +860,7 @@
       "url": "https://www.bankier.pl/forum/temat_w-q3-musza-pokazac-zysk-inaczej,76153361.html",
       "body": "Te forum ... to jakiś bezsens nic merytorycznego ... same emocje i inwektywy.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -702,7 +902,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-bac-tuska,76152935.html",
       "body": "Ostatnie takie trio.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1059,68 +1259,12 @@
       "sentimentLabel": "Positive"
     },
     {
-      "id": "76153585",
-      "author": "Paweł",
-      "postedAt": "2026-10-21 20:43",
-      "threadTitle": "NIEBAĆ SZORTA !",
-      "url": "https://www.bankier.pl/forum/temat_niebac-szorta,76153585.html",
-      "body": "utopimy towarzyszy szortowych ,matołki do roboty",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76153583",
-      "author": "Nostradamus",
-      "postedAt": "2026-10-21 20:43",
-      "threadTitle": "✏️OSOBISTE KONTO INWESTYCYJNE będzie dostępne w Polsce od 1 stycznia2027",
-      "url": "https://www.bankier.pl/forum/temat_osobiste-konto-inwestycyjne-bedzie-dostepne-w-polsce-od-1-stycznia2027,76153577.html",
-      "body": "TEGO BĘDĄ BAŁY SIĘ SHORTY GRAJĄCE NA SPADKI PO 1 STYCZNIA 27R. CENA AKCJI GWAŁTOWNIE MOŻE WZROSNĄĆ, PRZY JAKIMŚ KRYZYSIE NIE BĘDZIE SPADKÓW PRZY TAK DUŻYM NAPŁYWIE PIENIĄDZA NA GPW",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "76153571",
       "author": "Max",
       "postedAt": "2026-10-21 20:42",
       "threadTitle": "Re: Ubrani po 24,20 wystąp !",
       "url": "https://www.bankier.pl/forum/temat_re-ubrani-po-24-20-wystap,76153571.html",
       "body": "Dużo ciepłegoubioru,bedzie kasa",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76153577",
-      "author": "Nostradamus",
-      "postedAt": "2026-10-21 20:42",
-      "threadTitle": "✏️OSOBISTE KONTO INWESTYCYJNE będzie dostępne w Polsce od 1 stycznia2027",
-      "url": "https://www.bankier.pl/forum/temat_osobiste-konto-inwestycyjne-bedzie-dostepne-w-polsce-od-1-stycznia2027,76153577.html",
-      "body": "✏️OSOBISTE KONTO INWESTYCYJNE (OKI) będzie dostępne w Polsce od 1 stycznia 2027 roku.✏️TEGO BĘDĄ BAŁY SIĘ SHORTY GRAJĄCE NA SPADKI PO 1 STYCZNIA 27R. CENA AKCJI GWAŁTOWNIE MOŻE WZROSNĄĆ, PRZY JAKIMŚ KRYZYSIE NIE BĘDZIE SPADKÓW PRZY TAK DUŻYM NAPŁYWIE PIENIĄDZA NA GPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ✏️OSOBISTE KONTO INWESTYCYJNE (OKI) będzie dostępne w Polsce od 1 stycznia 2027 roku.✏️Najważniejsze informacjeNowy termin: Start systemu przesunięto z 2026 na 2027 rok.Zasady: Zyskasz do 100 000 zł zysków kapitałowych bez płacenia 19% podatku Belki.Dostępność: Konto założysz w bankach oraz domach maklerskich.Limit: Limit zwolnienia z podatku jest jeden na numer PESEL. /GIGANTYCZNE PIENIĄDZE TRAFIĄ NA GPW OD 1 STYCZNIA 2027r. BĘDĄ GIGANTYCZNE ZAKUPY AKCJI PRZEZ OKI.TANIEJ NIE BĘDZIE A NA PEWNO BĘDZIE ROSŁO ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ✏️ TYLE PIENIĘDZY POLACY TRZYMAJĄ W GOTÓWCE. KWOTA ROBI WRAŻENIE ✏️15.08.2026Na koniec pierwszego kwartału tego roku Polacy posiadali w gotówce ponad 456 miliardów złotych. Oznacza to wzrost o przeszło 16 procent względem analogicznego okresu w zeszłym roku - wynika z danych Polskiego Funduszu Rozwoju.Polacy na koniec I kw. 2026 r. posiadali w gotówce 456 mld 369 mln zł, co stanowiło 11 proc. wszystkich aktywów finansowych gospodarstw domowych. To czyni gotówkę drugim, po depozytach bieżących, największym składnikiem oszczędności Polaków.Poziom gotówki zwiększył się w ujęciu kwartalnym o 2,9 proc., a w porównaniu do analogicznego kwartału rok wcześniej zgromadziliśmy o 16,2 proc. gotówki więcej.Gotówka w Polsce na tle UEPod względem wartości gotówki w relacji do PKB na tle innych państw Unii Europejskiej Polska, z udziałem wynoszącym 11,5 proc. , jest na trzecim miejscu w UE. O włos wyprzedzają nas na tym polu Słoweńcy i Niemcy. Za nami są Włochy i Węgry, z wynikiem 8,8 - 8,7 proc. a unijna średnia relacji gotówki do PKB wynosi 4,7 proc.CZYTAJ DALEJ: https://tvn24.pl/biznes/pieniadze/oszczedzanie-coraz-wiecej-srodkow-trzymamy-w-gotowce-polska-w-czolowce-ue-raport-polskiego-funduszu-rozwoju-st9190902 ✏️ DOBRA REKLAMA I GIGANTYCZNE PIENIĄDZE MOGĄ TRAFIĆ DO OKI ✏️",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76153561",
-      "author": "Paweł",
-      "postedAt": "2026-10-21 20:41",
-      "threadTitle": "Re: Ubrani po 24,20 wystąp !",
-      "url": "https://www.bankier.pl/forum/temat_re-ubrani-po-24-20-wystap,76153561.html",
-      "body": "ubierać sie ciepło",
       "votes": {
         "up": 0,
         "down": 0
@@ -1150,7 +1294,7 @@
       "url": "https://www.bankier.pl/forum/temat_w-q3-musza-pokazac-zysk-inaczej,76153361.html",
       "body": "Ciężko będzie o zysk skoro w 3q sprzedawali węgiel po 200$ , a nawet w 2q sprzedawali drożej bo po 209$ . Straty na koksie i koksowniach nadal olbrzymie , a zwolnienia i odejścia nastąpiły dopiero od sierpnia więc na razie dużych oszczędności na planie naprawczym nie będzie, ale trzeba być dobrej myśli.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -1178,7 +1322,21 @@
       "url": "https://www.bankier.pl/forum/temat_nie-bac-tuska,76152935.html",
       "body": "W punkt.",
       "votes": {
-        "up": 4,
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76153395",
+      "author": "Paweł",
+      "postedAt": "2026-10-21 20:26",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Jak z tym przesunięciem?",
+      "votes": {
+        "up": 0,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1206,7 +1364,7 @@
       "url": "https://www.bankier.pl/forum/temat_w-q3-musza-pokazac-zysk-inaczej,76153361.html",
       "body": "... nikt nie uwierzy w sukces restrukturyzacji. Wzrosty węgla koksowego doszły do 270 USD/t, a w kontraktach odległych spadły do 250 USD/t. JSW musi pokazać, że przy takich kursach jest już rentowna. Jeżeli nie to nici z finansowania komercyjnego, które nie rwie się z propozycjami. Na short squeeze ... no cóż, chyba już nie liczył bym, więcej jest wiszących (blokujących akcje) niż pożyczających na ORTEX, więc ci na ORTEX są spokojni. Trzeba potwierdzenia, że restrukturyzacja, przy warunkach rynkowych, przynosi efekty. Czekam.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 2
       },
       "sentimentScore": 0,
@@ -1318,7 +1476,7 @@
       "url": "https://www.bankier.pl/forum/temat_nie-bac-tuska,76152935.html",
       "body": "Tradera i Euklipedesa. Forumowy Gang Olsena.",
       "votes": {
-        "up": 9,
+        "up": 12,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1332,7 +1490,7 @@
       "url": "https://www.bankier.pl/forum/temat_jsw-uruchamia-nowe-sciany,76149095.html",
       "body": "szybko zasypują dobre wiadomości - a tu wychodzi na to, że nadgonią wydobycie w 4Q i wyniki będą rewelacyjne",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -1472,7 +1630,7 @@
       "url": "https://www.bankier.pl/forum/temat_22-40-od-gorki-z-10-wrzesnia-2026,76152075.html",
       "body": "Kolorowe ikonki na forum jak widać skutecznie kursowi pomagają.;)",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 1
       },
       "sentimentScore": 0,
@@ -1543,7 +1701,7 @@
       "body": ".. a fund golas bez akcji nie ma czym tłuc kursu bez pożyczania nowych akcji Fund boi się ,że za dużo akcji ulica i longi odbierają im. Hehehehe. Cieplo mają w tyłkach.",
       "votes": {
         "up": 3,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -1619,6 +1777,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "76149897",
+      "author": "Paweł",
+      "postedAt": "2026-10-21 15:25",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Admin regularnie sprząta te jego śmieci.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "76149867",
       "author": "Paweł",
       "postedAt": "2026-10-21 15:23",
@@ -1626,7 +1798,7 @@
       "url": "https://www.bankier.pl/forum/temat_papieru-pod-dostatkiem-miliony,76067501.html",
       "body": "Zamek na czerwono?",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -1745,6 +1917,20 @@
       "sentimentLabel": "Positive"
     },
     {
+      "id": "76146923",
+      "author": "ObserwatoR",
+      "postedAt": "2026-10-21 12:02",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Ikonkowy potwór siedzi tu 24 godziny na dobę.Dosłownie.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "76146591",
       "author": "Olo",
       "postedAt": "2026-10-21 11:38",
@@ -1843,6 +2029,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "76138995",
+      "author": "Paweł",
+      "postedAt": "2026-10-20 17:59",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Narazie -5% od wpisu.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "76138859",
       "author": "Paweł",
       "postedAt": "2026-10-20 17:51",
@@ -1879,6 +2079,20 @@
       "body": "Uwijać się podróby!",
       "votes": {
         "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76137557",
+      "author": "Paweł",
+      "postedAt": "2026-10-20 16:23",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "ObserwatoR miał rację.",
+      "votes": {
+        "up": 0,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2109,6 +2323,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "76128547",
+      "author": "Olo",
+      "postedAt": "2026-10-20 00:37",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "No nie pomogło.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "76128501",
       "author": "Olo",
       "postedAt": "2026-10-20 00:20",
@@ -2193,6 +2421,20 @@
       "sentimentLabel": "Negative"
     },
     {
+      "id": "76128169",
+      "author": "Paweł",
+      "postedAt": "2026-10-19 23:25",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Czyli jutro spadki.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
       "id": "76128121",
       "author": "Paweł",
       "postedAt": "2026-10-19 23:18",
@@ -2263,6 +2505,20 @@
       "sentimentLabel": "Positive"
     },
     {
+      "id": "76126075",
+      "author": "Paweł",
+      "postedAt": "2026-10-19 19:08",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Przesunęło się dzisiaj o ponad -4%.Widziałeś to Jasiu?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "76124515",
       "author": "Paweł",
       "postedAt": "2026-10-19 16:52",
@@ -2272,6 +2528,20 @@
       "votes": {
         "up": 15,
         "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76123247",
+      "author": "Paweł",
+      "postedAt": "2026-10-19 15:30",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Jak tam Jasiu?",
+      "votes": {
+        "up": 0,
+        "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2361,6 +2631,20 @@
       "sentimentLabel": "Positive"
     },
     {
+      "id": "76119975",
+      "author": "Paweł",
+      "postedAt": "2026-10-19 11:53",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "I cały weekend naganiania na forum jak krew w piach.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "76119571",
       "author": "Max",
       "postedAt": "2026-10-19 11:26",
@@ -2381,6 +2665,20 @@
       "threadTitle": "Re: Ubrani po 39 wystomp!",
       "url": "https://www.bankier.pl/forum/temat_ubrani-po-39-wystomp,76076549.html",
       "body": "Dzisiaj będzie kolejna ciekawa sesja.Obroni kurs 32?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76116279",
+      "author": "Max",
+      "postedAt": "2026-10-19 06:43",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Maniek vel Valuś cały weekend w ikonkach na forum.Wonderful life.;)",
       "votes": {
         "up": 1,
         "down": 0
@@ -2445,6 +2743,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "76116087",
+      "author": "Paweł",
+      "postedAt": "2026-10-19 05:46",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Dzisiaj blue monday?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "76116081",
       "author": "Paweł",
       "postedAt": "2026-10-19 05:44",
@@ -2494,7 +2806,7 @@
       "url": "https://www.bankier.pl/forum/temat_papieru-pod-dostatkiem-miliony,76067501.html",
       "body": "W każdej chwili mogę sprzedać i wyjść nadal na plus. Ale aktualnie nie oferujecie godnej ceny więc czekam. Bedzie 4 z przodu to 25% Wam łaskawie odsprzedam.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -2543,6 +2855,20 @@
       "sentimentLabel": "Neutral"
     },
     {
+      "id": "76113213",
+      "author": "Paweł",
+      "postedAt": "2026-10-18 15:39",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Mrzonki.Zerknij na raport.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
       "id": "76111599",
       "author": "Paweł",
       "postedAt": "2026-10-18 10:16",
@@ -2557,354 +2883,18 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76107885",
-      "author": "Paweł",
-      "postedAt": "2026-10-17 12:34",
-      "threadTitle": "Re: Ubrani po 39 wystomp!",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-39-wystomp,76076549.html",
-      "body": "Dlatego popyt zamiera.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76107817",
-      "author": "Paweł",
-      "postedAt": "2026-10-17 12:22",
-      "threadTitle": "Re: Papieru pod dostatkiem. Miliony.",
-      "url": "https://www.bankier.pl/forum/temat_papieru-pod-dostatkiem-miliony,76067501.html",
-      "body": "W tej cenie nie ma nowego jelenia.",
-      "votes": {
-        "up": 1,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76107733",
-      "author": "Paweł",
-      "postedAt": "2026-10-17 12:09",
-      "threadTitle": "Re: Dziś dzień otrzeźwiającej, zimnej wody na rozpalone głowy.",
-      "url": "https://www.bankier.pl/forum/temat_dzis-dzien-otrzezwiajacej-zimnej-wody-na-rozpalone-glowy,75739119.html",
-      "body": "Mam wątpliwości.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76106483",
-      "author": "ObserwatoR",
-      "postedAt": "2026-10-17 09:04",
-      "threadTitle": "Re: Papieru pod dostatkiem. Miliony.",
-      "url": "https://www.bankier.pl/forum/temat_papieru-pod-dostatkiem-miliony,76067501.html",
-      "body": "Akcji jest bez liku, tylko chętnych brak.Dlatego kurs się osuwa pod własnym ciężarem.",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76106417",
-      "author": "ObserwatoR",
-      "postedAt": "2026-10-17 08:53",
-      "threadTitle": "Re: Kupowanie na górce akcji JSW, jest jak całowanie tygrysa w d.",
-      "url": "https://www.bankier.pl/forum/temat_kupowanie-na-gorce-akcji-jsw-jest-jak-calowanie-tygrysa-w-d,76045723.html",
-      "body": "Bajki o szortach.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76106409",
-      "author": "ObserwatoR",
-      "postedAt": "2026-10-17 08:52",
-      "threadTitle": "Re: Ubrani po 39 wystomp!",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-39-wystomp,76076549.html",
-      "body": "Papier na starość?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76101993",
-      "author": "ObserwatoR",
-      "postedAt": "2026-10-16 15:38",
-      "threadTitle": "Re: Ubrani po 39 wystomp!",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-39-wystomp,76076549.html",
-      "body": "Jest wciąż bardzo drogo.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76101783",
-      "author": "ObserwatoR",
-      "postedAt": "2026-10-16 15:21",
-      "threadTitle": "Re: Gdy natarczywie i uparcie naganiają na kupno - sprzedawaj.",
-      "url": "https://www.bankier.pl/forum/temat_gdy-natarczywie-i-uparcie-naganiaja-na-kupno-sprzedawaj,75653159.html",
-      "body": "Czerwony piątek?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76101617",
-      "author": "ObserwatoR",
-      "postedAt": "2026-10-16 15:07",
-      "threadTitle": "Re: Kupowanie na górce akcji JSW, jest jak całowanie tygrysa w d.",
-      "url": "https://www.bankier.pl/forum/temat_kupowanie-na-gorce-akcji-jsw-jest-jak-calowanie-tygrysa-w-d,76045723.html",
-      "body": "Dosadny wątek, fajne.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76101581",
-      "author": "Paweł",
-      "postedAt": "2026-10-16 15:05",
-      "threadTitle": "Re: Papieru pod dostatkiem. Miliony.",
-      "url": "https://www.bankier.pl/forum/temat_papieru-pod-dostatkiem-miliony,76067501.html",
-      "body": "-76% od IPO.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76097259",
-      "author": "(usunięty)",
-      "postedAt": "2026-10-16 09:48",
-      "threadTitle": "(wiadomość usunięta przez moderatora)",
-      "url": "https://www.bankier.pl/forum/temat_papieru-pod-dostatkiem-miliony,76067501.html",
-      "body": "(wiadomość usunięta przez moderatora)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76097109",
-      "author": "Paweł",
-      "postedAt": "2026-10-16 09:39",
-      "threadTitle": "Re: Dziś dzień otrzeźwiającej, zimnej wody na rozpalone głowy.",
-      "url": "https://www.bankier.pl/forum/temat_dzis-dzien-otrzezwiajacej-zimnej-wody-na-rozpalone-glowy,75739119.html",
-      "body": "ObserwatoR trafnie pisze.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76096755",
+      "id": "76110819",
       "author": "Olo",
-      "postedAt": "2026-10-16 09:17",
-      "threadTitle": "Re: Papieru pod dostatkiem. Miliony.",
-      "url": "https://www.bankier.pl/forum/temat_papieru-pod-dostatkiem-miliony,76067501.html",
-      "body": "Wzrost ponad 40 % od początku roku. Gdzie są Ci od Maxia z hakami za 24 zł? Zeszli już czy nie ma szans?",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76096509",
-      "author": "Paweł",
-      "postedAt": "2026-10-16 09:01",
-      "threadTitle": "Re: Ubrani po 39 wystomp!",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-39-wystomp,76076549.html",
-      "body": "W szeregu nie zmieszczą się.",
+      "postedAt": "2026-10-18 00:40",
+      "threadTitle": "Re: Anty wskaźnik - całe strony w ikonkach na forum.",
+      "url": "https://www.bankier.pl/forum/temat_anty-wskaznik-cale-strony-w-ikonkach-na-forum,76106517.html",
+      "body": "Obserwator w punkt.",
       "votes": {
         "up": 0,
         "down": 0
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76096373",
-      "author": "Max",
-      "postedAt": "2026-10-16 08:52",
-      "threadTitle": "Re: Papieru pod dostatkiem. Miliony.",
-      "url": "https://www.bankier.pl/forum/temat_papieru-pod-dostatkiem-miliony,76067501.html",
-      "body": "Jak util?",
-      "votes": {
-        "up": 2,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76096319",
-      "author": "Paweł",
-      "postedAt": "2026-10-16 08:48",
-      "threadTitle": "Re: Kupowanie na górce akcji JSW, jest jak całowanie tygrysa w d.",
-      "url": "https://www.bankier.pl/forum/temat_kupowanie-na-gorce-akcji-jsw-jest-jak-calowanie-tygrysa-w-d,76045723.html",
-      "body": "Ryzyko narasta.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76096067",
-      "author": "Olo",
-      "postedAt": "2026-10-16 08:27",
-      "threadTitle": "Re: Ubrani po 39 wystomp!",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-39-wystomp,76076549.html",
-      "body": "W szeregu.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76093645",
-      "author": "Paweł",
-      "postedAt": "2026-10-15 20:14",
-      "threadTitle": "Re: Kupowanie na górce akcji JSW, jest jak całowanie tygrysa w d.",
-      "url": "https://www.bankier.pl/forum/temat_kupowanie-na-gorce-akcji-jsw-jest-jak-calowanie-tygrysa-w-d,76045723.html",
-      "body": "No hej?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76093297",
-      "author": "Paweł",
-      "postedAt": "2026-10-15 19:47",
-      "threadTitle": "Re: Papieru pod dostatkiem. Miliony.",
-      "url": "https://www.bankier.pl/forum/temat_papieru-pod-dostatkiem-miliony,76067501.html",
-      "body": "Jaki jest ff?Ulicznicy na haku?",
-      "votes": {
-        "up": 1,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76093259",
-      "author": "Paweł",
-      "postedAt": "2026-10-15 19:45",
-      "threadTitle": "Re: Ubrani po 39 wystomp!",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-39-wystomp,76076549.html",
-      "body": "Dobry wątek.Pouczający.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76092373",
-      "author": "Matematyk",
-      "postedAt": "2026-10-15 18:19",
-      "threadTitle": "Re: Kupowanie na górce akcji JSW, jest jak całowanie tygrysa w d.",
-      "url": "https://www.bankier.pl/forum/temat_kupowanie-na-gorce-akcji-jsw-jest-jak-calowanie-tygrysa-w-d,76045723.html",
-      "body": "Nie rozumiem pytania. Serio co? Sprecyzuj.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76091585",
-      "author": "Paweł",
-      "postedAt": "2026-10-15 17:02",
-      "threadTitle": "Re: Kupowanie na górce akcji JSW, jest jak całowanie tygrysa w d.",
-      "url": "https://www.bankier.pl/forum/temat_kupowanie-na-gorce-akcji-jsw-jest-jak-calowanie-tygrysa-w-d,76045723.html",
-      "body": "Serio?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76091545",
-      "author": "Paweł",
-      "postedAt": "2026-10-15 16:59",
-      "threadTitle": "Re: Ubrani po 39 wystomp!",
-      "url": "https://www.bankier.pl/forum/temat_ubrani-po-39-wystomp,76076549.html",
-      "body": "Wątek w punkt.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76089907",
-      "author": "Telewidz",
-      "postedAt": "2026-10-15 15:09",
-      "threadTitle": "Re: FUNKCJONARIUSZE PUBLICZNI DO ODSIADEK",
-      "url": "https://www.bankier.pl/forum/temat_funkcjonariusze-publiczni-do-odsiadek,75915325.html",
-      "body": "Trollu opłacany w rublach wypad do TVZARUBLIKA!!!",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76087455",
-      "author": "Koniec_Knf_i_ABW",
-      "postedAt": "2026-10-15 12:25",
-      "threadTitle": "Re: FUNKCJONARIUSZE PUBLICZNI DO ODSIADEK 700 000 000 straty",
-      "url": "https://www.bankier.pl/forum/temat_funkcjonariusze-publiczni-do-odsiadek,75915325.html",
-      "body": "Czy Kłania się kolejny SABOTAŻ? Art 231 256 258 i inne kodeksu karnego .https://youtube.com/shorts/pjjCIiI2jz8?is=xHrsZ8aCX8RVA8ZT",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     }
   ]
 }
