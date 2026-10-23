@@ -3,11 +3,11 @@
   "companyName": "DINO POLSKA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska,6,21,10000001632.html",
-  "updatedAt": "2026-10-22T21:34:51.997Z",
+  "updatedAt": "2026-10-23T04:47:28.154Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-22T21:34:51.997Z",
+    "fetchedAt": "2026-10-23T04:47:28.154Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.079,
+    "score": 0.084,
     "confidence": 0.73,
     "commentCount": 200,
     "breakdown": {
-      "positive": 53,
+      "positive": 54,
       "negative": 28,
-      "neutral": 119
+      "neutral": 118
     },
     "trend": [
       {
         "date": "2026-10-19",
-        "score": -0.02,
-        "count": 13
+        "score": -0.073,
+        "count": 8
       },
       {
         "date": "2026-10-20",
@@ -41,12 +41,17 @@
       },
       {
         "date": "2026-10-22",
-        "score": 0.152,
-        "count": 74
+        "score": 0.158,
+        "count": 76
+      },
+      {
+        "date": "2026-10-23",
+        "score": 0.107,
+        "count": 3
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (53 pozytywnych, 28 negatywnych, 119 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (54 pozytywnych, 28 negatywnych, 118 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
@@ -55,6 +60,10 @@
       {
         "word": "zdaniem",
         "count": 9
+      },
+      {
+        "word": "zysku",
+        "count": 8
       },
       {
         "word": "wiem",
@@ -69,7 +78,7 @@
         "count": 8
       },
       {
-        "word": "zysku",
+        "word": "roku",
         "count": 7
       },
       {
@@ -81,16 +90,82 @@
         "count": 7
       },
       {
-        "word": "roku",
-        "count": 6
-      },
-      {
         "word": "bede",
         "count": 6
       }
     ]
   },
   "comments": [
+    {
+      "id": "76169029",
+      "author": "Pazdziernik",
+      "postedAt": "2026-10-23 05:18",
+      "threadTitle": "Re: Ile ktory ma zysku w procentach",
+      "url": "https://www.bankier.pl/forum/temat_ile-ktory-ma-zysku-w-procentach,76158395.html",
+      "body": "Za 2 bańki kupione, Średnia 28,23 zł. Pozdrawiam :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76168959",
+      "author": "Rocco",
+      "postedAt": "2026-10-23 04:11",
+      "threadTitle": "Re: Jutro obstawiam 40,5 - 41,00. Już Po korekcie.",
+      "url": "https://www.bankier.pl/forum/temat_jutro-obstawiam-40-5-41-00-juz-po-korekcie,76168091.html",
+      "body": "Oto jest pytanie, miało być 40+ ale w tramplandi południe, i co teraz?!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76168951",
+      "author": "Pawel",
+      "postedAt": "2026-10-23 03:53",
+      "threadTitle": "Re: czy jest jeszcze ktoś kto nie wsiadł do pociągu \"Dino\" ??",
+      "url": "https://www.bankier.pl/forum/temat_czy-jest-jeszcze-ktos-kto-nie-wsiadl-do-pociagu-dino,76162497.html",
+      "body": "Mysle ze do 49zl to napewno dojdzie w tym roku",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76168581",
+      "author": "Grande",
+      "postedAt": "2026-10-22 23:56",
+      "threadTitle": "Re: czy jest jeszcze ktoś kto nie wsiadł do pociągu \"Dino\" ??",
+      "url": "https://www.bankier.pl/forum/temat_czy-jest-jeszcze-ktos-kto-nie-wsiadl-do-pociagu-dino,76162497.html",
+      "body": "Jak myślicie do ilu dojdzie?",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76168489",
+      "author": "Misiu",
+      "postedAt": "2026-10-22 23:40",
+      "threadTitle": "Re: Ile ktory ma zysku w procentach",
+      "url": "https://www.bankier.pl/forum/temat_ile-ktory-ma-zysku-w-procentach,76158395.html",
+      "body": "No to jak podłączyłem mam 27% zysku na giełdzie USA. Różne akcje: Broadcom, Microsoft, Oracle, SpaceX. Zysk zrealizowany oczywiście. Świat bez Dino też istnieje i ma się nieźle. :D",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76168427",
       "author": "Ubranyy",
@@ -127,7 +202,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-obstawiam-40-5-41-00-juz-po-korekcie,76168091.html",
       "body": "Inwestycje i wyniki DINO są dobrym przykładem dla wielu spółek dot. dobrego rozwoju i wzrostu przychodów.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -183,7 +258,7 @@
       "url": "https://www.bankier.pl/forum/temat_pod-kasy-samoobslugowe,76162341.html",
       "body": "Moze specjalnie, kazdy wie ze sporo zysku ucieka na wybieraniu produktu ważonego przez kupującego, brzoskwinia, ziemniak, co za różnica..",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -323,7 +398,7 @@
       "url": "https://www.bankier.pl/forum/temat_pod-kasy-samoobslugowe,76162341.html",
       "body": "Kasy samoobsługowe nie mają związków zawodowych..",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -365,7 +440,7 @@
       "url": "https://www.bankier.pl/forum/temat_pod-kasy-samoobslugowe,76162341.html",
       "body": "Jutro będzie ciekawie. Opstawiam jutro zieleń.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -435,7 +510,7 @@
       "url": "https://www.bankier.pl/forum/temat_kasy-samoobslugowe,76162143.html",
       "body": "Najlepsza odpowiedz dla strajkujacych… opzz niech sie zastanowi",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -463,7 +538,7 @@
       "url": "https://www.bankier.pl/forum/temat_kasy-samoobslugowe,76162143.html",
       "body": "Co najważniejsze, nie zapisze się do OPZZ.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -505,7 +580,7 @@
       "url": "https://www.bankier.pl/forum/temat_kasy-samoobslugowe,76162143.html",
       "body": "I pięknie...kasa nie chce podwyżki, nie idzie na L4 . Więcej tak dobrych informacji prosimy. Info z butelkomatami też doskonałe.",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0,
@@ -589,8 +664,8 @@
       "url": "https://www.bankier.pl/forum/temat_czy-jest-jeszcze-ktos-kto-nie-wsiadl-do-pociagu-dino,76162497.html",
       "body": "Mnie troche zastanawia dlaczego nie skupuja jeszcze ponizej 40 zł za akcje, przeciez zaraz nie ebdzie juz powrotu do 3 z przodu",
       "votes": {
-        "up": 1,
-        "down": 0
+        "up": 2,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -603,8 +678,8 @@
       "url": "https://www.bankier.pl/forum/temat_czy-jest-jeszcze-ktos-kto-nie-wsiadl-do-pociagu-dino,76162497.html",
       "body": "shortom pali się pod nogami.lada chwila będą skupować.a mają trochę do odkupu.wiecie co sie stanie wtedy z kursem :)",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -632,7 +707,7 @@
       "body": "Zwolnią za to pracowników. I po strajkach. Fajnie to wymyślili",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -659,7 +734,7 @@
       "url": "https://www.bankier.pl/forum/temat_pod-kasy-samoobslugowe,76162341.html",
       "body": "Rośnie nawet pod takie info xd",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -855,7 +930,7 @@
       "url": "https://www.bankier.pl/forum/temat_ile-ktory-ma-zysku-w-procentach,76158395.html",
       "body": "Ok.4 % zysku. Kupowałem na górce i potem uśredniałem. Bedę trzymał do momentu aż firma przestanie otwierać nowe markety i jak wtedy rynek zareaguje na generowane zyski. Myślę, że to będzie trawło około 2 lat.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.931,
@@ -2817,76 +2892,6 @@
       "votes": {
         "up": 4,
         "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76125557",
-      "author": "MSI",
-      "postedAt": "2026-10-19 18:11",
-      "threadTitle": "Re: No to duzo dzis nie odkupili",
-      "url": "https://www.bankier.pl/forum/temat_no-to-duzo-dzis-nie-odkupili,76124057.html",
-      "body": "Może i Radi rozmawia sam ze sobą ale akurat tutaj ma rację, skoro fundusze nie zamykają krótkich a wycena akcji rośnie to przy dodatkowym wykupie będzie petarda",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76125173",
-      "author": "Misiu",
-      "postedAt": "2026-10-19 17:38",
-      "threadTitle": "Re: Kurs Dino rośnie mimo (a może dzięki) spadkom innych spółek",
-      "url": "https://www.bankier.pl/forum/temat_kurs-dino-rosnie-mimo-a-moze-dzieki-spadkom-innych-spolek,76120429.html",
-      "body": "Klaun to był poprzednio. Teraz jest kibol.",
-      "votes": {
-        "up": 2,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76124835",
-      "author": "Akcjonariusz",
-      "postedAt": "2026-10-19 17:16",
-      "threadTitle": "Re: Kurs Dino rośnie mimo (a może dzięki) spadkom innych spółek",
-      "url": "https://www.bankier.pl/forum/temat_kurs-dino-rosnie-mimo-a-moze-dzieki-spadkom-innych-spolek,76120429.html",
-      "body": "Skończcie te przepychanki tu tematem jest dino a wy zachowywujecie się jak dzieci prezydent jest taki jakiego społeczeństwo wybrało zanim będziemy wybierać zgodnie z własną logika a nie za nakazem partyjnym upłynie jeszcze wiele lat",
-      "votes": {
-        "up": 3,
-        "down": 4
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76124723",
-      "author": "Roman",
-      "postedAt": "2026-10-19 17:07",
-      "threadTitle": "Re: Kurs Dino rośnie mimo (a może dzięki) spadkom innych spółek",
-      "url": "https://www.bankier.pl/forum/temat_kurs-dino-rosnie-mimo-a-moze-dzieki-spadkom-innych-spolek,76120429.html",
-      "body": "Gdy klaun wprowadza się do pałacu, nie staje się królem. To pałac staje się cyrkiem",
-      "votes": {
-        "up": 5,
-        "down": 7
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76124697",
-      "author": "Roman",
-      "postedAt": "2026-10-19 17:06",
-      "threadTitle": "Re: Kurs Dino rośnie mimo (a może dzięki) spadkom innych spółek",
-      "url": "https://www.bankier.pl/forum/temat_kurs-dino-rosnie-mimo-a-moze-dzieki-spadkom-innych-spolek,76120429.html",
-      "body": "My nie mamy prezydenta",
-      "votes": {
-        "up": 6,
-        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
