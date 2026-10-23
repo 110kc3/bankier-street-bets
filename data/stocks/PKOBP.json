@@ -3,11 +3,11 @@
   "companyName": "PKO BP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp,6,21,10000000062.html",
-  "updatedAt": "2026-10-23T17:07:41.652Z",
+  "updatedAt": "2026-10-23T21:25:09.722Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-23T17:07:41.652Z",
+    "fetchedAt": "2026-10-23T21:25:09.722Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.049,
-    "confidence": 0.67,
-    "commentCount": 53,
+    "score": 0.046,
+    "confidence": 0.68,
+    "commentCount": 55,
     "breakdown": {
       "positive": 13,
       "negative": 7,
-      "neutral": 33
+      "neutral": 35
     },
     "trend": [
       {
@@ -51,23 +51,35 @@
       },
       {
         "date": "2026-10-23",
-        "score": 0.097,
-        "count": 6
+        "score": 0.073,
+        "count": 8
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 53 komentarzy z ostatnich 7 dni: nastroje mieszane (13 pozytywnych, 7 negatywnych, 33 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 55 komentarzy z ostatnich 7 dni: nastroje mieszane (13 pozytywnych, 7 negatywnych, 35 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "zawsze",
         "count": 5
       },
       {
+        "word": "bankach",
+        "count": 4
+      },
+      {
         "word": "reko",
         "count": 4
       },
       {
-        "word": "bankach",
+        "word": "koniec",
+        "count": 3
+      },
+      {
+        "word": "dluzej",
+        "count": 3
+      },
+      {
+        "word": "listopada",
         "count": 3
       },
       {
@@ -75,32 +87,48 @@
         "count": 3
       },
       {
+        "word": "korekty",
+        "count": 2
+      },
+      {
+        "word": "przy",
+        "count": 2
+      },
+      {
         "word": "wyniki",
-        "count": 2
-      },
-      {
-        "word": "listopada",
-        "count": 2
-      },
-      {
-        "word": "pkobp",
-        "count": 2
-      },
-      {
-        "word": "roku",
-        "count": 2
-      },
-      {
-        "word": "dojdzie",
-        "count": 2
-      },
-      {
-        "word": "czas",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76179599",
+      "author": "Magellan",
+      "postedAt": "2026-10-23 20:20",
+      "threadTitle": "Re: Ważne daty",
+      "url": "https://www.bankier.pl/forum/temat_wazne-daty,76178927.html",
+      "body": "ja po 112 uciekłemtrzeba czekać na koniec korekty na bankach nie ma co się kopać z koniem",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76179083",
+      "author": "Nowy",
+      "postedAt": "2026-10-23 19:26",
+      "threadTitle": "Re: Ważne daty",
+      "url": "https://www.bankier.pl/forum/temat_wazne-daty,76178927.html",
+      "body": "Wszedłem wczoraj przy 114 zł. No coś czuję, że powiszę na haku i chyba dłużej niż do 5 listopada hehhe.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76178927",
       "author": "Gekon",
@@ -291,7 +319,7 @@
       "url": "https://www.bankier.pl/forum/temat_cisnie-gnida-cisnie,76120105.html",
       "body": "Dwa kroki do przodu, trzy kroki do tyłu itd.....",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,

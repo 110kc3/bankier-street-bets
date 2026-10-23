@@ -3,11 +3,11 @@
   "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
-  "updatedAt": "2026-10-23T17:07:47.104Z",
+  "updatedAt": "2026-10-23T21:25:13.054Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-23T17:07:47.104Z",
+    "fetchedAt": "2026-10-23T21:25:13.054Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.008,
+    "score": -0.012,
     "confidence": 0.7,
     "commentCount": 61,
     "breakdown": {
-      "positive": 15,
+      "positive": 14,
       "negative": 14,
-      "neutral": 32
+      "neutral": 33
     },
     "trend": [
-      {
-        "date": "2026-10-16",
-        "score": 0.583,
-        "count": 1
-      },
       {
         "date": "2026-10-17",
         "score": -0.322,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-10-23",
-        "score": -0.448,
-        "count": 3
+        "score": -0.336,
+        "count": 4
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 61 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 14 negatywnych, 32 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 61 komentarzy z ostatnich 7 dni: nastroje mieszane (14 pozytywnych, 14 negatywnych, 33 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "albo",
@@ -111,6 +106,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "76179021",
+      "author": "DAD",
+      "postedAt": "2026-10-23 19:17",
+      "threadTitle": "Re: 79,13 PLN średnia docelowa crna",
+      "url": "https://www.bankier.pl/forum/temat_79-13-pln-srednia-docelowa-crna,75986929.html",
+      "body": "głos z samego zarządu, bardzo przekonywujący.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76178785",
       "author": "Monika",
@@ -950,20 +959,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76104655",
-      "author": "Antydebil",
-      "postedAt": "2026-10-16 20:07",
-      "threadTitle": "Re: znacie już wynik za 3 kw ?",
-      "url": "https://www.bankier.pl/forum/temat_znacie-juz-wynik-za-3-kw,76061507.html",
-      "body": "No i co?Super ciekawy moment. Weekend ale na fixie w gore.Ludzie sie nie bali?74.2. Gtosze od ath po odcieciu. Czy to jest ta fala ostatnia pod wyniki? A moze jednak bedzie to wasze 100?",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }
