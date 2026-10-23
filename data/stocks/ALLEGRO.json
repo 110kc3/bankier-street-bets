@@ -3,31 +3,31 @@
   "companyName": "ALLEGRO.EU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu,6,21,10000001753.html",
-  "updatedAt": "2026-10-23T04:46:51.731Z",
+  "updatedAt": "2026-10-23T11:36:12.406Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-23T04:46:51.732Z",
+    "fetchedAt": "2026-10-23T11:36:12.406Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 36
+    "threadsScanned": 32
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.07,
-    "confidence": 0.72,
-    "commentCount": 124,
+    "score": -0.092,
+    "confidence": 0.73,
+    "commentCount": 117,
     "breakdown": {
-      "positive": 27,
-      "negative": 46,
-      "neutral": 51
+      "positive": 28,
+      "negative": 41,
+      "neutral": 48
     },
     "trend": [
       {
         "date": "2026-10-16",
-        "score": -0.291,
-        "count": 31
+        "score": -0.264,
+        "count": 14
       },
       {
         "date": "2026-10-17",
@@ -53,41 +53,26 @@
         "date": "2026-10-22",
         "score": -0.07,
         "count": 17
+      },
+      {
+        "date": "2026-10-23",
+        "score": -0.355,
+        "count": 10
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 124 komentarzy z ostatnich 7 dni: nastroje mieszane (27 pozytywnych, 46 negatywnych, 51 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 117 komentarzy z ostatnich 7 dni: nastroje mieszane (28 pozytywnych, 41 negatywnych, 48 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
-        "word": "szorty",
-        "count": 13
-      },
-      {
         "word": "korekta",
-        "count": 10
-      },
-      {
-        "word": "kase",
         "count": 9
       },
       {
+        "word": "szorty",
+        "count": 7
+      },
+      {
         "word": "allegro",
-        "count": 7
-      },
-      {
-        "word": "super",
-        "count": 7
-      },
-      {
-        "word": "dalej",
-        "count": 7
-      },
-      {
-        "word": "jola",
-        "count": 6
-      },
-      {
-        "word": "chlopie",
         "count": 6
       },
       {
@@ -95,12 +80,172 @@
         "count": 6
       },
       {
-        "word": "szortach",
-        "count": 6
+        "word": "czas",
+        "count": 5
+      },
+      {
+        "word": "kolejne",
+        "count": 5
+      },
+      {
+        "word": "powyzej",
+        "count": 5
+      },
+      {
+        "word": "skoro",
+        "count": 5
+      },
+      {
+        "word": "kase",
+        "count": 5
+      },
+      {
+        "word": "jola",
+        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "76174573",
+      "author": "Jola",
+      "postedAt": "2026-10-23 13:22",
+      "threadTitle": "Re: Sprzedawać",
+      "url": "https://www.bankier.pl/forum/temat_sprzedawac,76173533.html",
+      "body": "Najlepiej nie kupować papierów spółek spekulacyjnych, zarejestrowanych poza granicami kraju, w tzw. rajach podatkowych.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76174389",
+      "author": "Jan",
+      "postedAt": "2026-10-23 13:07",
+      "threadTitle": "Re: Sprzedawać",
+      "url": "https://www.bankier.pl/forum/temat_sprzedawac,76173533.html",
+      "body": "Ej brzidoku nie mów tak",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76174141",
+      "author": "Dik",
+      "postedAt": "2026-10-23 12:52",
+      "threadTitle": "Re: Sprzedawać",
+      "url": "https://www.bankier.pl/forum/temat_sprzedawac,76173533.html",
+      "body": "To sprzedaj swoją 1 akcje",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76174087",
+      "author": "Byq",
+      "postedAt": "2026-10-23 12:48",
+      "threadTitle": "Re: Sprzedawać",
+      "url": "https://www.bankier.pl/forum/temat_sprzedawac,76173533.html",
+      "body": "Nie chce za bardzo spadać",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76173533",
+      "author": "Jan",
+      "postedAt": "2026-10-23 12:09",
+      "threadTitle": "Sprzedawać",
+      "url": "https://www.bankier.pl/forum/temat_sprzedawac,76173533.html",
+      "body": "Czas sprzedać",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76171383",
+      "author": "Adi",
+      "postedAt": "2026-10-23 09:59",
+      "threadTitle": "Re: Alegro SCAM",
+      "url": "https://www.bankier.pl/forum/temat_alegro-scam,76167857.html",
+      "body": "Dzisiaj atak na 6 z przodu nic na to nie poradzicie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76170837",
+      "author": "Prawda",
+      "postedAt": "2026-10-23 09:37",
+      "threadTitle": "Re: Alegro SCAM",
+      "url": "https://www.bankier.pl/forum/temat_alegro-scam,76167857.html",
+      "body": "Poki co 0,5% straty, wytrzymam kolejne 4%, wtedy doloze i dopiero powyzej 6% moge peknac. Tu pojdzie raczej szybka korekta z 20%",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76169635",
+      "author": "xyz",
+      "postedAt": "2026-10-23 08:19",
+      "threadTitle": "Re: jutro 61?",
+      "url": "https://www.bankier.pl/forum/temat_jutro-61,76151073.html",
+      "body": "Kiedyś któryś z was pewnie trafi z tymi prognozami :)I będzie - a nie mówiłem?Hhaaha",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76169619",
+      "author": "xyz",
+      "postedAt": "2026-10-23 08:17",
+      "threadTitle": "Re: Alegro SCAM",
+      "url": "https://www.bankier.pl/forum/temat_alegro-scam,76167857.html",
+      "body": "Napisz to samo tutaj tylko że powyżej 200 :)A na razie to dopłacaj do depozytu albo zamykaj tego shorta póki mała strata :)",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.931,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76169607",
+      "author": "xyz",
+      "postedAt": "2026-10-23 08:16",
+      "threadTitle": "Re: Skup akcji wlasnych wyżej niż 65",
+      "url": "https://www.bankier.pl/forum/temat_skup-akcji-wlasnych-wyzej-niz-65,76166075.html",
+      "body": "Dzisiaj to przebijamy 6 dyszek gościu ,odkurzacz włączony :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76168255",
       "author": "speculo",
@@ -123,8 +268,8 @@
       "url": "https://www.bankier.pl/forum/temat_alegro-scam,76167857.html",
       "body": "Uwaga - ta spolka to juz hiperboliczna abstrakcja/scam. Pojawilem sie tu dzisiaj bo wczoraj zalozylem shorty, longom radze sprzedawac. To samo pisalem na modivo powyzej 300.",
       "votes": {
-        "up": 1,
-        "down": 2
+        "up": 3,
+        "down": 7
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
@@ -165,7 +310,7 @@
       "url": "https://www.bankier.pl/forum/temat_skup-akcji-wlasnych-wyzej-niz-65,76166075.html",
       "body": "O co zakład ze podwyższa?",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -264,7 +409,7 @@
       "body": "Rzeczywiście cudowny widok. Płaczące gacie i prawie odlot",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -277,7 +422,7 @@
       "url": "https://www.bankier.pl/forum/temat_placz-szortow-to-najpieknieszy-widok-tutaj,76154529.html",
       "body": "lol, powtarzasz ten smętny kawałek jak stara, zacięta płyta. Zmień repertuar dziewczyno.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": 0,
@@ -347,8 +492,8 @@
       "url": "https://www.bankier.pl/forum/temat_placz-szortow-to-najpieknieszy-widok-tutaj,76154529.html",
       "body": "Pięknie się czyta jak szorty tutaj płaczą :). Super że tracicie kasę i kolejne depozyty :)",
       "votes": {
-        "up": 2,
-        "down": 2
+        "up": 3,
+        "down": 3
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -445,7 +590,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-61,76151073.html",
       "body": "Na spółce rosnącej RSI dzienne może dość długo się utrzymywać na poziomie ponad 80. A tutaj do ok. 65 większych oporów być nie powinno.",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -459,7 +604,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-61,76151073.html",
       "body": "to dziś warto kupić :DDD tylko to RSI na dziennym 84 :DDDDDDDDDD",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -963,7 +1108,7 @@
       "url": "https://www.bankier.pl/forum/temat_cena-docelowa-67-50,76130527.html",
       "body": "Nowa rekomendacja od analityków Ipopemy.dalej jazda...",
       "votes": {
-        "up": 18,
+        "up": 19,
         "down": 1
       },
       "sentimentScore": 0,
@@ -1594,244 +1739,6 @@
       "body": "Coro....po co tu jestes marnujesz czas skoro nie widzisz czym rozni sie Allegro od platform chinskich",
       "votes": {
         "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76100081",
-      "author": "lol",
-      "postedAt": "2026-10-16 13:06",
-      "threadTitle": "Re: W listopadzie wchodzi kolejne cło 2€ na każdą rzecz z Chin. Lecimy65",
-      "url": "https://www.bankier.pl/forum/temat_w-listopadzie-wchodzi-kolejne-clo-2-na-kazda-rzecz-z-chin-lecimy65-100,76098477.html",
-      "body": "Jak ja się cieszę chłopie że płaczesz coraz mocniej :). Super :). Nawet nie wiesz jaką radość mi sprawiasz że tracisz kasę na szortach :). Pięknie się czyta te zaklinanie rzeczywistości przez szorty :). Lecimy śmiało teraz na 65zł :) by znowu wyzerować szorty :). Każde +10% to jest strata całej kasy i kolejnego depoyty dla szortów :)",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76099941",
-      "author": "Jola",
-      "postedAt": "2026-10-16 12:56",
-      "threadTitle": "Re: W listopadzie wchodzi kolejne cło 2€ na każdą rzecz z Chin. Lecimy65",
-      "url": "https://www.bankier.pl/forum/temat_w-listopadzie-wchodzi-kolejne-clo-2-na-kazda-rzecz-z-chin-lecimy65-100,76098477.html",
-      "body": "lol, czy ty masz też inne teksty? Prawda jest taka, że wszystkie chińskie portale mają już magazyny w Europie i wysyłają bez cła. Jest tanio jak kiedyś i szybko jak nigdy. Rozkręcają właśnie kampanię reklamową. Alledrogo też wydaje kasę na kampanie jak wściekłe, ale to już kwestia miesięcy jak go dojadą. Obecny ruch na papierach uważam za spekulacyjny i jestem pewna, że w niedługiej perspektywie wiele osób straci bardzo dużo pieniążków. Zaraz odezwą się naganiacze z kółeczkami, ale kij Januszom w oko...",
-      "votes": {
-        "up": 3,
-        "down": 6
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76099531",
-      "author": "lol",
-      "postedAt": "2026-10-16 12:29",
-      "threadTitle": "Re: W listopadzie wchodzi kolejne cło 2€ na każdą rzecz z Chin. Lecimy65",
-      "url": "https://www.bankier.pl/forum/temat_w-listopadzie-wchodzi-kolejne-clo-2-na-kazda-rzecz-z-chin-lecimy65-100,76098477.html",
-      "body": "Płacz dziecko płacz. Super że masz szorty i tracisz kasę :). Opłata wynosi 2€ od każdej rzeczy",
-      "votes": {
-        "up": 2,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76098693",
-      "author": "lol",
-      "postedAt": "2026-10-16 11:25",
-      "threadTitle": "W listopadzie Skup do 65. Szorty załamane. Cel 65-100",
-      "url": "https://www.bankier.pl/forum/temat_w-listopadzie-skup-do-65-szorty-zalamane-cel-65-100,76098693.html",
-      "body": "Pięknie się czyta jak szorty bankrutują",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76098681",
-      "author": "lol",
-      "postedAt": "2026-10-16 11:24",
-      "threadTitle": "Kolejne bardzo dobre wyniki w listopadzie. Cel 65-100",
-      "url": "https://www.bankier.pl/forum/temat_kolejne-bardzo-dobre-wyniki-w-listopadzie-cel-65-100,76098681.html",
-      "body": "W listopadzie będą publikowane znowu bardzo dobre wyniki finansowe. Szorty załamane :)",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76098605",
-      "author": "combo",
-      "postedAt": "2026-10-16 11:18",
-      "threadTitle": "Re: Inwestycja długoterminowa",
-      "url": "https://www.bankier.pl/forum/temat_inwestycja-dlugoterminowa,74813399.html",
-      "body": "Przed nami opór 58 (50% spadkowego zniesienia fibo all time). Trzymam kciuki aby dowieźli!",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76098531",
-      "author": "Jola",
-      "postedAt": "2026-10-16 11:13",
-      "threadTitle": "Re: Będzie piękna katastrofa.",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-piekna-katastrofa,76098137.html",
-      "body": "lol dziewczynko, kup spadochron bo będzie bolało.",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76098521",
-      "author": "Zatar",
-      "postedAt": "2026-10-16 11:13",
-      "threadTitle": "W listopadzie wchodzi kolejne cło 2€ na każdą rzecz z Chin. Lecimy65-100",
-      "url": "https://www.bankier.pl/forum/temat_w-listopadzie-wchodzi-kolejne-clo-2-na-kazda-rzecz-z-chin-lecimy65-100,76098477.html",
-      "body": "To opłata manipulacyjna - tak opłaca się brać u chińczyka pasek do zegarka 13 zł taki sam na allegro 65",
-      "votes": {
-        "up": 3,
-        "down": 2
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76098477",
-      "author": "lol",
-      "postedAt": "2026-10-16 11:09",
-      "threadTitle": "W listopadzie wchodzi kolejne cło 2€ na każdą rzecz z Chin. Lecimy65-100",
-      "url": "https://www.bankier.pl/forum/temat_w-listopadzie-wchodzi-kolejne-clo-2-na-kazda-rzecz-z-chin-lecimy65-100,76098477.html",
-      "body": "Należy pamiętać w listopadzie chodzi kolejne cło",
-      "votes": {
-        "up": 4,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76098451",
-      "author": "lol",
-      "postedAt": "2026-10-16 11:07",
-      "threadTitle": "Piękny widok jak szorty dalej tracą kasę :).SUPER :). Cel 65-100",
-      "url": "https://www.bankier.pl/forum/temat_piekny-widok-jak-szorty-dalej-traca-kase-super-cel-65-100,76098451.html",
-      "body": "Fajnie się czyta jak szorty panikują i płaczą bo dalej wszystko tracą :). Piękny widok :)",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76098437",
-      "author": "lol",
-      "postedAt": "2026-10-16 11:06",
-      "threadTitle": "Re: Będzie piękna katastrofa.",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-piekna-katastrofa,76098137.html",
-      "body": "Jola chłopie jak my sbędziemy e cieszymy że dalej masz szorty u tracisz kasę :) SUPER :). Uzupełniaj szybko kolejny depozyt na swoich szortach i płacz dalej",
-      "votes": {
-        "up": 4,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76098137",
-      "author": "Jola",
-      "postedAt": "2026-10-16 10:46",
-      "threadTitle": "Będzie piękna katastrofa.",
-      "url": "https://www.bankier.pl/forum/temat_bedzie-piekna-katastrofa,76098137.html",
-      "body": "Już prażę popcorn i czekam na spektakl.",
-      "votes": {
-        "up": 2,
-        "down": 6
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76097531",
-      "author": "Ryzyk",
-      "postedAt": "2026-10-16 10:04",
-      "threadTitle": "Re: Teraz tylko szorty",
-      "url": "https://www.bankier.pl/forum/temat_teraz-tylko-szorty,76080223.html",
-      "body": "Jakaś korekta będzie",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76097419",
-      "author": "xyz",
-      "postedAt": "2026-10-16 09:58",
-      "threadTitle": "Re: 6 dyszek jeszcze w październiku",
-      "url": "https://www.bankier.pl/forum/temat_6-dyszek-jeszcze-w-pazdzierniku,76088721.html",
-      "body": "Brawo Ty :)",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76097371",
-      "author": "CICHAWODA",
-      "postedAt": "2026-10-16 09:55",
-      "threadTitle": "Re: 6 dyszek jeszcze w październiku",
-      "url": "https://www.bankier.pl/forum/temat_6-dyszek-jeszcze-w-pazdzierniku,76088721.html",
-      "body": "A W GRUDNIU ZAKUPY I 80,-",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76097195",
-      "author": "xyz",
-      "postedAt": "2026-10-16 09:44",
-      "threadTitle": "Re: 6 dyszek jeszcze w październiku",
-      "url": "https://www.bankier.pl/forum/temat_6-dyszek-jeszcze-w-pazdzierniku,76088721.html",
-      "body": "Oj chyba więcej,65 mogą machnąć spokojnie :)Chyba że pomarańczowy znowu zagra na krótko :)",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76097117",
-      "author": "Ryzyk",
-      "postedAt": "2026-10-16 09:40",
-      "threadTitle": "Re: Teraz tylko szorty",
-      "url": "https://www.bankier.pl/forum/temat_teraz-tylko-szorty,76080223.html",
-      "body": "Dzisiaj może będzie korekta",
-      "votes": {
-        "up": 0,
         "down": 1
       },
       "sentimentScore": -0.322,

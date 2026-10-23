@@ -3,31 +3,31 @@
   "companyName": "LPP",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp,6,21,134.html",
-  "updatedAt": "2026-10-23T04:48:08.484Z",
+  "updatedAt": "2026-10-23T11:38:01.798Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-23T04:48:08.484Z",
+    "fetchedAt": "2026-10-23T11:38:01.798Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 21
+    "threadsScanned": 20
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.038,
+    "score": 0.04,
     "confidence": 0.71,
-    "commentCount": 86,
+    "commentCount": 83,
     "breakdown": {
       "positive": 26,
-      "negative": 24,
-      "neutral": 36
+      "negative": 22,
+      "neutral": 35
     },
     "trend": [
       {
         "date": "2026-09-23",
-        "score": -0.012,
-        "count": 5
+        "score": 0.291,
+        "count": 2
       },
       {
         "date": "2026-09-24",
@@ -151,7 +151,7 @@
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 86 komentarzy z ostatnich 30 dni: nastroje mieszane (26 pozytywnych, 24 negatywnych, 36 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 83 komentarzy z ostatnich 30 dni: nastroje mieszane (26 pozytywnych, 22 negatywnych, 35 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
@@ -163,10 +163,6 @@
       },
       {
         "word": "troche",
-        "count": 6
-      },
-      {
-        "word": "dywidenda",
         "count": 6
       },
       {
@@ -191,6 +187,10 @@
       },
       {
         "word": "dywidendy",
+        "count": 5
+      },
+      {
+        "word": "dywidenda",
         "count": 5
       }
     ]
@@ -1357,48 +1357,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "75861999",
-      "author": "Tt",
-      "postedAt": "2026-09-23 10:47",
-      "threadTitle": "Re: Korekta",
-      "url": "https://www.bankier.pl/forum/temat_korekta,75861087.html",
-      "body": "Zbyt duzo grubasów chętnych na tanie zakupy",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "75861697",
-      "author": "cezjas",
-      "postedAt": "2026-09-23 10:32",
-      "threadTitle": "Re: Korekta",
-      "url": "https://www.bankier.pl/forum/temat_korekta,75861087.html",
-      "body": "teraz to dywidenda coraz bliżej",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "75861087",
-      "author": "Tt",
-      "postedAt": "2026-09-23 09:58",
-      "threadTitle": "Korekta",
-      "url": "https://www.bankier.pl/forum/temat_korekta,75861087.html",
-      "body": "Coraz bliżej",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
