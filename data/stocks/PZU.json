@@ -3,32 +3,27 @@
   "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
-  "updatedAt": "2026-10-23T21:25:13.054Z",
+  "updatedAt": "2026-10-24T04:37:02.161Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-23T21:25:13.054Z",
+    "fetchedAt": "2026-10-24T04:37:02.161Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 10
+    "threadsScanned": 9
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.012,
+    "score": 0.008,
     "confidence": 0.7,
     "commentCount": 61,
     "breakdown": {
-      "positive": 14,
-      "negative": 14,
+      "positive": 15,
+      "negative": 13,
       "neutral": 33
     },
     "trend": [
-      {
-        "date": "2026-10-17",
-        "score": -0.322,
-        "count": 1
-      },
       {
         "date": "2026-10-18",
         "score": 0.146,
@@ -58,10 +53,15 @@
         "date": "2026-10-23",
         "score": -0.336,
         "count": 4
+      },
+      {
+        "date": "2026-10-24",
+        "score": 0.583,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 61 komentarzy z ostatnich 7 dni: nastroje mieszane (14 pozytywnych, 14 negatywnych, 33 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 61 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 13 negatywnych, 33 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "albo",
@@ -106,6 +106,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "76180873",
+      "author": "Mirek",
+      "postedAt": "2026-10-24 05:53",
+      "threadTitle": "Re: 79,13 PLN średnia docelowa crna",
+      "url": "https://www.bankier.pl/forum/temat_79-13-pln-srednia-docelowa-crna,75986929.html",
+      "body": "Kupię po 65-66 zł?Pytam dla kolegi.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76179021",
       "author": "DAD",
@@ -945,20 +959,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76105855",
-      "author": "Rysiu",
-      "postedAt": "2026-10-17 00:12",
-      "threadTitle": "Re: znacie już wynik za 3 kw ?",
-      "url": "https://www.bankier.pl/forum/temat_znacie-juz-wynik-za-3-kw,76061507.html",
-      "body": "I chyba dociągnie do końca roku 100Najmniej 80BR rozczarował, miało być 60+Nie ma co walczyć z rynkiem",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
