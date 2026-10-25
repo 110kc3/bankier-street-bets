@@ -1,13 +1,13 @@
 {
   "symbol": "PZU",
-  "companyName": "PZU SA",
+  "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
-  "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-10-25T04:40:42.737Z",
+  "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
+  "updatedAt": "2026-10-25T11:26:57.379Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-25T04:40:42.737Z",
+    "fetchedAt": "2026-10-25T11:26:57.379Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.007,
+    "score": 0.003,
     "confidence": 0.7,
-    "commentCount": 61,
+    "commentCount": 60,
     "breakdown": {
-      "positive": 15,
+      "positive": 14,
       "negative": 13,
       "neutral": 33
     },
     "trend": [
       {
         "date": "2026-10-18",
-        "score": 0.146,
-        "count": 4
+        "score": 0,
+        "count": 2
       },
       {
         "date": "2026-10-19",
@@ -58,10 +58,15 @@
         "date": "2026-10-24",
         "score": 0.583,
         "count": 1
+      },
+      {
+        "date": "2026-10-25",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 61 komentarzy z ostatnich 7 dni: nastroje mieszane (15 pozytywnych, 13 negatywnych, 33 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 60 komentarzy z ostatnich 7 dni: nastroje mieszane (14 pozytywnych, 13 negatywnych, 33 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "albo",
@@ -100,12 +105,26 @@
         "count": 4
       },
       {
-        "word": "profity",
+        "word": "trzeba",
         "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "76186831",
+      "author": "PIOTR",
+      "postedAt": "2026-10-25 10:08",
+      "threadTitle": "Re: ciekawe",
+      "url": "https://www.bankier.pl/forum/temat_pln-sie-umacnia-wiec-zagranica-wchodzi,76149251.html",
+      "body": "No umacnia się jak ... nie wiem co. Jeszcze 3 miechy temu za euro trzeba było dać 4,25 zł teraz 4,4o zł ale no ten tego chyba się złoty umacnia :). Moim zdaniem zbliża się nieuchronne i to na całym świecie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76180873",
       "author": "Mirek",
@@ -422,7 +441,7 @@
       "url": "https://www.bankier.pl/forum/temat_obowiazkowe-oc-dla-hulajnog,76144701.html",
       "body": "jestes nierozgarniety jakby, jedziesz hulajnoga, wpadasz na rowerzyste, wypadek, zlamane konczyny albo trwałe kalectwowiesz ile zabuli taki wariat na hulajnodze bez oc?",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": 0,
@@ -451,7 +470,7 @@
       "body": "Znowu, o ile to prawda wrogie obywatelom Państwo pokaże swój pazur orzełka.",
       "votes": {
         "up": 1,
-        "down": 6
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -931,34 +950,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76111911",
-      "author": "marcinl0",
-      "postedAt": "2026-10-18 11:25",
-      "threadTitle": "PZU przejmuje ukraińskiego giganta",
-      "url": "https://www.bankier.pl/forum/temat_pzu-przejmuje-ukrainskiego-giganta,76111911.html",
-      "body": "PZU chce sfinalizować przejęcie MetLife Ukraina w pierwszym kwartale 2027 r. Polski ubezpieczyciel czeka na zgody ukraińskich organów regulacyjnych, by przejąć 100 proc. akcji spółki, która kontroluje około połowy tamtejszego rynku ubezpieczeń na życie.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76111839",
-      "author": "Shark",
-      "postedAt": "2026-10-18 11:05",
-      "threadTitle": "Re: Najtańsza spółka wskaźnikowo z WIG 20",
-      "url": "https://www.bankier.pl/forum/temat_najtansza-spolka-wskaznikowo-z-wig-20,76052031.html",
-      "body": "Akumulują ciągle.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }
