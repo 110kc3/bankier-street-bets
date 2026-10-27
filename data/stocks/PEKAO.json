@@ -3,25 +3,25 @@
   "companyName": "PEKAO",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pekao,6,21,18.html",
-  "updatedAt": "2026-10-27T12:10:55.296Z",
+  "updatedAt": "2026-10-27T18:01:14.938Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-27T12:10:55.296Z",
+    "fetchedAt": "2026-10-27T18:01:14.938Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
     "threadsScanned": 9
   },
   "analysis": {
-    "signal": "HOLD",
-    "score": -0.111,
-    "confidence": 0.55,
-    "commentCount": 31,
+    "signal": "SELL",
+    "score": -0.168,
+    "confidence": 0.58,
+    "commentCount": 33,
     "breakdown": {
       "positive": 6,
-      "negative": 9,
-      "neutral": 16
+      "negative": 10,
+      "neutral": 17
     },
     "trend": [
       {
@@ -93,10 +93,15 @@
         "date": "2026-10-23",
         "score": 0.161,
         "count": 2
+      },
+      {
+        "date": "2026-10-27",
+        "score": -0.466,
+        "count": 2
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 31 komentarzy z ostatnich 30 dni: nastroje negatywne (6 pozytywnych, 9 negatywnych, 16 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 33 komentarzy z ostatnich 30 dni: nastroje negatywne (6 pozytywnych, 10 negatywnych, 17 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kilka",
@@ -111,6 +116,10 @@
         "count": 6
       },
       {
+        "word": "wersja",
+        "count": 5
+      },
+      {
         "word": "etrader",
         "count": 5
       },
@@ -119,7 +128,11 @@
         "count": 5
       },
       {
-        "word": "wersja",
+        "word": "zawiesza",
+        "count": 4
+      },
+      {
+        "word": "dramat",
         "count": 4
       },
       {
@@ -129,18 +142,38 @@
       {
         "word": "razy",
         "count": 4
-      },
-      {
-        "word": "dzien",
-        "count": 4
-      },
-      {
-        "word": "wszystko",
-        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "76210475",
+      "author": "JJ",
+      "postedAt": "2026-10-27 16:10",
+      "threadTitle": "Re: Wersja 2.1.6 eTrader nadal jest do kitu!",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "wersja 2.1.10 - nic nie poprawiona, dalej sie zawiesza. To jest dramat i syfiarski program.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.931,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76210231",
+      "author": "adam",
+      "postedAt": "2026-10-27 15:49",
+      "threadTitle": "Re: Wersja 2.1.6 eTrader nadal jest do kitu!",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "znowu nie chodzi",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76176207",
       "author": "szejk_1",
@@ -360,7 +393,7 @@
       "body": "Jest nowa wersja 2.1.4 Odinstalujcie starą jeśli ktoś ma i zainstalujcie nową. U mnie działa już bez błędów. Zapiszcie ustawienia, powinny się wgrać.",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

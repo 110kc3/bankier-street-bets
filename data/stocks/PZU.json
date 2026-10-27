@@ -3,31 +3,31 @@
   "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
-  "updatedAt": "2026-10-27T12:11:24.219Z",
+  "updatedAt": "2026-10-27T18:01:43.170Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-27T12:11:24.219Z",
+    "fetchedAt": "2026-10-27T18:01:43.170Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 7
+    "threadsScanned": 8
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.004,
-    "confidence": 0.6,
-    "commentCount": 45,
+    "score": 0.021,
+    "confidence": 0.59,
+    "commentCount": 42,
     "breakdown": {
       "positive": 12,
-      "negative": 10,
-      "neutral": 23
+      "negative": 9,
+      "neutral": 21
     },
     "trend": [
       {
         "date": "2026-10-20",
-        "score": 0.024,
-        "count": 6
+        "score": 0.322,
+        "count": 1
       },
       {
         "date": "2026-10-21",
@@ -61,12 +61,12 @@
       },
       {
         "date": "2026-10-27",
-        "score": 0.107,
-        "count": 3
+        "score": 0.129,
+        "count": 5
       }
     ],
     "trendDirection": "improving",
-    "summary": "Analiza 45 komentarzy z ostatnich 7 dni: nastroje mieszane (12 pozytywnych, 10 negatywnych, 23 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 42 komentarzy z ostatnich 7 dni: nastroje mieszane (12 pozytywnych, 9 negatywnych, 21 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "fusd",
@@ -85,15 +85,11 @@
         "count": 4
       },
       {
+        "word": "trzeba",
+        "count": 3
+      },
+      {
         "word": "miejscu",
-        "count": 3
-      },
-      {
-        "word": "nowe",
-        "count": 3
-      },
-      {
-        "word": "tygodniu",
         "count": 3
       },
       {
@@ -101,16 +97,48 @@
         "count": 3
       },
       {
-        "word": "mnie",
+        "word": "nigdy",
         "count": 3
       },
       {
-        "word": "banki",
-        "count": 3
+        "word": "stoi",
+        "count": 2
+      },
+      {
+        "word": "dywidendy",
+        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76211381",
+      "author": "Mirek",
+      "postedAt": "2026-10-27 17:22",
+      "threadTitle": "Re: Skala luki ubezpieczeniowej: Polska vs Średnia UE",
+      "url": "https://www.bankier.pl/forum/temat_skala-luki-ubezpieczeniowej-polska-vs-srednia-ue,76192155.html",
+      "body": "Bo zreinwestować kase z dywi,to trzeba sprytnie i cierpliwie a nie na wariata.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76210317",
+      "author": "The",
+      "postedAt": "2026-10-27 15:57",
+      "threadTitle": "A cielak stoi i patrzy jak banki rosna",
+      "url": "https://www.bankier.pl/forum/temat_a-cielak-stoi-i-patrzy-jak-banki-rosna,76210317.html",
+      "body": "A on ani rusz",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76207549",
       "author": "mabmab",
@@ -670,76 +698,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76140025",
-      "author": "Lukas",
-      "postedAt": "2026-10-20 19:38",
-      "threadTitle": "PZU Rhett",
-      "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
-      "body": "Piękna wypowiedź Rhett aż miło przeczytać.",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76136907",
-      "author": "Rhett",
-      "postedAt": "2026-10-20 15:46",
-      "threadTitle": "Re: Denis Drump wywraca pokerowy stolik \"rynków kapitałowych\"",
-      "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
-      "body": "Jankesi będą musieli podnosić stopy, nie mają wyjścia przy takim zadłużeniu jak mają. Kwestia odsetek nie ma dla nich znaczenia ponieważ niedługo wg mnie zaczną skupować obligacje drukując nowe dolary :) za te same wydrukowane dolary będą wypłacać kupony odsetek. Kevin sam w domu coś gadał o zmniejszaniu bilansu fedu a będzie dokładnie odwrotnie.Mają duży deficyt handlowy w dodatku ich specyfika - sprzedają drogą ropę, gaz, broń i usługi a kupują tanie dla nich towary.Nic tylko się cieszyć z drogiego dolara.W zeszłym tygodniu Drump ogłosił, że ruscy będą sprzedawać ropę na rynkach więc cena mocno spadnie. Piękny blef :)Co zrobiła ropa - 8 świec D1 wzrostowych :)Złoto w takiej sytuacji powinno mocno rosnąć ale nie będzie. Będzie dalej spadać, zwłaszcza to papierowe. Banki centralne które wyprzedają obligacje usa a kupują złoto muszą zostać mocno ukarane. Inaczej utraci siłę petrodolar a dla jankesów to być albo nie być.Miedź? Będzie rosnąć w długim terminie. Ale nie wykluczam szybkich i gwałtownych korekt",
-      "votes": {
-        "up": 9,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76135739",
-      "author": "janek",
-      "postedAt": "2026-10-20 14:35",
-      "threadTitle": "Re: Denis Drump wywraca pokerowy stolik \"rynków kapitałowych\"",
-      "url": "https://www.bankier.pl/forum/temat_denis-drump-wywraca-pokerowy-stolik-rynkow-kapitalowych,70504529.html",
-      "body": "4150 czekam z L Jak nie wytrzyma to 4060-4070",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76135621",
-      "author": "mabmab",
-      "postedAt": "2026-10-20 14:27",
-      "threadTitle": "Re: 79,13 PLN średnia docelowa crna",
-      "url": "https://www.bankier.pl/forum/temat_79-13-pln-srednia-docelowa-crna,75986929.html",
-      "body": "Na PZU szortowanie nie ma sensu",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76135601",
-      "author": "mabmab",
-      "postedAt": "2026-10-20 14:26",
-      "threadTitle": "Re: PZU przejmuje ukraińskiego giganta",
-      "url": "https://www.bankier.pl/forum/temat_pzu-przejmuje-ukrainskiego-giganta,76111911.html",
-      "body": "Z zupełnie innych powodów ale z postawa unikaj rynków o ryzyku nie dajacym się wyliczyć zgadzam się zawsze",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     }
   ]
 }
