@@ -3,11 +3,11 @@
   "companyName": "ORLEN",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKNORLEN",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_orlen,6,21,201.html",
-  "updatedAt": "2026-10-27T22:14:05.591Z",
+  "updatedAt": "2026-10-28T05:41:46.353Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-27T22:14:05.591Z",
+    "fetchedAt": "2026-10-28T05:41:46.353Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.028,
+    "score": 0.031,
     "confidence": 0.71,
-    "commentCount": 109,
+    "commentCount": 110,
     "breakdown": {
       "positive": 16,
       "negative": 10,
-      "neutral": 83
+      "neutral": 84
     },
     "trend": [
       {
@@ -58,10 +58,15 @@
         "date": "2026-10-27",
         "score": 0.028,
         "count": 35
+      },
+      {
+        "date": "2026-10-28",
+        "score": 0,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 109 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 10 negatywnych, 83 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 110 komentarzy z ostatnich 7 dni: nastroje mieszane (16 pozytywnych, 10 negatywnych, 84 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "orlen",
@@ -92,20 +97,34 @@
         "count": 4
       },
       {
+        "word": "trzeba",
+        "count": 3
+      },
+      {
         "word": "sytuacji",
         "count": 3
       },
       {
         "word": "rynku",
         "count": 3
-      },
-      {
-        "word": "szukaja",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "76214743",
+      "author": "Andy",
+      "postedAt": "2026-10-28 05:18",
+      "threadTitle": "Re: Jeśli aresztują za zaniżanie",
+      "url": "https://www.bankier.pl/forum/temat_jesli-aresztuja-za-zanizanie,75989583.html",
+      "body": "Jeździć zawsze będę , a inflacja zeżre nam oszczędności , po gonić trzeba",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76214391",
       "author": "Smutne",
@@ -114,7 +133,7 @@
       "url": "https://www.bankier.pl/forum/temat_batyr-klamal-znowu,76214391.html",
       "body": "Prezydent Karol Nawrocki, mimo składanych w kampanii wyborczej deklaracji o niepodpisywaniu ustaw podnoszących obciążenia fiskalne dla obywateli, podpisał akty prawne modyfikujące system podatkowy i wprowadzające wyższe opłaty lub daniny. Do najważniejszych takich sytuacji należą: Nowelizacja ustawy o podatku akcyzowym (październik 2026 r.): Prezydent podpisał ustawę dotyczącą e-papierosów, która wdrożyła podwyżkę stawki akcyzy na płyn do papierosów elektronicznych. Choć otoczenie prezydenta argumentowało podpis uregulowaniem i uszczelnieniem rynku (likwidacja stałej opłaty 40 zł na tzw. pody) oraz ostatecznym uwzględnieniem poprawek rządu po wcześniejszym skierowaniu innej wersji do TK, sama stawka akcyzy uległa podwyższeniu.Ustawa o podatku od nadzwyczajnych zysków koncernów paliwowych (październik 2026 r.): Prezydent podpisał tzw. podatek od zysków nadmiarowych koncernów paliwowych (windfall tax). Decyzja ta wzbudziła duże kontrowersje publiczne i medialne, ponieważ środowisko polityczne, z którego wywodzi się prezydent, wcześniej ostro krytykowało to rozwiązanie. Ustawa została przez niego podpisana, a następnie skierowana do Trybunału Konstytucyjnego w trybie kontroli następczej.Nowelizacja ustawy o podatkach i opłatach lokalnych (październik 2026 r.): Ustawa podpisana 15 października 2026 roku zmienia zasady poboru m.in. opłaty miejscowej i uzdrowiskowej od 2027 roku. Nowe przepisy likwidują dotychczasowe badanie celu podróży (opłata obejmie niemal każdą osobę korzystającą z noclegu, w tym podróżujących służbowo) oraz podnoszą maksymalne stawki części tych opłat, co przełoży się na wyższe koszty zakwaterowania dla Polaków.",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -128,7 +147,7 @@
       "url": "https://www.bankier.pl/forum/temat_zeznania-w-sprawie-grand-hotelu,76213293.html",
       "body": "Dewajtis - powieść bardzo niehetero pisarki. (Wiem, wiem. Znasz tylko pisowski serial. Książki w ręku nie miales żadnej nigdy)",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -268,8 +287,8 @@
       "url": "https://www.bankier.pl/forum/temat_czy-prawda-jest-ze-na-tym-forum-zamieszczaja-tylko-ruskich-agentow,76213467.html",
       "body": "bo na tym polega ich ...rozumienie świata..!!",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 3,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -283,7 +302,7 @@
       "body": "Przecież Skąd go znała i czekała zanim żeby zadać takie pytanie on odpowiada tak potrzebują dziewczyn to normalnie w Hotelu jak są imprezy",
       "votes": {
         "up": 2,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -297,7 +316,7 @@
       "body": "Pełniący obowiązki przewodniczącego Lwowskiej Rady Obwodowej Jurij Chołod nie podpisał uchwały o ogłoszeniu 2027 rokiem UPA i Romana Szuchewycza, choć pięciodniowy termin na jej podpisanie już minął. Jak podaje portal Radia Swoboda, władze obwodu lwowskiego najwyraźniej próbują przeczekać napięcia wywołane przez tę decyzję w Polsce.- Nie może być tak, że tak im się zachciało i nie podpisali uchwały. Powinni znaleźć regulację prawną, by wyjść z tej sytuacji z uwagi na priorytety państwa. Polska jest gospodarczym partnerem Ukrainy i ważnym partnerem ze względów bezpieczeństwa. A połączony potencjał Polski i Ukrainy jest główną osią bezpieczeństwa dla kontynentu europejskiego. I wróg chce zrujnować tę jedność. Jednocześnie za decyzje rady obwodowej ktoś powinien odpowiedzieć – powiedziała Jurynec Radiu Swoboda.",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -381,7 +400,7 @@
       "body": "https://youtube.com/shorts/yVwFY5RGQqo?is=t9DOb2OwYRcGuv31Ależ sobie wybrał motłoch prezydenta XDDDDDDDD",
       "votes": {
         "up": 4,
-        "down": 8
+        "down": 9
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -423,7 +442,7 @@
       "body": "Ceny wysoki tylko skorzysta środowisko korki będą mniejsze",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

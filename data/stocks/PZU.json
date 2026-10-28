@@ -3,11 +3,11 @@
   "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
-  "updatedAt": "2026-10-27T22:14:15.046Z",
+  "updatedAt": "2026-10-28T05:41:54.758Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-27T22:14:15.046Z",
+    "fetchedAt": "2026-10-28T05:41:54.758Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.021,
-    "confidence": 0.58,
+    "score": 0.04,
+    "confidence": 0.59,
     "commentCount": 41,
     "breakdown": {
-      "positive": 11,
+      "positive": 12,
       "negative": 9,
-      "neutral": 21
+      "neutral": 20
     },
     "trend": [
       {
         "date": "2026-10-21",
-        "score": 0.102,
-        "count": 12
+        "score": 0.112,
+        "count": 11
       },
       {
         "date": "2026-10-22",
@@ -58,10 +58,15 @@
         "date": "2026-10-27",
         "score": 0.129,
         "count": 5
+      },
+      {
+        "date": "2026-10-28",
+        "score": 0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 41 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 9 negatywnych, 21 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 41 komentarzy z ostatnich 7 dni: nastroje mieszane (12 pozytywnych, 9 negatywnych, 20 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "fusd",
@@ -78,6 +83,10 @@
       {
         "word": "dywidenda",
         "count": 4
+      },
+      {
+        "word": "dywidendy",
+        "count": 3
       },
       {
         "word": "trzeba",
@@ -98,14 +107,24 @@
       {
         "word": "stoi",
         "count": 2
-      },
-      {
-        "word": "dywidendy",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76214833",
+      "author": "Insurance",
+      "postedAt": "2026-10-28 06:24",
+      "threadTitle": "PZU to namiastka Banku",
+      "url": "https://www.bankier.pl/forum/temat_pzu-to-namiastka-banku,76214833.html",
+      "body": "Alior Pekao plus Orlen tego nie można przeoczyć! Będą ogromne dywidendy za 26 rok.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76211381",
       "author": "Mirek",
@@ -128,7 +147,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-cielak-stoi-i-patrzy-jak-banki-rosna,76210317.html",
       "body": "A on ani rusz",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0.322,
@@ -665,20 +684,6 @@
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76142769",
-      "author": "Future",
-      "postedAt": "2026-10-21 07:02",
-      "threadTitle": "Re: PZU przejmuje ukraińskiego giganta",
-      "url": "https://www.bankier.pl/forum/temat_pzu-przejmuje-ukrainskiego-giganta,76111911.html",
-      "body": "Jest zgoda ukraińskich organów na sprzedaż.",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
