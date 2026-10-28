@@ -3,31 +3,31 @@
   "companyName": "PGE",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PGE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pge,6,21,10000000641.html",
-  "updatedAt": "2026-10-28T05:41:39.593Z",
+  "updatedAt": "2026-10-28T12:53:46.660Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-28T05:41:39.593Z",
+    "fetchedAt": "2026-10-28T12:53:46.660Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 28
+    "threadsScanned": 24
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.112,
-    "confidence": 0.74,
-    "commentCount": 135,
+    "score": 0.098,
+    "confidence": 0.73,
+    "commentCount": 130,
     "breakdown": {
       "positive": 44,
       "negative": 23,
-      "neutral": 68
+      "neutral": 63
     },
     "trend": [
       {
         "date": "2026-10-21",
-        "score": 0.008,
-        "count": 30
+        "score": 0.043,
+        "count": 19
       },
       {
         "date": "2026-10-22",
@@ -56,12 +56,12 @@
       },
       {
         "date": "2026-10-28",
-        "score": 0,
-        "count": 1
+        "score": -0.083,
+        "count": 7
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 135 komentarzy z ostatnich 7 dni: nastroje pozytywne (44 pozytywnych, 23 negatywnych, 68 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 130 komentarzy z ostatnich 7 dni: nastroje mieszane (44 pozytywnych, 23 negatywnych, 63 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "zeby",
@@ -84,6 +84,10 @@
         "count": 10
       },
       {
+        "word": "dywidenda",
+        "count": 9
+      },
+      {
         "word": "dywidendy",
         "count": 9
       },
@@ -98,14 +102,94 @@
       {
         "word": "swoje",
         "count": 9
-      },
-      {
-        "word": "znowu",
-        "count": 9
       }
     ]
   },
   "comments": [
+    {
+      "id": "76217395",
+      "author": "Fish007",
+      "postedAt": "2026-10-28 10:23",
+      "threadTitle": "Re: Dziś PGE głęboko pod lód",
+      "url": "https://www.bankier.pl/forum/temat_dzis-pge-gleboko-pod-lod,76216125.html",
+      "body": "Chyba tylko głupiec nie widzi, że zbierają na potęgę. Ciebie zatopią śmieszku.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76217139",
+      "author": "black944",
+      "postedAt": "2026-10-28 10:05",
+      "threadTitle": "Hmm, głupia sprawa . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
+      "body": "> Tylko prostak pisze 21.10, ze trzyma do 18, by 23.10 napisac, ze sprzedal. ================ Nie doczekałem się, to sprzedałem wcześniej - co w tym dziwnego ?Ja nie jestem inwestorem . . .Pozdrawiam",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76216707",
+      "author": "black944",
+      "postedAt": "2026-10-28 09:42",
+      "threadTitle": "oj, płaczek - nie masz pojęcia o zarabianiu .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
+      "body": "Teraz sam widzisz jak to jest z tym pisaniem pre factum . . .",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76216573",
+      "author": "Gunfighter",
+      "postedAt": "2026-10-28 09:35",
+      "threadTitle": "Re: Dziś PGE głęboko pod lód",
+      "url": "https://www.bankier.pl/forum/temat_dzis-pge-gleboko-pod-lod,76216125.html",
+      "body": "Nie głębinowe tylko podwodne. PGE zachowuje się obecnie jak U-bot, który przymierza się do odpalenia torpedy w kierunku 18 zł.",
+      "votes": {
+        "up": 7,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76216143",
+      "author": "transek1975",
+      "postedAt": "2026-10-28 09:14",
+      "threadTitle": "Re: Przecież tu nigdy dywidendy nie będzie. Kedy oni spłacą te wiatraki?",
+      "url": "https://www.bankier.pl/forum/temat_przeciez-tu-nigdy-dywidendy-nie-bedzie-kedy-oni-splaca-te-wiatraki,76214113.html",
+      "body": "Do czego mi jest potrzebna dywidenda, która i tak odcinasz od kursu akcji ?Mi wystarczy kurs akcji powyżej 20.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76216125",
+      "author": "inwestycjesa",
+      "postedAt": "2026-10-28 09:13",
+      "threadTitle": "Dziś PGE głęboko pod lód",
+      "url": "https://www.bankier.pl/forum/temat_dzis-pge-gleboko-pod-lod,76216125.html",
+      "body": "Nurkowanie głębinowe.",
+      "votes": {
+        "up": 0,
+        "down": 7
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76214553",
       "author": "Olej",
@@ -115,7 +199,7 @@
       "body": "Jan Twoja diagnoza sprzedży po 6 zł jest taka jak spłata wiatraków. Jesteś super mondrym facetem.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -129,7 +213,7 @@
       "body": "Jw. Żal, że sprzedałem po 6 zł a życzliwy mi radził tu na forum, że wzrośnie kurs. No cóż już przy 6 zł mi się te farmy wiatrowe nie spodobały. Najpierw zamrożona kasa bez dywidendy a potem remonty, konserwacja i spłata kosztów \"rozwoju\". Tylko żal mi, że nie skorzystałem ze spekulacyjnego podbicia. Za darmo nikt nic nie daje ale czasowy efekt jest niezaprzeczalnie...",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -157,7 +241,7 @@
       "body": "On ma wielu fanow z multiplikowanej jazni. Z innego ip w mcdonalds. Typowy zaburzony black narcyz. 21.10 ma akcje, ale 23.10 pisze, ze sprzedal 20.10. I nie ogarnia kuuwety :))))))))))))",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -171,7 +255,7 @@
       "body": "Tylko prostak pisze 21.10, ze trzyma do 18, by 23.10 napisac, ze sprzedal. Tylko prostak klamie publicznie, nieprawdaz black?",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -198,7 +282,7 @@
       "url": "https://www.bankier.pl/forum/temat_uwaga-uwaga,76211015.html",
       "body": "Dziekije za troskę",
       "votes": {
-        "up": 6,
+        "up": 10,
         "down": 1
       },
       "sentimentScore": 0,
@@ -213,7 +297,7 @@
       "body": "Żle to wygląda, zielono wszędzie a PGE słabnie w oczach...",
       "votes": {
         "up": 0,
-        "down": 4
+        "down": 7
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1841,160 +1925,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76149411",
-      "author": "black944",
-      "postedAt": "2026-10-21 14:50",
-      "threadTitle": "Brawo !!!",
-      "url": "https://www.bankier.pl/forum/temat_100-min-1-1-m-vol,76098135.html",
-      "body": "I nowi akcjonariusze też już ładnie zarabiają . . .ps.I jak tu nie kochać PGE . . .",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76149245",
-      "author": "potencjał",
-      "postedAt": "2026-10-21 14:40",
-      "threadTitle": "Re: Ile powinno byc warte PGE?",
-      "url": "https://www.bankier.pl/forum/temat_ile-powinno-byc-warte-pge,76096057.html",
-      "body": "hmm....???",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76148877",
-      "author": "AK",
-      "postedAt": "2026-10-21 14:11",
-      "threadTitle": "Re: oj, płaczek - nie masz pojęcia o zarabianiu .",
-      "url": "https://www.bankier.pl/forum/temat_rsi-d1-76,76091083.html",
-      "body": "Brawo Czarny, widzę że znowu ładnie zgasiłeś płaczka",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76146603",
-      "author": "Gunfighter",
-      "postedAt": "2026-10-21 11:38",
-      "threadTitle": "Re: Zdolność spółkido generowania EBITDA",
-      "url": "https://www.bankier.pl/forum/temat_zdolnosc-spolkido-generowania-ebitda,76127517.html",
-      "body": "Bez sensu. Kto niby miałby objąć akcje nowej emisji? Skarb Państwa, który nie ma pieniędzy?",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76145015",
-      "author": "transek1975",
-      "postedAt": "2026-10-21 09:56",
-      "threadTitle": "Re: oj, płaczek - nie masz pojęcia o zarabianiu .",
-      "url": "https://www.bankier.pl/forum/temat_cwaniaki-zbieraja-ponizej-10-i-mysla-ze-tego-nie-widze,75113793.html",
-      "body": "Biedak z ironią.Ty nawet tego nie łapiesz.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76144839",
-      "author": "black944",
-      "postedAt": "2026-10-21 09:49",
-      "threadTitle": "-------- > 18 pln",
-      "url": "https://www.bankier.pl/forum/temat_rsi-h1-16,74188099.html",
-      "body": "Tik, tak, tik, tak . . .",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76144741",
-      "author": "black944",
-      "postedAt": "2026-10-21 09:45",
-      "threadTitle": "oj, płaczek - nie masz pojęcia o zarabianiu .",
-      "url": "https://www.bankier.pl/forum/temat_cwaniaki-zbieraja-ponizej-10-i-mysla-ze-tego-nie-widze,75113793.html",
-      "body": "No i sam widzisz, a ty wtedy biedaku czekałeś na 13 pln aby dopiero zacząć zakupy . . .",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76144613",
-      "author": "transek1975",
-      "postedAt": "2026-10-21 09:39",
-      "threadTitle": "Re: oj,Black....",
-      "url": "https://www.bankier.pl/forum/temat_cwaniaki-zbieraja-ponizej-10-i-mysla-ze-tego-nie-widze,75113793.html",
-      "body": "Zobacz wątki dotyczące PGE SAZobacz profil PGE SAAutor: transek1975[176.106.32.*]2026-07-13 10:48Opublikowano przy kursie: 9,43 zł , zmiana od tamtej pory: 76,14%",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76144487",
-      "author": "transek1975",
-      "postedAt": "2026-10-21 09:35",
-      "threadTitle": "Re: Black, kiedy te 8,50 będzie?",
-      "url": "https://www.bankier.pl/forum/temat_black-kiedy-te-8-50-bedzie,75500849.html",
-      "body": "Od każdego z tych wpisow Blacka + kilkadziesiat procent w górę. Tak straszył spadkami a tu +80% od 9pln.Mowilem nie sluchac pajaca.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76143493",
-      "author": "oo",
-      "postedAt": "2026-10-21 08:31",
-      "threadTitle": "Re: Black, kiedy te 8,50 będzie?",
-      "url": "https://www.bankier.pl/forum/temat_black-kiedy-te-8-50-bedzie,75500849.html",
-      "body": "https://www.youtube.com/watch?v=IZYJ4eFKFNk",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76143463",
-      "author": "black944",
-      "postedAt": "2026-10-21 08:28",
-      "threadTitle": "oj, ty płaczek",
-      "url": "https://www.bankier.pl/forum/temat_black-kiedy-te-8-50-bedzie,75500849.html",
-      "body": "W Jaki sposób oszukuję ludzi ?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }

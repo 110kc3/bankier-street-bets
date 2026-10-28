@@ -3,23 +3,23 @@
   "companyName": "PEKAO",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pekao,6,21,18.html",
-  "updatedAt": "2026-10-28T05:41:33.937Z",
+  "updatedAt": "2026-10-28T12:53:40.073Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-28T05:41:33.937Z",
+    "fetchedAt": "2026-10-28T12:53:40.073Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
     "threadsScanned": 9
   },
   "analysis": {
-    "signal": "SELL",
-    "score": -0.168,
-    "confidence": 0.58,
-    "commentCount": 33,
+    "signal": "HOLD",
+    "score": -0.112,
+    "confidence": 0.57,
+    "commentCount": 34,
     "breakdown": {
-      "positive": 6,
+      "positive": 7,
       "negative": 10,
       "neutral": 17
     },
@@ -98,11 +98,20 @@
         "date": "2026-10-27",
         "score": -0.466,
         "count": 2
+      },
+      {
+        "date": "2026-10-28",
+        "score": 0.762,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 33 komentarzy z ostatnich 30 dni: nastroje negatywne (6 pozytywnych, 10 negatywnych, 17 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 34 komentarzy z ostatnich 30 dni: nastroje negatywne (7 pozytywnych, 10 negatywnych, 17 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "etrader",
+        "count": 6
+      },
       {
         "word": "kilka",
         "count": 6
@@ -117,10 +126,6 @@
       },
       {
         "word": "wersja",
-        "count": 5
-      },
-      {
-        "word": "etrader",
         "count": 5
       },
       {
@@ -147,6 +152,20 @@
   },
   "comments": [
     {
+      "id": "76217909",
+      "author": "szejk_1",
+      "postedAt": "2026-10-28 10:55",
+      "threadTitle": "Wersja 2.1.10 eTrader nadal jest do kitu!",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Dzisiaj tj. dnia 28.10.2026 roku o godz 10:46 eTrader (w wersji 2.1.10) wyświetla: WIG-Banki ma wzrost o 4.40%. Żaden z notowanych banków nie ma takiego wzrostu! Totalna bzdura z tym wzrostem na WIG-Banki!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "76210475",
       "author": "JJ",
       "postedAt": "2026-10-27 16:10",
@@ -154,7 +173,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "wersja 2.1.10 - nic nie poprawiona, dalej sie zawiesza. To jest dramat i syfiarski program.",
       "votes": {
-        "up": 2,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.931,
@@ -168,7 +187,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "znowu nie chodzi",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -182,7 +201,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Co kilka dni pisze do nich emaila i posyłam pod adres bm@pekao.com.pl.Mimo tego ZERO reakcji z ich strony - ZERO odpowiedzi.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -280,7 +299,7 @@
       "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
       "body": "Wersja 2.1.6 eTrader nadal jest do kitu!",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -351,7 +370,7 @@
       "body": "a glapa się przygląda i nic nie robi.Referencyjna dawno powinna wynosić powyżej 4%.Okradania ludzi ciąg dalszy.",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
