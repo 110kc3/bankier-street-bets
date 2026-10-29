@@ -3,11 +3,11 @@
   "companyName": "PZU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu,6,21,10000000081.html",
-  "updatedAt": "2026-10-28T22:36:13.688Z",
+  "updatedAt": "2026-10-29T05:47:21.061Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-28T22:36:13.688Z",
+    "fetchedAt": "2026-10-29T05:47:21.061Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.017,
-    "confidence": 0.55,
-    "commentCount": 36,
+    "score": 0.014,
+    "confidence": 0.54,
+    "commentCount": 35,
     "breakdown": {
-      "positive": 10,
+      "positive": 9,
       "negative": 10,
       "neutral": 16
     },
     "trend": [
       {
         "date": "2026-10-22",
-        "score": -0.108,
-        "count": 13
+        "score": -0.157,
+        "count": 11
       },
       {
         "date": "2026-10-23",
@@ -58,10 +58,15 @@
         "date": "2026-10-28",
         "score": 0.046,
         "count": 7
+      },
+      {
+        "date": "2026-10-29",
+        "score": 0,
+        "count": 1
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 36 komentarzy z ostatnich 7 dni: nastroje mieszane (10 pozytywnych, 10 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 35 komentarzy z ostatnich 7 dni: nastroje mieszane (9 pozytywnych, 10 negatywnych, 16 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "stop",
@@ -70,6 +75,10 @@
       {
         "word": "fusd",
         "count": 4
+      },
+      {
+        "word": "namiastka",
+        "count": 3
       },
       {
         "word": "ubezpieczenia",
@@ -98,14 +107,24 @@
       {
         "word": "trzeba",
         "count": 3
-      },
-      {
-        "word": "dywidenda",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "76227459",
+      "author": "Insurance",
+      "postedAt": "2026-10-29 06:20",
+      "threadTitle": "Re: PZU to namiastka Banku/nimozja",
+      "url": "https://www.bankier.pl/forum/temat_pzu-to-namiastka-banku,76214833.html",
+      "body": "Słowo klucz Namiastka! Musisz czytać ze zrozumieniem Narcyzie bo jesteś anty wskaźnikiem!",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76225997",
       "author": "mabmab",
@@ -581,34 +600,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76155209",
-      "author": "Future",
-      "postedAt": "2026-10-22 05:58",
-      "threadTitle": "Re: PLN się umacnia więc zagranica wchodzi",
-      "url": "https://www.bankier.pl/forum/temat_pln-sie-umacnia-wiec-zagranica-wchodzi,76149251.html",
-      "body": "Jedna z bardziej sensownych wypowiedzi jaka słyszałem na przestrzeni wielu lat!",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76155151",
-      "author": "heh",
-      "postedAt": "2026-10-22 05:26",
-      "threadTitle": "Re: ciekawe",
-      "url": "https://www.bankier.pl/forum/temat_pln-sie-umacnia-wiec-zagranica-wchodzi,76149251.html",
-      "body": "To chyba dobrze? Można (do)kupić jeszcze trochę akcji. Może dobrze jakby kurs i dywidenda tak sobie trwały na tych poziomach np. jeszcze ze 3-4 lata..?",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
