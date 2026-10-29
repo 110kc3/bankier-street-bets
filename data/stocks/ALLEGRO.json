@@ -3,32 +3,27 @@
   "companyName": "ALLEGRO.EU",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu,6,21,10000001753.html",
-  "updatedAt": "2026-10-29T12:58:12.678Z",
+  "updatedAt": "2026-10-29T22:44:11.020Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-10-29T12:58:12.678Z",
+    "fetchedAt": "2026-10-29T22:44:11.020Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 18
+    "threadsScanned": 17
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.299,
-    "confidence": 0.8,
-    "commentCount": 83,
+    "score": -0.22,
+    "confidence": 0.78,
+    "commentCount": 82,
     "breakdown": {
-      "positive": 7,
-      "negative": 48,
-      "neutral": 28
+      "positive": 10,
+      "negative": 46,
+      "neutral": 26
     },
     "trend": [
-      {
-        "date": "2026-10-22",
-        "score": -0.109,
-        "count": 8
-      },
       {
         "date": "2026-10-23",
         "score": -0.224,
@@ -61,12 +56,12 @@
       },
       {
         "date": "2026-10-29",
-        "score": 0,
-        "count": 2
+        "score": 0.291,
+        "count": 9
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 83 komentarzy z ostatnich 7 dni: nastroje negatywne (7 pozytywnych, 48 negatywnych, 28 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 82 komentarzy z ostatnich 7 dni: nastroje negatywne (10 pozytywnych, 46 negatywnych, 26 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "szorty",
@@ -74,7 +69,7 @@
       },
       {
         "word": "allegro",
-        "count": 9
+        "count": 10
       },
       {
         "word": "kase",
@@ -85,11 +80,11 @@
         "count": 7
       },
       {
-        "word": "kolejne",
+        "word": "maja",
         "count": 6
       },
       {
-        "word": "maja",
+        "word": "kolejne",
         "count": 6
       },
       {
@@ -112,6 +107,104 @@
   },
   "comments": [
     {
+      "id": "76239989",
+      "author": "Marek",
+      "postedAt": "2026-10-29 23:04",
+      "threadTitle": "Re: P/E Amazon vs Allegro 20 vs 35",
+      "url": "https://www.bankier.pl/forum/temat_p-e-amazon-vs-allegro-20-vs-35,76225035.html",
+      "body": "Allegro z sukcesem obroniło pozycję lidera w Polsce dzięki potężnej lojalności klientów, świetnie skrojonej logistyce z Allegro Smart! oraz głębokiej znajomości lokalnych realiów handlowych. Globalni giganci, tacy jak Amazon i eBay, mimo ogromnego kapitału, weszli na polski rynek zbyt późno, by złamać ugruntowane przyzwyczajenia polskich konsumentów.Tym bardziej nie wierzę, że ERLI czy EMPIK mogli by coś zmienić w tej kwestii.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76238573",
+      "author": "Inwestor",
+      "postedAt": "2026-10-29 19:51",
+      "threadTitle": "Re: P/E Amazon vs Allegro 20 vs 35",
+      "url": "https://www.bankier.pl/forum/temat_p-e-amazon-vs-allegro-20-vs-35,76225035.html",
+      "body": "Zapomnij o ukrainie. Tam to tylko stracić można. Prędzej europa tzw środkowo-wschodnia. Może p/e się poprawiło po ostatnim skupie ale chyba nie aż o tyle. Ale nawet 25 to sporo. Wszystko zależy od tego co zrobią chińczycy, bo na razie są w odwrocie. No i oczywiście w dalszej kolejności pytanie o polską konkurencję ERLI, EMPIK, bo oni mogą wymusić zmiany prowizji.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76238145",
+      "author": "Marek",
+      "postedAt": "2026-10-29 18:58",
+      "threadTitle": "Re: P/E Amazon vs Allegro 20 vs 35",
+      "url": "https://www.bankier.pl/forum/temat_p-e-amazon-vs-allegro-20-vs-35,76225035.html",
+      "body": "Trzeba też patrzeć na potencjał rozwojowy (zagranica..... Ukraina) i co za tym idzie coraz lepsze wyniki co będzie miało pozytywne przełożenie na P/E",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76238095",
+      "author": "Marek",
+      "postedAt": "2026-10-29 18:53",
+      "threadTitle": "Re: P/E Amazon vs Allegro 20 vs 35",
+      "url": "https://www.bankier.pl/forum/temat_p-e-amazon-vs-allegro-20-vs-35,76225035.html",
+      "body": "Na investing.com P/E dla Allegro podają 25.4",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76237829",
+      "author": "Inwestor",
+      "postedAt": "2026-10-29 18:30",
+      "threadTitle": "Re: P/E Amazon vs Allegro 20 vs 35",
+      "url": "https://www.bankier.pl/forum/temat_p-e-amazon-vs-allegro-20-vs-35,76225035.html",
+      "body": "Będą grzali przynajmniej do połowy grudnia. Za duże zyski są w tej chwili aby im się opłacało sprzedawać akcje. Po nowym roku przyjdzie otrzeźwienie i powrót do realnych wycen. Widać, że całą giełdę ciągną z typową rotacją - raz banki, raz energetykę raz handel. Pytanie czy będzie jeszcze jedna podbitka na całości - bo widać, że kghm, orlen już mają zadyszkę więc pytanie - czy zaczęłi dystrybucję czy jeszcze będą podciągać. To wszystko pięknie widać choćby na mbanku - w 4 sesje zrobili 20% - gdyby chcieli kupić a nie podbić to by to trwało miesiąc a tu masz w mniej niż tydzień. Zresztą niedługo wyniki Dino i Modivo, wiadomo że będą słabe skoro biedronka dziś ogłosiła słabe wyniki, a mimo to kursy idą w górę.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76234551",
+      "author": "Pepe",
+      "postedAt": "2026-10-29 15:14",
+      "threadTitle": "Re: 102% zysku",
+      "url": "https://www.bankier.pl/forum/temat_102-zysku,76125303.html",
+      "body": "Dla tych co zrealizowali zyski gratulacje Zapraszam na Lubawa za moment będą wstępne wyniki kwartalne które powinny być bardzo dobre do tego zamówienia z programu sejf powinny być podpisywane życzę udanej inwestycji",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76234025",
+      "author": "mabmab",
+      "postedAt": "2026-10-29 14:39",
+      "threadTitle": "Lol zrob cos",
+      "url": "https://www.bankier.pl/forum/temat_lol-zrob-cos,76234025.html",
+      "body": "Niech wreszcie pęknie 60 zlDoloz swoje 5 gr -przyslowiowe- i pęknie 60 zl. No juz wystawiamy po stronie kupię 10 zlecen po 60 zl i po sprawie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
       "id": "76232643",
       "author": "Nicko",
       "postedAt": "2026-10-29 12:59",
@@ -120,7 +213,7 @@
       "body": "Szorty i tak tego nie czują nawet te z najlepszego materiału",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -133,7 +226,7 @@
       "url": "https://www.bankier.pl/forum/temat_szorty-jak-mi-was-strasznie-nie-zal-cel-65zl,76231135.html",
       "body": "Piękny płacz szortów sprawie największa przyjemność :)",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -231,7 +324,7 @@
       "url": "https://www.bankier.pl/forum/temat_p-e-amazon-vs-allegro-20-vs-35,76225035.html",
       "body": "No tak ale zadna nie wyplaca dywidendy wiec co z tego wynika dla inwestorow. A obecie jedynie Allegro prowadzi buy back.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -245,7 +338,7 @@
       "url": "https://www.bankier.pl/forum/temat_p-e-pdd-holdings-inc-wlasciciel-temu-8-80-vs-35-allegro,76225277.html",
       "body": "Balon do potęgi. Allegro to niezła wydmuszka.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 2
       },
       "sentimentScore": -0.762,
@@ -287,8 +380,8 @@
       "url": "https://www.bankier.pl/forum/temat_p-e-amazon-vs-allegro-20-vs-35,76225035.html",
       "body": "Zero pytań. Allegro to balon. Cena do zysku absurdalna.",
       "votes": {
-        "up": 3,
-        "down": 4
+        "up": 5,
+        "down": 8
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1057,7 +1150,7 @@
       "url": "https://www.bankier.pl/forum/temat_sprzedawac,76173533.html",
       "body": "To sprzedaj swoją 1 akcje",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 1
       },
       "sentimentScore": -0.583,
@@ -1160,118 +1253,6 @@
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76168255",
-      "author": "speculo",
-      "postedAt": "2026-10-22 22:51",
-      "threadTitle": "Re: jutro 61?",
-      "url": "https://www.bankier.pl/forum/temat_jutro-61,76151073.html",
-      "body": "Jutro podskok tak do 60.5 ,świeczka z górnym knotkiem i korekta.Bo zadyszka już jest.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76167857",
-      "author": "Prawda",
-      "postedAt": "2026-10-22 21:51",
-      "threadTitle": "Alegro SCAM",
-      "url": "https://www.bankier.pl/forum/temat_alegro-scam,76167857.html",
-      "body": "Uwaga - ta spolka to juz hiperboliczna abstrakcja/scam. Pojawilem sie tu dzisiaj bo wczoraj zalozylem shorty, longom radze sprzedawac. To samo pisalem na modivo powyzej 300.",
-      "votes": {
-        "up": 3,
-        "down": 19
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76166863",
-      "author": "Gorgi",
-      "postedAt": "2026-10-22 20:00",
-      "threadTitle": "Re: Skup akcji wlasnych wyżej niż 65",
-      "url": "https://www.bankier.pl/forum/temat_skup-akcji-wlasnych-wyzej-niz-65,76166075.html",
-      "body": "8 dzien rsi powyzej 80, takie cuda byly tylko 2 razy. Choc dzisiaj na Godzinowym cos sie podlamalo. Jutro 57.5...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76166313",
-      "author": "mabmab",
-      "postedAt": "2026-10-22 19:05",
-      "threadTitle": "Re: Przejecie",
-      "url": "https://www.bankier.pl/forum/temat_przejecie,76158061.html",
-      "body": "Wy tak na serio o tym hostile takeover....",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76166075",
-      "author": "Qiusepe",
-      "postedAt": "2026-10-22 18:40",
-      "threadTitle": "Skup akcji wlasnych wyżej niż 65",
-      "url": "https://www.bankier.pl/forum/temat_skup-akcji-wlasnych-wyzej-niz-65,76166075.html",
-      "body": "O co zakład ze podwyższa?",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76164137",
-      "author": "xyz",
-      "postedAt": "2026-10-22 16:36",
-      "threadTitle": "Re: Przejecie",
-      "url": "https://www.bankier.pl/forum/temat_przejecie,76158061.html",
-      "body": "Skoro bujnęli takim CCC na niewyobrażalne szczyty to czemu nie Allegro :)Tu się za dużo pozytywnego dzieje żeby z tym nie pojechali bardzo wysoko :)",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76163363",
-      "author": "Tomasz_TT",
-      "postedAt": "2026-10-22 15:52",
-      "threadTitle": "Re: Przejecie",
-      "url": "https://www.bankier.pl/forum/temat_przejecie,76158061.html",
-      "body": "bo po co zatrudnić chcą taką osobę ??? : Rakhi Goss-Custard spędziła ponad dwanaście lat, zarządzając dużymi, złożonymi strukturami biznesowymi w Amazon .",
-      "votes": {
-        "up": 5,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76163249",
-      "author": "xyz",
-      "postedAt": "2026-10-22 15:43",
-      "threadTitle": "Re: Przejecie",
-      "url": "https://www.bankier.pl/forum/temat_przejecie,76158061.html",
-      "body": "Rzeczywiście obroty codziennie są ogromne,ciekawe jaki mają plan :)",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }
