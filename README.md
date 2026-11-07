@@ -114,3 +114,10 @@ Then run the refresh workflow or a local `npm run refresh`.
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
+
+## Portfolio audit recorded — 2026-11-07
+
+[Findings and feature suggestions](docs/REPO-AUDIT-2026-11-07.md) preserve chat items 8, 9, 10,
+with source evidence and acceptance criteria. This completed slice records documentation
+only; it selects no implementation work and leaves existing tasks and owner blockers
+unchanged. Documentation-push CI verification is pending; see the report.
