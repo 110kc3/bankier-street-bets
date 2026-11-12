@@ -3,11 +3,11 @@
   "companyName": "Tauron PE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=TAURONPE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_tauron-pe-sa,6,21,10000000421.html",
-  "updatedAt": "2026-11-12T15:13:20.842Z",
+  "updatedAt": "2026-11-12T23:39:12.345Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-12T15:13:20.842Z",
+    "fetchedAt": "2026-11-12T23:39:12.345Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.087,
-    "confidence": 0.66,
-    "commentCount": 49,
+    "score": 0.102,
+    "confidence": 0.65,
+    "commentCount": 47,
     "breakdown": {
-      "positive": 18,
-      "negative": 14,
-      "neutral": 17
+      "positive": 15,
+      "negative": 13,
+      "neutral": 19
     },
     "trend": [
-      {
-        "date": "2026-11-05",
-        "score": 0.37,
-        "count": 6
-      },
       {
         "date": "2026-11-06",
         "score": -0.08,
@@ -56,17 +51,13 @@
       },
       {
         "date": "2026-11-12",
-        "score": 0.151,
-        "count": 6
+        "score": 0.181,
+        "count": 10
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 49 komentarzy z ostatnich 7 dni: nastroje mieszane (18 pozytywnych, 14 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 47 komentarzy z ostatnich 7 dni: nastroje pozytywne (15 pozytywnych, 13 negatywnych, 19 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
-      {
-        "word": "rosnie",
-        "count": 5
-      },
       {
         "word": "tauron",
         "count": 5
@@ -84,11 +75,11 @@
         "count": 5
       },
       {
-        "word": "zlotych",
+        "word": "jedna",
         "count": 4
       },
       {
-        "word": "twoje",
+        "word": "zlotych",
         "count": 4
       },
       {
@@ -100,12 +91,72 @@
         "count": 4
       },
       {
-        "word": "rowniez",
-        "count": 4
+        "word": "wzrost",
+        "count": 3
+      },
+      {
+        "word": "mocne",
+        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "76374971",
+      "author": "eldealeros",
+      "postedAt": "2026-11-12 20:04",
+      "threadTitle": "Re: Technika na wykresie dziennym",
+      "url": "https://www.bankier.pl/forum/temat_technika-na-wykresie-dziennym,76152839.html",
+      "body": "SMA50 i SMA200 na D1 pięknie się do siebie zbliżają zgodnie z przedstawionym w poście scenariuszem. Dzisiejszy mocny wzrost utrzyma ten proces. Jest dobrze.",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76374077",
+      "author": "di_",
+      "postedAt": "2026-11-12 18:41",
+      "threadTitle": "Re: bullish cały czas",
+      "url": "https://www.bankier.pl/forum/temat_bullish-caly-czas,76225705.html",
+      "body": "> Ja gram pod mocne wyciągnięcie dziennej świecy i obstawiam 9.60 w jednej sesji okolice +6%>>>> no i zostało +2,70% do 9.60 pln. :) czyli w jedną sesję osiągalne :)",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76373867",
+      "author": "Hrabi",
+      "postedAt": "2026-11-12 18:20",
+      "threadTitle": "Re: A co tak szarpnęli na fixie?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tak-szarpneli-na-fixie,76356703.html",
+      "body": "Szarpnęli to na enei tutaj w dalszym ciągu skup i kontrola kursu",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76373421",
+      "author": "TAG",
+      "postedAt": "2026-11-12 17:40",
+      "threadTitle": "Re: A co tak szarpnęli na fixie?",
+      "url": "https://www.bankier.pl/forum/temat_a-co-tak-szarpneli-na-fixie,76356703.html",
+      "body": "Czyli nie wiesz",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76368501",
       "author": "di_",
@@ -114,7 +165,7 @@
       "url": "https://www.bankier.pl/forum/temat_bullish-caly-czas,76225705.html",
       "body": "Ja gram pod mocne wyciągnięcie dziennej świecy i obstawiam 9.60 w jednej sesji okolice +6%",
       "votes": {
-        "up": 3,
+        "up": 5,
         "down": 1
       },
       "sentimentScore": 0.322,
@@ -142,7 +193,7 @@
       "url": "https://www.bankier.pl/forum/temat_bullish-caly-czas,76225705.html",
       "body": "co Ponownie ładna świeca z 10.11 a dziś może podobna się utworzy :)",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -170,7 +221,7 @@
       "url": "https://www.bankier.pl/forum/temat_lepiej-byc-nie-moze-kolejna-porazka,76349563.html",
       "body": "Będzie dobrze ETS do obniżki na horyzoncie",
       "votes": {
-        "up": 1,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -184,7 +235,7 @@
       "url": "https://www.bankier.pl/forum/temat_lepiej-byc-nie-moze-kolejna-porazka,76349563.html",
       "body": "Ale kurs tez rosnie. Eldeal ma racje. To fundy robia sobie gierki. Fundamenty i zyski sa mega zdrowe.",
       "votes": {
-        "up": 3,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": 0.583,
@@ -198,8 +249,8 @@
       "url": "https://www.bankier.pl/forum/temat_a-co-tak-szarpneli-na-fixie,76356703.html",
       "body": "w oficjalnym komunikacie rks żadna pozycja Tauron nie figuruje,natomiast doświadczenie i lata obserwacji rynku sugerują że pod progiem są całe stada szortów,to ulubiony i wciąż replikujący się deal goldmana - pożyczanie pasożytom na grubą krechę akcji Tauronu.ale,,,,co 3 miechy przed publikacją szacunkowych wyników szort dostaje kociokwiku w nadziei że walor nie dowiezie,,,i wciąż się grubo myli i dostaje po brudnych łapskach - ponieważ Tauron prezentuje się coraz lepiej.Kopią walor po kostkach od kilku kwartałów ( dlatego umacnia mnie to w przekonaniu że to szort- pytanie wyżej ),,,,i co się dzieje ? nic., jednak futryna dla szorta stanie się pewnego dnia grubo za wąska, wywalą całą ścianę w 2-3 dni.im szortów teraz więcej na spółce - tym dla nas mających i cierpliwie trzymających akcje Tauron w portfelu lepiej.nie da się na rynku zbyt długo lekceważyć tak rewelacyjnych wyników w porównaniu do walorów zachodnich, czy nawet do naszego południowego sąsiada ( (CEZ )",
       "votes": {
-        "up": 4,
-        "down": 1
+        "up": 5,
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -226,7 +277,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-co-tak-szarpneli-na-fixie,76356703.html",
       "body": "muszę przyznać że szort jest ohydnie perfekcyjny , algorytm idealnie \"czyta\" zasób arkusza.jak tylko po stronie popyty pojawia się dziura w arkuszu, od razu zasypuje akcyjkami i do tego zazwyczaj tylko minimalną ilością i dalej znowu cierpliwie czeka na następne puste miejsca w arkuszu.mimo wszystko dzisiaj było czuć przewagę popytu, a na fixie trochę dołożylimiło",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -254,7 +305,7 @@
       "url": "https://www.bankier.pl/forum/temat_a-co-tak-szarpneli-na-fixie,76356703.html",
       "body": "Przed świętami",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -268,7 +319,7 @@
       "url": "https://www.bankier.pl/forum/temat_lepiej-byc-nie-moze-kolejna-porazka,76349563.html",
       "body": "Raz spada raz rośnie. Od maja mamy boczny trend w zakresie zmienności 8.20-9.80",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 1
       },
       "sentimentScore": 0,
@@ -283,7 +334,7 @@
       "body": "Ale kurs spada.",
       "votes": {
         "up": 2,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -296,7 +347,7 @@
       "url": "https://www.bankier.pl/forum/temat_lepiej-byc-nie-moze-kolejna-porazka,76349563.html",
       "body": "Ktoś sprzedaje, ktoś kupuje.",
       "votes": {
-        "up": 5,
+        "up": 6,
         "down": 2
       },
       "sentimentScore": 0,
@@ -311,7 +362,7 @@
       "body": "Dlatego warto samodzielnie myśleć i nie słuchać naganiaczy na wzrosty. W lutym była szczyt prawie 12 złotych. Od tamtej pory kurs jest w trendzie bocznym. Szczytu są coraz niżej, 10,60, 9,70, teraz 9,00. Nie ma kto kupować drogich akcji. Możliwe że mamy dystrybucję. Ludzie realizują zyski.",
       "votes": {
         "up": 6,
-        "down": 7
+        "down": 9
       },
       "sentimentScore": 0.981,
       "sentimentLabel": "Positive"
@@ -707,90 +758,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76313769",
-      "author": "Krokodyl",
-      "postedAt": "2026-11-05 22:14",
-      "threadTitle": "Re: Wstępne wyniki za 3Q.",
-      "url": "https://www.bankier.pl/forum/temat_wstepne-wyniki-za-3q,76272333.html",
-      "body": "No tpe dało fajnie zarobić aż dziw że to nie rośnie z takimi wynikami chyba zawitam tu w przyszłym roku pozdrowienia dla Dosa Krokodyl",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76311359",
-      "author": "eldealeros",
-      "postedAt": "2026-11-05 18:39",
-      "threadTitle": "Re: Jest 19% podatku bedzie 30% czyli lepiej ha,ha,ha...",
-      "url": "https://www.bankier.pl/forum/temat_jest-19-podatku-bedzie-30-czyli-lepiej-ha-ha-ha,76310827.html",
-      "body": "Po pierwsze ustawa podnosząca CIT nie została jeszcze podpisana przez prezydenta. Po drugie na bankach też mamy 30% podatku i im to nie zaszkodziło. Tauronowi również nie powinno zaszkodzić bo przez inwestycje w dystrybucję rośnie mu Baza Regulacyjnych Aktywów od których jest wynagradzany a im więcej ich ma tym większe wynagrodzenie. Rosną też wyniki w pozostałych nogach biznesowych Taurona co pokazał szacunek wyników za 3Q. Po trzecie rynek zna tą ustawę od jakiegoś już czasu i jakoś nie zareagował wywalaniem energetyki a wręcz odwrotnie zaczął mocno kupować np. PGE. A po czwarte... Czekaliśmy Karolina na Ciebie. Twoje pojawienie się na forum i złowieszcze przepowiednie zawsze skutkowały wzrostami Taurona. W myśl zasady Historia lubi się powtarzać\" mam nadzieję, że i tym razem będzie podobnie.",
-      "votes": {
-        "up": 10,
-        "down": 2
-      },
-      "sentimentScore": 0.995,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76311339",
-      "author": "Marek",
-      "postedAt": "2026-11-05 18:38",
-      "threadTitle": "Re: Jest 19% podatku bedzie 30% czyli lepiej ha,ha,ha...",
-      "url": "https://www.bankier.pl/forum/temat_jest-19-podatku-bedzie-30-czyli-lepiej-ha-ha-ha,76310827.html",
-      "body": "Na forach cały czas wszyscy marzą o zyskach i tak powinno być !A Ameryka krwawi!!! Tak jest na wszystkich spółkach wszyscy jakby odklejeni byli .!",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76310827",
-      "author": "Karolina",
-      "postedAt": "2026-11-05 18:05",
-      "threadTitle": "Jest 19% podatku bedzie 30% czyli lepiej ha,ha,ha...",
-      "url": "https://www.bankier.pl/forum/temat_jest-19-podatku-bedzie-30-czyli-lepiej-ha-ha-ha,76310827.html",
-      "body": "10 zł to marzenia.",
-      "votes": {
-        "up": 2,
-        "down": 5
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76309129",
-      "author": "eldealeros",
-      "postedAt": "2026-11-05 16:38",
-      "threadTitle": "Re: Jest dobrze, a będzie lepiej.",
-      "url": "https://www.bankier.pl/forum/temat_jest-dobrze-a-bedzie-lepiej,75697871.html",
-      "body": "Na początku było wyniośle Waren_Buffet (choć pisał się z błędem), Gaudi, Sewoja, później schodził z ego bo mianował się VanTharp, po drodze kilka innych... Dzisiaj już jest \"tylko\" Zenek, jutro będzie Janusz.",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76308835",
-      "author": "gonzoo",
-      "postedAt": "2026-11-05 16:25",
-      "threadTitle": "Re: Jest dobrze, a będzie lepiej.",
-      "url": "https://www.bankier.pl/forum/temat_jest-dobrze-a-bedzie-lepiej,75697871.html",
-      "body": "Martyniuk ??? :))))",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
     }
   ]
 }
