@@ -3,11 +3,11 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-11-12T23:38:18.708Z",
+  "updatedAt": "2026-11-13T06:43:11.331Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-12T23:38:18.708Z",
+    "fetchedAt": "2026-11-13T06:43:11.331Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.068,
-    "confidence": 0.72,
-    "commentCount": 105,
+    "score": -0.075,
+    "confidence": 0.73,
+    "commentCount": 104,
     "breakdown": {
-      "positive": 14,
+      "positive": 13,
       "negative": 27,
       "neutral": 64
     },
     "trend": [
       {
         "date": "2026-11-06",
-        "score": -0.043,
-        "count": 31
+        "score": -0.055,
+        "count": 29
       },
       {
         "date": "2026-11-07",
@@ -58,10 +58,15 @@
         "date": "2026-11-12",
         "score": -0.032,
         "count": 18
+      },
+      {
+        "date": "2026-11-13",
+        "score": -0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 105 komentarzy z ostatnich 7 dni: nastroje mieszane (14 pozytywnych, 27 negatywnych, 64 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 104 komentarzy z ostatnich 7 dni: nastroje mieszane (13 pozytywnych, 27 negatywnych, 64 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
@@ -106,6 +111,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "76377073",
+      "author": "Ślusarz",
+      "postedAt": "2026-11-13 07:39",
+      "threadTitle": "Re: wsparcia połamane wszyskie na metalach",
+      "url": "https://www.bankier.pl/forum/temat_wsparcia-polamane-wszyskie-na-metalach,76372231.html",
+      "body": "I dalej spada! Dokąd to zmierza?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76374857",
       "author": "Singh",
@@ -1547,34 +1566,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76316031",
-      "author": "YorX",
-      "postedAt": "2026-11-06 07:14",
-      "threadTitle": "Re: 280 zł to dobra cena",
-      "url": "https://www.bankier.pl/forum/temat_280-zl-to-dobra-cena,76313077.html",
-      "body": "> A w tym czasie W20 bliski ATH!A więc jest z czego spadać",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76315809",
-      "author": "Ślusarz",
-      "postedAt": "2026-11-06 06:46",
-      "threadTitle": "Re: 280 zł to dobra cena",
-      "url": "https://www.bankier.pl/forum/temat_280-zl-to-dobra-cena,76313077.html",
-      "body": "Powiedz to temu co kupił po 380",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }

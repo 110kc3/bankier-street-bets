@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-11-12T23:39:08.729Z",
+  "updatedAt": "2026-11-13T06:44:00.059Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-12T23:39:08.729Z",
+    "fetchedAt": "2026-11-13T06:44:00.059Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.066,
-    "confidence": 0.55,
+    "score": 0.086,
+    "confidence": 0.56,
     "commentCount": 34,
     "breakdown": {
-      "positive": 11,
-      "negative": 6,
+      "positive": 12,
+      "negative": 5,
       "neutral": 17
     },
     "trend": [
       {
         "date": "2026-11-06",
-        "score": -0.053,
-        "count": 11
+        "score": 0.02,
+        "count": 9
       },
       {
         "date": "2026-11-07",
@@ -53,10 +53,15 @@
         "date": "2026-11-12",
         "score": 0.107,
         "count": 9
+      },
+      {
+        "date": "2026-11-13",
+        "score": 0.161,
+        "count": 2
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 34 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 6 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 34 komentarzy z ostatnich 7 dni: nastroje mieszane (12 pozytywnych, 5 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "rhett",
@@ -64,6 +69,14 @@
       },
       {
         "word": "roku",
+        "count": 4
+      },
+      {
+        "word": "tyle",
+        "count": 3
+      },
+      {
+        "word": "konca",
         "count": 3
       },
       {
@@ -89,18 +102,38 @@
       {
         "word": "obecnie",
         "count": 3
-      },
-      {
-        "word": "jestes",
-        "count": 3
-      },
-      {
-        "word": "naprawde",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76376979",
+      "author": "Future",
+      "postedAt": "2026-11-13 07:22",
+      "threadTitle": "Pieniędzy na rynku coraz wiecej:⁠-⁠)",
+      "url": "https://www.bankier.pl/forum/temat_pieniedzy-na-rynku-coraz-wiecej,76376979.html",
+      "body": "Akcji tyle samo więc może zabraknąć :⁠-⁠)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76376925",
+      "author": "Lo21",
+      "postedAt": "2026-11-13 07:06",
+      "threadTitle": "Re: Porównując z wyceną PEKAO obstawiam podejscie pod setkę rajd do kon",
+      "url": "https://www.bankier.pl/forum/temat_porownujac-z-wycena-pekao-obstawiam-podejscie-pod-setke-rajd-do-kon-2026,76375325.html",
+      "body": "Do końca roku 82Do dywidendy 100",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76375325",
       "author": "marcinl0",
@@ -548,34 +581,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76316231",
-      "author": "Insurance",
-      "postedAt": "2026-11-06 07:35",
-      "threadTitle": "Re: PZU to namiastka Banku/insurance",
-      "url": "https://www.bankier.pl/forum/temat_pzu-to-namiastka-banku,76214833.html",
-      "body": "Chłopaczku pytać to ty możesz swoich bliskich o ile takowych posiadasz, jesteś anty wskaźnikiem co udowadniasz bardzo często.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76315723",
-      "author": "Heniek",
-      "postedAt": "2026-11-06 06:30",
-      "threadTitle": "Re: Jescze nie widzieliście porządnych spadków./peppapig",
-      "url": "https://www.bankier.pl/forum/temat_jescze-nie-widzieliscie-porzadnych-spadkow,76255683.html",
-      "body": "O CPI można poględzić na przystanku autobusowym. Konstrukcja koszyka CPI celowo ignoruje podatki dochodowe, ceny nieruchomości, podatki majątkowe czy podatki ukryte w kosztach produkcji, przez co jest tak idealnym narzędziem propagandowymTymczasem - PPI UE wywaliło już na 11.1% !!!",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     }
   ]
 }

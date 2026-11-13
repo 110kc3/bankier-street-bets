@@ -3,11 +3,11 @@
   "companyName": "LPP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=LPP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_lpp-sa,6,21,134.html",
-  "updatedAt": "2026-11-12T23:38:29.198Z",
+  "updatedAt": "2026-11-13T06:43:21.191Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-12T23:38:29.198Z",
+    "fetchedAt": "2026-11-13T06:43:21.191Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.06,
+    "score": 0.051,
     "confidence": 0.72,
-    "commentCount": 64,
+    "commentCount": 66,
     "breakdown": {
-      "positive": 17,
-      "negative": 11,
+      "positive": 18,
+      "negative": 12,
       "neutral": 36
     },
     "trend": [
@@ -128,10 +128,15 @@
         "date": "2026-11-12",
         "score": 0.097,
         "count": 6
+      },
+      {
+        "date": "2026-11-13",
+        "score": -0.09,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 64 komentarzy z ostatnich 30 dni: nastroje mieszane (17 pozytywnych, 11 negatywnych, 36 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 66 komentarzy z ostatnich 30 dni: nastroje mieszane (18 pozytywnych, 12 negatywnych, 36 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "roku",
@@ -146,6 +151,14 @@
         "count": 6
       },
       {
+        "word": "netto",
+        "count": 5
+      },
+      {
+        "word": "zysk",
+        "count": 4
+      },
+      {
         "word": "masz",
         "count": 4
       },
@@ -158,24 +171,44 @@
         "count": 4
       },
       {
-        "word": "netto",
-        "count": 4
-      },
-      {
         "word": "sprzedalem",
         "count": 4
       },
       {
-        "word": "pewnie",
-        "count": 3
-      },
-      {
-        "word": "ponad",
+        "word": "wiadomo",
         "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "76376617",
+      "author": "Antoni",
+      "postedAt": "2026-11-13 01:06",
+      "threadTitle": "Re: Jakie macie prognozy zysku netto za III kw 26 r ?",
+      "url": "https://www.bankier.pl/forum/temat_jakie-macie-prognozy-zysku-netto-za-iii-kw-26-r,76362445.html",
+      "body": "Po danych szacunkowych wiadomo właśnie, że zysk netto będzie właśnie pomiędzy 1,0 mld, a 1,2 mld. Trudno bardziej precyzyjnie policzyć. Myślę, że właśnie 1,1 mld jest najbardziej prawdopodobne.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76376603",
+      "author": "MQ747",
+      "postedAt": "2026-11-13 00:46",
+      "threadTitle": "Re: W mojej ocenie 36k - 38k osiągniemy na lpp w przyszłym roku.",
+      "url": "https://www.bankier.pl/forum/temat_w-mojej-ocenie-36k-38k-osiagniemy-na-lpp-w-przyszlym-roku,76369959.html",
+      "body": "Byle nie Orlen. Jeśli cena ropy na rynkach spadnie, a kiedyś to nastąpi, korekta będzie poważna. Do tego ryzyko zawirowań politycznych w kraju",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76375073",
       "author": "maxximm",
