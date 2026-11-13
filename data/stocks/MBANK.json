@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-11-13T06:43:27.441Z",
+  "updatedAt": "2026-11-13T19:41:12.602Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-13T06:43:27.441Z",
+    "fetchedAt": "2026-11-13T19:41:12.602Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,12 +15,12 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.057,
-    "confidence": 0.7,
-    "commentCount": 57,
+    "score": 0.014,
+    "confidence": 0.69,
+    "commentCount": 58,
     "breakdown": {
       "positive": 9,
-      "negative": 12,
+      "negative": 13,
       "neutral": 36
     },
     "trend": [
@@ -118,10 +118,15 @@
         "date": "2026-11-12",
         "score": 0.283,
         "count": 4
+      },
+      {
+        "date": "2026-11-13",
+        "score": -0.931,
+        "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 57 komentarzy z ostatnich 90 dni: nastroje mieszane (9 pozytywnych, 12 negatywnych, 36 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 58 komentarzy z ostatnich 90 dni: nastroje mieszane (9 pozytywnych, 13 negatywnych, 36 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dziala",
@@ -166,6 +171,20 @@
     ]
   },
   "comments": [
+    {
+      "id": "76383791",
+      "author": "Hmm",
+      "postedAt": "2026-11-13 16:16",
+      "threadTitle": "Re: porównanie kap dwóch banków",
+      "url": "https://www.bankier.pl/forum/temat_porownanie-kap-dwoch-bankow,76365957.html",
+      "body": "Problem jest inny jak akcje zaczną spadać i ktoś zobaczy na fundamenty już nie mówię o metodzie porównawczej no to będzie problem ale nie dla nas bo my zawsze zdążymy wyjść z akcji ale większe fundusze no kto od nich odkupi. No może być problem bo jak to zacznie spadać to kto to będzie chciał odebrać",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.931,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76368497",
       "author": "CB",
@@ -244,7 +263,7 @@
       "url": "https://www.bankier.pl/forum/temat_1700-zl-za-mbank-ddd-czyli-w-6-lat-1700,76243377.html",
       "body": "zazdroszczę ale nie odkupię od tego szczęśliwca który tyle zarobił , zapewne jakiś fundusz ma tu potężny zysk ale komu wciśnie te akcje w obecnych cenach?",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0.322,
