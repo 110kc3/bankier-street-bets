@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-11-13T19:41:55.308Z",
+  "updatedAt": "2026-11-14T06:21:13.369Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-13T19:41:55.308Z",
+    "fetchedAt": "2026-11-14T06:21:13.369Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.079,
-    "confidence": 0.55,
-    "commentCount": 33,
+    "score": 0.08,
+    "confidence": 0.54,
+    "commentCount": 32,
     "breakdown": {
       "positive": 11,
-      "negative": 5,
+      "negative": 4,
       "neutral": 17
     },
     "trend": [
-      {
-        "date": "2026-11-06",
-        "score": -0.322,
-        "count": 1
-      },
       {
         "date": "2026-11-07",
         "score": 0.58,
@@ -60,8 +55,8 @@
         "count": 9
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 33 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 5 negatywnych, 17 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 32 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 4 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "rhett",
@@ -92,15 +87,15 @@
         "count": 3
       },
       {
-        "word": "mnie",
-        "count": 3
-      },
-      {
         "word": "koniec",
         "count": 3
       },
       {
         "word": "inflacji",
+        "count": 3
+      },
+      {
+        "word": "obecnie",
         "count": 3
       }
     ]
@@ -240,7 +235,7 @@
       "url": "https://www.bankier.pl/forum/temat_porownujac-z-wycena-pekao-obstawiam-podejscie-pod-setke-rajd-do-kon-2026,76375325.html",
       "body": "naprawdę PZU jest ultratanie",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -553,20 +548,6 @@
       },
       "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76327937",
-      "author": "Tłusty_grabarz",
-      "postedAt": "2026-11-06 22:05",
-      "threadTitle": "Dla mnie to jest warte 55 zł",
-      "url": "https://www.bankier.pl/forum/temat_dla-mnie-to-jest-warte-55-zl,76327937.html",
-      "body": "Dla mnie to jest warte 55 zł, mimo wszystko wiszą nad tą spółką czarne łabędzie jak choćby spadające stopy procentowe czy wojna na Ukrainie",
-      "votes": {
-        "up": 1,
-        "down": 9
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
