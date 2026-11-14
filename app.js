@@ -1,6 +1,3 @@
-/* GIEŁDOWY EXPRESS — app.js
-   Ten sam kontrakt danych co oryginał: ./data/index.json + ./data/stocks/SYMBOL.json
-   Zmieniona wyłącznie warstwa prezentacji (tryb tabloid). */
 
 const app = document.querySelector('#app');
 const form = document.querySelector('#symbol-form');
@@ -15,10 +12,6 @@ const pilneTape2 = document.querySelector('#pilne-tape-2');
 const mastheadDate = document.querySelector('#masthead-date');
 const mastheadNaklad = document.querySelector('#masthead-naklad');
 
-/* ── Redakcyjne słowniki ─────────────────────────────────
-   Każdy sygnał ma PULĘ nagłówków/kickerów/lidów — wybór jest deterministyczny
-   (seed z symbolu+sygnału), więc ta sama spółka czyta się tak samo, ale różne
-   spółki dostają różne brzmienia. Stąd „więcej głupich nagłówków”. */
 
 const SIGNALS = {
   BUY: {
@@ -123,8 +116,6 @@ const VERDICTS = {
     'CZEKA NA ZNAK Z NIEBA', 'ROBI WYKRES W PAINCIE', 'MEDYTUJE NAD KURSEM', 'PARZY HERBATĘ I WZDYCHA'
   ]
 };
-/* Redakcyjny dopisek pod każdym „ekspertem” — czyli więcej komentarza do
-   każdego komentarza, jak prosił dział listów. */
 const FOOTNOTES = [
   'Redakcja nie sprawdzała kwalifikacji eksperta.',
   'Cytat autoryzowany przez forum, nie przez rozum.',
@@ -145,7 +136,6 @@ const TREND_LABELS = [
   { min: -Infinity, labels: ['płacz zbiorowy', 'panika pełnoetatowa', 'wątek przeszedł na modlitwę', 'kapitulacja i memy', 'żałoba narodowa w wątku'] }
 ];
 
-/* ── Pomocnicze ──────────────────────────────────────── */
 
 function escapeHtml(value) {
   return String(value ?? '')
@@ -162,9 +152,6 @@ function hashStr(str) {
   return h;
 }
 
-// Deterministyczny wybór z puli. Seed bywa ujemny (np. po >> na dużym haszu)
-// albo NaN — normalizujemy do bezpiecznego indeksu, więc pula NIGDY nie zwróci
-// `undefined` (to był ten „undefined” wyciekający na polską stronę).
 function pick(arr, seed) {
   if (!Array.isArray(arr) || arr.length === 0) return '';
   const n = Number(seed);
@@ -182,8 +169,6 @@ function formatDate(date) {
   return Number.isNaN(parsed.getTime()) ? 'brak daty' : parsed.toLocaleString('pl-PL');
 }
 
-// Dane odświeża cron co 6 h; powyżej tego progu (≈2 nieudane przebiegi) wydanie
-// jest "nieaktualne" — drukarnia strajkuje.
 const STALE_HOURS = 14;
 
 function hoursSince(date) {
@@ -204,8 +189,6 @@ function signalConf(signal) {
   return SIGNALS[signal] || SIGNALS.HOLD;
 }
 
-/* Inline SVG sparkline z dziennego trendu sentymentu (dane liczbowe, więc
-   bezpieczne dla innerHTML). Czarny tusz na gazecie, ostatni punkt kolorowany. */
 function buildSparkline(trend) {
   const days = (Array.isArray(trend) ? trend : []).filter((d) => Number.isFinite(Number(d?.score)));
   if (!days.length) return '<p class="sparkline-empty">Brak danych dziennych — wykres na urlopie.</p>';
@@ -243,7 +226,6 @@ function scrollToApp() {
   window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
 }
 
-/* ── Pasek PILNE!!! ──────────────────────────────────── */
 
 function renderPilne(reports) {
   const arrows = { improving: '▲', deteriorating: '▼', stable: '■' };
@@ -268,7 +250,6 @@ function renderPilne(reports) {
   pilneTape2.textContent = tape;
 }
 
-/* ── Kiosk ───────────────────────────────────────────── */
 
 function renderReportsIndex(indexData) {
   const stale = isStale(indexData.generatedAt);
@@ -278,7 +259,6 @@ function renderReportsIndex(indexData) {
     `ostatnia dostawa do kiosku: ${formatDate(indexData.generatedAt)}`;
   reportsList.innerHTML = '';
 
-  // podpowiedzi tickerów dla pola "ZAMÓW ANALIZĘ"
   if (tickerList) {
     tickerList.innerHTML = '';
     indexData.reports.forEach((report) => {
@@ -310,7 +290,6 @@ function renderReportsIndex(indexData) {
   renderPilne(indexData.reports);
 }
 
-/* ── Wydanie (analiza spółki) ────────────────────────── */
 
 function renderExpert(comment, index) {
   const seed = hashStr(comment.author || `anonim-${index}`);
@@ -349,8 +328,6 @@ function renderStock(data, options = {}) {
   const conf = signalConf(signal);
   const confidencePct = Math.round((analysis.confidence || 0) * 100);
   const name = data.companyName || data.symbol;
-  // seed z symbolu+sygnału: ta sama spółka czyta się tak samo, różne spółki
-  // dostają różne nagłówki/kickery/lidy z puli (więcej różnorodności).
   const editionSeed = hashStr(String(data.symbol || name) + signal);
 
   const requestedLimit = Math.max(1, Number(commentLimitInput.value) || 8);
@@ -359,7 +336,6 @@ function renderStock(data, options = {}) {
 
   const node = template.content.cloneNode(true);
 
-  /* nagłówek */
   node.querySelector('.kicker').textContent = pick(conf.kickers, editionSeed);
   node.querySelector('.headline').innerHTML = pick(conf.headlines, editionSeed >>> 3)(escapeHtml(name));
   node.querySelector('.subhead').textContent = pick(conf.subheads, editionSeed >>> 6)(analysis.score, confidencePct);
@@ -367,14 +343,11 @@ function renderStock(data, options = {}) {
   stamp.classList.add(conf.cls);
   stamp.querySelector('.stamp-word').textContent = conf.stamp;
 
-  /* barometr */
   const pct = Math.max(2, Math.min(98, ((Number(analysis.score) + 1) / 2) * 100));
   node.querySelector('.barometr-needle').style.left = `${pct}%`;
 
-  /* krzywa nastrojów (sparkline) */
   node.querySelector('.sparkline').innerHTML = buildSparkline(analysis.trend);
 
-  /* statystyki */
   const scoreEl = node.querySelector('.score');
   scoreEl.textContent = fmtScore(analysis.score);
   if (analysis.score < -0.05) scoreEl.classList.add('neg');
@@ -386,7 +359,6 @@ function renderStock(data, options = {}) {
   breakdownEl.textContent = b ? `${b.positive}/${b.negative}/${b.neutral}` : '–';
   if (b && b.negative > b.positive) breakdownEl.classList.add('neg');
 
-  /* eksperci */
   const experts = node.querySelector('.experts');
   if (!visibleComments.length) {
     const empty = document.createElement('p');
@@ -396,7 +368,6 @@ function renderStock(data, options = {}) {
   }
   visibleComments.forEach((comment, i) => experts.appendChild(renderExpert(comment, i)));
 
-  /* z ostatniej chwili (trend dzienny) */
   const trendRows = node.querySelector('.trend-rows');
   (analysis.trend || []).slice(-10).forEach((day) => {
     const row = document.createElement('div');
@@ -410,7 +381,6 @@ function renderStock(data, options = {}) {
     trendRows.innerHTML = '<div class="trend-row"><span>Brak danych dziennych. Podejrzanie spokojnie.</span></div>';
   }
 
-  /* słowa tygodnia */
   const keywords = node.querySelector('.keywords');
   (analysis.topKeywords || []).forEach((item) => {
     const span = document.createElement('span');
@@ -422,7 +392,6 @@ function renderStock(data, options = {}) {
     keywords.innerHTML = '<span class="keyword">forum wyjątkowo bez słów</span>';
   }
 
-  /* ogłoszenia */
   node.querySelector('.quote-link').href = data.quoteUrl || '#';
   node.querySelector('.forum-link').href = data.forumUrl || '#';
   const composedAt = data.report?.fetchedAt || data.updatedAt;
@@ -432,7 +401,6 @@ function renderStock(data, options = {}) {
     `Skład wydania: ${formatDate(composedAt)} · okno: ${data.report?.windowDays || 7} dni` +
     (isStale(composedAt) ? ' · ⚠ wydanie nieaktualne' : '');
 
-  /* nakład w winiecie */
   mastheadNaklad.textContent = `Nakład: ${analysis.commentCount ?? '?'} komentarzy / ${data.report?.windowDays || 7} dni`;
 
   app.innerHTML = '';
@@ -441,9 +409,7 @@ function renderStock(data, options = {}) {
   if (options.scroll) requestAnimationFrame(scrollToApp);
 }
 
-/* ── Ładowanie danych ────────────────────────────────── */
 
-// Odbicie aktualnej spółki w URL (?symbol=JSW), żeby dało się ją linkować.
 function syncUrl(symbol, replace) {
   try {
     const url = new URL(window.location.href);
@@ -471,7 +437,6 @@ async function loadStock(symbol, options = {}) {
     setMessage('PUSTA STRONA!!!', 'Wpisz kod spółki, np. JSW. Bez tego drukujemy same przecinki.', true);
     return;
   }
-  // whitelist — ticker lands in a fetch() path, so no dots/slashes allowed
   if (!/^[A-Z0-9-]{1,12}$/.test(normalized)) {
     setMessage('KRZYWY TICKER!!!', `„${normalized}” nie wygląda jak kod spółki. Dozwolone: litery, cyfry i myślnik.`, true);
     return;
@@ -500,7 +465,6 @@ async function loadReportsIndex() {
     const data = await response.json();
     renderReportsIndex(data);
 
-    /* wydanie otwierające: deep-link z ?symbol= albo najbardziej dramatyczna spółka dnia */
     const reports = data.reports || [];
     if (reports.length) {
       const drama = [...reports].sort(
@@ -523,7 +487,6 @@ form.addEventListener('submit', (event) => {
   loadStock(input.value, { scroll: true });
 });
 
-/* przyciski wstecz/dalej przeglądarki przełączają wydanie bez kolejnego wpisu w historii */
 window.addEventListener('popstate', () => {
   const symbol = urlSymbol();
   if (symbol) {
@@ -532,7 +495,6 @@ window.addEventListener('popstate', () => {
   }
 });
 
-/* winieta: data wydania */
 mastheadDate.textContent =
   'Wydanie paniczne · ' + new Date().toLocaleDateString('pl-PL', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
 

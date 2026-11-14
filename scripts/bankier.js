@@ -1,26 +1,16 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-// ---------------------------------------------------------------------------
-// Sentiment lexicon
-// Stems are stored WITHOUT Polish diacritics; tokens are de-accented before
-// matching, so one stem covers all inflections and sloppy spelling:
-// 'spad' -> spadek, spada, spadnie, spadł/spadl, spadki, spadków...
-// Weight: 1 = mild signal, 2 = strong signal.
-// ---------------------------------------------------------------------------
 
 const POSITIVE_STEMS = [
-  // buying / accumulation
   ['kupuj', 2], ['kupie', 2], ['kupil', 2], ['kupno', 2], ['kupow', 2],
   ['dokupuj', 2], ['dokupil', 2], ['dokupie', 2], ['akumul', 2], ['dobieram', 2],
   ['long', 2], ['wchodze', 1],
-  // price action up
   ['wzrost', 1], ['wzrosn', 1], ['wzrasta', 1], ['rosnie', 1], ['rosna', 1],
   ['urosl', 1], ['odbicie', 1], ['odbija', 1], ['odbije', 1],
   ['wybicie', 2], ['wybija', 2], ['wybije', 2], ['przebicie', 1], ['przebija', 1],
   ['wystrzel', 2], ['odpali', 2], ['rakiet', 2], ['hoss', 2], ['bycz', 2],
   ['wzrostow', 2], ['zielon', 1], ['rekord', 1], ['szczyt', 1],
-  // valuation / quality
   ['niedowartosciowan', 2], ['niedoszacowan', 2], ['zanizon', 1], ['okazj', 1],
   ['tanio', 1], ['potencjal', 1], ['perspektyw', 1], ['atrakcyjn', 1],
   ['mocn', 1], ['siln', 1], ['solidn', 1], ['stabiln', 1], ['bezpieczn', 1],
@@ -28,59 +18,45 @@ const POSITIVE_STEMS = [
   ['poprawa', 1], ['poprawi', 1], ['lepsz', 1], ['lepiej', 1], ['optymi', 1],
   ['zysk', 1], ['zyskown', 2], ['dywidend', 1], ['umocni', 1], ['warto', 1],
   ['polecam', 2], ['trzymam', 1],
-  // to-the-moon optimism / forum hopium
   ['byk', 1], ['ksiezyc', 2], ['kosmos', 2], ['diament', 1], ['fortun', 1]
 ];
 
 const NEGATIVE_STEMS = [
-  // selling / exit
   ['sprzedaj', 2], ['sprzedal', 1], ['sprzedam', 1], ['wyprzeda', 2],
   ['short', 2], ['uciekaj', 2], ['uciekl', 1], ['odradzam', 2],
   ['omijaj', 2], ['omijac', 2], ['unikaj', 2],
   ['wywal', 2], ['pozbyl', 1], ['pozbyc', 1], ['tnij', 1], ['redukuj', 1], ['wyrzuc', 1],
-  // price action down
   ['spad', 1], ['zjazd', 1], ['zjedzie', 1], ['zjechal', 1], ['runie', 2],
   ['runal', 2], ['nurku', 2], ['tonie', 2], ['topnie', 2], ['leci', 1],
   ['osuwa', 1], ['obsuni', 1], ['oslabi', 1], ['czerwon', 1], ['spadkow', 2],
   ['korekt', 1], ['przecen', 1], ['dolek', 1], ['dolk', 1],
   ['tapnie', 2], ['tapnal', 2], ['osun', 1], ['piwnic', 1], ['balon', 1],
-  // crash / fear
   ['bess', 2], ['krach', 2], ['zalaman', 2], ['panik', 2], ['kapitulac', 2],
   ['dramat', 2], ['fataln', 2], ['tragiczn', 2], ['tragedi', 2], ['katastrof', 2],
   ['bankrut', 2], ['bankructw', 2], ['upadlosc', 2], ['plajt', 2],
   ['kryzys', 2], ['recesj', 2], ['masakr', 2], ['pogrom', 2], ['rzez', 1],
   ['lawina', 1], ['apokalips', 2], ['horror', 2], ['koszmar', 2], ['kleska', 2],
-  // valuation / quality
   ['przewartosciowan', 2], ['zawyzon', 1], ['drogo', 1], ['slab', 1],
   ['strat', 1], ['straci', 1], ['ryzyk', 1], ['ryzykown', 1], ['problem', 1],
   ['klopot', 1], ['zagrozen', 1], ['niepokoj', 1], ['zadluz', 1],
   ['rozwodni', 2], ['gorsz', 1], ['gorzej', 1], ['pesymi', 1],
   ['wtop', 2], ['porazk', 1], ['rozczarow', 1], ['naciag', 2], ['piramid', 2],
   ['pompowan', 1], ['wydmuszk', 2], ['denn', 1], ['lipn', 1],
-  // company death / decay
   ['trup', 2], ['gnij', 2], ['gnije', 2], ['zgnil', 2], ['umiera', 2], ['umarl', 2],
   ['martw', 1], ['zombie', 2], ['zaoran', 2], ['zaoral', 2],
-  // slang / disgust (very common on Bankier forum)
   ['syf', 2], ['szrot', 2], ['zlom', 2], ['smiec', 2], ['gowno', 2], ['guwno', 2],
   ['badziew', 2], ['chlam', 2], ['szajs', 2], ['przekret', 2], ['oszust', 2], ['oszuk', 2],
   ['manipulac', 1], ['scam', 2], ['lipa', 1], ['kicha', 1], ['sciem', 2],
   ['beznadziej', 2], ['zenuj', 2], ['zenad', 2], ['frajer', 1], ['naiwn', 1],
   ['rzyg', 2], ['fuj', 1],
-  // vulgar (salty forum -- only clearly-negative crash/disgust stems)
   ['jeb', 2], ['pierdol', 2], ['spierdol', 2], ['chuj', 2]
 ];
 
-// exact-token matches (too short / too ambiguous for prefix matching)
 const POSITIVE_EXACT = new Map([['moon', 2], ['gora', 1], ['gore', 1]]);
 const NEGATIVE_EXACT = new Map([['dno', 2], ['kupa', 1], ['dol', 1], ['kit', 1], ['cyrk', 1], ['klapa', 1]]);
 
-// Tokens that collide with a stem prefix but carry no sentiment, so prefix
-// matching would score them wrongly. These are MORE specific than the stem
-// they shadow and win over it: 'strateg*' (strategy) shadows 'strat' (loss),
-// 'wartosc*' (value, neutral noun) shadows 'warto' (it's worth it).
 const NEUTRAL_PREFIXES = ['strateg', 'wartosc'];
 
-// multi-word phrases, matched on de-accented full text
 const PHRASES = [
   ['do gory', 2], ['na polnoc', 2], ['to the moon', 2], ['na zielono', 1],
   ['bije rekordy', 2], ['pelna chata', 1], ['grube wzrosty', 2],
@@ -97,7 +73,6 @@ const EMOJI = [
   ['📉', -1], ['🔻', -1], ['💩', -2], ['🤡', -1], ['☠', -2], ['🔴', -1], ['🐻', -1], ['💀', -2], ['😭', -1], ['🤮', -2], ['⚰', -2], ['🆘', -2], ['🪦', -2]
 ];
 
-// flips the sign of a sentiment word when found within 2 preceding tokens
 const NEGATORS = new Set(['nie', 'bez', 'brak', 'zero', 'wcale', 'zaden', 'zadna', 'zadne', 'zadnych', 'koniec', 'ani', 'nigdy', 'przestan']);
 
 const STOPWORDS = new Set([
@@ -114,18 +89,15 @@ const STOPWORDS = new Set([
 const DEFAULT_DAYS = 7;
 const DEFAULT_MAX_COMMENTS = 200;
 const DEFAULT_MIN_COMMENTS = 30;
-const FALLBACK_WINDOWS = [30, 90, 365]; // escalation ladder for quiet forums
+const FALLBACK_WINDOWS = [30, 90, 365];
 const MAX_THREAD_PAGES = 6;
 const THREADS_PER_PAGE = 30;
 const POSTS_PER_PAGE = 40;
 const MAX_POSTS_PER_THREAD = 200;
 const REQUEST_DELAY_MS = 150;
-const REQUEST_TIMEOUT_MS = 15000; // abort a hung connection so one stall can't freeze the whole run
-const THREAD_CONCURRENCY = 4; // threads fetched in parallel; each still paginates with its own delay
+const REQUEST_TIMEOUT_MS = 15000;
+const THREAD_CONCURRENCY = 4;
 
-// ---------------------------------------------------------------------------
-// HTML / text helpers
-// ---------------------------------------------------------------------------
 
 function stripTags(input) {
   return input.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ');
@@ -155,9 +127,6 @@ function normalizeCommentHtml(input) {
     .trim();
 }
 
-// Bankier replies embed the quoted post inline as:
-// "Dnia 2026-06-09 o godz. 16:01 ~Lis napisal(a):> quoted text..."
-// Strip the header and '>' markers so they don't pollute sentiment/keywords.
 function stripQuoteHeaders(body) {
   return body
     .replace(/dnia \d{4}-\d{2}-\d{2} o godz\. \d{1,2}:\d{2}\s*~?[^\n:]{0,40}napisał\(a\):/gi, ' ')
@@ -182,9 +151,6 @@ function slugify(input) {
     .slice(0, 120);
 }
 
-// Bankier timestamps ("2026-06-10 14:33") carry no timezone and are Polish
-// local time. Parsing them naively uses the runner's timezone (UTC on CI),
-// which skews cutoff filtering and daily buckets by 1-2 hours.
 const WARSAW_OFFSET_FMT = new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Warsaw', timeZoneName: 'longOffset' });
 const WARSAW_DAY_FMT = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Warsaw', year: 'numeric', month: '2-digit', day: '2-digit' });
 
@@ -197,7 +163,7 @@ function warsawOffsetMs(date) {
 }
 
 function warsawDay(date) {
-  return WARSAW_DAY_FMT.format(date); // en-CA => YYYY-MM-DD
+  return WARSAW_DAY_FMT.format(date);
 }
 
 function parsePostDate(value) {
@@ -212,9 +178,6 @@ function parsePostDate(value) {
   return new Date(asUtc.getTime() - warsawOffsetMs(asUtc));
 }
 
-// ---------------------------------------------------------------------------
-// Sentiment
-// ---------------------------------------------------------------------------
 
 function matchStem(token) {
   if (POSITIVE_EXACT.has(token)) return POSITIVE_EXACT.get(token);
@@ -267,9 +230,6 @@ function sentimentScore(text) {
   return { score, label, positiveHits, negativeHits, hits };
 }
 
-// ---------------------------------------------------------------------------
-// Aggregation
-// ---------------------------------------------------------------------------
 
 function keywordStats(comments) {
   const counts = new Map();
@@ -277,7 +237,7 @@ function keywordStats(comments) {
     const seen = new Set();
     for (const token of deaccent(comment.body).match(/[a-z]{4,}/g) || []) {
       if (STOPWORDS.has(token) || seen.has(token)) continue;
-      seen.add(token); // count each word once per comment, not per repetition
+      seen.add(token);
       counts.set(token, (counts.get(token) || 0) + 1);
     }
   }
@@ -293,7 +253,7 @@ function dailyTrend(comments) {
   for (const comment of comments) {
     const date = parsePostDate(comment.postedAt);
     if (!date) continue;
-    const key = warsawDay(date); // bucket by Polish calendar day, not UTC
+    const key = warsawDay(date);
     const bucket = buckets.get(key) || { date: key, sum: 0, count: 0 };
     bucket.sum += comment.sentimentScore;
     bucket.count += 1;
@@ -318,7 +278,6 @@ function trendDirection(trend) {
 
 function aggregate(comments, windowDays) {
   const now = Date.now();
-  // adapt recency half-life to the window so old-but-only comments still count
   const halfLifeDays = Math.max(3, windowDays / 4);
   let weightedSum = 0;
   let weightTotal = 0;
@@ -330,7 +289,7 @@ function aggregate(comments, windowDays) {
     const ageDays = date ? Math.max(0, (now - date.getTime()) / 86400000) : windowDays;
     const recencyWeight = Math.pow(0.5, ageDays / halfLifeDays);
     const netVotes = (comment.votes?.up || 0) - (comment.votes?.down || 0);
-    const voteWeight = Math.max(0.25, Math.min(2.5, 1 + netVotes * 0.1)); // community agreement
+    const voteWeight = Math.max(0.25, Math.min(2.5, 1 + netVotes * 0.1));
     const weight = recencyWeight * voteWeight;
     weightedSum += comment.sentimentScore * weight;
     weightTotal += weight;
@@ -360,9 +319,6 @@ function aggregate(comments, windowDays) {
   };
 }
 
-// ---------------------------------------------------------------------------
-// Fetching
-// ---------------------------------------------------------------------------
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -385,9 +341,6 @@ async function fetchText(url) {
   }
 }
 
-// Retry any fetch a few times with backoff. parse() lets callers validate the
-// body (e.g. JSON.parse) and treat a bad body as a retryable failure — the
-// Bankier endpoints sometimes answer with an HTML error page.
 async function fetchWithRetry(url, { attempts = 3, parse = (text) => text } = {}) {
   let lastError;
   for (let attempt = 0; attempt < attempts; attempt += 1) {
@@ -466,8 +419,6 @@ async function fetchThreadsInWindow(forumMeta, cutoff) {
     });
     threads.push(...fresh);
 
-    // Threads are ordered by last activity, but pinned/sticky threads can be
-    // stale on page 1 — so only stop once an ENTIRE page is stale.
     if (!fresh.length) break;
     await sleep(REQUEST_DELAY_MS);
   }
@@ -478,8 +429,6 @@ async function fetchThreadComments(thread, cutoff) {
   const total = Math.min(Number(thread.quantity) || 1, MAX_POSTS_PER_THREAD);
   const collected = [];
 
-  // paginate newest-first until the thread is exhausted or we hit posts
-  // older than the cutoff (busy threads have more than one page in-window)
   for (let offset = 0; offset < total; offset += POSTS_PER_PAGE) {
     const limit = Math.min(POSTS_PER_PAGE, total - offset);
     const threadUrl = new URL('https://m.bankier.pl/json/get_thread');
@@ -507,9 +456,6 @@ async function fetchThreadComments(thread, cutoff) {
   });
 }
 
-// ---------------------------------------------------------------------------
-// Main entry
-// ---------------------------------------------------------------------------
 
 function postToComment(post) {
   const sentiment = sentimentScore(`${post.threadTitle}. ${post.body}`);
@@ -530,16 +476,13 @@ async function collectComments(forumMeta, cutoff, maxComments) {
   const threads = await fetchThreadsInWindow(forumMeta, cutoff);
   const comments = [];
 
-  // Fetch threads in small parallel batches: ~4x faster than fully serial,
-  // while each thread still paginates with its own REQUEST_DELAY_MS so we
-  // don't hammer the endpoint. Stop launching batches once maxComments is hit.
   for (let i = 0; i < threads.length; i += THREAD_CONCURRENCY) {
     const batch = threads.slice(i, i + THREAD_CONCURRENCY);
     const results = await Promise.all(batch.map(async (thread) => {
       try {
         return await fetchThreadComments(thread, cutoff);
       } catch {
-        return []; // ignore single thread failure
+        return [];
       }
     }));
     for (const posts of results) {
@@ -573,7 +516,6 @@ async function collectStock(symbol, options = {}) {
     throw new Error(`Could not extract forum metadata for ${symbol}`);
   }
 
-  // quiet forum fallback: escalate the window until minComments is reached
   const windows = [requestedDays, ...FALLBACK_WINDOWS.filter((d) => d > requestedDays)];
   let windowDays = requestedDays;
   let threads = [];
@@ -627,9 +569,6 @@ function stockToReport(stock) {
   };
 }
 
-// Rebuild data/index.json from every file in data/stocks/ so the index can
-// never desync from the data: failed refreshes keep their previous entry and
-// partial refreshes (single symbol, presets) don't drop other stocks.
 async function rebuildIndexFile(extra = {}) {
   const dir = path.join('data', 'stocks');
   const files = (await fs.readdir(dir)).filter((file) => file.endsWith('.json')).sort();
@@ -639,7 +578,6 @@ async function rebuildIndexFile(extra = {}) {
       const stock = JSON.parse(await fs.readFile(path.join(dir, file), 'utf8'));
       reports.push(stockToReport(stock));
     } catch (error) {
-      // one corrupt/half-written stock file must not nuke the whole index
       console.error(`Skipping ${file} in index rebuild: ${error.message}`);
     }
   }
@@ -651,11 +589,6 @@ async function rebuildIndexFile(extra = {}) {
   return reports;
 }
 
-// Re-score an already-collected stock object using the CURRENT lexicon, without
-// re-fetching from Bankier. Recomputes each stored comment's sentiment from its
-// thread title + body (same input postToComment uses), then re-runs the exact
-// aggregation a fresh scrape would. Lets a lexicon change take effect on the
-// committed data/ snapshot immediately, instead of waiting for the next cron.
 function rescoreStock(stock) {
   const windowDays = Math.max(1, Number(stock.report?.windowDays) || DEFAULT_DAYS);
   const comments = (Array.isArray(stock.comments) ? stock.comments : []).map((comment) => {

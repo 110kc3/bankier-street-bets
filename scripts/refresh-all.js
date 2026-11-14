@@ -1,7 +1,6 @@
 import fs from 'node:fs/promises';
 import { collectStock, writeStockFile, rebuildIndexFile } from './bankier.js';
 
-// CCC -> MODIVO, PLAY -> delisted (removed); SANTANDER -> ERSTEPL (renamed)
 const TOP20_SYMBOLS = [
   'PKNORLEN', 'PKOBP', 'PEKAO', 'PZU', 'DINOPL', 'ALLEGRO', 'KGHM', 'LPP', 'CDPROJEKT', 'MBANK',
   'ERSTEPL', 'KRUK', 'CYFRPLSAT', 'BUDIMEX', 'ORANGEPL', 'JSW', 'TAURONPE', 'PGE'
@@ -32,8 +31,6 @@ for (const rawSymbol of symbols) {
   }
 }
 
-// Index is rebuilt from data/stocks/* — failed symbols keep their previous
-// entry instead of silently disappearing from the kiosk.
 const reports = await rebuildIndexFile({ preset });
 console.log(`Index rebuilt: ${reports.length} stocks (${refreshed} refreshed, ${failed.length} failed)`);
 

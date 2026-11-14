@@ -1,4 +1,3 @@
-// Kontrakt danych: pola, których wymaga nowy frontend (app.js tabloid).
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -6,7 +5,7 @@ import fs from 'node:fs/promises';
 const SIGNALS = new Set(['BUY', 'HOLD', 'SELL']);
 const TRENDS = new Set(['improving', 'deteriorating', 'stable']);
 const LABELS = new Set(['Positive', 'Negative', 'Neutral']);
-const REMOVED = new Set(['CCC', 'PLAY', 'SANTANDER']); // CCC -> MODIVO, SANTANDER -> ERSTEPL (zmiany nazw), PLAY -> delisting
+const REMOVED = new Set(['CCC', 'PLAY', 'SANTANDER']);
 
 const index = JSON.parse(await fs.readFile('data/index.json', 'utf8'));
 const stockFiles = (await fs.readdir('data/stocks')).filter((f) => f.endsWith('.json'));
@@ -77,10 +76,6 @@ for (const file of stockFiles) {
   });
 }
 
-// ── Dodatkowa walidacja: zero przecieków JS na polską stronę + spójny breakdown
-// Pola, które generujemy sami (companyName, summary, słowa kluczowe), nie mogą
-// zawierać "undefined"/"NaN"/"null", a rozbicie sentymentu musi się zgadzać z
-// policzonymi etykietami komentarzy (łapie błąd re-scoringu/agregacji).
 const GARBAGE = /\b(undefined|NaN|null)\b/;
 
 for (const file of stockFiles) {

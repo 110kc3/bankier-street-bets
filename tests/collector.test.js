@@ -1,5 +1,3 @@
-// Eskalacja okna dla cichych forów: 7 -> 30 -> 90 -> 365 dni aż do minComments.
-// Endpointy Bankiera są mockowane przez podmianę globalThis.fetch.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
@@ -12,7 +10,6 @@ function makePost(id, daysAgo, body) {
     body, up: '1', down: '0', sum: '1' };
 }
 
-// forum z 1 postem w 7 dni, 3 w 30 dni, 12 w 90 dni
 const THREADS = [
   { thread_id: '1', subject: 'Swiezy', quantity: '1', last_dt: dt(2), post_id: '100' },
   { thread_id: '2', subject: 'Miesieczny', quantity: '2', last_dt: dt(20), post_id: '200' },

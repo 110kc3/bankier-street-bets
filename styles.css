@@ -1,4 +1,4 @@
-/* GIEŁDOWY EXPRESS — tabloidowy skin dla Bankier Street Bets */
+
 
 :root {
   --paper: #f4efe3;
@@ -29,7 +29,6 @@ body::after {
   background: repeating-linear-gradient(0deg, rgba(23, 18, 12, 0.025) 0 2px, transparent 2px 4px);
 }
 
-/* ── PILNE!!! ─────────────────────────────────────────── */
 .pilne {
   position: sticky; top: 0; z-index: 50;
   background: var(--red); color: #fff;
@@ -45,18 +44,16 @@ body::after {
 .pilne:hover .pilne-track { animation-play-state: paused; }
 .pilne-inner { flex-shrink: 0; padding-right: 60px; }
 @keyframes pilne-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-/* dostępność: wolniej zamiast stopu — pasek ma się zawsze przesuwać */
+
 @media (prefers-reduced-motion: reduce) { .pilne-track { animation-duration: 120s; } }
 
 .page { width: min(1160px, calc(100% - 32px)); margin: 0 auto; padding-bottom: 26px; }
 
-/* ── Masthead ─────────────────────────────────────────── */
 .masthead { text-align: center; padding: 24px 10px 12px; border-bottom: 4px double var(--ink); }
 .masthead h1 { margin: 0; font-family: 'Anton', sans-serif; font-size: clamp(42px, 7vw, 68px); letter-spacing: 0.04em; line-height: 1; }
 .masthead h1 span { color: var(--red); }
 .masthead-meta { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: 12.5px; font-style: italic; color: var(--ink-soft); margin-top: 10px; }
 
-/* ── Zamów analizę ────────────────────────────────────── */
 .zamow { border-bottom: 2px solid var(--ink); padding: 14px 0 12px; }
 .zamow-form { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .zamow-label { font-family: 'Anton', sans-serif; font-size: 17px; letter-spacing: 0.08em; }
@@ -77,7 +74,6 @@ body::after {
 .zamow-form button:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
 .zamow-hint { font-size: 12.5px; font-style: italic; color: var(--ink-soft); margin: 10px 0 0; }
 
-/* ── Kiosk ────────────────────────────────────────────── */
 .kiosk { padding: 16px 0 18px; border-bottom: 2px solid var(--ink); }
 .section-head {
   font-family: 'Anton', sans-serif; font-size: 17px; letter-spacing: 0.1em; text-transform: uppercase;
@@ -102,7 +98,6 @@ body::after {
 .kiosk-name { font-size: 12px; font-style: italic; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .kiosk-meta { font-size: 11.5px; color: var(--ink-soft); border-top: 1px dotted var(--rule); padding-top: 4px; margin-top: 2px; }
 
-/* ── Wydanie (wynik) ──────────────────────────────────── */
 .results-shell { min-height: 320px; }
 .headline-wrap { padding: 22px 0 16px; border-bottom: 2px solid var(--ink); position: relative; }
 .kicker {
@@ -130,7 +125,6 @@ body::after {
 .wydanie-main { padding: 18px 24px 18px 0; border-right: 2px solid var(--ink); display: flex; flex-direction: column; gap: 16px; }
 .wydanie-side { padding: 18px 0 18px 22px; display: flex; flex-direction: column; gap: 16px; background: linear-gradient(90deg, var(--paper-2), var(--paper-2)); }
 
-/* Barometr */
 .barometr { border: 2px solid var(--ink); background: var(--paper-card); padding: 18px 20px 14px; box-shadow: 5px 5px 0 var(--ink); }
 .barometr-track {
   height: 26px; border: 2px solid var(--ink); position: relative;
@@ -142,7 +136,6 @@ body::after {
 .barometr-labels span:first-child { color: var(--red); }
 .barometr-labels span:last-child { color: var(--green); }
 
-/* Krzywa nastrojów (sparkline) */
 .sparkline { border: 2px solid var(--ink); background: var(--paper-card); padding: 10px 12px; box-shadow: 4px 4px 0 var(--ink); }
 .sparkline .spark { display: block; width: 100%; height: auto; }
 .spark-zero { stroke: var(--ink-soft); stroke-width: 1; stroke-dasharray: 3 3; opacity: 0.6; }
@@ -154,10 +147,8 @@ body::after {
 .spark-neg .spark-dots circle:last-child { fill: var(--red); }
 .sparkline-empty { margin: 0; font-family: Georgia, serif; font-style: italic; font-size: 13px; color: var(--ink-soft); }
 
-/* Znacznik nieaktualnego wydania (cron nie zdążył odświeżyć danych) */
 .stale { color: var(--red); font-weight: 700; font-style: normal; }
 
-/* Statystyki */
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0; }
 .stat { border: 2px solid var(--ink); background: var(--paper-card); text-align: center; padding: 10px 6px 8px; box-shadow: 4px 4px 0 var(--ink); }
 .stat dt { font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-soft); margin: 0 0 4px; }
@@ -165,7 +156,6 @@ body::after {
 .stat dd.neg { color: var(--red); }
 .stat dd.pos { color: var(--green); }
 
-/* Eksperci */
 .experts { display: flex; flex-direction: column; gap: 14px; }
 .expert { border-bottom: 1px solid var(--rule); padding-bottom: 14px; display: grid; grid-template-columns: 56px 1fr; gap: 12px; }
 .expert:last-child { border-bottom: 0; padding-bottom: 0; }
@@ -179,7 +169,6 @@ body::after {
 .verdict.sig-sell { color: var(--red); }
 .verdict.sig-buy { color: var(--green); }
 
-/* Boczki */
 .paper-box { border: 2px solid var(--ink); background: var(--paper-card); box-shadow: 5px 5px 0 var(--ink); padding: 14px 16px; }
 .box-head { font-family: 'Anton', sans-serif; font-size: 15px; letter-spacing: 0.1em; text-transform: uppercase; border-bottom: 2px solid var(--ink); padding-bottom: 5px; margin-bottom: 10px; }
 .box-head.inv { background: var(--ink); color: var(--yellow); margin: -14px -16px 10px; padding: 8px 16px; border-bottom: 0; }
@@ -200,14 +189,12 @@ body::after {
 .kupon-big { font-family: 'Anton', sans-serif; font-size: 21px; line-height: 1.15; }
 .kupon-small { font-size: 11.5px; font-style: italic; margin-top: 5px; }
 
-/* Stany ─ loading / błąd */
 .loading-box, .error-box { margin-top: 18px; }
 .error-box { border-color: var(--red); box-shadow: 5px 5px 0 var(--red); }
 .error-box h2 { font-family: 'Anton', sans-serif; color: var(--red); margin: 0 0 8px; letter-spacing: 0.04em; }
 .loading-box h2 { font-family: 'Anton', sans-serif; margin: 0 0 8px; letter-spacing: 0.04em; }
 .loading-box p, .error-box p { margin: 0; font-style: italic; color: var(--ink-mid); }
 
-/* Stopka */
 .stopka { border-top: 3px double var(--ink); margin-top: 22px; padding: 10px 0; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 11.5px; font-style: italic; color: var(--ink-soft); }
 
 @media (max-width: 860px) {

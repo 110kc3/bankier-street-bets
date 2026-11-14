@@ -1,5 +1,3 @@
-// Testy dymne nowego frontendu (tabloid) w jsdom: pasek PILNE, kiosk,
-// nagłówki wg sygnału, barometr, eksperci, trend, auto-wydanie, stany błędów.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -105,9 +103,6 @@ test('wydanie otwierające: auto-ładuje spółkę z max |score|', async () => {
   assert.equal(document.querySelector('#symbol-input').value, 'DRAMA');
 });
 
-// Nagłówki rotują z puli (seed z symbolu+sygnału), więc testujemy własności,
-// nie konkretny tekst: nazwa spółki w nagłówku, krzyk (!!!), brak śmieci JS,
-// kicker/lid niepuste, oraz właściwa pieczątka.
 for (const [signal, cls, stampWord] of [
   ['SELL', 'sig-sell', 'SPRZEDAWAJ'],
   ['BUY', 'sig-buy', 'KUPUJ'],
@@ -150,7 +145,6 @@ test('eksperci: po jednym na komentarz, werdykt wg sentymentu, prawdziwe metadan
   assert.ok(experts[1].querySelector('.verdict').classList.contains('sig-sell'));
   assert.ok(experts[0].textContent.includes('głosy czytelników: +5 / −1'));
   assert.equal(experts[0].querySelector('a').href, 'https://www.bankier.pl/forum/t,1.html');
-  // tytuł naukowy i instytut nadane (niepuste, z puli redakcyjnej)
   assert.match(experts[0].querySelector('.expert-name').textContent, /~Grazyna$/);
   assert.ok(experts[0].querySelector('.expert-title').textContent.length > 5);
 });
@@ -287,11 +281,9 @@ test('responsywność/markup: media query 860px i prefers-reduced-motion w CSS',
 
 test('marquee PILNE: animowany track z dwiema identycznymi taśmami (płynna pętla)', async () => {
   const css = await fs.readFile('styles.css', 'utf8');
-  // animacja na tracku, pętla -50%, nigdy nie zatrzymana na sztywno
   assert.ok(/\.pilne-track\s*\{[^}]*animation:\s*pilne-scroll/.test(css), 'brak animacji na .pilne-track');
   assert.ok(/translateX\(-50%\)/.test(css), 'pętla powinna przesuwać o -50% szerokości tracku');
   assert.ok(!/animation:\s*none/.test(css), 'marquee nie może być wyłączany (ma zwalniać, nie stawać)');
-  // struktura DOM: track owija obie taśmy
   const indexData = { generatedAt: '2026-06-10T06:00:00.000Z', reports: [makeReport('XXX')] };
   const { document } = await boot({ indexData, stocks: { XXX: makeStock('XXX') } });
   const track = document.querySelector('.pilne-track');
@@ -301,11 +293,6 @@ test('marquee PILNE: animowany track z dwiema identycznymi taśmami (płynna pę
   assert.equal(tapes[0].textContent, tapes[1].textContent, 'taśmy muszą być identyczne dla płynnej pętli');
 });
 
-/* ── Regresja: pula redakcyjna nigdy nie drukuje "undefined" ──
-   Wcześniej pick() używał pól >> (ze znakiem) i dla ~24% autorów dawał ujemny
-   indeks => arr[-n] === undefined, które lądowało jako "undefined" na polskiej
-   stronie (tytuł/instytut/werdykt eksperta). 60 różnych autorów wymusza wiele
-   różnych seedów, w tym takie z ustawionym najwyższym bitem hasza. */
 test('regresja: pula redakcyjna nigdy nie drukuje "undefined" (ujemny seed)', async () => {
   const comments = Array.from({ length: 60 }, (_, i) => ({
     id: String(i), author: `Inwestor_${i}_x${i * 97 + 13}`, postedAt: '2026-06-10 09:00',

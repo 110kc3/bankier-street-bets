@@ -1,10 +1,3 @@
-// Maintenance tool: re-score every committed stock with the CURRENT lexicon
-// WITHOUT re-fetching Bankier, then rebuild data/index.json. Run it after editing
-// the sentiment lexicon so the static site reflects the change immediately — the
-// 6 h refresh cron would otherwise apply the new lexicon only on its next scrape.
-//
-//   npm run rescore
-//
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { rescoreStock, writeStockFile, rebuildIndexFile } from './bankier.js';

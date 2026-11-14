@@ -12,5 +12,5 @@ if (!symbol) {
 
 const stock = await collectStock(symbol, { days, minComments, maxComments });
 await writeStockFile(stock);
-await rebuildIndexFile(); // keep the kiosk index in sync with single-symbol refreshes
+await rebuildIndexFile();
 console.log(`Saved data/stocks/${symbol}.json (${stock.analysis.commentCount} comments, ${stock.analysis.signal}, window ${stock.report.windowDays}d)`);

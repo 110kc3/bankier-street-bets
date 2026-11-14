@@ -1,5 +1,3 @@
-// Bezpośrednie testy heurystyki sentymentu: leksykon, negacja, frazy, emoji
-// oraz kolizje prefiksów (strateg/wartość nie mają być liczone jako sygnał).
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { sentimentScore } from '../scripts/bankier.js';
@@ -66,7 +64,6 @@ test('score zawsze w zakresie [-1, 1]', () => {
   assert.ok(r.score >= -1 && r.score <= 1, `score ${r.score}`);
 });
 
-// ── Rozszerzony, „solony” leksykon negatywny (forum bywa bardzo salty) ──
 
 test('salty: nowe rdzenie negatywne łapane jako Negative', () => {
   for (const txt of [
