@@ -3,36 +3,41 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-11-14T17:59:43.835Z",
+  "updatedAt": "2026-11-14T22:22:48.093Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-14T17:59:43.835Z",
+    "fetchedAt": "2026-11-14T22:22:48.093Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 47
+    "threadsScanned": 48
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.01,
+    "score": 0.011,
     "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 46,
+      "positive": 49,
       "negative": 59,
-      "neutral": 95
+      "neutral": 92
     },
     "trend": [
       {
+        "date": "2026-11-07",
+        "score": 0.87,
+        "count": 1
+      },
+      {
         "date": "2026-11-08",
-        "score": 0.149,
-        "count": 9
+        "score": 0.211,
+        "count": 10
       },
       {
         "date": "2026-11-09",
-        "score": -0.19,
-        "count": 16
+        "score": -0.194,
+        "count": 11
       },
       {
         "date": "2026-11-10",
@@ -56,23 +61,23 @@
       },
       {
         "date": "2026-11-14",
-        "score": 0,
-        "count": 1
+        "score": -0.146,
+        "count": 4
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (46 pozytywnych, 59 negatywnych, 95 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (49 pozytywnych, 59 negatywnych, 92 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 30
-      },
-      {
-        "word": "masz",
-        "count": 11
+        "count": 32
       },
       {
         "word": "roku",
+        "count": 12
+      },
+      {
+        "word": "masz",
         "count": 11
       },
       {
@@ -88,24 +93,66 @@
         "count": 8
       },
       {
-        "word": "trzeba",
+        "word": "czas",
         "count": 7
       },
       {
-        "word": "czas",
-        "count": 6
+        "word": "wiecej",
+        "count": 7
       },
       {
-        "word": "wartosc",
-        "count": 6
+        "word": "przy",
+        "count": 7
       },
       {
-        "word": "szorty",
-        "count": 6
+        "word": "trzeba",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "76391569",
+      "author": "Marianna",
+      "postedAt": "2026-11-14 22:41",
+      "threadTitle": "Myślę, że z Dino jeszcze coś będzie.",
+      "url": "https://www.bankier.pl/forum/temat_mysle-ze-z-dino-jeszcze-cos-bedzie,76391569.html",
+      "body": "I to jeszcze w tym roku. Dino, nie wypłaca dywidendy. Dino inwestuje. Wystarczy zobaczyć na ilość sklepów, centrów dystrybucji. Spółka cały czas się rozwija.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76390955",
+      "author": "jm",
+      "postedAt": "2026-11-14 19:52",
+      "threadTitle": "Re: Dobrze ze tu sa szorty",
+      "url": "https://www.bankier.pl/forum/temat_dobrze-ze-tu-sa-szorty,76389849.html",
+      "body": "Shorty pożyczają akcje bez zgody właścicieli tych akcji i za darmo, ponoć oddadzą te pożyczone jak prezydent przyjmie ślubowanie sędziów TK.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76390857",
+      "author": "Eustachy",
+      "postedAt": "2026-11-14 19:26",
+      "threadTitle": "Re: Dobrze ze tu sa szorty",
+      "url": "https://www.bankier.pl/forum/temat_dobrze-ze-tu-sa-szorty,76389849.html",
+      "body": "Z takim podejściem całkowicie się zgadzam, gdyby nie spadek poniżej 40, nigdy bym nie miał tyle akcji i co więcej, tak dobrze uśrednionych.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76389849",
       "author": "Filozof",
@@ -114,7 +161,7 @@
       "url": "https://www.bankier.pl/forum/temat_dobrze-ze-tu-sa-szorty,76389849.html",
       "body": "Spolka caly czas zwieksza swoja wartosc. Szorty cisna kurs. Daje nam to czas na regularne zwiekszanie poziomu akcji.",
       "votes": {
-        "up": 4,
+        "up": 7,
         "down": 0
       },
       "sentimentScore": 0,
@@ -884,7 +931,7 @@
       "url": "https://www.bankier.pl/forum/temat_szorty,76378863.html",
       "body": "Uważam że się przeliczyli z tym że kurs bardziej zjedzie. Został im pewnie niewielki pakiet do sypania i grają na zniechęcenie ulicy aby jak najwięcej osób odpuściło sobie tą spółkę.",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -2627,20 +2674,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76345877",
-      "author": "Kaso",
-      "postedAt": "2026-11-09 20:37",
-      "threadTitle": "Re: Mafia…",
-      "url": "https://www.bankier.pl/forum/temat_mafia,76342145.html",
-      "body": "Jak to rządzą shorty skoro od lipca jesteśmy 30 % wyżej od dołka i w wyraźnym trendzie wzrostowym!",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "76345745",
       "author": "Radi",
       "postedAt": "2026-11-09 20:25",
@@ -2709,62 +2742,6 @@
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76343465",
-      "author": "Radi",
-      "postedAt": "2026-11-09 16:26",
-      "threadTitle": "Re: Mafia…",
-      "url": "https://www.bankier.pl/forum/temat_mafia,76342145.html",
-      "body": "no wlasnie w tym problem. tu rzadza szorty i tu mozna tylko grac napewno nie inwestowac.",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76343361",
-      "author": "Rewizor",
-      "postedAt": "2026-11-09 16:16",
-      "threadTitle": "Re: Mafia…",
-      "url": "https://www.bankier.pl/forum/temat_mafia,76342145.html",
-      "body": "O czym wy piszecie? To jest esencja gry na gieldzie",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76343087",
-      "author": "Cnc",
-      "postedAt": "2026-11-09 15:59",
-      "threadTitle": "Re: Mafia…",
-      "url": "https://www.bankier.pl/forum/temat_mafia,76342145.html",
-      "body": "To są klauni z Cyrku. A nie komisja",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76342319",
-      "author": "Darek",
-      "postedAt": "2026-11-09 15:21",
-      "threadTitle": "Re: Mafia…",
-      "url": "https://www.bankier.pl/forum/temat_mafia,76342145.html",
-      "body": "To co robią z kursem Dino nie ma nic wspólnego z giełdą.",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "76341729",
@@ -2904,6 +2881,34 @@
         "down": 0
       },
       "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76332797",
+      "author": "Elczapo",
+      "postedAt": "2026-11-08 00:01",
+      "threadTitle": "Re: Cena/zysk 24 ale za co Asbis (13) tam przychody plus 40% wg Anali",
+      "url": "https://www.bankier.pl/forum/temat_cena-zysk-24-ale-za-co-asbis-13-tam-przychody-plus-40-wg-anali,76326653.html",
+      "body": "36,6 mld ver 8,5 mld to na teraz 4,3 krotność różnicy gdzie kwartał q3 ro 42% wykonu Dino. A konserwatywni anale liczą wzrost rzędu 40$ w 2027r ale oni zawsze liczyli podzielić na 2-3 i może się okazać przy wroście usd na 4,50 ziko że za 2026r. to Asbis będzie miał lepszy wynik poparty w przyroście gotówki i w dużej części w kieszeni akcjonarjuszy. Nie twierdzę że kursy się powinny wyrówna bo jednak kapitał własny jest z 5 razy większy ale sądzę że 1:3 to adekwatna wielkość.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76332771",
+      "author": "Elczapo",
+      "postedAt": "2026-11-07 23:43",
+      "threadTitle": "Re: Cena/zysk 24 ale za co Asbis (13) tam przychody plus 40% wg Anali",
+      "url": "https://www.bankier.pl/forum/temat_cena-zysk-24-ale-za-co-asbis-13-tam-przychody-plus-40-wg-anali,76326653.html",
+      "body": "No i to co napisałem odnieś do kapitalizacji czy oby na pewno warto dać teraz więcej ponad 4 razy za bezpieczne powolne Dino niż za szalonego Rumaka Asbis choć w mim rozumowaniu jest bardziej bezpieczny niż Dino (ale mogę zrozumieć inne zdanie) ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
       "sentimentLabel": "Positive"
     }
   ]
