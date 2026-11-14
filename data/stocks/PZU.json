@@ -3,11 +3,11 @@
   "companyName": "PZU SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PZU",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pzu-sa,6,21,10000000081.html",
-  "updatedAt": "2026-11-14T06:21:13.369Z",
+  "updatedAt": "2026-11-14T18:01:08.122Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-14T06:21:13.369Z",
+    "fetchedAt": "2026-11-14T18:01:08.122Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
@@ -15,19 +15,19 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.08,
-    "confidence": 0.54,
-    "commentCount": 32,
+    "score": 0.077,
+    "confidence": 0.53,
+    "commentCount": 31,
     "breakdown": {
-      "positive": 11,
+      "positive": 10,
       "negative": 4,
       "neutral": 17
     },
     "trend": [
       {
         "date": "2026-11-07",
-        "score": 0.58,
-        "count": 3
+        "score": 0,
+        "count": 1
       },
       {
         "date": "2026-11-09",
@@ -53,10 +53,15 @@
         "date": "2026-11-13",
         "score": 0.065,
         "count": 9
+      },
+      {
+        "date": "2026-11-14",
+        "score": 0.322,
+        "count": 1
       }
     ],
-    "trendDirection": "deteriorating",
-    "summary": "Analiza 32 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 4 negatywnych, 17 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 31 komentarzy z ostatnich 7 dni: nastroje mieszane (10 pozytywnych, 4 negatywnych, 17 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "rhett",
@@ -83,10 +88,6 @@
         "count": 3
       },
       {
-        "word": "tyle",
-        "count": 3
-      },
-      {
         "word": "koniec",
         "count": 3
       },
@@ -97,10 +98,28 @@
       {
         "word": "obecnie",
         "count": 3
+      },
+      {
+        "word": "dzis",
+        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76388205",
+      "author": "Future",
+      "postedAt": "2026-11-14 09:05",
+      "threadTitle": "Re: Porównując z wyceną PEKAO obstawiam podejscie pod setkę rajd do kon",
+      "url": "https://www.bankier.pl/forum/temat_porownujac-z-wycena-pekao-obstawiam-podejscie-pod-setke-rajd-do-kon-2026,76375325.html",
+      "body": "Tanio jest ale 100 to aż nadto!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76384707",
       "author": "Komar",
@@ -109,8 +128,8 @@
       "url": "https://www.bankier.pl/forum/temat_porownujac-z-wycena-pekao-obstawiam-podejscie-pod-setke-rajd-do-kon-2026,76375325.html",
       "body": "Też nie koniecznie 100 zl w 2027 długo jeszcze może się bujać 70-80 zł.",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -124,7 +143,7 @@
       "body": "czy to ciekawie technicznie ?",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -179,7 +198,7 @@
       "url": "https://www.bankier.pl/forum/temat_porownujac-z-wycena-pekao-obstawiam-podejscie-pod-setke-rajd-do-kon-2026,76375325.html",
       "body": "jest tanie bo tak go wycenia rynek. Jeszcze nie odrobilismy dywidendy To nie jest spolka do skokow po 30% w 2 miesiace.100 zl do konca 2027.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 1
       },
       "sentimentScore": -0.322,
@@ -222,7 +241,7 @@
       "body": "Do końca roku 82Do dywidendy 100",
       "votes": {
         "up": 1,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -236,7 +255,7 @@
       "body": "naprawdę PZU jest ultratanie",
       "votes": {
         "up": 4,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -520,34 +539,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76331699",
-      "author": "Tlusty_grabarz",
-      "postedAt": "2026-11-07 18:13",
-      "threadTitle": "Re: Dla mnie to jest warte 55 zł",
-      "url": "https://www.bankier.pl/forum/temat_dla-mnie-to-jest-warte-55-zl,76327937.html",
-      "body": "Ja kasę mam. Pzu trzymam na longa ale jakoś mi się nie chce wierzyć że to nie spadnie w końcu",
-      "votes": {
-        "up": 3,
-        "down": 6
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76331225",
-      "author": "Antydebil",
-      "postedAt": "2026-11-07 16:03",
-      "threadTitle": "Re: Dla mnie to jest warte 55 zł",
-      "url": "https://www.bankier.pl/forum/temat_dla-mnie-to-jest-warte-55-zl,76327937.html",
-      "body": "Dla mnie 45.98Bo za tyle kupilem na obecnym kolkuAle mam S za 77.98 Polecam ci... tu pisza ze bedzie ponad 100Wiec i tak bedzirsz zarobiony....Btw. Wlasnie kosxulka mj23 poszla za 15kk usd. I to jeszcze przepocona... dla ciebie pewnie tez warta 55. Ale ty nie masz kasy a ktos tam ma...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.87,
-      "sentimentLabel": "Positive"
     }
   ]
 }
