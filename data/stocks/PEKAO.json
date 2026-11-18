@@ -3,11 +3,11 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-11-18T07:27:38.193Z",
+  "updatedAt": "2026-11-18T20:30:38.951Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-18T07:27:38.193Z",
+    "fetchedAt": "2026-11-18T20:30:38.951Z",
     "windowDays": 30,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,20 +15,15 @@
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.322,
-    "confidence": 0.63,
-    "commentCount": 32,
+    "score": -0.325,
+    "confidence": 0.62,
+    "commentCount": 31,
     "breakdown": {
       "positive": 4,
       "negative": 15,
-      "neutral": 13
+      "neutral": 12
     },
     "trend": [
-      {
-        "date": "2026-10-19",
-        "score": 0,
-        "count": 1
-      },
       {
         "date": "2026-10-20",
         "score": -0.381,
@@ -91,7 +86,7 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 32 komentarzy z ostatnich 30 dni: nastroje negatywne (4 pozytywnych, 15 negatywnych, 13 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 31 komentarzy z ostatnich 30 dni: nastroje negatywne (4 pozytywnych, 15 negatywnych, 12 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "pekao",
@@ -102,11 +97,11 @@
         "count": 6
       },
       {
-        "word": "etrader",
-        "count": 5
+        "word": "biuro",
+        "count": 4
       },
       {
-        "word": "biuro",
+        "word": "etrader",
         "count": 4
       },
       {
@@ -569,20 +564,6 @@
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76119169",
-      "author": "szejk_1",
-      "postedAt": "2026-10-19 11:00",
-      "threadTitle": "Wersja 2.1.6 eTrader nadal jest do kitu!",
-      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
-      "body": "Wersja 2.1.6 eTrader nadal jest do kitu!",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     }
   ]
 }

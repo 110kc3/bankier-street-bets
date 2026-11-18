@@ -3,32 +3,27 @@
   "companyName": "Kruk SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KRUK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kruk-sa,6,21,10000001000.html",
-  "updatedAt": "2026-11-18T07:27:08.431Z",
+  "updatedAt": "2026-11-18T20:30:16.017Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-18T07:27:08.431Z",
+    "fetchedAt": "2026-11-18T20:30:16.017Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 7
+    "threadsScanned": 10
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.368,
-    "confidence": 0.82,
-    "commentCount": 58,
+    "score": -0.241,
+    "confidence": 0.78,
+    "commentCount": 72,
     "breakdown": {
-      "positive": 3,
-      "negative": 40,
-      "neutral": 15
+      "positive": 6,
+      "negative": 43,
+      "neutral": 23
     },
     "trend": [
-      {
-        "date": "2026-11-11",
-        "score": -0.583,
-        "count": 1
-      },
       {
         "date": "2026-11-12",
         "score": -0.145,
@@ -58,14 +53,19 @@
         "date": "2026-11-17",
         "score": -0.352,
         "count": 18
+      },
+      {
+        "date": "2026-11-18",
+        "score": -0.027,
+        "count": 15
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 58 komentarzy z ostatnich 7 dni: nastroje negatywne (3 pozytywnych, 40 negatywnych, 15 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 72 komentarzy z ostatnich 7 dni: nastroje negatywne (6 pozytywnych, 43 negatywnych, 23 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "masz",
-        "count": 9
+        "count": 10
       },
       {
         "word": "kruka",
@@ -96,16 +96,226 @@
         "count": 4
       },
       {
-        "word": "ponizej",
+        "word": "magellan",
         "count": 4
       },
       {
-        "word": "magellan",
+        "word": "ilosci",
         "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "76436807",
+      "author": "Elo",
+      "postedAt": "2026-11-18 21:29",
+      "threadTitle": "Re: CO TU SIE DZIEJE",
+      "url": "https://www.bankier.pl/forum/temat_co-tu-sie-dzieje,76429613.html",
+      "body": "To dojdzie do 250",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76434667",
+      "author": "Akcjonariusz",
+      "postedAt": "2026-11-18 18:20",
+      "threadTitle": "Re: Po ile wisicie?",
+      "url": "https://www.bankier.pl/forum/temat_po-ile-wisicie,76412315.html",
+      "body": "430. Mam niemalo. Jestem spokojny",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76432077",
+      "author": "Ludwig",
+      "postedAt": "2026-11-18 15:49",
+      "threadTitle": "Re: CO TU SIE DZIEJE",
+      "url": "https://www.bankier.pl/forum/temat_co-tu-sie-dzieje,76429613.html",
+      "body": "Z resztą- już zaczął budować grunt pod informację, że nie dowiozą wyniku rocznego",
+      "votes": {
+        "up": 3,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76431063",
+      "author": "Xd",
+      "postedAt": "2026-11-18 14:49",
+      "threadTitle": "Re: CO TU SIE DZIEJE",
+      "url": "https://www.bankier.pl/forum/temat_co-tu-sie-dzieje,76429613.html",
+      "body": "Nie aż tak gorsze aby uzasadiniały taki zjazd",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76430629",
+      "author": "Anton",
+      "postedAt": "2026-11-18 14:22",
+      "threadTitle": "Re: Po ile wisicie?",
+      "url": "https://www.bankier.pl/forum/temat_po-ile-wisicie,76412315.html",
+      "body": "399 po sporym usrednianiu... juz za duża pozycja w portfelu sie zrobiła więc narazie czekam",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76430341",
+      "author": "Fortemax",
+      "postedAt": "2026-11-18 14:03",
+      "threadTitle": "Re: CO TU SIE DZIEJE",
+      "url": "https://www.bankier.pl/forum/temat_co-tu-sie-dzieje,76429613.html",
+      "body": "Kurs spadł właśnie w reakcji na słabsze wyniki. Sam Piotr Krupa przyznał, że spłaty były niższe od zakładanych. Trudno więc twierdzić, że fundamenty nie mają znaczenia, skoro rynek reaguje właśnie na pogorszenie wyników operacyjnych.",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76430217",
+      "author": "dan",
+      "postedAt": "2026-11-18 13:56",
+      "threadTitle": "Re: CO TU SIE DZIEJE",
+      "url": "https://www.bankier.pl/forum/temat_co-tu-sie-dzieje,76429613.html",
+      "body": "Teraz tylko czekać.Bez dobrych wiadomości ze społki, wyników nie odbije pomimo solidnych fundamentów, które obecnie nie mają znaczenia.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76429613",
+      "author": "xwel",
+      "postedAt": "2026-11-18 13:24",
+      "threadTitle": "CO TU SIE DZIEJE",
+      "url": "https://www.bankier.pl/forum/temat_co-tu-sie-dzieje,76429613.html",
+      "body": "wisze po 452 mam w tym jakieś 5% kapitału i spada spada spada, miała być dobra pewna spółka, kupiłem jak zaczynałem inwestować i się cieszyłem że będą dywidendy, obecnie żebym wyszedł na 0 z dywidend to musiałbym czekać jeszcze 5 lat, jest jakaś nadzieja dla tej spółki? nie chcę tego uśredniać bo są dużo lepsze okazje",
+      "votes": {
+        "up": 4,
+        "down": 1
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76429403",
+      "author": "spokojny",
+      "postedAt": "2026-11-18 13:12",
+      "threadTitle": "Re: Po ile wisicie?",
+      "url": "https://www.bankier.pl/forum/temat_po-ile-wisicie,76412315.html",
+      "body": "344 xx",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76427895",
+      "author": "orca",
+      "postedAt": "2026-11-18 11:39",
+      "threadTitle": "Re:Goldman Sachs-: ok. 5,25% (1 158 709 akcji",
+      "url": "https://www.bankier.pl/forum/temat_goldman-sachs,76293589.html",
+      "body": "1/3 w parę dni...... co tu sie wyprawia pod nosem KNF ????",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76427779",
+      "author": "jw",
+      "postedAt": "2026-11-18 11:34",
+      "threadTitle": "Re:Goldman Sachs- prywatny folwark robi z Polskiej giełdy..a to WIG20!",
+      "url": "https://www.bankier.pl/forum/temat_goldman-sachs,76293589.html",
+      "body": "KOLEJNE INFO ! z wczoraj 17.11.2026 r. niedługo przejmie spółkę.:(((((",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76426931",
+      "author": "Elo",
+      "postedAt": "2026-11-18 10:45",
+      "threadTitle": "Re: Czy leci z nami pilot?",
+      "url": "https://www.bankier.pl/forum/temat_czy-leci-z-nami-pilot,76411103.html",
+      "body": "Nie masz pojęcia co napisałeś",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76425307",
+      "author": "Mors",
+      "postedAt": "2026-11-18 09:35",
+      "threadTitle": "Re: Blokowanie akcji",
+      "url": "https://www.bankier.pl/forum/temat_blokowanie-akcji,76425167.html",
+      "body": "A spóła to co siedzi cicho i od dwóch miesięcy tylko negatywny przekaz. Wystarczyła by jedna dobre info a trochę sytuacja szortów zmieniła. Tak jeżdżą jak chcą nasze fundusze instytucjonalne też pasywne. Będą kupować po 400",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76425303",
+      "author": "Kurator",
+      "postedAt": "2026-11-18 09:34",
+      "threadTitle": "Re: Blokowanie akcji",
+      "url": "https://www.bankier.pl/forum/temat_blokowanie-akcji,76425167.html",
+      "body": "Niestety. Wygląda na to że idziemy na 3 dno. Pej sy za mało odebrały ulicy.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76425167",
+      "author": "Krzy",
+      "postedAt": "2026-11-18 09:28",
+      "threadTitle": "Blokowanie akcji",
+      "url": "https://www.bankier.pl/forum/temat_blokowanie-akcji,76425167.html",
+      "body": "Nie wiem czy blokowanie akcji ma sens ale pierwszy raz to zrobiłem. Trochę to chore że spółka która wykręciła prawie 40 zł na akcję zysku po 3 kwartałach jest rozjeżdżana przez jakieś szemrane instytucje finansowe",
+      "votes": {
+        "up": 11,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76418953",
       "author": "Oskar",
@@ -114,7 +324,7 @@
       "url": "https://www.bankier.pl/forum/temat_po-ile-wisicie,76412315.html",
       "body": "330 średnia. Wczoraj i dziś brane. Raczej na długi termin.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0,
@@ -128,7 +338,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-leci-z-nami-pilot,76411103.html",
       "body": "Standardzik. Możesz sprzedać jak masz kruka. Xtb też możesz sprzedać. Twój wybór, twoja kasa. Ja uważam że fundy przygotowują się do skupu. W nowym roku z oki pewnie po kilku miesiącach zacznie się upychanie. Teraz to może korekta pod skup dla tych co będą na wiosnę zarabiać? Poczytaj reko Morgan Stanley. https://pl.investing.com/news/stock-market-news/morgan-stanley-podnosi-cel-dla-msci-europe-widzac-dalsze-wzrosty-1653924",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": -0.322,
@@ -170,7 +380,7 @@
       "url": "https://www.bankier.pl/forum/temat_po-ile-wisicie,76412315.html",
       "body": "Tak samo u mnie.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -213,7 +423,7 @@
       "body": "Short nie dostaną dywidendy za pożyczone akcje",
       "votes": {
         "up": 2,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": -0.87,
       "sentimentLabel": "Negative"
@@ -227,7 +437,7 @@
       "body": "Wziąłem pożyczkę gotówkową i wszedłem za 350, też boli na razie",
       "votes": {
         "up": 2,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -240,7 +450,7 @@
       "url": "https://www.bankier.pl/forum/temat_po-ile-wisicie,76412315.html",
       "body": "387. Już tyle uśredniałem w dół, że Kruk to moja największa pozycja, największa strata...",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.762,
@@ -268,7 +478,7 @@
       "url": "https://www.bankier.pl/forum/temat_po-ile-wisicie,76412315.html",
       "body": "Zacznę od siebie, średnia 392 pln, zaczyna boleć",
       "votes": {
-        "up": 4,
+        "up": 6,
         "down": 0
       },
       "sentimentScore": 0,
@@ -296,7 +506,7 @@
       "url": "https://www.bankier.pl/forum/temat_czy-leci-z-nami-pilot,76411103.html",
       "body": "goldman dziś kupuje a wy sprzedajcie mu XD za pół roku kupicie od niego po 450+",
       "votes": {
-        "up": 12,
+        "up": 15,
         "down": 3
       },
       "sentimentScore": -0.322,
@@ -352,7 +562,7 @@
       "url": "https://www.bankier.pl/forum/temat_kruk-najwyzszy-spadek-w-wigu-20-w-tym-roku,76221193.html",
       "body": "Bo szorciki sprzedały kilka procent to teraz ma być po 200? Hahahaha",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -903,20 +1113,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76361393",
-      "author": "Gorgi",
-      "postedAt": "2026-11-11 12:30",
-      "threadTitle": "Re: Nowy short ten jest w plecy na te chwile",
-      "url": "https://www.bankier.pl/forum/temat_nowy-short-ten-jest-w-plecy-na-te-chwile,76356301.html",
-      "body": "ponizej 300, zacznij ustawke okolo 290 dobierac powolutku.",
-      "votes": {
-        "up": 2,
-        "down": 5
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
     }
   ]
 }

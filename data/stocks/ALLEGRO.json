@@ -3,31 +3,31 @@
   "companyName": "Allegro.eu S.A.",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=ALLEGRO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_allegro-eu-s-a,6,21,10000001753.html",
-  "updatedAt": "2026-11-18T07:25:35.564Z",
+  "updatedAt": "2026-11-18T20:29:02.914Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-18T07:25:35.564Z",
+    "fetchedAt": "2026-11-18T20:29:02.914Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 28
+    "threadsScanned": 33
   },
   "analysis": {
-    "signal": "BUY",
-    "score": 0.162,
-    "confidence": 0.76,
-    "commentCount": 127,
+    "signal": "HOLD",
+    "score": 0.052,
+    "confidence": 0.72,
+    "commentCount": 156,
     "breakdown": {
-      "positive": 48,
-      "negative": 21,
-      "neutral": 58
+      "positive": 57,
+      "negative": 31,
+      "neutral": 68
     },
     "trend": [
       {
         "date": "2026-11-11",
-        "score": -0.199,
-        "count": 10
+        "score": 0,
+        "count": 1
       },
       {
         "date": "2026-11-12",
@@ -58,54 +58,591 @@
         "date": "2026-11-17",
         "score": 0.084,
         "count": 8
+      },
+      {
+        "date": "2026-11-18",
+        "score": -0.105,
+        "count": 38
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 127 komentarzy z ostatnich 7 dni: nastroje pozytywne (48 pozytywnych, 21 negatywnych, 58 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "deteriorating",
+    "summary": "Analiza 156 komentarzy z ostatnich 7 dni: nastroje mieszane (57 pozytywnych, 31 negatywnych, 68 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "allegro",
-        "count": 17
+        "count": 20
       },
       {
         "word": "szorty",
-        "count": 11
-      },
-      {
-        "word": "roku",
-        "count": 9
-      },
-      {
-        "word": "sesji",
-        "count": 8
-      },
-      {
-        "word": "spadnie",
-        "count": 8
-      },
-      {
-        "word": "dalej",
-        "count": 8
+        "count": 14
       },
       {
         "word": "skup",
-        "count": 8
+        "count": 13
       },
       {
-        "word": "wyniki",
-        "count": 8
+        "word": "roku",
+        "count": 12
       },
       {
-        "word": "ktos",
-        "count": 7
+        "word": "dalej",
+        "count": 10
+      },
+      {
+        "word": "przy",
+        "count": 10
+      },
+      {
+        "word": "spadnie",
+        "count": 10
       },
       {
         "word": "super",
-        "count": 7
+        "count": 9
+      },
+      {
+        "word": "ktos",
+        "count": 8
+      },
+      {
+        "word": "dlaczego",
+        "count": 8
       }
     ]
   },
   "comments": [
+    {
+      "id": "76436595",
+      "author": "Adi",
+      "postedAt": "2026-11-18 21:06",
+      "threadTitle": "Re: Wyszła lipa",
+      "url": "https://www.bankier.pl/forum/temat_wyszla-lipa,76426937.html",
+      "body": "Sprzedałeś?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76436253",
+      "author": "lol",
+      "postedAt": "2026-11-18 20:37",
+      "threadTitle": "Re: Szorty załamane płaczą non stop :). Piękny widok :)",
+      "url": "https://www.bankier.pl/forum/temat_szorty-zalamane-placza-non-stop-piekny-widok,76426073.html",
+      "body": "Qube ma MEGA stratę :). I to jest najpiękniejsze w tym wszystkim :). A dodatkowo wszystkie szorty tracą kasę i kolejne depozyty :). Super :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76435373",
+      "author": "Ed",
+      "postedAt": "2026-11-18 19:19",
+      "threadTitle": "Re: cena skupu akcji",
+      "url": "https://www.bankier.pl/forum/temat_cena-skupu-akcji,76402309.html",
+      "body": "No niestety chyba 65 zł będzie magnesem.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76435307",
+      "author": "Dpa",
+      "postedAt": "2026-11-18 19:14",
+      "threadTitle": "Re: cena skupu akcji",
+      "url": "https://www.bankier.pl/forum/temat_cena-skupu-akcji,76402309.html",
+      "body": "Zatwierdzili 65. Długi horyzont czasowy na skup. Ciekawe co dalej z kursem.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76435233",
+      "author": "Kill",
+      "postedAt": "2026-11-18 19:07",
+      "threadTitle": "KARA greenwashing będzie jazda",
+      "url": "https://www.bankier.pl/forum/temat_kara-greenwashing-bedzie-jazda,76435233.html",
+      "body": "greenwashing i kara UOKiK Jutro Black Week",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76434995",
+      "author": "Obserwator",
+      "postedAt": "2026-11-18 18:49",
+      "threadTitle": "Re: czy będzie tu 100 zeta do końca roku?",
+      "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
+      "body": "No pewnie że wytłumaczę , skup po 65 zgodą i szybciej kupią niż się każdemu wydaje. Ta informacja już wcześniej napędzała kurs - od miesiąca jak padła deklaracja rady. Teraz będzie odwrót bo fundy odsprzedają i kasują zyski. Przecież gołym okiem widać przepływ kapitału w inne instrumenty z rynków akcji. W usa już tak jest a my zaraz za nimi . Nikt te nie musi kupować akcji własnych po 65 , może pocEkac do 40-50 i tak zrobią przy lawinowych spadkach. A kurs jest już przewartościowany . Dla przykładu zyski nvidia rosną 100 % q/ q a kurs od kilku miesięcy spadł o 40%. Zaczyna się dopiero …..",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76434415",
+      "author": "Inwestor",
+      "postedAt": "2026-11-18 18:00",
+      "threadTitle": "Re: Wyszła lipa",
+      "url": "https://www.bankier.pl/forum/temat_wyszla-lipa,76426937.html",
+      "body": "U nas nie ma spółek powiązanych z AI, więc na razie jest ucieczka z surowców - złoto, srebro miedź. Ze spółek oil - bo jest obawa że wysokie marże po kilkadziesiąt procent spadną. Natomiast handel - allegro, pepco, modivo, lpp są na historycznych maksimach. Tyle, że kursy już dawno wyprzedziły wzrost zysków, a gwarancji co do kontynuacji trendu wzrostu zysków nie ma. Jak przekroczymy poziomy długu to wstrzymają podwyżki dla budżetówki i konsumpcja siądzie, a wtedy i handel też. To zresztą widać już po wynikach biedronki czy dino i ja nie widzę powodu aby się nie odbiło na ciuchach czy butach. Allegro niby to tylko platforma ale jak spadnie sprzedaż ogólnie to i u nich spadną przychody z prowizji.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76434233",
+      "author": "Inwestor",
+      "postedAt": "2026-11-18 17:48",
+      "threadTitle": "Re: Przy 71 zł będzie ciekawie, opór z 2021 r - przebiją?",
+      "url": "https://www.bankier.pl/forum/temat_przy-71-zl-bedzie-ciekawie-opor-z-2021-r-przebija,76433001.html",
+      "body": "Co za durna logika. A jak ogłoszą skup do 100 to fundusze będą skupować po 105? Tu nie jest kwestia po ile ktoś będzie kupował ale przy jakim kursie fundusze zdecydują się zrealizować zyski. W tej chwili widać, że jest wyprzedaż KGHM a skup akcji defensywnych. Główne pytanie to czy to jest podtrzymywanie indeksu na wysokim poziomie czy faktyczna rotacja kapitału. Jeśli rotacja to pytanie czym podyktowana bo przez ostatnie 1/2 roku spółki tzw. defensywne wzrosły też bardzo mocno. Natomiast jeśli to jest podtrzymywanie indeksu to jak już skończą dystrybucję innych spółek to i tu może być spokonie dump i spadki o 10-20%. Czas pokaże.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76434197",
+      "author": "Long",
+      "postedAt": "2026-11-18 17:46",
+      "threadTitle": "Re: Przy 71 zł będzie ciekawie, opór z 2021 r - przebiją?",
+      "url": "https://www.bankier.pl/forum/temat_przy-71-zl-bedzie-ciekawie-opor-z-2021-r-przebija,76433001.html",
+      "body": "69.3 to był dzisiaj Max do 71 nie dojdzie",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76434133",
+      "author": "xyz",
+      "postedAt": "2026-11-18 17:41",
+      "threadTitle": "Re: Wyszła lipa",
+      "url": "https://www.bankier.pl/forum/temat_wyszla-lipa,76426937.html",
+      "body": "Myślenie życzeniowe, świat się wystraszył AI, jak zaczną wszyscy tnąć koszty i wyprzedawać co się da,to premie będą mieli na papierze.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76433701",
+      "author": "Inwestor",
+      "postedAt": "2026-11-18 17:14",
+      "threadTitle": "Re: Wyszła lipa",
+      "url": "https://www.bankier.pl/forum/temat_wyszla-lipa,76426937.html",
+      "body": "Prawdopodobnie do końca roku kurs i tak nie spadnie, a jeśli to tylko trochę. To stara zasada, że zarządzający dostają premię od wyniku, a tu zarobili prawie 100% (zakładając że kupili poniżej 40). Nawet najgorsze informacje tego nie zmienią.",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76433623",
+      "author": "Marco",
+      "postedAt": "2026-11-18 17:10",
+      "threadTitle": "Re: Przy 71 zł będzie ciekawie, opór z 2021 r - przebiją?",
+      "url": "https://www.bankier.pl/forum/temat_przy-71-zl-bedzie-ciekawie-opor-z-2021-r-przebija,76433001.html",
+      "body": "Skup 65 to fundusze będą skupować po 66 i coś tam proste jak drut",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76433053",
+      "author": "xyz",
+      "postedAt": "2026-11-18 16:40",
+      "threadTitle": "Re: Tu zawsze ten sam scenariusz , pompka i zjazd na koniec sesji , hmm",
+      "url": "https://www.bankier.pl/forum/temat_tu-zawsze-ten-sam-scenariusz-pompka-i-zjazd-na-koniec-sesji-hmm,76432809.html",
+      "body": "To dlaczego cymbale nie zarabiasz skoro to takie przewidywalne?Nie płacz tylko idź i otwórz rachunek maklerski tylko ten prawdziwy i zacznij zarabiać :)",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76433001",
+      "author": "LJC",
+      "postedAt": "2026-11-18 16:37",
+      "threadTitle": "Przy 71 zł będzie ciekawie, opór z 2021 r - przebiją?",
+      "url": "https://www.bankier.pl/forum/temat_przy-71-zl-bedzie-ciekawie-opor-z-2021-r-przebija,76433001.html",
+      "body": "Tutaj mam wątpliwości czy nie nastąpi spadek ceny (realizacja zysku który jest niemały)Jakie są Wasze typy?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76432825",
+      "author": "Lcv",
+      "postedAt": "2026-11-18 16:30",
+      "threadTitle": "Re: Szorty załamane płaczą non stop :). Piękny widok :)",
+      "url": "https://www.bankier.pl/forum/temat_szorty-zalamane-placza-non-stop-piekny-widok,76426073.html",
+      "body": "I muszą to Jescze odkupić po wyższej cenie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76432537",
+      "author": "jim",
+      "postedAt": "2026-11-18 16:15",
+      "threadTitle": "Re: Szorty załamane płaczą non stop :). Piękny widok :)",
+      "url": "https://www.bankier.pl/forum/temat_szorty-zalamane-placza-non-stop-piekny-widok,76426073.html",
+      "body": "Nie płaczemy, dobieramy.",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76432211",
+      "author": "arbi",
+      "postedAt": "2026-11-18 15:56",
+      "threadTitle": "Re: czy będzie tu 100 zeta do końca roku?",
+      "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
+      "body": "a ty nie widzisz że zatwierdzili kwotę DO 65 zł... przy obecnej cenie nie będzie skupu.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76431965",
+      "author": "lol",
+      "postedAt": "2026-11-18 15:43",
+      "threadTitle": "Re: Szorty załamane płaczą non stop :). Piękny widok :)",
+      "url": "https://www.bankier.pl/forum/temat_szorty-zalamane-placza-non-stop-piekny-widok,76426073.html",
+      "body": "Fajnie się czyta płacz szortów :)",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76431783",
+      "author": "JAnick",
+      "postedAt": "2026-11-18 15:32",
+      "threadTitle": "Re: czy będzie tu 100 zeta do końca roku?",
+      "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
+      "body": "Tak,poprawiam - 2027r.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76431707",
+      "author": "JAnick",
+      "postedAt": "2026-11-18 15:28",
+      "threadTitle": "Re: czy będzie tu 100 zeta do końca roku?",
+      "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
+      "body": "Jakieś 80 ale ...tak szybko zwracają się inwestycje za granicą że(to moja prywatna opinia a nie porada)pod koniec 2017 r może być nawet 150..",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76431667",
+      "author": "tak_to_widze",
+      "postedAt": "2026-11-18 15:26",
+      "threadTitle": "Re: czy będzie tu 100 zeta do końca roku?",
+      "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
+      "body": "Mozesz mi wytlumaczyc na jakiej podstawie kurs moze spasc do 50 PLN z obecnych 69 PLN skoro wlasnie 15 minut temu oficjalnie na WZA zatwierdzono skup akcji wlasnych po cenie 65 PLN, ktora od tego momentu bedzie wsparciem dla kursu, bo jak spadnie poniezj tego poziomu to od razu bedzie skupowane? Ja tu widze 80+ w grudniu, a 75+ jeszcze w listopadzie 2026 roku za jednak akcje Allegro.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76431507",
+      "author": "Alex",
+      "postedAt": "2026-11-18 15:17",
+      "threadTitle": "Re: Szort",
+      "url": "https://www.bankier.pl/forum/temat_szort,76419121.html",
+      "body": "to ballllllllllllllllllllllllon trzymaj szorta",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76431333",
+      "author": "Adi",
+      "postedAt": "2026-11-18 15:07",
+      "threadTitle": "Re: czy będzie tu 100 zeta do końca roku?",
+      "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
+      "body": "Dokupimy",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76431079",
+      "author": "Obserwator",
+      "postedAt": "2026-11-18 14:50",
+      "threadTitle": "Re: czy będzie tu 100 zeta do końca roku?",
+      "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
+      "body": "Nie będzie żadne 100 ani 80. Kurs spadnie do poziomu 50, a dlaczego zobaczycie wkrótce!!!",
+      "votes": {
+        "up": 2,
+        "down": 4
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76431071",
+      "author": "Cnc",
+      "postedAt": "2026-11-18 14:49",
+      "threadTitle": "Re: czy będzie tu 100 zeta do końca roku?",
+      "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
+      "body": "Ono już wysiedli przy 65 więcaż dalej",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76429409",
+      "author": "Tomi",
+      "postedAt": "2026-11-18 13:12",
+      "threadTitle": "Re: czy będzie tu 100 zeta do końca roku?",
+      "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
+      "body": "Więc łykaj jak jest tanio każdy mądry kupił po 25 -27 zł",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76429379",
+      "author": "tak_to_widze",
+      "postedAt": "2026-11-18 13:11",
+      "threadTitle": "Re: Ale włączyli odkurzacz , 70 zeta w przyszłym tygodniu?",
+      "url": "https://www.bankier.pl/forum/temat_ale-wlaczyli-odkurzacz-70-zeta-w-przyszlym-tygodniu,76378911.html",
+      "body": "wszystko wskazuje na to, ze 70 PLN w tym tygodniu. Zobaczymy czy sie tu skonsoliduje czy bedzie korekta w ramach kanalu wzrostowego.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76429355",
+      "author": "tak_to_widze",
+      "postedAt": "2026-11-18 13:10",
+      "threadTitle": "Re: czy będzie tu 100 zeta do końca roku?",
+      "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
+      "body": "do konca roku okolice 80-85raczej, aczkolwiek wszystkomozliwe przy takiej dynamice skupu.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76429239",
+      "author": "tak_to_widze",
+      "postedAt": "2026-11-18 13:03",
+      "threadTitle": "Re: cena skupu akcji",
+      "url": "https://www.bankier.pl/forum/temat_cena-skupu-akcji,76402309.html",
+      "body": "obstawiam, ze dzis zatwierdza cene skupu na poziomie 65 PLN za akcje, bo innej propozycji nie bylo, a wkrotce zaproponuja podniesienie do 75 PLN. Chyba, ze i tak podniosa cene skupu do tego poziomu dzis...",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76428473",
+      "author": "Typ",
+      "postedAt": "2026-11-18 12:12",
+      "threadTitle": "Re: Wyszła lipa",
+      "url": "https://www.bankier.pl/forum/temat_wyszla-lipa,76426937.html",
+      "body": "Za ten syf, który wysyłają powinni dostać jeszcze większą karę.",
+      "votes": {
+        "up": 2,
+        "down": 5
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76428117",
+      "author": "combo",
+      "postedAt": "2026-11-18 11:52",
+      "threadTitle": "Re: Inwestycja długoterminowa",
+      "url": "https://www.bankier.pl/forum/temat_inwestycja-dlugoterminowa,74813399.html",
+      "body": "Dowieźli!Nie zakładałem takiej rakiety w momencie zakupu akcji na samym początku mojej przygody.Standardowo monetyzuję połowę pozycji na tym oporze.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76427967",
+      "author": "lol",
+      "postedAt": "2026-11-18 11:43",
+      "threadTitle": "Re: Szorty załamane płaczą non stop :). Piękny widok :)",
+      "url": "https://www.bankier.pl/forum/temat_szorty-zalamane-placza-non-stop-piekny-widok,76426073.html",
+      "body": "Piękny widok jak płaczecie dzieci mając szorty i modlicie się o spadki :). Super że tracicie kasę i kolejne depozyty. To jest najpiękniejszy widok i sama świadomość że tracicie sprawia mi niesamowitą radość :)",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76427535",
+      "author": "leszek",
+      "postedAt": "2026-11-18 11:22",
+      "threadTitle": "Re: Wyszła lipa",
+      "url": "https://www.bankier.pl/forum/temat_wyszla-lipa,76426937.html",
+      "body": "Jeśli zachęcają do przesyłek a drzewo już posadzili, to przecież nie ma żadnego sensu\"Jeżeli konsument słyszy: odbierz 10 przesyłek, a posadzimy drzewo, ma prawo rozumieć to dosłownie. Tymczasem liczba nasadzeń opierała się na wcześniejszych planach spółki, część drzew była już wcześniej posadzona, a kilku milionów drzew – ponad połowy deklarowanych przez Allegro – nie posadzono w ogóle. Zielone deklaracje muszą być prawdziwe, konkretne i weryfikowalne, inaczej mogą wprowadzać konsumentów w błąd, stanowiąc przykład greenwashingu – podkreślił prezes UOKiK Tomasz Chróstny.\"",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76427391",
+      "author": "Dpa",
+      "postedAt": "2026-11-18 11:14",
+      "threadTitle": "Re: Wyszła lipa",
+      "url": "https://www.bankier.pl/forum/temat_wyszla-lipa,76426937.html",
+      "body": "I co z tego jak kupujący o tym wiedział",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76427321",
+      "author": "rtg56",
+      "postedAt": "2026-11-18 11:11",
+      "threadTitle": "Re: Szorty załamane płaczą non stop :). Piękny widok :)",
+      "url": "https://www.bankier.pl/forum/temat_szorty-zalamane-placza-non-stop-piekny-widok,76426073.html",
+      "body": "kara, zaraz zacznie leciec w dół",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": -0.931,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76426937",
+      "author": "leszek",
+      "postedAt": "2026-11-18 10:46",
+      "threadTitle": "Wyszła lipa",
+      "url": "https://www.bankier.pl/forum/temat_wyszla-lipa,76426937.html",
+      "body": "Słabe to ...https://www.wirtualnemedia.pl/allegro-kara-grzywna-uokik-prezes-urzad-ochrony-konkurencji-i-konsumentow-przesylki-sadzenie-drzew,7352292962736128a",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76426719",
+      "author": "Long",
+      "postedAt": "2026-11-18 10:34",
+      "threadTitle": "Re: Szorty załamane płaczą non stop :). Piękny widok :)",
+      "url": "https://www.bankier.pl/forum/temat_szorty-zalamane-placza-non-stop-piekny-widok,76426073.html",
+      "body": "Hej longu kupiłeś kiedykolwiek kontrakt? Że tak zacieszasz najwięcej tych kontraktów jest zawieranych raptem 400 może 500 sztuk dziennie też masz zajawkę",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76426073",
+      "author": "lol",
+      "postedAt": "2026-11-18 10:05",
+      "threadTitle": "Szorty załamane płaczą non stop :). Piękny widok :)",
+      "url": "https://www.bankier.pl/forum/temat_szorty-zalamane-placza-non-stop-piekny-widok,76426073.html",
+      "body": "Największą radość sprawia widok jak szorty tracą cały majątek :)",
+      "votes": {
+        "up": 5,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76419121",
       "author": "Jutrodecyzja",
@@ -114,7 +651,7 @@
       "url": "https://www.bankier.pl/forum/temat_szort,76419121.html",
       "body": "Mam szorty ale po dzisiejszej sesji czuje ze moga mnie puscic w reformach.",
       "votes": {
-        "up": 3,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0,
@@ -142,8 +679,8 @@
       "url": "https://www.bankier.pl/forum/temat_pora-na-s,76416715.html",
       "body": "Te 65 było liczone jeszcze bez zysków z zagranicy bo tu inwestycje dopiero się zwracają w super szybkim tempie co jeszcze podkreśla skalę możliwości i wielkość prognoz.",
       "votes": {
-        "up": 4,
-        "down": 0
+        "up": 5,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -156,7 +693,7 @@
       "url": "https://www.bankier.pl/forum/temat_pora-na-s,76416715.html",
       "body": "Ale cie wszyscy mają w ......hahahah",
       "votes": {
-        "up": 9,
+        "up": 12,
         "down": 0
       },
       "sentimentScore": 0,
@@ -184,7 +721,7 @@
       "url": "https://www.bankier.pl/forum/temat_pora-na-s,76416715.html",
       "body": "Wszelkie wskaźniki wskazują masakryczne wykupienie rynku na ALE",
       "votes": {
-        "up": 5,
+        "up": 7,
         "down": 2
       },
       "sentimentScore": -0.583,
@@ -199,7 +736,7 @@
       "body": "Poszorciłem trochę przez ostatnie 2 miesiące na KGHM, to teraz pora na Allegro",
       "votes": {
         "up": 0,
-        "down": 9
+        "down": 12
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -240,8 +777,8 @@
       "url": "https://www.bankier.pl/forum/temat_cena-skupu-akcji,76402309.html",
       "body": "Ja się pozbyłem z wynikiem +60%. Może spadnie, to wrócę.",
       "votes": {
-        "up": 1,
-        "down": 1
+        "up": 2,
+        "down": 2
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -282,8 +819,8 @@
       "url": "https://www.bankier.pl/forum/temat_cena-skupu-akcji,76402309.html",
       "body": "Witam,Czy podniosą cenę skupu akcji do 70-75 zł,Jak myślicie?",
       "votes": {
-        "up": 7,
-        "down": 1
+        "up": 11,
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -310,8 +847,8 @@
       "url": "https://www.bankier.pl/forum/temat_uwaga-uwaga,76396729.html",
       "body": "Szyją ubranka na zimę",
       "votes": {
-        "up": 4,
-        "down": 8
+        "up": 5,
+        "down": 9
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -324,7 +861,7 @@
       "url": "https://www.bankier.pl/forum/temat_jak-to-peknie-to-bedzie-glosno,76388933.html",
       "body": "KING fajnie się czyta takie bzdury co piszesz. To znaczy że masz szorty i modlisz się o spadki :). Super że tracisz kasę na swoich szortach :).",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 2
       },
       "sentimentScore": 0,
@@ -352,8 +889,8 @@
       "url": "https://www.bankier.pl/forum/temat_uwaga-uwaga,76396729.html",
       "body": "Bańka spekulacyjna na allegro, sprzedawać !",
       "votes": {
-        "up": 5,
-        "down": 12
+        "up": 6,
+        "down": 13
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -492,8 +1029,8 @@
       "url": "https://www.bankier.pl/forum/temat_czy-bedzie-tu-100-zeta-do-konca-roku,76388387.html",
       "body": "Myslę , ze tak",
       "votes": {
-        "up": 8,
-        "down": 4
+        "up": 15,
+        "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -576,7 +1113,7 @@
       "url": "https://www.bankier.pl/forum/temat_kto-kupil-powyzej-66,76384025.html",
       "body": "Zarobieni oddają instytucje fundy kupują bo wiedzą że będzie grubo",
       "votes": {
-        "up": 9,
+        "up": 10,
         "down": 0
       },
       "sentimentScore": 0.87,
@@ -730,7 +1267,7 @@
       "url": "https://www.bankier.pl/forum/temat_inwestycja-dlugoterminowa,74813399.html",
       "body": "tak w przyszlym tygodniu, nawet wiecej niz 71 moim zdaniem bedzie. A do swiat okolice 80 za akcje wysoce prawdopodobne, choc nic pewnego.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 1
       },
       "sentimentScore": 0,
@@ -807,20 +1344,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76380679",
-      "author": "Roller",
-      "postedAt": "2026-11-13 12:14",
-      "threadTitle": "Re: Fajne macie C/Z",
-      "url": "https://www.bankier.pl/forum/temat_fajne-macie-c-z,76380653.html",
-      "body": "Rotacja kapitału, brawo.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "76380685",
       "author": "combo",
       "postedAt": "2026-11-13 12:14",
@@ -829,6 +1352,20 @@
       "body": "68-71Dowiozą?",
       "votes": {
         "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76380679",
+      "author": "Roller",
+      "postedAt": "2026-11-13 12:14",
+      "threadTitle": "Re: Fajne macie C/Z",
+      "url": "https://www.bankier.pl/forum/temat_fajne-macie-c-z,76380653.html",
+      "body": "Rotacja kapitału, brawo.",
+      "votes": {
+        "up": 0,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1094,7 +1631,7 @@
       "url": "https://www.bankier.pl/forum/temat_ale-wlaczyli-odkurzacz-70-zeta-w-przyszlym-tygodniu,76378911.html",
       "body": "Totalnie zaskoczyli wszystkich,miały być zwałki jak to po wynikach ale nie tym razem .Jak tu wsiądzie spekuła to kto wie czy nie wywindują tego nawet na 200zł.A co,CCC mogli to i tu mogą :)",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1751,132 +2288,6 @@
       "threadTitle": "Re: Wyniki za 3q",
       "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q,76346985.html",
       "body": "Matematyk z ciebie nie będzie",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76364195",
-      "author": "Marco",
-      "postedAt": "2026-11-11 20:33",
-      "threadTitle": "Re: Wyniki za 3q",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q,76346985.html",
-      "body": "Akcje już były po 100 czyli 40 % drożej niż teraz",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76362465",
-      "author": "tak_to_widze",
-      "postedAt": "2026-11-11 15:52",
-      "threadTitle": "Re: Wyniki za 3q",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q,76346985.html",
-      "body": "ale o czym mamy sie przekonac w rozumieniu \"spadnie przed wynikami\" skoro jesli wyniki bede tuz po polnocy lub przed sesja to nie moga juz \"spasc przed wynikami\", bo do wynikow nir bedzie nawet ulamka sekundy sesji w takimwypadku i wtedy taka narracja nie ma sensu. Ewentualnie moglbys powiedziec, ze \"spadnie po wynikach\" albo na pocztaku zwalka a potem up.A dlaczego teza o publikacji po polnocy? Bo ostatnio tak opublikowali, wiec moze byc tak, ze wyniki poznamy juz za 8 godzin i 10 minut.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76362169",
-      "author": "mabmab",
-      "postedAt": "2026-11-11 14:43",
-      "threadTitle": "Re: Wyniki za 3q",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q,76346985.html",
-      "body": "I właśnie ten ruch i skala obrotu dla mnie jest sygnałem ze spadnie a po publikacji wyników zostanie obrany dalszy kierunek",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76362075",
-      "author": "what",
-      "postedAt": "2026-11-11 14:17",
-      "threadTitle": "Re: Wyniki za 3q",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q,76346985.html",
-      "body": "na zamknieciu wczoraj zosatały kupione akcjie za prawie 100 baniek w 1 transakcji, patrząc jak się kurs zachowywał w tym roku przed i po wynikach wudzę dcięcie i rajd w góre.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76361651",
-      "author": "mabmab",
-      "postedAt": "2026-11-11 13:06",
-      "threadTitle": "Re: Wyniki za 3q",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q,76346985.html",
-      "body": "Poczekaj do jutra sie przekonasz",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76361497",
-      "author": "tak_to_widze",
-      "postedAt": "2026-11-11 12:43",
-      "threadTitle": "Re: Wyniki za 3q",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q,76346985.html",
-      "body": "ostatnio wyniki byly 3 minuty po polnocy, wiec o jakich \"spadkach wyprzadzajacych wyniki\" mowa...",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76361231",
-      "author": "mabmab",
-      "postedAt": "2026-11-11 11:58",
-      "threadTitle": "Re: Wyniki za 3q",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q,76346985.html",
-      "body": "Albo zadziala tzw efekt Nvidii gdy opublikoeala tak dobre wyniki ze rynek zareagowal duza wyprzedaza bo zakladal ze nie da sie ich powtorzyc....bedzie jak zdecyduje animator rynku. Zakladam jednak spadki wyprzedzajace wyniki aby zebrac jeszcze wiecej z rynku i pod to sie ustawiam...",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76360327",
-      "author": "tak_to_widze",
-      "postedAt": "2026-11-11 09:30",
-      "threadTitle": "Re: Wyniki za 3q",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q,76346985.html",
-      "body": "Mozna porownac jak najbardziej. Obie spolki sa w WIG 20.Oczywiscie dzialaja w zupelnie roznych branzach i maja inne zagrozenia oraz szanse ale chodzi o to ile moze spasc spolka z WIG 20 w przypadku gdy zawiedzie konsensus rynkowy. Moze spasc i o 18% w jedna sesje, a potem kolejne 15% w nastepnych kilkanascie sesji. Tutaj beda dzialaly jutro od samego rana automatyczne algorytmy, ktore kilka minut po publikacji wynikow zaaplikuja do zlecen slowa klucze. A czy bedzie dobrze czy zle, tego nie wie nikt. Rynek zweryfikuje choc na ten moment wszystko wskazuje na to, ze wyniki bede co najmniej na poziomie konsensusu.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76360057",
-      "author": "mabmab",
-      "postedAt": "2026-11-11 08:33",
-      "threadTitle": "Re: Wyniki za 3q",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q,76346985.html",
-      "body": "Nie można porównywać Dino do Allegro! To tak jakby porównać jabłko do ziemniaka....po francusku jabłko to pomme a ziemniak pomme de terre",
       "votes": {
         "up": 2,
         "down": 0
