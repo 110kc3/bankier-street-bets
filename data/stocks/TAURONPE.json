@@ -3,32 +3,27 @@
   "companyName": "Tauron PE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=TAURONPE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_tauron-pe-sa,6,21,10000000421.html",
-  "updatedAt": "2026-11-19T07:24:05.925Z",
+  "updatedAt": "2026-11-19T20:36:21.291Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-19T07:24:05.925Z",
+    "fetchedAt": "2026-11-19T20:36:21.291Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 12
+    "threadsScanned": 11
   },
   "analysis": {
-    "signal": "BUY",
-    "score": 0.178,
-    "confidence": 0.74,
-    "commentCount": 57,
+    "signal": "HOLD",
+    "score": 0.025,
+    "confidence": 0.71,
+    "commentCount": 64,
     "breakdown": {
-      "positive": 21,
-      "negative": 8,
-      "neutral": 28
+      "positive": 20,
+      "negative": 18,
+      "neutral": 26
     },
     "trend": [
-      {
-        "date": "2026-11-12",
-        "score": 0.181,
-        "count": 10
-      },
       {
         "date": "2026-11-13",
         "score": -0.064,
@@ -58,14 +53,31 @@
         "date": "2026-11-18",
         "score": 0.187,
         "count": 32
+      },
+      {
+        "date": "2026-11-19",
+        "score": -0.293,
+        "count": 17
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 57 komentarzy z ostatnich 7 dni: nastroje pozytywne (21 pozytywnych, 8 negatywnych, 28 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 64 komentarzy z ostatnich 7 dni: nastroje mieszane (20 pozytywnych, 18 negatywnych, 26 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "tauron",
-        "count": 11
+        "count": 15
+      },
+      {
+        "word": "wyniki",
+        "count": 7
+      },
+      {
+        "word": "goldman",
+        "count": 6
+      },
+      {
+        "word": "masz",
+        "count": 5
       },
       {
         "word": "rynku",
@@ -76,36 +88,262 @@
         "count": 5
       },
       {
-        "word": "dobrze",
-        "count": 5
-      },
-      {
-        "word": "wyniki",
+        "word": "opor",
         "count": 4
       },
       {
-        "word": "znowu",
+        "word": "nick",
+        "count": 4
+      },
+      {
+        "word": "maja",
         "count": 4
       },
       {
         "word": "jego",
         "count": 4
-      },
-      {
-        "word": "ponad",
-        "count": 4
-      },
-      {
-        "word": "goldman",
-        "count": 4
-      },
-      {
-        "word": "tauronu",
-        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "76449721",
+      "author": "kuba",
+      "postedAt": "2026-11-19 20:31",
+      "threadTitle": "Re: PGE i ENEA uciekają?",
+      "url": "https://www.bankier.pl/forum/temat_pge-i-enea-uciekaja,76443113.html",
+      "body": "ależ ty ohodny, człowieku są granicę",
+      "votes": {
+        "up": 1,
+        "down": 2
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76447439",
+      "author": "eldealeros",
+      "postedAt": "2026-11-19 17:32",
+      "threadTitle": "Re: PGE i ENEA uciekają?",
+      "url": "https://www.bankier.pl/forum/temat_pge-i-enea-uciekaja,76443113.html",
+      "body": "Fałszywe wybicie to miał twój tatuś w dniu twojego poczęcia.",
+      "votes": {
+        "up": 3,
+        "down": 7
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76447325",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 17:24",
+      "threadTitle": "Re: PGE i ENEA uciekają?",
+      "url": "https://www.bankier.pl/forum/temat_pge-i-enea-uciekaja,76443113.html",
+      "body": "Jest jest opór. Dzisiaj było fałszywe wybicie. Kolejny raz opór nie został pokonany. Nie masz merytorycznych argumentów Eldileros aby dyskutować na poziomie.",
+      "votes": {
+        "up": 1,
+        "down": 8
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76446913",
+      "author": "eldealeros",
+      "postedAt": "2026-11-19 17:00",
+      "threadTitle": "Re: PGE i ENEA uciekają?",
+      "url": "https://www.bankier.pl/forum/temat_pge-i-enea-uciekaja,76443113.html",
+      "body": "Nie ma tam żadnego oporu. Dzisiaj było 9.42 i 9.30 nie stanowiło dla Taurona żadnego problemu. Papier przejechał gładko przez twój wymyślony \"opór\" spadkowy naganiaczu używający kilkunastu nick'ów.",
+      "votes": {
+        "up": 2,
+        "down": 3
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76446515",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 16:41",
+      "threadTitle": "Re: PGE i ENEA uciekają?",
+      "url": "https://www.bankier.pl/forum/temat_pge-i-enea-uciekaja,76443113.html",
+      "body": "Przebije w końcu Tauron opór 9,30? Jak myślicie?",
+      "votes": {
+        "up": 2,
+        "down": 3
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76443803",
+      "author": "Hrabi",
+      "postedAt": "2026-11-19 13:52",
+      "threadTitle": "Re: PGE i ENEA uciekają?",
+      "url": "https://www.bankier.pl/forum/temat_pge-i-enea-uciekaja,76443113.html",
+      "body": "Mają plecy w KNF",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76443481",
+      "author": "janfasola",
+      "postedAt": "2026-11-19 13:30",
+      "threadTitle": "Re: PGE i ENEA uciekają?",
+      "url": "https://www.bankier.pl/forum/temat_pge-i-enea-uciekaja,76443113.html",
+      "body": "Odważni są",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76443429",
+      "author": "alienn",
+      "postedAt": "2026-11-19 13:25",
+      "threadTitle": "Re: PGE i ENEA uciekają?",
+      "url": "https://www.bankier.pl/forum/temat_pge-i-enea-uciekaja,76443113.html",
+      "body": "panie goldman, ...pan sobie nie żartu z nas,,,jest godz. prawie 14,,, pan się zabieraj konkretnie do szortowania bo rynek panu ucieka w góre, tak być na Tauronie nie może, nie łam pan schematów, \"only short position\"",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76443113",
+      "author": "Boom",
+      "postedAt": "2026-11-19 13:03",
+      "threadTitle": "PGE i ENEA uciekają?",
+      "url": "https://www.bankier.pl/forum/temat_pge-i-enea-uciekaja,76443113.html",
+      "body": "Koleżanki i Koledzy- jakieś wnioski? Wygląda jakby Tauron był \"oblepiony\" szortami pod progiem. Pzdr",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76442279",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 12:06",
+      "threadTitle": "Re: Ale wali w górę",
+      "url": "https://www.bankier.pl/forum/temat_ale-wali-w-gore,76205067.html",
+      "body": "Ok, ale to będzie dopiero w 2030 roku.",
+      "votes": {
+        "up": 4,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76441815",
+      "author": "Ppp",
+      "postedAt": "2026-11-19 11:35",
+      "threadTitle": "Re: Ale wali w górę",
+      "url": "https://www.bankier.pl/forum/temat_ale-wali-w-gore,76205067.html",
+      "body": "Obudzicie mnie jak bedzie 16",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76440893",
+      "author": "Wig",
+      "postedAt": "2026-11-19 10:40",
+      "threadTitle": "Re: reakcja na wyniki",
+      "url": "https://www.bankier.pl/forum/temat_reakcja-na-wyniki,76439253.html",
+      "body": "Jednak dopiero podobny wynik w czwartym kwartale będzie decydujący.",
+      "votes": {
+        "up": 1,
+        "down": 5
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76440665",
+      "author": "alienn",
+      "postedAt": "2026-11-19 10:29",
+      "threadTitle": "Re: reakcja na wyniki",
+      "url": "https://www.bankier.pl/forum/temat_reakcja-na-wyniki,76439253.html",
+      "body": "niestety jeśli dzisiaj tak marnie się to skończy, a jutro pge wejdzie w korektę ( bo tylko pge nas d kilku tygodni ratuje przed zwałką) to my znów poniżej 9 zł nurkujemy. wymiki nie mają żadnego znaczenia,żadnego.bravo panie goldman, spółka miała być zgnojona i właśnie tak jest, bravo za to że za bardzo nie musisz bardzo wysilać, wystarczyło podpalić lont, pożyteczni id,oci dopełnią reszty",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76440045",
+      "author": "Maciek",
+      "postedAt": "2026-11-19 09:54",
+      "threadTitle": "Re: reakcja na wyniki",
+      "url": "https://www.bankier.pl/forum/temat_reakcja-na-wyniki,76439253.html",
+      "body": "Drogi Trabancie_deMucha czy jak tam teraz , masz akcje TPE ? Kupiłeś akcji TPE ? Chcesz kupić akcje TPE ? Jeżeli powiesz nam swoją prawdziwą historię , z pewnością będzie mniej uszczypliwych postów w stosunku do Ciebie .",
+      "votes": {
+        "up": 6,
+        "down": 2
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76439399",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 09:19",
+      "threadTitle": "Re: reakcja na wyniki",
+      "url": "https://www.bankier.pl/forum/temat_reakcja-na-wyniki,76439253.html",
+      "body": "Słaba reakcja na dobre wyniki to prawie jak sygnał sprzedaży.",
+      "votes": {
+        "up": 6,
+        "down": 6
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76439381",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 09:18",
+      "threadTitle": "Re: reakcja na wyniki",
+      "url": "https://www.bankier.pl/forum/temat_reakcja-na-wyniki,76439253.html",
+      "body": "Pierwsza dzisiaj świeca m15 jest czerwona, Tauron traci nieznacznie po tych 15 minutach. Wyniki dawno są w cenach, tylko ktoś naiwny oczekiwał ataku na 10 otych po tym raporcie.",
+      "votes": {
+        "up": 6,
+        "down": 5
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76439253",
+      "author": "alienn",
+      "postedAt": "2026-11-19 09:11",
+      "threadTitle": "reakcja na wyniki",
+      "url": "https://www.bankier.pl/forum/temat_reakcja-na-wyniki,76439253.html",
+      "body": "bravo Tauron, piękna reakcja z rana na piękne wyniki finansowe za III kwartałoby tak dalejnaprawdę jestem pod wrażeniem",
+      "votes": {
+        "up": 3,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76437597",
       "author": "alienn",
@@ -114,8 +352,8 @@
       "url": "https://www.bankier.pl/forum/temat_ale-wali-w-gore,76205067.html",
       "body": "publikacja wyników na https://www.biznesradar.pl/a/170622,tauron-pe-sa-raport-okresowy-kwartalny-skonsolidowany-3-2026-qsrnastąpiła o 17.12 a wiec reakcja rynku jutro o 9:00",
       "votes": {
-        "up": 2,
-        "down": 1
+        "up": 3,
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -156,8 +394,8 @@
       "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q-zgodne-z-szacunkami,76435533.html",
       "body": "Ty nic nie sprzedasz bo ty nic nie masz forumowy manipulatorku posługujący się kilkunastoma nick'ami.",
       "votes": {
-        "up": 5,
-        "down": 1
+        "up": 6,
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -170,8 +408,8 @@
       "url": "https://www.bankier.pl/forum/temat_wyniki-za-3q-zgodne-z-szacunkami,76435533.html",
       "body": "Liczy się kurs a nie wartość księgowa. Jak będę chciał sprzedać akcje to sprzedam je za 13,15 czy po 9,22?",
       "votes": {
-        "up": 1,
-        "down": 3
+        "up": 5,
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -198,8 +436,8 @@
       "url": "https://www.bankier.pl/forum/temat_ale-wali-w-gore,76205067.html",
       "body": "Prognozy dobre były i nic wyniki dobre są i znowu nic fatum tu jest",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -213,7 +451,7 @@
       "body": "Każdy analityk ma prawo do swojego smutnego wju. Tutaj na forum jest jeden taki co od 3 zł powtarza, że Tauron jest drogi. Jednym z jego kilkunastu nick'ów jest \"Analityk2026\". Proponuję traktować takie zachowania z przymróżeniem oka. Tauron robi swoje, idzie dalej i się nie zatrzymuje. Rynek z biegiem czasu się sam dostosuje.",
       "votes": {
         "up": 4,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -269,7 +507,7 @@
       "body": "Najlepsze są te jego słowa \"to było do przewidzenia\" :) Te 9.30 pojawia mu się jak miesiączka u kobiety... w okresach cyklicznych bocznego trendu. Jak ostatnio wybiliśmy do 9.46 to nie gadał o 9.30 bo nie miał czego się przykleić. Jak jutro wybijemy powyżej to znowu mu się skończy gadanie. Wtedy będzie gadał o 10 zł nie do przebicia, potem będzie 10.60 po czym następny będzie podwójny szczyt a w dalszej kolejności fałszywe wybicie ponad maksy. Koleś jest wyjątkowo zabawny. Zastanawiam się ile on ma lat przy takim payacowaniu.",
       "votes": {
         "up": 3,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0.931,
       "sentimentLabel": "Positive"
@@ -632,7 +870,7 @@
       "url": "https://www.bankier.pl/forum/temat_niedlugo-tauron-i-jsw-beda,76386495.html",
       "body": "Powyższa wypowiedź nie moja. IP 46.134... Czyli nasz manipulatorek Waren_Buffet podrabiający innych używający kilkunastu nick'ów. Nawet nie będę zgłaszał do usunięcia tego komentarza aby wszyscy mogli to zobaczyć. Zapamiętajcie to IP.",
       "votes": {
-        "up": 11,
+        "up": 12,
         "down": 6
       },
       "sentimentScore": 0,
@@ -763,146 +1001,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76374971",
-      "author": "eldealeros",
-      "postedAt": "2026-11-12 20:04",
-      "threadTitle": "Re: Technika na wykresie dziennym",
-      "url": "https://www.bankier.pl/forum/temat_technika-na-wykresie-dziennym,76152839.html",
-      "body": "SMA50 i SMA200 na D1 pięknie się do siebie zbliżają zgodnie z przedstawionym w poście scenariuszem. Dzisiejszy mocny wzrost utrzyma ten proces. Jest dobrze.",
-      "votes": {
-        "up": 8,
-        "down": 3
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76374077",
-      "author": "di_",
-      "postedAt": "2026-11-12 18:41",
-      "threadTitle": "Re: bullish cały czas",
-      "url": "https://www.bankier.pl/forum/temat_bullish-caly-czas,76225705.html",
-      "body": "> Ja gram pod mocne wyciągnięcie dziennej świecy i obstawiam 9.60 w jednej sesji okolice +6%>>>> no i zostało +2,70% do 9.60 pln. :) czyli w jedną sesję osiągalne :)",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76373867",
-      "author": "Hrabi",
-      "postedAt": "2026-11-12 18:20",
-      "threadTitle": "Re: A co tak szarpnęli na fixie?",
-      "url": "https://www.bankier.pl/forum/temat_a-co-tak-szarpneli-na-fixie,76356703.html",
-      "body": "Szarpnęli to na enei tutaj w dalszym ciągu skup i kontrola kursu",
-      "votes": {
-        "up": 7,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76373421",
-      "author": "TAG",
-      "postedAt": "2026-11-12 17:40",
-      "threadTitle": "Re: A co tak szarpnęli na fixie?",
-      "url": "https://www.bankier.pl/forum/temat_a-co-tak-szarpneli-na-fixie,76356703.html",
-      "body": "Czyli nie wiesz",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76368501",
-      "author": "di_",
-      "postedAt": "2026-11-12 11:32",
-      "threadTitle": "Re: bullish cały czas",
-      "url": "https://www.bankier.pl/forum/temat_bullish-caly-czas,76225705.html",
-      "body": "Ja gram pod mocne wyciągnięcie dziennej świecy i obstawiam 9.60 w jednej sesji okolice +6%",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76367763",
-      "author": "transakcjusz",
-      "postedAt": "2026-11-12 10:41",
-      "threadTitle": "Re: bullish cały czas",
-      "url": "https://www.bankier.pl/forum/temat_bullish-caly-czas,76225705.html",
-      "body": "Myślę że do końca miesiąca coś jeszcze urośnie. Fajnie jak by znowu wróciło do 9,50 :) Natomiast w grudniu będzie raczej odpoczynek.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76366809",
-      "author": "di_",
-      "postedAt": "2026-11-12 09:43",
-      "threadTitle": "Re: bullish cały czas",
-      "url": "https://www.bankier.pl/forum/temat_bullish-caly-czas,76225705.html",
-      "body": "co Ponownie ładna świeca z 10.11 a dziś może podobna się utworzy :)",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76366125",
-      "author": "di_",
-      "postedAt": "2026-11-12 08:53",
-      "threadTitle": "Re: Lepiej być nie może kolejna porażka",
-      "url": "https://www.bankier.pl/forum/temat_lepiej-byc-nie-moze-kolejna-porazka,76349563.html",
-      "body": "jak twoja strategia zakłada sadki to musisz PILNIE sprzedać papier EOT :)",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76365927",
-      "author": "Andrzej",
-      "postedAt": "2026-11-12 08:32",
-      "threadTitle": "Re: Lepiej być nie może kolejna porażka",
-      "url": "https://www.bankier.pl/forum/temat_lepiej-byc-nie-moze-kolejna-porazka,76349563.html",
-      "body": "Będzie dobrze ETS do obniżki na horyzoncie",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76365905",
-      "author": "Gaudi",
-      "postedAt": "2026-11-12 08:26",
-      "threadTitle": "Re: Lepiej być nie może kolejna porażka",
-      "url": "https://www.bankier.pl/forum/temat_lepiej-byc-nie-moze-kolejna-porazka,76349563.html",
-      "body": "Ale kurs tez rosnie. Eldeal ma racje. To fundy robia sobie gierki. Fundamenty i zyski sa mega zdrowe.",
-      "votes": {
-        "up": 6,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
     }
   ]
 }

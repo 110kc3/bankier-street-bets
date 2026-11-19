@@ -3,89 +3,1060 @@
   "companyName": "KGHM Polska Miedź SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=KGHM",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_kghm-polska-miedz-sa,6,21,116.html",
-  "updatedAt": "2026-11-19T07:23:11.575Z",
+  "updatedAt": "2026-11-19T20:34:57.048Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-19T07:23:11.575Z",
+    "fetchedAt": "2026-11-19T20:34:57.048Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 59
+    "threadsScanned": 65
   },
   "analysis": {
     "signal": "HOLD",
-    "score": 0.021,
+    "score": 0.033,
     "confidence": 0.71,
     "commentCount": 200,
     "breakdown": {
-      "positive": 53,
-      "negative": 49,
-      "neutral": 98
+      "positive": 50,
+      "negative": 44,
+      "neutral": 106
     },
     "trend": [
       {
+        "date": "2026-11-16",
+        "score": 0,
+        "count": 2
+      },
+      {
         "date": "2026-11-17",
-        "score": -0.165,
-        "count": 19
+        "score": -0.064,
+        "count": 5
       },
       {
         "date": "2026-11-18",
-        "score": 0.026,
-        "count": 170
+        "score": 0.024,
+        "count": 113
       },
       {
         "date": "2026-11-19",
-        "score": 0.121,
-        "count": 11
+        "score": 0.03,
+        "count": 80
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (53 pozytywnych, 49 negatywnych, 98 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (50 pozytywnych, 44 negatywnych, 106 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "kghm",
-        "count": 21
+        "count": 23
       },
       {
         "word": "miedz",
-        "count": 17
-      },
-      {
-        "word": "miedzi",
-        "count": 17
-      },
-      {
-        "word": "wyniki",
-        "count": 15
+        "count": 19
       },
       {
         "word": "srebro",
-        "count": 11
+        "count": 15
       },
       {
-        "word": "zysk",
-        "count": 11
+        "word": "miedzi",
+        "count": 12
       },
       {
-        "word": "cena",
-        "count": 9
+        "word": "dolar",
+        "count": 10
       },
       {
-        "word": "srebra",
+        "word": "masz",
         "count": 9
       },
       {
         "word": "przy",
-        "count": 9
+        "count": 8
       },
       {
-        "word": "maja",
+        "word": "cena",
         "count": 8
+      },
+      {
+        "word": "widze",
+        "count": 7
+      },
+      {
+        "word": "zeby",
+        "count": 7
       }
     ]
   },
   "comments": [
+    {
+      "id": "76450015",
+      "author": "MobilisA075",
+      "postedAt": "2026-11-19 21:03",
+      "threadTitle": "Re: A miałem dzisiaj brać.",
+      "url": "https://www.bankier.pl/forum/temat_a-mialem-dzisiaj-brac,76449321.html",
+      "body": "Pewnie jutro też będzie dół, patrząc że dolar 4.04. Miedź spadła z 40 na 37 za kg...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76449927",
+      "author": "Grizzly",
+      "postedAt": "2026-11-19 20:53",
+      "threadTitle": "Re: A miałem dzisiaj brać.",
+      "url": "https://www.bankier.pl/forum/temat_a-mialem-dzisiaj-brac,76449321.html",
+      "body": "Coper dół, złoto dół, srebro dół...",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76449895",
+      "author": "Wig",
+      "postedAt": "2026-11-19 20:49",
+      "threadTitle": "Re: A miałem dzisiaj brać.",
+      "url": "https://www.bankier.pl/forum/temat_a-mialem-dzisiaj-brac,76449321.html",
+      "body": "To była operacja Rayan.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76449321",
+      "author": "władek",
+      "postedAt": "2026-11-19 19:54",
+      "threadTitle": "A miałem dzisiaj brać.",
+      "url": "https://www.bankier.pl/forum/temat_a-mialem-dzisiaj-brac,76449321.html",
+      "body": "Jednak znając fałsz i pazerność światowej finansjery, trzeba liczyć się z tym, że docisną nas do końca. Nawet nie podam mojej rekomendacji co do Kghm, bo mi tego nie puszczą, ale wszystko mi się sprawdza.",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76449019",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 19:26",
+      "threadTitle": "Re: Hmm, głupia sprawa . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
+      "body": "Wyszedlem. Bo ty tam, black, po uszy w kupie guana siedziales i nie dalo sie wytrzymac. A chcialem tylko krowe wydoic.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76448975",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 19:23",
+      "threadTitle": "Re: Końca przeceny surowców nie widać",
+      "url": "https://www.bankier.pl/forum/temat_konca-przeceny-surowcow-nie-widac,76446405.html",
+      "body": "Srebro 60, zloto 4.500, miedz 14000. Anthropic juz kupiony, sprzedadza i wracamy na surowce",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76448943",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 19:20",
+      "threadTitle": "Re: La wi na",
+      "url": "https://www.bankier.pl/forum/temat_la-wi-na,76446381.html",
+      "body": "Lejs czipsie. Kiedy kupisz 1 akcje? Ja ka kol wiek? W szmatexie moze masz strefe zakupow. Tylko kogo to? Moze z tym powyzej Vip ier da lać.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76448445",
+      "author": "Do_przerwy_0-1",
+      "postedAt": "2026-11-19 18:40",
+      "threadTitle": "Re: Jutro 275 PLN",
+      "url": "https://www.bankier.pl/forum/temat_jutro-275-pln,76437653.html",
+      "body": "piłeś-nie pisz",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76448153",
+      "author": "Lejs",
+      "postedAt": "2026-11-19 18:19",
+      "threadTitle": "Re: La wi na",
+      "url": "https://www.bankier.pl/forum/temat_la-wi-na,76446381.html",
+      "body": "Strefa zakupów 200-220 pln",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76447609",
+      "author": "PanRyszard",
+      "postedAt": "2026-11-19 17:44",
+      "threadTitle": "Re: Końca przeceny surowców nie widać",
+      "url": "https://www.bankier.pl/forum/temat_konca-przeceny-surowcow-nie-widac,76446405.html",
+      "body": "Ja myślę, że ceny wkrótce surowców będą miały odbicie złoto ok 4000 USD srebro 55 USD a miedź 6 USD tak to widzę do końca roku",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76447547",
+      "author": "Ja",
+      "postedAt": "2026-11-19 17:39",
+      "threadTitle": "Re: Końca przeceny surowców nie widać",
+      "url": "https://www.bankier.pl/forum/temat_konca-przeceny-surowcow-nie-widac,76446405.html",
+      "body": "No właśnie na wyścigi zamykają wszyscy shorty na srebrze, a z tego co widzę pojawiają się pierwsze longi.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76447425",
+      "author": "Wig",
+      "postedAt": "2026-11-19 17:31",
+      "threadTitle": "Re: Końca przeceny surowców nie widać",
+      "url": "https://www.bankier.pl/forum/temat_konca-przeceny-surowcow-nie-widac,76446405.html",
+      "body": "Srebro 20 , złoto 2500 , miedź 10000",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76447209",
+      "author": "Zbik07",
+      "postedAt": "2026-11-19 17:16",
+      "threadTitle": "Re: Końca przeceny surowców nie widać",
+      "url": "https://www.bankier.pl/forum/temat_konca-przeceny-surowcow-nie-widac,76446405.html",
+      "body": "Srebro po 35 złoto 3400 miedź 9500",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76447051",
+      "author": "black944",
+      "postedAt": "2026-11-19 17:07",
+      "threadTitle": "Hmm, głupia sprawa . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
+      "body": "a ty już z takiej obory wyszedłeś ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76447005",
+      "author": "Pacjent",
+      "postedAt": "2026-11-19 17:04",
+      "threadTitle": "Re: Byłem u wróżki a ona mi powiedziała",
+      "url": "https://www.bankier.pl/forum/temat_bylem-u-wrozki-a-ona-mi-powiedziala,76436265.html",
+      "body": "Aha i wróżka mi dała srebrną obrączkę i mówi oddaj do loombardu hahaha",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76446405",
+      "author": "PanRyszard",
+      "postedAt": "2026-11-19 16:36",
+      "threadTitle": "Końca przeceny surowców nie widać",
+      "url": "https://www.bankier.pl/forum/temat_konca-przeceny-surowcow-nie-widac,76446405.html",
+      "body": "A zatem nadal spadki",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76446381",
+      "author": "Vip",
+      "postedAt": "2026-11-19 16:34",
+      "threadTitle": "La wi na",
+      "url": "https://www.bankier.pl/forum/temat_la-wi-na,76446381.html",
+      "body": "Ewa ku acja",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76446127",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 16:18",
+      "threadTitle": "Re: Joo...doksztalc sie i nie dziekuj.",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
+      "body": "Słowo to funkcjonuje tu jako zwykły imiesłów przymiotnikowy bierny określający zlecenie lub akcje, które nie zostały zrealizowane/zebrane na fixingu. Zgodnie z zasadami ortografii polskiej imiesłowy z partykułą „nie” piszemy łącznie.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76446079",
+      "author": "Ja",
+      "postedAt": "2026-11-19 16:14",
+      "threadTitle": "Re: 26 mld...",
+      "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
+      "body": "Ale kontrakty na nich płacą",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76445681",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 15:51",
+      "threadTitle": "Re: Joo . . .jestem nieuk. Wasz black.",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
+      "body": "Black, nasz mozgu z zascianka, to wyjasnij Joo, kto popelnil blad. Czynisz to zawsze, nieprawdaż?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76445609",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 15:47",
+      "threadTitle": "Re: ---- > 238 pln ?",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
+      "body": "On wszedzie nagania, taki dziaad z obory ten blacki i jego nieuki typu Joo.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76445539",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 15:43",
+      "threadTitle": "Re: vol 410 K tylko . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-20-21,76433057.html",
+      "body": "Wystawiles, black oszuscie? Pge juz po 14,55 wg ciebie?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76445491",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 15:40",
+      "threadTitle": "Re: pociągną dzisiaj na 260 zł?",
+      "url": "https://www.bankier.pl/forum/temat_pociagna-dzisiaj-na-260-zl,76439513.html",
+      "body": "Wasze wpisy, jonek i czips lejs, co to 240 widzial dzisiaj tez dudy nie urywaja. Teraz ok?",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76445475",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 15:39",
+      "threadTitle": "Re: pociągną dzisiaj na 260 zł?",
+      "url": "https://www.bankier.pl/forum/temat_pociagna-dzisiaj-na-260-zl,76439513.html",
+      "body": "Czips lejs. Reszte powinienes zrozumiec, chociaz watpie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76444593",
+      "author": "Jonek",
+      "postedAt": "2026-11-19 14:47",
+      "threadTitle": "Re: pociągną dzisiaj na 260 zł?",
+      "url": "https://www.bankier.pl/forum/temat_pociagna-dzisiaj-na-260-zl,76439513.html",
+      "body": "Coś niewyraźne z tobą. Nic nie rozumiem z Twojego pisania",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76444351",
+      "author": "darek",
+      "postedAt": "2026-11-19 14:29",
+      "threadTitle": "kghm",
+      "url": "https://www.bankier.pl/forum/temat_kghm,76444351.html",
+      "body": "do dalszych spadków jeszcze daleka droga..",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76443779",
+      "author": "black944",
+      "postedAt": "2026-11-19 13:50",
+      "threadTitle": "vol 410 K tylko . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-20-21,76433057.html",
+      "body": "słabo jak na odbicie po wczorajszej lawinie, więc możliwe że to tylko ząbek . . .",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76443569",
+      "author": "black944",
+      "postedAt": "2026-11-19 13:36",
+      "threadTitle": "ELO Mordeczki :)))",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
+      "body": "Jest następny klaskacz od Rubika, więc będzie jeszcze śmieszniej . . .",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76443509",
+      "author": "Kuna",
+      "postedAt": "2026-11-19 13:31",
+      "threadTitle": "Re: Nie wiedzą co robić",
+      "url": "https://www.bankier.pl/forum/temat_nie-wiedza-co-robic,76440031.html",
+      "body": "czekanie na odbicie na metalach ja tak to widzę jak ruszy to ruszy więc shorty ręką w nocniku mogą zostać",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76443445",
+      "author": "PanRyszard",
+      "postedAt": "2026-11-19 13:26",
+      "threadTitle": "Re: Nie wiedzą co robić",
+      "url": "https://www.bankier.pl/forum/temat_nie-wiedza-co-robic,76440031.html",
+      "body": "Dzisiaj przy tak dobrych wynikach trochę odbija a jutro jak to wszystko spowszednieje to widzę tu dalsze spadki lub konsolidację w okolicy 250 zł.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76443263",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 13:15",
+      "threadTitle": "Re: Kghm ubieranie I przedaż",
+      "url": "https://www.bankier.pl/forum/temat_kghm-ubieranie-i-przedaz,76443135.html",
+      "body": "Naganiaj na Dino w swoim wyprdowie",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76443249",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 13:14",
+      "threadTitle": "Re: Kghm ubieranie I przedaż",
+      "url": "https://www.bankier.pl/forum/temat_kghm-ubieranie-i-przedaz,76443135.html",
+      "body": "A komu przedaż? Coś kto wie, czy ty podstawowke skonczyles? Przetlumacz na polski swoj bełkot, ok?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76443211",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 13:12",
+      "threadTitle": "Re: Brawo KGHM !!!",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-20-21,76433057.html",
+      "body": "Wystaw pakiet ktory niby masz black po 308.80. I napisz ile masz. Twoje oszustwa sa powszechnie znane. Tu tez nie wystawusz, a twoje magiczne 3,5% juz dawno bylo. Aha, jak tam kupno pge po 14,55? Weszlo ci na demo?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76443167",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 13:09",
+      "threadTitle": "Re: pociągną dzisiaj na 260 zł?",
+      "url": "https://www.bankier.pl/forum/temat_pociagna-dzisiaj-na-260-zl,76439513.html",
+      "body": "Wasze wpisy janek i czios kejs co to 240 widzial dzisiaj tez dudy nie urywaja",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76443135",
+      "author": "Stanisław",
+      "postedAt": "2026-11-19 13:06",
+      "threadTitle": "Kghm ubieranie I przedaż",
+      "url": "https://www.bankier.pl/forum/temat_kghm-ubieranie-i-przedaz,76443135.html",
+      "body": "SPR,EDAŁEM jak widzę powolne Ubieranie. Coś kto wie o Dino ponoć wartość nieruchomości wzrosła i to w niezłym tempie i dodatkowo niezłe oszczędności z Energi się szykują, a obroty i kierunek na większy obrót. No szykuje się niezła perełka.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76443007",
+      "author": "analizy-gpw",
+      "postedAt": "2026-11-19 12:56",
+      "threadTitle": "KGHM POLSKA MIEDŹ Q3 2026 — analiza wyników [film YT]",
+      "url": "https://www.bankier.pl/forum/temat_kghm-polska-miedz-q3-2026-analiza-wynikow-film-yt,76443007.html",
+      "body": "Hej, na kanale wylądowała analiza wyników KGHM Polska Miedź (KGH) za Q3 2026: https://youtu.be/7xD3E0mX0kY Zapraszam do obejrzenia :)",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76442929",
+      "author": "Alcapone",
+      "postedAt": "2026-11-19 12:49",
+      "threadTitle": "Re: pociągną dzisiaj na 260 zł?",
+      "url": "https://www.bankier.pl/forum/temat_pociagna-dzisiaj-na-260-zl,76439513.html",
+      "body": "Niech ciągną. Wczoraj kupiłem po 250 i czekam na 300",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76442833",
+      "author": "black944",
+      "postedAt": "2026-11-19 12:43",
+      "threadTitle": "Brawo KGHM !!!",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-20-21,76433057.html",
+      "body": "udany zakup wczoraj a dzisiaj S/L już odzie sobie za kursem do góry . . .",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76442745",
+      "author": "Ja",
+      "postedAt": "2026-11-19 12:38",
+      "threadTitle": "Re: Nie wiedzą co robić",
+      "url": "https://www.bankier.pl/forum/temat_nie-wiedza-co-robic,76440031.html",
+      "body": "Coper i Silver mają teraz mniejsze znaczenie, spadało bez korelacji to i rosnąć będzie bez. Spokojna wasza głowa.",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76442607",
+      "author": "PanRyszard",
+      "postedAt": "2026-11-19 12:26",
+      "threadTitle": "Re: Nie wiedzą co robić",
+      "url": "https://www.bankier.pl/forum/temat_nie-wiedza-co-robic,76440031.html",
+      "body": "Czarno widzę to.",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76442419",
+      "author": "Jonek",
+      "postedAt": "2026-11-19 12:13",
+      "threadTitle": "Re: Nie wiedzą co robić",
+      "url": "https://www.bankier.pl/forum/temat_nie-wiedza-co-robic,76440031.html",
+      "body": "Akcje są za drogie. Moim zdaniem będzie jeszcze spadek żeby mogli zarobić jak trzeba",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76442335",
+      "author": "Jonek",
+      "postedAt": "2026-11-19 12:09",
+      "threadTitle": "Re: pociągną dzisiaj na 260 zł?",
+      "url": "https://www.bankier.pl/forum/temat_pociagna-dzisiaj-na-260-zl,76439513.html",
+      "body": "Kurs dupy nie urywa chyba masz rację",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76441943",
+      "author": "Eds",
+      "postedAt": "2026-11-19 11:44",
+      "threadTitle": "Re: ---- > 238 pln ?",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
+      "body": "Na Excellence tez naganiał i wtopił bankietowy troll",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76441327",
+      "author": "Lejs",
+      "postedAt": "2026-11-19 11:08",
+      "threadTitle": "Re: pociągną dzisiaj na 260 zł?",
+      "url": "https://www.bankier.pl/forum/temat_pociagna-dzisiaj-na-260-zl,76439513.html",
+      "body": "Jutro powrót do spadków",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76440877",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 10:39",
+      "threadTitle": "Re: 26 mld...",
+      "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
+      "body": "Ggg, a jaki procent w kghm stanowi srebro, przytomny inaczej? Kghm polska srebro czy miedź. Ogarnij sie. Masz IQ szuflady z Ikei.",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76440031",
+      "author": "Kuna",
+      "postedAt": "2026-11-19 09:53",
+      "threadTitle": "Nie wiedzą co robić",
+      "url": "https://www.bankier.pl/forum/temat_nie-wiedza-co-robic,76440031.html",
+      "body": "na razie anale dzwonią do siebie jak ustawić boty",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76439937",
+      "author": "Adamus",
+      "postedAt": "2026-11-19 09:47",
+      "threadTitle": "Re: 26 mld...",
+      "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
+      "body": "Ceny miedzi pomimo spadku są wysoko. To co bedzie pomagało to drogi dolar, jest ponad 10% od dolka",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76439877",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 09:43",
+      "threadTitle": "Re: Dzia mocny up?!",
+      "url": "https://www.bankier.pl/forum/temat_dzia-mocny-up,76438431.html",
+      "body": "Czips Lejs na kazdym forum obecny. Tak maja goscie bez akcji. To taki rodzaj gry jest.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76439865",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 09:42",
+      "threadTitle": "Re: Dzia mocny up?!",
+      "url": "https://www.bankier.pl/forum/temat_dzia-mocny-up,76438431.html",
+      "body": "Ty kgh to taki gupi od urodzenia czy blyszczysz na forum posypany brokatem zascianka?",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76439803",
+      "author": "YorX",
+      "postedAt": "2026-11-19 09:39",
+      "threadTitle": "Re: Dzia mocny up?!",
+      "url": "https://www.bankier.pl/forum/temat_dzia-mocny-up,76438431.html",
+      "body": "> Dajcie pokój.> Odbicia na metalach są skromnie mówiąc symboliczne.> To nawet nie jest korekta ale ząbek w trendzie spadkowym.To dopiero początek dnia.Zobaczymy co będzie na zamknięcie.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76439513",
+      "author": "Nowy",
+      "postedAt": "2026-11-19 09:26",
+      "threadTitle": "pociągną dzisiaj na 260 zł?",
+      "url": "https://www.bankier.pl/forum/temat_pociagna-dzisiaj-na-260-zl,76439513.html",
+      "body": "przydałoby się chociaż jedną lukę zamknąć",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76439379",
+      "author": "Kgh",
+      "postedAt": "2026-11-19 09:18",
+      "threadTitle": "Re: Dzia mocny up?!",
+      "url": "https://www.bankier.pl/forum/temat_dzia-mocny-up,76438431.html",
+      "body": "Oczywiście spekulacja ostro w gore, wczoraj miedz miala rpawie 7% spadku to kghm powinno zaliczyc jakies 15%. Dzisiaj odbicie 0.3% a kghm 4% na plus xddd",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76439271",
+      "author": "black944",
+      "postedAt": "2026-11-19 09:12",
+      "threadTitle": "Joo . . .",
+      "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
+      "body": "> Sam jesteś nieuk. Dobrze napisał.------------------------To prosty chłop ze wsi z dużymi kompleksami = Nie przejmuj się nim . . .",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76439223",
+      "author": "Realistabis",
+      "postedAt": "2026-11-19 09:10",
+      "threadTitle": "Re: Dzia mocny up?!",
+      "url": "https://www.bankier.pl/forum/temat_dzia-mocny-up,76438431.html",
+      "body": "Dajcie pokój.Odbicia na metalach są skromnie mówiąc symboliczne.To nawet nie jest korekta ale ząbek w trendzie spadkowym.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76439211",
+      "author": "Ggg",
+      "postedAt": "2026-11-19 09:09",
+      "threadTitle": "Re: 26 mld...",
+      "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
+      "body": "Następny nieprzytomny. Dolar kolejne 15% w górę, srebro kolejne 30 % w dół - prosta zależność między jednym a drugim.",
+      "votes": {
+        "up": 0,
+        "down": 4
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76439209",
+      "author": "Kuna",
+      "postedAt": "2026-11-19 09:09",
+      "threadTitle": "Narazie słaba reakcja",
+      "url": "https://www.bankier.pl/forum/temat_narazie-slaba-reakcja,76439209.html",
+      "body": "na wyniki",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76439091",
+      "author": "marianelektryk",
+      "postedAt": "2026-11-19 09:02",
+      "threadTitle": "Re: Dzia mocny up?!",
+      "url": "https://www.bankier.pl/forum/temat_dzia-mocny-up,76438431.html",
+      "body": "Bez kozery powiem 500.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76439089",
+      "author": "Ślusarz",
+      "postedAt": "2026-11-19 09:01",
+      "threadTitle": "Re: Jaka bedzie dywidenda?",
+      "url": "https://www.bankier.pl/forum/temat_jaka-bedzie-dywidenda,76436695.html",
+      "body": "Panowie, spokojnie będzie podatek od nadmiarowych zysków!!! Przecież rudy nie da wam zarobić!",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76439069",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 08:59",
+      "threadTitle": "Re: 26 mld...",
+      "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
+      "body": "Owszem obligavje placa, a inflacja zzera. Srebro odbije 30%, a obligi wyplaca 6. Tak, to ma sens.",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76439041",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 08:58",
+      "threadTitle": "Re: 26 mld...",
+      "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
+      "body": "Obwody ci sie przepalily i to niepokoi Joo",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76439047",
+      "author": "Abc",
+      "postedAt": "2026-11-19 08:58",
+      "threadTitle": "Re: Dzia mocny up?!",
+      "url": "https://www.bankier.pl/forum/temat_dzia-mocny-up,76438431.html",
+      "body": "Kupuj gdy inni się boją.Czasem warto zaryzykować.Wczorajsze zamknięcie mogło być dobrym momentem.Czekam na co najmniej 290-300.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.87,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76439031",
+      "author": "Gaudi",
+      "postedAt": "2026-11-19 08:57",
+      "threadTitle": "Re: 26 mld...",
+      "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
+      "body": "A dolar wzrosl 15%",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76438999",
+      "author": "Niedouczony",
+      "postedAt": "2026-11-19 08:55",
+      "threadTitle": "Re: Jaka bedzie dywidenda?",
+      "url": "https://www.bankier.pl/forum/temat_jaka-bedzie-dywidenda,76436695.html",
+      "body": "Zgoda.Tyle,ze zyski wielokrotnie wyzsze,podatek nizzszy dolar drozszy a i sa kredyty na finansowanie. A przede wszystkim wielkie potrzeby",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76438921",
+      "author": "darek",
+      "postedAt": "2026-11-19 08:49",
+      "threadTitle": "Re: Dzia mocny up?!",
+      "url": "https://www.bankier.pl/forum/temat_dzia-mocny-up,76438431.html",
+      "body": "15% uśmiałem się ,z taką orientacją nie powinieneś tym się zajmować , zacznij grać w inne gry",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76438933",
+      "author": "Kuna",
+      "postedAt": "2026-11-19 08:49",
+      "threadTitle": "6 sesji spadkowych",
+      "url": "https://www.bankier.pl/forum/temat_6-sesji-spadkowych,76438933.html",
+      "body": "przewiduję solidne odreagowanieraport mnie zaskoczył sądziłem że będzie ok 1,3 mld zysku",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76438881",
+      "author": "Ggg",
+      "postedAt": "2026-11-19 08:44",
+      "threadTitle": "Re: 26 mld...",
+      "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
+      "body": "Ty naprawdę jakiś nieprzytomny jesteś i nie dostrzegasz ewidentnych zależności. Dolar nie tyle pozostanie silny co będzie się dalej umacniał a to zmiażdży kursy metali na giełdach o czym zresztą pisałem tu już kilka miesięcy temu i co się właśnie dzieje. Przypominam, że metale nie płacą dywidend ani odsetek a obligacje owszem",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76438789",
+      "author": "Abc",
+      "postedAt": "2026-11-19 08:37",
+      "threadTitle": "Re: Dzia mocny up?!",
+      "url": "https://www.bankier.pl/forum/temat_dzia-mocny-up,76438431.html",
+      "body": "Dziś po takich wynikach może być nawet + 15 %.Do tego shorty które najpewniej w ostatnim czasie powiękrzały pozycje dziś magą się bać rozwoju sytuacji.",
+      "votes": {
+        "up": 1,
+        "down": 3
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76438759",
+      "author": "Greg585",
+      "postedAt": "2026-11-19 08:34",
+      "threadTitle": "Re: 26 mld...",
+      "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
+      "body": "W dodatku straciła 2000 w ciągu 3 tygodni. Październik był bardzo dobry. Metale odbiją a kurs dolara pewnie pozostanie wysoki.",
+      "votes": {
+        "up": 2,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76438719",
+      "author": "Greg585",
+      "postedAt": "2026-11-19 08:29",
+      "threadTitle": "Re: Jaka bedzie dywidenda?",
+      "url": "https://www.bankier.pl/forum/temat_jaka-bedzie-dywidenda,76436695.html",
+      "body": "Plany są ambitne z tym, że Sierra Gorda jest finansowana kredytem zaciągniętym na tej spółce.Sądzę, że będzie zgodnie z polityką dywidendową czyli 1/3 całości zysku- ok 17 zł na akcję. W marcu poznamy odpowiedź, w czerwcu wypłata.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76438637",
       "author": "Yaro",
@@ -94,8 +1065,8 @@
       "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
       "body": "Miedź mimo że straciła 2 tys dolarów i tak jest droga",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -109,7 +1080,7 @@
       "body": "Myślę że okolice +5% będzie",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -137,7 +1108,7 @@
       "body": "Być może na dzień dobry ale to jeszcze nie był dołek..raczej nie.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 2
       },
       "sentimentScore": 0.583,
       "sentimentLabel": "Positive"
@@ -150,8 +1121,8 @@
       "url": "https://www.bankier.pl/forum/temat_dzia-mocny-up,76438431.html",
       "body": "Tak +1% po kilkudniowym spadku trzeba złapać oddech",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -178,8 +1149,8 @@
       "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
       "body": "Srebro jest tańsze niż rok temu, a cena miedzi topnieje w oczach, za to gaz ostro zdrożał. Są obwody do niepokoju.",
       "votes": {
-        "up": 0,
-        "down": 1
+        "up": 1,
+        "down": 3
       },
       "sentimentScore": -0.762,
       "sentimentLabel": "Negative"
@@ -206,7 +1177,7 @@
       "url": "https://www.bankier.pl/forum/temat_26-mld,76438021.html",
       "body": "Tyle spadła kapitalizacja kghmu od 9 września. 2 miesiące i z kursu zamknięcia 378zł spadło do 248,2zł. Zysk na akcje po 3 kwartałach 37,58zł. Ceny surowców spadły o ok 15% miedzi, srebra o ok 30%, złota o ok 18%...",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -221,7 +1192,7 @@
       "body": "Sam jesteś nieuk. Dobrze napisał.",
       "votes": {
         "up": 0,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -276,7 +1247,7 @@
       "url": "https://www.bankier.pl/forum/temat_jutro-275-pln,76437653.html",
       "body": "Przecież przy takiej kapitalizacji spółki akcje powinne kosztować 10 razy więcej niż obecnie",
       "votes": {
-        "up": 4,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -305,7 +1276,7 @@
       "body": "Jutro 275 PLN całkiem możliwe, a jak to przebije to tylko >>>>>>>>>>>> 300 PLN",
       "votes": {
         "up": 3,
-        "down": 4
+        "down": 5
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -319,7 +1290,7 @@
       "body": "A jak bedzue to twohe informacje publikowane na Forum, szczególnie fałszywe lub nierzetelne, które mogą wprowadzać w błąd w zakresie decyzji inwestycyjnych w myśl art. 39 ustawy z dnia 29 lipca 2005 r. o obrocie instrumentami finansowymi, beda zgloszone.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0.322,
       "sentimentLabel": "Positive"
@@ -430,7 +1401,7 @@
       "url": "https://www.bankier.pl/forum/temat_bylem-u-wrozki-a-ona-mi-powiedziala,76436265.html",
       "body": "Dobrze, ze ta wrozka przepisala ci kaftan. I co ty na to?",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
       },
       "sentimentScore": 0,
@@ -500,7 +1471,7 @@
       "url": "https://www.bankier.pl/forum/temat_bylem-u-wrozki-a-ona-mi-powiedziala,76436265.html",
       "body": "Weź leki, jutro odcięcie",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 1
       },
       "sentimentScore": 0,
@@ -725,7 +1696,7 @@
       "body": "Miedź odpowiada za ponad 75% całkowitej sprzedaży spółki. Drugim najważniejszym źródłem wpływów jest srebro (ok. 15–20% przychodów), natomiast złoto stanowi najmniejszą część w tym zestawieniu (ok. 2–3% miły marżowy bonus) Stosując średnią ważoną opartą na udziale w przychodach, 5-letni wzrost cen koszyka metali dla KGHM wynosi około 37,4%–39,6% , choć sama miedź to +27,1%. Kurs akcji spółki wzrósł w tym samym czasie o +75,5% (z 141,45 zł do 248,20 zł). Nie dość że urósł niemal 2 krotnie więcej jak wspomniany śr. koszyk 1,96x, to rynek jakby nie brał pod uwagę rosnących kosztów wydobycia.Teoretyczny kurs KGHM dopasowany 1:1 do wzrostu koszyka metali oraz wzrostu kosztów wydobycia może wynosić około 173–196 zł za akcję. Oznaczać to może że obecna cena rynkowa (248,20 zł) zawiera w sobie premię na poziomie 52–75 zł na akcję (ok. 27–43%) względem czystego modelu surowcowo-kosztowego. Wniosek: Gdy cena akcji wyprzedza fundamenty surowcowo-kosztowe o 27–43%, a miedź znajduje się w trendzie korekcyjnym ze szczytów z września 2026 roku, zabezpieczenie części wypracowanego zysku jest racjonalnym krokiem.",
       "votes": {
         "up": 1,
-        "down": 2
+        "down": 3
       },
       "sentimentScore": 0.964,
       "sentimentLabel": "Positive"
@@ -767,7 +1738,7 @@
       "body": "Twoje iq mobilis jutro ponizej kierunkowego do krakowa",
       "votes": {
         "up": 4,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -892,7 +1863,7 @@
       "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
       "body": "Musze, bo piszesz. A ja tepie narcystyczznych oszustow. Takich jak ty.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": -0.583,
@@ -1144,7 +2115,7 @@
       "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
       "body": "Niezebrane piszemy łącznie, czarny nieuku. Zostalo 3507, ale skad ty mozesz wiedziec.",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -1229,7 +2200,7 @@
       "body": "Życie jest jak gra w szachy . . .",
       "votes": {
         "up": 0,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -1529,20 +2500,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76432169",
-      "author": "Lu",
-      "postedAt": "2026-11-18 15:54",
-      "threadTitle": "Re: Panika na miedzi i srebrze",
-      "url": "https://www.bankier.pl/forum/temat_panika-na-miedzi-i-srebrze,76431855.html",
-      "body": "Tymczasem W20 i inne ideksy bliskie szczytów. A co będzie jak one rozpoczną korektę hm? Jeszcze bardziej panicznie docisną metale. Jak szeroki padnie to tu będzie 21PLN jak blisko 20 lat temu. Metal po 7k w szczycie paniki i odbicie V. To jest łatanie Tytanika ta spółka. Teraz Fed musiał by zamiast podwyższyć obniżyć stopy. Ale komu to na rękę stopować rozkręcającą się panikę.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.931,
-      "sentimentLabel": "Negative"
-    },
-    {
       "id": "76432119",
       "author": "Ggg",
       "postedAt": "2026-11-18 15:52",
@@ -1565,20 +2522,6 @@
       "body": "na srebrze przetestowali 45$ ciekawe czy pojadą 40$ a na miedzi 525-550gold do 3500$zobaczymy kghm pachnie testem 240 zł przy tych wydarzeniach co dzisiaj się dzieją to powinniśmy być już w okolicach 220zł czym dłużej taka cena na metalach to kierunek 190-200zł",
       "votes": {
         "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76432087",
-      "author": "Gaudi",
-      "postedAt": "2026-11-18 15:50",
-      "threadTitle": "Re: jaki będzie raport ?",
-      "url": "https://www.bankier.pl/forum/temat_jaki-bedzie-raport,76429263.html",
-      "body": "Moze tym razem urosnie, skoro tyle spadl",
-      "votes": {
-        "up": 1,
         "down": 0
       },
       "sentimentScore": -0.322,
@@ -1611,20 +2554,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76431855",
-      "author": "drwal",
-      "postedAt": "2026-11-18 15:36",
-      "threadTitle": "Panika na miedzi i srebrze",
-      "url": "https://www.bankier.pl/forum/temat_panika-na-miedzi-i-srebrze,76431855.html",
-      "body": "znaczy się już dołek blisko albo jest w tym momenciepodobnie jak na złocie i srebrze w styczniu ale w przeciwnym kierunku",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "76431793",
@@ -1683,34 +2612,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76430911",
-      "author": "Gaudi",
-      "postedAt": "2026-11-18 14:38",
-      "threadTitle": "Re: Czy już",
-      "url": "https://www.bankier.pl/forum/temat_czy-juz,76426715.html",
-      "body": "Obkupieni beda zadowoleni. Ten zascianek bez akcji ujadal i bedzie ujadac. Do tego sluzy im to forum.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76430851",
-      "author": "Kuna",
-      "postedAt": "2026-11-18 14:36",
-      "threadTitle": "pandemiczni inwestory",
-      "url": "https://www.bankier.pl/forum/temat_pandemiczni-inwestory,76430851.html",
-      "body": "złowione teraz mogą spuścić",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "76430787",
       "author": "Kuna",
       "postedAt": "2026-11-18 14:32",
@@ -1723,104 +2624,6 @@
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76430617",
-      "author": "Ja",
-      "postedAt": "2026-11-18 14:21",
-      "threadTitle": "Re: Czy już",
-      "url": "https://www.bankier.pl/forum/temat_czy-juz,76426715.html",
-      "body": "Start",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76430433",
-      "author": "Ira",
-      "postedAt": "2026-11-18 14:08",
-      "threadTitle": "Re: Czy już",
-      "url": "https://www.bankier.pl/forum/temat_czy-juz,76426715.html",
-      "body": "Zaraz będzie kupowanie na wyścigi.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76430333",
-      "author": "Greg585",
-      "postedAt": "2026-11-18 14:02",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Właśnie czegoś takiego się spodziewam. Ok. 15 zł na akcji czyli 3 mld do podziału dla akcjonariuszy. To mniej więcej 30% całości. Dla ministerstwa finansów to ok 800 mln z podatku od dywidendy oraz z dywidendy od posiadanych akcji. Może nawet będą naciskać na więcej.Na inwestycje też sporo zostanie, tym bardziej, że inwestycje w Sierra Gordę są z kredytu obciążającego tamtą spółkę",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76430275",
-      "author": "Wig",
-      "postedAt": "2026-11-18 14:00",
-      "threadTitle": "Re: Czy już",
-      "url": "https://www.bankier.pl/forum/temat_czy-juz,76426715.html",
-      "body": "Miałem nosa żeby spżedać.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76429925",
-      "author": "Venturak",
-      "postedAt": "2026-11-18 13:39",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "> Miedź już -4%. Będzie to samo co w 2022, czyli 7000Nie będzie. Spadki są podyktowane obawami o to, że w Stanach zostanie zatrzymany (albo przynajmniej mocno spowolniony) rozwój AI. A to się NIE WYDARZY. Czyli po prostu jest pretekst, to metale lecą dół. Ale tak naprawdę to:1. miedzi faktycznie brakuje (i to się będzie systematycznie pogłębiało także w najbliższych latach)2. nie tylko w Stanach AI jest i będzie coraz szybciej rozwijana i tam także potrzeba miedzi właśnie pod ten rozwój3. W USA ludzie mogą sobie protestować do woli, że nie chcą nowych centrów danych dla AI, ale one i tak będą powstawać, w coraz szybszym tempie, bo to jest \"wyścig zbrojeń 2.0\", jeśli Amerykanie go odpuszczą, przegrają z Chinami tak samo jak ZSRR przegrało z USA, a może nawet znacznie bardziej boleśnie, zważywszy na bezwzględność Chin oraz to, jak istotna jest to technologia, dlatego w USA rozwój AI został wpisany przez rząd jako priorytet z uwagi na bezpieczeństwo narodowe, i oni nie oglądając się na społeczny opór będą to rozwijać, a wyścig zbrojeń w tej kwestii tylko będzie przyspieszał, a więc miedzi będzie także i na tamtym rynku potrzeba zarówno dla tych nowo budowanych centrów danych, jak i dla elektrowni i sieci przesyłu energii, która dopiero powstaje i powstawać będzie w najbliższej przyszłości (w Stanach już wprowadzono uproszczoną procedurę budowy nowych elektrowni, nie będzie to trwało po 10 lat, bo tempo rozwoju AI jest zawrotne, a energię to żre większą niż tradycyjny przemysł).Czyli jest kwestią czasu, gdy nagle ta paniczna wyprzedaż się tak samo urwie, jak się zaczęła. Ktoś korzysta na typowym \"strachu ulicy\", a on nie jest wieczny. Zaś twarde realia pozostają i teraz to tylko kwestia tego, kiedy zaczną one mieć znaczenie. NVIDIA już obija. Banka na AI długo nie pęknie i to się w najbliższych tygodniach okaże faktem. Konkurencja na poziomie międzynarodowym w \"zimnej wojnie 2.0\" na to nie pozwoli.",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76429637",
-      "author": "leszcz",
-      "postedAt": "2026-11-18 13:26",
-      "threadTitle": "Re: jaki będzie raport ?",
-      "url": "https://www.bankier.pl/forum/temat_jaki-bedzie-raport,76429263.html",
-      "body": "A jaka to różnica jak po wynikach zawsze spada",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76429263",
-      "author": "ckn",
-      "postedAt": "2026-11-18 13:05",
-      "threadTitle": "jaki będzie raport ?",
-      "url": "https://www.bankier.pl/forum/temat_jaki-bedzie-raport,76429263.html",
-      "body": "odbiór pozytywny czy negatywny ?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
     },
     {
       "id": "76429171",
@@ -1907,188 +2710,6 @@
       "sentimentLabel": "Negative"
     },
     {
-      "id": "76428529",
-      "author": "Gaudi",
-      "postedAt": "2026-11-18 12:16",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Prins i kuna maja lacznie iq deski do prasowania",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76428445",
-      "author": "Pol",
-      "postedAt": "2026-11-18 12:10",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Czytając wpisy Kuny to srebro spadnie do 10 USD a akcje KGHM do 50 zł.",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76428007",
-      "author": "Jozek",
-      "postedAt": "2026-11-18 11:45",
-      "threadTitle": "Re: Czy już",
-      "url": "https://www.bankier.pl/forum/temat_czy-juz,76426715.html",
-      "body": "Czy w tym roku może zejść poniżej 150zl?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76427827",
-      "author": "Niedouczony",
-      "postedAt": "2026-11-18 11:37",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "W 2010 zysk byl ok 4,5 mld a dywidenda ok 14,00",
-      "votes": {
-        "up": 1,
-        "down": 2
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76427747",
-      "author": "Ja",
-      "postedAt": "2026-11-18 11:32",
-      "threadTitle": "Re: wzrostowcy pokażcie na co was stać",
-      "url": "https://www.bankier.pl/forum/temat_wzrostowcy-pokazcie-na-co-was-stac,76426731.html",
-      "body": "Spokojnie, pasożyty pójdą z torbami",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76427597",
-      "author": "Gaudi",
-      "postedAt": "2026-11-18 11:25",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "PrinsPiciPolo. Idz butelki zbierac. Na tym sie znasz.",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76427191",
-      "author": "Ppp",
-      "postedAt": "2026-11-18 11:02",
-      "threadTitle": "Re: Czy już",
-      "url": "https://www.bankier.pl/forum/temat_czy-juz,76426715.html",
-      "body": "Wszystko zalezy od Chinoli",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76426981",
-      "author": "Wig",
-      "postedAt": "2026-11-18 10:49",
-      "threadTitle": "Re: Czy już",
-      "url": "https://www.bankier.pl/forum/temat_czy-juz,76426715.html",
-      "body": "Miedź 10 tyś $ , srebro 20 $ , złoto 2500 $",
-      "votes": {
-        "up": 4,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76426821",
-      "author": "MobilisA075",
-      "postedAt": "2026-11-18 10:39",
-      "threadTitle": "Re: Czy już",
-      "url": "https://www.bankier.pl/forum/temat_czy-juz,76426715.html",
-      "body": "Nie. Czekaj aż miedź spadnie do 7000, już wkrótce...",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76426757",
-      "author": "MobilisA075",
-      "postedAt": "2026-11-18 10:35",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Miedź już -4%. Będzie to samo co w 2022, czyli 7000",
-      "votes": {
-        "up": 2,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76426731",
-      "author": "Kuna",
-      "postedAt": "2026-11-18 10:35",
-      "threadTitle": "wzrostowcy pokażcie na co was stać",
-      "url": "https://www.bankier.pl/forum/temat_wzrostowcy-pokazcie-na-co-was-stac,76426731.html",
-      "body": "a nie tylko paplacie gdzie bijecie na 290 czy wyżej",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76426715",
-      "author": "Bogdan",
-      "postedAt": "2026-11-18 10:34",
-      "threadTitle": "Czy już",
-      "url": "https://www.bankier.pl/forum/temat_czy-juz,76426715.html",
-      "body": "Pytanie jest tylko jedna czy już zacząć kupywać?",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76426561",
-      "author": "Prins",
-      "postedAt": "2026-11-18 10:25",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Wajche w głowie przestaw a nie zapomniałem jest pusta heheDramat akcji kghm hehe",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
       "id": "76426471",
       "author": "Gaudi",
       "postedAt": "2026-11-18 10:21",
@@ -2117,188 +2738,6 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76426195",
-      "author": "Gaudi",
-      "postedAt": "2026-11-18 10:09",
-      "threadTitle": "Re: Czyszby kierunek to 250-260 ?",
-      "url": "https://www.bankier.pl/forum/temat_czyszby-kierunek-to-250-260,76156339.html",
-      "body": "Wsparcie jak juz, nie opor. Nawet tego nie ogarniasz drpiniondz. Dramat.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76426117",
-      "author": "bartek",
-      "postedAt": "2026-11-18 10:07",
-      "threadTitle": "Re: Wyniki wzorowe",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-wzorowe,76414579.html",
-      "body": "o której się otwierają ? dzięki.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76426105",
-      "author": "Gaudi",
-      "postedAt": "2026-11-18 10:06",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Na xtb kurs mowi za siebie.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76426089",
-      "author": "Gaudi",
-      "postedAt": "2026-11-18 10:06",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Kuna to sie zna na przegryzaniu kabli. 100% racji greg. Short korzysta z okazji. Doczekal sie. Jak wajche orzestawia to kgh w 3 dni 20% zrobi",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76426011",
-      "author": "GGG",
-      "postedAt": "2026-11-18 10:02",
-      "threadTitle": "Re: Czyszby kierunek to 250-260 ?",
-      "url": "https://www.bankier.pl/forum/temat_czyszby-kierunek-to-250-260,76156339.html",
-      "body": "tak na marginesie Opublikowano przy kursie: 283,50 złaaaaa nie mówiłem ciekawe kto posłuchał nie ma za co :)",
-      "votes": {
-        "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76425981",
-      "author": "Pol",
-      "postedAt": "2026-11-18 10:01",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Jaka dywidendowa.Cały zysk idzie na inwestycje,",
-      "votes": {
-        "up": 3,
-        "down": 1
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76425793",
-      "author": "Greg585",
-      "postedAt": "2026-11-18 09:53",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Tak, ale okoliczności się zmieniają, bo chyba po raz pierwszy mają tyle kasy na rachunkach. 20% obecnej wyceny to kasa spółki. Dość absurdalne.To się robi spółka dywidendowa.",
-      "votes": {
-        "up": 3,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76425797",
-      "author": "Suchowy",
-      "postedAt": "2026-11-18 09:53",
-      "threadTitle": "Dobrze się nasmarujcie",
-      "url": "https://www.bankier.pl/forum/temat_dobrze-sie-nasmarujcie,76425797.html",
-      "body": "Bo drill dopiero się rozpoczyna",
-      "votes": {
-        "up": 5,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76425661",
-      "author": "Prins",
-      "postedAt": "2026-11-18 09:48",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Dawno się w głowę uderzyłeś?",
-      "votes": {
-        "up": 3,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76425633",
-      "author": "Prins",
-      "postedAt": "2026-11-18 09:47",
-      "threadTitle": "Re: Wyniki wzorowe",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-wzorowe,76414579.html",
-      "body": "Jak ameryka. Się otworzy to najmniejszy wymiar kary to -10",
-      "votes": {
-        "up": 1,
-        "down": 3
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76425523",
-      "author": "bolus",
-      "postedAt": "2026-11-18 09:43",
-      "threadTitle": "Re: Wyniki wzorowe",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-wzorowe,76414579.html",
-      "body": "Nie bójta się i kupójta. Jak skrowisyny się obłowią ,to będzie up.Poczekamy miesiąc-dwa.",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76425343",
-      "author": "Prins",
-      "postedAt": "2026-11-18 09:36",
-      "threadTitle": "Re: Wyniki wzorowe",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-wzorowe,76414579.html",
-      "body": "No ci mądrzy co skupili są już na trąbie który taki ?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76425315",
-      "author": "Ggg",
-      "postedAt": "2026-11-18 09:35",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Koleś śmieszny jesteś a nawet po prostu głupi. To jest spółka spekulacyjna której kurs jest mocno skorelowany z aktualnymi kursami metali (głównie srebra) a wyniki finansowe mają tu drugorzędne znaczenie o ile w ogóle jakiekolwiek. KGH historycznie potrafi mieć c/z 5 3 a nawet 2 - tak rynek \"nagradza\" ją za dobre wyniki i tam ten wskaźnik obecnie zmierza. Wyniki to na Kętach czy bankach mogą mieć znaczenie ale nie tutaj czy na JSW albo LWB gdzie z kolei jest korelacja z cenami węgla. Taka jest specyfika spółek wydobywczych o trzeba to rozumieć jak się kupuje ich akcje.",
-      "votes": {
-        "up": 5,
-        "down": 3
-      },
-      "sentimentScore": 0.762,
-      "sentimentLabel": "Positive"
-    },
-    {
       "id": "76425301",
       "author": "black944",
       "postedAt": "2026-11-18 09:34",
@@ -2306,22 +2745,8 @@
       "url": "https://www.bankier.pl/forum/temat_rsi-h4-22-23,76425203.html",
       "body": "pivot point ? Godzina jeszcze młoda jest . . .",
       "votes": {
-        "up": 3,
+        "up": 4,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76425283",
-      "author": "bob",
-      "postedAt": "2026-11-18 09:34",
-      "threadTitle": "Re: Wyniki wzorowe",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-wzorowe,76414579.html",
-      "body": "dolar to wynagrodzi 5 zl niedlugo",
-      "votes": {
-        "up": 0,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2335,80 +2760,10 @@
       "body": "Jest już bardzo nisko . . .",
       "votes": {
         "up": 2,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76425161",
-      "author": "drPiniondz",
-      "postedAt": "2026-11-18 09:28",
-      "threadTitle": "Re: Po 250 brać w ciemno",
-      "url": "https://www.bankier.pl/forum/temat_po-250-brac-w-ciemno,76424935.html",
-      "body": "Tu będzie chyba jeszcze niżej ale pytanie czy powróci na ponad 330 PLN i kiedy. Haki na lata a może i dziesięciolecia.",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76425107",
-      "author": "aw",
-      "postedAt": "2026-11-18 09:26",
-      "threadTitle": "Re: Po 250 brać w ciemno",
-      "url": "https://www.bankier.pl/forum/temat_po-250-brac-w-ciemno,76424935.html",
-      "body": "Au,Ag leci to i miedź poleci.100 zł",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76424985",
-      "author": "Prins",
-      "postedAt": "2026-11-18 09:20",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Żaden bełkot kurs.mowims.za.siebie",
-      "votes": {
-        "up": 4,
-        "down": 5
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76424953",
-      "author": "Greg585",
-      "postedAt": "2026-11-18 09:19",
-      "threadTitle": "Re: po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "Co za bełkot. W I kwartale średnia cena miedzi 12880, średni kurs dolara 3,6. Zysk 3.5 mld.Nawet odliczając stratę na srebrze i wyższe wydatki na wynagrodzenia to poniżej 2,5 mld zysk nie powinien spaść w IV kwartale.Metale z czasem odbiją, szczególnie srebro, za to kurs dolara może się długo utrzymywać w okolicach 4 zł.",
-      "votes": {
-        "up": 6,
-        "down": 6
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76424909",
-      "author": "Kuna",
-      "postedAt": "2026-11-18 09:16",
-      "threadTitle": "czyżby grube insaidery wyczuwały",
-      "url": "https://www.bankier.pl/forum/temat_czyzby-grube-insaidery-wyczuwaly,76424909.html",
-      "body": "znają dane światowe i wyprzedzeniem widzą jaka jest koniunktura czy widzą recesję dane z chin ostatnio słabawe",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
     },
     {
       "id": "76424669",
@@ -2439,208 +2794,12 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76424431",
-      "author": "Kuna",
-      "postedAt": "2026-11-18 08:54",
-      "threadTitle": "po tym co się stało na metalach w nocy",
-      "url": "https://www.bankier.pl/forum/temat_po-tym-co-sie-stalo-na-metalach-w-nocy,76424431.html",
-      "body": "wyniki są mało istotne to już historia wszystkie wsparcia połamane żeby nie było straty w 4q możliwe albo będzie mizerny zysk",
-      "votes": {
-        "up": 4,
-        "down": 5
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76424387",
-      "author": "Herkules",
-      "postedAt": "2026-11-18 08:51",
-      "threadTitle": "Dzisiaj krwawa rzeź, nie dotykać...",
-      "url": "https://www.bankier.pl/forum/temat_dzisiaj-krwawa-rzez-nie-dotykac,76424387.html",
-      "body": "Patrzeć spokojnie jak leci na południe.",
-      "votes": {
-        "up": 2,
-        "down": 0
-      },
-      "sentimentScore": -0.87,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76424351",
-      "author": "Ślusarz",
-      "postedAt": "2026-11-18 08:49",
-      "threadTitle": "Re: Jak tam wasze typy",
-      "url": "https://www.bankier.pl/forum/temat_jak-tam-wasze-typy,76410025.html",
-      "body": "Dziś kurs otwarcia 24x",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76424163",
-      "author": "Lejs",
-      "postedAt": "2026-11-18 08:34",
-      "threadTitle": "Re: zmiana trendu na złocie srebrze i miedzi",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu-na-zlocie-srebrze-i-miedzi,76417869.html",
-      "body": "Dzisiaj kupować po 250 PLN !!!Ale każdy robi jak uważa.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76424077",
-      "author": "kata_blanca",
-      "postedAt": "2026-11-18 08:27",
-      "threadTitle": "Re: zmiana trendu na złocie srebrze i miedzi",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu-na-zlocie-srebrze-i-miedzi,76417869.html",
-      "body": "ale rzeź na miedzi",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76423883",
-      "author": "on",
-      "postedAt": "2026-11-18 08:09",
-      "threadTitle": "Re: zmiana trendu na złocie srebrze i miedzi",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu-na-zlocie-srebrze-i-miedzi,76417869.html",
-      "body": "Srebro kaput to i zyski kaput. Te wyniki owszem będą bardzo dobre, ale pytanie brzmi czy giełda będzie się skupiać na historycznych cenach czy wyceniać przyszłość. Wg wyniki będą miał drugorzędne znaczenie, najwyżej podskoczy parę złoty a potem najwyżej boczniak. Zobaczymy",
-      "votes": {
-        "up": 6,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76423821",
-      "author": "Jak",
-      "postedAt": "2026-11-18 08:01",
-      "threadTitle": "Re: Jak tam wasze typy",
-      "url": "https://www.bankier.pl/forum/temat_jak-tam-wasze-typy,76410025.html",
-      "body": "Miedź spadła poniżej 13 tyś USD za tonę , więc na razie kierunek 200 za akcję. Jak miedź będzie dalej spadać to i 120 możliwe. Ale to miedź na 11 tyś USD musi spaść.",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.583,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76423785",
-      "author": "Ślusarz",
-      "postedAt": "2026-11-18 07:53",
-      "threadTitle": "Re: Nie panikować.",
-      "url": "https://www.bankier.pl/forum/temat_nie-panikowac,76423279.html",
-      "body": "Dziś przy tej cenie srebra i miedzi to się chyba i 240 nie utrzyma????",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76423689",
-      "author": "Ślusarz",
-      "postedAt": "2026-11-18 07:40",
-      "threadTitle": "Re: Nie panikować.",
-      "url": "https://www.bankier.pl/forum/temat_nie-panikowac,76423279.html",
-      "body": "Jesień średniowiecza!!!!",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76423631",
-      "author": "Zosja",
-      "postedAt": "2026-11-18 07:31",
-      "threadTitle": "Re: Nie panikować.",
-      "url": "https://www.bankier.pl/forum/temat_nie-panikowac,76423279.html",
-      "body": "Ratuj się kto może o 9.00 !!!!",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76423565",
+      "id": "76410461",
       "author": "YorX",
-      "postedAt": "2026-11-18 07:20",
-      "threadTitle": "Re: Nie panikować.",
-      "url": "https://www.bankier.pl/forum/temat_nie-panikowac,76423279.html",
-      "body": "> dzisiaj po sesji wyniki. Do tej pory kurs spadał po wynikach, ale rósł przed wynikami. Teraz będzie odwrotnie :D?Ale urwał. Chyba jednak 250pln dzisiaj na otwarcie.",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76423307",
-      "author": "Nowy",
-      "postedAt": "2026-11-18 06:30",
-      "threadTitle": "Re: Nie panikować.",
-      "url": "https://www.bankier.pl/forum/temat_nie-panikowac,76423279.html",
-      "body": "dzisiaj po sesji wyniki. Do tej pory kurs spadał po wynikach, ale rósł przed wynikami. Teraz będzie odwrotnie :D?",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76423279",
-      "author": "władek",
-      "postedAt": "2026-11-18 06:20",
-      "threadTitle": "Nie panikować.",
-      "url": "https://www.bankier.pl/forum/temat_nie-panikowac,76423279.html",
-      "body": "Niedługo zmiana tryndu, czyli wajha w górę. Wiem, wiem, nie dziękujcie. Nie każdy trafi w dołek. Oprócz mnie, oczywiście. Ciekawe, czy ci co obkupili się papierowym złotem na górce i wierząc amerykańskim (ha ha ha) ekspertom, że nigdy nie spadnie, to mają jeszcze na nowe pampersy? Wasz władek.",
-      "votes": {
-        "up": 1,
-        "down": 4
-      },
-      "sentimentScore": 0.583,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76421705",
-      "author": "Ślusarz",
-      "postedAt": "2026-11-17 21:17",
-      "threadTitle": "Re: Konsensus",
-      "url": "https://www.bankier.pl/forum/temat_konsensus,76418923.html",
-      "body": "Nie było by źle.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76421531",
-      "author": "Gaudi",
-      "postedAt": "2026-11-17 20:58",
-      "threadTitle": "Re: Konsensus",
-      "url": "https://www.bankier.pl/forum/temat_konsensus,76418923.html",
-      "body": "x.com/Macronextcom/status/2122618161652449522",
+      "postedAt": "2026-11-17 09:50",
+      "threadTitle": "Re: Czy dziś obroni 260???",
+      "url": "https://www.bankier.pl/forum/temat_czy-dzis-obroni-260,76396989.html",
+      "body": "Tłumacz sobie swoje błędy inwestycyjne jak chcesz.Pewnie łatwiej to przełknąć kiedy to nie twoja wina.",
       "votes": {
         "up": 1,
         "down": 0
@@ -2649,12 +2808,12 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76421109",
-      "author": "Gaudi",
-      "postedAt": "2026-11-17 20:22",
-      "threadTitle": "Re: Konsensus",
-      "url": "https://www.bankier.pl/forum/temat_konsensus,76418923.html",
-      "body": "strefainwestorow.pl/czaty-inwestorskie/2026-11-23/wyniki-finansowe-kghm-3q26",
+      "id": "76410177",
+      "author": "Abc",
+      "postedAt": "2026-11-17 09:34",
+      "threadTitle": "Re: Czy dziś obroni 260???",
+      "url": "https://www.bankier.pl/forum/temat_czy-dzis-obroni-260,76396989.html",
+      "body": "Tylko Chile kiedy były okazję na zakupy na świecie kghm spał teraz jest drogo ale ekspansja musi być żeby się rozwijać bo zasoby się kurcza",
       "votes": {
         "up": 0,
         "down": 0
@@ -2663,225 +2822,71 @@
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76421033",
-      "author": "Gaudi",
-      "postedAt": "2026-11-17 20:16",
-      "threadTitle": "Re: Jak tam wasze typy",
-      "url": "https://www.bankier.pl/forum/temat_jak-tam-wasze-typy,76410025.html",
-      "body": "Na twoim tauronie ppp nie bedzie to fakt.",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76420119",
-      "author": "drPiniondz",
-      "postedAt": "2026-11-17 19:09",
-      "threadTitle": "Re: zmiana trendu na złocie srebrze i miedzi",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu-na-zlocie-srebrze-i-miedzi,76417869.html",
-      "body": "do grudniowego FED raczej spadki lub boczniaki",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76419693",
-      "author": "Laik",
-      "postedAt": "2026-11-17 18:33",
-      "threadTitle": "Re: Jak tam wasze typy",
-      "url": "https://www.bankier.pl/forum/temat_jak-tam-wasze-typy,76410025.html",
-      "body": "Powinny być dobre bo i ceny miedzi/srebra rekordowe i dolar drozszy",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76419217",
-      "author": "Alapo",
-      "postedAt": "2026-11-17 17:57",
-      "threadTitle": "Re: OKI - TEGO BĘDĄ BAŁY SIĘ SHORTY GRAJĄCE NA SPADKI po 1 stycznia 27⭐",
-      "url": "https://www.bankier.pl/forum/temat_oki-tego-beda-baly-sie-shorty-grajace-na-spadki-po-1-stycznia-27,76419113.html",
-      "body": "Coś wiecej?",
-      "votes": {
-        "up": 10,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76419113",
-      "author": "Kamil",
-      "postedAt": "2026-11-17 17:50",
-      "threadTitle": "OKI - TEGO BĘDĄ BAŁY SIĘ SHORTY GRAJĄCE NA SPADKI po 1 stycznia 27⭐",
-      "url": "https://www.bankier.pl/forum/temat_oki-tego-beda-baly-sie-shorty-grajace-na-spadki-po-1-stycznia-27,76419113.html",
-      "body": "OKI - po 1 stycznia 27",
-      "votes": {
-        "up": 10,
-        "down": 1
-      },
-      "sentimentScore": -0.762,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76418923",
-      "author": "Ślusarz",
-      "postedAt": "2026-11-17 17:36",
-      "threadTitle": "Konsensus",
-      "url": "https://www.bankier.pl/forum/temat_konsensus,76418923.html",
-      "body": "Ktoś , coś?",
-      "votes": {
-        "up": 0,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76418505",
-      "author": "Ziomal",
-      "postedAt": "2026-11-17 17:08",
-      "threadTitle": "Re: zmiana trendu na złocie srebrze i miedzi",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu-na-zlocie-srebrze-i-miedzi,76417869.html",
-      "body": "3.9996 - faktycznie słaby xd",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76418173",
-      "author": "uwaga",
-      "postedAt": "2026-11-17 16:46",
-      "threadTitle": "Re: D Y S T R Y B U C J A",
-      "url": "https://www.bankier.pl/forum/temat_d-y-s-t-r-y-b-u-c-j-a,75691621.html",
-      "body": "Realista miał rację, pytanie czy nadal trwa?",
-      "votes": {
-        "up": 0,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76417869",
-      "author": "trader",
-      "postedAt": "2026-11-17 16:26",
-      "threadTitle": "zmiana trendu na złocie srebrze i miedzi",
-      "url": "https://www.bankier.pl/forum/temat_zmiana-trendu-na-zlocie-srebrze-i-miedzi,76417869.html",
-      "body": "dolar już słabnie dostał zadyszki-czas na zwrot także na kgh",
-      "votes": {
-        "up": 3,
-        "down": 6
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76415501",
-      "author": "Prins",
-      "postedAt": "2026-11-17 14:16",
-      "threadTitle": "Re: Jak tam wasze typy",
-      "url": "https://www.bankier.pl/forum/temat_jak-tam-wasze-typy,76410025.html",
-      "body": "Spadki wyhamowaly,nie udało się zbić ceny niżej pod wyniki",
-      "votes": {
-        "up": 0,
-        "down": 3
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76414835",
-      "author": "YorX",
-      "postedAt": "2026-11-17 13:49",
-      "threadTitle": "Re: Jak tam wasze typy",
-      "url": "https://www.bankier.pl/forum/temat_jak-tam-wasze-typy,76410025.html",
-      "body": "> Nie będzie żadnego odbiciaZanosi się jednak, że i owszem.",
+      "id": "76409855",
+      "author": "(usunięty)",
+      "postedAt": "2026-11-17 09:20",
+      "threadTitle": "(wiadomość usunięta przez moderatora)",
+      "url": "https://www.bankier.pl/forum/temat_czy-dzis-obroni-260,76396989.html",
+      "body": "(wiadomość usunięta przez moderatora)",
       "votes": {
         "up": 1,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76414579",
-      "author": "Ta",
-      "postedAt": "2026-11-17 13:35",
-      "threadTitle": "Wyniki wzorowe",
-      "url": "https://www.bankier.pl/forum/temat_wyniki-wzorowe,76414579.html",
-      "body": "Trwa skup pod jutrzejsze wyniki? Czym tłumaczyć ten kierunek czy słabych cenach miedzi i srebra?",
-      "votes": {
-        "up": 0,
-        "down": 2
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76412433",
-      "author": "Ślusarz",
-      "postedAt": "2026-11-17 11:34",
-      "threadTitle": "Re: Jak tam wasze typy",
-      "url": "https://www.bankier.pl/forum/temat_jak-tam-wasze-typy,76410025.html",
-      "body": "Dziś to już chyba 25x będzie z przodu. A wyniki będą dobre, raczej \"c\".",
-      "votes": {
-        "up": 2,
-        "down": 2
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76412103",
-      "author": "Wig",
-      "postedAt": "2026-11-17 11:17",
-      "threadTitle": "Re: Jak tam wasze typy",
-      "url": "https://www.bankier.pl/forum/temat_jak-tam-wasze-typy,76410025.html",
-      "body": "Glapiński ma ciepło. Wg starej prognozy 3500$ za 31 gramów. Jeśli spadnie poniżej 3000 wywiozą go na taczkach.",
-      "votes": {
-        "up": 5,
-        "down": 1
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76411411",
-      "author": "Ppp",
-      "postedAt": "2026-11-17 10:37",
-      "threadTitle": "Re: Jak tam wasze typy",
-      "url": "https://www.bankier.pl/forum/temat_jak-tam-wasze-typy,76410025.html",
-      "body": "Nie będzie żadnego odbicia",
-      "votes": {
-        "up": 6,
         "down": 6
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
     },
     {
-      "id": "76411399",
-      "author": "YorX",
-      "postedAt": "2026-11-17 10:37",
-      "threadTitle": "Re: Jak tam wasze typy",
-      "url": "https://www.bankier.pl/forum/temat_jak-tam-wasze-typy,76410025.html",
-      "body": "Ustawiam się na L po 260-262.Zobaczymy co wpadnie.Do 290 pln widzę miejsce do odreagowania.",
+      "id": "76409817",
+      "author": "Greg585",
+      "postedAt": "2026-11-17 09:19",
+      "threadTitle": "Re: Czy dziś obroni 260???",
+      "url": "https://www.bankier.pl/forum/temat_czy-dzis-obroni-260,76396989.html",
+      "body": "To było by piękne. Wartość spółki poniżej 50 mld z czego mninimum 10 mld to środki pieniężne do rozliczenia za 2026.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76409619",
+      "author": "Abc",
+      "postedAt": "2026-11-17 09:09",
+      "threadTitle": "Re: Czy dziś obroni 260???",
+      "url": "https://www.bankier.pl/forum/temat_czy-dzis-obroni-260,76396989.html",
+      "body": "Docelowo do końca roku 200-220 tam widzę dołek może delikatnie zejść poniżej ale moim zdaniem to jest minimum",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76397085",
+      "author": "MARCIN",
+      "postedAt": "2026-11-16 09:05",
+      "threadTitle": "Re: Czy dziś obroni 260???",
+      "url": "https://www.bankier.pl/forum/temat_czy-dzis-obroni-260,76396989.html",
+      "body": "dlaczego nie mozna wyjsc z progu - bo trzeba w piisac LOV111VOl w goo gle i sprawdzic okonke mozgu pod glownym zdjeciem",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76397019",
+      "author": "Ślusarz",
+      "postedAt": "2026-11-16 09:01",
+      "threadTitle": "Re: Czy dziś obroni 260???",
+      "url": "https://www.bankier.pl/forum/temat_czy-dzis-obroni-260,76396989.html",
+      "body": "Nie doceniłem, padło w 20 sekund!!!!",
       "votes": {
         "up": 3,
-        "down": 1
+        "down": 2
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

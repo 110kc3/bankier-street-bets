@@ -3,27 +3,117 @@
   "companyName": "Bank Pekao SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PEKAO",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_bank-pekao-sa,6,21,18.html",
-  "updatedAt": "2026-11-19T07:23:39.119Z",
+  "updatedAt": "2026-11-19T20:35:36.375Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-19T07:23:39.119Z",
-    "windowDays": 30,
+    "fetchedAt": "2026-11-19T20:35:36.375Z",
+    "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
-    "threadsScanned": 14
+    "threadsScanned": 26
   },
   "analysis": {
     "signal": "SELL",
-    "score": -0.331,
-    "confidence": 0.62,
-    "commentCount": 31,
+    "score": -0.208,
+    "confidence": 0.77,
+    "commentCount": 68,
     "breakdown": {
-      "positive": 4,
-      "negative": 15,
-      "neutral": 12
+      "positive": 11,
+      "negative": 27,
+      "neutral": 30
     },
     "trend": [
+      {
+        "date": "2026-08-27",
+        "score": -0.453,
+        "count": 2
+      },
+      {
+        "date": "2026-08-28",
+        "score": 0.161,
+        "count": 2
+      },
+      {
+        "date": "2026-09-17",
+        "score": -0.161,
+        "count": 2
+      },
+      {
+        "date": "2026-09-19",
+        "score": 0.583,
+        "count": 1
+      },
+      {
+        "date": "2026-09-20",
+        "score": 0.583,
+        "count": 1
+      },
+      {
+        "date": "2026-09-21",
+        "score": -0.322,
+        "count": 1
+      },
+      {
+        "date": "2026-09-23",
+        "score": -0.161,
+        "count": 2
+      },
+      {
+        "date": "2026-09-25",
+        "score": 0,
+        "count": 2
+      },
+      {
+        "date": "2026-10-06",
+        "score": -0.291,
+        "count": 2
+      },
+      {
+        "date": "2026-10-07",
+        "score": -0.435,
+        "count": 2
+      },
+      {
+        "date": "2026-10-08",
+        "score": -0.448,
+        "count": 3
+      },
+      {
+        "date": "2026-10-09",
+        "score": -0.583,
+        "count": 1
+      },
+      {
+        "date": "2026-10-12",
+        "score": 0.322,
+        "count": 1
+      },
+      {
+        "date": "2026-10-13",
+        "score": 0,
+        "count": 1
+      },
+      {
+        "date": "2026-10-14",
+        "score": 0.006,
+        "count": 10
+      },
+      {
+        "date": "2026-10-16",
+        "score": -0.322,
+        "count": 1
+      },
+      {
+        "date": "2026-10-17",
+        "score": 0.161,
+        "count": 2
+      },
+      {
+        "date": "2026-10-19",
+        "score": 0,
+        "count": 1
+      },
       {
         "date": "2026-10-20",
         "score": -0.381,
@@ -86,47 +176,47 @@
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 31 komentarzy z ostatnich 30 dni: nastroje negatywne (4 pozytywnych, 15 negatywnych, 12 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 68 komentarzy z ostatnich 90 dni: nastroje negatywne (11 pozytywnych, 27 negatywnych, 30 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "pekao",
+        "count": 12
+      },
+      {
+        "word": "etrader",
+        "count": 9
+      },
+      {
+        "word": "mnie",
         "count": 8
       },
       {
         "word": "dramat",
-        "count": 6
+        "count": 7
       },
       {
-        "word": "biuro",
-        "count": 4
-      },
-      {
-        "word": "etrader",
-        "count": 4
+        "word": "dziala",
+        "count": 7
       },
       {
         "word": "problemy",
-        "count": 3
+        "count": 6
+      },
+      {
+        "word": "wersja",
+        "count": 6
+      },
+      {
+        "word": "kilka",
+        "count": 6
       },
       {
         "word": "kolejne",
-        "count": 3
+        "count": 5
       },
       {
-        "word": "zmienic",
-        "count": 3
-      },
-      {
-        "word": "pozdrawiam",
-        "count": 3
-      },
-      {
-        "word": "mnie",
-        "count": 3
-      },
-      {
-        "word": "maklerskie",
-        "count": 3
+        "word": "czas",
+        "count": 5
       }
     ]
   },
@@ -563,6 +653,524 @@
         "down": 0
       },
       "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76119169",
+      "author": "szejk_1",
+      "postedAt": "2026-10-19 11:00",
+      "threadTitle": "Wersja 2.1.6 eTrader nadal jest do kitu!",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Wersja 2.1.6 eTrader nadal jest do kitu!",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76109379",
+      "author": "Arkady",
+      "postedAt": "2026-10-17 17:37",
+      "threadTitle": "Re: Akcje Oka i są.",
+      "url": "https://www.bankier.pl/forum/temat_akcje-oka-i-sa,76109367.html",
+      "body": "Wątek powinien brzmieć akcje Pekao sa.Taki chochlik.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76109367",
+      "author": "Arkady",
+      "postedAt": "2026-10-17 17:32",
+      "threadTitle": "Akcje Oka i są.",
+      "url": "https://www.bankier.pl/forum/temat_akcje-oka-i-sa,76109367.html",
+      "body": "Witam forumowiczów.Pięć lat temu kupiłem 1000akcji po 60 A zachęcił mnie Ferdek który toczył walkę z hejterami i był wyśmiewany.Niestety 800 sprzedałem po80 a200 mam do dzisiaj co dało sporo grosza.Ciekaw jestem co że słynnym Ferdkiem którego serdecznie pozdrawiam.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76098455",
+      "author": "szejk_1",
+      "postedAt": "2026-10-16 11:08",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "eTader nadal ma problemy. Po 2h pracy staje się bardzo leniwy. Jedyne wyjście to siłowe ubicie zadania i nowe jego odpalenie. Tak muszę robić kilka razy na dzień.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76077705",
+      "author": "szejk_1",
+      "postedAt": "2026-10-14 15:37",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Wersja 2.1.4, która mi się dzisiaj po15-tej zainstalowała jest lepsza od poprzedniej, ale z pewnością NIE JEST wersją ostateczną. Nadal nie działa to jak poprzednio - przed zmianami.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76077693",
+      "author": "doktornauk",
+      "postedAt": "2026-10-14 15:36",
+      "threadTitle": "inflacja już powyżej 4%",
+      "url": "https://www.bankier.pl/forum/temat_inflacja-juz-powyzej-4,76077693.html",
+      "body": "a glapa się przygląda i nic nie robi.Referencyjna dawno powinna wynosić powyżej 4%.Okradania ludzi ciąg dalszy.",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76077103",
+      "author": "Obserwator",
+      "postedAt": "2026-10-14 14:55",
+      "threadTitle": "Oj nie wiem czy będzie więcej?",
+      "url": "https://www.bankier.pl/forum/temat_oj-nie-wiem-czy-bedzie-wiecej,76077103.html",
+      "body": "Czekamy",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76077049",
+      "author": "wnyk",
+      "postedAt": "2026-10-14 14:51",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Jeszcze błędy są w zakresie dziennym pokazuje nieprawdziwe dane w niektórych spółkach . Ale jest o niebo lepiej . Zobaczymy co się dalej wysypie",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76076273",
+      "author": "Monia",
+      "postedAt": "2026-10-14 13:59",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Jest nowa wersja 2.1.4 Odinstalujcie starą jeśli ktoś ma i zainstalujcie nową. U mnie działa już bez błędów. Zapiszcie ustawienia, powinny się wgrać.",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76075795",
+      "author": "adam",
+      "postedAt": "2026-10-14 13:23",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "nawet nie odbieraja wczoraj nowy dyrektor",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76075463",
+      "author": "szejk_1",
+      "postedAt": "2026-10-14 12:57",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Pisz na adres bm@pekao.com.pl.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76074745",
+      "author": "szejk_1",
+      "postedAt": "2026-10-14 12:09",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "@extbert Tu masz do nich telefon 22 591 2601.Ja dzwoniłem do nich kilka razy ale dałem sobie spokój. Szkoda czasu na jałową dyskusję.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76074363",
+      "author": "extbert",
+      "postedAt": "2026-10-14 11:40",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Dzisiaj wywaliło mnie, a po zalogowaniu ponownym we wszystkim zakładkach nie mam żadnych okien. Pusto, po prostu wuj strzeli, Po ostatnich zmianach kilka godzin odtwarzałem swoje zakładki z wykresami i analizami, żeby mieć wszystko na bieżąco, a teraz coś czuję, że będę musiał robić na nowo. Macie do nich jakiś kontakt poza infolinią np. e-mail do IT?",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76072313",
+      "author": "szejk_1",
+      "postedAt": "2026-10-14 09:31",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Zanim oni to wszystko naprawią - o ile dadzą radę, to zejdzie zapewne jeszcze z miesiąc.W czasie sesji muszę etradera ubijać kilka razy, bo nie da się przełączać pomiędzy oknami w etrader.Ten obecny etrader to jest nieporozumienie, to bubel nad bublami.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76065691",
+      "author": "zyga.",
+      "postedAt": "2026-10-13 16:49",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "czy u Was tez nie dziak\\la etrader ?",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76048283",
+      "author": "jacek303",
+      "postedAt": "2026-10-12 12:19",
+      "threadTitle": "260 wytrzyma dzisiaj ?",
+      "url": "https://www.bankier.pl/forum/temat_260-wytrzyma-dzisiaj,76048283.html",
+      "body": "Zobaczymy czy BlackRock wysypie kolejne worki z akcjami superbanku PeKaO.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76033095",
+      "author": "inFidelity",
+      "postedAt": "2026-10-09 20:34",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "U mnie po zakończonej sesji w kolumnie zmiana procentowa wyświetla 0,00% przy wszystkich spółkach, wyresy do bani bo w połączeniu pokazuje błąd wykresów, tragedia !",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76015203",
+      "author": "szejk_1",
+      "postedAt": "2026-10-08 15:26",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Ja codziennie a czasem kilka razy na dzień dzwonie pod 22 591 2601 i o dziwo się tam dodzwaniam.Nic się tam ciekawego nie dowiaduję. Dzisiaj np powiedziano mi, że już powinno wkrótce zacząć działać wszystko poprawnie.Tu mi czołg jedzie!Nie wydaje mi się, żeby w kodzie programu eTrader zmienić kilka linijek kodu i będzie wszystko śmigać.W nowym oprogramowaniu jest mnóstwo i to bardzo rozległych błędów (problemów).Chwilami u mnie procesor pracuje pod 50% swojej mocy dla eTradera. W RAM e-Trader w tej chwili zajmuje 3.258 GB a zużycie energii Bardzo wysokie.Program nie jest zawieszony bo coś miele ale na ekranie nic się nie zmienia.Przez WiFi mój laptop odbiera w cholerę kB/s. Zauważam też, że procesor jest tak obciążony, że aby dokończyć pisanie tego tekstu musiałem ubić zadanie eTrader.No masakra!",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76013843",
+      "author": "123",
+      "postedAt": "2026-10-08 13:38",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "> Ten e-Trader to obecnie kupa dziadostwa!> Obecnie bardzo silnie obciąża procesor i w cholerę zużywa energii.> Wiele funkcjonalności nie działa, jest bardzo leniwy, aż w końcu się zawiesza i dupa zbita.> Czas pomyśleć o innym DM.Też zastanawiam się nad zmianą BM. Jeśli komunikaty ESPI wyświetlają się dopiero po \"ręcznym\" odznaczeniu\" i ponownym \"zaznaczeniu\" opcji ESPI, albo \"wszystkie\" to jak na takim czymś można pracować i zarabiać. Szkoda, że mało osób zgłasza pisemnie/emailowo te wszystkie problemy, bo skoro tak mało zgłoszeń to widocznie problem nie jest pilny dla BM i nic z nim nie robią.",
+      "votes": {
+        "up": 3,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76013201",
+      "author": "szejk_1",
+      "postedAt": "2026-10-08 12:50",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Ten e-Trader to obecnie kupa dziadostwa!Obecnie bardzo silnie obciąża procesor i w cholerę zużywa energii.Wiele funkcjonalności nie działa, jest bardzo leniwy, aż w końcu się zawiesza i dupa zbita.Czas pomyśleć o innym DM.",
+      "votes": {
+        "up": 8,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76002065",
+      "author": "eT",
+      "postedAt": "2026-10-07 12:04",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Tak. Ja też mam trzeci dzień (od 05 paź 2026) problemy z eTrader 2.1.1 (2.1.1N). Po wczorajszym 10 minutowym, bezproduktywnym i bezkontaktowym oczekiwaniu na infolinii, napisałem maila. Dostałem odpowiedź, dziś (07 paź) o po 08:30, że wszystko już działa. Nie, nie działa! Przerzucam się zrzutami ekranu (wraz z wersja 2.1.1 jest zablokowana możliwość robienia zrzutów ale...) i udowadniam \"punkt po punkcie\", że eTrader nie działa poprawnie. A już na pewno nie działa, w sposób w jaki działał przed 02 października. Moje problemy, od poniedziałku, dotyczyły i/lub dotyczą: braku wyświetlania zleceń w arkuszu zleceń (już rozwiązane), \"wiecznego pobierania\" danych dla części okienek dotyczących konkretnych spółek, powiększonej czcionki utrudniającej właściwe wyświetlanie danych, zmienionej formy lub braku danych w przypadku: \"wielkości obrotu, \"zakresu dziennego\",..., wyskakującego co jakiś czas komunikatu o \"przekroczeniu 80% pamięci dostępnej dla aplikacji\",...Przesłano mi rozwiązanie odnośnie automatycznego wylogowywania. Wraz z aktualizacją 2.1.1 zostało domyślnie ustawione na 15 minut:\"Wylogowanie z systemu można prosto przedłużyć przekazujemy ścieżkę: ustawienia w etrader prawy górny róg --> ustawienia -- w tabelce ponownie ustawienia---> automatyczne wylogowanie --->\"07 października 11:36 i nadal problemy występują.Jestem niezadowolony, że nie ma żadnego komunikatu ze strony banku (trzeci dzień) odnośnie problemów technicznych. Żadnego komunikatu na stronie banku (w aktualnościach), podstronie biura maklerskiego, smsa czy w kanale komunikacji za pomocą platformy eTrader.Oczywiście, \"na dzień dobry\" nie uświadczyłem słowa \"przepraszam\" ze strony banku (instytucji \"zaufania publicznego\"). Choć wiedzą, że problemy \"były\" i jak widać nie dotyczą/yły pojedynczych osób > //downdetector pl/status/bank-pekao/ i że trzeci dzień nie można w normalny (jak przed 02 października), z zaufaniem i komfortem korzystać z platformy eTrader.Używam Windowsa 11 Pro 64 bity. Z bardzo dużym zapasem pokrywam wymagania minimalne dotyczące sprzętu a wymagane przez aplikację eTrader do poprawnego działania. Przed 02 października działało. Od 05 października nie działa (nie działa poprawnie więc w przypadku platformy do handlu elektronicznego należy uznać że nie działa wcale). No ale może do piątku... No ale po 3 minutach wysłuchiwania o handlu i przetwarzaniu danych \"można\" złożyć zlecenie poprzez infolinię lub bezpośrednio w biurze :) Viva la DayTrading! Viva la Scalping! Viva la Pekao!Sposób prowadzenia oficjalnej korespondencji ze strony Biura Maklerskiego Pekao pozostawia wiele do życzenia.Nawet nie wiem kto odpowiada na moje maile, bo wiadomości z oficjalnego maila Biura Maklerskiego Pekao są podpisywane:\"Z wyrazami szacunku Biuro Maklerskie Pekao\"Jak widać, trzeci dzień cały zespół Biura Maklerskiego Pekao walczy z moimi problemami. Bo chyba nie problemami, które oni mają?! Skoro na oficjalnych kanałach komunikacji Banku Pekao, nie ma żadnej wzmianki o trudnościach a jak PAP podawało po stronie klientów GPW cały proces migracji z UTP do WATS przebieg bez problemów. Jak to dobrze, że dzienna zmienność WIGu20 w dniach 05, 06, 07 października \"nie przekracza +/- 0,1% i dzienne obroty są poniżej 100 mln zł\" :) Proponuję motto do propagowania w mediach społecznościowych banku: Nic się nie dziej. Nic się nie stało. Ważne, że prowizje się pobrało!",
+      "votes": {
+        "up": 5,
+        "down": 0
+      },
+      "sentimentScore": -0.87,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75999319",
+      "author": "Młody",
+      "postedAt": "2026-10-07 09:29",
+      "threadTitle": "Re: Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "Dziś znowu wisi",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75992805",
+      "author": "kolarz",
+      "postedAt": "2026-10-06 16:54",
+      "threadTitle": "Co się dzieje z e-traderem ?",
+      "url": "https://www.bankier.pl/forum/temat_co-sie-dzieje-z-e-traderem,75992805.html",
+      "body": "W ogóle ofert nie widać na dogrywce. Już drugi dzień . Wykresy szwankują, jakieś dziwne komunikaty , itd..Jednym słowem dramat.",
+      "votes": {
+        "up": 6,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75988209",
+      "author": "adam",
+      "postedAt": "2026-10-06 11:10",
+      "threadTitle": "Wszystkie arkusze puste - o co tu chodzi",
+      "url": "https://www.bankier.pl/forum/temat_wszystkie-arkusze-puste-o-co-tu-chodzi,75988209.html",
+      "body": "Trzeba na stare lata nauczyc sie w zime angielskiego i przejsc na inne rynki",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75891559",
+      "author": "Asia",
+      "postedAt": "2026-09-25 12:54",
+      "threadTitle": "Re: PRZERWA TECHNICZNA WRACAJA 28.09 o 4.35 - czy to normalne",
+      "url": "https://www.bankier.pl/forum/temat_przerwa-techniczna-wracaja-28-09-o-4-35-czy-to-normalne,75891337.html",
+      "body": "Też to mam, dzwoniłam i powiedzieli ze sie o tym dowiedzieli od klientów, miała być ale 22...także cos tu nie działa tak jak powinno",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75891337",
+      "author": "adam",
+      "postedAt": "2026-09-25 12:34",
+      "threadTitle": "PRZERWA TECHNICZNA WRACAJA 28.09 o 4.35 - czy to normalne",
+      "url": "https://www.bankier.pl/forum/temat_przerwa-techniczna-wracaja-28-09-o-4-35-czy-to-normalne,75891337.html",
+      "body": "nie mozna zlozyc zlecenia i jeszcze pisza ,ze krotka przerwa techniczna",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75861823",
+      "author": "JD",
+      "postedAt": "2026-09-23 10:38",
+      "threadTitle": "jest i drogo i w bardzo silnych rękach więc dużej korekty",
+      "url": "https://www.bankier.pl/forum/temat_jest-i-drogo-i-w-bardzo-silnych-rekach-wiec-duzej-korekty,75861823.html",
+      "body": "raczej nie będzie chyba , że potwierdzą się w jakimkolwiek stopniu ściśle tajne informacje z \"tajnego raportu SiAjEj\" :)",
+      "votes": {
+        "up": 1,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75860187",
+      "author": "Ok",
+      "postedAt": "2026-09-23 09:16",
+      "threadTitle": "Re: PEO 280?",
+      "url": "https://www.bankier.pl/forum/temat_peo-280,75804439.html",
+      "body": "PZU w blokach startowych",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75844871",
+      "author": "taksowkarz",
+      "postedAt": "2026-09-21 20:14",
+      "threadTitle": "czy to wogole jeszcze kiedys spadnie",
+      "url": "https://www.bankier.pl/forum/temat_czy-to-wogole-jeszcze-kiedys-spadnie,75844871.html",
+      "body": "czy tylko bedzie roslo i roslo",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75833529",
+      "author": "NiewidzialnaRękaRyn",
+      "postedAt": "2026-09-20 20:57",
+      "threadTitle": "Agencja Moody’s obniżyła długoterminowy rating Polski",
+      "url": "https://www.bankier.pl/forum/temat_agencja-moody-s-obnizyla-dlugoterminowy-rating-polski,75833529.html",
+      "body": "18.09.2026, Warszawa (PAP) - Agencja Moody’s obniżyła długoterminowy rating Polski w walucie obcej o jeden poziom do \"A3 z \"A2\" - podała agencja w komunikacie. Perspektywa ratingu jest stabilna. Agencja dostrzega trwałe pogorszenie kondycji fiskalnej Polski, przy ograniczonej gotowości rządu do odbudowy buforów fiskalnych w okresie sprzyjających warunków gospodarczych. \"Obniżenie ratingu Polski do poziomu A3 odzwierciedla nasze oczekiwania dotyczące trwałego pogorszenia się kondycji fiskalnej Polski w porównaniu z ostatnią decyzją ratingową z września 2025 r. Duże deficyty fiskalne doprowadziły do znacznego wzrostu obciążenia długiem publicznym, co w połączeniu z rosnącymi kosztami finansowania osłabiło wskaźniki obsługi zadłużenia\" - napisano w raporcie Moody's",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75828203",
+      "author": "krzywamordamoravera",
+      "postedAt": "2026-09-19 21:14",
+      "threadTitle": "Re: PEO 280?",
+      "url": "https://www.bankier.pl/forum/temat_peo-280,75804439.html",
+      "body": "18.09.2026, Warszawa (PAP) - Agencja Moody’s obniżyła długoterminowy rating Polski w walucie obcej o jeden poziom do \"A3 z \"A2\" - podała agencja w komunikacie. Perspektywa ratingu jest stabilna. Agencja dostrzega trwałe pogorszenie kondycji fiskalnej Polski, przy ograniczonej gotowości rządu do odbudowy buforów fiskalnych w okresie sprzyjających warunków gospodarczych.\"Obniżenie ratingu Polski do poziomu A3 odzwierciedla nasze oczekiwania dotyczące trwałego pogorszenia się kondycji fiskalnej Polski w porównaniu z ostatnią decyzją ratingową z września 2025 r. Duże deficyty fiskalne doprowadziły do znacznego wzrostu obciążenia długiem publicznym, co w połączeniu z rosnącymi kosztami finansowania osłabiło wskaźniki obsługi zadłużenia\" - napisano w raporcie Moody's",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75804439",
+      "author": "vntdpl",
+      "postedAt": "2026-09-17 13:14",
+      "threadTitle": "PEO 280?",
+      "url": "https://www.bankier.pl/forum/temat_peo-280,75804439.html",
+      "body": "Dzień dobry,Czy PEO ma szansę przebić 280 PLN do końca tygodnia?",
+      "votes": {
+        "up": 3,
+        "down": 1
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75803611",
+      "author": "rico",
+      "postedAt": "2026-09-17 12:29",
+      "threadTitle": "akcje pekao",
+      "url": "https://www.bankier.pl/forum/temat_akcje-pekao,75803611.html",
+      "body": "jpan ktory przewidywal zjazd W-20 niech zmieni braze np ceny paliw",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75590211",
+      "author": "JD",
+      "postedAt": "2026-08-28 17:58",
+      "threadTitle": "Re: PLN",
+      "url": "https://www.bankier.pl/forum/temat_pln,75585837.html",
+      "body": "> W kursie złotego obecnie nie ma nic nadzwyczajnego ponieważ porusza sie zgodnie ze ,sciezką piecioletnią. Ten ruch , który wszyscy tak dzisiaj !!!(nie wiadomo dlaczego) krytykują jest skłądową wieskzego ruchu który musiał sie wydarzyć. Myśle nawet ,żew spekulanci go przyspieszyli. Za dwa lata kurs PLN wobec EURO bedzie poniżej 4 zł oraz w okolicach 3,3 zł wobec USD.zwłaszcza , że zaczniemy mocniej spłacać KPO (nic nie dostałem oprócz długu do spłacenia) , spłacać SAFE i mając razpier...lony budżet złoty będzie się umacniał :DDDDD są 2-3 okoliczności które mogą powstrzymać deprecjację PLN 1. to koniec wojny na Uroinie , ale jakoś wciąż się to nie zapowiada 2-3 zbyt niepopularne (zwłaszcza w roku wyborczym) by o nich pisać jeśli ta władza pozostanie na kolejne 4 lata to Polska jaką dziś mamy będzie pięknym wspomnieniem , takim jak dla Anglików ich UK sprzed 25 lat tylko, że my będziemy raczej w grupie żebraczej w tej UE",
+      "votes": {
+        "up": 4,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "75585837",
+      "author": "ekspertforex",
+      "postedAt": "2026-08-28 13:12",
+      "threadTitle": "PLN",
+      "url": "https://www.bankier.pl/forum/temat_pln,75585837.html",
+      "body": "W kursie złotego obecnie nie ma nic nadzwyczajnego ponieważ porusza sie zgodnie ze ,sciezką piecioletnią. Ten ruch , który wszyscy tak dzisiaj !!!(nie wiadomo dlaczego) krytykują jest skłądową wieskzego ruchu który musiał sie wydarzyć. Myśle nawet ,żew spekulanci go przyspieszyli. Za dwa lata kurs PLN wobec EURO bedzie poniżej 4 zł oraz w okolicach 3,3 zł wobec USD.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "75576993",
+      "author": "byłyminister",
+      "postedAt": "2026-08-27 18:32",
+      "threadTitle": "banki",
+      "url": "https://www.bankier.pl/forum/temat_banki,75576993.html",
+      "body": "Jak się żąda 1 miliard złotych od METY to nie ma się co dziwić ,że amerykańskie fundusze sprzedają polskie akcje , w szczególności banków,żeby mieć na zapłatę tej grzywny. Kto tego Gawkowskiego namówił żeby wystosował takie żądanie do amierykańskiej firmy META. Trzeba mieć głupio w głowie żeby w taki sposób wysuwać żądania do tak poważnej firmy i to amerykańskiej",
+      "votes": {
+        "up": 1,
+        "down": 4
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "75575271",
+      "author": "makler",
+      "postedAt": "2026-08-27 16:28",
+      "threadTitle": "sciema",
+      "url": "https://www.bankier.pl/forum/temat_sciema,75575271.html",
+      "body": "nie wierzcie w to że banki leca w dól z powodu jakiejs wizyti emerytowanego byłego szefa cia. równie dobrze można powiedziec ,że putin zmarszczył brwi. po prostu trzepia uluce bo bedzie wiekszA POMPA. TRZYMAĆ NIE GNIEŚĆ ZA DWA MIESIĄCE DA 15% ZYSKU. SPOKO GŁOWA DO GÓRY",
+      "votes": {
+        "up": 6,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
     }
   ]
