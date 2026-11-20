@@ -3,24 +3,24 @@
   "companyName": "PGE SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PGE",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pge-sa,6,21,10000000641.html",
-  "updatedAt": "2026-11-19T20:35:42.853Z",
+  "updatedAt": "2026-11-20T07:13:35.593Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-19T20:35:42.853Z",
+    "fetchedAt": "2026-11-20T07:13:35.593Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 22
+    "threadsScanned": 23
   },
   "analysis": {
-    "signal": "BUY",
-    "score": 0.156,
+    "signal": "HOLD",
+    "score": 0.15,
     "confidence": 0.75,
-    "commentCount": 91,
+    "commentCount": 95,
     "breakdown": {
-      "positive": 38,
-      "negative": 12,
+      "positive": 41,
+      "negative": 13,
       "neutral": 41
     },
     "trend": [
@@ -56,12 +56,17 @@
       },
       {
         "date": "2026-11-19",
-        "score": 0.022,
-        "count": 8
+        "score": 0.128,
+        "count": 11
+      },
+      {
+        "date": "2026-11-20",
+        "score": -0.762,
+        "count": 1
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 91 komentarzy z ostatnich 7 dni: nastroje pozytywne (38 pozytywnych, 12 negatywnych, 41 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 95 komentarzy z ostatnich 7 dni: nastroje pozytywne (41 pozytywnych, 13 negatywnych, 41 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "masz",
@@ -70,6 +75,14 @@
       {
         "word": "roku",
         "count": 6
+      },
+      {
+        "word": "zawsze",
+        "count": 5
+      },
+      {
+        "word": "lepiej",
+        "count": 5
       },
       {
         "word": "black",
@@ -84,7 +97,7 @@
         "count": 5
       },
       {
-        "word": "zawsze",
+        "word": "wycena",
         "count": 4
       },
       {
@@ -94,18 +107,66 @@
       {
         "word": "ceny",
         "count": 4
-      },
-      {
-        "word": "poziomie",
-        "count": 4
-      },
-      {
-        "word": "lepiej",
-        "count": 4
       }
     ]
   },
   "comments": [
+    {
+      "id": "76452177",
+      "author": "miron",
+      "postedAt": "2026-11-20 08:12",
+      "threadTitle": "Świat na czerwono",
+      "url": "https://www.bankier.pl/forum/temat_swiat-na-czerwono,76452177.html",
+      "body": "cały świat na czerwono, PGE się obroni ?",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.762,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76450869",
+      "author": "eldealeros",
+      "postedAt": "2026-11-19 22:48",
+      "threadTitle": "Re: Jestem tu nowy",
+      "url": "https://www.bankier.pl/forum/temat_jestem-tu-nowy,76448657.html",
+      "body": "Ale prywatna spółka może szybko zbankrutować a PGE raczej nie zbankrutuje (szczególnie przy regulowanych cenach prądu prze URE) bo państwo na to nie pozwoli gdyż upadek tej spółki zachwiałby stabilnością energetyczną kraju. Państwo zawsze jej pomoże. Więc są wady i zalety takich spółek. Aktualna wycena jest głębokim nieporozumieniem w stosunku do Aktualnych wycen na GPW, w stosunku do aktualnych wyników finansowych tej spółki i w stosunku do europejskiej konkurencji, która jest wyceniana obecnie 4-krotnie wyżej od PGE.",
+      "votes": {
+        "up": 4,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76450815",
+      "author": "Myśliciel",
+      "postedAt": "2026-11-19 22:41",
+      "threadTitle": "Re: Jestem tu nowy",
+      "url": "https://www.bankier.pl/forum/temat_jestem-tu-nowy,76448657.html",
+      "body": "Cóż z tego,że publiczna jeśli prezes i rada nadzorcza jest powoływana przez ministra czy Premiera?Rząd się zmienił i wszyscy musieli odejść z poprzedniej władzy!Zgadzam się,że jest spółka publiczną ale zarządzaną przez państwo!Wiadomo,też,że prywatne spółki są bynajmniej lepiej zarządzane niż publiczne zdecyzyjnością państwową!",
+      "votes": {
+        "up": 0,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76450617",
+      "author": "eldealeros",
+      "postedAt": "2026-11-19 22:10",
+      "threadTitle": "Re: Jestem tu nowy",
+      "url": "https://www.bankier.pl/forum/temat_jestem-tu-nowy,76448657.html",
+      "body": "Po pierwsze... spółka nie \"jest państwowa\" jak to ująłeś bo państwo nie jest jedynym jej właścicielem. Jest to spółka PUBLICZNA Z UDZIAŁEM SKARBU PAŃSTWA co stanowi istotną różnicę w stosunku do \"spółki państwowej\" w której jedynym właścicielem jest skarb państwa w przeciwieństwie do spółki publicznej w której właścicielem może być każdy. Po drugie... udział skarbu państwa nie koniecznie musi być przeszkodą dla akcjonariuszy bo wystarczy spojrzeć na CEZ w którym państwo czeskie ma ponad 70% udziału w akcjonariacie (czyli więcej niż państwo polskie w PGE) a mimo to spółka jest wyceniana kilkukrotnie wyżej niż PGE pod względem wskaźników c/wk 3.21 vs 0.78 w PGE oraz c/z 22.70 vs 4.80 w PGE. Więc nie dramatyzowałbym pod tym kątem.",
+      "votes": {
+        "up": 2,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76449783",
       "author": "papirus",
@@ -114,7 +175,7 @@
       "url": "https://www.bankier.pl/forum/temat_energetyka,76393647.html",
       "body": "Podpinam się pod tym… szczególnie że polska energetyka przechodzi transformacje, mamy wiele do zrobienia. W dobie AI, energia to podstawa. Jedna z głównych pozycji w portfelu na długą inwestycje.",
       "votes": {
-        "up": 0,
+        "up": 5,
         "down": 0
       },
       "sentimentScore": 0,
@@ -128,8 +189,8 @@
       "url": "https://www.bankier.pl/forum/temat_jestem-tu-nowy,76448657.html",
       "body": "Myśliciel Ci prawdę napisał... Dla mnie spółka jest typową inwestycja pod DCA na długi długi termin. Prędzej czy później i tak wyrówna sie C/WK. Polska energetyka przechodzi wielką transformacje ( niezależnie od polityki ) mamy tutaj wiele do zrobienia. Można robić kółka na kursie... ale nie polecam jak się przejechałem :)",
       "votes": {
-        "up": 2,
-        "down": 0
+        "up": 4,
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -142,8 +203,8 @@
       "url": "https://www.bankier.pl/forum/temat_jestem-tu-nowy,76448657.html",
       "body": "Bo,to jest spółka państwowa!Narazie z niezłych wyników mogą się pojawić też duże odpisy? Tutaj grubasy dyktują warunki!Jeśli uznają, że ma być wyżej,to będzie!A jeśli nie?to Nie!",
       "votes": {
-        "up": 5,
-        "down": 0
+        "up": 6,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -156,7 +217,7 @@
       "url": "https://www.bankier.pl/forum/temat_jestem-tu-nowy,76448657.html",
       "body": "Dlaczego przy takich wynikach ta spółka jest tak nisko wyceniona? Poważnie pytam.",
       "votes": {
-        "up": 2,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -170,7 +231,7 @@
       "url": "https://www.bankier.pl/forum/temat_gdzie-jest-pradozaur,76442961.html",
       "body": "Prund go poraził.",
       "votes": {
-        "up": 1,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0,
@@ -198,7 +259,7 @@
       "url": "https://www.bankier.pl/forum/temat_gdzie-jest-pradozaur,76442961.html",
       "body": "Liczył na zwałkę - to już niedługo będzie mógł sobie połapać na górce .",
       "votes": {
-        "up": 8,
+        "up": 9,
         "down": 0
       },
       "sentimentScore": 0,
@@ -212,7 +273,7 @@
       "url": "https://www.bankier.pl/forum/temat_gdzie-jest-pradozaur,76442961.html",
       "body": "Prądozaur i spółka mówili, że będzie mega zwałka, a teraz zniknęli. Co się stało?",
       "votes": {
-        "up": 7,
+        "up": 8,
         "down": 0
       },
       "sentimentScore": 0,
@@ -716,7 +777,7 @@
       "url": "https://www.bankier.pl/forum/temat_energetyka,76393647.html",
       "body": "Nie ma aktualnie tańszej branży na GPW. Aktualna wycena energetyki to aberracja.",
       "votes": {
-        "up": 19,
+        "up": 23,
         "down": 0
       },
       "sentimentScore": 0,
@@ -758,7 +819,7 @@
       "url": "https://www.bankier.pl/forum/temat_energetyka,76393647.html",
       "body": "Pamiętam jak 30 lat temu mieszkania w Polsce były tak tanie, że można było za nie kupić na giełdzie w Pruszczu Gd. lub na Bemowie co najwyżej używany samochód, który potem rdzewiał i tracił na wartości - inwestycja po zbóju fest:) Na Zachodzie ludzie dziwili się dlaczego.u nas nieruchomości są takie tanie. Kto był mądry, to kupował wtedy mieszkania, co jak się wkrótce okazało było bardzo mądrym posunięciem, ponieważ w pewnym momencie nieruchomości wystrzeliły cenowo o kilkaset procent. To samo będzie z polską energetyką, notowaną obecnie grubo poniżej wartości księgowej, podczas gdy na Zachodzie ceny akcji firm energetycznych są notowane powyżej wskaźnika C/WK=3,0.",
       "votes": {
-        "up": 23,
+        "up": 25,
         "down": 1
       },
       "sentimentScore": 0.87,
