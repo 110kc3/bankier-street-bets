@@ -3,11 +3,11 @@
   "companyName": "mBank SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=MBANK",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_mbank-sa,6,21,31.html",
-  "updatedAt": "2026-11-21T07:04:57.747Z",
+  "updatedAt": "2026-11-21T19:15:18.544Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-21T07:04:57.747Z",
+    "fetchedAt": "2026-11-21T19:15:18.544Z",
     "windowDays": 90,
     "requestedDays": 7,
     "windowExtended": true,
@@ -15,13 +15,13 @@
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.062,
-    "confidence": 0.72,
-    "commentCount": 60,
+    "score": -0.032,
+    "confidence": 0.71,
+    "commentCount": 62,
     "breakdown": {
-      "positive": 9,
+      "positive": 10,
       "negative": 15,
-      "neutral": 36
+      "neutral": 37
     },
     "trend": [
       {
@@ -133,10 +133,15 @@
         "date": "2026-11-19",
         "score": 0,
         "count": 1
+      },
+      {
+        "date": "2026-11-21",
+        "score": 0.291,
+        "count": 2
       }
     ],
     "trendDirection": "stable",
-    "summary": "Analiza 60 komentarzy z ostatnich 90 dni: nastroje mieszane (9 pozytywnych, 15 negatywnych, 36 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 62 komentarzy z ostatnich 90 dni: nastroje mieszane (10 pozytywnych, 15 negatywnych, 37 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dziala",
@@ -144,7 +149,7 @@
       },
       {
         "word": "mbank",
-        "count": 7
+        "count": 8
       },
       {
         "word": "https",
@@ -153,6 +158,10 @@
       {
         "word": "mnie",
         "count": 5
+      },
+      {
+        "word": "ktos",
+        "count": 3
       },
       {
         "word": "zacznie",
@@ -173,14 +182,38 @@
       {
         "word": "mstatica",
         "count": 3
-      },
-      {
-        "word": "finance",
-        "count": 3
       }
     ]
   },
   "comments": [
+    {
+      "id": "76468425",
+      "author": "Magellan",
+      "postedAt": "2026-11-21 11:29",
+      "threadTitle": "Re: 1700 zł za mBank :DDD czyli w 6 lat 1700%",
+      "url": "https://www.bankier.pl/forum/temat_1700-zl-za-mbank-ddd-czyli-w-6-lat-1700,76243377.html",
+      "body": "mbank na tle np. pko bp zachowuje się po 100-kroć lepiejszybciej rośnie i wolniej spadatu faktycznie ktoś to trzyma może sprawa commercial banku w niedługim okresiew każdym razie mocny papier i z Skami trzeba uważać. ja w piątek skasowałem Ski myślę, że przed nami odreagowanie",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76467357",
+      "author": "Kasztan",
+      "postedAt": "2026-11-21 08:42",
+      "threadTitle": "Re: 1700 zł za mBank :DDD czyli w 6 lat 1700%",
+      "url": "https://www.bankier.pl/forum/temat_1700-zl-za-mbank-ddd-czyli-w-6-lat-1700,76243377.html",
+      "body": "Daj spokój było wtedy około 80zl pamiętam, bo sam miałem kupione po 120 i uśredniałem",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
     {
       "id": "76444449",
       "author": "Alf",
