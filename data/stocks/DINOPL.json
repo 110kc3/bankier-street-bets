@@ -3,41 +3,31 @@
   "companyName": "Dino Polska SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=DINOPL",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_dino-polska-sa,6,21,10000001632.html",
-  "updatedAt": "2026-11-20T20:14:58.809Z",
+  "updatedAt": "2026-11-21T07:03:58.731Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-20T20:14:58.809Z",
+    "fetchedAt": "2026-11-21T07:03:58.731Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 41
+    "threadsScanned": 42
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.006,
+    "score": -0.003,
     "confidence": 0.7,
     "commentCount": 200,
     "breakdown": {
-      "positive": 48,
-      "negative": 51,
-      "neutral": 101
+      "positive": 49,
+      "negative": 52,
+      "neutral": 99
     },
     "trend": [
       {
-        "date": "2026-11-13",
-        "score": 0,
-        "count": 1
-      },
-      {
-        "date": "2026-11-14",
-        "score": -0.322,
-        "count": 1
-      },
-      {
         "date": "2026-11-15",
-        "score": 0.048,
-        "count": 19
+        "score": 0.036,
+        "count": 16
       },
       {
         "date": "2026-11-16",
@@ -61,16 +51,21 @@
       },
       {
         "date": "2026-11-20",
-        "score": -0.038,
-        "count": 30
+        "score": -0.05,
+        "count": 34
+      },
+      {
+        "date": "2026-11-21",
+        "score": 0.762,
+        "count": 1
       }
     ],
-    "trendDirection": "stable",
-    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (48 pozytywnych, 51 negatywnych, 101 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "improving",
+    "summary": "Analiza 200 komentarzy z ostatnich 7 dni: nastroje mieszane (49 pozytywnych, 52 negatywnych, 99 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dino",
-        "count": 26
+        "count": 27
       },
       {
         "word": "przy",
@@ -93,10 +88,6 @@
         "count": 6
       },
       {
-        "word": "masz",
-        "count": 6
-      },
-      {
         "word": "widze",
         "count": 6
       },
@@ -107,10 +98,84 @@
       {
         "word": "jestem",
         "count": 5
+      },
+      {
+        "word": "masz",
+        "count": 5
       }
     ]
   },
   "comments": [
+    {
+      "id": "76466707",
+      "author": "ss",
+      "postedAt": "2026-11-21 00:25",
+      "threadTitle": "supermarkety górą",
+      "url": "https://www.bankier.pl/forum/temat_supermarkety-gora,76466707.html",
+      "body": "patrzcie na Jeronimo czy w Walmart,,,,zielone wyspy na czerwieni...Dino też relatywnie dobrze...",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": 0.762,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76466115",
+      "author": "Radi",
+      "postedAt": "2026-11-20 22:12",
+      "threadTitle": "Re: Z pozytywów",
+      "url": "https://www.bankier.pl/forum/temat_z-pozytywow,76461803.html",
+      "body": "Ale nie zakazuje. Wiec sobie nie radzą i sobie nie poradzą. Wierzyłem w to dino ale niestety przy podbitce opuszczam pokład kopcie się z szortami sami . Szkoda bo spółka mega alw okoliczności fatalne",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
+    {
+      "id": "76465709",
+      "author": "Darek",
+      "postedAt": "2026-11-20 21:30",
+      "threadTitle": "Re: Z pozytywów",
+      "url": "https://www.bankier.pl/forum/temat_z-pozytywow,76461803.html",
+      "body": "Przez te p. szorty. Zobacz na spółki handlowe w Europie i Stanach. Praktycznie cały czas rosną. KNF powinno zakazać szortowania w tak niestabilnej sytuacji.",
+      "votes": {
+        "up": 1,
+        "down": 0
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76465617",
+      "author": "Radi",
+      "postedAt": "2026-11-20 21:20",
+      "threadTitle": "Re: Z pozytywów",
+      "url": "https://www.bankier.pl/forum/temat_z-pozytywow,76461803.html",
+      "body": "To właśnie sobie nie radzą.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0,
+      "sentimentLabel": "Neutral"
+    },
+    {
+      "id": "76465611",
+      "author": "Radi",
+      "postedAt": "2026-11-20 21:20",
+      "threadTitle": "Re: Pozytywy",
+      "url": "https://www.bankier.pl/forum/temat_pozytywy,76465149.html",
+      "body": "Taakk. Dzisiejszy spadek tylko nas w tym utwierdza. Idealnie",
+      "votes": {
+        "up": 0,
+        "down": 1
+      },
+      "sentimentScore": -0.322,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76465167",
       "author": "Darek",
@@ -119,8 +184,8 @@
       "url": "https://www.bankier.pl/forum/temat_z-pozytywow,76461803.html",
       "body": "Dino, Enea to spółki defensywne. Skoro one sobie nie poradzą w obecnym cyklu rynkowym, to już nikt inny…",
       "votes": {
-        "up": 0,
-        "down": 0
+        "up": 1,
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -133,7 +198,7 @@
       "url": "https://www.bankier.pl/forum/temat_pozytywy,76465149.html",
       "body": "Zwróćcie uwagę na notowania sieci handlowych np. Walmart oraz JM. W kontekście ostatnich spadków na rynku zachowują się bardzo dobrze, a nawet rosną po kilka procent. Dlaczego my Polacy cebulacy dołujemy ten kurs? Spółki handlowe spożywcze oraz spółki energetyczne to idealne walory na obecny czas. Mają potencjał defensywny. Pomyślcie o tym kochani i nie panikujcie!",
       "votes": {
-        "up": 0,
+        "up": 3,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -148,7 +213,7 @@
       "body": "... rana mogą pogłębić ale potem wyciągną",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -232,7 +297,7 @@
       "body": "Mówili mi że nie zejdą za Chiny Ludowe.42pln będą jeszcze celować",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
@@ -2837,76 +2902,6 @@
       "votes": {
         "up": 0,
         "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76392357",
-      "author": "Ms",
-      "postedAt": "2026-11-15 10:30",
-      "threadTitle": "Re: Widzę",
-      "url": "https://www.bankier.pl/forum/temat_widze,76392267.html",
-      "body": "To latało po 60 przy 2000 sklepów....",
-      "votes": {
-        "up": 1,
-        "down": 0
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76392267",
-      "author": "Jk",
-      "postedAt": "2026-11-15 10:05",
-      "threadTitle": "Widzę",
-      "url": "https://www.bankier.pl/forum/temat_widze,76392267.html",
-      "body": "Szanse na 41 z haczykiem to wynika z mojej analizy to moja prywatna opinia i szanuję odmienne opinie",
-      "votes": {
-        "up": 2,
-        "down": 1
-      },
-      "sentimentScore": 0,
-      "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76392187",
-      "author": "jm",
-      "postedAt": "2026-11-15 09:37",
-      "threadTitle": "Re: Myślę, że z Dino jeszcze coś będzie.",
-      "url": "https://www.bankier.pl/forum/temat_mysle-ze-z-dino-jeszcze-cos-bedzie,76391569.html",
-      "body": "I co kwartał zyski i większe - ile jest takich spółek na gpw ?",
-      "votes": {
-        "up": 4,
-        "down": 0
-      },
-      "sentimentScore": 0.322,
-      "sentimentLabel": "Positive"
-    },
-    {
-      "id": "76391569",
-      "author": "Marianna",
-      "postedAt": "2026-11-14 22:41",
-      "threadTitle": "Myślę, że z Dino jeszcze coś będzie.",
-      "url": "https://www.bankier.pl/forum/temat_mysle-ze-z-dino-jeszcze-cos-bedzie,76391569.html",
-      "body": "I to jeszcze w tym roku. Dino, nie wypłaca dywidendy. Dino inwestuje. Wystarczy zobaczyć na ilość sklepów, centrów dystrybucji. Spółka cały czas się rozwija.",
-      "votes": {
-        "up": 9,
-        "down": 0
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
-    },
-    {
-      "id": "76387203",
-      "author": "doniek88",
-      "postedAt": "2026-11-13 22:31",
-      "threadTitle": "Re: Tu zarobku nie będzie jeszcze przynajmniej przez rok",
-      "url": "https://www.bankier.pl/forum/temat_tu-zarobku-nie-bedzie-jeszcze-przynajmniej-przez-rok,76381551.html",
-      "body": "Jpr, gromadzone miesiąc od powiedzmy połowy czerwca do połowy lipca i +30% ponad na portfelu. Uśredniając w mniej niż 5 miesięcy. Masz rację tu zarobku nie będzie. Tu zarobek jest.",
-      "votes": {
-        "up": 9,
-        "down": 1
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"

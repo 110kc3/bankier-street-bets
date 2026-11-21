@@ -3,23 +3,23 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-11-20T20:16:18.546Z",
+  "updatedAt": "2026-11-21T07:05:35.883Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-20T20:16:18.546Z",
+    "fetchedAt": "2026-11-21T07:05:35.883Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 15
+    "threadsScanned": 16
   },
   "analysis": {
-    "signal": "SELL",
-    "score": -0.185,
+    "signal": "HOLD",
+    "score": -0.135,
     "confidence": 0.63,
-    "commentCount": 40,
+    "commentCount": 42,
     "breakdown": {
-      "positive": 5,
+      "positive": 7,
       "negative": 16,
       "neutral": 19
     },
@@ -51,16 +51,20 @@
       },
       {
         "date": "2026-11-20",
-        "score": -0.165,
-        "count": 17
+        "score": -0.1,
+        "count": 19
       }
     ],
     "trendDirection": "deteriorating",
-    "summary": "Analiza 40 komentarzy z ostatnich 7 dni: nastroje negatywne (5 pozytywnych, 16 negatywnych, 19 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "summary": "Analiza 42 komentarzy z ostatnich 7 dni: nastroje negatywne (7 pozytywnych, 16 negatywnych, 19 neutralnych), sentyment dzień do dnia pogarsza się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
       {
         "word": "dopiero",
         "count": 3
+      },
+      {
+        "word": "rzezni",
+        "count": 2
       },
       {
         "word": "strata",
@@ -93,14 +97,38 @@
       {
         "word": "spokojnie",
         "count": 2
-      },
-      {
-        "word": "spadki",
-        "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76465737",
+      "author": "leszcz",
+      "postedAt": "2026-11-20 21:33",
+      "threadTitle": "Re: BM Pekao rekomendacja na 142 Kupuj",
+      "url": "https://www.bankier.pl/forum/temat_bm-pekao-rekomendacja-na-142-kupuj,76465621.html",
+      "body": "HahahaDobrePopatrz na USAW pon. cd. rzezni",
+      "votes": {
+        "up": 2,
+        "down": 2
+      },
+      "sentimentScore": 0.322,
+      "sentimentLabel": "Positive"
+    },
+    {
+      "id": "76465621",
+      "author": "Buba",
+      "postedAt": "2026-11-20 21:21",
+      "threadTitle": "BM Pekao rekomendacja na 142 Kupuj",
+      "url": "https://www.bankier.pl/forum/temat_bm-pekao-rekomendacja-na-142-kupuj,76465621.html",
+      "body": "a tu takie rzeczy się dzieją",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": 0.583,
+      "sentimentLabel": "Positive"
+    },
     {
       "id": "76465375",
       "author": "Wald",
@@ -109,7 +137,7 @@
       "url": "https://www.bankier.pl/forum/temat_wisze-na-haku-po-121-72,76236233.html",
       "body": "Ja bym sprzedał -10-15% to strata ale nie dramat. Jak bedziesz miał -40% to bedzie już po ptakach..i nie do odrobienia w ciągu kilku lat.",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -123,7 +151,7 @@
       "url": "https://www.bankier.pl/forum/temat_usa,76464273.html",
       "body": "a ja po cichu myślę, że w poniedziałek uspokojenie",
       "votes": {
-        "up": 0,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0,
@@ -138,7 +166,7 @@
       "body": "OjDzieje się DziejeW pon. dalszy ciąg rzezni",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
@@ -152,7 +180,7 @@
       "body": "nic się tam nie dziejejak wigi będą lecieć po 20% na sesji dopiero zobaczysz co to są spadkinarazie się łechtamy. rosło 7 lat. czego oczekujesz.",
       "votes": {
         "up": 0,
-        "down": 0
+        "down": 1
       },
       "sentimentScore": -0.583,
       "sentimentLabel": "Negative"
@@ -432,7 +460,7 @@
       "body": "Nieciekawie w bankowości amerykańskiej, kryzys rozlewa się po świecie",
       "votes": {
         "up": 2,
-        "down": 3
+        "down": 4
       },
       "sentimentScore": -0.322,
       "sentimentLabel": "Negative"
