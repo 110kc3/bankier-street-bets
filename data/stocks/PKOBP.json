@@ -3,20 +3,20 @@
   "companyName": "PKO BP SA",
   "quoteUrl": "https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=PKOBP",
   "forumUrl": "https://www.bankier.pl/forum/forum_o_pko-bp-sa,6,21,10000000062.html",
-  "updatedAt": "2026-11-23T23:53:29.495Z",
+  "updatedAt": "2026-11-24T09:53:54.270Z",
   "report": {
     "available": true,
     "source": "Bankier.pl forum",
-    "fetchedAt": "2026-11-23T23:53:29.495Z",
+    "fetchedAt": "2026-11-24T09:53:54.270Z",
     "windowDays": 7,
     "requestedDays": 7,
     "windowExtended": false,
-    "threadsScanned": 18
+    "threadsScanned": 17
   },
   "analysis": {
     "signal": "HOLD",
-    "score": -0.013,
-    "confidence": 0.62,
+    "score": -0.029,
+    "confidence": 0.63,
     "commentCount": 48,
     "breakdown": {
       "positive": 11,
@@ -26,8 +26,8 @@
     "trend": [
       {
         "date": "2026-11-17",
-        "score": -0.161,
-        "count": 2
+        "score": 0,
+        "count": 1
       },
       {
         "date": "2026-11-18",
@@ -58,14 +58,39 @@
         "date": "2026-11-23",
         "score": -0.027,
         "count": 12
+      },
+      {
+        "date": "2026-11-24",
+        "score": -0.583,
+        "count": 1
       }
     ],
-    "trendDirection": "improving",
-    "summary": "Analiza 48 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 17 negatywnych, 20 neutralnych), sentyment dzień do dnia poprawia się. Wagi: świeżość komentarza i głosy społeczności (+/-).",
+    "trendDirection": "stable",
+    "summary": "Analiza 48 komentarzy z ostatnich 7 dni: nastroje mieszane (11 pozytywnych, 17 negatywnych, 20 neutralnych), sentyment dzień do dnia jest stabilny. Wagi: świeżość komentarza i głosy społeczności (+/-).",
     "topKeywords": [
+      {
+        "word": "nasdaq",
+        "count": 3
+      },
       {
         "word": "dopiero",
         "count": 3
+      },
+      {
+        "word": "albo",
+        "count": 2
+      },
+      {
+        "word": "sesji",
+        "count": 2
+      },
+      {
+        "word": "indeks",
+        "count": 2
+      },
+      {
+        "word": "wszystko",
+        "count": 2
       },
       {
         "word": "trzeba",
@@ -80,32 +105,26 @@
         "count": 2
       },
       {
-        "word": "nasdaq",
-        "count": 2
-      },
-      {
         "word": "widac",
-        "count": 2
-      },
-      {
-        "word": "masz",
-        "count": 2
-      },
-      {
-        "word": "hossy",
-        "count": 2
-      },
-      {
-        "word": "zobaczymy",
-        "count": 2
-      },
-      {
-        "word": "bessy",
         "count": 2
       }
     ]
   },
   "comments": [
+    {
+      "id": "76493183",
+      "author": "Michu",
+      "postedAt": "2026-11-24 08:53",
+      "threadTitle": "Re: szybkie 141-142 zł jak najbardziej pożądane",
+      "url": "https://www.bankier.pl/forum/temat_szybkie-141-142-zl-jak-najbardziej-pozadane,76485903.html",
+      "body": "AI: błędny tick lub korekta danych u dostawcy Investing.com;zmiana serii notowań albo sesji — np. połączenie danych z różnych źródeł;problem z indeksem CFD/kwotowaniem poza regularną sesją, a nie z oficjalnym indeksem Nasdaq Composite;chwilowe zastosowanie błędnego poziomu zamknięcia poprzedniej sesji, przez co platforma wyliczyła sztuczną zmianę procentową.Oficjalny Nasdaq Composite nie może normalnie „przeskoczyć” o ponad 6% bez ogromnego wydarzenia rynkowego. Tak duży ruch byłby widoczny jednocześnie w Reutersie, Bloomberg, Nasdaq.com, serwisach giełdowych i na wykresach ETF-u QQQ. Jeżeli w innych źródłach tego skoku nie było, należy uznać go za artefakt danych Investing.com.Warto porównać:Nasdaq Composite: symbol IXIC na Nasdaq.com lub Yahoo Finance,Nasdaq-100: NDX,ETF: QQQ,kontrakt futures: NQ.Istotne jest też, czy patrzy Pan/Pani na oficjalny indeks, czy na instrument opisany jako Nasdaq Composite CFD. Na przedstawionym zrzucie wszystko wskazuje na problem z serią danych lub kwotowaniem CFD, nie na rzeczywisty ruch całego rynku.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      },
+      "sentimentScore": -0.583,
+      "sentimentLabel": "Negative"
+    },
     {
       "id": "76486673",
       "author": "Magellan",
@@ -142,7 +161,7 @@
       "url": "https://www.bankier.pl/forum/temat_koniec-wojny-na-bliskim-wschodzie,76486187.html",
       "body": "nie gorączkuj się",
       "votes": {
-        "up": 0,
+        "up": 1,
         "down": 0
       },
       "sentimentScore": 0,
@@ -366,7 +385,7 @@
       "url": "https://www.bankier.pl/forum/temat_bm-pekao-rekomendacja-na-142-kupuj,76465621.html",
       "body": "Tu zagrały emocje a nie rozsądek. Akcje niedowartościowane kilkadziesiąt procent , zachowały się jak przewartościowane setki procent. . Ale już zadbali aby tą okazje wykorzystać. Wszystko zostało pięknie zebrane.",
       "votes": {
-        "up": 10,
+        "up": 11,
         "down": 0
       },
       "sentimentScore": 0.762,
@@ -506,7 +525,7 @@
       "url": "https://www.bankier.pl/forum/temat_usa,76464273.html",
       "body": "Co dzieje się na Wall Street? Okazuje się,że obecnie USA i ich giełda to obszar nieprzewidywalny.Myslałem ,że nigdy tak nie powiem ale tak jest.Ameryko co sie z tobą dzieje.Te akcje z NASDAGQ lub SP500 SA NIEWIELE WARTE , JAK WIDAĆ.WIDAĆ ,ŻE SPEKULANCI Z WALL STREET WPĘDZILI NAS W PUŁAPKĘ WIECZNEJ HOSSY NA WALL STREET.TEN RYNEK SIE SKOŃCZYŁ",
       "votes": {
-        "up": 1,
+        "up": 2,
         "down": 0
       },
       "sentimentScore": 0.583,
@@ -763,20 +782,6 @@
       },
       "sentimentScore": 0,
       "sentimentLabel": "Neutral"
-    },
-    {
-      "id": "76407993",
-      "author": "Adam",
-      "postedAt": "2026-11-17 01:10",
-      "threadTitle": "Sektor w opałach, Goldman Sachs od szczytu - 20 %",
-      "url": "https://www.bankier.pl/forum/temat_sektor-w-opalach-goldman-sachs-od-szczytu-20,76407993.html",
-      "body": "Nieciekawie w bankowości amerykańskiej, kryzys rozlewa się po świecie",
-      "votes": {
-        "up": 2,
-        "down": 4
-      },
-      "sentimentScore": -0.322,
-      "sentimentLabel": "Negative"
     }
   ]
 }
